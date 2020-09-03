@@ -143,70 +143,70 @@
     "refresh": "day",
     "type": "login",
     "value": 1,
-    "exp": 100
+    "exp": 50
   },
   "100019": {
     "title": "快速作战3次",
     "refresh": "day",
     "type": "quick",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100020": {
     "title": "参与竞技场3次",
     "refresh": "day",
     "type": "arena",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100021": {
     "title": "领取1次挂机奖励",
     "refresh": "day",
     "type": "on_hook",
     "value": 1,
-    "exp": 100
+    "exp": 50
   },
   "100022": {
     "title": "挑战日常副本3次",
     "refresh": "day",
     "type": "fb",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100023": {
     "title": "挑战或扫荡通天塔3次",
     "refresh": "day",
     "type": "ttt",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100024": {
     "title": "女娲池召唤3次",
     "refresh": "day",
     "type": "recruit",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100025": {
     "title": "消耗500元宝",
     "refresh": "day",
     "type": "use_gold",
     "value": 500,
-    "exp": 100
+    "exp": 50
   },
   "100026": {
     "title": "消耗50000铜币",
     "refresh": "day",
     "type": "use_coin",
     "value": 50000,
-    "exp": 100
+    "exp": 50
   },
   "100027": {
     "title": "活跃度到达100",
     "refresh": "day",
     "type": "liveness",
     "value": 100,
-    "exp": 100
+    "exp": 50
   },
   "100028": {
     "title": "获得任意装备3件",
@@ -214,35 +214,35 @@
     "type": "equip",
     "arg": 1,
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100029": {
     "title": "竞技场胜利3次",
     "refresh": "day",
     "type": "arena_win",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100030": {
     "title": "宝物商店刷新3次",
     "refresh": "day",
     "type": "bazzar_refresh",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100031": {
     "title": "领取挂机奖励3次",
     "refresh": "day",
     "type": "on_hook",
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100032": {
     "title": "杂货铺购买商品1次",
     "refresh": "day",
     "type": "shop_buy",
     "value": 1,
-    "exp": 100
+    "exp": 50
   },
   "100033": {
     "title": "完成3次三界任务",
@@ -250,21 +250,21 @@
     "type": "tour",
     "arg": 1,
     "value": 3,
-    "exp": 100
+    "exp": 50
   },
   "100034": {
     "title": "在逐鹿之战玩法中击杀怪物",
     "refresh": "day",
     "type": "zhulu_monster",
     "value": 1,
-    "exp": 100
+    "exp": 50
   },
   "100035": {
     "title": "参与1次山海经",
     "refresh": "day",
     "type": "ss_play",
     "value": 1,
-    "exp": 100
+    "exp": 50
   },
   "200101": {
     "title": "角色等级5级",
@@ -2943,11 +2943,905 @@
     "value": 1,
     "award": "1000120:1"
   },
+  "201501": {
+    "title": "获得2个六星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 6,
+    "value": 2,
+    "next": 201502,
+    "award": "201:1000000",
+    "first": true
+  },
+  "201502": {
+    "title": "获得3个六星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 6,
+    "value": 3,
+    "next": 201503,
+    "award": "201:1200000"
+  },
+  "201503": {
+    "title": "获得4个六星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 6,
+    "value": 4,
+    "next": 201504,
+    "award": "201:1400000"
+  },
+  "201504": {
+    "title": "获得5个六星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 6,
+    "value": 5,
+    "next": 201505,
+    "award": "201:1600000"
+  },
+  "201505": {
+    "title": "获得6个六星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 6,
+    "value": 6,
+    "award": "201:1800000"
+  },
+  "201601": {
+    "title": "获得2个七星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 7,
+    "value": 2,
+    "next": 201602,
+    "award": "201:2000000",
+    "first": true
+  },
+  "201602": {
+    "title": "获得3个七星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 7,
+    "value": 3,
+    "next": 201603,
+    "award": "201:2200000"
+  },
+  "201603": {
+    "title": "获得4个七星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 7,
+    "value": 4,
+    "next": 201604,
+    "award": "201:2400000"
+  },
+  "201604": {
+    "title": "获得5个七星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 7,
+    "value": 5,
+    "next": 201605,
+    "award": "201:2600000"
+  },
+  "201605": {
+    "title": "获得6个七星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 7,
+    "value": 6,
+    "award": "201:2800000"
+  },
+  "201701": {
+    "title": "获得6个八星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 8,
+    "value": 6,
+    "award": "201:3800000"
+  },
+  "201801": {
+    "title": "获得2个九星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 9,
+    "value": 2,
+    "next": 201802,
+    "award": "201:4000000"
+  },
+  "201802": {
+    "title": "获得3个九星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 9,
+    "value": 3,
+    "next": 201803,
+    "award": "201:4200000",
+    "first": true
+  },
+  "201803": {
+    "title": "获得4个九星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 9,
+    "value": 4,
+    "next": 201804,
+    "award": "201:4600000"
+  },
+  "201804": {
+    "title": "获得5个九星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 9,
+    "value": 5,
+    "next": 201805,
+    "award": "201:4800000"
+  },
+  "201805": {
+    "title": "获得6个九星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 9,
+    "value": 6,
+    "award": "201:5000000"
+  },
+  "201901": {
+    "title": "获得2个十星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 10,
+    "value": 2,
+    "next": 201902,
+    "award": "201:6000000",
+    "first": true
+  },
+  "201902": {
+    "title": "获得3个十星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 10,
+    "value": 3,
+    "next": 201903,
+    "award": "201:6200000"
+  },
+  "201903": {
+    "title": "获得4个十星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 10,
+    "value": 4,
+    "next": 201904,
+    "award": "201:6400000"
+  },
+  "201904": {
+    "title": "获得5个十星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 10,
+    "value": 5,
+    "next": 201905,
+    "award": "201:6600000"
+  },
+  "201905": {
+    "title": "获得6个十星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 10,
+    "value": 6,
+    "award": "201:6800000"
+  },
+  "202001": {
+    "title": "将任意英雄升到1阶",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 1,
+    "value": 1,
+    "next": 202002,
+    "award": "202:200&101:10000",
+    "first": true
+  },
+  "202002": {
+    "title": "将任意英雄升到2阶",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 2,
+    "value": 1,
+    "next": 202003,
+    "award": "202:200&101:20000"
+  },
+  "202003": {
+    "title": "将任意英雄升到3阶",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 3,
+    "value": 1,
+    "next": 202004,
+    "award": "202:200&101:30000"
+  },
+  "202004": {
+    "title": "将任意英雄升到4阶",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 4,
+    "value": 1,
+    "next": 202005,
+    "award": "202:200&101:40000"
+  },
+  "202005": {
+    "title": "将任意英雄升到5阶",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 1,
+    "award": "202:200&101:50000"
+  },
+  "202010": {
+    "title": "获得2个五阶英雄",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 2,
+    "next": 202011,
+    "award": "202:500&101:100000",
+    "first": true
+  },
+  "202011": {
+    "title": "获得3个五阶英雄",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 3,
+    "next": 202012,
+    "award": "202:500&101:200000"
+  },
+  "202012": {
+    "title": "获得4个五阶英雄",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 4,
+    "next": 202013,
+    "award": "202:500&101:300000"
+  },
+  "202013": {
+    "title": "获得5个五阶英雄",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 5,
+    "next": 202014,
+    "award": "202:500&101:400000"
+  },
+  "202014": {
+    "title": "获得6个五阶英雄",
+    "refresh": "always",
+    "type": "heroAd",
+    "arg": 5,
+    "value": 6,
+    "award": "202:500&101:500000"
+  },
+  "202020": {
+    "title": "女娲池高级召唤10次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 10,
+    "next": 202021,
+    "award": "1000050:100&101:10000&201:10000",
+    "first": true
+  },
+  "202021": {
+    "title": "女娲池高级召唤20次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 20,
+    "next": 202022,
+    "award": "1000050:200&101:10000&201:10000"
+  },
+  "202022": {
+    "title": "女娲池高级召唤30次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 30,
+    "next": 202023,
+    "award": "1000050:300&101:10000&201:10000"
+  },
+  "202023": {
+    "title": "女娲池高级召唤40次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 40,
+    "next": 202024,
+    "award": "1000050:400&101:10000&201:10000"
+  },
+  "202024": {
+    "title": "女娲池高级召唤50次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 50,
+    "next": 202025,
+    "award": "1000050:500&101:10000&201:10000"
+  },
+  "202025": {
+    "title": "女娲池高级召唤60次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 60,
+    "next": 202026,
+    "award": "1000050:600&101:10000&201:10000"
+  },
+  "202026": {
+    "title": "女娲池高级召唤70次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 70,
+    "next": 202027,
+    "award": "1000050:700&101:10000&201:10000"
+  },
+  "202027": {
+    "title": "女娲池高级召唤80次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 80,
+    "next": 202028,
+    "award": "1000050:800&101:10000&201:10000"
+  },
+  "202028": {
+    "title": "女娲池高级召唤90次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 90,
+    "next": 202029,
+    "award": "1000050:900&101:10000&201:10000"
+  },
+  "202029": {
+    "title": "女娲池高级召唤100次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 100,
+    "award": "1000050:1000&101:10000&201:10000"
+  },
+  "202030": {
+    "title": "女娲池高级召唤100次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 100,
+    "next": 202031,
+    "award": "1000150:10&1000180:1",
+    "first": true
+  },
+  "202031": {
+    "title": "女娲池高级召唤200次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 200,
+    "next": 202032,
+    "award": "1000150:15&1000180:1"
+  },
+  "202032": {
+    "title": "女娲池高级召唤300次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 300,
+    "next": 202033,
+    "award": "1000150:20&1000180:1"
+  },
+  "202033": {
+    "title": "女娲池高级召唤400次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 400,
+    "next": 202034,
+    "award": "1000150:25&1000180:1"
+  },
+  "202034": {
+    "title": "女娲池高级召唤500次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 500,
+    "next": 202035,
+    "award": "1000150:30&1000180:1"
+  },
+  "202035": {
+    "title": "女娲池高级召唤600次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 600,
+    "next": 202036,
+    "award": "1000150:35&1000180:1"
+  },
+  "202036": {
+    "title": "女娲池高级召唤700次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 700,
+    "next": 202037,
+    "award": "1000150:40&1000180:1"
+  },
+  "202037": {
+    "title": "女娲池高级召唤800次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 800,
+    "next": 202038,
+    "award": "1000150:45&1000180:1"
+  },
+  "202038": {
+    "title": "女娲池高级召唤900次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 900,
+    "next": 202039,
+    "award": "1000150:50&1000180:1"
+  },
+  "202039": {
+    "title": "女娲池高级召唤1000次",
+    "refresh": "always",
+    "type": "recruit_great",
+    "value": 1000,
+    "award": "1000190:1&1000150:55&1000180:1"
+  },
+  "202040": {
+    "title": "女娲池普通召唤10次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 10,
+    "next": 202041,
+    "award": "205000:1&201:10000",
+    "first": true
+  },
+  "202041": {
+    "title": "女娲池普通召唤20次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 20,
+    "next": 202042,
+    "award": "205000:1&201:20000"
+  },
+  "202042": {
+    "title": "女娲池普通召唤30次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 30,
+    "next": 202043,
+    "award": "205000:1&201:30000"
+  },
+  "202043": {
+    "title": "女娲池普通召唤40次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 40,
+    "next": 202044,
+    "award": "205000:1&201:40000"
+  },
+  "202044": {
+    "title": "女娲池普通召唤50次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 50,
+    "next": 202045,
+    "award": "205000:1&201:50000"
+  },
+  "202045": {
+    "title": "女娲池普通召唤60次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 60,
+    "next": 202046,
+    "award": "205000:1&201:60000"
+  },
+  "202046": {
+    "title": "女娲池普通召唤70次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 70,
+    "next": 202047,
+    "award": "205000:1&201:70000"
+  },
+  "202047": {
+    "title": "女娲池普通召唤80次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 80,
+    "next": 202048,
+    "award": "205000:1&201:80000"
+  },
+  "202048": {
+    "title": "女娲池普通召唤90次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 90,
+    "next": 202049,
+    "award": "205000:1&201:90000"
+  },
+  "202049": {
+    "title": "女娲池普通召唤100次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 100,
+    "award": "205000:1&201:100000"
+  },
+  "202050": {
+    "title": "女娲池普通召唤200次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 200,
+    "next": 202051,
+    "award": "202:200&101:50000",
+    "first": true
+  },
+  "202051": {
+    "title": "女娲池普通召唤300次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 300,
+    "next": 202052,
+    "award": "202:2500&101:50000"
+  },
+  "202052": {
+    "title": "女娲池普通召唤400次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 400,
+    "next": 202053,
+    "award": "202:300&101:50000"
+  },
+  "202053": {
+    "title": "女娲池普通召唤500次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 500,
+    "next": 202054,
+    "award": "202:350&101:50000"
+  },
+  "202054": {
+    "title": "女娲池普通召唤600次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 600,
+    "next": 202055,
+    "award": "202:400&101:50000"
+  },
+  "202055": {
+    "title": "女娲池普通召唤700次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 700,
+    "next": 202056,
+    "award": "202:450&101:50000"
+  },
+  "202056": {
+    "title": "女娲池普通召唤800次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 800,
+    "next": 202057,
+    "award": "202:500&101:50000"
+  },
+  "202057": {
+    "title": "女娲池普通召唤900次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 900,
+    "next": 202058,
+    "award": "202:550&101:50000"
+  },
+  "202058": {
+    "title": "女娲池普通召唤1000次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 1000,
+    "next": 202059,
+    "award": "202:600&101:50000"
+  },
+  "202059": {
+    "title": "女娲池普通召唤1500次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 1500,
+    "award": "202:650&101:50000"
+  },
+  "202060": {
+    "title": "女娲池普通召唤2000次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 2000,
+    "next": 202061,
+    "award": "1000080:10",
+    "first": true
+  },
+  "202061": {
+    "title": "女娲池普通召唤2500次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 2500,
+    "next": 202062,
+    "award": "1000080:10"
+  },
+  "202062": {
+    "title": "女娲池普通召唤3000次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 3000,
+    "next": 202063,
+    "award": "1000080:10"
+  },
+  "202063": {
+    "title": "女娲池普通召唤3500次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 3500,
+    "next": 202064,
+    "award": "1000080:10"
+  },
+  "202064": {
+    "title": "女娲池普通召唤4000次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 4000,
+    "next": 202065,
+    "award": "1000080:10"
+  },
+  "202065": {
+    "title": "女娲池普通召唤4500次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 4500,
+    "next": 202066,
+    "award": "1000080:10"
+  },
+  "202066": {
+    "title": "女娲池普通召唤5000次",
+    "refresh": "always",
+    "type": "recruit_normal",
+    "value": 5000,
+    "award": "1000080:10"
+  },
+  "202070": {
+    "title": "快速作战1次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 1,
+    "next": 202071,
+    "award": "1000090:1&1000070:1",
+    "first": true
+  },
+  "202071": {
+    "title": "快速作战3次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 3,
+    "next": 202072,
+    "award": "1000090:3&1000070:3"
+  },
+  "202072": {
+    "title": "快速作战5次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 5,
+    "next": 202073,
+    "award": "1000090:5&1000070:5"
+  },
+  "202073": {
+    "title": "快速作战7次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 7,
+    "next": 202074,
+    "award": "1000090:7&1000070:7"
+  },
+  "202074": {
+    "title": "快速作战9次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 9,
+    "next": 202075,
+    "award": "1000090:9&1000070:9"
+  },
+  "202075": {
+    "title": "快速作战11次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 11,
+    "next": 202076,
+    "award": "1000090:11&1000070:11"
+  },
+  "202076": {
+    "title": "快速作战13次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 13,
+    "next": 202077,
+    "award": "1000090:13&1000070:13"
+  },
+  "202077": {
+    "title": "快速作战15次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 15,
+    "next": 202078,
+    "award": "1000090:15&1000070:15"
+  },
+  "202078": {
+    "title": "快速作战17次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 17,
+    "next": 202079,
+    "award": "1000090:17&1000070:17"
+  },
+  "202079": {
+    "title": "快速作战19次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 19,
+    "award": "1000090:19&1000070:19"
+  },
+  "202080": {
+    "title": "快速作战10次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 10,
+    "next": 202081,
+    "award": "1001003:1&1000160:1&1000170:1",
+    "first": true
+  },
+  "202081": {
+    "title": "快速作战20次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 20,
+    "next": 202082,
+    "award": "1001003:2&1000160:2&1000170:2"
+  },
+  "202082": {
+    "title": "快速作战30次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 30,
+    "next": 202083,
+    "award": "1001003:3&1000160:3&1000170:3"
+  },
+  "202083": {
+    "title": "快速作战40次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 40,
+    "next": 202084,
+    "award": "1001003:4&1000160:4&1000170:4"
+  },
+  "202084": {
+    "title": "快速作战50次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 50,
+    "next": 202085,
+    "award": "1001003:5&1000160:5&1000170:5"
+  },
+  "202085": {
+    "title": "快速作战60次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 60,
+    "next": 202086,
+    "award": "1001003:6&1000160:6&1000170:6"
+  },
+  "202086": {
+    "title": "快速作战70次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 70,
+    "next": 202087,
+    "award": "1001003:7&1000160:7&1000170:7"
+  },
+  "202087": {
+    "title": "快速作战80次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 80,
+    "next": 202088,
+    "award": "1001003:8&1000160:8&1000170:8"
+  },
+  "202088": {
+    "title": "快速作战90次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 90,
+    "next": 202089,
+    "award": "1001003:9&1000160:9&1000170:9"
+  },
+  "202089": {
+    "title": "快速作战100次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 100,
+    "award": "1001003:10&1000160:10&1000170:10"
+  },
+  "202090": {
+    "title": "快速作战100次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 100,
+    "next": 202091,
+    "award": "1000100:10",
+    "first": true
+  },
+  "202091": {
+    "title": "快速作战200次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 200,
+    "next": 202092,
+    "award": "1000100:10"
+  },
+  "202092": {
+    "title": "快速作战300次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 300,
+    "next": 202093,
+    "award": "1000100:10"
+  },
+  "202093": {
+    "title": "快速作战400次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 400,
+    "next": 202094,
+    "award": "1000100:10"
+  },
+  "202094": {
+    "title": "快速作战500次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 500,
+    "next": 202095,
+    "award": "1000100:10"
+  },
+  "202095": {
+    "title": "快速作战600次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 600,
+    "next": 202096,
+    "award": "1000100:10"
+  },
+  "202096": {
+    "title": "快速作战700次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 700,
+    "next": 202097,
+    "award": "1000100:10"
+  },
+  "202097": {
+    "title": "快速作战800次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 800,
+    "next": 202098,
+    "award": "1000100:10"
+  },
+  "202098": {
+    "title": "快速作战900次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 900,
+    "next": 202099,
+    "award": "1000100:10"
+  },
+  "202099": {
+    "title": "快速作战1000次",
+    "refresh": "always",
+    "type": "quick",
+    "value": 1000,
+    "next": 300101,
+    "award": "1000100:10"
+  },
   "300101": {
     "title": "【每周】连续登陆",
     "refresh": "week",
     "type": "login",
-    "arg": 1,
     "value": 5,
     "exp": 500,
     "desc": "连续登陆5天"
@@ -2971,7 +3865,7 @@
   "300104": {
     "title": "【每周】英雄相助",
     "refresh": "week",
-    "type": "heroLv",
+    "type": "hero",
     "arg": 5,
     "value": 3,
     "exp": 500,
@@ -3005,7 +3899,7 @@
     "title": "【每周】世界BOSS",
     "refresh": "week",
     "type": "world_boss_play",
-    "value": 8,
+    "value": 5,
     "exp": 500,
     "desc": "参与世界BOSS8次"
   },
@@ -3018,10 +3912,18 @@
     "exp": 500,
     "desc": "完成橙色三界任务3次"
   },
+  "300110": {
+    "title": "【每周】挑战山海",
+    "refresh": "week",
+    "type": "ss_play",
+    "value": 10,
+    "exp": 500,
+    "desc": "挑战山海经10次"
+  },
   "400101": {
     "title": "【每月】十星相助",
     "refresh": "month",
-    "type": "heroLv",
+    "type": "hero",
     "arg": 10,
     "value": 1,
     "exp": 2000,
@@ -3052,21 +3954,20 @@
     "desc": "分解英雄100个"
   },
   "400105": {
-    "title": "【每月】获得英雄",
+    "title": "【每月】三百英雄",
     "refresh": "month",
-    "type": "heroLv",
-    "value": 100,
+    "type": "hero",
+    "value": 300,
     "exp": 2000,
-    "desc": "以任意方式获得100个英雄"
+    "desc": "以任意方式获得300个英雄"
   },
   "400106": {
-    "title": "【每月】装备在手",
+    "title": "【每月】挑战山海",
     "refresh": "month",
-    "type": "equip",
-    "arg": 1,
-    "value": 200,
+    "type": "ss_play",
+    "value": 40,
     "exp": 2000,
-    "desc": "获得装备200件"
+    "desc": "挑战山海经40次"
   },
   "400107": {
     "title": "【每月】打造装备",
@@ -3077,13 +3978,13 @@
     "desc": "合成装备120件"
   },
   "400108": {
-    "title": "【每月】橙色法宝",
+    "title": "【每月】橙色元神",
     "refresh": "month",
     "type": "ace",
     "arg": 4,
     "value": 3,
     "exp": 2000,
-    "desc": "获得橙色法宝3个"
+    "desc": "获得橙色元神3个"
   },
   "400109": {
     "title": "【每月】通天作战",
@@ -3109,6 +4010,22 @@
     "value": 3,
     "exp": 2000,
     "desc": "完成红色三界任务3次"
+  },
+  "400112": {
+    "title": "【每月】挥金如土",
+    "refresh": "month",
+    "type": "use_coin",
+    "value": 200000000,
+    "exp": 2000,
+    "desc": "消耗铜币2亿"
+  },
+  "400113": {
+    "title": "【每月】快速作战",
+    "refresh": "month",
+    "type": "quick",
+    "value": 100,
+    "exp": 2000,
+    "desc": "快速作战100次"
   },
   "500101": {
     "title": "普通召唤10次",
@@ -3383,7 +4300,7 @@
     "type": "fb_hard",
     "arg": 5,
     "value": 1,
-    "award": "202:1000&100080:10"
+    "award": "202:1000&1000080:10"
   },
   "500501": {
     "title": "通天塔：10层",
