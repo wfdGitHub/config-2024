@@ -4133,63 +4133,63 @@
     "refresh": "week_target",
     "type": "recruit_normal",
     "value": 10,
-    "award": "1000070:3&1000050:10"
+    "award": "1000070:3&1000050:100"
   },
   "500102": {
-    "title": "普通召唤20次",
-    "refresh": "week_target",
-    "type": "recruit_normal",
-    "value": 20,
-    "award": "1000070:6&1000050:30"
-  },
-  "500103": {
     "title": "普通召唤30次",
     "refresh": "week_target",
     "type": "recruit_normal",
     "value": 30,
-    "award": "1000070:10&1000050:50"
+    "award": "1000070:6&1000050:200"
+  },
+  "500103": {
+    "title": "普通召唤100次",
+    "refresh": "week_target",
+    "type": "recruit_normal",
+    "value": 100,
+    "award": "1000070:10&1000050:500"
   },
   "500104": {
-    "title": "高级召唤5次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 5,
-    "award": "1000080:1&1000050:100"
-  },
-  "500105": {
     "title": "高级召唤10次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 10,
-    "award": "1000080:2&1000050:200"
+    "award": "1000080:1&1000050:100"
   },
-  "500106": {
+  "500105": {
     "title": "高级召唤20次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 20,
-    "award": "1000080:3&1000050:300"
+    "award": "1000080:2&1000050:200"
   },
-  "500107": {
-    "title": "高级召唤30次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 30,
-    "award": "1000080:4&1000050:400"
-  },
-  "500108": {
+  "500106": {
     "title": "高级召唤40次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 40,
-    "award": "1000080:5&1000050:500"
+    "award": "1000080:3&1000050:300"
   },
-  "500109": {
-    "title": "高级召唤50次",
+  "500107": {
+    "title": "高级召唤80次",
     "refresh": "week_target",
     "type": "recruit_great",
-    "value": 50,
-    "award": "1000080:5&1000050:700"
+    "value": 80,
+    "award": "1000080:4&1000050:600"
+  },
+  "500108": {
+    "title": "高级召唤120次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 120,
+    "award": "1000080:5&1000050:1200"
+  },
+  "500109": {
+    "title": "高级召唤150次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 150,
+    "award": "1000080:5&1000050:2400"
   },
   "500201": {
     "title": "获得3个四星英雄",
@@ -4200,27 +4200,27 @@
     "award": "504000:10&1000090:1"
   },
   "500202": {
-    "title": "获得5个四星英雄",
+    "title": "获得6个四星英雄",
     "refresh": "week_target",
     "type": "hero",
     "arg": 4,
-    "value": 5,
+    "value": 6,
     "award": "504000:20&1000090:2"
   },
   "500203": {
-    "title": "获得10个四星英雄",
-    "refresh": "week_target",
-    "type": "hero",
-    "arg": 4,
-    "value": 10,
-    "award": "504000:30&1000090:4"
-  },
-  "500204": {
     "title": "获得30个四星英雄",
     "refresh": "week_target",
     "type": "hero",
     "arg": 4,
     "value": 30,
+    "award": "504000:30&1000090:4"
+  },
+  "500204": {
+    "title": "获得100个四星英雄",
+    "refresh": "week_target",
+    "type": "hero",
+    "arg": 4,
+    "value": 100,
     "award": "504000:60&1000090:8"
   },
   "500205": {
@@ -4232,34 +4232,34 @@
     "award": "505000:5&1000100:1"
   },
   "500206": {
-    "title": "获得5个五星英雄",
+    "title": "获得6个五星英雄",
     "refresh": "week_target",
     "type": "hero",
     "arg": 5,
-    "value": 5,
+    "value": 6,
     "award": "505000:10&1000100:2"
   },
   "500207": {
-    "title": "获得10个五星英雄",
-    "refresh": "week_target",
-    "type": "hero",
-    "arg": 5,
-    "value": 10,
-    "award": "505000:15&1000100:3"
-  },
-  "500208": {
-    "title": "获得15个五星英雄",
-    "refresh": "week_target",
-    "type": "hero",
-    "arg": 5,
-    "value": 15,
-    "award": "505000:30&1000100:4"
-  },
-  "500209": {
     "title": "获得1个六星英雄",
     "refresh": "week_target",
     "type": "hero",
     "arg": 6,
+    "value": 1,
+    "award": "505000:15&1000150:10"
+  },
+  "500208": {
+    "title": "获得6个六星英雄",
+    "refresh": "week_target",
+    "type": "hero",
+    "arg": 6,
+    "value": 6,
+    "award": "505000:30&1000100:10"
+  },
+  "500209": {
+    "title": "获得1个九星英雄",
+    "refresh": "week_target",
+    "type": "hero",
+    "arg": 9,
     "value": 1,
     "award": "505000:30&1000120:1"
   },
@@ -4269,7 +4269,7 @@
     "type": "checkpoints",
     "arg": 10,
     "value": 1,
-    "award": "202:100&100:10000"
+    "award": "202:100&101:10000"
   },
   "500302": {
     "title": "通关第20关",
@@ -4277,63 +4277,63 @@
     "type": "checkpoints",
     "arg": 20,
     "value": 1,
-    "award": "202:200&100:20000"
+    "award": "202:200&101:20000"
   },
   "500303": {
-    "title": "通关第30关",
-    "refresh": "week_target",
-    "type": "checkpoints",
-    "arg": 30,
-    "value": 1,
-    "award": "202:250&100:40000"
-  },
-  "500304": {
     "title": "通关第40关",
     "refresh": "week_target",
     "type": "checkpoints",
     "arg": 40,
     "value": 1,
-    "award": "202:300&100:60000"
+    "award": "202:250&101:40000"
   },
-  "500305": {
-    "title": "通关第50关",
-    "refresh": "week_target",
-    "type": "checkpoints",
-    "arg": 50,
-    "value": 1,
-    "award": "202:350&100:80000"
-  },
-  "500306": {
+  "500304": {
     "title": "通关第60关",
     "refresh": "week_target",
     "type": "checkpoints",
     "arg": 60,
     "value": 1,
-    "award": "202:400&100:100000"
+    "award": "202:300&101:60000"
   },
-  "500307": {
-    "title": "通关第70关",
-    "refresh": "week_target",
-    "type": "checkpoints",
-    "arg": 70,
-    "value": 1,
-    "award": "202:450&100:120000"
-  },
-  "500308": {
+  "500305": {
     "title": "通关第80关",
     "refresh": "week_target",
     "type": "checkpoints",
     "arg": 80,
     "value": 1,
-    "award": "202:500&100:140000"
+    "award": "202:350&101:80000"
   },
-  "500309": {
-    "title": "通关第90关",
+  "500306": {
+    "title": "通关第100关",
     "refresh": "week_target",
     "type": "checkpoints",
-    "arg": 90,
+    "arg": 100,
     "value": 1,
-    "award": "202:600&100:160000"
+    "award": "202:400&101:100000"
+  },
+  "500307": {
+    "title": "通关第120关",
+    "refresh": "week_target",
+    "type": "checkpoints",
+    "arg": 120,
+    "value": 1,
+    "award": "202:450&101:120000"
+  },
+  "500308": {
+    "title": "通关第140关",
+    "refresh": "week_target",
+    "type": "checkpoints",
+    "arg": 140,
+    "value": 1,
+    "award": "202:500&101:140000"
+  },
+  "500309": {
+    "title": "通关第180关",
+    "refresh": "week_target",
+    "type": "checkpoints",
+    "arg": 180,
+    "value": 1,
+    "award": "202:600&101:160000"
   },
   "500401": {
     "title": "挑战副本:6次",
@@ -4418,53 +4418,53 @@
     "award": "1000020:2&1000050:20"
   },
   "500503": {
-    "title": "通天塔：30层",
-    "refresh": "week_target",
-    "type": "tttLv",
-    "value": 30,
-    "award": "1000020:3&1000050:40"
-  },
-  "500504": {
     "title": "通天塔：40层",
     "refresh": "week_target",
     "type": "tttLv",
     "value": 40,
-    "award": "1000020:4&1000050:60"
+    "award": "1000020:3&1000050:40"
   },
-  "500505": {
-    "title": "通天塔：50层",
-    "refresh": "week_target",
-    "type": "tttLv",
-    "value": 50,
-    "award": "1000020:5&1000050:80"
-  },
-  "500506": {
+  "500504": {
     "title": "通天塔：60层",
     "refresh": "week_target",
     "type": "tttLv",
     "value": 60,
-    "award": "1000020:6&1000090:1"
+    "award": "1000020:4&1000050:60"
   },
-  "500507": {
-    "title": "通天塔：70层",
-    "refresh": "week_target",
-    "type": "tttLv",
-    "value": 70,
-    "award": "1000020:7&1000090:2"
-  },
-  "500508": {
+  "500505": {
     "title": "通天塔：80层",
     "refresh": "week_target",
     "type": "tttLv",
     "value": 80,
-    "award": "1000020:8&1000090:3"
+    "award": "1000020:5&1000050:80"
   },
-  "500509": {
-    "title": "通天塔：90层",
+  "500506": {
+    "title": "通天塔：100层",
     "refresh": "week_target",
     "type": "tttLv",
-    "value": 90,
-    "award": "1000020:10&1000090:5"
+    "value": 100,
+    "award": "1000020:6&1000090:10"
+  },
+  "500507": {
+    "title": "通天塔：120层",
+    "refresh": "week_target",
+    "type": "tttLv",
+    "value": 120,
+    "award": "1000020:7&1000090:24"
+  },
+  "500508": {
+    "title": "通天塔：140层",
+    "refresh": "week_target",
+    "type": "tttLv",
+    "value": 140,
+    "award": "1000020:8&1000090:36"
+  },
+  "500509": {
+    "title": "通天塔：160层",
+    "refresh": "week_target",
+    "type": "tttLv",
+    "value": 160,
+    "award": "1000020:10&1000090:48"
   },
   "500601": {
     "title": "宝物商店购买1次",
