@@ -2483,6 +2483,47 @@
     "award": "201:2800000"
   },
   "201701": {
+    "title": "获得2个八星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 8,
+    "value": 2,
+    "next": 201702,
+    "inherit": true,
+    "award": "201:3000000",
+    "first": true
+  },
+  "201702": {
+    "title": "获得3个八星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 8,
+    "value": 3,
+    "next": 201703,
+    "inherit": true,
+    "award": "201:3200000"
+  },
+  "201703": {
+    "title": "获得4个八星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 8,
+    "value": 4,
+    "next": 201704,
+    "inherit": true,
+    "award": "201:3400000"
+  },
+  "201704": {
+    "title": "获得5个八星英雄",
+    "refresh": "always",
+    "type": "hero",
+    "arg": 8,
+    "value": 5,
+    "next": 201705,
+    "inherit": true,
+    "award": "201:3600000"
+  },
+  "201705": {
     "title": "获得6个八星英雄",
     "refresh": "always",
     "type": "hero",
@@ -3291,10 +3332,10 @@
     "award": "1001003:10&1000160:10&1000170:10"
   },
   "202090": {
-    "title": "快速作战100次",
+    "title": "快速作战150次",
     "refresh": "always",
     "type": "quick",
-    "value": 100,
+    "value": 150,
     "next": 202091,
     "inherit": true,
     "award": "1000100:10"
