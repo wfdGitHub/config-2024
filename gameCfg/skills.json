@@ -347,6 +347,27 @@
     "turn_rate": 0.3,
     "turn_tg": "team_minHp_1"
   },
+  "1051301": {
+    "name": "劈山",
+    "type": "attack",
+    "des": "对敌方单体造成95%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 0.95
+  },
+  "1051302": {
+    "name": "助周伐纣",
+    "type": "attack",
+    "des": "对敌方单体造成125%物理,额外造成目标生命上限12%的真实伤害,并沉默目标一回合。",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.25,
+    "buffId": "silence",
+    "buff_tg": "skill_targets",
+    "duration": 1,
+    "buffRate": 1,
+    "maxHP_damage": 0.12
+  },
   "2010101": {
     "name": "挥砍",
     "type": "attack",
@@ -612,7 +633,7 @@
     "skill_anger_s": 1
   },
   "2050801": {
-    "name": "燎原",
+    "name": "太极",
     "type": "attack",
     "des": "对敌方单体造成90%的物理伤害",
     "damageType": "phy",
@@ -620,7 +641,7 @@
     "mul": 0.9
   },
   "2050802": {
-    "name": "降魔圣意",
+    "name": "袖里乾坤",
     "type": "attack",
     "des": "对敌方前排造成155%物理伤害，并追加1次普通攻击。（追加的普通攻击不会回复怒气）",
     "damageType": "phy",
@@ -698,6 +719,22 @@
     "buffId": "dizzy",
     "duration": 1,
     "buffRate": 0.8
+  },
+  "2051301": {
+    "name": "暴虐",
+    "type": "attack",
+    "des": "对敌方单体造成90%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 0.9
+  },
+  "2051302": {
+    "name": "威震朝歌",
+    "type": "attack",
+    "des": "对敌方全体造成76%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0.76
   },
   "3010101": {
     "name": "挥砍",
@@ -924,7 +961,7 @@
     "burn_buff_change_skill": "{\"buffId\":\"disarm\",\"buffRate\":0.4,\"duration\":1}"
   },
   "3050601": {
-    "name": "开山",
+    "name": "判笔",
     "type": "attack",
     "des": "对敌方单体造成90%的物理伤害",
     "damageType": "phy",
@@ -932,7 +969,7 @@
     "mul": 0.9
   },
   "3050602": {
-    "name": "五丁开山",
+    "name": "生死簿",
     "type": "attack",
     "des": "对敌方全体造成92%的物理伤害，如果目标处于灼烧状态，有30%概率附加眩晕，持续1回合\\n<font color='#827c76'>【眩晕】：携带该状态的英雄无法行动</font>",
     "damageType": "phy",
@@ -941,7 +978,7 @@
     "burn_buff_change_skill": "{\"buffId\":\"dizzy\",\"buffRate\":0.3,\"duration\":1}"
   },
   "3050701": {
-    "name": "布雨",
+    "name": "斧击",
     "type": "attack",
     "des": "对敌方后排单体造成90%的物理伤害",
     "damageType": "phy",
@@ -949,7 +986,7 @@
     "mul": 0.9
   },
   "3050702": {
-    "name": "雨落九天",
+    "name": "干戚之舞",
     "type": "attack",
     "des": "对敌方后排单体造成315%的物理伤害，并追加1次普通攻击。（追加普通攻击不会回复怒气）",
     "damageType": "phy",
@@ -1042,11 +1079,28 @@
   "3051202": {
     "name": "红粉骷髅",
     "type": "attack",
-    "des": "对敌方纵排造成212%的法术伤害，如果目标处于灼烧状态，有60%的概率附加晕眩，持续1回合\\n<font color='#827c76'>【眩晕】：携带该状态的英雄无法行动</font>",
+    "des": "对敌方纵排造成212%的法术伤害，如果目标处于灼烧状态，有60%的概率附加晕眩，持续1回合\\n<font color='#827c76'>【眩晕】：携带该状态的武将无法行动</font>",
     "damageType": "mag",
     "targetType": "enemy_vertical",
     "mul": 2.12,
     "burn_buff_change_skill": "{\"buffId\":\"dizzy\",\"buffRate\":0.6,\"duration\":1}"
+  },
+  "3051301": {
+    "name": "符咒",
+    "type": "attack",
+    "des": "对敌方后排单体造成90%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal_back",
+    "mul": 0.9
+  },
+  "3051302": {
+    "name": "助纣为虐",
+    "type": "attack",
+    "des": "对敌方随机三个目标造成造成120%法术伤害,如果目标处于灼烧状态,有30%概率附加心魔状态,持续1回合\\n<font color='#827c76'>【心魔】：携带该状态的英雄无法回复怒气</font>",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.2,
+    "burn_buff_change_skill": "{\"buffId\":\"banAnger\",\"buffRate\":0.3,\"duration\":1}"
   },
   "4010101": {
     "name": "突击",
@@ -1413,5 +1467,19 @@
     "buffArg": 0.8,
     "duration": 2,
     "buffRate": 0.6
+  },
+  "4051301": {
+    "name": "静心诀",
+    "type": "heal",
+    "des": "为己方损失血量最多的英雄治疗103%攻击的生命",
+    "targetType": "team_lossMaxHP",
+    "mul": 1.03
+  },
+  "4051302": {
+    "name": "清心诀",
+    "type": "heal",
+    "des": "为己方损失血量最多的英雄治疗355%攻击的生命",
+    "targetType": "team_lossMaxHP",
+    "mul": 3.55
   }
 }
