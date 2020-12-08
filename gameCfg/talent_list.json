@@ -239,13 +239,13 @@
     "value1": 0.5
   },
   "1048": {
-    "des": "受到攻击时有35%的概率给攻击者附加灼烧状态，持续2回合",
-    "key1": "hit_buff",
+    "des": "受到普通攻击时有35%的概率给攻击者附加灼烧状态，持续2回合",
+    "key1": "hit_normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "1049": {
     "des": "受到普通攻击时，有50%的概率给攻击自己的英雄附加中毒效果，每回合对目标造成自身攻击伤害160%的中毒伤害，持续2回合",
-    "key1": "hit_buff",
+    "key1": "hit_normal_buff",
     "value1": "{\"buffId\":\"poison\",\"buffArg\":1.6,\"duration\":2,\"buffRate\":0.5}"
   },
   "1050": {
@@ -797,6 +797,296 @@
     "key1": "team_maxHP_add",
     "value1": 0.15
   },
+  "1301": {
+    "des": "直接伤害击杀目标增加自身16%的伤害，可叠加，持续至战斗结束。触发追击技能时，该追击技能的伤害提高24%。",
+    "key1": "kill_amp",
+    "value1": 0.16,
+    "key2": "add_default_amp",
+    "value2": 0.24
+  },
+  "1302": {
+    "des": "永久免疫减怒效果,释放技能后，给己方攻击最高的两名仙族英雄附加一个效果 ，使其伤害增加16%，持续2回合。",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "skill_later_buff",
+    "value2": "{\"buffId\":\"amplify\",\"duration\":2,\"buffRate\":1,\"buffArg\":0.16,\"buff_tg\":\"team_maxAtk_2\"}"
+  },
+  "1303": {
+    "des": "技能击杀目标溢出伤害的50%将对血量最高的攻击目标造成伤害，追加的普通攻击可以额外造成目标生命上限15%的伤害。",
+    "key1": "overDamageToMaxHp",
+    "value1": 0.5,
+    "key2": "add_default_maxHp",
+    "value2": 0.15
+  },
+  "1304": {
+    "des": "无敌盾的目标额外回复1点怒气,如果无敌盾目标是仙族英雄，那么无敌盾消失或被清除时，回复无敌盾目标30%生命上限血量。",
+    "key1": "invincibleAnger",
+    "value1": 1,
+    "key2": "invincibleHeal",
+    "value2": 0.3
+  },
+  "1305": {
+    "des": "受到直接伤害的34%转化为生命治疗己方生命最少的3个目标，如果技能和普通治疗的目标为仙族英雄，对其的治疗量额外提升40%，并在治疗前为其解除受到的中毒效果",
+    "key1": "hit_turn_rate",
+    "value1": 0.1,
+    "key2": "unpoison_heal",
+    "value2": 0.4
+  },
+  "1306": {
+    "des": "自身生命增加20%，受到技能或普攻直接伤害的100%反弹给攻击者",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "hit_rebound",
+    "value2": 0.2
+  },
+  "1307": {
+    "des": "释放技能有48%的几率不消耗怒气，技能命中目标越少，施加的沉默概率越高，每少一个目标，沉默概率提高15%",
+    "key1": "less_skill_buffRate",
+    "value1": 0.23,
+    "key2": "skill_free",
+    "value2": 0.18
+  },
+  "1308": {
+    "des": "技能必定命中,并且有概率额外眩晕敌方血量最少的目标（己方每个上阵的其他仙族英雄可提供眩晕总概率的20%）",
+    "key1": "skill_must_hit",
+    "value1": true,
+    "key2": "realm_extra_buff_minHp",
+    "value2": 0.2
+  },
+  "1309": {
+    "des": "战斗首回合造成的伤害必定暴击，技能暴击后会对目标额外造成10%生命上限的伤害。",
+    "key1": "first_crit",
+    "value1": true,
+    "key2": "skill_crit_maxHp",
+    "value2": 0.1
+  },
+  "1310": {
+    "des": "增伤效果持续至战斗结束，追加的普通攻击额外造成15%目标生命上限的伤害（追加的普通攻击不会回复怒气）",
+    "key1": "buffDuration",
+    "value1": 100,
+    "key2": "add_default_maxHp",
+    "value2": 0.15
+  },
+  "1311": {
+    "des": "释放技能有概率额外眩晕敌方攻击最高的英雄（己方每个上阵的其他仙族英雄可提供眩晕总概率的20%），持续1回合，释放技能将敌方目标眩晕时，己方人族英雄对其造成的所有伤害增加18%",
+    "key1": "realm_extra_buff_minHp",
+    "value1": 0.2,
+    "key2": "realm_dizzy_amp",
+    "value2": 0.18
+  },
+  "1312": {
+    "des": "技能造成的治疗量增加30%。释放技能时，如果血量最少的英雄为人族英雄,则为其附加一个免疫控制效果 （眩晕，沉默，麻痹）的护盾",
+    "key1": "skill_heal_amp",
+    "value1": 0.3,
+    "key2": "realm_heal_buff_minHp",
+    "value2": "{\"buffId\":\"immune\",\"duration\":1}"
+  },
+  "1313": {
+    "des": "自身生命增加20%，为己方英雄附加的护盾消失后，回复被保护英雄自身生命上限18%的血量",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "reduction_heal_maxHp",
+    "value2": 0.18
+  },
+  "1314": {
+    "des": "释放技能有30%的几率不消耗怒气,上阵人族英雄的伤害减免增加12%",
+    "key1": "skill_free",
+    "value1": 0.3,
+    "key2": "team_reduction_add",
+    "value2": 0.12
+  },
+  "1315": {
+    "des": "释放技能后，为生命最少的2个人族英雄附加一个免疫控制效果 （眩晕，沉默，麻痹）的护盾，为攻击最高的人族英雄额外回复2点怒气",
+    "key1": "skill_later_buff",
+    "value1": "{\"buffId\":\"immune\",\"duration\":1,\"buff_tg\":\"realm_minHp_2\",\"buffRate\":1}",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 2
+  },
+  "1316": {
+    "des": "战斗第1回合攻击造成的伤害额外增加25%，直接伤害击杀目标后，恢复自身生命上限20%的血量",
+    "key1": "first_amp",
+    "value1": 0.25,
+    "key2": "kill_heal",
+    "value2": 0.2
+  },
+  "1317": {
+    "des": "技能追加的普攻额外造成目标生命上限30%的伤害。每次击杀目标，自身伤害增加25%，可叠加，持续至战斗结束",
+    "key1": "add_default_maxHp",
+    "value1": 0.3,
+    "key2": "kill_amp",
+    "value2": 0.25
+  },
+  "1318": {
+    "des": "每个存活的友方人族英雄提供12%的伤害减免效果",
+    "key1": "realm_friend_reduction",
+    "value1": 0.12
+  },
+  "1319": {
+    "des": "技能伤害增加18%。敌方每阵亡1人，自身伤害增加24%。",
+    "key1": "skill_attack_amp",
+    "value1": 0.18,
+    "key2": "enemy_died_amp",
+    "value2": 0.09
+  },
+  "1320": {
+    "des": "普通攻击有75%概率给目标附加灼烧状态。受到普通攻击有35%的概率使攻击者灼烧，持续2回合。",
+    "key1": "normal_later_buff",
+    "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.75}",
+    "key2": "hit_normal_buff",
+    "value2": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
+  },
+  "1321": {
+    "des": "持续治疗持续回合数额外增加1回合,如果治疗英雄为巫族英雄,持续治疗结算时额外 回复其生命上限16%的血量",
+    "key1": "buffDuration",
+    "value1": 3,
+    "key2": "recover_maxHp",
+    "value2": 0.16
+  },
+  "1322": {
+    "des": "战斗第1回合无敌，免疫所有伤害和控制效果（无敌效果不会被清除）。无敌效果结束时，有50%概率使自身再次获得此效果，在此之后的触发概率逐渐减半。受到灼烧状态敌人攻击时，恢复自身一点怒气。",
+    "key1": "invincibleSuper_again",
+    "value1": 0.5,
+    "key2": "burn_hit_anger",
+    "value2": 1
+  },
+  "1323": {
+    "des": "释放技能后，怒气最少的其他巫族英雄额外行动一回合。",
+    "key1": "extraAtion",
+    "value1": true
+  },
+  "1324": {
+    "des": "死亡时释放1次技能，100%概率眩晕灼烧目标。普通攻击时，如果目标处于灼烧状态，有80%的概率对目标附加眩晕效果",
+    "key1": "died_burn_buff_must",
+    "value1": true,
+    "key2": "burn_buff_change_normal",
+    "value2": "{\"buffId\":\"dizzy\",\"duration\":1,\"buffRate\":0.8}"
+  },
+  "1325": {
+    "des": "释放技能时，对灼烧目标的暴击几率额外增加80%，普攻时降低敌方1点怒气。",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.5,\"crit\":0.8}",
+    "key2": "normal_less_anger",
+    "value2": 1
+  },
+  "1326": {
+    "des": "受技能攻击时有35%概率给攻击者及其周围没有灼烧状态的敌方英雄附加灼烧状态，持续2回合",
+    "key1": "hit_skill_buff",
+    "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35,\"buff_tg\":\"enemy_adjoin\"}"
+  },
+  "1327": {
+    "des": "释放技能后回复自身2点怒气，如果目标处于灼烧状态，技能直接伤害的50%转化为生命，治疗自己。",
+    "key1": "skill_anger_s",
+    "value1": 2,
+    "key2": "skill_burn_turn_heal",
+    "value2": 0.5
+  },
+  "1328": {
+    "des": "释放技能附加的眩晕结束时，被眩晕的目标降低1点怒气。攻击受到眩晕效果的目标时，额外降低目标1点怒气。",
+    "key1": "dizzy_less_anger",
+    "value1": 1,
+    "key2": "dizzy_hit_anger",
+    "value2": 1
+  },
+  "1329": {
+    "des": "释放技能时，如果目标怒气不足4点，技能伤害额外增加36%，如果目标怒气大于4点，额外降低目标1点怒气。追加的普通攻击额外造成10%目标生命上限的伤害。",
+    "key1": "skill_amp_or_lessAnger",
+    "value1": 0.36,
+    "key2": "add_default_maxHp",
+    "value2": 0.1
+  },
+  "1330": {
+    "des": "技能造成的治疗量增加20%。复活己方英雄时，如果复活的英雄是兽族英雄，生命恢复至100%",
+    "key1": "skill_heal_amp",
+    "value1": 0.2,
+    "key2": "resurgence_team",
+    "value2": 1
+  },
+  "1331": {
+    "des": "受到普通攻击伤害的50%转化为血量治疗自己，受到技能伤害的30%转化为血量，治疗自己。",
+    "key1": "normal_atk_turn_hp",
+    "value1": 0.5,
+    "key2": "skill_atk_turn_hp",
+    "value2": 0.3
+  },
+  "1332": {
+    "des": "释放技能后回复己方怒气最少的其他3个兽族英雄1点怒气。",
+    "key1": "skill_add_realm3_anger",
+    "value1": 1
+  },
+  "1333": {
+    "des": "释放技能后降低目标2点怒气。行动后恢复自身1点怒气",
+    "key1": "skill_less_anger",
+    "value1": 2,
+    "key2": "action_anger",
+    "value2": 1
+  },
+  "1334": {
+    "des": "首次死亡后会涅槃重生，恢复全部血量",
+    "key1": "resurgence_self",
+    "value1": 1
+  },
+  "1335": {
+    "des": "受到普通攻击时，降低击自己的英雄1点怒气,有80%的概率给攻击自己的英雄附加中毒效果，每回合对目标造成自身攻击伤害160%的中毒伤害，持续2回合",
+    "key1": "hit_less_anger",
+    "value1": 1,
+    "key2": "hit_normal_buff",
+    "value2": "{\"buffId\":\"poison\",\"buffArg\":1.6,\"duration\":2,\"buffRate\":0.8}"
+  },
+  "1336": {
+    "des": "释放技能时，额外治疗目标英雄生命上限20%生命值。",
+    "key1": "heal_maxHp",
+    "value1": 0.2
+  },
+  "1900": {
+    "des": "全体上阵武将生命+5%",
+    "key1": "team_maxHP_add",
+    "value1": 0.05
+  },
+  "1901": {
+    "des": "全体上阵武将攻击+5%",
+    "key1": "team_atk_add",
+    "value1": 0.05
+  },
+  "1902": {
+    "des": "全体上阵武将暴击几率+5%",
+    "key1": "team_crit_add",
+    "value1": 0.05
+  },
+  "1903": {
+    "des": "全体上阵武将抗暴几率+5%",
+    "key1": "team_critDef_add",
+    "value1": 0.05
+  },
+  "1904": {
+    "des": "全体上阵武将暴伤加成+5%",
+    "key1": "team_slay_add",
+    "value1": 0.05
+  },
+  "1905": {
+    "des": "全体上阵武将暴伤减免+5%",
+    "key1": "team_slayDef_add",
+    "value1": 0.05
+  },
+  "1906": {
+    "des": "全体上阵武将伤害加成+5%",
+    "key1": "team_amplify_add",
+    "value1": 0.05
+  },
+  "1907": {
+    "des": "全体上阵武将伤害减免+5%",
+    "key1": "team_reduction_add",
+    "value1": 0.05
+  },
+  "1908": {
+    "des": "全体上阵武将命中几率+5%",
+    "key1": "team_hitRate_add",
+    "value1": 0.05
+  },
+  "1909": {
+    "des": "全体上阵武将闪避几率+5%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.05
+  },
   "2001": {
     "des": "暴击伤害+5%",
     "key1": "slay",
@@ -924,7 +1214,7 @@
   },
   "2022": {
     "des": "反伤增加30%（只对当前有反伤效果的英雄生效）",
-    "key1": "hit_rebound_add",
+    "key1": "hit_rebound",
     "value1": 0.3
   },
   "2023": {
@@ -1150,8 +1440,8 @@
   },
   "3012": {
     "des": "技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
-    "key1": "skill_burn_turn_heal",
-    "value1": 0.5
+    "key1": "skill_turn_rate",
+    "value1": 0.2
   },
   "3013": {
     "des": "直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
@@ -1204,7 +1494,7 @@
   },
   "3022": {
     "des": "受到普通攻击时，有80%概率使攻击者灼烧，持续2回合",
-    "key1": "hit_buff",
+    "key1": "hit_normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.8}"
   },
   "3023": {
@@ -1239,7 +1529,7 @@
   },
   "3029": {
     "des": "受到普通攻击时，有50%概率使攻击者灼烧，持续2回合",
-    "key1": "hit_buff",
+    "key1": "hit_normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.5}"
   },
   "3030": {
