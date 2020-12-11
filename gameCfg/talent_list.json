@@ -801,7 +801,7 @@
     "des": "直接伤害击杀目标增加自身16%的伤害，可叠加，持续至战斗结束。触发追击技能时，该追击技能的伤害提高24%。",
     "key1": "kill_amp",
     "value1": 0.16,
-    "key2": "add_default_amp",
+    "key2": "add_skill_amp",
     "value2": 0.24
   },
   "1302": {
@@ -809,7 +809,7 @@
     "key1": "banLessAnger",
     "value1": true,
     "key2": "skill_later_buff",
-    "value2": "{\"buffId\":\"amplify\",\"duration\":2,\"buffRate\":1,\"buffArg\":0.16,\"buff_tg\":\"team_maxAtk_2\"}"
+    "value2": "{\"buffId\":\"amplify\",\"duration\":2,\"buffRate\":1,\"buffArg\":0.16,\"buff_tg\":\"realm_maxAtk_2\"}"
   },
   "1303": {
     "des": "技能击杀目标溢出伤害的50%将对血量最高的攻击目标造成伤害，追加的普通攻击可以额外造成目标生命上限15%的伤害。",
@@ -869,7 +869,7 @@
   },
   "1311": {
     "des": "释放技能有概率额外眩晕敌方攻击最高的英雄（己方每个上阵的其他人族英雄可提供眩晕总概率的20%），持续1回合，释放技能将敌方目标眩晕时，己方人族英雄对其造成的所有伤害增加18%",
-    "key1": "realm_extra_buff_minHp",
+    "key1": "realm_extra_buff_maxAtk",
     "value1": 0.2,
     "key2": "realm_dizzy_amp",
     "value2": 0.18
@@ -889,7 +889,7 @@
     "value2": 0.18
   },
   "1314": {
-    "des": "释放技能有30%的几率不消耗怒气,全体上阵人族英雄的生命值增加20%",
+    "des": "释放技能有30%的几率不消耗怒气,全体上阵英雄的生命值增加20%",
     "key1": "skill_free",
     "value1": 0.3,
     "key2": "team_maxHP_add",
