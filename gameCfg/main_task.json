@@ -208,7 +208,7 @@
   },
   "900025": {
     "title": "通天塔挑战3次",
-    "type": "tttLv",
+    "type": "ttt",
     "value": 3,
     "next": 900026,
     "award": "1000080:1",
@@ -223,12 +223,12 @@
     "guide": "guide_yingxiong"
   },
   "900027": {
-    "title": "合成1次装备",
-    "type": "equip_compound",
+    "title": "宝物商店刷新1次",
+    "type": "bazzar_refresh",
     "value": 1,
     "next": 900028,
-    "award": "201:8000",
-    "guide": "guide_tiejiangpu"
+    "award": "1000050:20",
+    "guide": "guide_shangdian"
   },
   "900028": {
     "title": "通关刑天氏族30",
@@ -248,18 +248,17 @@
     "guide": "guide_yxfenjie"
   },
   "900030": {
-    "title": "通过通天塔10层",
-    "type": "tttLv",
-    "arg": 10,
-    "value": 1,
+    "title": "通天塔挑战5次",
+    "type": "ttt",
+    "value": 5,
     "next": 900031,
     "award": "101:10000",
     "guide": "guide_tongtianta"
   },
   "900031": {
-    "title": "通关三皇五帝35",
+    "title": "通关三皇五帝32",
     "type": "checkpoints",
-    "arg": 35,
+    "arg": 32,
     "value": 1,
     "next": 900032,
     "award": "201:8000",
@@ -274,12 +273,12 @@
     "guide": "guide_shangdian"
   },
   "900033": {
-    "title": "宝物商店购买1次",
-    "type": "bazzar_buy",
+    "title": "合成1次装备",
+    "type": "equip_compound",
     "value": 1,
     "next": 900034,
-    "award": "1000090:10",
-    "guide": "guide_shangdian"
+    "award": "201:8000",
+    "guide": "guide_tiejiangpu"
   },
   "900034": {
     "title": "佩戴4件蓝色装备",
@@ -378,7 +377,7 @@
     "guide": "guide_sj_gk"
   },
   "900045": {
-    "title": "获得1个五星英雄",
+    "title": "新获得1个五星英雄",
     "type": "hero",
     "arg": 5,
     "value": 1,
