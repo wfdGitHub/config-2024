@@ -320,7 +320,7 @@
   },
   "1050902": {
     "name": "龙卷雨击",
-    "sound": "longwang",
+    "sound": "shuigong",
     "type": "attack",
     "des": "对敌方纵排造成223%的物理伤害，并回复自身1点怒气",
     "damageType": "phy",
@@ -389,6 +389,7 @@
   },
   "1051301": {
     "name": "劈山",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成95%的物理伤害",
     "damageType": "phy",
@@ -397,6 +398,7 @@
   },
   "1051302": {
     "name": "助周伐纣",
+    "sound": "fashu10",
     "type": "attack",
     "des": "对敌方单体造成125%物理,额外造成目标生命上限12%的真实伤害,并沉默目标一回合。",
     "damageType": "phy",
@@ -419,7 +421,7 @@
   },
   "2010102": {
     "name": "快刀乱斩",
-    "sound": "huikan2",
+    "sound": "huikan",
     "type": "attack",
     "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
@@ -473,7 +475,7 @@
   },
   "2030202": {
     "name": "单刀断水",
-    "sound": "huikan2",
+    "sound": "huikan",
     "type": "attack",
     "des": "对敌方纵排造成235%物理伤害",
     "damageType": "phy",
@@ -607,6 +609,7 @@
   },
   "2050301": {
     "name": "扶伤",
+    "sound": "longwang",
     "type": "heal",
     "des": "为己方生命最少的队友治疗103%攻击的生命",
     "targetType": "team_minHp_1",
@@ -614,6 +617,7 @@
   },
   "2050302": {
     "name": "百草圣药",
+    "sound": "longwang",
     "type": "heal",
     "des": "为己方全体治疗90%攻击的生命",
     "targetType": "team_all",
@@ -663,7 +667,7 @@
   },
   "2050601": {
     "name": "豪饮",
-    "sound": "fashu5",
+    "sound": "fashu16",
     "type": "attack",
     "des": "对敌方后排单体造成90%的法术伤害",
     "damageType": "mag",
@@ -672,7 +676,7 @@
   },
   "2050602": {
     "name": "一醉方休",
-    "sound": "fashu5",
+    "sound": "fashu16",
     "type": "attack",
     "des": "对敌方后排单体造成315%的法术伤害，技能伤害的30%转化为生命，治疗己方生命最少的队友",
     "damageType": "mag",
@@ -800,7 +804,7 @@
   },
   "2051301": {
     "name": "逐日",
-    "sound": "zhongji2",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成90%的法术伤害",
     "damageType": "mag",
@@ -818,6 +822,7 @@
   },
   "3010101": {
     "name": "挥砍",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -826,6 +831,7 @@
   },
   "3010102": {
     "name": "紫光影斩",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
@@ -834,6 +840,7 @@
   },
   "3020101": {
     "name": "爪击",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -842,6 +849,7 @@
   },
   "3020102": {
     "name": "幻雾朦胧",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方前排造成172%物理伤害",
     "damageType": "phy",
@@ -850,6 +858,7 @@
   },
   "3030101": {
     "name": "葫击",
+    "sound": "fashu7",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -858,6 +867,7 @@
   },
   "3030102": {
     "name": "乾坤葫芦",
+    "sound": "fashu7",
     "type": "attack",
     "des": "对敌方前排造成172%物理伤害",
     "damageType": "phy",
@@ -866,6 +876,7 @@
   },
   "3030201": {
     "name": "瓶击",
+    "sound": "fashu7",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -874,6 +885,7 @@
   },
   "3030202": {
     "name": "乾坤玉瓶",
+    "sound": "fashu7",
     "effects": "3030202-ghsm",
     "type": "attack",
     "des": "对敌方单体造成350%的物理伤害",
@@ -883,6 +895,7 @@
   },
   "3040101": {
     "name": "戟击",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方单体造成90%的物理伤害",
     "damageType": "phy",
@@ -891,6 +904,7 @@
   },
   "3040102": {
     "name": "三叉探路",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方单体造成315%物理伤害，有60%概率附加目标灼烧，持续2回合\\n<font color='#827c76'>【灼烧】：每回合对目标造成自身攻击伤害20%的灼烧伤害</font>",
     "damageType": "phy",
@@ -963,7 +977,7 @@
   },
   "3050101": {
     "name": "开天",
-    "sound": "zhongji",
+    "sound": "gongji7",
     "type": "attack",
     "des": "对敌方后排造成44%物理伤害",
     "damageType": "phy",
@@ -1004,6 +1018,7 @@
   },
   "3050301": {
     "name": "聚灵",
+    "sound": "huoyanranshao",
     "type": "heal",
     "des": "为己方生命最少的队友治疗103%攻击的生命",
     "targetType": "team_minHp_1",
@@ -1011,6 +1026,7 @@
   },
   "3050302": {
     "name": "摄生魂咒",
+    "sound": "huoyanranshao",
     "type": "heal",
     "des": "为己方全体治疗90%攻击的生命",
     "targetType": "team_all",
@@ -1018,7 +1034,7 @@
   },
   "3050401": {
     "name": "摄魂",
-    "sound": "fashu4",
+    "sound": "fashu6",
     "type": "attack",
     "des": "对敌方单体造成90%的物理伤害",
     "damageType": "phy",
@@ -1027,7 +1043,7 @@
   },
   "3050402": {
     "name": "生命法则",
-    "sound": "fashu4",
+    "sound": "fashu6",
     "type": "attack",
     "des": "对敌方单体造成315%的物理伤害，并回复自身生命上限30%的生命",
     "damageType": "phy",
@@ -1214,6 +1230,7 @@
   },
   "4010101": {
     "name": "冲撞",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1222,6 +1239,7 @@
   },
   "4010102": {
     "name": "横冲乱撞",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方随机3人造成175%的法术伤害",
     "damageType": "mag",
@@ -1230,6 +1248,7 @@
   },
   "4010201": {
     "name": "猛击",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1238,6 +1257,7 @@
   },
   "4010202": {
     "name": "跳跃撞击",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方全体造成100%物理伤害",
     "damageType": "phy",
@@ -1246,6 +1266,7 @@
   },
   "4020101": {
     "name": "撞击",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1254,6 +1275,7 @@
   },
   "4020102": {
     "name": "横冲直撞",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方前排造成235%物理伤害",
     "damageType": "phy",
@@ -1262,6 +1284,7 @@
   },
   "4030101": {
     "name": "撞击",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1270,6 +1293,7 @@
   },
   "4030102": {
     "name": "小鹿乱撞",
+    "sound": "gaoji3",
     "type": "attack",
     "des": "对敌方纵排造成235%物理伤害",
     "damageType": "phy",
@@ -1278,6 +1302,7 @@
   },
   "4030201": {
     "name": "扑咬",
+    "sound": "gongji2",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1286,6 +1311,7 @@
   },
   "4030202": {
     "name": "落雪纷飞",
+    "sound": "gongji2",
     "type": "attack",
     "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
@@ -1294,6 +1320,7 @@
   },
   "4040101": {
     "name": "虎扑",
+    "sound": "gongji2",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1302,6 +1329,7 @@
   },
   "4040102": {
     "name": "利爪挥舞",
+    "sound": "gongji2",
     "type": "attack",
     "des": "对敌方前排造成172%的物理伤害，技能目标每减少1个，技能伤害增加10%",
     "damageType": "phy",
@@ -1311,6 +1339,7 @@
   },
   "4040201": {
     "name": "魅惑",
+    "sound": "fashu9",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1319,6 +1348,7 @@
   },
   "4040202": {
     "name": "狐火乱击",
+    "sound": "fashu9",
     "type": "attack",
     "des": "对敌方单体造成350%的法术伤害",
     "damageType": "mag",
@@ -1327,6 +1357,7 @@
   },
   "4040301": {
     "name": "撞击",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方前排造成49%物理伤害",
     "damageType": "phy",
@@ -1335,6 +1366,7 @@
   },
   "4040302": {
     "name": "凶兽降临",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方随机3人造成140%的物理伤害，每次击杀目标，自身伤害增加24%",
     "damageType": "phy",
@@ -1344,6 +1376,7 @@
   },
   "4040401": {
     "name": "撞击",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1352,6 +1385,7 @@
   },
   "4040402": {
     "name": "祥瑞焰火",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成350%的法术伤害，伤害的30%转化为生命，治疗己方生命最少的队友",
     "damageType": "mag",
@@ -1362,6 +1396,7 @@
   },
   "4050101": {
     "name": "撕裂",
+    "sound": "fashu10",
     "type": "attack",
     "des": "对敌方前排造成49%法术伤害",
     "damageType": "mag",
@@ -1370,6 +1405,7 @@
   },
   "4050102": {
     "name": "混沌光棱",
+    "sound": "fashu10",
     "type": "attack",
     "des": "对敌方前排造成172%法术伤害，并回复自身2点怒气",
     "damageType": "mag",
@@ -1379,6 +1415,7 @@
   },
   "4050201": {
     "name": "天雷",
+    "sound": "fashu11",
     "type": "attack",
     "des": "对敌方前排造成49%物理伤害",
     "damageType": "phy",
@@ -1387,6 +1424,7 @@
   },
   "4050202": {
     "name": "九天惊雷",
+    "sound": "fashu11",
     "type": "attack",
     "des": "对敌方全体造成102%的物理伤害，每次击杀目标，自身伤害增加24%",
     "damageType": "phy",
@@ -1396,6 +1434,7 @@
   },
   "4050301": {
     "name": "回天",
+    "sound": "zhiliao3",
     "type": "heal",
     "des": "为己方生命最少的队友治疗103%攻击的生命",
     "targetType": "team_minHp_1",
@@ -1403,6 +1442,7 @@
   },
   "4050302": {
     "name": "福泽三界",
+    "sound": "zhiliao3",
     "type": "heal",
     "des": "为己方全体治疗90%攻击的生命",
     "targetType": "team_all",
@@ -1410,6 +1450,7 @@
   },
   "4050401": {
     "name": "龙威",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1418,6 +1459,7 @@
   },
   "4050402": {
     "name": "玄武守护",
+    "sound": "fashu12",
     "type": "attack",
     "des": "对敌方单体造成350%的物理伤害，并给自身附加1个减伤盾，受到的直接伤害减少30%，持续1回合",
     "damageType": "phy",
@@ -1431,6 +1473,7 @@
   },
   "4050501": {
     "name": "踏云",
+    "sound": "fashu18",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1439,6 +1482,7 @@
   },
   "4050502": {
     "name": "九转还阳",
+    "sound": "fashu18",
     "effects": "4051002-nycj",
     "type": "attack",
     "des": "对敌方单体造成315%的物理伤害，并回复自身1点怒气",
@@ -1449,6 +1493,7 @@
   },
   "4050601": {
     "name": "龙威",
+    "sound": "fashu15",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1489,6 +1534,7 @@
   },
   "4050801": {
     "name": "龙威",
+    "sound": "dulong",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1497,6 +1543,7 @@
   },
   "4050802": {
     "name": "青龙吐息",
+    "sound": "dulong",
     "type": "attack",
     "des": "对敌方前排造成172%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害100%的中毒伤害，持续2回合",
     "damageType": "mag",
@@ -1509,6 +1556,7 @@
   },
   "4050901": {
     "name": "吞噬",
+    "sound": "fashu19",
     "type": "attack",
     "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1517,6 +1565,7 @@
   },
   "4050902": {
     "name": "鹏程万里",
+    "sound": "fashu19",
     "effects": "405090-tuxi",
     "type": "attack",
     "des": "对敌方纵排造成235%物理伤害，并追加1次普通攻击（追加的普通攻击不会回复怒气）",
@@ -1527,6 +1576,7 @@
   },
   "4051001": {
     "name": "震慑",
+    "sound": "baozha",
     "type": "attack",
     "des": "对敌方后排单体造成100%的物理伤害",
     "damageType": "phy",
@@ -1535,6 +1585,7 @@
   },
   "4051002": {
     "name": "气冲九霄",
+    "sound": "baozha",
     "type": "attack",
     "des": "对敌方后排单体造成350%的物理伤害，并降低目标1点怒气",
     "damageType": "phy",
@@ -1565,6 +1616,7 @@
   },
   "4051201": {
     "name": "撕咬",
+    "sound": "gongji7",
     "type": "attack",
     "des": "对敌方单体造成100%的法术伤害",
     "damageType": "mag",
@@ -1573,6 +1625,7 @@
   },
   "4051202": {
     "name": "暴殄天物",
+    "sound": "gongji8",
     "type": "attack",
     "des": "对敌方随机3人造成140%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害80%的中毒伤害，持续2回合",
     "damageType": "mag",
@@ -1585,6 +1638,7 @@
   },
   "4051301": {
     "name": "静心诀",
+    "sound": "zhiliao4",
     "type": "heal",
     "des": "为己方损失血量最多的英雄治疗103%攻击的生命",
     "targetType": "team_lossMaxHP",
@@ -1592,6 +1646,7 @@
   },
   "4051302": {
     "name": "清心诀",
+    "sound": "zhiliao4",
     "type": "heal",
     "des": "为己方损失血量最多的英雄治疗355%攻击的生命",
     "targetType": "team_lossMaxHP",
