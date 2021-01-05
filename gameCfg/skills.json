@@ -233,18 +233,18 @@
     "name": "补天",
     "sound": "zhiliao",
     "type": "heal",
-    "des": "为己方生命最少单位治疗103%攻击的生命",
+    "des": "为己方生命最少单位治疗93%攻击的生命",
     "targetType": "team_minHp_1",
-    "mul": 1.03
+    "mul": 0.93
   },
   "1050502": {
     "name": "补天圣术",
     "sound": "zhiliao",
     "effects": "1040402-huitian",
     "type": "heal",
-    "des": "为己方生命最少的3个单位治疗175%攻击的生命",
+    "des": "为己方生命最少的3个单位治疗155%攻击的生命",
     "targetType": "team_minHp_3",
-    "mul": 1.75
+    "mul": 1.55
   },
   "1050601": {
     "name": "镇压",
@@ -611,17 +611,17 @@
     "name": "扶伤",
     "sound": "longwang",
     "type": "heal",
-    "des": "为己方生命最少的队友治疗103%攻击的生命",
+    "des": "为己方生命最少的队友治疗93%攻击的生命",
     "targetType": "team_minHp_1",
-    "mul": 1.03
+    "mul": 0.93
   },
   "2050302": {
     "name": "百草圣药",
     "sound": "longwang",
     "type": "heal",
-    "des": "为己方全体治疗90%攻击的生命",
+    "des": "为己方全体治疗80%攻击的生命",
     "targetType": "team_all",
-    "mul": 0.9
+    "mul": 0.8
   },
   "2050401": {
     "name": "断流",
@@ -1020,17 +1020,17 @@
     "name": "聚灵",
     "sound": "huoyanranshao",
     "type": "heal",
-    "des": "为己方生命最少的队友治疗103%攻击的生命",
+    "des": "为己方生命最少的队友治疗93%攻击的生命",
     "targetType": "team_minHp_1",
-    "mul": 1.03
+    "mul": 0.93
   },
   "3050302": {
     "name": "摄生魂咒",
     "sound": "huoyanranshao",
     "type": "heal",
-    "des": "为己方全体治疗90%攻击的生命",
+    "des": "为己方全体治疗80%攻击的生命",
     "targetType": "team_all",
-    "mul": 0.9
+    "mul": 0.8
   },
   "3050401": {
     "name": "摄魂",
@@ -1436,17 +1436,17 @@
     "name": "回天",
     "sound": "zhiliao3",
     "type": "heal",
-    "des": "为己方生命最少的队友治疗103%攻击的生命",
+    "des": "为己方生命最少的队友治疗93%攻击的生命",
     "targetType": "team_minHp_1",
-    "mul": 1.03
+    "mul": 0.93
   },
   "4050302": {
     "name": "福泽三界",
     "sound": "zhiliao3",
     "type": "heal",
-    "des": "为己方全体治疗90%攻击的生命",
+    "des": "为己方全体治疗80%攻击的生命",
     "targetType": "team_all",
-    "mul": 0.9
+    "mul": 0.8
   },
   "4050401": {
     "name": "龙威",
@@ -1545,10 +1545,10 @@
     "name": "青龙吐息",
     "sound": "dulong",
     "type": "attack",
-    "des": "对敌方前排造成172%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害100%的中毒伤害，持续2回合",
+    "des": "对敌方前排造成153%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害100%的中毒伤害，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_horizontal_front",
-    "mul": 1.72,
+    "mul": 1.53,
     "buffId": "poison",
     "buffArg": 1,
     "duration": 2,
@@ -1627,10 +1627,10 @@
     "name": "暴殄天物",
     "sound": "gongji8",
     "type": "attack",
-    "des": "对敌方随机3人造成140%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害80%的中毒伤害，持续2回合",
+    "des": "对敌方随机3人造成130%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害80%的中毒伤害，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.4,
+    "mul": 1.3,
     "buffId": "poison",
     "buffArg": 0.8,
     "duration": 2,
@@ -1640,16 +1640,16 @@
     "name": "静心诀",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗103%攻击的生命",
+    "des": "为己方损失血量最多的英雄治疗93%攻击的生命",
     "targetType": "team_lossMaxHP",
-    "mul": 1.03
+    "mul": 0.93
   },
   "4051302": {
     "name": "清心诀",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗355%攻击的生命",
+    "des": "为己方损失血量最多的英雄治疗255%攻击的生命",
     "targetType": "team_lossMaxHP",
-    "mul": 3.55
+    "mul": 2.55
   }
 }
