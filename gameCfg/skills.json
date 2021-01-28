@@ -115,10 +115,10 @@
     "name": "游龙",
     "sound": "xiaobailongjineng",
     "type": "attack",
-    "des": "对敌方前排造成47%物理伤害",
+    "des": "对敌方单体造成95%物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 0.47
+    "targetType": "enemy_normal",
+    "mul": 0.95
   },
   "1040302": {
     "name": "剑出四海",
@@ -194,19 +194,19 @@
     "name": "圣言",
     "sound": "yinlv",
     "type": "attack",
-    "des": "对敌方纵排造成65%的物理伤害",
+    "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_vertical",
-    "mul": 0.65
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "1050302": {
     "name": "音律染紫",
     "sound": "yinlv",
     "effects": "1050302-dslm",
     "type": "attack",
-    "des": "对敌方后排造成163%的物理伤害，并回复自身1点怒气",
+    "des": "对敌方随机2-4个目标造成163%的物理伤害，并回复自身1点怒气",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_rand_24",
     "mul": 1.63,
     "skill_anger_s": 1
   },
@@ -214,18 +214,18 @@
     "name": "焰枪",
     "sound": "huoyan",
     "type": "attack",
-    "des": "对敌方后排单体造成95%的法术伤害",
+    "des": "对敌方单体造成95%的法术伤害",
     "damageType": "mag",
-    "targetType": "enemy_normal_back",
+    "targetType": "enemy_normal",
     "mul": 0.95
   },
   "1050402": {
     "name": "枪舞燃焱",
     "sound": "huoyanranshao",
     "type": "attack",
-    "des": "对敌方后排单体造成333%的法术伤害，并回复自身1点怒气",
+    "des": "对敌方单体造成333%的法术伤害，并回复自身1点怒气",
     "damageType": "mag",
-    "targetType": "enemy_normal_back",
+    "targetType": "enemy_normal",
     "mul": 3.33,
     "skill_anger_s": 1
   },
@@ -636,13 +636,13 @@
     "name": "止洪屏障",
     "sound": "shuigong",
     "type": "attack",
-    "des": "对敌方前排造成155%物理伤害，并给己方前排英雄附加1个护盾，使他们受到的直接伤害减少20%，持续1回合",
+    "des": "对敌方前排造成155%物理伤害，并给己方前排英雄附加1个物理护盾，使他们受到的物理伤害减少28%，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_horizontal_front",
     "mul": 1.55,
     "buffId": "reduction",
     "buff_tg": "team_horizontal_front",
-    "buffArg": 0.2,
+    "buffArg": 0.28,
     "duration": 1,
     "buffRate": 1
   },
@@ -698,20 +698,26 @@
     "name": "剑定天下",
     "sound": "jiansheng3",
     "type": "attack",
-    "des": "对敌方单体造成355%的物理伤害，并回复自身1点怒气",
+    "des": "对敌方单体造成355%的物理伤害，并造成重伤效果，持续2回合\\n<font color='#827c76'>【重伤】：携带该状态的英雄治疗效果降低70%</font>",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.55,
-    "skill_anger_s": 1
+    "buffId": "forbidden",
+    "buff_tg": "skill_targets",
+    "duration": 2,
+    "buffRate": 1
   },
   "2050801": {
     "name": "凤舞",
     "sound": "huoyan",
     "type": "attack",
-    "des": "对敌方单体造成90%的物理伤害",
+    "des": "对敌方随机单体造成90%的物理伤害，并有50%概率震慑目标，持续1回合。\\n<font color='#827c76'>【震慑】：携带该状态的英雄直接伤害降低30%</font>",
     "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 0.9
+    "targetType": "enemy_1",
+    "mul": 0.9,
+    "buffId": "zhenshe",
+    "buff_tg": "skill_targets",
+    "duration": 1
   },
   "2050802": {
     "name": "九阴九阳",
@@ -1102,11 +1108,14 @@
     "name": "干戚之舞",
     "sound": "zhongji",
     "type": "attack",
-    "des": "对敌方后排单体造成335%的物理伤害，并追加1次普通攻击。（追加普通攻击不会回复怒气）",
+    "des": "对敌方后排单体造成335%的物理伤害，并锁定目标，持续2回合\\n<font color='#827c76'>【锁定】：携带该状态的英雄无法闪避,且受到的直接伤害增加20%</font>",
     "damageType": "phy",
     "targetType": "enemy_normal_back",
     "mul": 3.35,
-    "add_d_s": true
+    "buffId": "suoding",
+    "buff_tg": "skill_targets",
+    "duration": 2,
+    "buffRate": 1
   },
   "3050801": {
     "name": "横扫",
@@ -1245,24 +1254,6 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.75
-  },
-  "4010201": {
-    "name": "猛击",
-    "sound": "gaoji3",
-    "type": "attack",
-    "des": "对敌方单体造成100%的物理伤害",
-    "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 1
-  },
-  "4010202": {
-    "name": "跳跃撞击",
-    "sound": "gaoji3",
-    "type": "attack",
-    "des": "对敌方全体造成100%物理伤害",
-    "damageType": "phy",
-    "targetType": "enemy_all",
-    "mul": 1
   },
   "4020101": {
     "name": "撞击",
@@ -1461,13 +1452,13 @@
     "name": "玄武守护",
     "sound": "fashu12",
     "type": "attack",
-    "des": "对敌方单体造成350%的物理伤害，并给自身附加1个减伤盾，受到的直接伤害减少30%，持续1回合",
+    "des": "对敌方单体造成350%的物理伤害，并给自身附加1个法术护盾，受到的直接伤害减少50%，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.5,
-    "buffId": "reduction",
+    "buffId": "reduction_mag",
     "buff_tg": "team_self",
-    "buffArg": 0.3,
+    "buffArg": 0.5,
     "duration": 1,
     "buffRate": 1
   },
@@ -1524,10 +1515,10 @@
     "name": "凤舞九天",
     "sound": "fenghuangjineng",
     "type": "attack",
-    "des": "对敌方全体造成102%的物理伤害，有30%概率麻痹目标，持续1回合\\n<font color='#827c76'>【麻痹】：携带该状态的英雄无法进行普通攻击，可以释放技能</font>",
+    "des": "对敌方全体造成130%的物理伤害，有30%概率麻痹目标，持续1回合\\n<font color='#827c76'>【麻痹】：携带该状态的英雄无法进行普通攻击，可以释放技能</font>",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 1.02,
+    "mul": 1.3,
     "buffId": "disarm",
     "duration": 1,
     "buffRate": 0.3
@@ -1648,8 +1639,9 @@
     "name": "清心诀",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗255%攻击的生命",
+    "des": "为己方损失血量最多的英雄治疗255%攻击的生命,并驱散所有负面状态",
     "targetType": "team_lossMaxHP",
-    "mul": 2.55
+    "mul": 2.55,
+    "cleanDebuff": true
   }
 }
