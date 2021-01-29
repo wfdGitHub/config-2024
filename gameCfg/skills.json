@@ -1409,20 +1409,21 @@
     "name": "天雷",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方前排造成49%物理伤害",
+    "des": "对敌方单体造成120%物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 0.49
+    "targetType": "enemy_normal",
+    "mul": 1.2
   },
   "4050202": {
     "name": "九天惊雷",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方全体造成109%的物理伤害，每次击杀目标，自身伤害增加24%",
+    "des": "对敌方全体造成109%的物理伤害，若释放技能后目标血量低于20%，且不超过自身攻击力的三倍，有30%概率直接秒杀。每次击杀目标，自身伤害增加24%。",
     "damageType": "phy",
     "targetType": "enemy_all",
     "mul": 1.09,
-    "kill_amp": 0.24
+    "kill_amp": 0.24,
+    "seckill": 0.3
   },
   "4050301": {
     "name": "回天",
