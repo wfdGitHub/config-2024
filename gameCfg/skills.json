@@ -13,27 +13,27 @@
     "sound": "huikan",
     "effects": "1010102-hys",
     "type": "attack",
-    "des": "对敌方纵排造成235%的物理伤害",
+    "des": "对敌方单体造成235%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_normal",
     "mul": 2.35
   },
   "1020101": {
     "name": "钳击",
     "sound": "huikan2",
     "type": "attack",
-    "des": "对敌方后排单体造成100%的物理伤害",
+    "des": "对敌方单体造成100%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_normal_back",
+    "targetType": "enemy_normal",
     "mul": 1
   },
   "1020102": {
     "name": "巨钳猛击",
     "sound": "huikan",
     "type": "attack",
-    "des": "对敌方后排单体造成350%的物理伤害",
+    "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_normal_back",
+    "targetType": "enemy_normal",
     "mul": 3.5
   },
   "1030101": {
@@ -440,10 +440,10 @@
     "name": "快刀乱斩",
     "sound": "huikan",
     "type": "attack",
-    "des": "对敌方单体造成350%的物理伤害",
+    "des": "对敌方单体造成235%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 3.5
+    "mul": 2.35
   },
   "2020101": {
     "name": "挥剑",
@@ -458,10 +458,10 @@
     "name": "梦里寻剑",
     "sound": "jianji",
     "type": "attack",
-    "des": "对敌方前排造成235%物理伤害",
+    "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 2.35
+    "targetType": "enemy_normal",
+    "mul": 3.5
   },
   "2030101": {
     "name": "袖击",
@@ -857,10 +857,10 @@
     "name": "紫光影斩",
     "sound": "gongji8",
     "type": "attack",
-    "des": "对敌方单体造成350%的物理伤害",
+    "des": "对敌方单体造成235%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 3.5
+    "mul": 2.35
   },
   "3020101": {
     "name": "爪击",
@@ -875,10 +875,10 @@
     "name": "幻雾朦胧",
     "sound": "gongji8",
     "type": "attack",
-    "des": "对敌方前排造成172%物理伤害",
+    "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 1.72
+    "targetType": "enemy_normal",
+    "mul": 3.5
   },
   "3030101": {
     "name": "葫击",
@@ -1259,8 +1259,8 @@
     "name": "冲撞",
     "sound": "gaoji3",
     "type": "attack",
-    "des": "对敌方单体造成100%的法术伤害",
-    "damageType": "mag",
+    "des": "对敌方单体造成100%的物理伤害",
+    "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
@@ -1268,10 +1268,10 @@
     "name": "横冲乱撞",
     "sound": "gaoji3",
     "type": "attack",
-    "des": "对敌方随机3人造成175%的法术伤害",
-    "damageType": "mag",
-    "targetType": "enemy_3",
-    "mul": 1.75
+    "des": "对敌方单体造成235%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.35
   },
   "4020101": {
     "name": "撞击",
@@ -1286,10 +1286,10 @@
     "name": "横冲直撞",
     "sound": "gaoji3",
     "type": "attack",
-    "des": "对敌方前排造成235%物理伤害",
+    "des": "对敌方单体造成350%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 2.35
+    "targetType": "enemy_normal",
+    "mul": 3.5
   },
   "4030101": {
     "name": "撞击",
