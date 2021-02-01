@@ -410,6 +410,23 @@
     "buffRate": 1,
     "maxHP_damage": 0.12
   },
+  "1051401": {
+    "name": "张辽1",
+    "type": "attack",
+    "des": "对敌方单体造成100%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "1051402": {
+    "name": "张辽2",
+    "type": "attack",
+    "des": "对敌方生命值最少的目标造成425%的物理伤害,若击杀目标，则再次释放技能",
+    "damageType": "phy",
+    "targetType": "enemy_minHP",
+    "mul": 4.25,
+    "killRet": true
+  },
   "2010101": {
     "name": "挥砍",
     "sound": "huikan2",
