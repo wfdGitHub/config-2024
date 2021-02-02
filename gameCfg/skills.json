@@ -242,9 +242,9 @@
     "sound": "zhiliao",
     "effects": "1040402-huitian",
     "type": "heal",
-    "des": "为己方生命最少的3个单位治疗155%攻击的生命",
+    "des": "为己方生命最少的3个单位治疗165%攻击的生命",
     "targetType": "team_minHp_3",
-    "mul": 1.55
+    "mul": 1.65
   },
   "1050601": {
     "name": "镇压",
@@ -628,9 +628,14 @@
     "name": "扶伤",
     "sound": "longwang",
     "type": "heal",
-    "des": "为己方生命最少的队友治疗93%攻击的生命",
+    "des": "为己方生命最少的队友治疗93%攻击的生命,并附加物理伤害减免30%的物理护盾,持续1回合。",
     "targetType": "team_minHp_1",
-    "mul": 0.93
+    "mul": 0.93,
+    "buffId": "reduction",
+    "buff_tg": "skill_targets",
+    "buffArg": 0.3,
+    "duration": 1,
+    "buffRate": 1
   },
   "2050302": {
     "name": "百草圣药",
@@ -653,11 +658,11 @@
     "name": "止洪屏障",
     "sound": "shuigong",
     "type": "attack",
-    "des": "对敌方前排造成155%物理伤害，并给己方前排英雄附加1个物理护盾，使他们受到的物理伤害减少28%，持续1回合",
+    "des": "对敌方前排造成155%物理伤害，并给己方前排英雄附加1个法术护盾，使他们受到的法术伤害减少28%，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_horizontal_front",
     "mul": 1.55,
-    "buffId": "reduction",
+    "buffId": "reduction_mag",
     "buff_tg": "team_horizontal_front",
     "buffArg": 0.28,
     "duration": 1,
@@ -1454,9 +1459,9 @@
     "name": "福泽三界",
     "sound": "zhiliao3",
     "type": "heal",
-    "des": "为己方全体治疗80%攻击的生命",
+    "des": "为己方全体治疗100%攻击的生命",
     "targetType": "team_all",
-    "mul": 0.8
+    "mul": 1
   },
   "4050401": {
     "name": "龙威",
@@ -1471,11 +1476,11 @@
     "name": "玄武守护",
     "sound": "fashu12",
     "type": "attack",
-    "des": "对敌方单体造成350%的物理伤害，并给自身附加1个法术护盾，受到的直接伤害减少50%，持续1回合",
+    "des": "对敌方单体造成350%的物理伤害，并给自身附加1个物理护盾，受到的直接伤害减少40%，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.5,
-    "buffId": "reduction_mag",
+    "buffId": "reduction",
     "buff_tg": "team_self",
     "buffArg": 0.5,
     "duration": 1,
@@ -1555,10 +1560,10 @@
     "name": "青龙吐息",
     "sound": "dulong",
     "type": "attack",
-    "des": "对敌方前排造成153%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害100%的中毒伤害，持续2回合",
+    "des": "对敌方随机三人造成70%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害100%的中毒伤害，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_front",
-    "mul": 1.53,
+    "targetType": "enemy_3",
+    "mul": 0.7,
     "buffId": "poison",
     "buffArg": 1,
     "duration": 2,
@@ -1637,30 +1642,35 @@
     "name": "暴殄天物",
     "sound": "gongji8",
     "type": "attack",
-    "des": "对敌方随机3人造成130%的法术伤害，有60%概率附加中毒效果，每回合对目标造成自身攻击伤害80%的中毒伤害，持续2回合",
+    "des": "对敌方前排造成120%的法术伤害，有30%概率附加中毒效果，每回合对目标造成自身攻击伤害80%的中毒伤害，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_3",
-    "mul": 1.3,
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.2,
     "buffId": "poison",
     "buffArg": 0.8,
     "duration": 2,
-    "buffRate": 0.6
+    "buffRate": 0.3
   },
   "4051301": {
     "name": "静心诀",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗93%攻击的生命",
+    "des": "为己方损失血量最多的英雄治疗100%攻击的生命",
     "targetType": "team_lossMaxHP",
-    "mul": 0.93
+    "mul": 1
   },
   "4051302": {
     "name": "清心诀",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗255%攻击的生命,并驱散所有负面状态",
+    "des": "为己方损失血量最多的英雄治疗255%攻击的生命,驱散所有负面状态，并附加法术伤害减免30%的法术护盾,持续2回合",
     "targetType": "team_lossMaxHP",
     "mul": 2.55,
+    "buffId": "reduction_mag",
+    "buff_tg": "skill_targets",
+    "buffArg": 0.3,
+    "duration": 2,
+    "buffRate": 1,
     "cleanDebuff": true
   }
 }
