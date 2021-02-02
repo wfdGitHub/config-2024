@@ -164,31 +164,31 @@
     "sound": "taishanglaojin",
     "effects": "1050102-sqms",
     "type": "attack",
-    "des": "对敌方全体造成105%法术伤害，技能目标每减少1个，伤害增加15%",
+    "des": "对敌方全体造成110%法术伤害，技能目标每减少1个，伤害增加15%",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 1.05,
+    "mul": 1.1,
     "lessAmp": 0.15
   },
   "1050201": {
     "name": "圣意",
     "sound": "taishanglaojin",
     "type": "attack",
-    "des": "对敌方前排造成47%物理伤害",
+    "des": "对敌方单体造成90%物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 0.47
+    "targetType": "enemy_normal",
+    "mul": 0.9
   },
   "1050202": {
     "name": "如意蟠桃",
     "sound": "taishanglaojin",
     "effects": "1050202-yszq",
     "type": "attack",
-    "des": "对敌方前排造成163%物理伤害，并回复全体队友1点怒气",
+    "des": "对敌方随机三个目标造成135%物理伤害，并偷取目标10%的攻击力，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_horizontal_front",
-    "mul": 1.63,
-    "skill_anger_a": 1
+    "mul": 1.35,
+    "suckAtk": 0.1
   },
   "1050301": {
     "name": "圣言",
@@ -204,10 +204,10 @@
     "sound": "yinlv",
     "effects": "1050302-dslm",
     "type": "attack",
-    "des": "对敌方随机2-4个目标造成163%的法术伤害，并回复自身1点怒气",
+    "des": "对敌方随机2-4个目标造成175%的法术伤害，并回复自身1点怒气",
     "damageType": "mag",
     "targetType": "enemy_rand_24",
-    "mul": 1.63,
+    "mul": 1.75,
     "skill_anger_s": 1
   },
   "1050401": {
@@ -260,10 +260,10 @@
     "sound": "zhongji2",
     "effects": "1050602-sxrs",
     "type": "attack",
-    "des": "对敌方纵排造成223%的物理伤害，技能伤害的35%转化为自己的生命",
+    "des": "对敌方纵排造成285%的物理伤害，技能伤害的35%转化为自己的生命",
     "damageType": "phy",
     "targetType": "enemy_vertical",
-    "mul": 2.23,
+    "mul": 2.85,
     "turn_rate": 0.35,
     "turn_tg": "team_self"
   },
@@ -400,13 +400,13 @@
     "name": "助周伐纣",
     "sound": "fashu10",
     "type": "attack",
-    "des": "对敌方单体造成175%物理,额外造成目标生命上限12%的真实伤害,并沉默目标一回合。",
+    "des": "对敌方单体造成225%物理,额外造成目标生命上限12%的真实伤害,并沉默目标2回合。",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.75,
+    "mul": 2.25,
     "buffId": "silence",
     "buff_tg": "skill_targets",
-    "duration": 1,
+    "duration": 2,
     "buffRate": 1,
     "maxHP_damage": 0.12
   },
@@ -1008,8 +1008,8 @@
     "name": "开天",
     "sound": "gongji7",
     "type": "attack",
-    "des": "对敌方后排造成44%物理伤害",
-    "damageType": "phy",
+    "des": "对敌方后排造成44%法术伤害",
+    "damageType": "mag",
     "targetType": "enemy_horizontal_back",
     "mul": 0.44
   },
@@ -1017,10 +1017,10 @@
     "name": "开天辟地",
     "sound": "zhongji",
     "type": "attack",
-    "des": "对敌方后排造成155%物理伤害，如果目标处于灼烧状态，造成的伤害额外增加60%",
-    "damageType": "phy",
+    "des": "对敌方后排造成165%法术伤害，如果目标处于灼烧状态，造成的伤害额外增加60%",
+    "damageType": "mag",
     "targetType": "enemy_horizontal_back",
-    "mul": 1.55,
+    "mul": 1.65,
     "burn_att_change_skill": "{\"amplify\":0.6}"
   },
   "3050201": {
@@ -1431,19 +1431,19 @@
     "name": "天雷",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方单体造成120%物理伤害",
+    "des": "对敌方单体造成135%物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.2
+    "mul": 1.35
   },
   "4050202": {
     "name": "九天惊雷",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方全体造成109%的物理伤害，若释放技能后目标血量低于20%，且不超过自身攻击力的三倍，有30%概率直接秒杀。每次击杀目标，自身伤害增加24%。",
+    "des": "对敌方全体造成110%的物理伤害，若释放技能后目标血量低于20%，且不超过自身攻击力的三倍，有30%概率直接秒杀。每次击杀目标，自身伤害增加24%。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 1.09,
+    "mul": 1.1,
     "kill_amp": 0.24,
     "seckill": 0.3
   },
