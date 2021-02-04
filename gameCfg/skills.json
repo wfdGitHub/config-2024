@@ -1678,5 +1678,25 @@
     "duration": 2,
     "buffRate": 1,
     "cleanDebuff": true
+  },
+  "4051401": {
+    "name": "庞德1",
+    "type": "attack",
+    "des": "对敌方单体造成100%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "4051402": {
+    "name": "庞德2",
+    "type": "attack",
+    "des": "技能 对敌方前排造成100%的物理伤害，有50%概率嘲讽敌人,持续2回合\\n<font color='#827c76'>【嘲讽】：携带该状态的英雄攻击时优先选择嘲讽者为目标</font>",
+    "damageType": "phy",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1,
+    "buffId": "chaofeng",
+    "buff_tg": "skill_targets",
+    "duration": 2,
+    "buffRate": 0.5
   }
 }
