@@ -712,10 +712,14 @@
     "name": "白虹",
     "sound": "jiansheng2",
     "type": "attack",
-    "des": "对敌方单体造成90%的物理伤害",
+    "des": "对敌方单体造成90%的物理伤害，并造成重伤效果，持续2回合\\n<font color='#827c76'>【重伤】：携带该状态的英雄治疗效果降低70%</font>",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 0.9
+    "mul": 0.9,
+    "buffId": "forbidden",
+    "buff_tg": "skill_targets",
+    "duration": 2,
+    "buffRate": 1
   },
   "2050702": {
     "name": "剑定天下",
