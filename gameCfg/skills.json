@@ -422,9 +422,9 @@
   "1051402": {
     "name": "张辽2",
     "type": "attack",
-    "des": "对敌方生命值最少的目标造成425%的物理伤害,若击杀目标，则再次释放技能",
+    "des": "对敌方单体造成425%的物理伤害,若击杀目标，则再次释放技能",
     "damageType": "phy",
-    "targetType": "enemy_minHP",
+    "targetType": "enemy_normal",
     "mul": 4.25,
     "killRet": true
   },
