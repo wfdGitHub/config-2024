@@ -119,7 +119,6 @@
   "4001": {
     "name": "星光护符",
     "des": "星光护符",
-    "isBag": true,
     "type": "hufu",
     "arg": "{\"lv\":1}",
     "quality": 3
@@ -127,7 +126,6 @@
   "4002": {
     "name": "月光护符",
     "des": "月光护符",
-    "isBag": true,
     "type": "hufu",
     "arg": "{\"lv\":2}",
     "quality": 4
@@ -135,7 +133,6 @@
   "4003": {
     "name": "太阳护符",
     "des": "太阳护符",
-    "isBag": true,
     "type": "hufu",
     "arg": "{\"lv\":3}",
     "quality": 5
@@ -143,13 +140,163 @@
   "4004": {
     "name": "银河护符",
     "des": "银河护符",
-    "isBag": true,
     "type": "hufu",
     "arg": "{\"lv\":4}",
     "quality": 6
   },
+  "7001": {
+    "name": "举世无双",
+    "des": "举世无双",
+    "type": "title",
+    "arg": 1001
+  },
+  "7002": {
+    "name": "天下第一",
+    "des": "天下第一",
+    "type": "title",
+    "arg": 1002
+  },
+  "8001": {
+    "name": "头像框1",
+    "des": "头像框1",
+    "type": "frame",
+    "arg": 1001
+  },
+  "8002": {
+    "name": "头像框2",
+    "des": "头像框2",
+    "type": "frame",
+    "arg": 1002
+  },
+  "9001": {
+    "name": "贾诩皮肤",
+    "des": "贾诩皮肤",
+    "type": "skin",
+    "arg": "105010_1",
+    "quality": 7
+  },
+  "9002": {
+    "name": "曹丕皮肤",
+    "des": "曹丕皮肤",
+    "type": "skin",
+    "arg": "105030_1"
+  },
+  "9003": {
+    "name": "夏侯惇皮肤",
+    "des": "夏侯惇皮肤",
+    "type": "skin",
+    "arg": "105060_1"
+  },
+  "9004": {
+    "name": "典韦皮肤",
+    "des": "典韦皮肤",
+    "type": "skin",
+    "arg": "105080_1"
+  },
+  "9005": {
+    "name": "许褚皮肤",
+    "des": "许褚皮肤",
+    "type": "skin",
+    "arg": "105130_1"
+  },
+  "9006": {
+    "name": "赵云SP皮肤",
+    "des": "赵云SP皮肤",
+    "type": "skin",
+    "arg": "205010_sp"
+  },
+  "9007": {
+    "name": "诸葛亮皮肤",
+    "des": "诸葛亮皮肤",
+    "type": "skin",
+    "arg": "205020_1"
+  },
+  "9008": {
+    "name": "黄月英皮肤",
+    "des": "黄月英皮肤",
+    "type": "skin",
+    "arg": "205050_1"
+  },
+  "9009": {
+    "name": "关羽皮肤",
+    "des": "关羽皮肤",
+    "type": "skin",
+    "arg": "205070_1"
+  },
+  "9010": {
+    "name": "张飞皮肤",
+    "des": "张飞皮肤",
+    "type": "skin",
+    "arg": "205080_1"
+  },
+  "9011": {
+    "name": "孙策皮肤",
+    "des": "孙策皮肤",
+    "type": "skin",
+    "arg": "305010_1"
+  },
+  "9012": {
+    "name": "周瑜SP皮肤",
+    "des": "周瑜SP皮肤",
+    "type": "skin",
+    "arg": "305020_sp"
+  },
+  "9013": {
+    "name": "孙坚皮肤",
+    "des": "孙坚皮肤",
+    "type": "skin",
+    "arg": "305040_1"
+  },
+  "9014": {
+    "name": "孙尚香皮肤",
+    "des": "孙尚香皮肤",
+    "type": "skin",
+    "arg": "305050_1"
+  },
+  "9015": {
+    "name": "太史慈皮肤",
+    "des": "太史慈皮肤",
+    "type": "skin",
+    "arg": "305070_1"
+  },
+  "9016": {
+    "name": "左慈皮肤",
+    "des": "左慈皮肤",
+    "type": "skin",
+    "arg": "405010_1"
+  },
+  "9017": {
+    "name": "吕布皮肤",
+    "des": "吕布皮肤",
+    "type": "skin",
+    "arg": "405020_1"
+  },
+  "9018": {
+    "name": "公孙瓒皮肤",
+    "des": "公孙瓒皮肤",
+    "type": "skin",
+    "arg": "405050_1"
+  },
+  "9019": {
+    "name": "董白皮肤",
+    "des": "董白皮肤",
+    "type": "skin",
+    "arg": "405070_1"
+  },
+  "9020": {
+    "name": "于吉皮肤",
+    "des": "于吉皮肤",
+    "type": "skin",
+    "arg": "405080_1"
+  },
+  "9021": {
+    "name": "庞德皮肤",
+    "des": "庞德皮肤",
+    "type": "skin",
+    "arg": "405140_1"
+  },
   "103010": {
-    "name": "天兵碎片",
+    "name": "谋士碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -159,7 +306,7 @@
     "quality": 3
   },
   "103020": {
-    "name": "天将碎片",
+    "name": "枪盾骑碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -170,7 +317,7 @@
   },
   "104000": {
     "name": "4星仙族碎片",
-    "des": "30个碎片可合成仙族4星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -181,7 +328,7 @@
     "quality": 4
   },
   "104010": {
-    "name": "花仙女碎片",
+    "name": "曹纯碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -193,7 +340,7 @@
     "quality": 4
   },
   "104020": {
-    "name": "巨灵神碎片",
+    "name": "张春华碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -205,7 +352,7 @@
     "quality": 4
   },
   "104030": {
-    "name": "小白龙碎片",
+    "name": "于禁碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -217,7 +364,7 @@
     "quality": 4
   },
   "104040": {
-    "name": "小龙女碎片",
+    "name": "辛宪英碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -230,7 +377,7 @@
   },
   "105000": {
     "name": "5星仙族碎片",
-    "des": "30个碎片可合成仙族5星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -240,7 +387,7 @@
     "quality": 5
   },
   "105010": {
-    "name": "太上老君碎片",
+    "name": "贾诩碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -250,7 +397,7 @@
     "quality": 5
   },
   "105020": {
-    "name": "西灵圣母碎片",
+    "name": "张郃碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -260,7 +407,7 @@
     "quality": 5
   },
   "105030": {
-    "name": "碧落神女碎片",
+    "name": "曹丕碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -270,7 +417,7 @@
     "quality": 5
   },
   "105040": {
-    "name": "哪吒碎片",
+    "name": "曹操碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -280,7 +427,7 @@
     "quality": 5
   },
   "105050": {
-    "name": "女娲碎片",
+    "name": "蔡文姬碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -290,7 +437,7 @@
     "quality": 5
   },
   "105060": {
-    "name": "托塔天王碎片",
+    "name": "夏侯惇碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -300,7 +447,7 @@
     "quality": 5
   },
   "105070": {
-    "name": "昊天大帝碎片",
+    "name": "荀彧碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -310,7 +457,7 @@
     "quality": 5
   },
   "105080": {
-    "name": "南极仙翁碎片",
+    "name": "典韦碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -320,7 +467,7 @@
     "quality": 5
   },
   "105090": {
-    "name": "东海龙王碎片",
+    "name": "乐进碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -330,7 +477,7 @@
     "quality": 5
   },
   "105100": {
-    "name": "雷公碎片",
+    "name": "徐晃碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -340,7 +487,7 @@
     "quality": 5
   },
   "105110": {
-    "name": "东华帝君碎片",
+    "name": "夏侯渊碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -350,7 +497,7 @@
     "quality": 5
   },
   "105120": {
-    "name": "月宫仙子碎片",
+    "name": "荀攸碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -360,7 +507,7 @@
     "quality": 5
   },
   "105130": {
-    "name": "杨戬碎片",
+    "name": "许褚碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -369,8 +516,18 @@
     "buyNum": 30,
     "quality": 5
   },
+  "105140": {
+    "name": "张辽碎片",
+    "des": "集齐30个碎片即可召唤该英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 105140,
+    "buyNum": 30,
+    "quality": 5
+  },
   "203010": {
-    "name": "飞燕女碎片",
+    "name": "巨盾兵碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -380,7 +537,7 @@
     "quality": 3
   },
   "203020": {
-    "name": "御林军碎片",
+    "name": "藤甲兵碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -391,7 +548,7 @@
   },
   "204000": {
     "name": "4星人族碎片",
-    "des": "30个碎片可合成人族4星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -402,7 +559,7 @@
     "quality": 4
   },
   "204010": {
-    "name": "玄彩女碎片",
+    "name": "星彩碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -414,7 +571,7 @@
     "quality": 4
   },
   "204020": {
-    "name": "英女侠碎片",
+    "name": "刘封碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -426,7 +583,7 @@
     "quality": 4
   },
   "204030": {
-    "name": "红拂女碎片",
+    "name": "马谡碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -438,7 +595,7 @@
     "quality": 4
   },
   "204040": {
-    "name": "金守将碎片",
+    "name": "王平碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -451,7 +608,7 @@
   },
   "205000": {
     "name": "5星人族碎片",
-    "des": "30个碎片可合成人族5星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -461,7 +618,7 @@
     "quality": 5
   },
   "205010": {
-    "name": "轩辕帝碎片",
+    "name": "赵云碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -471,7 +628,7 @@
     "quality": 5
   },
   "205020": {
-    "name": "姜子牙碎片",
+    "name": "诸葛亮碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -481,7 +638,7 @@
     "quality": 5
   },
   "205030": {
-    "name": "神农碎片",
+    "name": "刘备碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -491,7 +648,7 @@
     "quality": 5
   },
   "205040": {
-    "name": "大禹碎片",
+    "name": "马超碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -501,7 +658,7 @@
     "quality": 5
   },
   "205050": {
-    "name": "妲己碎片",
+    "name": "黄月英碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -511,7 +668,7 @@
     "quality": 5
   },
   "205060": {
-    "name": "杜康碎片",
+    "name": "庞统碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -521,7 +678,7 @@
     "quality": 5
   },
   "205070": {
-    "name": "缙云碎片",
+    "name": "关羽碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -531,7 +688,7 @@
     "quality": 5
   },
   "205080": {
-    "name": "九凤碎片",
+    "name": "张飞碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -541,7 +698,7 @@
     "quality": 5
   },
   "205090": {
-    "name": "听涛碎片",
+    "name": "刘禅碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -551,7 +708,7 @@
     "quality": 5
   },
   "205100": {
-    "name": "云裳碎片",
+    "name": "关凤碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -561,7 +718,7 @@
     "quality": 5
   },
   "205110": {
-    "name": "鬼谷子碎片",
+    "name": "魏延碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -571,7 +728,7 @@
     "quality": 5
   },
   "205120": {
-    "name": "云中子碎片",
+    "name": "黄忠碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -581,7 +738,7 @@
     "quality": 5
   },
   "205130": {
-    "name": "夸父碎片",
+    "name": "法正碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -591,7 +748,7 @@
     "quality": 5
   },
   "303010": {
-    "name": "金角碎片",
+    "name": "蛊师碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -601,7 +758,7 @@
     "quality": 3
   },
   "303020": {
-    "name": "银角碎片",
+    "name": "弓骑兵碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -612,7 +769,7 @@
   },
   "304000": {
     "name": "4星巫族碎片",
-    "des": "30个碎片可合成巫族4星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -623,7 +780,7 @@
     "quality": 4
   },
   "304010": {
-    "name": "牛头碎片",
+    "name": "甘宁碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -635,7 +792,7 @@
     "quality": 4
   },
   "304020": {
-    "name": "马面碎片",
+    "name": "孙皓碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -647,7 +804,7 @@
     "quality": 4
   },
   "304030": {
-    "name": "千丝女碎片",
+    "name": "步练师碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -659,7 +816,7 @@
     "quality": 4
   },
   "304040": {
-    "name": "巫蛮儿碎片",
+    "name": "孙小虎碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -672,7 +829,7 @@
   },
   "305000": {
     "name": "5星巫族碎片",
-    "des": "30个碎片可合成巫族5星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -682,7 +839,7 @@
     "quality": 5
   },
   "305010": {
-    "name": "蚩尤碎片",
+    "name": "孙策碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -692,7 +849,7 @@
     "quality": 5
   },
   "305020": {
-    "name": "祝融碎片",
+    "name": "周瑜碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -702,7 +859,7 @@
     "quality": 5
   },
   "305030": {
-    "name": "风伯碎片",
+    "name": "小乔碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -712,7 +869,7 @@
     "quality": 5
   },
   "305040": {
-    "name": "鬼将碎片",
+    "name": "孙坚碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -722,7 +879,7 @@
     "quality": 5
   },
   "305050": {
-    "name": "金翅大鹏碎片",
+    "name": "孙尚香碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -732,7 +889,7 @@
     "quality": 5
   },
   "305060": {
-    "name": "判官碎片",
+    "name": "张昭碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -742,7 +899,7 @@
     "quality": 5
   },
   "305070": {
-    "name": "刑天碎片",
+    "name": "太史慈碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -752,7 +909,7 @@
     "quality": 5
   },
   "305080": {
-    "name": "白象碎片",
+    "name": "陆逊碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -762,7 +919,7 @@
     "quality": 5
   },
   "305090": {
-    "name": "幽冥碎片",
+    "name": "徐盛碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -772,7 +929,7 @@
     "quality": 5
   },
   "305100": {
-    "name": "牛魔碎片",
+    "name": "大乔碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -782,7 +939,7 @@
     "quality": 5
   },
   "305110": {
-    "name": "镜花影碎片",
+    "name": "丁奉碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -792,7 +949,7 @@
     "quality": 5
   },
   "305120": {
-    "name": "九尾狐碎片",
+    "name": "吕蒙碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -802,7 +959,7 @@
     "quality": 5
   },
   "305130": {
-    "name": "申公豹碎片",
+    "name": "鲁肃碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -812,7 +969,7 @@
     "quality": 5
   },
   "403010": {
-    "name": "白熊碎片",
+    "name": "黄巾力士碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -822,7 +979,7 @@
     "quality": 3
   },
   "403020": {
-    "name": "雪狼碎片",
+    "name": "枪骑兵碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -833,7 +990,7 @@
   },
   "404000": {
     "name": "4星兽族碎片",
-    "des": "30个碎片可合成兽族4星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -844,7 +1001,7 @@
     "quality": 4
   },
   "404010": {
-    "name": "幼年白虎碎片",
+    "name": "祝融碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -856,7 +1013,7 @@
     "quality": 4
   },
   "404020": {
-    "name": "幼年狐狸碎片",
+    "name": "高顺碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -868,7 +1025,7 @@
     "quality": 4
   },
   "404030": {
-    "name": "幼年饕餮碎片",
+    "name": "袁绍碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -880,7 +1037,7 @@
     "quality": 4
   },
   "404040": {
-    "name": "幼年麒麟碎片",
+    "name": "文丑碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -893,7 +1050,7 @@
   },
   "405000": {
     "name": "5星兽族碎片",
-    "des": "30个碎片可合成兽族5星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -903,7 +1060,7 @@
     "quality": 5
   },
   "405010": {
-    "name": "四不像碎片",
+    "name": "左慈碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -913,7 +1070,7 @@
     "quality": 5
   },
   "405020": {
-    "name": "穷奇碎片",
+    "name": "吕布碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -923,7 +1080,7 @@
     "quality": 5
   },
   "405030": {
-    "name": "白泽碎片",
+    "name": "华佗碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -933,7 +1090,7 @@
     "quality": 5
   },
   "405040": {
-    "name": "龙龟碎片",
+    "name": "董卓碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -943,7 +1100,7 @@
     "quality": 5
   },
   "405050": {
-    "name": "黑麒麟碎片",
+    "name": "公孙瓒碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -953,7 +1110,7 @@
     "quality": 5
   },
   "405060": {
-    "name": "白龙碎片",
+    "name": "孟获碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -963,7 +1120,7 @@
     "quality": 5
   },
   "405070": {
-    "name": "凤凰碎片",
+    "name": "董白碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -973,7 +1130,7 @@
     "quality": 5
   },
   "405080": {
-    "name": "烛龙碎片",
+    "name": "于吉碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -983,7 +1140,7 @@
     "quality": 5
   },
   "405090": {
-    "name": "幼鲲碎片",
+    "name": "马腾碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -993,7 +1150,7 @@
     "quality": 5
   },
   "405100": {
-    "name": "麒麟碎片",
+    "name": "袁术碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1003,7 +1160,7 @@
     "quality": 5
   },
   "405110": {
-    "name": "白虎碎片",
+    "name": "张角碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1013,7 +1170,7 @@
     "quality": 5
   },
   "405120": {
-    "name": "饕餮碎片",
+    "name": "刘表碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1023,7 +1180,7 @@
     "quality": 5
   },
   "405130": {
-    "name": "辟水兽碎片",
+    "name": "貂蝉碎片",
     "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1032,9 +1189,19 @@
     "buyNum": 30,
     "quality": 5
   },
+  "405140": {
+    "name": "庞德碎片",
+    "des": "集齐30个碎片即可召唤该英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 405140,
+    "buyNum": 30,
+    "quality": 5
+  },
   "504000": {
     "name": "4星英雄碎片",
-    "des": "30个碎片可合成4星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1046,7 +1213,7 @@
   },
   "505000": {
     "name": "5星英雄碎片",
-    "des": "30个碎片可合成5星英雄",
+    "des": "集齐30个碎片即可召唤该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
