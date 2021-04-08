@@ -1,31 +1,40 @@
 {
   "zhulu_normal": {
-    "amplify": -0.3,
-    "reduction": -0.3,
-    "ce_add": 1
+    "amplify": -0.2,
+    "reduction": -0.2
   },
   "zhulu_elite": {
-    "amplify": -0.2,
-    "reduction": -0.2,
-    "ce_add": 1.25
+    "self_maxHP_add": 0.2
   },
   "zhulu_boss": {
-    "ce_add": 1.5
+    "self_maxHP_add": 0.5,
+    "amplify": 0.1,
+    "reduction": 0.1
   },
   "worldBoss": {
     "self_maxHP_add": 0.5,
     "amplify": 0.3,
-    "reduction": 0.2,
-    "ce_add": 1.75
+    "reduction": 0.2
   },
-  "invade": {
-    "ce_add": 1
-  },
+  "invade": {},
   "main": {},
   "ttt_main": {},
   "ttt_realm": {
     "self_maxHP_add": 0.2,
     "amplify": 0.1,
     "reduction": 0.1
+  },
+  "exercise_1": {
+    "self_maxHP_add": -0.2,
+    "amplify": -0.1,
+    "reduction": -0.1
+  },
+  "exercise_2": {
+    "amplify": 0.1
+  },
+  "exercise_3": {
+    "self_maxHP_add": 0.3,
+    "amplify": 0.15,
+    "reduction": 0.15
   }
 }
