@@ -1370,14 +1370,14 @@
     "value1": 2
   },
   "2053": {
-    "des": "暴击伤害+30%",
+    "des": "暴击伤害+20%",
     "key1": "slay",
-    "value1": 0.3
+    "value1": 0.2
   },
   "2054": {
-    "des": "伤害减免+20%",
+    "des": "伤害减免+15%",
     "key1": "reduction",
-    "value1": 0.2
+    "value1": 0.15
   },
   "3001": {
     "des": "释放技能有40%几率追加1次技能，对全体造成41%法术伤害",
@@ -1579,9 +1579,9 @@
     "value1": 1
   },
   "3040": {
-    "des": "自身生命增加30%",
+    "des": "自身生命增加25%",
     "key1": "self_maxHP_add",
-    "value1": 0.3
+    "value1": 0.25
   },
   "3041": {
     "des": "眩晕敌方英雄时，清空其所有怒气",
@@ -2368,6 +2368,38 @@
     "key1": "kill_heal",
     "value1": 0.3
   },
+  "1050207": {
+    "des": "全体上阵英雄伤害减免+5%",
+    "key1": "team_reduction_add",
+    "value1": 0.05
+  },
+  "1050208": {
+    "des": "与张郃处于同一纵排的友方英雄伤害减免+20%",
+    "key1": "ver_fri_reduction",
+    "value1": 0.2
+  },
+  "1050209": {
+    "des": "技能直接伤害的50%转化为生命，治疗己方生命值最少的队友",
+    "key1": "skill_turn_rate",
+    "value1": 0.5,
+    "key2": "skill_turn_tg",
+    "value2": "team_minHp_1"
+  },
+  "1050225": {
+    "des": "释放技能后，回复所在纵排友方英雄1点怒气",
+    "key1": "skill_ver_anger",
+    "value1": 1
+  },
+  "1050409": {
+    "des": "受到普通攻击后，回复自己1点怒气",
+    "key1": "hit_anger_s",
+    "value1": 1
+  },
+  "1050425": {
+    "des": "死亡时提升全体友方20%伤害减免，持续2回合",
+    "key1": "died_team_buff",
+    "value1": "{\"buffId\":\"armor\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+  },
   "1051406": {
     "des": "直接伤害击杀敌方武将后，自身暴击伤害增加10%，可叠加",
     "key1": "kill_slay",
@@ -2408,15 +2440,125 @@
     "key1": "dodgeRate",
     "value1": 0.1
   },
+  "2050506": {
+    "des": "与黄月英处于同一纵排的友方英雄暴击率+20%",
+    "key1": "ver_fri_crit",
+    "value1": 0.2
+  },
+  "2050507": {
+    "des": "全体上阵英雄命中几率+5%",
+    "key1": "team_hitRate_add",
+    "value1": 0.05
+  },
+  "2050508": {
+    "des": "释放技能后，回复所在纵排英雄1点怒气",
+    "key1": "skill_ver_anger",
+    "value1": 1
+  },
+  "2050509": {
+    "des": "释放技能后，为攻击力最高的友方单体增加20%伤害增益状态，持续1回合",
+    "key1": "skill_later_buff",
+    "value1": "{\"buffId\":\"amplify\",\"duration\":1,\"buffRate\":1,\"buffArg\":0.2,\"buff_tg\":\"team_maxAtk_1\"}"
+  },
+  "2050510": {
+    "des": "与黄月英处于同一纵排的友方英雄攻击力增加黄月英攻击力的20%",
+    "key1": "ver_fri_my_atk",
+    "value1": 0.2
+  },
+  "2050525": {
+    "des": "与黄月英处于同一纵排的友方英雄暴击伤害+20%",
+    "key1": "ver_fri_slay",
+    "value1": 0.2
+  },
+  "2050606": {
+    "des": "与庞统处于同一横排的友方英雄免伤+20%",
+    "key1": "hor_fri_reduction",
+    "value1": 0.2
+  },
+  "2050607": {
+    "des": "全体上阵英雄抗暴几率+5%",
+    "key1": "team_critDef_add",
+    "value1": 0.05
+  },
+  "2050610": {
+    "des": "与庞统处于同一横排的友方英雄生命值增加庞统生命值的20%",
+    "key1": "hor_fri_my_maxHp",
+    "value1": 0.2
+  },
+  "2050625": {
+    "des": "释放技能后，回复所在横排英雄1点怒气",
+    "key1": "skill_hor_anger",
+    "value1": 1
+  },
+  "2051309": {
+    "des": "法术防御+100%",
+    "key1": "self_magDef_add",
+    "value1": 1
+  },
+  "2051310": {
+    "des": "每回合伤害永久增加10%，可叠加",
+    "key1": "round_amplify",
+    "value1": 0.1
+  },
+  "2051325": {
+    "des": "出手前每受到一次伤害，本回合伤害增加15%，可叠加",
+    "key1": "behit_amplify",
+    "value1": 0.15
+  },
+  "3050125": {
+    "des": "释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "3050506": {
+    "des": "若目标处于灼烧状态，折戟概率提升为100%",
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"disarm\",\"buffRate\":1,\"duration\":1}"
+  },
+  "3050507": {
+    "des": "全体上阵英雄闪避+5%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.05
+  },
+  "3050510": {
+    "des": "普攻有70%概率使目标灼烧，持续2回合",
+    "key1": "normal_later_buff",
+    "value1": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.7}"
+  },
   "3050708": {
     "des": "暴击伤害+20%",
     "key1": "slay",
     "value1": 0.2
   },
-  "4050209": {
-    "des": "暴击几率+30%",
+  "3051307": {
+    "des": "全体上阵英雄攻击力+5%",
+    "key1": "team_atk_add",
+    "value1": 0.05
+  },
+  "3051308": {
+    "des": "释放技能后,恢复自身1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "4050206": {
+    "des": "攻击目标越少，技能伤害越高，最高增加60%的技能伤害",
+    "key1": "skill_less_amp",
+    "value1": 0.2
+  },
+  "4050207": {
+    "des": "全体上阵英雄攻击力+5%",
+    "key1": "team_atk_add",
+    "value1": 0.05
+  },
+  "4050208": {
+    "des": "暴击几率+20%",
     "key1": "crit",
-    "value1": 0.3
+    "value1": 0.2
+  },
+  "4050209": {
+    "des": "每次击杀目标，自身伤害增加24%。",
+    "key1": "kill_amp",
+    "value1": 0.24
   },
   "4050506": {
     "des": "释放技能后降低目标1点怒气",
@@ -2431,6 +2573,29 @@
   "4050510": {
     "des": "释放技能后降低目标2点怒气",
     "key1": "skill_less_anger",
+    "value1": 1
+  },
+  "4050609": {
+    "des": "暴击率+20%",
+    "key1": "crit",
+    "value1": 0.2
+  },
+  "4051306": {
+    "des": "与貂蝉处于同一纵排的友方英雄伤害+20%",
+    "key1": "ver_fri_amplify",
+    "value1": 0.2
+  },
+  "4051307": {
+    "des": "全体上阵英雄暴击几率+5%"
+  },
+  "4051308": {
+    "des": "释放技能后为目标英雄附加免控盾，持续到目标开始行动",
+    "key1": "skill_later_buff",
+    "value1": "{\"buffId\":\"immune\",\"duration\":1,\"buff_tg\":\"skill_targets\",\"buffRate\":1}"
+  },
+  "4051309": {
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
     "value1": 1
   },
   "4051406": {
@@ -2469,6 +2634,32 @@
     "des": "受到技能或普攻直接伤害的30%反弹给攻击者",
     "key1": "hit_rebound",
     "value1": 0.3
+  },
+  "9050180": {
+    "des": "携带英雄位于后排时，命中+10%，破甲+10%",
+    "key1": "back_hitRate",
+    "value1": 0.1,
+    "key2": "back_neglect_def",
+    "value2": 0.1
+  },
+  "9050190": {
+    "des": "携带英雄位于后排时，法术暴击增加12%",
+    "key1": "back_crit",
+    "value1": 0.12
+  },
+  "9050200": {
+    "des": "携带英雄位于前排时，抗暴+15%，血量+15%",
+    "key1": "front_critDef",
+    "value1": 0.15,
+    "key2": "front_maxHP",
+    "value2": 0.15
+  },
+  "9050210": {
+    "des": "携带英雄位于前排时，闪避+10%，位于后排时，攻击+10%",
+    "key1": "front_dodgeRate",
+    "value1": 0.1,
+    "key2": "back_atk",
+    "value2": 0.1
   },
   "skin_zhouyu_sp": {
     "des": "法术伤害+10%",

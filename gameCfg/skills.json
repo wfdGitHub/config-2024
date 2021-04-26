@@ -422,10 +422,10 @@
   "1051402": {
     "name": "陷阵突袭",
     "type": "attack",
-    "des": "对敌方单体造成425%的物理伤害,若击杀目标，则再次释放技能",
+    "des": "对敌方单体造成400%的物理伤害,若击杀目标，则再次释放技能",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 4.25,
+    "mul": 4,
     "killRet": true
   },
   "2010101": {
@@ -682,11 +682,10 @@
     "name": "奇门八阵",
     "sound": "fashu4",
     "type": "attack",
-    "des": "对敌方纵排造成212%法术伤害，并回复自身1点怒气",
+    "des": "对敌方纵排造成212%法术伤害",
     "damageType": "mag",
     "targetType": "enemy_vertical",
-    "mul": 2.12,
-    "skill_anger_s": 1
+    "mul": 2.12
   },
   "2050601": {
     "name": "凤炎",
@@ -1104,11 +1103,11 @@
     "name": "巾帼须眉",
     "sound": "leidian2",
     "type": "attack",
-    "des": "对敌方前排造成165%法术伤害，如果目标处于灼烧状态，有40%概率附加折戟，持续1回合\\n<font color='#827c76'>【折戟】：携带该状态的英雄无法进行普通攻击，可以释放技能</font>",
+    "des": "对敌方单体造成300%法术伤害，如果目标处于灼烧状态，有60%概率附加折戟，持续1回合\\n<font color='#827c76'>【折戟】：携带该状态的英雄无法进行普通攻击，可以释放技能</font>",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_front",
-    "mul": 1.65,
-    "burn_buff_change_skill": "{\"buffId\":\"disarm\",\"buffRate\":0.4,\"duration\":1}"
+    "targetType": "enemy_normal",
+    "mul": 3,
+    "burn_buff_change_skill": "{\"buffId\":\"disarm\",\"buffRate\":0.6,\"duration\":1}"
   },
   "3050601": {
     "name": "焚身",
@@ -1442,21 +1441,22 @@
     "name": "戟击",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方单体造成135%物理伤害",
+    "des": "消耗自身20%的当前生命值,对敌方单体造成160%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.35
+    "mul": 1.6,
+    "lose_hp": 0.2
   },
   "4050202": {
     "name": "天下无双",
     "sound": "fashu11",
     "type": "attack",
-    "des": "对敌方全体造成110%的物理伤害，若释放技能后目标血量低于20%，且不超过自身攻击力的三倍，有30%概率直接秒杀。每次击杀目标，自身伤害增加24%。",
+    "des": "消耗自身20%的当前生命值，对敌方相邻目标造成160%的物理伤害，若释放技能后目标血量低于20%，且不超过自身攻击力的三倍，有30%概率直接秒杀。",
     "damageType": "phy",
-    "targetType": "enemy_all",
-    "mul": 1.1,
-    "kill_amp": 0.24,
-    "seckill": 0.3
+    "targetType": "enemy_adjoin",
+    "mul": 1.6,
+    "seckill": 0.3,
+    "lose_hp": 0.2
   },
   "4050301": {
     "name": "济世",
