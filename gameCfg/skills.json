@@ -854,6 +854,25 @@
     "targetType": "enemy_all",
     "mul": 1.03
   },
+  "2051401": {
+    "name": "挥斩",
+    "sound": "jiansheng5",
+    "type": "attack",
+    "des": "对敌方单体造成100%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "2051402": {
+    "name": "麒麟出世",
+    "sound": "jiansheng5",
+    "type": "attack",
+    "des": "对敌方纵排造成223%的法术伤害，自身每有一个增益状态，伤害增加20%",
+    "damageType": "mag",
+    "targetType": "enemy_vertical",
+    "mul": 2.23,
+    "my_intensify_amp": 0.2
+  },
   "3010101": {
     "name": "刺击",
     "sound": "gongji8",
@@ -1141,9 +1160,9 @@
     "name": "破天神弓",
     "sound": "zhongji",
     "type": "attack",
-    "des": "对敌方生命最少的目标造成335%的物理伤害，并锁定目标，持续2回合\\n<font color='#827c76'>【锁定】：携带该状态的英雄无法闪避,且受到的直接伤害增加20%</font>",
+    "des": "对敌方后排单体造成335%的物理伤害，并锁定目标，持续2回合\\n<font color='#827c76'>【锁定】：携带该状态的英雄无法闪避,且受到的直接伤害增加20%</font>",
     "damageType": "phy",
-    "targetType": "enemy_minHP",
+    "targetType": "enemy_normal_back",
     "mul": 3.35,
     "buffId": "suoding",
     "buff_tg": "skill_targets",
@@ -1269,6 +1288,25 @@
     "targetType": "enemy_3",
     "mul": 1.65,
     "burn_buff_change_skill": "{\"buffId\":\"banAnger\",\"buffRate\":0.3,\"duration\":1}"
+  },
+  "3051401": {
+    "name": "飞剑",
+    "sound": "zhongji",
+    "type": "attack",
+    "des": "对敌方单体造成100%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3051402": {
+    "name": "万剑归宗",
+    "sound": "zhongji",
+    "type": "attack",
+    "des": "对敌方全体造成110%的物理伤害，目标每有一个负面状态，伤害增加20%",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 1.1,
+    "enemy_debuff_amp": 0.2
   },
   "4010101": {
     "name": "刺击",
@@ -1674,14 +1712,9 @@
     "name": "沉鱼落雁",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗285%攻击的生命,驱散所有负面状态，并附加法术伤害减免30%的法术护盾,持续2回合",
+    "des": "为己方损失血量最多的英雄治疗285%攻击的生命,驱散所有负面状态",
     "targetType": "team_lossMaxHP",
     "mul": 2.85,
-    "buffId": "reduction_mag",
-    "buff_tg": "skill_targets",
-    "buffArg": 0.3,
-    "duration": 2,
-    "buffRate": 1,
     "cleanDebuff": true
   },
   "4051401": {

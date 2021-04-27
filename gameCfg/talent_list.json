@@ -2505,10 +2505,42 @@
     "key1": "behit_amplify",
     "value1": 0.15
   },
-  "3050125": {
-    "des": "释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
-    "key1": "skill_add_d_s",
+  "2051406": {
+    "des": "永久免疫眩晕、折戟、沉默",
+    "key1": "always_immune",
+    "value1": true,
+    "key2": "skill_turn_tg",
+    "value2": "team_self"
+  },
+  "2051407": {
+    "des": "全体上阵武将闪避几率+5%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.05
+  },
+  "2051408": {
+    "des": "生命值+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2
+  },
+  "2051409": {
+    "des": "暴击率+20%",
+    "key1": "crit",
+    "value1": 0.2
+  },
+  "2051410": {
+    "des": "永久免疫减怒效果",
+    "key1": "banLessAnger",
     "value1": true
+  },
+  "2051411": {
+    "des": "每个存活的友方蜀国英雄提供12%的伤害加成效果",
+    "key1": "realm_friend_amp",
+    "value1": 0.12
+  },
+  "2051425": {
+    "des": "直接伤害击杀目标时恢复2点怒气",
+    "key1": "kill_anger",
+    "value1": 2
   },
   "3050506": {
     "des": "若目标处于灼烧状态，折戟概率提升为100%",
@@ -2530,6 +2562,11 @@
     "key1": "slay",
     "value1": 0.2
   },
+  "3050725": {
+    "des": "释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
   "3051307": {
     "des": "全体上阵英雄攻击力+5%",
     "key1": "team_atk_add",
@@ -2538,6 +2575,45 @@
   "3051308": {
     "des": "释放技能后,恢复自身1点怒气",
     "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "3051406": {
+    "des": "造成伤害的30%转化为伤害吸收盾，持续一回合",
+    "key1": "damage_change_shield",
+    "value1": 0.3
+  },
+  "3051407": {
+    "des": "全体上阵武将攻击+5%",
+    "key1": "team_atk_add",
+    "value1": 0.05
+  },
+  "3051408": {
+    "des": "命中率+15%",
+    "key1": "hitRate",
+    "value1": 0.15
+  },
+  "3051409": {
+    "des": "释放技能时，对灼烧目标的暴击几率额外增加30%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"crit\":0.3}"
+  },
+  "3051410": {
+    "des": "每回合行动前，清除所有自身非控制类负面状态，每清除一个负面状态，恢复自身20%最大生命值",
+    "key1": "action_clean_debuff",
+    "value1": true,
+    "key2": "action_clean_hp",
+    "value2": 0.2
+  },
+  "3051411": {
+    "des": "每个存活的友方吴国英雄提供6%的伤害加成和6%的伤害减免效果",
+    "key1": "realm_friend_amp",
+    "value1": 0.06,
+    "key2": "realm_friend_reduction",
+    "value2": 0.06
+  },
+  "3051425": {
+    "des": "释放技能时，每命中一个燃烧状态下的目标恢复自身1点怒气",
+    "key1": "skill_burn_anger",
     "value1": 1
   },
   "4050206": {
@@ -2683,7 +2759,7 @@
   },
   "skin_dianwei_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_dongbai2": {
@@ -2718,12 +2794,12 @@
   },
   "skin_xiahouchun_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_xuchu_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_zhangfei_2": {
@@ -2743,27 +2819,32 @@
   },
   "skin_huangyueying_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_zhengji_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_yuji_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_sunjian_2": {
     "des": "生命值+10%",
-    "key1": "maxHP",
+    "key1": "self_maxHP_add",
     "value1": 0.1
   },
   "skin_gongsunzan_2": {
     "des": "攻击力+10%",
     "key1": "self_atk_add",
+    "value1": 0.1
+  },
+  "skin_jiangwei2": {
+    "des": "法术伤害+10%",
+    "key1": "mag_add",
     "value1": 0.1
   }
 }
