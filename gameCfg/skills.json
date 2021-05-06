@@ -392,10 +392,11 @@
     "name": "锤击",
     "sound": "fashu15",
     "type": "attack",
-    "des": "对敌方单体造成95%的物理伤害",
+    "des": "对敌方单体造成95%的物理伤害,额外造成目标生命上限10%的真实伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 0.95
+    "mul": 0.95,
+    "maxHP_damage": 0.1
   },
   "1051302": {
     "name": "虎痴嗔怒",
