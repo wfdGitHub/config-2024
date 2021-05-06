@@ -233,18 +233,18 @@
     "name": "赋诗",
     "sound": "zhiliao",
     "type": "heal",
-    "des": "为己方生命最少单位治疗93%攻击的生命",
+    "des": "为己方生命最少单位治疗100%攻击的生命",
     "targetType": "team_minHp_1",
-    "mul": 0.93
+    "mul": 1
   },
   "1050502": {
     "name": "胡笳余音",
     "sound": "zhiliao",
     "effects": "1040402-huitian",
     "type": "heal",
-    "des": "为己方生命最少的3个单位治疗165%攻击的生命，并恢复1点怒气",
+    "des": "为己方生命最少的3个单位治疗180%攻击的生命，并恢复1点怒气",
     "targetType": "team_minHp_3",
-    "mul": 1.65,
+    "mul": 1.8,
     "anger_target": 1
   },
   "1050601": {
@@ -401,7 +401,7 @@
     "name": "虎痴嗔怒",
     "sound": "fashu10",
     "type": "attack",
-    "des": "对敌方单体造成225%物理,额外造成目标生命上限12%的真实伤害,并沉默目标2回合。",
+    "des": "对敌方单体造成225%物理,额外造成目标生命上限20%的真实伤害,并沉默目标2回合。",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.25,
@@ -409,7 +409,7 @@
     "buff_tg": "skill_targets",
     "duration": 2,
     "buffRate": 1,
-    "maxHP_damage": 0.12
+    "maxHP_damage": 0.2
   },
   "1051401": {
     "name": "无惧",
@@ -629,9 +629,9 @@
     "name": "仁德",
     "sound": "longwang",
     "type": "heal",
-    "des": "为己方生命最少的队友治疗93%攻击的生命,并附加物理伤害减免30%的物理护盾,持续1回合。",
+    "des": "为己方生命最少的队友治疗100%攻击的生命,并附加物理伤害减免30%的物理护盾,持续1回合。",
     "targetType": "team_minHp_1",
-    "mul": 0.93,
+    "mul": 1,
     "buffId": "reduction",
     "buff_tg": "skill_targets",
     "buffArg": 0.3,
@@ -642,9 +642,9 @@
     "name": "苍生仁心",
     "sound": "longwang",
     "type": "heal",
-    "des": "为己方全体治疗80%攻击的生命",
+    "des": "为己方全体治疗100%攻击的生命",
     "targetType": "team_all",
-    "mul": 0.8
+    "mul": 1
   },
   "2050401": {
     "name": "铁骑",
@@ -1032,19 +1032,19 @@
     "name": "霸气",
     "sound": "gongji7",
     "type": "attack",
-    "des": "对敌方后排造成44%法术伤害",
+    "des": "对敌方后排造成60%法术伤害",
     "damageType": "mag",
     "targetType": "enemy_horizontal_back",
-    "mul": 0.44
+    "mul": 0.6
   },
   "3050102": {
     "name": "霸王之躯",
     "sound": "zhongji",
     "type": "attack",
-    "des": "对敌方后排造成165%法术伤害，如果目标处于灼烧状态，造成的伤害额外增加60%",
+    "des": "对敌方后排造成180%法术伤害，如果目标处于灼烧状态，造成的伤害额外增加60%",
     "damageType": "mag",
     "targetType": "enemy_horizontal_back",
-    "mul": 1.65,
+    "mul": 1.8,
     "burn_att_change_skill": "{\"amplify\":0.6}"
   },
   "3050201": {
@@ -1132,8 +1132,8 @@
     "name": "焚身",
     "sound": "fashu2",
     "type": "attack",
-    "des": "对敌方单体造成90%的物理伤害",
-    "damageType": "phy",
+    "des": "对敌方单体造成90%的法术伤害",
+    "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 0.9
   },
@@ -1141,8 +1141,8 @@
     "name": "烈焰滔天",
     "sound": "fashu2",
     "type": "attack",
-    "des": "对敌方全体造成92%的物理伤害，如果目标处于灼烧状态，有30%概率附加眩晕，持续1回合\\n<font color='#827c76'>【眩晕】：携带该状态的英雄无法行动</font>",
-    "damageType": "phy",
+    "des": "对敌方全体造成92%的法术伤害，如果目标处于灼烧状态，有30%概率附加眩晕，持续1回合\\n<font color='#827c76'>【眩晕】：携带该状态的英雄无法行动</font>",
+    "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 0.92,
     "burn_buff_change_skill": "{\"buffId\":\"dizzy\",\"buffRate\":0.3,\"duration\":1}"
@@ -1704,17 +1704,17 @@
     "name": "风华",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗100%攻击的生命",
+    "des": "为己方损失血量最多的英雄治疗160%攻击的生命",
     "targetType": "team_lossMaxHP",
-    "mul": 1
+    "mul": 1.6
   },
   "4051302": {
     "name": "沉鱼落雁",
     "sound": "zhiliao4",
     "type": "heal",
-    "des": "为己方损失血量最多的英雄治疗285%攻击的生命,驱散所有负面状态",
+    "des": "为己方损失血量最多的英雄治疗330%攻击的生命,驱散所有负面状态",
     "targetType": "team_lossMaxHP",
-    "mul": 2.85,
+    "mul": 3.3,
     "cleanDebuff": true
   },
   "4051401": {
