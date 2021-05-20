@@ -768,17 +768,17 @@
     "value1": 2
   },
   "1212": {
-    "des": "释放技能时，如果目标处于灼烧状态，附加心魔的概率提升至50%",
+    "des": "释放技能时，如果目标处于灼烧状态，附加压制的概率提升至50%",
     "key1": "burn_buff_change_skill",
     "value1": "{\"buffRate\":0.5}"
   },
   "1213": {
-    "des": "心魔的持续回合变为2回合",
+    "des": "压制的持续回合变为2回合",
     "key1": "burn_buff_change_skill",
     "value1": "{\"duration\":2,\"buffRate\":0.5}"
   },
   "1214": {
-    "des": "释放技能时，如果目标处于灼烧状态，附加心魔的概率提升至80%",
+    "des": "释放技能时，如果目标处于灼烧状态，附加压制的概率提升至80%",
     "key1": "burn_buff_change_skill",
     "value1": "{\"duration\":2,\"buffRate\":0.8}"
   },
@@ -1599,7 +1599,7 @@
     "value1": -0.03
   },
   "3044": {
-    "des": "释放技能造成心魔时附加重伤效果，持续一回合",
+    "des": "释放技能造成压制时附加重伤效果，持续一回合",
     "key1": "banAnger_add_forbidden",
     "value1": true
   },
@@ -2962,5 +2962,68 @@
     "des": "法术伤害+10%",
     "key1": "mag_add",
     "value1": 0.1
+  },
+  "title_1001": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1002": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1003": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1004": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1005": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1006": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1007": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1008": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
+  },
+  "title_1009": {
+    "des": "攻击力+3%，生命值+3%",
+    "key1": "self_atk_add",
+    "value1": 0.03,
+    "key2": "self_maxHP_add",
+    "value2": 0.03
   }
 }
