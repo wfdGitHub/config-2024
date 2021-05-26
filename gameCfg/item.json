@@ -4538,7 +4538,19 @@
     "buyNum": 1,
     "quality": 5
   },
-  "108001001": {
+  "108002001": {
+    "name": "绿色粮草箱",
+    "des": "绿色护送宝箱，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mnlm_chest_1",
+    "gold": 150,
+    "coin": 750000,
+    "buyNum": 1,
+    "quality": 2
+  },
+  "108002011": {
     "name": "绿色粮草袋",
     "des": "绿色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
@@ -4550,55 +4562,7 @@
     "buyNum": 1,
     "quality": 2
   },
-  "108002001": {
-    "name": "蓝色粮草袋",
-    "des": "蓝色掉落宝箱，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "mnlm_chest_dl_2",
-    "gold": 20,
-    "coin": 100000,
-    "buyNum": 1,
-    "quality": 3
-  },
   "108003001": {
-    "name": "紫色粮草袋",
-    "des": "紫色掉落宝箱，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "mnlm_chest_dl_3",
-    "gold": 30,
-    "coin": 150000,
-    "buyNum": 1,
-    "quality": 4
-  },
-  "108004001": {
-    "name": "橙色粮草袋",
-    "des": "橙色掉落宝箱，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "mnlm_chest_dl_4",
-    "gold": 40,
-    "coin": 200000,
-    "buyNum": 1,
-    "quality": 5
-  },
-  "108005001": {
-    "name": "红色粮草袋",
-    "des": "红色掉落宝箱，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "mnlm_chest_dl_5",
-    "gold": 50,
-    "coin": 250000,
-    "buyNum": 1,
-    "quality": 6
-  },
-  "108010001": {
     "name": "蓝色粮草箱",
     "des": "蓝色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
@@ -4610,7 +4574,19 @@
     "buyNum": 1,
     "quality": 3
   },
-  "108015001": {
+  "108003011": {
+    "name": "蓝色粮草袋",
+    "des": "蓝色掉落宝箱，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mnlm_chest_dl_2",
+    "gold": 20,
+    "coin": 100000,
+    "buyNum": 1,
+    "quality": 3
+  },
+  "108004001": {
     "name": "紫色粮草箱",
     "des": "紫色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
@@ -4622,7 +4598,19 @@
     "buyNum": 1,
     "quality": 4
   },
-  "108020001": {
+  "108004011": {
+    "name": "紫色粮草袋",
+    "des": "紫色掉落宝箱，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mnlm_chest_dl_3",
+    "gold": 30,
+    "coin": 150000,
+    "buyNum": 1,
+    "quality": 4
+  },
+  "108005001": {
     "name": "橙色粮草箱",
     "des": "橙色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
@@ -4634,7 +4622,19 @@
     "buyNum": 1,
     "quality": 5
   },
-  "108030001": {
+  "108005011": {
+    "name": "橙色粮草袋",
+    "des": "橙色掉落宝箱，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mnlm_chest_dl_4",
+    "gold": 40,
+    "coin": 200000,
+    "buyNum": 1,
+    "quality": 5
+  },
+  "108006001": {
     "name": "红色粮草箱",
     "des": "红色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
@@ -4643,6 +4643,18 @@
     "arg": "mnlm_chest_5",
     "gold": 1200,
     "coin": 6000000,
+    "buyNum": 1,
+    "quality": 6
+  },
+  "108006011": {
+    "name": "红色粮草袋",
+    "des": "红色掉落宝箱，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mnlm_chest_dl_5",
+    "gold": 50,
+    "coin": 250000,
     "buyNum": 1,
     "quality": 6
   },
@@ -4993,6 +5005,14 @@
     "type": "item",
     "useType": "optional",
     "arg": "[\"105050:30\",\"205030:30\",\"305030:30\",\"405030:30\"]"
+  },
+  "306005006": {
+    "name": "肉盾英雄自选箱",
+    "des": "肉盾英雄自选箱,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"105060:30\",\"205040:30\",\"305040:30\",\"405040:30\"]"
   },
   "309400001": {
     "name": "橙色宝物自选箱",
