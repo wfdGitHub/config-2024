@@ -7,14 +7,14 @@
   },
   "2": {
     "name": "将军府",
-    "key": "camp",
+    "key": "heroCenter",
     "openlv": 1,
     "desc": "指定国家英雄招募，英雄直升，英雄分解，英雄置换都在这里"
   },
   "3": {
     "name": "VIP特权",
     "key": "vip",
-    "openlv": 2,
+    "openlv": 1,
     "desc": "VIP特权",
     "target": "hallNode/topRight/bg/btnList/btnVip"
   },
@@ -78,66 +78,48 @@
     "target": "hallNode/rightNode/btnTask"
   },
   "13": {
-    "name": "运营活动",
-    "key": "activity",
-    "openlv": 6,
-    "desc": "充值福利大全，超多充值活动",
-    "target": "hallNode/topNode/btnActivity"
-  },
-  "14": {
-    "name": "七日登陆",
-    "key": "weekLogin",
+    "name": "十日登陆",
+    "key": "loginAward",
     "openlv": 7,
     "desc": "新人前七天，每天登陆均可免费领取豪礼",
     "target": "hallNode/topNode/btnWeekLogin"
   },
-  "15": {
+  "14": {
     "name": "福利",
     "key": "gift",
     "openlv": 8,
     "desc": "集合多种免费福利，免费领取",
     "target": "hallNode/topNode/btnGift"
   },
-  "16": {
-    "name": "限时活动",
-    "openlv": 8,
-    "desc": "限时活动"
-  },
-  "17": {
-    "name": "精彩活动",
-    "key": "timeActivity",
-    "openlv": 8,
-    "desc": "精彩主题活动，可获得大量加成"
-  },
-  "18": {
+  "15": {
     "name": "竞技场",
     "key": "arena",
     "openlv": 9,
     "desc": "展现实力，争夺竞技排名，赢取排名奖励",
     "target": "hallNode/scrollView/view/content/buildingNode/arena"
   },
-  "19": {
+  "16": {
     "name": "日常战场",
-    "key": "experience",
+    "key": "dailyFb",
     "openlv": 10,
     "desc": "玩法集合，获得英雄培养材料",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "20": {
+  "17": {
     "name": "讨伐董卓",
     "key": "dailyFb_gold",
     "openlv": 10,
     "desc": "讨伐董卓，挑战可获得金币",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "21": {
+  "18": {
     "name": "保卫徐州",
     "key": "dailyFb_equip",
     "openlv": 10,
     "desc": "保卫徐州，挑战可获得装备",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "22": {
+  "19": {
     "name": "英雄任务",
     "key": "tour",
     "openlv": 12,
@@ -145,38 +127,33 @@
     "target": "uiNode/bottomNode/btnBattle",
     "targetChild": true
   },
-  "23": {
+  "20": {
     "name": "限时活动",
+    "key": "limitedTime",
     "openlv": 13,
     "desc": "限时活动"
   },
-  "24": {
-    "name": "精彩活动",
-    "key": "timeActivity",
-    "openlv": 13,
-    "desc": "精彩主题活动，可获得大量加成",
-    "target": "hallNode/topNode/btnTopic"
-  },
-  "25": {
+  "21": {
     "name": "宝物商店",
     "key": "bazaar",
     "openlv": 14,
     "desc": "神秘商店，有概率刷新特价稀有道具",
     "target": "hallNode/scrollView/view/content/buildingNode/bazaar"
   },
-  "26": {
+  "22": {
     "name": "历练",
+    "key": "experience",
     "openlv": 15,
     "desc": "限时类玩法集合"
   },
-  "27": {
+  "23": {
     "name": "千里走单骑",
-    "key": "shanhai",
+    "key": "areaChallenge",
     "openlv": 15,
     "desc": "极限挑战，战胜获得丰富奖励",
     "target": "hallNode/topRight/bg/btnList/btnShanhai"
   },
-  "28": {
+  "24": {
     "name": "乱世之路",
     "key": "tower",
     "openlv": 16,
@@ -184,14 +161,14 @@
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
-  "29": {
+  "25": {
     "name": "宗族功能",
     "key": "guild",
     "openlv": 17,
     "desc": "创建/加入宗族，挑战洪荒异兽，抢夺远古遗迹",
     "target": "uiNode/bottomNode/btnGuild"
   },
-  "30": {
+  "26": {
     "name": "官渡之战",
     "key": "dailyFb_hero",
     "openlv": 18,
@@ -199,54 +176,48 @@
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
-  "31": {
+  "27": {
     "name": "火烧博望",
     "key": "dailyFb_art",
     "openlv": 18,
     "desc": "神兵埋藏之地，挑战可获得大量神兵值"
   },
-  "32": {
+  "28": {
     "name": "铸铁坊",
     "key": "smithy",
     "openlv": 19,
     "desc": "合成极品装备，合成稀有护符，提升英雄属性",
     "target": "hallNode/scrollView/view/content/buildingNode/smithy"
   },
-  "33": {
+  "29": {
     "name": "新服BOSS",
     "key": "areaBoss",
     "openlv": 20,
     "desc": "全服挑战，击杀后可领取全服奖励"
   },
-  "34": {
+  "30": {
     "name": "极限挑战",
     "key": "extremity",
     "openlv": 23
   },
-  "35": {
-    "name": "夷陵之战",
-    "key": "dailyFb_ace",
-    "openlv": 23,
-    "desc": "元神诞生之地，挑战可获得大量元神值"
-  },
-  "36": {
+  "31": {
     "name": "英雄试炼",
     "key": "secretChallenge",
     "openlv": 25,
     "desc": "完成英雄试炼，获取英雄碎片",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "37": {
+  "32": {
     "name": "无尽试炼",
     "key": "endless",
     "openlv": 28
   },
-  "38": {
+  "33": {
     "name": "沙盘演武",
     "key": "exercise",
     "openlv": 30
   },
-  "39": {
+  "34": {
     "name": "皇陵探险",
     "key": "zhulu",
     "openlv": 35,
@@ -254,79 +225,79 @@
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
-  "40": {
+  "35": {
     "name": "藏宝阁",
     "key": "extract",
     "openlv": 35,
     "desc": "探秘宝库，获得稀有道具",
     "target": "hallNode/topNode/btnExtract"
   },
-  "41": {
+  "36": {
     "name": "限时招募",
     "key": "topic",
     "openlv": 35,
     "desc": "可招募主题英雄，每日刷新主题",
     "target": "hallNode/topNode/btnTopic"
   },
-  "42": {
+  "37": {
     "name": "无双争霸",
     "key": "beherrscher",
     "openlv": 36
   },
-  "43": {
+  "38": {
     "name": "远古战场",
     "key": "ancient",
     "openlv": 38
   },
-  "44": {
+  "39": {
     "name": "玉石系统",
     "key": "pit",
     "openlv": 40,
     "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
     "target": "hallNode/scrollView/view/content/buildingNode/pit"
   },
-  "45": {
+  "40": {
     "name": "跨服竞技",
     "key": "crossPK",
     "openlv": 45,
     "desc": "巅峰竞技，勇夺冠军，彰显实力",
     "target": "hallNode/scrollView/view/content/buildingNode/crossPK"
   },
-  "46": {
+  "41": {
     "name": "王者巅峰赛",
     "key": "peak",
     "openlv": 46,
     "desc": "实力展现，勇夺排名，谁才是王者",
     "target": "hallNode/scrollView/view/content/buildingNode/peak"
   },
-  "47": {
-    "name": "宝物副本",
+  "42": {
+    "name": "夷陵之战",
     "key": "dailyFb_ace",
     "openlv": 50,
     "desc": "宝物散落之地，挑战可获得大量宝物值",
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
-  "48": {
+  "43": {
     "name": "兵法系统",
     "key": "book",
     "openlv": 56,
     "desc": "兵法助战，英雄属性加成，全新特性战斗策略升级"
   },
-  "49": {
+  "44": {
     "name": "七擒孟获",
     "key": "dailyFb_book",
     "openlv": 56,
     "desc": "天书孕育之地，挑战可获得大量天书培养材料"
   },
-  "50": {
-    "name": "牧野决战",
+  "45": {
+    "name": "天命之战",
     "key": "muye",
     "openlv": 60,
     "desc": "阵营决战，酣战不休，提升积分，榜上留名",
     "target": "hallNode/scrollView/view/content/buildingNode/muye"
   },
-  "51": {
+  "46": {
     "name": "英雄觉醒",
     "key": "wake",
     "openlv": 100,
