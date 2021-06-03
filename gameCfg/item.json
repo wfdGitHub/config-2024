@@ -188,7 +188,7 @@
   },
   "4001": {
     "name": "校尉护符",
-    "des": "校尉护符，刻有古老的撰文：荧光之力，燎原之势",
+    "des": "校尉护符，刻有古老的撰文：荧光之力，燎原之势，可激活1个初级技能",
     "type": "hufu",
     "arg": "{\"lv\":1}",
     "gold": 200,
@@ -198,7 +198,7 @@
   },
   "4002": {
     "name": "羽林护符",
-    "des": "羽林护符，刻有古老的撰文：星光点点，皆源于日",
+    "des": "羽林护符，刻有古老的撰文：星光点点，皆源于日，可激活1个中级技能",
     "type": "hufu",
     "arg": "{\"lv\":2}",
     "gold": 1000,
@@ -208,7 +208,7 @@
   },
   "4003": {
     "name": "将军护符",
-    "des": "将军护符，刻有古老的撰文：荧光浩瀚，皆源于月",
+    "des": "将军护符，刻有古老的撰文：荧光浩瀚，皆源于月，可激活2个初/中/高级技能",
     "type": "hufu",
     "arg": "{\"lv\":3}",
     "gold": 5000,
@@ -218,426 +218,486 @@
   },
   "4004": {
     "name": "君王护符",
-    "des": "君王护符，刻有古老的撰文：渺渺星海，吞天噬日",
+    "des": "君王护符，刻有古老的撰文：渺渺星海，吞天噬日，可激活2个中/高/超级技能",
     "type": "hufu",
     "arg": "{\"lv\":4}",
     "gold": 25000,
     "coin": 125000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "hufu"
   },
   "7010": {
     "name": "名动三国",
     "des": "名动三国，跨服竞技赛季中进入荣耀殿堂获得",
     "type": "title",
     "arg": 7010,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7020": {
     "name": "天命之子",
     "des": "天命之子，天命之战中获得冠军后获得",
     "type": "title",
     "arg": 7020,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7030": {
     "name": "天下无双",
     "des": "天下无双，王者巅峰赛中获得冠军后获得",
     "type": "title",
     "arg": 7030,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7040": {
     "name": "巅峰王者",
     "des": "巅峰王者，王者巅峰赛中进入四强后获得",
     "type": "title",
     "arg": 7040,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7050": {
     "name": "千里单骑",
     "des": "千里单骑，单骑救主完成七卷后获得",
     "type": "title",
     "arg": 7050,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7060": {
     "name": "大将军",
     "des": "大将军，远古战场中获得冠军后获得",
     "type": "title",
     "arg": 7060,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7070": {
     "name": "三国无双",
     "des": "三国无双，无双争霸中获得",
     "type": "title",
     "arg": 7070,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7080": {
     "name": "一骑当千",
     "des": "一骑当千，无双争霸中获得",
     "type": "title",
     "arg": 7080,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7090": {
     "name": "运筹帷幄",
     "des": "运筹帷幄，无双争霸中获得",
     "type": "title",
     "arg": 7090,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7100": {
     "name": "以令诸侯",
     "des": "以令诸侯，激活至尊特权后领取获得",
     "type": "title",
     "arg": 7100,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7110": {
     "name": "潜龙勿用",
     "des": "潜龙勿用，激活首充后领取获得",
     "type": "title",
     "arg": 7110,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7120": {
     "name": "富甲一方",
     "des": "富甲一方，解锁高级战令后领取获得",
     "type": "title",
     "arg": 7120,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7130": {
     "name": "初露锋芒",
     "des": "初露锋芒，完成10个七日任务后领取获得",
     "type": "title",
     "arg": 7130,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7140": {
     "name": "黄巾力士",
     "des": "黄巾力士，新服BOSS张角伤害前3获得",
     "type": "title",
     "arg": 7140,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7150": {
     "name": "西凉骑兵",
     "des": "西凉骑兵，新服BOSS董卓伤害前3获得",
     "type": "title",
     "arg": 7150,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7160": {
     "name": "大戟士",
     "des": "大戟士，新服BOSS袁绍伤害前3获得",
     "type": "title",
     "arg": 7160,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7170": {
     "name": "白马义从",
     "des": "白马义从，新服BOSS公孙瓒伤害前3获得",
     "type": "title",
     "arg": 7170,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7180": {
     "name": "藤甲兵",
     "des": "藤甲兵，新服BOSS孟获伤害前3获得",
     "type": "title",
     "arg": 7180,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7190": {
     "name": "百翎卫",
     "des": "百翎卫，新服BOSS孙权伤害前3获得",
     "type": "title",
     "arg": 7190,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7200": {
     "name": "白眊兵",
     "des": "白眊兵，新服BOSS刘备伤害前3获得",
     "type": "title",
     "arg": 7200,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7210": {
     "name": "虎豹骑",
     "des": "虎豹骑，新服BOSS曹操伤害前3获得",
     "type": "title",
     "arg": 7210,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7220": {
     "name": "冲级达人",
     "des": "冲级达人，新服冲榜中获得",
     "type": "title",
     "arg": 7220,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7230": {
     "name": "骁勇武士",
     "des": "竞技场排行前100可获得",
     "type": "title",
     "arg": 7230,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8010": {
     "name": "青铜士卒",
     "des": "青铜士卒，在跨服赛季中到达士卒段位结算获得",
     "type": "title",
     "arg": 8010,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8020": {
     "name": "白银校尉",
     "des": "白银校尉，在跨服赛季中到达校尉段位结算获得",
     "type": "frame",
     "arg": 8020,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8030": {
     "name": "黄金军侯",
     "des": "黄金军侯，在跨服赛季中到达军侯段位结算获得",
     "type": "frame",
     "arg": 8030,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8040": {
     "name": "铂金先锋",
     "des": "铂金先锋，在跨服赛季中到达先锋段位结算获得",
     "type": "frame",
     "arg": 8040,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8050": {
     "name": "荣耀大将",
     "des": "荣耀大将，在跨服赛季中到达大将段位结算获得",
     "type": "frame",
     "arg": 8050,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8060": {
     "name": "最强王者",
     "des": "王者传奇，在跨服赛季中到达传奇段位结算获得",
     "type": "frame",
     "arg": 8060,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8070": {
     "name": "名门望族",
     "des": "名门望族，在VIP8中购买获得",
     "type": "frame",
     "arg": 8070,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8080": {
     "name": "以令诸侯",
     "des": "以令诸侯，激活至尊特权后领取获得",
     "type": "frame",
     "arg": 8080,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8090": {
     "name": "春意盎然",
     "des": "春意盎然，激活首充后领取获得",
     "type": "frame",
     "arg": 8090,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8100": {
     "name": "豪气冲天",
     "des": "豪气冲天，每周豪礼中领取",
     "type": "frame",
     "arg": 8100,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8110": {
     "name": "童心妙笔",
     "des": "童心妙笔，六一儿童节活动获得",
     "type": "frame",
     "arg": 8110,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8120": {
     "name": "情人节",
     "des": "情人节，情人节活动获得",
     "type": "frame",
     "arg": 8120,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8130": {
     "name": "中秋节",
     "des": "中秋节，中秋节活动活得",
     "type": "frame",
     "arg": 8130,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "8990": {
     "name": "矢志不渝",
     "des": "矢志不渝，谨献给参与内测并对游戏做出重大贡献的玩家",
     "type": "frame",
     "arg": 8990,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9001": {
-    "name": "贾诩皮肤",
-    "des": "贾诩皮肤",
+    "name": "翩翩年少",
+    "des": "贾诩外观时装，使用增加10%攻击力",
     "type": "skin",
     "arg": "105010_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9002": {
-    "name": "曹丕皮肤",
-    "des": "曹丕皮肤",
+    "name": "登坛受禅",
+    "des": "曹丕外观时装，使用增加10%暴击率",
     "type": "skin",
     "arg": "105030_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9003": {
-    "name": "夏侯惇皮肤",
-    "des": "夏侯惇皮肤",
+    "name": "修罗武士",
+    "des": "夏侯惇外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "105060_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9004": {
-    "name": "典韦皮肤",
-    "des": "典韦皮肤",
+    "name": "吃鸡王者",
+    "des": "典韦外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "105080_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9005": {
-    "name": "许褚皮肤",
-    "des": "许褚皮肤",
+    "name": "古之樊哙",
+    "des": "许褚外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "105130_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9006": {
-    "name": "赵云SP皮肤",
-    "des": "赵云SP皮肤",
+    "name": "龙腾乱世",
+    "des": "赵云SP外观时装，使用有专属技能效果，增加10%闪避率",
     "type": "skin",
     "arg": "205010_sp",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9007": {
-    "name": "诸葛亮皮肤",
-    "des": "诸葛亮皮肤",
+    "name": "七擒七纵",
+    "des": "诸葛亮外观时装，使用增加10%法术伤害",
     "type": "skin",
     "arg": "205020_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9008": {
-    "name": "黄月英皮肤",
-    "des": "黄月英皮肤",
+    "name": "初露峥嵘",
+    "des": "黄月英外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "205050_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9009": {
-    "name": "关羽皮肤",
-    "des": "关羽皮肤",
+    "name": "威震华夏",
+    "des": "关羽外观时装，使用增加10%暴击伤害",
     "type": "skin",
     "arg": "205070_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9010": {
-    "name": "张飞皮肤",
-    "des": "张飞皮肤",
+    "name": "灌篮高手",
+    "des": "张飞外观时装，使用增加10%攻击力",
     "type": "skin",
     "arg": "205080_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9011": {
-    "name": "孙策皮肤",
-    "des": "孙策皮肤",
+    "name": "江东小霸王",
+    "des": "孙策外观时装，使用增加10%暴击伤害",
     "type": "skin",
     "arg": "305010_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9012": {
-    "name": "周瑜SP皮肤",
-    "des": "周瑜SP皮肤",
+    "name": "周郎顾曲",
+    "des": "周瑜SP外观时装，使用有专属技能效果，增加10%法术伤害",
     "type": "skin",
     "arg": "305020_sp",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9013": {
-    "name": "孙坚皮肤",
-    "des": "孙坚皮肤",
+    "name": "所向披靡",
+    "des": "孙坚外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "305040_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9014": {
-    "name": "孙尚香皮肤",
-    "des": "孙尚香皮肤",
+    "name": "闭月羞花",
+    "des": "孙尚香外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "305050_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9015": {
-    "name": "太史慈皮肤",
-    "des": "太史慈皮肤",
+    "name": "赛博机车",
+    "des": "太史慈外观时装，使用增加10%暴击率",
     "type": "skin",
     "arg": "305070_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9016": {
-    "name": "左慈皮肤",
-    "des": "左慈皮肤",
+    "name": "道骨仙风",
+    "des": "左慈外观时装，使用增加10%闪避率",
     "type": "skin",
     "arg": "405010_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9017": {
-    "name": "吕布皮肤",
-    "des": "吕布皮肤",
+    "name": "地狱使者",
+    "des": "吕布外观时装，使用增加10%暴击伤害",
     "type": "skin",
     "arg": "405020_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9018": {
-    "name": "公孙瓒皮肤",
-    "des": "公孙瓒皮肤",
+    "name": "白马将军",
+    "des": "公孙瓒外观时装，使用增加10%攻击力",
     "type": "skin",
     "arg": "405050_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9019": {
-    "name": "董白皮肤",
-    "des": "董白皮肤",
+    "name": "相门虎女",
+    "des": "董白外观时装，使用增加10%命中率",
     "type": "skin",
     "arg": "405070_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9020": {
-    "name": "于吉皮肤",
-    "des": "于吉皮肤",
+    "name": "面具阿飞",
+    "des": "于吉外观时装，使用增加10%生命值",
     "type": "skin",
     "arg": "405080_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9021": {
-    "name": "庞德皮肤",
-    "des": "庞德皮肤",
+    "name": "陷阵之志",
+    "des": "庞德外观时装，使用增加10%反伤",
     "type": "skin",
     "arg": "405140_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9022": {
-    "name": "姜维皮肤",
-    "des": "姜维皮肤",
+    "name": "天水麒麟儿",
+    "des": "姜维外观时装，使用增加10%法术伤害",
     "type": "skin",
     "arg": "205140_1",
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "103010": {
     "name": "谋士碎片",
@@ -1767,7 +1827,8 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "baowu"
   },
   "1000120": {
     "name": "英雄名帖",
@@ -1777,7 +1838,8 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "baowu"
   },
   "1000150": {
     "name": "万能神兵",
@@ -1829,7 +1891,8 @@
     "gold": 18000,
     "coin": 90000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "1000300": {
     "name": "兵法经验",
@@ -1898,7 +1961,8 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "1000601": {
     "name": "充值卡碎片",
@@ -2358,7 +2422,8 @@
     "gold": 3500,
     "coin": 17500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5012020": {
     "name": "轩辕·帝王铠",
@@ -2368,7 +2433,8 @@
     "gold": 3500,
     "coin": 17500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5012030": {
     "name": "轩辕·帝王腰",
@@ -2378,7 +2444,8 @@
     "gold": 3500,
     "coin": 17500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5012040": {
     "name": "轩辕·帝王履",
@@ -2388,7 +2455,8 @@
     "gold": 3500,
     "coin": 17500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5013010": {
     "name": "战神·诛天枪",
@@ -2398,7 +2466,8 @@
     "gold": 5800,
     "coin": 29000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5013020": {
     "name": "战神·奥义铠",
@@ -2408,7 +2477,8 @@
     "gold": 5800,
     "coin": 29000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5013030": {
     "name": "战神·圣耀腰",
@@ -2418,7 +2488,8 @@
     "gold": 5800,
     "coin": 29000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5013040": {
     "name": "战神·追风履",
@@ -2428,7 +2499,8 @@
     "gold": 5800,
     "coin": 29000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5014010": {
     "name": "逐鹿·胜意枪",
@@ -2438,7 +2510,8 @@
     "gold": 9800,
     "coin": 49000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5014020": {
     "name": "逐鹿·战胜铠",
@@ -2448,7 +2521,8 @@
     "gold": 9800,
     "coin": 49000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5014030": {
     "name": "逐鹿·高歌腰",
@@ -2458,7 +2532,8 @@
     "gold": 9800,
     "coin": 49000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5014040": {
     "name": "逐鹿·凯旋靴",
@@ -2468,7 +2543,8 @@
     "gold": 9800,
     "coin": 49000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5015010": {
     "name": "盘古·开天斧",
@@ -2478,7 +2554,8 @@
     "gold": 16000,
     "coin": 80000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5015020": {
     "name": "盘古·御天甲",
@@ -2488,7 +2565,8 @@
     "gold": 16000,
     "coin": 80000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5015030": {
     "name": "盘古·擎天腰",
@@ -2498,7 +2576,8 @@
     "gold": 16000,
     "coin": 80000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5015040": {
     "name": "盘古·登天靴",
@@ -2508,7 +2587,8 @@
     "gold": 16000,
     "coin": 80000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5016010": {
     "name": "诛神·屠龙刀",
@@ -2518,7 +2598,8 @@
     "gold": 28000,
     "coin": 140000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5016020": {
     "name": "诛神·破军铠",
@@ -2528,7 +2609,8 @@
     "gold": 28000,
     "coin": 140000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5016030": {
     "name": "诛神·贪狼腰",
@@ -2538,7 +2620,8 @@
     "gold": 28000,
     "coin": 140000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5016040": {
     "name": "诛神·紫微履",
@@ -2548,7 +2631,8 @@
     "gold": 28000,
     "coin": 140000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5017010": {
     "name": "创世·混沌刀",
@@ -2558,7 +2642,8 @@
     "gold": 48000,
     "coin": 240000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5017020": {
     "name": "创世·女娲袍",
@@ -2568,7 +2653,8 @@
     "gold": 48000,
     "coin": 240000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5017030": {
     "name": "创世·盘古腰",
@@ -2578,7 +2664,8 @@
     "gold": 48000,
     "coin": 240000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "5017040": {
     "name": "创世·凌霄履",
@@ -2588,7 +2675,8 @@
     "gold": 48000,
     "coin": 240000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "daiji"
   },
   "9030010": {
     "name": "龙方壶",
@@ -3234,7 +3322,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060020": {
     "name": "太玄生符",
@@ -3244,7 +3333,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060030": {
     "name": "金碧铜马",
@@ -3254,7 +3344,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060040": {
     "name": "三皇内文",
@@ -3264,7 +3355,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060050": {
     "name": "传国玉玺",
@@ -3274,7 +3366,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060060": {
     "name": "孟德新书",
@@ -3284,7 +3377,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060070": {
     "name": "和氏璧",
@@ -3294,7 +3388,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "9060080": {
     "name": "黄帝四经",
@@ -3304,7 +3399,8 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "11105010": {
     "name": "蚀魂扇",
@@ -5296,77 +5392,88 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010501": {
     "name": "至尊青龙石",
     "des": "【1星属性】攻击+9%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010502": {
     "name": "至尊青龙石",
     "des": "【2星属性】攻击+10%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010503": {
     "name": "至尊青龙石",
     "des": "【3星属性】攻击+11%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010504": {
     "name": "至尊青龙石",
     "des": "【4星属性】攻击+12%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010505": {
     "name": "至尊青龙石",
     "des": "【5星属性】攻击+14%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010506": {
     "name": "至尊青龙石",
     "des": "【6星属性】攻击+16%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010507": {
     "name": "至尊青龙石",
     "des": "【7星属性】攻击+19%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010508": {
     "name": "至尊青龙石",
     "des": "【8星属性】攻击+22%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010509": {
     "name": "至尊青龙石",
     "des": "【9星属性】攻击+26%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400010510": {
     "name": "至尊青龙石",
     "des": "【10星属性】攻击+30%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020100": {
     "name": "初级朱雀石",
@@ -5556,77 +5663,88 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020501": {
     "name": "至尊朱雀石",
     "des": "【1星属性】生命+9%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020502": {
     "name": "至尊朱雀石",
     "des": "【2星属性】生命+10%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020503": {
     "name": "至尊朱雀石",
     "des": "【3星属性】生命+11%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020504": {
     "name": "至尊朱雀石",
     "des": "【4星属性】生命+12%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020505": {
     "name": "至尊朱雀石",
     "des": "【5星属性】生命+14%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020506": {
     "name": "至尊朱雀石",
     "des": "【6星属性】生命+16%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020507": {
     "name": "至尊朱雀石",
     "des": "【7星属性】生命+19%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020508": {
     "name": "至尊朱雀石",
     "des": "【8星属性】生命+22%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020509": {
     "name": "至尊朱雀石",
     "des": "【9星属性】生命+26%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400020510": {
     "name": "至尊朱雀石",
     "des": "【10星属性】生命+30%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030100": {
     "name": "初级白虎石",
@@ -5816,77 +5934,88 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030501": {
     "name": "至尊白虎石",
     "des": "【1星属性】伤害+9%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030502": {
     "name": "至尊白虎石",
     "des": "【2星属性】伤害+10%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030503": {
     "name": "至尊白虎石",
     "des": "【3星属性】伤害+11%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030504": {
     "name": "至尊白虎石",
     "des": "【4星属性】伤害+12%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030505": {
     "name": "至尊白虎石",
     "des": "【5星属性】伤害+14%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030506": {
     "name": "至尊白虎石",
     "des": "【6星属性】伤害+16%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030507": {
     "name": "至尊白虎石",
     "des": "【7星属性】伤害+19%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030508": {
     "name": "至尊白虎石",
     "des": "【8星属性】伤害+22%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030509": {
     "name": "至尊白虎石",
     "des": "【9星属性】伤害+26%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400030510": {
     "name": "至尊白虎石",
     "des": "【10星属性】伤害+30%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040100": {
     "name": "初级玄武石",
@@ -6076,77 +6205,88 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040501": {
     "name": "至尊玄武石",
     "des": "【1星属性】免伤+9%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040502": {
     "name": "至尊玄武石",
     "des": "【2星属性】免伤+10%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040503": {
     "name": "至尊玄武石",
     "des": "【3星属性】免伤+11%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040504": {
     "name": "至尊玄武石",
     "des": "【4星属性】免伤+12%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040505": {
     "name": "至尊玄武石",
     "des": "【5星属性】免伤+14%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040506": {
     "name": "至尊玄武石",
     "des": "【6星属性】免伤+16%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040507": {
     "name": "至尊玄武石",
     "des": "【7星属性】免伤+19%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040508": {
     "name": "至尊玄武石",
     "des": "【8星属性】免伤+22%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040509": {
     "name": "至尊玄武石",
     "des": "【9星属性】免伤+26%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400040510": {
     "name": "至尊玄武石",
     "des": "【10星属性】免伤+30%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400051100": {
     "name": "破天逐月",
@@ -6156,28 +6296,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400051101": {
     "name": "破天逐月",
     "des": "【1星技能】直接伤害击杀目标后，有60%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400051102": {
     "name": "破天逐月",
     "des": "【2星技能】直接伤害击杀目标后，有80%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400051103": {
     "name": "破天逐月",
     "des": "【3星技能】直接伤害击杀目标后，有100%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400052100": {
     "name": "降淬之辉",
@@ -6187,28 +6331,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400052101": {
     "name": "降淬之辉",
     "des": "【1星技能】降低21%受到灼烧和中毒的概率",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400052102": {
     "name": "降淬之辉",
     "des": "【2星技能】降低28%受到灼烧和中毒的概率",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400052103": {
     "name": "降淬之辉",
     "des": "【3星技能】降低35%受到灼烧和中毒的概率",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400053100": {
     "name": "绝处逢生",
@@ -6218,28 +6366,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400053101": {
     "name": "绝处逢生",
     "des": "【1星技能】受到致命伤害时21%概率保留1点血量",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400053102": {
     "name": "绝处逢生",
     "des": "【2星技能】受到致命伤害时28%概率保留1点血量",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400053103": {
     "name": "绝处逢生",
     "des": "【3星技能】受到致命伤害时35%概率保留1点血量",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400054100": {
     "name": "鸣鸿破釜",
@@ -6249,28 +6401,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400054101": {
     "name": "鸣鸿破釜",
     "des": "【1星技能】攻击正在被控制（眩晕、沉默、麻痹）的目标时，增加9%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400054102": {
     "name": "鸣鸿破釜",
     "des": "【2星技能】攻击正在被控制（眩晕、沉默、麻痹）的目标时，增加12%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400054103": {
     "name": "鸣鸿破釜",
     "des": "【3星技能】攻击正在被控制（眩晕、沉默、麻痹）的目标时，增加15%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400061100": {
     "name": "灵脉庇佑",
@@ -6280,28 +6436,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400061101": {
     "name": "灵脉庇佑",
     "des": "【1星技能】受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的18%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400061102": {
     "name": "灵脉庇佑",
     "des": "【2星技能】受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的24%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400061103": {
     "name": "灵脉庇佑",
     "des": "【3星技能】受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的30%",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400062100": {
     "name": "舍身成仁",
@@ -6311,28 +6471,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400062101": {
     "name": "舍身成仁",
     "des": "【1星技能】死亡时，有60%概率使血量最少的己方目标获得一个无敌护盾，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400062102": {
     "name": "舍身成仁",
     "des": "【2星技能】死亡时，有80%概率使血量最少的己方目标获得一个无敌护盾，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400062103": {
     "name": "舍身成仁",
     "des": "【3星技能】死亡时，有100%概率使血量最少的己方目标获得一个无敌护盾，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400063100": {
     "name": "霜之守护",
@@ -6342,28 +6506,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400063101": {
     "name": "霜之守护",
     "des": "【1星技能】自身行动后，使自身获得一个吸收伤害盾，吸收自身生命上限9%的直接伤害，持续1回合（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400063102": {
     "name": "霜之守护",
     "des": "【2星技能】自身行动后，使自身获得一个吸收伤害盾，吸收自身生命上限12%的直接伤害，持续1回合（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400063103": {
     "name": "霜之守护",
     "des": "【3星技能】自身行动后，使自身获得一个吸收伤害盾，吸收自身生命上限15%的直接伤害，持续1回合（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400064100": {
     "name": "龙炎护体",
@@ -6373,28 +6541,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400064101": {
     "name": "龙炎护体",
     "des": "【1星技能】战斗开始前，使自身获得一个吸收伤害盾，吸收自身生命上限18%的直接伤害，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400064102": {
     "name": "龙炎护体",
     "des": "【2星技能】战斗开始前，使自身获得一个吸收伤害盾，吸收自身生命上限24%的直接伤害，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400064103": {
     "name": "龙炎护体",
     "des": "【3星技能】战斗开始前，使自身获得一个吸收伤害盾，吸收自身生命上限30%的直接伤害，持续1回合",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400071100": {
     "name": "无尽怒火",
@@ -6404,28 +6576,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400071101": {
     "name": "无尽怒火",
     "des": "【1星技能】释放技能后，有15%概率获得本次技能消耗的50%的怒气，最多不超过4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400071102": {
     "name": "无尽怒火",
     "des": "【2星技能】释放技能后，有20%概率获得本次技能消耗的50%的怒气，最多不超过4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400071103": {
     "name": "无尽怒火",
     "des": "【3星技能】释放技能后，有25%概率获得本次技能消耗的50%的怒气，最多不超过4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400072100": {
     "name": "重整旗鼓",
@@ -6435,28 +6611,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400072101": {
     "name": "重整旗鼓",
     "des": "【1星技能】整体回合结束时，如果自身怒气低于4点，有21%的概率将怒气回复至4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400072102": {
     "name": "重整旗鼓",
     "des": "【2星技能】整体回合结束时，如果自身怒气低于4点，有28%的概率将怒气回复至4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400072103": {
     "name": "重整旗鼓",
     "des": "【3星技能】整体回合结束时，如果自身怒气低于4点，有35%的概率将怒气回复至4点",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400073100": {
     "name": "崩雷之怒",
@@ -6466,28 +6646,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400073101": {
     "name": "崩雷之怒",
     "des": "【1星技能】目标怒气值越多受到的伤害越高，目标怒气值大于4点的部分每点怒气值额外受到4.5%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400073102": {
     "name": "崩雷之怒",
     "des": "【2星技能】目标怒气值越多受到的伤害越高，目标怒气值大于4点的部分每点怒气值额外受到6%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400073103": {
     "name": "崩雷之怒",
     "des": "【3星技能】目标怒气值越多受到的伤害越高，目标怒气值大于4点的部分每点怒气值额外受到7.5%的伤害",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400074100": {
     "name": "生生不息",
@@ -6497,28 +6681,32 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400074101": {
     "name": "生生不息",
     "des": "【1星技能】自身行动后，有60%的概率回复自身1点怒气（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400074102": {
     "name": "生生不息",
     "des": "【2星技能】自身行动后，有80%的概率回复自身1点怒气（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400074103": {
     "name": "生生不息",
     "des": "【3星技能】自身行动后，有100%的概率回复自身1点怒气（自身回合内仅触发一次）",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400081100": {
     "name": "天神降临",
@@ -6528,27 +6716,31 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400081101": {
     "name": "天神降临",
     "des": "【1星技能】自身回合开始前，有15%概率移除自身所有的异常状态和控制效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400081102": {
     "name": "天神降临",
     "des": "【2星技能】自身回合开始前，有20%概率移除自身所有的异常状态和控制效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "400081103": {
     "name": "天神降临",
     "des": "【3星技能】自身回合开始前，有25%概率移除自身所有的异常状态和控制效果",
     "isBag": true,
     "type": "stone",
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   }
 }
