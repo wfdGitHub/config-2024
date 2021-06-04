@@ -4,7 +4,7 @@
     "des": "主角经验，用于升级主角等级",
     "type": "currency",
     "quality": 4,
-    "source1": 1001
+    "source1": "checkpoints"
   },
   "101": {
     "name": "英雄经验",
@@ -13,13 +13,18 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 10000,
-    "quality": 4
+    "quality": 4,
+    "source1": "checkpoints",
+    "source2": "quick",
+    "source3": "dailyFb",
+    "source4": "tower"
   },
   "109": {
     "name": "VIP经验",
     "des": "VIP经验",
     "type": "vipexp",
-    "quality": 5
+    "quality": 5,
+    "source1": "recharge"
   },
   "200": {
     "name": "元宝",
@@ -28,7 +33,9 @@
     "gold": 0.01,
     "coin": 50,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "recharge",
+    "source2": "secretChallenge"
   },
   "201": {
     "name": "铜币",
@@ -1807,7 +1814,8 @@
     "gold": 250,
     "coin": 1250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "baowu"
   },
   "1000090": {
     "name": "幸运寻宝图",
@@ -1832,7 +1840,7 @@
   },
   "1000120": {
     "name": "英雄名帖",
-    "des": "记载着英雄事迹的书籍，能够在【演武场】建筑的英雄云集招募国家的4-5星英雄",
+    "des": "记载着英雄事迹的书籍，能够在【将军府】建筑的英雄云集招募国家的4-5星英雄",
     "isBag": true,
     "type": "item",
     "gold": 1500,
@@ -1875,7 +1883,7 @@
   },
   "1000180": {
     "name": "转换丹",
-    "des": "转换丹，能够在主城【演武场】建筑的英雄置换功能中，将五星英雄置换成本国家的五星英雄",
+    "des": "转换丹，能够在主城【将军府】建筑的英雄置换功能中，将五星英雄置换成本国家的五星英雄",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -1885,7 +1893,7 @@
   },
   "1000190": {
     "name": "封侯令",
-    "des": "封侯令，能够在主城【演武场】建筑的英雄直升成中将英雄直升至六星",
+    "des": "封侯令，能够在主城【将军府】建筑的英雄直升成中将英雄直升至六星",
     "isBag": true,
     "type": "item",
     "gold": 18000,
@@ -1969,10 +1977,20 @@
     "des": "充值卡碎片，可在福利中兑换充值中兑换充值卡",
     "isBag": true,
     "type": "item",
+    "gold": 1,
+    "coin": 5000,
+    "buyNum": 1,
+    "quality": 3
+  },
+  "1000602": {
+    "name": "欧皇转盘券",
+    "des": "欧皇转盘券，可在欧皇转盘中抽取充值卡",
+    "isBag": true,
+    "type": "item",
     "gold": 10,
     "coin": 50000,
-    "buyNum": 100,
-    "quality": 3
+    "buyNum": 1,
+    "quality": 4
   },
   "5001010": {
     "name": "短剑",
@@ -4222,7 +4240,7 @@
   },
   "101000001": {
     "name": "1元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值1元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4235,7 +4253,7 @@
   },
   "101000006": {
     "name": "6元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值6元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4246,9 +4264,22 @@
     "buyNum": 1,
     "quality": 3
   },
+  "101000010": {
+    "name": "10元充值卡",
+    "des": "打开可以获得价值10元充值元宝和等值VIP经验",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "useLv": 10,
+    "arg": "202:100&109:1000",
+    "gold": 100,
+    "coin": 500000,
+    "buyNum": 1,
+    "quality": 3
+  },
   "101000012": {
     "name": "12元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值12元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4261,7 +4292,7 @@
   },
   "101000018": {
     "name": "18元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值18元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4274,7 +4305,7 @@
   },
   "101000030": {
     "name": "30元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值30元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4287,7 +4318,7 @@
   },
   "101000050": {
     "name": "50元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值50元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4300,7 +4331,7 @@
   },
   "101000100": {
     "name": "100元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值100元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4309,11 +4340,12 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "baowu"
   },
   "101000200": {
     "name": "200元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值200元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4322,11 +4354,12 @@
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "101000500": {
     "name": "500元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值500元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4335,11 +4368,12 @@
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "101000648": {
     "name": "648元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值648元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4348,11 +4382,12 @@
     "gold": 6480,
     "coin": 32400000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "101001000": {
     "name": "1000元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值1000元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4361,11 +4396,12 @@
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "101002000": {
     "name": "2000元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值2000元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4374,11 +4410,12 @@
     "gold": 20000,
     "coin": 100000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "effects": "baowu"
   },
   "101003000": {
     "name": "3000元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值3000元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4387,11 +4424,12 @@
     "gold": 30000,
     "coin": 150000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "effects": "baowu"
   },
   "101005000": {
     "name": "5000元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值5000元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4400,11 +4438,12 @@
     "gold": 50000,
     "coin": 250000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "baowu"
   },
   "101010000": {
     "name": "10000元充值卡",
-    "des": "打开可以获得价值5元充值元宝和等值VIP经验",
+    "des": "打开可以获得价值10000元充值元宝和等值VIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -4413,7 +4452,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "effects": "baowu"
   },
   "101101006": {
     "name": "小经验袋",
