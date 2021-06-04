@@ -35,7 +35,8 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
-    "source2": "secretChallenge"
+    "source2": "secretChallenge",
+    "source3": "gift"
   },
   "201": {
     "name": "铜币",
@@ -44,7 +45,11 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 50000,
-    "quality": 4
+    "quality": 4,
+    "source1": "revenue",
+    "source2": "quick",
+    "source3": "dailyFb",
+    "source4": "recharge"
   },
   "202": {
     "name": "元宝替换道具",
@@ -63,13 +68,16 @@
     "gold": 60,
     "coin": 300000,
     "buyNum": 100,
-    "quality": 5
+    "quality": 5,
+    "source1": "heroRemove"
   },
   "204": {
     "name": "行动力",
     "des": "行动力可在英雄任务中完成任务",
     "type": "currency",
-    "quality": 4
+    "quality": 4,
+    "source1": "checkpoints",
+    "source2": "quick"
   },
   "205": {
     "name": "竞技积分",
@@ -78,7 +86,8 @@
     "gold": 85,
     "coin": 425000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "arena"
   },
   "206": {
     "name": "宝物值",
@@ -87,7 +96,9 @@
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "dailyFb",
+    "source2": "warHorn"
   },
   "207": {
     "name": "神兵值",
@@ -96,7 +107,10 @@
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "dailyFb",
+    "source2": "tower",
+    "source3": "warHorn"
   },
   "208": {
     "name": "玉璧",
@@ -105,7 +119,8 @@
     "gold": 70,
     "coin": 350000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "general"
   },
   "209": {
     "name": "皇陵积分",
@@ -114,7 +129,8 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "zhulu"
   },
   "210": {
     "name": "跨服积分",
@@ -123,7 +139,8 @@
     "gold": 7.5,
     "coin": 37500,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "crossPK"
   },
   "211": {
     "name": "王者积分",
@@ -132,7 +149,8 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "peak"
   },
   "212": {
     "name": "天命积分",
@@ -141,7 +159,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "muye"
   },
   "213": {
     "name": "同盟贡献",
@@ -150,7 +169,11 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "guild",
+    "source2": "guild_fb",
+    "source3": "guild_fb",
+    "source4": "guild_city"
   },
   "214": {
     "name": "友情点",
@@ -159,7 +182,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 100,
-    "quality": 3
+    "quality": 3,
+    "source1": "friend"
   },
   "215": {
     "name": "远古积分",
@@ -168,7 +192,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 100,
-    "quality": 4
+    "quality": 4,
+    "source1": "ancient"
   },
   "301": {
     "name": "召唤积分",
@@ -177,7 +202,9 @@
     "gold": 300,
     "coin": 1500000,
     "buyNum": 100,
-    "quality": 5
+    "quality": 5,
+    "source1": "recruit_great",
+    "source2": "recruit_normal"
   },
   "501": {
     "name": "月饼",
@@ -201,7 +228,9 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift",
+    "source2": "arena"
   },
   "4002": {
     "name": "羽林护符",
@@ -211,7 +240,9 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "shop_crossPK"
   },
   "4003": {
     "name": "将军护符",
@@ -221,7 +252,8 @@
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "recharge"
   },
   "4004": {
     "name": "君王护符",
@@ -232,7 +264,8 @@
     "coin": 125000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "hufu"
+    "effects": "hufu",
+    "source1": "recharge"
   },
   "7010": {
     "name": "名动三国",
@@ -240,7 +273,8 @@
     "type": "title",
     "arg": 7010,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "crossPK"
   },
   "7020": {
     "name": "天命之子",
@@ -248,7 +282,8 @@
     "type": "title",
     "arg": 7020,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "muye"
   },
   "7030": {
     "name": "天下无双",
@@ -256,7 +291,8 @@
     "type": "title",
     "arg": 7030,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "muye"
   },
   "7040": {
     "name": "巅峰王者",
@@ -264,7 +300,8 @@
     "type": "title",
     "arg": 7040,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "muye"
   },
   "7050": {
     "name": "千里单骑",
@@ -272,7 +309,8 @@
     "type": "title",
     "arg": 7050,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "areaChallenge"
   },
   "7060": {
     "name": "大将军",
@@ -280,7 +318,8 @@
     "type": "title",
     "arg": 7060,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "ancient"
   },
   "7070": {
     "name": "三国无双",
@@ -312,7 +351,8 @@
     "type": "title",
     "arg": 7100,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "7110": {
     "name": "潜龙勿用",
@@ -320,7 +360,8 @@
     "type": "title",
     "arg": 7110,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "recharge"
   },
   "7120": {
     "name": "富甲一方",
@@ -328,7 +369,8 @@
     "type": "title",
     "arg": 7120,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "recharge"
   },
   "7130": {
     "name": "初露锋芒",
@@ -716,7 +758,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "103020": {
     "name": "枪盾骑碎片",
@@ -728,7 +774,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "104000": {
     "name": "4星魏国碎片",
@@ -740,7 +790,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "104010": {
     "name": "曹纯碎片",
@@ -752,7 +806,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "104020": {
     "name": "张春华碎片",
@@ -764,7 +822,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "104030": {
     "name": "于禁碎片",
@@ -776,7 +838,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "104040": {
     "name": "辛宪英碎片",
@@ -788,7 +854,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105000": {
     "name": "5星魏国碎片",
@@ -800,7 +870,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105010": {
     "name": "贾诩碎片",
@@ -812,7 +886,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105020": {
     "name": "张郃碎片",
@@ -824,7 +902,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105030": {
     "name": "曹丕碎片",
@@ -836,7 +918,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105040": {
     "name": "曹操碎片",
@@ -848,7 +934,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105050": {
     "name": "蔡文姬碎片",
@@ -860,7 +950,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105060": {
     "name": "夏侯惇碎片",
@@ -872,7 +966,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105070": {
     "name": "荀彧碎片",
@@ -884,7 +982,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105080": {
     "name": "典韦碎片",
@@ -896,7 +998,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105090": {
     "name": "乐进碎片",
@@ -908,7 +1014,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105100": {
     "name": "徐晃碎片",
@@ -920,7 +1030,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105110": {
     "name": "夏侯渊碎片",
@@ -932,7 +1046,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105120": {
     "name": "荀攸碎片",
@@ -944,7 +1062,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105130": {
     "name": "许褚碎片",
@@ -956,7 +1078,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "105140": {
     "name": "张辽碎片",
@@ -968,7 +1094,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "203010": {
     "name": "巨盾兵碎片",
@@ -980,7 +1110,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "203020": {
     "name": "藤甲兵碎片",
@@ -992,7 +1126,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "204000": {
     "name": "4星蜀国碎片",
@@ -1004,7 +1142,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "204010": {
     "name": "星彩碎片",
@@ -1016,7 +1158,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "204020": {
     "name": "刘封碎片",
@@ -1028,7 +1174,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "204030": {
     "name": "马谡碎片",
@@ -1040,7 +1190,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "204040": {
     "name": "王平碎片",
@@ -1052,7 +1206,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205000": {
     "name": "5星蜀国碎片",
@@ -1064,7 +1222,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205010": {
     "name": "赵云碎片",
@@ -1076,7 +1238,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205020": {
     "name": "诸葛亮碎片",
@@ -1088,7 +1254,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205030": {
     "name": "刘备碎片",
@@ -1100,7 +1270,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205040": {
     "name": "马超碎片",
@@ -1112,7 +1286,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205050": {
     "name": "黄月英碎片",
@@ -1124,7 +1302,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205060": {
     "name": "庞统碎片",
@@ -1136,7 +1318,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205070": {
     "name": "关羽碎片",
@@ -1148,7 +1334,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205080": {
     "name": "张飞碎片",
@@ -1160,7 +1350,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205090": {
     "name": "刘禅碎片",
@@ -1172,7 +1366,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205100": {
     "name": "关凤碎片",
@@ -1184,7 +1382,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205110": {
     "name": "魏延碎片",
@@ -1196,7 +1398,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205120": {
     "name": "黄忠碎片",
@@ -1208,7 +1414,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205130": {
     "name": "法正碎片",
@@ -1220,7 +1430,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "205140": {
     "name": "姜维碎片",
@@ -1232,7 +1446,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "303010": {
     "name": "蛊师碎片",
@@ -1244,7 +1462,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "303020": {
     "name": "弓骑兵碎片",
@@ -1256,7 +1478,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "304000": {
     "name": "4星吴国碎片",
@@ -1268,7 +1494,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "304010": {
     "name": "甘宁碎片",
@@ -1280,7 +1510,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "304020": {
     "name": "孙皓碎片",
@@ -1292,7 +1526,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "304030": {
     "name": "步练师碎片",
@@ -1304,7 +1542,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "304040": {
     "name": "孙小虎碎片",
@@ -1316,7 +1558,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305000": {
     "name": "5星吴国碎片",
@@ -1328,7 +1574,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305010": {
     "name": "孙策碎片",
@@ -1340,7 +1590,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305020": {
     "name": "周瑜碎片",
@@ -1352,7 +1606,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305030": {
     "name": "小乔碎片",
@@ -1364,7 +1622,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305040": {
     "name": "孙坚碎片",
@@ -1376,7 +1638,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305050": {
     "name": "孙尚香碎片",
@@ -1388,7 +1654,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305060": {
     "name": "张昭碎片",
@@ -1400,7 +1670,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305070": {
     "name": "太史慈碎片",
@@ -1412,7 +1686,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305080": {
     "name": "陆逊碎片",
@@ -1424,7 +1702,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305090": {
     "name": "徐盛碎片",
@@ -1436,7 +1718,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305100": {
     "name": "大乔碎片",
@@ -1448,7 +1734,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305110": {
     "name": "丁奉碎片",
@@ -1460,7 +1750,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305120": {
     "name": "吕蒙碎片",
@@ -1472,7 +1766,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305130": {
     "name": "鲁肃碎片",
@@ -1484,7 +1782,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "305140": {
     "name": "孙权碎片",
@@ -1496,7 +1798,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "403010": {
     "name": "黄巾力士碎片",
@@ -1508,7 +1814,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "403020": {
     "name": "枪骑兵碎片",
@@ -1520,7 +1830,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "404000": {
     "name": "4星群雄碎片",
@@ -1532,7 +1846,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "404010": {
     "name": "祝融碎片",
@@ -1544,7 +1862,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "404020": {
     "name": "高顺碎片",
@@ -1556,7 +1878,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "404030": {
     "name": "袁绍碎片",
@@ -1568,7 +1894,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "404040": {
     "name": "文丑碎片",
@@ -1580,7 +1910,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405000": {
     "name": "5星群雄碎片",
@@ -1592,7 +1926,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405010": {
     "name": "左慈碎片",
@@ -1604,7 +1942,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405020": {
     "name": "吕布碎片",
@@ -1616,7 +1958,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405030": {
     "name": "华佗碎片",
@@ -1628,7 +1974,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405040": {
     "name": "董卓碎片",
@@ -1640,7 +1990,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405050": {
     "name": "公孙瓒碎片",
@@ -1652,7 +2006,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405060": {
     "name": "孟获碎片",
@@ -1664,7 +2022,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405070": {
     "name": "董白碎片",
@@ -1676,7 +2038,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405080": {
     "name": "于吉碎片",
@@ -1688,7 +2054,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405090": {
     "name": "马腾碎片",
@@ -1700,7 +2070,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405100": {
     "name": "袁术碎片",
@@ -1712,7 +2086,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405110": {
     "name": "张角碎片",
@@ -1724,7 +2102,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405120": {
     "name": "刘表碎片",
@@ -1736,7 +2118,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405130": {
     "name": "貂蝉碎片",
@@ -1748,7 +2134,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "405140": {
     "name": "庞德碎片",
@@ -1760,7 +2150,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "504000": {
     "name": "4星英雄碎片",
@@ -1772,7 +2166,11 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "505000": {
     "name": "5星英雄碎片",
@@ -1784,7 +2182,11 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "recruit_normal",
+    "source4": "recruit_great"
   },
   "1000050": {
     "name": "进阶石",
@@ -1794,7 +2196,11 @@
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "heroRemove",
+    "source2": "secretChallenge",
+    "source3": "tower",
+    "source4": "recharge"
   },
   "1000070": {
     "name": "女儿红",
@@ -1804,7 +2210,9 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift",
+    "source2": "secretChallenge"
   },
   "1000080": {
     "name": "百年杜康",
@@ -1815,7 +2223,9 @@
     "coin": 1250000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "1000090": {
     "name": "幸运寻宝图",
@@ -1825,7 +2235,9 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "secretChallenge",
+    "source2": "extract"
   },
   "1000100": {
     "name": "高级寻宝图",
@@ -1836,7 +2248,9 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "secretChallenge",
+    "source2": "gift"
   },
   "1000120": {
     "name": "英雄名帖",
@@ -1847,7 +2261,9 @@
     "coin": 7500000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "1000150": {
     "name": "万能神兵",
@@ -1859,7 +2275,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "recharge",
+    "source2": "gift"
   },
   "1000160": {
     "name": "刷新卡",
@@ -1869,7 +2287,9 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "1000170": {
     "name": "挑战卡",
@@ -1879,7 +2299,10 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift",
+    "source2": "recharge",
+    "source3": "shop_arena"
   },
   "1000180": {
     "name": "转换丹",
@@ -1889,7 +2312,9 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "1000190": {
     "name": "封侯令",
@@ -1900,7 +2325,8 @@
     "coin": 90000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "recharge"
   },
   "1000300": {
     "name": "兵法经验",
@@ -1910,7 +2336,10 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 10000,
-    "quality": 4
+    "quality": 4,
+    "source1": "shop_peak",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "1000400": {
     "name": "天书残卷",
@@ -1920,7 +2349,10 @@
     "gold": 500,
     "coin": 2500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop_peak",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "1000500": {
     "name": "改名卡",
@@ -1939,7 +2371,10 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "shop_ancient",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "1000502": {
     "name": "青铜矿镐",
@@ -1949,7 +2384,10 @@
     "gold": 300,
     "coin": 1500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "shop_ancient",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "1000503": {
     "name": "白银矿镐",
@@ -1959,7 +2397,10 @@
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop_ancient",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "1000504": {
     "name": "黄金矿镐",
@@ -1970,7 +2411,9 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "1000601": {
     "name": "充值卡碎片",
@@ -1990,7 +2433,9 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5001010": {
     "name": "短剑",
@@ -2000,7 +2445,8 @@
     "gold": 5,
     "coin": 25000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5001020": {
     "name": "麻衣",
@@ -2010,7 +2456,8 @@
     "gold": 5,
     "coin": 25000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5001030": {
     "name": "绳腰",
@@ -2020,7 +2467,8 @@
     "gold": 5,
     "coin": 25000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5001040": {
     "name": "草鞋",
@@ -2030,7 +2478,8 @@
     "gold": 5,
     "coin": 25000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5002010": {
     "name": "阔剑",
@@ -2040,7 +2489,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5002020": {
     "name": "布衣",
@@ -2050,7 +2500,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5002030": {
     "name": "布腰",
@@ -2060,7 +2511,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5002040": {
     "name": "布鞋",
@@ -2070,7 +2522,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "dailyFb"
   },
   "5003010": {
     "name": "君子剑",
@@ -2080,7 +2533,8 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5003020": {
     "name": "蓝染衣",
@@ -2090,7 +2544,8 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5003030": {
     "name": "鬼面腰",
@@ -2100,7 +2555,8 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5003040": {
     "name": "轻羽鞋",
@@ -2110,7 +2566,8 @@
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5004010": {
     "name": "圣人剑",
@@ -2120,7 +2577,8 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5004020": {
     "name": "鳞风甲",
@@ -2130,7 +2588,8 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5004030": {
     "name": "盛世腰",
@@ -2140,7 +2599,8 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5004040": {
     "name": "翔空覆",
@@ -2150,7 +2610,8 @@
     "gold": 40,
     "coin": 200000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "dailyFb"
   },
   "5005010": {
     "name": "天工剑",
@@ -2160,7 +2621,8 @@
     "gold": 90,
     "coin": 450000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5005020": {
     "name": "紫纹铠",
@@ -2170,7 +2632,8 @@
     "gold": 90,
     "coin": 450000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5005030": {
     "name": "紫耀腰",
@@ -2180,7 +2643,8 @@
     "gold": 90,
     "coin": 450000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5005040": {
     "name": "祥云履",
@@ -2190,7 +2654,8 @@
     "gold": 90,
     "coin": 450000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5006010": {
     "name": "降龙之剑",
@@ -2200,7 +2665,8 @@
     "gold": 150,
     "coin": 750000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5006020": {
     "name": "巨兽战铠",
@@ -2210,7 +2676,8 @@
     "gold": 150,
     "coin": 750000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5006030": {
     "name": "流云束腰",
@@ -2220,7 +2687,8 @@
     "gold": 150,
     "coin": 750000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5006040": {
     "name": "渡步云靴",
@@ -2230,7 +2698,8 @@
     "gold": 150,
     "coin": 750000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "dailyFb"
   },
   "5007010": {
     "name": "落神圣剑",
@@ -2240,7 +2709,9 @@
     "gold": 250,
     "coin": 1250000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5007020": {
     "name": "战神胜铠",
@@ -2250,7 +2721,9 @@
     "gold": 250,
     "coin": 1250000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5007030": {
     "name": "魔惧腰带",
@@ -2260,7 +2733,9 @@
     "gold": 250,
     "coin": 1250000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5007040": {
     "name": "追风轻覆",
@@ -2270,7 +2745,9 @@
     "gold": 250,
     "coin": 1250000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5008010": {
     "name": "风云巨剑",
@@ -2280,7 +2757,9 @@
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5008020": {
     "name": "苍月铠甲",
@@ -2290,7 +2769,9 @@
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5008030": {
     "name": "沧澜腰带",
@@ -2300,7 +2781,9 @@
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5008040": {
     "name": "翔龙战靴",
@@ -2310,7 +2793,9 @@
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5009010": {
     "name": "七星宝剑",
@@ -2320,7 +2805,9 @@
     "gold": 730,
     "coin": 3650000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5009020": {
     "name": "流云战袍",
@@ -2330,7 +2817,9 @@
     "gold": 730,
     "coin": 3650000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5009030": {
     "name": "混元腰带",
@@ -2340,7 +2829,9 @@
     "gold": 730,
     "coin": 3650000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5009040": {
     "name": "踏云轻靴",
@@ -2350,7 +2841,9 @@
     "gold": 730,
     "coin": 3650000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5010010": {
     "name": "破晓·天鸣剑",
@@ -2360,7 +2853,9 @@
     "gold": 1250,
     "coin": 6250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5010020": {
     "name": "破晓·铭纹甲",
@@ -2370,7 +2865,9 @@
     "gold": 1250,
     "coin": 6250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5010030": {
     "name": "破晓·梦月腰",
@@ -2380,7 +2877,9 @@
     "gold": 1250,
     "coin": 6250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5010040": {
     "name": "破晓·追云靴",
@@ -2390,7 +2889,9 @@
     "gold": 1250,
     "coin": 6250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5011010": {
     "name": "征战·赤霄剑",
@@ -2400,7 +2901,9 @@
     "gold": 2100,
     "coin": 10500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5011020": {
     "name": "征战·吞天铠",
@@ -2410,7 +2913,9 @@
     "gold": 2100,
     "coin": 10500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5011030": {
     "name": "征战·辟邪腰",
@@ -2420,7 +2925,9 @@
     "gold": 2100,
     "coin": 10500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5011040": {
     "name": "征战·逐月履",
@@ -2430,7 +2937,9 @@
     "gold": 2100,
     "coin": 10500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5012010": {
     "name": "轩辕·帝王剑",
@@ -2441,7 +2950,9 @@
     "coin": 17500000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5012020": {
     "name": "轩辕·帝王铠",
@@ -2452,7 +2963,9 @@
     "coin": 17500000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5012030": {
     "name": "轩辕·帝王腰",
@@ -2463,7 +2976,9 @@
     "coin": 17500000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5012040": {
     "name": "轩辕·帝王履",
@@ -2474,7 +2989,9 @@
     "coin": 17500000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5013010": {
     "name": "战神·诛天枪",
@@ -2485,7 +3002,9 @@
     "coin": 29000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5013020": {
     "name": "战神·奥义铠",
@@ -2496,7 +3015,9 @@
     "coin": 29000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5013030": {
     "name": "战神·圣耀腰",
@@ -2507,7 +3028,9 @@
     "coin": 29000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5013040": {
     "name": "战神·追风履",
@@ -2518,7 +3041,9 @@
     "coin": 29000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5014010": {
     "name": "逐鹿·胜意枪",
@@ -2529,7 +3054,9 @@
     "coin": 49000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5014020": {
     "name": "逐鹿·战胜铠",
@@ -2540,7 +3067,9 @@
     "coin": 49000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5014030": {
     "name": "逐鹿·高歌腰",
@@ -2551,7 +3080,9 @@
     "coin": 49000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5014040": {
     "name": "逐鹿·凯旋靴",
@@ -2562,7 +3093,9 @@
     "coin": 49000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5015010": {
     "name": "盘古·开天斧",
@@ -2573,7 +3106,9 @@
     "coin": 80000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5015020": {
     "name": "盘古·御天甲",
@@ -2584,7 +3119,9 @@
     "coin": 80000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5015030": {
     "name": "盘古·擎天腰",
@@ -2595,7 +3132,9 @@
     "coin": 80000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5015040": {
     "name": "盘古·登天靴",
@@ -2606,7 +3145,9 @@
     "coin": 80000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5016010": {
     "name": "诛神·屠龙刀",
@@ -2617,7 +3158,9 @@
     "coin": 140000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5016020": {
     "name": "诛神·破军铠",
@@ -2628,7 +3171,9 @@
     "coin": 140000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5016030": {
     "name": "诛神·贪狼腰",
@@ -2639,7 +3184,9 @@
     "coin": 140000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5016040": {
     "name": "诛神·紫微履",
@@ -2650,7 +3197,9 @@
     "coin": 140000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5017010": {
     "name": "创世·混沌刀",
@@ -2661,7 +3210,9 @@
     "coin": 240000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5017020": {
     "name": "创世·女娲袍",
@@ -2672,7 +3223,9 @@
     "coin": 240000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5017030": {
     "name": "创世·盘古腰",
@@ -2683,7 +3236,9 @@
     "coin": 240000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "5017040": {
     "name": "创世·凌霄履",
@@ -2694,10 +3249,12 @@
     "coin": 240000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji"
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030010": {
-    "name": "龙方壶",
+    "name": "吕氏镜",
     "des": "暴击伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -2706,7 +3263,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030020": {
     "name": "东海珍珠",
@@ -2718,7 +3277,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030030": {
     "name": "玉如意",
@@ -2730,7 +3291,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030040": {
     "name": "龙子镜",
@@ -2742,10 +3305,12 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030041": {
-    "name": "吕氏镜",
+    "name": "铜马像",
     "des": "法术防御+200（英雄100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
@@ -2754,7 +3319,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030050": {
     "name": "翡翠杯",
@@ -2766,7 +3333,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030060": {
     "name": "玉石玛瑙",
@@ -2778,7 +3347,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030070": {
     "name": "龙延珠",
@@ -2790,7 +3361,9 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9030080": {
     "name": "智君子鉴",
@@ -2802,10 +3375,12 @@
     "other_currency": 206,
     "other_value": 800,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040010": {
-    "name": "突袭号角",
+    "name": "束魂灯",
     "des": "攻击目标越少，沉默概率提升越高，最多对1个目标提高36%的沉默概率。（只对当前有沉默效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -2814,10 +3389,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040020": {
-    "name": "饕餮纹鼎",
+    "name": "钉刺盾",
     "des": "反伤增加20%（只对当前有反伤效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -2826,7 +3403,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040030": {
     "name": "涂漆鼎",
@@ -2838,7 +3417,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040040": {
     "name": "帝王羊尊",
@@ -2850,7 +3431,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040050": {
     "name": "三略六韬",
@@ -2862,7 +3445,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040060": {
     "name": "伤寒杂病论",
@@ -2874,10 +3459,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040070": {
-    "name": "千年乌钢",
+    "name": "翡翠心镜",
     "des": "抗暴概率+12%",
     "isBag": true,
     "type": "ace",
@@ -2886,10 +3473,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040080": {
-    "name": "净坛莲花",
+    "name": "突袭号角",
     "des": "初始怒气增加1点",
     "isBag": true,
     "type": "ace",
@@ -2898,10 +3487,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040090": {
-    "name": "羽人兽文镜",
+    "name": "七宝玉环",
     "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
     "isBag": true,
     "type": "ace",
@@ -2910,7 +3501,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040100": {
     "name": "护心壁",
@@ -2922,7 +3515,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040110": {
     "name": "长信宫灯",
@@ -2934,10 +3529,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040120": {
-    "name": "青铜博山炉",
+    "name": "摄魂铃",
     "des": "攻击目标越少，眩晕概率提升越高，最多提高36%的眩晕概率。（只对当前有眩晕效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -2946,10 +3543,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040130": {
-    "name": "琉璃灯",
+    "name": "震灵鼓",
     "des": "攻击目标越少，麻痹概率提升越高，最多对1个目标提高36%的麻痹概率。（只对当前有麻痹效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -2958,10 +3557,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040140": {
-    "name": "凤冠钗",
+    "name": "净坛莲花",
     "des": "技能治疗效果+10%",
     "isBag": true,
     "type": "ace",
@@ -2970,7 +3571,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040150": {
     "name": "翠玉山河",
@@ -2982,7 +3585,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040151": {
     "name": "玉龙纹",
@@ -2994,7 +3599,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040160": {
     "name": "遁甲天书",
@@ -3006,10 +3613,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040170": {
-    "name": "千年玄铁",
+    "name": "寒冰玄铁",
     "des": "防御+20%",
     "isBag": true,
     "type": "ace",
@@ -3018,7 +3627,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040180": {
     "name": "水净石",
@@ -3030,7 +3641,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040190": {
     "name": "五岳真形图",
@@ -3042,10 +3655,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040200": {
-    "name": "千年乌钢",
+    "name": "乌钢",
     "des": "伤害减免+8%",
     "isBag": true,
     "type": "ace",
@@ -3054,10 +3669,12 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040210": {
-    "name": "紫金葫芦",
+    "name": "烛龙珠",
     "des": "攻击目标越少，中毒概率提升越高，最多可对1个目标提高36%的中毒概率",
     "isBag": true,
     "type": "ace",
@@ -3066,7 +3683,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040220": {
     "name": "太平要术",
@@ -3078,7 +3697,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040230": {
     "name": "紫金钵盂",
@@ -3090,7 +3711,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9040240": {
     "name": "春秋左氏",
@@ -3102,7 +3725,9 @@
     "other_currency": 206,
     "other_value": 3000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050010": {
     "name": "孙子兵法",
@@ -3114,10 +3739,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050020": {
-    "name": "太平清领道",
+    "name": "神农本草",
     "des": "治疗英雄释放技能时，对己方血量最少的3个英雄治疗效果额外提升治疗英雄攻击的32%",
     "isBag": true,
     "type": "ace",
@@ -3126,7 +3753,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050030": {
     "name": "玉净瓶",
@@ -3138,7 +3767,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050040": {
     "name": "神兽砚",
@@ -3150,10 +3781,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050050": {
-    "name": "四灵文镜",
+    "name": "金龙爪",
     "des": "普通攻击必定暴击。（包括治疗英雄）",
     "isBag": true,
     "type": "ace",
@@ -3162,7 +3795,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050060": {
     "name": "错金博山炉",
@@ -3174,10 +3809,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050070": {
-    "name": "衽露羽衣",
+    "name": "四灵文镜",
     "des": "灼烧状态额外延长1回合",
     "isBag": true,
     "type": "ace",
@@ -3186,7 +3823,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050080": {
     "name": "龙炎吐珠",
@@ -3198,10 +3837,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050090": {
-    "name": "锦绣风华",
+    "name": "羽兽纹镜",
     "des": "治疗目标英雄时，若目标处于禁疗状态，将治疗量的200%转化为伤害吸收盾，持续一回合",
     "isBag": true,
     "type": "ace",
@@ -3210,7 +3851,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050100": {
     "name": "龙焰旗",
@@ -3222,10 +3865,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050110": {
-    "name": "金龙剪",
+    "name": "天水灵珠",
     "des": "技能必定命中",
     "isBag": true,
     "type": "ace",
@@ -3234,7 +3879,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050120": {
     "name": "罗绮香囊",
@@ -3246,10 +3893,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050130": {
-    "name": "夜明珠",
+    "name": "淬毒宝珠",
     "des": "中毒状态延长1回合",
     "isBag": true,
     "type": "ace",
@@ -3258,7 +3907,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050160": {
     "name": "铸铜虎符",
@@ -3270,7 +3921,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050170": {
     "name": "长生镜",
@@ -3282,7 +3935,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050180": {
     "name": "射声校尉",
@@ -3294,7 +3949,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050190": {
     "name": "白羽扇",
@@ -3306,7 +3963,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050200": {
     "name": "黄金甲",
@@ -3318,7 +3977,9 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9050210": {
     "name": "龙鳞铠",
@@ -3330,10 +3991,12 @@
     "other_currency": 206,
     "other_value": 10000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060010": {
-    "name": "七宝玉环",
+    "name": "紫金葫芦",
     "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加15%",
     "isBag": true,
     "type": "ace",
@@ -3341,7 +4004,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060020": {
     "name": "太玄生符",
@@ -3352,10 +4017,12 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060030": {
-    "name": "金碧铜马",
+    "name": "金蟾壶",
     "des": "释放技能造成的中毒附加封治疗效果，中毒状态的英雄无法受到治疗",
     "isBag": true,
     "type": "ace",
@@ -3363,7 +4030,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060040": {
     "name": "三皇内文",
@@ -3374,7 +4043,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060050": {
     "name": "传国玉玺",
@@ -3385,7 +4056,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060060": {
     "name": "孟德新书",
@@ -3396,7 +4069,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060070": {
     "name": "和氏璧",
@@ -3407,7 +4082,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "9060080": {
     "name": "黄帝四经",
@@ -3418,7 +4095,9 @@
     "coin": 200000000,
     "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift",
+    "source2": "recharge"
   },
   "11105010": {
     "name": "蚀魂扇",
@@ -4156,7 +4835,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_peak",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13020020": {
     "name": "气势如虹碎片",
@@ -4166,7 +4848,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_crossPK",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13030010": {
     "name": "贪狼饮血碎片",
@@ -4176,7 +4861,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_peak",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13030020": {
     "name": "轰雷掣电碎片",
@@ -4186,7 +4874,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_peak",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13040010": {
     "name": "不朽印记碎片",
@@ -4196,7 +4887,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_muye",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13040030": {
     "name": "桃园结义碎片",
@@ -4206,7 +4900,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_muye",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13040040": {
     "name": "笑里藏刀碎片",
@@ -4216,7 +4913,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_muye",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13040060": {
     "name": "奇门遁甲碎片",
@@ -4226,7 +4926,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "shop_muye",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "13040070": {
     "name": "黄泉引路碎片",
@@ -4236,7 +4939,9 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "recharge",
+    "source2": "gift"
   },
   "101000001": {
     "name": "1元充值卡",
@@ -4465,7 +5170,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "extract"
   },
   "101101008": {
     "name": "中经验袋",
@@ -4477,7 +5183,8 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "extract"
   },
   "101101010": {
     "name": "大经验袋",
@@ -4489,7 +5196,8 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "extract"
   },
   "101201000": {
     "name": "铜钱福袋",
@@ -4501,7 +5209,8 @@
     "gold": 140,
     "coin": 700000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "extract"
   },
   "101201003": {
     "name": "小铜币袋",
@@ -4513,7 +5222,8 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "extract"
   },
   "101201004": {
     "name": "中铜币袋",
@@ -4525,7 +5235,8 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "extract"
   },
   "101201005": {
     "name": "大铜币袋",
@@ -4537,7 +5248,8 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "extract"
   },
   "103100001": {
     "name": "兵法碎片福袋",
@@ -4549,7 +5261,10 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "peak",
+    "source2": "gift",
+    "source3": "recharge"
   },
   "104501010": {
     "name": "神秘绿色玉石",
@@ -4561,7 +5276,8 @@
     "gold": 30,
     "coin": 150000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "extract"
   },
   "104502010": {
     "name": "神秘蓝色玉石",
@@ -4573,7 +5289,8 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "extract"
   },
   "104503010": {
     "name": "神秘紫色玉石",
@@ -4585,7 +5302,8 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "extract"
   },
   "104504010": {
     "name": "神秘橙色玉石",
@@ -4597,7 +5315,8 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "extract"
   },
   "104505010": {
     "name": "神秘红色玉石",
@@ -4609,7 +5328,8 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "extract"
   },
   "104505110": {
     "name": "神秘技能玉石",
@@ -4621,7 +5341,8 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "extract"
   },
   "105501010": {
     "name": "绿色装备匣",
@@ -4705,7 +5426,8 @@
     "gold": 170,
     "coin": 850000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "escort"
   },
   "108002011": {
     "name": "绿色粮草袋",
@@ -4717,7 +5439,8 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "escort"
   },
   "108003001": {
     "name": "蓝色粮草箱",
@@ -4729,7 +5452,8 @@
     "gold": 310,
     "coin": 1550000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "escort"
   },
   "108003011": {
     "name": "蓝色粮草袋",
@@ -4741,7 +5465,8 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "escort"
   },
   "108004001": {
     "name": "紫色粮草箱",
@@ -4753,7 +5478,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "escort"
   },
   "108004011": {
     "name": "紫色粮草袋",
@@ -4765,7 +5491,8 @@
     "gold": 180,
     "coin": 900000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "escort"
   },
   "108005001": {
     "name": "橙色粮草箱",
@@ -4777,7 +5504,8 @@
     "gold": 700,
     "coin": 3500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "escort"
   },
   "108005011": {
     "name": "橙色粮草袋",
@@ -4789,7 +5517,8 @@
     "gold": 300,
     "coin": 1500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "escort"
   },
   "108006001": {
     "name": "红色粮草箱",
@@ -4801,7 +5530,8 @@
     "gold": 1200,
     "coin": 6000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "escort"
   },
   "108006011": {
     "name": "红色粮草袋",
@@ -4813,7 +5543,8 @@
     "gold": 550,
     "coin": 2750000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "escort"
   },
   "108007001": {
     "name": "王者参与宝箱",
@@ -4825,7 +5556,8 @@
     "gold": 160,
     "coin": 800000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "peak"
   },
   "108007002": {
     "name": "王者竞猜宝箱",
@@ -4837,7 +5569,8 @@
     "gold": 360,
     "coin": 1800000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "peak"
   },
   "109300001": {
     "name": "紫色宝物匣",
@@ -4849,7 +5582,8 @@
     "gold": 800,
     "coin": 4000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "shop_zhulu"
   },
   "109400001": {
     "name": "橙色宝物匣",
@@ -4861,7 +5595,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "109500001": {
     "name": "红色宝物匣",
@@ -4873,7 +5609,9 @@
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "204001001": {
     "name": "初级玉石袋",
@@ -4885,7 +5623,9 @@
     "gold": 120,
     "coin": 600000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "204002001": {
     "name": "中级玉石袋",
@@ -4897,7 +5637,9 @@
     "gold": 800,
     "coin": 4000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "204003001": {
     "name": "高级玉石袋",
@@ -4909,7 +5651,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "204004001": {
     "name": "顶级玉石袋",
@@ -4921,7 +5665,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "204005001": {
     "name": "至尊玉石袋",
@@ -4933,7 +5679,9 @@
     "gold": 24000,
     "coin": 120000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205503010": {
     "name": "蓝色套装宝箱",
@@ -4945,7 +5693,9 @@
     "gold": 80,
     "coin": 400000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205505010": {
     "name": "紫色套装宝箱",
@@ -4957,7 +5707,9 @@
     "gold": 360,
     "coin": 1800000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205508010": {
     "name": "橙色套装宝箱",
@@ -4969,7 +5721,9 @@
     "gold": 1720,
     "coin": 8600000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205512010": {
     "name": "红色套装宝箱",
@@ -4981,7 +5735,9 @@
     "gold": 14000,
     "coin": 70000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205512011": {
     "name": "轩辕套装宝箱",
@@ -4993,7 +5749,9 @@
     "gold": 14000,
     "coin": 70000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205513010": {
     "name": "战神套装宝箱",
@@ -5005,7 +5763,9 @@
     "gold": 23200,
     "coin": 116000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205514010": {
     "name": "逐鹿套装宝箱",
@@ -5017,7 +5777,9 @@
     "gold": 39200,
     "coin": 196000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205515010": {
     "name": "盘古套装宝箱",
@@ -5029,7 +5791,9 @@
     "gold": 64000,
     "coin": 320000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205516010": {
     "name": "诛神套装宝箱",
@@ -5041,7 +5805,9 @@
     "gold": 112000,
     "coin": 560000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "205517010": {
     "name": "创世套装宝箱",
@@ -5053,7 +5819,9 @@
     "gold": 192000,
     "coin": 960000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "303006001": {
     "name": "兵法碎片自选箱",
@@ -5065,7 +5833,9 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "303006010": {
     "name": "兵法自选箱",
@@ -5077,7 +5847,9 @@
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "304005001": {
     "name": "橙色玉石自选箱",
@@ -5089,7 +5861,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "304006001": {
     "name": "红色玉石自选箱",
@@ -5101,7 +5875,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "304007001": {
     "name": "技能玉石自选箱",
@@ -5113,7 +5889,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "305508010": {
     "name": "橙色装备自选箱",
@@ -5125,7 +5903,9 @@
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "305512010": {
     "name": "红色装备自选箱",
@@ -5137,7 +5917,9 @@
     "gold": 3500,
     "coin": 17500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005001": {
     "name": "控制英雄自选箱",
@@ -5149,7 +5931,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005002": {
     "name": "输出英雄自选箱",
@@ -5161,7 +5945,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005003": {
     "name": "辅助英雄自选箱",
@@ -5173,7 +5959,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005004": {
     "name": "精选英雄自选箱",
@@ -5185,7 +5973,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005005": {
     "name": "治疗英雄自选箱",
@@ -5197,7 +5987,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "306005006": {
     "name": "肉盾英雄自选箱",
@@ -5209,7 +6001,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "309400001": {
     "name": "橙色宝物自选箱",
@@ -5221,7 +6015,9 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "309500001": {
     "name": "红色宝物自选箱",
@@ -5233,7 +6029,9 @@
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "309600001": {
     "name": "金色宝物自选箱",
@@ -5245,14 +6043,19 @@
     "gold": 40000,
     "coin": 200000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source1": "gift",
+    "source2": "recharge"
   },
   "400010100": {
     "name": "初级青龙石",
     "des": "【0星属性】攻击+2%",
     "isBag": true,
     "type": "stone",
-    "quality": 2
+    "quality": 2,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400010101": {
     "name": "初级青龙石",
@@ -5276,7 +6079,10 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400010201": {
     "name": "中级青龙石",
@@ -5314,7 +6120,10 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400010301": {
     "name": "高级青龙石",
@@ -5366,7 +6175,10 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400010401": {
     "name": "顶级青龙石",
@@ -5433,7 +6245,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400010501": {
     "name": "至尊青龙石",
@@ -5523,7 +6338,10 @@
     "gold": 30,
     "coin": 150000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400020101": {
     "name": "初级朱雀石",
@@ -5547,7 +6365,10 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400020201": {
     "name": "中级朱雀石",
@@ -5585,7 +6406,10 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400020301": {
     "name": "高级朱雀石",
@@ -5637,7 +6461,10 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400020401": {
     "name": "顶级朱雀石",
@@ -5704,7 +6531,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400020501": {
     "name": "至尊朱雀石",
@@ -5794,7 +6624,10 @@
     "gold": 30,
     "coin": 150000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400030101": {
     "name": "初级白虎石",
@@ -5818,7 +6651,10 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400030201": {
     "name": "中级白虎石",
@@ -5856,7 +6692,10 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400030301": {
     "name": "高级白虎石",
@@ -5908,7 +6747,10 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400030401": {
     "name": "顶级白虎石",
@@ -5975,7 +6817,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400030501": {
     "name": "至尊白虎石",
@@ -6065,7 +6910,10 @@
     "gold": 30,
     "coin": 150000,
     "buyNum": 1,
-    "quality": 2
+    "quality": 2,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400040101": {
     "name": "初级玄武石",
@@ -6089,7 +6937,10 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400040201": {
     "name": "中级玄武石",
@@ -6127,7 +6978,10 @@
     "gold": 1500,
     "coin": 7500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400040301": {
     "name": "高级玄武石",
@@ -6179,7 +7033,10 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400040401": {
     "name": "顶级玄武石",
@@ -6246,7 +7103,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400040501": {
     "name": "至尊玄武石",
@@ -6337,7 +7197,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400051101": {
     "name": "破天逐月",
@@ -6372,7 +7235,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400052101": {
     "name": "降淬之辉",
@@ -6407,7 +7273,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400053101": {
     "name": "绝处逢生",
@@ -6442,7 +7311,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400054101": {
     "name": "鸣鸿破釜",
@@ -6477,7 +7349,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400061101": {
     "name": "灵脉庇佑",
@@ -6512,7 +7387,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400062101": {
     "name": "舍身成仁",
@@ -6547,7 +7425,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400063101": {
     "name": "霜之守护",
@@ -6582,7 +7463,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400064101": {
     "name": "龙炎护体",
@@ -6617,7 +7501,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400071101": {
     "name": "无尽怒火",
@@ -6652,7 +7539,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400072101": {
     "name": "重整旗鼓",
@@ -6687,7 +7577,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400073101": {
     "name": "崩雷之怒",
@@ -6722,7 +7615,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400074101": {
     "name": "生生不息",
@@ -6757,7 +7653,10 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "pit",
+    "source2": "recharge",
+    "source3": "gift"
   },
   "400081101": {
     "name": "天神降临",
