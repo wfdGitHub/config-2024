@@ -151,7 +151,7 @@
     "coin": 200000,
     "buyNum": 100,
     "quality": 4,
-    "source1": "peak"
+    "source1": "crossTop"
   },
   "212": {
     "name": "天命积分",
@@ -173,7 +173,7 @@
     "quality": 4,
     "source1": "guild",
     "source2": "guild_fb",
-    "source3": "guild_fb",
+    "source3": "guild_auction",
     "source4": "guild_city"
   },
   "214": {
@@ -464,7 +464,7 @@
     "arg": 7220,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "checkpoints"
   },
   "7230": {
     "name": "骁勇武士",
@@ -473,7 +473,7 @@
     "arg": 7230,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "arena"
   },
   "8010": {
     "name": "青铜士卒",
@@ -482,7 +482,7 @@
     "arg": 8010,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8020": {
     "name": "白银校尉",
@@ -491,7 +491,7 @@
     "arg": 8020,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8030": {
     "name": "黄金军侯",
@@ -500,7 +500,7 @@
     "arg": 8030,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8040": {
     "name": "铂金先锋",
@@ -509,7 +509,7 @@
     "arg": 8040,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8050": {
     "name": "荣耀大将",
@@ -518,7 +518,7 @@
     "arg": 8050,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8060": {
     "name": "最强王者",
@@ -527,16 +527,16 @@
     "arg": 8060,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "crossPK"
   },
   "8070": {
     "name": "名门望族",
-    "des": "名门望族，在VIP8中购买获得",
+    "des": "名门望族，在SVIP购买获得",
     "type": "frame",
     "arg": 8070,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8080": {
     "name": "以令诸侯",
@@ -545,7 +545,7 @@
     "arg": 8080,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8090": {
     "name": "春意盎然",
@@ -554,7 +554,7 @@
     "arg": 8090,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8100": {
     "name": "豪气冲天",
@@ -563,7 +563,7 @@
     "arg": 8100,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8110": {
     "name": "童心妙笔",
@@ -572,7 +572,7 @@
     "arg": 8110,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8120": {
     "name": "情人节",
@@ -581,7 +581,7 @@
     "arg": 8120,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8130": {
     "name": "中秋节",
@@ -590,7 +590,7 @@
     "arg": 8130,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "8990": {
     "name": "矢志不渝",
@@ -599,7 +599,7 @@
     "arg": 8990,
     "quality": 7,
     "effects": "baowu",
-    "source1": "skinShop"
+    "source1": "gift"
   },
   "9001": {
     "name": "翩翩年少",
@@ -2110,7 +2110,9 @@
     "gold": 50,
     "coin": 250000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "warHorn",
+    "source2": "checkpoints"
   },
   "1000080": {
     "name": "百年杜康",
@@ -2321,7 +2323,7 @@
     "coin": 5000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "beherrscher"
+    "source1": "lottery_oh"
   },
   "1000602": {
     "name": "欧皇转盘券",
@@ -4789,7 +4791,7 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "beherrscher"
+    "source1": "lottery_oh"
   },
   "101000006": {
     "name": "6元充值卡",
@@ -4802,7 +4804,8 @@
     "gold": 60,
     "coin": 300000,
     "buyNum": 1,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift"
   },
   "101000010": {
     "name": "10元充值卡",
@@ -4816,7 +4819,7 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "beherrscher",
+    "source1": "lottery_oh",
     "source2": "shop_chongzhi"
   },
   "101000012": {
@@ -4830,7 +4833,8 @@
     "gold": 120,
     "coin": 600000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "101000018": {
     "name": "18元充值卡",
@@ -4843,7 +4847,8 @@
     "gold": 180,
     "coin": 900000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "101000030": {
     "name": "30元充值卡",
@@ -4856,7 +4861,8 @@
     "gold": 300,
     "coin": 1500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "101000050": {
     "name": "50元充值卡",
@@ -4869,7 +4875,8 @@
     "gold": 500,
     "coin": 2500000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "101000100": {
     "name": "100元充值卡",
@@ -4884,6 +4891,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
+    "source1": "gift",
     "source2": "shop_chongzhi"
   },
   "101000200": {
@@ -4899,6 +4907,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
+    "source1": "gift",
     "source2": "shop_chongzhi"
   },
   "101000500": {
@@ -4914,7 +4923,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "beherrscher",
+    "source1": "lottery_oh",
     "source2": "shop_chongzhi"
   },
   "101000648": {
@@ -4929,7 +4938,8 @@
     "coin": 32400000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "101001000": {
     "name": "1000元充值卡",
@@ -4944,7 +4954,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "beherrscher",
+    "source1": "lottery_oh",
     "source2": "shop_chongzhi"
   },
   "101002000": {
@@ -4959,7 +4969,8 @@
     "coin": 100000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "101003000": {
     "name": "3000元充值卡",
@@ -4988,7 +4999,8 @@
     "coin": 250000000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "101010000": {
     "name": "10000元充值卡",
@@ -5002,7 +5014,8 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 4,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "101101006": {
     "name": "小经验袋",
@@ -5106,7 +5119,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "peak",
+    "source1": "crossTeamPK",
     "source2": "gift",
     "source3": "crossTop"
   },
