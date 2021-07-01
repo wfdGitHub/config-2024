@@ -50,46 +50,46 @@
     "desc": "首充"
   },
   "9": {
-    "name": "限时累充",
-    "key": "rechargeTotal",
-    "openlv": 6,
-    "desc": "限时累充",
-    "target": "hallNode/topNode/rightNode/btnList/btnRechargeTotal"
-  },
-  "10": {
     "name": "战令",
     "key": "warHorn",
     "openlv": 3,
     "desc": "战令",
     "target": "hallNode/topNode/mainBtnList/btnWarHorn"
   },
-  "11": {
+  "10": {
     "name": "七日目标",
     "key": "weekTarget",
     "openlv": 4,
     "desc": "七日目标",
     "target": "hallNode/topNode/mainBtnList/btnWeekTarget"
   },
+  "11": {
+    "name": "十日登陆",
+    "key": "loginAward",
+    "openlv": 4,
+    "desc": "新玩家前十天，每天登陆均可免费领取十连豪礼",
+    "target": "hallNode/topNode/mainBtnList/btnLoginAward"
+  },
   "12": {
+    "name": "福利",
+    "key": "gift",
+    "openlv": 4,
+    "desc": "集合多种免费福利，免费领取超多奖励",
+    "target": "hallNode/topNode/mainBtnList/btnGift"
+  },
+  "13": {
     "name": "日常任务",
     "key": "task",
     "openlv": 6,
     "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
     "target": "hallNode/bottomNode/btnList/btnTask"
   },
-  "13": {
-    "name": "十日登陆",
-    "key": "loginAward",
-    "openlv": 7,
-    "desc": "新玩家前十天，每天登陆均可免费领取十连豪礼",
-    "target": "hallNode/topNode/mainBtnList/btnLoginAward"
-  },
   "14": {
-    "name": "福利",
-    "key": "gift",
-    "openlv": 7,
-    "desc": "集合多种免费福利，免费领取",
-    "target": "hallNode/topNode/mainBtnList/btnGift"
+    "name": "限时累充",
+    "key": "rechargeTotal",
+    "openlv": 6,
+    "desc": "限时充值到达指定额度可领取诸多壕礼",
+    "target": "hallNode/topNode/rightNode/btnList/btnRechargeTotal"
   },
   "15": {
     "name": "竞技场",
@@ -297,7 +297,7 @@
     "key": "book",
     "openlv": 56,
     "desc": "兵法助战，英雄属性加成，全新特性战斗策略升级",
-    "target": "uiNode/bottomNode/btnHero"
+    "target": "hallNode/bottomNode/btnList/btnBook"
   },
   "44": {
     "name": "七擒孟获",
@@ -323,8 +323,10 @@
   },
   "47": {
     "name": "战法系统",
+    "key": "zhanfa",
     "openlv": 80,
     "desc": "策略战法，全新战斗体验",
+    "target": "hallNode/bottomNode/btnList/btnZf",
     "targetChild": true
   }
 }
