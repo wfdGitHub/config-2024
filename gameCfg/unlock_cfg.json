@@ -286,7 +286,7 @@
   "42": {
     "name": "元神副本",
     "key": "dailyFb_ace",
-    "openlv": 50,
+    "openlv": 56,
     "desc": "宝物散落之地，挑战可获得大量宝物值",
     "target": "uiNode/frontNode/bottomNode/btnExperience",
     "targetChild": true
@@ -294,21 +294,21 @@
   "43": {
     "name": "天书系统",
     "key": "book",
-    "openlv": 56,
+    "openlv": 65,
     "desc": "兵法助战，英雄属性加成，全新特性战斗策略升级",
     "target": "hallNode/mainNode/bottomNode/btnList/btnBook"
   },
   "44": {
     "name": "天书副本",
     "key": "dailyFb_book",
-    "openlv": 56,
+    "openlv": 65,
     "desc": "兵法孕育之地，挑战可获得大量兵法培养材料",
     "target": "uiNode/frontNode/bottomNode/btnExperience"
   },
   "45": {
     "name": "天命之战",
     "key": "crossTeamPK",
-    "openlv": 60,
+    "openlv": 72,
     "desc": "阵营决战，酣战不休，提升积分，榜上留名",
     "target": "uiNode/frontNode/bottomNode/btnExperience"
   },
@@ -323,9 +323,17 @@
   "47": {
     "name": "战法系统",
     "key": "zhanfa",
-    "openlv": 80,
+    "openlv": 85,
     "desc": "策略战法，全新战斗体验",
     "target": "hallNode/mainNode/bottomNode/btnList/btnZf",
+    "targetChild": true
+  },
+  "48": {
+    "name": "神装系统",
+    "key": "superEquip",
+    "openlv": 90,
+    "desc": "神装在手，征战天下一统乱世",
+    "target": "hallNode/map/content/mapNode/near/btnSmithy",
     "targetChild": true
   }
 }
