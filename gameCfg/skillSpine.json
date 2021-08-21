@@ -1,1392 +1,1423 @@
 {
-  "caocao_atk": {
-    "name": "skill3",
+  "101010_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/caocao_skill3/001/caocao_skill3",
-    "skill": "skills/caocao_skill3/002/caocao_skill3_2",
-    "st": 700,
-    "ht": "[0]"
-  },
-  "caocao_skill": {
-    "name": "skill1",
-    "situ": false,
-    "turn": true,
-    "res": "skills/caocao_skill1/001/caocao_skill1",
-    "skill": "skills/caocao_skill1/002/caocao_skill1_2",
-    "st": 200,
-    "ht": "[700]"
-  },
-  "caiwenji_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/caiwenji_phyattack/001/caiwenji_phyattack",
-    "skill": "skills/caiwenji_phyattack/002/caiwenji_phyattack_1",
-    "st": -1,
-    "ht": "[0]"
-  },
-  "caiwenji_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/caiwenji_skill2/001/caiwenji_skill2",
-    "skill": "skills/caiwenji_skill2/002/caiwenji_skill2_2",
-    "st": -1,
-    "ht": "[0]"
-  },
-  "jiaxu_atk": {
-    "name": "skill3",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/jiaxu_skill3/001/jiaxu_skill3_01",
-    "skill": "skills/jiaxu_skill3/003/jiaxu_skill3_04",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "jiaxu_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/jiaxu_skill1/001/jiaxu_skill1_01",
-    "skill": "skills/jiaxu_skill1/003/jiaxu_skill1_03",
-    "st": 1200,
-    "ht": "[150,400,600,750,950,1200,1300,1500,1750,2000,2200]"
-  },
-  "zhanghe_atk": {
-    "name": "skill4",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhanghe_skill4/001/zhanghe_skill4_1",
-    "skill": "skills/zhanghe_skill4/002/zhanghe_skill4_2",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "zhanghe_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhanghe_skill1/001/zhanghe_skill1_1",
-    "skill": "skills/zhanghe_skill1/002/zhanghe_skill1_2",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "caopi_atk": {
-    "name": "skill4",
-    "situ": true,
-    "repetition": true,
-    "skill": "skills/caopi_skill4/002/caopi_qizi",
-    "st": 1200,
-    "ht": "[0]"
-  },
-  "caopi_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/caopi_skill1/001/caopi_skill1_01",
-    "skill": "skills/caopi_skill1/002/caopi_qizi",
-    "st": 3000,
-    "ht": "[230,530,1000,1470,1770]"
-  },
-  "xiahouchun_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "skill": "skills/base_attack_daoguang/buff_daoguang",
-    "st": 600,
-    "ht": "[0]"
-  },
-  "xiahouchun_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/xiahouchun_skill1/001/xiahouchun_skill1_01",
-    "st": 0,
-    "ht": "[1700,1900,2100]"
-  },
-  "xunyu_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/xunyu_phyattack/001/xunyu_phyattack",
-    "tra": "skills/xunyu_phyattack/002/xunyu_phyattack_1",
-    "skill": "skills/xunyu_phyattack/003/xunyu_phyattack_2",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "xunyu_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/xunyu_skill1/001/xunyu_skill1_1",
-    "skill": "skills/xunyu_skill1/002/xunyu_skill1_2",
-    "st": 1200,
-    "ht": "[0]"
-  },
-  "dianwei_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/dianwei_phyattack/001/dianwei_phyattack_01",
-    "st": 0,
-    "ht": "[300]"
-  },
-  "dianwei_skill": {
-    "name": "skill1",
-    "situ": false,
-    "repetition": true,
-    "res": "skills/dianwei_skill1/001/dianwei_skill1_01",
-    "skill": "skills/dianwei_skill1/002/dianwei_skill1_02",
-    "st": 1200,
-    "ht": "[100,400,700]"
-  },
-  "lejin_atk": {
-    "name": "skill2",
-    "situ": false,
-    "turn": true,
-    "res": "skills/lejin_skill2/001/lejin_skill2_1",
-    "skill": "skills/lejin_skill2/002/lejin_skill2_2",
-    "st": 0,
-    "ht": "[300,500]"
-  },
-  "lejin_skill": {
-    "name": "skill1",
-    "situ": false,
-    "repetition": true,
-    "turn": true,
-    "res": "skills/lejin_skill1/001/lejin_skill1",
-    "skill": "skills/lejin_skill2/002/lejin_skill2_2",
-    "st": 1200,
-    "ht": "[300,500]"
-  },
-  "xuhuang_atk": {
-    "name": "phyattack",
-    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
     "st": 0,
     "ht": "[0]"
   },
-  "xuhuang_skill": {
-    "name": "skill2",
+  "101010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "102010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "102010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "103010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "103010_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "103020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "103020_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104010_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104020_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104030_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104030_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "104040_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105010_atk": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105010_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "skill": "105020_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105020_skill": {
+    "targetType": "enemy_3",
     "situ": false,
     "repetition": true,
-    "res": "skills/xuhuang_skill2/001/xuhuang_skill2_1",
-    "skill": "skills/xuhuang_skill2/002/xuhuang_skill2_2",
-    "st": 900,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "xiahouyuan_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/xiahouyuan_skill2/001/xiahouyuan_skill2_1",
-    "tra": "skills/xiahouyuan_skill2/002/xiahouyuan_skill2_2",
-    "st": 800,
-    "ht": "[0]"
-  },
-  "xiahouyuan_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/xiahouyuan_skill1/001/xiahouyuan_skill1_1",
-    "skill": "skills/xiahouyuan_skill1/002/xiahouyuan_skill1_2",
-    "st": 1100,
-    "ht": "[200]"
-  },
-  "xunyou_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/xunyou_skill2/001/xunyou_skill2_1",
-    "skill": "skills/xunyou_skill2/002/xunyou_skill2_2",
-    "st": 700,
-    "ht": "[0,200,400]"
-  },
-  "xunyou_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/xunyou_skill1/001/xunyou_skill1_1",
-    "skill": "skills/xunyou_skill1/002/xunyou_skill1_2",
-    "st": 700,
-    "ht": "[0,200,400]"
-  },
-  "xuchu_atk": {
-    "name": "skill2",
+  "105030_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/xuchu_skill2/001/xuchu_skill2",
-    "st": 600,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "xuchu_skill": {
-    "name": "skill1",
+  "105030_skill": {
+    "targetType": "enemy_rand_24",
     "situ": false,
-    "res": "skills/xuchu_skill1/001/xuchu_skill1",
-    "st": 1500,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "zhaoyun_atk": {
-    "name": "skill2",
+  "105040_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/zhaoyun_2_skill2/001/zhaoyun_skill2",
-    "st": 300,
+    "repetition": false,
+    "res": "camp1_release",
+    "skill": "105040_pg",
+    "st": 0,
     "ht": "[0]"
   },
-  "zhaoyun_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhaoyun_2_skill1/001/zhaoyun_skill1_1",
-    "skill": "skills/zhaoyun_2_skill1/002/zhaoyun_skill1_2",
-    "st": 1400,
-    "ht": "[0]"
-  },
-  "zhaoyun_sp_atk": {
-    "name": "skill4",
+  "105040_skill": {
+    "targetType": "enemy_normal",
     "situ": false,
     "repetition": true,
-    "res": "skills/zhaoyun_sp_skill4/001/zhaoyun_sp_effect1_1",
-    "skill": "skills/zhaoyun_sp_skill4/002/zhaoyun_sp_skill4_1",
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[1300,1500]"
+    "ht": "[0]"
   },
-  "zhaoyun_sp_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/zhaoyun_sp_skill1/002/zhaoyun_sp_skill1",
+  "105050_atk": {
+    "targetType": "team_minHp_1",
+    "situ": true,
+    "repetition": false,
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[1500,1600,1700,1800,1900]"
-  },
-  "zhugeliang_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhugeliang_phyattack/001/zhugeliang-phyattack_1",
-    "skill": "skills/zhugeliang_phyattack/002/zhugeliang-phyattack_2",
-    "st": 1000,
-    "ht": "[0,100]"
-  },
-  "zhugeliang_skill": {
-    "name": "skill3",
-    "situ": true,
-    "res": "skills/zhugeliang_skill3/001/zhugeliang_skill3_1",
-    "skill": "skills/zhugeliang_skill3/002/zhugeliang_skill3_2",
-    "st": 1000,
-    "ht": "[0,200,400,600,800]"
-  },
-  "liubei_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/liubei_skill2/001/liubei_skill2_1",
-    "skill": "skills/liubei_skill2/002/liubei_skill2_2",
-    "st": 1000,
     "ht": "[0]"
   },
-  "liubei_skill": {
-    "name": "skill1",
+  "105050_skill": {
+    "targetType": "team_minHp_3",
     "situ": true,
-    "res": "skills/liubei_skill1/001/liubei_skill1_01",
-    "skill": "skills/yuanshao_skill3/002/yuanshao_skill3_2",
-    "st": 1000,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "machao_atk": {
-    "name": "phyattack",
+  "105060_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/machao_phyattack/001/machao_phyattack",
-    "st": 300,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "machao_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/machao_skill1/001/machao_skill1",
-    "skill": "skills/machao_skill1/003/machao_skill1_2",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "huangyueying_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/huangyueying_phyattack/001/huangyueying_phyattack_1",
-    "skill": "skills/huangyueying_phyattack/002/huangyueying_phyattack_2",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "huangyueying_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/huangyueying_skill2/001/huangyueying_skill2_1",
-    "skill": "skills/huangyueying_skill2/002/huangyueying_skill2_2",
-    "st": 1100,
-    "ht": "[0]"
-  },
-  "pangtong_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/pangtong_skill2/001/pangtong_skill2_1",
-    "skill": "skills/pangtong_skill2/002/pangtong_skill1_2",
-    "st": 800,
-    "ht": "[0]"
-  },
-  "pangtong_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/pangtong_skill1/001/pangtong_skill1_1",
-    "skill": "skills/pangtong_skill1/002/pangtong_skill2_2",
-    "st": 1000,
-    "ht": "[0,300,600]"
-  },
-  "guanyu_atk": {
-    "name": "skill2",
-    "situ": false,
-    "res": "skills/guanyu_skill2/001/guanyu_skill2",
-    "st": 700,
-    "ht": "[0]"
-  },
-  "guanyu_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/guanyu_skill1/001/guanyu_skill1",
-    "tra": "skills/guanyu_skill1/002/guanyu_skill1_2",
-    "skill": "skills/guanyu_skill1/003/guanyu_skill1_3",
-    "st": 1200,
-    "ht": "[0]"
-  },
-  "zhangfei_atk": {
-    "name": "skill4",
-    "situ": false,
-    "res": "skills/zhangfei_skill4/001/zhangfei_skill4_01",
-    "st": 1000,
-    "ht": "[0,200,400]"
-  },
-  "zhangfei_skill": {
-    "name": "skill2",
+  "105060_skill": {
+    "targetType": "enemy_vertical",
     "situ": false,
     "repetition": true,
-    "res": "skills/zhangfei_skill2/001/zhangfei_skill2_01",
-    "skill": "skills/zhangfei_skill2/003/zhangfei_skill2_03",
-    "st": 1000,
-    "ht": "[0,200]"
-  },
-  "liuchan_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/liuchan_phyattack/001/liuchan_phyattack_01",
-    "skill": "skills/liuchan_phyattack/002/liuchan_phyattack_02",
-    "st": 1050,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "liuchan_skill": {
-    "name": "skill3",
-    "situ": true,
-    "repetition": true,
-    "skill": "skills/liuchan_phyattack/002/liuchan_phyattack_02",
-    "st": 1400,
-    "ht": "[0]"
-  },
-  "guanfeng_atk": {
-    "name": "skill2",
+  "105070_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/guanfeng_skill2/001/guanfeng_skill2_1",
-    "skill": "skills/guanfeng_skill2/002/guanfeng_skill2_2",
-    "st": 400,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "guanfeng_skill": {
-    "name": "skill1",
+  "105070_skill": {
+    "targetType": "enemy_horizontal_front",
     "situ": false,
-    "res": "skills/guanfeng_skill1/001/guanfeng_skill1",
-    "st": 1200,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "weiyan_atk": {
-    "name": "skill1",
+  "105080_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/weiyan_skill1/001/weiyan_skill1_1",
-    "st": 1000,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "weiyan_skill": {
-    "name": "skill2",
+  "105080_skill": {
+    "targetType": "enemy_vertical",
     "situ": false,
     "repetition": true,
-    "res": "skills/weiyan_skill2/001/weiyan_skill2_1",
-    "skill": "skills/weiyan_skill2/002/weiyan_skill2_2",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "huangzhong_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/huangzhong_skill2/001/huangzhong_skill2_1",
-    "tra": "skills/huangzhong_skill2/002/huangzhong_skill2_2",
-    "st": 900,
-    "ht": "[0]"
-  },
-  "huangzhong_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/huangzhong_skill1/001/huangzhong_skill1_1",
-    "tra": "skills/huangzhong_skill1/002/huangzhong_skill1_2",
-    "skill": "skills/huangzhong_skill1/003/huangzhong_skill1_3",
-    "st": 1400,
-    "ht": "[0]"
-  },
-  "fazheng_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/fazheng_phyattack/001/fazheng_phyattack_1",
-    "skill": "skills/fazheng_phyattack/002/fazheng_phyattack_2",
-    "st": 400,
-    "ht": "[0]"
-  },
-  "fazheng_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/fazheng_skill1/001/fazheng_skill1_1",
-    "skill": "skills/fazheng_skill1/002/fazheng_skill1_2",
-    "st": 1000,
-    "ht": "[0,200,400,600,800,1000,1200]"
-  },
-  "sunce_atk": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "skill": "skills/sunce_skill1/003/sunce_skill1_03",
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[850]"
-  },
-  "sunce_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/sunce_skill2/001/sunce_skill2_01",
-    "skill": "skills/sunce_skill2/002/sunce_skill1_02",
-    "st": 1000,
-    "ht": "[130,270,430,570]"
-  },
-  "zhangzhao_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/zhangzhao_skill2/001/zhangzhao_skill2_1",
-    "skill": "skills/zhangzhao_skill2/002/zhangzhao_skill2_2",
-    "st": 700,
-    "ht": "[300,500,700]"
-  },
-  "zhangzhao_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/zhangzhao_skill1/001/zhangzhao_skill1_1",
-    "skill": "skills/zhangzhao_skill1/002/zhangzhao_skill1_2",
-    "st": 1200,
-    "ht": "[0,300]"
-  },
-  "xiaoqiao_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/xiaoqiao_phyattack/001/xiaoqiao_phyattack_1",
-    "skill": "skills/xiaoqiao_phyattack/002/xiaoqiao_phyattack_2",
-    "st": 400,
     "ht": "[0]"
   },
-  "xiaoqiao_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/xiaoqiao_skill1/001/xiaoqiao_skill1_1",
-    "skill": "skills/xiaoqiao_skill1/002/xiaoqiao_skill1_2",
-    "st": 2000,
-    "ht": "[0,500]"
+  "105090_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
   },
-  "zhouyu_atk": {
-    "name": "skill2",
+  "105090_skill": {
+    "targetType": "enemy_vertical",
     "situ": false,
     "repetition": true,
-    "res": "skills/zhouyu_2_skill2/001/zhouyu_skill2_1",
-    "skill": "skills/zhouyu_2_skill2/002/zhouyu_skill2_2",
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[600]"
-  },
-  "zhouyu_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/zhouyu_2_skill1/001/zhouyu_skill1_1",
-    "skill": "skills/zhouyu_2_skill1/002/zhouyu_skill1_2",
-    "st": 0,
-    "ht": "[1330,1500,1630,1900,2100]"
-  },
-  "zhouyu_sp_atk": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhouyu_sp_skill2/001/zhouyu_sp_skill2_1",
-    "skill": "skills/zhouyu_sp_skill2/002/zhouyu_sp_skill2_2",
-    "st": 0,
-    "ht": "[1230,2530,3470]"
-  },
-  "zhouyu_sp_skill": {
-    "name": "skill1_2",
-    "situ": true,
-    "res": "skills/zhouyu_sp_skill1/001/zhouyu_sp_skill1_1",
-    "skill": "skills/zhouyu_sp_skill1/005/zhouyu_sp_skill1_5",
-    "st": 0,
-    "ht": "[1800,2130,2470,2800,3400]"
-  },
-  "zhengji_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/zhengji_skill2/001/zhengji_skill2_1",
-    "skill": "skills/zhengji_skill2/002/zhengji_skill2_2",
-    "st": 700,
     "ht": "[0]"
   },
-  "zhengji_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zhengji_skill1/001/zhengji_skill1_1",
-    "skill": "skills/zhengji_skill1/002/zhengji_skill1_2",
-    "st": 0,
-    "ht": "[670,1270,1830,2420]"
-  },
-  "sunjian_atk": {
-    "name": "skill2",
+  "105100_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "skill": "skills/attack_daoguang3/attack_daoguang3",
-    "st": 600,
-    "ht": "[0]"
-  },
-  "sunjian_skill": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/sunjian_phyattack/001/sunjian_phyattack",
+    "repetition": false,
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[400,600,870]"
-  },
-  "taishici_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/taishici_skill1/002/taishici_skill1_1",
-    "st": 600,
     "ht": "[0]"
   },
-  "taishici_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/taishici_skill1/001/taishici_skill1",
-    "tra": "skills/taishici_skill1/002/taishici_skill1_1",
-    "skill": "skills/taishici_skill1/003/taishici_skill1_2",
-    "st": 800,
-    "ht": "[0]"
-  },
-  "luxun_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/luxun_phyattack/001/luxun_phyattack_01",
-    "tra": "skills/luxun_phyattack/002/luxun_phyattack_02",
-    "skill": "skills/luxun_phyattack/003/luxun_phyattack_03",
-    "st": 400,
-    "ht": "[0]"
-  },
-  "luxun_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/luxun_skill1/001/luxun_skill2_01",
-    "skill": "skills/luxun_skill1/002/luxun_skill1_01",
+  "105100_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[1230,1370,1600,1730,2030]"
-  },
-  "xusheng_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/xusheng_phyattack/001/xusheng_phyattack",
-    "st": 300,
     "ht": "[0]"
   },
-  "xusheng_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "turn": true,
-    "res": "skills/xusheng_skill2/001/xusheng_skill2_1",
-    "skill": "skills/xusheng_skill2/002/xusheng_skill2_2",
-    "st": 100,
-    "ht": "[700]"
-  },
-  "daqiao_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/daqiao_phyattack/000/daqiao_phyattack",
-    "tra": "skills/daqiao_phyattack/001/daqiao_phyattack_1",
-    "skill": "skills/daqiao_phyattack/002/daqiao_phyattack_2",
-    "st": 400,
-    "ht": "[0]"
-  },
-  "daqiao_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/daqiao_skill2/000/daqiao_skill2",
-    "skill": "skills/daqiao_skill2/001/daqiao_skill2_1",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "dingfeng_atk": {
-    "name": "phyattack",
+  "105110_atk": {
+    "targetType": "enemy_normal_back",
     "situ": false,
-    "res": "skills/dingfeng_phyattack/001/dingfeng_phyattack",
-    "st": 450,
-    "ht": "[0]"
-  },
-  "dingfeng_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/dingfeng_skill1/001/dingfeng_skill1_1",
-    "skill": "skills/dingfeng_skill1/002/dingfeng_skill1_2",
-    "st": 1000,
-    "ht": "[100,330,470]"
-  },
-  "lvmeng_atk": {
-    "name": "phyattack",
-    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[450]"
-  },
-  "lvmeng_skill": {
-    "name": "skill1_3",
-    "situ": false,
-    "res": "skills/lvmeng_skill1/001/lvmeng_skill1_3",
-    "st": 0,
-    "ht": "[1130]"
-  },
-  "lusu_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/lusu_skill2/001/lusu_skill2_1",
-    "skill": "skills/lusu_skill2/002/lusu_skill2_2",
-    "st": 800,
-    "ht": "[0,300]"
-  },
-  "lusu_skill": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "turn": true,
-    "res": "skills/lusu_phyattack/001/lusu_phyattack_1",
-    "skill": "skills/lusu_phyattack/002/lusu_phyattack_2",
-    "st": 800,
     "ht": "[0]"
   },
-  "zuoci_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/zuoci_phyattack/001/zuoci_phyattack_1",
-    "skill": "skills/zuoci_phyattack/003/zuoci_phyattack_3",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "zuoci_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/zuoci_skill1/001/zuoci_skill1_1",
-    "skill": "skills/zuoci_skill1/003/zuoci_skill1_3",
-    "st": 1100,
-    "ht": "[0,300,600,900]"
-  },
-  "lvbu_atk": {
-    "name": "skill2",
+  "105110_skill": {
+    "targetType": "enemy_adjoin",
     "situ": false,
     "repetition": true,
-    "res": "skills/lvbu_skill2/001/lvbu_skill2",
-    "skill": "skills/lvbu_skill2/002/lvbu_skill2_1",
-    "st": 900,
+    "res": "camp1_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "lvbu_skill": {
-    "name": "phyattack",
+  "105120_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105120_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105130_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105130_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105140_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp1_release",
+    "skill": "105140_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "105140_skill": {
+    "targetType": "enemy_normal",
     "situ": false,
     "repetition": true,
-    "res": "skills/lvbu_phyattack/001/lvbu_phyattack",
-    "skill": "skills/lvbu_phyattack/002/lvbu_3_skill2_02",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "huatuo_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/huatuo_phyattack/001/huatuo_phyattack",
-    "skill": "skills/huatuo_phyattack/002/huatuo_phyattack_2",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "huatuo_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/huatuo_skill1/001/huatuo_skill1",
-    "skill": "skills/huatuo_skill1/002/huatuo_skill1_2",
-    "st": 1500,
-    "ht": "[270,430,600]"
-  },
-  "dongzhuo_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 200,
-    "ht": "[0]"
-  },
-  "dongzhuo_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/dongzhuo_skill1/001/dongzhuo_skill1_01",
+    "res": "camp1_release",
     "st": 0,
-    "ht": "[1130,1300,1400,1530,1630,1770,1930]"
-  },
-  "yuanshu_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/yuanshu_phyattack/001/yuanshu_phyattack",
-    "tra": "skills/yuanshu_phyattack/002/yuanshu_phyattack_1",
-    "skill": "skills/yuanshu_phyattack/003/yuanshu_phyattack_2",
-    "st": 350,
     "ht": "[0]"
   },
-  "yuanshu_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/yuanshu_skill1/001/yuanshu_skill1_1",
-    "skill": "skills/yuanshu_skill1/002/yuanshu_skill1_2",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "menghuo_atk": {
-    "name": "phyattack",
+  "201010_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/menghuo_phyattack/001/menghuo_phyattack",
-    "st": 400,
-    "ht": "[0]"
-  },
-  "menghuo_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/menghuo_skill1/001/menghuo_skill1",
-    "st": 1700,
-    "ht": "[0]"
-  },
-  "dongbai_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "skill": "skills/dongbai_phyattack/002/dongbai_phyattack_02",
-    "st": 1600,
-    "ht": "[0]"
-  },
-  "dongbai_skill": {
-    "name": "skill1",
-    "situ": true,
-    "skill": "skills/dongbai_skill1/005/dongbai_skill1_05",
-    "st": 1600,
-    "ht": "[500,730,970,1170,1400]"
-  },
-  "yuji_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/yuji_phyattack/001/yuji_phyattack",
-    "tra": "skills/yuji_phyattack/002/yuji_phyattack_1",
-    "skill": "skills/yuji_phyattack/003/yuji_phyattack_2",
-    "st": 350,
-    "ht": "[0]"
-  },
-  "yuji_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/yuji_skill2/001/yuji_skill2",
-    "skill": "skills/yuji_skill2/002/yuji_skill2_1",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[700,900,1100]"
+    "ht": "[0]"
   },
-  "mateng_atk": {
-    "name": "phyattack",
+  "201010_skill": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "st": 500,
-    "ht": "[0]"
-  },
-  "mateng_skill": {
-    "name": "skill1",
-    "situ": false,
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "gongsunzan_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/base_fly_arrow/buff_arrow",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "gongsunzan_skill": {
-    "name": "skill1",
-    "situ": true,
-    "turn": true,
-    "res": "skills/gongsunzan_skill1/001/gongsunzan_skill1_01",
-    "tra": "skills/gongsunzan_skill1/002/gongsunzan_skill1_02",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "zhangjiao_atk": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/zhangjiao_skill1/001/zhangjiao_skill1",
-    "tra": "skills/zhangjiao_skill1/002/zhangjiao_skill1_2",
-    "skill": "skills/zhangjiao_skill1/003/zhangjiao_skill1_3",
-    "st": 1100,
-    "ht": "[0]"
-  },
-  "zhangjiao_skill": {
-    "name": "skill3",
-    "situ": true,
-    "repetition": true,
-    "skill": "skills/zhangjiao_skill3/002/zhangjiao_skill03",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "liubiao_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "res": "skills/liubiao_phyattack/001/liubiao_phyattack",
-    "skill": "skills/liubiao_phyattack/002/liubiao_phyattack_1",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "liubiao_skill": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/liubiao_skill2/001/liubiao_skill2",
-    "skill": "skills/liubiao_skill2/002/liubiao_skill2_1",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "diaochan_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/diaochan_skill2/001/diaochan_skill2",
-    "skill": "skills/diaochan_skill1/002/diaochan_skill1_2",
-    "st": 500,
-    "ht": "[430,930]"
-  },
-  "diaochan_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/diaochan_skill1/001/diaochan_skill1",
-    "skill": "skills/diaochan_skill1/002/diaochan_skill1_2",
-    "st": 1000,
-    "ht": "[430,930]"
-  },
-  "zhangchunhua_atk": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/zhangchunhua_skill2/001/zhangchunhua_skill2_1",
-    "tra": "skills/zhangchunhua_skill2/002/zhangchunhua_skill2_2",
-    "skill": "skills/zhangchunhua_skill2/003/zhangchunhua_skill2_3",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "zhangchunhua_skill": {
-    "name": "skill1_3",
-    "situ": false,
-    "repetition": true,
-    "skill": "skills/zhangchunhua_skill1/003/zhangchunhua_skill1_3",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[500]"
+    "ht": "[0]"
   },
-  "yujin_atk": {
-    "name": "phyattack",
+  "202010_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "res": "skills/attack_daoguang4/attack_daoguang4",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[100]"
+    "ht": "[0]"
   },
-  "yujin_skill": {
-    "name": "skill4",
+  "202010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "203010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "203010_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "203020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "203020_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204020_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204030_atk": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204030_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "204040_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205010_atk": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205010_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205020_atk": {
+    "targetType": "enemy_horizontal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205020_skill": {
+    "targetType": "enemy_horizontal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205030_atk": {
+    "targetType": "team_minHp_1",
     "situ": true,
-    "repetition": true,
-    "res": "skills/yujin_skill4/001/yujin_skill4_1",
-    "skill": "skills/yujin_skill4/002/yujin_skill4_2",
-    "st": 700,
-    "ht": "[0]"
-  },
-  "shuangdaobing_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/shuangdaobing_phyattack/001/shuangdaobing_phyattack",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[300,500]"
-  },
-  "shuangdaobing_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/shuangdaobing_skill1/001/shuangdaobing_skill1",
-    "st": 0,
-    "ht": "[930,1500]"
-  },
-  "dunqibing_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
     "ht": "[0]"
   },
-  "dunqibing_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/dunqibing_skill1/001/dunqibing_skill1",
-    "st": 1300,
-    "ht": "[0]"
-  },
-  "moushi_atk": {
-    "name": "skill2",
+  "205030_skill": {
+    "targetType": "team_all",
     "situ": true,
-    "skill": "skills/moushi_skill2/001/moushi_skill2",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[900]"
-  },
-  "moushi_skill": {
-    "name": "skill2",
-    "situ": true,
-    "repetition": true,
-    "skill": "skills/moushi_skill2/001/moushi_skill2",
-    "st": 0,
-    "ht": "[900]"
-  },
-  "judunbing_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/judunbing_phyattack/001/judunbing_phyattack",
-    "st": 0,
-    "ht": "[300]"
-  },
-  "judunbing_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/judunbing_skill1/001/judunbing_skill1",
-    "st": 0,
-    "ht": "[1000]"
-  },
-  "tengjiabing_atk": {
-    "name": "phyattack",
-    "st": 0,
-    "ht": "[300]"
-  },
-  "tengjiabing_skill": {
-    "name": "skill1",
-    "res": "skills/tengjiabing_skill1/001/tengjiabing_skill1",
-    "skill": "skills/tengjiabing_skill1/002/tengjiabing_skill1_1",
-    "st": 0,
-    "ht": "[1230,1470,1970]"
-  },
-  "xingcai_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/xingcai_phyattack/001/xingcai_phyattack",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "xingcai_skill": {
-    "name": "skill2",
-    "situ": true,
-    "res": "skills/xingcai_skill2/001/xingcai_skill2_1",
-    "skill": "skills/xingcai_skill2/002/xingcai_skill2_2",
-    "st": 1000,
-    "ht": "[370,700,1130]"
-  },
-  "zhoutai_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/attack_daoguang1/attack_daoguang1",
-    "st": 0,
-    "ht": "[100]"
-  },
-  "zhoutai_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/zhoutai_skill1/001/zhoutai_skill_01",
-    "st": 0,
-    "ht": "[1500,1800]"
-  },
-  "zhenfashi_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/zhenfashi_phyattack/001/zhenfashi_phyattack",
-    "st": 0,
-    "ht": "[700]"
-  },
-  "zhenfashi_skill": {
-    "name": "skill2",
-    "situ": false,
-    "res": "skills/zhenfashi_skill2/001/zhenfashi_skill2",
-    "st": 0,
-    "ht": "[300,700]"
-  },
-  "wudangfeijun_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "st": 500,
     "ht": "[0]"
   },
-  "wudangfeijun_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/wudangfeijun_skill1/001/wudangfeijun_skill1",
-    "skill": "skills/wudangfeijun_skill1/002/wudangfeijun_skill1_2",
-    "st": 700,
-    "ht": "[1000,1200]"
-  },
-  "gushi_atk": {
-    "name": "phyattack",
+  "205040_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[300]"
-  },
-  "gushi_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/gushi_skill1/001/gushi_skill1",
-    "skill": "skills/gushi_skill1/002/gushi_skill1_2",
-    "st": 1000,
     "ht": "[0]"
   },
-  "gongqibing_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/base_fly_arrow/buff_arrow",
-    "st": 600,
-    "ht": "[0]"
-  },
-  "gongqibing_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/gongqibing_skill1/001/gongqibing_skill1",
-    "tra": "skills/gongqibing_skill1/002/gongqibing_skill1_2",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "ganning_atk": {
-    "name": "skill2",
+  "205040_skill": {
+    "targetType": "enemy_horizontal_front",
     "situ": false,
-    "res": "skills/ganning_skill2/001/ganning_skill2_1",
-    "skill": "skills/ganning_skill2/002/ganning_skill2_2",
-    "st": 400,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "ganning_skill": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/ganning_skill1/001/ganning_skill1_1",
-    "tra": "skills/ganning_skill1/002/ganning_skill1_2",
-    "skill": "skills/ganning_skill1/003/ganning_skill1_3",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "sunhao_atk": {
-    "name": "skill4",
+  "205050_atk": {
+    "targetType": "enemy_normal",
     "situ": false,
-    "st": 700,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
     "ht": "[0]"
   },
-  "sunhao_skill": {
-    "name": "skill2",
-    "situ": false,
-    "st": 1800,
-    "ht": "[0]"
-  },
-  "lianyaoshi_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/lianyaoshi_phyattack/001/lianyaoshi_phyattack",
-    "skill": "skills/lianyaoshi_phyattack/002/character_lianyaoshi_1",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "lianyaoshi_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/lianyaoshi_skill1/001/lianyaoshi_skill1",
-    "skill": "skills/lianyaoshi_skill1/002/lianyaoshi_skill1_1",
-    "st": 500,
-    "ht": "[500]"
-  },
-  "wuji_atk": {
-    "name": "skill1",
-    "situ": true,
-    "res": "skills/wuji_skill1/001/wuji_skill1",
-    "tra": "skills/wuji_skill1/002/wuji_skill1_3",
-    "st": 700,
-    "ht": "[0]"
-  },
-  "wuji_skill": {
-    "name": "skill1",
-    "situ": true,
-    "repetition": true,
-    "res": "skills/wuji_skill1/001/wuji_skill1",
-    "skill": "skills/wuji_skill1/002/wuji_skill1_3",
-    "st": 900,
-    "ht": "[0]"
-  },
-  "huangjinlishi_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 200,
-    "ht": "[0]"
-  },
-  "huangjinlishi_skill": {
-    "name": "phyattack",
+  "205050_skill": {
+    "targetType": "enemy_vertical",
     "situ": false,
     "repetition": true,
-    "skill": "skills/attack_daoguang2/attack_daoguang2",
-    "st": 200,
-    "ht": "[0]"
-  },
-  "tiefutu_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/tiefutu_phyattack/001/tiefutu_phyattack",
-    "st": 400,
-    "ht": "[0]"
-  },
-  "tiefutu_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/tiefutu_skill1/001/tiefutu_skill1",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "zhurong_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/zhurong_phyattack/001/zhurong_phyattack",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "zhurong_skill": {
-    "name": "skill2",
-    "situ": false,
-    "res": "skills/zhurong_skill2/001/zhurong_skill2",
-    "st": 300,
-    "ht": "[0]"
-  },
-  "hubenjun_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/hubenjun_phyattack/001/hubenjun_phyattack",
+    "res": "camp2_release",
     "st": 0,
     "ht": "[0]"
   },
-  "hubenjun_skill": {
-    "name": "skill1",
+  "205060_atk": {
+    "targetType": "enemy_normal_back",
     "situ": false,
-    "res": "skills/hubenjun_skill1/001/hubenjun_skill1",
+    "repetition": false,
+    "res": "camp2_release",
     "st": 0,
-    "ht": "[800,1000,1200,1500]"
+    "ht": "[0]"
   },
-  "yuanshao_atk": {
-    "name": "skill1",
+  "205060_skill": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205070_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205070_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205080_atk": {
+    "targetType": "enemy_1",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "skill": "205080_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205080_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": true,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205090_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205090_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205100_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205100_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205110_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205110_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205120_atk": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205120_skill": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205130_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205130_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205140_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "skill": "205140_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "205140_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "301010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp2_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "301010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "302010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "302010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "303010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "303010_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "303020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "303020_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304020_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304030_atk": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304030_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "304040_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305010_atk": {
+    "targetType": "enemy_horizontal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "skill": "305010_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305010_skill": {
+    "targetType": "enemy_horizontal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305020_atk": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305020_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305030_atk": {
+    "targetType": "team_minHp_1",
+    "situ": true,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305030_skill": {
+    "targetType": "team_all",
+    "situ": true,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305040_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305050_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305050_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305060_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "skill": "305060_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305060_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": true,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305070_atk": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305070_skill": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305080_atk": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "skill": "305080_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305080_skill": {
+    "targetType": "enemy_horizontal_back",
+    "situ": false,
+    "repetition": true,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305090_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305090_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305100_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "skill": "305100_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305100_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": true,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305110_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305110_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305120_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305120_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305130_atk": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "skill": "305130_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305130_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": true,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305140_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "305140_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": false,
+    "res": "camp3_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "401010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "401010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "402010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "402010_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "403010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "403010_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "403020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "403020_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404010_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404010_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404020_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404030_atk": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404030_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "404040_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405010_atk": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405010_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405020_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405020_skill": {
+    "targetType": "enemy_adjoin",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405030_atk": {
+    "targetType": "team_minHp_1",
+    "situ": true,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405030_skill": {
+    "targetType": "team_all",
+    "situ": true,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405040_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405040_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405050_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405050_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405060_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405060_skill": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405070_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405070_skill": {
+    "targetType": "enemy_all",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405080_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405080_skill": {
+    "targetType": "enemy_3",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405090_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "skill": "405090_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405090_skill": {
+    "targetType": "enemy_vertical",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405100_atk": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405100_skill": {
+    "targetType": "enemy_normal_back",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405110_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "skill": "405110_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405110_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405120_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405120_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
+    "repetition": true,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405130_atk": {
+    "targetType": "team_lossMaxHP",
+    "situ": true,
+    "repetition": false,
+    "res": "camp4_release",
+    "skill": "405130_pg",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405130_skill": {
+    "targetType": "team_lossMaxHP",
     "situ": true,
     "repetition": true,
-    "skill": "skills/yuanshao_skill1/001/yuanshao_skill1_1",
+    "res": "camp4_release",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[0]"
   },
-  "yuanshao_skill": {
-    "name": "skill1",
-    "situ": true,
+  "405140_atk": {
+    "targetType": "enemy_normal",
+    "situ": false,
+    "repetition": false,
+    "res": "camp4_release",
+    "st": 0,
+    "ht": "[0]"
+  },
+  "405140_skill": {
+    "targetType": "enemy_horizontal_front",
+    "situ": false,
     "repetition": true,
-    "res": "skills/yuanshao_skill1/001/yuanshao_skill1_1",
-    "skill": "skills/yuanshao_skill1/001/yuanshao_skill1_1",
+    "res": "camp4_release",
     "st": 0,
-    "ht": "[1000]"
-  },
-  "qiangqibing_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "qiangqibing_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/qiangqibing_skill1/001/qiangqibing_skill1",
-    "st": 800,
-    "ht": "[0]"
-  },
-  "changqiangbing-qun_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "changqiangbing-shu_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "changqiangbing-wei_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "changqiangbing-wu_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "daodunbing-qun_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "daodunbing-shu_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "daodunbing-wei_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "daodunbing-wu_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 300,
-    "ht": "[0]"
-  },
-  "changqiangbing-qun_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/changqiangbing_skill1/001/changqiangbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "changqiangbing-shu_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/changqiangbing_skill1/001/changqiangbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "changqiangbing-wei_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/changqiangbing_skill1/001/changqiangbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "changqiangbing-wu_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/changqiangbing_skill1/001/changqiangbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "daodunbing-qun_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/daodunbing_skill1/001/daodunbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "daodunbing-shu_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/daodunbing_skill1/001/daodunbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "daodunbing-wei_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/daodunbing_skill1/001/daodunbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "daodunbing-wu_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/daodunbing_skill1/001/daodunbing_skill1",
-    "st": 1500,
-    "ht": "[0]"
-  },
-  "hubaoqi_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "st": 500,
-    "ht": "[0]"
-  },
-  "hubaoqi_skill": {
-    "name": "skill1",
-    "situ": false,
-    "st": 0,
-    "ht": "[1100,1230,1470]"
-  },
-  "zhangliao_sp_atk": {
-    "name": "skill0",
-    "situ": false,
-    "res": "skills/zhangliao_sp_skill0/001/zhangliao_sp_skill0_1",
-    "skill": "skills/zhangliao_sp_skill0/002/zhangliao_sp_skill0_2",
-    "st": 1200,
-    "ht": "[0]"
-  },
-  "zhangliao_sp_skill": {
-    "name": "skill1_1",
-    "situ": false,
-    "res": "skills/zhangliao_sp_skill1/001/zhangliao_sp_skill1_1",
-    "skill": "skills/zhangliao_sp_skill1/002/zhangliao_sp_skill1_4",
-    "st": 2000,
-    "ht": "[0]"
-  },
-  "pangde_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "skill": "skills/pangde_skill1/002/pangde_skill1_2",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "pangde_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/pangde_skill1/001/pangde_skill1_1",
-    "skill": "skills/pangde_skill1/002/pangde_skill1_2",
-    "st": 900,
-    "ht": "[0]"
-  },
-  "sunquan_atk": {
-    "name": "phyattack",
-    "situ": true,
-    "tra": "skills/sunquan_attack/001/sunquan_attack_01",
-    "skill": "skills/sunquan_attack/002/sunquan_attack_02",
-    "st": 200,
-    "ht": "[0]"
-  },
-  "sunquan_skill": {
-    "name": "skill1",
-    "situ": true,
-    "skill": "skills/sunquan_skill1/001/sunquan_skill1_01",
-    "st": 0,
-    "ht": "[1070,1170,1270,1370,1470,1700]"
-  },
-  "jiangwei2_atk": {
-    "name": "phyattack",
-    "situ": false,
-    "res": "skills/jiangwei2_phyattack/001/jiangwei_phyattack_01",
-    "skill": "skills/jiangwei2_phyattack/002/jiangwei_phyattack_02",
-    "st": 470,
-    "ht": "[0]"
-  },
-  "jiangwei2_skill": {
-    "name": "skill1",
-    "situ": false,
-    "res": "skills/jiangwei2_skill1/001/jiangwei_skill1_01",
-    "st": 930,
     "ht": "[0]"
   },
   "singleAtk": {
@@ -1451,834 +1482,5 @@
     "skill": "books/seckill/002/seckill_002",
     "st": 500,
     "ht": "[2370]"
-  },
-  "11011_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/11011/pg/11011_pg",
-    "st": 0,
-    "ht": "[433,733]"
-  },
-  "11011_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/11011/skill/11011_skill",
-    "st": 0,
-    "ht": "[866,1066,1299,1866,2533]"
-  },
-  "11044_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/11044/pg/11044_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "11044_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/11044/skill/11044_skill",
-    "st": 0,
-    "ht": "[933,1500,1766,2033,2300, 2566,2766,2966]"
-  },
-  "11064_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/11064/pg/11064_pg",
-    "st": 0,
-    "ht": "[500]"
-  },
-  "11064_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/11064/skill/11064_skill",
-    "st": 0,
-    "ht": "[300,1200]"
-  },
-  "11085_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/11085/pg/11085_pg",
-    "st": 0,
-    "ht": "[400,833]"
-  },
-  "11085_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/11085/skill/11085_skill",
-    "st": 0,
-    "ht": "[1233,1399,1666,1799,2033,2233,2500]"
-  },
-  "12024_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/12024/pg_dd/12024_pg",
-    "skill": "ACGN/12024/pg/12024_pg",
-    "st": 633,
-    "ht": "[0]"
-  },
-  "12024_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/12024/skill/12024_skill",
-    "st": 0,
-    "ht": "[1633]"
-  },
-  "13023_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/13023/pg/13023_pg",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "13023_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/13023/skill/13023_skill",
-    "st": 0,
-    "ht": "[633,1133,1600,2366]"
-  },
-  "13034_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/13034/skill/13034_pg",
-    "st": 0,
-    "ht": "[500]"
-  },
-  "13034_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/13034/skill/13034_skill",
-    "st": 0,
-    "ht": "[1333]"
-  },
-  "14024_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/14024/pg/14024_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "14024_skill": {
-    "name": "skill",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/14024/skill/14024_skill",
-    "st": 1166,
-    "ht": "[0]"
-  },
-  "14035_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/14035/pg/14035_pg",
-    "st": 0,
-    "ht": "[600,866,1066]"
-  },
-  "14035_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/14035/skill/14035_skill",
-    "st": 0,
-    "ht": "[1000]"
-  },
-  "15014_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/15014/pg_dd/15014_pg",
-    "skill": "ACGN/15014/pg/15014_pg",
-    "st": 699,
-    "ht": "[0]"
-  },
-  "15014_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/15014/skill/15014_skill",
-    "st": 0,
-    "ht": "[1533,1666,1866]"
-  },
-  "15024_pg": {
-    "name": "atk",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/15024/pg/15024_pg",
-    "st": 0,
-    "ht": "[833]"
-  },
-  "15024_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/15024/skill/15024_skill",
-    "st": 0,
-    "ht": "[400,533,666]"
-  },
-  "43044_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/43044/pg_dd/43044_pg",
-    "skill": "ACGN/43044/pg/43044_pg",
-    "st": 633,
-    "ht": "[0]"
-  },
-  "43044_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/43044/skill/43044_skill",
-    "st": 1366,
-    "ht": "[0]"
-  },
-  "44011_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/44011/pg/44011_pg",
-    "st": 0,
-    "ht": "[1100]"
-  },
-  "44011_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/44011/skill/44011_skill",
-    "st": 0,
-    "ht": "[433,633,833,1033,1233,1433,1633,2000]"
-  },
-  "61025_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/61025/pg/61025_pg",
-    "st": 0,
-    "ht": "[433]"
-  },
-  "61025_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/61025/skill/61025_skill",
-    "st": 0,
-    "ht": "[800,966,1166]"
-  },
-  "64013_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/64013/pg/64013_pg",
-    "st": 0,
-    "ht": "[400]"
-  },
-  "64013_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/64013/skill/64013_skill",
-    "st": 766,
-    "ht": "[200]"
-  },
-  "44024_pg": {
-    "name": "atk",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/44024/pg/44024_pg",
-    "st": 0,
-    "ht": "[666]"
-  },
-  "44024_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/44024/skill/44024_skill",
-    "st": 0,
-    "ht": "[1333,1466,1599,2199]"
-  },
-  "25044_pg": {
-    "name": "atk",
-    "tra": "ACGN/25044/pg_dd/25044_pg",
-    "skill": "ACGN/25044/pg/25044_pg",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "25044_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/25044/skill/25044_skill",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "23035_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/23035/pg/23035_pg",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "23035_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/23035/skill/23035_skill",
-    "st": 0,
-    "ht": "[1866,1966,2066,2166,2533]"
-  },
-  "25054_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/25054/pg_dd/25054_pg",
-    "skill": "ACGN/25054/pg/25054_pg",
-    "st": 433,
-    "ht": "[0]"
-  },
-  "25054_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/25054/skill/25054_skill",
-    "st": 0,
-    "ht": "[1566,1833,2066,2299,2500]"
-  },
-  "22045_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/22045/pg_dd/22045_pg",
-    "skill": "ACGN/22045/pg/22045_pg",
-    "st": 633,
-    "ht": "[0]"
-  },
-  "22045_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/22045/skill/22045_skill",
-    "st": 0,
-    "ht": "[1466,1666,1866,2000,2299]"
-  },
-  "25011_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/25011/pg_dd/25011_pg",
-    "skill": "ACGN/25011/pg/25011_pg",
-    "st": 666,
-    "ht": "[0]"
-  },
-  "25011_skill": {
-    "name": "skill",
-    "situ": true,
-    "tra": "ACGN/25011/pg_dd/25011_skill",
-    "skill": "ACGN/25011/skill/25011_skill",
-    "st": 1799,
-    "ht": "[170,430,830,1200,1630]"
-  },
-  "24035_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/24035/pg/24035_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "24035_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/24035/skill/24035_skill",
-    "st": 1733,
-    "ht": "[0]"
-  },
-  "21045_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/21045/pg/21045_pg",
-    "st": 0,
-    "ht": "[733]"
-  },
-  "21045_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/21045/skill/21045_skill",
-    "st": 0,
-    "ht": "[1366,1466,1566,1666,1899]"
-  },
-  "21024_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/21024/pg/21024_pg",
-    "st": 0,
-    "ht": "[733]"
-  },
-  "21024_skill": {
-    "name": "skill",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/21024/skill/21024_skill",
-    "st": 1966,
-    "ht": "[0]"
-  },
-  "21014_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/21014/pg/21014_pg",
-    "st": 0,
-    "ht": "[633]"
-  },
-  "21014_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/21014/skill/21014_skill",
-    "st": 733,
-    "ht": "[0]"
-  },
-  "24024_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/24024/pg/24024_pg",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "24024_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/24024/skill/24024_skill",
-    "st": 2033,
-    "ht": "[0]"
-  },
-  "24013_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/24013/pg/24013_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "24013_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/24013/skill/24013_skill",
-    "st": 0,
-    "ht": "[1300]"
-  },
-  "22034_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/22034/pg/22034_pg",
-    "st": 533,
-    "ht": "[0]"
-  },
-  "22034_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/22034/skill/22034_skill",
-    "st": 0,
-    "ht": "[966,1100,1233,1500]"
-  },
-  "22012_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/22012/pg_dd/22012_pg",
-    "skill": "ACGN/22012/pg/22012_pg",
-    "st": 566,
-    "ht": "[0]"
-  },
-  "22012_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/22012/skill/22012_skill",
-    "st": 0,
-    "ht": "[1533]"
-  },
-  "35035_pg": {
-    "name": "atk",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/35035/skill/35035_pg",
-    "st": 0,
-    "ht": "[566]"
-  },
-  "35035_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/35035/skill/35035_skill",
-    "st": 0,
-    "ht": "[1600,1733,1833,2133]"
-  },
-  "32034_pg": {
-    "name": "atk",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/32034/skill/32034_pg",
-    "st": 0,
-    "ht": "[866]"
-  },
-  "32034_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/32034/skill/32034_skill",
-    "st": 0,
-    "ht": "[933,1266,1666,1999]"
-  },
-  "31054_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/31054/skill/31054_pg",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "31054_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/31054/skill/31054_skill",
-    "st": 0,
-    "ht": "[1000,1133,1266]"
-  },
-  "33014_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/33014/skill/33014_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "33014_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/33014/skill/33014_skill",
-    "st": 0,
-    "ht": "[766]"
-  },
-  "31085_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/31085/skill/31085_pg",
-    "st": 0,
-    "ht": "[333,866]"
-  },
-  "31085_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/31085/skill/31085_skill",
-    "st": 0,
-    "ht": "[899,1033,1166]"
-  },
-  "52024_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/52024/pg_dd/52024_pg",
-    "skill": "ACGN/52024/skill/52024_pg",
-    "st": 633,
-    "ht": "[0]"
-  },
-  "52024_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/52024/skill/52024_skill",
-    "st": 1533,
-    "ht": "[0]"
-  },
-  "22055_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/22055/pg_dd/22055_pg",
-    "skill": "ACGN/22055/skill/22055_pg",
-    "st": 633,
-    "ht": "[0]"
-  },
-  "22055_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/22055/skill/22055_skill",
-    "st": 0,
-    "ht": "[1233,1399,1566,1866,2200]"
-  },
-  "31064_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/31064/skill/31064_pg",
-    "st": 0,
-    "ht": "[466,1033]"
-  },
-  "31064_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/31064/skill/31064_skill",
-    "st": 1000,
-    "ht": "[0]"
-  },
-  "31044_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/31044/skill/31044_pg",
-    "st": 0,
-    "ht": "[633]"
-  },
-  "31044_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/31044/skill/31044_skill",
-    "st": 0,
-    "ht": "[866,1066,1266,1466,1966]"
-  },
-  "31075_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/31075/skill/31075_pg",
-    "st": 0,
-    "ht": "[533]"
-  },
-  "31075_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/31075/skill/31075_skill",
-    "st": 0,
-    "ht": "[900,1070,1230,1470,1630,2070]"
-  },
-  "34025_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/34025/skill/34025_pg",
-    "st": 433,
-    "ht": "[0]"
-  },
-  "34025_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/34025/skill/34025_skill",
-    "st": 0,
-    "ht": "[800,1070]"
-  },
-  "32011_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/32011/pg_dd/32011_pg",
-    "skill": "ACGN/32011/skill/32011_pg",
-    "st": 733,
-    "ht": "[0]"
-  },
-  "32011_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/32011/skill/32011_skill",
-    "st": 0,
-    "ht": "[1100,1166,1233,1300,1566]"
-  },
-  "35023_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/35023/pg_dd/35023_pg",
-    "skill": "ACGN/35023/skill/35023_pg",
-    "st": 600,
-    "ht": "[0]"
-  },
-  "35023_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/35023/skill/35023_skill",
-    "st": 0,
-    "ht": "[2233,2400,2666]"
-  },
-  "61014_pg": {
-    "name": "atk",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/61014/skill/61014_pg",
-    "st": 0,
-    "ht": "[600]"
-  },
-  "61014_skill": {
-    "name": "skill",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/61014/skill/61014_skill",
-    "st": 0,
-    "ht": "[1633,1766,1999]"
-  },
-  "41034_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/41034/skill/41034_pg",
-    "st": 0,
-    "ht": "[433]"
-  },
-  "41034_skill": {
-    "name": "skill",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/41034/skill/41034_skill",
-    "st": 1633,
-    "ht": "[700]"
-  },
-  "51015_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/51015/skill/51015_pg",
-    "st": 966,
-    "ht": "[0]"
-  },
-  "51015_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/51015/skill/51015_skill",
-    "st": 1399,
-    "ht": "[0,200,300,500,700]"
-  },
-  "52034_pg": {
-    "name": "atk",
-    "situ": false,
-    "tra": "ACGN/52034/pg_dd/52034_pg",
-    "skill": "ACGN/52034/skill/52034_pg",
-    "st": 833,
-    "ht": "[0]"
-  },
-  "52034_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/52034/skill/52034_skill",
-    "st": 1666,
-    "ht": "[0]"
-  },
-  "63014_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/63014/skill/63014_pg",
-    "st": 0,
-    "ht": "[500]"
-  },
-  "63014_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/63014/skill/63014_skill",
-    "st": 0,
-    "ht": "[1000]"
-  },
-  "44034_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/44034/skill/44034_pg",
-    "st": 0,
-    "ht": "[466]"
-  },
-  "44034_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/44034/skill/44034_skill",
-    "st": 0,
-    "ht": "[666,933,1066,1200]"
-  },
-  "45034_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/45034/pg_dd/45034_pg",
-    "skill": "ACGN/45034/skill/45034_pg",
-    "st": 600,
-    "ht": "[0]"
-  },
-  "45034_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/45034/skill/45034_skill",
-    "st": 0,
-    "ht": "[1500,1733,2066]"
-  },
-  "13012_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/13012/pg_dd/13012_pg",
-    "skill": "ACGN/13012/skill/13012_pg",
-    "st": 566,
-    "ht": "[0]"
-  },
-  "13012_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/13012/skill/13012_skill",
-    "st": 0,
-    "ht": "[1233,1466,1766,2099,2433]"
-  },
-  "32044_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/32044/skill/32044_pg",
-    "st": 0,
-    "ht": "[433]"
-  },
-  "32044_skill": {
-    "name": "skill",
-    "situ": false,
-    "repetition": true,
-    "skill": "ACGN/32044/skill/32044_skill",
-    "st": 0,
-    "ht": "[1666,1866,2000,2200,2400]"
-  },
-  "62014_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/62014/skill/62014_pg",
-    "st": 500,
-    "ht": "[0]"
-  },
-  "62014_skill": {
-    "name": "skill",
-    "situ": true,
-    "skill": "ACGN/62014/skill/62014_skill",
-    "st": 899,
-    "ht": "[0]"
-  },
-  "41023_pg": {
-    "name": "atk",
-    "situ": true,
-    "tra": "ACGN/41023/pg_dd/41023_pg",
-    "skill": "ACGN/41023/skill/41023_pg",
-    "st": 699,
-    "ht": "[0]"
-  },
-  "41023_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/41023/skill/41023_skill",
-    "st": 0,
-    "ht": "[1399]"
-  },
-  "12035_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/12035/skill/12035_pg",
-    "st": 466,
-    "ht": "[0]"
-  },
-  "12035_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/12035/skill/12035_skill",
-    "st": 0,
-    "ht": "[1230,1630,2000,2400,2770]"
-  },
-  "13045_pg": {
-    "name": "atk",
-    "situ": true,
-    "skill": "ACGN/13045/skill/13045_pg",
-    "st": 966,
-    "ht": "[0]"
-  },
-  "13045_skill": {
-    "name": "skill",
-    "situ": true,
-    "repetition": true,
-    "skill": "ACGN/13045/skill/13045_skill",
-    "st": 0,
-    "ht": "[1100,1299,1500,1866]"
-  },
-  "55025_pg": {
-    "name": "atk",
-    "situ": false,
-    "skill": "ACGN/55025/skill/55025_pg",
-    "st": 0,
-    "ht": "[433]"
-  },
-  "55025_skill": {
-    "name": "skill",
-    "situ": false,
-    "skill": "ACGN/55025/skill/55025_skill",
-    "st": 0,
-    "ht": "[1100,1500,1566,1799,1866,2099]"
   }
 }

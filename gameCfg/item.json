@@ -31,8 +31,8 @@
     "name": "元宝",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.02,
-    "coin": 100,
+    "gold": 0.01,
+    "coin": 50,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -56,7 +56,7 @@
     "name": "元宝替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 50,
+    "arg": 100,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -102,7 +102,7 @@
     "source2": "warHorn"
   },
   "207": {
-    "name": "法宝值",
+    "name": "神兵值",
     "des": "天地灵气聚集而成，可用于在神兵商店购买神兵",
     "type": "currency",
     "gold": 1,
@@ -115,7 +115,7 @@
   },
   "208": {
     "name": "玉璧",
-    "des": "玉璧通过英雄云集召唤获得，可在召唤商城中兑换英雄",
+    "des": "玉璧通过英雄云集招募获得，可在招募商城中兑换英雄",
     "type": "currency",
     "gold": 100,
     "coin": 500000,
@@ -124,8 +124,8 @@
     "source1": "general"
   },
   "209": {
-    "name": "地宫积分",
-    "des": "地宫积分在皇陵探险玩法中获得，用于兑换皇陵商店道具",
+    "name": "皇陵积分",
+    "des": "皇陵积分在皇陵探险玩法中获得，用于兑换皇陵商店道具",
     "type": "currency",
     "gold": 20,
     "coin": 100000,
@@ -164,8 +164,8 @@
     "source1": "muye"
   },
   "213": {
-    "name": "宗族贡献",
-    "des": "宗族贡献贡献",
+    "name": "同盟贡献",
+    "des": "同盟贡献贡献",
     "type": "currency",
     "gold": 40,
     "coin": 200000,
@@ -198,17 +198,18 @@
   },
   "230": {
     "name": "战法令",
-    "des": "可在宗族商店中兑换活动，用于激活战法",
+    "des": "可在同盟商店中兑换获得，用于激活战法",
     "type": "currency",
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "shop_guild",
+    "source2": "gift"
   },
   "301": {
-    "name": "召唤积分",
-    "des": "通关召唤获得积分，可用于积分抽奖，必定得五星英雄",
+    "name": "招募积分",
+    "des": "通关招募获得积分，可用于积分抽奖，必定得五星英雄",
     "type": "currency",
     "gold": 300,
     "coin": 1500000,
@@ -232,7 +233,7 @@
     "quality": 5
   },
   "4001": {
-    "name": "星光护符",
+    "name": "校尉护符",
     "des": "校尉护符，刻有古老的撰文：荧光之力，燎原之势，可激活1个初级技能",
     "type": "hufu",
     "arg": "{\"lv\":1}",
@@ -244,7 +245,7 @@
     "source2": "arena"
   },
   "4002": {
-    "name": "月光护符",
+    "name": "羽林护符",
     "des": "羽林护符，刻有古老的撰文：星光点点，皆源于日，可激活1个中级技能",
     "type": "hufu",
     "arg": "{\"lv\":2}",
@@ -256,7 +257,7 @@
     "source2": "shop_crossPK"
   },
   "4003": {
-    "name": "阳光护符",
+    "name": "将军护符",
     "des": "将军护符，刻有古老的撰文：荧光浩瀚，皆源于月，可激活2个初/中/高级技能",
     "type": "hufu",
     "arg": "{\"lv\":3}",
@@ -267,7 +268,7 @@
     "source1": "gift"
   },
   "4004": {
-    "name": "银河护符",
+    "name": "君王护符",
     "des": "君王护符，刻有古老的撰文：渺渺星海，吞天噬日，可激活2个中/高/超级技能",
     "type": "hufu",
     "arg": "{\"lv\":4}",
@@ -279,8 +280,8 @@
     "source1": "gift"
   },
   "7010": {
-    "name": "名动三界",
-    "des": "名动三界，跨服竞技赛季中进入荣耀殿堂获得",
+    "name": "名动三国",
+    "des": "名动三国，跨服竞技赛季中进入荣耀殿堂获得",
     "type": "title",
     "arg": 7010,
     "quality": 7,
@@ -315,8 +316,8 @@
     "source1": "muye"
   },
   "7050": {
-    "name": "封神试炼",
-    "des": "封神试炼，封神试炼中完成七卷后获得",
+    "name": "千里单骑",
+    "des": "千里单骑，单骑救主完成七卷后获得",
     "type": "title",
     "arg": 7050,
     "quality": 7,
@@ -324,8 +325,8 @@
     "source1": "areaChallenge"
   },
   "7060": {
-    "name": "远古战神",
-    "des": "远古战神，远古战场中获得冠军后获得",
+    "name": "大将军",
+    "des": "大将军，远古战场中获得冠军后获得",
     "type": "title",
     "arg": 7060,
     "quality": 7,
@@ -333,8 +334,8 @@
     "source1": "ancient"
   },
   "7070": {
-    "name": "三界无双",
-    "des": "三界无双，无双争霸中获得",
+    "name": "三国无双",
+    "des": "三国无双，无双争霸中获得",
     "type": "title",
     "arg": 7070,
     "quality": 7,
@@ -360,8 +361,8 @@
     "source1": "beherrscher"
   },
   "7100": {
-    "name": "至尊特权",
-    "des": "至尊特权，激活至尊特权后领取获得",
+    "name": "以令诸侯",
+    "des": "以令诸侯，激活至尊特权后领取获得",
     "type": "title",
     "arg": 7100,
     "quality": 7,
@@ -396,8 +397,8 @@
     "source1": "areaBoss"
   },
   "7140": {
-    "name": "泰坦之姿",
-    "des": "泰坦之势，新服BOSS巨猿伤害前3获得",
+    "name": "黄巾力士",
+    "des": "黄巾力士，新服BOSS张角伤害前3获得",
     "type": "title",
     "arg": 7140,
     "quality": 7,
@@ -405,8 +406,8 @@
     "source1": "areaBoss"
   },
   "7150": {
-    "name": "战意滔天",
-    "des": "战意滔天，新服BOSS狻猊伤害前3获得",
+    "name": "西凉骑兵",
+    "des": "西凉骑兵，新服BOSS董卓伤害前3获得",
     "type": "title",
     "arg": 7150,
     "quality": 7,
@@ -414,8 +415,8 @@
     "source1": "areaBoss"
   },
   "7160": {
-    "name": "气势如虹",
-    "des": "勇猛无比，新服BOSS穷奇伤害前3获得",
+    "name": "大戟士",
+    "des": "大戟士，新服BOSS袁绍伤害前3获得",
     "type": "title",
     "arg": 7160,
     "quality": 7,
@@ -423,8 +424,8 @@
     "source1": "areaBoss"
   },
   "7170": {
-    "name": "勇猛无比",
-    "des": "气势如虹，新服BOSS谛听伤害前3获得",
+    "name": "白马义从",
+    "des": "白马义从，新服BOSS公孙瓒伤害前3获得",
     "type": "title",
     "arg": 7170,
     "quality": 7,
@@ -432,8 +433,8 @@
     "source1": "areaBoss"
   },
   "7180": {
-    "name": "热血奋战",
-    "des": "热血奋战，新服BOSS麒麟伤害前3获得",
+    "name": "藤甲兵",
+    "des": "藤甲兵，新服BOSS孟获伤害前3获得",
     "type": "title",
     "arg": 7180,
     "quality": 7,
@@ -441,8 +442,8 @@
     "source1": "areaBoss"
   },
   "7190": {
-    "name": "天降祥瑞",
-    "des": "天降祥瑞，新服BOSS瑞兽伤害前3获得",
+    "name": "百翎卫",
+    "des": "百翎卫，新服BOSS孙权伤害前3获得",
     "type": "title",
     "arg": 7190,
     "quality": 7,
@@ -450,8 +451,8 @@
     "source1": "areaBoss"
   },
   "7200": {
-    "name": "浴火重生",
-    "des": "浴火重生，新服BOSS凤凰伤害前3获得",
+    "name": "白眊兵",
+    "des": "白眊兵，新服BOSS刘备伤害前3获得",
     "type": "title",
     "arg": 7200,
     "quality": 7,
@@ -459,8 +460,8 @@
     "source1": "areaBoss"
   },
   "7210": {
-    "name": "屠龙勇士",
-    "des": "屠龙勇士，新服BOSS烛龙伤害前3获得",
+    "name": "虎豹骑",
+    "des": "虎豹骑，新服BOSS曹操伤害前3获得",
     "type": "title",
     "arg": 7210,
     "quality": 7,
@@ -485,33 +486,9 @@
     "effects": "baowu",
     "source1": "arena"
   },
-  "7801": {
-    "name": "天秀江湖",
-    "des": "活动产出，【战神】玩家专属称号",
-    "type": "title",
-    "arg": 7801
-  },
-  "7802": {
-    "name": "逍遥无极",
-    "des": "活动产出，【开心就好】玩家专属称号",
-    "type": "title",
-    "arg": 7802
-  },
-  "7803": {
-    "name": "勇敢牛牛",
-    "des": "活动产出，【啊胖】玩家专属称号",
-    "type": "title",
-    "arg": 7803
-  },
-  "7804": {
-    "name": "在水之滨",
-    "des": "活动产出，【坠落】玩家专属称号",
-    "type": "title",
-    "arg": 7804
-  },
   "8010": {
-    "name": "秩序白银",
-    "des": "秩序白银，在跨服赛季中到达白银段位结算获得",
+    "name": "青铜士卒",
+    "des": "青铜士卒，在跨服赛季中到达士卒段位结算获得",
     "type": "title",
     "arg": 8010,
     "quality": 7,
@@ -519,8 +496,8 @@
     "source1": "crossPK"
   },
   "8020": {
-    "name": "荣耀黄金",
-    "des": "荣耀黄金，在跨服赛季中到达黄金段位结算获得",
+    "name": "白银校尉",
+    "des": "白银校尉，在跨服赛季中到达校尉段位结算获得",
     "type": "frame",
     "arg": 8020,
     "quality": 7,
@@ -528,8 +505,8 @@
     "source1": "crossPK"
   },
   "8030": {
-    "name": "尊贵铂金",
-    "des": "尊贵铂金，在跨服赛季中到达铂金段位结算获得",
+    "name": "黄金军侯",
+    "des": "黄金军侯，在跨服赛季中到达军侯段位结算获得",
     "type": "frame",
     "arg": 8030,
     "quality": 7,
@@ -537,8 +514,8 @@
     "source1": "crossPK"
   },
   "8040": {
-    "name": "永恒钻石",
-    "des": "永恒钻石，在跨服赛季中到达钻石段位结算获得",
+    "name": "铂金先锋",
+    "des": "铂金先锋，在跨服赛季中到达先锋段位结算获得",
     "type": "frame",
     "arg": 8040,
     "quality": 7,
@@ -546,8 +523,8 @@
     "source1": "crossPK"
   },
   "8050": {
-    "name": "至尊星耀",
-    "des": "至尊星耀，在跨服赛季中到达星耀段位结算获得",
+    "name": "荣耀大将",
+    "des": "荣耀大将，在跨服赛季中到达大将段位结算获得",
     "type": "frame",
     "arg": 8050,
     "quality": 7,
@@ -556,7 +533,7 @@
   },
   "8060": {
     "name": "最强王者",
-    "des": "最强王者，在跨服赛季中到达王者段位结算获得",
+    "des": "王者传奇，在跨服赛季中到达传奇段位结算获得",
     "type": "frame",
     "arg": 8060,
     "quality": 7,
@@ -564,8 +541,8 @@
     "source1": "crossPK"
   },
   "8070": {
-    "name": "封神传说",
-    "des": "封神传说，在VIP中购买获得",
+    "name": "名门望族",
+    "des": "名门望族，在SVIP购买获得",
     "type": "frame",
     "arg": 8070,
     "quality": 7,
@@ -573,8 +550,8 @@
     "source1": "gift"
   },
   "8080": {
-    "name": "至尊特权",
-    "des": "至尊特权，激活至尊特权后领取获得",
+    "name": "以令诸侯",
+    "des": "以令诸侯，激活至尊特权后领取获得",
     "type": "frame",
     "arg": 8080,
     "quality": 7,
@@ -601,7 +578,7 @@
   },
   "8110": {
     "name": "童心妙笔",
-    "des": "六一儿童节活动获得",
+    "des": "童心妙笔，六一儿童节活动获得",
     "type": "frame",
     "arg": 8110,
     "quality": 7,
@@ -610,7 +587,7 @@
   },
   "8120": {
     "name": "情人节",
-    "des": "情人节活动获得",
+    "des": "情人节，情人节活动获得",
     "type": "frame",
     "arg": 8120,
     "quality": 7,
@@ -619,7 +596,7 @@
   },
   "8130": {
     "name": "中秋节",
-    "des": "中秋节活动活得",
+    "des": "中秋节，中秋节活动活得",
     "type": "frame",
     "arg": 8130,
     "quality": 7,
@@ -628,7 +605,7 @@
   },
   "8990": {
     "name": "矢志不渝",
-    "des": "谨献给参与内测并对游戏做出重大贡献的玩家",
+    "des": "矢志不渝，谨献给参与内测并对游戏做出重大贡献的玩家",
     "type": "frame",
     "arg": 8990,
     "quality": 7,
@@ -834,8 +811,8 @@
     "source1": "skinShop"
   },
   "103010": {
-    "name": "天兵碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "谋士碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -848,8 +825,8 @@
     "source2": "tower"
   },
   "103020": {
-    "name": "天将碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "枪盾骑碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -862,8 +839,8 @@
     "source2": "tower"
   },
   "104000": {
-    "name": "4星仙族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "4星魏国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -877,8 +854,8 @@
     "source3": "shop_hero"
   },
   "104010": {
-    "name": "花仙女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "曹纯碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -891,8 +868,8 @@
     "source2": "tower"
   },
   "104020": {
-    "name": "巨灵神碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张春华碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -905,8 +882,8 @@
     "source2": "tower"
   },
   "104030": {
-    "name": "小白龙碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "于禁碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -919,8 +896,8 @@
     "source2": "tower"
   },
   "104040": {
-    "name": "小龙女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "辛宪英碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -933,8 +910,8 @@
     "source2": "tower"
   },
   "105000": {
-    "name": "5星仙族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "5星魏国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -947,8 +924,8 @@
     "source2": "tower"
   },
   "105010": {
-    "name": "太上老君碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "贾诩碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -962,8 +939,8 @@
     "source3": "shop_general"
   },
   "105020": {
-    "name": "哪吒太子碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张郃碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -977,8 +954,8 @@
     "source3": "shop_hero"
   },
   "105030": {
-    "name": "九天玄女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "曹丕碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -991,8 +968,8 @@
     "source2": "tower"
   },
   "105040": {
-    "name": "瑶池王母碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "曹操碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1006,8 +983,8 @@
     "source3": "shop_guild"
   },
   "105050": {
-    "name": "女娲娘娘碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "蔡文姬碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1020,8 +997,8 @@
     "source2": "tower"
   },
   "105060": {
-    "name": "托塔天王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "夏侯惇碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1034,8 +1011,8 @@
     "source2": "tower"
   },
   "105070": {
-    "name": "玉皇大帝碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "荀彧碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1048,8 +1025,8 @@
     "source2": "tower"
   },
   "105080": {
-    "name": "南极仙翁碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "典韦碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1063,8 +1040,8 @@
     "source3": "shop_zhulu"
   },
   "105090": {
-    "name": "星宿神君碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "乐进碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1077,8 +1054,8 @@
     "source2": "tower"
   },
   "105100": {
-    "name": "司雷之神碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "徐晃碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1091,8 +1068,8 @@
     "source2": "tower"
   },
   "105110": {
-    "name": "东海龙王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "夏侯渊碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1105,8 +1082,8 @@
     "source2": "tower"
   },
   "105120": {
-    "name": "月宫仙子碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "荀攸碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1120,8 +1097,8 @@
     "source3": "shop_general"
   },
   "105130": {
-    "name": "二郎真君碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "许褚碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1135,8 +1112,8 @@
     "source2": "tower"
   },
   "105140": {
-    "name": "齐天大圣碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张辽碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1149,8 +1126,8 @@
     "source2": "tower"
   },
   "203010": {
-    "name": "飞燕女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "巨盾兵碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1163,8 +1140,8 @@
     "source2": "tower"
   },
   "203020": {
-    "name": "御林军碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "藤甲兵碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1177,8 +1154,8 @@
     "source2": "tower"
   },
   "204000": {
-    "name": "4星人族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "4星蜀国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1192,8 +1169,8 @@
     "source3": "shop_hero"
   },
   "204010": {
-    "name": "玄彩女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "星彩碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1206,8 +1183,8 @@
     "source2": "tower"
   },
   "204020": {
-    "name": "英女侠碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "刘封碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1220,8 +1197,8 @@
     "source2": "tower"
   },
   "204030": {
-    "name": "红拂女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "马谡碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1234,8 +1211,8 @@
     "source2": "tower"
   },
   "204040": {
-    "name": "金守将碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "王平碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1248,8 +1225,8 @@
     "source2": "tower"
   },
   "205000": {
-    "name": "5星人族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "5星蜀国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1262,8 +1239,8 @@
     "source2": "tower"
   },
   "205010": {
-    "name": "燧皇碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "赵云碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1277,8 +1254,8 @@
     "source3": "shop_hero"
   },
   "205020": {
-    "name": "姜子牙碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "诸葛亮碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1292,8 +1269,8 @@
     "source3": "shop_general"
   },
   "205030": {
-    "name": "神农碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "刘备碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1307,8 +1284,8 @@
     "source3": "shop_guild"
   },
   "205040": {
-    "name": "共工碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "马超碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1322,8 +1299,8 @@
     "source3": "shop_zhulu"
   },
   "205050": {
-    "name": "九凤碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "黄月英碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1336,8 +1313,8 @@
     "source2": "tower"
   },
   "205060": {
-    "name": "杜康碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "庞统碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1350,8 +1327,8 @@
     "source2": "tower"
   },
   "205070": {
-    "name": "轩辕帝碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "关羽碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1365,8 +1342,8 @@
     "source3": "shop_general"
   },
   "205080": {
-    "name": "铁扇公主碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张飞碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1379,8 +1356,8 @@
     "source2": "tower"
   },
   "205090": {
-    "name": "袁天罡碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "刘禅碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1393,8 +1370,8 @@
     "source2": "tower"
   },
   "205100": {
-    "name": "云裳碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "关凤碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1407,8 +1384,8 @@
     "source2": "tower"
   },
   "205110": {
-    "name": "鬼谷子碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "魏延碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1421,8 +1398,8 @@
     "source2": "tower"
   },
   "205120": {
-    "name": "钟馗碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "黄忠碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1435,8 +1412,8 @@
     "source2": "tower"
   },
   "205130": {
-    "name": "夸父碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "法正碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1449,8 +1426,8 @@
     "source2": "tower"
   },
   "205140": {
-    "name": "唐三藏碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "姜维碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1463,8 +1440,8 @@
     "source2": "tower"
   },
   "303010": {
-    "name": "金角碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "蛊师碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1477,8 +1454,8 @@
     "source2": "tower"
   },
   "303020": {
-    "name": "银角碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "弓骑兵碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1491,8 +1468,8 @@
     "source2": "tower"
   },
   "304000": {
-    "name": "4星巫族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "4星吴国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1506,8 +1483,8 @@
     "source3": "shop_hero"
   },
   "304010": {
-    "name": "牛头碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "甘宁碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1520,8 +1497,8 @@
     "source2": "tower"
   },
   "304020": {
-    "name": "马面碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙皓碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1534,8 +1511,8 @@
     "source2": "tower"
   },
   "304030": {
-    "name": "千丝女碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "步练师碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1548,8 +1525,8 @@
     "source2": "tower"
   },
   "304040": {
-    "name": "巫蛮儿碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙小虎碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1562,8 +1539,8 @@
     "source2": "tower"
   },
   "305000": {
-    "name": "5星巫族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "5星吴国碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1576,8 +1553,8 @@
     "source2": "tower"
   },
   "305010": {
-    "name": "红孩儿碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙策碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1590,8 +1567,8 @@
     "source2": "tower"
   },
   "305020": {
-    "name": "祝融碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "周瑜碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1605,8 +1582,8 @@
     "source3": "shop_general"
   },
   "305030": {
-    "name": "九尾狐碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "小乔碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1619,8 +1596,8 @@
     "source2": "tower"
   },
   "305040": {
-    "name": "白象王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙坚碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1634,8 +1611,8 @@
     "source3": "shop_zhulu"
   },
   "305050": {
-    "name": "金翅大鹏碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙尚香碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1649,8 +1626,8 @@
     "source3": "shop_guild"
   },
   "305060": {
-    "name": "牛魔王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张昭碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1664,8 +1641,8 @@
     "source3": "shop_hero"
   },
   "305070": {
-    "name": "刑天碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "太史慈碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1679,8 +1656,8 @@
     "source3": "shop_general"
   },
   "305080": {
-    "name": "青狮王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "陆逊碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1693,8 +1670,8 @@
     "source2": "tower"
   },
   "305090": {
-    "name": "幽冥碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "徐盛碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1707,8 +1684,8 @@
     "source2": "tower"
   },
   "305100": {
-    "name": "猪刚鬣碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "大乔碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1721,8 +1698,8 @@
     "source2": "tower"
   },
   "305110": {
-    "name": "白骨精碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "丁奉碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1735,8 +1712,8 @@
     "source2": "tower"
   },
   "305120": {
-    "name": "玉面狐狸碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "吕蒙碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1750,8 +1727,8 @@
     "source3": "shop_general"
   },
   "305130": {
-    "name": "阎罗王碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "鲁肃碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1764,8 +1741,8 @@
     "source2": "tower"
   },
   "305140": {
-    "name": "蚩尤碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孙权碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1778,8 +1755,8 @@
     "source2": "tower"
   },
   "403010": {
-    "name": "白熊碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "黄巾力士碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1792,8 +1769,8 @@
     "source2": "tower"
   },
   "403020": {
-    "name": "雪狼碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "枪骑兵碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1806,8 +1783,8 @@
     "source2": "tower"
   },
   "404000": {
-    "name": "4星兽族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "4星群雄碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1821,8 +1798,8 @@
     "source3": "shop_hero"
   },
   "404010": {
-    "name": "幼年白虎碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "祝融碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1835,8 +1812,8 @@
     "source2": "tower"
   },
   "404020": {
-    "name": "幼年狐狸碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "高顺碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1849,8 +1826,8 @@
     "source2": "tower"
   },
   "404030": {
-    "name": "幼年饕餮碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "袁绍碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1863,8 +1840,8 @@
     "source2": "tower"
   },
   "404040": {
-    "name": "幼年麒麟碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "文丑碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1877,8 +1854,8 @@
     "source2": "tower"
   },
   "405000": {
-    "name": "5星兽族碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "5星群雄碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1891,8 +1868,8 @@
     "source2": "tower"
   },
   "405010": {
-    "name": "麒麟碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "左慈碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1905,8 +1882,8 @@
     "source2": "tower"
   },
   "405020": {
-    "name": "瑞兽碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "吕布碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1920,8 +1897,8 @@
     "source3": "shop_general"
   },
   "405030": {
-    "name": "白泽碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "华佗碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1934,8 +1911,8 @@
     "source2": "tower"
   },
   "405040": {
-    "name": "幼鲲碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "董卓碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1949,8 +1926,8 @@
     "source3": "shop_zhulu"
   },
   "405050": {
-    "name": "穷奇碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "公孙瓒碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1964,8 +1941,8 @@
     "source3": "shop_hero"
   },
   "405060": {
-    "name": "谛听碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "孟获碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1979,8 +1956,8 @@
     "source3": "shop_guild"
   },
   "405070": {
-    "name": "凤凰碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "董白碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1994,8 +1971,8 @@
     "source3": "shop_general"
   },
   "405080": {
-    "name": "烛龙碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "于吉碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2008,8 +1985,8 @@
     "source2": "tower"
   },
   "405090": {
-    "name": "狻猊碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "马腾碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2022,8 +1999,8 @@
     "source2": "tower"
   },
   "405100": {
-    "name": "嘲风碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "袁术碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2036,8 +2013,8 @@
     "source2": "tower"
   },
   "405110": {
-    "name": "巨猿碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "张角碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2050,8 +2027,8 @@
     "source2": "tower"
   },
   "405120": {
-    "name": "年兽碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "刘表碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2065,8 +2042,8 @@
     "source3": "shop_general"
   },
   "405130": {
-    "name": "神鹿碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "貂蝉碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2079,8 +2056,8 @@
     "source2": "tower"
   },
   "405140": {
-    "name": "玄武碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "name": "庞德碎片",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2094,7 +2071,7 @@
   },
   "504000": {
     "name": "4星英雄碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -2109,7 +2086,7 @@
   },
   "505000": {
     "name": "5星英雄碎片",
-    "des": "集齐30个碎片即可召唤该英雄",
+    "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -2122,6 +2099,16 @@
     "source2": "tower",
     "source3": "shop_guild",
     "source4": "shop_hero"
+  },
+  "1000040": {
+    "name": "洗练石",
+    "des": "用于护符洗练",
+    "isBag": true,
+    "type": "item",
+    "gold": 100,
+    "coin": 500000,
+    "buyNum": 1,
+    "quality": 5
   },
   "1000050": {
     "name": "进阶石",
@@ -2145,14 +2132,14 @@
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
-    "quality": 6,
+    "quality": 3,
     "effects": "baowu",
     "source1": "shop_crossTop",
     "source2": "gift"
   },
   "1000070": {
-    "name": "普通召唤符",
-    "des": "有天地灵气自然孕育而成拥有极强的灵气，能拥有吸引英雄",
+    "name": "女儿红",
+    "des": "珍藏的女儿红，可在【英雄招募】进行一次普通招募",
     "isBag": true,
     "type": "item",
     "gold": 50,
@@ -2163,8 +2150,8 @@
     "source2": "checkpoints"
   },
   "1000080": {
-    "name": "高级召唤符",
-    "des": "有天地灵气自然孕育而成拥有极强的灵气，能拥有吸引英雄",
+    "name": "百年杜康",
+    "des": "珍藏的百年杜康，可在【英雄招募】进行一次高级招募",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -2204,7 +2191,7 @@
   },
   "1000120": {
     "name": "英雄名帖",
-    "des": "记载着英雄事迹的神书，能够在【英雄殿】中召唤指定5星英雄",
+    "des": "记载着英雄事迹的书籍，能够在【将军府】建筑的英雄云集招募国家的4-5星英雄",
     "isBag": true,
     "type": "item",
     "gold": 1500,
@@ -2217,8 +2204,8 @@
     "source3": "shop_crossTop"
   },
   "1000150": {
-    "name": "万能法宝",
-    "des": "太上老君炼器专用，可以在强化法宝时替代任何法宝",
+    "name": "万能神兵",
+    "des": "万能神兵，可以在强化神兵时替代任何神兵",
     "isBag": true,
     "type": "item",
     "gold": 500,
@@ -2255,7 +2242,7 @@
   },
   "1000180": {
     "name": "转换丹",
-    "des": "转换丹，能够在主城【封神台】建筑的英雄置换功能中，将五星英雄置换成本国家的五星英雄",
+    "des": "转换丹，能够在主城【将军府】建筑的英雄置换功能中，将五星英雄置换成本国家的五星英雄",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -2267,8 +2254,8 @@
     "source3": "areaTrial"
   },
   "1000190": {
-    "name": "渡厄丹",
-    "des": "伏羲用先天灵宝炼制而成，能够在【封神台】中将五星英雄直接升级成六星，无需消耗其他材料",
+    "name": "封侯令",
+    "des": "封侯令，能够在主城【将军府】建筑的英雄直升成中将英雄直升至六星",
     "isBag": true,
     "type": "item",
     "gold": 18000,
@@ -2279,8 +2266,8 @@
     "source1": "gift"
   },
   "1000300": {
-    "name": "古书残页",
-    "des": "记录上古珍奇异兽的古书，随着年代久远只剩残页，目前只能用于提升天书等级",
+    "name": "兵法经验",
+    "des": "记录上古珍奇异兽的古书，随着年代久远只剩残页，目前只能用于提升兵法等级",
     "isBag": true,
     "type": "currency",
     "gold": 100,
@@ -2293,8 +2280,8 @@
     "source4": "lottery_bf"
   },
   "1000400": {
-    "name": "天书残卷",
-    "des": "记录各类上古神物的天书，在混战中被凶兽撕破散落凡尘，可与天书碎片一共提升天书星级",
+    "name": "兵法残卷",
+    "des": "记录战争时期的军事典籍，在混战中散落，可与兵法碎片一共提升兵法星级",
     "isBag": true,
     "type": "item",
     "gold": 600,
@@ -2399,7 +2386,7 @@
   },
   "5001020": {
     "name": "灰帽",
-    "des": "粗布制成的帽子，戴在头上特别不舒服",
+    "des": "麻布制成的衣服，穿在身上特别不舒服",
     "isBag": true,
     "type": "equip",
     "gold": 5,
@@ -2411,7 +2398,7 @@
   },
   "5001030": {
     "name": "麻衣",
-    "des": "麻布制成的衣服，穿在身上特别不舒服",
+    "des": "用绳子做成的腰带，勉强能系上",
     "isBag": true,
     "type": "equip",
     "gold": 5,
@@ -2447,7 +2434,7 @@
   },
   "5002020": {
     "name": "铁盔",
-    "des": "粗铁制成的头盔，勉强能戴",
+    "des": "粗布制成的衣服，勉强能穿",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2459,7 +2446,7 @@
   },
   "5002030": {
     "name": "布衣",
-    "des": "粗布制成的衣服，勉强能穿",
+    "des": "粗布捆成一团，能够系上但是不美观",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2495,7 +2482,7 @@
   },
   "5003020": {
     "name": "银蓝盔",
-    "des": "采用白银与晶石一起制成，很舒适",
+    "des": "采用蓝色晶石与布料一起制成，特别贴身",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2507,7 +2494,7 @@
   },
   "5003030": {
     "name": "蓝染衣",
-    "des": "采用蓝色晶石与布料一起制成，特别贴身",
+    "des": "鬼面制作大师根据制作面具的工艺打造鬼面腰带",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2543,7 +2530,7 @@
   },
   "5004020": {
     "name": "天空盔",
-    "des": "用蓝银水晶手动敲打而成，有较强的韧性",
+    "des": "用鳞片手动敲打而成，有较强的防御能力",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2555,7 +2542,7 @@
   },
   "5004030": {
     "name": "鳞风甲",
-    "des": "用鳞片手动敲打而成，有较强的防御能力",
+    "des": "人皇为盛世而打造的腰带，有较强的观赏性",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2591,7 +2578,7 @@
   },
   "5005020": {
     "name": "紫耀盔",
-    "des": "用紫晶石与天外寒晶制成，有着紫色的气息",
+    "des": "用紫晶石与天外玄铁制成，闪耀着紫色的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2639,7 +2626,7 @@
   },
   "5006020": {
     "name": "流云束",
-    "des": "用轻纱与蚕丝制成，穿戴上后如同流云缠身身姿飘渺",
+    "des": "制铠大师用远古巨兽的遗骸加上自身精血制成，制成之日万兽崇拜",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2651,7 +2638,7 @@
   },
   "5006030": {
     "name": "巨兽战铠",
-    "des": "制铠大师用远古巨兽的遗骸加上自身精血制成，制成之日万兽崇拜",
+    "des": "用轻纱与蚕丝制成，穿戴上后如同流云缠身身姿飘渺",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2687,7 +2674,7 @@
   },
   "5007020": {
     "name": "魔惧头盔",
-    "des": "由魔王刑天的铠甲改造而成，带有一丝魔王神魂，散发出强大的魔王气息",
+    "des": "蚩尤身陨后将其战甲熔炼重新炼制而成，还散发淡淡的战神气势",
     "isBag": true,
     "type": "equip",
     "gold": 250,
@@ -2699,7 +2686,7 @@
   },
   "5007030": {
     "name": "战神胜铠",
-    "des": "蚩尤身陨后将其战甲熔炼重新炼制而成，还散发淡淡的战神气势",
+    "des": "由魔王刑天的铠甲改造而成，带有一丝魔王神魂，散发出强大的魔王气息",
     "isBag": true,
     "type": "equip",
     "gold": 250,
@@ -2735,7 +2722,7 @@
   },
   "5008020": {
     "name": "沧澜头盔",
-    "des": "取沧海之滨千年晶石，经万次锤炼而成，穿上后可任意穿梭四海",
+    "des": "取玄天陨石在月光下吸收精华，通过万次淬炼而成，散发古老的苍月气息而得名",
     "isBag": true,
     "type": "equip",
     "gold": 430,
@@ -2747,7 +2734,7 @@
   },
   "5008030": {
     "name": "苍月铠甲",
-    "des": "取玄天陨石在月光下吸收精华，通过万次淬炼而成，散发古老的苍月气息而得名",
+    "des": "取沧海之滨千年晶石，经万次锤炼而成，穿上后可任意穿梭四海",
     "isBag": true,
     "type": "equip",
     "gold": 430,
@@ -2783,7 +2770,7 @@
   },
   "5009020": {
     "name": "混元盔甲",
-    "des": "太上老君用混元石，以神火锻后，手动捶打而成，散发一丝混元气息",
+    "des": "此物来自太上老君炼制，以流云虚无缥缈而得名，据说可迷幻敌人攻击不到自身",
     "isBag": true,
     "type": "equip",
     "gold": 730,
@@ -2795,7 +2782,7 @@
   },
   "5009030": {
     "name": "流云战袍",
-    "des": "此物来自太上老君炼制，以流云虚无缥缈而得名，据说可迷幻敌人攻击不到自身",
+    "des": "太上老君用混元石，以神火锻后，手动捶打而成，散发一丝混元气息",
     "isBag": true,
     "type": "equip",
     "gold": 730,
@@ -2831,7 +2818,7 @@
   },
   "5010020": {
     "name": "破晓·梦月盔",
-    "des": "月宫仙子秘制而成，相传佩戴后可梦见月宫仙子",
+    "des": "神农取多种灵石混合打造而成，以纹路清晰得名，被攻击时纹路会泛光护主",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -2843,7 +2830,7 @@
   },
   "5010030": {
     "name": "破晓·铭纹甲",
-    "des": "神农取多种灵石混合打造而成，以纹路清晰得名，被攻击时纹路会泛光护主",
+    "des": "月宫仙子秘制而成，相传佩戴后可梦见月宫仙子",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -2880,7 +2867,7 @@
   },
   "5011020": {
     "name": "征战·辟邪盔",
-    "des": "取貔貅精血铸成的腰带，可趋吉避凶",
+    "des": "取饕餮精血铸成的铠甲，可吞噬天下一切",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -2893,7 +2880,7 @@
   },
   "5011030": {
     "name": "征战·吞天铠",
-    "des": "取饕餮精血铸成的铠甲，可吞噬天下一切",
+    "des": "取貔貅精血铸成的腰带，可趋吉避凶",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -2932,7 +2919,7 @@
   },
   "5012020": {
     "name": "轩辕·帝王盔",
-    "des": "轩辕帝身穿之头盔，投头盔以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "des": "轩辕帝身穿之铠甲，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -2945,7 +2932,7 @@
   },
   "5012030": {
     "name": "轩辕·帝王凯",
-    "des": "轩辕帝身穿之铠甲，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "des": "轩辕帝身穿之腰带，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -2958,7 +2945,7 @@
   },
   "5012040": {
     "name": "轩辕·帝王履",
-    "des": "轩辕帝身穿之鞋子，鞋子以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "des": "轩辕帝身穿之腰带，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -2984,7 +2971,7 @@
   },
   "5013020": {
     "name": "战神·圣耀盔",
-    "des": "圣人以一生所识注入器灵孕育而成，形成之日高光四起，照耀整个星空",
+    "des": "帝师以窥天之秘术打造而成，此铠甲泛出神秘的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -2997,7 +2984,7 @@
   },
   "5013030": {
     "name": "战神·奥义铠",
-    "des": "帝师以窥天之秘术打造而成，此铠甲泛出神秘的光芒",
+    "des": "圣人以一生所识注入器灵孕育而成，形成之日高光四起，照耀整个星空",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -3035,7 +3022,7 @@
   },
   "5014020": {
     "name": "逐鹿·高歌盔",
-    "des": "轩辕帝制，以逐鹿之战中将士精血滋养神石，再以火神之火炼制数年，腰带有万军共鸣，轩辕帝唤名高歌盔",
+    "des": "轩辕帝制，以逐鹿之战中的战魂滋养神石，再以火神之火炼制数年，铠成之时战胜声响荡九州，轩辕帝唤名战胜铠",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3047,7 +3034,7 @@
   },
   "5014030": {
     "name": "逐鹿·战胜铠",
-    "des": "轩辕帝制，以逐鹿之战中的战魂滋养神石，再以火神之火炼制数年，铠成之时战胜声响荡九州，轩辕帝唤名战胜铠",
+    "des": "轩辕帝制，以逐鹿之战中将士精血滋养神石，再以火神之火炼制数年，腰带有万军共鸣，轩辕帝唤名高歌腰",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3083,7 +3070,7 @@
   },
   "5015020": {
     "name": "盘古·擎天盔",
-    "des": "盘古倒地后，身体自然孕育形成，形成之时擎天姿态轰动天地",
+    "des": "盘古开天后用天地初石所制成，穿上此衣与天地相当",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3095,7 +3082,7 @@
   },
   "5015030": {
     "name": "盘古·御天甲",
-    "des": "盘古开天后用天地初石所制成，穿上此衣与天地相当",
+    "des": "盘古到地后，身体自然孕育形成，形成之时擎天姿态轰动天地",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3131,7 +3118,7 @@
   },
   "5016020": {
     "name": "诛神·贪狼盔",
-    "des": "取梼杌兽为灵，铸成护腿，腿有傲骨，易噬主而食，非常人能御之",
+    "des": "取饕餮兽为灵，锻成精铠，铠有两能，一能可噬天地，二能可破万军",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3143,7 +3130,7 @@
   },
   "5016030": {
     "name": "诛神·破军铠",
-    "des": "取饕餮兽为灵，锻成精铠，铠有两能，一能可噬天地，二能可破万军",
+    "des": "取梼杌兽为灵，铸成护腿，腿有傲骨，易噬主而食，非常人能御之",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3179,7 +3166,7 @@
   },
   "5017020": {
     "name": "创世·盘古盔",
-    "des": "盘古开天时的头盔，拥有一丝盘古的神魂，传说此头盔能毁天灭地",
+    "des": "女娲补天时穿的战袍，拥有极大的先天灵气，传说此衣能抵御任何攻击",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3191,7 +3178,7 @@
   },
   "5017030": {
     "name": "创世·女娲袍",
-    "des": "女娲补天时穿的战袍，拥有极大的先天灵气，传说此衣能抵御任何攻击",
+    "des": "盘古开天时的腰带，拥有一丝盘古的神魂，传说此腰带能毁天灭地",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3502,7 +3489,7 @@
     "source1": "smithy"
   },
   "9030010": {
-    "name": "小白龙元神",
+    "name": "吕氏镜",
     "des": "暴击伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -3515,7 +3502,7 @@
     "source1": "gift"
   },
   "9030020": {
-    "name": "小龙女元神",
+    "name": "东海珍珠",
     "des": "攻击+300（英雄100级后每升1级攻击额外+9）",
     "isBag": true,
     "type": "ace",
@@ -3528,7 +3515,7 @@
     "source1": "gift"
   },
   "9030030": {
-    "name": "玄彩女元神",
+    "name": "玉如意",
     "des": "生命+2000（英雄100级后每升1级生命额外+60）",
     "isBag": true,
     "type": "ace",
@@ -3541,7 +3528,7 @@
     "source1": "gift"
   },
   "9030040": {
-    "name": "英女侠元神",
+    "name": "龙子镜",
     "des": "物理防御+200（英雄100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
@@ -3554,7 +3541,7 @@
     "source1": "gift"
   },
   "9030041": {
-    "name": "巫蛮儿元神",
+    "name": "铜马像",
     "des": "法术防御+200（英雄100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
@@ -3567,7 +3554,7 @@
     "source1": "gift"
   },
   "9030050": {
-    "name": "千丝女元神",
+    "name": "翡翠杯",
     "des": "抗暴概率+5%",
     "isBag": true,
     "type": "ace",
@@ -3580,7 +3567,7 @@
     "source1": "gift"
   },
   "9030060": {
-    "name": "白象元神",
+    "name": "玉石玛瑙",
     "des": "暴击概率+5%",
     "isBag": true,
     "type": "ace",
@@ -3593,7 +3580,7 @@
     "source1": "gift"
   },
   "9030070": {
-    "name": "幼年白虎元神",
+    "name": "龙延珠",
     "des": "伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -3606,7 +3593,7 @@
     "source1": "gift"
   },
   "9030080": {
-    "name": "幼年饕餮元神",
+    "name": "智君子鉴",
     "des": "伤害减免+5%",
     "isBag": true,
     "type": "ace",
@@ -3619,7 +3606,7 @@
     "source1": "gift"
   },
   "9040010": {
-    "name": "昊天大帝元神",
+    "name": "束魂灯",
     "des": "攻击目标越少，沉默概率提升越高，最多对1个目标提高36%的沉默概率。（只对当前有沉默效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3632,7 +3619,7 @@
     "source1": "gift"
   },
   "9040020": {
-    "name": "托塔天王元神",
+    "name": "钉刺盾",
     "des": "反伤增加20%（只对当前有反伤效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3645,7 +3632,7 @@
     "source1": "gift"
   },
   "9040030": {
-    "name": "东海龙王元神",
+    "name": "涂漆鼎",
     "des": "生命值+12%",
     "isBag": true,
     "type": "ace",
@@ -3658,7 +3645,7 @@
     "source1": "gift"
   },
   "9040040": {
-    "name": "碧落神女元神",
+    "name": "帝王羊尊",
     "des": "击杀目标回复自身1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -3671,7 +3658,7 @@
     "source1": "gift"
   },
   "9040050": {
-    "name": "月宫仙子元神",
+    "name": "三略六韬",
     "des": "技能直接伤害转化为血量治疗当前血量最少的英雄的比例提升18%。（只对当前有技能转治疗的辅助英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3684,7 +3671,7 @@
     "source1": "gift"
   },
   "9040060": {
-    "name": "神农元神",
+    "name": "伤寒杂病论",
     "des": "治疗英雄释放技能时，对己方血量最少英雄造成治疗效果额外提升30%",
     "isBag": true,
     "type": "ace",
@@ -3697,7 +3684,7 @@
     "source1": "gift"
   },
   "9040070": {
-    "name": "杜康元神",
+    "name": "翡翠心镜",
     "des": "抗暴概率+12%",
     "isBag": true,
     "type": "ace",
@@ -3710,7 +3697,7 @@
     "source1": "gift"
   },
   "9040080": {
-    "name": "轩辕帝元神",
+    "name": "突袭号角",
     "des": "初始怒气增加1点",
     "isBag": true,
     "type": "ace",
@@ -3723,7 +3710,7 @@
     "source1": "gift"
   },
   "9040090": {
-    "name": "九凤元神",
+    "name": "七宝玉环",
     "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
     "isBag": true,
     "type": "ace",
@@ -3736,7 +3723,7 @@
     "source1": "gift"
   },
   "9040100": {
-    "name": "大禹元神",
+    "name": "护心壁",
     "des": "保护目标越少，减少效果越高，最高可以减少36%的直接伤害。（只对当前有减伤护盾的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3749,7 +3736,7 @@
     "source1": "gift"
   },
   "9040110": {
-    "name": "铁扇公主元神",
+    "name": "长信宫灯",
     "des": "生命+6000(英雄100级后每升1级生命额外+180)",
     "isBag": true,
     "type": "ace",
@@ -3762,7 +3749,7 @@
     "source1": "gift"
   },
   "9040120": {
-    "name": "鬼谷子元神",
+    "name": "摄魂铃",
     "des": "攻击目标越少，眩晕概率提升越高，最多提高36%的眩晕概率。（只对当前有眩晕效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3775,7 +3762,7 @@
     "source1": "gift"
   },
   "9040130": {
-    "name": "金翅大鹏元神",
+    "name": "震灵鼓",
     "des": "攻击目标越少，麻痹概率提升越高，最多对1个目标提高36%的麻痹概率。（只对当前有麻痹效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3788,7 +3775,7 @@
     "source1": "gift"
   },
   "9040140": {
-    "name": "九尾狐元神",
+    "name": "净坛莲花",
     "des": "技能治疗效果+10%",
     "isBag": true,
     "type": "ace",
@@ -3801,7 +3788,7 @@
     "source1": "gift"
   },
   "9040150": {
-    "name": "白象王元神",
+    "name": "翠玉山河",
     "des": "物理防御+600（英雄100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
@@ -3814,7 +3801,7 @@
     "source1": "gift"
   },
   "9040151": {
-    "name": "玉面狐狸元神",
+    "name": "玉龙纹",
     "des": "法术防御+600（英雄100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
@@ -3827,7 +3814,7 @@
     "source1": "gift"
   },
   "9040160": {
-    "name": "白骨精元神",
+    "name": "遁甲天书",
     "des": "暴击伤害+12%",
     "isBag": true,
     "type": "ace",
@@ -3840,7 +3827,7 @@
     "source1": "gift"
   },
   "9040170": {
-    "name": "幼鲲元神",
+    "name": "寒冰玄铁",
     "des": "防御+20%",
     "isBag": true,
     "type": "ace",
@@ -3853,7 +3840,7 @@
     "source1": "gift"
   },
   "9040180": {
-    "name": "白泽元神",
+    "name": "水净石",
     "des": "造成的中毒伤害的10%转化为血量治疗自己。",
     "isBag": true,
     "type": "ace",
@@ -3866,7 +3853,7 @@
     "source1": "gift"
   },
   "9040190": {
-    "name": "四不像元神",
+    "name": "五岳真形图",
     "des": "受到灼烧、中毒伤害时，该伤害降低35%",
     "isBag": true,
     "type": "ace",
@@ -3879,7 +3866,7 @@
     "source1": "gift"
   },
   "9040200": {
-    "name": "玄武元神",
+    "name": "乌钢",
     "des": "伤害减免+8%",
     "isBag": true,
     "type": "ace",
@@ -3892,7 +3879,7 @@
     "source1": "gift"
   },
   "9040210": {
-    "name": "烛龙元神",
+    "name": "烛龙珠",
     "des": "攻击目标越少，中毒概率提升越高，最多可对1个目标提高36%的中毒概率",
     "isBag": true,
     "type": "ace",
@@ -3905,7 +3892,7 @@
     "source1": "gift"
   },
   "9040220": {
-    "name": "通臂猿猴元神",
+    "name": "太平要术",
     "des": "攻击单体目标时额外降低目标1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -3918,7 +3905,7 @@
     "source1": "gift"
   },
   "9040230": {
-    "name": "年兽元神",
+    "name": "紫金钵盂",
     "des": "攻击目标越少，中毒伤害提升越高，最多可对1个目标提高30%的中毒伤害",
     "isBag": true,
     "type": "ace",
@@ -3931,7 +3918,7 @@
     "source1": "gift"
   },
   "9040240": {
-    "name": "吞天虎元神",
+    "name": "春秋左氏",
     "des": "暴击概率+8%",
     "isBag": true,
     "type": "ace",
@@ -3944,7 +3931,7 @@
     "source1": "gift"
   },
   "9050010": {
-    "name": "仙·太上老君元神",
+    "name": "孙子兵法",
     "des": "暴击伤害+30%",
     "isBag": true,
     "type": "ace",
@@ -3957,7 +3944,7 @@
     "source1": "gift"
   },
   "9050020": {
-    "name": "仙·女娲元神",
+    "name": "神农本草",
     "des": "治疗英雄释放技能时，对己方血量最少的3个英雄治疗效果额外提升治疗英雄攻击的32%",
     "isBag": true,
     "type": "ace",
@@ -3970,7 +3957,7 @@
     "source1": "gift"
   },
   "9050030": {
-    "name": "仙·玉帝元神",
+    "name": "玉净瓶",
     "des": "攻击时70%概率清除敌方无敌状态",
     "isBag": true,
     "type": "ace",
@@ -3983,7 +3970,7 @@
     "source1": "gift"
   },
   "9050040": {
-    "name": "仙·南极仙翁元神",
+    "name": "神兽砚",
     "des": "攻击纵排目标时，额外降低目标1点怒气。（只对当前有纵排减怒效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -3996,7 +3983,7 @@
     "source1": "gift"
   },
   "9050050": {
-    "name": "仙·轩辕帝元神",
+    "name": "金龙爪",
     "des": "普通攻击必定暴击。（包括治疗英雄）",
     "isBag": true,
     "type": "ace",
@@ -4009,7 +3996,7 @@
     "source1": "gift"
   },
   "9050060": {
-    "name": "仙·夸父元神",
+    "name": "错金博山炉",
     "des": "伤害减免+20%",
     "isBag": true,
     "type": "ace",
@@ -4022,7 +4009,7 @@
     "source1": "gift"
   },
   "9050070": {
-    "name": "仙·祝融元神",
+    "name": "四灵文镜",
     "des": "灼烧状态额外延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4035,7 +4022,7 @@
     "source1": "gift"
   },
   "9050080": {
-    "name": "仙·青狮王元神",
+    "name": "龙炎吐珠",
     "des": "攻击目标越少，灼烧概率提升越高，最多可对1个目标提高36%的灼烧概率",
     "isBag": true,
     "type": "ace",
@@ -4048,7 +4035,7 @@
     "source1": "gift"
   },
   "9050090": {
-    "name": "仙·玄武元神",
+    "name": "羽兽纹镜",
     "des": "治疗目标英雄时，若目标处于禁疗状态，将治疗量的200%转化为伤害吸收盾，持续一回合",
     "isBag": true,
     "type": "ace",
@@ -4061,7 +4048,7 @@
     "source1": "gift"
   },
   "9050100": {
-    "name": "仙·刑天元神",
+    "name": "龙焰旗",
     "des": "被灼烧的英雄无法获得无敌和无敌吸血盾效果",
     "isBag": true,
     "type": "ace",
@@ -4074,7 +4061,7 @@
     "source1": "gift"
   },
   "9050110": {
-    "name": "仙·黑麒麟元神",
+    "name": "天水灵珠",
     "des": "技能必定命中",
     "isBag": true,
     "type": "ace",
@@ -4087,7 +4074,7 @@
     "source1": "gift"
   },
   "9050120": {
-    "name": "仙·白泽元神",
+    "name": "罗绮香囊",
     "des": "技能直接伤害的18%转化为血量，治疗自己",
     "isBag": true,
     "type": "ace",
@@ -4100,7 +4087,7 @@
     "source1": "gift"
   },
   "9050130": {
-    "name": "仙·烛龙元神",
+    "name": "淬毒宝珠",
     "des": "中毒状态延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4113,7 +4100,7 @@
     "source1": "gift"
   },
   "9050160": {
-    "name": "仙·齐天大圣元神",
+    "name": "铸铜虎符",
     "des": "单体输出英雄的所有攻击优先攻击敌方当前血量最低的英雄",
     "isBag": true,
     "type": "ace",
@@ -4126,7 +4113,7 @@
     "source1": "gift"
   },
   "9050170": {
-    "name": "仙·神农元神",
+    "name": "长生镜",
     "des": "生命值增加30%",
     "isBag": true,
     "type": "ace",
@@ -4139,7 +4126,7 @@
     "source1": "gift"
   },
   "9050180": {
-    "name": "仙·九天玄女元神",
+    "name": "射声校尉",
     "des": "携带英雄位于后排时，命中+10%，破甲+10%",
     "isBag": true,
     "type": "ace",
@@ -4152,7 +4139,7 @@
     "source1": "gift"
   },
   "9050190": {
-    "name": "仙·共工元神",
+    "name": "白羽扇",
     "des": "携带英雄位于后排时，法术暴击增加12%",
     "isBag": true,
     "type": "ace",
@@ -4165,7 +4152,7 @@
     "source1": "gift"
   },
   "9050200": {
-    "name": "仙·四不像元神",
+    "name": "黄金甲",
     "des": "携带英雄位于前排时，抗暴+15%，血量+15%",
     "isBag": true,
     "type": "ace",
@@ -4178,7 +4165,7 @@
     "source1": "gift"
   },
   "9050210": {
-    "name": "仙·阎罗王元神",
+    "name": "龙鳞铠",
     "des": "携带英雄位于前排时，闪避+10%，位于后排时，攻击+10%",
     "isBag": true,
     "type": "ace",
@@ -4191,7 +4178,7 @@
     "source1": "gift"
   },
   "9060010": {
-    "name": "神·大圣之怒元神",
+    "name": "紫金葫芦",
     "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加15%",
     "isBag": true,
     "type": "ace",
@@ -4203,7 +4190,7 @@
     "source1": "gift"
   },
   "9060020": {
-    "name": "神·绝杀吞噬元神",
+    "name": "太玄生符",
     "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气（输出英雄佩戴）",
     "isBag": true,
     "type": "ace",
@@ -4215,7 +4202,7 @@
     "source1": "gift"
   },
   "9060030": {
-    "name": "神·龙族怒吼元神",
+    "name": "金蟾壶",
     "des": "释放技能造成的中毒时附加一回合重伤状态，重伤状态的英雄受到治疗效果减少70%",
     "isBag": true,
     "type": "ace",
@@ -4227,7 +4214,7 @@
     "source1": "gift"
   },
   "9060040": {
-    "name": "神·众神庇护元神",
+    "name": "三皇内文",
     "des": "受到控制效果（麻痹、沉默、眩晕）概率降低35%",
     "isBag": true,
     "type": "ace",
@@ -4239,7 +4226,7 @@
     "source1": "gift"
   },
   "9060050": {
-    "name": "神·仙人护体元神",
+    "name": "传国玉玺",
     "des": "初始怒气增加2点",
     "isBag": true,
     "type": "ace",
@@ -4251,7 +4238,7 @@
     "source1": "gift"
   },
   "9060060": {
-    "name": "神·蚩尤战天元神",
+    "name": "孟德新书",
     "des": "单体输出英雄直接伤害击杀目标后，追加1次技能，对敌方单体造成175%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
     "isBag": true,
     "type": "ace",
@@ -4263,7 +4250,7 @@
     "source1": "gift"
   },
   "9060070": {
-    "name": "神·太上解惑元神",
+    "name": "和氏璧",
     "des": "首回合免疫眩晕、沉默、麻痹效果",
     "isBag": true,
     "type": "ace",
@@ -4275,7 +4262,7 @@
     "source1": "gift"
   },
   "9060080": {
-    "name": "神·无字天书",
+    "name": "黄帝四经",
     "des": "眩晕敌方英雄时，清空其所有怒气",
     "isBag": true,
     "type": "ace",
@@ -4287,7 +4274,7 @@
     "source1": "gift"
   },
   "11105010": {
-    "name": "太极拂",
+    "name": "蚀魂扇",
     "des": "【+25激活】释放技能有40%几率追加1次技能，对全体造成41%法术伤害",
     "isBag": true,
     "type": "art",
@@ -4300,8 +4287,8 @@
     "quality": 5
   },
   "11105020": {
-    "name": "风火轮",
-    "des": "【+25激活】全体上阵英雄暴击几率+30%",
+    "name": "神鹰双爪",
+    "des": "【+25激活】释放技能后，回复所在纵排友方英雄1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 105020,
@@ -4313,7 +4300,7 @@
     "quality": 5
   },
   "11105030": {
-    "name": "洛河书",
+    "name": "汉图十三势",
     "des": "【+25激活】行动后回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -4326,8 +4313,8 @@
     "quality": 5
   },
   "11105040": {
-    "name": "玉如意",
-    "des": "【+25激活】全体上阵英雄暴击几率+20%",
+    "name": "倚天剑",
+    "des": "【+25激活】死亡时提升全体友方20%伤害减免，持续2回合",
     "isBag": true,
     "type": "art",
     "arg": 105040,
@@ -4339,7 +4326,7 @@
     "quality": 5
   },
   "11105050": {
-    "name": "补天石",
+    "name": "玉琵琶",
     "des": "【+25激活】技能造成的治疗量+25%",
     "isBag": true,
     "type": "art",
@@ -4352,7 +4339,7 @@
     "quality": 5
   },
   "11105060": {
-    "name": "玲珑塔",
+    "name": "天罡斧",
     "des": "【+25激活】受到普通攻击直接伤害时，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -4365,7 +4352,7 @@
     "quality": 5
   },
   "11105070": {
-    "name": "昊天剑",
+    "name": "王佐帝经",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -4378,7 +4365,7 @@
     "quality": 5
   },
   "11105080": {
-    "name": "万寿桃",
+    "name": "精钢双戟",
     "des": "【+25激活】直接伤害导致死亡时100%眩晕击杀自己的敌方英雄",
     "isBag": true,
     "type": "art",
@@ -4391,7 +4378,7 @@
     "quality": 5
   },
   "11105090": {
-    "name": "苍月剑",
+    "name": "寒铁双刀",
     "des": "【+25激活】技能造成的伤害增加25%",
     "isBag": true,
     "type": "art",
@@ -4404,7 +4391,7 @@
     "quality": 5
   },
   "11105100": {
-    "name": "引雷锤",
+    "name": "金背开山斧",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -4417,7 +4404,7 @@
     "quality": 5
   },
   "11105110": {
-    "name": "寒月绫",
+    "name": "流火弓",
     "des": "【+25激活】技能目标每减少1个，技能伤害增加10%",
     "isBag": true,
     "type": "art",
@@ -4430,7 +4417,7 @@
     "quality": 5
   },
   "11105120": {
-    "name": "月光珠",
+    "name": "紫金笔",
     "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
@@ -4443,8 +4430,8 @@
     "quality": 5
   },
   "11105130": {
-    "name": "三尖戟",
-    "des": "【+25激活】直接伤害击杀目标后，恢复自身生命上限30%的生命",
+    "name": "撼天重锤",
+    "des": "【+25激活】行动后恢复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 105130,
@@ -4456,8 +4443,8 @@
     "quality": 5
   },
   "11105140": {
-    "name": "金箍棒",
-    "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
+    "name": "破魂刀",
+    "des": "【+25激活】释放技能后恢复1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 105140,
@@ -4469,8 +4456,8 @@
     "quality": 5
   },
   "11205010": {
-    "name": "炎皇剑",
-    "des": "【+25激活】释放技能后，降低目标1点怒气",
+    "name": "龙胆银枪",
+    "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
     "arg": 205010,
@@ -4482,8 +4469,8 @@
     "quality": 5
   },
   "11205020": {
-    "name": "打神鞭",
-    "des": "【+25激活】受到直接伤害的18%转化为生命，治疗己方全体目标",
+    "name": "五光宝扇",
+    "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205020,
@@ -4495,8 +4482,8 @@
     "quality": 5
   },
   "11205030": {
-    "name": "神农鼎",
-    "des": "【+25激活】受到的治疗量增加50%",
+    "name": "双股剑",
+    "des": "【+25激活】受到直接伤害的18%转化为生命，治疗己方全体目标",
     "isBag": true,
     "type": "art",
     "arg": 205030,
@@ -4508,8 +4495,8 @@
     "quality": 5
   },
   "11205040": {
-    "name": "水神铸",
-    "des": "【+25激活】全体上阵英雄暴击几率增加20%",
+    "name": "虎头湛金枪",
+    "des": "【+25激活】受到的治疗量增加50%",
     "isBag": true,
     "type": "art",
     "arg": 205040,
@@ -4521,8 +4508,8 @@
     "quality": 5
   },
   "11205050": {
-    "name": "九凤钗",
-    "des": "【+25激活】释放技能后，回复全体队友1点怒气",
+    "name": "八阵图",
+    "des": "【+25激活】与黄月英处于同一纵排的友方英雄暴击伤害+20%",
     "isBag": true,
     "type": "art",
     "arg": 205050,
@@ -4534,8 +4521,8 @@
     "quality": 5
   },
   "11205060": {
-    "name": "紫葫芦",
-    "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
+    "name": "凤栖杖",
+    "des": "【+25激活】释放技能后，回复所在横排英雄1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205060,
@@ -4547,8 +4534,8 @@
     "quality": 5
   },
   "11205070": {
-    "name": "轩辕剑",
-    "des": "【+25激活】自身生命每降低10%，伤害增加5%",
+    "name": "青龙偃月刀",
+    "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205070,
@@ -4560,8 +4547,8 @@
     "quality": 5
   },
   "11205080": {
-    "name": "芭蕉扇",
-    "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
+    "name": "丈八蛇矛",
+    "des": "【+25激活】自身生命每降低10%，伤害增加5%",
     "isBag": true,
     "type": "art",
     "arg": 205080,
@@ -4573,8 +4560,8 @@
     "quality": 5
   },
   "11205090": {
-    "name": "斩龙剑",
-    "des": "【+25激活】行动后自身伤害增加8%",
+    "name": "天子剑",
+    "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
     "arg": 205090,
@@ -4586,8 +4573,8 @@
     "quality": 5
   },
   "11205100": {
-    "name": "听雨仗",
-    "des": "【+25激活】释放技能附带眩晕的概率增加至65%",
+    "name": "凤鸣刀",
+    "des": "【+25激活】行动后自身伤害增加8%",
     "isBag": true,
     "type": "art",
     "arg": 205100,
@@ -4599,8 +4586,8 @@
     "quality": 5
   },
   "11205110": {
-    "name": "游龙剑",
-    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
+    "name": "焰斩刀",
+    "des": "【+25激活】释放技能附带眩晕的概率增加至65%",
     "isBag": true,
     "type": "art",
     "arg": 205110,
@@ -4612,8 +4599,8 @@
     "quality": 5
   },
   "11205120": {
-    "name": "判官笔",
-    "des": "【+25激活】每回合生命流失降低为5%*回合数",
+    "name": "铁胎弓",
+    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205120,
@@ -4625,8 +4612,8 @@
     "quality": 5
   },
   "11205130": {
-    "name": "逐日刃",
-    "des": "【+25激活】攻击时，对灼烧目标的暴击几率额外增加80%",
+    "name": "上古残卷",
+    "des": "【+25激活】每受到一次伤害，自身伤害永久增加3%",
     "isBag": true,
     "type": "art",
     "arg": 205130,
@@ -4638,8 +4625,8 @@
     "quality": 5
   },
   "11205140": {
-    "name": "紧箍咒",
-    "des": "【+25激活】受到普通攻击时，有80%概率使攻击者灼烧，持续2回合",
+    "name": "姜维神兵",
+    "des": "【+25激活】直接伤害击杀目标时恢复2点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205140,
@@ -4651,8 +4638,8 @@
     "quality": 5
   },
   "11305010": {
-    "name": "火尖枪",
-    "des": "【+25激活】释放技能时，为队友附加的持续治疗效果增加至风伯攻击的32%",
+    "name": "霸王枪",
+    "des": "【+25激活】攻击时，对灼烧目标的暴击几率额外增加80%",
     "isBag": true,
     "type": "art",
     "arg": 305010,
@@ -4664,8 +4651,8 @@
     "quality": 5
   },
   "11305020": {
-    "name": "火神珠",
-    "des": "【+25激活】受到灼烧状态敌人攻击时，受到的直接伤害额外再降低25%",
+    "name": "火神剑",
+    "des": "【+25激活】受到普通攻击时，有80%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
     "arg": 305020,
@@ -4677,8 +4664,8 @@
     "quality": 5
   },
   "11305030": {
-    "name": "凤尾花",
-    "des": "【+25激活】释放技能后，给血量最少的2名队友附加无敌吸血盾，持续1回合",
+    "name": "绿绮琴",
+    "des": "【+25激活】释放技能时，为队友附加的持续治疗效果增加至风伯攻击的32%",
     "isBag": true,
     "type": "art",
     "arg": 305030,
@@ -4690,8 +4677,8 @@
     "quality": 5
   },
   "11305040": {
-    "name": "震天鼓",
-    "des": "【+25激活】释放技能时，如果目标处于灼烧状态，附加眩晕的概率提升至80%",
+    "name": "古锭刀",
+    "des": "【+25激活】受到灼烧状态敌人攻击时，受到的直接伤害额外再降低25%",
     "isBag": true,
     "type": "art",
     "arg": 305040,
@@ -4703,8 +4690,8 @@
     "quality": 5
   },
   "11305050": {
-    "name": "寸芒戟",
-    "des": "【+25激活】普通攻击对灼烧目标造成的伤害额外增加80%",
+    "name": "凤凰枪",
+    "des": "【+25激活】释放技能后，给血量最少的2名队友附加无敌吸血盾，持续1回合",
     "isBag": true,
     "type": "art",
     "arg": 305050,
@@ -4716,8 +4703,8 @@
     "quality": 5
   },
   "11305060": {
-    "name": "混铁棍",
-    "des": "【+25激活】释放技能附加灼烧状态的概率增加至80%",
+    "name": "府君杖",
+    "des": "【+25激活】释放技能时，如果目标处于灼烧状态，附加眩晕的概率提升至80%",
     "isBag": true,
     "type": "art",
     "arg": 305060,
@@ -4729,8 +4716,8 @@
     "quality": 5
   },
   "11305070": {
-    "name": "干戚刀",
-    "des": "【+25激活】受到普通攻击时，有50%概率使攻击者灼烧，持续2回合",
+    "name": "火神弓",
+    "des": "【+25激活】释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
     "arg": 305070,
@@ -4742,8 +4729,8 @@
     "quality": 5
   },
   "11305080": {
-    "name": "大捍刀",
-    "des": "【+25激活】直接伤害击杀灼烧目标后，回复自身50%生命",
+    "name": "赤霄剑",
+    "des": "【+25激活】释放技能附加灼烧状态的概率增加至80%",
     "isBag": true,
     "type": "art",
     "arg": 305080,
@@ -4755,8 +4742,8 @@
     "quality": 5
   },
   "11305090": {
-    "name": "地狱石",
-    "des": "【+25激活】释放技能后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
+    "name": "破阵刀",
+    "des": "【+25激活】受到普通攻击时，有50%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
     "arg": 305090,
@@ -4768,8 +4755,8 @@
     "quality": 5
   },
   "11305100": {
-    "name": "九齿耙",
-    "des": "【+25激活】释放普通攻击后额外降低目标1点怒气",
+    "name": "鸳鸯伞",
+    "des": "【+25激活】直接伤害击杀灼烧目标后，回复自身50%生命",
     "isBag": true,
     "type": "art",
     "arg": 305100,
@@ -4781,8 +4768,8 @@
     "quality": 5
   },
   "11305110": {
-    "name": "紫电鞭",
-    "des": "【+25激活】释放技能造成心魔状态时额外附加禁疗效果",
+    "name": "青龙钺",
+    "des": "【+25激活】释放技能后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
     "arg": 305110,
@@ -4794,8 +4781,8 @@
     "quality": 5
   },
   "11305120": {
-    "name": "开天珠",
-    "des": "【+25激活】释放技能附带眩晕的概率增加至50%",
+    "name": "青镰枪",
+    "des": "【+25激活】释放普通攻击后额外降低目标1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 305120,
@@ -4807,8 +4794,8 @@
     "quality": 5
   },
   "11305130": {
-    "name": "生死簿",
-    "des": "【+25激活】直接伤害击杀目标后回复自身2点怒气",
+    "name": "乌钢扇",
+    "des": "【+25激活】释放技能造成压制时附加重伤效果，持续一回合",
     "isBag": true,
     "type": "art",
     "arg": 305130,
@@ -4820,8 +4807,8 @@
     "quality": 5
   },
   "11305140": {
-    "name": "疯魔刀",
-    "des": "【+25激活】目标血量每减少10%，对其造成的的治疗量增加5%",
+    "name": "孙权神兵",
+    "des": "【+25激活】释放技能时，每命中一个燃烧状态下的目标恢复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 305140,
@@ -4833,8 +4820,8 @@
     "quality": 5
   },
   "11405010": {
-    "name": "黑雾鳞",
-    "des": "【+25激活】减伤盾减少受到直接伤害的百分比增加至50%",
+    "name": "乾坤杖",
+    "des": "【+25激活】释放技能附带眩晕的概率增加至50%",
     "isBag": true,
     "type": "art",
     "arg": 405010,
@@ -4846,8 +4833,8 @@
     "quality": 5
   },
   "11405020": {
-    "name": "祥瑞云",
-    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
+    "name": "方天画戟",
+    "des": "【+25激活】直接伤害击杀目标后回复自身2点怒气",
     "isBag": true,
     "type": "art",
     "arg": 405020,
@@ -4859,8 +4846,8 @@
     "quality": 5
   },
   "11405030": {
-    "name": "白龙珠",
-    "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
+    "name": "青囊书",
+    "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
     "arg": 405030,
@@ -4872,8 +4859,8 @@
     "quality": 5
   },
   "11405040": {
-    "name": "鲲鹏心",
-    "des": "【+25激活】释放技能附加麻痹效果的概率增加至50%",
+    "name": "玄铁盾",
+    "des": "【+25激活】物理护盾减少受到物理伤害的百分比增加至60%",
     "isBag": true,
     "type": "art",
     "arg": 405040,
@@ -4885,8 +4872,8 @@
     "quality": 5
   },
   "11405050": {
-    "name": "飞天羽",
-    "des": "【+25激活】释放技能附加中毒效果的概率增加至80%",
+    "name": "机铁弓",
+    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 405050,
@@ -4898,8 +4885,8 @@
     "quality": 5
   },
   "11405060": {
-    "name": "封神纹",
-    "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
+    "name": "古树重槌",
+    "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
     "arg": 405060,
@@ -4911,8 +4898,8 @@
     "quality": 5
   },
   "11405070": {
-    "name": "凤凰羽",
-    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
+    "name": "星月镰",
+    "des": "【+25激活】释放技能附加麻痹效果的概率增加至50%",
     "isBag": true,
     "type": "art",
     "arg": 405070,
@@ -4924,8 +4911,8 @@
     "quality": 5
   },
   "11405080": {
-    "name": "烛龙珠",
-    "des": "【+25激活】释放技能后，降低目标1点怒气",
+    "name": "祈天长杖",
+    "des": "【+25激活】释放技能附加中毒效果的概率增加至80%",
     "isBag": true,
     "type": "art",
     "arg": 405080,
@@ -4937,8 +4924,8 @@
     "quality": 5
   },
   "11405090": {
-    "name": "吞天齿",
-    "des": "【+25激活】释放技能后，降低目标1点怒气",
+    "name": "玄铁刀",
+    "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 405090,
@@ -4950,8 +4937,8 @@
     "quality": 5
   },
   "11405100": {
-    "name": "辟水晶",
-    "des": "【+25激活】目标血量每减少10%，对其造成的的治疗量增加5%",
+    "name": "仲氏皇冠",
+    "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 405100,
@@ -4963,7 +4950,7 @@
     "quality": 5
   },
   "11405110": {
-    "name": "战神印",
+    "name": "轰雷杖",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -4976,7 +4963,7 @@
     "quality": 5
   },
   "11405120": {
-    "name": "幻世纹",
+    "name": "八骏权杖",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -4989,7 +4976,7 @@
     "quality": 5
   },
   "11405130": {
-    "name": "彩红角",
+    "name": "落雁刺",
     "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
@@ -5002,7 +4989,7 @@
     "quality": 5
   },
   "11405140": {
-    "name": "玄武壳",
+    "name": "烈焰枪",
     "des": "【+25激活】受到技能或普攻直接伤害的30%反弹给攻击者",
     "isBag": true,
     "type": "art",
@@ -5015,8 +5002,8 @@
     "quality": 5
   },
   "13020010": {
-    "name": "落雷天劫碎片",
-    "des": "可用于激活和升星落雷天劫天书",
+    "name": "单刀赴会碎片",
+    "des": "可用于激活和升星单刀赴会兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5027,8 +5014,8 @@
     "source2": "shop_crossTop"
   },
   "13020020": {
-    "name": "黄帝内经碎片",
-    "des": "可用于激活和升星黄帝内经天书",
+    "name": "气势如虹碎片",
+    "des": "可用于激活和升星气势如虹兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5038,8 +5025,8 @@
     "source1": "shop_zhulu"
   },
   "13030010": {
-    "name": "熔岩喷发碎片",
-    "des": "可用于激活和升星熔岩喷发天书",
+    "name": "贪狼饮血碎片",
+    "des": "可用于激活和升星贪狼饮血兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5050,8 +5037,8 @@
     "source2": "shop_crossTop"
   },
   "13030020": {
-    "name": "洪水滔天碎片",
-    "des": "可用于激活和升星洪水滔天天书",
+    "name": "轰雷掣电碎片",
+    "des": "可用于激活和升星轰雷掣电兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5062,8 +5049,8 @@
     "source2": "shop_crossTop"
   },
   "13040010": {
-    "name": "虚无幻术碎片",
-    "des": "可用于激活和升星虚无幻术天书",
+    "name": "不朽印记碎片",
+    "des": "可用于激活和升星不朽印记兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5073,8 +5060,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040030": {
-    "name": "洛河神书碎片",
-    "des": "可用于激活和升星洛河神书天书",
+    "name": "桃园结义碎片",
+    "des": "可用于激活和升星桃园结义兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5084,8 +5071,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040040": {
-    "name": "火金秘策碎片",
-    "des": "可用于激活和升星火金秘策天书",
+    "name": "笑里藏刀碎片",
+    "des": "可用于激活和升星笑里藏刀兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5095,8 +5082,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040060": {
-    "name": "八卦周易碎片",
-    "des": "可用于激活和升星八卦周易天书",
+    "name": "奇门遁甲碎片",
+    "des": "可用于激活和升星奇门遁甲兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5106,8 +5093,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040070": {
-    "name": "雷霆万钧碎片",
-    "des": "可用于激活和升星雷霆万钧天书",
+    "name": "黄泉引路碎片",
+    "des": "可用于激活和升星黄泉引路兵法",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5123,7 +5110,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:20&109:100",
+    "arg": "202:50&109:100",
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
@@ -5137,7 +5124,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:120&109:600",
+    "arg": "202:300&109:600",
     "gold": 60,
     "coin": 300000,
     "buyNum": 1,
@@ -5151,7 +5138,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:200&109:1000",
+    "arg": "202:500&109:1000",
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
@@ -5166,7 +5153,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:240&109:1200",
+    "arg": "202:600&109:1200",
     "gold": 120,
     "coin": 600000,
     "buyNum": 1,
@@ -5180,7 +5167,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:360&109:1800",
+    "arg": "202:900&109:1800",
     "gold": 180,
     "coin": 900000,
     "buyNum": 1,
@@ -5194,7 +5181,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:600&109:3000",
+    "arg": "202:1500&109:3000",
     "gold": 300,
     "coin": 1500000,
     "buyNum": 1,
@@ -5208,7 +5195,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:1000&109:5000",
+    "arg": "202:2500&109:5000",
     "gold": 500,
     "coin": 2500000,
     "buyNum": 1,
@@ -5222,7 +5209,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:2000&109:10000",
+    "arg": "202:5000&109:10000",
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
@@ -5238,7 +5225,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:4000&109:20000",
+    "arg": "202:10000&109:20000",
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
@@ -5254,7 +5241,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:60000&109:30000",
+    "arg": "202:15000&109:30000",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -5270,7 +5257,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:10000&109:50000",
+    "arg": "202:25000&109:50000",
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
@@ -5286,7 +5273,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:12960&109:64800",
+    "arg": "202:32400&109:64800",
     "gold": 6480,
     "coin": 32400000,
     "buyNum": 1,
@@ -5301,7 +5288,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:20000&109:100000",
+    "arg": "202:50000&109:100000",
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
@@ -5317,7 +5304,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:40000&109:200000",
+    "arg": "202:100000&109:200000",
     "gold": 20000,
     "coin": 100000000,
     "buyNum": 1,
@@ -5332,7 +5319,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:60000&109:300000",
+    "arg": "202:150000&109:300000",
     "gold": 30000,
     "coin": 150000000,
     "buyNum": 1,
@@ -5347,7 +5334,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:100000&109:500000",
+    "arg": "202:250000&109:500000",
     "gold": 50000,
     "coin": 250000000,
     "buyNum": 1,
@@ -5362,7 +5349,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:200000&109:1000000",
+    "arg": "202:500000&109:1000000",
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
@@ -5377,7 +5364,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:400000&109:2000000",
+    "arg": "202:1000000&109:2000000",
     "gold": 200000,
     "coin": 1000000000,
     "buyNum": 1,
@@ -5392,7 +5379,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:1000000&109:5000000",
+    "arg": "202:2500000&109:5000000",
     "gold": 500000,
     "coin": 2500000000,
     "buyNum": 1,
@@ -5533,8 +5520,8 @@
     "source1": "gift"
   },
   "103100001": {
-    "name": "天书碎片福袋",
-    "des": "天书碎片福袋，开启可获得以下物品中的一个",
+    "name": "兵法碎片福袋",
+    "des": "兵法碎片福袋，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -5899,7 +5886,7 @@
   },
   "108007003": {
     "name": "会武战胜宝箱",
-    "des": "宗族会武战胜，开启可获得以下物品中的一个",
+    "des": "同盟会武战胜，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -5912,7 +5899,7 @@
   },
   "108007004": {
     "name": "会武参与宝箱",
-    "des": "宗族会武参与，开启可获得以下物品中的一个",
+    "des": "同盟会武参与，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -6064,7 +6051,6 @@
     "coin": 8600000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "daiji",
     "source1": "gift"
   },
   "205508012": {
@@ -6073,13 +6059,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5009010:1&5009020:1&5009030:1&5009040:1",
-    "gold": 2920,
-    "coin": 14600000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "daiji",
-    "source1": "gift"
+    "arg": "5009010:1&5009020:1&5009030:1&5009040:1"
   },
   "205508013": {
     "name": "橙色3星套装箱",
@@ -6087,13 +6067,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5010010:1&5010020:1&5010030:1&5010040:1",
-    "gold": 5000,
-    "coin": 25000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "daiji",
-    "source1": "gift"
+    "arg": "5010010:1&5010020:1&5010030:1&5010040:1"
   },
   "205508014": {
     "name": "橙色4星套装箱",
@@ -6101,13 +6075,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5011010:1&5011020:1&5011030:1&5011040:1",
-    "gold": 8400,
-    "coin": 42000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "daiji",
-    "source1": "gift"
+    "arg": "5011010:1&5011020:1&5011030:1&5011040:1"
   },
   "205512010": {
     "name": "红色套装宝箱",
@@ -6120,7 +6088,6 @@
     "coin": 70000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "daiji",
     "source1": "gift"
   },
   "205512011": {
@@ -6208,7 +6175,7 @@
     "source1": "gift"
   },
   "206010500": {
-    "name": "仙族推荐队宝箱",
+    "name": "魏国推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -6222,7 +6189,7 @@
     "source1": "gift"
   },
   "206020500": {
-    "name": "人族推荐队宝箱",
+    "name": "蜀国推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -6236,7 +6203,7 @@
     "source1": "gift"
   },
   "206030500": {
-    "name": "巫族推荐队宝箱",
+    "name": "吴国推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -6250,7 +6217,7 @@
     "source1": "gift"
   },
   "206040500": {
-    "name": "兽族推荐队宝箱",
+    "name": "群雄推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -6274,7 +6241,7 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "gift"
+    "effects": "baowu"
   },
   "207004404": {
     "name": "超值护符宝箱",
@@ -6287,7 +6254,7 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "gift"
+    "effects": "baowu"
   },
   "207004408": {
     "name": "至尊护符宝盒",
@@ -6300,11 +6267,11 @@
     "coin": 1000000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "gift"
+    "effects": "baowu"
   },
   "303006001": {
-    "name": "天书碎片自选箱",
-    "des": "天书碎片自选箱,开启选择以下物品中的一个",
+    "name": "兵法碎片自选箱",
+    "des": "兵法碎片自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -6317,8 +6284,8 @@
     "source2": "lottery_bf"
   },
   "303006010": {
-    "name": "天书自选箱",
-    "des": "天书自选箱,开启选择以下物品中的一个",
+    "name": "兵法自选箱",
+    "des": "兵法自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -6413,7 +6380,7 @@
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"305070:30\",\"405020:30\",\"205070:30\",\"105140:30\"]",
+    "arg": "[\"105140:30\",\"205070:30\",\"305140:30\",\"405020:30\"]",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -6492,7 +6459,7 @@
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"201:50000000\",\"101:10000000\",\"1000050:20000\",\"1000080:100\",\"1000300:1000000\",\"230:50\"]",
+    "arg": "[\"201:50000000\",\"101:10000000\",\"1000050:20000\",\"1000080:100\",\"1000300:1000000\"]",
     "gold": 15000,
     "coin": 75000000,
     "buyNum": 1,
