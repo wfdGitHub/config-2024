@@ -75,12 +75,12 @@
   },
   "reduction": {
     "name": "铜墙铁壁",
-    "des": "受到的物理伤害降低70%，持续1回合",
+    "des": "受到的物理伤害降低60%，持续2回合",
     "refreshType": "roundOver"
   },
   "reduction_mag": {
     "name": "水神护盾",
-    "des": "受到的法术伤害降低70%，持续1回合",
+    "des": "受到的法术伤害降低60%，持续2回合",
     "refreshType": "roundOver"
   },
   "recover": {
@@ -174,5 +174,17 @@
     "refreshType": "after",
     "control": true,
     "debuff": true
+  },
+  "cold_shield": {
+    "name": "寒冰护盾",
+    "des": "受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合",
+    "refreshType": "roundOver",
+    "intensify": true
+  },
+  "polang": {
+    "name": "破浪",
+    "des": "伤害+5%，暴击+5%，最大可叠加20层，持续5回合",
+    "refreshType": "roundOver",
+    "intensify": true
   }
 }
