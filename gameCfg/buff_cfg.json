@@ -2,137 +2,177 @@
   "burn": {
     "name": "灼烧",
     "des": "每回合受到施法者攻击力20%的伤害，持续2回合",
+    "refreshType": "before",
     "lower": true,
-    "damage": true,
+    "hurt": true,
     "debuff": true
   },
   "poison": {
     "name": "中毒",
     "des": "每回合受到施法者攻击力60%的伤害，持续2回合，最多可叠加3层",
+    "refreshType": "before",
     "lower": true,
-    "damage": true,
+    "hurt": true,
     "debuff": true
   },
   "disarm": {
     "name": "麻痹",
     "des": "无法进行普通攻击",
+    "refreshType": "after",
     "control": true,
     "debuff": true
   },
   "silence": {
     "name": "沉默",
     "des": "无法使用怒气技能",
+    "refreshType": "after",
     "control": true,
     "debuff": true
   },
   "dizzy": {
     "name": "眩晕",
     "des": "无法行动",
+    "refreshType": "after",
     "control": true,
     "debuff": true
   },
   "forbidden": {
     "name": "重伤",
     "des": "受到的治疗效果降低70%",
+    "refreshType": "before",
     "lower": true,
     "debuff": true
   },
   "amplify": {
     "name": "伤害加成",
     "des": "造成的伤害增加",
+    "refreshType": "after",
     "intensify": true
   },
   "armor": {
     "name": "伤害减免",
     "des": "降低受到的伤害",
+    "refreshType": "after",
     "intensify": true
   },
   "amplify_mag": {
     "name": "法伤加成",
     "des": "造成的法术伤害增加",
+    "refreshType": "roundOver",
     "intensify": true
   },
   "amplify_phy": {
     "name": "物伤加成",
     "des": "造成的物理伤害增加",
+    "refreshType": "roundOver",
     "intensify": true
   },
   "crit": {
     "name": "暴击加成",
     "des": "暴击几率增加",
+    "refreshType": "after",
     "intensify": true
   },
   "reduction": {
     "name": "铜墙铁壁",
-    "des": "受到的物理伤害降低70%，持续1回合"
+    "des": "受到的物理伤害降低70%，持续1回合",
+    "refreshType": "roundOver"
   },
   "reduction_mag": {
     "name": "水神护盾",
-    "des": "受到的法术伤害降低70%，持续1回合"
+    "des": "受到的法术伤害降低70%，持续1回合",
+    "refreshType": "roundOver"
   },
   "recover": {
     "name": "持续恢复",
     "des": "每回合恢复施法者攻击力百分比生命值，不可叠加",
+    "refreshType": "before",
     "intensify": true
   },
   "invincible": {
     "name": "无敌盾",
-    "des": "免疫所有受到的伤害"
+    "des": "免疫所有受到的伤害",
+    "refreshType": "roundOver"
   },
   "invincibleSuper": {
     "name": "超级无敌盾）",
-    "des": "免疫所有受到的伤害和控制效果"
+    "des": "免疫所有受到的伤害和控制效果",
+    "refreshType": "roundOver"
   },
   "invincibleSuck": {
     "name": "无敌吸血盾",
-    "des": "受到的所有伤害转化为治疗，恢复自身血量，持续1回合"
+    "des": "受到的所有伤害转化为治疗，恢复自身血量，持续1回合",
+    "refreshType": "roundOver"
   },
   "zhenshe": {
     "name": "震慑",
     "des": "对施法者阵营伤害降低，每回合损失生命值百分比伤害",
+    "refreshType": "after",
     "lower": true,
     "debuff": true
   },
   "suoding": {
     "name": "锁定",
     "des": "受到伤害增加",
+    "refreshType": "after",
     "lower": true,
     "debuff": true
   },
   "shield": {
     "name": "护盾",
-    "des": "吸收最大生命值15%的伤害，持续1回合"
+    "des": "吸收最大生命值15%的伤害，持续1回合",
+    "refreshType": "before_2"
   },
   "chaofeng": {
     "name": "嘲讽",
     "des": "使敌人只能进行普通攻击（对治疗英雄无效），且优先以自身为目标，持续1回合",
+    "refreshType": "after",
     "control": true,
     "debuff": true
   },
   "banish": {
     "name": "放逐",
     "des": "跳过下一个回合，期间保留所有状态，且不会被选中为目标",
+    "refreshType": "roundOver",
     "debuff": true
   },
   "banAnger": {
     "name": "禁怒",
     "des": "无法恢复怒气",
+    "refreshType": "after",
     "lower": true,
     "debuff": true
   },
   "immune": {
     "name": "免控盾",
-    "des": "免疫在此之后受到的控制效果，持续1回合"
+    "des": "免疫在此之后受到的控制效果，持续1回合",
+    "refreshType": "roundOver"
   },
   "atkAdd": {
     "name": "攻击加成",
     "des": "增加攻击力，持续2回合",
+    "refreshType": "after",
     "intensify": true
   },
   "atkLess": {
     "name": "攻击降低",
     "des": "降低攻击力，持续2回合",
+    "refreshType": "after",
     "lower": true,
+    "debuff": true
+  },
+  "cold": {
+    "name": "寒冷",
+    "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为冰冻效果",
+    "refreshType": "after",
+    "lower": true,
+    "debuff": true
+  },
+  "frozen": {
+    "name": "冰冻",
+    "des": "无法行动,持续2回合，被攻击3次后解除冰冻。",
+    "refreshType": "after",
+    "control": true,
     "debuff": true
   }
 }
