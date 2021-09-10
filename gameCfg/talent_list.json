@@ -2861,14 +2861,16 @@
     "value2": 0.16
   },
   "10501006": {
-    "des": "释放技能后为自身添加寒冰护盾，受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合。",
-    "key1": "skill_later_buff",
-    "value1": "{\"buffId\":\"cold_shield\",\"duration\":2,\"buffRate\":1}"
+    "des": "普通攻击时为目标添加持续恢复效果，每回合恢复攻击力30%的生命值，持续2回合。",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "10501009": {
-    "des": "技能添加的持续恢复效果增加为每回合恢复攻击力60%的生命值",
-    "key1": "buffArg",
-    "value1": 0.6
+    "des": "持续恢复效果增加为每回合恢复攻击力60%的生命值",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
+    "key2": "normal_buff1",
+    "value2": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "10501010": {
     "des": "释放持续恢复效果时，若目标身上已存在治疗效果，则立即结算原效果剩余回合数",
@@ -2876,16 +2878,16 @@
     "value1": true
   },
   "10501011": {
-    "des": "技能添加的的持续治疗回合数增加1回合，若治疗英雄与自己同阵营，则每回合额外恢复20%的最大生命值",
+    "des": "持续治疗回合数增加1回合，若治疗英雄与自己同阵营，则每回合额外恢复20%的最大生命值",
     "key1": "buffDuration",
-    "value1": 3,
+    "value1": 1,
     "key2": "recover_maxHp",
     "value2": 0.2
   },
   "10501025": {
-    "des": "普通攻击时为目标添加持续恢复效果，每回合恢复攻击力30%的生命值，持续2回合。",
-    "key1": "normal_later_buff",
-    "value1": "{\"buffId\":\"recover\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
+    "des": "释放技能后为自身添加寒冰护盾，受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合。",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10502000": {
     "des": "生命值增加20%，攻击力增加20%",
@@ -2895,163 +2897,307 @@
     "value2": 0.2
   },
   "10502006": {
-    "des": "行动后恢复自身1点怒气"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10502009": {
-    "des": "每回合行动前随机解除自身一个减益效果"
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
   },
   "10502010": {
-    "des": "释放技能后恢复我方全体1点怒气"
+    "des": "释放技能后恢复我方全体1点怒气",
+    "key1": "skill_anger_a",
+    "value1": 1
   },
   "10502011": {
-    "des": "技能造成的治疗量增加30%，释放技能时，若目标与自己同阵营，则为其添加免控盾，持续1回合。"
+    "des": "技能造成的治疗量增加30%，释放技能时，若目标与自己同阵营，则为其添加免控盾，持续1回合。",
+    "key1": "skill_heal_amp",
+    "value1": 0.3,
+    "key2": "realm_heal_buff_minHp",
+    "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "10502025": {
-    "des": "普通治疗为目标添加伤害减免效果"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10503000": {
-    "des": "生命值增加40%,抗暴增加20%"
+    "des": "生命值增加32%,抗暴增加12%",
+    "key1": "self_maxHP_add",
+    "value1": 0.32,
+    "key2": "critDef",
+    "value2": 0.12
   },
   "10503006": {
-    "des": "每次攻击时使目标增加一层寒冷效果"
+    "des": "每次攻击有100%概率附加寒冷效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
+    "key2": "normal_buff1",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10503009": {
-    "des": "每回合行动后恢复自身1点怒气"
+    "des": "每回合行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10503010": {
-    "des": "释放技能后恢复自身30%最大生命值"
+    "des": "释放技能后恢复自身30%最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.3
   },
   "10503011": {
-    "des": "自身生命值增加80%，被寒冷状态下的敌人攻击时，恢复1点怒气"
+    "des": "自身生命值增加80%，被寒冷状态下的敌人攻击时，恢复1点怒气",
+    "key1": "self_maxHP_add",
+    "value1": 0.8,
+    "key2": "cold_hit_anger",
+    "value2": 1
   },
   "10503025": {
-    "des": "每回合行动前随机解除自身一个减益效果"
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
   },
   "10504000": {
-    "des": "生命增加36%，攻击力增加18%"
+    "des": "生命增加24%，攻击力增加18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.18
   },
   "10504006": {
-    "des": "普通攻击附加寒冷效果"
+    "des": "普通攻击有100%概率附加寒冷效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10504009": {
-    "des": "行动后恢复自身1点怒气"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10504010": {
-    "des": "释放技能后有50%概率再次释放一次技能，每回合最多触发一次"
+    "des": "释放技能后有50%概率触发连击，再次释放一次技能(连击最多触发1次)",
+    "key1": "skill_again",
+    "value1": 0.5
   },
   "10504011": {
-    "des": "直接伤害击杀目标增加自身24%的伤害，可叠加。触发连击技能时，该技能伤害提高40%"
+    "des": "直接伤害击杀目标增加自身24%的伤害，可叠加。触发连击技能时，额外造成目标最大生命值10%的伤害",
+    "key1": "kill_amp",
+    "value1": 0.24,
+    "key2": "add_anger_maxHp",
+    "value2": 0.1
   },
   "10504025": {
-    "des": "释放技能有34%概率不消耗怒气"
+    "des": "释放技能有34%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.34
   },
   "10505000": {
-    "des": "攻击增加30%，暴击率增加8%"
+    "des": "攻击增加26%，暴击率增加12%",
+    "key1": "self_atk_add",
+    "value1": 0.26,
+    "key2": "crit",
+    "value2": 0.12
   },
   "10505006": {
-    "des": "击杀目标后恢复自身1点怒气"
+    "des": "击杀目标后恢复自身1点怒气",
+    "key1": "kill_anger",
+    "value1": 1
   },
   "10505009": {
-    "des": "直接伤害击杀目标后追加一次普通攻击"
+    "des": "直接伤害击杀目标后追加一次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true
   },
   "10505010": {
-    "des": "击杀目标后，为自身添加水神护盾，并恢复最大生命值的30%"
+    "des": "击杀目标后，为自身添加水神护盾，并恢复最大生命值的30%",
+    "key1": "kill_buff1",
+    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "10505011": {
-    "des": "破冰一击伤害额外增加100%，自身攻击力增加40%"
+    "des": "破冰一击伤害额外增加100%，自身攻击力增加40%",
+    "key1": "thawing_frozen",
+    "value1": 1,
+    "key2": "self_atk_add",
+    "value2": 0.4
   },
   "10505025": {
-    "des": "普通攻击附加寒冷效果"
+    "des": "普通攻击有100%概率附加寒冷效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10506000": {
-    "des": "生命值增加36%,攻击增加18%"
+    "des": "生命值增加28%,攻击增加12%",
+    "key1": "self_maxHP_add",
+    "value1": 0.28,
+    "key2": "self_atk_add",
+    "value2": 0.12
   },
   "10506006": {
-    "des": "技能伤害的60%治疗友方生命值最少的英雄"
+    "des": "技能伤害的60%治疗友方生命值最少的英雄",
+    "key1": "skill_turn_rate",
+    "value1": 0.6,
+    "key2": "skill_turn_tg",
+    "value2": "team_minHp_1"
   },
   "10506009": {
-    "des": "释放技能后为生命值最少的友方单体添加寒冰护盾，受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合。"
+    "des": "释放技能后为生命值最少的友方单体添加寒冰护盾，受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合。",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10506010": {
-    "des": "释放技能时，麻痹概率提升为100%"
+    "des": "释放技能时，麻痹概率提升为100%",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "10506011": {
-    "des": "自身生命值增加40%，释放技能后恢复同阵营怒气最少的三个英雄1点怒气值"
+    "des": "自身生命值增加40%，释放技能后恢复同阵营怒气最少的三个英雄1点怒气值",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "skill_add_realm3_anger",
+    "value2": 1
   },
   "10506025": {
-    "des": "行动后恢复自身1点怒气"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10507000": {
-    "des": "攻击增加20%，破防增加20%"
+    "des": "攻击增加20%，破防增加20%",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "neglect_def",
+    "value2": 0.2
   },
   "10507006": {
-    "des": "释放技能后追加一次普通攻击"
+    "des": "释放技能后追加一次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
   },
   "10507009": {
-    "des": "回合结束时，每层破浪效果恢复自身1%的生命值"
+    "des": "回合结束时，每层破浪效果恢复自身1%的生命值",
+    "key1": "polang_heal",
+    "value1": 0.01
   },
   "10507010": {
-    "des": "使用技能时，每层破浪效果额外造成目标1%生命上限的伤害"
+    "des": "使用技能时，每层破浪效果额外造成目标1%生命上限的伤害",
+    "key1": "polang_power",
+    "value1": 0.01
   },
   "10507011": {
-    "des": "破浪效果持续至战斗结束，追加的普通攻击额外造成20%目标生命值上限的伤害"
+    "des": "破浪效果持续至战斗结束，追加的普通攻击额外造成20%目标生命值上限的伤害",
+    "key1": "buffDuration",
+    "value1": 99,
+    "key2": "add_default_maxHp",
+    "value2": 0.2
   },
   "10507025": {
-    "des": "直接伤害击杀目标后追加一次普通攻击"
+    "des": "直接伤害击杀目标后追加一次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true
   },
   "10508000": {
-    "des": "生命值增加20%，命中增加20%"
+    "des": "生命值增加20%，命中增加20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "hitRate",
+    "value2": 0.2
   },
   "10508006": {
-    "des": "普通攻击有40%概率附加寒冷效果"
+    "des": "普通攻击有40%概率附加寒冷效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.4}"
   },
   "10508009": {
-    "des": "技能伤害增加30%"
+    "des": "技能伤害增加30%",
+    "key1": "skill_attack_amp",
+    "value1": 0.3
   },
   "10508010": {
-    "des": "释放技能有34%概率不消耗怒气"
+    "des": "释放技能有34%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.34
   },
   "10508011": {
-    "des": "释放技能有56%概率不消耗怒气，暴击伤害增加30%"
+    "des": "释放技能有56%概率不消耗怒气，暴击伤害增加30%",
+    "key1": "skill_free",
+    "value1": 0.22,
+    "key2": "crit",
+    "value2": 0.3
   },
   "10508025": {
-    "des": "行动后恢复自身1点怒气"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "10509000": {
-    "des": "生命值增加20%，闪避率增加10%"
+    "des": "生命值增加24%，闪避率增加16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "dodgeRate",
+    "value2": 0.16
   },
   "10509006": {
-    "des": "释放技能后攻击力最高的我方英雄恢复1点怒气"
+    "des": "释放技能后攻击力最高的我方英雄恢复1点怒气",
+    "key1": "skill_add_maxAtk_anger",
+    "value1": 1
   },
   "10509009": {
-    "des": "生命值增加60%"
+    "des": "生命值增加60%",
+    "key1": "self_maxHP_add",
+    "value1": 0.6
   },
   "10509010": {
-    "des": "释放技能后攻击力最高的我方英雄恢复3点怒气"
+    "des": "释放技能后攻击力最高的我方英雄恢复2点怒气",
+    "key1": "skill_add_maxAtk_anger",
+    "value1": 1
   },
   "10509011": {
-    "des": "闪避率增加30%，行动后恢复自身1点怒气"
+    "des": "闪避率增加30%，行动后恢复自身1点怒气",
+    "key1": "dodgeRate",
+    "value1": 0.3,
+    "key2": "action_anger",
+    "value2": 1
   },
   "10509025": {
-    "des": "释放技能后恢复自身1点怒气"
+    "des": "释放技能后恢复自身1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
   },
   "10510000": {
-    "des": "攻击增加24%，暴击增加12%"
+    "des": "攻击增加24%，暴击增加12%",
+    "key1": "self_atk_add",
+    "value1": 0.24,
+    "key2": "crit",
+    "value2": 0.12
   },
   "10510006": {
-    "des": "使用技能后对目标造成寒冷效果"
+    "des": "使用技能后有100%概率附加寒冷效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10510009": {
-    "des": "击杀目标后吞噬其剩余怒气值"
+    "des": "击杀目标后吞噬其剩余怒气值",
+    "key1": "kill_rob_anger",
+    "value1": true
   },
   "10510010": {
-    "des": "使用技能后，若目标生命值低于15%，则将其斩杀"
+    "des": "使用技能后，若目标生命值低于15%，则将其斩杀",
+    "key1": "seckill",
+    "value1": 0.15
   },
   "10510011": {
-    "des": "自身攻击力增加40%，直接伤害击杀目标增加自身20%暴击率和20%的暴击伤害"
+    "des": "直接伤害击杀目标后增加自身20%暴击率和20%的暴击伤害",
+    "key1": "kill_crit",
+    "value1": 0.2,
+    "key2": "kill_slay",
+    "value2": 0.2
   },
   "10510025": {
-    "des": "行动后恢复自身1点怒气"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "20501000": {},
   "20501006": {},
