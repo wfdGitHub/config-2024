@@ -109,6 +109,7 @@
     "des": "对施法者阵营伤害降低，每回合损失生命值百分比伤害",
     "refreshType": "after",
     "lower": true,
+    "hurt": true,
     "debuff": true
   },
   "suoding": {
@@ -185,6 +186,47 @@
     "name": "破浪",
     "des": "伤害+5%，暴击+5%，最大可叠加20层，持续5回合",
     "refreshType": "roundOver",
+    "intensify": true
+  },
+  "bleed": {
+    "name": "流血",
+    "des": "每回合流失2%的最大生命值，持续3回合。最多叠加5层",
+    "refreshType": "before",
+    "lower": true,
+    "hurt": true,
+    "debuff": true
+  },
+  "heat_halo": {
+    "name": "炙热光环",
+    "des": "每回合对携带者及其周围目标造成施法者30%攻击力的伤害，持续2回合",
+    "refreshType": "roundOver",
+    "lower": true,
+    "debuff": true
+  },
+  "sand": {
+    "name": "沙尘暴",
+    "des": "受到施法者本人造成的伤害提高30%，持续2回合",
+    "refreshType": "after",
+    "lower": true,
+    "debuff": true
+  },
+  "crit_seal": {
+    "name": "暴击印记",
+    "des": "受到暴击伤害时，消耗一个暴击印记，额外受到8%最大生命值的伤害,最大可叠加5层,持续2回合",
+    "refreshType": "after",
+    "lower": true,
+    "debuff": true
+  },
+  "burn_shield": {
+    "name": "烈焰护体",
+    "des": "受到攻击时，有30%概率使攻击者灼烧，持续2回合",
+    "refreshType": "roundOver",
+    "intensify": true
+  },
+  "baonu": {
+    "name": "暴怒",
+    "des": "攻击时必定造成暴击，且暴击伤害增加20%",
+    "refreshType": "after",
     "intensify": true
   }
 }
