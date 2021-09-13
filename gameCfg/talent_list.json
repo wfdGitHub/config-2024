@@ -2853,6 +2853,34 @@
     "key2": "back_atk",
     "value2": 0.1
   },
+  "10101000": {
+    "des": "攻击力增加5%,生命值增加5%",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "self_maxHP_add",
+    "value2": 0.05
+  },
+  "10201000": {
+    "des": "攻击力增加8%,生命值增加8%",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "self_maxHP_add",
+    "value2": 0.08
+  },
+  "10301000": {
+    "des": "攻击力增加10%,生命值增加10%",
+    "key1": "self_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
+  },
+  "10401000": {
+    "des": "攻击力增加15%,生命值增加15%",
+    "key1": "self_atk_add",
+    "value1": 0.15,
+    "key2": "self_maxHP_add",
+    "value2": 0.15
+  },
   "10501000": {
     "des": "攻击力增加24%，治疗暴击增加16%",
     "key1": "self_atk_add",
@@ -3199,67 +3227,410 @@
     "key1": "action_anger",
     "value1": 1
   },
-  "20501000": {},
-  "20501006": {},
-  "20501009": {},
-  "20501010": {},
-  "20501011": {},
-  "20501025": {},
-  "20502000": {},
-  "20502006": {},
-  "20502009": {},
-  "20502010": {},
-  "20502011": {},
-  "20502025": {},
-  "20503000": {},
-  "20503006": {},
-  "20503009": {},
-  "20503010": {},
-  "20503011": {},
-  "20503025": {},
-  "20504000": {},
-  "20504006": {},
-  "20504009": {},
-  "20504010": {},
-  "20504011": {},
-  "20504025": {},
-  "20505000": {},
-  "20505006": {},
-  "20505009": {},
-  "20505010": {},
-  "20505011": {},
-  "20505025": {},
-  "20506000": {},
-  "20506006": {},
-  "20506009": {},
-  "20506010": {},
-  "20506011": {},
-  "20506025": {},
-  "20507000": {},
-  "20507006": {},
-  "20507009": {},
-  "20507010": {},
-  "20507011": {},
-  "20507025": {},
-  "20508000": {},
-  "20508006": {},
-  "20508009": {},
-  "20508010": {},
-  "20508011": {},
-  "20508025": {},
-  "20509000": {},
-  "20509006": {},
-  "20509009": {},
-  "20509010": {},
-  "20509011": {},
-  "20509025": {},
-  "20510000": {},
-  "20510006": {},
-  "20510009": {},
-  "20510010": {},
-  "20510011": {},
-  "20510025": {},
-  "30501000": {},
+  "20101000": {
+    "des": "攻击力增加5%,生命值增加5%",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "self_maxHP_add",
+    "value2": 0.05
+  },
+  "20201000": {
+    "des": "攻击力增加8%,生命值增加8%",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "self_maxHP_add",
+    "value2": 0.08
+  },
+  "20301000": {
+    "des": "攻击力增加10%,生命值增加10%",
+    "key1": "self_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
+  },
+  "20401000": {
+    "des": "攻击力增加15%,生命值增加15%",
+    "key1": "self_atk_add",
+    "value1": 0.15,
+    "key2": "self_maxHP_add",
+    "value2": 0.15
+  },
+  "20501000": {
+    "des": "生命值增加36%,伤害减免增加18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.36,
+    "key2": "reduction",
+    "value2": 0.18
+  },
+  "20501006": {
+    "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低40%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.4
+  },
+  "20501009": {
+    "des": "释放技能时，如果目标处于灼烧状态，造成伤害的50%转化为生命，治疗自己",
+    "key1": "skill_burn_turn_heal",
+    "value1": 0.5
+  },
+  "20501010": {
+    "des": "释放技能时，目标身上每有1层流血效果，额外造成3%最大生命值的伤害"
+  },
+  "20501011": {
+    "des": "自身生命值增加60%，被灼烧状态下的敌人攻击时，恢复1点怒气",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "burn_hit_anger",
+    "value2": 1
+  },
+  "20501025": {
+    "des": "攻击时有100%概率附加1层流血效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "20502000": {
+    "des": "生命值增加24%，攻击力增加24%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.24
+  },
+  "20502006": {
+    "des": "炙热光环伤害提升为60%攻击力",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "20502009": {
+    "des": "对灼烧状态的目标造成伤害增加30%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.3}",
+    "key2": "burn_att_change_normal",
+    "value2": "{\"amplify\":0.3}"
+  },
+  "20502010": {
+    "des": "炙热光环生效时对目标附加灼烧状态",
+    "key1": "heat_halo_burn",
+    "value1": true
+  },
+  "20502011": {
+    "des": "炙热光环伤害提升为100%攻击力，每次造成伤害时降低目标1点怒气",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "heat_halo_less",
+    "value2": 1
+  },
+  "20502025": {
+    "des": "释放技能后恢复自身1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "20503000": {
+    "des": "生命值增加36%，抗暴增加18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.36,
+    "key2": "critDef",
+    "value2": 0.18
+  },
+  "20503006": {
+    "des": "普通攻击对灼烧状态下的敌人有40%概率眩晕,持续1回合",
+    "key1": "burn_buff_change_normal",
+    "value1": "{\"buffId\":\"dizzy\",\"duration\":1,\"buffRate\":0.4}"
+  },
+  "20503009": {
+    "des": "对灼烧状态的目标造成伤害增加30%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.3}",
+    "key2": "burn_att_change_normal",
+    "value2": "{\"amplify\":0.3}"
+  },
+  "20503010": {
+    "des": "释放技能时，如果目标处于灼烧状态，眩晕的概率提升至60%",
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
+  },
+  "20503011": {
+    "des": "技能必定命中，生命值增加40%",
+    "key1": "skill_must_hit",
+    "value1": true,
+    "key2": "self_maxHP_add",
+    "value2": 0.4
+  },
+  "20503025": {
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
+  },
+  "20504000": {
+    "des": "生命值增加36%，攻击增加18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.36,
+    "key2": "self_atk_add",
+    "value2": 0.18
+  },
+  "20504006": {
+    "des": "普通攻击有60%概率添加灼烧效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.6}"
+  },
+  "20504009": {
+    "des": "释放技能后，对自身释放烈焰护体，持续2回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "20504010": {
+    "des": "技能使目标灼烧的概率提升至65%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
+  },
+  "20504011": {
+    "des": "生命值增加40%。释放技能时，每命中一个灼烧状态下的敌人，恢复1点怒气。",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "skill_burn_anger",
+    "value2": 1
+  },
+  "20504025": {
+    "des": "对灼烧状态的目标造成伤害增加30%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.3}",
+    "key2": "burn_att_change_normal",
+    "value2": "{\"amplify\":0.3}"
+  },
+  "20505000": {
+    "des": "攻击力增加28%，生命值增加16%",
+    "key1": "self_atk_add",
+    "value1": 0.28,
+    "key2": "self_maxHP_add",
+    "value2": 0.16
+  },
+  "20505006": {
+    "des": "普通攻击有100%概率附加1层流血效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "20505009": {
+    "des": "释放技能时，若目标身上的流血效果在5层及以上，则使其重伤，持续1回合。",
+    "key1": "skill_bleed_zs",
+    "value1": true
+  },
+  "20505010": {
+    "des": "技能添加流血效果的概率提升至100%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "20505011": {
+    "des": "每个存活的友方同阵营英雄为自身提高12%的伤害加成",
+    "key1": "realm_friend_amp",
+    "value1": 0.12
+  },
+  "20505025": {
+    "des": "对流血状态的目标造成伤害增加30%",
+    "key1": "bleed_amp",
+    "value1": 0.3
+  },
+  "20506000": {
+    "des": "暴击率增加20%，暴击伤害增加20%",
+    "key1": "crit",
+    "value1": 0.2,
+    "key2": "slay",
+    "value2": 0.2
+  },
+  "20506006": {
+    "des": "释放技能后为自身添加暴怒状态，持续2回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "20506009": {
+    "des": "每击杀一个目标，自身暴击率和暴击伤害增加10%,可叠加",
+    "key1": "kill_crit",
+    "value1": 0.1,
+    "key2": "kill_slay",
+    "value2": 0.1
+  },
+  "20506010": {
+    "des": "战斗首回合必定暴击，首回合伤害增加30%",
+    "key1": "first_crit",
+    "value1": true,
+    "key2": "first_amp",
+    "value2": 0.3
+  },
+  "20506011": {
+    "des": "攻击力增加30%,暴击伤害增加30%",
+    "key1": "self_atk_add",
+    "value1": 0.3,
+    "key2": "slay",
+    "value2": 0.3
+  },
+  "20506025": {
+    "des": "击杀目标后恢复自身1点怒气",
+    "key1": "kill_anger",
+    "value1": 1
+  },
+  "20507000": {
+    "des": "攻击力增加20%,命中率增加20%",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "hitRate",
+    "value2": 0.2
+  },
+  "20507006": {
+    "des": "释放水龙冲击后，为自身添加护盾，吸收最大生命值15%的伤害，持续1回合",
+    "key1": "thawing_burn_hudun",
+    "value1": 0.15
+  },
+  "20507009": {
+    "des": "水龙冲击每命中一个目标，恢复自身1点怒气值",
+    "key1": "thawing_burn_anger",
+    "value1": 1
+  },
+  "20507010": {
+    "des": "水龙冲击造成的伤害额外增加60%",
+    "key1": "thawing_burn",
+    "value1": 0.6
+  },
+  "20507011": {
+    "des": "自身攻击力增加40%，释放技能后恢复2点怒气",
+    "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "skill_anger_s",
+    "value2": 2
+  },
+  "20507025": {
+    "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低25%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.25
+  },
+  "20508000": {
+    "des": "生命值增加20%，命中率增加20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "hitRate",
+    "value2": 0.2
+  },
+  "20508006": {
+    "des": "普攻有100%概率使敌人灼烧",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+  },
+  "20508009": {
+    "des": "释放技能时，若目标处于灼烧状态，有100%概率添加麻痹，持续1回合",
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "20508010": {
+    "des": "释放技能后，为血量最少的2个友方英雄添加无敌吸血盾，持续1回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"friend_minHp_2\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "20508011": {
+    "des": "释放技能后，同阵营怒气最少的友方英雄获得一个额外回合",
+    "key1": "extraAtion",
+    "value1": true
+  },
+  "20508025": {
+    "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低25%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.25
+  },
+  "20509000": {
+    "des": "生命值增加20%，抗暴增加20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "critDef",
+    "value2": 0.2
+  },
+  "20509006": {
+    "des": "释放技能后恢复我方后排1点怒气值",
+    "key1": "skill_anger_back",
+    "value1": 1
+  },
+  "20509009": {
+    "des": "普通攻击时，若目标身上有灼烧状态，则有60%概率添加禁怒",
+    "key1": "burn_buff_change_normal",
+    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
+  },
+  "20509010": {
+    "des": "释放技能时，若目标身上有灼烧状态，添加禁怒的概率提升至80%",
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.8}"
+  },
+  "20509011": {
+    "des": "禁怒的持续回合增加至2回合，生命值增加40%",
+    "key1": "burn_buff_change_normal",
+    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.6}",
+    "key2": "burn_buff_change_skill",
+    "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.8}"
+  },
+  "20509025": {
+    "des": "释放技能后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
+  },
+  "20510000": {
+    "des": "攻击力增加20%，暴击率增加20%",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "crit",
+    "value2": 0.2
+  },
+  "20510006": {
+    "des": "沙尘暴状态下的目标命中率降低30%",
+    "key1": "sand_low_hit",
+    "value1": 0.3
+  },
+  "20510009": {
+    "des": "沙尘暴状态下的目标攻击力降低降低30%",
+    "key1": "sand_low_damage",
+    "value1": 0.3
+  },
+  "20510010": {
+    "des": "释放技能附加沙尘暴的概率提升为60%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.6}"
+  },
+  "20510011": {
+    "des": "敌方每阵亡1人，自身伤害增加15%",
+    "key1": "enemy_died_amp",
+    "value1": 0.15
+  },
+  "20510025": {
+    "des": "释放技能有30%的概率不消耗怒气",
+    "key1": "kill_anger",
+    "value1": 1
+  },
+  "30101000": {
+    "des": "攻击力增加5%,生命值增加5%",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "self_maxHP_add",
+    "value2": 0.05
+  },
+  "30201000": {
+    "des": "攻击力增加8%,生命值增加8%",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "self_maxHP_add",
+    "value2": 0.08
+  },
+  "30301000": {
+    "des": "攻击力增加10%,生命值增加10%",
+    "key1": "self_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
+  },
+  "30401000": {
+    "des": "攻击力增加15%,生命值增加15%",
+    "key1": "self_atk_add",
+    "value1": 0.15,
+    "key2": "self_maxHP_add",
+    "value2": 0.15
+  },
+  "30501000": {
+    "key1": "skill_free",
+    "value1": 0.3
+  },
   "30501006": {},
   "30501009": {},
   "30501010": {},

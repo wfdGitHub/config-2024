@@ -247,134 +247,248 @@
   },
   "2010101": {
     "name": 2010101,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成60%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 0.6
   },
   "2010102": {
     "name": 2010102,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成160%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.6
   },
   "2020101": {
     "name": 2020101,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成80%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 0.8
   },
   "2020102": {
     "name": 2020102,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成220%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.2
   },
   "2030101": {
     "name": 2030101,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2030102": {
     "name": 2030102,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成260%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.6
   },
   "2040101": {
     "name": 2040101,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2040102": {
     "name": 2040102,
-    "type": "attack"
+    "type": "attack",
+    "des": "对敌方单体造成280%攻击力的法术伤害,有100%概率附加流血效果",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2050101": {
     "name": 2050101,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害，附加1层流血效果"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2050102": {
     "name": 2050102,
     "type": "attack",
-    "des": "对敌方单体造成225%的物理伤害。释放技能后给自身添加无敌吸血盾，持续1回合"
+    "des": "对敌方单体造成225%的物理伤害。释放技能后给自身添加无敌吸血盾，持续1回合",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "2050201": {
     "name": 2050201,
     "type": "attack",
-    "des": "对敌方后排单体造成90%攻击力的法术伤害"
+    "des": "对敌方后排单体造成90%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal_back",
+    "mul": 0.9
   },
   "2050202": {
     "name": 2050202,
     "type": "attack",
-    "des": "对敌方后排单体造成260%攻击力的法术伤害，并对其添加炙热光环，持续2回合"
+    "des": "对敌方后排单体造成260%攻击力的法术伤害，并对其添加炙热光环，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_normal_back",
+    "mul": 2.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "2050301": {
     "name": 2050301,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2050302": {
     "name": 2050302,
     "type": "attack",
-    "des": "对敌方全体造成92%攻击力的法术伤害，如果目标处于灼烧状态，有30%概率使其眩晕，持续1回合"
+    "des": "对敌方全体造成92%攻击力的法术伤害，如果目标处于灼烧状态，有30%概率使其眩晕，持续1回合",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0.92,
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "2050401": {
     "name": 2050401,
     "type": "attack",
-    "des": "对敌方前排造成43%攻击力的法术伤害"
+    "des": "对敌方前排造成43%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_front",
+    "mul": 0.43
   },
   "2050402": {
     "name": 2050402,
     "type": "attack",
-    "des": "对敌方全体造成92%攻击力的法术伤害，有35%概率使其灼烧，持续2回合"
+    "des": "对敌方全体造成92%攻击力的法术伤害，有35%概率使其灼烧，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0.92,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "2050501": {
     "name": 2050501,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2050502": {
     "name": 2050502,
     "type": "attack",
-    "des": "对敌方全体造成108%攻击力的物理伤害，有50%概率添加1层流血效果，持续2回合"
+    "des": "对敌方全体造成108%攻击力的物理伤害，有50%概率添加1层流血效果，持续2回合",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 1.08,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}"
   },
   "2050601": {
     "name": 2050601,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2050602": {
     "name": 2050602,
     "type": "attack",
-    "des": "对敌方单体造成330%攻击力的物理伤害，随后添加3层暴击印记，持续2回合"
+    "des": "对敌方单体造成330%攻击力的物理伤害，随后添加3层暴击印记，持续2回合",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 3.3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"crit_seal\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "2050701": {
     "name": 2050701,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "2050702": {
     "name": 2050702,
     "type": "attack",
-    "des": "对敌方纵排造成235%攻击力的法术伤害，若目标身上有灼烧效果，则造成水龙冲击(解除灼烧效果，并造成双倍伤害)"
+    "des": "对敌方纵排造成235%攻击力的法术伤害，若目标身上有灼烧效果，则造成水龙冲击(解除灼烧效果，并造成双倍伤害)",
+    "damageType": "mag",
+    "targetType": "enemy_vertical",
+    "mul": 2.35,
+    "key1": "thawing_burn",
+    "value1": 1
   },
   "2050801": {
     "name": 2050801,
     "type": "attack",
-    "des": "对敌方单体造成90%攻击力的法术伤害"
+    "des": "对敌方单体造成90%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 0.9
   },
   "2050802": {
     "name": 2050802,
     "type": "attack",
-    "des": "对敌方单体造成270%攻击力的法术伤害，若目标处于灼烧状态，有60%概率添加麻痹，持续1回合"
+    "des": "对敌方单体造成270%攻击力的法术伤害，为我方血量最少的英雄添加烈焰护体，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.7,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "2050901": {
     "name": 2050901,
     "type": "attack",
-    "des": "对敌方单体造成90%攻击力的法术伤害"
+    "des": "对敌方单体造成90%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 0.9
   },
   "2050902": {
     "name": 2050902,
     "type": "attack",
-    "des": "对敌方随机三人造成160%攻击力的法术伤害，若目标身上有灼烧效果，有40%添加禁怒，持续1回合"
+    "des": "对敌方随机三人造成160%攻击力的法术伤害，若目标身上有灼烧效果，有40%概率添加禁怒，持续1回合",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.6,
+    "key1": "burn_buff_change_skill",
+    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
   },
   "2051001": {
     "name": 2051001,
     "type": "attack",
-    "des": "对敌方后排造成60%攻击力的法术伤害"
+    "des": "对敌方后排造成60%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_back",
+    "mul": 0.6
   },
   "2051002": {
     "name": 2051002,
     "type": "attack",
-    "des": "对敌方后排造成180%攻击力的法术伤害，有60%概率添加沙尘暴，持续2回合"
+    "des": "对敌方后排造成180%攻击力的法术伤害，有30%概率添加沙尘暴，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_back",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
   }
 }
