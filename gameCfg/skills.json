@@ -490,5 +490,223 @@
     "mul": 1.8,
     "key1": "buff1",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
+  },
+  "3010101": {
+    "name": 3010101,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3010102": {
+    "name": 3010102,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3020101": {
+    "name": 3020101,
+    "type": "attack",
+    "damageType": "mag"
+  },
+  "3020102": {
+    "name": 3020102,
+    "type": "attack",
+    "damageType": "mag"
+  },
+  "3030101": {
+    "name": 3030101,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3030102": {
+    "name": 3030102,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3040101": {
+    "name": 3040101,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3040102": {
+    "name": 3040102,
+    "type": "attack",
+    "damageType": "phy"
+  },
+  "3050101": {
+    "name": 3050101,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050102": {
+    "name": 3050102,
+    "type": "attack",
+    "des": "对敌方随机三人造成175%攻击力的法术伤害，并附加1层破甲效果",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.75,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "3050201": {
+    "name": 3050201,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050202": {
+    "name": 3050202,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的法术伤害，给我方生命值最少的友方英雄添加精灵祝福",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "3050301": {
+    "name": 3050301,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050302": {
+    "name": 3050302,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的物理伤害，攻击可立即结算目标身上流血效果",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "bleed_settle",
+    "value1": true
+  },
+  "3050401": {
+    "name": 3050401,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050402": {
+    "name": 3050402,
+    "type": "attack",
+    "des": "对敌方单体造成260%攻击力的物理伤害，添加1层破甲效果",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "3050501": {
+    "name": 3050501,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050502": {
+    "name": 3050502,
+    "type": "attack",
+    "des": "对敌方生命值最少的单位造成230%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
+    "damageType": "phy",
+    "targetType": "enemy_minHP",
+    "mul": 2.6,
+    "key1": "killRet",
+    "value1": true
+  },
+  "3050601": {
+    "name": 3050601,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050602": {
+    "name": 3050602,
+    "type": "attack",
+    "des": "对敌方全体造成92%攻击力的法术伤害，有25%概率添加沉默，持续1回合",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0.92,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
+  },
+  "3050701": {
+    "name": 3050701,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050702": {
+    "name": 3050702,
+    "type": "attack",
+    "des": "对敌方纵排造成180%的物理伤害，添加1层风筝印记，当队友攻击该目标时，消耗1层风筝印记，对该目标追加1次普通攻击",
+    "damageType": "phy",
+    "targetType": "enemy_vertical",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "3050801": {
+    "name": 3050801,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3050802": {
+    "name": 3050802,
+    "type": "attack",
+    "des": "对敌方全体造成92%攻击力的法术伤害，有30%概率添加中毒，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0.92,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+  },
+  "3050901": {
+    "name": 3050901,
+    "type": "heal",
+    "des": "为己方生命最少单位治疗100%攻击的生命值",
+    "targetType": "team_minHp_1",
+    "mul": 1
+  },
+  "3050902": {
+    "name": 3050902,
+    "type": "heal",
+    "des": "随机复活一名友方英雄，恢复其30%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复360%攻击力的生命值",
+    "targetType": "team_minHp_1",
+    "mul": 3.6,
+    "key1": "rescue_heal",
+    "value1": 0.3
+  },
+  "3051001": {
+    "name": 3051001,
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3051002": {
+    "name": 3051002,
+    "type": "attack",
+    "des": "对敌方单体造成300%攻击力的物理伤害，消耗所有反制印记，每消耗1层反制印记，对其添加1层破甲",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 3,
+    "key1": "fanzhi_to_pojia",
+    "value1": true
   }
 }

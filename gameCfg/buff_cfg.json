@@ -213,7 +213,7 @@
   "crit_seal": {
     "name": "暴击印记",
     "des": "受到暴击伤害时，消耗一个暴击印记，额外受到8%最大生命值的伤害,最大可叠加5层,持续2回合",
-    "refreshType": "after",
+    "refreshType": "s",
     "lower": true,
     "debuff": true
   },
@@ -228,5 +228,36 @@
     "des": "攻击时必定造成暴击，且暴击伤害增加20%",
     "refreshType": "after",
     "intensify": true
+  },
+  "pojia": {
+    "name": "破甲",
+    "des": "受到的伤害增加12%，最多叠加5层，持续3回合",
+    "refreshType": "roundOver",
+    "lower": true,
+    "debuff": true
+  },
+  "speed": {
+    "name": "疾速",
+    "des": "速度值增加5%，最多叠加3层，持续3回合",
+    "refreshType": "after",
+    "intensify": true
+  },
+  "fengzheng": {
+    "name": "风筝印记",
+    "des": "当队友攻击该目标时，消耗1层风筝印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
+    "refreshType": "roundOver",
+    "lower": true,
+    "debuff": true
+  },
+  "fanzhi": {
+    "name": "反制印记",
+    "des": "闪避增加5%，最多叠加5层,持续2回合",
+    "refreshType": "after",
+    "intensify": true
+  },
+  "dodgeRate": {
+    "name": "精灵祝福",
+    "des": "闪避率提高50%，持续1回合",
+    "refreshType": "roundOver"
   }
 }

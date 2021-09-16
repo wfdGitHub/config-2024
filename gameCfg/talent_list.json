@@ -3596,8 +3596,8 @@
   },
   "20510025": {
     "des": "释放技能有30%的概率不消耗怒气",
-    "key1": "kill_anger",
-    "value1": 1
+    "key1": "skill_free",
+    "value1": 0.3
   },
   "30101000": {
     "des": "攻击力增加5%,生命值增加5%",
@@ -3628,68 +3628,354 @@
     "value2": 0.15
   },
   "30501000": {
-    "key1": "skill_free",
+    "des": "攻击增加24%，命中增加18%",
+    "key1": "self_atk_add",
+    "value1": 0.24,
+    "key2": "hitRate",
+    "value2": 0.18
+  },
+  "30501006": {
+    "des": "释放技能后追加一次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "30501009": {
+    "des": "造成直接伤害时对目标添加1层流血效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "30501010": {
+    "des": "释放技能时降低目标1点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
+  },
+  "30501011": {
+    "des": "追加普攻额外造成目标生命值上限15%的伤害。技能击杀目标后，溢出伤害的50%将对血量最高的攻击目标造成伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.15,
+    "key2": "overDamageToMaxHp",
+    "value2": 0.5
+  },
+  "30501025": {
+    "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30502000": {
+    "des": "闪避增加20%,生命值增加20%",
+    "key1": "dodgeRate",
+    "value1": 0.2,
+    "key2": "self_maxHP_add",
+    "value2": 0.2
+  },
+  "30502006": {
+    "des": "释放技能后，为我方全体增加1层疾速",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30502009": {
+    "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30502010": {
+    "des": "释放技能时，额外降低目标1点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
+  },
+  "30502011": {
+    "des": "全体上阵英雄闪避率增加20%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.2
+  },
+  "30502025": {
+    "des": "释放技能后恢复自身1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "30503000": {
+    "des": "攻击力增加20%,闪避率增加20%",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "dodgeRate",
+    "value2": 0.2
+  },
+  "30503006": {
+    "des": "释放技能后追加一次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "30503009": {
+    "des": "每次造成直接伤害时，100%概率对目标添加1层破甲效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "normal_buff1",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30503010": {
+    "des": "每次击杀目标后增加自身10%伤害，并恢复自身20%最大生命值",
+    "key1": "kill_amp",
+    "value1": 0.1,
+    "key2": "kill_heal",
+    "value2": 0.2
+  },
+  "30503011": {
+    "des": "每次普攻后，若目标未死亡，有50%概率连击，可重复触发。",
+    "key1": "normal_combo",
+    "value1": 0.5
+  },
+  "30503025": {
+    "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30504000": {
+    "des": "受到直接伤害时，伤害的30%反弹给攻击者",
+    "key1": "hit_rebound",
     "value1": 0.3
   },
-  "30501006": {},
-  "30501009": {},
-  "30501010": {},
-  "30501011": {},
-  "30501025": {},
-  "30502000": {},
-  "30502006": {},
-  "30502009": {},
-  "30502010": {},
-  "30502011": {},
-  "30502025": {},
-  "30503000": {},
-  "30503006": {},
-  "30503009": {},
-  "30503010": {},
-  "30503011": {},
-  "30503025": {},
-  "30504000": {},
-  "30504006": {},
-  "30504009": {},
-  "30504010": {},
-  "30504011": {},
-  "30504025": {},
-  "30505000": {},
-  "30505006": {},
-  "30505009": {},
-  "30505010": {},
-  "30505011": {},
-  "30505025": {},
-  "30506000": {},
-  "30506006": {},
-  "30506009": {},
-  "30506010": {},
-  "30506011": {},
-  "30506025": {},
-  "30507000": {},
-  "30507006": {},
-  "30507009": {},
-  "30507010": {},
-  "30507011": {},
-  "30507025": {},
-  "30508000": {},
-  "30508006": {},
-  "30508009": {},
-  "30508010": {},
-  "30508011": {},
-  "30508025": {},
-  "30509000": {},
-  "30509006": {},
-  "30509009": {},
-  "30509010": {},
-  "30509011": {},
-  "30509025": {},
-  "30510000": {},
-  "30510006": {},
-  "30510009": {},
-  "30510010": {},
-  "30510011": {},
-  "30510025": {},
+  "30504006": {
+    "des": "每次受到直接伤害后，恢复自身10%的生命值",
+    "key1": "behit_heal",
+    "value1": 0.1
+  },
+  "30504009": {
+    "des": "被治疗量增加30%",
+    "key1": "healAdd",
+    "value1": 0.3
+  },
+  "30504010": {
+    "des": "反伤效果增加至60%",
+    "key1": "hit_rebound",
+    "value1": 0.3
+  },
+  "30504011": {
+    "des": "生命值增加60%,反伤效果增加值至100%",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "hit_rebound",
+    "value2": 0.4
+  },
+  "30504025": {
+    "des": "受到普通攻击时，恢复自身1点怒气",
+    "key1": "hit_less_anger",
+    "value1": 1
+  },
+  "30505000": {
+    "des": "暴击率增加28%，攻击力增加14%",
+    "key1": "crit",
+    "value1": 0.28,
+    "key2": "self_atk_add",
+    "value2": 0.14
+  },
+  "30505006": {
+    "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30505009": {
+    "des": "目标身上每有1层破甲效果，技能伤害增加10%",
+    "key1": "pojia_amp"
+  },
+  "30505010": {
+    "des": "直接伤害击杀目标后，增加自身10%暴击率和10%暴击伤害，可叠加",
+    "key1": "kill_amp",
+    "value1": 0.1,
+    "key2": "kill_slay",
+    "value2": 0.1
+  },
+  "30505011": {
+    "des": "攻击力增加40%,友方同阵营英雄受到直接伤害死亡时，立即释放一次技能（此技能不可追击）",
+    "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "realmDiedSkill",
+    "value2": true
+  },
+  "30505025": {
+    "des": "普通攻击降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "30506000": {
+    "des": "生命值增加28%，速度增加14%",
+    "key1": "self_maxHP_add",
+    "value1": 0.28,
+    "key2": "self_speed_add",
+    "value2": 0.14
+  },
+  "30506006": {
+    "des": "普通攻击降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "30506009": {
+    "des": "释放技能时沉默概率提升至40%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+  },
+  "30506010": {
+    "des": "释放技能后追加一次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "30506011": {
+    "des": "生命值增加40%，技能命中的目标越少，沉默概率越高，最高提升50%概率",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "less_skill_buffRate",
+    "value2": 0.5
+  },
+  "30506025": {
+    "des": "普通攻击有60%概率使目标沉默，持续1回合",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
+  },
+  "30507000": {
+    "des": "攻击力增加18%，闪避增加24%",
+    "key1": "self_atk_add",
+    "value1": 0.18,
+    "key2": "dodgeRate",
+    "value2": 0.24
+  },
+  "30507006": {
+    "des": "普通攻击与追加普攻添加破甲效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30507009": {
+    "des": "每次攻击后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "normal_buff2",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30507010": {
+    "des": "释放技能时对目标添加2层风筝印记",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "30507011": {
+    "des": "生命值增加60%,风筝印记额外造成10%生命值上限的伤害",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "add_default_maxHp",
+    "value2": 0.1
+  },
+  "30507025": {
+    "des": "普通攻击降低目标1点怒气值",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "30508000": {
+    "des": "生命值增加24%，攻击力增加18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.18
+  },
+  "30508006": {
+    "des": "普通攻击有60%概率添加1层中毒效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "30508009": {
+    "des": "释放技能后，追加1次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "30508010": {
+    "des": "释放技能时，中毒的概率增加至60%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
+  },
+  "30508011": {
+    "des": "生命值增加60%，释放中毒后额外添加1回合重伤效果",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "poison_add_forbidden",
+    "value2": true
+  },
+  "30508025": {
+    "des": "受到普通攻击时，30%概率对攻击者添加1层中毒",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+  },
+  "30509000": {
+    "des": "生命值增加20%，闪避率增加10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "dodgeRate",
+    "value2": 0.2
+  },
+  "30509006": {
+    "des": "行动后，为生命值最低的2个友方英雄恢复攻击力80%的生命值",
+    "key1": "round_heal_type",
+    "value1": "team_minHp_2",
+    "key2": "round_heal_value",
+    "value2": 0.8
+  },
+  "30509009": {
+    "des": "普通治疗为目标添加护盾",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+  },
+  "30509010": {
+    "des": "使用技能时，净化目标所有负面状态，并添加护盾",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
+    "key2": "cleanDebuff",
+    "value2": true
+  },
+  "30509011": {
+    "des": "生命值增加40%,复活的英雄若与自身同阵营，则恢复100%的血量",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "rescue_realm_heal",
+    "value2": 1
+  },
+  "30509025": {
+    "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30510000": {
+    "des": "闪避率增加20%,成功闪避时，获得1层反制印记",
+    "key1": "dodgeRate",
+    "value1": 0.2,
+    "key2": "shanbi_fanzhi",
+    "value2": true
+  },
+  "30510006": {
+    "des": "首回合获得精灵祝福",
+    "key1": "first_buff1",
+    "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "30510009": {
+    "des": "释放技能时，若反制印记在3层以上时，对目标添加重伤效果",
+    "key1": "fanzhi_to_zs",
+    "value1": true
+  },
+  "30510010": {
+    "des": "闪避率增加20%，击杀目标后，为自身添加精灵祝福",
+    "key1": "dodgeRate",
+    "value1": 0.2,
+    "key2": "kill_buff1",
+    "value2": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "30510011": {
+    "des": "攻击力增加40%，每回合行动结束后添加2层反制印记",
+    "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "action_buff1",
+    "value2": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "30510025": {
+    "des": "普通攻击降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
   "40501000": {},
   "40501006": {},
   "40501009": {},
