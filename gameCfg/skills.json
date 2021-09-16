@@ -713,101 +713,177 @@
     "name": 4050101,
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
-    "damageType": "mag"
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050102": {
     "name": 4050102,
     "type": "attack",
-    "des": "对敌方前排造成185%攻击力的法术伤害，并添加3层感电"
+    "des": "对敌方前排造成185%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.85,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "4050201": {
     "name": 4050201,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_minHP",
+    "mul": 1
   },
   "4050202": {
     "name": 4050202,
     "type": "attack",
-    "des": "对敌方生命值最少的单位造成320%攻击力的物理伤害，随后为自身添加神力效果"
+    "des": "对敌方生命值最少的单位造成320%攻击力的物理伤害，随后为自身添加神力效果",
+    "damageType": "phy",
+    "targetType": "enemy_minHP",
+    "mul": 3.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "4050301": {
     "name": 4050301,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050302": {
     "name": 4050302,
     "type": "attack",
-    "des": "对敌方前排造成165%攻击力的法术伤害，解除我方全体1个减益效果"
+    "des": "对敌方前排造成165%攻击力的法术伤害，解除我方全体1个减益效果",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.65,
+    "key1": "clean_team",
+    "value1": true
   },
   "4050401": {
     "name": 4050401,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050402": {
     "name": 4050402,
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的法术伤害，并驱散目标增益效果"
+    "des": "对敌方单体造成360%攻击力的法术伤害，并驱散目标所有增益效果",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "dispel_intensify",
+    "value1": true
   },
   "4050501": {
     "name": 4050501,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050502": {
     "name": 4050502,
     "type": "attack",
-    "des": "对敌方随机三人造成160%攻击力的法术伤害，额外造成目标最大生命值10%的伤害"
+    "des": "对敌方随机三人造成160%攻击力的法术伤害，额外造成目标最大生命值10%的伤害",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.6,
+    "key1": "maxHP_damage",
+    "value1": 0.1
   },
   "4050601": {
     "name": 4050601,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050602": {
     "name": 4050602,
     "type": "attack",
-    "des": "对敌方单体造成225%的物理伤害。有40%概率眩晕目标"
+    "des": "对敌方单体造成225%的物理伤害。有40%概率眩晕目标",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
   },
   "4050701": {
     "name": 4050701,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害"
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4050702": {
     "name": 4050702,
     "type": "attack",
-    "des": "对敌方单体造成300%的法术伤害。随后为自身添加坚毅效果"
+    "des": "对敌方单体造成300%的法术伤害。随后为自身添加坚毅效果",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "4050801": {
     "name": 4050801,
     "type": "heal",
-    "des": "为己方生命最少单位治疗100%攻击的生命值"
+    "des": "为己方生命最少单位治疗100%攻击的生命值",
+    "targetType": "team_minHp_1",
+    "mul": 1
   },
   "4050802": {
     "name": 4050802,
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其60%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复240%攻击力的生命值"
+    "des": "随机复活一名友方英雄，恢复其60%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复240%攻击力的生命值",
+    "targetType": "team_minHp_1",
+    "mul": 2.4,
+    "key1": "rescue_heal",
+    "value1": 0.6
   },
   "4050901": {
     "name": 4050901,
     "type": "attack",
-    "des": "对敌方随机三人造成47%攻击力的法术伤害"
+    "des": "对敌方随机三人造成47%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.47
   },
   "4050902": {
     "name": 4050902,
     "type": "attack",
-    "des": "对敌方全体造成115%的法术伤害，添加1层感电效果"
+    "des": "对敌方全体造成115%的法术伤害，添加1层感电效果",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 1.15,
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "4051001": {
     "name": 4051001,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "4051002": {
     "name": 4051002,
     "type": "attack",
-    "des": "对敌方全体造成108%攻击力的物理伤害，有20%概率嘲讽目标"
+    "des": "对敌方全体造成108%攻击力的物理伤害，有20%概率嘲讽目标",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 1.08,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.2}"
   }
 }
