@@ -3976,66 +3976,342 @@
     "key1": "normal_less_anger",
     "value1": 1
   },
-  "40501000": {},
-  "40501006": {},
-  "40501009": {},
-  "40501010": {},
-  "40501011": {},
-  "40501025": {},
-  "40502000": {},
-  "40502006": {},
-  "40502009": {},
-  "40502010": {},
-  "40502011": {},
-  "40502025": {},
-  "40503000": {},
-  "40503006": {},
-  "40503009": {},
-  "40503010": {},
-  "40503011": {},
-  "40503025": {},
-  "40504000": {},
-  "40504006": {},
-  "40504009": {},
-  "40504010": {},
-  "40504011": {},
-  "40504025": {},
-  "40505000": {},
-  "40505006": {},
-  "40505009": {},
-  "40505010": {},
-  "40505011": {},
-  "40505025": {},
-  "40506000": {},
-  "40506006": {},
-  "40506009": {},
-  "40506010": {},
-  "40506011": {},
-  "40506025": {},
-  "40507000": {},
-  "40507006": {},
-  "40507009": {},
-  "40507010": {},
-  "40507011": {},
-  "40507025": {},
-  "40508000": {},
-  "40508006": {},
-  "40508009": {},
-  "40508010": {},
-  "40508011": {},
-  "40508025": {},
-  "40509000": {},
-  "40509006": {},
-  "40509009": {},
-  "40509010": {},
-  "40509011": {},
-  "40509025": {},
-  "40510000": {},
-  "40510006": {},
-  "40510009": {},
-  "40510010": {},
-  "40510011": {},
-  "40510025": {},
+  "40501000": {
+    "des": "攻击力增加24%,生命值增加18%",
+    "key1": "self_atk_add",
+    "value1": 0.24,
+    "key2": "self_maxHP_add",
+    "value2": 0.18
+  },
+  "40501006": {
+    "des": "释放技能时有35%概率再次释放（每回合最多1次）",
+    "key1": "skill_combo",
+    "value1": 0.35
+  },
+  "40501009": {
+    "des": "死亡时，触发全部敌人的感电效果",
+    "key1": "flash_died_settle",
+    "value1": true
+  },
+  "40501010": {
+    "des": "释放技能时有70%概率再次释放（每回合最多1次）",
+    "key1": "skill_combo",
+    "value1": 0.35
+  },
+  "40501011": {
+    "des": "攻击力增加40%，释放技能时100%概率再次释放（每回合最多1次）",
+    "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "skill_combo",
+    "value2": 0.3
+  },
+  "40501025": {
+    "des": "普通攻击附加1层感电效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40502000": {
+    "des": "攻击力增加28%，暴击率增加16%",
+    "key1": "self_atk_add",
+    "value1": 0.28,
+    "key2": "crit",
+    "value2": 0.16
+  },
+  "40502006": {
+    "des": "阵亡时，为我方全体添加神力效果，每场战斗仅生效1次",
+    "key1": "died_once_buff",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40502009": {
+    "des": "攻击无视无敌盾效果",
+    "key1": "ignoreInvincible",
+    "value1": true
+  },
+  "40502010": {
+    "des": "释放技能时，有100%概率添加沉默，持续1回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "40502011": {
+    "des": "攻击力增加30%，阵亡时，恢复我方全体400%攻击力的生命值，每场战斗仅生效1次",
+    "key1": "self_atk_add",
+    "value1": 0.3,
+    "key2": "died_heal_team",
+    "value2": 4
+  },
+  "40502025": {
+    "des": "击杀目标后恢复自身1点怒气",
+    "key1": "kill_anger",
+    "value1": 1
+  },
+  "40503000": {
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
+  },
+  "40503006": {
+    "des": "释放技能时，为攻击力最高的友方英雄添加神力",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40503009": {
+    "des": "释放技能时，对目标添加1层感电效果",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40503010": {
+    "des": "永久免疫减怒效果",
+    "key1": "banLessAnger",
+    "value1": true
+  },
+  "40503011": {
+    "des": "生命值增加60%，释放技能后驱散目标1个增益效果",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "skill_dispel_enemy",
+    "value2": true
+  },
+  "40503025": {
+    "des": "释放技能后恢复1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "40504000": {
+    "des": "攻击力增加26%，生命值增加12%",
+    "key1": "self_atk_add",
+    "value1": 0.26,
+    "key2": "self_maxHP_add",
+    "value2": 0.12
+  },
+  "40504006": {
+    "des": "释放技能后，为我方全体添加护盾",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+  },
+  "40504009": {
+    "des": "释放技能时，触发目标身上所有感电效果",
+    "key1": "flash_settle",
+    "value1": true
+  },
+  "40504010": {
+    "des": "自身每有1个增益效果，造成的伤害增加10%",
+    "key1": "my_intensify_amp",
+    "value1": 0.1
+  },
+  "40504011": {
+    "des": "攻击力增加60%，行动后恢复自身2点怒气",
+    "key1": "self_atk_add",
+    "value1": 0.6,
+    "key2": "action_anger",
+    "value2": 2
+  },
+  "40504025": {
+    "des": "普通攻击附加1层感电效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40505000": {
+    "des": "生命值增加30%，命中增加10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3,
+    "key2": "hitRate",
+    "value2": 0.1
+  },
+  "40505006": {
+    "des": "自身每有1个增益效果，造成的伤害增加5%",
+    "key1": "my_intensify_amp",
+    "value1": 0.1
+  },
+  "40505009": {
+    "des": "释放技能时，对目标添加1层感电效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40505010": {
+    "des": "释放技能时，造成的额外伤害增加至最大生命值的20%",
+    "key1": "maxHP_damage",
+    "value1": 0.1
+  },
+  "40505011": {
+    "des": "每个存活的友方同阵营英雄为自身提高12%的伤害减免",
+    "key1": "realm_friend_amp",
+    "value1": 0.12
+  },
+  "40505025": {
+    "des": "普通攻击附加1层感电效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40506000": {
+    "des": "生命值增加28%，攻击力增加14%",
+    "key1": "self_maxHP_add",
+    "value1": 0.28,
+    "key2": "self_atk_add",
+    "value2": 0.14
+  },
+  "40506006": {
+    "des": "释放技能后为自身添加神力效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40506009": {
+    "des": "战斗第一回合获得超级无敌，免疫所有伤害和控制效果",
+    "key1": "first_buff1",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "40506010": {
+    "des": "释放技能后，恢复自身30%最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.3
+  },
+  "40506011": {
+    "des": "生命值增加60%,超级无敌效果结束时，有50%概率再次获得此效果，此后触发概率逐渐减半",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "invincibleSuper_again",
+    "value2": 0.5
+  },
+  "40506025": {
+    "des": "释放技能时，触发目标身上所有感电效果",
+    "key1": "flash_settle",
+    "value1": true
+  },
+  "40507000": {
+    "des": "生命值增加28%，抗暴增加14%",
+    "key1": "self_maxHP_add",
+    "value1": 0.28,
+    "key2": "critDef",
+    "value2": 0.14
+  },
+  "40507006": {
+    "des": "释放技能为我方除自身外生命值最少的英雄添加无敌盾，持续1回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "40507009": {
+    "des": "阵亡时，为我方全体添加坚毅力效果，每场战斗仅生效1次",
+    "key1": "died_once_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40507010": {
+    "des": "无敌盾的持续时间增加至2回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "40507011": {
+    "des": "无敌盾的目标额外恢复2点怒气，若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标30%最大生命值",
+    "key1": "invincibleAnger",
+    "value1": 2,
+    "key2": "invincibleHeal",
+    "value2": 0.3
+  },
+  "40507025": {
+    "des": "释放技能后恢复1点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
+  },
+  "40508000": {
+    "des": "攻击力增加24%，生命值增加18%",
+    "key1": "self_atk_add",
+    "value1": 0.24,
+    "key2": "self_maxHP_add",
+    "value2": 0.18
+  },
+  "40508006": {
+    "des": "释放技能后，净化目标所有减益效果",
+    "key1": "cleanDebuff",
+    "value1": true
+  },
+  "40508009": {
+    "des": "释放技能后，为目标添加坚毅效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40508010": {
+    "des": "释放技能每净化一个减益效果，增加1点怒气值",
+    "key1": "cleanDebuff_anger",
+    "value1": 1
+  },
+  "40508011": {
+    "des": "阵亡后复活全体已阵亡友军，恢复其20%最大生命值，每场战斗仅生效1次",
+    "key1": "died_rescue_team",
+    "value1": 0.2
+  },
+  "40508025": {
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
+  },
+  "40509000": {
+    "des": "生命值增加26%，攻击力增加13%",
+    "key1": "self_maxHP_add",
+    "value1": 0.26,
+    "key2": "self_atk_add",
+    "value2": 0.13
+  },
+  "40509006": {
+    "des": "每回合行动前，清除自身所有非控制类减益状态，每清除1个减益状态，恢复自身20%最大生命值",
+    "key1": "action_clean_debuff",
+    "value1": true,
+    "key2": "action_clean_hp",
+    "value2": 0.2
+  },
+  "40509009": {
+    "des": "普通攻击增加1层感电效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "40509010": {
+    "des": "释放技能时，每命中1个带有感电的目标，恢复自身1点怒气。技能将添加2层感电效果",
+    "key1": "skill_flash_anger",
+    "value1": 1,
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "40509011": {
+    "des": "每个存活的友方同阵营英雄为自身提高6%的伤害加成和6%的伤害减免效果",
+    "key1": "realm_friend_reduction",
+    "value1": 0.06,
+    "key2": "realm_friend_amp",
+    "value2": 0.06
+  },
+  "40509025": {
+    "des": "造成伤害的30%转化为护盾，持续1回合",
+    "key1": "damage_change_shield",
+    "value1": 0.3
+  },
+  "40510000": {
+    "des": "生命值增加40%",
+    "key1": "self_maxHP_add",
+    "value1": 0.4
+  },
+  "40510006": {
+    "des": "释放技能后，为自身添加铜墙铁壁（受到的物理伤害降低60%，持续1回合）",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1}"
+  },
+  "40510009": {
+    "des": "普通攻击有40%概率嘲讽敌人",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+  },
+  "40510010": {
+    "des": "释放技能时，嘲讽概率提升为40%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+  },
+  "40510011": {
+    "des": "生命值增加60%，每回合行动结束后，为我方全体增加坚毅效果",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "action_buff1",
+    "value2": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40510025": {
+    "des": "每回合行动结束后，为自身添加护盾",
+    "key1": "action_buff2",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+  },
   "50501000": {},
   "50501006": {},
   "50501009": {},
