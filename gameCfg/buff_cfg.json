@@ -67,12 +67,6 @@
     "refreshType": "roundOver",
     "intensify": true
   },
-  "crit": {
-    "name": "暴击加成",
-    "des": "暴击几率增加",
-    "refreshType": "after",
-    "intensify": true
-  },
   "reduction": {
     "name": "铜墙铁壁",
     "des": "受到的物理伤害降低60%，持续2回合",
@@ -274,6 +268,63 @@
   "god_shield": {
     "name": "坚毅",
     "des": "受到伤害减少15%，最大可叠加3层，持续3回合",
+    "refreshType": "after",
+    "intensify": true
+  },
+  "blood": {
+    "name": "嗜血",
+    "des": "攻击吸血增加20%,最大可叠加5层，持续3回合",
+    "refreshType": "after",
+    "intensify": true
+  },
+  "sneak": {
+    "name": "潜行",
+    "des": "潜行状态下不会被攻击，持续1回合",
+    "refreshType": "before"
+  },
+  "curse": {
+    "name": "诅咒",
+    "des": "在持续3回合后，造成添加者攻击力100%的法术伤害，最大可叠加5层",
+    "refreshType": "roundOver",
+    "lower": true,
+    "debuff": true
+  },
+  "weak": {
+    "name": "虚弱",
+    "des": "造成的伤害降低15%，最大可叠加3层，持续3回合",
+    "refreshType": "after",
+    "lower": true,
+    "debuff": true
+  },
+  "soul_steal": {
+    "name": "灵魂窃取",
+    "des": "无法获得治疗，所受的的治疗效果将转移至添加者，该效果无法被净化",
+    "refreshType": "roundOver"
+  },
+  "ghost": {
+    "name": "亡魂",
+    "des": "增加4点怒气值，净化自身负面状态，无法被攻击，无法被治疗，2回合后彻底死亡，无法复活",
+    "refreshType": "roundOver"
+  },
+  "moyin": {
+    "name": "魔印",
+    "des": "被施加的负面效果无法被净化，持续2回合",
+    "refreshType": "roundOver"
+  },
+  "jinhun": {
+    "name": "禁魂",
+    "des": "持续回合内不可复活，直到效果回合结束，无法被净化",
+    "refreshType": "roundOver"
+  },
+  "crit": {
+    "name": "暴击加成",
+    "des": "暴击率增加15%，持续3回合，最大可叠加3层",
+    "refreshType": "after",
+    "intensify": true
+  },
+  "slay": {
+    "name": "爆伤加成",
+    "des": "暴击伤害增加15%，持续3回合，最大可叠加3层",
     "refreshType": "after",
     "intensify": true
   }
