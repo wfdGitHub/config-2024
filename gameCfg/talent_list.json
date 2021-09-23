@@ -4312,175 +4312,351 @@
     "key1": "action_buff2",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
-  "50501000": {},
-  "50501006": {},
-  "50501009": {},
-  "50501010": {},
-  "50501011": {},
-  "50501025": {},
-  "50502000": {},
-  "50502006": {},
-  "50502009": {},
-  "50502010": {},
-  "50502011": {},
-  "50502025": {},
-  "50503000": {},
-  "50503006": {},
-  "50503009": {},
-  "50503010": {},
-  "50503011": {},
-  "50503025": {},
-  "50504000": {},
-  "50504006": {},
-  "50504009": {},
-  "50504010": {},
-  "50504011": {},
-  "50504025": {},
-  "50505000": {},
-  "50505006": {},
-  "50505009": {},
-  "50505010": {},
-  "50505011": {},
-  "50505025": {},
-  "50506000": {},
-  "50506006": {},
-  "50506009": {},
-  "50506010": {},
-  "50506011": {},
-  "50506025": {},
-  "50507000": {},
-  "50507006": {},
-  "50507009": {},
-  "50507010": {},
-  "50507011": {},
-  "50507025": {},
-  "50508000": {},
-  "50508006": {},
-  "50508009": {},
-  "50508010": {},
-  "50508011": {},
-  "50508025": {},
-  "50509000": {},
-  "50509006": {},
-  "50509009": {},
-  "50509010": {},
-  "50509011": {},
-  "50509025": {},
-  "50510000": {},
-  "50510006": {},
-  "50510009": {},
-  "50510010": {},
-  "50510011": {},
-  "50510025": {},
-  "skin_zhouyu_sp": {
-    "des": "法术伤害+10%",
-    "key1": "mag_add",
-    "value1": 0.1
-  },
-  "skin_zhaoyun_sp": {
-    "des": "闪避率+10%",
-    "key1": "dodgeRate",
-    "value1": 0.1
-  },
-  "skin_taishici_2": {
-    "des": "暴击率+10%",
-    "key1": "crit",
-    "value1": 0.1
-  },
-  "skin_caopi_2": {
-    "des": "暴击率+10%",
-    "key1": "crit",
-    "value1": 0.1
-  },
-  "skin_dianwei_2": {
-    "des": "生命值+10%",
+  "50501000": {
+    "des": "生命值+28%，攻击力增加16%",
     "key1": "self_maxHP_add",
-    "value1": 0.1
+    "value1": 0.28,
+    "key2": "self_atk_add",
+    "value2": 0.16
   },
-  "skin_dongbai2": {
-    "des": "命中率+10%",
-    "key1": "hitRate",
-    "value1": 0.1
+  "50501006": {
+    "des": "释放技能后，有50%的概率连击，再次释放该技能，每回合最多触发1次。",
+    "key1": "skill_combo",
+    "value1": 0.5
   },
-  "skin_guanyu_2": {
-    "des": "暴击伤害+10%",
-    "key1": "slay",
-    "value1": 0.1
+  "50501009": {
+    "des": "首次阵亡时，将进入亡魂状态，增加4点怒气值，亡魂状态下无法被攻击，无法被治疗，2回合后将彻底死亡，无法被复活",
+    "key1": "died_buff1",
+    "value1": "{\"buffId\":\"ghost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "skin_jiaxu_2": {
-    "des": "攻击力+10%",
+  "50501010": {
+    "des": "进入亡魂状态时，增加自身50%伤害",
+    "key1": "died_buff2",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
+  },
+  "50501011": {
+    "des": "释放技能时连击概率提升至100%,攻击力增加30%",
     "key1": "self_atk_add",
-    "value1": 0.1
+    "value1": 0.3,
+    "key2": "skill_combo",
+    "value2": 0.5
   },
-  "skin_lvbu_2": {
-    "des": "暴击伤害+10%",
-    "key1": "slay",
-    "value1": 0.1
+  "50501025": {
+    "des": "普通攻击为自身附加嗜血效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "skin_pangde_2": {
-    "des": "反伤+10%",
-    "key1": "hit_rebound",
-    "value1": 0.1
-  },
-  "skin_sunce_2": {
-    "des": "暴击伤害+10%",
-    "key1": "slay",
-    "value1": 0.1
-  },
-  "skin_xiahouchun_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
-  },
-  "skin_xuchu_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
-  },
-  "skin_zhangfei_2": {
-    "des": "攻击力+10%",
+  "50502000": {
+    "des": "攻击力增加24%，暴击增加18%",
     "key1": "self_atk_add",
-    "value1": 0.1
+    "value1": 0.24,
+    "key2": "crit",
+    "value2": 0.18
   },
-  "skin_zhugeliang_2": {
-    "des": "法术伤害+10%",
-    "key1": "mag_add",
-    "value1": 0.1
+  "50502006": {
+    "des": "释放技能时，立即结算诅咒伤害，且结算后再为目标添加1层诅咒",
+    "key1": "curse_settle",
+    "value1": true,
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "skin_zuoci_2": {
-    "des": "闪避率+10%",
-    "key1": "dodgeRate",
-    "value1": 0.1
+  "50502009": {
+    "des": "释放技能时，对目标添加禁魂效果，3回合内不可复活，直到效果回合结束，无法被净化",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "skin_huangyueying_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
+  "50502010": {
+    "des": "击杀目标后，对敌方全体添加虚弱效果",
+    "key1": "kill_buff1",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "skin_zhengji_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
-  },
-  "skin_yuji_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
-  },
-  "skin_sunjian_2": {
-    "des": "生命值+10%",
-    "key1": "self_maxHP_add",
-    "value1": 0.1
-  },
-  "skin_gongsunzan_2": {
-    "des": "攻击力+10%",
+  "50502011": {
+    "des": "攻击力增加40%，进行攻击时，目标身上每有1个负面效果，伤害增加10%",
     "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "enemy_debuff_amp",
+    "value2": 0.1
+  },
+  "50502025": {
+    "des": "普通攻击附加破甲效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50503000": {
+    "des": "抗暴增加24%，生命值增加16%",
+    "key1": "critDef",
+    "value1": 0.24,
+    "key2": "self_maxHP_add",
+    "value2": 0.16
+  },
+  "50503006": {
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
+  },
+  "50503009": {
+    "des": "每回合行动前，清除所有自身非控制类负面状态",
+    "key1": "action_clean_debuff",
+    "value1": true
+  },
+  "50503010": {
+    "des": "释放技能时，额外为目标添加诅咒效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50503011": {
+    "des": "生命值增加40%，释放技能使敌人眩晕时，同阵营英雄对眩晕目标造成伤害增加30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "realm_dizzy_amp",
+    "value2": 0.3
+  },
+  "50503025": {
+    "des": "普通攻击附加诅咒效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50504000": {
+    "des": "生命值增加26%,攻击力增加13%",
+    "key1": "self_maxHP_add",
+    "value1": 0.26,
+    "key2": "self_atk_add",
+    "value2": 0.13
+  },
+  "50504006": {
+    "des": "每受到一次伤害，自身伤害增加3%，持续到战斗结束，该效果不可驱散",
+    "key1": "behit_amplify",
+    "value1": 0.03
+  },
+  "50504009": {
+    "des": "敌方每有1个阵亡单位，自身伤害增加12%",
+    "key1": "enemy_died_amp",
+    "value1": 0.12
+  },
+  "50504010": {
+    "des": "每受到1次普通攻击，恢复自身1点怒气",
+    "key1": "hit_anger_s",
+    "value1": 1
+  },
+  "50504011": {
+    "des": "生命值增加60%，技能嘲讽概率增加到70%",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
+  },
+  "50504025": {
+    "des": "所有攻击附加诅咒效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50505000": {
+    "des": "生命值增加18%，攻击力增加26%",
+    "key1": "self_maxHP_add",
+    "value1": 0.18,
+    "key2": "self_atk_add",
+    "value2": 0.26
+  },
+  "50505006": {
+    "des": "目标身上每有1个负面效果，伤害增加8%",
+    "key1": "enemy_debuff_amp",
+    "value1": 0.08
+  },
+  "50505009": {
+    "des": "行动后为自身添加嗜血效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50505010": {
+    "des": "死亡时释放1怒气次技能",
+    "key1": "died_use_skill",
+    "value1": true
+  },
+  "50505011": {
+    "des": "攻击力增加40%,战斗首回合，为我方同阵营英雄添加嗜血效果，持续3回合",
+    "key1": "self_atk_add",
+    "value1": 0.4,
+    "key2": "first_buff1",
+    "value2": "{\"buffId\":\"blood\",\"buff_tg\":\"team_realm\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50505025": {
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
+  },
+  "50506000": {
+    "des": "生命值提升24%，攻击力增加16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.16
+  },
+  "50506006": {
+    "des": "永久免疫控制效果",
+    "key1": "always_immune",
+    "value1": true
+  },
+  "50506009": {
+    "des": "技能额外造成目标最大生命值10%的伤害",
+    "key1": "maxHP_damage",
     "value1": 0.1
   },
-  "skin_jiangwei2": {
-    "des": "法术伤害+10%",
-    "key1": "mag_add",
-    "value1": 0.1
+  "50506010": {
+    "des": "击杀目标后为我方全体添加暴击提升与爆伤提升效果",
+    "key1": "kill_buff1",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "kill_buff2",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50506011": {
+    "des": "生命值增加40%,释放技能时，使目标重伤，持续1回合",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50506025": {
+    "des": "普通攻击附加诅咒效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50507000": {
+    "des": "生命值提升24%，攻击力增加16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.16
+  },
+  "50507006": {
+    "des": "释放技能时，对目标添加魔印效果（被施加的负面效果无法被净化，持续2回合）",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50507009": {
+    "des": "灵魂窃取的回合数增加至2回合",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50507010": {
+    "des": "添加灵魂窃取的目标受到的回怒效果转移至自身",
+    "key1": "soul_steal_anger",
+    "value1": true
+  },
+  "50507011": {
+    "des": "生命值增加40%，每个存活的同阵营友方英雄提高自身6%的伤害减免",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "realm_friend_reduction",
+    "value2": 0.06
+  },
+  "50507025": {
+    "des": "普通攻击附加虚弱效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50508000": {
+    "des": "生命值增加20%，治疗暴击增加20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "crit",
+    "value2": 0.2
+  },
+  "50508006": {
+    "des": "普通治疗附加嗜血效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50508009": {
+    "des": "阵亡时，对敌方全体添加重伤效果",
+    "key1": "died_buff1",
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50508010": {
+    "des": "释放技能时，为我方全体添加嗜血效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50508011": {
+    "des": "每回合行动结束后，恢复我方全体攻击力48%的生命值",
+    "key1": "round_heal_type",
+    "value1": "team_all",
+    "key2": "round_heal_value",
+    "value2": 0.48
+  },
+  "50508025": {
+    "des": "每回合行动前解除自身一个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
+  },
+  "50509000": {
+    "des": "生命值增加24%，闪避率增加16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "dodgeRate",
+    "value2": 0.16
+  },
+  "50509006": {
+    "des": "释放技能附加诅咒效果",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50509009": {
+    "des": "释放技能附加破甲效果",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50509010": {
+    "des": "释放技能附加重伤效果",
+    "key1": "skill_buff3",
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50509011": {
+    "des": "阵亡时，对敌方全体添加魔印和重伤效果,持续2回合",
+    "key1": "died_buff1",
+    "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "died_buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50509025": {
+    "des": "普通攻击附加虚弱效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50510000": {
+    "des": "生命值增加18%，攻击力增加26%",
+    "key1": "self_maxHP_add",
+    "value1": 0.18,
+    "key2": "self_atk_add",
+    "value2": 0.26
+  },
+  "50510006": {
+    "des": "释放技能有60%概率使目标沉默1回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+  },
+  "50510009": {
+    "des": "阵亡时，对敌方全体添加禁魂效果，持续3回合",
+    "key1": "died_buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50510010": {
+    "des": "释放技能时，沉默概率提升至100%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50510011": {
+    "des": "永久免疫控制效果。阵亡时，对敌方全体虚弱效果，持续3回合",
+    "key1": "died_buff2",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "always_immune",
+    "value2": true
+  },
+  "50510025": {
+    "des": "普通攻击附加破甲效果",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "title_7010": {
     "des": "攻击10%，生命10%",
