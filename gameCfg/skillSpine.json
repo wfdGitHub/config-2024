@@ -3,6 +3,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/101010_atk/101010",
     "st": 0,
@@ -21,6 +22,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/102010_atk/102010",
     "st": 0,
@@ -39,11 +41,12 @@
     "name": "attack",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "tra": "skills/103010_dd/dd",
     "skill": "skills/103010_atk/103010",
     "st": 0,
-    "ht": "[0]"
+    "ht": "[30]"
   },
   "103010_skill": {
     "name": "skill",
@@ -58,6 +61,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/103020_atk/103020",
     "st": 0,
@@ -85,7 +89,7 @@
   "104010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/104010_skill/104010",
     "st": 0,
@@ -104,11 +108,11 @@
   "104020_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/104020_skill/104020",
     "st": 0,
-    "ht": "[230,800,1070,1570,1730]"
+    "ht": "[230]"
   },
   "104030_atk": {
     "name": "attack",
@@ -121,12 +125,12 @@
   },
   "104030_skill": {
     "name": "skill",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/104030_skill/104030",
     "st": 0,
-    "ht": "[60]"
+    "ht": "[700]"
   },
   "104040_atk": {
     "name": "attack",
@@ -155,12 +159,12 @@
     "tra": "skills/105010_dd/dd",
     "skill": "skills/105010_atk/105010",
     "st": 0,
-    "ht": "[770]"
+    "ht": "[30]"
   },
   "105010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105010_skill/105010",
     "st": 0,
@@ -177,7 +181,7 @@
   },
   "105020_skill": {
     "name": "skill",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105020_skill/105020",
@@ -197,10 +201,10 @@
     "name": "skill",
     "situ": true,
     "repetition": true,
-    "res": "skills/shifa/skill_xuli",
+    "res": "skills/105030_shifa/skill_xuli",
     "skill": "skills/105030_skill/105030",
     "st": 0,
-    "ht": "[570,1300,2700]"
+    "ht": "[3230,3600,3970,4550,4750]"
   },
   "105040_atk": {
     "name": "attack",
@@ -215,6 +219,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105040_skill/105040",
     "st": 0,
@@ -250,7 +255,8 @@
   "105060_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105060_skill/105060",
     "st": 0,
@@ -269,7 +275,7 @@
   "105070_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105070_skill/105070",
     "st": 0,
@@ -287,7 +293,8 @@
   "105080_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105080_skill/105080",
     "st": 0,
@@ -305,7 +312,8 @@
   "105090_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105090_skill/105090",
     "st": 0,
@@ -323,7 +331,7 @@
   "105100_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105100_skill/105100",
     "st": 0,
@@ -355,7 +363,7 @@
     "tra": "skills/105120_dd/dd",
     "skill": "skills/105120_atk/105120",
     "st": 0,
-    "ht": "[770]"
+    "ht": "[30]"
   },
   "105120_skill": {
     "name": "skill",
@@ -388,6 +396,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105140_atk/105140",
     "st": 0,
@@ -397,15 +406,17 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/105140_skill/105140",
     "st": 0,
-    "ht": "[30,400,870]"
+    "ht": "[70]"
   },
   "201010_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/201010_atk/201010",
     "st": 0,
@@ -424,6 +435,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/201010_atk/201010",
     "st": 0,
@@ -446,7 +458,7 @@
     "tra": "skills/203010_dd/dd",
     "skill": "skills/203010_atk/203010",
     "st": 0,
-    "ht": "[0]"
+    "ht": "[30]"
   },
   "203010_skill": {
     "name": "skill",
@@ -461,6 +473,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/201010_atk/201010",
     "st": 0,
@@ -469,7 +482,8 @@
   "203020_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/201010_skill/201010",
     "st": 0,
@@ -479,6 +493,7 @@
     "name": "attack",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "tra": "skills/204010_dd/dd",
     "skill": "skills/204010_atk/204010",
@@ -506,7 +521,8 @@
   "204020_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/204020_skill/204020",
     "st": 0,
@@ -526,6 +542,7 @@
     "name": "skill",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/204030_skill/204030",
     "st": 0,
@@ -535,6 +552,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/204040_atk/204040",
     "st": 0,
@@ -544,6 +562,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/204040_skill/204040",
     "st": 0,
@@ -552,7 +571,8 @@
   "205010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205010_atk/205010",
     "st": 0,
@@ -561,7 +581,8 @@
   "205010_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205010_skill/205010",
     "st": 0,
@@ -572,7 +593,6 @@
     "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
-    "tra": "skills/205020_dd/dd",
     "skill": "skills/205020_atk/205020",
     "st": 0,
     "ht": "[500,700,900,1000]"
@@ -608,6 +628,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205040_atk/205040",
     "st": 0,
@@ -620,14 +641,13 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205040_skill/205040",
     "st": 0,
-    "ht": "[30,330,970]"
+    "ht": "[70]"
   },
   "205050_atk": {
     "name": "attack",
     "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
-    "tra": "skills/205050_dd/dd",
     "skill": "skills/205050_atk/205050",
     "st": 0,
     "ht": "[0]"
@@ -663,6 +683,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205070_atk/205070",
     "st": 0,
@@ -670,13 +691,13 @@
   },
   "205070_skill": {
     "name": "skill",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "tra": "skills/205070_dd/dd",
     "skill": "skills/205070_skill/205070",
-    "st": 0,
-    "ht": "[100]"
+    "st": "[70]",
+    "ht": "[200]"
   },
   "205080_atk": {
     "name": "attack",
@@ -691,6 +712,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205080_skill/205080",
     "st": 0,
@@ -709,6 +731,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205090_skill/205090",
     "st": 0,
@@ -728,6 +751,7 @@
     "name": "skill",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205100_skill/205100",
     "st": 0,
@@ -737,6 +761,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205110_atk/205110",
     "st": 0,
@@ -746,6 +771,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205110_skill/205110",
     "st": 0,
@@ -764,7 +790,7 @@
   "205120_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205120_skill/205120",
     "st": 0,
@@ -787,7 +813,7 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205130_skill/205130",
     "st": 0,
-    "ht": "[30]"
+    "ht": "[70]"
   },
   "205140_atk": {
     "name": "attack",
@@ -802,16 +828,18 @@
   "205140_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/205140_skill/205140",
     "st": 0,
-    "ht": "[500,700,900,1000]"
+    "ht": "[500]"
   },
   "301010_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/301010_atk/301010",
     "st": 0,
@@ -830,6 +858,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/301010_atk/301010",
     "st": 0,
@@ -849,7 +878,8 @@
     "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
-    "skill": "skills/103010_atk/103010",
+    "tra": "skills/303010_dd/dd",
+    "skill": "skills/303010_atk/303010",
     "st": 0,
     "ht": "[0]"
   },
@@ -858,7 +888,7 @@
     "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
-    "skill": "skills/103010_skill/103010",
+    "skill": "skills/303010_skill/303010",
     "st": 0,
     "ht": "[30]"
   },
@@ -866,6 +896,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/301010_atk/301010",
     "st": 0,
@@ -893,6 +924,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/304010_skill/304010",
     "st": 0,
@@ -911,6 +943,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/304020_skill/304020",
     "st": 0,
@@ -921,7 +954,6 @@
     "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
-    "tra": "skills/304030_dd/dd",
     "skill": "skills/304030_atk/304030",
     "st": 0,
     "ht": "[300]"
@@ -946,7 +978,7 @@
   },
   "304040_skill": {
     "name": "skill",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/304040_skill/304040",
@@ -969,7 +1001,7 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305010_skill/305010",
     "st": 0,
-    "ht": "100,200,370,500,700,]"
+    "ht": "[100,200,370,500,700]"
   },
   "305020_atk": {
     "name": "attack",
@@ -984,11 +1016,11 @@
   "305020_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305020_skill/305020",
     "st": 0,
-    "ht": "[30]"
+    "ht": "[300,500,700,1000,1200,1500,1700,1900,2100,2300]"
   },
   "305030_atk": {
     "name": "attack",
@@ -1021,6 +1053,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305040_skill/305040",
     "st": 0,
@@ -1043,7 +1076,7 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305050_skill/305050",
     "st": 0,
-    "ht": "[30]"
+    "ht": "[1300]"
   },
   "305060_atk": {
     "name": "attack",
@@ -1057,11 +1090,11 @@
   "305060_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305060_skill/305060",
     "st": 0,
-    "ht": "[130,330,500,800]"
+    "ht": "[130]"
   },
   "305070_atk": {
     "name": "attack",
@@ -1084,7 +1117,7 @@
   },
   "305080_atk": {
     "name": "attack",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305080_atk/305080",
@@ -1093,8 +1126,8 @@
   },
   "305080_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305080_skill/305080",
     "st": 0,
@@ -1113,6 +1146,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305090_skill/305090",
     "st": 0,
@@ -1153,7 +1187,7 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305110_skill/305110",
     "st": 0,
-    "ht": "[60]"
+    "ht": "[500,700,900,1000]"
   },
   "305120_atk": {
     "name": "attack",
@@ -1168,6 +1202,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305120_skill/305120",
     "st": 0,
@@ -1190,11 +1225,11 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305130_skill/305130",
     "st": 0,
-    "ht": "[30]"
+    "ht": "[700]"
   },
   "305140_atk": {
     "name": "attack",
-    "situ": false,
+    "situ": true,
     "repetition": true,
     "res": "skills/shifa/skill_xuli",
     "tra": "skills/305140_dd/dd",
@@ -1205,7 +1240,8 @@
   "305140_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/305140_skill/305140",
     "st": 0,
@@ -1215,6 +1251,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/401010_atk/401010",
     "st": 0,
@@ -1233,6 +1270,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/401010_atk/401010",
     "st": 0,
@@ -1251,10 +1289,11 @@
     "name": "attack",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/403010_atk/403010",
     "st": 0,
-    "ht": "[0]"
+    "ht": "[30]"
   },
   "403010_skill": {
     "name": "skill",
@@ -1269,6 +1308,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/401010_atk/401010",
     "st": 0,
@@ -1287,6 +1327,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/404010_atk/404010",
     "st": 0,
@@ -1305,6 +1346,7 @@
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/404020_atk/404020",
     "st": 0,
@@ -1335,7 +1377,7 @@
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/404030_skill/404030",
     "st": 0,
-    "ht": "[400,700,1000,]"
+    "ht": "[170,330,530]"
   },
   "404040_atk": {
     "name": "attack",
@@ -1367,20 +1409,21 @@
   "405010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405010_skill/405010",
     "st": 0,
-    "ht": "[30,230,430,600,800,1000,1200,]"
+    "ht": "[30,230,430,600,800,1000,1200]"
   },
   "405020_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405020_atk/405020",
     "st": 0,
-    "ht": "[30]"
+    "ht": "[30,50,70]"
   },
   "405020_skill": {
     "name": "skill",
@@ -1422,6 +1465,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405040_skill/405040",
     "st": 0,
@@ -1459,6 +1503,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405060_skill/405060",
     "st": 0,
@@ -1477,7 +1522,7 @@
   "405070_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "repetition": false,
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405070_skill/405070",
     "st": 0,
@@ -1487,6 +1532,7 @@
     "name": "attack",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "tra": "skills/405080_dd/dd",
     "skill": "skills/405080_atk/405080",
@@ -1514,7 +1560,8 @@
   "405090_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
+    "repetition": false,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405090_skill/405090",
     "st": 0,
@@ -1561,6 +1608,7 @@
     "name": "attack",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405120_atk/405120",
     "st": 0,
@@ -1606,6 +1654,7 @@
     "name": "skill",
     "situ": false,
     "repetition": true,
+    "turn": "turn",
     "res": "skills/shifa/skill_xuli",
     "skill": "skills/405140_skill/405140",
     "st": 0,
