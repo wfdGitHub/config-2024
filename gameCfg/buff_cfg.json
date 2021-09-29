@@ -89,7 +89,7 @@
     "refreshType": "roundOver"
   },
   "invincibleSuper": {
-    "name": "超级无敌盾）",
+    "name": "超级无敌盾",
     "des": "免疫所有受到的伤害和控制效果",
     "refreshType": "roundOver"
   },
@@ -166,7 +166,6 @@
     "name": "冰冻",
     "des": "无法行动,持续2回合，被攻击3次后解除冰冻。",
     "refreshType": "after",
-    "control": true,
     "debuff": true
   },
   "cold_shield": {
@@ -299,7 +298,8 @@
   "soul_steal": {
     "name": "灵魂窃取",
     "des": "无法获得治疗，所受的的治疗效果将转移至添加者，该效果无法被净化",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "debuff": true
   },
   "ghost": {
     "name": "亡魂",
@@ -309,12 +309,14 @@
   "moyin": {
     "name": "魔印",
     "des": "被施加的负面效果无法被净化，持续2回合",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "debuff": true
   },
   "jinhun": {
     "name": "禁魂",
     "des": "持续回合内不可复活，直到效果回合结束，无法被净化",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "debuff": true
   },
   "crit": {
     "name": "暴击加成",

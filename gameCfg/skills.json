@@ -144,7 +144,7 @@
   "1050502": {
     "name": 1050502,
     "type": "attack",
-    "des": "对敌方单体造成320%攻击力的物理伤害，若目标已被冰冻，则击破冰冻效果，并造成双倍伤害",
+    "des": "对敌方单体造成320%攻击力的物理伤害，若目标已被冰冻，则造成破冰一击（击破冰冻效果，并造成双倍伤害）",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.8,
@@ -494,42 +494,68 @@
   "3010101": {
     "name": 3010101,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成60%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 0.6
   },
   "3010102": {
     "name": 3010102,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成160%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.6
   },
   "3020101": {
     "name": 3020101,
     "type": "attack",
-    "damageType": "mag"
+    "des": "对敌方单体造成80%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 0.8
   },
   "3020102": {
     "name": 3020102,
     "type": "attack",
-    "damageType": "mag"
+    "des": "对敌方单体造成220%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.2
   },
   "3030101": {
     "name": 3030101,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "3030102": {
     "name": 3030102,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成260%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.6
   },
   "3040101": {
     "name": 3040101,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "3040102": {
     "name": 3040102,
     "type": "attack",
-    "damageType": "phy"
+    "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050101": {
     "name": 3050101,
@@ -547,7 +573,7 @@
     "targetType": "enemy_3",
     "mul": 1.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050201": {
     "name": 3050201,
@@ -601,7 +627,7 @@
     "targetType": "enemy_normal",
     "mul": 2.6,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050501": {
     "name": 3050501,
@@ -887,12 +913,16 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.2}"
   },
   "5050101": {
+    "name": 5050101,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050102": {
+    "name": 5050102,
+    "type": "attack",
     "des": "对敌方单体造成320%的物理伤害,获得1层嗜血效果。",
     "damageType": "phy",
     "targetType": "enemy_normal",
@@ -901,12 +931,16 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050201": {
+    "name": 5050201,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050202": {
+    "name": 5050202,
+    "type": "attack",
     "des": "对敌方单体造成360%的物理伤害,击杀目标后，进入潜行状态",
     "damageType": "phy",
     "targetType": "enemy_normal",
@@ -915,12 +949,16 @@
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "5050301": {
+    "name": 5050301,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050302": {
+    "name": 5050302,
+    "type": "attack",
     "des": "对敌方全体造成92%的法术伤害，并有24%的概率为目标添加眩晕效果",
     "damageType": "mag",
     "targetType": "enemy_all",
@@ -929,12 +967,16 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.24}"
   },
   "5050401": {
+    "name": 5050401,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050402": {
+    "name": 5050402,
+    "type": "attack",
     "des": "对敌方前排造成130%攻击力的物理伤害，有35%概率嘲讽目标",
     "damageType": "phy",
     "targetType": "enemy_horizontal_front",
@@ -943,12 +985,16 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "5050501": {
+    "name": 5050501,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050502": {
+    "name": 5050502,
+    "type": "attack",
     "des": "对敌方随机2-4个目标造成攻击力108%的法术伤害，同时分别有40%的概率为敌方添加诅咒、破甲、虚弱",
     "damageType": "mag",
     "targetType": "enemy_rand_24",
@@ -961,12 +1007,16 @@
     "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.4}"
   },
   "5050601": {
+    "name": 5050601,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050602": {
+    "name": 5050602,
+    "type": "attack",
     "des": "对敌方纵排造成240%攻击力的物理伤害，随后为自身添加暴击提升与爆伤提升效果",
     "damageType": "phy",
     "targetType": "enemy_vertical",
@@ -977,12 +1027,16 @@
     "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050701": {
+    "name": 5050701,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050702": {
+    "name": 5050702,
+    "type": "attack",
     "des": "对敌方生命值最少的单位造成300%攻击力的法术伤害，并添加灵魂窃取效果，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_minHP",
@@ -991,11 +1045,15 @@
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "5050801": {
+    "name": 5050801,
+    "type": "heal",
     "des": "为己方生命最少单位治疗100%攻击的生命值",
     "targetType": "team_minHp_1",
     "mul": 1
   },
   "5050802": {
+    "name": 5050802,
+    "type": "heal",
     "des": "若我方有单位阵亡，将其转化为亡魂，若我方无阵亡单位，则为我方全体恢复攻击力90%的生命值",
     "targetType": "team_all",
     "mul": 0.9,
@@ -1003,12 +1061,16 @@
     "value1": true
   },
   "5050901": {
+    "name": 5050901,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5050902": {
+    "name": 5050902,
+    "type": "attack",
     "des": "对敌方单体造成275%的物理伤害，并添加魔印效果，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
@@ -1017,12 +1079,16 @@
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "5051001": {
+    "name": 5051001,
+    "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1
   },
   "5051002": {
+    "name": 5051002,
+    "type": "attack",
     "des": "对敌方单体造成275%的物理伤害。并添加禁魂效果，持续3回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
