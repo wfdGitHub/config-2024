@@ -749,225 +749,305 @@
     "key1": "kill_heal",
     "value1": 0.3
   },
-  "9030010": {
+  "9301": {
     "des": "暴击+3%",
     "key1": "crit",
     "value1": 0.03
   },
-  "9030020": {
+  "9302": {
     "des": "抗暴+3%",
     "key1": "critDef",
     "value1": 0.03
   },
-  "9030030": {
+  "9303": {
     "des": "命中+3%",
     "key1": "hitRate",
     "value1": 0.03
   },
-  "9030040": {
+  "9304": {
     "des": "闪避+3%",
     "key1": "dodgeRate",
     "value1": 0.03
   },
-  "9030050": {
+  "9305": {
     "des": "攻击力+3%",
     "key1": "self_atk_add",
     "value1": 0.03
   },
-  "9030060": {
+  "9306": {
     "des": "生命值+3%",
     "key1": "self_maxHP_add",
     "value1": 0.03
   },
-  "9030070": {
+  "9307": {
     "des": "物理防御+3%",
     "key1": "self_phyDef_add",
     "value1": 0.03
   },
-  "9030080": {
+  "9308": {
     "des": "法术防御+3%",
     "key1": "self_magDef_add",
     "value1": 0.03
   },
-  "9030090": {
+  "9309": {
     "des": "攻击+300（英雄100级后每升1级攻击额外+9）",
     "key1": "atk",
     "value1": 300,
     "key2": "atk_grow",
     "value2": 9
   },
-  "9030100": {
+  "9310": {
     "des": "生命+2000（英雄100级后每升1级生命额外+60）",
     "key1": "maxHP",
     "value1": 2000,
     "key2": "maxHP_grow",
     "value2": 60
   },
-  "9030110": {
+  "9311": {
     "des": "物理防御+200（英雄100级后每升1级额外+6）",
     "key1": "phyDef",
     "value1": 200,
     "key2": "phyDef_grow",
     "value2": 6
   },
-  "9030120": {
+  "9312": {
     "des": "法术防御+200（英雄100级后每升1级额外+6）",
     "key1": "magDef",
     "value1": 200,
     "key2": "magDef_grow",
     "value2": 6
   },
-  "9040010": {
+  "9401": {
     "des": "初始怒气增加1点",
     "key1": "curAnger",
     "value1": 1
   },
-  "9040020": {
+  "9402": {
     "des": "技能的治疗效果提升10%",
     "key1": "skill_heal_amp",
     "value1": 0.1
   },
-  "9040030": {
+  "9403": {
     "des": "英雄位于后排时，忽视防御+8%",
     "key1": "back_neglect_def",
     "value1": 0.08
   },
-  "9040040": {
+  "9404": {
     "des": "英雄位于后排时，暴击率+8%",
     "key1": "back_crit",
     "value1": 0.08
   },
-  "9040050": {
+  "9405": {
     "des": "英雄位于前排时，生命值+8%",
     "key1": "front_maxHP",
     "value1": 0.08
   },
-  "9040060": {
+  "9406": {
     "des": "英雄位于前排时，抗暴+8%",
     "key1": "front_critDef",
     "value1": 0.08
   },
-  "9040070": {
+  "9407": {
     "des": "英雄位于前排时，免伤+8%，英雄位于后排时，伤害+8%",
     "key1": "front_reduction",
     "value1": 0.08,
     "key2": "back_amp",
     "value2": 0.08
   },
-  "9040080": {
+  "9408": {
     "des": "英雄位于前排时，闪避+8%，英雄位于后排时，命中+8%",
     "key1": "front_dodgeRate",
     "value1": 0.08,
     "key2": "back_hitRate",
     "value2": 0.08
   },
-  "9040090": {
+  "9409": {
     "des": "伤害+5%",
     "key1": "amplify",
     "value1": 0.05
   },
-  "9040100": {
+  "9410": {
     "des": "忽视防御+5%",
     "key1": "neglect_def",
     "value1": 0.05
   },
-  "9040110": {
+  "9411": {
     "des": "暴击伤害+5%",
     "key1": "slay",
     "value1": 0.05
   },
-  "9040120": {
+  "9412": {
     "des": "伤害减免+5%",
     "key1": "reduction",
     "value1": 0.05
   },
-  "9050010": {
+  "9501": {
     "des": "技能命中的目标越少，沉默概率越高，每少一个目标，沉默概率提升5%",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
-  "9050020": {
+  "9502": {
     "des": "技能命中的目标越少，眩晕概率越高，每少一个目标，眩晕概率提升5%",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
-  "9050030": {
+  "9503": {
     "des": "释放技能时，有10%概率附加麻痹效果，持续1回合",
     "key1": "skill_buff_ace",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
-  "9050040": {
+  "9504": {
     "des": "技能命中的目标越少，嘲讽概率越高，每少一个目标，嘲讽概率提升5%",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
-  "9050050": {
+  "9505": {
     "des": "中毒状态增加1回合",
     "key1": "buffDuration",
     "value1": 1
   },
-  "9050060": {
+  "9506": {
     "des": "治疗英雄释放技能时，对己方血量最少的3个英雄治疗效果额外提升治疗英雄攻击的32%",
     "key1": "heal_min_hp_rate",
     "value1": 0.32
   },
-  "9050070": {
+  "9507": {
     "des": "释放水龙冲击时，添加1回合重伤效果",
     "key1": "slcj_zs",
     "value1": true
   },
-  "9050080": {
+  "9508": {
     "des": "释放破冰一击时，驱散目标所有增益效果",
     "key1": "pbyj_qs",
     "value1": true
   },
-  "9050090": {
+  "9509": {
     "des": "攻击时70%概率清除敌方无敌状态",
     "key1": "less_clear_invincible",
     "value1": 0.7
   },
-  "9050100": {
+  "9510": {
     "des": "受到的治疗效果增加30%",
     "key1": "healAdd",
     "value1": 0.3
   },
-  "9050110": {
+  "9511": {
     "des": "反伤增加20%",
     "key1": "hit_rebound",
     "value1": 0.2
   },
-  "9050120": {
+  "9512": {
     "des": "添加灼烧后，被灼烧的英雄无法获得无敌和无敌吸血盾效果",
     "key1": "burn_not_invincible",
     "value1": true
   },
-  "9050130": {
+  "9513": {
     "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
     "key1": "atk",
     "value1": 900,
     "key2": "atk_grow",
     "value2": 27
   },
-  "9050140": {
+  "9514": {
     "des": "生命+6000(英雄100级后每升1级生命额外+180)",
     "key1": "maxHP",
     "value1": 6000,
     "key2": "maxHP_grow",
     "value2": 180
   },
-  "9050150": {
+  "9515": {
     "des": "物理防御+600（英雄100级后每升1级额外+18）",
     "key1": "phyDef",
     "value1": 600,
     "key2": "phyDef_grow",
     "value2": 18
   },
-  "9050160": {
+  "9516": {
     "des": "法术防御+600（英雄100级后每升1级额外+18）",
     "key1": "magDef",
     "value1": 600,
     "key2": "magDef_grow",
     "value2": 18
+  },
+  "9601": {
+    "des": "初始怒气增加2点",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "9602": {
+    "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加20%",
+    "key1": "needAnger",
+    "value1": 7
+  },
+  "9603": {
+    "des": "治疗时超出目标生命上限的溢出部分将转化为伤害吸收盾，持续1回合",
+    "key1": "over_heal_shield",
+    "value1": 1
+  },
+  "9604": {
+    "des": "使用技能攻击时，若目标处于冰冻状态，恢复自身1点怒气",
+    "key1": "skill_frozen_anger",
+    "value1": 1
+  },
+  "9605": {
+    "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气",
+    "key1": "kill_rob_anger",
+    "value1": true
+  },
+  "9606": {
+    "des": "直接伤害击杀目标后，回复自身生命上限的30%的生命",
+    "key1": "kill_heal",
+    "value1": 0.3
+  },
+  "9607": {
+    "des": "战斗首回合获得1层疾速效果，持续3回合",
+    "key1": "first_ace_buff1",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "9608": {
+    "des": "使用技能攻击时，降低破甲状态下的目标一点怒气值",
+    "key1": "pj_less_anger",
+    "value1": 1
+  },
+  "9609": {
+    "des": "战斗首回合获得免控盾，免疫控制效果",
+    "key1": "first_ace_buff1",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "9610": {
+    "des": "战斗首回合获得护盾，吸收生命值上限15%的伤害，持续1回合",
+    "key1": "first_ace_buff2",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+  },
+  "9611": {
+    "des": "诅咒伤害增加50%",
+    "key1": "curse_amp",
+    "value1": 0.5
+  },
+  "9612": {
+    "des": "战斗首回合获得1层嗜血效果，持续3回合",
+    "key1": "first_ace_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "9613": {
+    "des": "受到控制效果（麻痹、沉默、眩晕、嘲讽）概率降低35%",
+    "key1": "control_buff_lowrate",
+    "value1": 0.35
+  },
+  "9614": {
+    "des": "所有攻击优先攻击敌方当前血量最低的英雄",
+    "key1": "target_minHP",
+    "value1": true
+  },
+  "9615": {
+    "des": "攻击触发感电效果时，有15%概率麻痹目标，持续1回合",
+    "key1": "gd_mb",
+    "value1": 0.15
+  },
+  "9616": {
+    "des": "攻击虚弱状态下的英雄时，有30%概率添加重伤，持续1回合",
+    "key1": "xr_zs",
+    "value1": 0.3
   },
   "9050180": {
     "des": "携带英雄位于后排时，命中+10%，破甲+10%",
@@ -994,86 +1074,6 @@
     "value1": 0.1,
     "key2": "back_atk",
     "value2": 0.1
-  },
-  "9060010": {
-    "des": "初始怒气增加2点",
-    "key1": "curAnger",
-    "value1": 2
-  },
-  "9060020": {
-    "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加20%",
-    "key1": "needAnger",
-    "value1": 7
-  },
-  "9060030": {
-    "des": "治疗时超出目标生命上限的溢出部分将转化为伤害吸收盾，持续1回合",
-    "key1": "over_heal_shield",
-    "value1": 1
-  },
-  "9060040": {
-    "des": "使用技能攻击时，若目标处于冰冻状态，恢复自身1点怒气",
-    "key1": "skill_frozen_anger",
-    "value1": 1
-  },
-  "9060050": {
-    "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气",
-    "key1": "kill_rob_anger",
-    "value1": true
-  },
-  "9060060": {
-    "des": "直接伤害击杀目标后，回复自身生命上限的30%的生命",
-    "key1": "kill_heal",
-    "value1": 0.3
-  },
-  "9060070": {
-    "des": "战斗首回合获得1层疾速效果，持续3回合",
-    "key1": "first_ace_buff1",
-    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
-  },
-  "9060080": {
-    "des": "使用技能攻击时，降低破甲状态下的目标一点怒气值",
-    "key1": "pj_less_anger",
-    "value1": 1
-  },
-  "9060090": {
-    "des": "战斗首回合获得免控盾，免疫控制效果",
-    "key1": "first_ace_buff1",
-    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
-  },
-  "9060100": {
-    "des": "战斗首回合获得护盾，吸收生命值上限15%的伤害，持续1回合",
-    "key1": "first_ace_buff2",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
-  },
-  "9060110": {
-    "des": "诅咒伤害增加50%",
-    "key1": "curse_amp",
-    "value1": 0.5
-  },
-  "9060120": {
-    "des": "战斗首回合获得1层嗜血效果，持续3回合",
-    "key1": "first_ace_buff1",
-    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
-  },
-  "9060130": {
-    "des": "受到控制效果（麻痹、沉默、眩晕、嘲讽）概率降低35%",
-    "key1": "control_buff_lowrate",
-    "value1": 0.35
-  },
-  "9060140": {
-    "des": "所有攻击优先攻击敌方当前血量最低的英雄",
-    "key1": "target_minHP",
-    "value1": true
-  },
-  "9060150": {
-    "des": "攻击触发感电效果时，有15%概率麻痹目标，持续1回合",
-    "key1": "gd_mb",
-    "value1": 0.15
-  },
-  "9060160": {
-    "des": "攻击虚弱状态下的英雄时，有30%概率添加重伤，持续1回合",
-    "key1": "xr_zs",
-    "value1": 0.3
   },
   "10101000": {
     "des": "攻击力增加5%,生命值增加5%",
