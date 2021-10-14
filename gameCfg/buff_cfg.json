@@ -5,7 +5,8 @@
     "refreshType": "before",
     "lower": true,
     "hurt": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "poison": {
     "name": "中毒",
@@ -13,35 +14,40 @@
     "refreshType": "before",
     "lower": true,
     "hurt": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "disarm": {
     "name": "麻痹",
     "des": "无法进行普通攻击",
     "refreshType": "after",
     "control": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "silence": {
     "name": "沉默",
     "des": "无法使用怒气技能",
     "refreshType": "after",
     "control": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "dizzy": {
     "name": "眩晕",
     "des": "无法行动",
     "refreshType": "after",
     "control": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "forbidden": {
     "name": "重伤",
     "des": "受到的治疗效果降低70%",
     "refreshType": "before",
     "lower": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "amplify": {
     "name": "伤害加成",
@@ -70,33 +76,39 @@
   "reduction": {
     "name": "铜墙铁壁",
     "des": "受到的物理伤害降低60%，持续2回合",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "reduction_mag": {
     "name": "水神护盾",
     "des": "受到的法术伤害降低60%，持续2回合",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "recover": {
     "name": "持续恢复",
     "des": "每回合恢复施法者攻击力百分比生命值，不可叠加",
     "refreshType": "before",
-    "intensify": true
+    "intensify": true,
+    "effects": true
   },
   "invincible": {
     "name": "无敌盾",
     "des": "免疫所有受到的伤害",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "invincibleSuper": {
     "name": "超级无敌盾",
     "des": "免疫所有受到的伤害和控制效果",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "invincibleSuck": {
     "name": "无敌吸血盾",
     "des": "受到的所有伤害转化为治疗，恢复自身血量，持续1回合",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "zhenshe": {
     "name": "震慑",
@@ -115,20 +127,24 @@
   "shield": {
     "name": "护盾",
     "des": "吸收最大生命值15%的伤害，持续1回合",
-    "refreshType": "before_2"
+    "refreshType": "before_2",
+    "effects": true
   },
   "chaofeng": {
     "name": "嘲讽",
     "des": "使敌人只能进行普通攻击（对治疗英雄无效），且优先以自身为目标，持续1回合",
     "refreshType": "after",
     "control": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true,
+    "bottom": true
   },
   "banish": {
     "name": "放逐",
     "des": "跳过下一个回合，期间保留所有状态，且不会被选中为目标",
     "refreshType": "roundOver",
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "banAnger": {
     "name": "禁怒",
@@ -140,7 +156,8 @@
   "immune": {
     "name": "免控盾",
     "des": "免疫在此之后受到的控制效果，持续1回合",
-    "refreshType": "roundOver"
+    "refreshType": "roundOver",
+    "effects": true
   },
   "atkAdd": {
     "name": "攻击加成",
@@ -166,13 +183,15 @@
     "name": "冰冻",
     "des": "无法行动,持续2回合，被攻击3次后解除冰冻。",
     "refreshType": "after",
-    "debuff": true
+    "debuff": true,
+    "effects": true
   },
   "cold_shield": {
     "name": "寒冰护盾",
     "des": "受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合",
     "refreshType": "roundOver",
-    "intensify": true
+    "intensify": true,
+    "effects": true
   },
   "polang": {
     "name": "破浪",
@@ -192,7 +211,9 @@
     "des": "每回合对携带者及其周围目标造成施法者30%攻击力的伤害，持续2回合",
     "refreshType": "roundOver",
     "lower": true,
-    "debuff": true
+    "debuff": true,
+    "effects": true,
+    "bottom": true
   },
   "sand": {
     "name": "沙尘暴",
@@ -212,7 +233,8 @@
     "name": "烈焰护体",
     "des": "受到攻击时，有30%概率使攻击者灼烧，持续2回合",
     "refreshType": "roundOver",
-    "intensify": true
+    "intensify": true,
+    "effects": true
   },
   "baonu": {
     "name": "暴怒",
@@ -279,7 +301,8 @@
   "sneak": {
     "name": "潜行",
     "des": "潜行状态下不会被攻击，持续1回合",
-    "refreshType": "before"
+    "refreshType": "before",
+    "effects": true
   },
   "curse": {
     "name": "诅咒",
@@ -304,7 +327,8 @@
   "ghost": {
     "name": "亡魂",
     "des": "增加4点怒气值，净化自身负面状态，无法被攻击，无法被治疗，2回合后彻底死亡，无法复活",
-    "refreshType": "after"
+    "refreshType": "after",
+    "effects": true
   },
   "moyin": {
     "name": "魔印",
@@ -316,7 +340,9 @@
     "name": "禁魂",
     "des": "持续回合内不可复活，直到效果回合结束，无法被净化",
     "refreshType": "roundOver",
-    "debuff": true
+    "debuff": true,
+    "effects": true,
+    "bottom": true
   },
   "crit": {
     "name": "暴击加成",
