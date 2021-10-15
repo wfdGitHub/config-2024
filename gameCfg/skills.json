@@ -871,11 +871,11 @@
   "4050802": {
     "name": "天使守护",
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其60%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复240%攻击力的生命值",
+    "des": "随机复活一名友方英雄，恢复其100%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复240%攻击力的生命值",
     "targetType": "team_minHp_1",
     "mul": 2.4,
     "key1": "rescue_heal",
-    "value1": 0.6
+    "value1": 1
   },
   "4050901": {
     "name": "连锁闪电",
@@ -888,11 +888,11 @@
   "4050902": {
     "name": "雷霆神罚",
     "type": "attack",
-    "des": "对敌方全体造成115%的法术伤害，添加1层感电效果",
+    "des": "对敌方全体造成115%的法术伤害，添加2层感电效果",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 1.15,
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "4051001": {
     "name": "悲愤",

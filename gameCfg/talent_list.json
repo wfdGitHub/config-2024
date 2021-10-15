@@ -2217,9 +2217,9 @@
     "value1": 0.35
   },
   "40501011": {
-    "des": "攻击力增加40%，释放技能时100%概率再次释放（每回合最多1次）",
+    "des": "攻击力增加60%，释放技能时100%概率再次释放（每回合最多1次）",
     "key1": "self_atk_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "skill_combo",
     "value2": 0.3
   },
@@ -2251,16 +2251,16 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "40502011": {
-    "des": "攻击力增加30%，阵亡时，恢复我方全体400%攻击力的生命值，每场战斗仅生效1次",
+    "des": "攻击力增加60%，阵亡时，恢复我方全体400%攻击力的生命值，每场战斗仅生效1次",
     "key1": "self_atk_add",
-    "value1": 0.3,
+    "value1": 0.6,
     "key2": "died_heal_team",
     "value2": 4
   },
   "40502025": {
-    "des": "每回合行动后为自身添加暴击提升效果",
+    "des": "每回合行动后为自身添加爆伤提升效果",
     "key1": "action_buff1",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40503000": {
     "des": "每回合行动前解除自身一个减益效果",
@@ -2268,9 +2268,9 @@
     "value1": true
   },
   "40503006": {
-    "des": "释放技能时，为攻击力最高的友方英雄添加神力",
-    "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "行动后净化我方全体1个减益效果",
+    "key1": "clean_team",
+    "value1": true
   },
   "40503009": {
     "des": "释放技能时，对目标添加1层感电效果",
@@ -2278,8 +2278,8 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "40503010": {
-    "des": "永久免疫减怒效果",
-    "key1": "banLessAnger",
+    "des": "永久免疫控制效果",
+    "key1": "always_immune",
     "value1": true
   },
   "40503011": {
@@ -2351,9 +2351,11 @@
     "value1": 0.1
   },
   "40505011": {
-    "des": "每个存活的友方同阵营英雄为自身提高12%的伤害减免",
+    "des": "生命值增加60%，每个存活的友方同阵营英雄为自身提高12%的伤害减免",
     "key1": "realm_friend_amp",
-    "value1": 0.12
+    "value1": 0.12,
+    "key2": "self_maxHP_add",
+    "value2": 0.6
   },
   "40505025": {
     "des": "每回合行动后为自身添加1层神力效果",
@@ -2383,11 +2385,11 @@
     "value1": 0.3
   },
   "40506011": {
-    "des": "生命值增加60%,超级无敌效果结束时，有50%概率再次获得此效果，此后触发概率逐渐减半",
+    "des": "生命值增加60%,超级无敌效果结束时，有80%概率再次获得此效果，此后触发概率逐渐减半",
     "key1": "self_maxHP_add",
     "value1": 0.6,
     "key2": "invincibleSuper_again",
-    "value2": 0.5
+    "value2": 0.8
   },
   "40506025": {
     "des": "释放技能时，触发目标身上所有感电效果",
@@ -2407,14 +2409,14 @@
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "40507009": {
-    "des": "释放技能添加的无敌盾的持续时间增加至2回合",
+    "des": "无敌盾的持续时间增加至2回合",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "40507010": {
-    "des": "阵亡时，为我方全体添加无敌盾效果，持续1回合，每场战斗仅生效1次",
+    "des": "阵亡时，为我方全体添加无敌盾效果，持续2回合，每场战斗仅生效1次",
     "key1": "died_once_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "40507011": {
     "des": "无敌盾的目标额外恢复2点怒气，若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标30%最大生命值",
@@ -2441,9 +2443,11 @@
     "value1": true
   },
   "40508009": {
-    "des": "释放技能后，为目标添加坚毅效果",
-    "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "行动结束后，治疗血量最低的三个英雄87%攻击力的生命值",
+    "key1": "round_heal_type",
+    "value1": "team_minHp_3",
+    "key2": "round_heal_value",
+    "value2": 0.87
   },
   "40508010": {
     "des": "释放技能每净化一个减益效果，增加1点怒气值",
@@ -2487,11 +2491,11 @@
     "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "40509011": {
-    "des": "每个存活的友方同阵营英雄为自身提高6%的伤害加成和6%的伤害减免效果",
+    "des": "每个存活的友方同阵营英雄为自身提高8%的伤害加成和8%的伤害减免效果",
     "key1": "realm_friend_reduction",
-    "value1": 0.06,
+    "value1": 0.08,
     "key2": "realm_friend_amp",
-    "value2": 0.06
+    "value2": 0.08
   },
   "40509025": {
     "des": "造成伤害的30%转化为护盾，持续1回合",
@@ -2509,14 +2513,14 @@
     "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1}"
   },
   "40510009": {
-    "des": "普通攻击有40%概率嘲讽敌人",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+    "des": "行动后净化我方全体1个减益效果",
+    "key1": "clean_team",
+    "value1": true
   },
   "40510010": {
-    "des": "释放技能时，嘲讽概率提升为40%",
+    "des": "释放技能时，嘲讽概率提升为60%",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "40510011": {
     "des": "生命值增加60%，每回合行动结束后，为我方全体增加坚毅效果",
@@ -2553,9 +2557,9 @@
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
   },
   "50501011": {
-    "des": "释放技能时连击概率提升至100%,攻击力增加30%",
+    "des": "攻击力增加60%，释放技能时连击概率提升至100%",
     "key1": "self_atk_add",
-    "value1": 0.3,
+    "value1": 0.6,
     "key2": "skill_combo",
     "value2": 0.5
   },
@@ -2584,14 +2588,14 @@
     "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502010": {
-    "des": "击杀目标后，对敌方全体添加虚弱效果",
-    "key1": "kill_buff1",
+    "des": "释放技能后，对敌方全体添加虚弱效果",
+    "key1": "skill_buff3",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502011": {
-    "des": "攻击力增加40%，进行攻击时，目标身上每有1个负面效果，伤害增加10%",
+    "des": "攻击力增加60%，进行攻击时，目标身上每有1个负面效果，伤害增加10%",
     "key1": "self_atk_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "enemy_debuff_amp",
     "value2": 0.1
   },
@@ -2625,9 +2629,9 @@
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50503011": {
-    "des": "生命值增加40%，释放技能使敌人眩晕时，同阵营英雄对眩晕目标造成伤害增加30%",
+    "des": "生命值增加60%，释放技能使敌人眩晕时，同阵营英雄对眩晕目标造成伤害增加30%",
     "key1": "self_maxHP_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "realm_dizzy_amp",
     "value2": 0.3
   },
@@ -2661,11 +2665,11 @@
     "value1": 1
   },
   "50504011": {
-    "des": "生命值增加60%，技能嘲讽概率增加到70%",
+    "des": "生命值增加60%，技能嘲讽概率增加到80%",
     "key1": "self_maxHP_add",
     "value1": 0.6,
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
+    "value2": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.8}"
   },
   "50504025": {
     "des": "所有攻击附加诅咒效果",
@@ -2697,9 +2701,9 @@
     "value1": true
   },
   "50505011": {
-    "des": "攻击力增加40%,战斗首回合，为我方同阵营英雄添加嗜血效果，持续3回合",
+    "des": "攻击力增加60%,战斗首回合，为我方同阵营英雄添加嗜血效果，持续3回合",
     "key1": "self_atk_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "first_buff1",
     "value2": "{\"buffId\":\"blood\",\"buff_tg\":\"team_realm\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -2733,11 +2737,11 @@
     "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50506011": {
-    "des": "生命值增加40%,释放技能时，使目标重伤，持续1回合",
+    "des": "生命值增加60%,释放技能时，使目标重伤，持续2回合",
     "key1": "self_maxHP_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50506025": {
     "des": "所有攻击附加虚弱效果",
@@ -2769,11 +2773,11 @@
     "value1": true
   },
   "50507011": {
-    "des": "生命值增加40%，每个存活的同阵营友方英雄提高自身6%的伤害减免",
+    "des": "生命值增加60%，每个存活的同阵营友方英雄提高自身12%的伤害减免",
     "key1": "self_maxHP_add",
-    "value1": 0.4,
+    "value1": 0.6,
     "key2": "realm_friend_reduction",
-    "value2": 0.06
+    "value2": 0.12
   },
   "50507025": {
     "des": "所有攻击附加虚弱效果",
@@ -2805,11 +2809,11 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50508011": {
-    "des": "每回合行动结束后，恢复我方全体攻击力48%的生命值",
+    "des": "行动结束后，恢复我方全体攻击力67%的生命值",
     "key1": "round_heal_type",
     "value1": "team_all",
     "key2": "round_heal_value",
-    "value2": 0.48
+    "value2": 0.67
   },
   "50508025": {
     "des": "行动后恢复自身1点怒气",
@@ -2839,11 +2843,11 @@
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50509011": {
-    "des": "阵亡时，对敌方全体添加魔印和重伤效果,持续2回合",
+    "des": "生命值增加60%，阵亡时，对敌方全体添加魔印效果,持续2回合",
     "key1": "died_buff1",
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key2": "died_buff2",
-    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "key2": "self_maxHP_add",
+    "value2": 0.6
   },
   "50509025": {
     "des": "行动后恢复自身1点怒气",
@@ -2873,11 +2877,11 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50510011": {
-    "des": "永久免疫控制效果。阵亡时，对敌方全体虚弱效果，持续3回合",
+    "des": "生命值增加60%，阵亡时，对敌方全体虚弱效果，持续3回合",
     "key1": "died_buff2",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "always_immune",
-    "value2": true
+    "key2": "self_maxHP_add",
+    "value2": 0.6
   },
   "50510025": {
     "des": "普通攻击附加破甲效果",
