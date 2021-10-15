@@ -1343,9 +1343,9 @@
     "value2": 0.2
   },
   "10507025": {
-    "des": "直接伤害击杀目标后追加一次普通攻击",
-    "key1": "kill_add_d_s",
-    "value1": true
+    "des": "行动后为自身添加1层破浪效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "10508000": {
     "des": "生命值增加20%，命中增加20%",
@@ -2224,9 +2224,9 @@
     "value2": 0.3
   },
   "40501025": {
-    "des": "普通攻击附加1层感电效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "每回合行动后为自身添加1层坚毅效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40502000": {
     "des": "攻击力增加28%，暴击率增加16%",
@@ -2258,9 +2258,9 @@
     "value2": 4
   },
   "40502025": {
-    "des": "击杀目标后恢复自身1点怒气",
-    "key1": "kill_anger",
-    "value1": 1
+    "des": "每回合行动后为自身添加暴击提升效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40503000": {
     "des": "每回合行动前解除自身一个减益效果",
@@ -2290,9 +2290,9 @@
     "value2": true
   },
   "40503025": {
-    "des": "释放技能后恢复1点怒气",
-    "key1": "skill_anger_s",
-    "value1": 1
+    "des": "每回合行动后为自身添加1层坚毅效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40504000": {
     "des": "攻击力增加26%，生命值增加12%",
@@ -2324,9 +2324,9 @@
     "value2": 2
   },
   "40504025": {
-    "des": "普通攻击附加1层感电效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "每回合行动后为自身添加1层神力效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40505000": {
     "des": "生命值增加30%，命中增加10%",
@@ -2356,9 +2356,9 @@
     "value1": 0.12
   },
   "40505025": {
-    "des": "普通攻击附加1层感电效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "每回合行动后为自身添加1层神力效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40506000": {
     "des": "生命值增加28%，攻击力增加14%",
@@ -2368,8 +2368,8 @@
     "value2": 0.14
   },
   "40506006": {
-    "des": "释放技能后为自身添加神力效果",
-    "key1": "skill_buff1",
+    "des": "每回合行动后为自身添加1层神力效果",
+    "key1": "action_buff1",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40506009": {
@@ -2407,14 +2407,14 @@
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "40507009": {
-    "des": "阵亡时，为我方全体添加坚毅力效果，每场战斗仅生效1次",
-    "key1": "died_once_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
-  },
-  "40507010": {
-    "des": "无敌盾的持续时间增加至2回合",
+    "des": "释放技能添加的无敌盾的持续时间增加至2回合",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "40507010": {
+    "des": "阵亡时，为我方全体添加无敌盾效果，持续1回合，每场战斗仅生效1次",
+    "key1": "died_once_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "40507011": {
     "des": "无敌盾的目标额外恢复2点怒气，若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标30%最大生命值",
@@ -2424,9 +2424,9 @@
     "value2": 0.3
   },
   "40507025": {
-    "des": "释放技能后恢复1点怒气",
-    "key1": "skill_anger_s",
-    "value1": 1
+    "des": "每回合行动后为自身添加1层坚毅效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40508000": {
     "des": "攻击力增加24%，生命值增加18%",
@@ -2451,14 +2451,14 @@
     "value1": 1
   },
   "40508011": {
-    "des": "阵亡后复活全体已阵亡友军，恢复其20%最大生命值，每场战斗仅生效1次",
+    "des": "阵亡后复活全体已阵亡友军，恢复其30%最大生命值，每场战斗仅生效1次",
     "key1": "died_rescue_team",
-    "value1": 0.2
+    "value1": 0.3
   },
   "40508025": {
-    "des": "每回合行动前解除自身一个减益效果",
-    "key1": "remove_one_lower",
-    "value1": true
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "40509000": {
     "des": "生命值增加26%，攻击力增加13%",
@@ -2475,9 +2475,9 @@
     "value2": 0.2
   },
   "40509009": {
-    "des": "普通攻击增加1层感电效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "每回合行动后为自身添加1层神力效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40509010": {
     "des": "释放技能时，每命中1个带有感电的目标，恢复自身1点怒气。技能将添加2层感电效果",
@@ -2560,8 +2560,8 @@
     "value2": 0.5
   },
   "50501025": {
-    "des": "普通攻击为自身附加嗜血效果",
-    "key1": "normal_buff1",
+    "des": "每回合行动后获得1层嗜血效果",
+    "key1": "action_buff1",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502000": {
@@ -2596,9 +2596,11 @@
     "value2": 0.1
   },
   "50502025": {
-    "des": "普通攻击附加破甲效果",
+    "des": "所有攻击附加破甲效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff3",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50503000": {
     "des": "抗暴增加24%，生命值增加16%",
@@ -2630,9 +2632,11 @@
     "value2": 0.3
   },
   "50503025": {
-    "des": "普通攻击附加诅咒效果",
+    "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50504000": {
     "des": "生命值增加26%,攻击力增加13%",
@@ -2736,9 +2740,11 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50506025": {
-    "des": "普通攻击附加诅咒效果",
+    "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50507000": {
     "des": "生命值提升24%，攻击力增加16%",
@@ -2770,9 +2776,11 @@
     "value2": 0.06
   },
   "50507025": {
-    "des": "普通攻击附加虚弱效果",
+    "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50508000": {
     "des": "生命值增加20%，治疗暴击增加20%",
@@ -2782,14 +2790,14 @@
     "value2": 0.2
   },
   "50508006": {
-    "des": "普通治疗附加嗜血效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "50508009": {
-    "des": "阵亡时，对敌方全体添加重伤效果",
-    "key1": "died_buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "des": "释放技能转化亡魂后，恢复自身4点怒气",
+    "key1": "wh_anger",
+    "value1": 4
   },
   "50508010": {
     "des": "释放技能时，为我方全体添加嗜血效果",
@@ -2804,9 +2812,9 @@
     "value2": 0.48
   },
   "50508025": {
-    "des": "每回合行动前解除自身一个减益效果",
-    "key1": "remove_one_lower",
-    "value1": true
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "50509000": {
     "des": "生命值增加24%，闪避率增加16%",
@@ -2838,9 +2846,9 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50509025": {
-    "des": "普通攻击附加虚弱效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
   },
   "50510000": {
     "des": "生命值增加18%，攻击力增加26%",
