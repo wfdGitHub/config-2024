@@ -189,7 +189,7 @@
   },
   "cold_shield": {
     "name": "寒冰护盾",
-    "des": "受到攻击时，有50%概率使目标增加一层寒冷，寒冰护盾持续2回合",
+    "des": "受到攻击时，有30%概率使目标增加一层寒冷，寒冰护盾持续2回合",
     "refreshType": "roundOver",
     "intensify": true,
     "effects": true
@@ -334,7 +334,7 @@
   "moyin": {
     "name": "魔印",
     "des": "被施加的负面效果无法被净化，持续2回合",
-    "refreshType": "roundOver",
+    "refreshType": "after",
     "debuff": true
   },
   "jinhun": {
