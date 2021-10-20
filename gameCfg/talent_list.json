@@ -1128,7 +1128,7 @@
     "value1": true
   },
   "10501011": {
-    "des": "持续治疗回合数增加1回合，若治疗英雄与自己同阵营，则每回合额外恢复20%的最大生命值",
+    "des": "持续治疗回合数增加1回合，若治疗英雄与自己同阵营，持续治疗被清除或消失时额外恢复20%的最大生命值",
     "key1": "buffDuration",
     "value1": 1,
     "key2": "recover_maxHp",
@@ -1263,7 +1263,9 @@
   "10505010": {
     "des": "击杀目标后，为自身添加水神护盾，并恢复最大生命值的30%",
     "key1": "kill_buff1",
-    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
+    "key2": "kill_heal",
+    "value2": 0.3
   },
   "10505011": {
     "des": "破冰一击伤害额外增加100%，自身攻击力增加40%",
@@ -1336,16 +1338,16 @@
     "value1": 0.01
   },
   "10507011": {
-    "des": "破浪效果持续至战斗结束，追加的普通攻击额外造成20%目标生命值上限的伤害",
+    "des": "破浪效果持续至战斗结束，每回合行动后为自身添加2层破浪效果",
     "key1": "buffDuration",
     "value1": 99,
-    "key2": "add_default_maxHp",
-    "value2": 0.2
+    "key2": "action_buff1",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "10507025": {
-    "des": "行动后为自身添加1层破浪效果",
-    "key1": "action_buff1",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
+    "des": "追加的普通攻击额外造成12%目标生命值上限的伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.12
   },
   "10508000": {
     "des": "生命值增加20%，命中增加20%",
@@ -2356,7 +2358,7 @@
   "40505010": {
     "des": "释放技能时，造成的额外伤害增加至最大生命值的12%",
     "key1": "maxHP_damage",
-    "value1": 0.7
+    "value1": 0.07
   },
   "40505011": {
     "des": "生命值增加60%，每个存活的友方同阵营英雄为自身提高12%的伤害减免",
@@ -2602,7 +2604,7 @@
   "50502010": {
     "des": "释放技能后，对敌方全体添加虚弱效果",
     "key1": "skill_buff3",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502011": {
     "des": "攻击力增加60%，进行攻击时，目标身上每有1个负面效果，伤害增加10%",
@@ -2612,11 +2614,9 @@
     "value2": 0.1
   },
   "50502025": {
-    "des": "所有攻击附加破甲效果",
+    "des": "普通攻击附加破甲效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff3",
-    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50503000": {
     "des": "抗暴增加24%，生命值增加16%",
@@ -2650,9 +2650,9 @@
   "50503025": {
     "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "skill_buff2",
-    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50504000": {
     "des": "生命值增加26%,攻击力增加13%",
@@ -2733,8 +2733,10 @@
   },
   "50506006": {
     "des": "释放技能后为我方全体添加暴击提升与爆伤提升效果",
-    "key1": "action_buff1",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50506009": {
     "des": "技能额外造成目标最大生命值10%的伤害",
@@ -2743,24 +2745,20 @@
   },
   "50506010": {
     "des": "每回合行动结束后，为自身添加免控盾",
-    "key1": "action_buff2",
-    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "kill_buff2",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50506011": {
     "des": "生命值增加60%,释放技能时，使目标重伤，持续2回合",
     "key1": "self_maxHP_add",
     "value1": 0.6,
-    "key2": "skill_buff1",
+    "key2": "skill_buff3",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50506025": {
-    "des": "所有攻击附加虚弱效果",
+    "des": "普通攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff2",
-    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50507000": {
     "des": "生命值提升24%，攻击力增加16%",
@@ -2794,9 +2792,9 @@
   "50507025": {
     "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "skill_buff2",
-    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50508000": {
     "des": "生命值增加20%，治疗暴击增加20%",
