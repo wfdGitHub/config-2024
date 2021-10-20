@@ -177,10 +177,10 @@
     "exp": 20
   },
   "100110": {
-    "title": "获得1个五星英雄",
+    "title": "获得1个六星英雄",
     "refresh": "day",
     "type": "hero",
-    "arg": 5,
+    "arg": 6,
     "value": 1,
     "exp": 20
   },
@@ -244,12 +244,12 @@
     "desc": "参与20次木牛流马"
   },
   "100204": {
-    "title": "参与30次沙盘演武",
+    "title": "参与7次沙盘演武",
     "refresh": "week",
     "type": "exercise",
-    "value": 30,
+    "value": 7,
     "exp": 1000,
-    "desc": "参与30次沙盘演武"
+    "desc": "参与7次沙盘演武"
   },
   "100205": {
     "title": "远古战场中战胜15次对手",
@@ -260,10 +260,10 @@
     "desc": "远古战场中战胜15次对手"
   },
   "100206": {
-    "title": "玉石矿场挖掘20次",
+    "title": "玉石矿场挖掘50次",
     "refresh": "week",
     "type": "use_pickaxe",
-    "value": 20,
+    "value": 50,
     "exp": 1000,
     "desc": "玉石矿场挖掘20次"
   },
@@ -285,26 +285,26 @@
     "desc": "消耗5亿铜币"
   },
   "100303": {
-    "title": "高级招募200次",
+    "title": "高级招募2000次",
     "refresh": "month",
     "type": "recruit_great",
-    "value": 200,
+    "value": 2000,
     "exp": 5000,
     "desc": "高级招募200次"
   },
   "100304": {
-    "title": "英雄殿招募30次",
+    "title": "英雄殿招募300次",
     "refresh": "month",
     "type": "general",
-    "value": 30,
+    "value": 300,
     "exp": 5000,
     "desc": "英雄殿招募30次"
   },
   "100305": {
-    "title": "分解500个英雄",
+    "title": "分解5000个英雄",
     "refresh": "month",
     "type": "resolve",
-    "value": 500,
+    "value": 5000,
     "exp": 5000,
     "desc": "分解500个英雄"
   },
@@ -8543,42 +8543,42 @@
     "award": "101:60000&1000050:300"
   },
   "307001": {
-    "title": "参与沙盘演武5次",
+    "title": "参与沙盘演武1次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 1,
     "award": "201:10000&1000170:1"
   },
   "307002": {
-    "title": "参与沙盘演武10次",
+    "title": "参与沙盘演武2次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 2,
     "award": "201:20000&1000170:2"
   },
   "307003": {
-    "title": "参与沙盘演武15次",
+    "title": "参与沙盘演武3次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 3,
     "award": "201:30000&1000170:3"
   },
   "307004": {
-    "title": "参与沙盘演武20次",
+    "title": "参与沙盘演武4次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 4,
     "award": "201:40000&1000170:4"
   },
   "307005": {
-    "title": "参与沙盘演武25次",
+    "title": "参与沙盘演武5次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 5,
     "award": "201:50000&1000170:5"
   },
   "307006": {
-    "title": "参与沙盘演武30次",
+    "title": "参与沙盘演武6次",
     "refresh": "week_target",
     "type": "exercise",
     "value": 6,
@@ -8675,45 +8675,45 @@
     "award": "201:60000&101:60000"
   },
   "310001": {
-    "title": "战斗力：30万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 300000,
-    "award": "208:1&207:100"
-  },
-  "310002": {
     "title": "战斗力：50万",
     "refresh": "week_target",
     "type": "totalCe",
     "value": 500000,
+    "award": "208:1&207:100"
+  },
+  "310002": {
+    "title": "战斗力：100万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 1000000,
     "award": "208:2&207:200"
   },
   "310003": {
-    "title": "战斗力：80万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 800000,
-    "award": "208:3&207:300"
-  },
-  "310004": {
-    "title": "战斗力：120万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 1200000,
-    "award": "208:4&207:400"
-  },
-  "310005": {
     "title": "战斗力：150万",
     "refresh": "week_target",
     "type": "totalCe",
     "value": 1500000,
-    "award": "208:5&207:500"
+    "award": "208:3&207:300"
   },
-  "310006": {
+  "310004": {
+    "title": "战斗力：200万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 2000000,
+    "award": "208:4&207:400"
+  },
+  "310005": {
     "title": "战斗力：300万",
     "refresh": "week_target",
     "type": "totalCe",
     "value": 3000000,
+    "award": "208:5&207:500"
+  },
+  "310006": {
+    "title": "战斗力：500万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 5000000,
     "award": "208:10&207:1000"
   },
   "311001": {
@@ -8885,74 +8885,74 @@
     "award": "1000080:1&1000170:6"
   },
   "401001": {
-    "title": "高级招募5次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 5,
-    "award": "1000050:10"
-  },
-  "401002": {
     "title": "高级招募10次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 10,
-    "award": "1000050:20"
+    "award": "1000050:100"
   },
-  "401003": {
-    "title": "高级招募15次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 15,
-    "award": "1000050:50"
-  },
-  "401004": {
+  "401002": {
     "title": "高级招募20次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 20,
-    "award": "1000050:100"
+    "award": "1000050:200"
   },
-  "401005": {
-    "title": "高级招募25次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 25,
-    "award": "1000050:150"
-  },
-  "401006": {
+  "401003": {
     "title": "高级招募30次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 30,
-    "award": "1000050:200"
+    "award": "1000050:500"
   },
-  "401007": {
-    "title": "高级招募35次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 35,
-    "award": "1000050:250"
-  },
-  "401008": {
-    "title": "高级招募40次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 40,
-    "award": "1000050:300"
-  },
-  "401009": {
-    "title": "高级招募45次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 45,
-    "award": "1000050:350"
-  },
-  "401010": {
+  "401004": {
     "title": "高级招募50次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 50,
-    "award": "1000050:400"
+    "award": "1000050:1000"
+  },
+  "401005": {
+    "title": "高级招募100次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 100,
+    "award": "1000050:2000"
+  },
+  "401006": {
+    "title": "高级招募150次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 150,
+    "award": "1000050:3000"
+  },
+  "401007": {
+    "title": "高级招募200次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 200,
+    "award": "1000050:5000"
+  },
+  "401008": {
+    "title": "高级招募250次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 250,
+    "award": "1000050:8000"
+  },
+  "401009": {
+    "title": "高级招募300次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 300,
+    "award": "1000050:10000"
+  },
+  "401010": {
+    "title": "高级招募500次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 500,
+    "award": "1000050:30000"
   },
   "402001": {
     "title": "快速作战5次",
