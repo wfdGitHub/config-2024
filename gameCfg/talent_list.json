@@ -1499,7 +1499,9 @@
     "value1": 0.5
   },
   "20501010": {
-    "des": "释放技能时，目标身上每有1层流血效果，额外造成3%最大生命值的伤害"
+    "des": "释放技能时，目标身上每有1层流血效果，额外造成3%最大生命值的伤害",
+    "key1": "skill_bleed_maxHp",
+    "value1": 0.03
   },
   "20501011": {
     "des": "自身生命值增加60%，被灼烧状态下的敌人攻击时，恢复1点怒气",
@@ -1606,7 +1608,7 @@
   },
   "20504010": {
     "des": "技能使目标灼烧的概率提升至65%",
-    "key1": "skill_buff1",
+    "key1": "skill_buff2",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
   },
   "20504011": {
@@ -1685,15 +1687,13 @@
     "des": "攻击力增加60%,每击杀一个目标增加自身24%的伤害，可叠加。",
     "key1": "self_atk_add",
     "value1": 0.6,
-    "key2": "slay",
-    "value2": 0.3
+    "key2": "kill_amp",
+    "value2": 0.24
   },
   "20506025": {
     "des": "击杀目标后恢复自身2点怒气",
     "key1": "kill_anger",
-    "value1": 2,
-    "key2": "kill_amp",
-    "value2": 0.24
+    "value1": 2
   },
   "20507000": {
     "des": "攻击力增加20%,命中率增加20%",
@@ -1771,9 +1771,9 @@
   "20509006": {
     "des": "所有攻击有50%概率附加1层流血效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.5}",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}",
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.5}"
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}"
   },
   "20509009": {
     "des": "对流血状态的目标造成伤害增加30%",
