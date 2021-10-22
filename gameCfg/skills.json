@@ -640,7 +640,7 @@
   "3050502": {
     "name": "魅影突袭",
     "type": "attack",
-    "des": "对敌方生命值最少的单位造成230%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
+    "des": "对敌方生命值最少的单位造成260%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "damageType": "phy",
     "targetType": "enemy_minHP",
     "mul": 2.6,
@@ -728,7 +728,7 @@
   "3051002": {
     "name": "弱点反制",
     "type": "attack",
-    "des": "对敌方血量最少的目标造成300%攻击力的物理伤害，消耗所有反制印记，每消耗1层反制印记，对其添加1层流血",
+    "des": "对敌方血量最少的目标造成300%攻击力的物理伤害，消耗所有反制印记，每消耗1层反制印记，对其添加1层破甲",
     "damageType": "phy",
     "targetType": "enemy_minHP",
     "mul": 3,
@@ -888,11 +888,12 @@
   "4050902": {
     "name": "雷霆神罚",
     "type": "attack",
-    "des": "对敌方全体造成115%的法术伤害，添加2层感电效果",
+    "des": "对敌方全体造成115%的法术伤害，添加1层感电效果",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 1.15,
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "4051001": {
     "name": "悲愤",
