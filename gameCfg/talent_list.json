@@ -2613,7 +2613,7 @@
     "des": "攻击力增加60%，进行攻击时，目标身上每有1个负面效果，伤害增加10%",
     "key1": "self_atk_add",
     "value1": 0.6,
-    "key2": "enemy_debuff_amp",
+    "key2": "enemy_low_amp",
     "value2": 0.1
   },
   "50502025": {
@@ -2702,7 +2702,7 @@
   },
   "50505006": {
     "des": "目标身上每有1个负面效果，伤害增加8%",
-    "key1": "enemy_debuff_amp",
+    "key1": "enemy_low_amp",
     "value1": 0.08
   },
   "50505009": {
@@ -2719,7 +2719,7 @@
     "des": "攻击力增加60%,战斗首回合，为我方同阵营英雄添加嗜血效果，持续3回合",
     "key1": "self_atk_add",
     "value1": 0.6,
-    "key2": "first_buff1",
+    "key2": "first_realm_buff",
     "value2": "{\"buffId\":\"blood\",\"buff_tg\":\"team_realm\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50505025": {
@@ -2824,7 +2824,7 @@
     "value2": 0.43
   },
   "50508011": {
-    "des": "生命值增加60%，每回合行动后回复我方全体攻击力90%的生命值",
+    "des": "每回合行动后回复我方全体攻击力90%的生命值",
     "key1": "round_heal_type",
     "value1": "team_all",
     "key2": "round_heal_value",

@@ -596,9 +596,9 @@
   "3050301": {
     "name": "偷袭",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "des": "对敌方后排单体造成100%攻击力的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_normal",
+    "targetType": "enemy_normal_back",
     "mul": 1
   },
   "3050302": {
@@ -944,7 +944,7 @@
     "type": "attack",
     "des": "对敌方血量最低的目标造成360%的物理伤害,击杀目标后，进入潜行状态，持续2回合",
     "damageType": "phy",
-    "targetType": "enemy_normal",
+    "targetType": "enemy_minHP",
     "mul": 3.6,
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
