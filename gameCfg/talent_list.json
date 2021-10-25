@@ -1000,9 +1000,9 @@
     "value1": 0.3
   },
   "9607": {
-    "des": "战斗首回合获得1层疾速效果，持续3回合",
-    "key1": "first_ace_buff1",
-    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "速度值增加10%",
+    "key1": "self_speed_add",
+    "value1": 0.1
   },
   "9608": {
     "des": "使用技能攻击时，降低破甲状态下的目标一点怒气值",
@@ -2008,7 +2008,7 @@
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30505009": {
-    "des": "目标身上每有1层破甲效果，技能伤害增加10%",
+    "des": "目标身上每有1层破甲效果，造成伤害增加10%",
     "key1": "pojia_amp",
     "value1": 0.1
   },
@@ -2569,9 +2569,11 @@
     "value1": "{\"buffId\":\"ghost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50501010": {
-    "des": "进入亡魂状态时，增加自身50%伤害",
-    "key1": "ghost_amp",
-    "value1": 0.5
+    "des": "存活时每击杀一个目标，亡魂持续回合数+1。亡魂状态下伤害增加50%",
+    "key1": "kill_ghost_dur",
+    "value1": true,
+    "key2": "ghost_amp",
+    "value2": 0.5
   },
   "50501011": {
     "des": "攻击力增加60%，释放技能时连击概率提升至100%",
@@ -2617,9 +2619,9 @@
     "value2": 0.1
   },
   "50502025": {
-    "des": "普通攻击附加破甲效果",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "进入战斗时，进入潜行状态，持续2回合",
+    "key1": "first_buff1",
+    "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50503000": {
     "des": "抗暴增加24%，生命值增加16%",
@@ -2877,8 +2879,8 @@
     "value2": 0.26
   },
   "50510006": {
-    "des": "释放技能有60%概率使目标沉默1回合",
-    "key1": "skill_buff1",
+    "des": "普通攻击有60%概率沉默目标",
+    "key1": "normal_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
   "50510009": {
@@ -2887,7 +2889,7 @@
     "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50510010": {
-    "des": "释放技能时，沉默概率提升至100%",
+    "des": "释放技能时，有100%概率使目标沉默1回合",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },

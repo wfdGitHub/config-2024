@@ -746,10 +746,10 @@
   "4050102": {
     "name": "雷霆神罚",
     "type": "attack",
-    "des": "对敌方前排造成185%攻击力的法术伤害，并添加3层感电",
+    "des": "对敌方前排造成155%攻击力的法术伤害，并添加3层感电",
     "damageType": "mag",
     "targetType": "enemy_horizontal_front",
-    "mul": 1.85,
+    "mul": 1.55,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -1038,9 +1038,9 @@
   "5050702": {
     "name": "灵魂窃取",
     "type": "attack",
-    "des": "对敌方随机单体造成300%攻击力的法术伤害，并添加灵魂窃取效果，持续1回合",
+    "des": "对敌方血量最低的目标造成300%攻击力的法术伤害，并添加灵魂窃取效果，持续1回合",
     "damageType": "mag",
-    "targetType": "enemy_1",
+    "targetType": "enemy_minHP",
     "mul": 3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
