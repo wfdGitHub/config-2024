@@ -2854,43 +2854,93 @@
     "value2": 0.1
   },
   "9070010": {
-    "des": "暴击加百分之20",
-    "key1": "crit",
-    "value1": 0.2
+    "des": "释放后回复全体队友2怒气",
+    "key1": "skill_anger_a",
+    "value1": 2
   },
   "9070020": {
-    "des": "释放技能后回复全体队友2点怒气",
-    "key1": "skill_anger_a",
-    "value1": 2
+    "des": "每回合回复最大生命百分之50",
+    "key1": "action_heal",
+    "value1": 0.5
   },
   "9070030": {
+    "des": "伤害增加百分之20",
+    "key1": "amplify",
+    "value1": 0.2
+  },
+  "9070040": {
+    "des": "首次死亡复活恢复全部血量",
+    "key1": "died_resurgence",
+    "value1": true
+  },
+  "9070050": {
+    "des": "技能伤害增加百分之20",
+    "key1": "skill_attack_amp",
+    "value1": 0.2
+  },
+  "9070060": {
+    "des": "每回合行动后恢复50%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.5
+  },
+  "9070070": {
     "des": "释放技能后回复全体队友2点怒气",
     "key1": "skill_anger_a",
     "value1": 2
   },
-  "9070040": {
-    "des": "全体上阵英雄免伤+8%",
-    "key1": "team_reduction_add",
+  "9070080": {
+    "des": "释放技能后回复全体队友2点怒气",
+    "key1": "skill_anger_a",
+    "value1": 2
+  },
+  "9070090": {
+    "des": "每回合行动后回复50%生命",
+    "key1": "action_heal",
+    "value1": 0.5
+  },
+  "9070100": {
+    "des": "战斗首次死亡复活，回复全部血量",
+    "key1": "died_resurgence",
+    "value1": true
+  },
+  "9070110": {
+    "des": "战斗前两回合无敌吸血盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
+  },
+  "9070120": {
+    "des": "控制概率增加10%",
+    "key1": "atkcontrol",
+    "value1": 0.1
+  },
+  "9070130": {
+    "des": "全体英雄伤害增加8%",
+    "key1": "team_amplify_add",
     "value1": 0.08
   },
-  "9070050": {
+  "9070140": {
+    "des": "放技能后全体英雄回复全体队友2点怒气",
+    "key1": "skill_anger_a",
+    "value1": 2
+  },
+  "9070150": {
     "des": "生命值增加20%",
     "key1": "self_maxHP_add",
     "value1": 0.2
   },
-  "9070060": {
-    "des": "战斗中首次死亡时复活，并恢复全部血量",
-    "key1": "died_resurgence",
-    "value1": true
-  },
-  "9070070": {
-    "des": "闪避增加20%",
-    "key1": "dodgeRate",
+  "9070160": {
+    "des": "技能伤害增加20%",
+    "key1": "skill_attack_amp",
     "value1": 0.2
   },
-  "9070080": {
-    "des": "伤害减免增加20%",
-    "key1": "reduction",
+  "9070170": {
+    "des": "控制概率增加10%",
+    "key1": "atkcontrol",
+    "value1": 0.1
+  },
+  "9070180": {
+    "des": "技能伤害增加20%",
+    "key1": "skill_attack_amp",
     "value1": 0.2
   },
   "skin_zhouyu_sp": {
