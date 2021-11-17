@@ -221,8 +221,10 @@
   },
   "33": {
     "name": "阵营圣塔",
+    "key": "tower",
     "openlv": 42,
-    "desc": "限定阵营挑战，获得丰厚奖励"
+    "desc": "限定阵营挑战，获得丰厚奖励",
+    "target": "hallNode/mainNode/btnPlaying"
   },
   "34": {
     "name": "新服BOSS",
@@ -306,13 +308,15 @@
     "name": "技能宝石",
     "key": "pit",
     "openlv": 70,
-    "desc": "技能搭配，改变战局"
+    "desc": "技能搭配，改变战局",
+    "target": "uiNode/frontNode/bottomNode/btnExperience"
   },
   "46": {
     "name": "元神系统",
     "key": "ace",
     "openlv": 72,
     "desc": "元神助阵英雄，发挥极致实力",
+    "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
   "47": {
@@ -356,8 +360,10 @@
   },
   "52": {
     "name": "诛神黄昏",
+    "key": "areaTrial",
     "openlv": 101,
     "desc": "超高难度一挑三，勇者拿神装",
+    "target": "uiNode/frontNode/bottomNode/btnExperience",
     "targetChild": true
   }
 }
