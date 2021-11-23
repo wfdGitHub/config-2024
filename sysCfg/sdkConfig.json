@@ -1,8 +1,18 @@
 {
-	"sdk_type" : "quick",
-	"CheckUserInfo" : "http://checkuser.sdk.quicksdk.net/v2/checkUserInfo",
-	"Md5_Key" : "12ksnopwl0so56pzdwwk3lchdvfabkoc",
-	"product_code" : "75239009301849836900294614454342",
+	"sdk_type" : "gzone",
+	"CheckUserInfo" : "https://plf.gzone.tech/api/Oauth/verifyUser.json",
 	"pay_callback" : "/pay_order",
-	"Callback_Key" : "69918745755940654119552428395002"
+	"app_keys":{
+		"faedb21617ca373d43ce47f5acfd31fe" : {"secret_key":"8b7de2accd6f706f419d65026afdf44c","des":"PC"},
+		"b22e2805b4bb808caa04d34e99cda551" : {"secret_key":"fd16dfc3ae2e9687fecc4db788ce1ae3","des":"iOS"},
+		"20428770772eaf774e6d09f6cbda2427" : {"secret_key":"a3b935ccfb5d18949540c3529b428dc2","des":"Android "}
+	},
+	"tmp" : {
+		"sdk_type" : "quick",
+		"CheckUserInfo" : "http://checkuser.sdk.quicksdk.net/v2/checkUserInfo",
+		"Md5_Key" : "12ksnopwl0so56pzdwwk3lchdvfabkoc",
+		"product_code" : "75239009301849836900294614454342",
+		"pay_callback" : "/pay_order",
+		"Callback_Key" : "69918745755940654119552428395002"
+	}
 }
