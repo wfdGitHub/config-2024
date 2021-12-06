@@ -1049,157 +1049,70 @@
     "key1": "xr_zs",
     "value1": 0.3
   },
-  "9701": {
-    "des": "生命值增加20%",
-    "key1": "self_maxHP_add",
-    "value1": 0.2
-  },
-  "9702": {
-    "des": "抗暴增加20%",
-    "key1": "critDef",
-    "value1": 0.2
-  },
-  "9703": {
-    "des": "命中增加20%",
-    "key1": "hitRate",
-    "value1": 0.2
-  },
-  "9704": {
-    "des": "物防增加20%",
-    "key1": "self_phyDef_add",
-    "value1": 0.2
-  },
-  "9705": {
-    "des": "法防增加20%",
-    "key1": "self_magDef_add",
-    "value1": 0.2
-  },
-  "9706": {
+  "9710": {
     "des": "受到治疗效果增加20%",
     "key1": "healAdd",
     "value1": 0.2
   },
-  "9801": {
-    "des": "暴击增加20%",
-    "key1": "crit",
+  "9711": {
+    "des": "生命值增加20%",
+    "key1": "self_maxHP_add",
     "value1": 0.2
   },
-  "9802": {
-    "des": "伤害增加20%",
-    "key1": "amplify",
+  "9712": {
+    "des": "抗暴增加20%",
+    "key1": "critDef",
     "value1": 0.2
   },
-  "9803": {
-    "des": "闪避增加20%",
-    "key1": "dodgeRate",
+  "9713": {
+    "des": "命中增加20%",
+    "key1": "hitRate",
     "value1": 0.2
   },
-  "9804": {
-    "des": "速度增加10%",
-    "key1": "self_speed_add",
-    "value1": 0.1
-  },
-  "9805": {
-    "des": "受到直接伤害反伤增加20%",
-    "key1": "hit_rebound",
-    "value1": 0.2
-  },
-  "9806": {
+  "9714": {
     "des": "技能治疗效果增加20%",
     "key1": "skill_heal_amp",
     "value1": 0.2
   },
-  "9807": {
-    "des": "释放技能后恢复自身1点怒气",
-    "key1": "skill_anger_s",
-    "value1": 1
+  "9715": {
+    "des": "暴击率增加20%",
+    "key1": "crit",
+    "value1": 0.2
   },
-  "9808": {
-    "des": "自身处于异常状态时，免伤+30%",
-    "key1": "my_debuff_red",
-    "value1": 0.3
+  "9716": {
+    "des": "暴击伤害增加20%",
+    "key1": "slay",
+    "value1": 0.2
   },
-  "9809": {
+  "9717": {
+    "des": "技能伤害增加20%",
+    "key1": "skill_attack_amp",
+    "value1": 0.2
+  },
+  "9718": {
+    "des": "每回合行动后恢复自身20%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.2
+  },
+  "9719": {
     "des": "全体上阵英雄伤害+8%",
     "key1": "team_amplify_add",
     "value1": 0.08
   },
-  "9810": {
+  "9720": {
     "des": "全体上阵英雄生命+8%",
     "key1": "team_maxHP_add",
     "value1": 0.08
   },
-  "9811": {
+  "9721": {
     "des": "全体上阵英雄暴击+8%",
     "key1": "team_crit_add",
     "value1": 0.08
   },
-  "9812": {
+  "9722": {
     "des": "全体上阵英雄免伤+8%",
     "key1": "team_dodgeRate_add",
     "value1": 0.08
-  },
-  "9901": {
-    "des": "每回合行动后恢复35%最大生命值",
-    "key1": "action_heal",
-    "value1": 0.35
-  },
-  "9902": {
-    "des": "战斗中首次死亡时复活，并恢复全部血量",
-    "key1": "died_resurgence",
-    "value1": true
-  },
-  "9903": {
-    "des": "释放技能后回复全体队友1点怒气",
-    "key1": "skill_anger_a",
-    "value1": 1
-  },
-  "9904": {
-    "des": "行动前，如果自己怒气小于4点,则会跳过行动，并使自身怒气增加4点",
-    "key1": "less_anger_skip",
-    "value1": true
-  },
-  "9905": {
-    "des": "当自身被添加负面状态和控制效果时，会失去5%最大生命值，并免疫此效果。自身生命小于5%时不会触发",
-    "key1": "loss_hp_debuff",
-    "value1": 0.05
-  },
-  "9906": {
-    "des": "全局回合结束时，如果自身生命小于50%，则恢复自身24%生命，如果大于等于50%，则提升自身24%的伤害，持续1回合",
-    "key1": "less_half_hp_heal",
-    "value1": 0.24,
-    "key2": "more_half_hp_buff",
-    "value2": "{\"buffId\":\"amplify\",\"buffArg\":0.24,\"duration\":1}"
-  },
-  "9907": {
-    "des": "受到直接物理伤害时己方全体怒气提升1点，每回合最多触发2次",
-    "key1": "phy_turn_team_anger",
-    "value1": 2
-  },
-  "9908": {
-    "des": "每回合受到的第一次技能伤害降低80%",
-    "key1": "first_beSkill_red",
-    "value1": 0.8
-  },
-  "9909": {
-    "des": "受到直接伤害时，有40%概率使自己额外行动一回合，每回合最多触发一次",
-    "key1": "onHit_extra_action",
-    "value1": 0.4
-  },
-  "9910": {
-    "des": "自身行动后，有55%概率使自身额外行动一回合，每回合最多触发一次",
-    "key1": "action_extra_action",
-    "value1": 0.55
-  },
-  "9911": {
-    "des": "技能伤害增加35%",
-    "key1": "skill_attack_amp",
-    "value1": 0.35
-  },
-  "9912": {
-    "des": "战斗前二回合获得无敌吸血盾",
-    "key1": "first_buff2",
-    "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "9050180": {
     "des": "携带英雄位于后排时，命中+10%，破甲+10%",
@@ -3338,171 +3251,218 @@
     "value2": 0.02
   },
   "zf_001": {
+    "des": "行动前，如果自己怒气小于4点,则会跳过行动，并使自身怒气增加4点",
+    "key1": "less_anger_skip",
+    "value1": true
+  },
+  "zf_002": {
     "des": "自身添加的持续治疗效果生效时，有50%概率使自身怒气增加1点",
     "key1": "recover_anger",
     "value1": 0.5
   },
-  "zf_002": {
+  "zf_003": {
     "des": "己方每死亡一名英雄，自身伤害增加15%，最多叠加3次",
     "key1": "friend_died_amp",
     "value1": 0.15,
     "key2": "friend_died_count",
     "value2": 3
   },
-  "zf_003": {
+  "zf_004": {
     "des": "死亡后，自身剩余怒气会转移给怒气最少的友方英雄",
     "key1": "last_strategy",
     "value1": true
   },
-  "zf_004": {
+  "zf_005": {
     "des": "回合内受到同一敌方英雄攻击时，每受到一次伤害，其伤害降低30%",
     "key1": "round_same_hit_red",
     "value1": 0.3
   },
-  "zf_005": {
+  "zf_006": {
     "des": "对处于异常状态的英雄造成的直接伤害提升30%",
     "key1": "enemy_debuff_amp",
     "value1": 0.3
   },
-  "zf_006": {
+  "zf_007": {
+    "des": "自身处于异常状态时，免伤+30%",
+    "key1": "my_debuff_red",
+    "value1": 0.3
+  },
+  "zf_008": {
     "des": "受到单体技能伤害时，恢复自身24%生命值",
     "key1": "single_skill_heal",
     "value1": 0.24
   },
-  "zf_007": {
+  "zf_009": {
     "des": "释放技能后，自身怒气增加2点",
     "key1": "skill_anger_s",
     "value1": 2
   },
-  "zf_008": {
+  "zf_010": {
     "des": "全局回合结束后，如果自身没有行动，则使自身获得免控盾，持续2回合",
     "key1": "no_ation_buff",
     "value1": "{\"buffId\":\"immune\",\"duration\":2}"
   },
-  "zf_009": {
+  "zf_011": {
+    "des": "当自身被添加负面状态和控制效果时，会失去5%最大生命值，并免疫此效果。自身生命小于5%时不会触发",
+    "key1": "loss_hp_debuff",
+    "value1": 0.05
+  },
+  "zf_012": {
+    "des": "全局回合结束时，如果自身生命小于50%，则恢复自身24%生命，如果大于等于50%，则提升自身10%的伤害，持续1回合",
+    "key1": "less_half_hp_heal",
+    "value1": 0.24,
+    "key2": "more_half_hp_buff",
+    "value2": "{\"buffId\":\"amplify\",\"buffArg\":0.1,\"duration\":1}"
+  },
+  "zf_013": {
     "des": "当自身受到直接伤害生命值降低到50%以下时，立即清除自己异常状态，并对自身释放无敌盾，持续一回合，每场战斗最多生效一次",
     "key1": "half_hp_immune",
     "value1": true
   },
-  "zf_010": {
+  "zf_014": {
     "des": "释放技能后，会清除己方生命最低的1名英雄的非控制类负面状态",
     "key1": "skill_clear_debuff",
     "value1": true
   },
-  "zf_011": {
+  "zf_015": {
+    "des": "受到直接物理伤害时己方全体怒气提升1点，每回合最多触发2次",
+    "key1": "phy_turn_team_anger",
+    "value1": 2
+  },
+  "zf_016": {
     "des": "受到亡魂状态的敌人攻击后恢复自身30%最大生命值",
     "key1": "ghost_atk_heal",
     "value1": 0.3
   },
-  "zf_012": {
+  "zf_017": {
     "des": "当前怒气小于4点时，也能施放技能，技能伤害降低15%*(4-当前怒气值)",
     "key1": "anyAnger",
     "value1": true
   },
-  "zf_013": {
+  "zf_018": {
     "des": "追加普攻或技能时，会使自身增加生命值15%的伤害吸收盾，可叠加",
     "key1": "chase_shield",
     "value1": 0.15
   },
-  "zf_014": {
+  "zf_019": {
     "des": "对敌方造成直接伤害时，始终视目标为灼烧状态(水龙冲击、眩晕等特殊效果无效)",
     "key1": "damage_always_burn",
     "value1": true
   },
-  "zf_015": {
+  "zf_020": {
     "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值20%的伤害",
     "key1": "poison_clean_damage",
     "value1": 0.2
   },
-  "zf_016": {
+  "zf_021": {
     "des": "释放治疗技能后，若目标英雄与自身同阵营，则为其添加伤害吸收盾（吸收生命值上限15%伤害）",
     "key1": "heal_same_shild",
     "value1": 0.15
   },
-  "zf_017": {
+  "zf_022": {
     "des": "当自身受到直接伤害使生命值降低到50%以下时，为自己附加伤害吸收盾（吸收生命值上限27%伤害），每回合可触发一次",
     "key1": "half_hp_shild",
     "value1": 0.27
   },
-  "zf_018": {
+  "zf_023": {
     "des": "本回合中，己方同阵营英雄行动后，自身伤害提升8%，最多叠加4次",
     "key1": "realm_action_amp",
     "value1": 0.08
   },
-  "zf_019": {
+  "zf_024": {
+    "des": "每回合受到的第一次技能伤害降低80%",
+    "key1": "first_beSkill_red",
+    "value1": 0.8
+  },
+  "zf_025": {
     "des": "对敌方造成法术伤害时，伤害的12%会转为自身伤害吸收盾",
     "key1": "mag_change_shield",
     "value1": 0.12
   },
-  "zf_020": {
+  "zf_026": {
     "des": "自身拥有伤害吸收盾时，受到的直接伤害降低20%",
     "key1": "shield_red",
     "value1": 0.2
   },
-  "zf_021": {
+  "zf_027": {
     "des": "受到直接伤害时，伤害的30%转化为伤害吸收盾附加给友方生命值最少的英雄",
     "key1": "damage_firend_shild",
     "value1": 0.3
   },
-  "zf_022": {
+  "zf_028": {
+    "des": "受到直接伤害时，有30%概率使自己额外行动一回合，每回合最多触发一次",
+    "key1": "onHit_extra_action",
+    "value1": 0.3
+  },
+  "zf_029": {
     "des": "战斗开始前，己方全体暴击概率提升(10%*己方场上同阵营英雄数量)，持续1回合",
     "key1": "begin_realm_crit",
     "value1": 0.1
   },
-  "zf_023": {
+  "zf_030": {
+    "des": "自身行动后，有40%概率使自身额外行动一回合，每回合最多触发一次",
+    "key1": "action_extra_action",
+    "value1": 0.4
+  },
+  "zf_031": {
     "des": "本回合内，自身行动前受到的直接伤害降低24%",
     "key1": "before_action_red",
     "value1": 0.24
   },
-  "zf_024": {
+  "zf_032": {
     "des": "受到直接伤害死亡时，对击杀自身的英雄造成40%最大生命值伤害",
     "key1": "died_maxHp_damage",
     "value1": 0.4
   },
-  "zf_025": {
+  "zf_033": {
     "des": "攻击时忽视目标无敌盾状态",
     "key1": "ignoreInvincible",
     "value1": true
   },
-  "zf_026": {
+  "zf_034": {
     "des": "若本回合内受到了超过生命上限50%的伤害，则本回合内后续受到直接伤害降至1点",
     "key1": "half_hp_red",
     "value1": true
   },
-  "zf_027": {
+  "zf_035": {
     "des": "对敌方造成法术伤害时，如果目标处于异常状态，则使其怒气降低1点",
     "key1": "mag_debuff_anger",
     "value1": true
   },
-  "zf_028": {
+  "zf_036": {
     "des": "全局回合结束后，自身恢复(5%*己方所有同阵营英雄回合内行动次数)生命",
     "key1": "friend_ation_hp",
     "value1": 0.05
   },
-  "zf_029": {
+  "zf_037": {
     "des": "每位存活的其他同阵营英雄都会提高自身5%的伤害",
     "key1": "realm_friend_amp",
     "value1": 0.05
   },
-  "zf_030": {
+  "zf_038": {
     "des": "造成的物理伤害无视目标伤害吸收盾",
     "key1": "ignore_shild",
     "value1": true
   },
-  "zf_031": {
+  "zf_039": {
     "des": "每位存活的其他同阵营英雄都会提高自身5%的免伤",
     "key1": "realm_friend_reduction",
     "value1": 0.05
   },
-  "zf_032": {
+  "zf_040": {
     "des": "战斗前2回合获得免控盾",
     "key1": "zf_sjms",
     "value1": true
   },
-  "zf_033": {
+  "zf_041": {
     "des": "对重伤状态下的目标伤害提升100%",
     "key1": "forbidden_amp",
     "value1": 1
+  },
+  "zf_042": {
+    "des": "战斗中首次死亡时复活，并恢复全部血量",
+    "key1": "died_resurgence",
+    "value1": true
   },
   "suit_2_1": {
     "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收15%生命值上限伤害）",
