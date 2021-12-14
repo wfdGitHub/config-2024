@@ -30,7 +30,9 @@
     "lev_limit": 100,
     "pc_hero": "[[\"self\"],[\"realm_point\"],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "pr": "1000050:500&101:5000&203:250",
-    "ce": 8000
+    "ce": 8000,
+    "gather": 5,
+    "gather_att": "maxHP:50&atk:10"
   },
   "6": {
     "att": "maxHP:2200&atk:330&phyDef:110&magDef:110&speed:30",
@@ -39,7 +41,9 @@
     "pc": "1000050:8000",
     "pc_hero": "[[\"self\"],[\"rand\",6],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "pr": "1000050:1500&101:10000&203:1250",
-    "ce": 42840
+    "ce": 42840,
+    "gather": 2,
+    "gather_att": "maxHP:70&atk:14"
   },
   "7": {
     "att": "maxHP:3400&atk:510&phyDef:170&magDef:170&speed:50",
@@ -48,7 +52,9 @@
     "pc": "1000050:10000",
     "pc_hero": "[[\"self\"],[\"realm_rand\",6],[\"realm_rand\",6],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "pr": "1000050:9500&101:20000&203:2500",
-    "ce": 60480
+    "ce": 60480,
+    "gather": 3,
+    "gather_att": "maxHP:100&atk:20"
   },
   "8": {
     "att": "maxHP:4600&atk:690&phyDef:230&magDef:230&speed:80",
@@ -57,7 +63,9 @@
     "pc": "1000050:20000",
     "pc_hero": "[[\"self\"],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6]]",
     "pr": "1000050:19500&101:40000&203:5000",
-    "ce": 88120
+    "ce": 88120,
+    "gather": 4,
+    "gather_att": "maxHP:140&atk:28"
   },
   "9": {
     "att": "maxHP:5800&atk:870&phyDef:290&magDef:290&speed:120",
@@ -66,7 +74,9 @@
     "pc": "1000050:40000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"rand\",9]]",
     "pr": "1000050:39500&101:80000&203:10000",
-    "ce": 125760
+    "ce": 125760,
+    "gather": 6,
+    "gather_att": "maxHP:200&atk:40"
   },
   "10": {
     "att": "maxHP:7000&atk:1050&phyDef:350&magDef:350&speed:180",
@@ -75,7 +85,9 @@
     "pc": "1000050:60000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",9],[\"realm_rand\",9],[\"realm_rand\",9],[\"realm_rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9]]",
     "pr": "1000050:79500&101:160000&203:20000",
-    "ce": 208400
+    "ce": 208400,
+    "gather": 10,
+    "gather_att": "maxHP:300&atk:60"
   },
   "11": {
     "att": "maxHP:20000&atk:1500&phyDef:500&magDef:500&speed:220",
@@ -84,7 +96,9 @@
     "pc": "1000050:100000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9]]",
     "pr": "1000050:139500&101:320000&203:30000",
-    "ce": 277000
+    "ce": 277000,
+    "gather": 8,
+    "gather_att": "maxHP:380&atk:76"
   },
   "12": {
     "att": "maxHP:24000&atk:1800&phyDef:600&magDef:600&speed:240",
@@ -93,7 +107,9 @@
     "pc": "1000050:100000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",9],[\"realm_rand\",9],[\"rand\",9],[\"rand\",9]]",
     "pr": "1000050:239500&101:400000&203:40000",
-    "ce": 345600
+    "ce": 345600,
+    "gather": 8,
+    "gather_att": "maxHP:460&atk:92"
   },
   "13": {
     "att": "maxHP:28000&atk:2100&phyDef:700&magDef:700&speed:260",
@@ -102,7 +118,9 @@
     "pc": "1000050:100000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",9],[\"realm_rand\",9],[\"realm_rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9]]",
     "pr": "1000050:339500&101:480000&203:50000",
-    "ce": 414200
+    "ce": 414200,
+    "gather": 8,
+    "gather_att": "maxHP:540&atk:108"
   },
   "14": {
     "att": "maxHP:32000&atk:2400&phyDef:800&magDef:800&speed:280",
@@ -111,13 +129,17 @@
     "pc": "1000050:100000",
     "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",9],[\"realm_rand\",9],[\"realm_rand\",9],[\"realm_rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9],[\"rand\",9]]",
     "pr": "1000050:439500&101:560000&203:60000",
-    "ce": 482800
+    "ce": 482800,
+    "gather": 8,
+    "gather_att": "maxHP:620&atk:124"
   },
   "15": {
     "att": "maxHP:34000&atk:2700&phyDef:900&magDef:900&speed:300",
     "stage_limit": 6,
     "lev_limit": 330,
     "pr": "1000050:539500&101:640000&203:70000",
-    "ce": 551400
+    "ce": 551400,
+    "gather": 18,
+    "gather_att": "maxHP:800&atk:160"
   }
 }
