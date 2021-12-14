@@ -193,104 +193,102 @@
     "target": "hallNode/map/content/mapNode/near/btnSmithy"
   },
   "29": {
-    "name": "新服BOSS",
-    "key": "areaBoss",
-    "openlv": 20,
-    "desc": "全服挑战，击杀后可领取全服奖励",
-    "target": "hallNode/topNode/mainBtnList/btnAreaBoss"
-  },
-  "30": {
     "name": "极限挑战",
     "key": "extremity",
-    "openlv": 20,
+    "openlv": 25,
     "desc": "极限输出，根据伤害获得宝箱",
     "target": "hallNode/btnPlaying"
   },
-  "31": {
-    "name": "英雄试炼",
-    "key": "secretChallenge",
-    "openlv": 23,
-    "desc": "完成英雄试炼，获取英雄碎片",
-    "target": "uiNode/bottomNode/btnExperience"
-  },
-  "32": {
-    "name": "无尽试炼",
-    "key": "endless",
-    "openlv": 26,
-    "desc": "每天开启不同模式，根据层数获得奖励",
-    "target": "hallNode/btnPlaying"
-  },
-  "33": {
+  "30": {
     "name": "沙盘演武",
     "key": "exercise",
-    "openlv": 30,
+    "openlv": 33,
     "desc": "公平对战，提前体验顶级英雄",
     "target": "hallNode/btnPlaying"
   },
+  "31": {
+    "name": "王者巅峰赛",
+    "key": "crossTop",
+    "openlv": 36,
+    "desc": "实力展现，勇夺排名，谁才是王者",
+    "target": "uiNode/bottomNode/btnExperience"
+  },
+  "32": {
+    "name": "阵营之塔",
+    "key": "tower_realm",
+    "openlv": 41,
+    "desc": "限定阵营挑战，获得丰厚奖励"
+  },
+  "33": {
+    "name": "新服BOSS",
+    "key": "areaBoss",
+    "openlv": 45,
+    "desc": "全服挑战，击杀后可领取全服奖励",
+    "target": "hallNode/topNode/mainBtnList/btnAreaBoss"
+  },
   "34": {
+    "name": "无尽试炼",
+    "key": "endless",
+    "openlv": 49,
+    "desc": "每天开启不同模式，根据层数获得奖励",
+    "target": "hallNode/btnPlaying"
+  },
+  "35": {
+    "name": "远古战场",
+    "key": "ancient",
+    "openlv": 52,
+    "desc": "1V2V3策略搭配竞技，拼实力更看策略",
+    "target": "uiNode/bottomNode/btnExperience"
+  },
+  "36": {
     "name": "皇陵探险",
     "key": "zhulu",
-    "openlv": 35,
+    "openlv": 56,
     "desc": "揭秘皇陵秘宝，获取战功，兑换稀有奖励",
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
-  "35": {
+  "37": {
     "name": "藏宝阁",
     "key": "extract",
-    "openlv": 35,
+    "openlv": 58,
     "desc": "探秘宝库，获得稀有道具",
     "target": "hallNode/btnLimited"
   },
-  "36": {
+  "38": {
     "name": "限时招募",
     "key": "topic",
-    "openlv": 35,
+    "openlv": 58,
     "desc": "可招募主题英雄，每日刷新主题",
     "target": "hallNode/btnLimited"
   },
-  "37": {
+  "39": {
     "name": "无双争霸",
     "key": "beherrscher",
-    "openlv": 36,
+    "openlv": 59,
     "desc": "稀有站位争夺，挑战可获得稀有称号",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "38": {
-    "name": "远古战场",
-    "key": "ancient",
-    "openlv": 38,
-    "desc": "1V2V3策略搭配竞技，拼实力更看策略",
-    "target": "uiNode/bottomNode/btnExperience"
-  },
-  "39": {
+  "40": {
     "name": "玉石系统",
     "key": "pit",
-    "openlv": 40,
-    "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
-    "target": "uiNode/bottomNode/btnExperience"
-  },
-  "40": {
-    "name": "跨服竞技",
-    "key": "crossPK",
-    "openlv": 45,
-    "desc": "巅峰竞技，勇夺冠军，彰显实力",
+    "openlv": 60,
+    "desc": "四圣宝石加持，加强英雄属性",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "41": {
-    "name": "王者巅峰赛",
-    "key": "crossTop",
-    "openlv": 46,
-    "desc": "实力展现，勇夺排名，谁才是王者",
-    "target": "uiNode/bottomNode/btnExperience"
+    "name": "玉石矿场",
+    "key": "pit",
+    "openlv": 60,
+    "desc": "玉石矿场，挖掘玉石",
+    "targetChild": true
   },
   "42": {
-    "name": "夷陵之战",
-    "key": "dailyFb_ace",
-    "openlv": 56,
-    "desc": "宝物散落之地，挑战可获得大量宝物值",
-    "target": "uiNode/bottomNode/btnExperience",
-    "targetChild": true
+    "name": "跨服竞技",
+    "key": "crossPK",
+    "openlv": 62,
+    "desc": "巅峰竞技，勇夺冠军，彰显实力",
+    "target": "uiNode/bottomNode/btnExperience"
   },
   "43": {
     "name": "兵法系统",
@@ -300,20 +298,42 @@
     "target": "hallNode/bottomNode/btnList/btnBook"
   },
   "44": {
+    "name": "英雄试炼",
+    "key": "secretChallenge",
+    "openlv": 66,
+    "desc": "完成英雄试炼，获取英雄碎片",
+    "target": "uiNode/bottomNode/btnExperience"
+  },
+  "45": {
     "name": "七擒孟获",
     "key": "dailyFb_book",
     "openlv": 65,
     "desc": "兵法孕育之地，挑战可获得大量兵法培养材料",
     "target": "uiNode/bottomNode/btnExperience"
   },
-  "45": {
-    "name": "天命之战",
-    "key": "crossTeamPK",
-    "openlv": 72,
-    "desc": "阵营决战，酣战不休，提升积分，榜上留名",
-    "target": "uiNode/bottomNode/btnExperience"
-  },
   "46": {
+    "name": "技能宝石",
+    "key": "pit_skill",
+    "openlv": 70,
+    "desc": "增加被动技能，助力逆风翻盘"
+  },
+  "47": {
+    "name": "宝物系统",
+    "key": "ace",
+    "openlv": 72,
+    "desc": "宝物助阵英雄，发挥极致实力",
+    "target": "uiNode/frontNode/bottomNode/btnHero",
+    "targetChild": true
+  },
+  "48": {
+    "name": "夷陵之战",
+    "key": "dailyFb_ace",
+    "openlv": 72,
+    "desc": "宝物散落之地，挑战可获得大量宝物值",
+    "target": "uiNode/bottomNode/btnExperience",
+    "targetChild": true
+  },
+  "49": {
     "name": "英雄觉醒",
     "key": "wake",
     "openlv": 80,
@@ -321,20 +341,35 @@
     "target": "uiNode/bottomNode/btnHero",
     "targetChild": true
   },
-  "47": {
+  "50": {
+    "name": "天命之战",
+    "key": "crossTeamPK",
+    "openlv": 85,
+    "desc": "阵营决战，酣战不休，提升积分，榜上留名",
+    "target": "uiNode/bottomNode/btnExperience"
+  },
+  "51": {
     "name": "战法系统",
     "key": "zhanfa",
-    "openlv": 80,
+    "openlv": 90,
     "desc": "策略战法，全新战斗体验",
     "target": "hallNode/bottomNode/btnList/btnZf",
     "targetChild": true
   },
-  "48": {
+  "52": {
     "name": "神装系统",
     "key": "superEquip",
-    "openlv": 90,
+    "openlv": 100,
     "desc": "神装在手，征战天下一统乱世",
     "target": "hallNode/map/content/mapNode/near/btnSmithy",
+    "targetChild": true
+  },
+  "53": {
+    "name": "血战华容",
+    "key": "areaTrial",
+    "openlv": 101,
+    "desc": "超高难度一挑三，勇者拿神装",
+    "target": "uiNode/frontNode/bottomNode/btnExperience",
     "targetChild": true
   }
 }
