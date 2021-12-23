@@ -217,7 +217,8 @@
     "name": "阵营之塔",
     "key": "tower_realm",
     "openlv": 41,
-    "desc": "限定阵营挑战，获得丰厚奖励"
+    "desc": "限定阵营挑战，获得丰厚奖励",
+    "target": "hallNode/btnPlaying"
   },
   "33": {
     "name": "新服BOSS",
@@ -281,6 +282,7 @@
     "key": "pit",
     "openlv": 60,
     "desc": "玉石矿场，挖掘玉石",
+    "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
   "42": {
@@ -315,7 +317,8 @@
     "name": "技能宝石",
     "key": "pit_skill",
     "openlv": 70,
-    "desc": "增加被动技能，助力逆风翻盘"
+    "desc": "增加被动技能，助力逆风翻盘",
+    "target": "uiNode/bottomNode/btnExperience"
   },
   "47": {
     "name": "宝物系统",
