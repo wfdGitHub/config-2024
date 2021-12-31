@@ -2,7 +2,11 @@
   "development":{
     "connector": [
       {"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientHost": "127.0.0.1", "clientPort": 3010, "frontend": true,"auto-restart": true},
-      {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientHost": "127.0.0.1", "clientPort": 3011, "frontend": true,"auto-restart": true}
+      {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientHost": "127.0.0.1", "clientPort": 3011, "frontend": true,"auto-restart": true},
+      {"id": "connector-server-3", "host": "127.0.0.1", "port": 3152, "clientHost": "127.0.0.1", "clientPort": 3012, "frontend": true,"auto-restart": true},
+      {"id": "connector-server-4", "host": "127.0.0.1", "port": 3153, "clientHost": "127.0.0.1", "clientPort": 3013, "frontend": true,"auto-restart": true},
+      {"id": "connector-server-5", "host": "127.0.0.1", "port": 3154, "clientHost": "127.0.0.1", "clientPort": 3014, "frontend": true,"auto-restart": true},
+      {"id": "connector-server-6", "host": "127.0.0.1", "port": 3155, "clientHost": "127.0.0.1", "clientPort": 3015, "frontend": true,"auto-restart": true}
     ],
     "gate":[
        {"id": "gate-server-1", "host": "127.0.0.1", "port": 3850, "clientHost": "127.0.0.1", "clientPort": 3910, "frontend": true,"auto-restart": true}
@@ -15,7 +19,11 @@
     ],
     "area":[
       {"id": "area-server-1", "host": "127.0.0.1", "port": 3250,"auto-restart": true},
-      {"id": "area-server-2", "host": "127.0.0.1", "port": 3251,"auto-restart": true}
+      {"id": "area-server-2", "host": "127.0.0.1", "port": 3251,"auto-restart": true},
+      {"id": "area-server-3", "host": "127.0.0.1", "port": 3252,"auto-restart": true},
+      {"id": "area-server-4", "host": "127.0.0.1", "port": 3253,"auto-restart": true},
+      {"id": "area-server-5", "host": "127.0.0.1", "port": 3254,"auto-restart": true},
+      {"id": "area-server-6", "host": "127.0.0.1", "port": 3255,"auto-restart": true}
     ],
     "chat":[
       {"id": "chat-server-1", "host": "127.0.0.1", "port": 3400,"auto-restart": true}
