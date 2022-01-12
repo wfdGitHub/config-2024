@@ -2853,147 +2853,45 @@
     "key2": "back_atk",
     "value2": 0.1
   },
-  "9080010": {
+  "9070010": {
+    "des": "暴击加百分之20",
+    "key1": "crit",
+    "value1": 0.2
+  },
+  "9070020": {
+    "des": "释放技能后回复全体队友2点怒气",
+    "key1": "skill_anger_a",
+    "value1": 2
+  },
+  "9070030": {
+    "des": "释放技能后回复全体队友2点怒气",
+    "key1": "skill_anger_a",
+    "value1": 2
+  },
+  "9070040": {
+    "des": "全体上阵英雄免伤+8%",
+    "key1": "team_reduction_add",
+    "value1": 0.08
+  },
+  "9070050": {
     "des": "生命值增加20%",
     "key1": "self_maxHP_add",
     "value1": 0.2
   },
-  "9080020": {
-    "des": "抗暴增加20%",
-    "key1": "critDef",
-    "value1": 0.2
-  },
-  "9080030": {
-    "des": "命中增加20%",
-    "key1": "hitRate",
-    "value1": 0.2
-  },
-  "9080040": {
-    "des": "物防增加20%",
-    "key1": "self_phyDef_add",
-    "value1": 0.2
-  },
-  "9080050": {
-    "des": "法防增加20%",
-    "key1": "self_magDef_add",
-    "value1": 0.2
-  },
-  "9080060": {
-    "des": "受到治疗效果增加20%",
-    "key1": "healAdd",
-    "value1": 0.2
-  },
-  "9080070": {
-    "des": "暴击增加20%",
-    "key1": "crit",
-    "value1": 0.2
-  },
-  "9080080": {
-    "des": "伤害增加20%",
-    "key1": "amplify",
-    "value1": 0.2
-  },
-  "9080090": {
-    "des": "闪避增加20%",
-    "key1": "dodgeRate",
-    "value1": 0.2
-  },
-  "9080100": {
-    "des": "受到直接伤害反伤增加20%",
-    "key1": "hit_rebound",
-    "value1": 0.2
-  },
-  "9080110": {
-    "des": "技能治疗效果增加20%",
-    "key1": "skill_heal_amp",
-    "value1": 0.2
-  },
-  "9080120": {
-    "des": "释放技能后恢复自身1点怒气",
-    "key1": "skill_anger_s",
-    "value1": 1
-  },
-  "9080130": {
-    "des": "自身处于异常状态时，免伤+30%",
-    "key1": "my_debuff_red",
-    "value1": 0.3
-  },
-  "9080140": {
-    "des": "全体上阵英雄伤害+8%",
-    "key1": "team_amplify_add",
-    "value1": 0.08
-  },
-  "9080150": {
-    "des": "全体上阵英雄生命+8%",
-    "key1": "team_maxHP_add",
-    "value1": 0.08
-  },
-  "9080160": {
-    "des": "全体上阵英雄暴击+8%",
-    "key1": "team_crit_add",
-    "value1": 0.08
-  },
-  "9080170": {
-    "des": "每回合行动后恢复35%最大生命值",
-    "key1": "action_heal",
-    "value1": 0.35
-  },
-  "9080180": {
+  "9070060": {
     "des": "战斗中首次死亡时复活，并恢复全部血量",
     "key1": "died_resurgence",
     "value1": true
   },
-  "9080190": {
-    "des": "释放技能后回复全体队友1点怒气",
-    "key1": "skill_anger_a",
-    "value1": 1
+  "9070070": {
+    "des": "闪避增加20%",
+    "key1": "dodgeRate",
+    "value1": 0.2
   },
-  "9080200": {
-    "des": "行动前，如果自己怒气小于4点,则会跳过行动，并使自身怒气增加4点",
-    "key1": "less_anger_skip",
-    "value1": true
-  },
-  "9080210": {
-    "des": "当自身被添加负面状态和控制效果时，会失去10%最大生命值，并免疫此效果。自身生命小于10%时不会触发",
-    "key1": "loss_hp_debuff",
-    "value1": 0.1
-  },
-  "9080220": {
-    "des": "全局回合结束时，如果自身生命小于50%，则恢复自身24%生命，如果大于等于50%，则提升自身24%的伤害，持续1回合",
-    "key1": "less_half_hp_heal",
-    "value1": 0.24,
-    "key2": "more_half_hp_buff",
-    "value2": "{\"buffId\":\"amplify\",\"buffArg\":0.24,\"duration\":1}"
-  },
-  "9080230": {
-    "des": "受到直接物理伤害时己方全体怒气提升1点，每回合最多触发2次",
-    "key1": "phy_turn_team_anger",
-    "value1": 2
-  },
-  "9080240": {
-    "des": "每回合受到的第一次技能伤害降低80%",
-    "key1": "first_beSkill_red",
-    "value1": 0.8
-  },
-  "9080250": {
-    "des": "受到直接伤害时，有40%概率使自己额外行动一回合，每回合最多触发一次",
-    "key1": "onHit_extra_action",
-    "value1": 0.4
-  },
-  "9080260": {
-    "des": "自身行动后，有55%概率使自身额外行动一回合，每回合最多触发一次",
-    "key1": "action_extra_action",
-    "value1": 0.55
-  },
-  "9080270": {
-    "des": "技能伤害增加35%",
-    "key1": "skill_attack_amp",
-    "value1": 0.35
-  },
-  "9080280": {
-    "des": "战斗前二回合获得无敌吸血盾",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
+  "9070080": {
+    "des": "伤害减免增加20%",
+    "key1": "reduction",
+    "value1": 0.2
   },
   "skin_zhouyu_sp": {
     "des": "法术伤害+10%",
@@ -3574,26 +3472,5 @@
     "value1": 0.1,
     "key2": "self_maxHP_add",
     "value2": 0.1
-  },
-  "skin_1": {
-    "des": "攻击力+10%，暴击率+10%",
-    "key1": "self_atk_add",
-    "value1": 0.1,
-    "key2": "crit",
-    "value2": 0.1
-  },
-  "skin_2": {
-    "des": "攻击力+20%，暴击率+20%",
-    "key1": "self_atk_add",
-    "value1": 0.2,
-    "key2": "crit",
-    "value2": 0.2
-  },
-  "skin_3": {
-    "des": "攻击力+40%，暴击率+40%",
-    "key1": "self_atk_add",
-    "value1": 0.4,
-    "key2": "crit",
-    "value2": 0.4
   }
 }
