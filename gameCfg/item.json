@@ -40,8 +40,8 @@
     "name": "钻石",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.05,
-    "coin": 250,
+    "gold": 0.01,
+    "coin": 50,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -65,7 +65,7 @@
     "name": "钻石替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 20,
+    "arg": 100,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -7514,6 +7514,14 @@
     "coin": 11000000,
     "buyNum": 1,
     "quality": 5
+  },
+  "208001003": {
+    "name": "新春转盘宝盒",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "1000602:10"
   },
   "303006001": {
     "name": "神器碎片自选箱",
