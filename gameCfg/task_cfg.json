@@ -36,7 +36,7 @@
     "refresh": "day",
     "type": "ttt",
     "value": 1,
-    "award": "1000050:20",
+    "award": "1000050:100",
     "liveness": 10
   },
   "100006": {
@@ -53,7 +53,7 @@
     "type": "tour",
     "arg": 1,
     "value": 3,
-    "award": "1000050:20",
+    "award": "1000050:100",
     "liveness": 10
   },
   "100008": {
@@ -61,7 +61,7 @@
     "refresh": "day",
     "type": "extremity",
     "value": 1,
-    "award": "1000050:20",
+    "award": "1000050:100",
     "liveness": 10
   },
   "100009": {
@@ -77,7 +77,7 @@
     "refresh": "day",
     "type": "friendGift",
     "value": 3,
-    "award": "1000050:30",
+    "award": "1000050:500",
     "liveness": 10
   },
   "100011": {
@@ -2499,7 +2499,8 @@
     "refresh": "always",
     "type": "general",
     "value": 10000,
-    "award": "208:300"
+    "award": "208:300",
+    "desc": "名将选拔"
   },
   "201101": {
     "title": "神兵强化等级到达5级",
@@ -8235,140 +8236,140 @@
     "refresh": "week_target",
     "type": "quick",
     "value": 3,
-    "award": "1000080:1&208:1"
+    "award": "1000080:3&1000050:1000"
   },
   "301102": {
     "title": "快速作战6次",
     "refresh": "week_target",
     "type": "quick",
     "value": 6,
-    "award": "1000080:1&208:2"
+    "award": "1000080:6&1000050:2000"
   },
   "301103": {
     "title": "快速作战9次",
     "refresh": "week_target",
     "type": "quick",
     "value": 9,
-    "award": "1000080:1&208:3"
+    "award": "1000080:9&1000050:3000"
   },
   "301104": {
     "title": "快速作战12次",
     "refresh": "week_target",
     "type": "quick",
     "value": 12,
-    "award": "1000080:1&208:4"
+    "award": "1000080:12&1000050:4000"
   },
   "301105": {
     "title": "快速作战15次",
     "refresh": "week_target",
     "type": "quick",
     "value": 15,
-    "award": "1000080:1&208:5"
+    "award": "1000080:15&1000050:5000"
   },
   "301106": {
     "title": "快速作战20次",
     "refresh": "week_target",
     "type": "quick",
     "value": 20,
-    "award": "1000080:1&208:6"
+    "award": "1000080:20&1000050:6000"
   },
   "301107": {
     "title": "快速作战30次",
     "refresh": "week_target",
     "type": "quick",
     "value": 30,
-    "award": "1000080:1&208:7"
+    "award": "1000080:30&1000050:7000"
   },
   "301108": {
     "title": "快速作战50次",
     "refresh": "week_target",
     "type": "quick",
     "value": 50,
-    "award": "1000080:1&208:8"
+    "award": "1000080:50&1000050:8000"
   },
   "301109": {
-    "title": "快速作战80次",
-    "refresh": "week_target",
-    "type": "quick",
-    "value": 80,
-    "award": "1000080:1&208:9"
-  },
-  "301110": {
     "title": "快速作战100次",
     "refresh": "week_target",
     "type": "quick",
     "value": 100,
-    "award": "1000080:1&208:10"
+    "award": "1000080:100&1000050:9000"
+  },
+  "301110": {
+    "title": "快速作战200次",
+    "refresh": "week_target",
+    "type": "quick",
+    "value": 200,
+    "award": "1000080:200&1000050:10000"
   },
   "301201": {
     "title": "赠送好友2次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 2,
-    "award": "1000090:1&1000070:1"
+    "award": "208:1&1000070:1"
   },
   "301202": {
     "title": "赠送好友4次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 4,
-    "award": "1000090:1&1000070:2"
+    "award": "208:2&1000070:2"
   },
   "301203": {
     "title": "赠送好友6次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 6,
-    "award": "1000090:1&1000070:3"
+    "award": "208:3&1000070:3"
   },
   "301204": {
     "title": "赠送好友8次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 8,
-    "award": "1000090:1&1000070:4"
+    "award": "208:4&1000070:4"
   },
   "301205": {
     "title": "赠送好友10次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 10,
-    "award": "1000090:1&1000070:5"
+    "award": "208:5&1000070:5"
   },
   "301206": {
     "title": "赠送好友12次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 12,
-    "award": "1000090:1&1000070:6"
+    "award": "208:6&1000070:6"
   },
   "301207": {
     "title": "赠送好友14次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 14,
-    "award": "1000090:1&1000070:7"
+    "award": "208:7&1000070:7"
   },
   "301208": {
     "title": "赠送好友16次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 16,
-    "award": "1000090:1&1000070:8"
+    "award": "208:8&1000070:8"
   },
   "301209": {
     "title": "赠送好友18次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 18,
-    "award": "1000090:1&1000070:9"
+    "award": "208:9&1000070:9"
   },
   "301210": {
     "title": "赠送好友20次友情点",
     "refresh": "week_target",
     "type": "friendGift",
     "value": 20,
-    "award": "1000090:1&1000070:10"
+    "award": "208:10&1000070:10"
   },
   "302101": {
     "title": "通关第30关",
@@ -8376,7 +8377,7 @@
     "type": "checkpoints",
     "arg": 30,
     "value": 1,
-    "award": "202:30&1000100:1"
+    "award": "1000601:100&1000100:1"
   },
   "302102": {
     "title": "通关第50关",
@@ -8384,7 +8385,7 @@
     "type": "checkpoints",
     "arg": 50,
     "value": 1,
-    "award": "202:50&1000100:1"
+    "award": "1000601:200&1000100:1"
   },
   "302103": {
     "title": "通关第70关",
@@ -8392,7 +8393,7 @@
     "type": "checkpoints",
     "arg": 70,
     "value": 1,
-    "award": "202:70&1000100:1"
+    "award": "1000601:300&1000100:1"
   },
   "302104": {
     "title": "通关第90关",
@@ -8400,7 +8401,7 @@
     "type": "checkpoints",
     "arg": 90,
     "value": 1,
-    "award": "202:90&1000100:1"
+    "award": "1000601:400&1000100:1"
   },
   "302105": {
     "title": "通关第110关",
@@ -8408,7 +8409,7 @@
     "type": "checkpoints",
     "arg": 110,
     "value": 1,
-    "award": "202:110&1000100:1"
+    "award": "1000601:500&1000100:1"
   },
   "302106": {
     "title": "通关第130关",
@@ -8416,7 +8417,7 @@
     "type": "checkpoints",
     "arg": 130,
     "value": 1,
-    "award": "202:130&1000100:1"
+    "award": "1000601:600&1000100:1"
   },
   "302107": {
     "title": "通关第150关",
@@ -8424,7 +8425,7 @@
     "type": "checkpoints",
     "arg": 150,
     "value": 1,
-    "award": "202:150&1000100:2"
+    "award": "1000601:700&1000100:1"
   },
   "302108": {
     "title": "通关第170关",
@@ -8432,7 +8433,7 @@
     "type": "checkpoints",
     "arg": 170,
     "value": 1,
-    "award": "202:170&1000100:3"
+    "award": "1000601:800&1000100:1"
   },
   "302109": {
     "title": "通关第190关",
@@ -8440,7 +8441,7 @@
     "type": "checkpoints",
     "arg": 190,
     "value": 1,
-    "award": "202:190&1000100:4"
+    "award": "1000601:900&1000100:1"
   },
   "302110": {
     "title": "通关第210关",
@@ -8448,77 +8449,77 @@
     "type": "checkpoints",
     "arg": 210,
     "value": 1,
-    "award": "202:210&1000100:5"
+    "award": "1000601:1000&1000100:1"
   },
   "302201": {
-    "title": "高级招募30次",
+    "title": "高级招募50次",
     "refresh": "week_target",
     "type": "recruit_great",
-    "value": 30,
-    "award": "1000080:1&1000120:1"
+    "value": 50,
+    "award": "1000080:5&208:30"
   },
   "302202": {
-    "title": "高级招募60次",
+    "title": "高级招募100次",
     "refresh": "week_target",
     "type": "recruit_great",
-    "value": 60,
-    "award": "1000080:2&1000120:1"
+    "value": 100,
+    "award": "1000080:10&208:30"
   },
   "302203": {
-    "title": "高级招募90次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 90,
-    "award": "1000080:3&1000120:1"
-  },
-  "302204": {
-    "title": "高级招募120次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 120,
-    "award": "1000080:5&1000120:2"
-  },
-  "302205": {
-    "title": "高级招募150次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 150,
-    "award": "1000080:10&1000120:3"
-  },
-  "302206": {
     "title": "高级招募200次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 200,
-    "award": "1000080:20&1000120:4"
+    "award": "1000080:20&208:50"
   },
-  "302207": {
+  "302204": {
     "title": "高级招募300次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 300,
-    "award": "1000080:30&1000120:5"
+    "award": "1000080:30&208:50"
   },
-  "302208": {
-    "title": "高级招募400次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 400,
-    "award": "1000080:40&1000120:1"
-  },
-  "302209": {
+  "302205": {
     "title": "高级招募500次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 500,
-    "award": "1000080:50&1000120:2"
+    "award": "1000080:50&208:100"
   },
-  "302210": {
+  "302206": {
     "title": "高级招募1000次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 1000,
-    "award": "1000080:100&1000120:5"
+    "award": "1000080:100&208:100"
+  },
+  "302207": {
+    "title": "高级招募1500次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 1500,
+    "award": "1000080:150&208:150"
+  },
+  "302208": {
+    "title": "高级招募2000次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 2000,
+    "award": "1000080:200&208:200"
+  },
+  "302209": {
+    "title": "高级招募3000次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 3000,
+    "award": "1000080:300&208:300"
+  },
+  "302210": {
+    "title": "高级招募5000次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 5000,
+    "award": "1000080:500&208:500"
   },
   "303101": {
     "title": "乱世之路到达20层",
@@ -8681,7 +8682,7 @@
     "award": "1000150:10&1000080:50"
   },
   "304101": {
-    "title": "通关时空挑战第2关",
+    "title": "通关英雄试炼第2关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 2,
@@ -8689,7 +8690,7 @@
     "award": "1000400:1&1000300:10000"
   },
   "304102": {
-    "title": "通关时空挑战第4关",
+    "title": "通关英雄试炼第4关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 4,
@@ -8697,7 +8698,7 @@
     "award": "1000400:2&1000300:20000"
   },
   "304103": {
-    "title": "通关时空挑战第6关",
+    "title": "通关英雄试炼第6关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 6,
@@ -8705,7 +8706,7 @@
     "award": "1000400:3&1000300:30000"
   },
   "304104": {
-    "title": "通关时空挑战第8关",
+    "title": "通关英雄试炼第8关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 8,
@@ -8713,7 +8714,7 @@
     "award": "1000400:4&1000300:40000"
   },
   "304105": {
-    "title": "通关时空挑战第10关",
+    "title": "通关英雄试炼第10关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 10,
@@ -8721,7 +8722,7 @@
     "award": "1000400:5&1000300:50000"
   },
   "304106": {
-    "title": "通关时空挑战第12关",
+    "title": "通关英雄试炼第12关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 12,
@@ -8729,7 +8730,7 @@
     "award": "1000400:6&1000300:60000"
   },
   "304107": {
-    "title": "通关时空挑战第14关",
+    "title": "通关英雄试炼第14关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 14,
@@ -8737,7 +8738,7 @@
     "award": "1000400:7&1000300:70000"
   },
   "304108": {
-    "title": "通关时空挑战第16关",
+    "title": "通关英雄试炼第16关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 16,
@@ -8745,7 +8746,7 @@
     "award": "1000400:8&1000300:80000"
   },
   "304109": {
-    "title": "通关时空挑战第18关",
+    "title": "通关英雄试炼第18关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 18,
@@ -8753,7 +8754,7 @@
     "award": "1000400:9&1000300:90000"
   },
   "304110": {
-    "title": "通关时空挑战第20关",
+    "title": "通关英雄试炼第20关",
     "refresh": "week_target",
     "type": "ss_pass",
     "arg": 20,
@@ -8831,73 +8832,73 @@
     "award": "1000504:5&1000080:10"
   },
   "305101": {
-    "title": "战斗力到达30万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 300000,
-    "award": "1000080:3&1000120:1"
-  },
-  "305102": {
     "title": "战斗力到达50万",
     "refresh": "week_target",
     "type": "totalCe",
     "value": 500000,
-    "award": "1000080:5&1000120:2"
+    "award": "1000080:3&1000120:1"
   },
-  "305103": {
-    "title": "战斗力到达80万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 800000,
-    "award": "1000080:8&1000120:3"
-  },
-  "305104": {
-    "title": "战斗力到达120万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 1200000,
-    "award": "1000080:12&1000120:4"
-  },
-  "305105": {
-    "title": "战斗力到达150万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 1500000,
-    "award": "1000080:15&1000120:5"
-  },
-  "305106": {
-    "title": "战斗力到达200万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 2000000,
-    "award": "1000080:20&1000120:6"
-  },
-  "305107": {
-    "title": "战斗力到达300万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 3000000,
-    "award": "1000080:30&1000120:7"
-  },
-  "305108": {
-    "title": "战斗力到达400万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 4000000,
-    "award": "1000080:40&1000120:8"
-  },
-  "305109": {
-    "title": "战斗力到达500万",
-    "refresh": "week_target",
-    "type": "totalCe",
-    "value": 5000000,
-    "award": "1000080:50&1000120:9"
-  },
-  "305110": {
-    "title": "战斗力到达1000万",
+  "305102": {
+    "title": "战斗力到达100万",
     "refresh": "week_target",
     "type": "totalCe",
     "value": 10000000,
+    "award": "1000080:5&1000120:2"
+  },
+  "305103": {
+    "title": "战斗力到达200万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 20000000,
+    "award": "1000080:8&1000120:3"
+  },
+  "305104": {
+    "title": "战斗力到达300万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 30000000,
+    "award": "1000080:12&1000120:4"
+  },
+  "305105": {
+    "title": "战斗力到达500万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 50000000,
+    "award": "1000080:15&1000120:5"
+  },
+  "305106": {
+    "title": "战斗力到达600万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 60000000,
+    "award": "1000080:20&1000120:6"
+  },
+  "305107": {
+    "title": "战斗力到达800万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 80000000,
+    "award": "1000080:30&1000120:7"
+  },
+  "305108": {
+    "title": "战斗力到达1000万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 100000000,
+    "award": "1000080:40&1000120:8"
+  },
+  "305109": {
+    "title": "战斗力到达1500万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 150000000,
+    "award": "1000080:50&1000120:9"
+  },
+  "305110": {
+    "title": "战斗力到达2000万",
+    "refresh": "week_target",
+    "type": "totalCe",
+    "value": 200000000,
     "award": "1000080:100&1000120:10"
   },
   "305201": {
@@ -9041,74 +9042,74 @@
     "award": "505000:10&1000080:80"
   },
   "306201": {
-    "title": "护符重铸3次",
+    "title": "获得宝石10个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 3,
-    "award": "1000040:3&1000100:1"
+    "type": "stone_gain",
+    "value": 10,
+    "award": "1000040:1&1000050:1000"
   },
   "306202": {
-    "title": "护符重铸6次",
+    "title": "获得宝石30个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 6,
-    "award": "1000040:6&1000100:2"
+    "type": "use_pickaxe",
+    "value": 30,
+    "award": "1000040:2&1000050:2000"
   },
   "306203": {
-    "title": "护符重铸9次",
+    "title": "获得宝石50个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 9,
-    "award": "1000040:9&1000100:3"
+    "type": "use_pickaxe",
+    "value": 50,
+    "award": "1000040:3&1000050:3000"
   },
   "306204": {
-    "title": "护符重铸12次",
+    "title": "获得宝石70个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 12,
-    "award": "1000040:12&1000100:4"
+    "type": "use_pickaxe",
+    "value": 70,
+    "award": "1000040:4&1000050:4000"
   },
   "306205": {
-    "title": "护符重铸15次",
+    "title": "获得宝石100个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 15,
-    "award": "1000040:15&1000100:5"
+    "type": "use_pickaxe",
+    "value": 100,
+    "award": "1000040:5&1000050:5000"
   },
   "306206": {
-    "title": "护符重铸20次",
+    "title": "获得宝石150个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 20,
-    "award": "1000040:20&1000100:6"
+    "type": "use_pickaxe",
+    "value": 150,
+    "award": "1000040:6&1000050:6000"
   },
   "306207": {
-    "title": "护符重铸30次",
+    "title": "获得宝石200个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 30,
-    "award": "1000040:30&1000100:7"
+    "type": "use_pickaxe",
+    "value": 200,
+    "award": "1000040:8&1000050:7000"
   },
   "306208": {
-    "title": "护符重铸40次",
+    "title": "获得宝石300个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 40,
-    "award": "1000040:40&1000100:8"
+    "type": "use_pickaxe",
+    "value": 300,
+    "award": "1000040:10&1000050:8000"
   },
   "306209": {
-    "title": "护符重铸50次",
+    "title": "获得宝石400个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 50,
-    "award": "1000040:50&1000100:9"
+    "type": "use_pickaxe",
+    "value": 400,
+    "award": "1000040:12&1000050:9000"
   },
   "306210": {
-    "title": "护符重铸100次",
+    "title": "获得宝石500个",
     "refresh": "week_target",
-    "type": "reset_hufu",
-    "value": 100,
-    "award": "1000040:100&1000100:10"
+    "type": "use_pickaxe",
+    "value": 500,
+    "award": "1000040:15&1000050:10000"
   },
   "307101": {
     "title": "阵营战场中战胜1次对手",
@@ -9186,7 +9187,7 @@
     "type": "hero",
     "arg": 6,
     "value": 1,
-    "award": "1000150:1&1000120:1"
+    "award": "1000190:1&1000120:3"
   },
   "307202": {
     "title": "将英雄升至7星",
@@ -9194,7 +9195,7 @@
     "type": "hero",
     "arg": 7,
     "value": 1,
-    "award": "1000150:3&1000120:1"
+    "award": "1000190:2&1000120:6"
   },
   "307203": {
     "title": "将英雄升至8星",
@@ -9202,7 +9203,7 @@
     "type": "hero",
     "arg": 8,
     "value": 1,
-    "award": "1000150:5&1000120:1"
+    "award": "1000190:3&1000120:9"
   },
   "307204": {
     "title": "将英雄升至9星",
@@ -9210,7 +9211,7 @@
     "type": "hero",
     "arg": 9,
     "value": 1,
-    "award": "1000150:7&1000120:3"
+    "award": "1000190:4&1000120:12"
   },
   "307205": {
     "title": "将英雄升至10星",
@@ -9218,7 +9219,7 @@
     "type": "hero",
     "arg": 10,
     "value": 1,
-    "award": "1000150:9&1000120:5"
+    "award": "1000190:5&1000120:15"
   },
   "307206": {
     "title": "将英雄升至觉醒1星",
@@ -9226,7 +9227,7 @@
     "type": "hero",
     "arg": 11,
     "value": 1,
-    "award": "1000150:10&1000120:6"
+    "award": "1000190:6&1000120:18"
   },
   "307207": {
     "title": "将英雄升至觉醒2星",
@@ -9234,7 +9235,7 @@
     "type": "hero",
     "arg": 12,
     "value": 1,
-    "award": "1000150:15&1000120:7"
+    "award": "1000190:8&1000120:21"
   },
   "307208": {
     "title": "将英雄升至觉醒3星",
@@ -9242,7 +9243,7 @@
     "type": "hero",
     "arg": 13,
     "value": 1,
-    "award": "1000150:20&1000120:8"
+    "award": "1000190:10&1000120:24"
   },
   "307209": {
     "title": "将英雄升至觉醒4星",
@@ -9250,7 +9251,7 @@
     "type": "hero",
     "arg": 14,
     "value": 1,
-    "award": "1000150:25&1000120:9"
+    "award": "1000190:15&1000120:27"
   },
   "307210": {
     "title": "将英雄升至觉醒5星",
@@ -9258,147 +9259,147 @@
     "type": "hero",
     "arg": 15,
     "value": 1,
-    "award": "1000150:30&1000120:10"
+    "award": "1000190:20&1000120:30"
   },
   "401001": {
-    "title": "高级招募5次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 5,
-    "award": "1000050:10"
-  },
-  "401002": {
     "title": "高级招募10次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 10,
-    "award": "1000050:20"
+    "award": "1000050:500"
   },
-  "401003": {
-    "title": "高级招募15次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 15,
-    "award": "1000050:50"
-  },
-  "401004": {
+  "401002": {
     "title": "高级招募20次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 20,
-    "award": "1000050:100"
+    "award": "1000050:1000"
   },
-  "401005": {
-    "title": "高级招募25次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 25,
-    "award": "1000050:150"
-  },
-  "401006": {
+  "401003": {
     "title": "高级招募30次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 30,
-    "award": "1000050:200"
+    "award": "1000050:1500"
   },
-  "401007": {
-    "title": "高级招募35次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 35,
-    "award": "1000050:250"
-  },
-  "401008": {
-    "title": "高级招募40次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 40,
-    "award": "1000050:300"
-  },
-  "401009": {
-    "title": "高级招募45次",
-    "refresh": "week_loop",
-    "type": "recruit_great",
-    "value": 45,
-    "award": "1000050:350"
-  },
-  "401010": {
+  "401004": {
     "title": "高级招募50次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 50,
-    "award": "1000050:400"
+    "award": "1000050:2000"
+  },
+  "401005": {
+    "title": "高级招募100次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 100,
+    "award": "1000050:3000"
+  },
+  "401006": {
+    "title": "高级招募200次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 200,
+    "award": "1000050:4000"
+  },
+  "401007": {
+    "title": "高级招募300次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 300,
+    "award": "1000050:5000"
+  },
+  "401008": {
+    "title": "高级招募500次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 500,
+    "award": "1000050:6000"
+  },
+  "401009": {
+    "title": "高级招募1000次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 1000,
+    "award": "1000050:8000"
+  },
+  "401010": {
+    "title": "高级招募3000次",
+    "refresh": "week_loop",
+    "type": "recruit_great",
+    "value": 3000,
+    "award": "1000050:10000"
   },
   "402001": {
     "title": "快速作战5次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 5,
-    "award": "201:25000"
+    "award": "201:50000"
   },
   "402002": {
     "title": "快速作战10次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 10,
-    "award": "201:50000"
+    "award": "201:100000"
   },
   "402003": {
-    "title": "快速作战15次",
-    "refresh": "week_loop",
-    "type": "quick",
-    "value": 15,
-    "award": "201:250000"
-  },
-  "402004": {
     "title": "快速作战20次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 20,
-    "award": "201:500000"
+    "award": "201:200000"
   },
-  "402005": {
+  "402004": {
     "title": "快速作战30次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 30,
-    "award": "201:750000"
+    "award": "201:300000"
   },
-  "402006": {
+  "402005": {
     "title": "快速作战40次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 40,
-    "award": "201:1000000"
+    "award": "201:400000"
   },
-  "402007": {
+  "402006": {
     "title": "快速作战50次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 50,
-    "award": "201:1250000"
+    "award": "201:500000"
   },
-  "402008": {
+  "402007": {
     "title": "快速作战60次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 60,
-    "award": "201:1500000"
+    "award": "201:1000000"
   },
-  "402009": {
-    "title": "快速作战70次",
-    "refresh": "week_loop",
-    "type": "quick",
-    "value": 70,
-    "award": "201:1750000"
-  },
-  "402010": {
+  "402008": {
     "title": "快速作战80次",
     "refresh": "week_loop",
     "type": "quick",
     "value": 80,
     "award": "201:2000000"
+  },
+  "402009": {
+    "title": "快速作战100次",
+    "refresh": "week_loop",
+    "type": "quick",
+    "value": 100,
+    "award": "201:3000000"
+  },
+  "402010": {
+    "title": "快速作战200次",
+    "refresh": "week_loop",
+    "type": "quick",
+    "value": 200,
+    "award": "201:5000000"
   },
   "403001": {
     "title": "进行征税3次",
@@ -9471,154 +9472,154 @@
     "award": "101:400000"
   },
   "404001": {
-    "title": "完成橙色以上英雄任务1次",
+    "title": "完成橙色以上英雄任务5次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
-    "value": 1,
-    "award": "504000:1"
+    "value": 5,
+    "award": "1000160:2"
   },
   "404002": {
-    "title": "完成橙色以上英雄任务2次",
-    "refresh": "week_loop",
-    "type": "tour",
-    "arg": 5,
-    "value": 2,
-    "award": "504000:2"
-  },
-  "404003": {
-    "title": "完成橙色以上英雄任务4次",
-    "refresh": "week_loop",
-    "type": "tour",
-    "arg": 5,
-    "value": 4,
-    "award": "504000:3"
-  },
-  "404004": {
-    "title": "完成橙色以上英雄任务6次",
-    "refresh": "week_loop",
-    "type": "tour",
-    "arg": 5,
-    "value": 6,
-    "award": "504000:4"
-  },
-  "404005": {
-    "title": "完成橙色以上英雄任务8次",
-    "refresh": "week_loop",
-    "type": "tour",
-    "arg": 5,
-    "value": 8,
-    "award": "504000:5"
-  },
-  "404006": {
     "title": "完成橙色以上英雄任务10次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
     "value": 10,
-    "award": "505000:4"
+    "award": "1000160:4"
   },
-  "404007": {
-    "title": "完成橙色以上英雄任务12次",
-    "refresh": "week_loop",
-    "type": "tour",
-    "arg": 5,
-    "value": 12,
-    "award": "505000:5"
-  },
-  "404008": {
+  "404003": {
     "title": "完成橙色以上英雄任务15次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
     "value": 15,
-    "award": "505000:6"
+    "award": "1000160:6"
   },
-  "404009": {
+  "404004": {
     "title": "完成橙色以上英雄任务20次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
     "value": 20,
-    "award": "505000:7"
+    "award": "1000160:8"
   },
-  "404010": {
-    "title": "完成橙色以上英雄任务25次",
+  "404005": {
+    "title": "完成橙色以上英雄任务30次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
-    "value": 25,
-    "award": "505000:8"
+    "value": 30,
+    "award": "1000160:10"
+  },
+  "404006": {
+    "title": "完成红色以上英雄任务10次",
+    "refresh": "week_loop",
+    "type": "tour",
+    "arg": 6,
+    "value": 10,
+    "award": "1000160:15"
+  },
+  "404007": {
+    "title": "完成红色以上英雄任务20次",
+    "refresh": "week_loop",
+    "type": "tour",
+    "arg": 6,
+    "value": 20,
+    "award": "1000160:20"
+  },
+  "404008": {
+    "title": "完成红色以上英雄任务30次",
+    "refresh": "week_loop",
+    "type": "tour",
+    "arg": 6,
+    "value": 30,
+    "award": "1000160:25"
+  },
+  "404009": {
+    "title": "完成红色以上英雄任务40次",
+    "refresh": "week_loop",
+    "type": "tour",
+    "arg": 6,
+    "value": 40,
+    "award": "1000160:30"
+  },
+  "404010": {
+    "title": "完成红色以上英雄任务50次",
+    "refresh": "week_loop",
+    "type": "tour",
+    "arg": 6,
+    "value": 50,
+    "award": "1000160:50"
   },
   "405001": {
-    "title": "消耗10万铜币",
-    "refresh": "week_loop",
-    "type": "use_coin",
-    "value": 100000,
-    "award": "207:10"
-  },
-  "405002": {
-    "title": "消耗50万铜币",
-    "refresh": "week_loop",
-    "type": "use_coin",
-    "value": 500000,
-    "award": "207:20"
-  },
-  "405003": {
     "title": "消耗100万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 1000000,
-    "award": "207:40"
+    "award": "1000602:2"
   },
-  "405004": {
+  "405002": {
     "title": "消耗200万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 2000000,
-    "award": "207:60"
+    "award": "1000602:4"
   },
-  "405005": {
+  "405003": {
+    "title": "消耗300万铜币",
+    "refresh": "week_loop",
+    "type": "use_coin",
+    "value": 3000000,
+    "award": "1000602:6"
+  },
+  "405004": {
     "title": "消耗500万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 5000000,
-    "award": "207:80"
+    "award": "1000602:8"
   },
-  "405006": {
-    "title": "消耗800万铜币",
-    "refresh": "week_loop",
-    "type": "use_coin",
-    "value": 8000000,
-    "award": "207:100"
-  },
-  "405007": {
+  "405005": {
     "title": "消耗1000万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 10000000,
-    "award": "207:200"
+    "award": "1000602:10"
   },
-  "405008": {
+  "405006": {
     "title": "消耗1500万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 15000000,
-    "award": "207:300"
+    "award": "1000602:12"
   },
-  "405009": {
+  "405007": {
     "title": "消耗2000万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 20000000,
-    "award": "207:400"
+    "award": "1000602:15"
   },
-  "405010": {
+  "405008": {
     "title": "消耗3000万铜币",
     "refresh": "week_loop",
     "type": "use_coin",
     "value": 30000000,
-    "award": "207:500"
+    "award": "1000602:20"
+  },
+  "405009": {
+    "title": "消耗4000万铜币",
+    "refresh": "week_loop",
+    "type": "use_coin",
+    "value": 40000000,
+    "award": "1000602:30"
+  },
+  "405010": {
+    "title": "消耗5000万铜币",
+    "refresh": "week_loop",
+    "type": "use_coin",
+    "value": 50000000,
+    "award": "1000602:50"
   },
   "406001": {
     "title": "远古战场中战胜1次",
@@ -9695,70 +9696,70 @@
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 5,
-    "award": "1000300:1000"
+    "award": "1000170:2"
   },
   "407002": {
     "title": "跨服竞技场中战胜10次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 10,
-    "award": "1000300:5000"
+    "award": "1000170:4"
   },
   "407003": {
     "title": "跨服竞技场中战胜15次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 15,
-    "award": "1000300:10000"
+    "award": "1000170:6"
   },
   "407004": {
     "title": "跨服竞技场中战胜20次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 20,
-    "award": "1000300:15000"
+    "award": "1000170:8"
   },
   "407005": {
-    "title": "跨服竞技场中战胜25次",
-    "refresh": "week_loop",
-    "type": "grading_win",
-    "value": 25,
-    "award": "1000300:20000"
-  },
-  "407006": {
     "title": "跨服竞技场中战胜30次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 30,
-    "award": "1000300:25000"
+    "award": "1000170:10"
   },
-  "407007": {
-    "title": "跨服竞技场中战胜35次",
-    "refresh": "week_loop",
-    "type": "grading_win",
-    "value": 35,
-    "award": "1000300:30000"
-  },
-  "407008": {
+  "407006": {
     "title": "跨服竞技场中战胜40次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 40,
-    "award": "1000300:35000"
+    "award": "1000170:12"
   },
-  "407009": {
-    "title": "跨服竞技场中战胜45次",
-    "refresh": "week_loop",
-    "type": "grading_win",
-    "value": 45,
-    "award": "1000300:40000"
-  },
-  "407010": {
+  "407007": {
     "title": "跨服竞技场中战胜50次",
     "refresh": "week_loop",
     "type": "grading_win",
     "value": 50,
-    "award": "1000300:50000"
+    "award": "1000170:15"
+  },
+  "407008": {
+    "title": "跨服竞技场中战胜60次",
+    "refresh": "week_loop",
+    "type": "grading_win",
+    "value": 60,
+    "award": "1000170:20"
+  },
+  "407009": {
+    "title": "跨服竞技场中战胜80次",
+    "refresh": "week_loop",
+    "type": "grading_win",
+    "value": 80,
+    "award": "1000170:30"
+  },
+  "407010": {
+    "title": "跨服竞技场中战胜100次",
+    "refresh": "week_loop",
+    "type": "grading_win",
+    "value": 100,
+    "award": "1000170:50"
   },
   "501001": {
     "title": "主公:等级提升",
@@ -10274,1284 +10275,324 @@
     "award": "202:50",
     "desc": "英雄试炼通关120层"
   },
-  "56105010": {
-    "title": "活动期间内将贾诩升至6星",
+  "606101": {
+    "title": "在活动期间内将贾诩升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 105010,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56105020": {
-    "title": "活动期间内将张郃升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105020,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105030": {
-    "title": "活动期间内将曹丕升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105030,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105040": {
-    "title": "活动期间内将曹操升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105040,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105050": {
-    "title": "活动期间内将蔡文姬升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105050,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105060": {
-    "title": "活动期间内将夏侯惇升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105060,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105070": {
-    "title": "活动期间内将荀彧升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105070,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105080": {
-    "title": "活动期间内将典韦升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105080,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56105130": {
-    "title": "活动期间内将许褚升至6星",
+  "606113": {
+    "title": "在活动期间内将许褚升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 105130,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56105140": {
-    "title": "活动期间内将张辽升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 105140,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205010": {
-    "title": "活动期间内将赵云升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205010,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205020": {
-    "title": "活动期间内将诸葛亮升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205020,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205030": {
-    "title": "活动期间内将刘备升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205030,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205040": {
-    "title": "活动期间内将马超升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205040,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205050": {
-    "title": "活动期间内将黄月英升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205050,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205060": {
-    "title": "活动期间内将庞统升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205060,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205070": {
-    "title": "活动期间内将关羽升至6星",
+  "606207": {
+    "title": "在活动期间内将关羽升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 205070,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56205080": {
-    "title": "活动期间内将张飞升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205080,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205130": {
-    "title": "活动期间内将法正升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 205130,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56205140": {
-    "title": "活动期间内将姜维升至6星",
+  "606214": {
+    "title": "在活动期间内将姜维升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 205140,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56305010": {
-    "title": "活动期间内将孙策升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305010,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305020": {
-    "title": "活动期间内将周瑜升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305020,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305030": {
-    "title": "活动期间内将小乔升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305030,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305040": {
-    "title": "活动期间内将孙坚升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305040,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305050": {
-    "title": "活动期间内将孙尚香升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305050,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305060": {
-    "title": "活动期间内将张昭升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305060,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305070": {
-    "title": "活动期间内将太史慈升至6星",
+  "606307": {
+    "title": "在活动期间内将太史慈升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 305070,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56305080": {
-    "title": "活动期间内将陆逊升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305080,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56305130": {
-    "title": "活动期间内将鲁肃升至6星",
+  "606313": {
+    "title": "在活动期间内将鲁肃升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 305130,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56305140": {
-    "title": "活动期间内将孙权升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 305140,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405010": {
-    "title": "活动期间内将左慈升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405010,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405020": {
-    "title": "活动期间内将吕布升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405020,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405030": {
-    "title": "活动期间内将华佗升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405030,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405040": {
-    "title": "活动期间内将董卓升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405040,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405050": {
-    "title": "活动期间内将公孙瓒升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405050,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405060": {
-    "title": "活动期间内将孟获升至6星",
+  "606406": {
+    "title": "在活动期间内将孟获升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 405060,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56405070": {
-    "title": "活动期间内将董白升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405070,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405080": {
-    "title": "活动期间内将于吉升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405080,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "56405130": {
-    "title": "活动期间内将貂蝉升至6星",
+  "606413": {
+    "title": "在活动期间内将貂蝉升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 405130,
     "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
+    "award": "1000180:1&1000050:3000&1000150:1&201:300000"
   },
-  "56405140": {
-    "title": "活动期间内将庞德升至6星",
-    "refresh": "topic",
-    "type": "heroStar_6",
-    "arg": 405140,
-    "value": 1,
-    "award": "201:500000&101:100000&1000050:100"
-  },
-  "57105010": {
-    "title": "活动期间内将贾诩升至7星",
+  "607101": {
+    "title": "在活动期间内将贾诩升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 105010,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57105020": {
-    "title": "活动期间内将张郃升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105020,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105030": {
-    "title": "活动期间内将曹丕升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105030,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105040": {
-    "title": "活动期间内将曹操升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105040,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105050": {
-    "title": "活动期间内将蔡文姬升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105050,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105060": {
-    "title": "活动期间内将夏侯惇升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105060,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105070": {
-    "title": "活动期间内将荀彧升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105070,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105080": {
-    "title": "活动期间内将典韦升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105080,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57105130": {
-    "title": "活动期间内将许褚升至7星",
+  "607113": {
+    "title": "在活动期间内将许褚升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 105130,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57105140": {
-    "title": "活动期间内将张辽升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 105140,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205010": {
-    "title": "活动期间内将赵云升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205010,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205020": {
-    "title": "活动期间内将诸葛亮升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205020,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205030": {
-    "title": "活动期间内将刘备升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205030,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205040": {
-    "title": "活动期间内将马超升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205040,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205050": {
-    "title": "活动期间内将黄月英升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205050,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205060": {
-    "title": "活动期间内将庞统升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205060,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205070": {
-    "title": "活动期间内将关羽升至7星",
+  "607207": {
+    "title": "在活动期间内将关羽升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 205070,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57205080": {
-    "title": "活动期间内将张飞升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205080,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205130": {
-    "title": "活动期间内将法正升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 205130,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57205140": {
-    "title": "活动期间内将姜维升至7星",
+  "607214": {
+    "title": "在活动期间内将姜维升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 205140,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57305010": {
-    "title": "活动期间内将孙策升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305010,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305020": {
-    "title": "活动期间内将周瑜升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305020,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305030": {
-    "title": "活动期间内将小乔升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305030,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305040": {
-    "title": "活动期间内将孙坚升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305040,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305050": {
-    "title": "活动期间内将孙尚香升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305050,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305060": {
-    "title": "活动期间内将张昭升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305060,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305070": {
-    "title": "活动期间内将太史慈升至7星",
+  "607307": {
+    "title": "在活动期间内将太史慈升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 305070,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57305080": {
-    "title": "活动期间内将陆逊升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305080,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57305130": {
-    "title": "活动期间内将鲁肃升至7星",
+  "607313": {
+    "title": "在活动期间内将鲁肃升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 305130,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57305140": {
-    "title": "活动期间内将孙权升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 305140,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405010": {
-    "title": "活动期间内将左慈升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405010,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405020": {
-    "title": "活动期间内将吕布升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405020,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405030": {
-    "title": "活动期间内将华佗升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405030,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405040": {
-    "title": "活动期间内将董卓升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405040,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405050": {
-    "title": "活动期间内将公孙瓒升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405050,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405060": {
-    "title": "活动期间内将孟获升至7星",
+  "607406": {
+    "title": "在活动期间内将孟获升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 405060,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57405070": {
-    "title": "活动期间内将董白升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405070,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405080": {
-    "title": "活动期间内将于吉升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405080,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "57405130": {
-    "title": "活动期间内将貂蝉升至7星",
+  "607413": {
+    "title": "在活动期间内将貂蝉升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 405130,
     "value": 1,
-    "award": "206:200&207:100&1000080:3"
+    "award": "1000120:2&1000050:5000&1000150:2&201:500000"
   },
-  "57405140": {
-    "title": "活动期间内将庞德升至7星",
-    "refresh": "topic",
-    "type": "heroStar_7",
-    "arg": 405140,
-    "value": 1,
-    "award": "206:200&207:100&1000080:3"
-  },
-  "58105010": {
-    "title": "活动期间内将贾诩升至8星",
+  "608101": {
+    "title": "在活动期间内将贾诩升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 105010,
     "value": 1,
-    "award": "11105010:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58105020": {
-    "title": "活动期间内将张郃升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105020,
-    "value": 1,
-    "award": "11105020:1&1000180:5&1000050:200"
-  },
-  "58105030": {
-    "title": "活动期间内将曹丕升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105030,
-    "value": 1,
-    "award": "11105030:1&1000180:5&1000050:200"
-  },
-  "58105040": {
-    "title": "活动期间内将曹操升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105040,
-    "value": 1,
-    "award": "11105040:1&1000180:5&1000050:200"
-  },
-  "58105050": {
-    "title": "活动期间内将蔡文姬升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105050,
-    "value": 1,
-    "award": "11105050:1&1000180:5&1000050:200"
-  },
-  "58105060": {
-    "title": "活动期间内将夏侯惇升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105060,
-    "value": 1,
-    "award": "11105060:1&1000180:5&1000050:200"
-  },
-  "58105070": {
-    "title": "活动期间内将荀彧升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105070,
-    "value": 1,
-    "award": "11105070:1&1000180:5&1000050:200"
-  },
-  "58105080": {
-    "title": "活动期间内将典韦升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105080,
-    "value": 1,
-    "award": "11105080:1&1000180:5&1000050:200"
-  },
-  "58105130": {
-    "title": "活动期间内将许褚升至8星",
+  "608113": {
+    "title": "在活动期间内将许褚升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 105130,
     "value": 1,
-    "award": "11105130:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58105140": {
-    "title": "活动期间内将张辽升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 105140,
-    "value": 1,
-    "award": "11105140:1&1000180:5&1000050:200"
-  },
-  "58205010": {
-    "title": "活动期间内将赵云升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205010,
-    "value": 1,
-    "award": "11205010:1&1000180:5&1000050:200"
-  },
-  "58205020": {
-    "title": "活动期间内将诸葛亮升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205020,
-    "value": 1,
-    "award": "11205020:1&1000180:5&1000050:200"
-  },
-  "58205030": {
-    "title": "活动期间内将刘备升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205030,
-    "value": 1,
-    "award": "11205030:1&1000180:5&1000050:200"
-  },
-  "58205040": {
-    "title": "活动期间内将马超升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205040,
-    "value": 1,
-    "award": "11205040:1&1000180:5&1000050:200"
-  },
-  "58205050": {
-    "title": "活动期间内将黄月英升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205050,
-    "value": 1,
-    "award": "11205050:1&1000180:5&1000050:200"
-  },
-  "58205060": {
-    "title": "活动期间内将庞统升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205060,
-    "value": 1,
-    "award": "11205060:1&1000180:5&1000050:200"
-  },
-  "58205070": {
-    "title": "活动期间内将关羽升至8星",
+  "608207": {
+    "title": "在活动期间内将关羽升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 205070,
     "value": 1,
-    "award": "11205070:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58205080": {
-    "title": "活动期间内将张飞升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205080,
-    "value": 1,
-    "award": "11205080:1&1000180:5&1000050:200"
-  },
-  "58205130": {
-    "title": "活动期间内将法正升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 205130,
-    "value": 1,
-    "award": "11205130:1&1000180:5&1000050:200"
-  },
-  "58205140": {
-    "title": "活动期间内将姜维升至8星",
+  "608214": {
+    "title": "在活动期间内将姜维升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 205140,
     "value": 1,
-    "award": "11205140:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58305010": {
-    "title": "活动期间内将孙策升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305010,
-    "value": 1,
-    "award": "11305010:1&1000180:5&1000050:200"
-  },
-  "58305020": {
-    "title": "活动期间内将周瑜升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305020,
-    "value": 1,
-    "award": "11305020:1&1000180:5&1000050:200"
-  },
-  "58305030": {
-    "title": "活动期间内将小乔升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305030,
-    "value": 1,
-    "award": "11305030:1&1000180:5&1000050:200"
-  },
-  "58305040": {
-    "title": "活动期间内将孙坚升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305040,
-    "value": 1,
-    "award": "11305040:1&1000180:5&1000050:200"
-  },
-  "58305050": {
-    "title": "活动期间内将孙尚香升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305050,
-    "value": 1,
-    "award": "11305050:1&1000180:5&1000050:200"
-  },
-  "58305060": {
-    "title": "活动期间内将张昭升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305060,
-    "value": 1,
-    "award": "11305060:1&1000180:5&1000050:200"
-  },
-  "58305070": {
-    "title": "活动期间内将太史慈升至8星",
+  "608307": {
+    "title": "在活动期间内将太史慈升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 305070,
     "value": 1,
-    "award": "11305070:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58305080": {
-    "title": "活动期间内将陆逊升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305080,
-    "value": 1,
-    "award": "11305080:1&1000180:5&1000050:200"
-  },
-  "58305130": {
-    "title": "活动期间内将鲁肃升至8星",
+  "608313": {
+    "title": "在活动期间内将鲁肃升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 305130,
     "value": 1,
-    "award": "11305130:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58305140": {
-    "title": "活动期间内将孙权升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 305140,
-    "value": 1,
-    "award": "11305140:1&1000180:5&1000050:200"
-  },
-  "58405010": {
-    "title": "活动期间内将左慈升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405010,
-    "value": 1,
-    "award": "11405010:1&1000180:5&1000050:200"
-  },
-  "58405020": {
-    "title": "活动期间内将吕布升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405020,
-    "value": 1,
-    "award": "11405020:1&1000180:5&1000050:200"
-  },
-  "58405030": {
-    "title": "活动期间内将华佗升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405030,
-    "value": 1,
-    "award": "11405030:1&1000180:5&1000050:200"
-  },
-  "58405040": {
-    "title": "活动期间内将董卓升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405040,
-    "value": 1,
-    "award": "11405040:1&1000180:5&1000050:200"
-  },
-  "58405050": {
-    "title": "活动期间内将公孙瓒升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405050,
-    "value": 1,
-    "award": "11405050:1&1000180:5&1000050:200"
-  },
-  "58405060": {
-    "title": "活动期间内将孟获升至8星",
+  "608406": {
+    "title": "在活动期间内将孟获升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 405060,
     "value": 1,
-    "award": "11405060:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58405070": {
-    "title": "活动期间内将董白升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405070,
-    "value": 1,
-    "award": "11405070:1&1000180:5&1000050:200"
-  },
-  "58405080": {
-    "title": "活动期间内将于吉升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405080,
-    "value": 1,
-    "award": "11405080:1&1000180:5&1000050:200"
-  },
-  "58405130": {
-    "title": "活动期间内将貂蝉升至8星",
+  "608413": {
+    "title": "在活动期间内将貂蝉升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 405130,
     "value": 1,
-    "award": "11405130:1&1000180:5&1000050:200"
+    "award": "1000100:3&1000050:8000&1000150:3&201:1000000"
   },
-  "58405140": {
-    "title": "活动期间内将庞德升至8星",
-    "refresh": "topic",
-    "type": "heroStar_8",
-    "arg": 405140,
-    "value": 1,
-    "award": "11405140:1&1000180:5&1000050:200"
-  },
-  "59105010": {
-    "title": "活动期间内将贾诩升至9星",
+  "609101": {
+    "title": "在活动期间内将贾诩升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 105010,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59105020": {
-    "title": "活动期间内将张郃升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105020,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105030": {
-    "title": "活动期间内将曹丕升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105030,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105040": {
-    "title": "活动期间内将曹操升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105040,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105050": {
-    "title": "活动期间内将蔡文姬升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105050,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105060": {
-    "title": "活动期间内将夏侯惇升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105060,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105070": {
-    "title": "活动期间内将荀彧升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105070,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105080": {
-    "title": "活动期间内将典韦升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105080,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59105130": {
-    "title": "活动期间内将许褚升至9星",
+  "609113": {
+    "title": "在活动期间内将许褚升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 105130,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59105140": {
-    "title": "活动期间内将张辽升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 105140,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205010": {
-    "title": "活动期间内将赵云升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205010,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205020": {
-    "title": "活动期间内将诸葛亮升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205020,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205030": {
-    "title": "活动期间内将刘备升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205030,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205040": {
-    "title": "活动期间内将马超升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205040,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205050": {
-    "title": "活动期间内将黄月英升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205050,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205060": {
-    "title": "活动期间内将庞统升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205060,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205070": {
-    "title": "活动期间内将关羽升至9星",
+  "609207": {
+    "title": "在活动期间内将关羽升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 205070,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59205080": {
-    "title": "活动期间内将张飞升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205080,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205130": {
-    "title": "活动期间内将法正升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 205130,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59205140": {
-    "title": "活动期间内将姜维升至9星",
+  "609214": {
+    "title": "在活动期间内将姜维升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 205140,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59305010": {
-    "title": "活动期间内将孙策升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305010,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305020": {
-    "title": "活动期间内将周瑜升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305020,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305030": {
-    "title": "活动期间内将小乔升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305030,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305040": {
-    "title": "活动期间内将孙坚升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305040,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305050": {
-    "title": "活动期间内将孙尚香升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305050,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305060": {
-    "title": "活动期间内将张昭升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305060,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305070": {
-    "title": "活动期间内将太史慈升至9星",
+  "609307": {
+    "title": "在活动期间内将太史慈升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 305070,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59305080": {
-    "title": "活动期间内将陆逊升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305080,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59305130": {
-    "title": "活动期间内将鲁肃升至9星",
+  "609313": {
+    "title": "在活动期间内将鲁肃升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 305130,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59305140": {
-    "title": "活动期间内将孙权升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 305140,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405010": {
-    "title": "活动期间内将左慈升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405010,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405020": {
-    "title": "活动期间内将吕布升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405020,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405030": {
-    "title": "活动期间内将华佗升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405030,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405040": {
-    "title": "活动期间内将董卓升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405040,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405050": {
-    "title": "活动期间内将公孙瓒升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405050,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405060": {
-    "title": "活动期间内将孟获升至9星",
+  "609406": {
+    "title": "在活动期间内将孟获升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 405060,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59405070": {
-    "title": "活动期间内将董白升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405070,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405080": {
-    "title": "活动期间内将于吉升至9星",
-    "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405080,
-    "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
-  },
-  "59405130": {
-    "title": "活动期间内将貂蝉升至9星",
+  "609413": {
+    "title": "在活动期间内将貂蝉升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 405130,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000190:4&1000050:9000&1000150:4&201:2000000"
   },
-  "59405140": {
-    "title": "活动期间内将庞德升至9星",
+  "610101": {
+    "title": "在活动期间内将贾诩升至10星",
     "refresh": "topic",
-    "type": "heroStar_9",
-    "arg": 405140,
+    "type": "heroStar_10",
+    "arg": 105010,
     "value": 1,
-    "award": "1000120:1&1000150:1&206:500"
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610113": {
+    "title": "在活动期间内将许褚升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 105130,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610207": {
+    "title": "在活动期间内将关羽升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 205070,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610214": {
+    "title": "在活动期间内将姜维升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 205140,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610307": {
+    "title": "在活动期间内将太史慈升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 305070,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610313": {
+    "title": "在活动期间内将鲁肃升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 305130,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610406": {
+    "title": "在活动期间内将孟获升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 405060,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
+  },
+  "610413": {
+    "title": "在活动期间内将貂蝉升至10星",
+    "refresh": "topic",
+    "type": "heroStar_10",
+    "arg": 405130,
+    "value": 1,
+    "award": "1000060:5&1000050:10000&1000150:5&201:5000000"
   }
 }
