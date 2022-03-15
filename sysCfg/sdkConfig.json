@@ -1,8 +1,19 @@
 {
-	"sdk_type" : "277",
-	"CheckUserInfo" : "http://sdkapi.277sy.com/index.php/User/check",
-	"appid" : "6057",
-	"appkey" : "2a6512f1cd7c5f41bf343beb72e8c010",
-	"secretkey" : "B12078106EB4C292F1DF0AD5A4365593",
-	"pay_callback" : "/pay_order"
+	"normal":{
+		"sdk_type" : "277",
+		"CheckUserInfo" : "http://sdkapi.277sy.com/index.php/User/check",
+		"appid" : "6057",
+		"appkey" : "2a6512f1cd7c5f41bf343beb72e8c010",
+		"secretkey" : "B12078106EB4C292F1DF0AD5A4365593",
+		"pay_callback" : "/pay_order"
+	},
+	"001" : {
+		"sdk_type" : "quick",
+		"CheckUserInfo" : "http://checkuser.sdk.quicksdk.net/v2/checkUserInfo",
+		"Md5_Key" : "lzw224a0tpm03ftmphvtlezcughbibhe",
+		"product_code" : "41569764292229884425815790672987",
+		"pay_callback" : "/001_order",
+		"Callback_Key" : "97626411936752443125003046156696",
+		"areaDiff" : 1
+	}
 }
