@@ -47,6 +47,22 @@
     "targetType": "enemy_normal",
     "mul": 2.6
   },
+  "1030201": {
+    "name": "不绝",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "1030202": {
+    "name": "水灵绝响",
+    "type": "attack",
+    "des": "对敌方单体造成260%的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.6
+  },
   "1040101": {
     "name": "无畏冲击",
     "type": "attack",
@@ -56,6 +72,24 @@
     "mul": 1
   },
   "1040102": {
+    "name": "冰霜哀曲",
+    "type": "attack",
+    "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加寒冷效果",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "1040201": {
+    "name": "无畏冲击",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "1040202": {
     "name": "冰霜哀曲",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加寒冷效果",
@@ -245,6 +279,18 @@
     "key1": "suckAtk",
     "value1": 0.25
   },
+  "1051003": {
+    "name": "怒海狂鲨",
+    "type": "attack",
+    "des": "召唤鲨鱼对敌方攻击力最高目标造成360%的伤害，并偷取目标40%攻击力持续2回合,降低目标2点怒气值",
+    "damageType": "mag",
+    "targetType": "enemy_maxAtk_1",
+    "mul": 3.6,
+    "key1": "suckAtk",
+    "value1": 0.4,
+    "key2": "skill_less_anger",
+    "value2": 2
+  },
   "2010101": {
     "name": "血红",
     "type": "attack",
@@ -293,6 +339,22 @@
     "targetType": "enemy_normal",
     "mul": 2.6
   },
+  "2030201": {
+    "name": "怒击",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "2030202": {
+    "name": "不屈一击",
+    "type": "attack",
+    "des": "对敌方单体造成260%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.6
+  },
   "2040101": {
     "name": "焚",
     "type": "attack",
@@ -302,6 +364,24 @@
     "mul": 1
   },
   "2040102": {
+    "name": "烽火如刀",
+    "type": "attack",
+    "des": "对敌方单体造成280%攻击力的法术伤害,有100%概率附加流血效果",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "2040201": {
+    "name": "焚",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的法术伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "2040202": {
     "name": "烽火如刀",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的法术伤害,有100%概率附加流血效果",
@@ -437,6 +517,16 @@
     "key1": "thawing_burn",
     "value1": 1
   },
+  "2050703": {
+    "name": "水龙冲击",
+    "type": "attack",
+    "des": "对敌方单体造成500%攻击力的法术伤害，若目标身上有灼烧效果，则造成水龙冲击(解除灼烧效果，并造成双倍伤害)",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 5,
+    "key1": "thawing_burn",
+    "value1": 1
+  },
   "2050801": {
     "name": "心焰",
     "type": "attack",
@@ -473,6 +563,16 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
+  "2050903": {
+    "name": "炎魔之怒",
+    "type": "attack",
+    "des": "对敌方随机3-5个目标造成攻击力220%的法术伤害，随后为自身添加暴击加成",
+    "damageType": "mag",
+    "targetType": "enemy_rand_35",
+    "mul": 2.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
   "2051001": {
     "name": "沙尘",
     "type": "attack",
@@ -490,6 +590,16 @@
     "mul": 1.8,
     "key1": "buff1",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
+  },
+  "2051003": {
+    "name": "飞沙走石",
+    "type": "attack",
+    "des": "对敌方全体造成120%攻击力的法术伤害，有100%概率添加沙尘暴，持续2回合",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "3010101": {
     "name": "突刺",
@@ -539,6 +649,22 @@
     "targetType": "enemy_normal",
     "mul": 2.6
   },
+  "3030201": {
+    "name": "蛰伏",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3030202": {
+    "name": "狂热直击",
+    "type": "attack",
+    "des": "对敌方单体造成260%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.6
+  },
   "3040101": {
     "name": "风刃",
     "type": "attack",
@@ -548,6 +674,24 @@
     "mul": 1
   },
   "3040102": {
+    "name": "破甲一击",
+    "type": "attack",
+    "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "3040201": {
+    "name": "风刃",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "3040202": {
     "name": "破甲一击",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
@@ -574,6 +718,16 @@
     "mul": 1.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "3050103": {
+    "name": "狂乱",
+    "type": "attack",
+    "des": "对敌方随机三人造成60%攻击力的法术伤害，降低目标1点怒气",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "skill_less_anger",
+    "value1": 1
   },
   "3050201": {
     "name": "迅击",
@@ -647,6 +801,16 @@
     "key1": "killRet",
     "value1": true
   },
+  "3050503": {
+    "name": "魅影突袭",
+    "type": "attack",
+    "des": "对敌方生命值最少的单位造成400%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
+    "damageType": "phy",
+    "targetType": "enemy_minHP",
+    "mul": 4,
+    "key1": "killRet",
+    "value1": true
+  },
   "3050601": {
     "name": "砂之手",
     "type": "attack",
@@ -692,7 +856,7 @@
     "mul": 1
   },
   "3050802": {
-    "name": "毒烟迷雾",
+    "name": "毒物迷烟",
     "type": "attack",
     "des": "对敌方全体造成92%攻击力的法术伤害，有30%概率添加中毒，持续2回合",
     "damageType": "mag",
@@ -716,6 +880,17 @@
     "mul": 3.6,
     "key1": "rescue_heal",
     "value1": 0.3
+  },
+  "3050903": {
+    "name": "光辉祷言",
+    "type": "heal",
+    "des": "随机复活一名友方英雄，恢复其30%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复360%攻击力的生命值，随后为其添加无敌盾",
+    "targetType": "team_minHp_1",
+    "mul": 3.6,
+    "key1": "rescue_heal",
+    "value1": 0.3,
+    "key2": "buff1",
+    "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "3051001": {
     "name": "兽爪",
@@ -895,6 +1070,16 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
+  "4050903": {
+    "name": "雷霆神罚",
+    "type": "attack",
+    "des": "对敌方全体造成300%的法术伤害，添加1层感电效果",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
   "4051001": {
     "name": "悲愤",
     "type": "attack",
@@ -967,6 +1152,16 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.20}"
   },
+  "5050303": {
+    "name": "甜蜜打击",
+    "type": "attack",
+    "des": "对随机三个目标造成230%的法术伤害，有70%的概率添加眩晕效果",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 2.3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
+  },
   "5050401": {
     "name": "蛛网",
     "type": "attack",
@@ -1006,6 +1201,20 @@
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.6}",
     "key3": "buff3",
     "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.6}"
+  },
+  "5050503": {
+    "name": "灵魂鞭挞",
+    "type": "attack",
+    "des": "对敌方随机3-5个目标造成攻击力130%的法术伤害，同时分别有100%的概率为敌方添加诅咒、破甲、虚弱",
+    "damageType": "mag",
+    "targetType": "enemy_rand_35",
+    "mul": 1.3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050601": {
     "name": "伞击",
