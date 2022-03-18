@@ -82,7 +82,7 @@
   "105020_atk": {
     "name": "Atk",
     "situ": true,
-    "skill": "ACGN/105010/skill/skill",
+    "skill": "ACGN/105020/pg/pg",
     "st": -1,
     "ht": "[100]"
   },
@@ -95,6 +95,7 @@
   },
   "105030_atk": {
     "name": "Atk",
+    "tra": "ACGN/105030/dd/dd",
     "skill": "ACGN/105030/pg/pg",
     "st": -1,
     "ht": "[70]"
@@ -115,12 +116,14 @@
   "105040_skill": {
     "name": "skill",
     "situ": true,
+    "turn": true,
     "skill": "ACGN/105040/skill/skill",
     "st": -1,
     "ht": "[200,400,600,8000,1000,1200]"
   },
   "105050_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/105050/pg/pg",
     "st": -1,
     "ht": "[100]"
@@ -185,7 +188,7 @@
   },
   "105090_skill": {
     "name": "skill",
-    "repetition": true,
+    "turn": true,
     "skill": "ACGN/105090/skill/skill",
     "st": -1,
     "ht": "[630]"
@@ -206,6 +209,7 @@
   },
   "205010_atk": {
     "name": "Atk",
+    "situ": true,
     "tra": "ACGN/205010/dd/dd",
     "skill": "ACGN/205010/pg/pg",
     "st": -1,
@@ -243,6 +247,7 @@
   "205030_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "skill": "ACGN/205030/skill/skill",
     "st": -1,
     "ht": "[70,270,470]"
@@ -258,6 +263,7 @@
   },
   "205040_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/205040/skill/skill",
     "st": -1,
     "ht": "[70,230,500,830,1030,1230]"
@@ -276,6 +282,7 @@
   },
   "205060_atk": {
     "name": "Atk",
+    "situ": true,
     "tra": "ACGN/205060/dd/dd",
     "skill": "ACGN/205060/pg/pg",
     "st": -1,
@@ -283,6 +290,7 @@
   },
   "205060_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/205060/skill/skill",
     "st": -1,
     "ht": "[200]"
@@ -336,7 +344,6 @@
   },
   "205100_atk": {
     "name": "Atk",
-    "situ": true,
     "repetition": true,
     "skill": "ACGN/205100/pg/pg",
     "st": -1,
@@ -344,7 +351,6 @@
   },
   "205100_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "skill": "ACGN/205100/skill/skill",
     "st": -1,
@@ -382,6 +388,7 @@
   },
   "305030_atk": {
     "name": "Atk",
+    "situ": true,
     "tra": "ACGN/305030/dd/dd",
     "skill": "ACGN/305030/pg/pg",
     "st": -1,
@@ -389,12 +396,14 @@
   },
   "305030_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/305030/skill/skill",
     "st": -1,
     "ht": "[600]"
   },
   "305040_atk": {
     "name": "Atk",
+    "situ": true,
     "tra": "ACGN/305040/dd/dd",
     "skill": "ACGN/305040/pg/pg",
     "st": -1,
@@ -402,6 +411,7 @@
   },
   "305040_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/305040/skill/skill",
     "st": -1,
     "ht": "[800]"
@@ -416,7 +426,6 @@
   },
   "305050_skill": {
     "name": "skill",
-    "situ": true,
     "skill": "ACGN/305050/skill/skill",
     "st": -1,
     "ht": "[270,630]"
@@ -431,6 +440,8 @@
   },
   "305060_skill": {
     "name": "skill",
+    "situ": true,
+    "repetition": true,
     "skill": "ACGN/305060/skill/skill",
     "st": -1,
     "ht": "[900]"
@@ -460,6 +471,7 @@
   },
   "305080_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/305080/skill/skill",
     "st": -1,
     "ht": "[130,330,530,830,1070]"
@@ -509,14 +521,13 @@
   },
   "405020_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/405020/pg/pg",
     "st": -1,
     "ht": "[70,370]"
   },
   "405020_skill": {
     "name": "skill",
-    "situ": true,
+    "turn": true,
     "skill": "ACGN/405020/skill/skill",
     "st": -1,
     "ht": "[330]"
@@ -524,6 +535,7 @@
   "405030_atk": {
     "name": "Atk",
     "situ": true,
+    "tra": "ACGN/405030/dd/dd",
     "skill": "ACGN/405030/pg/pg",
     "st": -1,
     "ht": "[700]"
@@ -531,6 +543,7 @@
   "405030_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "skill": "ACGN/405030/skill/skill",
     "st": -1,
     "ht": "[530]"
@@ -551,7 +564,6 @@
   },
   "405050_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/405050/pg/pg",
     "st": -1,
     "ht": "[300]"
@@ -559,18 +571,21 @@
   "405050_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "skill": "ACGN/405050/skill/skill",
     "st": -1,
     "ht": "[130,400,670]"
   },
   "405060_atk": {
     "name": "Atk",
+    "turn": true,
     "skill": "ACGN/405060/pg/pg",
     "st": -1,
     "ht": "[70,370,630,1000,1430]"
   },
   "405060_skill": {
     "name": "skill",
+    "turn": true,
     "skill": "ACGN/405060/skill/skill",
     "st": -1,
     "ht": "[1000]"
@@ -578,6 +593,7 @@
   "405070_atk": {
     "name": "Atk",
     "situ": true,
+    "tra": "ACGN/405070/dd/dd",
     "skill": "ACGN/405070/pg/pg",
     "st": -1,
     "ht": "[600]"
@@ -631,6 +647,7 @@
   },
   "505010_atk": {
     "name": "Atk",
+    "situ": true,
     "tra": "ACGN/505010/dd/dd",
     "skill": "ACGN/505010/pg/pg",
     "st": -1,
@@ -638,20 +655,19 @@
   },
   "505010_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/505010/skill/skill",
     "st": -1,
     "ht": "[600]"
   },
   "505020_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/505020/pg/pg",
     "st": -1,
     "ht": "[200]"
   },
   "505020_skill": {
     "name": "skill",
-    "situ": true,
     "skill": "ACGN/505020/skill/skill",
     "st": -1,
     "ht": "[300,600,930]"
@@ -666,6 +682,7 @@
   "505030_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "skill": "ACGN/505030/skill/skill",
     "st": -1,
     "ht": "[830]"
@@ -678,6 +695,7 @@
   },
   "505040_skill": {
     "name": "skill",
+    "situ": true,
     "repetition": true,
     "skill": "ACGN/505040/skill/skill",
     "st": -1,
@@ -713,6 +731,7 @@
   "505070_atk": {
     "name": "Atk",
     "situ": true,
+    "tra": "ACGN/505070/dd/dd",
     "skill": "ACGN/505070/pg/pg",
     "st": -1,
     "ht": "[370]"
@@ -755,14 +774,12 @@
   },
   "505100_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/505100/pg/pg",
     "st": -1,
     "ht": "[130,400]"
   },
   "505100_skill": {
     "name": "skill",
-    "situ": true,
     "skill": "ACGN/505100/skill/skill",
     "st": -1,
     "ht": "[70,270,670]"
