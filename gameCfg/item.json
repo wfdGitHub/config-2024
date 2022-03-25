@@ -206,8 +206,8 @@
     "source1": "ancient"
   },
   "230": {
-    "name": "圣纹令",
-    "des": "圣纹令，可用于激活圣物",
+    "name": "圣石",
+    "des": "圣石，布满神秘符文，可用于激活圣物",
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
@@ -4107,7 +4107,7 @@
     "source4": "gift"
   },
   "1000060": {
-    "name": "神装觉醒石",
+    "name": "觉醒石",
     "des": "用于装备觉醒",
     "isBag": true,
     "type": "item",
@@ -4347,8 +4347,8 @@
     "source1": "gift"
   },
   "1000601": {
-    "name": "红包碎片",
-    "des": "充值卡碎片，可在福利中兑换充值中兑换充值卡",
+    "name": "欧皇福袋",
+    "des": "欧皇福袋，可在福利中兑换中心兑换福袋",
     "isBag": true,
     "type": "item",
     "gold": 1,
@@ -4360,6 +4360,17 @@
   "1000602": {
     "name": "欧皇转盘卡",
     "des": "欧皇转盘卡，可在欧皇转盘中抽取奖励",
+    "isBag": true,
+    "type": "item",
+    "gold": 20,
+    "coin": 100000,
+    "buyNum": 1,
+    "quality": 4,
+    "source1": "gift"
+  },
+  "1000603": {
+    "name": "红包碎片",
+    "des": "红包碎片，可在福利中兑换中心兑换福袋",
     "isBag": true,
     "type": "item",
     "gold": 20,
@@ -7173,6 +7184,71 @@
     "quality": 5,
     "source1": "gift"
   },
+  "108008301": {
+    "name": "微福袋",
+    "des": "微福袋，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "wfdmh_chest_1",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift"
+  },
+  "108008302": {
+    "name": "小福袋",
+    "des": "小福袋，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xfdmh_chest_1",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift"
+  },
+  "108008303": {
+    "name": "中福袋",
+    "des": "中福袋，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zfdmh_chest_1",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift"
+  },
+  "108008304": {
+    "name": "大福袋",
+    "des": "大福袋，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "dfdmh_chest_1",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift"
+  },
+  "108008305": {
+    "name": "巨福袋",
+    "des": "巨福袋，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "jfdmh_chest_1",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift"
+  },
   "109300001": {
     "name": "紫色符文匣",
     "des": "紫色宝物匣，开启可获得以下物品中的一个",
@@ -7521,7 +7597,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "1000602:10"
+    "arg": "1000602:30"
   },
   "303006001": {
     "name": "神器碎片自选箱",
