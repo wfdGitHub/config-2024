@@ -726,7 +726,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0.6,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 1
   },
   "3050201": {
@@ -889,7 +889,7 @@
     "mul": 3.6,
     "key1": "rescue_heal",
     "value1": 0.3,
-    "key2": "buff1",
+    "key2": "buff3",
     "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "3051001": {
@@ -1000,6 +1000,16 @@
     "key1": "maxHP_damage",
     "value1": 0.05
   },
+  "4050503": {
+    "name": "金色闪光",
+    "type": "attack",
+    "des": "对敌方随机三人造成220%攻击力的法术伤害，额外造成目标最大生命值17%的伤害",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 2.2,
+    "key1": "maxHP_damage",
+    "value1": 0.1
+  },
   "4050601": {
     "name": "破势",
     "type": "attack",
@@ -1017,6 +1027,16 @@
     "mul": 2.25,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+  },
+  "4050603": {
+    "name": "命运裁决",
+    "type": "attack",
+    "des": "对敌方单体造成225%的物理伤害。有100%概率眩晕目标",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "4050701": {
     "name": "心音",

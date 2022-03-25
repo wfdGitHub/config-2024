@@ -1302,7 +1302,7 @@
   },
   "10501016": {
     "des": "入场时，为自身添加持续恢复效果，每回合恢复全部生命值，持续3回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"team_self\",\"buffArg\":9999,\"duration\":3,\"buffRate\":1}"
   },
   "10501025": {
@@ -1341,7 +1341,7 @@
   },
   "10502016": {
     "des": "入场时，为所有同阵营英雄添加水神护盾，持续2回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_realm\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "10502025": {
@@ -1382,7 +1382,7 @@
   },
   "10503016": {
     "des": "入场时获得免控盾，持续3回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "10503025": {
@@ -1462,7 +1462,7 @@
   },
   "10505016": {
     "des": "进入战斗时随机冰冻一个敌方目标",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "10505025": {
@@ -1544,7 +1544,7 @@
   },
   "10507016": {
     "des": "入场时，获得3层破浪效果，每击杀一个英雄，获得2层破浪效果",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":5,\"buffRate\":1}",
     "key2": "kill_buff1",
     "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
@@ -1748,7 +1748,7 @@
   },
   "20501016": {
     "des": "入场时，随机嘲讽3个敌方英雄，持续2回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "20501025": {
@@ -1832,7 +1832,7 @@
   },
   "20503016": {
     "des": "入场时，随机眩晕一个敌方英雄，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "20503025": {
@@ -1871,7 +1871,7 @@
   },
   "20504016": {
     "des": "入场时，随机使三个敌方英雄灼烧，持续2回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "20504025": {
@@ -1910,7 +1910,7 @@
   },
   "20505016": {
     "des": "入场时，使敌方全体重伤1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "20505025": {
@@ -1953,7 +1953,7 @@
   },
   "20506016": {
     "des": "入场时，获得3层爆伤加成状态，持续3回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "20506025": {
@@ -2029,7 +2029,7 @@
   },
   "20508016": {
     "des": "入场时，使我方前排英雄获得烈焰护体，持续2回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_horizontal_front\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "20508025": {
@@ -2229,7 +2229,7 @@
   },
   "30502016": {
     "des": "入场时，全体我方英雄获得精灵祝福，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "30502025": {
@@ -2387,7 +2387,7 @@
   },
   "30506016": {
     "des": "入场时，随机沉默2个敌方英雄，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "30506025": {
@@ -2428,7 +2428,7 @@
   },
   "30507016": {
     "des": "入场时，对敌方全体添加1层风筝印记",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30507025": {
@@ -2465,7 +2465,7 @@
   },
   "30508016": {
     "des": "入场时，对敌方随机三个目标添加中毒",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "30508025": {
@@ -2588,7 +2588,7 @@
   },
   "40501016": {
     "des": "入场时，对敌方全体英雄添加3层感电效果",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "40501025": {
@@ -2627,7 +2627,7 @@
   },
   "40502016": {
     "des": "入场时，获得3层暴击加成效果，持续3回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "40502025": {
@@ -2664,7 +2664,7 @@
   },
   "40503016": {
     "des": "入场时，为我方全体英雄添加免控盾，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "40503025": {
@@ -2741,7 +2741,9 @@
     "value2": 0.6
   },
   "40505016": {
-    "des": "技能强化:对敌方随机三人造成220%攻击力的法术伤害，额外造成目标最大生命值10%的伤害"
+    "des": "技能强化:对敌方随机三人造成220%攻击力的法术伤害，额外造成目标最大生命值10%的伤害",
+    "key1": "skill_change",
+    "value1": 4050503
   },
   "40505025": {
     "des": "每回合行动后为自身添加1层神力效果",
@@ -2780,7 +2782,9 @@
     "value2": 0.8
   },
   "40506016": {
-    "des": "技能强化:释放技能时有100%概率眩晕目标，击杀目标后，获得超级无敌盾，持续1回合"
+    "des": "技能强化:释放技能时有100%概率眩晕目标，击杀目标后，获得超级无敌盾，持续1回合",
+    "key1": "kill_buff1",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "40506025": {
     "des": "释放技能时，触发目标身上所有感电效果",
@@ -2818,7 +2822,7 @@
   },
   "40507016": {
     "des": "入场时，为我方全体英雄添加2层坚毅效果，持续3回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "40507025": {
@@ -2941,7 +2945,7 @@
   },
   "40510016": {
     "des": "入场时，为我方全体添加最大生命值100%的护盾，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "40510025": {
@@ -3023,7 +3027,7 @@
   },
   "50502016": {
     "des": "入场时，对敌方全体添加虚弱效果",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502025": {
@@ -3103,7 +3107,7 @@
   },
   "50504016": {
     "des": "入场时，嘲讽敌方全体英雄，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50504025": {
@@ -3185,7 +3189,7 @@
   },
   "50506016": {
     "des": "入场时，获得3层嗜血效果",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "50506025": {
@@ -3224,7 +3228,7 @@
   },
   "50507016": {
     "des": "入场时，对3个敌方随机目标添加灵魂窃取效果，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50507025": {
@@ -3308,7 +3312,7 @@
   },
   "50509016": {
     "des": "入场时，为敌方随机3个目标添加魔印效果，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50509025": {
@@ -3347,7 +3351,7 @@
   },
   "50510016": {
     "des": "入场时，为敌方全体英雄添加禁怒效果，持续1回合",
-    "key1": "first_buff3",
+    "key1": "maga_buff1",
     "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50510025": {
