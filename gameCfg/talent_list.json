@@ -952,7 +952,7 @@
     "value1": 0.05
   },
   "9503": {
-    "des": "释放技能时，有10%概率附加麻痹效果，持续1回合",
+    "des": "释放技能时，有10%概率附加缠绕效果，持续1回合",
     "key1": "skill_buff_ace",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
@@ -972,7 +972,7 @@
     "value1": 0.32
   },
   "9507": {
-    "des": "释放水龙冲击时，添加1回合重伤效果",
+    "des": "释放火龙冲击时，添加1回合重伤效果",
     "key1": "slcj_zs",
     "value1": true
   },
@@ -1090,7 +1090,7 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "9613": {
-    "des": "受到控制效果（麻痹、沉默、眩晕、嘲讽）概率降低35%",
+    "des": "受到控制效果（缠绕、沉默、眩晕、嘲讽）概率降低35%",
     "key1": "control_buff_lowrate",
     "value1": 0.35
   },
@@ -1100,7 +1100,7 @@
     "value1": true
   },
   "9615": {
-    "des": "攻击触发感电效果时，有15%概率麻痹目标，持续1回合",
+    "des": "攻击触发感电效果时，有15%概率缠绕目标，持续1回合",
     "key1": "gd_mb",
     "value1": 0.15
   },
@@ -1550,7 +1550,7 @@
     "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10506010": {
-    "des": "释放技能时，麻痹概率提升为100%",
+    "des": "释放技能时，缠绕概率提升为100%",
     "key1": "skill_buff2",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -2029,17 +2029,17 @@
     "value2": 0.2
   },
   "20507006": {
-    "des": "释放水龙冲击后，为自身添加护盾，吸收最大生命值15%的伤害，持续1回合",
+    "des": "释放火龙冲击后，为自身添加护盾，吸收最大生命值15%的伤害，持续1回合",
     "key1": "thawing_burn_hudun",
     "value1": 0.15
   },
   "20507009": {
-    "des": "水龙冲击每命中一个目标，恢复自身1点怒气值",
+    "des": "火龙冲击每命中一个目标，恢复自身1点怒气值",
     "key1": "thawing_burn_anger",
     "value1": 1
   },
   "20507010": {
-    "des": "水龙冲击造成的伤害额外增加60%",
+    "des": "火龙冲击造成的伤害额外增加60%",
     "key1": "thawing_burn",
     "value1": 0.6
   },
@@ -2051,9 +2051,14 @@
     "value2": 2
   },
   "20507016": {
-    "des": "技能强化:对敌方单体造成500%攻击力的法术伤害，若目标身上有灼烧效果，则造成水龙冲击(解除灼烧效果，并造成双倍伤害)",
+    "des": "技能强化:对敌方单体造成500%攻击力的法术伤害，若目标身上有灼烧效果，则造成火龙冲击(解除灼烧效果，并造成双倍伤害)",
     "key1": "skill_change",
     "value1": 2050703
+  },
+  "20507017": {
+    "des": "触发火龙冲击后，眩晕目标1回合",
+    "key1": "slcj_xy",
+    "value1": true
   },
   "20507025": {
     "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低40%",
@@ -2073,7 +2078,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "20508009": {
-    "des": "释放技能时，若目标处于灼烧状态，有100%概率添加麻痹，持续1回合",
+    "des": "释放技能时，若目标处于灼烧状态，有100%概率添加缠绕，持续1回合",
     "key1": "burn_buff_change_skill",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -2431,9 +2436,9 @@
     "value1": 1
   },
   "30506009": {
-    "des": "释放技能时沉默概率提升至40%",
+    "des": "释放技能时缠绕概率提升至36%",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.36}"
   },
   "30506010": {
     "des": "释放技能后追加一次普通攻击",
@@ -2446,14 +2451,19 @@
     "value1": 1
   },
   "30506016": {
-    "des": "入场时，随机沉默2个敌方英雄，持续1回合",
+    "des": "入场时，随机缠绕2个敌方英雄，持续1回合",
     "key1": "maga_buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "30506017": {
+    "des": "自身回合结束时，随机缠绕1个敌方英雄，持续1回合",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "30506025": {
-    "des": "普通攻击有60%概率使目标沉默，持续1回合",
+    "des": "普通攻击有60%概率添加缠绕，持续1回合",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "30507000": {
     "des": "攻击力增加18%，闪避增加24%",
@@ -2625,9 +2635,9 @@
     "value2": 0.18
   },
   "40501006": {
-    "des": "释放技能时有35%概率再次释放（每回合最多1次）",
+    "des": "释放技能时有25%概率再次释放（每回合最多1次）",
     "key1": "skill_combo",
-    "value1": 0.35
+    "value1": 0.25
   },
   "40501009": {
     "des": "死亡时，触发全部敌人的感电效果",
@@ -2635,21 +2645,26 @@
     "value1": true
   },
   "40501010": {
-    "des": "释放技能时有70%概率再次释放（每回合最多1次）",
+    "des": "释放技能时有45%概率再次释放（每回合最多1次）",
     "key1": "skill_combo",
-    "value1": 0.35
+    "value1": 0.2
   },
   "40501011": {
-    "des": "攻击力增加60%，释放技能时100%概率再次释放（每回合最多1次）",
+    "des": "攻击力增加60%，释放技能时65%概率再次释放（每回合最多1次）",
     "key1": "self_atk_add",
     "value1": 0.6,
     "key2": "skill_combo",
-    "value2": 0.3
+    "value2": 0.2
   },
   "40501016": {
     "des": "入场时，对敌方全体英雄添加3层感电效果",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "40501017": {
+    "des": "技能强化:对敌方全体造成120%攻击力的法术伤害，并添加3层感电",
+    "key1": "skill_change",
+    "value1": 4050103
   },
   "40501025": {
     "des": "每回合行动后为自身添加1层坚毅效果",
@@ -3291,6 +3306,11 @@
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
+  "50507017": {
+    "des": "技能强化:对敌方随机三个目标造成155%攻击力的法术伤害，并添加灵魂窃取效果，持续1回合",
+    "key1": "skill_change",
+    "value1": 5050703
+  },
   "50507025": {
     "des": "所有攻击附加虚弱效果",
     "key1": "normal_buff1",
@@ -3767,7 +3787,7 @@
     "value1": 0.15
   },
   "zf_014": {
-    "des": "对敌方造成直接伤害时，始终视目标为灼烧状态(水龙冲击、眩晕等特殊效果无效)",
+    "des": "对敌方造成直接伤害时，始终视目标为灼烧状态(火龙冲击、眩晕等特殊效果无效)",
     "key1": "damage_always_burn",
     "value1": true
   },

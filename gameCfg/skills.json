@@ -196,7 +196,7 @@
   "1050602": {
     "name": "海灵之影",
     "type": "attack",
-    "des": "对敌方单体造成265%攻击力的法术伤害，60%概率麻痹目标,持续1回合",
+    "des": "对敌方单体造成265%攻击力的法术伤害，60%概率缠绕目标,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 2.65,
@@ -822,12 +822,12 @@
   "3050602": {
     "name": "砂之封印",
     "type": "attack",
-    "des": "对敌方全体造成92%攻击力的法术伤害，有25%概率添加沉默，持续1回合",
+    "des": "对敌方全体造成92%攻击力的法术伤害，有25%概率添加缠绕，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 0.92,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
   },
   "3050701": {
     "name": "碎骨",
@@ -925,6 +925,16 @@
     "damageType": "mag",
     "targetType": "enemy_horizontal_front",
     "mul": 1.55,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "4050103": {
+    "name": "雷霆神罚",
+    "type": "attack",
+    "des": "对敌方全体造成120%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 1.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -1271,6 +1281,16 @@
     "damageType": "mag",
     "targetType": "enemy_minHP",
     "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "5050703": {
+    "name": "灵魂窃取",
+    "type": "attack",
+    "des": "对敌方随机三个目标造成155%攻击力的法术伤害，并添加灵魂窃取效果，持续1回合",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.55,
     "key1": "buff1",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
