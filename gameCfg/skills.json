@@ -1345,5 +1345,343 @@
     "mul": 2.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "6040101": {
+    "name": "冲撞",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6040102": {
+    "name": "岩石暴击",
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的物理伤害,有30%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
+  },
+  "6040201": {
+    "name": "挖洞",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6040202": {
+    "name": "沙暴",
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的物理伤害,有30%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
+  },
+  "6040301": {
+    "name": "碎石",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6040302": {
+    "name": "冰风",
+    "type": "attack",
+    "des": "对敌方前排造成120%攻击力的特攻伤害,有15%概率添加冰冻",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
+  },
+  "6050101": {
+    "name": "滚动",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6050102": {
+    "name": "落石",
+    "type": "attack",
+    "des": "对敌方单体造成320%攻击力的物理伤害,有35%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 3.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+  },
+  "6050201": {
+    "name": "扣击",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6050202": {
+    "name": "尖石攻击",
+    "type": "attack",
+    "des": "对敌方前排造成150%攻击力的物理伤害,有100%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+  },
+  "6050301": {
+    "name": "爪击",
+    "type": "attack",
+    "des": "对敌方单体造成100%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
+  },
+  "6050302": {
+    "name": "必杀尖牙",
+    "type": "attack",
+    "des": "对敌方后排造成100%攻击力的物理伤害,有100%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_horizontal_front",
+    "mul": 1.5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+  },
+  "6050401": {
+    "name": "钢尾",
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的物理伤害,有100%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "6050402": {
+    "name": "加农钢炮",
+    "type": "attack",
+    "des": "对敌方全体造成225%攻击力的物理伤害,有50%概率添加眩晕",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "6050501": {
+    "name": "钢头",
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有100%概率添加眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "6050502": {
+    "name": "螺旋钢球",
+    "type": "attack",
+    "des": "对敌方纵排造成550%攻击力的特攻伤害,有50%概率添加眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_vertical",
+    "mul": 5.5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "6050601": {
+    "name": "角撞",
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有100%概率添加冰冻",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "6050602": {
+    "name": "原始之力",
+    "type": "attack",
+    "des": "对敌方后排造成360%攻击力的特攻伤害,有50%概率添加冰冻",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_back",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "7040101": {
+    "name": "毒针",
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2
+  },
+  "7040102": {
+    "name": "毒刺",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的特攻伤害,有100%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "7040201": {
+    "name": "吐丝",
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.2
+  },
+  "7040202": {
+    "name": "虫咬",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率添加寒冷",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "7050101": {
+    "name": "毒击",
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2
+  },
+  "7050102": {
+    "name": "毒弹",
+    "type": "attack",
+    "des": "对敌方随机三人造成180%攻击力的特攻伤害,有100%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "7050201": {
+    "name": "冲撞",
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.2
+  },
+  "7050202": {
+    "name": "铁壁冲击",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率为自己添加铜墙铁壁",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "7050301": {
+    "name": "劈开",
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.2
+  },
+  "7050302": {
+    "name": "十字剪",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率为自己添加神力",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "7050401": {
+    "name": "起风",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率添加缠绕",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "7050402": {
+    "name": "虫鸣",
+    "type": "attack",
+    "des": "对敌方全体造成325%攻击力的物理伤害,有50%概率添加缠绕",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 3.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "7050501": {
+    "name": "毒菱",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的特攻伤害,有100%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "7050502": {
+    "name": "致命针刺",
+    "type": "attack",
+    "des": "对敌方单体造成800%攻击力的特攻伤害,若击杀目标，重复释放技能",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 8,
+    "key1": "killRet",
+    "value1": true
+  },
+  "7050601": {
+    "name": "追打",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4
+  },
+  "7050602": {
+    "name": "空气斩",
+    "type": "attack",
+    "des": "对敌方单体造成800%攻击力的物理伤害,有100%概率为自己添加神力",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "7050701": {
+    "name": "虫怒",
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的特攻伤害,有100%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "7050702": {
+    "name": "银色旋风",
+    "type": "attack",
+    "des": "对敌方全体造成325%攻击力的特攻伤害,有100%概率添加中毒，35%概率添加缠绕",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 3.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   }
 }

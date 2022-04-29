@@ -1130,7 +1130,7 @@
     "value1": 0.2
   },
   "9705": {
-    "des": "法防增加20%",
+    "des": "特防增加20%",
     "key1": "self_magDef_add",
     "value1": 0.2
   },
@@ -4010,5 +4010,281 @@
     "value1": 0.1,
     "key2": "self_maxHP_add",
     "value2": 0.1
+  },
+  "NPC_DS": {
+    "des": "速度降低50%",
+    "key1": "self_speed_add",
+    "value1": -0.5
+  },
+  "NPC_GS": {
+    "des": "速度提升50%",
+    "key1": "self_speed_add",
+    "value1": 0.5
+  },
+  "NPC_GWF": {
+    "des": "受到物理伤害降低30%",
+    "key1": "phy_def",
+    "value1": 0.3
+  },
+  "NPC_CJWF": {
+    "des": "受到物理伤害降低60%",
+    "key1": "phy_def",
+    "value1": 0.6
+  },
+  "NPC_GFF": {
+    "des": "受到特攻伤害降低30%",
+    "key1": "mag_def",
+    "value1": 0.3
+  },
+  "NPC_CJFF": {
+    "des": "受到特攻伤害降低60%",
+    "key1": "mag_def",
+    "value1": 0.6
+  },
+  "NPC_GHP": {
+    "des": "生命值增加60%",
+    "key1": "self_maxHP_add",
+    "value1": 0.6
+  },
+  "NPC_CJHP": {
+    "des": "生命值增加120%",
+    "key1": "self_maxHP_add",
+    "value1": 1.2
+  },
+  "NPC_GBJ": {
+    "des": "暴击增加40%",
+    "key1": "crit",
+    "value1": 0.4
+  },
+  "NPC_CJBJ": {
+    "des": "暴击增加80%",
+    "key1": "crit",
+    "value1": 0.8
+  },
+  "NPC_GBS": {
+    "des": "爆伤增加40%",
+    "key1": "slay",
+    "value1": 0.4
+  },
+  "NPC_CJBS": {
+    "des": "爆伤增加80%",
+    "key1": "slay",
+    "value1": 0.8
+  },
+  "NPC_DFY": {
+    "des": "受到伤害增加50%",
+    "key1": "reduction",
+    "value1": -0.5
+  },
+  "NPC_CJFY": {
+    "des": "受到伤害增加100%",
+    "key1": "reduction",
+    "value1": -1
+  },
+  "NCP_GSH": {
+    "des": "伤害增加30%",
+    "key1": "amplify",
+    "value1": 0.3
+  },
+  "NPC_CDFY": {
+    "des": "伤害增加60%",
+    "key1": "amplify",
+    "value1": 0.6
+  },
+  "NPC_GFS": {
+    "des": "反伤效果50%",
+    "key1": "hit_rebound",
+    "value1": 0.5
+  },
+  "NPC_CJFS": {
+    "des": "反伤效果100%",
+    "key1": "hit_rebound",
+    "value1": 1
+  },
+  "mon_1": {
+    "des": "攻击+300",
+    "key1": "atk",
+    "value1": 300
+  },
+  "mon_2": {
+    "des": "攻击+300,生命+3000",
+    "key1": "atk",
+    "value1": 300,
+    "key2": "maxHP",
+    "value2": 6000
+  },
+  "mon_3": {
+    "des": "暴击+8%",
+    "key1": "crit",
+    "value1": 0.08
+  },
+  "mon_4": {
+    "des": "攻击+8%",
+    "key1": "self_atk_add",
+    "value1": 0.08
+  },
+  "mon_5": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "mon_6": {
+    "des": "生命值+10%，攻击力+10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.1,
+    "key2": "self_atk_add",
+    "value2": 0.1
+  },
+  "mon_7": {
+    "des": "生命值+12%，攻击力+12%",
+    "key1": "self_maxHP_add",
+    "value1": 0.12,
+    "key2": "self_atk_add",
+    "value2": 0.12
+  },
+  "mon_8": {
+    "des": "生命值+14%，攻击力+14%",
+    "key1": "self_maxHP_add",
+    "value1": 0.14,
+    "key2": "self_atk_add",
+    "value2": 0.14
+  },
+  "mon_9": {
+    "des": "生命值+16%，攻击力+16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16,
+    "key2": "self_atk_add",
+    "value2": 0.16
+  },
+  "mon_10": {
+    "des": "生命值+18%，攻击力+18%",
+    "key1": "self_maxHP_add",
+    "value1": 0.18,
+    "key2": "self_atk_add",
+    "value2": 0.18
+  },
+  "mon_11": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "mon_12": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "mon_13": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "mon_14": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "mon_15": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "boss_1": {
+    "des": "攻击+300",
+    "key1": "atk",
+    "value1": 300
+  },
+  "boss_2": {
+    "des": "攻击+300,生命+3000",
+    "key1": "atk",
+    "value1": 300,
+    "key2": "maxHP",
+    "value2": 6000
+  },
+  "boss_3": {
+    "des": "暴击+8%",
+    "key1": "crit",
+    "value1": 0.08
+  },
+  "boss_4": {
+    "des": "攻击+8%",
+    "key1": "self_atk_add",
+    "value1": 0.08
+  },
+  "boss_5": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "boss_6": {
+    "des": "每回合恢复2点怒气",
+    "key1": "action_anger",
+    "value1": 2
+  },
+  "boss_7": {
+    "des": "生命值+20%，攻击力+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "self_atk_add",
+    "value2": 0.2
+  },
+  "boss_8": {
+    "des": "生命值+24%，攻击力+24%",
+    "key1": "self_maxHP_add",
+    "value1": 0.24,
+    "key2": "self_atk_add",
+    "value2": 0.24
+  },
+  "boss_9": {
+    "des": "免疫控制",
+    "key1": "always_immune",
+    "value1": true
+  },
+  "boss_10": {
+    "des": "免疫减怒",
+    "key1": "banLessAnger",
+    "value1": true
+  },
+  "boss_11": {
+    "des": "生命值+28%，攻击力+28%",
+    "key1": "self_maxHP_add",
+    "value1": 0.28,
+    "key2": "self_atk_add",
+    "value2": 0.28
+  },
+  "boss_12": {
+    "des": "生命值+32%，攻击力+32%",
+    "key1": "self_maxHP_add",
+    "value1": 0.32,
+    "key2": "self_atk_add",
+    "value2": 0.32
+  },
+  "boss_13": {
+    "des": "生命值+36%，攻击力+36%",
+    "key1": "self_maxHP_add",
+    "value1": 0.36,
+    "key2": "self_atk_add",
+    "value2": 0.36
+  },
+  "boss_14": {
+    "des": "生命值+40%，攻击力+40%",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "self_atk_add",
+    "value2": 0.4
+  },
+  "boss_15": {
+    "des": "免疫斩杀",
+    "key1": "neglect_seckill",
+    "value1": true
   }
 }
