@@ -4231,35 +4231,39 @@
     "value1": 2
   },
   "boss_7": {
-    "des": "生命值+20%，攻击力+20%",
-    "key1": "self_maxHP_add",
-    "value1": 0.2,
-    "key2": "self_atk_add",
-    "value2": 0.2
-  },
-  "boss_8": {
-    "des": "生命值+25%，攻击力+25%",
-    "key1": "self_maxHP_add",
-    "value1": 0.25,
-    "key2": "self_atk_add",
-    "value2": 0.25
-  },
-  "boss_9": {
-    "des": "免疫控制",
-    "key1": "always_immune",
-    "value1": true
-  },
-  "boss_10": {
-    "des": "免疫减怒",
-    "key1": "banLessAnger",
-    "value1": true
-  },
-  "boss_11": {
     "des": "生命值+30%，攻击力+30%",
     "key1": "self_maxHP_add",
     "value1": 0.3,
     "key2": "self_atk_add",
     "value2": 0.3
+  },
+  "boss_8": {
+    "des": "生命值+30%，攻击力+30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3,
+    "key2": "self_atk_add",
+    "value2": 0.3
+  },
+  "boss_9": {
+    "des": "免疫控制,生命值+30%",
+    "key1": "always_immune",
+    "value1": true,
+    "key2": "self_maxHP_add",
+    "value2": 0.3
+  },
+  "boss_10": {
+    "des": "免疫减怒,攻击力+30%",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "self_atk_add",
+    "value2": 0.3
+  },
+  "boss_11": {
+    "des": "攻击+60%，生命值+60%",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "self_atk_add",
+    "value2": 0.6
   },
   "boss_12": {
     "des": "生命值+40%，攻击力+40%",
