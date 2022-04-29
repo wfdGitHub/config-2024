@@ -4170,34 +4170,6 @@
     "key2": "self_atk_add",
     "value2": 0.2
   },
-  "mon_12": {
-    "des": "生命值+25%，攻击力+25%",
-    "key1": "self_maxHP_add",
-    "value1": 0.25,
-    "key2": "self_atk_add",
-    "value2": 0.25
-  },
-  "mon_13": {
-    "des": "生命值+30%，攻击力+30%",
-    "key1": "self_maxHP_add",
-    "value1": 0.3,
-    "key2": "self_atk_add",
-    "value2": 0.3
-  },
-  "mon_14": {
-    "des": "生命值+40%，攻击力+40%",
-    "key1": "self_maxHP_add",
-    "value1": 0.4,
-    "key2": "self_atk_add",
-    "value2": 0.4
-  },
-  "mon_15": {
-    "des": "生命值+50%，攻击力+50%",
-    "key1": "self_maxHP_add",
-    "value1": 0.5,
-    "key2": "self_atk_add",
-    "value2": 0.5
-  },
   "boss_1": {
     "des": "攻击+300",
     "key1": "atk",
@@ -4238,59 +4210,31 @@
     "value2": 0.3
   },
   "boss_8": {
-    "des": "生命值+30%，攻击力+30%",
-    "key1": "self_maxHP_add",
-    "value1": 0.3,
-    "key2": "self_atk_add",
-    "value2": 0.3
-  },
-  "boss_9": {
-    "des": "免疫控制,生命值+30%",
-    "key1": "always_immune",
-    "value1": true,
-    "key2": "self_maxHP_add",
-    "value2": 0.3
-  },
-  "boss_10": {
-    "des": "免疫减怒,攻击力+30%",
-    "key1": "banLessAnger",
-    "value1": true,
-    "key2": "self_atk_add",
-    "value2": 0.3
-  },
-  "boss_11": {
-    "des": "攻击+60%，生命值+60%",
-    "key1": "self_maxHP_add",
-    "value1": 0.6,
-    "key2": "self_atk_add",
-    "value2": 0.6
-  },
-  "boss_12": {
-    "des": "生命值+40%，攻击力+40%",
-    "key1": "self_maxHP_add",
-    "value1": 0.4,
-    "key2": "self_atk_add",
-    "value2": 0.4
-  },
-  "boss_13": {
     "des": "生命值+50%，攻击力+50%",
     "key1": "self_maxHP_add",
     "value1": 0.5,
     "key2": "self_atk_add",
     "value2": 0.5
   },
-  "boss_14": {
-    "des": "生命值+60%，攻击力+60%",
-    "key1": "self_maxHP_add",
-    "value1": 0.6,
-    "key2": "self_atk_add",
-    "value2": 0.6
+  "boss_9": {
+    "des": "免疫控制,免伤+30%",
+    "key1": "always_immune",
+    "value1": true,
+    "key2": "reduction",
+    "value2": 0.3
   },
-  "boss_15": {
-    "des": "免疫斩杀,生命值+100%",
+  "boss_10": {
+    "des": "免疫减怒,伤害+30%",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "amplify",
+    "value2": 0.3
+  },
+  "boss_11": {
+    "des": "伤害+40%，免伤+40%",
     "key1": "self_maxHP_add",
-    "value1": 1,
-    "key2": "neglect_seckill",
-    "value2": true
+    "value1": 0.4,
+    "key2": "self_atk_add",
+    "value2": 0.4
   }
 }
