@@ -279,14 +279,11 @@
   "810": {
     "name": "能量方块",
     "des": "宝可梦家园资源，可用于封地建设",
-    "type": "hufu",
-    "arg": "{\"lv\":1}",
-    "gold": 200,
-    "coin": 1000000,
+    "type": "currency",
+    "gold": 10,
+    "coin": 50000,
     "buyNum": 1,
-    "quality": 3,
-    "source1": "gift",
-    "source2": "arena"
+    "quality": 5
   },
   "820": {
     "name": "石材",
@@ -300,11 +297,14 @@
   "4001": {
     "name": "葡萄技能果实",
     "des": "宝可方块的材料，埋在土地里可以培育出萄葡。",
-    "type": "currency",
-    "gold": 10,
-    "coin": 50000,
+    "type": "hufu",
+    "arg": "{\"lv\":1}",
+    "gold": 200,
+    "coin": 1000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 3,
+    "source1": "gift",
+    "source2": "arena"
   },
   "4002": {
     "name": "香罗技能果实",
