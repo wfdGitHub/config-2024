@@ -1687,211 +1687,405 @@
   "8040101": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的特攻伤害"
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040102": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的特攻伤害,有50%概率添加中毒"
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有50%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8040201": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物攻伤害"
+    "des": "对敌方单体造成100%攻击力的物攻伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040202": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成250%攻击力的物攻伤害"
+    "des": "对敌方单体造成250%攻击力的物攻伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.5
   },
   "8040301": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的特攻伤害"
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040302": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕"
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040401": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的特攻伤害"
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040402": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕"
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040501": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的特攻伤害"
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040502": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕"
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有30%概率添加眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040601": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的特攻伤害"
+    "des": "对敌方单体造成100%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1
   },
   "8040602": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的特攻伤害,有50%概率添加中毒"
+    "des": "对敌方单体造成200%攻击力的特攻伤害,有50%概率添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":0.5}"
   },
   "8050101": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的物攻伤害"
+    "des": "对敌方单体造成120%攻击力的物攻伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.2
   },
   "8050102": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的物攻伤害,为自身添加精灵祝福"
+    "des": "对敌方单体造成360%攻击力的物攻伤害,为自身添加精灵祝福",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "8050201": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050202": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050301": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050302": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成240%攻击力的特攻伤害,恢复自身30%最大生命值，并添加中毒"
+    "des": "对敌方单体造成240%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050401": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050402": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050501": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050502": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050601": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电"
+    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050602": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电"
+    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050701": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电"
+    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050702": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电"
+    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050801": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电"
+    "des": "对敌方随机三人造成60%攻击力的特攻伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050802": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电"
+    "des": "对敌方随机三人造成180%攻击力的特攻伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050901": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050902": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051001": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051002": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051101": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051102": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成240%攻击力的特攻伤害,恢复自身30%最大生命值，并添加中毒"
+    "des": "对敌方单体造成240%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051201": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方全体造成80%攻击力的特攻伤害，并添加1层感电"
+    "des": "对敌方单体造成200%攻击力的特攻伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8051202": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方全体造成300%攻击力的特攻伤害，并添加3层感电"
+    "des": "对敌方全体造成300%攻击力的特攻伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8051301": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方全体造成80%攻击力的特攻伤害，并添加1层感电"
+    "des": "对敌方单体造成200%攻击力的特攻伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8051302": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方全体造成225%攻击力的特攻伤害，有50%概率添加沉默"
+    "des": "对敌方全体造成225%攻击力的特攻伤害，有50%概率添加沉默",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "8051401": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方前排造成240%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方单体造成240%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051402": {
     "name": "技能",
     "type": "attack",
-    "des": "对地方前排造成500%攻击力的特攻伤害，并添加中毒，50%概率眩晕"
+    "des": "对地方纵排造成500%攻击力的特攻伤害，并添加中毒，100%概率眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_vertical",
+    "mul": 5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8051501": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方前排造成240%攻击力的特攻伤害,并添加中毒"
+    "des": "对敌方前排造成240%攻击力的特攻伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_horizontal_front",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051502": {
     "name": "技能",
     "type": "attack",
-    "des": "对敌方单体造成600攻击力的特攻伤害"
+    "des": "对敌方单体造成600%攻击力的特攻伤害",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 6
   }
 }
