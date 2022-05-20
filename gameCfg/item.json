@@ -3,7 +3,7 @@
     "name": "主角经验",
     "des": "主角经验，用于升级主角等级",
     "type": "currency",
-    "quality": 4,
+    "quality": 5,
     "source1": "checkpoints",
     "source2": "quick"
   },
@@ -90,11 +90,11 @@
     "source2": "quick"
   },
   "205": {
-    "name": "竞技积分",
+    "name": "竞技币",
     "des": "挑战竞技场可获得，用于竞技商店兑换商品",
     "type": "currency",
-    "gold": 85,
-    "coin": 425000,
+    "gold": 100,
+    "coin": 500000,
     "buyNum": 100,
     "quality": 4,
     "source1": "arena"
@@ -153,18 +153,18 @@
     "source1": "crossPK"
   },
   "211": {
-    "name": "锦标积分",
+    "name": "世界币",
     "des": "锦标积分，可用于全国锦标大赛商店兑换商品",
     "type": "currency",
-    "gold": 40,
-    "coin": 200000,
+    "gold": 10,
+    "coin": 50000,
     "buyNum": 100,
     "quality": 4,
     "source1": "crossTop"
   },
   "212": {
-    "name": "阵营积分",
-    "des": "梦幻积分，可用于梦幻商店兑换商品",
+    "name": "乱斗币",
+    "des": "参与梦幻大乱斗可获得，用于兑换稀有道具",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -196,8 +196,8 @@
     "source1": "friend"
   },
   "215": {
-    "name": "巅峰积分",
-    "des": "巅峰对决积分，可用于开头商店兑换商品",
+    "name": "联赛币",
+    "des": "参与宝可梦联赛可获得，用于兑换稀有道具",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -206,8 +206,8 @@
     "source1": "ancient"
   },
   "230": {
-    "name": "远古之石",
-    "des": "远古之石，可用于激活携带物",
+    "name": "原始芯片",
+    "des": "可在学习机中抽取技能",
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
@@ -4345,8 +4345,8 @@
     "des": "用于装备觉醒",
     "isBag": true,
     "type": "item",
-    "gold": 10000,
-    "coin": 50000000,
+    "gold": 1000,
+    "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
@@ -7793,7 +7793,7 @@
   },
   "303006001": {
     "name": "圣物碎片自选箱",
-    "des": "兵法碎片自选箱,开启选择以下物品中的一个",
+    "des": "圣物碎片自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -7807,7 +7807,7 @@
   },
   "303006010": {
     "name": "圣物自选箱",
-    "des": "兵法自选箱,开启选择以下物品中的一个",
+    "des": "圣物自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
