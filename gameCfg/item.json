@@ -15,10 +15,8 @@
     "coin": 50000,
     "buyNum": 10000,
     "quality": 4,
-    "source1": "checkpoints",
-    "source2": "quick",
-    "source3": "dailyFb",
-    "source4": "tower"
+    "source1": "zhulu",
+    "source2": "dailyFb"
   },
   "109": {
     "name": "VIP经验",
@@ -46,7 +44,8 @@
     "quality": 5,
     "source1": "recharge",
     "source2": "secretChallenge",
-    "source3": "gift"
+    "source3": "gift",
+    "source4": "arena"
   },
   "201": {
     "name": "金币",
@@ -56,10 +55,9 @@
     "coin": 50000,
     "buyNum": 50000,
     "quality": 4,
-    "source1": "revenue",
-    "source2": "quick",
-    "source3": "dailyFb",
-    "source4": "exercise"
+    "source1": "escort",
+    "source2": "dailyFb",
+    "source3": "gift"
   },
   "202": {
     "name": "钻石替换道具",
@@ -107,8 +105,8 @@
     "coin": 5000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "dailyFb",
-    "source2": "warHorn"
+    "source1": "zhulu",
+    "source2": "crossTeamPK"
   },
   "207": {
     "name": "秘宝石",
@@ -154,7 +152,7 @@
   },
   "211": {
     "name": "世界币",
-    "des": "锦标积分，可用于全国锦标大赛商店兑换商品",
+    "des": "锦标积分，可用于世界锦标大赛商店兑换商品",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -213,7 +211,7 @@
     "coin": 10000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "shop_guild",
+    "source1": "crossTop",
     "source2": "gift"
   },
   "301": {
@@ -232,35 +230,35 @@
     "des": "水之元素,能够提升水系精通的属性加成,可通过水之塔中获得。",
     "type": "currency",
     "quality": 5,
-    "source1": "tower"
+    "source1": "tower_realm"
   },
   "402": {
     "name": "火之元素",
     "des": "火之元素,能够提升火系精通的属性加成,可通过火之塔中获得。",
     "type": "currency",
     "quality": 5,
-    "source1": "tower"
+    "source1": "tower_realm"
   },
   "403": {
     "name": "木之元素",
     "des": "草之元素,能够提升草系精通的属性加成,可通过草之塔中获得。",
     "type": "currency",
     "quality": 5,
-    "source1": "tower"
+    "source1": "tower_realm"
   },
   "404": {
     "name": "光之元素",
     "des": "光之元素,能够提升光系精通的属性加成,可通过光之塔中获得。",
     "type": "currency",
     "quality": 5,
-    "source1": "tower"
+    "source1": "tower_realm"
   },
   "405": {
     "name": "暗之元素",
     "des": "暗之元素,能够提升暗系精通的属性加成,可通过暗之塔中获得。",
     "type": "currency",
     "quality": 5,
-    "source1": "tower"
+    "source1": "tower_realm"
   },
   "501": {
     "name": "水晶",
@@ -295,43 +293,44 @@
     "quality": 5
   },
   "4001": {
-    "name": "葡萄技能果实",
-    "des": "宝可方块的材料，埋在土地里可以培育出萄葡。",
+    "name": "荧光护符",
+    "des": "荧光护符，刻有古老的撰文：荧光之力，燎原之势",
     "type": "hufu",
     "arg": "{\"lv\":1}",
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "gift",
-    "source2": "arena"
+    "source1": "endless",
+    "source2": "gift"
   },
   "4002": {
-    "name": "香罗技能果实",
-    "des": "略为贵重的树果，外侧极苦，而内部却甜如汽水般。",
+    "name": "星光护符",
+    "des": "星光护符，刻有古老的撰文：星光点点，点缀星海",
     "type": "hufu",
     "arg": "{\"lv\":2}",
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "gift",
-    "source2": "shop_crossPK"
+    "source1": "endless",
+    "source2": "gift"
   },
   "4003": {
-    "name": "龙睛技能果实",
-    "des": "龙睛果是一种神秘的果实，有传言说，它蕴藏着大地的力量。",
+    "name": "月光护符",
+    "des": "月光护符，刻有古老的撰文：月光浩瀚，皆源于月",
     "type": "hufu",
     "arg": "{\"lv\":3}",
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "endless",
+    "source2": "gift"
   },
   "4004": {
-    "name": "超级技能果实",
-    "des": "超级果实是一种神秘的果实。有传言说，它蕴藏着天空的力量。",
+    "name": "阳光护符",
+    "des": "阳光护符，刻有古老的撰文：渺渺日光，吞天噬日",
     "type": "hufu",
     "arg": "{\"lv\":4}",
     "gold": 25000,
@@ -339,10 +338,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "hufu",
-    "source1": "gift"
+    "source1": "endless",
+    "source2": "gift"
   },
   "4110": {
-    "name": "初级黄晶石",
+    "name": "初级攻击石",
     "des": "【0星属性】攻击+2%",
     "isBag": true,
     "type": "stone",
@@ -352,21 +352,21 @@
     "source3": "extract"
   },
   "4111": {
-    "name": "初级黄晶石",
+    "name": "初级攻击石",
     "des": "【1星属性】攻击+3%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4112": {
-    "name": "初级黄晶石",
+    "name": "初级攻击石",
     "des": "【2星属性】攻击+4%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4120": {
-    "name": "中级黄晶石",
+    "name": "中级攻击石",
     "des": "【0星属性】攻击+3%",
     "isBag": true,
     "type": "stone",
@@ -378,35 +378,35 @@
     "source2": "gift"
   },
   "4121": {
-    "name": "中级黄晶石",
+    "name": "中级攻击石",
     "des": "【1星属性】攻击+4%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4122": {
-    "name": "中级黄晶石",
+    "name": "中级攻击石",
     "des": "【2星属性】攻击+5%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4123": {
-    "name": "中级黄晶石",
+    "name": "中级攻击石",
     "des": "【3星属性】攻击+6%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4124": {
-    "name": "中级黄晶石",
+    "name": "中级攻击石",
     "des": "【4星属性】攻击+7%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4130": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【0星属性】攻击+4%",
     "isBag": true,
     "type": "stone",
@@ -415,54 +415,53 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "gift",
-    "source3": "shop_ancient",
-    "source4": "extract"
+    "source2": "ancient",
+    "source3": "gift"
   },
   "4131": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【1星属性】攻击+5%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4132": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【2星属性】攻击+6%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4133": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【3星属性】攻击+7%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4134": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【4星属性】攻击+8%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4135": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【5星属性】攻击+10%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4136": {
-    "name": "高级黄晶石",
+    "name": "高级攻击石",
     "des": "【6星属性】攻击+12%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4140": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【0星属性】攻击+6%",
     "isBag": true,
     "type": "stone",
@@ -474,63 +473,63 @@
     "source2": "gift"
   },
   "4141": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【1星属性】攻击+7%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4142": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【2星属性】攻击+8%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4143": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【3星属性】攻击+9%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4144": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【4星属性】攻击+10%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4145": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【5星属性】攻击+12%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4146": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【6星属性】攻击+14%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4147": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【7星属性】攻击+17%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4148": {
-    "name": "顶级黄晶石",
+    "name": "顶级攻击石",
     "des": "【8星属性】攻击+20%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4210": {
-    "name": "初级朱红石",
+    "name": "初级生命石",
     "des": "【0星属性】生命+2%",
     "isBag": true,
     "type": "stone",
@@ -543,21 +542,21 @@
     "source3": "extract"
   },
   "4211": {
-    "name": "初级朱红石",
+    "name": "初级生命石",
     "des": "【1星属性】生命+3%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4212": {
-    "name": "初级朱红石",
+    "name": "初级生命石",
     "des": "【2星属性】生命+4%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4220": {
-    "name": "中级朱红石",
+    "name": "中级生命石",
     "des": "【0星属性】生命+3%",
     "isBag": true,
     "type": "stone",
@@ -569,35 +568,35 @@
     "source2": "gift"
   },
   "4221": {
-    "name": "中级朱红石",
+    "name": "中级生命石",
     "des": "【1星属性】生命+4%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4222": {
-    "name": "中级朱红石",
+    "name": "中级生命石",
     "des": "【2星属性】生命+5%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4223": {
-    "name": "中级朱红石",
+    "name": "中级生命石",
     "des": "【3星属性】生命+6%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4224": {
-    "name": "中级朱红石",
+    "name": "中级生命石",
     "des": "【4星属性】生命+7%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4230": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【0星属性】生命+4%",
     "isBag": true,
     "type": "stone",
@@ -606,54 +605,53 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "gift",
-    "source3": "shop_ancient",
-    "source4": "extract"
+    "source2": "ancient",
+    "source3": "gift"
   },
   "4231": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【1星属性】生命+5%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4232": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【2星属性】生命+6%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4233": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【3星属性】生命+7%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4234": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【4星属性】生命+8%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4235": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【5星属性】生命+10%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4236": {
-    "name": "高级朱红石",
+    "name": "高级生命石",
     "des": "【6星属性】生命+12%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4240": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【0星属性】生命+6%",
     "isBag": true,
     "type": "stone",
@@ -665,63 +663,63 @@
     "source2": "gift"
   },
   "4241": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【1星属性】生命+7%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4242": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【2星属性】生命+8%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4243": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【3星属性】生命+9%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4244": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【4星属性】生命+10%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4245": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【5星属性】生命+12%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4246": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【6星属性】生命+14%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4247": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【7星属性】生命+17%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4248": {
-    "name": "顶级朱红石",
+    "name": "顶级生命石",
     "des": "【8星属性】生命+20%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4310": {
-    "name": "初级水晶石",
+    "name": "初级伤害石",
     "des": "【0星属性】伤害+2%",
     "isBag": true,
     "type": "stone",
@@ -734,21 +732,21 @@
     "source3": "extract"
   },
   "4311": {
-    "name": "初级水晶石",
+    "name": "初级伤害石",
     "des": "【1星属性】伤害+3%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4312": {
-    "name": "初级水晶石",
+    "name": "初级伤害石",
     "des": "【2星属性】伤害+4%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4320": {
-    "name": "中级水晶石",
+    "name": "中级伤害石",
     "des": "【0星属性】伤害+3%",
     "isBag": true,
     "type": "stone",
@@ -760,35 +758,35 @@
     "source2": "gift"
   },
   "4321": {
-    "name": "中级水晶石",
+    "name": "中级伤害石",
     "des": "【1星属性】伤害+4%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4322": {
-    "name": "中级水晶石",
+    "name": "中级伤害石",
     "des": "【2星属性】伤害+5%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4323": {
-    "name": "中级水晶石",
+    "name": "中级伤害石",
     "des": "【3星属性】伤害+6%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4324": {
-    "name": "中级水晶石",
+    "name": "中级伤害石",
     "des": "【4星属性】伤害+7%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4330": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【0星属性】伤害+4%",
     "isBag": true,
     "type": "stone",
@@ -797,54 +795,53 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "gift",
-    "source3": "shop_ancient",
-    "source4": "extract"
+    "source2": "ancient",
+    "source3": "gift"
   },
   "4331": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【1星属性】伤害+5%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4332": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【2星属性】伤害+6%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4333": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【3星属性】伤害+7%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4334": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【4星属性】伤害+8%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4335": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【5星属性】伤害+10%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4336": {
-    "name": "高级水晶石",
+    "name": "高级伤害石",
     "des": "【6星属性】伤害+12%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4340": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【0星属性】伤害+6%",
     "isBag": true,
     "type": "stone",
@@ -856,63 +853,63 @@
     "source2": "gift"
   },
   "4341": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【1星属性】伤害+7%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4342": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【2星属性】伤害+8%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4343": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【3星属性】伤害+9%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4344": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【4星属性】伤害+10%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4345": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【5星属性】伤害+12%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4346": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【6星属性】伤害+14%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4347": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【7星属性】伤害+17%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4348": {
-    "name": "顶级水晶石",
+    "name": "顶级伤害石",
     "des": "【8星属性】伤害+20%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4410": {
-    "name": "初级青苔石",
+    "name": "初级免伤石",
     "des": "【0星属性】免伤+2%",
     "isBag": true,
     "type": "stone",
@@ -925,21 +922,21 @@
     "source3": "extract"
   },
   "4411": {
-    "name": "初级青苔石",
+    "name": "初级免伤石",
     "des": "【1星属性】免伤+3%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4412": {
-    "name": "初级青苔石",
+    "name": "初级免伤石",
     "des": "【2星属性】免伤+4%",
     "isBag": true,
     "type": "stone",
     "quality": 2
   },
   "4420": {
-    "name": "中级青苔石",
+    "name": "中级免伤石",
     "des": "【0星属性】免伤+3%",
     "isBag": true,
     "type": "stone",
@@ -951,35 +948,35 @@
     "source2": "gift"
   },
   "4421": {
-    "name": "中级青苔石",
+    "name": "中级免伤石",
     "des": "【1星属性】免伤+4%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4422": {
-    "name": "中级青苔石",
+    "name": "中级免伤石",
     "des": "【2星属性】免伤+5%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4423": {
-    "name": "中级青苔石",
+    "name": "中级免伤石",
     "des": "【3星属性】免伤+6%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4424": {
-    "name": "中级青苔石",
+    "name": "中级免伤石",
     "des": "【4星属性】免伤+7%",
     "isBag": true,
     "type": "stone",
     "quality": 3
   },
   "4430": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【0星属性】免伤+4%",
     "isBag": true,
     "type": "stone",
@@ -988,54 +985,53 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "gift",
-    "source3": "shop_ancient",
-    "source4": "extract"
+    "source2": "ancient",
+    "source3": "gift"
   },
   "4431": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【1星属性】免伤+5%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4432": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【2星属性】免伤+6%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4433": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【3星属性】免伤+7%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4434": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【4星属性】免伤+8%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4435": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【5星属性】免伤+10%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4436": {
-    "name": "高级青苔石",
+    "name": "高级免伤石",
     "des": "【6星属性】免伤+12%",
     "isBag": true,
     "type": "stone",
     "quality": 4
   },
   "4440": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【0星属性】免伤+6%",
     "isBag": true,
     "type": "stone",
@@ -1047,56 +1043,56 @@
     "source2": "gift"
   },
   "4441": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【1星属性】免伤+7%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4442": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【2星属性】免伤+8%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4443": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【3星属性】免伤+9%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4444": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【4星属性】免伤+10%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4445": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【5星属性】免伤+12%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4446": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【6星属性】免伤+14%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4447": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【7星属性】免伤+17%",
     "isBag": true,
     "type": "stone",
     "quality": 5
   },
   "4448": {
-    "name": "顶级青苔石",
+    "name": "顶级免伤石",
     "des": "【8星属性】免伤+20%",
     "isBag": true,
     "type": "stone",
@@ -2688,7 +2684,7 @@
     "source1": "gift"
   },
   "41500": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【0星属性】攻击+8%",
     "isBag": true,
     "type": "stone",
@@ -2702,7 +2698,7 @@
     "source3": "shop_crossTeamPK"
   },
   "41501": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【1星属性】攻击+9%",
     "isBag": true,
     "type": "stone",
@@ -2710,7 +2706,7 @@
     "effects": "baowu"
   },
   "41502": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【2星属性】攻击+10%",
     "isBag": true,
     "type": "stone",
@@ -2718,7 +2714,7 @@
     "effects": "baowu"
   },
   "41503": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【3星属性】攻击+11%",
     "isBag": true,
     "type": "stone",
@@ -2726,7 +2722,7 @@
     "effects": "baowu"
   },
   "41504": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【4星属性】攻击+12%",
     "isBag": true,
     "type": "stone",
@@ -2734,7 +2730,7 @@
     "effects": "baowu"
   },
   "41505": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【5星属性】攻击+14%",
     "isBag": true,
     "type": "stone",
@@ -2742,7 +2738,7 @@
     "effects": "baowu"
   },
   "41506": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【6星属性】攻击+16%",
     "isBag": true,
     "type": "stone",
@@ -2750,7 +2746,7 @@
     "effects": "baowu"
   },
   "41507": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【7星属性】攻击+19%",
     "isBag": true,
     "type": "stone",
@@ -2758,7 +2754,7 @@
     "effects": "baowu"
   },
   "41508": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【8星属性】攻击+22%",
     "isBag": true,
     "type": "stone",
@@ -2766,7 +2762,7 @@
     "effects": "baowu"
   },
   "41509": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【9星属性】攻击+26%",
     "isBag": true,
     "type": "stone",
@@ -2774,7 +2770,7 @@
     "effects": "baowu"
   },
   "41510": {
-    "name": "至尊黄晶石",
+    "name": "至尊攻击石",
     "des": "【10星属性】攻击+30%",
     "isBag": true,
     "type": "stone",
@@ -2782,7 +2778,7 @@
     "effects": "baowu"
   },
   "42500": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【0星属性】生命+8%",
     "isBag": true,
     "type": "stone",
@@ -2795,7 +2791,7 @@
     "source2": "gift"
   },
   "42501": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【1星属性】生命+9%",
     "isBag": true,
     "type": "stone",
@@ -2803,7 +2799,7 @@
     "effects": "baowu"
   },
   "42502": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【2星属性】生命+10%",
     "isBag": true,
     "type": "stone",
@@ -2811,7 +2807,7 @@
     "effects": "baowu"
   },
   "42503": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【3星属性】生命+11%",
     "isBag": true,
     "type": "stone",
@@ -2819,7 +2815,7 @@
     "effects": "baowu"
   },
   "42504": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【4星属性】生命+12%",
     "isBag": true,
     "type": "stone",
@@ -2827,7 +2823,7 @@
     "effects": "baowu"
   },
   "42505": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【5星属性】生命+14%",
     "isBag": true,
     "type": "stone",
@@ -2835,7 +2831,7 @@
     "effects": "baowu"
   },
   "42506": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【6星属性】生命+16%",
     "isBag": true,
     "type": "stone",
@@ -2843,7 +2839,7 @@
     "effects": "baowu"
   },
   "42507": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【7星属性】生命+19%",
     "isBag": true,
     "type": "stone",
@@ -2851,7 +2847,7 @@
     "effects": "baowu"
   },
   "42508": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【8星属性】生命+22%",
     "isBag": true,
     "type": "stone",
@@ -2859,7 +2855,7 @@
     "effects": "baowu"
   },
   "42509": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【9星属性】生命+26%",
     "isBag": true,
     "type": "stone",
@@ -2867,7 +2863,7 @@
     "effects": "baowu"
   },
   "42510": {
-    "name": "至尊朱红石",
+    "name": "至尊生命石",
     "des": "【10星属性】生命+30%",
     "isBag": true,
     "type": "stone",
@@ -2875,7 +2871,7 @@
     "effects": "baowu"
   },
   "43500": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【0星属性】伤害+8%",
     "isBag": true,
     "type": "stone",
@@ -2889,7 +2885,7 @@
     "source3": "shop_crossTeamPK"
   },
   "43501": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【1星属性】伤害+9%",
     "isBag": true,
     "type": "stone",
@@ -2897,7 +2893,7 @@
     "effects": "baowu"
   },
   "43502": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【2星属性】伤害+10%",
     "isBag": true,
     "type": "stone",
@@ -2905,7 +2901,7 @@
     "effects": "baowu"
   },
   "43503": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【3星属性】伤害+11%",
     "isBag": true,
     "type": "stone",
@@ -2913,7 +2909,7 @@
     "effects": "baowu"
   },
   "43504": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【4星属性】伤害+12%",
     "isBag": true,
     "type": "stone",
@@ -2921,7 +2917,7 @@
     "effects": "baowu"
   },
   "43505": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【5星属性】伤害+14%",
     "isBag": true,
     "type": "stone",
@@ -2929,7 +2925,7 @@
     "effects": "baowu"
   },
   "43506": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【6星属性】伤害+16%",
     "isBag": true,
     "type": "stone",
@@ -2937,7 +2933,7 @@
     "effects": "baowu"
   },
   "43507": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【7星属性】伤害+19%",
     "isBag": true,
     "type": "stone",
@@ -2945,7 +2941,7 @@
     "effects": "baowu"
   },
   "43508": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【8星属性】伤害+22%",
     "isBag": true,
     "type": "stone",
@@ -2953,7 +2949,7 @@
     "effects": "baowu"
   },
   "43509": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【9星属性】伤害+26%",
     "isBag": true,
     "type": "stone",
@@ -2961,7 +2957,7 @@
     "effects": "baowu"
   },
   "43510": {
-    "name": "至尊水晶石",
+    "name": "至尊伤害石",
     "des": "【10星属性】伤害+30%",
     "isBag": true,
     "type": "stone",
@@ -2969,7 +2965,7 @@
     "effects": "baowu"
   },
   "44500": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【0星属性】免伤+8%",
     "isBag": true,
     "type": "stone",
@@ -2982,7 +2978,7 @@
     "source2": "gift"
   },
   "44501": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【1星属性】免伤+9%",
     "isBag": true,
     "type": "stone",
@@ -2990,7 +2986,7 @@
     "effects": "baowu"
   },
   "44502": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【2星属性】免伤+10%",
     "isBag": true,
     "type": "stone",
@@ -2998,7 +2994,7 @@
     "effects": "baowu"
   },
   "44503": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【3星属性】免伤+11%",
     "isBag": true,
     "type": "stone",
@@ -3006,7 +3002,7 @@
     "effects": "baowu"
   },
   "44504": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【4星属性】免伤+12%",
     "isBag": true,
     "type": "stone",
@@ -3014,7 +3010,7 @@
     "effects": "baowu"
   },
   "44505": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【5星属性】免伤+14%",
     "isBag": true,
     "type": "stone",
@@ -3022,7 +3018,7 @@
     "effects": "baowu"
   },
   "44506": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【6星属性】免伤+16%",
     "isBag": true,
     "type": "stone",
@@ -3030,7 +3026,7 @@
     "effects": "baowu"
   },
   "44507": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【7星属性】免伤+19%",
     "isBag": true,
     "type": "stone",
@@ -3038,7 +3034,7 @@
     "effects": "baowu"
   },
   "44508": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【8星属性】免伤+22%",
     "isBag": true,
     "type": "stone",
@@ -3046,7 +3042,7 @@
     "effects": "baowu"
   },
   "44509": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【9星属性】免伤+26%",
     "isBag": true,
     "type": "stone",
@@ -3054,7 +3050,7 @@
     "effects": "baowu"
   },
   "44510": {
-    "name": "至尊青苔石",
+    "name": "至尊免伤石",
     "des": "【10星属性】免伤+30%",
     "isBag": true,
     "type": "stone",
@@ -3552,7 +3548,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "104020": {
     "name": "哥达鸭碎片",
@@ -3564,7 +3561,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "105000": {
     "name": "五星水系碎片",
@@ -3577,8 +3575,9 @@
     "coin": 30000000,
     "buyNum": 30,
     "quality": 5,
-    "source1": "secretChallenge",
-    "source2": "tower"
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "105010": {
     "name": "水君碎片",
@@ -3590,7 +3589,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105020": {
     "name": "墨海马碎片",
@@ -3602,7 +3603,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105030": {
     "name": "杰尼龟碎片",
@@ -3614,7 +3617,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105040": {
     "name": "盖欧卡碎片",
@@ -3626,7 +3631,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105050": {
     "name": "小锯鳄碎片",
@@ -3638,7 +3645,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105060": {
     "name": "蚊香蝌蚪碎片",
@@ -3650,7 +3659,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105070": {
     "name": "帕路奇亚碎片",
@@ -3662,7 +3673,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105080": {
     "name": "波加曼碎片",
@@ -3674,7 +3687,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105090": {
     "name": "水跃鱼碎片",
@@ -3686,7 +3701,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "105100": {
     "name": "鲤鱼王碎片",
@@ -3698,7 +3715,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "204010": {
     "name": "猫老大碎片",
@@ -3710,7 +3729,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "204020": {
     "name": "火勒克猫碎片",
@@ -3722,7 +3742,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "205000": {
     "name": "五星火系碎片",
@@ -3735,7 +3756,9 @@
     "coin": 30000000,
     "buyNum": 30,
     "quality": 5,
-    "source1": "secretChallenge"
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "205010": {
     "name": "炎帝碎片",
@@ -3747,7 +3770,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205020": {
     "name": "小火猴碎片",
@@ -3759,7 +3784,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205030": {
     "name": "戴鲁比碎片",
@@ -3771,7 +3798,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205040": {
     "name": "凤凰碎片",
@@ -3783,7 +3812,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205050": {
     "name": "固拉多碎片",
@@ -3795,7 +3826,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205060": {
     "name": "火球鼠碎片",
@@ -3807,7 +3840,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205070": {
     "name": "小火龙碎片",
@@ -3819,7 +3854,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205080": {
     "name": "小火马碎片",
@@ -3831,7 +3868,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205090": {
     "name": "小鸭嘴兽碎片",
@@ -3843,7 +3882,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "205100": {
     "name": "火稚鸡碎片",
@@ -3855,7 +3896,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "304010": {
     "name": "莲帽小童碎片",
@@ -3867,7 +3910,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "304020": {
     "name": "乐天童子碎片",
@@ -3879,7 +3923,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "305000": {
     "name": "五星木系碎片",
@@ -3892,7 +3937,9 @@
     "coin": 30000000,
     "buyNum": 30,
     "quality": 5,
-    "source1": "secretChallenge"
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "305010": {
     "name": "橡实果碎片",
@@ -3904,7 +3951,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305020": {
     "name": "藤藤蛇碎片",
@@ -3916,7 +3965,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305030": {
     "name": "喇叭芽碎片",
@@ -3928,7 +3979,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305040": {
     "name": "嫩叶龟碎片",
@@ -3940,7 +3993,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305050": {
     "name": "木守宫碎片",
@@ -3952,7 +4007,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305060": {
     "name": "妙蛙种子碎片",
@@ -3964,7 +4021,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305070": {
     "name": "菊草叶碎片",
@@ -3976,7 +4035,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305080": {
     "name": "含羞苞碎片",
@@ -3988,7 +4049,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305090": {
     "name": "谢米碎片",
@@ -4000,7 +4063,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "305100": {
     "name": "毽子草碎片",
@@ -4012,7 +4077,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405000": {
     "name": "五星光系碎片",
@@ -4025,7 +4092,9 @@
     "coin": 60000000,
     "buyNum": 30,
     "quality": 5,
-    "source1": "secretChallenge"
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "405010": {
     "name": "皮卡丘碎片",
@@ -4037,7 +4106,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405020": {
     "name": "铁哑铃碎片",
@@ -4049,7 +4120,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405030": {
     "name": "凯西碎片",
@@ -4061,7 +4134,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405040": {
     "name": "雷公碎片",
@@ -4073,7 +4148,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405050": {
     "name": "迷你龙碎片",
@@ -4085,7 +4162,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405060": {
     "name": "利欧路碎片",
@@ -4097,7 +4176,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405070": {
     "name": "洛基亚碎片",
@@ -4109,7 +4190,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405080": {
     "name": "波克比碎片",
@@ -4121,7 +4204,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405090": {
     "name": "阿尔宙斯碎片",
@@ -4133,7 +4218,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "405100": {
     "name": "裂空座碎片",
@@ -4145,7 +4232,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505000": {
     "name": "五星暗系碎片",
@@ -4158,7 +4247,9 @@
     "coin": 60000000,
     "buyNum": 30,
     "quality": 5,
-    "source1": "secretChallenge"
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "505010": {
     "name": "达克莱伊碎片",
@@ -4170,7 +4261,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505020": {
     "name": "骑拉帝纳碎片",
@@ -4182,7 +4275,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505030": {
     "name": "超梦碎片",
@@ -4194,7 +4289,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505040": {
     "name": "咕妞妞碎片",
@@ -4206,7 +4303,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505050": {
     "name": "化石翼龙碎片",
@@ -4218,7 +4317,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505060": {
     "name": "圆陆鲨碎片",
@@ -4230,7 +4331,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505070": {
     "name": "鬼斯碎片",
@@ -4242,7 +4345,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505080": {
     "name": "代欧奇希斯碎片",
@@ -4254,7 +4359,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505090": {
     "name": "姆克儿碎片",
@@ -4266,7 +4373,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "505100": {
     "name": "宝贝龙碎片",
@@ -4278,7 +4387,9 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "903000": {
     "name": "三星精灵碎片",
@@ -4290,7 +4401,8 @@
     "gold": 300,
     "coin": 1500000,
     "buyNum": 30,
-    "quality": 3
+    "quality": 3,
+    "source1": "gift"
   },
   "904000": {
     "name": "四星精灵碎片",
@@ -4302,7 +4414,8 @@
     "gold": 600,
     "coin": 3000000,
     "buyNum": 30,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "905000": {
     "name": "五星精灵碎片",
@@ -4314,7 +4427,9 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 30,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift",
+    "source2": "escort"
   },
   "1000040": {
     "name": "洗炼石",
@@ -4324,7 +4439,8 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "endless"
   },
   "1000050": {
     "name": "星星沙子",
@@ -4335,10 +4451,9 @@
     "coin": 5000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "heroRemove",
-    "source2": "secretChallenge",
-    "source3": "tower",
-    "source4": "gift"
+    "source1": "tower",
+    "source2": "dailyFb",
+    "source3": "tower_realm"
   },
   "1000060": {
     "name": "神装觉醒石",
@@ -4375,7 +4490,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "shop_zhulu",
+    "source1": "endless",
     "source2": "gift",
     "source3": "endless",
     "source4": "areaTrial"
@@ -4389,8 +4504,7 @@
     "coin": 250000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "secretChallenge",
-    "source2": "extract"
+    "source1": "gift"
   },
   "1000100": {
     "name": "高级寻宝图",
@@ -4402,8 +4516,9 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "secretChallenge",
-    "source2": "gift"
+    "source1": "escort",
+    "source2": "endless",
+    "source3": "gift"
   },
   "1000120": {
     "name": "高级球",
@@ -4415,9 +4530,8 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "gift",
-    "source2": "shop_crossPK",
-    "source3": "shop_crossTop"
+    "source1": "areaTrial",
+    "source2": "gift"
   },
   "1000130": {
     "name": "大师球",
@@ -4505,7 +4619,8 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "gift"
+    "source1": "crossPK",
+    "source2": "gift"
   },
   "1000280": {
     "name": "MEGA石",
@@ -4516,7 +4631,9 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "crossTop",
+    "source2": "gift"
   },
   "1000290": {
     "name": "超级MEGA石",
@@ -4527,7 +4644,9 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "tower_realm",
+    "source2": "gift"
   },
   "1000300": {
     "name": "圣物晶片",
@@ -4539,9 +4658,8 @@
     "buyNum": 10000,
     "quality": 4,
     "source1": "shop_crossTop",
-    "source2": "gift",
-    "source3": "shop_crossTop",
-    "source4": "lottery_bf"
+    "source2": "secretChallenge",
+    "source3": "gift"
   },
   "1000400": {
     "name": "圣物残片",
@@ -4553,8 +4671,8 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "shop_crossTop",
-    "source2": "gift",
-    "source3": "shop_crossTop"
+    "source2": "secretChallenge",
+    "source3": "gift"
   },
   "1000500": {
     "name": "改名卡",
@@ -4564,7 +4682,8 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "1000501": {
     "name": "木质矿镐",
@@ -4575,8 +4694,7 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "shop_ancient",
-    "source2": "gift"
+    "source1": "gift"
   },
   "1000502": {
     "name": "青铜矿镐",
@@ -4587,8 +4705,7 @@
     "coin": 2000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "shop_ancient",
-    "source2": "gift"
+    "source1": "gift"
   },
   "1000503": {
     "name": "白银矿镐",
@@ -4599,7 +4716,7 @@
     "coin": 10000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "shop_ancient",
+    "source1": "ancient",
     "source2": "gift"
   },
   "1000504": {
@@ -4612,7 +4729,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "gift"
+    "source1": "ancient",
+    "source2": "gift"
   },
   "1000601": {
     "name": "红包碎片",
@@ -4623,7 +4741,8 @@
     "coin": 5000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "lottery_oh"
+    "source1": "lottery_oh",
+    "source2": "gift"
   },
   "1000602": {
     "name": "欧皇转盘卡",
@@ -4634,7 +4753,8 @@
     "coin": 100000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "gift"
   },
   "5001010": {
     "name": "学徒铃铛",
@@ -4646,7 +4766,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5001020": {
     "name": "学徒围巾",
@@ -4658,7 +4779,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5001030": {
     "name": "学徒腰带",
@@ -4670,7 +4792,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5001040": {
     "name": "学徒护腕",
@@ -4682,7 +4805,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5002010": {
     "name": "气势铃铛",
@@ -4694,7 +4818,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5002020": {
     "name": "气势围巾",
@@ -4706,7 +4831,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5002030": {
     "name": "气势腰带",
@@ -4718,7 +4844,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5002040": {
     "name": "气势护腕",
@@ -4730,7 +4857,8 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5003010": {
     "name": "力量铃铛",
@@ -4742,7 +4870,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5003020": {
     "name": "力量围巾",
@@ -4754,7 +4883,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5003030": {
     "name": "力量腰带",
@@ -4766,7 +4896,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5003040": {
     "name": "力量护腕",
@@ -4778,7 +4909,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5004010": {
     "name": "大师铃铛",
@@ -4790,7 +4922,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5004020": {
     "name": "大师围巾",
@@ -4802,7 +4935,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5004030": {
     "name": "大师腰带",
@@ -4814,7 +4948,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5004040": {
     "name": "大师护腕",
@@ -4826,7 +4961,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5005010": {
     "name": "幸运铃铛",
@@ -4838,7 +4974,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5005020": {
     "name": "幸运围巾",
@@ -4850,7 +4987,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5005030": {
     "name": "幸运腰带",
@@ -4862,7 +5000,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5005040": {
     "name": "幸运护腕",
@@ -4874,7 +5013,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5006010": {
     "name": "心灵铃铛",
@@ -4886,7 +5026,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5006020": {
     "name": "心灵围巾",
@@ -4898,7 +5039,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5006030": {
     "name": "心灵腰带",
@@ -4910,7 +5052,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5006040": {
     "name": "心灵护腕",
@@ -4922,7 +5065,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "dailyFb",
-    "source2": "smithy"
+    "source2": "smithy",
+    "source3": "gift"
   },
   "5007010": {
     "name": "勇气铃铛",
@@ -5282,7 +5426,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5014020": {
     "name": "大地围巾",
@@ -5294,7 +5439,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5014030": {
     "name": "大地腰带",
@@ -5306,7 +5452,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5014040": {
     "name": "大地护腕",
@@ -5318,7 +5465,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5015010": {
     "name": "妖精铃铛",
@@ -5330,7 +5478,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5015020": {
     "name": "妖精围巾",
@@ -5342,7 +5491,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5015030": {
     "name": "妖精腰带",
@@ -5354,7 +5504,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5015040": {
     "name": "妖精护腕",
@@ -5366,7 +5517,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5016010": {
     "name": "龙鳞铃铛",
@@ -5378,7 +5530,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5016020": {
     "name": "龙鳞围巾",
@@ -5390,7 +5543,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5016030": {
     "name": "龙鳞腰带",
@@ -5402,7 +5556,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5016040": {
     "name": "龙鳞护腕",
@@ -5414,7 +5569,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5017010": {
     "name": "彗星铃铛",
@@ -5426,7 +5582,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5017020": {
     "name": "彗星围巾",
@@ -5438,7 +5595,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5017030": {
     "name": "彗星腰带",
@@ -5450,7 +5608,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5017040": {
     "name": "彗星护腕",
@@ -5462,7 +5621,8 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5018010": {
     "name": "奇迹铃铛",
@@ -5474,7 +5634,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5018020": {
     "name": "奇迹围巾",
@@ -5486,7 +5647,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5018030": {
     "name": "奇迹腰带",
@@ -5498,7 +5660,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5018040": {
     "name": "奇迹护腕",
@@ -5510,7 +5673,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5019010": {
     "name": "王者铃铛",
@@ -5522,7 +5686,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5019020": {
     "name": "王者围巾",
@@ -5534,7 +5699,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5019030": {
     "name": "王者腰带",
@@ -5546,7 +5712,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5019040": {
     "name": "王者护腕",
@@ -5558,7 +5725,8 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "daiji",
-    "source1": "smithy"
+    "source1": "areaTrial",
+    "source2": "smithy"
   },
   "5020010": {
     "name": "统治者神剑",
@@ -5645,7 +5813,7 @@
     "source1": "smithy"
   },
   "5021040": {
-    "name": "变异水晶鞋",
+    "name": "变异伤害鞋",
     "des": "用从远古的地层中采集到，含着庞大魔灵的晶体制成的水晶鞋。虽然能够将能力增强百倍，但相当难以驾驭，只有优秀的冒险家才能使用",
     "isBag": true,
     "type": "equip",
@@ -5763,7 +5931,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10502025": {
     "name": "水神吊坠",
@@ -5776,7 +5946,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10503025": {
     "name": "新月腰带",
@@ -5789,7 +5961,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10504025": {
     "name": "沧澜之壳",
@@ -5802,7 +5976,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10505025": {
     "name": "寒冬之铃",
@@ -5815,7 +5991,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10506025": {
     "name": "迅捷拳套",
@@ -5828,7 +6006,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10507025": {
     "name": "不融之冰",
@@ -5841,7 +6021,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10508025": {
     "name": "寒霜之枪",
@@ -5854,7 +6036,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10509025": {
     "name": "溟龙腰带",
@@ -5867,7 +6051,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "10510025": {
     "name": "星月头巾",
@@ -5880,7 +6066,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "13020010": {
     "name": "契约胜利之剑碎片",
@@ -5892,7 +6080,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "shop_crossTop",
-    "source2": "shop_crossTop"
+    "source2": "shop_crossTop",
+    "source3": "gift"
   },
   "13020020": {
     "name": "凤凰之羽碎片",
@@ -5903,7 +6092,8 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_zhulu"
+    "source1": "shop_zhulu",
+    "source2": "gift"
   },
   "13030010": {
     "name": "铁碎牙碎片",
@@ -5915,7 +6105,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "shop_crossTop",
-    "source2": "shop_crossTop"
+    "source2": "shop_crossTop",
+    "source3": "gift"
   },
   "13030020": {
     "name": "乌尔恭之杖碎片",
@@ -5927,7 +6118,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "shop_crossTop",
-    "source2": "shop_crossTop"
+    "source2": "shop_crossTop",
+    "source3": "gift"
   },
   "13040010": {
     "name": "天马座幻想碎片",
@@ -5938,7 +6130,8 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTeamPK"
+    "source1": "shop_crossTeamPK",
+    "source2": "gift"
   },
   "13040030": {
     "name": "勇者围巾碎片",
@@ -5949,7 +6142,8 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTeamPK"
+    "source1": "shop_crossTeamPK",
+    "source2": "gift"
   },
   "13040040": {
     "name": "万能圣杯碎片",
@@ -5960,7 +6154,8 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTeamPK"
+    "source1": "shop_crossTeamPK",
+    "source2": "gift"
   },
   "13040060": {
     "name": "起源之石碎片",
@@ -5971,7 +6166,8 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTeamPK"
+    "source1": "shop_crossTeamPK",
+    "source2": "gift"
   },
   "13040070": {
     "name": "命运裁决之枪碎片",
@@ -5995,7 +6191,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20502025": {
     "name": "愤怒围巾",
@@ -6008,7 +6206,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20503025": {
     "name": "炽热头巾",
@@ -6021,7 +6221,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20504025": {
     "name": "虹色之羽",
@@ -6034,7 +6236,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20505025": {
     "name": "逐火之爪",
@@ -6047,7 +6251,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20506025": {
     "name": "烈焰玉带",
@@ -6060,7 +6266,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20507025": {
     "name": "火龙之羽",
@@ -6073,7 +6281,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20508025": {
     "name": "命运丝绸",
@@ -6086,7 +6296,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20509025": {
     "name": "羽翼白叶",
@@ -6099,7 +6311,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "20510025": {
     "name": "火手里剑",
@@ -6112,7 +6326,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30501025": {
     "name": "四叶之花",
@@ -6125,7 +6341,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30502025": {
     "name": "蔷薇之灵",
@@ -6138,7 +6356,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30503025": {
     "name": "时间怀表",
@@ -6151,7 +6371,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30504025": {
     "name": "彩虹糖果",
@@ -6164,7 +6386,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30505025": {
     "name": "森林之刃",
@@ -6177,7 +6401,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30506025": {
     "name": "妙蛙之花",
@@ -6190,7 +6416,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30507025": {
     "name": "透明铃铛",
@@ -6203,7 +6431,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30508025": {
     "name": "翡翠之晶",
@@ -6216,7 +6446,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30509025": {
     "name": "落天之螺",
@@ -6229,7 +6461,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "30510025": {
     "name": "狂风之羽",
@@ -6242,7 +6476,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40501025": {
     "name": "大师之帽",
@@ -6255,7 +6491,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40502025": {
     "name": "愤怒拳套",
@@ -6268,7 +6506,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40503025": {
     "name": "念力汤勺",
@@ -6281,7 +6521,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40504025": {
     "name": "圣纹围巾",
@@ -6294,7 +6536,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40505025": {
     "name": "冠军腰带",
@@ -6307,7 +6551,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40506025": {
     "name": "光辉拳套",
@@ -6320,7 +6566,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40507025": {
     "name": "月光明珠",
@@ -6333,7 +6581,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40508025": {
     "name": "月华枫叶",
@@ -6346,7 +6596,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40509025": {
     "name": "创世之证",
@@ -6359,7 +6611,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "40510025": {
     "name": "精灵之笛",
@@ -6372,7 +6626,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50501025": {
     "name": "潜行布幕",
@@ -6385,7 +6641,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50502025": {
     "name": "月亮晶石",
@@ -6398,7 +6656,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50503025": {
     "name": "幽灵怀表",
@@ -6411,7 +6671,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50504025": {
     "name": "诅咒之珠",
@@ -6424,7 +6686,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50505025": {
     "name": "玻琥之石",
@@ -6437,7 +6701,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50506025": {
     "name": "精灵利爪",
@@ -6450,7 +6716,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50507025": {
     "name": "耿鬼恶面",
@@ -6463,7 +6731,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50508025": {
     "name": "异兽之核",
@@ -6476,7 +6746,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50509025": {
     "name": "白兽之尾",
@@ -6489,7 +6761,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "50510025": {
     "name": "龙星之石",
@@ -6502,7 +6776,9 @@
     "other_currency": 207,
     "other_value": 500,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "shop",
+    "source2": "gift"
   },
   "101000001": {
     "name": "1元充值卡",
@@ -6516,7 +6792,8 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "lottery_oh"
+    "source1": "lottery_oh",
+    "source2": "gift"
   },
   "101000006": {
     "name": "6元充值卡",
@@ -6545,7 +6822,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "lottery_oh",
-    "source2": "shop_chongzhi"
+    "source2": "shop_chongzhi",
+    "source3": "gift"
   },
   "101000012": {
     "name": "12元充值卡",
@@ -6812,7 +7090,8 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101101008": {
     "name": "中袋经验糖果",
@@ -6825,7 +7104,8 @@
     "coin": 250000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101101010": {
     "name": "大袋经验糖果",
@@ -6838,7 +7118,8 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101101300": {
     "name": "豪华经验糖果",
@@ -6865,7 +7146,8 @@
     "coin": 700000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101201003": {
     "name": "小金币袋",
@@ -6878,7 +7160,8 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101201004": {
     "name": "中金币袋",
@@ -6891,7 +7174,8 @@
     "coin": 250000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101201005": {
     "name": "大金币袋",
@@ -6904,7 +7188,8 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "101201006": {
     "name": "豪华金币袋",
@@ -6946,7 +7231,8 @@
     "coin": 150000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "104502010": {
     "name": "神秘蓝色宝石",
@@ -6959,7 +7245,8 @@
     "coin": 1000000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "104503010": {
     "name": "神秘紫色宝石",
@@ -6972,7 +7259,8 @@
     "coin": 7500000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "104504010": {
     "name": "神秘橙色宝石",
@@ -6985,7 +7273,8 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "104505010": {
     "name": "神秘红色宝石",
@@ -6998,7 +7287,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "104505110": {
     "name": "神秘技能宝石",
@@ -7011,7 +7301,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "gift"
   },
   "105501010": {
     "name": "绿色装备匣",
@@ -7024,7 +7315,8 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "dailyFb"
+    "source1": "dailyFb",
+    "source2": "gift"
   },
   "105503010": {
     "name": "蓝色装备匣",
@@ -7037,7 +7329,8 @@
     "coin": 150000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "dailyFb"
+    "source1": "dailyFb",
+    "source2": "gift"
   },
   "105505010": {
     "name": "紫色装备匣",
@@ -7049,7 +7342,8 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 4
+    "quality": 4,
+    "source1": "gift"
   },
   "105508010": {
     "name": "橙色装备匣",
@@ -7061,7 +7355,8 @@
     "gold": 450,
     "coin": 2250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "105512010": {
     "name": "红色装备匣",
@@ -7073,7 +7368,8 @@
     "gold": 3700,
     "coin": 18500000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift"
   },
   "107101001": {
     "name": "进阶石福袋",
@@ -7085,7 +7381,8 @@
     "gold": 450,
     "coin": 2250000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "107101002": {
     "name": "百抽礼盒",
@@ -7140,7 +7437,8 @@
     "coin": 850000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108002011": {
     "name": "绿色秘宝袋",
@@ -7153,7 +7451,8 @@
     "coin": 250000,
     "buyNum": 1,
     "quality": 2,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108003001": {
     "name": "蓝色秘宝箱",
@@ -7166,7 +7465,8 @@
     "coin": 1550000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108003011": {
     "name": "蓝色秘宝袋",
@@ -7179,7 +7479,8 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108004001": {
     "name": "紫色秘宝箱",
@@ -7192,7 +7493,8 @@
     "coin": 3000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108004011": {
     "name": "紫色秘宝袋",
@@ -7205,7 +7507,8 @@
     "coin": 900000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108005001": {
     "name": "橙色秘宝箱",
@@ -7218,7 +7521,8 @@
     "coin": 3500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108005011": {
     "name": "橙色秘宝袋",
@@ -7231,7 +7535,8 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108006001": {
     "name": "红色秘宝箱",
@@ -7244,7 +7549,8 @@
     "coin": 6000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108006011": {
     "name": "红色秘宝袋",
@@ -7257,7 +7563,8 @@
     "coin": 2750000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "escort"
+    "source1": "escort",
+    "source2": "gift"
   },
   "108007001": {
     "name": "锦标参与宝箱",
@@ -7270,7 +7577,8 @@
     "coin": 800000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "crossTop"
+    "source1": "crossTop",
+    "source2": "gift"
   },
   "108007002": {
     "name": "锦标竞猜宝箱",
@@ -7283,7 +7591,8 @@
     "coin": 1800000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "crossTop"
+    "source1": "crossTop",
+    "source2": "gift"
   },
   "108007003": {
     "name": "公会战胜宝箱",
@@ -7296,7 +7605,8 @@
     "coin": 600000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "guild_auction"
+    "source1": "guild_auction",
+    "source2": "gift"
   },
   "108007004": {
     "name": "公会参与宝箱",
@@ -7309,7 +7619,8 @@
     "coin": 200000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "guild_auction"
+    "source1": "guild_auction",
+    "source2": "gift"
   },
   "108008101": {
     "name": "幸运充值卡盲盒",
@@ -7452,7 +7763,8 @@
     "coin": 4000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "shop_zhulu"
+    "source1": "shop_zhulu",
+    "source2": "gift"
   },
   "109400001": {
     "name": "橙色石板匣",
@@ -7731,7 +8043,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 5,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "207004404": {
     "name": "超值护符宝箱",
@@ -7744,7 +8057,8 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "207004408": {
     "name": "至尊护符宝盒",
@@ -7757,7 +8071,8 @@
     "coin": 1000000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu"
+    "effects": "baowu",
+    "source1": "gift"
   },
   "208001001": {
     "name": "超值养成宝箱",
@@ -7769,7 +8084,8 @@
     "gold": 22000,
     "coin": 110000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 6,
+    "source1": "gift"
   },
   "208001002": {
     "name": "养成宝箱",
@@ -7781,7 +8097,8 @@
     "gold": 2200,
     "coin": 11000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "208001003": {
     "name": "欧皇转盘宝盒",
@@ -7789,7 +8106,8 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "1000602:10"
+    "arg": "1000602:10",
+    "source1": "gift"
   },
   "303006001": {
     "name": "圣物碎片自选箱",
