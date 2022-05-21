@@ -3,162 +3,205 @@
     "name": "登录"
   },
   "recruit": {
-    "name": "英雄祭祀"
+    "name": "英雄祭祀",
+    "soure": "recruit"
   },
   "recruit_normal": {
-    "name": "普通祭祀"
+    "name": "普通祭祀",
+    "soure": "recruit"
   },
   "recruit_great": {
-    "name": "高级祭祀"
+    "name": "高级祭祀",
+    "soure": "recruit"
   },
   "checkpoints": {
     "name": "关卡等级",
-    "des": "参数代表关卡等级"
+    "des": "参数代表关卡等级",
+    "soure": "tower"
   },
   "general": {
-    "name": "将军府征募"
+    "name": "将军府征募",
+    "soure": "recruit"
   },
   "arena": {
-    "name": "竞技场挑战"
+    "name": "竞技场挑战",
+    "soure": "arena"
   },
   "arena_win": {
-    "name": "竞技场获胜"
+    "name": "竞技场获胜",
+    "soure": "arena"
   },
   "arena_streak": {
-    "name": "竞技场连胜"
+    "name": "竞技场连胜",
+    "soure": "arena"
   },
   "quick": {
-    "name": "快速作战"
+    "name": "快速作战",
+    "soure": "hook"
   },
   "ttt": {
-    "name": "挑战/扫荡通天塔"
+    "name": "挑战/扫荡通天塔",
+    "soure": "tower"
   },
   "fb": {
-    "name": "参与日常副本"
+    "name": "参与日常副本",
+    "soure": "dailyFb"
   },
   "fb_hard": {
     "name": "日常副本难度",
-    "des": "参数代表副本难度等级"
+    "des": "参数代表副本难度等级",
+    "soure": "dailyFb"
   },
   "tour": {
     "name": "三界任务",
-    "des": "参数代表三界任务品质"
+    "des": "参数代表三界任务品质",
+    "soure": "hook"
   },
   "fb_coin": {
-    "name": "参与铜钱副本"
+    "name": "参与铜钱副本",
+    "soure": "dailyFb_gold"
   },
   "loadLv": {
-    "name": "主角等级"
+    "name": "主角等级",
+    "soure": "hook"
   },
   "totalCe": {
-    "name": "总战力"
+    "name": "总战力",
+    "soure": "hero"
   },
   "hero": {
     "name": "获取武将",
     "des": "参数代表英雄星级",
-    "equal": true
+    "equal": true,
+    "soure": "recruit"
   },
   "heroLv": {
     "name": "英雄等级",
     "des": "参数代表英雄等级",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroAd": {
     "name": "英雄阶级",
     "des": "参数代表英雄阶级",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_5": {
     "name": "英雄升到5星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_6": {
     "name": "英雄升到6星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_7": {
     "name": "英雄升到7星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_8": {
     "name": "英雄升到8星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_9": {
     "name": "英雄升到9星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "heroStar_10": {
     "name": "英雄升到10星",
     "des": "参数代表英雄ID",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "equip": {
     "name": "获得装备",
-    "des": "参数代表装备品质等级"
+    "des": "参数代表装备品质等级",
+    "soure": "dailyFb_hero"
   },
   "equip_compound": {
-    "name": "合成装备"
+    "name": "合成装备",
+    "soure": "smithy"
   },
   "resolve": {
-    "name": "分解武将"
+    "name": "分解武将",
+    "soure": "heroCenter"
   },
   "rank": {
     "name": "竞技场排名",
-    "des": "10000-所需排名"
+    "des": "10000-所需排名",
+    "soure": "arena"
   },
   "artifact_gain": {
-    "name": "获得法宝"
+    "name": "获得法宝",
+    "soure": "bazaar"
   },
   "artifactLv": {
     "name": "法宝等级",
     "des": "参数代表法宝等级",
-    "equal": true
+    "equal": true,
+    "soure": "bazaar"
   },
   "ace": {
     "name": "获得元神",
     "des": "参数代表元神品质等级",
-    "equal": true
+    "equal": true,
+    "soure": "bazaar"
   },
   "tttLv": {
-    "name": "通天塔等级"
+    "name": "通天塔等级",
+    "soure": "tower"
   },
   "tttRealmLv": {
     "name": "阵营塔等级",
     "des": "参数代表阵营",
-    "equal": true
+    "equal": true,
+    "soure": "tower"
   },
   "use_coin": {
-    "name": "消耗铜钱"
+    "name": "消耗铜钱",
+    "soure": "hero"
   },
   "use_gold": {
-    "name": "消耗元宝"
+    "name": "消耗元宝",
+    "soure": "recruit"
   },
   "liveness": {
-    "name": "获得活跃度"
+    "name": "获得活跃度",
+    "soure": "task"
   },
   "on_hook": {
-    "name": "领取挂机奖励"
+    "name": "领取挂机奖励",
+    "soure": "hook"
   },
   "shop_buy": {
-    "name": "杂货铺物品"
+    "name": "杂货铺物品",
+    "soure": "bazaar"
   },
   "bazzar_buy": {
-    "name": "集市购买"
+    "name": "集市购买",
+    "soure": "bazaar"
   },
   "bazzar_refresh": {
-    "name": "集市刷新"
+    "name": "集市刷新",
+    "soure": "bazaar"
   },
   "zhulu_monster": {
-    "name": "逐鹿之战击杀"
+    "name": "逐鹿之战击杀",
+    "soure": "zhulu"
   },
   "zhulu_pass": {
-    "name": "逐鹿之战通关"
+    "name": "逐鹿之战通关",
+    "soure": "zhulu"
   },
   "world_boss_play": {
     "name": "世界boss参与"
@@ -169,81 +212,104 @@
   },
   "wear_equip": {
     "name": "穿戴装备",
-    "des": "参数代表装备等级"
+    "des": "参数代表装备等级",
+    "soure": "hero"
   },
   "passFb": {
     "name": "通关剧情副本",
     "des": "参数代表副本id",
-    "equal": true
+    "equal": true,
+    "soure": "hook"
   },
   "battleNum": {
     "name": "上阵英雄",
-    "des": "参数代表上阵英雄数量"
+    "des": "参数代表上阵英雄数量",
+    "soure": "hero"
   },
   "ss_pass": {
     "name": "挑战山海通关",
-    "des": "参数代表关卡数"
+    "des": "参数代表关卡数",
+    "soure": "secretChallenge"
   },
   "ss_play": {
-    "name": "挑战或扫荡山海"
+    "name": "挑战或扫荡山海",
+    "soure": "secretChallenge"
   },
   "revenue": {
-    "name": "征税次数"
+    "name": "征税次数",
+    "soure": "revenue"
   },
   "friendGift": {
-    "name": "赠送友情点"
+    "name": "赠送友情点",
+    "soure": "friend"
   },
   "extremity": {
-    "name": "极限挑战次数"
+    "name": "极限挑战次数",
+    "soure": "extremity"
   },
   "endless_count": {
-    "name": "无尽试炼次数"
+    "name": "无尽试炼次数",
+    "soure": "endless"
   },
   "endless_one_lv": {
     "name": "无尽试炼单人通关层数",
-    "des": "参数代表层数*6"
+    "des": "参数代表层数*6",
+    "soure": "endless"
   },
   "endless_three_lv": {
     "name": "无尽试炼三人通关层数",
-    "des": "参数代表层数*6"
+    "des": "参数代表层数*6",
+    "soure": "endless"
   },
   "use_pickaxe": {
-    "name": "玉石矿场挖掘次数"
+    "name": "玉石矿场挖掘次数",
+    "soure": "pit"
   },
   "escort": {
     "name": "木牛流马护送次数"
   },
   "exercise": {
-    "name": "通关沙盘演武"
+    "name": "通关沙盘演武",
+    "soure": "exercise"
   },
   "reset_hufu": {
-    "name": "重铸护符次数"
+    "name": "重铸护符次数",
+    "soure": "smithy"
   },
   "peak_bet": {
-    "name": "王者巅峰赛投注次数"
+    "name": "王者巅峰赛投注次数",
+    "soure": "crossTop"
   },
   "grading_win": {
-    "name": "跨服竞技场获胜次数"
+    "name": "跨服竞技场获胜次数",
+    "soure": "crossPK"
   },
   "ancient_win": {
-    "name": "远古战场获胜次数"
+    "name": "远古战场获胜次数",
+    "soure": "ancient"
   },
   "hufu_gain": {
-    "name": "获得护符数量"
+    "name": "获得护符数量",
+    "soure": "endless"
   },
   "stone_gain": {
-    "name": "获得宝石数量"
+    "name": "获得宝石数量",
+    "soure": "pit"
   },
   "muye_win": {
-    "name": "天命之战获胜"
+    "name": "天命之战获胜",
+    "soure": "crossTeamPK"
   },
   "buy_kszz": {
-    "name": "激活快速作战"
+    "name": "激活快速作战",
+    "soure": "recharge"
   },
   "buy_zl": {
-    "name": "激活战令"
+    "name": "激活战令",
+    "soure": "warHorn"
   },
   "buy_zztq": {
-    "name": "激活至尊特权"
+    "name": "激活至尊特权",
+    "soure": "recharge"
   }
 }
