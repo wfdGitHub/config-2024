@@ -67,7 +67,8 @@
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "203": {
     "name": "精灵积分",
@@ -265,14 +266,16 @@
     "des": "水晶，可在新春特惠商城兑换商品",
     "type": "currency",
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "502": {
     "name": "星钻",
     "des": "星钻，可在新春特惠商城兑换商品",
     "type": "currency",
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "gift"
   },
   "810": {
     "name": "能量方块",
@@ -4465,8 +4468,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "shop_crossTop",
-    "source2": "gift"
+    "source1": "gift"
   },
   "1000070": {
     "name": "精灵球",
@@ -4544,8 +4546,7 @@
     "quality": 5,
     "effects": "baowu",
     "source1": "gift",
-    "source2": "shop_crossPK",
-    "source3": "shop_crossTop"
+    "source2": "gift"
   },
   "1000150": {
     "name": "专属秘宝",
@@ -4558,8 +4559,7 @@
     "other_value": 500,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift",
-    "source2": "shop_crossPK"
+    "source1": "gift"
   },
   "1000160": {
     "name": "刷新卡",
@@ -4594,8 +4594,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "gift",
-    "source2": "shop_crossPK",
-    "source3": "areaTrial"
+    "source2": "areaTrial"
   },
   "1000190": {
     "name": "六星卡",
@@ -4652,14 +4651,13 @@
     "name": "圣物晶片",
     "des": "圣物晶片刻印着圣物的使用方法与升级方式，用于提升圣物等级",
     "isBag": true,
-    "type": "currency",
+    "type": "item",
     "gold": 100,
     "coin": 500000,
     "buyNum": 10000,
     "quality": 4,
-    "source1": "shop_crossTop",
-    "source2": "secretChallenge",
-    "source3": "gift"
+    "source1": "secretChallenge",
+    "source2": "gift"
   },
   "1000400": {
     "name": "圣物残片",
@@ -4670,9 +4668,8 @@
     "coin": 3000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "shop_crossTop",
-    "source2": "secretChallenge",
-    "source3": "gift"
+    "source1": "secretChallenge",
+    "source2": "gift"
   },
   "1000500": {
     "name": "改名卡",
@@ -6079,9 +6076,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTop",
-    "source2": "shop_crossTop",
-    "source3": "gift"
+    "source1": "gift"
   },
   "13020020": {
     "name": "凤凰之羽碎片",
@@ -6092,8 +6087,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_zhulu",
-    "source2": "gift"
+    "source1": "gift"
   },
   "13030010": {
     "name": "铁碎牙碎片",
@@ -6104,9 +6098,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTop",
-    "source2": "shop_crossTop",
-    "source3": "gift"
+    "source1": "gift"
   },
   "13030020": {
     "name": "乌尔恭之杖碎片",
@@ -6117,9 +6109,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "shop_crossTop",
-    "source2": "shop_crossTop",
-    "source3": "gift"
+    "source1": "gift"
   },
   "13040010": {
     "name": "天马座幻想碎片",
@@ -6822,8 +6812,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "lottery_oh",
-    "source2": "shop_chongzhi",
-    "source3": "gift"
+    "source2": "gift"
   },
   "101000012": {
     "name": "12元充值卡",
@@ -6894,8 +6883,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "gift",
-    "source2": "shop_chongzhi"
+    "source1": "gift"
   },
   "101000200": {
     "name": "200元充值卡",
@@ -6910,8 +6898,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "gift",
-    "source2": "shop_chongzhi"
+    "source1": "gift"
   },
   "101000300": {
     "name": "300元充值卡",
@@ -6926,8 +6913,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "gift",
-    "source2": "shop_chongzhi"
+    "source1": "gift"
   },
   "101000500": {
     "name": "500元充值卡",
@@ -6942,8 +6928,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "lottery_oh",
-    "source2": "shop_chongzhi"
+    "source1": "lottery_oh"
   },
   "101000648": {
     "name": "648元充值卡",
@@ -6973,8 +6958,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "lottery_oh",
-    "source2": "shop_chongzhi"
+    "source1": "lottery_oh"
   },
   "101002000": {
     "name": "2000元充值卡",
@@ -7004,7 +6988,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "shop_chongzhi"
+    "source1": "gift"
   },
   "101005000": {
     "name": "5000元充值卡",
@@ -7763,8 +7747,7 @@
     "coin": 4000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "shop_zhulu",
-    "source2": "gift"
+    "source1": "gift"
   },
   "109400001": {
     "name": "橙色石板匣",
