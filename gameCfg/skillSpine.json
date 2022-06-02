@@ -4,7 +4,7 @@
     "res": "books/singleAtk/001/book_release",
     "skill": "books/singleAtk/002/singleAtk_002",
     "st": -1,
-    "ht": "[420]"
+    "ht": "[200,570]"
   },
   "singleHeal": {
     "repetition": true,
@@ -14,30 +14,25 @@
     "ht": "[0]"
   },
   "backDamage": {
-    "repetition": true,
-    "turn": true,
     "res": "books/backDamage/001/book_release",
     "skill": "books/backDamage/002/backDamage_002",
     "st": -1,
-    "ht": "[570]"
+    "ht": "[160,500,830,1160,1500]"
   },
   "frontDamage": {
-    "repetition": true,
     "res": "books/frontDamage/001/book_release",
     "skill": "books/frontDamage/002/frontDamage_002",
     "st": -1,
-    "ht": "[100]"
+    "ht": "[1330]"
   },
   "banishBook": {
-    "repetition": true,
     "res": "books/banishBook/001/book_release",
     "skill": "books/banishBook/002/banishBook_002",
     "st": -1,
-    "ht": "[830]"
+    "ht": "[430,660,1000,1330]"
   },
   "angerAddBook": {
     "repetition": true,
-    "turn": true,
     "res": "books/angerAddBook/001/book_release",
     "skill": "books/angerAddBook/002/angerAddBook_002",
     "st": -1,
@@ -45,10 +40,11 @@
   },
   "angerLessBook": {
     "repetition": true,
+    "turn": true,
     "res": "books/angerLessBook/001/book_release",
     "skill": "books/angerLessBook/002/angerLessBook_002",
     "st": -1,
-    "ht": "[0]"
+    "ht": "[830]"
   },
   "reductionBuff": {
     "repetition": true,
@@ -62,7 +58,7 @@
     "res": "books/seckill/001/book_release",
     "skill": "books/seckill/002/seckill_002",
     "st": -1,
-    "ht": "[420]"
+    "ht": "[200]"
   },
   "105010_atk": {
     "name": "Atk",
@@ -1146,6 +1142,7 @@
   },
   "605050_atk": {
     "name": "Atk",
+    "turn": true,
     "skill": "ACGN/605050/pg/pg",
     "st": -1,
     "ht": "[900]"
@@ -1261,6 +1258,7 @@
   },
   "705060_skill": {
     "name": "skill",
+    "turn": true,
     "skill": "ACGN/705060/skill/skill",
     "st": -1,
     "ht": "[130,360,800,1060]"
@@ -1311,7 +1309,7 @@
     "name": "skill",
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "804040_atk": {
     "name": "Atk",
@@ -1323,19 +1321,19 @@
     "name": "skill",
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "804050_atk": {
     "name": "Atk",
-    "skill": "ACGN/804030/pg/pg",
+    "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[200]"
+    "ht": "[700]"
   },
   "804050_skill": {
     "name": "skill",
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "804060_atk": {
     "name": "Atk",
@@ -1421,7 +1419,7 @@
     "repetition": true,
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "805070_atk": {
     "name": "Atk",
@@ -1435,7 +1433,7 @@
     "repetition": true,
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "805080_atk": {
     "name": "Atk",
@@ -1449,7 +1447,7 @@
     "repetition": true,
     "skill": "ACGN/804030/skill/skill",
     "st": -1,
-    "ht": "[100,300,500]"
+    "ht": "[700]"
   },
   "805090_atk": {
     "name": "Atk",
@@ -1489,6 +1487,7 @@
   },
   "805120_atk": {
     "name": "Atk",
+    "turn": true,
     "skill": "ACGN/805120/pg/pg",
     "st": -1,
     "ht": "[100]"
@@ -1501,12 +1500,14 @@
   },
   "805130_atk": {
     "name": "Atk",
+    "turn": true,
     "skill": "ACGN/805130/pg/pg",
     "st": -1,
     "ht": "[150]"
   },
   "805130_skill": {
     "name": "skill",
+    "turn": true,
     "skill": "ACGN/805130/skill/skill",
     "st": -1,
     "ht": "[260,460,700]"
@@ -1519,6 +1520,7 @@
   },
   "805140_skill": {
     "name": "skill",
+    "turn": true,
     "skill": "ACGN/805140/skill/skill",
     "st": -1,
     "ht": "[100,150]"
