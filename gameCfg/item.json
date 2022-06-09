@@ -438,7 +438,7 @@
   },
   "7140": {
     "name": "愿者上钩",
-    "des": "愿者上钩，新服BOSS姜子牙伤害前3获得",
+    "des": "愿者上钩，新服BOSS姜子牙伤害第1获得",
     "type": "title",
     "arg": 7140,
     "quality": 7,
@@ -447,7 +447,7 @@
   },
   "7150": {
     "name": "搬山救母",
-    "des": "搬山救母，新服BOSS杨戬伤害前3获得",
+    "des": "搬山救母，新服BOSS杨戬伤害第1获得",
     "type": "title",
     "arg": 7150,
     "quality": 7,
@@ -456,7 +456,7 @@
   },
   "7160": {
     "name": "后羿射日",
-    "des": "后羿射日，新服BOSS后羿伤害前3获得",
+    "des": "后羿射日，新服BOSS后羿伤害第1获得",
     "type": "title",
     "arg": 7160,
     "quality": 7,
@@ -465,7 +465,7 @@
   },
   "7170": {
     "name": "四面楚歌",
-    "des": "四面楚歌，新服BOSS刘邦伤害前3获得",
+    "des": "四面楚歌，新服BOSS刘邦伤害第1获得",
     "type": "title",
     "arg": 7170,
     "quality": 7,
@@ -474,7 +474,7 @@
   },
   "7180": {
     "name": "霸王别姬",
-    "des": "霸王别姬，新服BOSS项羽伤害前3获得",
+    "des": "霸王别姬，新服BOSS项羽伤害第1获得",
     "type": "title",
     "arg": 7180,
     "quality": 7,
@@ -483,7 +483,7 @@
   },
   "7190": {
     "name": "势如破竹",
-    "des": "势如破竹，新服BOSS关羽伤害前3获得",
+    "des": "势如破竹，新服BOSS关羽伤害第1获得",
     "type": "title",
     "arg": 7190,
     "quality": 7,
@@ -492,7 +492,7 @@
   },
   "7200": {
     "name": "两肋插刀",
-    "des": "两肋插刀，新服BOSS秦叔宝伤害前3获得",
+    "des": "两肋插刀，新服BOSS秦叔宝伤害第1获得",
     "type": "title",
     "arg": 7200,
     "quality": 7,
@@ -501,7 +501,7 @@
   },
   "7210": {
     "name": "所向无敌",
-    "des": "所向无敌，新服BOSS李元霸伤害前3获得",
+    "des": "所向无敌，新服BOSS李元霸伤害第1获得",
     "type": "title",
     "arg": 7210,
     "quality": 7,
@@ -2250,7 +2250,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "109:100000",
+    "arg": "109:10000",
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
@@ -4496,12 +4496,17 @@
     "source1": "gift"
   },
   "10501010": {
-    "name": "姜子牙",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10501010,
+    "name": "十星姜子牙",
+    "des": "可获得十星姜子牙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105010,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10501020": {
     "name": "姜子牙",
@@ -4520,12 +4525,17 @@
     "effects": "baowu"
   },
   "10502010": {
-    "name": "苏妲己",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10502010,
+    "name": "十星苏妲己",
+    "des": "可获得十星苏妲己",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105020,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10502020": {
     "name": "苏妲己",
@@ -4544,12 +4554,17 @@
     "effects": "baowu"
   },
   "10503010": {
-    "name": "玉帝",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10503010,
+    "name": "十星曹丕",
+    "des": "可获得十星曹丕",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105030,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10503020": {
     "name": "玉帝",
@@ -4568,12 +4583,17 @@
     "effects": "baowu"
   },
   "10504010": {
-    "name": "王母",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10504010,
+    "name": "十星王母",
+    "des": "可获得十星王母",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105040,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10504020": {
     "name": "王母",
@@ -4592,12 +4612,17 @@
     "effects": "baowu"
   },
   "10505010": {
-    "name": "嫦娥",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10505010,
+    "name": "十星嫦娥",
+    "des": "可获得十星嫦娥",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105050,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10505020": {
     "name": "嫦娥",
@@ -4616,12 +4641,17 @@
     "effects": "baowu"
   },
   "10506010": {
-    "name": "蚩尤",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10506010,
+    "name": "十星蚩尤",
+    "des": "可获得十星蚩尤",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105060,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10506020": {
     "name": "蚩尤",
@@ -4640,12 +4670,17 @@
     "effects": "baowu"
   },
   "10507010": {
-    "name": "轩辕帝",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10507010,
+    "name": "十星轩辕帝",
+    "des": "可获得十星轩辕帝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105070,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10507020": {
     "name": "轩辕帝",
@@ -4664,12 +4699,17 @@
     "effects": "baowu"
   },
   "10508010": {
-    "name": "龙吉公主",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10508010,
+    "name": "十星龙吉公主",
+    "des": "可获得十星龙吉公主",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105080,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10508020": {
     "name": "龙吉公主",
@@ -4784,12 +4824,17 @@
     "effects": "baowu"
   },
   "10513010": {
-    "name": "后羿",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10513010,
+    "name": "十星后羿",
+    "des": "可获得十星后羿",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105130,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10513020": {
     "name": "后羿",
@@ -4808,12 +4853,17 @@
     "effects": "baowu"
   },
   "10514010": {
-    "name": "杨戬",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 10514010,
+    "name": "十星杨戬",
+    "des": "可获得十星杨戬",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 105140,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "10514020": {
     "name": "杨戬",
@@ -5662,12 +5712,17 @@
     "source1": "gift"
   },
   "20501010": {
-    "name": "韩信",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20501010,
+    "name": "十星韩信",
+    "des": "可获得十星韩信",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205010,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20501020": {
     "name": "韩信",
@@ -5686,12 +5741,17 @@
     "effects": "baowu"
   },
   "20502010": {
-    "name": "刘邦",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20502010,
+    "name": "十星刘邦",
+    "des": "可获得十星刘邦",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205020,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20502020": {
     "name": "刘邦",
@@ -5710,12 +5770,17 @@
     "effects": "baowu"
   },
   "20503010": {
-    "name": "虞姬",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20503010,
+    "name": "十星虞姬",
+    "des": "可获得十星虞姬",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205030,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20503020": {
     "name": "虞姬",
@@ -5734,12 +5799,17 @@
     "effects": "baowu"
   },
   "20504010": {
-    "name": "范增",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20504010,
+    "name": "十星范增",
+    "des": "可获得十星范增",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205040,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20504020": {
     "name": "范增",
@@ -5758,12 +5828,17 @@
     "effects": "baowu"
   },
   "20505010": {
-    "name": "吕雉",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20505010,
+    "name": "十星吕雉",
+    "des": "可获得十星吕雉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205050,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20505020": {
     "name": "吕雉",
@@ -5782,12 +5857,17 @@
     "effects": "baowu"
   },
   "20506010": {
-    "name": "张良",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20506010,
+    "name": "十星张良",
+    "des": "可获得十星张良",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205060,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20506020": {
     "name": "张良",
@@ -5806,12 +5886,17 @@
     "effects": "baowu"
   },
   "20507010": {
-    "name": "项羽",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20507010,
+    "name": "十星项羽",
+    "des": "可获得十星项羽",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205070,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20507020": {
     "name": "项羽",
@@ -5830,12 +5915,17 @@
     "effects": "baowu"
   },
   "20508010": {
-    "name": "龙且",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20508010,
+    "name": "十星龙且",
+    "des": "可获得十星龙且",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205080,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20508020": {
     "name": "龙且",
@@ -5950,12 +6040,17 @@
     "effects": "baowu"
   },
   "20513010": {
-    "name": "樊哙",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20513010,
+    "name": "十星樊哙",
+    "des": "可获得十星樊哙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205130,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20513020": {
     "name": "樊哙",
@@ -5974,12 +6069,17 @@
     "effects": "baowu"
   },
   "20514010": {
-    "name": "萧何",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 20514010,
+    "name": "十星萧何",
+    "des": "可获得十星萧何",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 205140,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "20514020": {
     "name": "萧何",
@@ -5998,12 +6098,17 @@
     "effects": "baowu"
   },
   "30501010": {
-    "name": "赵云",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30501010,
+    "name": "十星赵云",
+    "des": "可获得十星赵云",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305010,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30501020": {
     "name": "赵云",
@@ -6022,12 +6127,17 @@
     "effects": "baowu"
   },
   "30502010": {
-    "name": "周瑜",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30502010,
+    "name": "十星周瑜",
+    "des": "可获得十星周瑜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305020,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30502020": {
     "name": "周瑜",
@@ -6046,12 +6156,17 @@
     "effects": "baowu"
   },
   "30503010": {
-    "name": "小乔",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30503010,
+    "name": "十星小乔",
+    "des": "可获得十星小乔",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305030,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30503020": {
     "name": "小乔",
@@ -6070,12 +6185,17 @@
     "effects": "baowu"
   },
   "30504010": {
-    "name": "张飞",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30504010,
+    "name": "十星张飞",
+    "des": "可获得十星张飞",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305040,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30504020": {
     "name": "张飞",
@@ -6094,12 +6214,17 @@
     "effects": "baowu"
   },
   "30505010": {
-    "name": "刘备",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30505010,
+    "name": "十星刘备",
+    "des": "可获得十星刘备",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305050,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30505020": {
     "name": "刘备",
@@ -6118,12 +6243,17 @@
     "effects": "baowu"
   },
   "30506010": {
-    "name": "司马懿",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30506010,
+    "name": "十星司马懿",
+    "des": "可获得十星司马懿",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305060,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30506020": {
     "name": "司马懿",
@@ -6142,12 +6272,17 @@
     "effects": "baowu"
   },
   "30507010": {
-    "name": "关羽",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30507010,
+    "name": "十星关羽",
+    "des": "可获得十星关羽",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305070,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30507020": {
     "name": "关羽",
@@ -6166,12 +6301,17 @@
     "effects": "baowu"
   },
   "30508010": {
-    "name": "黄忠",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30508010,
+    "name": "十星黄忠",
+    "des": "可获得十星黄忠",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305080,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30508020": {
     "name": "黄忠",
@@ -6286,12 +6426,17 @@
     "effects": "baowu"
   },
   "30513010": {
-    "name": "郭嘉",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30513010,
+    "name": "十星郭嘉",
+    "des": "可获得十星郭嘉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305130,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30513020": {
     "name": "郭嘉",
@@ -6310,12 +6455,17 @@
     "effects": "baowu"
   },
   "30514010": {
-    "name": "孙权",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 30514010,
+    "name": "十星孙权",
+    "des": "可获得十星孙权",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 305140,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "30514020": {
     "name": "孙权",
@@ -6334,12 +6484,17 @@
     "effects": "baowu"
   },
   "40501010": {
-    "name": "罗成",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40501010,
+    "name": "十星罗成",
+    "des": "可获得十星罗成",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405010,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40501020": {
     "name": "罗成",
@@ -6358,12 +6513,17 @@
     "effects": "baowu"
   },
   "40502010": {
-    "name": "李元霸",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40502010,
+    "name": "十星李元霸",
+    "des": "可获得十星李元霸",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405020,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40502020": {
     "name": "李元霸",
@@ -6382,12 +6542,17 @@
     "effects": "baowu"
   },
   "40503010": {
-    "name": "李世民",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40503010,
+    "name": "十星李世民",
+    "des": "可获得十星李世民",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405030,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40503020": {
     "name": "李世民",
@@ -6406,12 +6571,17 @@
     "effects": "baowu"
   },
   "40504010": {
-    "name": "程咬金",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40504010,
+    "name": "十星程咬金",
+    "des": "可获得十星程咬金",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405040,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40504020": {
     "name": "程咬金",
@@ -6430,12 +6600,17 @@
     "effects": "baowu"
   },
   "40505010": {
-    "name": "单雄信",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40505010,
+    "name": "十星单雄信",
+    "des": "可获得十星单雄信",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405050,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40505020": {
     "name": "单雄信",
@@ -6454,12 +6629,17 @@
     "effects": "baowu"
   },
   "40506010": {
-    "name": "秦叔宝",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40506010,
+    "name": "十星秦叔宝",
+    "des": "可获得十星秦叔宝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405060,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40506020": {
     "name": "秦叔宝",
@@ -6478,12 +6658,17 @@
     "effects": "baowu"
   },
   "40507010": {
-    "name": "尉迟恭",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40507010,
+    "name": "十星尉迟恭",
+    "des": "可获得十星尉迟恭",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405070,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40507020": {
     "name": "尉迟恭",
@@ -6502,12 +6687,17 @@
     "effects": "baowu"
   },
   "40508010": {
-    "name": "李靖",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40508010,
+    "name": "十星李靖",
+    "des": "可获得十星李靖",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405080,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40508020": {
     "name": "李靖",
@@ -6622,12 +6812,17 @@
     "effects": "baowu"
   },
   "40513010": {
-    "name": "杨玉环",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40513010,
+    "name": "十星杨玉环",
+    "des": "可获得十星杨玉环",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405130,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40513020": {
     "name": "杨玉环",
@@ -6646,12 +6841,17 @@
     "effects": "baowu"
   },
   "40514010": {
-    "name": "狄仁杰",
-    "des": "攻击力+10%，暴击率+10%",
-    "type": "skin",
-    "arg": 40514010,
+    "name": "十星狄仁杰",
+    "des": "可获得十星狄仁杰",
+    "isBag": true,
+    "type": "hero",
+    "useType": 10,
+    "arg": 405140,
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
     "quality": 7,
-    "effects": "baowu"
+    "source1": "gift"
   },
   "40514020": {
     "name": "狄仁杰",
@@ -6676,7 +6876,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:10&109:100",
+    "arg": "202:20&109:100",
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
@@ -6690,7 +6890,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:60&108:600",
+    "arg": "202:120&108:600",
     "gold": 60,
     "coin": 300000,
     "buyNum": 1,
@@ -6704,7 +6904,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:100&108:1000",
+    "arg": "202:200&108:1000",
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
@@ -6719,7 +6919,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:120&108:1200",
+    "arg": "202:240&108:1200",
     "gold": 120,
     "coin": 600000,
     "buyNum": 1,
@@ -6733,7 +6933,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:180&108:1800",
+    "arg": "202:360&108:1800",
     "gold": 180,
     "coin": 900000,
     "buyNum": 1,
@@ -6747,7 +6947,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:300&108:3000",
+    "arg": "202:600&108:3000",
     "gold": 300,
     "coin": 1500000,
     "buyNum": 1,
@@ -6761,7 +6961,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:500&108:5000",
+    "arg": "202:1000&108:5000",
     "gold": 500,
     "coin": 2500000,
     "buyNum": 1,
@@ -6775,7 +6975,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:1000&108:10000",
+    "arg": "202:2000&108:10000",
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
@@ -6791,7 +6991,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:2000&108:20000",
+    "arg": "202:4000&108:20000",
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
@@ -6807,7 +7007,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:3000&108:30000",
+    "arg": "202:6000&108:30000",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -6823,7 +7023,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:5000&108:50000",
+    "arg": "202:10000&108:50000",
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
@@ -6839,7 +7039,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:6480&108:64800",
+    "arg": "202:12960&108:64800",
     "gold": 6480,
     "coin": 32400000,
     "buyNum": 1,
@@ -6854,7 +7054,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:10000&108:100000",
+    "arg": "202:20000&108:100000",
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
@@ -6870,7 +7070,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:20000&108:200000",
+    "arg": "202:40000&108:200000",
     "gold": 20000,
     "coin": 100000000,
     "buyNum": 1,
@@ -6885,7 +7085,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:30000&108:300000",
+    "arg": "202:60000&108:300000",
     "gold": 30000,
     "coin": 150000000,
     "buyNum": 1,
@@ -6900,7 +7100,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:50000&108:500000",
+    "arg": "202:100000&108:500000",
     "gold": 50000,
     "coin": 250000000,
     "buyNum": 1,
@@ -6915,7 +7115,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:100000&108:1000000",
+    "arg": "202:200000&108:1000000",
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
@@ -6930,7 +7130,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:200000&108:2000000",
+    "arg": "202:400000&108:2000000",
     "gold": 200000,
     "coin": 1000000000,
     "buyNum": 1,
@@ -6945,7 +7145,7 @@
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "202:500000&108:5000000",
+    "arg": "202:1000000&108:5000000",
     "gold": 500000,
     "coin": 2500000000,
     "buyNum": 1,
