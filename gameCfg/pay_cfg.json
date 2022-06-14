@@ -43,7 +43,7 @@
   },
   "1011": {
     "type": "wuxian",
-    "name": "破解仙币",
+    "name": "仙币指令",
     "arg": "wuxian_1",
     "rmb": 128,
     "cent": 12800,
@@ -51,7 +51,7 @@
   },
   "1012": {
     "type": "wuxian",
-    "name": "破解经验",
+    "name": "经验指令",
     "arg": "wuxian_2",
     "rmb": 128,
     "cent": 12800,
@@ -59,7 +59,7 @@
   },
   "1013": {
     "type": "wuxian",
-    "name": "破解元宝",
+    "name": "仙晶指令",
     "arg": "wuxian_3",
     "rmb": 128,
     "cent": 12800,
@@ -69,29 +69,29 @@
     "type": "gmLv",
     "name": "gm1",
     "arg": 1,
-    "rmb": 88,
-    "cent": 8800
+    "rmb": 18,
+    "cent": 1800
   },
   "1202": {
     "type": "gmLv",
     "name": "gm2",
     "arg": 2,
-    "rmb": 188,
-    "cent": 18800
+    "rmb": 88,
+    "cent": 8800
   },
   "1203": {
     "type": "gmLv",
     "name": "gm3",
     "arg": 3,
-    "rmb": 388,
-    "cent": 38800
+    "rmb": 188,
+    "cent": 18800
   },
   "1204": {
     "type": "gmLv",
     "name": "gm4",
     "arg": 4,
-    "rmb": 588,
-    "cent": 58800
+    "rmb": 388,
+    "cent": 38800
   },
   "2001": {
     "type": "recharge",
@@ -373,51 +373,75 @@
     "cent": 499800,
     "dianpiao": 4998
   },
+  "5005": {
+    "type": "box_month",
+    "name": "每月特惠5",
+    "arg": 1005,
+    "rmb": 4998,
+    "cent": 499800,
+    "dianpiao": 4998
+  },
+  "5006": {
+    "type": "box_month",
+    "name": "每月特惠6",
+    "arg": 1006,
+    "rmb": 4998,
+    "cent": 499800,
+    "dianpiao": 4998
+  },
+  "5007": {
+    "type": "box_month",
+    "name": "每月特惠7",
+    "arg": 1007,
+    "rmb": 4998,
+    "cent": 499800,
+    "dianpiao": 4998
+  },
   "6001": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1001,
     "rmb": 11,
     "cent": 1100
   },
   "6002": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1002,
     "rmb": 12,
     "cent": 1200
   },
   "6003": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1003,
     "rmb": 18,
     "cent": 1800
   },
   "6004": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1004,
     "rmb": 28,
     "cent": 2800
   },
   "6005": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1005,
     "rmb": 30,
     "cent": 3000
   },
   "6006": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1006,
     "rmb": 30,
     "cent": 3000
   },
   "6007": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1007,
     "rmb": 30,
     "cent": 3000
@@ -431,71 +455,393 @@
   },
   "6009": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "十星英雄礼包",
     "arg": 1009,
-    "rmb": 50,
-    "cent": 5000
+    "rmb": 648,
+    "cent": 64800
   },
   "6010": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1010,
     "rmb": 50,
     "cent": 5000
   },
   "6011": {
     "type": "limit_gift",
-    "name": "少仙补给礼包",
+    "name": "少仙资源礼包",
     "arg": 1011,
     "rmb": 50,
     "cent": 5000
   },
   "6012": {
     "type": "limit_gift",
-    "name": "黄金矿镐礼包",
+    "name": "少仙资源礼包",
     "arg": 1012,
-    "rmb": 98,
-    "cent": 9800
+    "rmb": 50,
+    "cent": 5000
   },
   "6013": {
     "type": "limit_gift",
-    "name": "超值兵法礼包",
+    "name": "少仙资源礼包",
     "arg": 1013,
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 50,
+    "cent": 5000
   },
   "6014": {
     "type": "limit_gift",
-    "name": "技能宝石礼包",
+    "name": "少仙资源礼包",
     "arg": 1014,
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 50,
+    "cent": 5000
   },
   "6015": {
     "type": "limit_gift",
-    "name": "红色宝物礼包",
+    "name": "少仙资源礼包",
     "arg": 1015,
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 50,
+    "cent": 5000
   },
   "6016": {
     "type": "limit_gift",
-    "name": "英雄觉醒礼包",
+    "name": "黄金矿镐礼包",
     "arg": 1016,
-    "rmb": 648,
-    "cent": 64800
+    "rmb": 98,
+    "cent": 9800
   },
   "6017": {
     "type": "limit_gift",
-    "name": "超值圣物礼包",
+    "name": "少仙资源礼包",
     "arg": 1017,
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 50,
+    "cent": 5000
   },
   "6018": {
     "type": "limit_gift",
-    "name": "神装体验礼包",
+    "name": "超值兵法礼包",
     "arg": 1018,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6019": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1019,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6020": {
+    "type": "limit_gift",
+    "name": "技能宝石礼包",
+    "arg": 1020,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6021": {
+    "type": "limit_gift",
+    "name": "红色宝物礼包",
+    "arg": 1021,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6022": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1022,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6023": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1023,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6024": {
+    "type": "limit_gift",
+    "name": "英雄觉醒礼包",
+    "arg": 1024,
+    "rmb": 648,
+    "cent": 64800
+  },
+  "6025": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1025,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6026": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1026,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6027": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1027,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6028": {
+    "type": "limit_gift",
+    "name": "超值圣物礼包",
+    "arg": 1028,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6029": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1029,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6030": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1030,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6031": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1031,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6032": {
+    "type": "limit_gift",
+    "name": "少仙资源礼包",
+    "arg": 1032,
+    "rmb": 50,
+    "cent": 5000
+  },
+  "6033": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1033,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6034": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1034,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6035": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1035,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6036": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1036,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6037": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1037,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6038": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1038,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6039": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1039,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6040": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1040,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6041": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1041,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6042": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1042,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6043": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1043,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6044": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1044,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6045": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1045,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6046": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1046,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6047": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1047,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6048": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1048,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6049": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1049,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6050": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1050,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6051": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1051,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6052": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1052,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6053": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1053,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6054": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1054,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6055": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1055,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6056": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1056,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6057": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1057,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6058": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1058,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6059": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1059,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6060": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1060,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6061": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1061,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6062": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1062,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6063": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1063,
+    "rmb": 198,
+    "cent": 19800
+  },
+  "6064": {
+    "type": "limit_gift",
+    "name": "神装体验礼包",
+    "arg": 1064,
     "rmb": 198,
     "cent": 19800
   },
