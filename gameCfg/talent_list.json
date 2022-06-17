@@ -4376,6 +4376,12 @@
     "key1": "action_heal",
     "value1": 0.2
   },
+  "NPC_MYFS": {
+    "name": "免疫反伤",
+    "des": "进攻时，免疫所有伤害",
+    "key1": "gj_my",
+    "value1": true
+  },
   "mon_1": {
     "des": "攻击+300",
     "key1": "atk",
@@ -4506,10 +4512,10 @@
     "value2": 0.3
   },
   "boss_11": {
-    "des": "伤害+40%，免伤+40%",
+    "des": "伤害+40%，生命值+100%",
     "key1": "self_maxHP_add",
     "value1": 0.4,
-    "key2": "self_atk_add",
-    "value2": 0.4
+    "key2": "self_maxHP_add",
+    "value2": 1
   }
 }
