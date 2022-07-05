@@ -1,39 +1,39 @@
 {
   "1001": {
     "type": "lv_fund",
-    "name": "等级基金-88元",
-    "rmb": 88,
-    "cent": 8800
+    "name": "等级基金",
+    "rmb": 68,
+    "cent": 6800
   },
   "1002": {
     "type": "highCard",
-    "name": "至尊特权-98元",
-    "rmb": 98,
-    "cent": 9800
+    "name": "至尊特权",
+    "rmb": 100,
+    "cent": 10000
   },
   "1003": {
     "type": "warHorn",
-    "name": "高级战令-68元",
-    "rmb": 68,
-    "cent": 6800
+    "name": "高级战令",
+    "rmb": 38,
+    "cent": 3800
   },
   "1004": {
     "type": "quick_pri",
     "name": "快速作战特权",
-    "rmb": 68,
-    "cent": 6800
+    "rmb": 50,
+    "cent": 5000
   },
   "1005": {
     "type": "tour_pri",
     "name": "英雄任务特权",
-    "rmb": 28,
-    "cent": 2800
+    "rmb": 30,
+    "cent": 3000
   },
   "1006": {
     "type": "stone_pri",
     "name": "玉石矿场特权",
-    "rmb": 28,
-    "cent": 2800
+    "rmb": 30,
+    "cent": 3000
   },
   "2001": {
     "type": "recharge",
@@ -112,84 +112,92 @@
     "name": "每日礼包1",
     "arg": 1,
     "rmb": 6,
-    "cent": 600
+    "cent": 600,
+    "dianpiao": 6
   },
   "3002": {
     "type": "box_day",
     "name": "每日礼包2",
     "arg": 2,
     "rmb": 12,
-    "cent": 1200
+    "cent": 1200,
+    "dianpiao": 12
   },
   "3003": {
     "type": "box_day",
     "name": "每日礼包3",
     "arg": 3,
     "rmb": 18,
-    "cent": 1800
+    "cent": 1800,
+    "dianpiao": 18
   },
   "3004": {
     "type": "box_day",
     "name": "每日礼包4",
     "arg": 4,
     "rmb": 30,
-    "cent": 3000
+    "cent": 3000,
+    "dianpiao": 30
   },
   "3005": {
     "type": "box_day",
     "name": "每日礼包5",
     "arg": 5,
     "rmb": 98,
-    "cent": 9800
+    "cent": 9800,
+    "dianpiao": 98
   },
   "3006": {
     "type": "box_day",
     "name": "每日礼包6",
     "arg": 6,
     "rmb": 198,
-    "cent": 19800
+    "cent": 19800,
+    "dianpiao": 198
   },
   "3007": {
     "type": "box_day",
     "name": "每日礼包7",
     "arg": 7,
     "rmb": 328,
-    "cent": 32800
+    "cent": 32800,
+    "dianpiao": 328
   },
   "3008": {
     "type": "box_day",
     "name": "每日礼包8",
     "arg": 8,
     "rmb": 648,
-    "cent": 64800
+    "cent": 64800,
+    "dianpiao": 648
   },
   "4001": {
     "type": "box_week",
     "name": "每周礼包1",
     "arg": 1001,
-    "rmb": 68,
-    "cent": 6800
+    "rmb": 30,
+    "cent": 3000
   },
   "4002": {
     "type": "box_week",
     "name": "每周礼包2",
     "arg": 1002,
-    "rmb": 98,
-    "cent": 9800
+    "rmb": 68,
+    "cent": 6800
   },
   "4003": {
     "type": "box_week",
     "name": "每周礼包3",
     "arg": 1003,
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 98,
+    "cent": 9800
   },
   "4004": {
     "type": "box_week",
     "name": "每周礼包4",
     "arg": 1004,
-    "rmb": 328,
-    "cent": 32800
+    "rmb": 198,
+    "cent": 19800
   },
   "4005": {
     "type": "box_week",
@@ -202,43 +210,99 @@
     "type": "box_week",
     "name": "每周礼包6",
     "arg": 1006,
-    "rmb": 1980,
-    "cent": 198000
+    "rmb": 648,
+    "cent": 64800
   },
   "4007": {
     "type": "box_week",
     "name": "每周礼包7",
+    "arg": 1006,
+    "rmb": 648,
+    "cent": 64800
+  },
+  "4008": {
+    "type": "box_week",
+    "name": "每周礼包8",
     "arg": 1007,
-    "rmb": 4998,
-    "cent": 499800
+    "rmb": 1980,
+    "cent": 198000
+  },
+  "4009": {
+    "type": "box_week",
+    "name": "每周礼包9",
+    "arg": 1008,
+    "rmb": 2998,
+    "cent": 299800
+  },
+  "4010": {
+    "type": "box_week",
+    "name": "每周礼包10",
+    "arg": 1009,
+    "rmb": 2998,
+    "cent": 299800
+  },
+  "4011": {
+    "type": "box_week",
+    "name": "每周礼包11",
+    "arg": 1010,
+    "rmb": 2998,
+    "cent": 299800
   },
   "5001": {
     "type": "box_month",
     "name": "每月特惠礼包1",
     "arg": 1001,
-    "rmb": 328,
-    "cent": 32800
+    "rmb": 500,
+    "cent": 50000
   },
   "5002": {
     "type": "box_month",
     "name": "每月特惠礼包2",
     "arg": 1002,
-    "rmb": 648,
-    "cent": 64800
+    "rmb": 2500,
+    "cent": 250000
   },
   "5003": {
     "type": "box_month",
     "name": "每月特惠礼包3",
     "arg": 1003,
-    "rmb": 1980,
-    "cent": 198000
+    "rmb": 3000,
+    "cent": 300000
   },
   "5004": {
     "type": "box_month",
     "name": "每月特惠礼包4",
     "arg": 1004,
-    "rmb": 2998,
-    "cent": 299800
+    "rmb": 5000,
+    "cent": 500000
+  },
+  "5005": {
+    "type": "box_month",
+    "name": "每月特惠礼包5",
+    "arg": 1005,
+    "rmb": 5000,
+    "cent": 500000
+  },
+  "5006": {
+    "type": "box_month",
+    "name": "每月特惠礼包6",
+    "arg": 1006,
+    "rmb": 5000,
+    "cent": 500000
+  },
+  "5007": {
+    "type": "box_month",
+    "name": "每月特惠礼包7",
+    "arg": 1007,
+    "rmb": 5000,
+    "cent": 500000
+  },
+  "5008": {
+    "type": "box_month",
+    "name": "每月特惠礼包8",
+    "arg": 1008,
+    "rmb": 5000,
+    "cent": 500000
   },
   "6001": {
     "type": "limit_gift",
@@ -363,106 +427,575 @@
     "type": "gift_loop",
     "name": "新服特惠1",
     "arg": "hero_1",
-    "rmb": 12,
-    "cent": 1200
+    "rmb": 1,
+    "cent": 100
   },
   "7102": {
     "type": "gift_loop",
     "name": "新服特惠2",
     "arg": "hero_2",
-    "rmb": 18,
-    "cent": 1800
+    "rmb": 2,
+    "cent": 200
   },
   "7103": {
     "type": "gift_loop",
     "name": "新服特惠3",
     "arg": "hero_3",
-    "rmb": 28,
-    "cent": 2800
+    "rmb": 3,
+    "cent": 300
   },
   "7104": {
     "type": "gift_loop",
     "name": "新服特惠4",
     "arg": "hero_4",
-    "rmb": 68,
-    "cent": 6800
+    "rmb": 5,
+    "cent": 500
   },
   "7105": {
     "type": "gift_loop",
     "name": "新服特惠5",
     "arg": "hero_5",
-    "rmb": 98,
-    "cent": 9800
+    "rmb": 6,
+    "cent": 600
   },
   "7106": {
     "type": "gift_loop",
     "name": "新服特惠6",
     "arg": "hero_6",
-    "rmb": 128,
-    "cent": 12800
+    "rmb": 8,
+    "cent": 800
   },
   "7107": {
     "type": "gift_loop",
     "name": "新服特惠7",
     "arg": "hero_7",
-    "rmb": 198,
-    "cent": 19800
+    "rmb": 10,
+    "cent": 1000
   },
   "7108": {
     "type": "gift_loop",
     "name": "新服特惠8",
     "arg": "hero_8",
-    "rmb": 228,
-    "cent": 22800
+    "rmb": 12,
+    "cent": 1200
   },
   "7109": {
     "type": "gift_loop",
     "name": "新服特惠9",
     "arg": "hero_9",
-    "rmb": 328,
-    "cent": 32800
+    "rmb": 14,
+    "cent": 1400
   },
   "7110": {
     "type": "gift_loop",
     "name": "新服特惠10",
     "arg": "hero_10",
-    "rmb": 648,
-    "cent": 64800
+    "rmb": 16,
+    "cent": 1600
   },
   "7111": {
     "type": "gift_loop",
     "name": "新服特惠11",
     "arg": "hero_11",
-    "rmb": 998,
-    "cent": 99800
+    "rmb": 18,
+    "cent": 1800
   },
   "7112": {
     "type": "gift_loop",
     "name": "新服特惠12",
     "arg": "hero_12",
-    "rmb": 1980,
-    "cent": 198000
+    "rmb": 20,
+    "cent": 2000
   },
   "7113": {
     "type": "gift_loop",
     "name": "新服特惠13",
     "arg": "hero_13",
-    "rmb": 2998,
-    "cent": 299800
+    "rmb": 22,
+    "cent": 2200
   },
   "7114": {
     "type": "gift_loop",
     "name": "新服特惠14",
     "arg": "hero_14",
-    "rmb": 4998,
-    "cent": 499800
+    "rmb": 25,
+    "cent": 2500
   },
   "7115": {
     "type": "gift_loop",
     "name": "新服特惠15",
     "arg": "hero_15",
-    "rmb": 9998,
-    "cent": 999800
+    "rmb": 28,
+    "cent": 2800
+  },
+  "7116": {
+    "type": "gift_loop",
+    "name": "新服特惠16",
+    "arg": "hero_16",
+    "rmb": 30,
+    "cent": 3000
+  },
+  "7117": {
+    "type": "gift_loop",
+    "name": "新服特惠17",
+    "arg": "hero_17",
+    "rmb": 32,
+    "cent": 3200
+  },
+  "7118": {
+    "type": "gift_loop",
+    "name": "新服特惠18",
+    "arg": "hero_18",
+    "rmb": 35,
+    "cent": 3500
+  },
+  "7119": {
+    "type": "gift_loop",
+    "name": "新服特惠19",
+    "arg": "hero_19",
+    "rmb": 38,
+    "cent": 3800
+  },
+  "7120": {
+    "type": "gift_loop",
+    "name": "新服特惠20",
+    "arg": "hero_20",
+    "rmb": 40,
+    "cent": 4000
+  },
+  "7121": {
+    "type": "gift_loop",
+    "name": "新服特惠21",
+    "arg": "hero_21",
+    "rmb": 42,
+    "cent": 4200
+  },
+  "7122": {
+    "type": "gift_loop",
+    "name": "新服特惠22",
+    "arg": "hero_22",
+    "rmb": 45,
+    "cent": 4500
+  },
+  "7123": {
+    "type": "gift_loop",
+    "name": "新服特惠23",
+    "arg": "hero_23",
+    "rmb": 48,
+    "cent": 4800
+  },
+  "7124": {
+    "type": "gift_loop",
+    "name": "新服特惠24",
+    "arg": "hero_24",
+    "rmb": 50,
+    "cent": 5000
+  },
+  "7125": {
+    "type": "gift_loop",
+    "name": "新服特惠25",
+    "arg": "hero_25",
+    "rmb": 52,
+    "cent": 5200
+  },
+  "7126": {
+    "type": "gift_loop",
+    "name": "新服特惠26",
+    "arg": "hero_26",
+    "rmb": 55,
+    "cent": 5500
+  },
+  "7127": {
+    "type": "gift_loop",
+    "name": "新服特惠27",
+    "arg": "hero_27",
+    "rmb": 58,
+    "cent": 5800
+  },
+  "7128": {
+    "type": "gift_loop",
+    "name": "新服特惠28",
+    "arg": "hero_28",
+    "rmb": 60,
+    "cent": 6000
+  },
+  "7129": {
+    "type": "gift_loop",
+    "name": "新服特惠29",
+    "arg": "hero_29",
+    "rmb": 62,
+    "cent": 6200
+  },
+  "7130": {
+    "type": "gift_loop",
+    "name": "新服特惠30",
+    "arg": "hero_30",
+    "rmb": 65,
+    "cent": 6500
+  },
+  "7131": {
+    "type": "gift_loop",
+    "name": "新服特惠31",
+    "arg": "hero_31",
+    "rmb": 68,
+    "cent": 6800
+  },
+  "7132": {
+    "type": "gift_loop",
+    "name": "新服特惠32",
+    "arg": "hero_32",
+    "rmb": 70,
+    "cent": 7000
+  },
+  "7133": {
+    "type": "gift_loop",
+    "name": "新服特惠33",
+    "arg": "hero_33",
+    "rmb": 72,
+    "cent": 7200
+  },
+  "7134": {
+    "type": "gift_loop",
+    "name": "新服特惠34",
+    "arg": "hero_34",
+    "rmb": 75,
+    "cent": 7500
+  },
+  "7135": {
+    "type": "gift_loop",
+    "name": "新服特惠35",
+    "arg": "hero_35",
+    "rmb": 78,
+    "cent": 7800
+  },
+  "7136": {
+    "type": "gift_loop",
+    "name": "新服特惠36",
+    "arg": "hero_36",
+    "rmb": 80,
+    "cent": 8000
+  },
+  "7137": {
+    "type": "gift_loop",
+    "name": "新服特惠37",
+    "arg": "hero_37",
+    "rmb": 82,
+    "cent": 8200
+  },
+  "7138": {
+    "type": "gift_loop",
+    "name": "新服特惠38",
+    "arg": "hero_38",
+    "rmb": 85,
+    "cent": 8500
+  },
+  "7139": {
+    "type": "gift_loop",
+    "name": "新服特惠39",
+    "arg": "hero_39",
+    "rmb": 88,
+    "cent": 8800
+  },
+  "7140": {
+    "type": "gift_loop",
+    "name": "新服特惠40",
+    "arg": "hero_40",
+    "rmb": 90,
+    "cent": 9000
+  },
+  "7141": {
+    "type": "gift_loop",
+    "name": "新服特惠41",
+    "arg": "hero_41",
+    "rmb": 92,
+    "cent": 9200
+  },
+  "7142": {
+    "type": "gift_loop",
+    "name": "新服特惠42",
+    "arg": "hero_42",
+    "rmb": 95,
+    "cent": 9500
+  },
+  "7143": {
+    "type": "gift_loop",
+    "name": "新服特惠43",
+    "arg": "hero_43",
+    "rmb": 98,
+    "cent": 9800
+  },
+  "7144": {
+    "type": "gift_loop",
+    "name": "新服特惠44",
+    "arg": "hero_44",
+    "rmb": 100,
+    "cent": 10000
+  },
+  "7145": {
+    "type": "gift_loop",
+    "name": "新服特惠45",
+    "arg": "hero_45",
+    "rmb": 102,
+    "cent": 10200
+  },
+  "7146": {
+    "type": "gift_loop",
+    "name": "新服特惠46",
+    "arg": "hero_46",
+    "rmb": 105,
+    "cent": 10500
+  },
+  "7147": {
+    "type": "gift_loop",
+    "name": "新服特惠47",
+    "arg": "hero_47",
+    "rmb": 108,
+    "cent": 10800
+  },
+  "7148": {
+    "type": "gift_loop",
+    "name": "新服特惠48",
+    "arg": "hero_48",
+    "rmb": 128,
+    "cent": 12800
+  },
+  "7149": {
+    "type": "gift_loop",
+    "name": "新服特惠49",
+    "arg": "hero_49",
+    "rmb": 158,
+    "cent": 15800
+  },
+  "7150": {
+    "type": "gift_loop",
+    "name": "新服特惠50",
+    "arg": "hero_50",
+    "rmb": 188,
+    "cent": 18800
+  },
+  "7151": {
+    "type": "gift_loop",
+    "name": "新服特惠51",
+    "arg": "hero_51",
+    "rmb": 198,
+    "cent": 19800
+  },
+  "7152": {
+    "type": "gift_loop",
+    "name": "新服特惠52",
+    "arg": "hero_52",
+    "rmb": 208,
+    "cent": 20800
+  },
+  "7153": {
+    "type": "gift_loop",
+    "name": "新服特惠53",
+    "arg": "hero_53",
+    "rmb": 228,
+    "cent": 22800
+  },
+  "7154": {
+    "type": "gift_loop",
+    "name": "新服特惠54",
+    "arg": "hero_54",
+    "rmb": 258,
+    "cent": 25800
+  },
+  "7155": {
+    "type": "gift_loop",
+    "name": "新服特惠55",
+    "arg": "hero_55",
+    "rmb": 288,
+    "cent": 28800
+  },
+  "7156": {
+    "type": "gift_loop",
+    "name": "新服特惠56",
+    "arg": "hero_56",
+    "rmb": 308,
+    "cent": 30800
+  },
+  "7157": {
+    "type": "gift_loop",
+    "name": "新服特惠57",
+    "arg": "hero_57",
+    "rmb": 328,
+    "cent": 32800
+  },
+  "7158": {
+    "type": "gift_loop",
+    "name": "新服特惠58",
+    "arg": "hero_58",
+    "rmb": 358,
+    "cent": 35800
+  },
+  "7159": {
+    "type": "gift_loop",
+    "name": "新服特惠59",
+    "arg": "hero_59",
+    "rmb": 388,
+    "cent": 38800
+  },
+  "7160": {
+    "type": "gift_loop",
+    "name": "新服特惠60",
+    "arg": "hero_60",
+    "rmb": 408,
+    "cent": 40800
+  },
+  "7161": {
+    "type": "gift_loop",
+    "name": "新服特惠61",
+    "arg": "hero_61",
+    "rmb": 428,
+    "cent": 42800
+  },
+  "7162": {
+    "type": "gift_loop",
+    "name": "新服特惠62",
+    "arg": "hero_62",
+    "rmb": 458,
+    "cent": 45800
+  },
+  "7163": {
+    "type": "gift_loop",
+    "name": "新服特惠63",
+    "arg": "hero_63",
+    "rmb": 488,
+    "cent": 48800
+  },
+  "7164": {
+    "type": "gift_loop",
+    "name": "新服特惠64",
+    "arg": "hero_64",
+    "rmb": 508,
+    "cent": 50800
+  },
+  "7165": {
+    "type": "gift_loop",
+    "name": "新服特惠65",
+    "arg": "hero_65",
+    "rmb": 528,
+    "cent": 52800
+  },
+  "7166": {
+    "type": "gift_loop",
+    "name": "新服特惠66",
+    "arg": "hero_66",
+    "rmb": 558,
+    "cent": 55800
+  },
+  "7167": {
+    "type": "gift_loop",
+    "name": "新服特惠67",
+    "arg": "hero_67",
+    "rmb": 558,
+    "cent": 55800
+  },
+  "7168": {
+    "type": "gift_loop",
+    "name": "新服特惠68",
+    "arg": "hero_68",
+    "rmb": 588,
+    "cent": 58800
+  },
+  "7169": {
+    "type": "gift_loop",
+    "name": "新服特惠69",
+    "arg": "hero_69",
+    "rmb": 608,
+    "cent": 60800
+  },
+  "7170": {
+    "type": "gift_loop",
+    "name": "新服特惠70",
+    "arg": "hero_70",
+    "rmb": 628,
+    "cent": 62800
+  },
+  "7171": {
+    "type": "gift_loop",
+    "name": "新服特惠71",
+    "arg": "hero_71",
+    "rmb": 668,
+    "cent": 66800
+  },
+  "7172": {
+    "type": "gift_loop",
+    "name": "新服特惠72",
+    "arg": "hero_72",
+    "rmb": 688,
+    "cent": 68800
+  },
+  "7173": {
+    "type": "gift_loop",
+    "name": "新服特惠73",
+    "arg": "hero_73",
+    "rmb": 788,
+    "cent": 78800
+  },
+  "7174": {
+    "type": "gift_loop",
+    "name": "新服特惠74",
+    "arg": "hero_74",
+    "rmb": 888,
+    "cent": 88800
+  },
+  "7175": {
+    "type": "gift_loop",
+    "name": "新服特惠75",
+    "arg": "hero_75",
+    "rmb": 998,
+    "cent": 99800
+  },
+  "7176": {
+    "type": "gift_loop",
+    "name": "新服特惠76",
+    "arg": "hero_76",
+    "rmb": 1288,
+    "cent": 128800
+  },
+  "7177": {
+    "type": "gift_loop",
+    "name": "新服特惠77",
+    "arg": "hero_77",
+    "rmb": 1588,
+    "cent": 158800
+  },
+  "7178": {
+    "type": "gift_loop",
+    "name": "新服特惠78",
+    "arg": "hero_78",
+    "rmb": 1688,
+    "cent": 168800
+  },
+  "7179": {
+    "type": "gift_loop",
+    "name": "新服特惠79",
+    "arg": "hero_79",
+    "rmb": 1980,
+    "cent": 198000
+  },
+  "7180": {
+    "type": "gift_loop",
+    "name": "新服特惠80",
+    "arg": "hero_80",
+    "rmb": 2500,
+    "cent": 250000
+  },
+  "7181": {
+    "type": "gift_loop",
+    "name": "新服特惠81",
+    "arg": "hero_81",
+    "rmb": 3000,
+    "cent": 300000
+  },
+  "7182": {
+    "type": "gift_loop",
+    "name": "新服特惠82",
+    "arg": "hero_82",
+    "rmb": 5000,
+    "cent": 500000
   },
   "7201": {
     "type": "gift_loop",
