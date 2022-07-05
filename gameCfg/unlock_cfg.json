@@ -39,14 +39,14 @@
     "name": "试炼塔",
     "key": "tower",
     "openlv": 1,
-    "award": "110:50&1000050:10&1000080:1",
+    "award": "110:5&1000050:10&1000080:1",
     "desc": "勇闯试炼塔，获取大量进阶石"
   },
   "8": {
     "name": "日常任务",
     "key": "task",
     "openlv": 1,
-    "award": "110:50&1000090:1&1000070:1",
+    "award": "110:5&1000090:1&1000070:1",
     "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
     "target": "hallNode/mainNode/bottomNode/btnList/btnTask",
     "targetChild": true
@@ -114,7 +114,7 @@
     "name": "通行证",
     "key": "warHorn",
     "openlv": 11,
-    "award": "110:50&1000050:10&1000080:1",
+    "award": "110:5&1000050:10&1000080:1",
     "desc": "通行证",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
   },
@@ -122,7 +122,7 @@
     "name": "日常副本",
     "key": "dailyFb",
     "openlv": 19,
-    "award": "110:50&1000050:10&1000080:1",
+    "award": "110:5&1000050:10&1000080:1",
     "desc": "每日挑战，获得精灵培养材料",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -152,7 +152,7 @@
     "name": "装备研究所",
     "key": "smithy",
     "openlv": 15,
-    "award": "110:50&105503010:1&1000080:1",
+    "award": "110:5&105503010:1&1000080:1",
     "desc": "合成极品装备，合成稀有护符，提升精灵属性",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy",
     "targetChild": true
@@ -161,14 +161,14 @@
     "name": "精灵派遣",
     "key": "tour",
     "openlv": 16,
-    "award": "110:50&1000090:1&1000160:1",
+    "award": "110:5&1000090:1&1000160:1",
     "desc": "派遣精灵执行任务，获得稀有奖励"
   },
   "26": {
     "name": "公会系统",
     "key": "guild",
     "openlv": 17,
-    "award": "110:50&213:100&1000090:1",
+    "award": "110:5&213:100&1000090:1",
     "desc": "创建或加入公会，与好友一起探索世界",
     "target": "uiNode/frontNode/bottomNode/btnGuild",
     "targetChild": true
@@ -183,14 +183,14 @@
     "name": "竞技场",
     "key": "arena",
     "openlv": 21,
-    "award": "110:50&205:100&1000090:1",
+    "award": "110:5&205:100&1000090:1",
     "desc": "展现实力，争夺竞技排名，赢取排名奖励"
   },
   "29": {
     "name": "神秘商店",
     "key": "bazaar",
     "openlv": 21,
-    "award": "110:50&1000070:10&1000090:1",
+    "award": "110:5&1000070:10&1000090:1",
     "desc": "神秘商店，有概率刷新特价稀有道具"
   },
   "30": {
@@ -218,7 +218,7 @@
     "name": "神兽试炼",
     "key": "extremity",
     "openlv": 28,
-    "award": "110:50&201:10000&101:10000",
+    "award": "110:5&201:10000&101:10000",
     "desc": "挑战神兽，突破自身上限",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -234,7 +234,7 @@
     "name": "梦幻模拟战",
     "key": "exercise",
     "openlv": 31,
-    "award": "110:50&1000050:10&1000170:1",
+    "award": "110:5&1000050:10&1000170:1",
     "desc": "模拟对抗，获得大量精灵经验",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -251,7 +251,7 @@
     "name": "宝可梦联赛",
     "key": "ancient",
     "openlv": 36,
-    "award": "110:50&215:100&1000080:1",
+    "award": "110:5&215:100&1000080:1",
     "desc": "精灵对战，策略为王",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -260,7 +260,7 @@
     "name": "精灵圣塔",
     "key": "tower_realm",
     "openlv": 40,
-    "award": "110:50&1000050:10&1000080:1",
+    "award": "110:5&1000050:10&1000080:1",
     "desc": "勇闯圣塔，获取大量精灵碎片",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
@@ -274,7 +274,7 @@
     "name": "狩猎森林",
     "key": "endless",
     "openlv": 45,
-    "award": "110:50&201:10000&101:10000",
+    "award": "110:5&201:10000&101:10000",
     "desc": "森林探险，获取稀有道具",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -283,7 +283,7 @@
     "name": "大师擂台赛",
     "key": "beherrscher",
     "openlv": 46,
-    "award": "110:50&201:10000&101:10000",
+    "award": "110:5&201:10000&101:10000",
     "desc": "宝可梦大师专精，等你来战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
@@ -291,7 +291,7 @@
     "name": "跨服竞技场",
     "key": "crossPK",
     "openlv": 56,
-    "award": "110:50&210:100&1000080:1",
+    "award": "110:5&210:100&1000080:1",
     "desc": "跨服竞技，勇夺冠军，彰显实力",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/arena",
     "targetChild": true
@@ -300,7 +300,7 @@
     "name": "世界锦标赛",
     "key": "crossTop",
     "openlv": 57,
-    "award": "110:50&211:100&1000080:1",
+    "award": "110:5&211:100&1000080:1",
     "desc": "最高赛事，角逐宝可梦最强王者",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/crossTop",
     "targetChild": true
@@ -323,7 +323,7 @@
     "name": "华蓝洞窟",
     "key": "zhulu",
     "openlv": 59,
-    "award": "110:50&206:100&1000080:1",
+    "award": "110:5&206:100&1000080:1",
     "desc": "探索洞窟，获得精灵石板",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -340,7 +340,7 @@
     "name": "宝石系统",
     "key": "pit",
     "openlv": 60,
-    "award": "110:50&1000501:1&1000080:1",
+    "award": "110:5&1000501:1&1000080:1",
     "desc": "加强精灵属性，增加被动技能，助力逆风翻盘",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
@@ -348,7 +348,7 @@
     "name": "时空秘境",
     "key": "secretChallenge",
     "openlv": 65,
-    "award": "110:50&201:10000&101:10000",
+    "award": "110:5&201:10000&101:10000",
     "desc": "穿梭时空，获取圣物培养材料",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
@@ -364,7 +364,7 @@
     "name": "石板系统",
     "key": "ace",
     "openlv": 72,
-    "award": "110:50&206:100&1000080:1",
+    "award": "110:5&206:100&1000080:1",
     "desc": "石板助阵精灵，发挥极致实力",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
@@ -373,7 +373,7 @@
     "name": "精灵觉醒",
     "key": "wake",
     "openlv": 84,
-    "award": "110:50&201:10000&1000120:1",
+    "award": "110:5&201:10000&1000120:1",
     "desc": "精灵突破极限，觉醒全新天赋",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
@@ -382,7 +382,7 @@
     "name": "学习机系统",
     "key": "zhanfa",
     "openlv": 90,
-    "award": "110:50&230:10&101:10000",
+    "award": "110:5&230:10&101:10000",
     "desc": "策略圣物战法，全新战斗体验",
     "target": "hallNode/mainNode/bottomNode/btnList/btnZf",
     "targetChild": true
@@ -391,7 +391,7 @@
     "name": "神装系统",
     "key": "superEquip",
     "openlv": 100,
-    "award": "110:50&1000060:1&201:10000",
+    "award": "110:5&1000060:1&201:10000",
     "desc": "铸造神装，无敌于世",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy"
   },
@@ -399,7 +399,7 @@
     "name": "道馆挑战",
     "key": "areaTrial",
     "openlv": 103,
-    "award": "110:50&1000060:1&201:10000",
+    "award": "110:5&1000060:1&201:10000",
     "desc": "以少胜多，夺取神装",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
@@ -407,7 +407,7 @@
     "name": "圣物系统",
     "key": "book",
     "openlv": 125,
-    "award": "110:50&1000300:1000&1000400:1",
+    "award": "110:5&1000300:1000&1000400:1",
     "desc": "圣物助战，全新特性战斗策略升级",
     "target": "uiNode/frontNode/bottomNode/btnRole",
     "targetChild": true
@@ -416,7 +416,7 @@
     "name": "梦幻大乱斗",
     "key": "crossTeamPK",
     "openlv": 128,
-    "award": "110:50&212:100&1000080:1",
+    "award": "110:5&212:100&1000080:1",
     "desc": "阵营对抗，为胜利而战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
