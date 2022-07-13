@@ -2171,7 +2171,7 @@
   "1004001007": {
     "name": "主角技能",
     "type": "attack",
-    "des": "技能伤害增加至210%，技能优先选择火系目标",
+    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.1,
@@ -2181,8 +2181,8 @@
     "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15,
-    "key4": "priority_camp",
-    "value4": 2
+    "key4": "tmp_crit",
+    "value4": 0.3
   },
   "1004002001": {
     "name": "主角技能",
@@ -2257,7 +2257,7 @@
   "1004002007": {
     "name": "主角技能",
     "type": "attack",
-    "des": "技能伤害增加至210%，技能优先选择草系目标",
+    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.1,
@@ -2267,8 +2267,8 @@
     "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15,
-    "key4": "priority_camp",
-    "value4": 3
+    "key4": "tmp_crit",
+    "value4": 0.3
   },
   "1004003001": {
     "name": "主角技能",
@@ -2343,7 +2343,7 @@
   "1004003007": {
     "name": "主角技能",
     "type": "attack",
-    "des": "技能伤害增加至210%，技能优先选择水系目标",
+    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.1,
@@ -2353,8 +2353,8 @@
     "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15,
-    "key4": "priority_camp",
-    "value4": 1
+    "key4": "tmp_crit",
+    "value4": 0.3
   },
   "1004004001": {
     "name": "主角技能",
@@ -2363,7 +2363,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 2.55,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.3
   },
   "1004004002": {
@@ -2373,7 +2373,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 2.8,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.4
   },
   "1004004003": {
@@ -2383,7 +2383,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.05,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.5
   },
   "1004004004": {
@@ -2393,7 +2393,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.6
   },
   "1004004005": {
@@ -2403,7 +2403,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
@@ -2415,7 +2415,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
@@ -2425,18 +2425,18 @@
   "1004004007": {
     "name": "主角技能",
     "type": "attack",
-    "des": "技能伤害增加至400%，技能优先选择暗系目标",
+    "des": "技能伤害增加至400%，使用技能时暴力率临时增加30%",
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 4,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
     "key3": "power_up",
     "value3": 0.15,
-    "key4": "priority_camp",
-    "value4": 4
+    "key4": "tmp_crit",
+    "value4": 0.3
   },
   "1004005001": {
     "name": "主角技能",
@@ -2445,7 +2445,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 2.55,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.3
   },
   "1004005002": {
@@ -2455,7 +2455,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 2.8,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.4
   },
   "1004005003": {
@@ -2465,7 +2465,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.05,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.5
   },
   "1004005004": {
@@ -2475,7 +2475,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.6
   },
   "1004005005": {
@@ -2485,7 +2485,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
@@ -2497,7 +2497,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -2507,18 +2507,18 @@
   "1004005007": {
     "name": "主角技能",
     "type": "attack",
-    "des": "技能伤害增加至400%，技能优先选择光系目标",
+    "des": "技能伤害增加至400%，使用技能时暴力率临时增加30%",
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 4,
-    "key1": "camp_amp_1",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15,
-    "key4": "priority_camp",
-    "value4": 5
+    "key4": "tmp_crit",
+    "value4": 0.3
   },
   "1005001001": {
     "name": "主角技能",
@@ -2627,14 +2627,14 @@
   "1005002005": {
     "name": "主角技能",
     "type": "attack",
-    "des": "若未释放此技能，则每过一个回合，眩晕概率增加15%，可叠加，释放技能后重置。",
+    "des": "若未释放此技能，则每过一个回合，眩晕概率增加5%，可叠加，释放技能后重置。",
     "damageType": "phy",
     "targetType": "team_all",
     "mul": 2.95,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
     "key2": "round_buff_rate",
-    "value2": 0.15
+    "value2": 0.05
   },
   "1005002006": {
     "name": "主角技能",
@@ -2646,7 +2646,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
     "key2": "round_buff_rate",
-    "value2": 0.15,
+    "value2": 0.05,
     "key3": "power_up",
     "value3": 0.3
   },
@@ -2660,7 +2660,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
     "key2": "round_buff_rate",
-    "value2": 0.15,
+    "value2": 0.05,
     "key3": "power_up",
     "value3": 0.3,
     "key4": "NEED_CD",
@@ -2889,7 +2889,7 @@
   "1005005007": {
     "name": "主角技能",
     "type": "heal",
-    "des": "技能额外恢复目标生命上限25%的血量",
+    "des": "技能额外恢复目标生命上限20%的血量",
     "targetType": "team_all",
     "mul": 3.4,
     "key1": "buff1",
@@ -2898,8 +2898,8 @@
     "value2": true,
     "key3": "power_up",
     "value3": 0.3,
-    "key4": "heal_maxRate",
-    "value4": 0.25
+    "key4": "heal_maxHp",
+    "value4": 0.2
   },
   "1005006001": {
     "name": "主角技能",
