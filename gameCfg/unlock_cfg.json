@@ -205,6 +205,11 @@
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge"
   },
   "31": {
+    "name": "家园系统",
+    "openlv": 33,
+    "desc": "建设家园，探索领地"
+  },
+  "32": {
     "name": "巅峰竞技",
     "key": "ancient",
     "openlv": 36,
@@ -212,21 +217,21 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing3",
     "targetChild": true
   },
-  "32": {
+  "33": {
     "name": "阵营圣塔",
     "key": "tower_realm",
     "openlv": 42,
     "desc": "限定阵营挑战，获得丰厚奖励",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/tower"
   },
-  "33": {
+  "34": {
     "name": "无双争霸",
     "key": "beherrscher",
     "openlv": 46,
     "desc": "稀有站位争夺，挑战可获得稀有称号",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/beherrscher"
   },
-  "34": {
+  "35": {
     "name": "无尽深渊",
     "key": "endless",
     "openlv": 50,
@@ -234,7 +239,7 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing1",
     "targetChild": true
   },
-  "35": {
+  "36": {
     "name": "跨服竞技",
     "key": "crossPK",
     "openlv": 52,
@@ -242,7 +247,7 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/arena",
     "targetChild": true
   },
-  "36": {
+  "37": {
     "name": "王者巅峰赛",
     "key": "crossTop",
     "openlv": 54,
@@ -250,7 +255,7 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/crossTop",
     "targetChild": true
   },
-  "37": {
+  "38": {
     "name": "秘境试炼",
     "key": "zhulu",
     "openlv": 56,
@@ -258,21 +263,21 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing1",
     "targetChild": true
   },
-  "38": {
+  "39": {
     "name": "藏宝阁",
     "key": "extract",
     "openlv": 58,
     "desc": "探秘宝库，获得稀有道具",
     "target": "hallNode/mainNode/btnLimited"
   },
-  "39": {
+  "40": {
     "name": "限时招募",
     "key": "topic",
     "openlv": 58,
     "desc": "可招募主题英雄，每日刷新主题",
     "target": "hallNode/mainNode/btnLimited"
   },
-  "40": {
+  "41": {
     "name": "宝石矿场",
     "key": "pit",
     "openlv": 60,
@@ -280,50 +285,27 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/pit",
     "targetChild": true
   },
-  "41": {
+  "42": {
     "name": "宝石系统",
     "key": "pit",
     "openlv": 60,
     "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
-  "42": {
-    "name": "时空秩序",
-    "key": "secretChallenge",
-    "openlv": 65,
-    "desc": "完成时空秩序，获取神器",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing1",
-    "targetChild": true
-  },
   "43": {
-    "name": "神器副本",
-    "key": "dailyFb_book",
-    "openlv": 66,
-    "desc": "神器孕育之地，挑战可获得大量神器培养材料",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing2"
-  },
-  "44": {
-    "name": "神器系统",
-    "key": "book",
-    "openlv": 66,
-    "desc": "神器助战，英雄属性加成，全新特性战斗策略升级",
-    "target": "hallNode/mainNode/bottomNode/btnList/btnBook",
-    "targetChild": true
-  },
-  "45": {
     "name": "技能宝石",
     "key": "pit_skill",
     "openlv": 70,
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
-  "46": {
+  "44": {
     "name": "符文副本",
     "key": "dailyFb_ace",
     "openlv": 72,
     "desc": "符文散落之地，挑战可获得大量符文积分",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing2"
   },
-  "47": {
+  "45": {
     "name": "符文系统",
     "key": "ace",
     "openlv": 72,
@@ -331,7 +313,7 @@
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
-  "48": {
+  "46": {
     "name": "英雄觉醒",
     "key": "wake",
     "openlv": 80,
@@ -339,7 +321,7 @@
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
-  "49": {
+  "47": {
     "name": "阵营战场",
     "key": "crossTeamPK",
     "openlv": 85,
@@ -347,7 +329,7 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing3",
     "targetChild": true
   },
-  "50": {
+  "48": {
     "name": "圣物系统",
     "key": "zhanfa",
     "openlv": 90,
@@ -355,18 +337,41 @@
     "target": "hallNode/mainNode/bottomNode/btnList/btnZf",
     "targetChild": true
   },
-  "51": {
+  "49": {
     "name": "神装系统",
     "key": "superEquip",
     "openlv": 100,
     "desc": "铸造神装，无敌于世",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy"
   },
-  "52": {
+  "50": {
     "name": "诸神黄昏",
     "key": "areaTrial",
     "openlv": 101,
     "desc": "一队单挑三队，实力碾压一切",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/areaTrial"
+  },
+  "51": {
+    "name": "时空秩序",
+    "key": "secretChallenge",
+    "openlv": 121,
+    "desc": "完成时空秩序，获取神器",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing1",
+    "targetChild": true
+  },
+  "52": {
+    "name": "神器副本",
+    "key": "dailyFb_book",
+    "openlv": 125,
+    "desc": "神器孕育之地，挑战可获得大量神器培养材料",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/playing2"
+  },
+  "53": {
+    "name": "神器系统",
+    "key": "book",
+    "openlv": 125,
+    "desc": "神器助战，英雄属性加成，全新特性战斗策略升级",
+    "target": "hallNode/mainNode/bottomNode/btnList/btnBook",
+    "targetChild": true
   }
 }
