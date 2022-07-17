@@ -2533,32 +2533,38 @@
   "1005001002": {
     "name": "主角技能",
     "type": "heal",
-    "des": "使我方随机单体获得一个额外回合，并获得伤害增加15%效果，持续1回合",
+    "des": "伤害增加15%，BP消耗降低至11",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 11
   },
   "1005001003": {
     "name": "主角技能",
     "type": "heal",
-    "des": "使我方随机单体获得一个额外回合，并获得伤害增加20%效果，持续1回合",
+    "des": "伤害增加20%，BP消耗降低至10",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 10
   },
   "1005001004": {
     "name": "主角技能",
     "type": "heal",
-    "des": "使我方随机单体获得一个额外回合，并获得伤害增加25%效果，持续1回合",
+    "des": "伤害增加25%，BP消耗降低至9",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 9
   },
   "1005001005": {
     "name": "主角技能",
@@ -2568,7 +2574,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 9
   },
   "1005001006": {
     "name": "主角技能",
@@ -2580,12 +2588,14 @@
     "key2": "extraAtion",
     "value2": true,
     "key3": "power_up",
-    "value3": 0.3
+    "value3": 0.3,
+    "key5": "NEED_BP",
+    "value5": 9
   },
   "1005001007": {
     "name": "主角技能",
     "type": "heal",
-    "des": "技能开场即可使用，BP消耗降低至9点",
+    "des": "技能开场即可使用，BP消耗降低至6点",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
@@ -2596,7 +2606,7 @@
     "key4": "CUR_CD",
     "value4": 0,
     "key5": "NEED_BP",
-    "value5": 9
+    "value5": 6
   },
   "1005002001": {
     "name": "主角技能",
@@ -2884,7 +2894,7 @@
     "mul": 3.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "dispel_intensify",
+    "key2": "cleanDebuff",
     "value2": true
   },
   "1005005006": {
@@ -2895,7 +2905,7 @@
     "mul": 3.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "dispel_intensify",
+    "key2": "cleanDebuff",
     "value2": true,
     "key3": "power_up",
     "value3": 0.3
@@ -2908,7 +2918,7 @@
     "mul": 3.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "dispel_intensify",
+    "key2": "cleanDebuff",
     "value2": true,
     "key3": "power_up",
     "value3": 0.3,
@@ -2993,7 +3003,9 @@
   "1005007001": {
     "name": "主角技能",
     "type": "heal",
-    "des": "复活我方一个已阵亡目标，恢复其10%最大生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方宝可梦，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复120%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.2,
     "key1": "rescue_heal",
     "value1": 0.1,
     "key4": "use_change_bp",
@@ -3002,7 +3014,9 @@
   "1005007002": {
     "name": "主角技能",
     "type": "heal",
-    "des": "复活我方一个已阵亡目标，恢复其25%最大生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方宝可梦，恢复其25%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复150%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.5,
     "key1": "rescue_heal",
     "value1": 0.25,
     "key4": "use_change_bp",
@@ -3011,7 +3025,9 @@
   "1005007003": {
     "name": "主角技能",
     "type": "heal",
-    "des": "复活我方一个已阵亡目标，恢复其40%最大生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方宝可梦，恢复其40%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复180%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.8,
     "key1": "rescue_heal",
     "value1": 0.4,
     "key4": "use_change_bp",
@@ -3020,7 +3036,9 @@
   "1005007004": {
     "name": "主角技能",
     "type": "heal",
-    "des": "复活我方一个已阵亡目标，恢复其55%最大生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方宝可梦，恢复其55%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复210%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key4": "use_change_bp",
@@ -3029,7 +3047,9 @@
   "1005007005": {
     "name": "主角技能",
     "type": "heal",
-    "des": "复活时，为目标添加无敌盾，持续1回合",
+    "des": "释放技能时，为目标添加无敌盾，持续1回合",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key2": "buff1",
@@ -3041,6 +3061,8 @@
     "name": "主角技能",
     "type": "heal",
     "des": "所有主动技能效果提升30%",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key2": "buff1",
@@ -3054,6 +3076,8 @@
     "name": "主角技能",
     "type": "heal",
     "des": "复活恢复目标所有血量，无敌盾升级为超级无敌盾，免疫所有伤害和控制效果",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
     "key1": "rescue_heal",
     "value1": 1,
     "key2": "buff1",
