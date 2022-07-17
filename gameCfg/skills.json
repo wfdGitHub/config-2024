@@ -2157,7 +2157,7 @@
   "1004001006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加15%",
+    "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.8,
@@ -2243,7 +2243,7 @@
   "1004002006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加15%",
+    "des": "所有主动技能效果提升15%",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.8,
@@ -2324,19 +2324,19 @@
     "key1": "camp_amp_1",
     "value1": 0.6,
     "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加15%",
+    "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.8,
     "key1": "camp_amp_1",
     "value1": 0.6,
     "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15
   },
@@ -2350,7 +2350,7 @@
     "key1": "camp_amp_1",
     "value1": 0.6,
     "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key3": "power_up",
     "value3": 0.15,
     "key4": "tmp_crit",
@@ -2363,7 +2363,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 2.55,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.3
   },
   "1004004002": {
@@ -2373,7 +2373,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 2.8,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.4
   },
   "1004004003": {
@@ -2383,7 +2383,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.05,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.5
   },
   "1004004004": {
@@ -2393,7 +2393,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.6
   },
   "1004004005": {
@@ -2403,7 +2403,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
@@ -2411,11 +2411,11 @@
   "1004004006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加15%",
+    "des": "所有主动技能效果提升15%",
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
@@ -2429,7 +2429,7 @@
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 4,
-    "key1": "camp_amp_4",
+    "key1": "camp_amp_5",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
@@ -2445,7 +2445,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 2.55,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.3
   },
   "1004005002": {
@@ -2455,7 +2455,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 2.8,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.4
   },
   "1004005003": {
@@ -2465,7 +2465,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.05,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.5
   },
   "1004005004": {
@@ -2475,7 +2475,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.6
   },
   "1004005005": {
@@ -2485,7 +2485,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
@@ -2493,11 +2493,11 @@
   "1004005006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加15%",
+    "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 3.3,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -2511,7 +2511,7 @@
     "damageType": "mag",
     "targetType": "enemy_1",
     "mul": 4,
-    "key1": "camp_amp_5",
+    "key1": "camp_amp_4",
     "value1": 0.6,
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -2526,7 +2526,9 @@
     "des": "使我方随机单体获得一个额外回合，并获得伤害增加10%效果，持续1回合",
     "targetType": "team_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
   },
   "1005001002": {
     "name": "主角技能",
@@ -2534,7 +2536,9 @@
     "des": "使我方随机单体获得一个额外回合，并获得伤害增加15%效果，持续1回合",
     "targetType": "team_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
   },
   "1005001003": {
     "name": "主角技能",
@@ -2542,7 +2546,9 @@
     "des": "使我方随机单体获得一个额外回合，并获得伤害增加20%效果，持续1回合",
     "targetType": "team_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
   },
   "1005001004": {
     "name": "主角技能",
@@ -2550,7 +2556,9 @@
     "des": "使我方随机单体获得一个额外回合，并获得伤害增加25%效果，持续1回合",
     "targetType": "team_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
   },
   "1005001005": {
     "name": "主角技能",
@@ -2558,17 +2566,21 @@
     "des": "技能目标优先选择我方攻击力最高目标",
     "targetType": "team_maxAtk_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
   },
   "1005001006": {
     "name": "主角技能",
     "type": "heal",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "power_up",
-    "value2": 0.3
+    "key2": "extraAtion",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3
   },
   "1005001007": {
     "name": "主角技能",
@@ -2577,19 +2589,21 @@
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "power_up",
-    "value2": 0.3,
-    "key3": "CUR_CD",
-    "value3": 0,
-    "key4": "NEED_BP",
-    "value4": 9
+    "key2": "extraAtion",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3,
+    "key4": "CUR_CD",
+    "value4": 0,
+    "key5": "NEED_BP",
+    "value5": 9
   },
   "1005002001": {
     "name": "主角技能",
     "type": "attack",
     "des": "对敌方全体造成235%攻击力的物理伤害，有30%概率眩晕目标。",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.35,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
@@ -2599,7 +2613,7 @@
     "type": "attack",
     "des": "对敌方全体造成255%攻击力的物理伤害，有35%概率眩晕目标。",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.55,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
@@ -2609,7 +2623,7 @@
     "type": "attack",
     "des": "对敌方全体造成275%攻击力的物理伤害，有40%概率眩晕目标。",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
@@ -2619,7 +2633,7 @@
     "type": "attack",
     "des": "对敌方全体造成295%攻击力的物理伤害，有45%概率眩晕目标。",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.95,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
@@ -2629,7 +2643,7 @@
     "type": "attack",
     "des": "若未释放此技能，则每过一个回合，眩晕概率增加5%，可叠加，释放技能后重置。",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.95,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
@@ -2639,9 +2653,9 @@
   "1005002006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.95,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
@@ -2655,7 +2669,7 @@
     "type": "attack",
     "des": "技能开场即可使用，冷却回合降低至3回合",
     "damageType": "phy",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 2.95,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
@@ -2721,7 +2735,7 @@
   "1005003006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "damageType": "mag",
     "targetType": "team_all",
     "mul": 3.9,
@@ -2801,7 +2815,7 @@
   "1005004006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "damageType": "mag",
     "targetType": "enemy_rand_24",
     "mul": 3.2,
@@ -2876,7 +2890,7 @@
   "1005005006": {
     "name": "主角技能",
     "type": "heal",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "targetType": "team_all",
     "mul": 3.4,
     "key1": "buff1",
@@ -2950,7 +2964,7 @@
   },
   "1005006006": {
     "name": "主角技能",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -3026,7 +3040,7 @@
   "1005007006": {
     "name": "主角技能",
     "type": "heal",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "key1": "rescue_heal",
     "value1": 0.55,
     "key2": "buff1",
@@ -3094,7 +3108,7 @@
   "1005008006": {
     "name": "主角技能",
     "type": "attack",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "damageType": "phy",
     "targetType": "enemy_1",
     "mul": 4.05,
@@ -3157,7 +3171,7 @@
   "1005009006": {
     "name": "主角技能",
     "type": "heal",
-    "des": "所有主动技能系数增加30%",
+    "des": "所有主动技能效果提升30%",
     "targetType": "friend_minHp_1",
     "mul": 3.9,
     "key1": "use_up_mul",
