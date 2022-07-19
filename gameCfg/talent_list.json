@@ -1091,60 +1091,60 @@
     "value1": 0.05
   },
   "2002": {
-    "des": "攻击+300（英雄100级后每升1级攻击额外+9）",
+    "des": "攻击+3000（英雄100级后每升1级攻击额外+90）",
     "key1": "atk",
-    "value1": 300,
+    "value1": 3000,
     "key2": "atk_grow",
-    "value2": 9
+    "value2": 90
   },
   "2003": {
-    "des": "生命+2000（英雄100级后每升1级生命额外+60）",
+    "des": "生命+20000（英雄100级后每升1级生命额外+600）",
     "key1": "maxHP",
-    "value1": 2000,
+    "value1": 20000,
     "key2": "maxHP_grow",
-    "value2": 60
+    "value2": 600
   },
   "2004": {
-    "des": "物理防御+200（英雄100级后每升1级额外+6）",
+    "des": "物理防御+2000（英雄100级后每升1级额外+60）",
     "key1": "phyDef",
-    "value1": 200,
+    "value1": 2000,
     "key2": "phyDef_grow",
-    "value2": 6
+    "value2": 60
   },
   "2005": {
-    "des": "法术防御+200（英雄100级后每升1级额外+6）",
+    "des": "法术防御+2000（英雄100级后每升1级额外+60）",
     "key1": "magDef",
-    "value1": 200,
+    "value1": 2000,
     "key2": "magDef_grow",
-    "value2": 6
+    "value2": 60
   },
   "2006": {
-    "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
+    "des": "攻击+9000（英雄100级后每升1级攻击额外+270）",
     "key1": "atk",
-    "value1": 900,
+    "value1": 9000,
     "key2": "atk_grow",
-    "value2": 27
+    "value2": 270
   },
   "2007": {
-    "des": "生命+6000(英雄100级后每升1级生命额外+180)",
+    "des": "生命+60000(英雄100级后每升1级生命额外+1800)",
     "key1": "maxHP",
-    "value1": 6000,
+    "value1": 60000,
     "key2": "maxHP_grow",
-    "value2": 180
+    "value2": 1800
   },
   "2008": {
-    "des": "物理防御+600（英雄100级后每升1级额外+18）",
+    "des": "物理防御+6000（英雄100级后每升1级额外+180）",
     "key1": "phyDef",
-    "value1": 600,
+    "value1": 6000,
     "key2": "phyDef_grow",
-    "value2": 18
+    "value2": 180
   },
   "2009": {
-    "des": "法术防御+600（英雄100级后每升1级额外+18）",
+    "des": "法术防御+6000（英雄100级后每升1级额外+180）",
     "key1": "magDef",
-    "value1": 600,
+    "value1": 6000,
     "key2": "magDef_grow",
-    "value2": 18
+    "value2": 180
   },
   "2010": {
     "des": "抗暴概率+5%",
@@ -2995,6 +2995,614 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
+  "career1_1": {
+    "des": "攻击+3000",
+    "key1": "atk",
+    "value1": 3000
+  },
+  "career1_2": {
+    "des": "生命+20000",
+    "key1": "maxHP",
+    "value1": 20000
+  },
+  "career1_3": {
+    "des": "攻击+3000，生命+30000",
+    "key1": "atk",
+    "value1": 3000,
+    "key2": "maxHP",
+    "value2": 30000
+  },
+  "career1_4": {
+    "des": "暴击+3%",
+    "key1": "crit",
+    "value1": 0.03
+  },
+  "career1_5": {
+    "des": "命中+5%",
+    "key1": "hitRate",
+    "value1": 0.05
+  },
+  "career1_6": {
+    "des": "攻击力+10%",
+    "key1": "self_atk_add",
+    "value1": 0.1
+  },
+  "career1_7": {
+    "des": "攻击+8%",
+    "key1": "self_atk_add",
+    "value1": 0.08
+  },
+  "career1_8": {
+    "des": "暴击+10%",
+    "key1": "crit",
+    "value1": 0.1
+  },
+  "career1_9": {
+    "des": "生命值+20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2
+  },
+  "career1_10": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "career1_11": {
+    "des": "攻击+20000，生命+240000",
+    "key1": "atk",
+    "value1": 20000,
+    "key2": "maxHP",
+    "value2": 240000
+  },
+  "career1_12": {
+    "des": "闪避+15%",
+    "key1": "dodgeRate",
+    "value1": 0.15
+  },
+  "career1_13": {
+    "des": "攻击+15%",
+    "key1": "self_atk_add",
+    "value1": 0.15
+  },
+  "career1_14": {
+    "des": "生命+15%",
+    "key1": "self_maxHP_add",
+    "value1": 0.15
+  },
+  "career1_15": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career1_16": {
+    "des": "抗暴率+15%",
+    "key1": "critDef",
+    "value1": 0.15
+  },
+  "career1_17": {
+    "des": "命中率+15%",
+    "key1": "hitRate",
+    "value1": 0.15
+  },
+  "career1_18": {
+    "des": "暴击几率+15%",
+    "key1": "crit",
+    "value1": 0.15
+  },
+  "career1_19": {
+    "des": "暴击伤害+15%",
+    "key1": "slay",
+    "value1": 0.15
+  },
+  "career1_20": {
+    "des": "攻击+30%",
+    "key1": "self_atk_add",
+    "value1": 0.3
+  },
+  "career1_21": {
+    "des": "攻击+100000，生命+2400000",
+    "key1": "atk",
+    "value1": 100000,
+    "key2": "maxHP",
+    "value2": 2400000
+  },
+  "career1_22": {
+    "des": "全体上阵武将暴伤加成+10%",
+    "key1": "team_slay_add",
+    "value1": 0.1
+  },
+  "career1_23": {
+    "des": "全体上阵武将生命加成+10%",
+    "key1": "team_maxHP_add",
+    "value1": 0.1
+  },
+  "career1_24": {
+    "des": "全体上阵武将攻击加成+10%",
+    "key1": "team_atk_add",
+    "value1": 0.1
+  },
+  "career1_25": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career1_26": {
+    "des": "全体上阵英雄命中几率+15%",
+    "key1": "team_hitRate_add",
+    "value1": 0.15
+  },
+  "career1_27": {
+    "des": "全体上阵英雄暴击几率+15%",
+    "key1": "team_crit_add",
+    "value1": 0.15
+  },
+  "career1_28": {
+    "des": "全体上阵武将伤害加成+15%",
+    "key1": "team_amplify_add",
+    "value1": 0.15
+  },
+  "career1_29": {
+    "des": "全体上阵武将生命加成+15%",
+    "key1": "team_maxHP_add",
+    "value1": 0.15
+  },
+  "career1_30": {},
+  "career2_1": {
+    "des": "攻击+3000",
+    "key1": "atk",
+    "value1": 3000
+  },
+  "career2_2": {
+    "des": "生命+20000",
+    "key1": "maxHP",
+    "value1": 20000
+  },
+  "career2_3": {
+    "des": "攻击+3000，生命+30000",
+    "key1": "atk",
+    "value1": 3000,
+    "key2": "maxHP",
+    "value2": 30000
+  },
+  "career2_4": {
+    "des": "命中+3%",
+    "key1": "hitRate",
+    "value1": 0.03
+  },
+  "career2_5": {
+    "des": "攻击+5%",
+    "key1": "self_atk_add",
+    "value1": 0.05
+  },
+  "career2_6": {
+    "des": "生命+10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.1
+  },
+  "career2_7": {
+    "des": "伤害+8%",
+    "key1": "amplify",
+    "value1": 0.08
+  },
+  "career2_8": {
+    "des": "抗暴+10%",
+    "key1": "critDef",
+    "value1": 0.1
+  },
+  "career2_9": {
+    "des": "伤害减免+10%",
+    "key1": "reduction",
+    "value1": 0.1
+  },
+  "career2_10": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "career2_11": {
+    "des": "攻击+20000，生命+240000",
+    "key1": "atk",
+    "value1": 20000,
+    "key2": "maxHP",
+    "value2": 240000
+  },
+  "career2_12": {
+    "des": "命中+15%",
+    "key1": "hitRate",
+    "value1": 0.15
+  },
+  "career2_13": {
+    "des": "闪避+15%",
+    "key1": "dodgeRate",
+    "value1": 0.15
+  },
+  "career2_14": {
+    "des": "生命+15%",
+    "key1": "self_maxHP_add",
+    "value1": 0.15
+  },
+  "career2_15": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career2_16": {
+    "des": "闪避率+15%",
+    "key1": "dodgeRate",
+    "value1": 0.15
+  },
+  "career2_17": {
+    "des": "命中率+15%",
+    "key1": "hitRate",
+    "value1": 0.15
+  },
+  "career2_18": {
+    "des": "攻击力+15%",
+    "key1": "self_atk_add",
+    "value1": 0.15
+  },
+  "career2_19": {
+    "des": "爆伤减免+15%",
+    "key1": "slayDef",
+    "value1": 0.15
+  },
+  "career2_20": {
+    "des": "生命+30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3
+  },
+  "career2_21": {
+    "des": "攻击+100000，生命+2400000",
+    "key1": "atk",
+    "value1": 100000,
+    "key2": "maxHP",
+    "value2": 2400000
+  },
+  "career2_22": {
+    "des": "全体上阵武将攻击加成+10%",
+    "key1": "team_atk_add",
+    "value1": 0.1
+  },
+  "career2_23": {
+    "des": "全体上阵武将生命加成+10%",
+    "key1": "team_maxHP_add",
+    "value1": 0.1
+  },
+  "career2_24": {
+    "des": "全体上阵武将免伤加成+10%",
+    "key1": "team_reduction_add",
+    "value1": 0.1
+  },
+  "career2_25": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career2_26": {
+    "des": "全体上阵武将闪避几率+15%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.15
+  },
+  "career2_27": {
+    "des": "全体上阵武将抗暴几率+15%",
+    "key1": "team_critDef_add",
+    "value1": 0.15
+  },
+  "career2_28": {
+    "des": "全体上阵英雄命中几率+15%",
+    "key1": "team_hitRate_add",
+    "value1": 0.15
+  },
+  "career2_29": {
+    "des": "全体上阵武将生命加成+15%",
+    "key1": "team_maxHP_add",
+    "value1": 0.15
+  },
+  "career2_30": {},
+  "career3_1": {
+    "des": "攻击+3000",
+    "key1": "atk",
+    "value1": 3000
+  },
+  "career3_2": {
+    "des": "生命+20000",
+    "key1": "maxHP",
+    "value1": 20000
+  },
+  "career3_3": {
+    "des": "攻击+3000，生命+30000",
+    "key1": "atk",
+    "value1": 3000,
+    "key2": "maxHP",
+    "value2": 30000
+  },
+  "career3_4": {
+    "des": "免伤+3%",
+    "key1": "hitRate",
+    "value1": 0.03
+  },
+  "career3_5": {
+    "des": "抗暴+5%",
+    "key1": "critDef",
+    "value1": 0.05
+  },
+  "career3_6": {
+    "des": "生命值+10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.1
+  },
+  "career3_7": {
+    "des": "免伤+8%",
+    "key1": "reduction",
+    "value1": 0.08
+  },
+  "career3_8": {
+    "des": "生命+16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16
+  },
+  "career3_9": {
+    "des": "免伤+10%",
+    "key1": "reduction",
+    "value1": 0.1
+  },
+  "career3_10": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "career3_11": {
+    "des": "攻击+20000，生命+240000",
+    "key1": "atk",
+    "value1": 20000,
+    "key2": "maxHP",
+    "value2": 240000
+  },
+  "career3_12": {
+    "des": "抗暴+15%",
+    "key1": "critDef",
+    "value1": 0.15
+  },
+  "career3_13": {
+    "des": "免伤+15%",
+    "key1": "reduction",
+    "value1": 0.15
+  },
+  "career3_14": {
+    "des": "生命+15%",
+    "key1": "self_maxHP_add",
+    "value1": 0.15
+  },
+  "career3_15": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career3_16": {
+    "des": "闪避率+15%",
+    "key1": "dodgeRate",
+    "value1": 0.15
+  },
+  "career3_17": {
+    "des": "暴击率+15%",
+    "key1": "crit",
+    "value1": 0.15
+  },
+  "career3_18": {
+    "des": "攻击力+15%",
+    "key1": "self_atk_add",
+    "value1": 0.15
+  },
+  "career3_19": {
+    "des": "爆伤减免+15%",
+    "key1": "slayDef",
+    "value1": 0.15
+  },
+  "career3_20": {
+    "des": "生命值+30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3
+  },
+  "career3_21": {
+    "des": "攻击+100000，生命+2400000",
+    "key1": "atk",
+    "value1": 100000,
+    "key2": "maxHP",
+    "value2": 2400000
+  },
+  "career3_22": {
+    "des": "全体上阵武将抗暴几率+10%",
+    "key1": "team_critDef_add",
+    "value1": 0.1
+  },
+  "career3_23": {
+    "des": "全体上阵武将生命加成+10%",
+    "key1": "team_maxHP_add",
+    "value1": 0.1
+  },
+  "career3_24": {
+    "des": "全体上阵武将免伤加成+10%",
+    "key1": "team_reduction_add",
+    "value1": 0.1
+  },
+  "career3_25": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career3_26": {
+    "des": "全体上阵英雄命中几率+15%",
+    "key1": "team_hitRate_add",
+    "value1": 0.15
+  },
+  "career3_27": {
+    "des": "全体上阵武将抗暴几率+15%",
+    "key1": "team_critDef_add",
+    "value1": 0.15
+  },
+  "career3_28": {
+    "des": "全体上阵武将闪避几率+15%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.15
+  },
+  "career3_29": {
+    "des": "全体上阵武将生命加成+15%",
+    "key1": "team_maxHP_add",
+    "value1": 0.15
+  },
+  "career3_30": {},
+  "career4_1": {
+    "des": "攻击+3000",
+    "key1": "atk",
+    "value1": 3000
+  },
+  "career4_2": {
+    "des": "生命+20000",
+    "key1": "maxHP",
+    "value1": 20000
+  },
+  "career4_3": {
+    "des": "攻击+3000，生命+30000",
+    "key1": "atk",
+    "value1": 3000,
+    "key2": "maxHP",
+    "value2": 30000
+  },
+  "career4_4": {
+    "des": "免伤+3%",
+    "key1": "reduction",
+    "value1": 0.03
+  },
+  "career4_5": {
+    "des": "抗暴+5%",
+    "key1": "critDef",
+    "value1": 0.05
+  },
+  "career4_6": {
+    "des": "闪避+10%",
+    "key1": "dodgeRate",
+    "value1": 0.1
+  },
+  "career4_7": {
+    "des": "生命+8%",
+    "key1": "self_maxHP_add",
+    "value1": 0.08
+  },
+  "career4_8": {
+    "des": "闪避+8%",
+    "key1": "dodgeRate",
+    "value1": 0.08
+  },
+  "career4_9": {
+    "des": "生命值+10%",
+    "key1": "self_maxHP_add",
+    "value1": 0.1
+  },
+  "career4_10": {
+    "des": "初始怒气+2",
+    "key1": "curAnger",
+    "value1": 2
+  },
+  "career4_11": {
+    "des": "攻击+20000，生命+240000",
+    "key1": "atk",
+    "value1": 20000,
+    "key2": "maxHP",
+    "value2": 240000
+  },
+  "career4_12": {
+    "des": "抗暴+15%",
+    "key1": "critDef",
+    "value1": 0.15
+  },
+  "career4_13": {
+    "des": "免伤+15%",
+    "key1": "reduction",
+    "value1": 0.15
+  },
+  "career4_14": {
+    "des": "生命+15%",
+    "key1": "self_maxHP_add",
+    "value1": 0.15
+  },
+  "career4_15": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career4_16": {
+    "des": "闪避率+15%",
+    "key1": "dodgeRate",
+    "value1": 0.15
+  },
+  "career4_17": {
+    "des": "暴击率+15%",
+    "key1": "crit",
+    "value1": 0.15
+  },
+  "career4_18": {
+    "des": "攻击力+15%",
+    "key1": "self_atk_add",
+    "value1": 0.15
+  },
+  "career4_19": {
+    "des": "爆伤减免+15%",
+    "key1": "slayDef",
+    "value1": 0.15
+  },
+  "career4_20": {
+    "des": "抗暴+30%",
+    "key1": "critDef",
+    "value1": 0.3
+  },
+  "career4_21": {
+    "des": "攻击+100000，生命+2400000",
+    "key1": "atk",
+    "value1": 100000,
+    "key2": "maxHP",
+    "value2": 2400000
+  },
+  "career4_22": {
+    "des": "全体上阵武将生命加成+10%",
+    "key1": "team_maxHP_add",
+    "value1": 0.1
+  },
+  "career4_23": {
+    "des": "全体上阵武将攻击加成+10%",
+    "key1": "team_atk_add",
+    "value1": 0.1
+  },
+  "career4_24": {
+    "des": "全体上阵武将抗暴加成+10%",
+    "key1": "team_critDef_add",
+    "value1": 0.1
+  },
+  "career4_25": {
+    "des": "初始怒气+1",
+    "key1": "curAnger",
+    "value1": 1
+  },
+  "career4_26": {
+    "des": "全体上阵英雄命中几率+15%",
+    "key1": "team_hitRate_add",
+    "value1": 0.15
+  },
+  "career4_27": {
+    "des": "全体上阵武将抗暴几率+15%",
+    "key1": "team_critDef_add",
+    "value1": 0.15
+  },
+  "career4_28": {
+    "des": "全体上阵武将闪避几率+15%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.15
+  },
+  "career4_29": {
+    "des": "全体上阵武将生命加成+15%",
+    "key1": "team_maxHP_add",
+    "value1": 0.15
+  },
+  "career4_30": {},
   "skin_zhouyu_sp": {
     "des": "法术伤害+10%",
     "key1": "mag_add",
