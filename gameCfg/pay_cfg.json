@@ -50,24 +50,30 @@
   "1201": {
     "type": "gmLv",
     "name": "gm1",
-    "arg": 1,
-    "rmb": 1
+    "arg": 0,
+    "rmb": 0
   },
   "1202": {
     "type": "gmLv",
     "name": "gm2",
-    "arg": 2,
-    "rmb": 30
+    "arg": 1,
+    "rmb": 1
   },
   "1203": {
     "type": "gmLv",
     "name": "gm3",
-    "arg": 3,
-    "rmb": 98
+    "arg": 2,
+    "rmb": 30
   },
   "1204": {
     "type": "gmLv",
     "name": "gm4",
+    "arg": 3,
+    "rmb": 98
+  },
+  "1205": {
+    "type": "gmLv",
+    "name": "gm5",
     "arg": 4,
     "rmb": 198
   },
@@ -87,52 +93,73 @@
   },
   "2003": {
     "type": "recharge",
+    "name": "直充68元",
+    "arg": 3,
+    "rmb": 68,
+    "dianpiao": 68
+  },
+  "2004": {
+    "type": "recharge",
     "name": "直充98元",
     "arg": 3,
     "rmb": 98,
     "dianpiao": 98
   },
-  "2004": {
+  "2005": {
     "type": "recharge",
     "name": "直充198元",
     "arg": 4,
     "rmb": 198,
     "dianpiao": 198
   },
-  "2005": {
+  "2006": {
     "type": "recharge",
     "name": "直充328元",
     "arg": 5,
     "rmb": 328,
     "dianpiao": 328
   },
-  "2006": {
+  "2007": {
     "type": "recharge",
     "name": "直充648元",
     "arg": 6,
     "rmb": 648,
     "dianpiao": 648
   },
-  "2007": {
+  "2008": {
     "type": "recharge",
     "name": "直充1980元",
     "arg": 7,
     "rmb": 1980,
     "dianpiao": 1980
   },
-  "2008": {
+  "2009": {
     "type": "recharge",
     "name": "直充2998元",
     "arg": 8,
     "rmb": 2998,
     "dianpiao": 2998
   },
-  "2009": {
+  "2010": {
+    "type": "recharge",
+    "name": "直充5000元",
+    "arg": 9,
+    "rmb": 5000,
+    "dianpiao": 5000
+  },
+  "2011": {
     "type": "recharge",
     "name": "直充9998元",
     "arg": 9,
     "rmb": 9998,
     "dianpiao": 9998
+  },
+  "2012": {
+    "type": "recharge",
+    "name": "直充20000元",
+    "arg": 9,
+    "rmb": 20000,
+    "dianpiao": 20000
   },
   "3001": {
     "type": "box_day",
@@ -341,292 +368,154 @@
     "type": "box_month",
     "name": "每月礼包5",
     "arg": 1005,
-    "rmb": 9998,
-    "dianpiao": 9998
+    "rmb": 20000,
+    "dianpiao": 20000
   },
   "5006": {
     "type": "box_month",
     "name": "每月礼包6",
     "arg": 1006,
-    "rmb": 9998,
-    "dianpiao": 9998
+    "rmb": 20000,
+    "dianpiao": 20000
   },
   "5007": {
     "type": "box_month",
     "name": "每月礼包7",
     "arg": 1007,
-    "rmb": 9998,
-    "dianpiao": 9998
+    "rmb": 20000,
+    "dianpiao": 20000
   },
   "5008": {
     "type": "box_month",
     "name": "每月礼包8",
     "arg": 1008,
-    "rmb": 9998,
-    "dianpiao": 9998
+    "rmb": 20000,
+    "dianpiao": 20000
   },
   "6001": {
     "type": "limit_gift",
-    "name": "开局培养礼包",
+    "name": "一飞冲天礼包",
     "arg": 1001,
-    "rmb": 12
+    "rmb": 25
   },
   "6002": {
     "type": "limit_gift",
-    "name": "英雄培养礼包",
+    "name": "十星关羽礼包",
     "arg": 1002,
-    "rmb": 18
+    "rmb": 648
   },
   "6003": {
     "type": "limit_gift",
-    "name": "十星关羽礼包",
+    "name": "百抽招募礼包",
     "arg": 1003,
-    "rmb": 648
+    "rmb": 25
   },
   "6004": {
     "type": "limit_gift",
-    "name": "材料补给礼包",
+    "name": "阵营招募礼包",
     "arg": 1004,
-    "rmb": 20
+    "rmb": 38
   },
   "6005": {
     "type": "limit_gift",
-    "name": "百抽招募礼包",
+    "name": "封地材料礼包",
     "arg": 1005,
-    "rmb": 25
+    "rmb": 38
   },
   "6006": {
     "type": "limit_gift",
-    "name": "培养材料礼包",
+    "name": "矿镐体验礼包",
     "arg": 1006,
-    "rmb": 12
+    "rmb": 68
   },
   "6007": {
     "type": "limit_gift",
-    "name": "英雄培养礼包",
+    "name": "超值兵法礼包",
     "arg": 1007,
-    "rmb": 18
+    "rmb": 648
   },
   "6008": {
     "type": "limit_gift",
-    "name": "百抽招募礼包",
+    "name": "技能宝石礼包",
     "arg": 1008,
-    "rmb": 25
+    "rmb": 648
   },
   "6009": {
     "type": "limit_gift",
-    "name": "阵营招募礼包",
+    "name": "红色宝物礼包",
     "arg": 1009,
-    "rmb": 38
+    "rmb": 648
   },
   "6010": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "英雄觉醒礼包",
     "arg": 1010,
-    "rmb": 38
+    "rmb": 648
   },
   "6011": {
     "type": "limit_gift",
-    "name": "英雄培养礼包",
+    "name": "超值圣物礼包",
     "arg": 1011,
-    "rmb": 18
+    "rmb": 648
   },
   "6012": {
     "type": "limit_gift",
-    "name": "十星自选礼包",
+    "name": "神装体验礼包",
     "arg": 1012,
     "rmb": 648
   },
   "6013": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "神装体验礼包",
     "arg": 1013,
-    "rmb": 38
+    "rmb": 648
   },
   "6014": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "神装体验礼包",
     "arg": 1014,
-    "rmb": 38
+    "rmb": 648
   },
   "6015": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "神装体验礼包",
     "arg": 1015,
-    "rmb": 38
+    "rmb": 648
   },
   "6016": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "神装体验礼包",
     "arg": 1016,
-    "rmb": 38
+    "rmb": 648
   },
   "6017": {
     "type": "limit_gift",
-    "name": "限定十星礼包",
+    "name": "神装体验礼包",
     "arg": 1017,
     "rmb": 648
   },
   "6018": {
     "type": "limit_gift",
-    "name": "封地材料礼包",
+    "name": "神装体验礼包",
     "arg": 1018,
-    "rmb": 68
+    "rmb": 648
   },
   "6019": {
     "type": "limit_gift",
-    "name": "矿镐体验礼包",
+    "name": "神装体验礼包",
     "arg": 1019,
-    "rmb": 68
+    "rmb": 648
   },
   "6020": {
     "type": "limit_gift",
-    "name": "矿镐体验礼包",
+    "name": "神装体验礼包",
     "arg": 1020,
-    "rmb": 68
+    "rmb": 648
   },
   "6021": {
     "type": "limit_gift",
-    "name": "超值兵法礼包",
+    "name": "神装体验礼包",
     "arg": 1021,
-    "rmb": 648
-  },
-  "6022": {
-    "type": "limit_gift",
-    "name": "矿镐体验礼包",
-    "arg": 1022,
-    "rmb": 68
-  },
-  "6023": {
-    "type": "limit_gift",
-    "name": "技能宝石礼包",
-    "arg": 1023,
-    "rmb": 648
-  },
-  "6024": {
-    "type": "limit_gift",
-    "name": "红色宝物礼包",
-    "arg": 1024,
-    "rmb": 648
-  },
-  "6025": {
-    "type": "limit_gift",
-    "name": "技能宝石礼包",
-    "arg": 1025,
-    "rmb": 648
-  },
-  "6026": {
-    "type": "limit_gift",
-    "name": "金色宝物礼包",
-    "arg": 1026,
-    "rmb": 1980
-  },
-  "6027": {
-    "type": "limit_gift",
-    "name": "英雄觉醒礼包",
-    "arg": 1027,
-    "rmb": 648
-  },
-  "6028": {
-    "type": "limit_gift",
-    "name": "英雄觉醒礼包",
-    "arg": 1028,
-    "rmb": 648
-  },
-  "6029": {
-    "type": "limit_gift",
-    "name": "英雄觉醒礼包",
-    "arg": 1029,
-    "rmb": 648
-  },
-  "6030": {
-    "type": "limit_gift",
-    "name": "超值圣物礼包",
-    "arg": 1031,
-    "rmb": 648
-  },
-  "6031": {
-    "type": "limit_gift",
-    "name": "超值圣物礼包",
-    "arg": 1032,
-    "rmb": 648
-  },
-  "6032": {
-    "type": "limit_gift",
-    "name": "超值圣物礼包",
-    "arg": 1033,
-    "rmb": 648
-  },
-  "6033": {
-    "type": "limit_gift",
-    "name": "超值圣物礼包",
-    "arg": 1034,
-    "rmb": 648
-  },
-  "6034": {
-    "type": "limit_gift",
-    "name": "超值圣物礼包",
-    "arg": 1035,
-    "rmb": 648
-  },
-  "6035": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1036,
-    "rmb": 648
-  },
-  "6036": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1037,
-    "rmb": 648
-  },
-  "6037": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1038,
-    "rmb": 648
-  },
-  "6038": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1039,
-    "rmb": 648
-  },
-  "6039": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1040,
-    "rmb": 648
-  },
-  "6040": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1041,
-    "rmb": 648
-  },
-  "6041": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1042,
-    "rmb": 648
-  },
-  "6042": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1043,
-    "rmb": 648
-  },
-  "6043": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1044,
-    "rmb": 648
-  },
-  "6044": {
-    "type": "limit_gift",
-    "name": "神装体验礼包",
-    "arg": 1045,
     "rmb": 648
   },
   "7001": {
