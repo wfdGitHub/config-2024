@@ -2375,7 +2375,6 @@
   },
   "1002005001": {
     "name": "主角技能",
-    "type": "attack",
     "des": "对敌方随机单体造成90%攻击力的法术伤害，有5%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2385,7 +2384,6 @@
   },
   "1002005002": {
     "name": "主角技能",
-    "type": "attack",
     "des": "对敌方随机单体造成95%攻击力的法术伤害，有10%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2395,7 +2393,6 @@
   },
   "1002005003": {
     "name": "主角技能",
-    "type": "attack",
     "des": "对敌方随机单体造成100%攻击力的法术伤害，有15%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2405,7 +2402,6 @@
   },
   "1002005004": {
     "name": "主角技能",
-    "type": "attack",
     "des": "对敌方随机单体造成105%攻击力的法术伤害，有20%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2415,7 +2411,6 @@
   },
   "1002005005": {
     "name": "主角技能",
-    "type": "attack",
     "des": "重伤效果持续2回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2425,7 +2420,6 @@
   },
   "1002005006": {
     "name": "主角技能",
-    "type": "attack",
     "des": "所有主动技能效果提升5%",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2437,7 +2431,6 @@
   },
   "1002005007": {
     "name": "主角技能",
-    "type": "attack",
     "des": "技能影响2个目标，伤害减半，重伤概率不变，BP消耗增加1点",
     "damageType": "mag",
     "targetType": "enemy_2",
@@ -3290,47 +3283,53 @@
   },
   "1004006001": {
     "name": "主角技能",
+    "type": "heal",
     "des": "提高我方全体宝可梦16%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
   },
   "1004006002": {
     "name": "主角技能",
+    "type": "heal",
     "des": "提高我方全体宝可梦20%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004006003": {
     "name": "主角技能",
+    "type": "heal",
     "des": "提高我方全体宝可梦24%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
   },
   "1004006004": {
     "name": "主角技能",
+    "type": "heal",
     "des": "提高我方全体宝可梦28%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
   "1004006005": {
     "name": "主角技能",
+    "type": "heal",
     "des": "释放技能时，为我方攻击力最高的宝可梦恢复1点怒气",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_add_maxAtk_anger",
     "value2": 1
   },
   "1004006006": {
     "name": "主角技能",
+    "type": "heal",
     "des": "所有主动技能效果提升15%",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_add_maxAtk_anger",
     "value2": 1,
     "key3": "power_up",
@@ -3338,10 +3337,11 @@
   },
   "1004006007": {
     "name": "主角技能",
+    "type": "heal",
     "des": "释放技能时，为我方全体宝可梦恢复1点怒气",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_anger_a",
     "value2": 1,
     "key3": "power_up",
@@ -3424,47 +3424,53 @@
   },
   "1004008001": {
     "name": "主角技能",
+    "type": "attack",
     "des": "降低敌方全体宝可梦20%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004008002": {
     "name": "主角技能",
+    "type": "attack",
     "des": "降低敌方全体宝可梦25%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "1004008003": {
     "name": "主角技能",
+    "type": "attack",
     "des": "降低敌方全体宝可梦30%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "1004008004": {
     "name": "主角技能",
+    "type": "attack",
     "des": "降低敌方全体宝可梦35%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
   },
   "1004008005": {
     "name": "主角技能",
+    "type": "attack",
     "des": "释放技能后，敌方本回合内BP消耗增加1点",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "enemy_bp_up",
     "value2": 1
   },
   "1004008006": {
     "name": "主角技能",
+    "type": "attack",
     "des": "所有主动技能效果提升15%",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "enemy_bp_up",
     "value2": 1,
     "key3": "power_up",
@@ -3472,10 +3478,11 @@
   },
   "1004008007": {
     "name": "主角技能",
+    "type": "attack",
     "des": "释放技能时，降低敌方全体宝可梦恢复1点怒气",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "enemy_bp_up",
     "value2": 1,
     "key3": "power_up",
@@ -3649,6 +3656,7 @@
   },
   "1005001001": {
     "name": "主角技能",
+    "type": "heal",
     "des": "使我方随机单体获得一个额外回合，并获得伤害增加10%效果，持续1回合",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3658,6 +3666,7 @@
   },
   "1005001002": {
     "name": "主角技能",
+    "type": "heal",
     "des": "伤害增加15%，BP消耗降低至11",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3669,6 +3678,7 @@
   },
   "1005001003": {
     "name": "主角技能",
+    "type": "heal",
     "des": "伤害增加20%，BP消耗降低至10",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3680,6 +3690,7 @@
   },
   "1005001004": {
     "name": "主角技能",
+    "type": "heal",
     "des": "伤害增加25%，BP消耗降低至9",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3691,6 +3702,7 @@
   },
   "1005001005": {
     "name": "主角技能",
+    "type": "heal",
     "des": "技能目标优先选择我方攻击力最高目标",
     "targetType": "team_maxAtk_1",
     "key1": "buff1",
@@ -3702,6 +3714,7 @@
   },
   "1005001006": {
     "name": "主角技能",
+    "type": "heal",
     "des": "所有主动技能效果提升30%",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3715,6 +3728,7 @@
   },
   "1005001007": {
     "name": "主角技能",
+    "type": "heal",
     "des": "技能开场即可使用，BP消耗降低至6点",
     "targetType": "team_1",
     "key1": "buff1",
@@ -3808,7 +3822,9 @@
     "key3": "power_up",
     "value3": 0.3,
     "key4": "NEED_CD",
-    "value4": 3
+    "value4": 3,
+    "key5": "CUR_CD",
+    "value5": 0
   },
   "1005003001": {
     "name": "主角技能",
@@ -4047,7 +4063,7 @@
   },
   "1005006001": {
     "name": "主角技能",
-    "des": "40%概率随机放逐一个敌方目标，持续至回合结束，此技能每次使用，BP消耗加1",
+    "des": "40%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
@@ -4056,7 +4072,7 @@
   },
   "1005006002": {
     "name": "主角技能",
-    "des": "60%概率随机放逐一个敌方目标，持续至回合结束，此技能每次使用，BP消耗加1",
+    "des": "60%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
@@ -4065,7 +4081,7 @@
   },
   "1005006003": {
     "name": "主角技能",
-    "des": "80%概率随机放逐一个敌方目标，持续至回合结束，此技能每次使用，BP消耗加1",
+    "des": "80%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.8}",
@@ -4074,7 +4090,7 @@
   },
   "1005006004": {
     "name": "主角技能",
-    "des": "100%概率随机放逐一个敌方目标，持续至回合结束，此技能每次使用，BP消耗+1",
+    "des": "100%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗+1",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -4107,7 +4123,7 @@
   },
   "1005006007": {
     "name": "主角技能",
-    "des": "使用技能后，敌方所有主动技能CD增加1回合",
+    "des": "使用技能时，敌方本回合内所有BP消耗增加1点",
     "targetType": "enemy_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
