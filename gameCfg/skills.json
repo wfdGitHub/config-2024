@@ -2375,6 +2375,7 @@
   },
   "1002005001": {
     "name": "主角技能",
+    "type": "attack",
     "des": "对敌方随机单体造成90%攻击力的法术伤害，有5%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2384,6 +2385,7 @@
   },
   "1002005002": {
     "name": "主角技能",
+    "type": "attack",
     "des": "对敌方随机单体造成95%攻击力的法术伤害，有10%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2393,6 +2395,7 @@
   },
   "1002005003": {
     "name": "主角技能",
+    "type": "attack",
     "des": "对敌方随机单体造成100%攻击力的法术伤害，有15%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2402,6 +2405,7 @@
   },
   "1002005004": {
     "name": "主角技能",
+    "type": "attack",
     "des": "对敌方随机单体造成105%攻击力的法术伤害，有20%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2411,6 +2415,7 @@
   },
   "1002005005": {
     "name": "主角技能",
+    "type": "attack",
     "des": "重伤效果持续2回合",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2420,6 +2425,7 @@
   },
   "1002005006": {
     "name": "主角技能",
+    "type": "attack",
     "des": "所有主动技能效果提升5%",
     "damageType": "mag",
     "targetType": "enemy_1",
@@ -2431,6 +2437,7 @@
   },
   "1002005007": {
     "name": "主角技能",
+    "type": "attack",
     "des": "技能影响2个目标，伤害减半，重伤概率不变，BP消耗增加1点",
     "damageType": "mag",
     "targetType": "enemy_2",
@@ -3831,7 +3838,7 @@
     "type": "attack",
     "des": "对敌方全体造成300%攻击力的特攻伤害，额外附加目标生命上限5%的伤害",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3,
     "key1": "maxHP_damage",
     "value1": 0.05
@@ -3841,7 +3848,7 @@
     "type": "attack",
     "des": "对敌方全体造成330%攻击力的特攻伤害，额外附加目标生命上限8%的伤害",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.3,
     "key1": "maxHP_damage",
     "value1": 0.08
@@ -3851,7 +3858,7 @@
     "type": "attack",
     "des": "对敌方全体造成360%攻击力的特攻伤害，额外附加目标生命上限11%的伤害",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.6,
     "key1": "maxHP_damage",
     "value1": 0.11
@@ -3861,7 +3868,7 @@
     "type": "attack",
     "des": "对敌方全体造成390%攻击力的特攻伤害，额外附加目标生命上限14%的伤害",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.9,
     "key1": "maxHP_damage",
     "value1": 0.14
@@ -3871,7 +3878,7 @@
     "type": "attack",
     "des": "释放技能时，对目标添加禁魂效果，1回合内不可复活，直到效果回合结束，无法被净化",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.9,
     "key1": "maxHP_damage",
     "value1": 0.14,
@@ -3883,7 +3890,7 @@
     "type": "attack",
     "des": "所有主动技能效果提升30%",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.9,
     "key1": "maxHP_damage",
     "value1": 0.14,
@@ -3897,7 +3904,7 @@
     "type": "attack",
     "des": "技能额外附加目标生命上限25%的伤害",
     "damageType": "mag",
-    "targetType": "team_all",
+    "targetType": "enemy_all",
     "mul": 3.9,
     "key1": "maxHP_damage",
     "value1": 0.25,
