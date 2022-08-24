@@ -1,6 +1,6 @@
 {
   "1010101": {
-    "name": "水枪",
+    "name": "水花",
     "type": "attack",
     "des": "对敌方单体造成60%攻击力的特攻伤害",
     "damageType": "mag",
@@ -8,7 +8,7 @@
     "mul": 0.6
   },
   "1010102": {
-    "name": "水花",
+    "name": "水枪",
     "type": "attack",
     "des": "对敌方单体造成160%的特攻伤害",
     "damageType": "mag",
@@ -16,7 +16,7 @@
     "mul": 1.6
   },
   "1020101": {
-    "name": "水枪",
+    "name": "水花",
     "type": "attack",
     "des": "对敌方单体造成80%攻击力的特攻伤害",
     "damageType": "mag",
@@ -24,7 +24,7 @@
     "mul": 0.8
   },
   "1020102": {
-    "name": "水花",
+    "name": "水枪",
     "type": "attack",
     "des": "对敌方单体造成220%的特攻伤害",
     "damageType": "mag",
@@ -32,7 +32,7 @@
     "mul": 2.2
   },
   "1030101": {
-    "name": "水枪",
+    "name": "玩水",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -40,7 +40,7 @@
     "mul": 1
   },
   "1030102": {
-    "name": "水花",
+    "name": "诱饵",
     "type": "attack",
     "des": "对敌方单体造成260%的特攻伤害",
     "damageType": "mag",
@@ -48,7 +48,7 @@
     "mul": 2.6
   },
   "1030201": {
-    "name": "水枪",
+    "name": "水花",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -56,7 +56,7 @@
     "mul": 1
   },
   "1030202": {
-    "name": "水花",
+    "name": "水球",
     "type": "attack",
     "des": "对敌方单体造成260%的特攻伤害",
     "damageType": "mag",
@@ -72,7 +72,7 @@
     "mul": 1
   },
   "1040102": {
-    "name": "水花",
+    "name": "浸水",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加寒冷效果",
     "damageType": "phy",
@@ -90,7 +90,7 @@
     "mul": 1
   },
   "1040202": {
-    "name": "水花",
+    "name": "攀登",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加寒冷效果",
     "damageType": "phy",
@@ -116,14 +116,14 @@
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "1050201": {
-    "name": "聚气",
+    "name": "摇尾",
     "type": "heal",
     "des": "为己方损失血量最多单位治疗100%攻击的生命",
     "targetType": "team_lossMaxHP",
     "mul": 1
   },
   "1050202": {
-    "name": "活活气泡",
+    "name": "奇妙空间",
     "type": "heal",
     "des": "为己方损失血量最多单位治疗360%攻击的生命，并添加水神护盾",
     "targetType": "team_lossMaxHP",
@@ -132,7 +132,7 @@
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "1050301": {
-    "name": "水枪",
+    "name": "咬碎",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -140,7 +140,7 @@
     "mul": 1
   },
   "1050302": {
-    "name": "冲浪",
+    "name": "水流尾",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害，对自身释放水神护盾",
     "damageType": "phy",
@@ -150,7 +150,7 @@
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "1050401": {
-    "name": "喷水",
+    "name": "潜水",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -158,7 +158,7 @@
     "mul": 1
   },
   "1050402": {
-    "name": "绝对零度",
+    "name": "水流裂破",
     "type": "attack",
     "des": "对敌方全体造成108%攻击力的特攻伤害，有30%概率附加寒冷效果",
     "damageType": "mag",
@@ -168,7 +168,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.3}"
   },
   "1050501": {
-    "name": "水枪",
+    "name": "冰冻爪",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -176,7 +176,7 @@
     "mul": 1
   },
   "1050502": {
-    "name": "冰冻爪",
+    "name": "水之波动",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害，若目标已被冰冻，则造成破冰一击（击破冰冻效果，并造成双倍伤害）",
     "damageType": "phy",
@@ -186,7 +186,7 @@
     "value1": 1
   },
   "1050601": {
-    "name": "水枪",
+    "name": "水冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -194,7 +194,7 @@
     "mul": 1
   },
   "1050602": {
-    "name": "攀瀑",
+    "name": "水流冲击",
     "type": "attack",
     "des": "对敌方单体造成265%攻击力的特攻伤害，60%概率缠绕目标,持续1回合",
     "damageType": "mag",
@@ -204,7 +204,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "1050701": {
-    "name": "潜水",
+    "name": "高速旋转",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害，为自身添加1层破浪效果",
     "damageType": "phy",
@@ -224,7 +224,7 @@
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "1050801": {
-    "name": "水枪",
+    "name": "冰风",
     "type": "attack",
     "des": "对敌方前排造成43%攻击力的特攻伤害",
     "damageType": "mag",
@@ -232,7 +232,7 @@
     "mul": 0.43
   },
   "1050802": {
-    "name": "冰砾",
+    "name": "冰雹",
     "type": "attack",
     "des": "对敌方随机三人造成160%攻击力的特攻伤害，若目标身上有寒冷效果，则立即使其冰冻",
     "damageType": "mag",
@@ -242,7 +242,7 @@
     "value1": true
   },
   "1050901": {
-    "name": "水枪",
+    "name": "泡沫光线",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -250,7 +250,7 @@
     "mul": 1
   },
   "1050902": {
-    "name": "水炮",
+    "name": "水手里剑",
     "type": "attack",
     "des": "对敌方纵排造成245%攻击力的特攻伤害，造成伤害的30%治疗血量最低的我方宝可梦",
     "damageType": "mag",
@@ -262,7 +262,7 @@
     "value2": "team_lossMaxHP"
   },
   "1051001": {
-    "name": "水流喷射",
+    "name": "泡沫",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物攻伤害",
     "damageType": "phy",
@@ -270,7 +270,7 @@
     "mul": 1
   },
   "1051002": {
-    "name": "龙舞",
+    "name": "水尾",
     "type": "attack",
     "des": "对敌方攻击力最高目标造成360%的物攻伤害，并偷取目标25%攻击力持续2回合",
     "damageType": "phy",
@@ -280,7 +280,7 @@
     "value1": 0.25
   },
   "1051003": {
-    "name": "龙舞",
+    "name": "泥浆射击",
     "type": "attack",
     "des": "对敌方攻击力最高目标造成360%的物攻伤害，并偷取目标40%攻击力持续2回合,降低目标2点怒气值",
     "damageType": "phy",
@@ -300,7 +300,7 @@
     "mul": 0.6
   },
   "2010102": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成160%的物理伤害",
     "damageType": "phy",
@@ -308,7 +308,7 @@
     "mul": 1.6
   },
   "2020101": {
-    "name": "火花",
+    "name": "火苗",
     "type": "attack",
     "des": "对敌方单体造成80%攻击力的特攻伤害",
     "damageType": "mag",
@@ -316,7 +316,7 @@
     "mul": 0.8
   },
   "2020102": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成220%的特攻伤害",
     "damageType": "mag",
@@ -324,7 +324,7 @@
     "mul": 2.2
   },
   "2030101": {
-    "name": "火花",
+    "name": "火苗",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -332,7 +332,7 @@
     "mul": 1
   },
   "2030102": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -348,7 +348,7 @@
     "mul": 1
   },
   "2030202": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -356,7 +356,7 @@
     "mul": 2.6
   },
   "2040101": {
-    "name": "火花",
+    "name": "火苗",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -364,7 +364,7 @@
     "mul": 1
   },
   "2040102": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的特攻伤害,有100%概率附加流血效果",
     "damageType": "mag",
@@ -374,7 +374,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2040201": {
-    "name": "火花",
+    "name": "火苗",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -382,7 +382,7 @@
     "mul": 1
   },
   "2040202": {
-    "name": "火苗",
+    "name": "喷射火焰",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的特攻伤害,有100%概率附加流血效果",
     "damageType": "mag",
@@ -392,7 +392,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2050101": {
-    "name": "火球",
+    "name": "焰袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -400,7 +400,7 @@
     "mul": 1
   },
   "2050102": {
-    "name": "烈焰溅射",
+    "name": "高温重压",
     "type": "attack",
     "des": "对敌方单体造成295%的物理伤害。释放技能后给自身添加无敌吸血盾，持续1回合",
     "damageType": "phy",
@@ -418,7 +418,7 @@
     "mul": 1
   },
   "2050202": {
-    "name": "燃尽",
+    "name": "烈焰溅射",
     "type": "attack",
     "des": "对敌方后排单体造成325%攻击力的特攻伤害，并对其添加炙热光环，持续2回合",
     "damageType": "mag",
@@ -428,7 +428,7 @@
     "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "2050301": {
-    "name": "火花",
+    "name": "燃尽",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -436,7 +436,7 @@
     "mul": 1
   },
   "2050302": {
-    "name": "火焰风暴",
+    "name": "神圣之火",
     "type": "attack",
     "des": "对敌方全体造成92%攻击力的特攻伤害，如果目标处于灼烧状态，有30%概率使其眩晕，持续1回合",
     "damageType": "mag",
@@ -446,7 +446,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "2050401": {
-    "name": "火花",
+    "name": "烧尽",
     "type": "attack",
     "des": "对敌方前排造成43%攻击力的特攻伤害",
     "damageType": "mag",
@@ -454,7 +454,7 @@
     "mul": 0.43
   },
   "2050402": {
-    "name": "火焰旋涡",
+    "name": "神鸟猛击",
     "type": "attack",
     "des": "对敌方全体造成126%攻击力的特攻伤害，有35%概率使其灼烧，持续2回合",
     "damageType": "mag",
@@ -464,7 +464,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "2050501": {
-    "name": "大地之力",
+    "name": "火焰车",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -472,7 +472,7 @@
     "mul": 1
   },
   "2050502": {
-    "name": "过热",
+    "name": "神速",
     "type": "attack",
     "des": "对敌方全体造成120%攻击力的物理伤害，并添加1层流血效果",
     "damageType": "phy",
@@ -528,7 +528,7 @@
     "value1": 1
   },
   "2050801": {
-    "name": "火球",
+    "name": "火花",
     "type": "attack",
     "des": "对敌方单体造成90%攻击力的特攻伤害",
     "damageType": "mag",
@@ -536,7 +536,7 @@
     "mul": 0.9
   },
   "2050802": {
-    "name": "喷火",
+    "name": "蓄能焰袭",
     "type": "attack",
     "des": "对敌方单体造成270%攻击力的特攻伤害，为我方血量最少的宝可梦添加烈焰护体，持续2回合",
     "damageType": "mag",
@@ -602,7 +602,7 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "3010101": {
-    "name": "猛毒",
+    "name": "冲撞",
     "type": "attack",
     "des": "对敌方单体造成60%攻击力的物理伤害",
     "damageType": "phy",
@@ -610,7 +610,7 @@
     "mul": 0.6
   },
   "3010102": {
-    "name": "飞叶快刀",
+    "name": "玩水",
     "type": "attack",
     "des": "对敌方单体造成160%的物理伤害",
     "damageType": "phy",
@@ -618,7 +618,7 @@
     "mul": 1.6
   },
   "3020101": {
-    "name": "猛毒",
+    "name": "冲撞",
     "type": "attack",
     "des": "对敌方单体造成80%攻击力的特攻伤害",
     "damageType": "mag",
@@ -626,7 +626,7 @@
     "mul": 0.8
   },
   "3020102": {
-    "name": "飞叶快刀",
+    "name": "玩水",
     "type": "attack",
     "des": "对敌方单体造成220%的特攻伤害",
     "damageType": "mag",
@@ -634,7 +634,7 @@
     "mul": 2.2
   },
   "3030101": {
-    "name": "猛毒",
+    "name": "冲撞",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -650,7 +650,7 @@
     "mul": 2.6
   },
   "3030201": {
-    "name": "猛毒",
+    "name": "冰冻拳",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -658,7 +658,7 @@
     "mul": 1
   },
   "3030202": {
-    "name": "飞叶快刀",
+    "name": "打草结",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -666,7 +666,7 @@
     "mul": 2.6
   },
   "3040101": {
-    "name": "猛毒",
+    "name": "打草结",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -674,7 +674,7 @@
     "mul": 1
   },
   "3040102": {
-    "name": "飞叶快刀",
+    "name": "木槌",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
     "damageType": "phy",
@@ -684,7 +684,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3040201": {
-    "name": "水枪",
+    "name": "打草结",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -692,7 +692,7 @@
     "mul": 1
   },
   "3040202": {
-    "name": "飞叶快刀",
+    "name": "奇异之光",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
     "damageType": "phy",
@@ -702,7 +702,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050101": {
-    "name": "种子机关枪",
+    "name": "叶刃",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -710,7 +710,7 @@
     "mul": 1
   },
   "3050102": {
-    "name": "尖刺臂",
+    "name": "潜灵奇袭",
     "type": "attack",
     "des": "对敌方随机三人造成175%攻击力的特攻伤害，并附加1层破甲效果",
     "damageType": "mag",
@@ -720,7 +720,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050103": {
-    "name": "尖刺臂",
+    "name": "潜灵奇袭",
     "type": "attack",
     "des": "对敌方随机三人造成60%攻击力的特攻伤害，降低目标1点怒气",
     "damageType": "mag",
@@ -738,7 +738,7 @@
     "mul": 1
   },
   "3050202": {
-    "name": "魔法叶",
+    "name": "植物紧束",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的特攻伤害，给我方生命值最少的友方宝可梦添加精灵祝福，持续1回合",
     "damageType": "mag",
@@ -756,7 +756,7 @@
     "mul": 1
   },
   "3050302": {
-    "name": "藤鞭",
+    "name": "酸液炸弹",
     "type": "attack",
     "des": "对敌方后排单体造成360%攻击力的物理伤害，攻击可立即结算目标身上流血效果",
     "damageType": "phy",
@@ -766,7 +766,7 @@
     "value1": true
   },
   "3050401": {
-    "name": "种子机关枪",
+    "name": "木槌",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -774,7 +774,7 @@
     "mul": 1
   },
   "3050402": {
-    "name": "阳光烈焰",
+    "name": "飞叶风暴",
     "type": "attack",
     "des": "对敌方单体造成260%攻击力的物理伤害，添加1层破甲效果",
     "damageType": "phy",
@@ -784,7 +784,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050501": {
-    "name": "种子机关枪",
+    "name": "叶刃",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -792,7 +792,7 @@
     "mul": 1
   },
   "3050502": {
-    "name": "叶刃",
+    "name": "飞叶风暴",
     "type": "attack",
     "des": "对敌方生命值最少的单位造成260%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "damageType": "phy",
@@ -802,7 +802,7 @@
     "value1": true
   },
   "3050503": {
-    "name": "叶刃",
+    "name": "飞叶风暴",
     "type": "attack",
     "des": "对敌方生命值最少的单位造成400%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "damageType": "phy",
@@ -893,7 +893,7 @@
     "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "3051001": {
-    "name": "种子机关枪",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -901,7 +901,7 @@
     "mul": 1
   },
   "3051002": {
-    "name": "叶绿爆震",
+    "name": "藤鞭叩打",
     "type": "attack",
     "des": "对敌方血量最少的目标造成300%攻击力的物理伤害，消耗所有反制印记，每消耗1层反制印记，对其添加1层破甲",
     "damageType": "phy",
@@ -939,7 +939,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "4050201": {
-    "name": "金属爪",
+    "name": "龙爪",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -957,7 +957,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "4050301": {
-    "name": "波导弹",
+    "name": "电击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物攻伤害",
     "damageType": "phy",
@@ -965,7 +965,7 @@
     "mul": 1
   },
   "4050302": {
-    "name": "波导冲弹",
+    "name": "疯狂伏特",
     "type": "attack",
     "des": "对敌方前排造成165%攻击力的物攻伤害，解除我方全体1个减益效果",
     "damageType": "phy",
@@ -983,7 +983,7 @@
     "mul": 1
   },
   "4050402": {
-    "name": "打雷",
+    "name": "雷尾",
     "type": "attack",
     "des": "对敌方单体造成320%攻击力的特攻伤害，并驱散目标所有增益效果",
     "damageType": "mag",
@@ -993,7 +993,7 @@
     "value1": true
   },
   "4050501": {
-    "name": "冲撞",
+    "name": "打雷",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1001,7 +1001,7 @@
     "mul": 1
   },
   "4050502": {
-    "name": "飓风",
+    "name": "雷电球",
     "type": "attack",
     "des": "对敌方随机三人造成160%攻击力的特攻伤害，额外造成目标最大生命值5%的伤害",
     "damageType": "mag",
@@ -1011,7 +1011,7 @@
     "value1": 0.05
   },
   "4050503": {
-    "name": "飓风",
+    "name": "雷电球",
     "type": "attack",
     "des": "对敌方随机三人造成220%攻击力的特攻伤害，额外造成目标最大生命值17%的伤害",
     "damageType": "mag",
@@ -1049,7 +1049,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "4050701": {
-    "name": "气象球",
+    "name": "电光",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1057,7 +1057,7 @@
     "mul": 1
   },
   "4050702": {
-    "name": "气旋攻击",
+    "name": "雷电拳",
     "type": "attack",
     "des": "对敌方单体造成300%的特攻伤害。随后为自身添加坚毅效果",
     "damageType": "mag",
@@ -1083,7 +1083,7 @@
     "value1": 1
   },
   "4050901": {
-    "name": "宇宙力量",
+    "name": "原始之力",
     "type": "attack",
     "des": "对敌方随机三人造成47%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1091,7 +1091,7 @@
     "mul": 0.47
   },
   "4050902": {
-    "name": "制裁光砾",
+    "name": "宇宙力量",
     "type": "attack",
     "des": "对敌方全体造成115%的特攻伤害，添加1层感电效果",
     "damageType": "mag",
@@ -1101,7 +1101,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "4050903": {
-    "name": "制裁光砾",
+    "name": "宇宙力量",
     "type": "attack",
     "des": "对敌方全体造成300%的特攻伤害，添加1层感电效果",
     "damageType": "mag",
@@ -1119,7 +1119,7 @@
     "mul": 1
   },
   "4051002": {
-    "name": "画龙点睛",
+    "name": "气旋俯冲",
     "type": "attack",
     "des": "对敌方全体造成108%攻击力的物理伤害，有30%概率嘲讽目标",
     "damageType": "phy",
@@ -1129,7 +1129,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "5050101": {
-    "name": "影子球",
+    "name": "影爪",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1147,7 +1147,7 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050201": {
-    "name": "大地之力",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1155,7 +1155,7 @@
     "mul": 1
   },
   "5050202": {
-    "name": "原始之力",
+    "name": "恶意龙咬",
     "type": "attack",
     "des": "对敌方血量最低的目标造成360%的物理伤害,击杀目标后，进入潜行状态，持续2回合",
     "damageType": "phy",
@@ -1165,7 +1165,7 @@
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "5050301": {
-    "name": "暗影球",
+    "name": "暗影拳",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物攻伤害",
     "damageType": "phy",
@@ -1193,7 +1193,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
   },
   "5050401": {
-    "name": "咬碎",
+    "name": "踢击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1201,7 +1201,7 @@
     "mul": 1
   },
   "5050402": {
-    "name": "落石",
+    "name": "十万咬碎",
     "type": "attack",
     "des": "对敌方前排造成160%攻击力的物理伤害，有40%概率嘲讽目标",
     "damageType": "phy",
@@ -1211,7 +1211,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
   "5050501": {
-    "name": "翅膀攻击",
+    "name": "奇袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1219,7 +1219,7 @@
     "mul": 1
   },
   "5050502": {
-    "name": "岩崩",
+    "name": "暗影光线",
     "type": "attack",
     "des": "对敌方随机2-4个目标造成攻击力130%的特攻伤害，同时分别有60%的概率为敌方添加诅咒、破甲、虚弱",
     "damageType": "mag",
@@ -1233,7 +1233,7 @@
     "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.6}"
   },
   "5050503": {
-    "name": "岩崩",
+    "name": "暗影光线",
     "type": "attack",
     "des": "对敌方随机3-5个目标造成攻击力130%的特攻伤害，同时分别有100%的概率为敌方添加诅咒、破甲、虚弱",
     "damageType": "mag",
@@ -1247,7 +1247,7 @@
     "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050601": {
-    "name": "咬碎",
+    "name": "影爪",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1255,7 +1255,7 @@
     "mul": 1
   },
   "5050602": {
-    "name": "龙之怒",
+    "name": "影子偷袭",
     "type": "attack",
     "des": "对敌方纵排造成240%攻击力的物理伤害，随后为自身添加暴击提升与爆伤提升效果",
     "damageType": "phy",
@@ -1329,7 +1329,7 @@
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "5051001": {
-    "name": "龙爪",
+    "name": "龙息",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1337,7 +1337,7 @@
     "mul": 1
   },
   "5051002": {
-    "name": "逆鳞",
+    "name": "龙之俯冲",
     "type": "attack",
     "des": "对敌方单体造成275%的物理伤害。并添加禁魂效果，持续3回合",
     "damageType": "phy",
@@ -1383,7 +1383,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
   "6040301": {
-    "name": "碎石",
+    "name": "雪球",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1391,7 +1391,7 @@
     "mul": 1
   },
   "6040302": {
-    "name": "冰风",
+    "name": "冰刺",
     "type": "attack",
     "des": "对敌方前排造成120%攻击力的特攻伤害,有15%概率添加冰冻",
     "damageType": "mag",
@@ -1401,7 +1401,7 @@
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
   "6050101": {
-    "name": "滚动",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1409,7 +1409,7 @@
     "mul": 1
   },
   "6050102": {
-    "name": "落石",
+    "name": "岩石旋转",
     "type": "attack",
     "des": "对敌方单体造成320%攻击力的物理伤害,有35%概率添加眩晕",
     "damageType": "phy",
@@ -1455,7 +1455,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "6050401": {
-    "name": "钢尾",
+    "name": "冲撞",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
@@ -1465,7 +1465,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050402": {
-    "name": "加农钢炮",
+    "name": "尖石攻击",
     "type": "attack",
     "des": "对敌方全体造成225%攻击力的物理伤害,有50%概率添加眩晕",
     "damageType": "phy",
@@ -1485,7 +1485,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050502": {
-    "name": "螺旋钢球",
+    "name": "尖石攻击",
     "type": "attack",
     "des": "对敌方纵排造成550%攻击力的特攻伤害,有50%概率添加眩晕",
     "damageType": "mag",
@@ -1495,7 +1495,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "6050601": {
-    "name": "角撞",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的特攻伤害,有100%概率添加冰冻",
     "damageType": "mag",
@@ -1505,7 +1505,7 @@
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050602": {
-    "name": "原始之力",
+    "name": "冰风",
     "type": "attack",
     "des": "对敌方后排造成360%攻击力的特攻伤害,有50%概率添加冰冻",
     "damageType": "mag",
@@ -1515,7 +1515,7 @@
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "7040101": {
-    "name": "毒针",
+    "name": "滚动",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1523,7 +1523,7 @@
     "mul": 1.2
   },
   "7040102": {
-    "name": "毒刺",
+    "name": "毒雾",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的特攻伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1533,7 +1533,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "7040201": {
-    "name": "吐丝",
+    "name": "角撞",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的物理伤害",
     "damageType": "phy",
@@ -1541,7 +1541,7 @@
     "mul": 1.2
   },
   "7040202": {
-    "name": "虫咬",
+    "name": "疯狂攻击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率添加寒冷",
     "damageType": "phy",
@@ -1559,7 +1559,7 @@
     "mul": 1.2
   },
   "7050102": {
-    "name": "毒弹",
+    "name": "毒雾",
     "type": "attack",
     "des": "对敌方随机三人造成180%攻击力的特攻伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1587,7 +1587,7 @@
     "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "7050301": {
-    "name": "劈开",
+    "name": "蛮力",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的物理伤害",
     "damageType": "phy",
@@ -1595,7 +1595,7 @@
     "mul": 1.2
   },
   "7050302": {
-    "name": "十字剪",
+    "name": "爆裂拳",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率为自己添加神力",
     "damageType": "phy",
@@ -1605,7 +1605,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "7050401": {
-    "name": "起风",
+    "name": "吹风",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率添加缠绕",
     "damageType": "phy",
@@ -1615,7 +1615,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "7050402": {
-    "name": "虫鸣",
+    "name": "旋风",
     "type": "attack",
     "des": "对敌方全体造成325%攻击力的物理伤害,有50%概率添加缠绕",
     "damageType": "phy",
@@ -1625,7 +1625,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "7050501": {
-    "name": "毒菱",
+    "name": "龙尾",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的特攻伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1635,7 +1635,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "7050502": {
-    "name": "致命针刺",
+    "name": "龙之怒",
     "type": "attack",
     "des": "对敌方单体造成800%攻击力的特攻伤害,若击杀目标，重复释放技能",
     "damageType": "mag",
@@ -1673,7 +1673,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "7050702": {
-    "name": "银色旋风",
+    "name": "毒粉",
     "type": "attack",
     "des": "对敌方全体造成325%攻击力的特攻伤害,有100%概率添加中毒，35%概率添加缠绕",
     "damageType": "mag",
@@ -1703,7 +1703,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8040201": {
-    "name": "电光一闪",
+    "name": "连击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物攻伤害",
     "damageType": "phy",
@@ -1773,7 +1773,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040601": {
-    "name": "翅膀攻击",
+    "name": "影袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的特攻伤害",
     "damageType": "mag",
@@ -1781,7 +1781,7 @@
     "mul": 1
   },
   "8040602": {
-    "name": "毒牙",
+    "name": "疯狂攻击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的特攻伤害,有50%概率添加中毒",
     "damageType": "mag",
@@ -1809,7 +1809,7 @@
     "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "8050201": {
-    "name": "毒针",
+    "name": "毒角",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
     "damageType": "mag",
@@ -1819,7 +1819,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050202": {
-    "name": "毒角",
+    "name": "毒烟",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -1841,7 +1841,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050302": {
-    "name": "毒角",
+    "name": "毒咬",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的特攻伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -1875,7 +1875,7 @@
     "value2": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8050501": {
-    "name": "毒牙",
+    "name": "毒弹",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
     "damageType": "mag",
@@ -1885,7 +1885,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050502": {
-    "name": "毒液",
+    "name": "毒气瓦斯",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒、虚弱",
     "damageType": "mag",
@@ -1957,7 +1957,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050901": {
-    "name": "毒针",
+    "name": "混乱",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的特攻伤害,并添加中毒",
     "damageType": "mag",
@@ -1967,7 +1967,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050902": {
-    "name": "毒牙",
+    "name": "奇异之光",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -1989,7 +1989,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051002": {
-    "name": "毒角",
+    "name": "毒液冲击",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的特攻伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -2073,7 +2073,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051402": {
-    "name": "超级角击",
+    "name": "超级冲击",
     "type": "attack",
     "des": "对地方纵排造成500%攻击力的特攻伤害，并添加中毒，100%概率眩晕",
     "damageType": "mag",
@@ -2095,7 +2095,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051502": {
-    "name": "超级剧毒",
+    "name": "超级冲击",
     "type": "attack",
     "des": "对敌方单体造成600%攻击力的特攻伤害",
     "damageType": "mag",
