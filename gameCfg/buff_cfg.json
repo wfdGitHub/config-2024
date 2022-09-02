@@ -382,7 +382,7 @@
   },
   "flame": {
     "name": "圣火",
-    "des": "每层圣火增加自身3%免伤和暴击。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值。圣火最高可叠加10层",
+    "des": "每层圣火增加自身3%免伤和暴击。回合开始前，恢复我方全体20%攻击力*圣火层数的生命值。圣火最高可叠加10层",
     "refreshType": "after",
     "duration": 2,
     "max": 10,
@@ -404,7 +404,8 @@
     "refreshType": "after",
     "duration": 2,
     "max": 1,
-    "lower": true
+    "lower": true,
+    "effects": true
   },
   "protect": {
     "name": "守护",
@@ -412,23 +413,15 @@
     "refreshType": "roundOver",
     "duration": 1,
     "max": 1,
-    "default": true
+    "default": true,
+    "effects": true
   },
-  "suck_atk_up": {
+  "suck_atk": {
     "name": "吸取攻击",
     "des": "吸取目标一定攻击力，持续至战斗结束，不可驱散",
     "refreshType": "always",
     "duration": -1,
-    "max": 1,
-    "default": true
-  },
-  "suck_atk_low": {
-    "name": "被吸取攻击",
-    "des": "被吸取攻击力，持续至战斗结束，不可驱散",
-    "refreshType": "always",
-    "duration": -1,
-    "max": 1,
-    "default": true
+    "max": 1
   },
   "kb_polang": {
     "name": "狂暴",
@@ -437,7 +430,8 @@
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "bingshen": {
     "name": "冰神降临",
@@ -446,16 +440,18 @@
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "huosheng": {
     "name": "火神降临",
-    "des": "生命值低于30%时触发火神降临，驱散所有负面和控制效果。受到攻击时有100%概率灼烧敌人，每回合行动后恢复自身30%最大生命值，持续3回合，每场战斗只能触发1次",
+    "des": "生命值低于30%时触发火神降临，驱散所有负面和控制效果。提升自身30%伤害，每回合恢复30%最大生命值，持续3回合，每场战斗只能触发1次",
     "refreshType": "after",
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "juexing": {
     "name": "觉醒",
@@ -464,7 +460,23 @@
     "duration": -1,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
+  },
+  "birth_fire": {
+    "name": "浴火重生",
+    "des": "下回合有20%概率满血复活，每过1回合复活概率增加10%，第5回合必定复活",
+    "refreshType": "always",
+    "duration": -1,
+    "max": 1,
+    "effects": true
+  },
+  "delay_death": {
+    "name": "延迟死亡",
+    "des": "若回合结束时，生命值为正数，则继续存活",
+    "refreshType": "always",
+    "duration": -1,
+    "max": 1
   },
   "kb_boss1": {
     "name": "狂暴",
@@ -473,7 +485,8 @@
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "kb_boss2": {
     "name": "狂暴",
@@ -482,7 +495,8 @@
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "kb_boss3": {
     "name": "狂暴",
@@ -491,15 +505,17 @@
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   },
   "kb_boss4": {
     "name": "狂暴",
-    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，治疗量增加100%，免疫控制效果，持续3回合,每场战斗只能生效1次",
+    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，治疗必定暴击，免疫控制效果，持续3回合,每场战斗只能生效1次",
     "refreshType": "after",
     "duration": 3,
     "max": 1,
     "fury": true,
-    "default": true
+    "default": true,
+    "effects": true
   }
 }
