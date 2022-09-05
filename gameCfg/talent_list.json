@@ -1652,6 +1652,13 @@
     "key1": "skill_combo",
     "value1": 1
   },
+  "10504020": {
+    "des": "敌方每次获得寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机冰冻一个敌方目标【冰霜：每层增加自身5%免伤，持续2回合，最大可叠加10层】",
+    "key1": "listen_enemyBuff",
+    "value1": "cold",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
   "10504025": {
     "des": "释放技能有34%概率不消耗怒气",
     "key1": "skill_free",
@@ -1782,6 +1789,11 @@
     "key1": "dodgeFirst",
     "value1": true
   },
+  "10507020": {
+    "des": "破浪效果叠加至20层时，进入狂暴状态，驱散自身所有异常状态，免疫控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
+    "key1": "polang_buff",
+    "value1": "kb_polang"
+  },
   "10507025": {
     "des": "追加的普通攻击额外造成12%目标生命值上限的伤害",
     "key1": "add_default_maxHp",
@@ -1823,6 +1835,13 @@
     "key2": "normal_buff1",
     "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.6}"
   },
+  "10508020": {
+    "des": "生命值低于30%时触发冰神降临，驱散自身所有异常状态，免疫控制效果，提升自身30%免伤，受到直接攻击有30%概率冰冻敌人，持续3回合，每场战斗只能触发1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "bingshen"
+  },
   "10508025": {
     "des": "行动后恢复自身1点怒气",
     "key1": "action_anger",
@@ -1861,6 +1880,11 @@
     "des": "技能强化:释放技能后恢复我方全体宝可梦1点怒气",
     "key1": "skill_anger_a",
     "value1": 1
+  },
+  "10509020": {
+    "des": "战斗开始时，选择我方攻击力最高的英雄作为共生英雄，提升其相当于自身25%的生命值与防御力，自身每回合行动结束后，恢复其自身10%生命值上限的生命",
+    "key1": "first_buff3",
+    "value1": "{\"buffId\":\"symbiosis_rec\",\"buff_tg\":\"friend_maxAtk_1\"}"
   },
   "10509025": {
     "des": "释放技能后恢复自身1点怒气",
@@ -2068,6 +2092,13 @@
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
+  "20503020": {
+    "des": "生命值低于30%时触发火神降临，驱散所有负面和控制效果。提升自身30%伤害，每回合恢复30%最大生命值，持续3回合，每场战斗只能触发1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "huosheng"
+  },
   "20503025": {
     "des": "每回合行动前解除自身一个减益效果",
     "key1": "remove_one_lower",
@@ -2106,6 +2137,13 @@
     "des": "入场时，随机使三个敌方宝可梦灼烧，持续2回合",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "20504020": {
+    "des": "敌方每次获得灼烧效果，自身获得1层圣火，每层圣火增加自身3%免伤和暴击，持续2回合。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值。圣火最高可叠加10层",
+    "key1": "listen_enemyBuff",
+    "value1": "burn",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "20504025": {
     "des": "对灼烧状态的目标造成伤害增加30%",
@@ -2233,6 +2271,13 @@
     "key1": "slcj_xy",
     "value1": true
   },
+  "20507020": {
+    "des": "自身生命值低于50%时进入觉醒状态，解除自身所有负面和控制状态，自身物害增加20%，抗控增加10%，持续至战斗结束",
+    "key1": "less_hp_rate",
+    "value1": 0.5,
+    "key2": "less_hp_buff",
+    "value2": "juexing"
+  },
   "20507025": {
     "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低40%",
     "key1": "burn_hit_reduction",
@@ -2269,6 +2314,11 @@
     "des": "入场时，使我方前排宝可梦获得烈焰护体，持续2回合",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_horizontal_front\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "20508020": {
+    "des": "阵亡后进入浴火重生状态，下回合有20%概率满血复活，每过1回合复活概率增加10%，第5回合必定复活",
+    "key1": "died_buff1",
+    "value1": "{\"buffId\":\"birth_fire\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":-1,\"buffRate\":1}"
   },
   "20508025": {
     "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低40%",
@@ -2433,6 +2483,13 @@
     "key1": "normal_change",
     "value1": 3050103
   },
+  "30501020": {
+    "des": "每当我方单位获得【疾速】时，自身获得1层【风灵】，每层提升自身2%速度与3%攻击力，最高叠加10层，持续2回合。",
+    "key1": "listen_teamBuff",
+    "value1": "speed",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"wind\",\"buffRate\":1}"
+  },
   "30501025": {
     "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
     "key1": "skill_buff2",
@@ -2591,6 +2648,13 @@
     "key1": "skill_change",
     "value1": 3050503
   },
+  "30505020": {
+    "des": "攻击时对敌方单位附加一个2回合的【狩猎印记】，敌方单位在行动时，若自身速度比该单位快，则100%概率对其发动1次普通攻击",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"skill_targets\",buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"hunting\",\"buff_tg\":\"skill_targets\",buffRate\":1}"
+  },
   "30505025": {
     "des": "普通攻击降低目标1点怒气",
     "key1": "normal_less_anger",
@@ -2632,6 +2696,11 @@
     "des": "自身回合结束时，随机缠绕1个敌方宝可梦，持续1回合",
     "key1": "action_buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "30506020": {
+    "des": "受到致命伤害时100%概率触发保命，保留20%生命值，该技能触发后冷却4回合",
+    "key1": "passive1",
+    "value1": "bm_hx"
   },
   "30506025": {
     "des": "普通攻击有60%概率添加缠绕，持续1回合",
@@ -2710,6 +2779,11 @@
     "des": "入场时，对敌方随机三个目标添加中毒",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "30508020": {
+    "des": "释放技能时触发中毒概率提升100%，该效果触发后冷却4回合",
+    "key1": "passive1",
+    "value1": "skill_buff_up"
   },
   "30508025": {
     "des": "受到普通攻击时，30%概率对攻击者添加1层中毒",
@@ -2838,6 +2912,11 @@
     "des": "技能强化:对敌方全体造成120%攻击力的特攻伤害，并添加3层感电",
     "key1": "skill_change",
     "value1": 4050103
+  },
+  "40501020": {
+    "des": "受到致命伤害时保留1点生命值，获得1回合无敌效果，免疫所有伤害，技能触发后冷却4回合",
+    "key1": "passive1",
+    "value1": "bm_wd"
   },
   "40501025": {
     "des": "每回合行动后为自身添加1层坚毅效果",
@@ -3073,6 +3152,11 @@
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
+  "40507020": {
+    "des": "每回合开始前，守护我方血量最少的英雄，增加其20%免伤，并分担50%伤害。",
+    "key1": "round_buff1",
+    "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
   "40507025": {
     "des": "每回合行动后为自身添加1层坚毅效果",
     "key1": "action_buff1",
@@ -3159,6 +3243,11 @@
     "key1": "skill_change",
     "value1": 4050903
   },
+  "40509020": {
+    "des": "若场上存在已阵亡队友，则自身行动回合结束时以自身攻击力180%的血量复活己方一个已阵亡目标，技能触发后冷却4回合",
+    "key1": "passive1",
+    "value1": "fh_dy"
+  },
   "40509025": {
     "des": "造成伤害的30%转化为护盾，持续1回合",
     "key1": "damage_change_shield",
@@ -3195,6 +3284,11 @@
     "des": "入场时，嘲讽敌方攻击最高的精灵，持续3回合",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40510020": {
+    "des": "有队友受到致命伤害死亡时，若自身生命值大于30%，则输送自身15%生命值使其立即复活，此技能触发后冷却4回合",
+    "key1": "passive1",
+    "value1": "fh_ss"
   },
   "40510025": {
     "des": "每回合行动结束后，为自身添加护盾",
@@ -3237,6 +3331,13 @@
     "key1": "ghost_unlimit",
     "value1": true
   },
+  "50501020": {
+    "des": "每次进行攻击时，吸取目标5%攻击力，持续至战斗结束，不可驱散。",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.05,\"duration\":-1,\"buffRate\":1}",
+    "key2": "skill_buff2",
+    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.05,\"duration\":-1,\"buffRate\":1}"
+  },
   "50501025": {
     "des": "每回合行动后获得1层嗜血效果",
     "key1": "action_buff1",
@@ -3277,6 +3378,9 @@
     "des": "入场时，对敌方全体添加虚弱效果",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50502020": {
+    "des": "攻击时将敌方身上所有增益效果转化为诅咒，每有1个增益效果，转化为1层诅咒，此效果触发后冷却3回合"
   },
   "50502025": {
     "des": "进入战斗时，进入潜行状态，持续2回合",
@@ -3399,6 +3503,9 @@
     "key1": "skill_change",
     "value1": 5050503
   },
+  "50505020": {
+    "des": "自身行动后，为己方全体单位各移除1个非控制类的负面状态，并转化为诅咒转移至敌方随机单体,此效果每3回合可触发一次"
+  },
   "50505025": {
     "des": "行动后恢复自身1点怒气",
     "key1": "action_anger",
@@ -3483,6 +3590,13 @@
     "des": "技能强化:对敌方随机三个目标造成155%攻击力的特攻伤害，并添加灵魂窃取效果，持续1回合",
     "key1": "skill_change",
     "value1": 5050703
+  },
+  "50507020": {
+    "des": "回合内受到致命伤害时不会死亡，整体回合结束前，若血量大于零，则继续存活。此效果触发后冷却3回合",
+    "key1": "passive1",
+    "value1": "died_buff",
+    "key2": "passiveArg1",
+    "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50507025": {
     "des": "所有攻击附加虚弱效果",
@@ -3730,6 +3844,34 @@
     "des": "全体上阵宝可梦伤害+8%",
     "key1": "team_amplify_add",
     "value1": 0.08
+  },
+  "NPC_KB1": {
+    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，暴击增加50%,爆伤增加50%，持续3回合,每场战斗只能生效1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "kb_boss1"
+  },
+  "NPC_KB2": {
+    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，抗暴增加50%,每回合恢复30%最大生命值，持续3回合,每场战斗只能生效1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "kb_boss2"
+  },
+  "NPC_KB3": {
+    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，免伤增加30%，免疫控制状态，持续3回合,每场战斗只能生效1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "kb_boss3"
+  },
+  "NPC_KB4": {
+    "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，治疗必定暴击，免疫控制效果，持续3回合,每场战斗只能生效1次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "kb_boss4"
   },
   "title_7010": {
     "name": "名动三国",
