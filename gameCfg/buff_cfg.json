@@ -474,9 +474,11 @@
   "delay_death": {
     "name": "延迟死亡",
     "des": "若回合结束时，生命值为正数，则继续存活",
-    "refreshType": "always",
-    "duration": -1,
-    "max": 1
+    "refreshType": "roundOver",
+    "duration": 1,
+    "max": 1,
+    "default": true,
+    "effects": true
   },
   "kb_boss1": {
     "name": "狂暴",
