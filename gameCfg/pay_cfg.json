@@ -2,81 +2,95 @@
   "1001": {
     "type": "lv_fund",
     "name": "等级基金",
-    "rmb": 88
+    "rmb": 88,
+    "cent": 8800
   },
   "1002": {
     "type": "highCard",
     "name": "至尊特权",
-    "rmb": 328
+    "rmb": 328,
+    "cent": 32800
   },
   "1003": {
     "type": "warHorn",
     "name": "高级战令",
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "1004": {
     "type": "quick_pri",
     "name": "快速作战特权",
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "1005": {
     "type": "tour_pri",
     "name": "英雄任务特权",
-    "rmb": 8
+    "rmb": 8,
+    "cent": 800
   },
   "1006": {
     "type": "stone_pri",
     "name": "玉石矿场特权",
-    "rmb": 8
+    "rmb": 8,
+    "cent": 800
   },
   "1011": {
     "type": "wuxian",
     "name": "无限经验",
     "arg": "wuxian_1",
-    "rmb": 1
+    "rmb": 1,
+    "cent": 100
   },
   "1012": {
     "type": "wuxian",
     "name": "无限铜币",
     "arg": "wuxian_2",
-    "rmb": 1
+    "rmb": 1,
+    "cent": 100
   },
   "1013": {
     "type": "wuxian",
     "name": "无限进阶",
     "arg": "wuxian_3",
-    "rmb": 1
+    "rmb": 1,
+    "cent": 100
   },
   "1201": {
     "type": "gmLv",
     "name": "gm1",
     "arg": 1,
     "rmb": 0,
+    "cent": 0,
     "dianpiao": 0
   },
   "1202": {
     "type": "gmLv",
     "name": "gm2",
     "arg": 2,
-    "rmb": 12
+    "rmb": 12,
+    "cent": 1200
   },
   "1203": {
     "type": "gmLv",
     "name": "gm3",
     "arg": 3,
-    "rmb": 88
+    "rmb": 88,
+    "cent": 8800
   },
   "1204": {
     "type": "gmLv",
     "name": "gm4",
     "arg": 4,
-    "rmb": 188
+    "rmb": 188,
+    "cent": 18800
   },
   "2001": {
     "type": "recharge",
     "name": "直充10元",
     "arg": 1,
     "rmb": 10,
+    "cent": 1000,
     "dianpiao": 10
   },
   "2002": {
@@ -84,6 +98,7 @@
     "name": "直充30元",
     "arg": 2,
     "rmb": 30,
+    "cent": 3000,
     "dianpiao": 30
   },
   "2003": {
@@ -91,6 +106,7 @@
     "name": "直充68元",
     "arg": 3,
     "rmb": 68,
+    "cent": 6800,
     "dianpiao": 68
   },
   "2004": {
@@ -98,6 +114,7 @@
     "name": "直充98元",
     "arg": 4,
     "rmb": 98,
+    "cent": 9800,
     "dianpiao": 98
   },
   "2005": {
@@ -105,6 +122,7 @@
     "name": "直充198元",
     "arg": 5,
     "rmb": 198,
+    "cent": 19800,
     "dianpiao": 198
   },
   "2006": {
@@ -112,6 +130,7 @@
     "name": "直充328元",
     "arg": 6,
     "rmb": 328,
+    "cent": 32800,
     "dianpiao": 328
   },
   "2007": {
@@ -119,6 +138,7 @@
     "name": "直充648元",
     "arg": 7,
     "rmb": 648,
+    "cent": 64800,
     "dianpiao": 648
   },
   "2008": {
@@ -126,6 +146,7 @@
     "name": "直充1980元",
     "arg": 8,
     "rmb": 1980,
+    "cent": 198000,
     "dianpiao": 1980
   },
   "2009": {
@@ -133,6 +154,7 @@
     "name": "直充2998元",
     "arg": 9,
     "rmb": 2998,
+    "cent": 299800,
     "dianpiao": 2998
   },
   "2010": {
@@ -140,6 +162,7 @@
     "name": "直充5000元",
     "arg": 10,
     "rmb": 5000,
+    "cent": 500000,
     "dianpiao": 5000
   },
   "2011": {
@@ -147,6 +170,7 @@
     "name": "直充9998元",
     "arg": 11,
     "rmb": 9998,
+    "cent": 999800,
     "dianpiao": 9998
   },
   "2012": {
@@ -154,1323 +178,2206 @@
     "name": "直充20000元",
     "arg": 12,
     "rmb": 20000,
+    "cent": 2000000,
     "dianpiao": 20000
   },
   "3001": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包1",
     "arg": 1,
     "rmb": 6,
-    "dianpiao": 6
+    "cent": 600,
+    "dianpiao": 6,
+    "gift_type": "box_day",
+    "award": "101000001:1&1000080:3&101:60000&1000050:100",
+    "updateType": "day",
+    "count": 1
   },
   "3002": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包2",
     "arg": 2,
     "rmb": 12,
-    "dianpiao": 12
+    "cent": 1200,
+    "dianpiao": 12,
+    "gift_type": "box_day",
+    "award": "101000006:1&1000080:6&101:120000&1000050:200",
+    "updateType": "day",
+    "count": 1
   },
   "3003": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包3",
     "arg": 3,
     "rmb": 18,
-    "dianpiao": 18
+    "cent": 1800,
+    "dianpiao": 18,
+    "gift_type": "box_day",
+    "award": "101000010:1&1000080:9&101:180000&1000050:300",
+    "updateType": "day",
+    "count": 1
   },
   "3004": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包4",
     "arg": 4,
     "rmb": 30,
-    "dianpiao": 30
+    "cent": 3000,
+    "dianpiao": 30,
+    "gift_type": "box_day",
+    "award": "101000018:1&1000080:15&101:300000&1000050:500",
+    "updateType": "day",
+    "count": 1
   },
   "3005": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包5",
     "arg": 5,
     "rmb": 68,
-    "dianpiao": 68
+    "cent": 6800,
+    "dianpiao": 68,
+    "gift_type": "box_day",
+    "award": "101000030:1&1000080:50&101:680000&1000050:1000",
+    "updateType": "day",
+    "count": 1
   },
   "3006": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包6",
     "arg": 6,
     "rmb": 98,
-    "dianpiao": 98
+    "cent": 9800,
+    "dianpiao": 98,
+    "gift_type": "box_day",
+    "award": "101000050:1&1000080:100&101:980000&1000050:2000",
+    "updateType": "day",
+    "count": 1
   },
   "3007": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包7",
     "arg": 7,
     "rmb": 198,
-    "dianpiao": 198
+    "cent": 19800,
+    "dianpiao": 198,
+    "gift_type": "box_day",
+    "award": "101000100:1&1000120:10&101:1980000&1000050:3000",
+    "updateType": "day",
+    "count": 1
   },
   "3008": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包8",
     "arg": 8,
     "rmb": 328,
-    "dianpiao": 328
+    "cent": 32800,
+    "dianpiao": 328,
+    "gift_type": "box_day",
+    "award": "101000200:1&1000120:20&101:3280000&1000050:5000",
+    "updateType": "day",
+    "count": 1
   },
   "3009": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包9",
     "arg": 9,
     "rmb": 648,
-    "dianpiao": 648
+    "cent": 64800,
+    "dianpiao": 648,
+    "gift_type": "box_day",
+    "award": "101000300:1&1000120:50&101:6480000&1000050:8000",
+    "updateType": "day",
+    "count": 1
   },
   "3010": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包10",
     "arg": 10,
     "rmb": 1980,
-    "dianpiao": 1980
+    "cent": 198000,
+    "dianpiao": 1980,
+    "gift_type": "box_day",
+    "award": "101001000:1&1000190:3&101:19800000&1000050:10000",
+    "updateType": "day",
+    "count": 1
   },
   "3011": {
-    "type": "box_day",
+    "type": "fast",
     "name": "每日礼包11",
     "arg": 11,
     "rmb": 2998,
-    "dianpiao": 2998
+    "cent": 299800,
+    "dianpiao": 2998,
+    "gift_type": "box_day",
+    "award": "101002000:1&1000190:6&101:29980000&1000050:20000",
+    "updateType": "day",
+    "count": 1
   },
   "4001": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包1",
     "arg": 1001,
     "rmb": 30,
-    "dianpiao": 30
+    "cent": 3000,
+    "dianpiao": 30,
+    "gift_type": "box_week",
+    "award": "110:6&201:3000000&101:1000000&501:30",
+    "updateType": "week",
+    "count": 1
   },
   "4002": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包2",
     "arg": 1002,
     "rmb": 68,
-    "dianpiao": 68
+    "cent": 6800,
+    "dianpiao": 68,
+    "gift_type": "box_week",
+    "award": "110:10&1000300:1000000&1000400:100&501:68",
+    "updateType": "week",
+    "count": 1
   },
   "4003": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包3",
     "arg": 1003,
     "rmb": 98,
-    "dianpiao": 98
+    "cent": 9800,
+    "dianpiao": 98,
+    "gift_type": "box_week",
+    "award": "110:20&1000080:100&1000050:3000&501:98",
+    "updateType": "week",
+    "count": 1
   },
   "4004": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包4",
     "arg": 1004,
     "rmb": 198,
-    "dianpiao": 198
+    "cent": 19800,
+    "dianpiao": 198,
+    "gift_type": "box_week",
+    "award": "110:50&1000120:10&1000150:30&501:198",
+    "updateType": "week",
+    "count": 1
   },
   "4005": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包5",
     "arg": 1005,
     "rmb": 328,
-    "dianpiao": 328
+    "cent": 32800,
+    "dianpiao": 328,
+    "gift_type": "box_week",
+    "award": "110:128&1000502:30&1000602:50&501:328",
+    "updateType": "week",
+    "count": 1
   },
   "4006": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包6",
     "arg": 1006,
     "rmb": 648,
-    "dianpiao": 648
+    "cent": 64800,
+    "dianpiao": 648,
+    "gift_type": "box_week",
+    "award": "110:288&204003001:1&1000120:30&501:648",
+    "updateType": "week",
+    "count": 1
   },
   "4007": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包7",
     "arg": 1007,
     "rmb": 648,
-    "dianpiao": 648
+    "cent": 64800,
+    "dianpiao": 648,
+    "gift_type": "box_week",
+    "award": "110:288&205512010:1&1000120:30&501:648",
+    "updateType": "week",
+    "count": 1
   },
   "4008": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包8",
     "arg": 1008,
     "rmb": 1980,
-    "dianpiao": 1980
+    "cent": 198000,
+    "dianpiao": 1980,
+    "gift_type": "box_week",
+    "award": "110:588&303006001:20&1000120:100&501:1980",
+    "updateType": "week",
+    "count": 1
   },
   "4009": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包9",
     "arg": 1009,
     "rmb": 1980,
-    "dianpiao": 1980
+    "cent": 198000,
+    "dianpiao": 1980,
+    "gift_type": "box_week",
+    "award": "110:588&4004:1&1000040:100&501:1980",
+    "updateType": "week",
+    "count": 1
   },
   "4010": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包10",
     "arg": 1010,
     "rmb": 1980,
-    "dianpiao": 1980
+    "cent": 198000,
+    "dianpiao": 1980,
+    "gift_type": "box_week",
+    "award": "110:588&309500001:1&1000602:30&501:1980",
+    "updateType": "week",
+    "count": 1
   },
   "4011": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包11",
     "arg": 1011,
     "rmb": 2998,
-    "dianpiao": 2998
+    "cent": 299800,
+    "dianpiao": 2998,
+    "gift_type": "box_week",
+    "award": "110:998&1000190:5&1000602:100&501:2998",
+    "updateType": "week",
+    "count": 1
   },
   "4012": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包12",
     "arg": 1012,
     "rmb": 2998,
-    "dianpiao": 2998
+    "cent": 299800,
+    "dianpiao": 2998,
+    "gift_type": "box_week",
+    "award": "110:998&304006001:2&1000602:100&501:2998",
+    "updateType": "week",
+    "count": 1
   },
   "4013": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包13",
     "arg": 1013,
     "rmb": 2998,
-    "dianpiao": 2998
+    "cent": 299800,
+    "dianpiao": 2998,
+    "gift_type": "box_week",
+    "award": "110:998&304007001:2&1000602:100&501:2998",
+    "updateType": "week",
+    "count": 1
   },
   "4014": {
-    "type": "box_week",
+    "type": "fast",
     "name": "每周礼包14",
     "arg": 1014,
     "rmb": 9998,
-    "dianpiao": 9998
+    "cent": 999800,
+    "dianpiao": 9998,
+    "gift_type": "box_week",
+    "award": "110:5888&309600001:1&1000602:300&501:9998",
+    "updateType": "week",
+    "count": 1
   },
   "5001": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包1",
     "arg": 1001,
     "rmb": 648,
-    "dianpiao": 648
+    "cent": 64800,
+    "dianpiao": 648,
+    "gift_type": "box_month",
+    "award": "110:288&205512011:1&1000150:30&108008304:10",
+    "updateType": "month",
+    "count": 1
   },
   "5002": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包2",
     "arg": 1002,
     "rmb": 1980,
-    "dianpiao": 1980
+    "cent": 198000,
+    "dianpiao": 1980,
+    "gift_type": "box_month",
+    "award": "110:588&205513010:1&1000150:60&108008304:20",
+    "updateType": "month",
+    "count": 1
   },
   "5003": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包3",
     "arg": 1003,
     "rmb": 2998,
-    "dianpiao": 2998
+    "cent": 299800,
+    "dianpiao": 2998,
+    "gift_type": "box_month",
+    "award": "110:998&205514010:1&1000150:90&108008304:30",
+    "updateType": "month",
+    "count": 1
   },
   "5004": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包4",
     "arg": 1004,
     "rmb": 9998,
-    "dianpiao": 9998
+    "cent": 999800,
+    "dianpiao": 9998,
+    "gift_type": "box_month",
+    "award": "110:3888&205516010:1&1000150:150&108008304:100",
+    "updateType": "month",
+    "count": 1
   },
   "5005": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包5",
     "arg": 1005,
     "rmb": 20000,
-    "dianpiao": 20000
+    "cent": 2000000,
+    "dianpiao": 20000,
+    "gift_type": "box_month",
+    "award": "110:8888&230:500&307001001:5&108008304:300",
+    "updateType": "month",
+    "count": 1
   },
   "5006": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包6",
     "arg": 1006,
     "rmb": 20000,
-    "dianpiao": 20000
+    "cent": 2000000,
+    "dianpiao": 20000,
+    "gift_type": "box_month",
+    "award": "110:8888&1000060:50&205517010:1&108008304:300",
+    "updateType": "month",
+    "count": 1
   },
   "5007": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包7",
     "arg": 1007,
     "rmb": 20000,
-    "dianpiao": 20000
+    "cent": 2000000,
+    "dianpiao": 20000,
+    "gift_type": "box_month",
+    "award": "110:8888&1000190:50&307001001:5&108008304:300",
+    "updateType": "month",
+    "count": 1
   },
   "5008": {
-    "type": "box_month",
+    "type": "fast",
     "name": "每月礼包8",
     "arg": 1008,
     "rmb": 20000,
-    "dianpiao": 20000
+    "cent": 2000000,
+    "dianpiao": 20000,
+    "gift_type": "box_month",
+    "award": "110:8888&306010501:2&1000150:300&108008304:300",
+    "updateType": "month",
+    "count": 1
   },
   "6001": {
     "type": "limit_gift",
     "name": "一飞冲天礼包",
     "arg": 1001,
-    "rmb": 25
+    "rmb": 25,
+    "cent": 2500
   },
   "6002": {
     "type": "limit_gift",
     "name": "十星关羽礼包",
     "arg": 1002,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6003": {
     "type": "limit_gift",
     "name": "百抽招募礼包",
     "arg": 1003,
-    "rmb": 25
+    "rmb": 25,
+    "cent": 2500
   },
   "6004": {
     "type": "limit_gift",
     "name": "阵营招募礼包",
     "arg": 1004,
-    "rmb": 38
+    "rmb": 38,
+    "cent": 3800
   },
   "6005": {
     "type": "limit_gift",
     "name": "封地材料礼包",
     "arg": 1005,
-    "rmb": 38
+    "rmb": 38,
+    "cent": 3800
   },
   "6006": {
     "type": "limit_gift",
     "name": "矿镐体验礼包",
     "arg": 1006,
-    "rmb": 68
+    "rmb": 68,
+    "cent": 6800
   },
   "6007": {
     "type": "limit_gift",
     "name": "超值兵法礼包",
     "arg": 1007,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6008": {
     "type": "limit_gift",
     "name": "技能宝石礼包",
     "arg": 1008,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6009": {
     "type": "limit_gift",
     "name": "红色宝物礼包",
     "arg": 1009,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6010": {
     "type": "limit_gift",
     "name": "英雄觉醒礼包",
     "arg": 1010,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6011": {
     "type": "limit_gift",
     "name": "超值圣物礼包",
     "arg": 1011,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6012": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1012,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6013": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1013,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6014": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1014,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6015": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1015,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6016": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1016,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6017": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1017,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6018": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1018,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6019": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1019,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6020": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1020,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "6021": {
     "type": "limit_gift",
     "name": "神装体验礼包",
     "arg": 1021,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "7001": {
     "type": "limit_gift",
     "name": "五星培养礼包",
     "arg": 2001,
-    "rmb": 30
+    "rmb": 30,
+    "cent": 3000
   },
   "7002": {
     "type": "limit_gift",
     "name": "七星培养礼包",
     "arg": 2002,
-    "rmb": 98
+    "rmb": 98,
+    "cent": 9800
   },
   "7003": {
     "type": "limit_gift",
     "name": "八星培养礼包",
     "arg": 2003,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "7004": {
     "type": "limit_gift",
     "name": "九星培养礼包",
     "arg": 2004,
-    "rmb": 328
+    "rmb": 328,
+    "cent": 32800
   },
   "7005": {
     "type": "limit_gift",
     "name": "十星培养礼包",
     "arg": 2005,
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800
   },
   "7101": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠1",
     "arg": "hero_1",
-    "rmb": 1
+    "rmb": 1,
+    "cent": 100,
+    "gift_type": "gift_loop",
+    "award": "110:5&820:10&810:10000",
+    "updateType": "always",
+    "count": 1
   },
   "7102": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠2",
     "arg": "hero_2",
-    "rmb": 2
+    "rmb": 2,
+    "cent": 200,
+    "gift_type": "gift_loop",
+    "award": "110:10&820:20&810:20000",
+    "updateType": "always",
+    "count": 1
   },
   "7103": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠3",
     "arg": "hero_3",
-    "rmb": 3
+    "rmb": 3,
+    "cent": 300,
+    "gift_type": "gift_loop",
+    "award": "110:15&820:30&810:30000",
+    "updateType": "always",
+    "count": 1
   },
   "7104": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠4",
     "arg": "hero_4",
-    "rmb": 5
+    "rmb": 5,
+    "cent": 500,
+    "gift_type": "gift_loop",
+    "award": "110:25&820:40&810:50000",
+    "updateType": "always",
+    "count": 1
   },
   "7105": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠5",
     "arg": "hero_5",
-    "rmb": 6
+    "rmb": 6,
+    "cent": 600,
+    "gift_type": "gift_loop",
+    "award": "110:30&820:50&810:60000",
+    "updateType": "always",
+    "count": 1
   },
   "7106": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠6",
     "arg": "hero_6",
-    "rmb": 8
+    "rmb": 8,
+    "cent": 800,
+    "gift_type": "gift_loop",
+    "award": "110:40&820:60&810:80000",
+    "updateType": "always",
+    "count": 1
   },
   "7107": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠7",
     "arg": "hero_7",
-    "rmb": 9
+    "rmb": 9,
+    "cent": 900,
+    "gift_type": "gift_loop",
+    "award": "110:45&820:70&810:90000",
+    "updateType": "always",
+    "count": 1
   },
   "7108": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠8",
     "arg": "hero_8",
-    "rmb": 10
+    "rmb": 10,
+    "cent": 1000,
+    "gift_type": "gift_loop",
+    "award": "110:50&820:80&810:100000",
+    "updateType": "always",
+    "count": 1
   },
   "7109": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠9",
     "arg": "hero_9",
-    "rmb": 12
+    "rmb": 12,
+    "cent": 1200,
+    "gift_type": "gift_loop",
+    "award": "110:60&820:90&810:120000",
+    "updateType": "always",
+    "count": 1
   },
   "7110": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠10",
     "arg": "hero_10",
-    "rmb": 15
+    "rmb": 15,
+    "cent": 1500,
+    "gift_type": "gift_loop",
+    "award": "110:75&820:100&810:150000",
+    "updateType": "always",
+    "count": 1
   },
   "7111": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠11",
     "arg": "hero_11",
-    "rmb": 18
+    "rmb": 18,
+    "cent": 1800,
+    "gift_type": "gift_loop",
+    "award": "110:90&820:110&810:180000",
+    "updateType": "always",
+    "count": 1
   },
   "7112": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠12",
     "arg": "hero_12",
-    "rmb": 20
+    "rmb": 20,
+    "cent": 2000,
+    "gift_type": "gift_loop",
+    "award": "110:100&820:120&810:200000",
+    "updateType": "always",
+    "count": 1
   },
   "7113": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠13",
     "arg": "hero_13",
-    "rmb": 22
+    "rmb": 22,
+    "cent": 2200,
+    "gift_type": "gift_loop",
+    "award": "110:110&820:130&810:220000",
+    "updateType": "always",
+    "count": 1
   },
   "7114": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠14",
     "arg": "hero_14",
-    "rmb": 25
+    "rmb": 25,
+    "cent": 2500,
+    "gift_type": "gift_loop",
+    "award": "110:125&820:140&810:250000",
+    "updateType": "always",
+    "count": 1
   },
   "7115": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠15",
     "arg": "hero_15",
-    "rmb": 28
+    "rmb": 28,
+    "cent": 2800,
+    "gift_type": "gift_loop",
+    "award": "110:140&820:150&810:280000",
+    "updateType": "always",
+    "count": 1
   },
   "7116": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠16",
     "arg": "hero_16",
-    "rmb": 30
+    "rmb": 30,
+    "cent": 3000,
+    "gift_type": "gift_loop",
+    "award": "110:150&820:160&810:300000",
+    "updateType": "always",
+    "count": 1
   },
   "7117": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠17",
     "arg": "hero_17",
-    "rmb": 32
+    "rmb": 32,
+    "cent": 3200,
+    "gift_type": "gift_loop",
+    "award": "110:160&820:170&108101000:3",
+    "updateType": "always",
+    "count": 1
   },
   "7118": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠18",
     "arg": "hero_18",
-    "rmb": 35
+    "rmb": 35,
+    "cent": 3500,
+    "gift_type": "gift_loop",
+    "award": "110:175&820:180&108101000:4",
+    "updateType": "always",
+    "count": 1
   },
   "7119": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠19",
     "arg": "hero_19",
-    "rmb": 38
+    "rmb": 38,
+    "cent": 3800,
+    "gift_type": "gift_loop",
+    "award": "110:190&820:190&108101000:5",
+    "updateType": "always",
+    "count": 1
   },
   "7120": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠20",
     "arg": "hero_20",
-    "rmb": 42
+    "rmb": 42,
+    "cent": 4200,
+    "gift_type": "gift_loop",
+    "award": "110:210&820:200&108101000:6",
+    "updateType": "always",
+    "count": 1
   },
   "7121": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠21",
     "arg": "hero_21",
-    "rmb": 48
+    "rmb": 48,
+    "cent": 4800,
+    "gift_type": "gift_loop",
+    "award": "110:240&820:220&108101000:7",
+    "updateType": "always",
+    "count": 1
   },
   "7122": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠22",
     "arg": "hero_22",
-    "rmb": 52
+    "rmb": 52,
+    "cent": 5200,
+    "gift_type": "gift_loop",
+    "award": "110:260&820:240&108101000:8",
+    "updateType": "always",
+    "count": 1
   },
   "7123": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠23",
     "arg": "hero_23",
-    "rmb": 55
+    "rmb": 55,
+    "cent": 5500,
+    "gift_type": "gift_loop",
+    "award": "110:275&820:260&108101000:9",
+    "updateType": "always",
+    "count": 1
   },
   "7124": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠24",
     "arg": "hero_24",
-    "rmb": 58
+    "rmb": 58,
+    "cent": 5800,
+    "gift_type": "gift_loop",
+    "award": "110:290&820:280&108101000:10",
+    "updateType": "always",
+    "count": 1
   },
   "7125": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠25",
     "arg": "hero_25",
-    "rmb": 60
+    "rmb": 60,
+    "cent": 6000,
+    "gift_type": "gift_loop",
+    "award": "110:300&820:300&108101000:11",
+    "updateType": "always",
+    "count": 1
   },
   "7126": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠26",
     "arg": "hero_26",
-    "rmb": 62
+    "rmb": 62,
+    "cent": 6200,
+    "gift_type": "gift_loop",
+    "award": "110:310&820:320&108101000:12",
+    "updateType": "always",
+    "count": 1
   },
   "7127": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠27",
     "arg": "hero_27",
-    "rmb": 65
+    "rmb": 65,
+    "cent": 6500,
+    "gift_type": "gift_loop",
+    "award": "110:325&820:340&108101000:13",
+    "updateType": "always",
+    "count": 1
   },
   "7128": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠28",
     "arg": "hero_28",
-    "rmb": 68
+    "rmb": 68,
+    "cent": 6800,
+    "gift_type": "gift_loop",
+    "award": "110:340&820:360&108101000:14",
+    "updateType": "always",
+    "count": 1
   },
   "7129": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠29",
     "arg": "hero_29",
-    "rmb": 72
+    "rmb": 72,
+    "cent": 7200,
+    "gift_type": "gift_loop",
+    "award": "110:360&820:380&108101000:15",
+    "updateType": "always",
+    "count": 1
   },
   "7130": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠30",
     "arg": "hero_30",
-    "rmb": 75
+    "rmb": 75,
+    "cent": 7500,
+    "gift_type": "gift_loop",
+    "award": "110:375&820:400&108101000:16",
+    "updateType": "always",
+    "count": 1
   },
   "7131": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠31",
     "arg": "hero_31",
-    "rmb": 78
+    "rmb": 78,
+    "cent": 7800,
+    "gift_type": "gift_loop",
+    "award": "110:390&820:420&108101000:17",
+    "updateType": "always",
+    "count": 1
   },
   "7132": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠32",
     "arg": "hero_32",
-    "rmb": 80
+    "rmb": 80,
+    "cent": 8000,
+    "gift_type": "gift_loop",
+    "award": "110:400&820:440&108101000:18",
+    "updateType": "always",
+    "count": 1
   },
   "7133": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠33",
     "arg": "hero_33",
-    "rmb": 85
+    "rmb": 85,
+    "cent": 8500,
+    "gift_type": "gift_loop",
+    "award": "110:425&820:460&108101000:19",
+    "updateType": "always",
+    "count": 1
   },
   "7134": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠34",
     "arg": "hero_34",
-    "rmb": 90
+    "rmb": 90,
+    "cent": 9000,
+    "gift_type": "gift_loop",
+    "award": "110:450&820:480&108101000:20",
+    "updateType": "always",
+    "count": 1
   },
   "7135": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠35",
     "arg": "hero_35",
-    "rmb": 95
+    "rmb": 95,
+    "cent": 9500,
+    "gift_type": "gift_loop",
+    "award": "110:475&820:500&108101000:21",
+    "updateType": "always",
+    "count": 1
   },
   "7136": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠36",
     "arg": "hero_36",
-    "rmb": 100
+    "rmb": 100,
+    "cent": 10000,
+    "gift_type": "gift_loop",
+    "award": "110:500&820:520&108101000:22",
+    "updateType": "always",
+    "count": 1
   },
   "7137": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠37",
     "arg": "hero_37",
-    "rmb": 118
+    "rmb": 118,
+    "cent": 11800,
+    "gift_type": "gift_loop",
+    "award": "110:590&820:540&108101000:23",
+    "updateType": "always",
+    "count": 1
   },
   "7138": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠38",
     "arg": "hero_38",
-    "rmb": 128
+    "rmb": 128,
+    "cent": 12800,
+    "gift_type": "gift_loop",
+    "award": "110:640&820:560&108101000:24",
+    "updateType": "always",
+    "count": 1
   },
   "7139": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠39",
     "arg": "hero_39",
-    "rmb": 138
+    "rmb": 138,
+    "cent": 13800,
+    "gift_type": "gift_loop",
+    "award": "110:690&820:580&108101000:25",
+    "updateType": "always",
+    "count": 1
   },
   "7140": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠40",
     "arg": "hero_40",
-    "rmb": 158
+    "rmb": 158,
+    "cent": 15800,
+    "gift_type": "gift_loop",
+    "award": "110:790&820:600&108101000:26",
+    "updateType": "always",
+    "count": 1
   },
   "7141": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠41",
     "arg": "hero_41",
-    "rmb": 168
+    "rmb": 168,
+    "cent": 16800,
+    "gift_type": "gift_loop",
+    "award": "110:840&820:650&108101000:27",
+    "updateType": "always",
+    "count": 1
   },
   "7142": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠42",
     "arg": "hero_42",
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800,
+    "gift_type": "gift_loop",
+    "award": "110:990&820:700&108101000:28",
+    "updateType": "always",
+    "count": 1
   },
   "7143": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠43",
     "arg": "hero_43",
-    "rmb": 228
+    "rmb": 228,
+    "cent": 22800,
+    "gift_type": "gift_loop",
+    "award": "110:1140&820:750&108101000:29",
+    "updateType": "always",
+    "count": 1
   },
   "7144": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠44",
     "arg": "hero_44",
-    "rmb": 328
+    "rmb": 328,
+    "cent": 32800,
+    "gift_type": "gift_loop",
+    "award": "110:1640&820:800&108101000:30",
+    "updateType": "always",
+    "count": 1
   },
   "7145": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠45",
     "arg": "hero_45",
-    "rmb": 488
+    "rmb": 488,
+    "cent": 48800,
+    "gift_type": "gift_loop",
+    "award": "110:2440&820:850&108101000:31",
+    "updateType": "always",
+    "count": 1
   },
   "7146": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠46",
     "arg": "hero_46",
-    "rmb": 588
+    "rmb": 588,
+    "cent": 58800,
+    "gift_type": "gift_loop",
+    "award": "110:2940&820:900&108101000:32",
+    "updateType": "always",
+    "count": 1
   },
   "7147": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠47",
     "arg": "hero_47",
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800,
+    "gift_type": "gift_loop",
+    "award": "110:3240&820:950&108101000:33",
+    "updateType": "always",
+    "count": 1
   },
   "7148": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠48",
     "arg": "hero_48",
-    "rmb": 998
+    "rmb": 998,
+    "cent": 99800,
+    "gift_type": "gift_loop",
+    "award": "110:4990&820:1000&108101000:34",
+    "updateType": "always",
+    "count": 1
   },
   "7149": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠49",
     "arg": "hero_49",
-    "rmb": 1288
+    "rmb": 1288,
+    "cent": 128800,
+    "gift_type": "gift_loop",
+    "award": "110:6440&820:2000&108101000:35",
+    "updateType": "always",
+    "count": 1
   },
   "7150": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠50",
     "arg": "hero_50",
-    "rmb": 1688
+    "rmb": 1688,
+    "cent": 168800,
+    "gift_type": "gift_loop",
+    "award": "110:8440&820:3000&108101000:36",
+    "updateType": "always",
+    "count": 1
   },
   "7151": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠51",
     "arg": "hero_51",
-    "rmb": 1980
+    "rmb": 1980,
+    "cent": 198000,
+    "gift_type": "gift_loop",
+    "award": "110:9900&820:4000&108101000:37",
+    "updateType": "always",
+    "count": 1
   },
   "7152": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠52",
     "arg": "hero_52",
-    "rmb": 2388
+    "rmb": 2388,
+    "cent": 238800,
+    "gift_type": "gift_loop",
+    "award": "110:11940&820:5000&108101000:38",
+    "updateType": "always",
+    "count": 1
   },
   "7153": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠53",
     "arg": "hero_53",
-    "rmb": 2998
+    "rmb": 2998,
+    "cent": 299800,
+    "gift_type": "gift_loop",
+    "award": "110:14990&820:6000&108101000:39",
+    "updateType": "always",
+    "count": 1
   },
   "7154": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠54",
     "arg": "hero_54",
-    "rmb": 3888
+    "rmb": 3888,
+    "cent": 388800,
+    "gift_type": "gift_loop",
+    "award": "110:19440&820:8000&108101000:40",
+    "updateType": "always",
+    "count": 1
   },
   "7155": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "新服特惠55",
     "arg": "hero_55",
-    "rmb": 5000
+    "rmb": 5000,
+    "cent": 500000,
+    "gift_type": "gift_loop",
+    "award": "110:25000&820:10000&108101000:50",
+    "updateType": "always",
+    "count": 1
   },
   "7201": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世1",
     "arg": "book_1",
-    "rmb": 68
+    "rmb": 68,
+    "cent": 6800,
+    "gift_type": "gift_loop",
+    "award": "13020020:10&1000400:50&1000300:10000",
+    "updateType": "always",
+    "count": 1
   },
   "7202": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世2",
     "arg": "book_2",
-    "rmb": 98
+    "rmb": 98,
+    "cent": 9800,
+    "gift_type": "gift_loop",
+    "award": "13020020:50&1000400:100&1000300:20000",
+    "updateType": "always",
+    "count": 1
   },
   "7203": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世3",
     "arg": "book_3",
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800,
+    "gift_type": "gift_loop",
+    "award": "13020020:100&1000400:150&1000300:30000",
+    "updateType": "always",
+    "count": 1
   },
   "7204": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世4",
     "arg": "book_4",
-    "rmb": 328
+    "rmb": 328,
+    "cent": 32800,
+    "gift_type": "gift_loop",
+    "award": "103100001:150&1000400:200&1000300:40000",
+    "updateType": "always",
+    "count": 1
   },
   "7205": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世5",
     "arg": "book_5",
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800,
+    "gift_type": "gift_loop",
+    "award": "103100001:200&1000400:250&1000300:50000",
+    "updateType": "always",
+    "count": 1
   },
   "7206": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世6",
     "arg": "book_6",
-    "rmb": 998
+    "rmb": 998,
+    "cent": 99800,
+    "gift_type": "gift_loop",
+    "award": "103100001:300&1000400:300&1000300:100000",
+    "updateType": "always",
+    "count": 1
   },
   "7207": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世7",
     "arg": "book_7",
-    "rmb": 1980
+    "rmb": 1980,
+    "cent": 198000,
+    "gift_type": "gift_loop",
+    "award": "103100001:400&1000400:400&1000300:200000",
+    "updateType": "always",
+    "count": 1
   },
   "7208": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世8",
     "arg": "book_8",
-    "rmb": 2998
+    "rmb": 2998,
+    "cent": 299800,
+    "gift_type": "gift_loop",
+    "award": "103100001:500&1000400:500&1000300:400000",
+    "updateType": "always",
+    "count": 1
   },
   "7209": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世9",
     "arg": "book_9",
-    "rmb": 4998
+    "rmb": 4998,
+    "cent": 499800,
+    "gift_type": "gift_loop",
+    "award": "303006001:500&1000400:600&1000300:600000",
+    "updateType": "always",
+    "count": 1
   },
   "7210": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "兵法问世10",
     "arg": "book_10",
-    "rmb": 9998
+    "rmb": 9998,
+    "cent": 999800,
+    "gift_type": "gift_loop",
+    "award": "303006001:1000&1000400:1000&1000300:1000000",
+    "updateType": "always",
+    "count": 1
   },
   "7301": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包1",
     "arg": "ace_1",
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800,
+    "gift_type": "gift_loop",
+    "award": "309400001:1&206:5000&307001001:1",
+    "updateType": "always",
+    "count": 1
   },
   "7302": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包2",
     "arg": "ace_2",
-    "rmb": 328
+    "rmb": 328,
+    "cent": 32800,
+    "gift_type": "gift_loop",
+    "award": "309400001:2&206:10000&307001001:2",
+    "updateType": "always",
+    "count": 1
   },
   "7303": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包3",
     "arg": "ace_3",
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800,
+    "gift_type": "gift_loop",
+    "award": "309400001:3&206:20000&307001001:3",
+    "updateType": "always",
+    "count": 1
   },
   "7304": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包4",
     "arg": "ace_4",
-    "rmb": 998
+    "rmb": 998,
+    "cent": 99800,
+    "gift_type": "gift_loop",
+    "award": "309500001:1&206:30000&307001001:4",
+    "updateType": "always",
+    "count": 1
   },
   "7305": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包5",
     "arg": "ace_5",
-    "rmb": 1980
+    "rmb": 1980,
+    "cent": 198000,
+    "gift_type": "gift_loop",
+    "award": "309500001:2&206:40000&307001001:5",
+    "updateType": "always",
+    "count": 1
   },
   "7306": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包6",
     "arg": "ace_6",
-    "rmb": 2998
+    "rmb": 2998,
+    "cent": 299800,
+    "gift_type": "gift_loop",
+    "award": "309500001:3&206:50000&307001001:10",
+    "updateType": "always",
+    "count": 1
   },
   "7307": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包7",
     "arg": "ace_7",
-    "rmb": 4998
+    "rmb": 4998,
+    "cent": 499800,
+    "gift_type": "gift_loop",
+    "award": "309600001:1&206:60000&307001001:20",
+    "updateType": "always",
+    "count": 1
   },
   "7308": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "宝物礼包8",
     "arg": "ace_8",
-    "rmb": 9998
+    "rmb": 9998,
+    "cent": 999800,
+    "gift_type": "gift_loop",
+    "award": "309600001:2&206:100000&307001001:50",
+    "updateType": "always",
+    "count": 1
   },
   "7401": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世1",
     "arg": "equip_1",
-    "rmb": 648
+    "rmb": 648,
+    "cent": 64800,
+    "gift_type": "gift_loop",
+    "award": "1000060:16&205517010:1&201:10000000",
+    "updateType": "always",
+    "count": 1
   },
   "7402": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世2",
     "arg": "equip_2",
-    "rmb": 998
+    "rmb": 998,
+    "cent": 99800,
+    "gift_type": "gift_loop",
+    "award": "1000060:32&205517010:1&201:20000000",
+    "updateType": "always",
+    "count": 1
   },
   "7403": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世3",
     "arg": "equip_3",
-    "rmb": 1980
+    "rmb": 1980,
+    "cent": 198000,
+    "gift_type": "gift_loop",
+    "award": "1000060:48&205517010:1&201:40000000",
+    "updateType": "always",
+    "count": 1
   },
   "7404": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世4",
     "arg": "equip_4",
-    "rmb": 2998
+    "rmb": 2998,
+    "cent": 299800,
+    "gift_type": "gift_loop",
+    "award": "1000060:60&205517010:1&201:60000000",
+    "updateType": "always",
+    "count": 1
   },
   "7405": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世5",
     "arg": "equip_5",
-    "rmb": 4998
+    "rmb": 4998,
+    "cent": 499800,
+    "gift_type": "gift_loop",
+    "award": "1000060:72&205517010:1&201:80000000",
+    "updateType": "always",
+    "count": 1
   },
   "7406": {
-    "type": "gift_loop",
+    "type": "fast",
     "name": "神装降世6",
     "arg": "equip_6",
-    "rmb": 9998
+    "rmb": 9998,
+    "cent": 999800,
+    "gift_type": "gift_loop",
+    "award": "1000060:100&205517010:1&201:100000000",
+    "updateType": "always",
+    "count": 1
   },
   "8001": {
     "type": "limit_gift",
     "name": "贾诩法宝礼包",
     "arg": 3001,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8002": {
     "type": "limit_gift",
     "name": "张郃法宝礼包",
     "arg": 3002,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8003": {
     "type": "limit_gift",
     "name": "曹丕法宝礼包",
     "arg": 3003,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8004": {
     "type": "limit_gift",
     "name": "曹操法宝礼包",
     "arg": 3004,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8005": {
     "type": "limit_gift",
     "name": "蔡文姬法宝礼包",
     "arg": 3005,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8006": {
     "type": "limit_gift",
     "name": "夏侯惇法宝礼包",
     "arg": 3006,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8007": {
     "type": "limit_gift",
     "name": "荀彧法宝礼包",
     "arg": 3007,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8008": {
     "type": "limit_gift",
     "name": "典韦法宝礼包",
     "arg": 3008,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8009": {
     "type": "limit_gift",
     "name": "乐进法宝礼包",
     "arg": 3009,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8010": {
     "type": "limit_gift",
     "name": "徐晃法宝礼包",
     "arg": 3010,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8011": {
     "type": "limit_gift",
     "name": "夏侯渊法宝礼包",
     "arg": 3011,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8012": {
     "type": "limit_gift",
     "name": "荀攸法宝礼包",
     "arg": 3012,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8013": {
     "type": "limit_gift",
     "name": "赵云法宝礼包",
     "arg": 3013,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8014": {
     "type": "limit_gift",
     "name": "诸葛亮法宝礼包",
     "arg": 3014,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8015": {
     "type": "limit_gift",
     "name": "刘备法宝礼包",
     "arg": 3015,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8016": {
     "type": "limit_gift",
     "name": "马超法宝礼包",
     "arg": 3016,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8017": {
     "type": "limit_gift",
     "name": "黄月英法宝礼包",
     "arg": 3017,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8018": {
     "type": "limit_gift",
     "name": "庞统法宝礼包",
     "arg": 3018,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8019": {
     "type": "limit_gift",
     "name": "关羽法宝礼包",
     "arg": 3019,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8020": {
     "type": "limit_gift",
     "name": "张飞法宝礼包",
     "arg": 3020,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8021": {
     "type": "limit_gift",
     "name": "刘禅法宝礼包",
     "arg": 3021,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8022": {
     "type": "limit_gift",
     "name": "关凤法宝礼包",
     "arg": 3022,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8023": {
     "type": "limit_gift",
     "name": "魏延法宝礼包",
     "arg": 3023,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8024": {
     "type": "limit_gift",
     "name": "黄忠法宝礼包",
     "arg": 3024,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8025": {
     "type": "limit_gift",
     "name": "孙策法宝礼包",
     "arg": 3025,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8026": {
     "type": "limit_gift",
     "name": "周瑜法宝礼包",
     "arg": 3026,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8027": {
     "type": "limit_gift",
     "name": "小乔法宝礼包",
     "arg": 3027,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8028": {
     "type": "limit_gift",
     "name": "孙坚法宝礼包",
     "arg": 3028,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8029": {
     "type": "limit_gift",
     "name": "孙尚香法宝礼包",
     "arg": 3029,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8030": {
     "type": "limit_gift",
     "name": "张昭法宝礼包",
     "arg": 3030,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8031": {
     "type": "limit_gift",
     "name": "太史慈法宝礼包",
     "arg": 3031,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8032": {
     "type": "limit_gift",
     "name": "陆逊法宝礼包",
     "arg": 3032,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8033": {
     "type": "limit_gift",
     "name": "徐盛法宝礼包",
     "arg": 3033,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8034": {
     "type": "limit_gift",
     "name": "大乔法宝礼包",
     "arg": 3034,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8035": {
     "type": "limit_gift",
     "name": "丁奉法宝礼包",
     "arg": 3035,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8036": {
     "type": "limit_gift",
     "name": "吕蒙法宝礼包",
     "arg": 3036,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8037": {
     "type": "limit_gift",
     "name": "左慈法宝礼包",
     "arg": 3037,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8038": {
     "type": "limit_gift",
     "name": "吕布法宝礼包",
     "arg": 3038,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8039": {
     "type": "limit_gift",
     "name": "华佗法宝礼包",
     "arg": 3039,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8040": {
     "type": "limit_gift",
     "name": "董卓法宝礼包",
     "arg": 3040,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8041": {
     "type": "limit_gift",
     "name": "公孙瓒法宝礼包",
     "arg": 3041,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8042": {
     "type": "limit_gift",
     "name": "孟获法宝礼包",
     "arg": 3042,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8043": {
     "type": "limit_gift",
     "name": "董白法宝礼包",
     "arg": 3043,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8044": {
     "type": "limit_gift",
     "name": "于吉法宝礼包",
     "arg": 3044,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8045": {
     "type": "limit_gift",
     "name": "马腾法宝礼包",
     "arg": 3045,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8046": {
     "type": "limit_gift",
     "name": "袁术法宝礼包",
     "arg": 3046,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8047": {
     "type": "limit_gift",
     "name": "张角法宝礼包",
     "arg": 3047,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8048": {
     "type": "limit_gift",
     "name": "刘表法宝礼包",
     "arg": 3048,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8049": {
     "type": "limit_gift",
     "name": "许褚法宝礼包",
     "arg": 3049,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8050": {
     "type": "limit_gift",
     "name": "法正法宝礼包",
     "arg": 3050,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8051": {
     "type": "limit_gift",
     "name": "鲁肃法宝礼包",
     "arg": 3051,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8052": {
     "type": "limit_gift",
     "name": "貂蝉法宝礼包",
     "arg": 3052,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8053": {
     "type": "limit_gift",
     "name": "张辽法宝礼包",
     "arg": 3053,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8054": {
     "type": "limit_gift",
     "name": "姜维法宝礼包",
     "arg": 3054,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8055": {
     "type": "limit_gift",
     "name": "孙权法宝礼包",
     "arg": 3055,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "8056": {
     "type": "limit_gift",
     "name": "庞德法宝礼包",
     "arg": 3056,
-    "rmb": 50
+    "rmb": 50,
+    "cent": 5000
   },
   "9001": {
     "type": "gift_skin",
     "name": "翩翩年少",
     "arg": 9001,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9002": {
     "type": "gift_skin",
     "name": "登坛受禅",
     "arg": 9002,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9003": {
     "type": "gift_skin",
     "name": "修罗武士",
     "arg": 9003,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9004": {
     "type": "gift_skin",
     "name": "吃鸡王者",
     "arg": 9004,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9005": {
     "type": "gift_skin",
     "name": "古之樊哙",
     "arg": 9005,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9007": {
     "type": "gift_skin",
     "name": "七擒七纵",
     "arg": 9007,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9008": {
     "type": "gift_skin",
     "name": "初露峥嵘",
     "arg": 9008,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9009": {
     "type": "gift_skin",
     "name": "威震华夏",
     "arg": 9009,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9010": {
     "type": "gift_skin",
     "name": "灌篮高手",
     "arg": 9010,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9011": {
     "type": "gift_skin",
     "name": "江东小霸王",
     "arg": 9011,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9013": {
     "type": "gift_skin",
     "name": "所向披靡",
     "arg": 9013,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9014": {
     "type": "gift_skin",
     "name": "闭月羞花",
     "arg": 9014,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9015": {
     "type": "gift_skin",
     "name": "赛博机车",
     "arg": 9015,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9016": {
     "type": "gift_skin",
     "name": "道骨仙风",
     "arg": 9016,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9017": {
     "type": "gift_skin",
     "name": "地狱使者",
     "arg": 9017,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9018": {
     "type": "gift_skin",
     "name": "白马将军",
     "arg": 9018,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9019": {
     "type": "gift_skin",
     "name": "相门虎女",
     "arg": 9019,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9020": {
     "type": "gift_skin",
     "name": "面具阿飞",
     "arg": 9020,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9021": {
     "type": "gift_skin",
     "name": "陷阵之志",
     "arg": 9021,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
   },
   "9022": {
     "type": "gift_skin",
     "name": "天水麒麟儿",
     "arg": 9022,
-    "rmb": 198
+    "rmb": 198,
+    "cent": 19800
+  },
+  "21001": {
+    "type": "fast",
+    "name": "超级资源阁21001",
+    "arg": 1,
+    "rmb": 100,
+    "cent": 10000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "21002": {
+    "type": "fast",
+    "name": "超级资源阁21002",
+    "arg": 1,
+    "rmb": 200,
+    "cent": 20000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "21003": {
+    "type": "fast",
+    "name": "超级资源阁21003",
+    "arg": 1,
+    "rmb": 300,
+    "cent": 30000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "21004": {
+    "type": "fast",
+    "name": "超级资源阁21004",
+    "arg": 1,
+    "rmb": 400,
+    "cent": 40000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "22001": {
+    "type": "fast",
+    "name": "超级资源阁22001",
+    "arg": 2,
+    "rmb": 500,
+    "cent": 50000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "22002": {
+    "type": "fast",
+    "name": "超级资源阁22002",
+    "arg": 2,
+    "rmb": 600,
+    "cent": 60000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "22003": {
+    "type": "fast",
+    "name": "超级资源阁22003",
+    "arg": 2,
+    "rmb": 700,
+    "cent": 70000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "22004": {
+    "type": "fast",
+    "name": "超级资源阁22004",
+    "arg": 2,
+    "rmb": 800,
+    "cent": 80000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "23001": {
+    "type": "fast",
+    "name": "超级资源阁23001",
+    "arg": 3,
+    "rmb": 900,
+    "cent": 90000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "23002": {
+    "type": "fast",
+    "name": "超级资源阁23002",
+    "arg": 3,
+    "rmb": 1000,
+    "cent": 100000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "23003": {
+    "type": "fast",
+    "name": "超级资源阁23003",
+    "arg": 3,
+    "rmb": 1100,
+    "cent": 110000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "23004": {
+    "type": "fast",
+    "name": "超级资源阁23004",
+    "arg": 3,
+    "rmb": 1200,
+    "cent": 120000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "24001": {
+    "type": "fast",
+    "name": "超级资源阁24001",
+    "arg": 4,
+    "rmb": 1300,
+    "cent": 130000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "24002": {
+    "type": "fast",
+    "name": "超级资源阁24002",
+    "arg": 4,
+    "rmb": 1400,
+    "cent": 140000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "24003": {
+    "type": "fast",
+    "name": "超级资源阁24003",
+    "arg": 4,
+    "rmb": 1500,
+    "cent": 150000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "24004": {
+    "type": "fast",
+    "name": "超级资源阁24004",
+    "arg": 4,
+    "rmb": 1600,
+    "cent": 160000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "25001": {
+    "type": "fast",
+    "name": "超级资源阁25001",
+    "arg": 5,
+    "rmb": 1700,
+    "cent": 170000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "25002": {
+    "type": "fast",
+    "name": "超级资源阁25002",
+    "arg": 5,
+    "rmb": 1800,
+    "cent": 180000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "25003": {
+    "type": "fast",
+    "name": "超级资源阁25003",
+    "arg": 5,
+    "rmb": 1900,
+    "cent": 190000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "25004": {
+    "type": "fast",
+    "name": "超级资源阁25004",
+    "arg": 5,
+    "rmb": 2000,
+    "cent": 200000,
+    "gift_type": "super_store",
+    "award": "201:100",
+    "updateType": "always",
+    "count": 1
   }
 }
