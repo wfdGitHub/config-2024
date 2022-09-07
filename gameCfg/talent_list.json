@@ -135,7 +135,7 @@
     "name": "牺牲",
     "des": "死亡时，有20%概率提升全体友方8%攻击，持续2回合",
     "key1": "died_buff3",
-    "value1": "{\"buffId\":\"atkAdd\",\"buffArg\":0.08,\"duration\":2,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.08,\"duration\":2,\"buffRate\":0.2}"
   },
   "4111": {
     "name": "闪避",
@@ -335,7 +335,7 @@
     "name": "牺牲",
     "des": "死亡时，有20%概率提升全体友方12%攻击，持续2回合",
     "key1": "died_buff3",
-    "value1": "{\"buffId\":\"atkAdd\",\"buffArg\":0.12,\"duration\":2,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.12,\"duration\":2,\"buffRate\":0.2}"
   },
   "4211": {
     "name": "闪避",
@@ -535,7 +535,7 @@
     "name": "牺牲",
     "des": "死亡时，有20%概率提升全体友方15%攻击，持续2回合",
     "key1": "died_buff3",
-    "value1": "{\"buffId\":\"atkAdd\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":0.2}"
   },
   "4311": {
     "name": "闪避",
@@ -735,7 +735,7 @@
     "name": "牺牲",
     "des": "死亡时，有30%概率提升全体友方20%攻击，持续2回合",
     "key1": "died_buff3",
-    "value1": "{\"buffId\":\"atkAdd\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.3}"
   },
   "4411": {
     "name": "闪避",
