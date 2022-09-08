@@ -473,9 +473,9 @@
   },
   "delay_death": {
     "name": "延迟死亡",
-    "des": "若回合结束时，生命值为正数，则继续存活",
+    "des": "受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡",
     "refreshType": "roundOver",
-    "duration": 1,
+    "duration": 2,
     "max": 1,
     "default": true,
     "effects": true

@@ -3796,11 +3796,11 @@
     "value1": 5050703
   },
   "50507020": {
-    "des": "回合内受到致命伤害时不会死亡，整体回合结束前，若血量大于零，则继续存活。此效果触发后冷却3回合",
+    "des": "受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡，此技能触发后冷却5回合",
     "key1": "passive1",
     "value1": "died_buff",
     "key2": "passiveArg1",
-    "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50507025": {
     "des": "所有攻击附加虚弱效果",
