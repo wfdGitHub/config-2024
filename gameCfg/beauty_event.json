@@ -1,0 +1,224 @@
+{
+  "jiaowai_100": {
+    "cmd": "begin",
+    "text": "self与beaut闲来出游，正行之间，只见丛林中杀意四起，几名黑衣人飞速窜出，欲抢劫你二人钱财",
+    "next": "jiaowai_101",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101": {
+    "cmd": "choice",
+    "characterId": "self",
+    "name": "self",
+    "text": "我该如何处理这些贼人呢？",
+    "choice1": "好言相劝",
+    "choice1_next": "jiaowai_101_100",
+    "choice2": "捉拿贼人",
+    "choice2_next": "jiaowai_101_200",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_100": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日姑且绕过你们，这些银两拿去随便做些营生把，以后莫再为非作歹了。（将手伸入怀中掏出银两）",
+    "next": "jiaowai_101_101",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_101": {
+    "cmd": "text",
+    "name": "贼人",
+    "text": "大人......大人你不念我等不义，反而施恩于小的们，啊！大人，你乃神人也....",
+    "next": "jiaowai_101_102",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_102": {
+    "cmd": "text",
+    "text": "不巧你今日身上没有携带银两，正在你发愁的时候，beaut从怀中拿出一个玉佩，准备给这些贼人。",
+    "next": "jiaowai_101_103",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_103": {
+    "cmd": "choice",
+    "text": "只见那玉佩洁白无暇，晶莹剔透，一眼便知乃是上等佳品",
+    "choice1": "及时阻止",
+    "choice1_next": "jiaowai_101_104_100",
+    "choice2": "赠送宝物",
+    "choice2_next": "jiaowai_101_104_200",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_100": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这...姑娘这玉如此名贵，定是家传之物，我怎么能让姑娘失此宝物。不如我现在回家取些银钱赠予他们。",
+    "next": "jiaowai_101_104_101",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "公子不必如此，宝物乃是身外之物，在我身上亦是无用，如能搭救更多里面百姓，此乃吾之所愿。",
+    "next": "jiaowai_101_104_102",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_102": {
+    "cmd": "end",
+    "name": "贼人",
+    "text": "贼人听闻此言后，对你二人连连叩谢，并保证不在打家劫舍。",
+    "bg": "jiaowai",
+    "result": "att1_1"
+  },
+  "jiaowai_101_104_200": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这...姑娘这玉如此名贵，定是家传之物，我怎么能让姑娘失此宝物。我身上有这块上好的宝玉，你们拿去换些钱两吧。",
+    "next": "jiaowai_101_104_201",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "公子如此将宝物视乃身外之物，大仁大义，此乃百姓之福。",
+    "next": "jiaowai_101_104_202",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "beaut过奖了，我只是做了自己份内之事而已。",
+    "next": "jiaowai_101_104_203",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_104_203": {
+    "cmd": "end",
+    "name": "贼人",
+    "text": "贼人听闻此言后，对你二人连连叩谢，并保证不在打家劫舍。",
+    "bg": "jiaowai",
+    "result": "att1_2"
+  },
+  "jiaowai_101_200": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "在这乱世之中，百姓苦不敢言，你们不报效朝廷，救助百姓，而在这里打家劫舍，今日定将你们送入官府。",
+    "next": "jiaowai_101_201",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_201": {
+    "cmd": "text",
+    "name": "贼人",
+    "text": "兄弟们，给我上教训下这个狂妄的小子。",
+    "next": "jiaowai_101_202",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "公子小心啊。",
+    "next": "jiaowai_101_203",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_203": {
+    "cmd": "text",
+    "text": "歹人们跃起冲向我们，我反手拔剑，方圆三尺之内，笼罩在剑气之下，一瞬间，剑气突然消失无影，四周贼人纷纷倒地不起。",
+    "next": "jiaowai_101_204",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_204": {
+    "cmd": "text",
+    "name": "贼人",
+    "text": "大爷饶命啊....大爷饶命啊，求求饶过小的们吧， 小的上有八十老母，下有幼儿嗷嗷待哺,小的再也不敢.",
+    "next": "jiaowai_101_205",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_205": {
+    "cmd": "choice",
+    "characterId": "self",
+    "name": "self",
+    "text": "我该怎么办呢？",
+    "choice1": "送往官府",
+    "choice1_next": "jiaowai_101_206_100",
+    "choice2": "收编贼人",
+    "choice2_next": "jiaowai_101_206_200",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_100": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "贼人，休想骗过我，今日放开你们，他日你们依然为非作歹，危害百姓，今日定要将你们送往官府治罪。",
+    "next": "jiaowai_101_206_101",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "公子慧眼能识世间善恶，不受言语蛊惑，刚正不阿，乃百姓之福，小女子甚是仰慕。",
+    "next": "jiaowai_101_206_102",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘你过奖，我们将贼人送往官府吧。",
+    "next": "jiaowai_101_206_103",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_103": {
+    "cmd": "end",
+    "text": "你与beaut，将贼人通通绑了起来，顺着林间小路押往官府。",
+    "bg": "jiaowai",
+    "result": "att1_3"
+  },
+  "jiaowai_101_206_200": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "堂堂七尺男儿，不报效朝廷，反而在此地落草为寇。",
+    "next": "jiaowai_101_206_201",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_201": {
+    "cmd": "text",
+    "name": "贼人",
+    "text": "大人..大人...我们都是幽州流亡而来，本想在本县落叶归根，但是本县富商武员外勾结官府，诬陷我们为流寇驱逐我们，我们不得不乱草为寇。",
+    "next": "jiaowai_101_206_202",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "公子，奸商无道，勾结官府，迫害百姓，他们也是迫不得已，如果他们诚心改过，不妨公子收降他们，为拯救这乱世献一份力量。",
+    "next": "jiaowai_101_206_203",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "竟然姑娘为你们说情，你们是否诚心为我效力，拯救这乱世，恢复世间平和。",
+    "next": "jiaowai_101_206_204",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_204": {
+    "cmd": "text",
+    "name": "贼人",
+    "text": "大人不计前嫌，收下我们，感激不尽，小的们一定鞍前马后忠心为主公效劳。",
+    "next": "jiaowai_101_206_205",
+    "bg": "jiaowai"
+  },
+  "jiaowai_101_206_205": {
+    "cmd": "end",
+    "text": "收编了这些绿林好汉后，你们大队人们浩浩荡荡的往府衙前进。",
+    "bg": "jiaowai",
+    "result": "att1_4"
+  }
+}
