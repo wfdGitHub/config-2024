@@ -6,10 +6,10 @@
     "desc": "充值"
   },
   "2": {
-    "name": "封神殿",
+    "name": "酒楼",
     "key": "heroCenter",
     "openlv": 1,
-    "desc": "指定阵营英雄招募，英雄直升，英雄分解，英雄置换都在这里"
+    "desc": "指定阵营侠客招募，侠客直升，侠客分解，侠客置换都在这里"
   },
   "3": {
     "name": "VIP特权",
@@ -102,14 +102,14 @@
     "name": "日常副本",
     "key": "dailyFb",
     "openlv": 10,
-    "desc": "玩法集合，获得英雄培养材料",
+    "desc": "玩法集合，获得侠客培养材料",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "17": {
-    "name": "金币副本",
+    "name": "铜钱副本",
     "key": "dailyFb_gold",
     "openlv": 10,
-    "desc": "金币副本，挑战可获得金币",
+    "desc": "铜钱副本，挑战可获得铜钱",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "18": {
@@ -120,10 +120,10 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "19": {
-    "name": "修仙任务",
+    "name": "武林悬赏",
     "key": "tour",
     "openlv": 12,
-    "desc": "派遣英雄执行任务，获得稀有奖励",
+    "desc": "派遣侠客执行任务，获得稀有奖励",
     "target": "uiNode/bottomNode/btnBattle",
     "targetChild": true
   },
@@ -156,15 +156,15 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "24": {
-    "name": "通天塔",
+    "name": "试炼之塔",
     "key": "tower",
     "openlv": 16,
-    "desc": "勇闯通天塔，拿英雄培养材料",
+    "desc": "勇闯试炼之塔，拿侠客培养材料",
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
   "25": {
-    "name": "仙盟功能",
+    "name": "帮派功能",
     "key": "guild",
     "openlv": 17,
     "desc": "创建/加入仙盟，挑战诸仙，抢夺仙境",
@@ -174,7 +174,7 @@
     "name": "进阶副本",
     "key": "dailyFb_hero",
     "openlv": 18,
-    "desc": "英雄进阶之地，挑战可获得英雄碎片",
+    "desc": "侠客进阶之地，挑战可获得侠客碎片",
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
@@ -186,10 +186,10 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "28": {
-    "name": "铁匠铺",
+    "name": "制作坊",
     "key": "smithy",
     "openlv": 19,
-    "desc": "合成极品装备，合成稀有护符，提升英雄属性",
+    "desc": "合成极品装备，合成稀有护符，提升侠客属性",
     "target": "hallNode/map/content/mapNode/near/btnSmithy"
   },
   "29": {
@@ -200,14 +200,14 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "30": {
-    "name": "沙盘演武",
+    "name": "天下演武",
     "key": "exercise",
     "openlv": 33,
-    "desc": "公平对战，提前体验顶级英雄",
+    "desc": "公平对战，提前体验顶级侠客",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "31": {
-    "name": "王者巅峰赛",
+    "name": "武林大会",
     "key": "crossTop",
     "openlv": 36,
     "desc": "实力展现，勇夺排名，谁才是王者",
@@ -242,10 +242,10 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "36": {
-    "name": "三界秘境",
+    "name": "古墓探险",
     "key": "zhulu",
     "openlv": 56,
-    "desc": "揭秘三界秘宝，获取战功，兑换稀有奖励",
+    "desc": "揭秘古墓，获取积分，兑换稀有奖励",
     "target": "uiNode/bottomNode/btnExperience",
     "targetChild": true
   },
@@ -260,11 +260,11 @@
     "name": "限时招募",
     "key": "topic",
     "openlv": 58,
-    "desc": "可招募主题英雄，每日刷新主题",
+    "desc": "可招募主题侠客，每日刷新主题",
     "target": "hallNode/btnLimited"
   },
   "39": {
-    "name": "无双争霸",
+    "name": "华山论剑",
     "key": "beherrscher",
     "openlv": 59,
     "desc": "稀有站位争夺，挑战可获得稀有称号",
@@ -274,7 +274,7 @@
     "name": "玉石系统",
     "key": "pit",
     "openlv": 60,
-    "desc": "四圣宝石加持，加强英雄属性",
+    "desc": "四圣宝石加持，加强侠客属性",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "41": {
@@ -289,21 +289,21 @@
     "name": "跨服竞技",
     "key": "crossPK",
     "openlv": 62,
-    "desc": "巅峰竞技，勇夺冠军，彰显实力",
+    "desc": "跨服竞技，勇夺冠军，彰显实力",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "43": {
     "name": "神器系统",
     "key": "book",
     "openlv": 65,
-    "desc": "兵法助战，英雄属性加成，全新特性战斗策略升级",
+    "desc": "神器助战，侠客属性加成，全新特性战斗策略升级",
     "target": "hallNode/bottomNode/btnList/btnBook"
   },
   "44": {
-    "name": "神器遗迹",
+    "name": "闯王宝藏",
     "key": "secretChallenge",
     "openlv": 66,
-    "desc": "完成神器遗迹，获取英雄碎片",
+    "desc": "完成闯王宝藏，获取神器材料",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "45": {
@@ -321,15 +321,15 @@
     "target": "uiNode/bottomNode/btnExperience"
   },
   "47": {
-    "name": "法宝系统",
+    "name": "宝物系统",
     "key": "ace",
     "openlv": 72,
-    "desc": "法宝助阵英雄，发挥极致实力",
+    "desc": "法宝助阵侠客，发挥极致实力",
     "target": "uiNode/bottomNode/btnHero",
     "targetChild": true
   },
   "48": {
-    "name": "法宝副本",
+    "name": "宝物副本",
     "key": "dailyFb_ace",
     "openlv": 72,
     "desc": "宝物散落之地，挑战可获得大量宝物值",
@@ -337,22 +337,22 @@
     "targetChild": true
   },
   "49": {
-    "name": "英雄觉醒",
+    "name": "侠客觉醒",
     "key": "wake",
     "openlv": 80,
-    "desc": "英雄突破极限，觉醒全新天赋",
+    "desc": "侠客突破极限，觉醒全新天赋",
     "target": "uiNode/bottomNode/btnHero",
     "targetChild": true
   },
   "50": {
-    "name": "仙凡之战",
+    "name": "决战光明顶",
     "key": "crossTeamPK",
     "openlv": 85,
     "desc": "阵营决战，酣战不休，提升积分，榜上留名",
     "target": "uiNode/bottomNode/btnExperience"
   },
   "51": {
-    "name": "仙法系统",
+    "name": "秘籍系统",
     "key": "zhanfa",
     "openlv": 90,
     "desc": "策略战法，全新战斗体验",
@@ -368,7 +368,7 @@
     "targetChild": true
   },
   "53": {
-    "name": "英雄试炼",
+    "name": "侠客试炼",
     "key": "areaTrial",
     "openlv": 101,
     "desc": "超高难度一挑三，勇者拿神装",
