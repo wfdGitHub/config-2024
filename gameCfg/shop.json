@@ -1961,19 +1961,19 @@
   },
   "1000080_10": {
     "name": "寻仙令",
-    "pc": "202:5000",
+    "pc": "202:2000",
     "pa": "1000080:10",
     "quality": 5
   },
   "1000080_1": {
     "name": "寻仙令",
-    "pc": "202:600",
+    "pc": "202:220",
     "pa": "1000080:1",
     "quality": 5
   },
   "1000150_1": {
     "name": "改名卡",
-    "pc": "202:500",
+    "pc": "202:200",
     "pa": "1000150:1",
     "quality": 5
   },
@@ -1981,7 +1981,7 @@
     "name": "寻仙令",
     "day_count": 100,
     "discount": 0.5,
-    "pc": "202:300",
+    "pc": "202:220",
     "pa": "1000080:1",
     "type": "item",
     "quality": 5
@@ -1990,7 +1990,7 @@
     "name": "5星碎片",
     "day_count": 30,
     "discount": 0.5,
-    "pc": "202:50",
+    "pc": "202:200",
     "pa": "505000:1",
     "type": "item",
     "quality": 5
@@ -1999,7 +1999,7 @@
     "name": "万能神兵",
     "day_count": 1,
     "discount": 0.5,
-    "pc": "202:250",
+    "pc": "202:200",
     "pa": "1000150:1",
     "type": "item",
     "quality": 5
@@ -2008,7 +2008,7 @@
     "name": "转化丹",
     "day_count": 1,
     "discount": 0.5,
-    "pc": "202:100",
+    "pc": "202:10",
     "pa": "1000180:1",
     "type": "item",
     "quality": 5
@@ -2026,7 +2026,7 @@
     "name": "铜币",
     "day_count": 1,
     "discount": 0.5,
-    "pc": "202:5000",
+    "pc": "202:2000",
     "pa": "201:10000000",
     "type": "item",
     "quality": 5
@@ -2035,7 +2035,7 @@
     "name": "英雄经验",
     "day_count": 1,
     "discount": 0.5,
-    "pc": "202:5000",
+    "pc": "202:2000",
     "pa": "101:2000000",
     "type": "item",
     "quality": 5
@@ -2053,7 +2053,7 @@
     "name": "封侯令",
     "day_count": 1,
     "discount": 0.5,
-    "pc": "202:30000",
+    "pc": "202:20000",
     "pa": "1000190:1",
     "type": "item",
     "quality": 6
@@ -2675,5 +2675,165 @@
     "pa": "1000190:1",
     "type": "gongxun",
     "quality": 6
+  },
+  "super_store_1": {
+    "day_count": 1,
+    "pc": "200:10000",
+    "pa": "201:100000",
+    "type": "super_store",
+    "arg": 1,
+    "quality": 5
+  },
+  "super_store_2": {
+    "day_count": 1,
+    "pc": "200:10000",
+    "pa": "101:100000",
+    "type": "super_store",
+    "arg": 1,
+    "quality": 5
+  },
+  "super_store_3": {
+    "day_count": 1,
+    "pc": "200:10000",
+    "pa": "1000050:1000",
+    "type": "super_store",
+    "arg": 1,
+    "quality": 5
+  },
+  "super_store_4": {
+    "day_count": 1,
+    "pc": "200:10000",
+    "pa": "1000090:12",
+    "type": "super_store",
+    "arg": 1,
+    "quality": 5
+  },
+  "super_store_5": {
+    "day_count": 1,
+    "pc": "200:30000",
+    "pa": "201:300000",
+    "type": "super_store",
+    "arg": 2,
+    "quality": 5
+  },
+  "super_store_6": {
+    "day_count": 1,
+    "pc": "200:30000",
+    "pa": "101:300000",
+    "type": "super_store",
+    "arg": 2,
+    "quality": 5
+  },
+  "super_store_7": {
+    "day_count": 1,
+    "pc": "200:30000",
+    "pa": "1000050:3000",
+    "type": "super_store",
+    "arg": 2,
+    "quality": 5
+  },
+  "super_store_8": {
+    "day_count": 1,
+    "pc": "200:30000",
+    "pa": "1000170:30",
+    "type": "super_store",
+    "arg": 2,
+    "quality": 5
+  },
+  "super_store_9": {
+    "day_count": 1,
+    "pc": "200:50000",
+    "pa": "201:500000",
+    "type": "super_store",
+    "arg": 3,
+    "quality": 5
+  },
+  "super_store_10": {
+    "day_count": 1,
+    "pc": "200:50000",
+    "pa": "101:500000",
+    "type": "super_store",
+    "arg": 3,
+    "quality": 5
+  },
+  "super_store_11": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "107101002:1",
+    "type": "super_store",
+    "arg": 3,
+    "quality": 5
+  },
+  "super_store_12": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "107101003:1",
+    "type": "super_store",
+    "arg": 3,
+    "quality": 5
+  },
+  "super_store_13": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "306005101:1",
+    "type": "super_store",
+    "arg": 4,
+    "quality": 5
+  },
+  "super_store_14": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "106000021:1",
+    "type": "super_store",
+    "arg": 4,
+    "quality": 5
+  },
+  "super_store_15": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "306005301:1",
+    "type": "super_store",
+    "arg": 4,
+    "quality": 5
+  },
+  "super_store_16": {
+    "day_count": 1,
+    "pc": "110:100",
+    "pa": "306005401:1",
+    "type": "super_store",
+    "arg": 4,
+    "quality": 5
+  },
+  "super_store_17": {
+    "day_count": 1,
+    "pc": "110:500",
+    "pa": "10010:5",
+    "type": "super_store",
+    "arg": 5,
+    "quality": 5
+  },
+  "super_store_18": {
+    "day_count": 1,
+    "pc": "110:500",
+    "pa": "1000300:100000",
+    "type": "super_store",
+    "arg": 5,
+    "quality": 5
+  },
+  "super_store_19": {
+    "day_count": 1,
+    "pc": "110:500",
+    "pa": "306005008:6",
+    "type": "super_store",
+    "arg": 5,
+    "quality": 5
+  },
+  "super_store_20": {
+    "day_count": 1,
+    "pc": "110:500",
+    "pa": "1000190:1",
+    "type": "super_store",
+    "arg": 5,
+    "quality": 5
   }
 }
