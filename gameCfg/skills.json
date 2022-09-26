@@ -2811,65 +2811,6 @@
     "key3": "power_up",
     "value3": 0.1
   },
-  "1003006001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方血量最少的2个目标恢复180%攻击力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 1.8
-  },
-  "1003006002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方血量最少的2个目标恢复205%攻击力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 2.05
-  },
-  "1003006003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方血量最少的2个目标恢复230%攻击力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 2.3
-  },
-  "1003006004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方血量最少的2个目标恢复255%攻击力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 2.55
-  },
-  "1003006005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时驱散目标身上的1个非控制类异常状态",
-    "targetType": "team_minHp_2",
-    "mul": 2.55,
-    "key1": "clean_one_lowe",
-    "value1": true
-  },
-  "1003006006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升10%",
-    "targetType": "team_minHp_2",
-    "mul": 2.55,
-    "key1": "clean_one_lowe",
-    "value1": true,
-    "key2": "power_up",
-    "value2": 0.1
-  },
-  "1003006007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "技能目标增加为我方血量最少的3个目标",
-    "targetType": "team_minHp_3",
-    "mul": 2.55,
-    "key1": "clean_one_lowe",
-    "value1": true,
-    "key2": "power_up",
-    "value2": 0.1
-  },
   "1004001001": {
     "name": "主角技能",
     "type": "attack",
@@ -3288,147 +3229,6 @@
     "key4": "tmp_crit",
     "value4": 0.3
   },
-  "1004006001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "提高我方全体宝可梦16%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004006002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "提高我方全体宝可梦20%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004006003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "提高我方全体宝可梦24%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004006004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "提高我方全体宝可梦28%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004006005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时，为我方攻击力最高的宝可梦恢复1点怒气",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_add_maxAtk_anger",
-    "value2": 1
-  },
-  "1004006006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升15%",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_add_maxAtk_anger",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15
-  },
-  "1004006007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时，为我方全体宝可梦恢复1点怒气",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_anger_a",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15
-  },
-  "1004007001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗100%攻击的生命,并提高16%的免伤，持续2回合",
-    "targetType": "team_all",
-    "mul": 1,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004007002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗110%攻击的生命,并提高20%的免伤，持续2回合",
-    "targetType": "team_all",
-    "mul": 1.1,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004007003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗120%攻击的生命,并提高24%的免伤，持续2回合",
-    "targetType": "team_all",
-    "mul": 1.2,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004007004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗130%攻击的生命,并提高28%的免伤，持续2回合",
-    "targetType": "team_all",
-    "mul": 1.3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
-  },
-  "1004007005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时添加伤害吸收盾，吸收生命值上限30%的伤害，持续1回合",
-    "targetType": "team_all",
-    "mul": 1.3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
-  },
-  "1004007006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升15%",
-    "targetType": "team_all",
-    "mul": 1.3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15
-  },
-  "1004007007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时，为我方随机单体添加无敌盾，持续1回合",
-    "targetType": "team_all",
-    "mul": 1.3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "buff3",
-    "value4": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
-  },
   "1004008001": {
     "name": "主角技能",
     "type": "attack",
@@ -3660,94 +3460,6 @@
     "value3": 0.15,
     "key4": "skill_less_anger",
     "value4": 1
-  },
-  "1005001001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "使我方随机单体获得一个额外回合，并获得伤害增加10%效果，持续1回合",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true
-  },
-  "1005001002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "伤害增加15%，BP消耗降低至11",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 11
-  },
-  "1005001003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "伤害增加20%，BP消耗降低至10",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 10
-  },
-  "1005001004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "伤害增加25%，BP消耗降低至9",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 9
-  },
-  "1005001005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "技能目标优先选择我方攻击力最高目标",
-    "targetType": "team_maxAtk_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 9
-  },
-  "1005001006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升30%",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key3": "power_up",
-    "value3": 0.3,
-    "key5": "NEED_BP",
-    "value5": 9
-  },
-  "1005001007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "技能开场即可使用，BP消耗降低至6点",
-    "targetType": "team_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
-    "key2": "extraAtion",
-    "value2": true,
-    "key3": "power_up",
-    "value3": 0.3,
-    "key4": "CUR_CD",
-    "value4": 0,
-    "key5": "NEED_BP",
-    "value5": 6
   },
   "1005002001": {
     "name": "主角技能",
@@ -3993,243 +3705,6 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005005001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗235%攻击的生命,并添加持续恢复效果，每回合恢复30%攻击的生命值，持续2回合",
-    "targetType": "team_all",
-    "mul": 2.35,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
-  },
-  "1005005002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗270%攻击的生命，每回合恢复40%攻击的生命值，持续2回合",
-    "targetType": "team_all",
-    "mul": 2.7,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}"
-  },
-  "1005005003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗305%攻击的生命，每回合恢复50%攻击的生命值，持续2回合",
-    "targetType": "team_all",
-    "mul": 3.05,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
-  },
-  "1005005004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "为我方全体治疗340%攻击的生命，每回合恢复60%攻击的生命值，持续2回合",
-    "targetType": "team_all",
-    "mul": 3.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
-  },
-  "1005005005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "治疗时驱散目标所有负面状态",
-    "targetType": "team_all",
-    "mul": 3.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "cleanDebuff",
-    "value2": true
-  },
-  "1005005006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升30%",
-    "targetType": "team_all",
-    "mul": 3.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "cleanDebuff",
-    "value2": true,
-    "key3": "power_up",
-    "value3": 0.3
-  },
-  "1005005007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "技能额外恢复目标生命上限20%的血量",
-    "targetType": "team_all",
-    "mul": 3.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
-    "key2": "cleanDebuff",
-    "value2": true,
-    "key3": "power_up",
-    "value3": 0.3,
-    "key4": "heal_maxHp",
-    "value4": 0.2
-  },
-  "1005006001": {
-    "name": "主角技能",
-    "des": "40%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
-    "key2": "use_change_bp",
-    "value2": 1
-  },
-  "1005006002": {
-    "name": "主角技能",
-    "des": "60%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
-    "key2": "use_change_bp",
-    "value2": 1
-  },
-  "1005006003": {
-    "name": "主角技能",
-    "des": "80%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.8}",
-    "key2": "use_change_bp",
-    "value2": 1
-  },
-  "1005006004": {
-    "name": "主角技能",
-    "des": "100%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗+1",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1
-  },
-  "1005006005": {
-    "name": "主角技能",
-    "des": "使用技能时，敌方所有技能增加1回合冷却时间",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1
-  },
-  "1005006006": {
-    "name": "主角技能",
-    "des": "所有主动技能效果提升30%",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1,
-    "key4": "power_up",
-    "value4": 0.3
-  },
-  "1005006007": {
-    "name": "主角技能",
-    "des": "使用技能时，敌方本回合内所有BP消耗增加1点",
-    "targetType": "enemy_1",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1,
-    "key4": "power_up",
-    "value4": 0.3,
-    "key5": "enemy_bp_up",
-    "value5": 1
-  },
-  "1005007001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "随机复活一名友方宝可梦，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复120%攻击力的生命值，此技能每次使用BP消耗+1",
-    "targetType": "team_minHp_1",
-    "mul": 1.2,
-    "key1": "rescue_heal",
-    "value1": 0.1,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "随机复活一名友方宝可梦，恢复其25%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复150%攻击力的生命值，此技能每次使用BP消耗+1",
-    "targetType": "team_minHp_1",
-    "mul": 1.5,
-    "key1": "rescue_heal",
-    "value1": 0.25,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "随机复活一名友方宝可梦，恢复其40%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复180%攻击力的生命值，此技能每次使用BP消耗+1",
-    "targetType": "team_minHp_1",
-    "mul": 1.8,
-    "key1": "rescue_heal",
-    "value1": 0.4,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "随机复活一名友方宝可梦，恢复其55%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复210%攻击力的生命值，此技能每次使用BP消耗+1",
-    "targetType": "team_minHp_1",
-    "mul": 2.1,
-    "key1": "rescue_heal",
-    "value1": 0.55,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "释放技能时，为目标添加无敌盾，持续1回合",
-    "targetType": "team_minHp_1",
-    "mul": 2.1,
-    "key1": "rescue_heal",
-    "value1": 0.55,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升30%",
-    "targetType": "team_minHp_1",
-    "mul": 2.1,
-    "key1": "rescue_heal",
-    "value1": 0.55,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.3,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
-  "1005007007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "复活恢复目标所有血量，无敌盾升级为超级无敌盾，免疫所有伤害和控制效果",
-    "targetType": "team_minHp_1",
-    "mul": 2.1,
-    "key1": "rescue_heal",
-    "value1": 1,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.3,
-    "key4": "use_change_bp",
-    "value4": 1
-  },
   "1005008001": {
     "name": "主角技能",
     "type": "attack",
@@ -4296,67 +3771,6 @@
     "key2": "power_up",
     "value2": 0.3,
     "key3": "power_kill_bp",
-    "value3": 1
-  },
-  "1005009001": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "恢复我方血量最少的目标300%攻击力的生命值",
-    "targetType": "friend_minHp_1",
-    "mul": 3
-  },
-  "1005009002": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "恢复我方血量最少的目标330%攻击力的生命值",
-    "targetType": "friend_minHp_1",
-    "mul": 3.3
-  },
-  "1005009003": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "恢复我方血量最少的目标360%攻击力的生命值",
-    "targetType": "friend_minHp_1",
-    "mul": 3.6
-  },
-  "1005009004": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "恢复我方血量最少的目标390%攻击力的生命值",
-    "targetType": "friend_minHp_1",
-    "mul": 3.9
-  },
-  "1005009005": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "此技能每使用1次，增加10%最终治疗结果，可叠加",
-    "targetType": "friend_minHp_1",
-    "mul": 3.9,
-    "key1": "use_up_mul",
-    "value1": 0.1
-  },
-  "1005009006": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "所有主动技能效果提升30%",
-    "targetType": "friend_minHp_1",
-    "mul": 3.9,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.3
-  },
-  "1005009007": {
-    "name": "主角技能",
-    "type": "heal",
-    "des": "使用此技能后，降低下一个技能BP消耗1点",
-    "targetType": "friend_minHp_1",
-    "mul": 3.9,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.3,
-    "key3": "use_un_bp",
     "value3": 1
   },
   "1005010001": {
@@ -4440,5 +3854,591 @@
     "value3": 0.3,
     "key4": "seckill",
     "value4": 1
+  },
+  "1006031001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复70%攻击力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 0.7
+  },
+  "1006031002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复80%攻击力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 0.8
+  },
+  "1006031003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复90%攻击力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 0.9
+  },
+  "1006031004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复100%攻击力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 1
+  },
+  "1006031005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时驱散目标身上的1个非控制类异常状态",
+    "targetType": "team_minHp_2",
+    "mul": 1,
+    "key1": "clean_one_lowe",
+    "value1": true
+  },
+  "1006031006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升15%",
+    "targetType": "team_minHp_2",
+    "mul": 1,
+    "key1": "clean_one_lowe",
+    "value1": true,
+    "key2": "power_up",
+    "value2": 0.15
+  },
+  "1006031007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "技能目标增加为我方血量最少的3个目标",
+    "targetType": "team_minHp_3",
+    "mul": 1,
+    "key1": "clean_one_lowe",
+    "value1": true,
+    "key2": "power_up",
+    "value2": 0.15
+  },
+  "1006041001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "恢复我方血量最少的目标200%攻击力的生命值",
+    "targetType": "friend_minHp_1",
+    "mul": 2
+  },
+  "1006041002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "恢复我方血量最少的目标220%攻击力的生命值",
+    "targetType": "friend_minHp_1",
+    "mul": 2.2
+  },
+  "1006041003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "恢复我方血量最少的目标240%攻击力的生命值",
+    "targetType": "friend_minHp_1",
+    "mul": 2.4
+  },
+  "1006041004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "恢复我方血量最少的目标260%攻击力的生命值",
+    "targetType": "friend_minHp_1",
+    "mul": 2.6
+  },
+  "1006041005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "此技能每使用1次，增加10%最终治疗结果，可叠加",
+    "targetType": "friend_minHp_1",
+    "mul": 2.6,
+    "key1": "use_up_mul",
+    "value1": 0.1
+  },
+  "1006041006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升20%",
+    "targetType": "friend_minHp_1",
+    "mul": 2.6,
+    "key1": "use_up_mul",
+    "value1": 0.1,
+    "key2": "power_up",
+    "value2": 0.2
+  },
+  "1006041007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "使用此技能后，降低下一个技能BP消耗1点",
+    "targetType": "friend_minHp_1",
+    "mul": 2.6,
+    "key1": "use_up_mul",
+    "value1": 0.1,
+    "key2": "power_up",
+    "value2": 0.2,
+    "key3": "use_un_bp",
+    "value3": 1
+  },
+  "1006051001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗100%攻击的生命,并提高16%的免伤，持续2回合",
+    "targetType": "team_all",
+    "mul": 1,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006051002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗120%攻击的生命,并提高20%的免伤，持续2回合",
+    "targetType": "team_all",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006051003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗140%攻击的生命,并提高24%的免伤，持续2回合",
+    "targetType": "team_all",
+    "mul": 1.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006051004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗160%攻击的生命,并提高28%的免伤，持续2回合",
+    "targetType": "team_all",
+    "mul": 1.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006051005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时添加伤害吸收盾，吸收生命值上限30%的伤害，持续1回合",
+    "targetType": "team_all",
+    "mul": 1.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+  },
+  "1006051006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升30%",
+    "targetType": "team_all",
+    "mul": 1.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
+    "key3": "power_up",
+    "value3": 0.15
+  },
+  "1006051007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时，为我方随机单体添加无敌盾，持续1回合",
+    "targetType": "team_all",
+    "mul": 1.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
+    "key3": "power_up",
+    "value3": 0.15,
+    "key4": "buff3",
+    "value4": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "1006052001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗235%攻击的生命,并添加持续恢复效果，每回合恢复30%攻击的生命值，持续2回合",
+    "targetType": "team_all",
+    "mul": 2.35,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006052002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗270%攻击的生命，每回合恢复50%攻击的生命值，持续2回合",
+    "targetType": "team_all",
+    "mul": 2.7,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006052003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗305%攻击的生命，每回合恢复70%攻击的生命值，持续2回合",
+    "targetType": "team_all",
+    "mul": 3.05,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.7,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006052004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "为我方全体治疗340%攻击的生命，每回合恢复100%攻击的生命值，持续2回合",
+    "targetType": "team_all",
+    "mul": 3.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006052005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "治疗时驱散目标所有负面状态",
+    "targetType": "team_all",
+    "mul": 3.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "cleanDebuff",
+    "value2": true
+  },
+  "1006052006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升30%",
+    "targetType": "team_all",
+    "mul": 3.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "cleanDebuff",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3
+  },
+  "1006052007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "技能额外恢复目标生命上限20%的血量",
+    "targetType": "team_all",
+    "mul": 3.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "cleanDebuff",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3,
+    "key4": "heal_maxHp",
+    "value4": 0.2
+  },
+  "1006053001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "提高我方全体宝可梦16%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006053002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "提高我方全体宝可梦20%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006053003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "提高我方全体宝可梦24%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006053004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "提高我方全体宝可梦28%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
+  },
+  "1006053005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时，为我方攻击力最高的宝可梦恢复1点怒气",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 1
+  },
+  "1006053006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升15%",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 1,
+    "key3": "power_up",
+    "value3": 0.15
+  },
+  "1006053007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时，为我方全体宝可梦恢复1点怒气",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_anger_a",
+    "value2": 1,
+    "key3": "power_up",
+    "value3": 0.15
+  },
+  "1006054001": {
+    "name": "红颜技能",
+    "des": "40%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
+    "key2": "use_change_bp",
+    "value2": 1
+  },
+  "1006054002": {
+    "name": "红颜技能",
+    "des": "60%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
+    "key2": "use_change_bp",
+    "value2": 1
+  },
+  "1006054003": {
+    "name": "红颜技能",
+    "des": "80%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.8}",
+    "key2": "use_change_bp",
+    "value2": 1
+  },
+  "1006054004": {
+    "name": "红颜技能",
+    "des": "100%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗+1",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "use_change_bp",
+    "value2": 1
+  },
+  "1006054005": {
+    "name": "红颜技能",
+    "des": "使用技能时，敌方所有技能增加1回合冷却时间",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "use_change_bp",
+    "value2": 1,
+    "key3": "enemy_cd_up",
+    "value3": 1
+  },
+  "1006054006": {
+    "name": "红颜技能",
+    "des": "所有主动技能效果提升30%",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "use_change_bp",
+    "value2": 1,
+    "key3": "enemy_cd_up",
+    "value3": 1,
+    "key4": "power_up",
+    "value4": 0.3
+  },
+  "1006054007": {
+    "name": "红颜技能",
+    "des": "使用技能时，敌方本回合内所有BP消耗增加1点",
+    "targetType": "enemy_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "use_change_bp",
+    "value2": 1,
+    "key3": "enemy_cd_up",
+    "value3": 1,
+    "key4": "power_up",
+    "value4": 0.3,
+    "key5": "enemy_bp_up",
+    "value5": 1
+  },
+  "1006055001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "随机复活一名友方宝可梦，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复120%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.2,
+    "key1": "rescue_heal",
+    "value1": 0.1,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "随机复活一名友方宝可梦，恢复其25%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复150%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.5,
+    "key1": "rescue_heal",
+    "value1": 0.25,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "随机复活一名友方宝可梦，恢复其40%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复180%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 1.8,
+    "key1": "rescue_heal",
+    "value1": 0.4,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "随机复活一名友方宝可梦，恢复其55%的生命值。若没有队友阵亡，则为生命值最低的友方宝可梦恢复210%攻击力的生命值，此技能每次使用BP消耗+1",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
+    "key1": "rescue_heal",
+    "value1": 0.55,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "释放技能时，为目标添加无敌盾，持续1回合",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
+    "key1": "rescue_heal",
+    "value1": 0.55,
+    "key2": "buff1",
+    "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升30%",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
+    "key1": "rescue_heal",
+    "value1": 0.55,
+    "key2": "buff1",
+    "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key3": "power_up",
+    "value3": 0.3,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006055007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "复活恢复目标所有血量，无敌盾升级为超级无敌盾，免疫所有伤害和控制效果",
+    "targetType": "team_minHp_1",
+    "mul": 2.1,
+    "key1": "rescue_heal",
+    "value1": 1,
+    "key2": "buff1",
+    "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key3": "power_up",
+    "value3": 0.3,
+    "key4": "use_change_bp",
+    "value4": 1
+  },
+  "1006056001": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "使我方随机单体获得一个额外回合，并获得伤害增加10%效果，持续1回合",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true
+  },
+  "1006056002": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "伤害增加15%，BP消耗降低至11",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 11
+  },
+  "1006056003": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "伤害增加20%，BP消耗降低至10",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 10
+  },
+  "1006056004": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "伤害增加25%，BP消耗降低至9",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 9
+  },
+  "1006056005": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "技能目标优先选择我方攻击力最高目标",
+    "targetType": "team_maxAtk_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key5": "NEED_BP",
+    "value5": 9
+  },
+  "1006056006": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "所有主动技能效果提升30%",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3,
+    "key5": "NEED_BP",
+    "value5": 9
+  },
+  "1006056007": {
+    "name": "红颜技能",
+    "type": "heal",
+    "des": "技能开场即可使用，BP消耗降低至6点",
+    "targetType": "team_1",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "key2": "extraAtion",
+    "value2": true,
+    "key3": "power_up",
+    "value3": 0.3,
+    "key4": "CUR_CD",
+    "value4": 0,
+    "key5": "NEED_BP",
+    "value5": 6
   }
 }
