@@ -139,7 +139,7 @@
     "key": "bazaar",
     "openlv": 14,
     "desc": "神秘商店，有概率刷新特价稀有道具",
-    "target": "hallNode/map/content/mapNode/near/btnBazaar"
+    "target": "hallNode/mainBtn/btnShop"
   },
   "22": {
     "name": "历练",
@@ -190,7 +190,7 @@
     "key": "smithy",
     "openlv": 19,
     "desc": "合成极品装备，合成稀有护符，提升侠客属性",
-    "target": "hallNode/map/content/mapNode/near/btnSmithy"
+    "target": "hallNode/mainBtn/btnSmithy"
   },
   "29": {
     "name": "极限挑战",
@@ -275,14 +275,14 @@
     "key": "pit",
     "openlv": 60,
     "desc": "四圣宝石加持，加强侠客属性",
-    "target": "uiNode/bottomNode/btnExperience"
+    "target": "uiNode/bottomNode/btnHero"
   },
   "41": {
     "name": "玉石矿场",
     "key": "pit",
     "openlv": 60,
     "desc": "玉石矿场，挖掘玉石",
-    "target": "uiNode/bottomNode/btnExperience",
+    "target": "uiNode/bottomNode/btnBattle",
     "targetChild": true
   },
   "42": {
@@ -364,7 +364,7 @@
     "key": "superEquip",
     "openlv": 100,
     "desc": "神装在手，征战天下一统乱世",
-    "target": "hallNode/map/content/mapNode/near/btnSmithy",
+    "target": "hallNode/mainBtn/btnSmithy",
     "targetChild": true
   },
   "53": {
