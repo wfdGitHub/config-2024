@@ -2102,6 +2102,30 @@
     "targetType": "enemy_normal",
     "mul": 6
   },
+  "8051601": {
+    "name": "斧击",
+    "type": "attack",
+    "des": "对敌方随机单体造成200%攻击力的物理伤害,有30%概率眩晕,若击杀目标，重复释放此技能",
+    "damageType": "phy",
+    "targetType": "enemy_1",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}",
+    "key2": "killRet",
+    "value2": true
+  },
+  "8051602": {
+    "name": "开天辟地",
+    "type": "attack",
+    "des": "对敌方随机单体造成400%攻击力的物理伤害,有100%概率眩晕,若击杀目标，重复释放此技能",
+    "damageType": "phy",
+    "targetType": "enemy_1",
+    "mul": 4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "killRet",
+    "value2": true
+  },
   "1002001001": {
     "name": "主角技能",
     "type": "attack",
