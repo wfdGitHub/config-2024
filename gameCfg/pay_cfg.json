@@ -2,14 +2,14 @@
   "1001": {
     "type": "lv_fund",
     "name": "等级基金",
-    "rmb": 128,
-    "cent": 12800
+    "rmb": 88,
+    "cent": 8800
   },
   "1002": {
     "type": "highCard",
     "name": "至尊特权",
-    "rmb": 88,
-    "cent": 8800
+    "rmb": 128,
+    "cent": 12800
   },
   "1003": {
     "type": "warHorn",
@@ -21,22 +21,19 @@
     "type": "quick_pri",
     "name": "快速作战特权",
     "rmb": 68,
-    "cent": 6800,
-    "dianpiao": 680
+    "cent": 6800
   },
   "1005": {
     "type": "tour_pri",
     "name": "英雄任务特权",
-    "rmb": 10,
-    "cent": 1000,
-    "dianpiao": 100
+    "rmb": 58,
+    "cent": 5800
   },
   "1006": {
     "type": "stone_pri",
     "name": "玉石矿场特权",
-    "rmb": 10,
-    "cent": 1000,
-    "dianpiao": 100
+    "rmb": 58,
+    "cent": 5800
   },
   "1011": {
     "type": "wuxian",
@@ -66,8 +63,8 @@
     "type": "gmLv",
     "name": "gm1",
     "arg": 1,
-    "rmb": 1,
-    "cent": 100
+    "rmb": 6,
+    "cent": 600
   },
   "1202": {
     "type": "gmLv",
@@ -87,16 +84,16 @@
     "type": "gmLv",
     "name": "gm4",
     "arg": 4,
-    "rmb": 128,
-    "cent": 12800
+    "rmb": 198,
+    "cent": 19800
   },
   "2001": {
     "type": "recharge",
-    "name": "直充6元",
+    "name": "直充10元",
     "arg": 1,
-    "rmb": 6,
-    "cent": 600,
-    "dianpiao": 6
+    "rmb": 10,
+    "cent": 1000,
+    "dianpiao": 10
   },
   "2002": {
     "type": "recharge",
@@ -242,7 +239,7 @@
     "cent": 50000,
     "dianpiao": 500,
     "gift_type": "box_day",
-    "award": "1000080:50&201:500000&1000160:20&1000170:35",
+    "award": "1000080:50&505001:30&1000160:20&1000170:35",
     "updateType": "day",
     "count": 1
   },
@@ -254,7 +251,7 @@
     "cent": 80000,
     "dianpiao": 800,
     "gift_type": "box_day",
-    "award": "1000080:80&201:1000000&1000160:30&1000170:40",
+    "award": "1000080:80&505001:60&1000160:30&1000170:40",
     "updateType": "day",
     "count": 1
   },
@@ -266,7 +263,7 @@
     "cent": 100000,
     "dianpiao": 1000,
     "gift_type": "box_day",
-    "award": "1000080:100&201:5000000&1000160:50&1000170:50",
+    "award": "1000080:100&505001:120&1000160:50&1000170:50",
     "updateType": "day",
     "count": 1
   },
@@ -1188,7 +1185,7 @@
     "name": "新服特惠54",
     "arg": "hero_54",
     "rmb": 106,
-    "cent": "s",
+    "cent": 10600,
     "gift_type": "gift_loop",
     "award": "200:2120000&110:1060&201:1060000&101:1060000",
     "updateType": "always",
@@ -1746,56 +1743,111 @@
   },
   "7501": {
     "type": "fast",
-    "name": "购买可直升60级",
+    "name": "购买可获得武林至尊卡",
     "arg": "super_1",
-    "rmb": 1,
-    "cent": 100,
+    "rmb": 28,
+    "cent": 2800,
     "gift_type": "gift_loop",
-    "award": "100:12702580&201:100000&101:100000&1000050:1000",
+    "award": "1000604:1",
     "updateType": "always",
     "count": 1
   },
   "7502": {
     "type": "fast",
-    "name": "购买可获得养成材料",
+    "name": "购买可获得1亿铜钱",
     "arg": "super_2",
-    "rmb": 2,
-    "cent": 200,
+    "rmb": 30,
+    "cent": 3000,
     "gift_type": "gift_loop",
-    "award": "1000150:20&201:2000000&101:2000000&1000050:2000",
+    "award": "201:100000000",
     "updateType": "always",
     "count": 1
   },
   "7503": {
     "type": "fast",
-    "name": "购买可获得红色套装",
+    "name": "购买可获得1亿侠客经验",
     "arg": "super_3",
-    "rmb": 3,
-    "cent": 300,
+    "rmb": 38,
+    "cent": 3800,
     "gift_type": "gift_loop",
-    "award": "5012010:1&5012020:1&5012030:1&5012040:1",
+    "award": "101:100000000",
     "updateType": "always",
     "count": 1
   },
   "7504": {
     "type": "fast",
-    "name": "购买可获得高级宝石",
+    "name": "购买可获得10万进阶石",
     "arg": "super_4",
-    "rmb": 6,
-    "cent": 600,
+    "rmb": 68,
+    "cent": 6800,
     "gift_type": "gift_loop",
-    "award": "400010300:1&400020300:1&400030300:1&400040300:1",
+    "award": "1000050:100000",
     "updateType": "always",
     "count": 1
   },
   "7505": {
     "type": "fast",
-    "name": "购买可直升GM20",
+    "name": "购买可获得至尊护符",
     "arg": "super_5",
-    "rmb": 30,
-    "cent": 3000,
+    "rmb": 98,
+    "cent": 9800,
     "gift_type": "gift_loop",
-    "award": "1000604:1&201:3000000&101:3000000&1000050:30000",
+    "award": "4004:1&1000040:98",
+    "updateType": "always",
+    "count": 1
+  },
+  "7506": {
+    "type": "fast",
+    "name": "购买可获得江湖名帖",
+    "arg": "super_6",
+    "rmb": 198,
+    "cent": 19800,
+    "gift_type": "gift_loop",
+    "award": "1000120:100",
+    "updateType": "always",
+    "count": 1
+  },
+  "7507": {
+    "type": "fast",
+    "name": "购买可获得万能神兵",
+    "arg": "super_7",
+    "rmb": 328,
+    "cent": 32800,
+    "gift_type": "gift_loop",
+    "award": "1000150:300",
+    "updateType": "always",
+    "count": 1
+  },
+  "7508": {
+    "type": "fast",
+    "name": "购买可获得直升六星",
+    "arg": "super_8",
+    "rmb": 648,
+    "cent": 64800,
+    "gift_type": "gift_loop",
+    "award": "1000190:30",
+    "updateType": "always",
+    "count": 1
+  },
+  "7509": {
+    "type": "fast",
+    "name": "购买可获得1亿元宝",
+    "arg": "super_9",
+    "rmb": 1980,
+    "cent": 198000,
+    "gift_type": "gift_loop",
+    "award": "200:100000000",
+    "updateType": "always",
+    "count": 1
+  },
+  "7510": {
+    "type": "fast",
+    "name": "购买可获得傲世套装",
+    "arg": "super_10",
+    "rmb": 2998,
+    "cent": 299800,
+    "gift_type": "gift_loop",
+    "award": "205517010:1",
     "updateType": "always",
     "count": 1
   },
@@ -2335,11 +2387,10 @@
     "type": "fast",
     "name": "超级资源阁直升",
     "arg": 1,
-    "rmb": 1000,
-    "cent": 100000,
-    "dianpiao": 1000,
+    "rmb": 128,
+    "cent": 12800,
     "gift_type": "super_store",
-    "award": "206050514:1&104505010:1&104505110:1&108008008:100",
+    "award": "110:12800&104505010:1&104505110:1&108008008:100",
     "updateType": "always",
     "count": 1
   },
@@ -2372,7 +2423,7 @@
     "rmb": 3,
     "cent": 300,
     "gift_type": "super_store",
-    "award": "1000602:10",
+    "award": "10010:1",
     "updateType": "always",
     "count": 1
   },
@@ -2394,7 +2445,7 @@
     "rmb": 1,
     "cent": 100,
     "gift_type": "super_store",
-    "award": "201:10000000",
+    "award": "201:20000000",
     "updateType": "always",
     "count": 1
   },
@@ -2405,7 +2456,7 @@
     "rmb": 2,
     "cent": 200,
     "gift_type": "super_store",
-    "award": "101:10000000",
+    "award": "101:20000000",
     "updateType": "always",
     "count": 1
   },
@@ -2416,7 +2467,7 @@
     "rmb": 10,
     "cent": 1000,
     "gift_type": "super_store",
-    "award": "1000602:30",
+    "award": "10010:2",
     "updateType": "always",
     "count": 1
   },
@@ -2438,7 +2489,7 @@
     "rmb": 1,
     "cent": 100,
     "gift_type": "super_store",
-    "award": "201:10000000",
+    "award": "201:30000000",
     "updateType": "always",
     "count": 1
   },
@@ -2449,7 +2500,7 @@
     "rmb": 2,
     "cent": 200,
     "gift_type": "super_store",
-    "award": "101:10000000",
+    "award": "101:30000000",
     "updateType": "always",
     "count": 1
   },
@@ -2457,10 +2508,10 @@
     "type": "fast",
     "name": "超级资源阁23003",
     "arg": 3,
-    "rmb": 50,
-    "cent": 5000,
+    "rmb": 30,
+    "cent": 3000,
     "gift_type": "super_store",
-    "award": "1000150:50",
+    "award": "10010:3",
     "updateType": "always",
     "count": 1
   },
@@ -2471,7 +2522,7 @@
     "rmb": 100,
     "cent": 10000,
     "gift_type": "super_store",
-    "award": "105140:30",
+    "award": "1000190:1",
     "updateType": "always",
     "count": 1
   },
@@ -2482,7 +2533,7 @@
     "rmb": 10,
     "cent": 1000,
     "gift_type": "super_store",
-    "award": "10010:1",
+    "award": "10010:5",
     "updateType": "always",
     "count": 1
   },
