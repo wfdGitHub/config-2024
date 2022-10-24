@@ -292,13 +292,13 @@
   },
   "4129": {
     "name": "意志",
-    "des": "击退目标后伤害提升5%",
+    "des": "击杀目标后伤害提升5%",
     "key1": "kill_amp",
     "value1": 0.05
   },
   "4130": {
     "name": "嗜血",
-    "des": "击退目标后回复自身最大生命10%血量",
+    "des": "击杀目标后回复自身最大生命10%血量",
     "key1": "kill_heal",
     "value1": 0.1
   },
@@ -492,13 +492,13 @@
   },
   "4229": {
     "name": "意志",
-    "des": "击退目标后伤害提升7%",
+    "des": "击杀目标后伤害提升7%",
     "key1": "kill_amp",
     "value1": 0.07
   },
   "4230": {
     "name": "嗜血",
-    "des": "击退目标后回复自身最大生命15%血量",
+    "des": "击杀目标后回复自身最大生命15%血量",
     "key1": "kill_heal",
     "value1": 0.15
   },
@@ -692,13 +692,13 @@
   },
   "4329": {
     "name": "意志",
-    "des": "击退目标后伤害提升10%",
+    "des": "击杀目标后伤害提升10%",
     "key1": "kill_amp",
     "value1": 0.1
   },
   "4330": {
     "name": "嗜血",
-    "des": "击退目标后回复自身最大生命20%血量",
+    "des": "击杀目标后回复自身最大生命20%血量",
     "key1": "kill_heal",
     "value1": 0.2
   },
@@ -892,13 +892,13 @@
   },
   "4429": {
     "name": "意志",
-    "des": "击退目标后伤害提升15%",
+    "des": "击杀目标后伤害提升15%",
     "key1": "kill_amp",
     "value1": 0.15
   },
   "4430": {
     "name": "嗜血",
-    "des": "击退目标后回复自身最大生命30%血量",
+    "des": "击杀目标后回复自身最大生命30%血量",
     "key1": "kill_heal",
     "value1": 0.3
   },
@@ -1092,13 +1092,13 @@
   },
   "4529": {
     "name": "意志",
-    "des": "击退目标后伤害提升20%",
+    "des": "击杀目标后伤害提升20%",
     "key1": "kill_amp",
     "value1": 0.2
   },
   "4530": {
     "name": "嗜血",
-    "des": "击退目标后回复自身最大生命40%血量",
+    "des": "击杀目标后回复自身最大生命40%血量",
     "key1": "kill_heal",
     "value1": 0.4
   },
@@ -1317,7 +1317,7 @@
     "value1": 0.05
   },
   "9503": {
-    "des": "释放技能时，有10%概率附加缠绕效果，持续1回合",
+    "des": "释放技能时，有10%概率附加折戟效果，持续1回合",
     "key1": "skill_buff_ace",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
@@ -1417,12 +1417,12 @@
     "value1": 1
   },
   "9605": {
-    "des": "技能直接击退敌方目标时，获得目标剩余的所有怒气",
+    "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气",
     "key1": "kill_rob_anger",
     "value1": true
   },
   "9606": {
-    "des": "直接伤害击退目标后，回复自身生命上限的30%的生命",
+    "des": "直接伤害击杀目标后，回复自身生命上限的30%的生命",
     "key1": "kill_heal",
     "value1": 0.3
   },
@@ -1457,7 +1457,7 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "9613": {
-    "des": "受到控制效果（缠绕、沉默、眩晕、嘲讽）概率降低35%",
+    "des": "受到控制效果（折戟、沉默、眩晕、嘲讽）概率降低35%",
     "key1": "control_buff_lowrate",
     "value1": 0.35
   },
@@ -1467,7 +1467,7 @@
     "value1": true
   },
   "9615": {
-    "des": "攻击触发感电效果时，有15%概率缠绕目标，持续1回合",
+    "des": "攻击触发感电效果时，有15%概率折戟目标，持续1回合",
     "key1": "gd_mb",
     "value1": 0.15
   },
@@ -1801,7 +1801,7 @@
     "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "10502020": {
-    "des": "入场时，为所有同阵营英雄添加水神护盾，持续2回合",
+    "des": "入场时，为所有同阵营英雄添加水镜护盾，持续2回合",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_realm\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
@@ -1898,17 +1898,17 @@
     "value2": 0.12
   },
   "10505006": {
-    "des": "击退目标后恢复自身1点怒气",
+    "des": "击杀目标后恢复自身1点怒气",
     "key1": "kill_anger",
     "value1": 1
   },
   "10505009": {
-    "des": "直接伤害击退目标后追加一次普通攻击",
+    "des": "直接伤害击杀目标后追加一次普通攻击",
     "key1": "kill_add_d_s",
     "value1": true
   },
   "10505010": {
-    "des": "击退目标后，为自身添加水神护盾，并恢复最大生命值的30%",
+    "des": "击杀目标后，为自身添加水镜护盾，并恢复最大生命值的30%",
     "key1": "kill_buff1",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}",
     "key2": "kill_heal",
@@ -1949,7 +1949,7 @@
     "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "10506010": {
-    "des": "释放技能时，缠绕概率提升为100%",
+    "des": "释放技能时，折戟概率提升为100%",
     "key1": "skill_buff2",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -2104,7 +2104,7 @@
     "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.5}"
   },
   "10510009": {
-    "des": "击退目标后吞噬其剩余怒气值",
+    "des": "击杀目标后吞噬其剩余怒气值",
     "key1": "kill_rob_anger",
     "value1": true
   },
@@ -2114,7 +2114,7 @@
     "value1": 0.15
   },
   "10510011": {
-    "des": "直接伤害击退目标后增加自身20%暴击率和20%的暴击伤害",
+    "des": "直接伤害击杀目标后增加自身20%暴击率和20%的暴击伤害",
     "key1": "kill_crit",
     "value1": 0.2,
     "key2": "kill_slay",
@@ -2388,7 +2388,7 @@
     "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "20506009": {
-    "des": "每击退一个目标，自身暴击率和暴击伤害增加10%,可叠加",
+    "des": "每击杀一个目标，自身暴击率和暴击伤害增加10%,可叠加",
     "key1": "kill_crit",
     "value1": 0.1,
     "key2": "kill_slay",
@@ -2402,7 +2402,7 @@
     "value2": 0.3
   },
   "20506011": {
-    "des": "每击退一个目标增加自身24%的伤害，可叠加。",
+    "des": "每击杀一个目标增加自身24%的伤害，可叠加。",
     "key1": "kill_amp",
     "value1": 0.24
   },
@@ -2412,7 +2412,7 @@
     "value1": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "20506025": {
-    "des": "击退目标后恢复自身2点怒气",
+    "des": "击杀目标后恢复自身2点怒气",
     "key1": "kill_anger",
     "value1": 2
   },
@@ -2468,7 +2468,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "20508009": {
-    "des": "释放技能时，若目标处于灼烧状态，有100%概率添加缠绕，持续1回合",
+    "des": "释放技能时，若目标处于灼烧状态，有100%概率添加折戟，持续1回合",
     "key1": "burn_buff_change_skill",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -2635,7 +2635,7 @@
     "value1": 3050103
   },
   "30501011": {
-    "des": "追加普攻额外造成目标生命值上限15%的伤害。技能击退目标后，溢出伤害的50%将对血量最高的攻击目标造成伤害",
+    "des": "追加普攻额外造成目标生命值上限15%的伤害。技能击杀目标后，溢出伤害的50%将对血量最高的攻击目标造成伤害",
     "key1": "add_default_maxHp",
     "value1": 0.15,
     "key2": "overDamageToMaxHp",
@@ -2710,7 +2710,7 @@
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30503010": {
-    "des": "每次击退目标后增加自身10%伤害，并恢复自身20%最大生命值",
+    "des": "每次击杀目标后增加自身10%伤害，并恢复自身20%最大生命值",
     "key1": "kill_amp",
     "value1": 0.1,
     "key2": "kill_heal",
@@ -2786,7 +2786,7 @@
     "value1": 0.1
   },
   "30505010": {
-    "des": "直接伤害击退目标后，增加自身10%暴击率和10%暴击伤害，可叠加",
+    "des": "直接伤害击杀目标后，增加自身10%暴击率和10%暴击伤害，可叠加",
     "key1": "kill_crit",
     "value1": 0.1,
     "key2": "kill_slay",
@@ -2798,7 +2798,7 @@
     "value1": true
   },
   "30505020": {
-    "des": "技能强化:对敌方生命值最少的单位造成400%攻击力的物理伤害，若击退目标，则再次释放技能（每回合不限制次数）",
+    "des": "技能强化:对敌方生命值最少的单位造成400%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "key1": "skill_change",
     "value1": 3050503,
     "key2": "skill_buff2",
@@ -2824,7 +2824,7 @@
     "value1": 1
   },
   "30506009": {
-    "des": "释放技能时缠绕概率提升至36%",
+    "des": "释放技能时折戟概率提升至36%",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.36}"
   },
@@ -2834,7 +2834,7 @@
     "value1": true
   },
   "30506011": {
-    "des": "入场时，随机缠绕2个敌方英雄，持续1回合,自身回合开始前，随机缠绕1个敌方英雄，持续1回合",
+    "des": "入场时，随机折戟2个敌方英雄，持续1回合,自身回合开始前，随机折戟1个敌方英雄，持续1回合",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key2": "action_buff1",
@@ -2846,7 +2846,7 @@
     "value1": "bm_hx"
   },
   "30506025": {
-    "des": "普通攻击有60%概率添加缠绕，持续1回合",
+    "des": "普通攻击有60%概率添加折戟，持续1回合",
     "key1": "normal_buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
@@ -2870,17 +2870,17 @@
     "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30507010": {
-    "des": "释放技能时对目标添加2层风筝印记",
+    "des": "释放技能时对目标添加2层连击印记",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "30507011": {
-    "des": "风筝印记额外造成10%生命值上限的伤害",
+    "des": "连击印记额外造成10%生命值上限的伤害",
     "key1": "add_default_maxHp",
     "value1": 0.1
   },
   "30507020": {
-    "des": "入场时，对敌方全体添加1层风筝印记",
+    "des": "入场时，对敌方全体添加1层连击印记",
     "key1": "maga_buff1",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -2987,7 +2987,7 @@
     "value1": true
   },
   "30510010": {
-    "des": "闪避率增加20%，击退目标后，为自身添加闪避祝福",
+    "des": "闪避率增加20%，击杀目标后，为自身添加闪避祝福",
     "key1": "dodgeRate",
     "value1": 0.2,
     "key2": "kill_buff1",
@@ -3140,7 +3140,7 @@
     "value1": 2
   },
   "40504020": {
-    "des": "自身每回合开始时随机获得一个增益效果（无敌吸血盾、铜墙铁壁、水神护盾、免控盾、闪避祝福）持续1回合",
+    "des": "自身每回合开始时随机获得一个增益效果（无敌吸血盾、铜墙铁壁、水镜护盾、免控盾、闪避祝福）持续1回合",
     "key1": "begin_round_buffs",
     "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}]"
   },
@@ -3216,7 +3216,7 @@
     "value1": 0.8
   },
   "40506020": {
-    "des": "技能强化:释放技能时有100%概率眩晕目标，击退目标后，获得超级无敌盾，持续1回合",
+    "des": "技能强化:释放技能时有100%概率眩晕目标，击杀目标后，获得超级无敌盾，持续1回合",
     "key1": "kill_buff1",
     "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -3407,7 +3407,7 @@
     "value1": "{\"buffId\":\"ghost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50501010": {
-    "des": "存活时每击退一个目标，亡魂持续回合数+1。亡魂状态下伤害增加50%",
+    "des": "存活时每击杀一个目标，亡魂持续回合数+1。亡魂状态下伤害增加50%",
     "key1": "kill_ghost_dur",
     "value1": true,
     "key2": "ghost_amp",
@@ -4292,7 +4292,7 @@
   },
   "zf_024": {
     "name": "猩红灵魂",
-    "des": "受到直接伤害死亡时，对击退自身的英雄造成40%最大生命值伤害",
+    "des": "受到直接伤害死亡时，对击杀自身的英雄造成40%最大生命值伤害",
     "key1": "died_maxHp_damage",
     "value1": 0.4
   },
@@ -4363,32 +4363,32 @@
     "value1": true
   },
   "suit_2_1": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收15%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收15%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.15
   },
   "suit_2_2": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收22%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收22%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.22
   },
   "suit_2_3": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收29%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收29%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.29
   },
   "suit_2_4": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收36%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收36%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.36
   },
   "suit_2_5": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收43%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收43%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.43
   },
   "suit_2_6": {
-    "des": "直接伤害击退敌方英雄后，为自身添加伤害吸收盾（吸收50%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收50%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.5
   },
@@ -4570,8 +4570,8 @@
     "value1": 0.15
   },
   "NPC_GDCR": {
-    "name": "感电缠绕",
-    "des": "攻击触发感电效果时，有60%概率缠绕目标，持续1回合",
+    "name": "感电折戟",
+    "des": "攻击触发感电效果时，有60%概率折戟目标，持续1回合",
     "key1": "gd_mb",
     "value1": 0.6
   },

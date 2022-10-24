@@ -6,10 +6,10 @@
     "desc": "充值"
   },
   "2": {
-    "name": "精灵实验室",
+    "name": "太庙",
     "key": "heroCenter",
     "openlv": 1,
-    "desc": "指定种族精灵招募，精灵直升，精灵分解，精灵置换都在这里"
+    "desc": "指定阵营英雄招募，英雄直升，英雄遣散，英雄置换都在这里"
   },
   "3": {
     "name": "VIP特权",
@@ -36,11 +36,11 @@
     "desc": "首充"
   },
   "7": {
-    "name": "试炼塔",
+    "name": "乱世之路",
     "key": "tower",
     "openlv": 1,
     "award": "110:5&1000050:10&1000080:1",
-    "desc": "勇闯试炼塔，获取大量进阶石"
+    "desc": "勇闯乱世之路，获取大量英雄进阶物品"
   },
   "8": {
     "name": "日常任务",
@@ -111,19 +111,19 @@
     "openlv": 25
   },
   "19": {
-    "name": "通行证",
+    "name": "战令",
     "key": "warHorn",
     "openlv": 11,
     "award": "110:5&1000050:10&1000080:1",
-    "desc": "通行证",
+    "desc": "解锁战令，完成战令任务获取丰厚奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
   },
   "20": {
-    "name": "日常副本",
+    "name": "材料副本",
     "key": "dailyFb",
     "openlv": 19,
     "award": "110:5&1000050:10&1000080:1",
-    "desc": "每日挑战，获得精灵培养材料",
+    "desc": "每日挑战，获得英雄培养材料",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
@@ -138,7 +138,7 @@
     "name": "经验副本",
     "key": "dailyFb_hero",
     "openlv": 19,
-    "desc": "经验副本，挑战可获得精灵经验",
+    "desc": "经验副本，挑战可获得英雄经验",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "23": {
@@ -149,20 +149,20 @@
     "target": "hallNode/mainNode/btnLimited"
   },
   "24": {
-    "name": "装备研究所",
+    "name": "铸造坊",
     "key": "smithy",
     "openlv": 15,
     "award": "110:5&105503010:1&1000080:1",
-    "desc": "合成极品装备，合成稀有护符，提升精灵属性",
+    "desc": "合成极品装备，合成稀有护符，提升英雄属性",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy",
     "targetChild": true
   },
   "25": {
-    "name": "精灵派遣",
+    "name": "英雄派遣",
     "key": "tour",
     "openlv": 16,
     "award": "110:5&1000090:1&1000160:1",
-    "desc": "派遣精灵执行任务，获得稀有奖励"
+    "desc": "派遣英雄执行任务，获得稀有奖励"
   },
   "26": {
     "name": "公会系统",
@@ -215,11 +215,11 @@
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
   },
   "33": {
-    "name": "神兽试炼",
+    "name": "魔神宝库",
     "key": "extremity",
     "openlv": 28,
     "award": "110:5&201:10000&101:10000",
-    "desc": "挑战神兽，突破自身上限",
+    "desc": "挑战魔神，突破自身上限",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
@@ -231,11 +231,11 @@
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge"
   },
   "35": {
-    "name": "梦幻模拟战",
+    "name": "沙盘演武",
     "key": "exercise",
     "openlv": 31,
     "award": "110:5&1000050:10&1000170:1",
-    "desc": "模拟对抗，获得大量精灵经验",
+    "desc": "沙场点兵，获得大量英雄经验",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
@@ -244,24 +244,24 @@
     "key": "manor",
     "openlv": 33,
     "award": "810:3000&820:10",
-    "desc": "建设家园，探索领地",
+    "desc": "建设封地，探索冒险",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/manor"
   },
   "37": {
-    "name": "宝可梦联赛",
+    "name": "煮酒论英雄",
     "key": "ancient",
     "openlv": 36,
     "award": "110:5&215:100&1000080:1",
-    "desc": "精灵对战，策略为王",
+    "desc": "英雄对战，策略为王",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
   "38": {
-    "name": "精灵圣塔",
+    "name": "英雄之路",
     "key": "tower_realm",
     "openlv": 40,
     "award": "110:5&1000050:10&1000080:1",
-    "desc": "勇闯圣塔，获取大量精灵碎片",
+    "desc": "勇闯英雄之路，获取大量英雄碎片",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "39": {
@@ -271,20 +271,20 @@
     "desc": "每日首充"
   },
   "40": {
-    "name": "狩猎森林",
+    "name": "无尽试炼",
     "key": "endless",
     "openlv": 45,
     "award": "110:5&201:10000&101:10000",
-    "desc": "森林探险，获取稀有道具",
+    "desc": "无尽试炼，获取稀有道具",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
   "41": {
-    "name": "大师擂台赛",
+    "name": "无双争霸",
     "key": "beherrscher",
     "openlv": 46,
     "award": "110:5&201:10000&101:10000",
-    "desc": "宝可梦大师专精，等你来战",
+    "desc": "争霸擂台，等你来战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "42": {
@@ -297,11 +297,11 @@
     "targetChild": true
   },
   "43": {
-    "name": "世界锦标赛",
+    "name": "王者巅峰赛",
     "key": "crossTop",
     "openlv": 57,
     "award": "110:5&211:100&1000080:1",
-    "desc": "最高赛事，角逐宝可梦最强王者",
+    "desc": "最高赛事，角逐英雄最强王者",
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/crossTop",
     "targetChild": true
   },
@@ -313,18 +313,18 @@
     "target": "hallNode/mainNode/btnLimited"
   },
   "45": {
-    "name": "限时捕捉",
+    "name": "限时招募",
     "key": "topic",
     "openlv": 58,
-    "desc": "可捕捉主题精灵，每日刷新主题",
+    "desc": "可招募主题英雄，每日刷新主题",
     "target": "hallNode/mainNode/btnLimited"
   },
   "46": {
-    "name": "华蓝洞窟",
+    "name": "皇陵探险",
     "key": "zhulu",
     "openlv": 59,
     "award": "110:5&206:100&1000080:1",
-    "desc": "探索洞窟，获得精灵石板",
+    "desc": "探索洞窟，获得英雄石板",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
@@ -341,11 +341,11 @@
     "key": "pit",
     "openlv": 60,
     "award": "110:5&1000501:1&1000080:1",
-    "desc": "加强精灵属性，增加被动技能，助力逆风翻盘",
+    "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "49": {
-    "name": "时空秘境",
+    "name": "英雄试炼",
     "key": "secretChallenge",
     "openlv": 65,
     "award": "110:5&201:10000&101:10000",
@@ -357,29 +357,29 @@
     "name": "技能宝石",
     "key": "pit_skill",
     "openlv": 70,
-    "desc": "穿戴技能石，提高精灵战力",
+    "desc": "穿戴技能石，提高英雄战力",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "51": {
-    "name": "石板系统",
+    "name": "宝物系统",
     "key": "ace",
     "openlv": 72,
     "award": "110:5&206:100&1000080:1",
-    "desc": "石板助阵精灵，发挥极致实力",
+    "desc": "宝物助阵英雄，发挥极致实力",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
   "52": {
-    "name": "精灵觉醒",
+    "name": "英雄觉醒",
     "key": "wake",
     "openlv": 80,
     "award": "110:5&201:10000&1000120:1",
-    "desc": "精灵突破极限，觉醒全新天赋",
+    "desc": "英雄突破极限，觉醒全新天赋",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
   "53": {
-    "name": "学习机系统",
+    "name": "战法系统",
     "key": "zhanfa",
     "openlv": 90,
     "award": "110:5&230:10&101:10000",
@@ -396,7 +396,7 @@
     "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy"
   },
   "55": {
-    "name": "道馆挑战",
+    "name": "血战华容",
     "key": "areaTrial",
     "openlv": 103,
     "award": "110:5&1000060:1&201:10000",
@@ -404,16 +404,16 @@
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "56": {
-    "name": "圣物系统",
+    "name": "神器系统",
     "key": "book",
     "openlv": 125,
     "award": "110:5&1000300:1000&1000400:1",
-    "desc": "圣物助战，全新特性战斗策略升级",
+    "desc": "神器助战，全新特性战斗策略升级",
     "target": "uiNode/frontNode/bottomNode/btnRole",
     "targetChild": true
   },
   "57": {
-    "name": "梦幻大乱斗",
+    "name": "天命之战",
     "key": "crossTeamPK",
     "openlv": 128,
     "award": "110:5&212:100&1000080:1",
@@ -452,12 +452,12 @@
     "openlv": 1
   },
   "64": {
-    "name": "世界商城",
+    "name": "王者商城",
     "key": "shop_crossTop",
     "openlv": 1
   },
   "65": {
-    "name": "乱斗商城",
+    "name": "天命商城",
     "key": "shop_crossTeamPK",
     "openlv": 1
   },
@@ -467,12 +467,12 @@
     "openlv": 1
   },
   "67": {
-    "name": "联赛商城",
+    "name": "远古商城",
     "key": "shop_ancient",
     "openlv": 1
   },
   "68": {
-    "name": "飞行大赛",
+    "name": "木牛流马",
     "key": "escort",
     "openlv": 1
   },
@@ -482,26 +482,26 @@
     "openlv": 1
   },
   "70": {
-    "name": "幻影转盘",
+    "name": "无双转盘",
     "key": "power_normal",
     "openlv": 50
   },
   "71": {
-    "name": "天书转盘",
+    "name": "神器转盘",
     "key": "bf_turntable",
     "openlv": 110
   },
   "72": {
-    "name": "超级幻影",
+    "name": "超级无双",
     "key": "power_super",
     "openlv": 120
   },
   "73": {
-    "name": "闪光阶级",
+    "name": "英雄传奇",
     "key": "star_20",
     "openlv": 145,
     "award": "110:10&2000060:1000",
-    "desc": "闪光精灵，镶嵌符文力量，解锁专属天赋",
+    "desc": "英雄传奇，镶嵌符文力量，解锁专属天赋",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "74": {
