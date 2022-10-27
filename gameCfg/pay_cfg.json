@@ -165,7 +165,7 @@
     "cent": 1000,
     "dianpiao": 10,
     "gift_type": "box_day",
-    "award": "1000080:1&1000620:1&1000720:100&108009102:3",
+    "award": "1000080:10&1000630:1&1000710:300&108009102:3",
     "updateType": "day",
     "count": 1
   },
@@ -177,7 +177,7 @@
     "cent": 3000,
     "dianpiao": 30,
     "gift_type": "box_day",
-    "award": "1000080:2&1000620:2&1000720:300&108009102:6",
+    "award": "1000080:15&1000620:2&1000710:600&108009102:6",
     "updateType": "day",
     "count": 1
   },
@@ -189,7 +189,7 @@
     "cent": 5000,
     "dianpiao": 50,
     "gift_type": "box_day",
-    "award": "1000080:3&1000620:3&1000720:500&108009102:9",
+    "award": "1000080:20&1000620:3&1000710:900&108009102:9",
     "updateType": "day",
     "count": 1
   },
@@ -201,7 +201,7 @@
     "cent": 10000,
     "dianpiao": 100,
     "gift_type": "box_day",
-    "award": "1000080:4&1000620:4&1000720:1000&108009102:12",
+    "award": "1000080:25&1000620:4&1000710:1200&108009102:12",
     "updateType": "day",
     "count": 1
   },
@@ -213,7 +213,7 @@
     "cent": 15000,
     "dianpiao": 150,
     "gift_type": "box_day",
-    "award": "1000080:5&1000620:5&1000720:1500&108009102:15",
+    "award": "1000080:30&1000620:5&1000710:1500&108009102:15",
     "updateType": "day",
     "count": 1
   },
@@ -225,7 +225,7 @@
     "cent": 20000,
     "dianpiao": 200,
     "gift_type": "box_day",
-    "award": "1000080:10&1000620:10&1000720:2000&108009102:20",
+    "award": "1000080:40&1000620:10&1000710:2000&108009102:20",
     "updateType": "day",
     "count": 1
   },
@@ -237,7 +237,7 @@
     "cent": 30000,
     "dianpiao": 300,
     "gift_type": "box_day",
-    "award": "1000080:15&1000620:15&1000720:3000&108009102:25",
+    "award": "1000080:50&1000620:15&1000710:3000&108009102:25",
     "updateType": "day",
     "count": 1
   },
@@ -249,7 +249,7 @@
     "cent": 50000,
     "dianpiao": 500,
     "gift_type": "box_day",
-    "award": "1000080:20&1000620:20&1000720:5000&108009102:30",
+    "award": "1000080:100&1000620:20&1000710:5000&108009102:30",
     "updateType": "day",
     "count": 1
   },
@@ -369,7 +369,7 @@
     "cent": 19800,
     "dianpiao": 198,
     "gift_type": "box_month",
-    "award": "101000100:1&205512011:1&1000130:5&1000150:30",
+    "award": "101000100:1&205512011:1&200100:10&1000720:200",
     "updateType": "month",
     "count": 6
   },
@@ -381,7 +381,7 @@
     "cent": 32800,
     "dianpiao": 328,
     "gift_type": "box_month",
-    "award": "101000200:1&205513010:1&1000130:10&1000150:60",
+    "award": "101000200:1&205513010:1&300200:15&1000720:500",
     "updateType": "month",
     "count": 5
   },
@@ -393,7 +393,7 @@
     "cent": 64800,
     "dianpiao": 648,
     "gift_type": "box_month",
-    "award": "101000648:1&205514010:1&1000130:15&1000150:90",
+    "award": "101000648:1&205514010:1&401000:22&1000720:1000",
     "updateType": "month",
     "count": 4
   },
@@ -405,7 +405,7 @@
     "cent": 99800,
     "dianpiao": 998,
     "gift_type": "box_month",
-    "award": "101001000:1&205515010:1&1000130:20&1000150:120",
+    "award": "101001000:1&205515010:1&1000130:10&1000150:100",
     "updateType": "month",
     "count": 3
   },
@@ -417,7 +417,7 @@
     "cent": 198000,
     "dianpiao": 1980,
     "gift_type": "box_month",
-    "award": "101002000:1&205516010:1&1000130:30&1000150:150",
+    "award": "101002000:1&205516010:1&1000130:20&1000150:200",
     "updateType": "month",
     "count": 2
   },
@@ -429,7 +429,7 @@
     "cent": 299800,
     "dianpiao": 2998,
     "gift_type": "box_month",
-    "award": "101003000:1&205517010:1&1000130:50&1000150:300",
+    "award": "101003000:1&205517010:1&1000130:30&1000150:300",
     "updateType": "month",
     "count": 1
   },
@@ -442,14 +442,14 @@
   },
   "6002": {
     "type": "limit_gift",
-    "name": "百抽礼包礼包",
+    "name": "十星开局礼包",
     "arg": 1002,
-    "rmb": 10,
-    "cent": 1000
+    "rmb": 500,
+    "cent": 50000
   },
   "6003": {
     "type": "limit_gift",
-    "name": "十星英雄礼包",
+    "name": "群体幻技礼包",
     "arg": 1003,
     "rmb": 500,
     "cent": 50000
@@ -1511,63 +1511,85 @@
   },
   "7501": {
     "type": "fast",
-    "name": "1元三系自选",
+    "name": "超级飞升",
     "arg": "super_1",
-    "rmb": 1,
-    "cent": 100,
+    "rmb": 10,
+    "cent": 1000,
     "gift_type": "gift_loop",
-    "award": "306008056:1&201:1000000&101:1000000&1000050:5000",
+    "award": "1000603:1",
     "updateType": "always",
     "count": 1
   },
   "7502": {
     "type": "fast",
-    "name": "2元百抽体验",
+    "name": "阳光护符",
     "arg": "super_2",
-    "rmb": 2,
-    "cent": 200,
+    "rmb": 18,
+    "cent": 1800,
     "gift_type": "gift_loop",
-    "award": "1000080:25&1000080:25&1000080:25&1000080:25",
+    "award": "4004:1",
     "updateType": "always",
     "count": 1
   },
   "7503": {
     "type": "fast",
-    "name": "5元光暗自选",
+    "name": "精灵进化",
     "arg": "super_3",
-    "rmb": 5,
-    "cent": 500,
+    "rmb": 28,
+    "cent": 2800,
     "gift_type": "gift_loop",
-    "award": "306008057:1&1000630:50&1000260:50&1000602:50",
+    "award": "1000260:50",
     "updateType": "always",
     "count": 1
   },
   "7504": {
     "type": "fast",
-    "name": "30元直升满V",
+    "name": "六星直升",
     "arg": "super_4",
     "rmb": 30,
     "cent": 3000,
     "gift_type": "gift_loop",
-    "award": "1000603:1&1000280:10&201:3000000&101:3000000",
+    "award": "1000190:6",
     "updateType": "always",
     "count": 1
   },
   "7505": {
     "type": "fast",
-    "name": "98元三系高资10星",
+    "name": "专属秘宝",
     "arg": "super_5",
-    "rmb": 98,
-    "cent": 9800,
+    "rmb": 38,
+    "cent": 3800,
     "gift_type": "gift_loop",
-    "award": "306008602:1&1000280:30&1000260:100&1000630:100",
+    "award": "1000150:150",
     "updateType": "always",
     "count": 1
   },
   "7506": {
     "type": "fast",
-    "name": "一亿金币",
+    "name": "高级幻技",
     "arg": "super_6",
+    "rmb": 50,
+    "cent": 5000,
+    "gift_type": "gift_loop",
+    "award": "400500:30",
+    "updateType": "always",
+    "count": 1
+  },
+  "7507": {
+    "type": "fast",
+    "name": "红色石板",
+    "arg": "super_7",
+    "rmb": 68,
+    "cent": 6800,
+    "gift_type": "gift_loop",
+    "award": "309500001:1",
+    "updateType": "always",
+    "count": 1
+  },
+  "7508": {
+    "type": "fast",
+    "name": "一亿金币",
+    "arg": "super_8",
     "rmb": 100,
     "cent": 10000,
     "gift_type": "gift_loop",
@@ -1575,10 +1597,10 @@
     "updateType": "always",
     "count": 1
   },
-  "7507": {
+  "7509": {
     "type": "fast",
     "name": "一亿经验糖果",
-    "arg": "super_7",
+    "arg": "super_9",
     "rmb": 128,
     "cent": 12800,
     "gift_type": "gift_loop",
@@ -1586,10 +1608,10 @@
     "updateType": "always",
     "count": 1
   },
-  "7508": {
+  "7510": {
     "type": "fast",
     "name": "十万星星沙子",
-    "arg": "super_8",
+    "arg": "super_10",
     "rmb": 198,
     "cent": 19800,
     "gift_type": "gift_loop",
@@ -1597,10 +1619,10 @@
     "updateType": "always",
     "count": 1
   },
-  "7509": {
+  "7511": {
     "type": "fast",
     "name": "王者之证",
-    "arg": "super_9",
+    "arg": "super_11",
     "rmb": 328,
     "cent": 32800,
     "gift_type": "gift_loop",
@@ -1608,10 +1630,10 @@
     "updateType": "always",
     "count": 1
   },
-  "7510": {
+  "7512": {
     "type": "fast",
     "name": "MEGA石",
-    "arg": "super_10",
+    "arg": "super_12",
     "rmb": 648,
     "cent": 64800,
     "gift_type": "gift_loop",
