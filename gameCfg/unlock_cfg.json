@@ -48,7 +48,6 @@
     "openlv": 1,
     "award": "110:5&1000090:1&1000070:1",
     "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
-    "target": "hallNode/mainNode/bottomNode/btnList/btnTask",
     "targetChild": true
   },
   "9": {
@@ -146,7 +145,7 @@
     "key": "limitedTime",
     "openlv": 13,
     "desc": "限时活动",
-    "target": "hallNode/mainNode/btnLimited"
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
   },
   "24": {
     "name": "铸造坊",
@@ -154,7 +153,7 @@
     "openlv": 15,
     "award": "110:5&105503010:1&1000080:1",
     "desc": "合成极品装备，合成稀有护符，提升英雄属性",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy",
+    "target": "hallNode/mainNode/bottomNode/smithy",
     "targetChild": true
   },
   "25": {
@@ -245,7 +244,7 @@
     "openlv": 33,
     "award": "810:3000&820:10",
     "desc": "建设封地，探索冒险",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/manor"
+    "target": "uiNode/frontNode/bottomNode/btnOffice"
   },
   "37": {
     "name": "煮酒论英雄",
@@ -293,7 +292,7 @@
     "openlv": 56,
     "award": "110:5&210:100&1000080:1",
     "desc": "跨服竞技，勇夺冠军，彰显实力",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/arena",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
   "43": {
@@ -302,7 +301,7 @@
     "openlv": 57,
     "award": "110:5&211:100&1000080:1",
     "desc": "最高赛事，角逐英雄最强王者",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/crossTop",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
   "44": {
@@ -310,14 +309,14 @@
     "key": "extract",
     "openlv": 58,
     "desc": "探秘宝库，获得稀有道具",
-    "target": "hallNode/mainNode/btnLimited"
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
   },
   "45": {
     "name": "限时招募",
     "key": "topic",
     "openlv": 58,
     "desc": "可招募主题英雄，每日刷新主题",
-    "target": "hallNode/mainNode/btnLimited"
+    "target": "hallNode/mainNode/bottomNode/recruit"
   },
   "46": {
     "name": "皇陵探险",
@@ -333,7 +332,7 @@
     "key": "pit",
     "openlv": 60,
     "desc": "挖掘宝石壮大实力",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/pit",
+    "target": "uiNode/frontNode/bottomNode/btnBattle",
     "targetChild": true
   },
   "48": {
@@ -384,7 +383,7 @@
     "openlv": 90,
     "award": "110:5&230:10&101:10000",
     "desc": "策略圣物战法，全新战斗体验",
-    "target": "hallNode/mainNode/bottomNode/btnList/btnZf",
+    "target": "uiNode/frontNode/bottomNode/btnOffice",
     "targetChild": true
   },
   "54": {
@@ -393,7 +392,7 @@
     "openlv": 100,
     "award": "110:5&1000060:1&201:10000",
     "desc": "铸造神装，无敌于世",
-    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy"
+    "target": "hallNode/mainNode/bottomNode/smithy"
   },
   "55": {
     "name": "血战华容",
@@ -409,7 +408,7 @@
     "openlv": 125,
     "award": "110:5&1000300:1000&1000400:1",
     "desc": "神器助战，全新特性战斗策略升级",
-    "target": "uiNode/frontNode/bottomNode/btnRole",
+    "target": "uiNode/frontNode/bottomNode/btnOffice",
     "targetChild": true
   },
   "57": {
