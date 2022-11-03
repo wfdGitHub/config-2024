@@ -8495,73 +8495,73 @@
     "award": "1000150:10&1000080:50"
   },
   "304101": {
-    "title": "消耗元宝30万",
+    "title": "消耗元宝100万",
     "refresh": "week_target",
     "type": "use_gold",
-    "value": 300000,
+    "value": 1000000,
     "award": "810:30000&820:3"
   },
   "304102": {
-    "title": "消耗元宝60万",
-    "refresh": "week_target",
-    "type": "use_gold",
-    "value": 600000,
-    "award": "810:60000&820:6"
-  },
-  "304103": {
-    "title": "消耗元宝90万",
-    "refresh": "week_target",
-    "type": "use_gold",
-    "value": 900000,
-    "award": "810:90000&820:9"
-  },
-  "304104": {
     "title": "消耗元宝120万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 1200000,
-    "award": "810:120000&820:12"
+    "award": "810:60000&820:6"
   },
-  "304105": {
+  "304103": {
     "title": "消耗元宝150万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 1500000,
-    "award": "810:150000&820:15"
+    "award": "810:90000&820:9"
   },
-  "304106": {
+  "304104": {
     "title": "消耗元宝200万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 2000000,
-    "award": "810:200000&820:20"
+    "award": "810:120000&820:12"
   },
-  "304107": {
+  "304105": {
     "title": "消耗元宝300万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 3000000,
-    "award": "810:300000&820:30"
+    "award": "810:150000&820:15"
   },
-  "304108": {
+  "304106": {
     "title": "消耗元宝500万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 5000000,
-    "award": "810:500000&820:50"
+    "award": "810:200000&820:20"
   },
-  "304109": {
+  "304107": {
     "title": "消耗元宝800万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 8000000,
-    "award": "810:800000&820:80"
+    "award": "810:300000&820:30"
   },
-  "304110": {
+  "304108": {
     "title": "消耗元宝1000万",
     "refresh": "week_target",
     "type": "use_gold",
     "value": 10000000,
+    "award": "810:500000&820:50"
+  },
+  "304109": {
+    "title": "消耗元宝3000万",
+    "refresh": "week_target",
+    "type": "use_gold",
+    "value": 30000000,
+    "award": "810:800000&820:80"
+  },
+  "304110": {
+    "title": "消耗元宝5000万",
+    "refresh": "week_target",
+    "type": "use_gold",
+    "value": 50000000,
     "award": "810:1000000&820:100"
   },
   "304201": {
@@ -10088,17 +10088,17 @@
     "refresh": "mewtwo",
     "type": "loadLv",
     "value": 20,
-    "award": "1000080:10"
+    "award": "110:100"
   },
   "601003": {
     "title": "激活作战特权",
     "refresh": "mewtwo",
     "type": "buy_kszz",
     "value": 1,
-    "award": "1000080:10"
+    "award": "1000190:6"
   },
   "602001": {
-    "title": "梦幻模拟战(简单)",
+    "title": "学院考核(简单)",
     "refresh": "mewtwo",
     "type": "exercise",
     "value": 1,
@@ -10117,29 +10117,29 @@
     "refresh": "mewtwo",
     "type": "buy_zl",
     "value": 1,
-    "award": "1000120:1"
+    "award": "1000130:6"
   },
   "603001": {
-    "title": "夜一升至8星",
+    "title": "任意英雄升至8星",
     "refresh": "mewtwo",
-    "type": "heroStar_8",
-    "arg": 305050,
+    "type": "hero",
+    "arg": 8,
     "value": 1,
     "award": "1000190:1"
   },
   "603002": {
-    "title": "消耗5000万元宝",
+    "title": "主角达到80级",
     "refresh": "mewtwo",
-    "type": "use_gold",
-    "value": 50000000,
-    "award": "1000190:1"
+    "type": "loadLv",
+    "value": 80,
+    "award": "1000190:5"
   },
   "603003": {
     "title": "激活至尊特权",
     "refresh": "mewtwo",
     "type": "buy_zztq",
     "value": 1,
-    "award": "1000190:1"
+    "award": "1000190:10"
   },
   "506105080": {
     "title": "活动期间内将乌璐升至6星",
