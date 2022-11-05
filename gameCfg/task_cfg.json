@@ -9592,11 +9592,11 @@
     "award": "1000260:10"
   },
   "501003": {
-    "title": "英雄:上阵英雄",
-    "desc": "上阵3个英雄",
+    "title": "英雄:获得英雄",
+    "desc": "获得一个五星英雄",
     "refresh": "officer",
-    "type": "battleNum",
-    "arg": 3,
+    "type": "hero",
+    "arg": 5,
     "value": 1,
     "award": "1000260:10"
   },
@@ -9698,7 +9698,8 @@
     "title": "英雄:英雄提升",
     "desc": "1个英雄升到6星",
     "refresh": "officer",
-    "type": "heroStar_6",
+    "type": "hero",
+    "arg": 6,
     "value": 1,
     "award": "1000260:25"
   },
@@ -9765,7 +9766,8 @@
     "title": "英雄:英雄提升",
     "desc": "1个英雄升到9星",
     "refresh": "officer",
-    "type": "heroStar_9",
+    "type": "hero",
+    "arg": 9,
     "value": 1,
     "award": "1000260:35"
   },
