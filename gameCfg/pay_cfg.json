@@ -40,49 +40,96 @@
     "name": "无限经验",
     "arg": "wuxian_1",
     "rmb": 680,
-    "cent": 68000
+    "cent": 68000,
+    "dianpiao": 680
   },
   "1012": {
     "type": "wuxian",
     "name": "无限铜币",
     "arg": "wuxian_2",
     "rmb": 680,
-    "cent": 68000
+    "cent": 68000,
+    "dianpiao": 680
   },
   "1013": {
     "type": "wuxian",
     "name": "无限进阶",
     "arg": "wuxian_3",
     "rmb": 680,
-    "cent": 68000
+    "cent": 68000,
+    "dianpiao": 680
   },
   "1201": {
     "type": "gmLv",
-    "name": "gm1",
+    "name": "一元刷充",
     "arg": 1,
     "rmb": 1,
-    "cent": 100
+    "cent": 100,
+    "count": 1
   },
   "1202": {
     "type": "gmLv",
-    "name": "gm2",
+    "name": "初级刷充",
     "arg": 2,
-    "rmb": 12,
-    "cent": 1200
+    "rmb": 6,
+    "cent": 600,
+    "count": 1
   },
   "1203": {
     "type": "gmLv",
-    "name": "gm3",
+    "name": "中级刷充",
     "arg": 3,
-    "rmb": 98,
-    "cent": 9800
+    "rmb": 12,
+    "cent": 1200,
+    "count": 1
   },
   "1204": {
     "type": "gmLv",
-    "name": "gm4",
+    "name": "高级刷充",
     "arg": 4,
+    "rmb": 30,
+    "cent": 3000,
+    "count": 1
+  },
+  "1205": {
+    "type": "gmLv",
+    "name": "超级刷充",
+    "arg": 5,
+    "rmb": 68,
+    "cent": 6800,
+    "count": 1
+  },
+  "1206": {
+    "type": "gmLv",
+    "name": "顶级刷充",
+    "arg": 6,
+    "rmb": 128,
+    "cent": 12800,
+    "count": 1
+  },
+  "1207": {
+    "type": "gmLv",
+    "name": "神级刷充",
+    "arg": 7,
+    "rmb": 198,
+    "cent": 19800,
+    "count": 1
+  },
+  "1208": {
+    "type": "gmLv",
+    "name": "至尊刷充",
+    "arg": 8,
     "rmb": 328,
-    "cent": 32800
+    "cent": 32800,
+    "count": 1
+  },
+  "1209": {
+    "type": "gmLv",
+    "name": "无敌刷充",
+    "arg": 9,
+    "rmb": 500,
+    "cent": 50000,
+    "count": 1
   },
   "1301": {
     "type": "pri",
@@ -2323,8 +2370,8 @@
     "type": "fast",
     "name": "购买可获1亿铜币",
     "arg": "super_2",
-    "rmb": 25,
-    "cent": 2500,
+    "rmb": 30,
+    "cent": 3000,
     "gift_type": "gift_loop",
     "award": "201:100000000",
     "updateType": "always",
@@ -2334,8 +2381,8 @@
     "type": "fast",
     "name": "购买可获1亿英雄经验",
     "arg": "super_3",
-    "rmb": 28,
-    "cent": 2800,
+    "rmb": 38,
+    "cent": 3800,
     "gift_type": "gift_loop",
     "award": "101:100000000",
     "updateType": "always",
@@ -2345,8 +2392,8 @@
     "type": "fast",
     "name": "购买可获10万升星石",
     "arg": "super_4",
-    "rmb": 38,
-    "cent": 3800,
+    "rmb": 68,
+    "cent": 6800,
     "gift_type": "gift_loop",
     "award": "1000010:100000",
     "updateType": "always",
@@ -2356,8 +2403,8 @@
     "type": "fast",
     "name": "购买可获10万强化石",
     "arg": "super_5",
-    "rmb": 68,
-    "cent": 6800,
+    "rmb": 98,
+    "cent": 9800,
     "gift_type": "gift_loop",
     "award": "1000110:100000",
     "updateType": "always",
@@ -2378,8 +2425,8 @@
     "type": "fast",
     "name": "购买可获5万进阶突破石",
     "arg": "super_7",
-    "rmb": 128,
-    "cent": 12800,
+    "rmb": 168,
+    "cent": 16800,
     "gift_type": "gift_loop",
     "award": "1000030:50000",
     "updateType": "always",
@@ -2389,8 +2436,8 @@
     "type": "fast",
     "name": "购买可获5万培养突破丹",
     "arg": "super_8",
-    "rmb": 128,
-    "cent": 12800,
+    "rmb": 188,
+    "cent": 18800,
     "gift_type": "gift_loop",
     "award": "1000200:50000",
     "updateType": "always",
