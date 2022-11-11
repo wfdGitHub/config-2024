@@ -3801,24 +3801,32 @@
     "value1": 2
   },
   "ad_12": {
-    "des": "全体上阵英雄生命+16%",
-    "key1": "team_maxHP_add",
-    "value1": 0.16
+    "des": "全体上阵英雄暴击+10%，全体上阵英雄抗暴+10%",
+    "key1": "team_crit_add",
+    "value1": 0.1,
+    "key2": "team_critDef_add",
+    "value2": 0.1
   },
   "ad_13": {
-    "des": "全体上阵英雄攻击+16%",
-    "key1": "team_atk_add",
-    "value1": 0.16
+    "des": "全体上阵英雄伤害+10%，全体上阵英雄减伤+10%",
+    "key1": "team_amplify_add",
+    "value1": 0.1,
+    "key2": "team_reduction_add",
+    "value2": 0.1
   },
   "ad_14": {
-    "des": "全体上阵英雄免伤+16%",
-    "key1": "team_reduction_add",
-    "value1": 0.16
+    "des": "全体上阵英雄命中+10%，全体上阵英雄闪避+10%",
+    "key1": "team_hitRate_add",
+    "value1": 0.1,
+    "key2": "team_dodgeRate_add",
+    "value2": 0.1
   },
   "ad_15": {
-    "des": "全体上阵英雄伤害+16%",
-    "key1": "team_amplify_add",
-    "value1": 0.16
+    "des": "全体上阵英雄攻击+10%，全体上阵英雄生命+10%",
+    "key1": "team_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
   },
   "ad_1_2": {
     "des": "攻击+8%",
@@ -3828,6 +3836,11 @@
   "ad_1_4": {
     "des": "暴击+8%",
     "key1": "crit",
+    "value1": 0.08
+  },
+  "ad_1_5": {
+    "des": "攻击+8%",
+    "key1": "amplify",
     "value1": 0.08
   },
   "ad_2_2": {
@@ -3840,6 +3853,11 @@
     "key1": "hitRate",
     "value1": 0.08
   },
+  "ad_2_5": {
+    "des": "生命+8%",
+    "key1": "self_maxHP_add",
+    "value1": 0.08
+  },
   "ad_3_2": {
     "des": "抗暴+8%",
     "key1": "critDef",
@@ -3848,6 +3866,11 @@
   "ad_3_4": {
     "des": "免伤+8%",
     "key1": "reduction",
+    "value1": 0.08
+  },
+  "ad_3_5": {
+    "des": "生命+8%",
+    "key1": "self_maxHP_add",
     "value1": 0.08
   },
   "ad_4_2": {
@@ -3860,6 +3883,11 @@
     "key1": "self_maxHP_add",
     "value1": 0.08
   },
+  "ad_4_5": {
+    "des": "抗暴+8%",
+    "key1": "critDef",
+    "value1": 0.08
+  },
   "ad_1_7": {
     "des": "暴击+16%",
     "key1": "crit",
@@ -3869,6 +3897,26 @@
     "des": "全体上阵英雄命中+8%",
     "key1": "team_hitRate_add",
     "value1": 0.08
+  },
+  "ad_1_9": {
+    "des": "伤害+30%",
+    "key1": "amplify",
+    "value1": 0.3
+  },
+  "ad_1_12": {
+    "des": "全体上阵英雄暴击+16%",
+    "key1": "team_crit_add",
+    "value1": 0.16
+  },
+  "ad_1_13": {
+    "des": "全体上阵英雄攻击+16%",
+    "key1": "team_atk_add",
+    "value1": 0.16
+  },
+  "ad_1_14": {
+    "des": "全体上阵英雄生命+16%",
+    "key1": "team_maxHP_add",
+    "value1": 0.16
   },
   "ad_2_7": {
     "des": "命中+16%",
@@ -3880,6 +3928,28 @@
     "key1": "team_crit_add",
     "value1": 0.08
   },
+  "ad_2_9": {
+    "des": "抗暴+20%，抗控+8%",
+    "key1": "critDef",
+    "value1": 0.2,
+    "key2": "control_buff_lowrate",
+    "value2": 0.08
+  },
+  "ad_2_12": {
+    "des": "全体上阵英雄命中+16%",
+    "key1": "team_hitRate_add",
+    "value1": 0.16
+  },
+  "ad_2_13": {
+    "des": "全体上阵英雄抗暴+16%",
+    "key1": "team_critDef_add",
+    "value1": 0.16
+  },
+  "ad_2_14": {
+    "des": "全体上阵英雄生命+16%",
+    "key1": "team_maxHP_add",
+    "value1": 0.16
+  },
   "ad_3_7": {
     "des": "生命值+16%",
     "key1": "self_maxHP_add",
@@ -3890,6 +3960,28 @@
     "key1": "team_reduction_add",
     "value1": 0.08
   },
+  "ad_3_9": {
+    "des": "免伤+30%",
+    "key1": "reduction",
+    "value1": 0.3
+  },
+  "ad_3_12": {
+    "des": "全体上阵英雄免伤+16%",
+    "key1": "team_reduction_add",
+    "value1": 0.16
+  },
+  "ad_3_13": {
+    "des": "全体上阵英雄防御+16%",
+    "key1": "team_phyDef_add",
+    "value1": 0.16,
+    "key2": "team_magDef_add",
+    "value2": 0.16
+  },
+  "ad_3_14": {
+    "des": "全体上阵英雄生命+16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16
+  },
   "ad_4_7": {
     "des": "抗暴+16%",
     "key1": "critDef",
@@ -3899,6 +3991,26 @@
     "des": "全体上阵英雄伤害+8%",
     "key1": "team_amplify_add",
     "value1": 0.08
+  },
+  "ad_4_9": {
+    "des": "生命值+30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3
+  },
+  "ad_4_12": {
+    "des": "全体上阵英雄闪避+16%",
+    "key1": "team_dodgeRate_add",
+    "value1": 0.16
+  },
+  "ad_4_13": {
+    "des": "全体上阵英雄增伤+16%",
+    "key1": "team_amplify_add",
+    "value1": 0.16
+  },
+  "ad_4_14": {
+    "des": "全体上阵英雄生命+16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16
   },
   "NPC_KB1": {
     "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，暴击增加50%,暴伤增加50%，持续3回合,每场战斗只能生效1次",
