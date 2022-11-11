@@ -66,14 +66,14 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "承蒙少将军抬爱，可如今天下纷乱，不该谈儿女情长之事"
+    "text": "承蒙少将军抬爱，可如今天下纷乱，不该谈儿女情长之事",
+    "next": "jiaowai_10002000_1"
   },
   "jiaowai_10002201": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
     "text": "能与少将军成为挚友，是beaut的荣庆",
-    "choice2_next": "jiaowai_10002301",
     "next": "jiaowai_10002000_1"
   },
   "jiaowai_10002301": {
@@ -124,7 +124,8 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "抱歉少将军，而身患病不能出门"
+    "text": "抱歉少将军，而身患病不能出门",
+    "next": "jiaowai_10003003"
   },
   "jiaowai_10003003": {
     "cmd": "choice",
@@ -138,26 +139,28 @@
     "characterId": "beaut",
     "name": "beaut",
     "text": "前几日偶感风寒，身体无大碍",
-    "next": "jiaowai_10003000_1"
+    "next": "jiaowai_10003102"
   },
   "jiaowai_10003102": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "少将军如此细心，beaut身体已无碍"
+    "text": "少将军如此细心，beaut身体已无碍",
+    "next": "jiaowai_10003103"
   },
   "jiaowai_10003103": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
     "text": "就陪少将军去一趟",
-    "next": "jiaowai_10003103"
+    "next": "jiaowai_10003201"
   },
   "jiaowai_10003201": {
     "cmd": "choice",
     "choice1": "身体要紧",
     "choice1_next": "jiaowai_10003301",
-    "choice2": "现在出发"
+    "choice2": "现在出发",
+    "choice2_next": "jiaowai_10003303"
   },
   "jiaowai_10003301": {
     "cmd": "text",
@@ -171,7 +174,7 @@
     "characterId": "beaut",
     "name": "beaut",
     "text": "没想到此处风景如此秀丽，少将军挑选之地果然出众",
-    "choice2_next": "jiaowai_10003303"
+    "next": "jiaowai_10003303"
   },
   "jiaowai_10003303": {
     "cmd": "text",
@@ -194,5 +197,319 @@
     "cmd": "end",
     "text": "你们此行相谈甚欢，beaut印象深刻，对于你的好感度大幅上升",
     "result": "att1_3"
+  },
+  "jiaowai_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日城郊外有天灯祈福活动，热闹非凡，一起去许下心愿吧",
+    "next": "jiaowai_10004002",
+    "bg": "jiaowai"
+  },
+  "jiaowai_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "得知少将军邀约，心已无比激动，倾慕少将军已久",
+    "next": "jiaowai_10004003"
+  },
+  "jiaowai_10004003": {
+    "cmd": "choice",
+    "choice1": "高调回应",
+    "choice1_next": "jiaowai_10004101",
+    "choice2": "用心传达",
+    "choice2_next": "jiaowai_10004201"
+  },
+  "jiaowai_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，小声些，不要以此耽误少将军前程",
+    "next": "jiaowai_10004102"
+  },
+  "jiaowai_10004102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "若小声了，怕姑娘有一些别有用心的人惦记",
+    "next": "jiaowai_10004103"
+  },
+  "jiaowai_10004103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，接下来如何安排？",
+    "next": "jiaowai_10004104"
+  },
+  "jiaowai_10004104": {
+    "cmd": "choice",
+    "choice1": "郊外踏青",
+    "choice1_next": "jiaowai_10004111",
+    "choice2": "郊外觅宝",
+    "choice2_next": "jiaowai_10004121"
+  },
+  "jiaowai_10004111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日与少将军出游，心感甚欢",
+    "next": "jiaowai_10004000_4"
+  },
+  "jiaowai_10004121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到郊外还有这么多趣事能做",
+    "next": "jiaowai_10004000_1"
+  },
+  "jiaowai_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军心怀天下，小女子深感佩服",
+    "next": "jiaowai_10004202"
+  },
+  "jiaowai_10004202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "如今天下大乱，百姓流离失所，不是谈儿女情长的时候",
+    "next": "jiaowai_10004203"
+  },
+  "jiaowai_10004203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，接下来如何安排？",
+    "next": "jiaowai_10004204"
+  },
+  "jiaowai_10004204": {
+    "cmd": "choice",
+    "choice1": "郊外写生",
+    "choice1_next": "jiaowai_10004211",
+    "choice2": "郊外赏景",
+    "choice2_next": "jiaowai_10004221"
+  },
+  "jiaowai_10004211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军画的千里江山图，蕴含天下大势",
+    "next": "jiaowai_10004212"
+  },
+  "jiaowai_10004212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军将来定会一展宏图",
+    "next": "jiaowai_10004213"
+  },
+  "jiaowai_10004213": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日能与少将军出游，深感荣幸",
+    "next": "jiaowai_10004000_3"
+  },
+  "jiaowai_10004221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能够安静的看着这美景，感谢少将军为次城的付出",
+    "next": "jiaowai_10004222"
+  },
+  "jiaowai_10004222": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "天下还有很多百姓在流离失所",
+    "next": "jiaowai_10004223"
+  },
+  "jiaowai_10004223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那不是少将军的问题，目前我们城池能够安宁就足以证明少将军实力",
+    "next": "jiaowai_10004224"
+  },
+  "jiaowai_10004224": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "相信不用多久少将军定能平这天下",
+    "next": "jiaowai_10004000_4"
+  },
+  "jiaowai_10004000_1": {
+    "cmd": "end",
+    "text": "在郊外踏青的时候你的表现很好，beaut对你的好感度增加",
+    "result": "att2_3"
+  },
+  "jiaowai_10004000_2": {
+    "cmd": "end",
+    "text": "在郊外觅宝中你表现出很有担当，beaut对你的好感度增加",
+    "result": "att3_3"
+  },
+  "jiaowai_10004000_3": {
+    "cmd": "end",
+    "text": "将你赠与的画，装裱起来，久久观望一番，beaut对你的好感度增加",
+    "result": "att1_3"
+  },
+  "jiaowai_10004000_4": {
+    "cmd": "end",
+    "text": "今日倾听你的家国情怀，似乎有所感悟，beaut对你的好感度增加",
+    "result": "att5_3"
+  },
+  "jiaowai_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "听说姑娘对草木喜爱有加，我知有一处草木独特，不知姑娘感兴趣否?",
+    "next": "jiaowai_10005002"
+  },
+  "jiaowai_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军诚邀，城郊景象焕然新生，让人赏心悦目",
+    "next": "jiaowai_10005003"
+  },
+  "jiaowai_10005003": {
+    "cmd": "choice",
+    "choice1": "介绍一番",
+    "choice1_next": "jiaowai_10005101",
+    "choice2": "席地而坐",
+    "choice2_next": "jiaowai_10005201"
+  },
+  "jiaowai_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军见多识广、才识渊博，这介绍生动且有趣",
+    "next": "jiaowai_10005102"
+  },
+  "jiaowai_10005102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日能与少将军同行甚是开心",
+    "next": "jiaowai_10005000_1"
+  },
+  "jiaowai_10005201": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "坐下来才能感受到这里的美妙",
+    "next": "jiaowai_10005201"
+  },
+  "jiaowai_10005202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "坐下来，视觉降低后看到的景象别有一番风味",
+    "next": "jiaowai_10005202"
+  },
+  "jiaowai_10005203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "而且能清晰的闻到多种花香",
+    "next": "jiaowai_10005203"
+  },
+  "jiaowai_10005204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "风吹过混合的香味也是不得多闻的",
+    "next": "jiaowai_10005204"
+  },
+  "jiaowai_10005205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日能与少将军同坐谈论，值得日后回味",
+    "next": "jiaowai_10005000_2"
+  },
+  "jiaowai_10005000_1": {
+    "cmd": "end",
+    "text": "今日你的谈吐介绍beaut印象深刻，beaut对你的好感度增加",
+    "result": "hudong_2"
+  },
+  "jiaowai_10005000_2": {
+    "cmd": "end",
+    "text": "今日你的表现beaut有些迷恋，beaut对你的好感度增加",
+    "result": "att4_2"
+  },
+  "jiaowai_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今夜月圆，城郊外有一处赏月极佳的地方，带你去看不一样的月光",
+    "next": "jiaowai_10006002"
+  },
+  "jiaowai_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我美吗？",
+    "next": "jiaowai_10006003"
+  },
+  "jiaowai_10006003": {
+    "cmd": "choice",
+    "choice1": "用心夸赞",
+    "choice1_next": "jiaowai_10006101",
+    "choice2": "询问原因",
+    "choice2_next": "jiaowai_10006201"
+  },
+  "jiaowai_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军谬赞了，小女子承担不起",
+    "next": "jiaowai_10006000_1"
+  },
+  "jiaowai_10006201": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘莫要容貌焦虑",
+    "next": "jiaowai_10006202"
+  },
+  "jiaowai_10006202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "如今天下纷乱，姑娘如此美貌确实容易引人关注",
+    "next": "jiaowai_10006203"
+  },
+  "jiaowai_10006203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不过在这城中，我定能保你安全",
+    "next": "jiaowai_10006204"
+  },
+  "jiaowai_10006204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，所言甚是",
+    "next": "jiaowai_10006205"
+  },
+  "jiaowai_10006205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军在，定能安然无恙",
+    "next": "jiaowai_10006000_2"
+  },
+  "jiaowai_10006000_1": {
+    "cmd": "end",
+    "text": "今夜月色真美，在你没有关注的眼中beaut尚有一丝忧愁，beaut对你略感平淡",
+    "result": "att5_1"
+  },
+  "jiaowai_10006000_2": {
+    "cmd": "end",
+    "text": "你今天的言论击中beaut的内心，beaut对你的好感度增加",
+    "result": "att3_3"
   }
 }
