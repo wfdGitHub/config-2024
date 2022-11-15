@@ -8,8 +8,8 @@
     "source2": "quick"
   },
   "101": {
-    "name": "英雄经验",
-    "des": "英雄经验，可用于升级英雄等级",
+    "name": "侠客经验",
+    "des": "侠客经验，可用于升级侠客等级",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -34,7 +34,7 @@
   },
   "110": {
     "name": "现金券",
-    "des": "现金券，用于游戏直充",
+    "des": "现金券，用于GM修改器中购买商品",
     "isBag": true,
     "type": "item",
     "quality": 5,
@@ -42,11 +42,11 @@
     "source1": "recharge"
   },
   "200": {
-    "name": "元宝",
+    "name": "银两",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.01,
-    "coin": 50,
+    "gold": 0.005,
+    "coin": 25,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -54,8 +54,8 @@
     "source3": "gift"
   },
   "201": {
-    "name": "铜币",
-    "des": "游戏中常见的货币，可用于提升英雄，升级等诸多作用",
+    "name": "铜钱",
+    "des": "游戏中常见的货币，可用于提升侠客，升级等诸多作用",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -67,18 +67,18 @@
     "source4": "exercise"
   },
   "202": {
-    "name": "元宝替换道具",
+    "name": "银两替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 100,
+    "arg": 200,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
     "quality": 5
   },
   "203": {
-    "name": "英雄积分",
-    "des": "分解英雄获得英雄积分，英雄积分可在英雄商店中兑换商品",
+    "name": "侠客积分",
+    "des": "分解侠客获得侠客积分，侠客积分可在侠客商店中兑换商品",
     "type": "currency",
     "gold": 60,
     "coin": 300000,
@@ -87,8 +87,8 @@
     "source1": "heroRemove"
   },
   "204": {
-    "name": "行动力",
-    "des": "行动力可在英雄任务中完成任务",
+    "name": "武林功绩",
+    "des": "武林功绩，用于完成三界任务",
     "type": "currency",
     "quality": 4,
     "source1": "checkpoints",
@@ -116,8 +116,8 @@
     "source2": "warHorn"
   },
   "207": {
-    "name": "神兵值",
-    "des": "天地灵气聚集而成，可用于在神兵商店购买神兵",
+    "name": "专属值",
+    "des": "天地灵气聚集而成，可用于在专属商店购买专属",
     "type": "currency",
     "gold": 1,
     "coin": 5000,
@@ -129,7 +129,7 @@
   },
   "208": {
     "name": "玉璧",
-    "des": "玉璧通过英雄云集招募获得，可在招募商城中兑换英雄",
+    "des": "玉璧通过侠客云集招募获得，可在招募商城中兑换侠客",
     "type": "currency",
     "gold": 100,
     "coin": 500000,
@@ -138,8 +138,8 @@
     "source1": "general"
   },
   "209": {
-    "name": "皇陵积分",
-    "des": "皇陵积分在皇陵探险玩法中获得，用于兑换皇陵商店道具",
+    "name": "探险积分",
+    "des": "探险积分在古墓探险玩法中获得，用于兑换古墓商店道具",
     "type": "currency",
     "gold": 20,
     "coin": 100000,
@@ -159,7 +159,7 @@
   },
   "211": {
     "name": "王者积分",
-    "des": "可参与王者巅峰赛获得，可用于王者商店兑换商品",
+    "des": "可参与武林大会获得，可用于王者商店兑换商品",
     "type": "currency",
     "gold": 40,
     "coin": 200000,
@@ -168,7 +168,7 @@
     "source1": "crossTop"
   },
   "212": {
-    "name": "天命积分",
+    "name": "决战积分",
     "des": "可参与天命之战活动获得，可用于天命商店兑换商品",
     "type": "currency",
     "gold": 10,
@@ -178,8 +178,8 @@
     "source1": "crossTeamPK"
   },
   "213": {
-    "name": "同盟贡献",
-    "des": "同盟贡献贡献",
+    "name": "帮派贡献",
+    "des": "仙盟贡献",
     "type": "currency",
     "gold": 40,
     "coin": 200000,
@@ -201,8 +201,8 @@
     "source1": "friend"
   },
   "215": {
-    "name": "远古积分",
-    "des": "可参与远古之战活动获得，可用于远古商店兑换商品",
+    "name": "巅峰积分",
+    "des": "可参与巅峰对决活动获得，可用于巅峰商店兑换商品",
     "type": "currency",
     "gold": 10,
     "coin": 50000,
@@ -211,8 +211,8 @@
     "source1": "ancient"
   },
   "216": {
-    "name": "绸缎",
-    "des": "绸缎，用精美的蚕丝结合金丝编制而成，可激活英雄全新形象",
+    "name": "侠印",
+    "des": "侠印，蕴含绝密武学内息功法，可用于激活侠客星图的力量",
     "type": "currency",
     "gold": 100,
     "coin": 500000,
@@ -221,8 +221,8 @@
     "effects": "baowu"
   },
   "230": {
-    "name": "战法令",
-    "des": "可在同盟商店中兑换获得，用于激活战法",
+    "name": "武魂",
+    "des": "武魂，蕴含着古老武者修炼法门，克用于激活武者秘籍",
     "type": "currency",
     "gold": 2000,
     "coin": 10000000,
@@ -233,7 +233,7 @@
   },
   "301": {
     "name": "招募积分",
-    "des": "通关招募获得积分，可用于积分抽奖，必定得五星英雄",
+    "des": "通关招募获得积分，可用于积分抽奖，必定得五星侠客",
     "type": "currency",
     "gold": 300,
     "coin": 1500000,
@@ -243,38 +243,38 @@
     "source2": "recruit_normal"
   },
   "401": {
-    "name": "魏国魂力",
-    "des": "魏国魂力，能够提升魏国战魂的属性加成，可通过魏武之路中获得。"
+    "name": "兵器之印",
+    "des": "兵器之印，能够提升兵器战魂的属性加成，可通过兵器之路中获得。"
   },
   "402": {
-    "name": "蜀国魂力",
-    "des": "蜀国魂力，能够提升蜀国战魂的属性加成，可通过蜀汉之路中获得。"
+    "name": "奇门之印",
+    "des": "奇门之印，能够提升奇门战魂的属性加成，可通过奇门之路中获得。"
   },
   "403": {
-    "name": "吴国魂力",
-    "des": "吴国魂力，能够提升吴国战魂的属性加成，可通过东吴之路中获得。"
+    "name": "拳掌之印",
+    "des": "拳掌之印，能够提升拳掌战魂的属性加成，可通过拳掌之路中获得。"
   },
   "404": {
-    "name": "群雄魂力",
-    "des": "群雄魂力，能够提升群雄战魂的属性加成，可通过群雄之路中获得。"
+    "name": "气劲之印",
+    "des": "气劲之印，能够提升气劲战魂的属性加成，可通过气劲之路中获得。"
   },
   "501": {
-    "name": "功勋",
-    "des": "功勋游戏中的稀有货币，可在【兑换商城】兑换奖励",
+    "name": "魂石",
+    "des": "魂石，可在【资源商城】兑换奖励",
     "type": "currency",
     "buyNum": 1,
     "quality": 5
   },
   "502": {
-    "name": "GM币",
-    "des": "GM币，可在【超值商城】兑换奖励",
+    "name": "至尊令",
+    "des": "至尊令，可在【至尊商城】兑换奖励",
     "type": "currency",
     "buyNum": 1,
     "quality": 5
   },
   "4001": {
-    "name": "校尉护符",
-    "des": "校尉护符，刻有古老的撰文：荧光之力，燎原之势",
+    "name": "少侠护符",
+    "des": "少侠护符，刻有古老的撰文：荧光之力，燎原之势",
     "type": "hufu",
     "arg": "{\"lv\":1}",
     "gold": 200,
@@ -285,8 +285,8 @@
     "source2": "arena"
   },
   "4002": {
-    "name": "羽林护符",
-    "des": "羽林护符，刻有古老的撰文：星光点点，皆源于日",
+    "name": "侠士护符",
+    "des": "侠士护符，刻有古老的撰文：星光点点，皆源于日",
     "type": "hufu",
     "arg": "{\"lv\":2}",
     "gold": 1000,
@@ -297,8 +297,8 @@
     "source2": "shop_crossPK"
   },
   "4003": {
-    "name": "将军护符",
-    "des": "将军护符，刻有古老的撰文：荧光浩瀚，皆源于月",
+    "name": "宗师护符",
+    "des": "宗师护符，刻有古老的撰文：荧光浩瀚，皆源于月",
     "type": "hufu",
     "arg": "{\"lv\":3}",
     "gold": 5000,
@@ -308,8 +308,8 @@
     "source1": "gift"
   },
   "4004": {
-    "name": "君王护符",
-    "des": "君王护符，刻有古老的撰文：渺渺星海，吞天噬日",
+    "name": "至尊护符",
+    "des": "至尊护符，刻有古老的撰文：渺渺星海，吞天噬日",
     "type": "hufu",
     "arg": "{\"lv\":4}",
     "gold": 25000,
@@ -320,8 +320,8 @@
     "source1": "gift"
   },
   "7010": {
-    "name": "名动三国",
-    "des": "名动三国，跨服竞技赛季中进入荣耀殿堂获得",
+    "name": "名震天下",
+    "des": "名震天下，跨服竞技赛季中进入荣耀殿堂获得",
     "type": "title",
     "arg": 7010,
     "quality": 7,
@@ -329,8 +329,8 @@
     "source1": "crossPK"
   },
   "7020": {
-    "name": "天命之子",
-    "des": "天命之子，天命之战中获得冠军后获得",
+    "name": "技压群雄",
+    "des": "技压群雄，决战光明顶中获得冠军后获得",
     "type": "title",
     "arg": 7020,
     "quality": 7,
@@ -338,8 +338,8 @@
     "source1": "crossTeamPK"
   },
   "7030": {
-    "name": "天下无双",
-    "des": "天下无双，王者巅峰赛中获得冠军后获得",
+    "name": "武林至尊",
+    "des": "武林至尊，武林大会中获得冠军后获得",
     "type": "title",
     "arg": 7030,
     "quality": 7,
@@ -348,7 +348,7 @@
   },
   "7040": {
     "name": "巅峰王者",
-    "des": "巅峰王者，王者巅峰赛中进入四强后获得",
+    "des": "巅峰王者，武林大会中进入四强后获得",
     "type": "title",
     "arg": 7040,
     "quality": 7,
@@ -356,8 +356,8 @@
     "source1": "crossTeamPK"
   },
   "7050": {
-    "name": "千里单骑",
-    "des": "千里单骑，单骑救主完成七卷后获得",
+    "name": "武林传说",
+    "des": "武林传说，新服挑战完成七卷后获得",
     "type": "title",
     "arg": 7050,
     "quality": 7,
@@ -365,8 +365,8 @@
     "source1": "areaChallenge"
   },
   "7060": {
-    "name": "大将军",
-    "des": "大将军，远古战场中获得冠军后获得",
+    "name": "所向披靡",
+    "des": "所向披靡，巅峰对决中获得冠军后获得",
     "type": "title",
     "arg": 7060,
     "quality": 7,
@@ -374,8 +374,8 @@
     "source1": "ancient"
   },
   "7070": {
-    "name": "三国无双",
-    "des": "三国无双，无双争霸中获得",
+    "name": "天下无双",
+    "des": "天下无双，华山论剑中获得",
     "type": "title",
     "arg": 7070,
     "quality": 7,
@@ -383,8 +383,8 @@
     "source1": "beherrscher"
   },
   "7080": {
-    "name": "一骑当千",
-    "des": "一骑当千，无双争霸中获得",
+    "name": "登峰造极",
+    "des": "登峰造极，华山论剑中获得",
     "type": "title",
     "arg": 7080,
     "quality": 7,
@@ -392,8 +392,8 @@
     "source1": "beherrscher"
   },
   "7090": {
-    "name": "运筹帷幄",
-    "des": "运筹帷幄，无双争霸中获得",
+    "name": "华山五绝",
+    "des": "华山五绝，华山论剑中获得",
     "type": "title",
     "arg": 7090,
     "quality": 7,
@@ -401,8 +401,8 @@
     "source1": "beherrscher"
   },
   "7100": {
-    "name": "以令诸侯",
-    "des": "以令诸侯，激活至尊特权后领取获得",
+    "name": "至尊降临",
+    "des": "至尊降临，激活至尊特权后领取获得",
     "type": "title",
     "arg": 7100,
     "quality": 7,
@@ -437,8 +437,8 @@
     "source1": "areaBoss"
   },
   "7140": {
-    "name": "天生鬼才",
-    "des": "天生鬼才，新服BOSS郭嘉伤害第1获得",
+    "name": "逍遥二仙",
+    "des": "逍遥二仙，新服BOSS杨逍伤害第1名获得",
     "type": "title",
     "arg": 7140,
     "quality": 7,
@@ -446,8 +446,8 @@
     "source1": "areaBoss"
   },
   "7150": {
-    "name": "雄心誓愿",
-    "des": "雄心誓愿，新服BOSS姜维伤害第1获得",
+    "name": "如日中天",
+    "des": "如日中天，新服BOSS阳顶天伤害第1名获得",
     "type": "title",
     "arg": 7150,
     "quality": 7,
@@ -455,8 +455,8 @@
     "source1": "areaBoss"
   },
   "7160": {
-    "name": "勇冠一世",
-    "des": "勇冠一世，新服BOSS孙策伤害第1获得",
+    "name": "神雕大侠",
+    "des": "神雕大侠，新服BOSS杨过伤害第1名获得",
     "type": "title",
     "arg": 7160,
     "quality": 7,
@@ -464,8 +464,8 @@
     "source1": "areaBoss"
   },
   "7170": {
-    "name": "仙人之怒",
-    "des": "仙人之怒，新服BOSS左慈伤害第1获得",
+    "name": "射雕英雄",
+    "des": "射雕侠客，新服BOSS郭靖伤害第1名获得",
     "type": "title",
     "arg": 7170,
     "quality": 7,
@@ -473,8 +473,8 @@
     "source1": "areaBoss"
   },
   "7180": {
-    "name": "霸世枭雄",
-    "des": "霸世枭雄，新服BOSS曹操伤害第1获得",
+    "name": "独步武林",
+    "des": "独步武林，新服BOSS王重阳伤害第1名获得",
     "type": "title",
     "arg": 7180,
     "quality": 7,
@@ -482,8 +482,8 @@
     "source1": "areaBoss"
   },
   "7190": {
-    "name": "义薄云天",
-    "des": "义薄云天，新服BOSS关羽伤害第1获得",
+    "name": "飞龙在天",
+    "des": "飞龙在天，新服BOSS洪七公伤害第1名获得",
     "type": "title",
     "arg": 7190,
     "quality": 7,
@@ -491,8 +491,8 @@
     "source1": "areaBoss"
   },
   "7200": {
-    "name": "年轻贤君",
-    "des": "年轻贤君，新服BOSS孙浩伤害第1获得",
+    "name": "一代宗师",
+    "des": "一代宗师，新服BOSS郭襄伤害第1名获得",
     "type": "title",
     "arg": 7200,
     "quality": 7,
@@ -500,8 +500,8 @@
     "source1": "areaBoss"
   },
   "7210": {
-    "name": "所向无敌",
-    "des": "所向无敌，新服BOSS吕布伤害第1获得",
+    "name": "开山祖师",
+    "des": "开山祖师，新服BOSS张三丰伤害第1名获得",
     "type": "title",
     "arg": 7210,
     "quality": 7,
@@ -518,7 +518,7 @@
     "source1": "checkpoints"
   },
   "7230": {
-    "name": "骁勇武士",
+    "name": "侠客义士",
     "des": "竞技场排行前100可获得",
     "type": "title",
     "arg": 7230,
@@ -527,97 +527,64 @@
     "source1": "arena"
   },
   "7301": {
-    "name": "初出茅庐",
-    "des": "初出茅庐，激活一元全开特权开启",
+    "name": "江湖小虾",
+    "des": "江湖小虾，激活新手刷充获得",
     "type": "title",
-    "arg": 7301,
     "quality": 7
   },
   "7302": {
     "name": "小有名气",
-    "des": "小有名气，激活新手制作人开特权开启",
+    "des": "小有名气，激活初级刷充获得",
     "type": "title",
-    "arg": 7302,
     "quality": 7
   },
   "7303": {
-    "name": "明日之星",
-    "des": "明日之星，激活初级制作人开特权开启",
+    "name": "练武奇才",
+    "des": "练武奇才，激活中级刷充获得",
     "type": "title",
-    "arg": 7303,
     "quality": 7
   },
   "7304": {
-    "name": "名声鹊起",
-    "des": "名声鹊起，激活中级制作人开特权开启",
+    "name": "明日之星",
+    "des": "明日之星，激活高级刷充获得",
     "type": "title",
-    "arg": 7304,
     "quality": 7
   },
   "7305": {
-    "name": "赫赫有名",
-    "des": "赫赫有名，激活高级制作人开特权开启",
+    "name": "名声鹊起",
+    "des": "名声鹊起，激活超级刷充获得",
     "type": "title",
-    "arg": 7305,
     "quality": 7
   },
   "7306": {
-    "name": "人尽皆知",
-    "des": "人尽皆知，激活超级制作人开特权开启",
+    "name": "武林高手",
+    "des": "武林高手，激活顶级刷充获得",
     "type": "title",
-    "arg": 7306,
     "quality": 7
   },
   "7307": {
-    "name": "声名显赫",
-    "des": "声名显赫，激活顶级制作人开特权开启",
+    "name": "赫赫有名",
+    "des": "赫赫有名，激活至尊刷充获得",
     "type": "title",
-    "arg": 7307,
     "quality": 7
   },
   "7308": {
-    "name": "盖世英雄",
-    "des": "盖世英雄，激活传说制作人开特权开启",
+    "name": "名动江湖",
+    "des": "名动江湖，激活神权刷充获得",
     "type": "title",
-    "arg": 7308,
     "quality": 7
   },
   "7309": {
-    "name": "名动天下",
-    "des": "名动天下，激活神级制作人开特权开启",
+    "name": "盖世英雄",
+    "des": "盖世英雄，激活神尊刷充获得",
     "type": "title",
-    "arg": 7309,
     "quality": 7
   },
   "7310": {
-    "name": "三国霸主",
-    "des": "三国霸主，激活超神制作人开特权开启",
+    "name": "武林至尊",
+    "des": "武林至尊，激活无敌刷充获得",
     "type": "title",
-    "arg": 7310,
     "quality": 7
-  },
-  "7311": {
-    "name": "一统天下",
-    "des": "一统天下，激活至尊制作人开特权开启",
-    "type": "title",
-    "arg": 7311,
-    "quality": 7
-  },
-  "7501": {
-    "name": "无敌战神",
-    "des": "活动定制专属称号",
-    "type": "title",
-    "arg": 7501,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7502": {
-    "name": "五万战力",
-    "des": "活动定制专属称号",
-    "type": "title",
-    "arg": 7502,
-    "quality": 7,
-    "effects": "baowu"
   },
   "8010": {
     "name": "青铜士卒",
@@ -683,7 +650,7 @@
     "source1": "gift"
   },
   "8080": {
-    "name": "以令诸侯",
+    "name": "至尊特权",
     "des": "以令诸侯，激活至尊特权后领取获得",
     "type": "frame",
     "arg": 8080,
@@ -693,7 +660,7 @@
   },
   "8090": {
     "name": "春意盎然",
-    "des": "春意盎然，参与活动获得",
+    "des": "春意盎然，激活首充后领取获得",
     "type": "frame",
     "arg": 8090,
     "quality": 7,
@@ -711,7 +678,7 @@
   },
   "8110": {
     "name": "童心妙笔",
-    "des": "童心妙笔，参与活动获得",
+    "des": "童心妙笔，六一儿童节活动获得",
     "type": "frame",
     "arg": 8110,
     "quality": 7,
@@ -746,19 +713,19 @@
     "source1": "gift"
   },
   "10010": {
-    "name": "BUG破解工具",
-    "des": "BUG破解工具",
+    "name": "盟主号令",
+    "des": "盟主号令",
     "type": "currency",
     "useType": "optional",
-    "arg": "[\"200:10000\",\"201:10000000\",\"101:10000000\",\"1000050:500\",\"1000020:500\",\"1000010:500\"]",
+    "arg": "[\"200:1000000\",\"201:10000000\",\"101:10000000\",\"1000050:10000\",\"1000300:1000000\"]",
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6
   },
   "103010": {
-    "name": "虎卫军碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "周聪碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -771,8 +738,8 @@
     "source2": "tower"
   },
   "103020": {
-    "name": "青州兵碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "丁敏君碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -785,8 +752,8 @@
     "source2": "tower"
   },
   "104000": {
-    "name": "4星魏国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "4星兵器碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -800,8 +767,8 @@
     "source3": "shop_hero"
   },
   "104010": {
-    "name": "辛宪英碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "韩小莹碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -814,8 +781,8 @@
     "source2": "tower"
   },
   "104020": {
-    "name": "曹纯碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "洪凌波碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -828,8 +795,8 @@
     "source2": "tower"
   },
   "104030": {
-    "name": "张春华碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "穆念慈碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -842,8 +809,8 @@
     "source2": "tower"
   },
   "104040": {
-    "name": "于禁碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "纪晓芙碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -856,8 +823,8 @@
     "source2": "tower"
   },
   "105000": {
-    "name": "5星魏国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "5星兵器碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -870,8 +837,8 @@
     "source2": "tower"
   },
   "105010": {
-    "name": "司马懿碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "王重阳碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -885,8 +852,8 @@
     "source3": "shop_general"
   },
   "105020": {
-    "name": "曹丕碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "灭绝师太碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -900,8 +867,8 @@
     "source3": "shop_hero"
   },
   "105030": {
-    "name": "荀彧碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "周芷若碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -914,8 +881,8 @@
     "source2": "tower"
   },
   "105040": {
-    "name": "曹操碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "小龙女碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -929,8 +896,8 @@
     "source3": "shop_guild"
   },
   "105050": {
-    "name": "蔡文姬碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "范遥碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -943,8 +910,8 @@
     "source2": "tower"
   },
   "105060": {
-    "name": "夏侯惇碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "赵敏碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -957,8 +924,8 @@
     "source2": "tower"
   },
   "105070": {
-    "name": "郭嘉碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "谢逊碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -971,8 +938,8 @@
     "source2": "tower"
   },
   "105080": {
-    "name": "典韦碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "林朝英碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -986,8 +953,8 @@
     "source3": "shop_zhulu"
   },
   "105090": {
-    "name": "乐进碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "俞莲舟碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1000,8 +967,8 @@
     "source2": "tower"
   },
   "105100": {
-    "name": "夏侯渊碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "郭破虏碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1014,8 +981,8 @@
     "source2": "tower"
   },
   "105110": {
-    "name": "程昱碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "王处一碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1028,8 +995,8 @@
     "source2": "tower"
   },
   "105120": {
-    "name": "许攸碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "张翠山碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1043,8 +1010,8 @@
     "source3": "shop_general"
   },
   "105130": {
-    "name": "许褚碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "独孤求败碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1058,8 +1025,8 @@
     "source2": "tower"
   },
   "105140": {
-    "name": "张辽碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "杨过碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1071,93 +1038,9 @@
     "source1": "secretChallenge",
     "source2": "tower"
   },
-  "110110": {
-    "name": "海螺",
-    "des": "能够在夏日海滩中找到许多海螺。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110120": {
-    "name": "棒棒糖",
-    "des": "棒棒糖是一种深受小孩子深爱糖果。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110130": {
-    "name": "贝壳",
-    "des": "美丽的白色贝壳，从海域那里漂流到这里的。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110140": {
-    "name": "灯笼",
-    "des": "赋予了灵魂的灯笼,照亮这整片大地。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110150": {
-    "name": "花朵",
-    "des": "神奇绚丽的花朵，至今仍未发现能长出这种花朵的花园。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110160": {
-    "name": "花灯",
-    "des": "花灯又似满天繁星，闪着亮光。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110170": {
-    "name": "彩带",
-    "des": "散发着美丽银辉的彩带，手感十分细腻。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110180": {
-    "name": "秋叶",
-    "des": "黄金似的秋叶，能够给人带来幸运。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110190": {
-    "name": "爆竹",
-    "des": "爆竹发出的声响，能够驱除邪灵，给人们在新的一年带来好运。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110200": {
-    "name": "雪人",
-    "des": "手感细腻且十分好看的雪人玩偶，冬季时许多商店都有售卖。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110210": {
-    "name": "月饼",
-    "des": "月饼是古代中秋拜祭月神的供品，也是中秋节的时节食品。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
-  "110220": {
-    "name": "星星",
-    "des": "以纯金制成，闪着金光的星星。",
-    "type": "currency",
-    "quality": 5,
-    "source1": "gift"
-  },
   "203010": {
-    "name": "无当飞军碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "杨铁心碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1170,8 +1053,8 @@
     "source2": "tower"
   },
   "203020": {
-    "name": "夜叉行碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "郭啸天碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1184,8 +1067,8 @@
     "source2": "tower"
   },
   "204000": {
-    "name": "4星蜀国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "4星奇门碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1199,8 +1082,8 @@
     "source3": "shop_hero"
   },
   "204010": {
-    "name": "张苞碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "周聪碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1213,8 +1096,8 @@
     "source2": "tower"
   },
   "204020": {
-    "name": "关兴碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "柯镇恶碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1227,8 +1110,8 @@
     "source2": "tower"
   },
   "204030": {
-    "name": "关平碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "布袋和尚碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1241,8 +1124,8 @@
     "source2": "tower"
   },
   "204040": {
-    "name": "王平碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "达尔巴碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1255,8 +1138,8 @@
     "source2": "tower"
   },
   "205000": {
-    "name": "5星蜀国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "5星奇门碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1269,8 +1152,8 @@
     "source2": "tower"
   },
   "205010": {
-    "name": "赵云碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "郭襄碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1284,8 +1167,8 @@
     "source3": "shop_hero"
   },
   "205020": {
-    "name": "诸葛亮碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "黄药师碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1299,8 +1182,8 @@
     "source3": "shop_general"
   },
   "205030": {
-    "name": "刘备碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "程英碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1314,8 +1197,8 @@
     "source3": "shop_guild"
   },
   "205040": {
-    "name": "马云禄碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "洪七公碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1329,8 +1212,8 @@
     "source3": "shop_zhulu"
   },
   "205050": {
-    "name": "黄月英碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "金轮法王碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1343,8 +1226,8 @@
     "source2": "tower"
   },
   "205060": {
-    "name": "马超碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "陆无双碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1357,8 +1240,8 @@
     "source2": "tower"
   },
   "205070": {
-    "name": "关羽碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "斗酒神僧碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1372,8 +1255,8 @@
     "source3": "shop_general"
   },
   "205080": {
-    "name": "张飞碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "丘处机碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1386,8 +1269,8 @@
     "source2": "tower"
   },
   "205090": {
-    "name": "刘禅碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "何足道碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1400,8 +1283,8 @@
     "source2": "tower"
   },
   "205100": {
-    "name": "法正碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "欧阳克碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1414,8 +1297,8 @@
     "source2": "tower"
   },
   "205110": {
-    "name": "马岱碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "马钰碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1428,8 +1311,8 @@
     "source2": "tower"
   },
   "205120": {
-    "name": "魏延碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "陆乘风碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1442,8 +1325,8 @@
     "source2": "tower"
   },
   "205130": {
-    "name": "庞统碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "李莫愁碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1456,8 +1339,8 @@
     "source2": "tower"
   },
   "205140": {
-    "name": "姜维碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "黄蓉碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1470,8 +1353,8 @@
     "source2": "tower"
   },
   "303010": {
-    "name": "龙飞卫碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "华筝碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1484,8 +1367,8 @@
     "source2": "tower"
   },
   "303020": {
-    "name": "丹阳军碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "武三通碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1498,8 +1381,8 @@
     "source2": "tower"
   },
   "304000": {
-    "name": "4星吴国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "4星拳掌碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1513,8 +1396,8 @@
     "source3": "shop_hero"
   },
   "304010": {
-    "name": "程普碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "郭芙碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1527,8 +1410,8 @@
     "source2": "tower"
   },
   "304020": {
-    "name": "凌统碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "完颜萍碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1541,8 +1424,8 @@
     "source2": "tower"
   },
   "304030": {
-    "name": "黄盖碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "公孙绿萼碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1555,8 +1438,8 @@
     "source2": "tower"
   },
   "304040": {
-    "name": "祖茂碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "耶律齐碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1569,8 +1452,8 @@
     "source2": "tower"
   },
   "305000": {
-    "name": "5星吴国碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "5星拳掌碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1583,8 +1466,8 @@
     "source2": "tower"
   },
   "305010": {
-    "name": "孙策碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "阳顶天碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1597,8 +1480,8 @@
     "source2": "tower"
   },
   "305020": {
-    "name": "周瑜碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "杨逍碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1612,8 +1495,8 @@
     "source3": "shop_general"
   },
   "305030": {
-    "name": "小乔碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "胡青牛碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1626,8 +1509,8 @@
     "source2": "tower"
   },
   "305040": {
-    "name": "孙坚碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "青翼蝠王碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1641,8 +1524,8 @@
     "source3": "shop_zhulu"
   },
   "305050": {
-    "name": "孙尚香碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "白眉鹰王碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1656,8 +1539,8 @@
     "source3": "shop_guild"
   },
   "305060": {
-    "name": "陆逊碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "紫衫龙王碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1671,8 +1554,8 @@
     "source3": "shop_hero"
   },
   "305070": {
-    "name": "孙皓碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "梅超风碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1686,8 +1569,8 @@
     "source3": "shop_general"
   },
   "305080": {
-    "name": "张昭碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "瑛姑碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1700,8 +1583,8 @@
     "source2": "tower"
   },
   "305090": {
-    "name": "大乔碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "殷素素碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1714,8 +1597,8 @@
     "source2": "tower"
   },
   "305100": {
-    "name": "甘宁碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "陈玄风碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1728,8 +1611,8 @@
     "source2": "tower"
   },
   "305110": {
-    "name": "丁奉碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "宋远桥碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1742,8 +1625,8 @@
     "source2": "tower"
   },
   "305120": {
-    "name": "吕蒙碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "曲灵风碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1757,8 +1640,8 @@
     "source3": "shop_general"
   },
   "305130": {
-    "name": "鲁肃碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "小昭碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1771,8 +1654,8 @@
     "source2": "tower"
   },
   "305140": {
-    "name": "孙权碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "张无忌碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1785,8 +1668,8 @@
     "source2": "tower"
   },
   "403010": {
-    "name": "死士碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "伊克西碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1799,8 +1682,8 @@
     "source2": "tower"
   },
   "403020": {
-    "name": "术士碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "尼摩星碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1813,8 +1696,8 @@
     "source2": "tower"
   },
   "404000": {
-    "name": "4星群雄碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "4星气劲碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1828,8 +1711,8 @@
     "source3": "shop_hero"
   },
   "404010": {
-    "name": "张宝碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "杨不悔碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1842,8 +1725,8 @@
     "source2": "tower"
   },
   "404020": {
-    "name": "张梁碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "杨康碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1856,8 +1739,8 @@
     "source2": "tower"
   },
   "404030": {
-    "name": "公孙瓒碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "鹰野王碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1870,8 +1753,8 @@
     "source2": "tower"
   },
   "404040": {
-    "name": "祝融碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "宋青书碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1884,8 +1767,8 @@
     "source2": "tower"
   },
   "405000": {
-    "name": "5星群雄碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "5星气劲碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -1898,8 +1781,8 @@
     "source2": "tower"
   },
   "405010": {
-    "name": "左慈碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "周伯通碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1912,8 +1795,8 @@
     "source2": "tower"
   },
   "405020": {
-    "name": "吕布碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "张三丰碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1927,8 +1810,8 @@
     "source3": "shop_general"
   },
   "405030": {
-    "name": "华佗碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "达摩祖师碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1941,8 +1824,8 @@
     "source2": "tower"
   },
   "405040": {
-    "name": "董卓碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "灵智上人碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1956,8 +1839,8 @@
     "source3": "shop_zhulu"
   },
   "405050": {
-    "name": "张角碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "一灯大师碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1971,8 +1854,8 @@
     "source3": "shop_hero"
   },
   "405060": {
-    "name": "李傕碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "黄裳碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -1986,8 +1869,8 @@
     "source3": "shop_guild"
   },
   "405070": {
-    "name": "南华老仙碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "郭靖碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2001,8 +1884,8 @@
     "source3": "shop_general"
   },
   "405080": {
-    "name": "于吉碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "欧阳锋碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2015,8 +1898,8 @@
     "source2": "tower"
   },
   "405090": {
-    "name": "袁术碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "裘千仞碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2029,8 +1912,8 @@
     "source2": "tower"
   },
   "405100": {
-    "name": "皇甫嵩碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "成昆碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2043,8 +1926,8 @@
     "source2": "tower"
   },
   "405110": {
-    "name": "袁绍碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "鹤笔翁碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2057,8 +1940,8 @@
     "source2": "tower"
   },
   "405120": {
-    "name": "刘表碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "殷离碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2072,8 +1955,8 @@
     "source3": "shop_general"
   },
   "405130": {
-    "name": "貂蝉碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "天竺僧碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2086,8 +1969,8 @@
     "source2": "tower"
   },
   "405140": {
-    "name": "孟获碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "鹿杖客碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "heroChip",
@@ -2100,8 +1983,8 @@
     "source2": "tower"
   },
   "504000": {
-    "name": "4星英雄碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "4星侠客碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -2115,8 +1998,8 @@
     "source3": "shop_guild"
   },
   "505000": {
-    "name": "5星英雄碎片",
-    "des": "集齐30个碎片即可招募该英雄",
+    "name": "5星侠客碎片",
+    "des": "集齐30个碎片即可招募该侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -2130,108 +2013,21 @@
     "source3": "shop_guild",
     "source4": "shop_hero"
   },
-  "506001": {
-    "name": "6星材料碎片",
-    "des": "集齐30个碎片即可获得6星材料英雄",
+  "505001": {
+    "name": "5星限定碎片",
+    "des": "集齐30个碎片即可招募精英侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
-    "arg": "randChip_6_1",
-    "gold": 18000,
-    "coin": 90000000,
-    "buyNum": 180,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "506002": {
-    "name": "6星英雄碎片",
-    "des": "集齐30个碎片即可获得6星英雄英雄",
-    "isBag": true,
-    "type": "heroChip",
-    "useType": "randChip",
-    "arg": "randChip_6_2",
-    "gold": 18000,
-    "coin": 90000000,
-    "buyNum": 180,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "506003": {
-    "name": "6星稀有碎片",
-    "des": "集齐30个碎片即可获得6星稀有英雄",
-    "isBag": true,
-    "type": "heroChip",
-    "useType": "randChip",
-    "arg": "randChip_6_3",
-    "gold": 18000,
-    "coin": 90000000,
-    "buyNum": 180,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "510001": {
-    "name": "10星材料碎片",
-    "des": "集齐30个碎片即可获得10星英雄英雄",
-    "isBag": true,
-    "type": "heroChip",
-    "useType": "randChip",
-    "arg": "randChip_10_1",
-    "gold": 1000000,
-    "coin": 5000000000,
-    "buyNum": 10000,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "510002": {
-    "name": "10星英雄碎片",
-    "des": "集齐30个碎片即可获得10星稀有英雄",
-    "isBag": true,
-    "type": "heroChip",
-    "useType": "randChip",
-    "arg": "randChip_10_2",
-    "gold": 1000000,
-    "coin": 5000000000,
-    "buyNum": 10000,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "1000010": {
-    "name": "升星石",
-    "des": "升星石，能够使英雄升星到更高的水平",
-    "isBag": true,
-    "type": "item",
-    "gold": 10,
-    "coin": 50000,
-    "buyNum": 1,
+    "arg": "randChip_5_3",
+    "gold": 6000,
+    "coin": 30000000,
+    "buyNum": 30,
     "quality": 5,
-    "source1": "gift"
-  },
-  "1000020": {
-    "name": "培养丹",
-    "des": "培养丹，可用于英雄培养",
-    "isBag": true,
-    "type": "item",
-    "gold": 10,
-    "coin": 50000,
-    "buyNum": 1,
-    "quality": 5,
-    "source1": "gift"
-  },
-  "1000030": {
-    "name": "进阶突破石",
-    "des": "进阶突破石，能够使英雄突破到更高的水平",
-    "isBag": true,
-    "type": "item",
-    "gold": 10,
-    "coin": 50000,
-    "buyNum": 1,
-    "quality": 5,
-    "source1": "gift"
+    "source1": "secretChallenge",
+    "source2": "tower",
+    "source3": "shop_guild",
+    "source4": "shop_hero"
   },
   "1000040": {
     "name": "洗炼石",
@@ -2241,12 +2037,11 @@
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
-    "quality": 5,
-    "source1": "gift"
+    "quality": 5
   },
   "1000050": {
     "name": "进阶石",
-    "des": "英雄灵气聚集而成，能够使英雄进阶到更高的水平",
+    "des": "侠客灵气聚集而成，能够使侠客突破到更高的水平",
     "isBag": true,
     "type": "item",
     "gold": 1,
@@ -2260,11 +2055,11 @@
   },
   "1000060": {
     "name": "觉醒石",
-    "des": "觉醒实，蕴含强大的能力，相传干将莫邪铸造时所用之石，可在【铁匠铺】中神将分页将装备觉醒成神装",
+    "des": "觉醒石，蕴含强大的能力，可在【铁匠铺】中神将分页将装备觉醒成神装",
     "isBag": true,
     "type": "item",
-    "gold": 8000,
-    "coin": 40000000,
+    "gold": 2000,
+    "coin": 10000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
@@ -2272,8 +2067,8 @@
     "source2": "gift"
   },
   "1000070": {
-    "name": "寻访令",
-    "des": "寻访令，可在【酒楼】进行一次普通招募",
+    "name": "招募券",
+    "des": "招募券，可在【酒馆】进行一次普通招募",
     "isBag": true,
     "type": "item",
     "gold": 50,
@@ -2284,8 +2079,8 @@
     "source2": "checkpoints"
   },
   "1000080": {
-    "name": "纳贤令",
-    "des": "纳贤令，可在【酒楼】进行一次高级招募",
+    "name": "寻侠券",
+    "des": "寻侠券，可在【酒馆】进行一次高级招募",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -2323,19 +2118,9 @@
     "source1": "secretChallenge",
     "source2": "gift"
   },
-  "1000110": {
-    "name": "强化石",
-    "des": "可用于强化装备",
-    "isBag": true,
-    "type": "item",
-    "gold": 10,
-    "coin": 50000,
-    "buyNum": 1,
-    "quality": 5
-  },
   "1000120": {
-    "name": "将军令",
-    "des": "将军令，能够在【酒楼】进行阵营点击，招募4-5星英雄",
+    "name": "江湖名帖",
+    "des": "江湖名帖，能够在【豪侠馆】中的豪侠殿招募阵营的4-5星侠客",
     "isBag": true,
     "type": "item",
     "gold": 1500,
@@ -2363,7 +2148,7 @@
   },
   "1000160": {
     "name": "刷新卡",
-    "des": "用于刷新英雄任务",
+    "des": "用于刷新三界任务",
     "isBag": true,
     "type": "item",
     "gold": 20,
@@ -2386,7 +2171,7 @@
   },
   "1000180": {
     "name": "转换丹",
-    "des": "转换丹，能够在主城【将军府】建筑的英雄置换功能中，将五星英雄置换成本国家的五星英雄",
+    "des": "转换丹，能够在主城【豪侠馆】建筑的侠客置换功能中，将五星侠客置换成本阵营的五星侠客",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -2398,8 +2183,8 @@
     "source3": "areaTrial"
   },
   "1000190": {
-    "name": "册封令",
-    "des": "册封令，能够在主城【将军府】建筑的英雄直升成中将英雄直升至六星",
+    "name": "六星直升令",
+    "des": "六星直升令，能够在主城【豪侠馆】建筑的侠客直升成中将侠客直升至六星",
     "isBag": true,
     "type": "item",
     "gold": 18000,
@@ -2409,55 +2194,9 @@
     "effects": "baowu",
     "source1": "gift"
   },
-  "1000200": {
-    "name": "培养突破丹",
-    "des": "培养突破丹，可用于突破英雄培养上线",
-    "isBag": true,
-    "type": "item",
-    "gold": 100,
-    "coin": 500000,
-    "buyNum": 1,
-    "quality": 5
-  },
-  "1000210": {
-    "name": "红将招募卡",
-    "des": "红将招募卡，可在【酒楼】进行一次红将招募",
-    "isBag": true,
-    "type": "item",
-    "gold": 600,
-    "coin": 3000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "1000220": {
-    "name": "觉醒招募卡",
-    "des": "神将招募卡，可在【酒楼】进行一次觉醒招募",
-    "isBag": true,
-    "type": "item",
-    "gold": 1800,
-    "coin": 9000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "1000230": {
-    "name": "化境招募卡",
-    "des": "化境招募卡，可在【酒楼】进行一次化境招募",
-    "isBag": true,
-    "type": "item",
-    "gold": 5000,
-    "coin": 25000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "baowu",
-    "source1": "gift"
-  },
   "1000300": {
-    "name": "兵法经验",
-    "des": "记录上古珍奇异兽的古书，随着年代久远只剩残页，目前只能用于提升兵法等级",
+    "name": "神兵残魂",
+    "des": "记录上古珍奇异兽的古书，随着年代久远只剩残页，目前只能用于提升神器等级",
     "isBag": true,
     "type": "currency",
     "gold": 100,
@@ -2470,8 +2209,8 @@
     "source4": "lottery_bf"
   },
   "1000400": {
-    "name": "兵法残卷",
-    "des": "记录战争时期的军事典籍，在混战中散落，可与兵法碎片一共提升兵法星级",
+    "name": "神兵残片",
+    "des": "记录战争时期的军事典籍，在混战中散落，可与神器碎片一共提升神器星级",
     "isBag": true,
     "type": "item",
     "gold": 600,
@@ -2533,8 +2272,8 @@
     "des": "用黄金铸造而成的矿镐，可在玉石矿场中开采使用，每次开采有概率获得紫色玉石、红色玉石、技能玉石",
     "isBag": true,
     "type": "item",
-    "gold": 4000,
-    "coin": 20000000,
+    "gold": 8000,
+    "coin": 40000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
@@ -2542,7 +2281,7 @@
   },
   "1000601": {
     "name": "红包碎片",
-    "des": "新春红包碎片，可在福利中兑换充值中兑换充值卡",
+    "des": "红包碎片，可在福利中兑换充值中兑换充值卡",
     "isBag": true,
     "type": "item",
     "gold": 1,
@@ -2552,19 +2291,19 @@
     "source1": "lottery_oh"
   },
   "1000602": {
-    "name": "BUG抽奖券",
-    "des": "BUG抽奖券，可在BUG转盘中获得物品",
+    "name": "BUG抽奖卷",
+    "des": "BUG抽奖卷，可在【BUG转盘】中抽取奖励",
     "isBag": true,
     "type": "item",
     "gold": 20,
     "coin": 100000,
     "buyNum": 1,
-    "quality": 4,
+    "quality": 5,
     "source1": "gift"
   },
   "1000603": {
-    "name": "飞升令",
-    "des": "飞升令，打开可获得GM经验",
+    "name": "武林飞升令",
+    "des": "仙帝飞升令，打开可获得SVIP经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -2578,13 +2317,13 @@
     "source1": "gift"
   },
   "1000604": {
-    "name": "直升卡(直升满GM)",
-    "des": "直升卡，使用后可以直升GM等級",
+    "name": "武林至尊卡(可直升GM20)",
+    "des": "武林至尊卡，使用后直升GM20",
     "isBag": true,
     "type": "item",
     "useType": "box",
     "useLv": 10,
-    "arg": "109:43075000",
+    "arg": "109:39825000",
     "gold": 10000,
     "coin": 50000000,
     "buyNum": 1,
@@ -2653,7 +2392,7 @@
     "source2": "smithy"
   },
   "5002020": {
-    "name": "铁盔",
+    "name": "铁冠",
     "des": "粗布制成的衣服，勉强能穿",
     "isBag": true,
     "type": "equip",
@@ -2701,8 +2440,8 @@
     "source2": "smithy"
   },
   "5003020": {
-    "name": "银蓝盔",
-    "des": "采用蓝色晶石与布料一起制成，特别贴身",
+    "name": "君子巾",
+    "des": "裁缝大师专门为君子们量身定做的帽子",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2713,8 +2452,8 @@
     "source2": "smithy"
   },
   "5003030": {
-    "name": "蓝染衣",
-    "des": "鬼面制作大师根据制作面具的工艺打造鬼面腰带",
+    "name": "君子衣",
+    "des": "裁缝大师专门为君子们量身定做的衣服",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2725,8 +2464,8 @@
     "source2": "smithy"
   },
   "5003040": {
-    "name": "轻羽鞋",
-    "des": "采用蓝色晶石和羽毛制成，特别轻便好用",
+    "name": "君子靴",
+    "des": "裁缝大师专门为君子们量身定做的布靴",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2737,8 +2476,8 @@
     "source2": "smithy"
   },
   "5004010": {
-    "name": "圣人剑",
-    "des": "铸剑圣人花其一生的时间打造而成，非常锋利",
+    "name": "羽风剑",
+    "des": "铸剑大师花打造而成，非常锋利。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2749,8 +2488,8 @@
     "source2": "smithy"
   },
   "5004020": {
-    "name": "天空盔",
-    "des": "用鳞片手动敲打而成，有较强的防御能力",
+    "name": "羽风帽",
+    "des": "用许多飞禽的羽毛缝纫而成，轻便柔软，非常受到书生们喜爱。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2761,8 +2500,8 @@
     "source2": "smithy"
   },
   "5004030": {
-    "name": "鳞风甲",
-    "des": "人皇为盛世而打造的腰带，有较强的观赏性",
+    "name": "羽风衣",
+    "des": "用许多飞禽的羽毛缝纫而成，轻便柔软，非常受到书生们喜爱。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2773,8 +2512,8 @@
     "source2": "smithy"
   },
   "5004040": {
-    "name": "翔空覆",
-    "des": "羽人族的独家制作工艺，穿上可翔空而行",
+    "name": "羽风覆",
+    "des": "用许多飞禽的羽毛缝纫而成，轻便柔软，非常受到书生们喜爱。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2785,7 +2524,7 @@
     "source2": "smithy"
   },
   "5005010": {
-    "name": "天工剑",
+    "name": "紫霞剑",
     "des": "巧夺天工自然而成，经过千百年的自然打磨最终成剑",
     "isBag": true,
     "type": "equip",
@@ -2797,8 +2536,8 @@
     "source2": "smithy"
   },
   "5005020": {
-    "name": "紫耀盔",
-    "des": "用紫晶石与天外玄铁制成，闪耀着紫色的光芒",
+    "name": "紫耀冠",
+    "des": "用紫晶石与铁制成，闪耀着紫色的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2810,7 +2549,7 @@
   },
   "5005030": {
     "name": "紫纹铠",
-    "des": "用紫晶石与天外玄铁制成，闪耀着紫色的光芒",
+    "des": "用紫晶石与铁制成，闪耀着紫色的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2821,8 +2560,8 @@
     "source2": "smithy"
   },
   "5005040": {
-    "name": "祥云履",
-    "des": "制作大师看到天上云获得灵感，花费大量的时间制成",
+    "name": "紫云履",
+    "des": "用紫晶石与铁制成，闪耀着紫色的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2833,8 +2572,8 @@
     "source2": "smithy"
   },
   "5006010": {
-    "name": "降龙之剑",
-    "des": "人族与妖族大战时，此剑曾刺杀过蛟龙，散发出凶兽的光芒",
+    "name": "流云之剑",
+    "des": "此剑产自御剑上庄，有吹毛刃断的美名。",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2846,7 +2585,7 @@
   },
   "5006020": {
     "name": "流云束",
-    "des": "制铠大师用远古巨兽的遗骸加上自身精血制成，制成之日万兽崇拜",
+    "des": "用轻纱与蚕丝制成，穿戴上后如同流云缠身身姿飘渺",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2857,7 +2596,7 @@
     "source2": "smithy"
   },
   "5006030": {
-    "name": "巨兽战铠",
+    "name": "流云战铠",
     "des": "用轻纱与蚕丝制成，穿戴上后如同流云缠身身姿飘渺",
     "isBag": true,
     "type": "equip",
@@ -2869,8 +2608,8 @@
     "source2": "smithy"
   },
   "5006040": {
-    "name": "渡步云靴",
-    "des": "神族制作工艺，穿上走起来犹如漫步云中",
+    "name": "流云云靴",
+    "des": "用轻纱与蚕丝制成，穿戴上后如同流云缠身身姿飘渺",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2893,8 +2632,8 @@
     "source2": "smithy"
   },
   "5007020": {
-    "name": "魔惧头盔",
-    "des": "夏侯惇身陨后将其战甲熔炼重新炼制而成，还散发淡淡的战神气势",
+    "name": "落神头冠",
+    "des": "由陨石熔炼重新炼制而成，还散发淡淡的战神气势",
     "isBag": true,
     "type": "equip",
     "gold": 250,
@@ -2905,8 +2644,8 @@
     "source2": "smithy"
   },
   "5007030": {
-    "name": "战神胜铠",
-    "des": "由魔王刑天的铠甲改造而成，带有一丝魔王神魂，散发出强大的魔王气息",
+    "name": "落神胜铠",
+    "des": "由陨石熔炼重新炼制而成，坚不可摧。",
     "isBag": true,
     "type": "equip",
     "gold": 250,
@@ -2917,8 +2656,8 @@
     "source2": "smithy"
   },
   "5007040": {
-    "name": "追风轻覆",
-    "des": "选用天地灵气结合天外灵石制成，传说穿上后可追风赶月",
+    "name": "落神轻覆",
+    "des": "由陨石熔炼重新炼制而成，传说穿上后可追风赶月",
     "isBag": true,
     "type": "equip",
     "gold": 250,
@@ -2930,7 +2669,7 @@
   },
   "5008010": {
     "name": "风云巨剑",
-    "des": "铸剑巨擘花费一生心血打造而成，因能呼风唤雨二闻名",
+    "des": "铸剑巨剑花费一生心血打造而成，因能呼风唤雨二闻名",
     "isBag": true,
     "type": "equip",
     "gold": 430,
@@ -2941,8 +2680,8 @@
     "source2": "smithy"
   },
   "5008020": {
-    "name": "沧澜头盔",
-    "des": "取玄天陨石在月光下吸收精华，通过万次淬炼而成，散发古老的苍月气息而得名",
+    "name": "风云头冠",
+    "des": "取陨石在月光下吸收精华，通过万次淬炼而成，散发古老的苍月气息而得名",
     "isBag": true,
     "type": "equip",
     "gold": 430,
@@ -2953,7 +2692,7 @@
     "source2": "smithy"
   },
   "5008030": {
-    "name": "苍月铠甲",
+    "name": "风云铠甲",
     "des": "取沧海之滨千年晶石，经万次锤炼而成，穿上后可任意穿梭四海",
     "isBag": true,
     "type": "equip",
@@ -2965,8 +2704,8 @@
     "source2": "smithy"
   },
   "5008040": {
-    "name": "翔龙战靴",
-    "des": "模仿龙族飞升之势打造的战靴，穿上后可踏空起飞",
+    "name": "风云战靴",
+    "des": "以飞升之势打造的战靴，穿上后可踏空起飞",
     "isBag": true,
     "type": "equip",
     "gold": 430,
@@ -2978,7 +2717,7 @@
   },
   "5009010": {
     "name": "七星宝剑",
-    "des": "太上老君取七星之精华打造而成，闪耀着七星的光芒",
+    "des": "取七星之精华打造而成，闪耀着七星的光芒",
     "isBag": true,
     "type": "equip",
     "gold": 730,
@@ -2989,8 +2728,8 @@
     "source2": "smithy"
   },
   "5009020": {
-    "name": "混元盔甲",
-    "des": "此物来自太上老君炼制，以流云虚无缥缈而得名，据说可迷幻敌人攻击不到自身",
+    "name": "七星冠甲",
+    "des": "此物来混元玄铁炼制，以流云虚无缥缈而得名，据说可迷幻敌人攻击不到自身",
     "isBag": true,
     "type": "equip",
     "gold": 730,
@@ -3001,8 +2740,8 @@
     "source2": "smithy"
   },
   "5009030": {
-    "name": "流云战袍",
-    "des": "太上老君用混元石，以神火锻后，手动捶打而成，散发一丝混元气息",
+    "name": "七星战袍",
+    "des": "混元石以神火锻后，手动捶打而成，散发一丝混元气息",
     "isBag": true,
     "type": "equip",
     "gold": 730,
@@ -3013,7 +2752,7 @@
     "source2": "smithy"
   },
   "5009040": {
-    "name": "踏云轻靴",
+    "name": "七星轻靴",
     "des": "此物出自太上老君之手，据说当时只是随手打造，便可一步腾云",
     "isBag": true,
     "type": "equip",
@@ -3025,8 +2764,8 @@
     "source2": "smithy"
   },
   "5010010": {
-    "name": "破晓·天鸣剑",
-    "des": "此剑有灵，剑成之时天地共鸣，故来得名，可剑出谁手却成了迷",
+    "name": "天鸣·追云剑",
+    "des": "御剑山庄藏剑阁中的名剑，可斩金截玉。",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -3037,8 +2776,8 @@
     "source2": "smithy"
   },
   "5010020": {
-    "name": "破晓·梦月盔",
-    "des": "神农取多种灵石混合打造而成，以纹路清晰得名，被攻击时纹路会泛光护主",
+    "name": "天鸣·追云冠",
+    "des": "御剑山庄纯银藏制作的头冠，阳光下泛有紫光",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -3049,8 +2788,8 @@
     "source2": "smithy"
   },
   "5010030": {
-    "name": "破晓·铭纹甲",
-    "des": "月宫仙子秘制而成，相传佩戴后可梦见月宫仙子",
+    "name": "天鸣·追云甲",
+    "des": "御剑山庄纯银藏制作的胸甲，阳光下泛有紫光",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -3061,8 +2800,8 @@
     "source2": "smithy"
   },
   "5010040": {
-    "name": "破晓·追云靴",
-    "des": "夸父秘制而成，传说穿上次靴可追日",
+    "name": "天鸣·追云靴",
+    "des": "御剑山庄纯银藏制作的战靴，阳光下泛有紫光",
     "isBag": true,
     "type": "equip",
     "gold": 1250,
@@ -3073,8 +2812,8 @@
     "source2": "smithy"
   },
   "5011010": {
-    "name": "征战·赤霄剑",
-    "des": "取麒麟精血铸成的神剑，剑动则麒惊，剑停则麟亡",
+    "name": "凤鸣·赤霄剑",
+    "des": "由铸剑大师打造的青铜剑，相传古代帝王曾用此剑斩杀巨蛇，剑身镌刻赤霄，因此得名。",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -3086,8 +2825,8 @@
     "source3": "shop_guild"
   },
   "5011020": {
-    "name": "征战·辟邪盔",
-    "des": "取饕餮精血铸成的铠甲，可吞噬天下一切",
+    "name": "凤鸣·赤霄冠",
+    "des": "由铸剑大师打造的青铜冠，相传古代帝王斩杀巨蛇时穿戴，抵御巨蛇的獠牙。",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -3099,8 +2838,8 @@
     "source3": "shop_guild"
   },
   "5011030": {
-    "name": "征战·吞天铠",
-    "des": "取貔貅精血铸成的腰带，可趋吉避凶",
+    "name": "凤鸣·赤霄铠",
+    "des": "由铸剑大师打造的青铜铠，相传古代帝王斩杀巨蛇时穿戴，抵御巨蛇的獠牙。",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -3112,8 +2851,8 @@
     "source3": "shop_guild"
   },
   "5011040": {
-    "name": "征战·逐月履",
-    "des": "取鲲鹏精血铸成的鞋子，可一日万里",
+    "name": "凤鸣·赤霄履",
+    "des": "由铸剑大师打造的青铜履，相传古代帝王斩杀巨蛇时穿戴，抵御巨蛇的獠牙。",
     "isBag": true,
     "type": "equip",
     "gold": 2100,
@@ -3125,8 +2864,8 @@
     "source3": "shop_guild"
   },
   "5012010": {
-    "name": "轩辕·帝王剑",
-    "des": "郭嘉随身佩剑，剑身一面刻日月星辰，一面刻山川草木，得此剑者，可安天下",
+    "name": "紫金·胜意剑",
+    "des": "相传武林第一铁匠偶然获得紫金奇石，此石有灵，打造的长剑与天地共鸣，故来得名。",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -3138,8 +2877,8 @@
     "source2": "smithy"
   },
   "5012020": {
-    "name": "轩辕·帝王盔",
-    "des": "郭嘉身穿之铠甲，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "name": "紫金·胜意冠",
+    "des": "相传武林第一铁匠偶然获得紫金奇石，此石有灵，打造的头冠与天地共鸣，故来得名。",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -3151,8 +2890,8 @@
     "source2": "smithy"
   },
   "5012030": {
-    "name": "轩辕·帝王凯",
-    "des": "郭嘉身穿之腰带，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "name": "紫金·胜意凯",
+    "des": "相传武林第一铁匠偶然获得紫金奇石，此石有灵，打造的胸甲与天地共鸣，故来得名。",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -3164,8 +2903,8 @@
     "source2": "smithy"
   },
   "5012040": {
-    "name": "轩辕·帝王履",
-    "des": "郭嘉身穿之腰带，铠甲以四圣之一青龙孕育而成，散发淡淡的龙威",
+    "name": "紫金·胜意履",
+    "des": "相传武林第一铁匠偶然获得紫金奇石，此石有灵，打造的战靴与天地共鸣，故来得名。",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -3177,8 +2916,8 @@
     "source2": "smithy"
   },
   "5013010": {
-    "name": "战神·诛天枪",
-    "des": "夏侯惇身陨后以其骨血制成，枪成之日诛神寂灭，故得名",
+    "name": "蟠龙·追风剑",
+    "des": "天降陨铁，犹如蟠龙，刚硬沉重，由武林第一铁匠铸造而成的长剑，能削铁如泥。",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -3190,8 +2929,8 @@
     "source2": "smithy"
   },
   "5013020": {
-    "name": "战神·圣耀盔",
-    "des": "帝师以窥天之秘术打造而成，此铠甲泛出神秘的光芒",
+    "name": "蟠龙·追风冠",
+    "des": "天降陨铁，犹如蟠龙，刚硬沉重，由武林第一铁匠铸造而成的头冠，坚不可摧。",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -3203,8 +2942,8 @@
     "source2": "smithy"
   },
   "5013030": {
-    "name": "战神·奥义铠",
-    "des": "圣人以一生所识注入器灵孕育而成，形成之日高光四起，照耀整个星空",
+    "name": "蟠龙·追风铠",
+    "des": "天降陨铁，犹如蟠龙，刚硬沉重，由武林第一铁匠铸造而成的战甲，坚不可摧。",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -3216,8 +2955,8 @@
     "source2": "smithy"
   },
   "5013040": {
-    "name": "战神·追风履",
-    "des": "羽组观自身翅膀所得灵感，以独有的追风晶石加上神秘符文制作而成，穿上此写可追着风跑",
+    "name": "蟠龙·追风履",
+    "des": "天降陨铁，犹如蟠龙，刚硬沉重，由武林第一铁匠铸造而成的战靴，能撼动天地。",
     "isBag": true,
     "type": "equip",
     "gold": 5800,
@@ -3229,8 +2968,8 @@
     "source2": "smithy"
   },
   "5014010": {
-    "name": "逐鹿·胜意枪",
-    "des": "郭嘉制，以逐鹿之战中的战魂滋养神石，再以火神之火炼制数年，枪成之时胜意震响九州，郭嘉唤名胜意枪",
+    "name": "炎阳·帝王剑",
+    "des": "古代帝王，命人用炽热的赤铁打造此剑，出剑能人烈火焚烧，无法抵挡。",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3241,8 +2980,8 @@
     "source1": "smithy"
   },
   "5014020": {
-    "name": "逐鹿·高歌盔",
-    "des": "郭嘉制，以逐鹿之战中的战魂滋养神石，再以火神之火炼制数年，铠成之时战胜声响荡九州，郭嘉唤名战胜铠",
+    "name": "炎阳·帝王冠",
+    "des": "古代帝王，命人赤铁打造此头冠，其一柔韧轻便，入手微凉，周身赤红，名曰炎阳",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3253,8 +2992,8 @@
     "source1": "smithy"
   },
   "5014030": {
-    "name": "逐鹿·战胜铠",
-    "des": "郭嘉制，以逐鹿之战中将士精血滋养神石，再以火神之火炼制数年，腰带有万军共鸣，郭嘉唤名高歌腰",
+    "name": "炎阳·帝王铠",
+    "des": "古代帝王，命人赤铁打造此铠甲，其一柔韧轻便，入手微凉，周身赤红，名曰炎阳",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3265,8 +3004,8 @@
     "source1": "smithy"
   },
   "5014040": {
-    "name": "逐鹿·凯旋靴",
-    "des": "郭嘉制，以逐鹿之战中将士战意滋养神石，再以火神之火炼制数年，靴有万军之魂，郭嘉唤名凯旋靴",
+    "name": "炎阳·帝王靴",
+    "des": "古代帝王，命人赤铁打造此履甲，其一柔韧轻便，入手微凉，周身赤红，名曰炎阳",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -3277,8 +3016,8 @@
     "source1": "smithy"
   },
   "5015010": {
-    "name": "盘古·开天斧",
-    "des": "盘古秘制，无比锋利，此斧可开天辟地",
+    "name": "四海·御兮剑",
+    "des": "四海名剑，剑长二尺二寸，剑身柔韧，出剑时变化莫测，轨迹多变，令人无法招架。",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3289,8 +3028,8 @@
     "source1": "smithy"
   },
   "5015020": {
-    "name": "盘古·擎天盔",
-    "des": "盘古开天后用天地初石所制成，穿上此衣与天地相当",
+    "name": "四海·御兮冠",
+    "des": "四海名冠，头冠犹如布匹般轻便，玄天般刚硬，令人爱不释手。",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3301,8 +3040,8 @@
     "source1": "smithy"
   },
   "5015030": {
-    "name": "盘古·御天甲",
-    "des": "盘古到地后，身体自然孕育形成，形成之时擎天姿态轰动天地",
+    "name": "四海·御兮甲",
+    "des": "四海名铠，头冠犹如布匹般轻便，玄天般刚硬，令人爱不释手。",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3313,8 +3052,8 @@
     "source1": "smithy"
   },
   "5015040": {
-    "name": "盘古·登天靴",
-    "des": "盘古到地后，身体自然孕育形成，形成之时登天一步，因此得名",
+    "name": "四海·御兮靴",
+    "des": "四海名履，头冠犹如布匹般轻便，玄天般刚硬，令人爱不释手。",
     "isBag": true,
     "type": "equip",
     "gold": 16000,
@@ -3325,8 +3064,8 @@
     "source1": "smithy"
   },
   "5016010": {
-    "name": "诛神·屠龙刀",
-    "des": "取龙族精血打造而成，开刀犹如万龙奔腾，气势宏大神仙都怕",
+    "name": "至尊·屠龙刀",
+    "des": "由上古玄铁制造而成的屠龙刀，号称“武林至尊，宝刀屠龙”而被武林人士视为至宝，引得各个门派纷纷争夺。",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3337,8 +3076,8 @@
     "source1": "smithy"
   },
   "5016020": {
-    "name": "诛神·贪狼盔",
-    "des": "取饕餮兽为灵，锻成精铠，铠有两能，一能可噬天地，二能可破万军",
+    "name": "至尊·屠龙冠",
+    "des": "由上古玄铁制造而成的屠龙冠，由武林至尊所穿戴，被武林人士视为至宝。",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3349,8 +3088,8 @@
     "source1": "smithy"
   },
   "5016030": {
-    "name": "诛神·破军铠",
-    "des": "取梼杌兽为灵，铸成护腿，腿有傲骨，易噬主而食，非常人能御之",
+    "name": "至尊·屠龙铠",
+    "des": "由上古玄铁制造而成的屠龙铠，由武林至尊所穿戴，被武林人士视为至宝。",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3361,8 +3100,8 @@
     "source1": "smithy"
   },
   "5016040": {
-    "name": "诛神·紫微履",
-    "des": "取混沌兽为灵，编为鞋履，履可通紫微，有趋吉避凶，明过往，通未来之能",
+    "name": "至尊·屠龙履",
+    "des": "由上古玄铁制造而成的屠龙履，由武林至尊所穿戴，被武林人士视为至宝。",
     "isBag": true,
     "type": "equip",
     "gold": 28000,
@@ -3373,8 +3112,8 @@
     "source1": "smithy"
   },
   "5017010": {
-    "name": "创世·混沌刀",
-    "des": "由混沌之石孕育而成的刀，拥有无穷变化，传说此刀无人能用",
+    "name": "傲世·绝世剑",
+    "des": "由漆黑的玄铁铸造而成混沌剑，此剑寒冷至极，削铁如泥，凡剑不可与它争锋。",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3385,8 +3124,8 @@
     "source1": "smithy"
   },
   "5017020": {
-    "name": "创世·盘古盔",
-    "des": "女娲补天时穿的战袍，拥有极大的先天灵气，传说此衣能抵御任何攻击",
+    "name": "傲世·绝世冠",
+    "des": "由黄金和纯银铸造而成头冠，冠冕微凉，能极大提高修炼者的气息，凡品不可与它相提并论。",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3397,8 +3136,8 @@
     "source1": "smithy"
   },
   "5017030": {
-    "name": "创世·女娲袍",
-    "des": "盘古开天时的腰带，拥有一丝盘古的神魂，传说此腰带能毁天灭地",
+    "name": "傲世·绝世袍",
+    "des": "由黄金和纯银铸造而成衣袍，衣袍微凉，能极大提高修炼者的气息，凡品不可与它相提并论。",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3409,8 +3148,8 @@
     "source1": "smithy"
   },
   "5017040": {
-    "name": "创世·凌霄履",
-    "des": "原始天尊创道时的鞋子，拥有强大的神韵，传说此履可一步创道",
+    "name": "傲世·绝世履",
+    "des": "由黄金和纯银铸造而成靴履，履面微凉，能极大提高修炼者的气息，凡品不可与它相提并论。",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3422,7 +3161,7 @@
   },
   "5018010": {
     "name": "四圣·灵犀神剑",
-    "des": "青龙孕育而成，据说已通灵，拥有者可毁天灭地",
+    "des": "相传青龙孕育而成，据说已通灵，拥有者可毁天灭地",
     "isBag": true,
     "type": "equip",
     "gold": 72000,
@@ -3433,8 +3172,8 @@
     "source1": "smithy"
   },
   "5018020": {
-    "name": "四圣·翡翠曜冠",
-    "des": "白虎淬炼而成，据说已通灵，拥有者可瞒天过海",
+    "name": "四圣·灵犀曜冠",
+    "des": "相传白虎淬炼而成，据说已通灵，拥有者可瞒天过海",
     "isBag": true,
     "type": "equip",
     "gold": 72000,
@@ -3445,8 +3184,8 @@
     "source1": "smithy"
   },
   "5018030": {
-    "name": "四圣·金蚕披风",
-    "des": "玄武秘制而成，据说已通灵，拥有者可金光护体",
+    "name": "四圣·灵犀铠甲",
+    "des": "相传玄武秘制而成，据说已通灵，拥有者可金光护体",
     "isBag": true,
     "type": "equip",
     "gold": 72000,
@@ -3457,8 +3196,8 @@
     "source1": "smithy"
   },
   "5018040": {
-    "name": "四圣·追云逐电",
-    "des": "朱雀打造而成，据说已通灵，拥有者可上天入地",
+    "name": "四圣·灵犀逐履",
+    "des": "相传朱雀打造而成，据说已通灵，拥有者可上天入地",
     "isBag": true,
     "type": "equip",
     "gold": 72000,
@@ -3481,7 +3220,7 @@
     "source1": "smithy"
   },
   "5019020": {
-    "name": "六道·金丝玉冠",
+    "name": "六道·晓风玉冠",
     "des": "混沌初开时凝结而成的玉石雕琢而成的冠帽，充满着神奇的灵气",
     "isBag": true,
     "type": "equip",
@@ -3493,7 +3232,7 @@
     "source1": "smithy"
   },
   "5019030": {
-    "name": "六道·乾坤护甲",
+    "name": "六道·晓风护甲",
     "des": "上古流传的宝物，内有八卦乾坤玄机，能抵御极强的伤害。",
     "isBag": true,
     "type": "equip",
@@ -3505,7 +3244,7 @@
     "source1": "smithy"
   },
   "5019040": {
-    "name": "六道·乾坤天履",
+    "name": "六道·晓风天履",
     "des": "非寻常之物，乃天地之气编织而成，蕴含极大领取",
     "isBag": true,
     "type": "equip",
@@ -3517,7 +3256,7 @@
     "source1": "smithy"
   },
   "5020010": {
-    "name": "八荒·四法青云",
+    "name": "八部·玉琉神刀",
     "des": "上古封印，分别为地，火，风，水四字。挥舞时天昏地暗，火蛇狂舞，飞沙走石，龙腾海啸。",
     "isBag": true,
     "type": "equip",
@@ -3529,7 +3268,7 @@
     "source1": "smithy"
   },
   "5020020": {
-    "name": "八荒·玉琉璃冠",
+    "name": "八部·玉琉璃冠",
     "des": "用上古白玉与琉璃珠辅以天丝编织而成，有极强的防御能力",
     "isBag": true,
     "type": "equip",
@@ -3541,7 +3280,7 @@
     "source1": "smithy"
   },
   "5020030": {
-    "name": "八荒·神谕披风",
+    "name": "八部·玉琉披风",
     "des": "受到远古战神神谕祝福的披风，带有灵动之气",
     "isBag": true,
     "type": "equip",
@@ -3553,7 +3292,7 @@
     "source1": "smithy"
   },
   "5020040": {
-    "name": "八荒·逐日神靴",
+    "name": "八部·玉琉神靴",
     "des": "远古战神所穿之靴。穿之及疾如风，天地之间自由遨游",
     "isBag": true,
     "type": "equip",
@@ -3577,8 +3316,8 @@
     "source1": "smithy"
   },
   "5021020": {
-    "name": "九州·鬼珐琅面",
-    "des": "上古神魔所戴，虽经几千年，面具独角四周仍散发着神奇的魔力。",
+    "name": "九州·凌云琅冠",
+    "des": "上古帝王所戴，虽经几千年，头冠四周仍散发着神奇的魔力。",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3589,8 +3328,8 @@
     "source1": "smithy"
   },
   "5021030": {
-    "name": "九州·金磐龙甲",
-    "des": "相传为黄帝的遗物。紫金磐龙，四周散发着神奇的力量。",
+    "name": "九州·凌云龙甲",
+    "des": "相传为上古帝王的遗物。紫金磐龙，四周散发着神奇的力量。",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3601,8 +3340,8 @@
     "source1": "smithy"
   },
   "5021040": {
-    "name": "九州·紫霞云履",
-    "des": "相传天界神匠以五彩天霞为材料，缝制而成的靴子",
+    "name": "九州·凌云云履",
+    "des": "相传神匠以五彩天霞为材料，缝制而成的靴子",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3625,7 +3364,7 @@
     "source1": "smithy"
   },
   "5022020": {
-    "name": "十方·紫金龙冠",
+    "name": "十方·狂澜龙冠",
     "des": "上古遗留之物。冠上用金雕琢为吉龙盘云，四周散发着神奇的力量。需要有一定修为之人方能佩戴。",
     "isBag": true,
     "type": "equip",
@@ -3637,7 +3376,7 @@
     "source1": "smithy"
   },
   "5022030": {
-    "name": "十方·金丝鳞甲",
+    "name": "十方·狂澜鳞甲",
     "des": "上古战神所用铠甲，穿上后能获得战神的庇护。",
     "isBag": true,
     "type": "equip",
@@ -3649,7 +3388,7 @@
     "source1": "smithy"
   },
   "5022040": {
-    "name": "十方·流云无痕",
+    "name": "十方·狂澜无痕",
     "des": "饱含天地之灵气，穿之幻影如风，路过无痕",
     "isBag": true,
     "type": "equip",
@@ -3661,8 +3400,8 @@
     "source1": "smithy"
   },
   "5023010": {
-    "name": "万世·苍天弑皇剑",
-    "des": "炎黄之战，杀怨之气俱归此兵。黄帝得胜，以此兵祭祀天地，誓曰:若治下三界失靖、四海不宁，则天下之人皆可持此兵取吾之首级！",
+    "name": "万世·苍天皇剑",
+    "des": "上古武林之战中，杀怨之气俱归此兵。当时至尊得胜，以此兵祭祀天地，誓曰:若世间不宁，则天下之人皆可持此兵取吾之首级！",
     "isBag": true,
     "type": "equip",
     "gold": 546750,
@@ -3673,8 +3412,8 @@
     "source1": "smithy"
   },
   "5023020": {
-    "name": "万世·浑天玄火盔",
-    "des": "黄帝征伐四方之时所配战盔，刀枪不入，水火不侵，瘟邪难近，更添无尽战意。 ",
+    "name": "万世·苍天玄冠",
+    "des": "黄帝征伐四方之时所配战冠，刀枪不入，水火不侵，瘟邪难近，更添无尽战意。 ",
     "isBag": true,
     "type": "equip",
     "gold": 546750,
@@ -3685,7 +3424,7 @@
     "source1": "smithy"
   },
   "5023030": {
-    "name": "万世·混元一气甲",
+    "name": "万世·苍天气甲",
     "des": "混元一气所凝成的宝甲，至坚不摧之物，可与天地同寿。",
     "isBag": true,
     "type": "equip",
@@ -3697,7 +3436,7 @@
     "source1": "smithy"
   },
   "5023040": {
-    "name": "万世·辟尘分光履",
+    "name": "万世·苍天护履",
     "des": "上古秘宝，着此履者可于星尘间穿梭，与霞光相竞逐。",
     "isBag": true,
     "type": "equip",
@@ -3709,7 +3448,7 @@
     "source1": "smithy"
   },
   "9030010": {
-    "name": "吕氏镜",
+    "name": "天鹰像",
     "des": "暴击伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -3722,8 +3461,8 @@
     "source1": "gift"
   },
   "9030020": {
-    "name": "东海珍珠",
-    "des": "攻击+300（英雄100级后每升1级攻击额外+9）",
+    "name": "雨泪紫珠",
+    "des": "攻击+300（侠客100级后每升1级攻击额外+9）",
     "isBag": true,
     "type": "ace",
     "gold": 800,
@@ -3735,8 +3474,8 @@
     "source1": "gift"
   },
   "9030030": {
-    "name": "玉如意",
-    "des": "生命+2000（英雄100级后每升1级生命额外+60）",
+    "name": "大罗星盘",
+    "des": "生命+2000（侠客100级后每升1级生命额外+60）",
     "isBag": true,
     "type": "ace",
     "gold": 800,
@@ -3748,8 +3487,8 @@
     "source1": "gift"
   },
   "9030040": {
-    "name": "龙子镜",
-    "des": "物理防御+200（英雄100级后每升1级额外+6）",
+    "name": "赤金神石",
+    "des": "物理防御+200（侠客100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
     "gold": 800,
@@ -3761,8 +3500,8 @@
     "source1": "gift"
   },
   "9030041": {
-    "name": "铜马像",
-    "des": "法术防御+200（英雄100级后每升1级额外+6）",
+    "name": "定心珠",
+    "des": "法术防御+200（侠客100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
     "gold": 800,
@@ -3774,7 +3513,7 @@
     "source1": "gift"
   },
   "9030050": {
-    "name": "翡翠杯",
+    "name": "风灵宝珠",
     "des": "抗暴概率+5%",
     "isBag": true,
     "type": "ace",
@@ -3787,7 +3526,7 @@
     "source1": "gift"
   },
   "9030060": {
-    "name": "玉石玛瑙",
+    "name": "凤羽灵扇",
     "des": "暴击概率+5%",
     "isBag": true,
     "type": "ace",
@@ -3800,7 +3539,7 @@
     "source1": "gift"
   },
   "9030070": {
-    "name": "龙延珠",
+    "name": "万龙铃",
     "des": "伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -3813,7 +3552,7 @@
     "source1": "gift"
   },
   "9030080": {
-    "name": "智君子鉴",
+    "name": "天金道石",
     "des": "伤害减免+5%",
     "isBag": true,
     "type": "ace",
@@ -3826,8 +3565,8 @@
     "source1": "gift"
   },
   "9040010": {
-    "name": "束魂灯",
-    "des": "攻击目标越少，沉默概率提升越高，最多对1个目标提高36%的沉默概率。（只对当前有沉默效果的英雄生效）",
+    "name": "九天锁骨鼎",
+    "des": "攻击目标越少，沉默概率提升越高，最多对1个目标提高36%的沉默概率。（只对当前有沉默效果的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3839,8 +3578,8 @@
     "source1": "gift"
   },
   "9040020": {
-    "name": "钉刺盾",
-    "des": "反伤增加20%（只对当前有反伤效果的英雄生效）",
+    "name": "黑铁盾",
+    "des": "反伤增加20%（只对当前有反伤效果的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3852,7 +3591,7 @@
     "source1": "gift"
   },
   "9040030": {
-    "name": "涂漆鼎",
+    "name": "浑天镜",
     "des": "生命值+12%",
     "isBag": true,
     "type": "ace",
@@ -3865,7 +3604,7 @@
     "source1": "gift"
   },
   "9040040": {
-    "name": "帝王羊尊",
+    "name": "虚空印",
     "des": "击杀目标回复自身1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -3878,8 +3617,8 @@
     "source1": "gift"
   },
   "9040050": {
-    "name": "三略六韬",
-    "des": "技能直接伤害转化为血量治疗当前血量最少的英雄的比例提升18%。（只对当前有技能转治疗的辅助英雄生效）",
+    "name": "赤金灯",
+    "des": "技能直接伤害转化为血量治疗当前血量最少的侠客的比例提升18%。（只对当前有技能转治疗的辅助侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3891,8 +3630,8 @@
     "source1": "gift"
   },
   "9040060": {
-    "name": "伤寒杂病论",
-    "des": "治疗英雄释放技能时，对己方血量最少英雄造成治疗效果额外提升30%",
+    "name": "青莲宝珠",
+    "des": "治疗侠客释放技能时，对己方血量最少侠客造成治疗效果额外提升30%",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3904,7 +3643,7 @@
     "source1": "gift"
   },
   "9040070": {
-    "name": "翡翠心镜",
+    "name": "虚魔鼎",
     "des": "抗暴概率+12%",
     "isBag": true,
     "type": "ace",
@@ -3917,7 +3656,7 @@
     "source1": "gift"
   },
   "9040080": {
-    "name": "突袭号角",
+    "name": "极品灵石",
     "des": "初始怒气增加1点",
     "isBag": true,
     "type": "ace",
@@ -3930,8 +3669,8 @@
     "source1": "gift"
   },
   "9040090": {
-    "name": "七宝玉环",
-    "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
+    "name": "青花刃",
+    "des": "攻击+900（侠客100级后每升1级攻击额外+27）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3943,8 +3682,8 @@
     "source1": "gift"
   },
   "9040100": {
-    "name": "护心壁",
-    "des": "保护目标越少，减少效果越高，最高可以减少36%的直接伤害。（只对当前有减伤护盾的英雄生效）",
+    "name": "上古铁盾",
+    "des": "保护目标越少，减少效果越高，最高可以减少36%的直接伤害。（只对当前有减伤护盾的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3956,8 +3695,8 @@
     "source1": "gift"
   },
   "9040110": {
-    "name": "长信宫灯",
-    "des": "生命+6000(英雄100级后每升1级生命额外+180)",
+    "name": "霸王钟",
+    "des": "生命+6000(侠客100级后每升1级生命额外+180)",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3969,8 +3708,8 @@
     "source1": "gift"
   },
   "9040120": {
-    "name": "摄魂铃",
-    "des": "攻击目标越少，眩晕概率提升越高，最多提高36%的眩晕概率。（只对当前有眩晕效果的英雄生效）",
+    "name": "两仪芦",
+    "des": "攻击目标越少，眩晕概率提升越高，最多提高36%的眩晕概率。（只对当前有眩晕效果的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3982,8 +3721,8 @@
     "source1": "gift"
   },
   "9040130": {
-    "name": "震灵鼓",
-    "des": "攻击目标越少，麻痹概率提升越高，最多对1个目标提高36%的麻痹概率。（只对当前有麻痹效果的英雄生效）",
+    "name": "紫金芦",
+    "des": "攻击目标越少，麻痹概率提升越高，最多对1个目标提高36%的麻痹概率。（只对当前有麻痹效果的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -3995,7 +3734,7 @@
     "source1": "gift"
   },
   "9040140": {
-    "name": "净坛莲花",
+    "name": "奇门青莲",
     "des": "技能治疗效果+10%",
     "isBag": true,
     "type": "ace",
@@ -4008,8 +3747,8 @@
     "source1": "gift"
   },
   "9040150": {
-    "name": "翠玉山河",
-    "des": "物理防御+600（英雄100级后每升1级额外+18）",
+    "name": "青莹玄石",
+    "des": "物理防御+600（侠客100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -4021,8 +3760,8 @@
     "source1": "gift"
   },
   "9040151": {
-    "name": "玉龙纹",
-    "des": "法术防御+600（英雄100级后每升1级额外+18）",
+    "name": "天荒战盾",
+    "des": "法术防御+600（侠客100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
     "gold": 3000,
@@ -4034,7 +3773,7 @@
     "source1": "gift"
   },
   "9040160": {
-    "name": "遁甲天书",
+    "name": "天火珠",
     "des": "暴击伤害+12%",
     "isBag": true,
     "type": "ace",
@@ -4047,7 +3786,7 @@
     "source1": "gift"
   },
   "9040170": {
-    "name": "寒冰玄铁",
+    "name": "奇门灵宝",
     "des": "防御+20%",
     "isBag": true,
     "type": "ace",
@@ -4060,7 +3799,7 @@
     "source1": "gift"
   },
   "9040180": {
-    "name": "水净石",
+    "name": "万毒珠",
     "des": "造成的中毒伤害的10%转化为血量治疗自己。",
     "isBag": true,
     "type": "ace",
@@ -4073,7 +3812,7 @@
     "source1": "gift"
   },
   "9040190": {
-    "name": "五岳真形图",
+    "name": "太紫玉",
     "des": "受到灼烧、中毒伤害时，该伤害降低35%",
     "isBag": true,
     "type": "ace",
@@ -4086,7 +3825,7 @@
     "source1": "gift"
   },
   "9040200": {
-    "name": "乌钢",
+    "name": "麒麟印",
     "des": "伤害减免+8%",
     "isBag": true,
     "type": "ace",
@@ -4099,7 +3838,7 @@
     "source1": "gift"
   },
   "9040210": {
-    "name": "烛龙珠",
+    "name": "离合镜",
     "des": "攻击目标越少，中毒概率提升越高，最多可对1个目标提高36%的中毒概率",
     "isBag": true,
     "type": "ace",
@@ -4112,7 +3851,7 @@
     "source1": "gift"
   },
   "9040220": {
-    "name": "太平要术",
+    "name": "天宝珠",
     "des": "攻击单体目标时额外降低目标1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -4125,7 +3864,7 @@
     "source1": "gift"
   },
   "9040230": {
-    "name": "紫金钵盂",
+    "name": "太阴扇",
     "des": "攻击目标越少，中毒伤害提升越高，最多可对1个目标提高30%的中毒伤害",
     "isBag": true,
     "type": "ace",
@@ -4138,7 +3877,7 @@
     "source1": "gift"
   },
   "9040240": {
-    "name": "春秋左氏",
+    "name": "青冥剑",
     "des": "暴击概率+8%",
     "isBag": true,
     "type": "ace",
@@ -4151,7 +3890,7 @@
     "source1": "gift"
   },
   "9050010": {
-    "name": "孙子兵法",
+    "name": "轩辕剑",
     "des": "暴击伤害+30%",
     "isBag": true,
     "type": "ace",
@@ -4164,8 +3903,8 @@
     "source1": "gift"
   },
   "9050020": {
-    "name": "神农本草",
-    "des": "治疗英雄释放技能时，对己方血量最少的3个英雄治疗效果额外提升治疗英雄攻击的32%",
+    "name": "碧落钟",
+    "des": "治疗侠客释放技能时，对己方血量最少的3个侠客治疗效果额外提升治疗侠客攻击的32%",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4177,7 +3916,7 @@
     "source1": "gift"
   },
   "9050030": {
-    "name": "玉净瓶",
+    "name": "化阴葫芦",
     "des": "攻击时70%概率清除敌方无敌状态",
     "isBag": true,
     "type": "ace",
@@ -4190,8 +3929,8 @@
     "source1": "gift"
   },
   "9050040": {
-    "name": "神兽砚",
-    "des": "攻击纵排目标时，额外降低目标1点怒气。（只对当前有纵排减怒效果的英雄生效）",
+    "name": "炼丹壶",
+    "des": "攻击纵排目标时，额外降低目标1点怒气。（只对当前有纵排减怒效果的侠客生效）",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4203,8 +3942,8 @@
     "source1": "gift"
   },
   "9050050": {
-    "name": "金龙爪",
-    "des": "普通攻击必定暴击。（包括治疗英雄）",
+    "name": "六道宝轮",
+    "des": "普通攻击必定暴击。（包括治疗侠客）",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4216,7 +3955,7 @@
     "source1": "gift"
   },
   "9050060": {
-    "name": "错金博山炉",
+    "name": "乱古战壁",
     "des": "伤害减免+20%",
     "isBag": true,
     "type": "ace",
@@ -4229,7 +3968,7 @@
     "source1": "gift"
   },
   "9050070": {
-    "name": "四灵文镜",
+    "name": "皇冥灯",
     "des": "灼烧状态额外延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4242,7 +3981,7 @@
     "source1": "gift"
   },
   "9050080": {
-    "name": "龙炎吐珠",
+    "name": "玄火盾",
     "des": "攻击目标越少，灼烧概率提升越高，最多可对1个目标提高36%的灼烧概率",
     "isBag": true,
     "type": "ace",
@@ -4255,8 +3994,8 @@
     "source1": "gift"
   },
   "9050090": {
-    "name": "羽兽纹镜",
-    "des": "治疗目标英雄时，若目标处于禁疗状态，将治疗量的200%转化为伤害吸收盾，持续一回合",
+    "name": "圣灵盾",
+    "des": "治疗目标侠客时，若目标处于禁疗状态，将治疗量的200%转化为伤害吸收盾，持续一回合",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4268,8 +4007,8 @@
     "source1": "gift"
   },
   "9050100": {
-    "name": "龙焰旗",
-    "des": "被灼烧的英雄无法获得无敌和无敌吸血盾效果",
+    "name": "真焰鼎",
+    "des": "被灼烧的侠客无法获得无敌和无敌吸血盾效果",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4281,7 +4020,7 @@
     "source1": "gift"
   },
   "9050110": {
-    "name": "天水灵珠",
+    "name": "伏龙碑",
     "des": "技能必定命中",
     "isBag": true,
     "type": "ace",
@@ -4294,7 +4033,7 @@
     "source1": "gift"
   },
   "9050120": {
-    "name": "罗绮香囊",
+    "name": "赤血晶",
     "des": "技能直接伤害的18%转化为血量，治疗自己",
     "isBag": true,
     "type": "ace",
@@ -4307,7 +4046,7 @@
     "source1": "gift"
   },
   "9050130": {
-    "name": "淬毒宝珠",
+    "name": "太阴旗",
     "des": "中毒状态延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4320,8 +4059,8 @@
     "source1": "gift"
   },
   "9050160": {
-    "name": "铸铜虎符",
-    "des": "单体输出英雄的所有攻击优先攻击敌方当前血量最低的英雄",
+    "name": "九龙圣铜",
+    "des": "单体输出侠客的所有攻击优先攻击敌方当前血量最低的侠客",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4333,7 +4072,7 @@
     "source1": "gift"
   },
   "9050170": {
-    "name": "长生镜",
+    "name": "户心镜",
     "des": "生命值增加30%",
     "isBag": true,
     "type": "ace",
@@ -4346,8 +4085,8 @@
     "source1": "gift"
   },
   "9050180": {
-    "name": "射声校尉",
-    "des": "携带英雄位于后排时，命中+10%，破甲+10%",
+    "name": "玄火幡",
+    "des": "携带侠客位于后排时，命中+10%，破甲+10%",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4359,8 +4098,8 @@
     "source1": "gift"
   },
   "9050190": {
-    "name": "白羽扇",
-    "des": "携带英雄位于后排时，法术暴击增加12%",
+    "name": "空灵塔",
+    "des": "携带侠客位于后排时，法术暴击增加12%",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4372,8 +4111,8 @@
     "source1": "gift"
   },
   "9050200": {
-    "name": "黄金甲",
-    "des": "携带英雄位于前排时，抗暴+15%，血量+15%",
+    "name": "星玄铁盾",
+    "des": "携带侠客位于前排时，抗暴+15%，血量+15%",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4385,8 +4124,8 @@
     "source1": "gift"
   },
   "9050210": {
-    "name": "龙鳞铠",
-    "des": "携带英雄位于前排时，闪避+10%，位于后排时，攻击+10%",
+    "name": "九龙锁金甲",
+    "des": "携带侠客位于前排时，闪避+10%，位于后排时，攻击+10%",
     "isBag": true,
     "type": "ace",
     "gold": 10000,
@@ -4398,8 +4137,8 @@
     "source1": "gift"
   },
   "9060010": {
-    "name": "紫金葫芦",
-    "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加15%",
+    "name": "赤皇炎珠",
+    "des": "侠客怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加15%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4410,8 +4149,8 @@
     "source1": "gift"
   },
   "9060020": {
-    "name": "太玄生符",
-    "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气（输出英雄佩戴）",
+    "name": "炼血炉",
+    "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气（输出侠客佩戴）",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4422,8 +4161,8 @@
     "source1": "gift"
   },
   "9060030": {
-    "name": "金蟾壶",
-    "des": "释放技能造成的中毒时附加一回合重伤状态，重伤状态的英雄受到治疗效果减少70%",
+    "name": "幽毒之镜",
+    "des": "释放技能造成的中毒时附加一回合重伤状态，重伤状态的侠客受到治疗效果减少70%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4434,7 +4173,7 @@
     "source1": "gift"
   },
   "9060040": {
-    "name": "三皇内文",
+    "name": "万道熔炉",
     "des": "受到控制效果（麻痹、沉默、眩晕）概率降低35%",
     "isBag": true,
     "type": "ace",
@@ -4446,7 +4185,7 @@
     "source1": "gift"
   },
   "9060050": {
-    "name": "传国玉玺",
+    "name": "轩辕鼎",
     "des": "初始怒气增加2点",
     "isBag": true,
     "type": "ace",
@@ -4458,8 +4197,8 @@
     "source1": "gift"
   },
   "9060060": {
-    "name": "孟德新书",
-    "des": "单体输出英雄直接伤害击杀目标后，追加1次技能，对敌方单体造成175%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
+    "name": "帝尊石",
+    "des": "单体输出侠客直接伤害击杀目标后，追加1次技能，对敌方单体造成175%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4470,7 +4209,7 @@
     "source1": "gift"
   },
   "9060070": {
-    "name": "和氏璧",
+    "name": "护息壁",
     "des": "首回合免疫眩晕、沉默、麻痹效果",
     "isBag": true,
     "type": "ace",
@@ -4482,8 +4221,8 @@
     "source1": "gift"
   },
   "9060080": {
-    "name": "黄帝四经",
-    "des": "眩晕敌方英雄时，清空其所有怒气",
+    "name": "九州玉瓶",
+    "des": "眩晕敌方侠客时，清空其所有怒气",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4651,7 +4390,7 @@
   },
   "9080140": {
     "name": "限定宝物",
-    "des": "全体上阵英雄伤害+8%",
+    "des": "全体上阵侠客伤害+8%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4663,7 +4402,7 @@
   },
   "9080150": {
     "name": "限定宝物",
-    "des": "全体上阵英雄生命+8%",
+    "des": "全体上阵侠客生命+8%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4675,7 +4414,7 @@
   },
   "9080160": {
     "name": "限定宝物",
-    "des": "全体上阵英雄暴击+8%",
+    "des": "全体上阵侠客暴击+8%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -4830,343 +4569,567 @@
     "source1": "gift"
   },
   "10501010": {
-    "name": "狼顾之相",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【阎寰宇】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10501010,
     "quality": 7,
     "effects": "baowu"
   },
   "10501020": {
-    "name": "奇策善谋",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【阎寰宇】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10501020,
     "quality": 7,
     "effects": "baowu"
   },
   "10501030": {
-    "name": "谋定天下",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【阎寰宇】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10501030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10501040": {
+    "name": "麒麟仙印【阎寰宇】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10501040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10501050": {
+    "name": "神龙仙印【阎寰宇】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10501050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10502010": {
-    "name": "迈志存道",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【碧落子】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10502010,
     "quality": 7,
     "effects": "baowu"
   },
   "10502020": {
-    "name": "登基为帝",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【碧落子】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10502020,
     "quality": 7,
     "effects": "baowu"
   },
   "10502030": {
-    "name": "帝业霸途",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【碧落子】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10502030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10502040": {
+    "name": "麒麟仙印【碧落子】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10502040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10502050": {
+    "name": "神龙仙印【碧落子】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10502050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10503010": {
-    "name": "谋能应机",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【司徒天音】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10503010,
     "quality": 7,
     "effects": "baowu"
   },
   "10503020": {
-    "name": "王佐之才",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【司徒天音】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10503020,
     "quality": 7,
     "effects": "baowu"
   },
   "10503030": {
-    "name": "谋定天下",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【司徒天音】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10503030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10503040": {
+    "name": "麒麟仙印【司徒天音】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10503040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10503050": {
+    "name": "神龙仙印【司徒天音】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10503050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10504010": {
-    "name": "剑履上殿",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【慕清雪】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10504010,
     "quality": 7,
     "effects": "baowu"
   },
   "10504020": {
-    "name": "魏武大帝",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【慕清雪】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10504020,
     "quality": 7,
     "effects": "baowu"
   },
   "10504030": {
-    "name": "魏武霸业",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【慕清雪】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10504030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10504040": {
+    "name": "麒麟仙印【慕清雪】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10504040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10504050": {
+    "name": "神龙仙印【慕清雪】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10504050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10505010": {
-    "name": "月下琵琶",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【澹台月】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10505010,
     "quality": 7,
     "effects": "baowu"
   },
   "10505020": {
-    "name": "雪诉离伤",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【澹台月】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10505020,
     "quality": 7,
     "effects": "baowu"
   },
   "10505030": {
-    "name": "红月悲歌",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【澹台月】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10505030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10505040": {
+    "name": "麒麟仙印【澹台月】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10505040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10505050": {
+    "name": "神龙仙印【澹台月】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10505050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10506010": {
-    "name": "失睛兵败",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【泰隆】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10506010,
     "quality": 7,
     "effects": "baowu"
   },
   "10506020": {
-    "name": "刚烈无惧",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【泰隆】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10506020,
     "quality": 7,
     "effects": "baowu"
   },
   "10506030": {
-    "name": "浴血奋战",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【泰隆】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10506030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10506040": {
+    "name": "麒麟仙印【泰隆】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10506040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10506050": {
+    "name": "神龙仙印【泰隆】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10506050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10507010": {
-    "name": "天生鬼才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【程峰】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10507010,
     "quality": 7,
     "effects": "baowu"
   },
   "10507020": {
-    "name": "破晓逐辰",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【程峰】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10507020,
     "quality": 7,
     "effects": "baowu"
   },
   "10507030": {
-    "name": "一世风华",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【程峰】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10507030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10507040": {
+    "name": "麒麟仙印【程峰】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10507040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10507050": {
+    "name": "神龙仙印【程峰】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10507050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10508010": {
-    "name": "古之恶来",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【白逸尘】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10508010,
     "quality": 7,
     "effects": "baowu"
   },
   "10508020": {
-    "name": "奋力战吕",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【白逸尘】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10508020,
     "quality": 7,
     "effects": "baowu"
   },
   "10508030": {
-    "name": "武动乾坤",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【白逸尘】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10508030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10508040": {
+    "name": "麒麟仙印【白逸尘】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10508040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10508050": {
+    "name": "神龙仙印【白逸尘】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10508050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10509010": {
-    "name": "奋强突固",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【欧阳商】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10509010,
     "quality": 7,
     "effects": "baowu"
   },
   "10509020": {
-    "name": "勇猛精进",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【欧阳商】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10509020,
     "quality": 7,
     "effects": "baowu"
   },
   "10509030": {
-    "name": "无坚不陷",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【欧阳商】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10509030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10509040": {
+    "name": "麒麟仙印【欧阳商】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10509040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10509050": {
+    "name": "神龙仙印【欧阳商】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10509050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10510010": {
-    "name": "虎步关右",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【江流】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10510010,
     "quality": 7,
     "effects": "baowu"
   },
   "10510020": {
-    "name": "神速破敌",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【江流】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10510020,
     "quality": 7,
     "effects": "baowu"
   },
   "10510030": {
-    "name": "所向无前",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【江流】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10510030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10510040": {
+    "name": "麒麟仙印【江流】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10510040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10510050": {
+    "name": "神龙仙印【江流】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10510050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10511010": {
-    "name": "善于谋计",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【孙不平】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10511010,
     "quality": 7,
     "effects": "baowu"
   },
   "10511020": {
-    "name": "泰山捧日",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【孙不平】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10511020,
     "quality": 7,
     "effects": "baowu"
   },
   "10511030": {
-    "name": "谋定后动",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【孙不平】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10511030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10511040": {
+    "name": "麒麟仙印【孙不平】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10511040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10511050": {
+    "name": "神龙仙印【孙不平】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10511050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10512010": {
-    "name": "南阳狂才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【苏小小】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10512010,
     "quality": 7,
     "effects": "baowu"
   },
   "10512020": {
-    "name": "献计投曹",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【苏小小】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10512020,
     "quality": 7,
     "effects": "baowu"
   },
   "10512030": {
-    "name": "计策已施",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【苏小小】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10512030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10512040": {
+    "name": "麒麟仙印【苏小小】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10512040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10512050": {
+    "name": "神龙仙印【苏小小】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10512050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10513010": {
-    "name": "勇力绝人",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【林川枫】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10513010,
     "quality": 7,
     "effects": "baowu"
   },
   "10513020": {
-    "name": "燕额虎头",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【林川枫】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10513020,
     "quality": 7,
     "effects": "baowu"
   },
   "10513030": {
-    "name": "威震淮汝",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【林川枫】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10513030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10513040": {
+    "name": "麒麟仙印【林川枫】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10513040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10513050": {
+    "name": "神龙仙印【林川枫】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10513050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "10514010": {
-    "name": "身先士卒",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【张尘若】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 10514010,
     "quality": 7,
     "effects": "baowu"
   },
   "10514020": {
-    "name": "万人辟易",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【张尘若】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 10514020,
     "quality": 7,
     "effects": "baowu"
   },
   "10514030": {
-    "name": "威震逍遥",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【张尘若】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 10514030,
     "quality": 7,
     "effects": "baowu"
   },
+  "10514040": {
+    "name": "麒麟仙印【张尘若】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 10514040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "10514050": {
+    "name": "神龙仙印【张尘若】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 10514050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "11105010": {
-    "name": "打神鞭",
+    "name": "全真剑",
     "des": "【+25激活】释放技能有40%几率追加1次技能，对全体造成41%法术伤害",
     "isBag": true,
     "type": "art",
@@ -5179,8 +5142,8 @@
     "quality": 5
   },
   "11105020": {
-    "name": "幽冥狐爪",
-    "des": "【+25激活】释放技能后，回复所在纵排友方英雄1点怒气",
+    "name": "倚天剑",
+    "des": "【+25激活】释放技能后，回复所在纵排友方侠客1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 105020,
@@ -5192,7 +5155,7 @@
     "quality": 5
   },
   "11105030": {
-    "name": "天帝皇冠",
+    "name": "青竹剑",
     "des": "【+25激活】行动后回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5205,7 +5168,7 @@
     "quality": 5
   },
   "11105040": {
-    "name": "曹操杖",
+    "name": "玉女剑",
     "des": "【+25激活】死亡时提升全体友方20%伤害减免，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5218,7 +5181,7 @@
     "quality": 5
   },
   "11105050": {
-    "name": "玉琵琶",
+    "name": "逍遥铃",
     "des": "【+25激活】技能造成的治疗量+25%",
     "isBag": true,
     "type": "art",
@@ -5231,7 +5194,7 @@
     "quality": 5
   },
   "11105060": {
-    "name": "魔神斧",
+    "name": "赤焰剑",
     "des": "【+25激活】受到普通攻击直接伤害时，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5244,7 +5207,7 @@
     "quality": 5
   },
   "11105070": {
-    "name": "轩辕剑",
+    "name": "金狮剑",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5257,8 +5220,8 @@
     "quality": 5
   },
   "11105080": {
-    "name": "鸾飞剑",
-    "des": "【+25激活】直接伤害导致死亡时100%眩晕击杀自己的敌方英雄",
+    "name": "寒冰剑",
+    "des": "【+25激活】直接伤害导致死亡时100%眩晕击杀自己的敌方侠客",
     "isBag": true,
     "type": "art",
     "arg": 105080,
@@ -5270,7 +5233,7 @@
     "quality": 5
   },
   "11105090": {
-    "name": "绝仙剑",
+    "name": "山河扇",
     "des": "【+25激活】技能造成的伤害增加25%",
     "isBag": true,
     "type": "art",
@@ -5283,7 +5246,7 @@
     "quality": 5
   },
   "11105100": {
-    "name": "无尘剑",
+    "name": "六合镜",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5296,7 +5259,7 @@
     "quality": 5
   },
   "11105110": {
-    "name": "夺命锏",
+    "name": "天罡拂麈",
     "des": "【+25激活】技能目标每减少1个，技能伤害增加10%",
     "isBag": true,
     "type": "art",
@@ -5309,7 +5272,7 @@
     "quality": 5
   },
   "11105120": {
-    "name": "鸳鸯伞",
+    "name": "铁画银钩",
     "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
@@ -5322,7 +5285,7 @@
     "quality": 5
   },
   "11105130": {
-    "name": "落日弓",
+    "name": "青光利剑",
     "des": "【+25激活】行动后恢复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5335,7 +5298,7 @@
     "quality": 5
   },
   "11105140": {
-    "name": "三尖两刃戟",
+    "name": "逍遥珠",
     "des": "【+25激活】释放技能后恢复1点怒气",
     "isBag": true,
     "type": "art",
@@ -5348,7 +5311,7 @@
     "quality": 5
   },
   "11205010": {
-    "name": "透甲枪",
+    "name": "朱雀环",
     "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5361,7 +5324,7 @@
     "quality": 5
   },
   "11205020": {
-    "name": "天子剑",
+    "name": "青元剑",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5374,7 +5337,7 @@
     "quality": 5
   },
   "11205030": {
-    "name": "绿绮琴",
+    "name": "奇门刃",
     "des": "【+25激活】受到直接伤害的18%转化为生命，治疗己方全体目标",
     "isBag": true,
     "type": "art",
@@ -5387,7 +5350,7 @@
     "quality": 5
   },
   "11205040": {
-    "name": "府君杖",
+    "name": "雷霄符",
     "des": "【+25激活】受到的治疗量增加50%",
     "isBag": true,
     "type": "art",
@@ -5400,8 +5363,8 @@
     "quality": 5
   },
   "11205050": {
-    "name": "凤羽扇",
-    "des": "【+25激活】与黄月英处于同一纵排的友方英雄暴击伤害+20%",
+    "name": "金光珠",
+    "des": "【+25激活】与李若琪处于同一纵排的友方侠客暴击伤害+20%",
     "isBag": true,
     "type": "art",
     "arg": 205050,
@@ -5413,8 +5376,8 @@
     "quality": 5
   },
   "11205060": {
-    "name": "凌虚杖",
-    "des": "【+25激活】释放技能后，回复所在横排英雄1点怒气",
+    "name": "影魅",
+    "des": "【+25激活】释放技能后，回复所在横排侠客1点怒气",
     "isBag": true,
     "type": "art",
     "arg": 205060,
@@ -5426,7 +5389,7 @@
     "quality": 5
   },
   "11205070": {
-    "name": "霸王枪",
+    "name": "掌天瓶",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5439,7 +5402,7 @@
     "quality": 5
   },
   "11205080": {
-    "name": "破阵刀",
+    "name": "养魂木",
     "des": "【+25激活】自身生命每降低10%，伤害增加5%",
     "isBag": true,
     "type": "art",
@@ -5452,7 +5415,7 @@
     "quality": 5
   },
   "11205090": {
-    "name": "天罡斧",
+    "name": "天雷子",
     "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5465,7 +5428,7 @@
     "quality": 5
   },
   "11205100": {
-    "name": "星月扇",
+    "name": "紫光珠",
     "des": "【+25激活】行动后自身伤害增加8%",
     "isBag": true,
     "type": "art",
@@ -5478,7 +5441,7 @@
     "quality": 5
   },
   "11205110": {
-    "name": "焰斩刀",
+    "name": "银辉剑",
     "des": "【+25激活】释放技能附带眩晕的概率增加至65%",
     "isBag": true,
     "type": "art",
@@ -5491,7 +5454,7 @@
     "quality": 5
   },
   "11205120": {
-    "name": "铁胎弓",
+    "name": "逆星幡",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5504,7 +5467,7 @@
     "quality": 5
   },
   "11205130": {
-    "name": "方天画戟",
+    "name": "雪安阳羽",
     "des": "【+25激活】每受到一次伤害，自身伤害永久增加3%",
     "isBag": true,
     "type": "art",
@@ -5517,7 +5480,7 @@
     "quality": 5
   },
   "11205140": {
-    "name": "青史书",
+    "name": "通天灵宝",
     "des": "【+25激活】直接伤害击杀目标时恢复2点怒气",
     "isBag": true,
     "type": "art",
@@ -5530,7 +5493,7 @@
     "quality": 5
   },
   "11305010": {
-    "name": "龙胆亮银枪",
+    "name": "紫光长剑",
     "des": "【+25激活】攻击时，对灼烧目标的暴击几率额外增加80%",
     "isBag": true,
     "type": "art",
@@ -5543,7 +5506,7 @@
     "quality": 5
   },
   "11305020": {
-    "name": "火神剑",
+    "name": "金帝焚天炎",
     "des": "【+25激活】受到普通攻击时，有80%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5556,7 +5519,7 @@
     "quality": 5
   },
   "11305030": {
-    "name": "翡翠环",
+    "name": "骨灵冷火",
     "des": "【+25激活】释放技能时，为队友附加的持续治疗效果增加至风伯攻击的32%",
     "isBag": true,
     "type": "art",
@@ -5569,7 +5532,7 @@
     "quality": 5
   },
   "11305040": {
-    "name": "丈八蛇矛",
+    "name": "紫晶炉",
     "des": "【+25激活】受到灼烧状态敌人攻击时，受到的直接伤害额外再降低25%",
     "isBag": true,
     "type": "art",
@@ -5582,7 +5545,7 @@
     "quality": 5
   },
   "11305050": {
-    "name": "双股剑",
+    "name": "妖凰伞",
     "des": "【+25激活】释放技能后，给血量最少的2名队友附加无敌吸血盾，持续1回合",
     "isBag": true,
     "type": "art",
@@ -5595,7 +5558,7 @@
     "quality": 5
   },
   "11305060": {
-    "name": "噬魂扇",
+    "name": "古帝炎",
     "des": "【+25激活】释放技能时，如果目标处于灼烧状态，附加眩晕的概率提升至80%",
     "isBag": true,
     "type": "art",
@@ -5608,7 +5571,7 @@
     "quality": 5
   },
   "11305070": {
-    "name": "青龙偃月刀",
+    "name": "异火古剑",
     "des": "【+25激活】释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5621,7 +5584,7 @@
     "quality": 5
   },
   "11305080": {
-    "name": "机铁弓",
+    "name": "风灵剑",
     "des": "【+25激活】释放技能附加灼烧状态的概率增加至80%",
     "isBag": true,
     "type": "art",
@@ -5634,7 +5597,7 @@
     "quality": 5
   },
   "11305090": {
-    "name": "赤炼环",
+    "name": "鬼血刃",
     "des": "【+25激活】受到普通攻击时，有50%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5647,7 +5610,7 @@
     "quality": 5
   },
   "11305100": {
-    "name": "飞燕刀",
+    "name": "陨星鼎",
     "des": "【+25激活】直接伤害击杀灼烧目标后，回复自身50%生命",
     "isBag": true,
     "type": "art",
@@ -5660,7 +5623,7 @@
     "quality": 5
   },
   "11305110": {
-    "name": "古锭刀",
+    "name": "暗影魔核",
     "des": "【+25激活】释放技能后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5673,7 +5636,7 @@
     "quality": 5
   },
   "11305120": {
-    "name": "青镰枪",
+    "name": "血妖炎盾",
     "des": "【+25激活】释放普通攻击后额外降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5686,7 +5649,7 @@
     "quality": 5
   },
   "11305130": {
-    "name": "冰晶羽扇",
+    "name": "降魂幡",
     "des": "【+25激活】释放技能造成压制时附加重伤效果，持续一回合",
     "isBag": true,
     "type": "art",
@@ -5699,7 +5662,7 @@
     "quality": 5
   },
   "11305140": {
-    "name": "赤霄刀",
+    "name": "玄重尺",
     "des": "【+25激活】释放技能时，每命中一个燃烧状态下的目标恢复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5712,7 +5675,7 @@
     "quality": 5
   },
   "11405010": {
-    "name": "神飞枪",
+    "name": "太皇剑",
     "des": "【+25激活】释放技能附带眩晕的概率增加至50%",
     "isBag": true,
     "type": "art",
@@ -5725,7 +5688,7 @@
     "quality": 5
   },
   "11405020": {
-    "name": "瓮金锤",
+    "name": "天帝鼎",
     "des": "【+25激活】直接伤害击杀目标后回复自身2点怒气",
     "isBag": true,
     "type": "art",
@@ -5738,7 +5701,7 @@
     "quality": 5
   },
   "11405030": {
-    "name": "龙泉剑",
+    "name": "虚空镜",
     "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
@@ -5751,7 +5714,7 @@
     "quality": 5
   },
   "11405040": {
-    "name": "玄铁盾",
+    "name": "龙纹炉",
     "des": "【+25激活】物理护盾减少受到物理伤害的百分比增加至60%",
     "isBag": true,
     "type": "art",
@@ -5764,7 +5727,7 @@
     "quality": 5
   },
   "11405050": {
-    "name": "凤嘴刀",
+    "name": "太阳神炉",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5777,7 +5740,7 @@
     "quality": 5
   },
   "11405060": {
-    "name": "玄铁双锏",
+    "name": "吞天罐",
     "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
@@ -5790,7 +5753,7 @@
     "quality": 5
   },
   "11405070": {
-    "name": "节钢锏",
+    "name": "无始钟",
     "des": "【+25激活】释放技能附加麻痹效果的概率增加至50%",
     "isBag": true,
     "type": "art",
@@ -5803,7 +5766,7 @@
     "quality": 5
   },
   "11405080": {
-    "name": "天罡刀",
+    "name": "绿鼎炉",
     "des": "【+25激活】释放技能附加中毒效果的概率增加至80%",
     "isBag": true,
     "type": "art",
@@ -5816,7 +5779,7 @@
     "quality": 5
   },
   "11405090": {
-    "name": "玄铁双刀",
+    "name": "九黎图",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5829,7 +5792,7 @@
     "quality": 5
   },
   "11405100": {
-    "name": "嗜血镰刀",
+    "name": "水蓝珠",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5842,7 +5805,7 @@
     "quality": 5
   },
   "11405110": {
-    "name": "轰雷杖",
+    "name": "轮回印",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5855,7 +5818,7 @@
     "quality": 5
   },
   "11405120": {
-    "name": "落雁刺",
+    "name": "莲花灯",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5868,7 +5831,7 @@
     "quality": 5
   },
   "11405130": {
-    "name": "玉如意",
+    "name": "凤羽扇",
     "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
@@ -5881,7 +5844,7 @@
     "quality": 5
   },
   "11405140": {
-    "name": "亢龙锏",
+    "name": "太玄拙弓",
     "des": "【+25激活】受到技能或普攻直接伤害的30%反弹给攻击者",
     "isBag": true,
     "type": "art",
@@ -5894,8 +5857,8 @@
     "quality": 5
   },
   "13020010": {
-    "name": "单刀赴会碎片",
-    "des": "可用于激活和升星单刀赴会兵法",
+    "name": "摄魂铃碎片",
+    "des": "可用于激活和升星摄魂铃神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5906,8 +5869,8 @@
     "source2": "shop_crossTop"
   },
   "13020020": {
-    "name": "气势如虹碎片",
-    "des": "可用于激活和升星气势如虹兵法",
+    "name": "伏羲琴碎片",
+    "des": "可用于激活和升星伏羲琴神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5917,8 +5880,8 @@
     "source1": "shop_zhulu"
   },
   "13030010": {
-    "name": "贪狼饮血碎片",
-    "des": "可用于激活和升星贪狼饮血兵法",
+    "name": "逍遥扇碎片",
+    "des": "可用于激活和升星逍遥扇神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5929,8 +5892,8 @@
     "source2": "shop_crossTop"
   },
   "13030020": {
-    "name": "轰雷掣电碎片",
-    "des": "可用于激活和升星轰雷掣电兵法",
+    "name": "诛仙剑碎片",
+    "des": "可用于激活和升星诛仙剑神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5941,8 +5904,8 @@
     "source2": "shop_crossTop"
   },
   "13040010": {
-    "name": "不朽印记碎片",
-    "des": "可用于激活和升星不朽印记兵法",
+    "name": "山河印碎片",
+    "des": "可用于激活和升星山河印神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5952,8 +5915,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040030": {
-    "name": "桃园结义碎片",
-    "des": "可用于激活和升星桃园结义兵法",
+    "name": "帝尊令碎片",
+    "des": "可用于激活和升星帝尊令神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5963,8 +5926,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040040": {
-    "name": "笑里藏刀碎片",
-    "des": "可用于激活和升星笑里藏刀兵法",
+    "name": "嗜炼壶碎片",
+    "des": "可用于激活和升星嗜炼壶神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5974,8 +5937,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040060": {
-    "name": "奇门遁甲碎片",
-    "des": "可用于激活和升星奇门遁甲兵法",
+    "name": "女娲石碎片",
+    "des": "可用于激活和升星女娲石神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5985,8 +5948,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040070": {
-    "name": "黄泉引路碎片",
-    "des": "可用于激活和升星黄泉引路兵法",
+    "name": "镇魂曲碎片",
+    "des": "可用于激活和升星镇魂曲神器",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5996,1010 +5959,1682 @@
     "source1": "gift"
   },
   "20501010": {
-    "name": "少年将军",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【孙芙蓉】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20501010,
     "quality": 7,
     "effects": "baowu"
   },
   "20501020": {
-    "name": "单骑救主",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【孙芙蓉】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20501020,
     "quality": 7,
     "effects": "baowu"
   },
   "20501030": {
-    "name": "战场游龙",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【孙芙蓉】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20501030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20501040": {
+    "name": "麒麟仙印【孙芙蓉】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20501040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20501050": {
+    "name": "神龙仙印【孙芙蓉】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20501050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20502010": {
-    "name": "逸群之才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【梦惊柯】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20502010,
     "quality": 7,
     "effects": "baowu"
   },
   "20502020": {
-    "name": "鞠躬尽瘁",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【梦惊柯】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20502020,
     "quality": 7,
     "effects": "baowu"
   },
   "20502030": {
-    "name": "匡扶蜀汉",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【梦惊柯】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20502030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20502040": {
+    "name": "麒麟仙印【梦惊柯】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20502040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20502050": {
+    "name": "神龙仙印【梦惊柯】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20502050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20503010": {
-    "name": "汉室宗亲",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【姬无月】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20503010,
     "quality": 7,
     "effects": "baowu"
   },
   "20503020": {
-    "name": "开拓宏图",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【姬无月】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20503020,
     "quality": 7,
     "effects": "baowu"
   },
   "20503030": {
-    "name": "仁君降世",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【姬无月】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20503030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20503040": {
+    "name": "麒麟仙印【姬无月】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20503040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20503050": {
+    "name": "神龙仙印【姬无月】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20503050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20504010": {
-    "name": "红颜英姿",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【秦斩风】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20504010,
     "quality": 7,
     "effects": "baowu"
   },
   "20504020": {
-    "name": "鸱苕凤姿",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【秦斩风】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20504020,
     "quality": 7,
     "effects": "baowu"
   },
   "20504030": {
-    "name": "鸾翔凤舞",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【秦斩风】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20504030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20504040": {
+    "name": "麒麟仙印【秦斩风】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20504040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20504050": {
+    "name": "神龙仙印【秦斩风】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20504050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20505010": {
-    "name": "奇智女杰",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【李若琪】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20505010,
     "quality": 7,
     "effects": "baowu"
   },
   "20505020": {
-    "name": "木牛流马",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【李若琪】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20505020,
     "quality": 7,
     "effects": "baowu"
   },
   "20505030": {
-    "name": "工神月英",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【李若琪】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20505030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20505040": {
+    "name": "麒麟仙印【李若琪】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20505040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20505050": {
+    "name": "神龙仙印【李若琪】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20505050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20506010": {
-    "name": "骠骑将军",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【影魅】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20506010,
     "quality": 7,
     "effects": "baowu"
   },
   "20506020": {
-    "name": "登城志满",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【影魅】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20506020,
     "quality": 7,
     "effects": "baowu"
   },
   "20506030": {
-    "name": "一世之杰",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【影魅】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20506030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20506040": {
+    "name": "麒麟仙印【影魅】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20506040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20506050": {
+    "name": "神龙仙印【影魅】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20506050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20507010": {
-    "name": "义薄云天",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【王帝令】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20507010,
     "quality": 7,
     "effects": "baowu"
   },
   "20507020": {
-    "name": "忠肝义胆",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【王帝令】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20507020,
     "quality": 7,
     "effects": "baowu"
   },
   "20507030": {
-    "name": "威震华夏",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【王帝令】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20507030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20507040": {
+    "name": "麒麟仙印【王帝令】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20507040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20507050": {
+    "name": "神龙仙印【王帝令】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20507050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20508010": {
-    "name": "勇力绝伦",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【徐紫烟】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20508010,
     "quality": 7,
     "effects": "baowu"
   },
   "20508020": {
-    "name": "雄猛震世",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【徐紫烟】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20508020,
     "quality": 7,
     "effects": "baowu"
   },
   "20508030": {
-    "name": "万人莫敌",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【徐紫烟】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20508030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20508040": {
+    "name": "麒麟仙印【徐紫烟】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20508040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20508050": {
+    "name": "神龙仙印【徐紫烟】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20508050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20509010": {
-    "name": "乐享忘忧",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【虚风尽】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20509010,
     "quality": 7,
     "effects": "baowu"
   },
   "20509020": {
-    "name": "纵权享乐",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【虚风尽】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20509020,
     "quality": 7,
     "effects": "baowu"
   },
   "20509030": {
-    "name": "乐不思蜀",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【虚风尽】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20509030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20509040": {
+    "name": "麒麟仙印【虚风尽】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20509040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20509050": {
+    "name": "神龙仙印【虚风尽】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20509050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20510010": {
-    "name": "计斩妙才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【雨蔺生】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20510010,
     "quality": 7,
     "effects": "baowu"
   },
   "20510020": {
-    "name": "睹事知机",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【雨蔺生】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20510020,
     "quality": 7,
     "effects": "baowu"
   },
   "20510030": {
-    "name": "蜀汉之翼",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【雨蔺生】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20510030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20510040": {
+    "name": "麒麟仙印【雨蔺生】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20510040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20510050": {
+    "name": "神龙仙印【雨蔺生】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20510050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20511010": {
-    "name": "出其不意",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【敖啸】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20511010,
     "quality": 7,
     "effects": "baowu"
   },
   "20511020": {
-    "name": "平北将军",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【敖啸】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20511020,
     "quality": 7,
     "effects": "baowu"
   },
   "20511030": {
-    "name": "一合而斩",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【敖啸】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20511030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20511040": {
+    "name": "麒麟仙印【敖啸】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20511040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20511050": {
+    "name": "神龙仙印【敖啸】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20511050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20512010": {
-    "name": "镇君治戎",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【灵王】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20512010,
     "quality": 7,
     "effects": "baowu"
   },
   "20512020": {
-    "name": "麒麟生角",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【灵王】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20512020,
     "quality": 7,
     "effects": "baowu"
   },
   "20512030": {
-    "name": "狂傲不羁",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【灵王】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20512030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20512040": {
+    "name": "麒麟仙印【灵王】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20512040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20512050": {
+    "name": "神龙仙印【灵王】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20512050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20513010": {
-    "name": "任其自流",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【雪安阳】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20513010,
     "quality": 7,
     "effects": "baowu"
   },
   "20513020": {
-    "name": "梧凤之鸣",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【雪安阳】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20513020,
     "quality": 7,
     "effects": "baowu"
   },
   "20513030": {
-    "name": "飞鸾翔凤",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【雪安阳】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20513030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20513040": {
+    "name": "麒麟仙印【雪安阳】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20513040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20513050": {
+    "name": "神龙仙印【雪安阳】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20513050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "20514010": {
-    "name": "兼负才武",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【厉血绝】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 20514010,
     "quality": 7,
     "effects": "baowu"
   },
   "20514020": {
-    "name": "立志功名",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【厉血绝】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 20514020,
     "quality": 7,
     "effects": "baowu"
   },
   "20514030": {
-    "name": "雄心誓愿",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【厉血绝】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 20514030,
     "quality": 7,
     "effects": "baowu"
   },
+  "20514040": {
+    "name": "麒麟仙印【厉血绝】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 20514040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "20514050": {
+    "name": "神龙仙印【厉血绝】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 20514050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30501010": {
-    "name": "横扫吴会",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【纳兰墨青】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30501010,
     "quality": 7,
     "effects": "baowu"
   },
   "30501020": {
-    "name": "猛锐盖世",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【纳兰墨青】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30501020,
     "quality": 7,
     "effects": "baowu"
   },
   "30501030": {
-    "name": "勇冠一世",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【纳兰墨青】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30501030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30501040": {
+    "name": "麒麟仙印【纳兰墨青】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30501040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30501050": {
+    "name": "神龙仙印【纳兰墨青】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30501050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30502010": {
-    "name": "英隽异才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【萧炽然】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30502010,
     "quality": 7,
     "effects": "baowu"
   },
   "30502020": {
-    "name": "赤壁破曹",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【萧炽然】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30502020,
     "quality": 7,
     "effects": "baowu"
   },
   "30502030": {
-    "name": "乔心瑾悦",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【萧炽然】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30502030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30502040": {
+    "name": "麒麟仙印【萧炽然】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30502040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30502050": {
+    "name": "神龙仙印【萧炽然】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30502050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30503010": {
-    "name": "月上柳梢",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【夏凰朝】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30503010,
     "quality": 7,
     "effects": "baowu"
   },
   "30503020": {
-    "name": "矫情之花",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【夏凰朝】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30503020,
     "quality": 7,
     "effects": "baowu"
   },
   "30503030": {
-    "name": "翩舞星灵",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【夏凰朝】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30503030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30503040": {
+    "name": "麒麟仙印【夏凰朝】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30503040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30503050": {
+    "name": "神龙仙印【夏凰朝】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30503050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30504010": {
-    "name": "勇挚刚毅",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【李玄一】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30504010,
     "quality": 7,
     "effects": "baowu"
   },
   "30504020": {
-    "name": "武烈皇帝",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【李玄一】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30504020,
     "quality": 7,
     "effects": "baowu"
   },
   "30504030": {
-    "name": "魂佑江东",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【李玄一】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30504030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30504040": {
+    "name": "麒麟仙印【李玄一】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30504040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30504050": {
+    "name": "神龙仙印【李玄一】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30504050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30505010": {
-    "name": "巾帼花舞",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【紫妍】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30505010,
     "quality": 7,
     "effects": "baowu"
   },
   "30505020": {
-    "name": "志胜须眉",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【紫妍】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30505020,
     "quality": 7,
     "effects": "baowu"
   },
   "30505030": {
-    "name": "临阵枭姬",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【紫妍】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30505030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30505040": {
+    "name": "麒麟仙印【紫妍】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30505040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30505050": {
+    "name": "神龙仙印【紫妍】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30505050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30506010": {
-    "name": "以逸待劳",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【燕离人】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30506010,
     "quality": 7,
     "effects": "baowu"
   },
   "30506020": {
-    "name": "挥剑驭火",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【燕离人】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30506020,
     "quality": 7,
     "effects": "baowu"
   },
   "30506030": {
-    "name": "烈焰燃天",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【燕离人】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30506030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30506040": {
+    "name": "麒麟仙印【燕离人】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30506040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30506050": {
+    "name": "神龙仙印【燕离人】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30506050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30507010": {
-    "name": "独夫之心",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【凌飞羽】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30507010,
     "quality": 7,
     "effects": "baowu"
   },
   "30507020": {
-    "name": "溺酒残戮",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【凌飞羽】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30507020,
     "quality": 7,
     "effects": "baowu"
   },
   "30507030": {
-    "name": "贪醉荒政",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【凌飞羽】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30507030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30507040": {
+    "name": "麒麟仙印【凌飞羽】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30507040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30507050": {
+    "name": "神龙仙印【凌飞羽】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30507050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30508010": {
-    "name": "竭忠尽智",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【慕容枫】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30508010,
     "quality": 7,
     "effects": "baowu"
   },
   "30508020": {
-    "name": "犯颜激变",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【慕容枫】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30508020,
     "quality": 7,
     "effects": "baowu"
   },
   "30508030": {
-    "name": "飒沓如星",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【慕容枫】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30508030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30508040": {
+    "name": "麒麟仙印【慕容枫】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30508040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30508050": {
+    "name": "神龙仙印【慕容枫】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30508050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30509010": {
-    "name": "气勇胆烈",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【离天火】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30509010,
     "quality": 7,
     "effects": "baowu"
   },
   "30509020": {
-    "name": "笃烈之士",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【离天火】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30509020,
     "quality": 7,
     "effects": "baowu"
   },
   "30509030": {
-    "name": "江东战神",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【离天火】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30509030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30509040": {
+    "name": "麒麟仙印【离天火】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30509040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30509050": {
+    "name": "神龙仙印【离天火】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30509050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30510010": {
-    "name": "虎将之才",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【落封引】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30510010,
     "quality": 7,
     "effects": "baowu"
   },
   "30510020": {
-    "name": "披星踏浪",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【落封引】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30510020,
     "quality": 7,
     "effects": "baowu"
   },
   "30510030": {
-    "name": "铁胆游侠",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【落封引】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30510030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30510040": {
+    "name": "麒麟仙印【落封引】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30510040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30510050": {
+    "name": "神龙仙印【落封引】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30510050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30511010": {
-    "name": "清侧重臣",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【阿乐】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30511010,
     "quality": 7,
     "effects": "baowu"
   },
   "30511020": {
-    "name": "寿春解围",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【阿乐】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30511020,
     "quality": 7,
     "effects": "baowu"
   },
   "30511030": {
-    "name": "神行太保",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【阿乐】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30511030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30511040": {
+    "name": "麒麟仙印【阿乐】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30511040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30511050": {
+    "name": "神龙仙印【阿乐】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30511050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30512010": {
-    "name": "满腹经纶",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【项泷元】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30512010,
     "quality": 7,
     "effects": "baowu"
   },
   "30512020": {
-    "name": "士别三日",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【项泷元】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30512020,
     "quality": 7,
     "effects": "baowu"
   },
   "30512030": {
-    "name": "白衣渡江",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【项泷元】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30512030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30512040": {
+    "name": "麒麟仙印【项泷元】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30512040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30512050": {
+    "name": "神龙仙印【项泷元】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30512050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30513010": {
-    "name": "璞玉浑金",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【韩湫】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30513010,
     "quality": 7,
     "effects": "baowu"
   },
   "30513020": {
-    "name": "独断远略",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【韩湫】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30513020,
     "quality": 7,
     "effects": "baowu"
   },
   "30513030": {
-    "name": "缔造联盟",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【韩湫】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30513030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30513040": {
+    "name": "麒麟仙印【韩湫】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30513040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30513050": {
+    "name": "神龙仙印【韩湫】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30513050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "30514010": {
-    "name": "年轻贤君",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【秦聂天】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 30514010,
     "quality": 7,
     "effects": "baowu"
   },
   "30514020": {
-    "name": "举众江东",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【秦聂天】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 30514020,
     "quality": 7,
     "effects": "baowu"
   },
   "30514030": {
-    "name": "吴王光耀",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【秦聂天】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 30514030,
     "quality": 7,
     "effects": "baowu"
   },
+  "30514040": {
+    "name": "麒麟仙印【秦聂天】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 30514040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "30514050": {
+    "name": "神龙仙印【秦聂天】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 30514050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40501010": {
-    "name": "腾云驭风",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【琅煜】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40501010,
     "quality": 7,
     "effects": "baowu"
   },
   "40501020": {
-    "name": "役使鬼神",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【琅煜】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40501020,
     "quality": 7,
     "effects": "baowu"
   },
   "40501030": {
-    "name": "仙人之怒",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【琅煜】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40501030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40501040": {
+    "name": "麒麟仙印【琅煜】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40501040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40501050": {
+    "name": "神龙仙印【琅煜】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40501050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40502010": {
-    "name": "勇战三英",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【叶晨】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40502010,
     "quality": 7,
     "effects": "baowu"
   },
   "40502020": {
-    "name": "骁勇战神",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【叶晨】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40502020,
     "quality": 7,
     "effects": "baowu"
   },
   "40502030": {
-    "name": "天下无双",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【叶晨】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40502030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40502040": {
+    "name": "麒麟仙印【叶晨】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40502040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40502050": {
+    "name": "神龙仙印【叶晨】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40502050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40503010": {
-    "name": "妙手回春",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【安诗怡】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40503010,
     "quality": 7,
     "effects": "baowu"
   },
   "40503020": {
-    "name": "济世良医",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【安诗怡】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40503020,
     "quality": 7,
     "effects": "baowu"
   },
   "40503030": {
-    "name": "乱世名医",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【安诗怡】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40503030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40503040": {
+    "name": "麒麟仙印【安诗怡】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40503040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40503050": {
+    "name": "神龙仙印【安诗怡】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40503050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40504010": {
-    "name": "倒行逆施",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【季苍擎】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40504010,
     "quality": 7,
     "effects": "baowu"
   },
   "40504020": {
-    "name": "洛阳一炬",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【季苍擎】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40504020,
     "quality": 7,
     "effects": "baowu"
   },
   "40504030": {
-    "name": "乱世魔王",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【季苍擎】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40504030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40504040": {
+    "name": "麒麟仙印【季苍擎】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40504040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40504050": {
+    "name": "神龙仙印【季苍擎】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40504050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40505010": {
-    "name": "雷鸣天启",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【沙须弥】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40505010,
     "quality": 7,
     "effects": "baowu"
   },
   "40505020": {
-    "name": "迅雷风烈",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【沙须弥】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40505020,
     "quality": 7,
     "effects": "baowu"
   },
   "40505030": {
-    "name": "天公将军",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【沙须弥】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40505030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40505040": {
+    "name": "麒麟仙印【沙须弥】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40505040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40505050": {
+    "name": "神龙仙印【沙须弥】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40505050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40506010": {
-    "name": "兵道诡谲",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【安芸】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40506010,
     "quality": 7,
     "effects": "baowu"
   },
   "40506020": {
-    "name": "狼噬火踪",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【安芸】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40506020,
     "quality": 7,
     "effects": "baowu"
   },
   "40506030": {
-    "name": "文和乱武",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【安芸】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40506030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40506040": {
+    "name": "麒麟仙印【安芸】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40506040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40506050": {
+    "name": "神龙仙印【安芸】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40506050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40507010": {
-    "name": "鬼雾消散",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【李星云】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40507010,
     "quality": 7,
     "effects": "baowu"
   },
   "40507020": {
-    "name": "秘法洪流",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【李星云】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40507020,
     "quality": 7,
     "effects": "baowu"
   },
   "40507030": {
-    "name": "仙人指路",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【李星云】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40507030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40507040": {
+    "name": "麒麟仙印【李星云】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40507040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40507050": {
+    "name": "神龙仙印【李星云】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40507050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40508010": {
-    "name": "琅琊道士",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【厉青万】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40508010,
     "quality": 7,
     "effects": "baowu"
   },
   "40508020": {
-    "name": "摄人心魄",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【厉青万】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40508020,
     "quality": 7,
     "effects": "baowu"
   },
   "40508030": {
-    "name": "幻惑众心",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【厉青万】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40508030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40508040": {
+    "name": "麒麟仙印【厉青万】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40508040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40508050": {
+    "name": "神龙仙印【厉青万】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40508050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40509010": {
-    "name": "妄自尊立",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【李若愚】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40509010,
     "quality": 7,
     "effects": "baowu"
   },
   "40509020": {
-    "name": "登极至尊",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【李若愚】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40509020,
     "quality": 7,
     "effects": "baowu"
   },
   "40509030": {
-    "name": "僭号天子",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【李若愚】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40509030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40509040": {
+    "name": "麒麟仙印【李若愚】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40509040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40509050": {
+    "name": "神龙仙印【李若愚】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40509050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40510010": {
-    "name": "末路尽忠",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【薇薇】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40510010,
     "quality": 7,
     "effects": "baowu"
   },
   "40510020": {
-    "name": "焰焚箕轸",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【薇薇】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40510020,
     "quality": 7,
     "effects": "baowu"
   },
   "40510030": {
-    "name": "志定雪霜",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【薇薇】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40510030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40510040": {
+    "name": "麒麟仙印【薇薇】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40510040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40510050": {
+    "name": "神龙仙印【薇薇】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40510050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40511010": {
-    "name": "豪贵名门",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【莫珩】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40511010,
     "quality": 7,
     "effects": "baowu"
   },
   "40511020": {
-    "name": "兵势强盛",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【莫珩】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40511020,
     "quality": 7,
     "effects": "baowu"
   },
   "40511030": {
-    "name": "名动天下",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【莫珩】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40511030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40511040": {
+    "name": "麒麟仙印【莫珩】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40511040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40511050": {
+    "name": "神龙仙印【莫珩】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40511050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40512010": {
-    "name": "外宽内忌",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【姜青凰】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40512010,
     "quality": 7,
     "effects": "baowu"
   },
   "40512020": {
-    "name": "跨蹈汉南",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【姜青凰】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40512020,
     "quality": 7,
     "effects": "baowu"
   },
   "40512030": {
-    "name": "荆襄霸主",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【姜青凰】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40512030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40512040": {
+    "name": "麒麟仙印【姜青凰】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40512040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40512050": {
+    "name": "神龙仙印【姜青凰】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40512050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40513010": {
-    "name": "月下弄兔",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【初晨静】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40513010,
     "quality": 7,
     "effects": "baowu"
   },
   "40513020": {
-    "name": "闭月羞花",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【初晨静】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40513020,
     "quality": 7,
     "effects": "baowu"
   },
   "40513030": {
-    "name": "一舞倾城",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【初晨静】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40513030,
     "quality": 7,
     "effects": "baowu"
   },
+  "40513040": {
+    "name": "麒麟仙印【初晨静】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40513040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40513050": {
+    "name": "神龙仙印【初晨静】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40513050,
+    "quality": 7,
+    "effects": "baowu"
+  },
   "40514010": {
-    "name": "南中豪强",
-    "des": "攻击力+10%，暴击率+10%",
+    "name": "贪狼仙印【巫寂罗】",
+    "des": "攻击力+10%，生命值+20%",
     "type": "skin",
     "arg": 40514010,
     "quality": 7,
     "effects": "baowu"
   },
   "40514020": {
-    "name": "南中勇战",
-    "des": "攻击力+20%，暴击率+20%",
+    "name": "白虎仙印【巫寂罗】",
+    "des": "攻击力+20%，生命值+40%",
     "type": "skin",
     "arg": 40514020,
     "quality": 7,
     "effects": "baowu"
   },
   "40514030": {
-    "name": "南蛮之王",
-    "des": "攻击力+40%，暴击率+40%",
+    "name": "凤凰仙印【巫寂罗】",
+    "des": "攻击力+40%，生命值+80%",
     "type": "skin",
     "arg": 40514030,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40514040": {
+    "name": "麒麟仙印【巫寂罗】",
+    "des": "攻击力+60%，生命值+120%",
+    "type": "skin",
+    "arg": 40514040,
+    "quality": 7,
+    "effects": "baowu"
+  },
+  "40514050": {
+    "name": "神龙仙印【巫寂罗】",
+    "des": "攻击力+100%，生命值+200%",
+    "type": "skin",
+    "arg": 40514050,
     "quality": 7,
     "effects": "baowu"
   },
@@ -7288,8 +7923,8 @@
     "source1": "gift"
   },
   "101101000": {
-    "name": "英雄经验盲盒",
-    "des": "英雄经验，开启可获得以下物品中的一个",
+    "name": "侠客经验福袋",
+    "des": "侠客经验，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -7302,7 +7937,7 @@
   },
   "101101006": {
     "name": "小经验袋",
-    "des": "打开可获得1000英雄经验",
+    "des": "打开可获得1000侠客经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7315,7 +7950,7 @@
   },
   "101101008": {
     "name": "中经验袋",
-    "des": "打开可获得5000英雄经验",
+    "des": "打开可获得5000侠客经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7328,7 +7963,7 @@
   },
   "101101010": {
     "name": "大经验袋",
-    "des": "打开可获得10000英雄经验",
+    "des": "打开可获得10000侠客经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7341,7 +7976,7 @@
   },
   "101101300": {
     "name": "豪华经验袋",
-    "des": "打开可获得30000英雄经验",
+    "des": "打开可获得30000侠客经验",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7354,8 +7989,8 @@
     "source1": "gift"
   },
   "101201000": {
-    "name": "铜币盲盒",
-    "des": "铜钱盲盒，开启可获得以下物品中的一个",
+    "name": "铜钱福袋",
+    "des": "铜钱福袋，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -7367,8 +8002,8 @@
     "source1": "extract"
   },
   "101201003": {
-    "name": "小铜币袋",
-    "des": "打开可获得5000铜币",
+    "name": "小铜钱袋",
+    "des": "打开可获得5000铜钱",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7380,8 +8015,8 @@
     "source1": "extract"
   },
   "101201004": {
-    "name": "中铜币袋",
-    "des": "打开可获得25000铜币",
+    "name": "中铜钱袋",
+    "des": "打开可获得25000铜钱",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7393,8 +8028,8 @@
     "source1": "extract"
   },
   "101201005": {
-    "name": "大铜币袋",
-    "des": "打开可获得50000铜币",
+    "name": "大铜钱袋",
+    "des": "打开可获得50000铜钱",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7406,8 +8041,8 @@
     "source1": "extract"
   },
   "101201006": {
-    "name": "豪华铜币袋",
-    "des": "打开可获得150000铜币",
+    "name": "豪华铜钱袋",
+    "des": "打开可获得150000铜钱",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -7420,8 +8055,8 @@
     "source1": "gift"
   },
   "103100001": {
-    "name": "兵法碎片盲盒",
-    "des": "兵法碎片盲盒，开启可获得以下物品中的一个",
+    "name": "神器碎片福袋",
+    "des": "神器碎片福袋，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -7513,8 +8148,8 @@
     "source1": "extract"
   },
   "105010100": {
-    "name": "十星司马懿",
-    "des": "可获得十星司马懿",
+    "name": "十星王重阳",
+    "des": "可获得十星王重阳",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7526,8 +8161,8 @@
     "source1": "gift"
   },
   "105020100": {
-    "name": "十星曹丕",
-    "des": "可获得十星曹丕",
+    "name": "十星灭绝师太",
+    "des": "可获得十星灭绝师太",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7539,8 +8174,8 @@
     "source1": "gift"
   },
   "105030100": {
-    "name": "十星荀彧",
-    "des": "可获得十星荀彧",
+    "name": "十星周芷若",
+    "des": "可获得十星周芷若",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7552,8 +8187,8 @@
     "source1": "gift"
   },
   "105040100": {
-    "name": "十星曹操",
-    "des": "可获得十星曹操",
+    "name": "十星小龙女",
+    "des": "可获得十星小龙女",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7565,8 +8200,8 @@
     "source1": "gift"
   },
   "105050100": {
-    "name": "十星蔡文姬",
-    "des": "可获得十星蔡文姬",
+    "name": "十星范遥",
+    "des": "可获得十星范遥",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7578,8 +8213,8 @@
     "source1": "gift"
   },
   "105060100": {
-    "name": "十星夏侯惇",
-    "des": "可获得十星夏侯惇",
+    "name": "十星赵敏",
+    "des": "可获得十星赵敏",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7591,8 +8226,8 @@
     "source1": "gift"
   },
   "105070100": {
-    "name": "十星郭嘉",
-    "des": "可获得十星郭嘉",
+    "name": "十星谢逊",
+    "des": "可获得十星谢逊",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7604,8 +8239,8 @@
     "source1": "gift"
   },
   "105080100": {
-    "name": "十星典韦",
-    "des": "可获得十星典韦",
+    "name": "十星林朝英",
+    "des": "可获得十星林朝英",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7617,8 +8252,8 @@
     "source1": "gift"
   },
   "105130100": {
-    "name": "十星许褚",
-    "des": "可获得十星许褚",
+    "name": "十星独孤求败",
+    "des": "可获得十星独孤求败",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7630,8 +8265,8 @@
     "source1": "gift"
   },
   "105140100": {
-    "name": "十星张辽",
-    "des": "可获得十星张辽",
+    "name": "十星杨过",
+    "des": "可获得十星杨过",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7708,7 +8343,7 @@
     "source1": "gift"
   },
   "106000011": {
-    "name": "魏国随机碎片",
+    "name": "兵器随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -7721,7 +8356,7 @@
     "source1": "gift"
   },
   "106000021": {
-    "name": "蜀国随机碎片",
+    "name": "奇门随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -7734,7 +8369,7 @@
     "source1": "gift"
   },
   "106000031": {
-    "name": "吴国随机碎片",
+    "name": "拳掌随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -7747,7 +8382,7 @@
     "source1": "gift"
   },
   "106000041": {
-    "name": "群雄随机碎片",
+    "name": "气劲随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -7760,8 +8395,8 @@
     "source1": "gift"
   },
   "107101001": {
-    "name": "进阶石盲盒",
-    "des": "进阶石盲盒，开启可获得以下物品中的一个",
+    "name": "进阶石福袋",
+    "des": "升仙石福袋，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -7787,7 +8422,7 @@
     "source1": "gift"
   },
   "107101003": {
-    "name": "英雄名帖礼盒",
+    "name": "侠客帖礼盒",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -7815,7 +8450,7 @@
     "source1": "gift"
   },
   "108002001": {
-    "name": "绿色粮草箱",
+    "name": "绿色秘宝箱",
     "des": "绿色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7828,7 +8463,7 @@
     "source1": "escort"
   },
   "108002011": {
-    "name": "绿色粮草袋",
+    "name": "绿色秘宝袋",
     "des": "绿色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7841,7 +8476,7 @@
     "source1": "escort"
   },
   "108003001": {
-    "name": "蓝色粮草箱",
+    "name": "蓝色秘宝箱",
     "des": "蓝色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7854,7 +8489,7 @@
     "source1": "escort"
   },
   "108003011": {
-    "name": "蓝色粮草袋",
+    "name": "蓝色秘宝袋",
     "des": "蓝色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7867,7 +8502,7 @@
     "source1": "escort"
   },
   "108004001": {
-    "name": "紫色粮草箱",
+    "name": "紫色秘宝箱",
     "des": "紫色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7880,7 +8515,7 @@
     "source1": "escort"
   },
   "108004011": {
-    "name": "紫色粮草袋",
+    "name": "紫色秘宝袋",
     "des": "紫色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7893,7 +8528,7 @@
     "source1": "escort"
   },
   "108005001": {
-    "name": "橙色粮草箱",
+    "name": "橙色秘宝箱",
     "des": "橙色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7906,7 +8541,7 @@
     "source1": "escort"
   },
   "108005011": {
-    "name": "橙色粮草袋",
+    "name": "橙色秘宝袋",
     "des": "橙色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7919,7 +8554,7 @@
     "source1": "escort"
   },
   "108006001": {
-    "name": "红色粮草箱",
+    "name": "红色秘宝箱",
     "des": "红色护送宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7932,7 +8567,7 @@
     "source1": "escort"
   },
   "108006011": {
-    "name": "红色粮草袋",
+    "name": "红色秘宝袋",
     "des": "红色掉落宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7945,7 +8580,7 @@
     "source1": "escort"
   },
   "108007001": {
-    "name": "王者参与宝箱",
+    "name": "武林参与宝箱",
     "des": "王者参与宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7958,7 +8593,7 @@
     "source1": "crossTop"
   },
   "108007002": {
-    "name": "王者竞猜宝箱",
+    "name": "武林竞猜宝箱",
     "des": "王者竞猜宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7972,7 +8607,7 @@
   },
   "108007003": {
     "name": "会武战胜宝箱",
-    "des": "同盟会武战胜，开启可获得以下物品中的一个",
+    "des": "仙盟会武战胜，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -7985,7 +8620,7 @@
   },
   "108007004": {
     "name": "会武参与宝箱",
-    "des": "同盟会武参与，开启可获得以下物品中的一个",
+    "des": "仙盟会武参与，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8062,8 +8697,8 @@
     "source1": "gift"
   },
   "108008006": {
-    "name": "兵法盲盒",
-    "des": "兵法盲盒，开启可获得以下物品中的一个",
+    "name": "神兵盲盒",
+    "des": "神兵盲盒，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8101,8 +8736,8 @@
     "source1": "gift"
   },
   "108008009": {
-    "name": "绸缎礼盒",
-    "des": "绸缎礼盒，开启可获得以下物品中的一个",
+    "name": "侠印礼盒",
+    "des": "仙印礼盒，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -8115,8 +8750,8 @@
     "source1": "gift"
   },
   "108008010": {
-    "name": "欧皇卡礼盒",
-    "des": "欧皇卡礼盒，开启可获得以下物品中的一个",
+    "name": "至尊信物礼盒",
+    "des": "至尊信物礼盒，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -8128,85 +8763,15 @@
     "effects": "baowu",
     "source1": "gift"
   },
-  "108009001": {
-    "name": "幸运福袋",
-    "des": "幸运福袋，开启可获得以下物品中的一个",
+  "108008011": {
+    "name": "欧皇卡",
+    "des": "欧皇卡，打开有概率获得充值卡",
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyfd_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "108009002": {
-    "name": "超值福袋",
-    "des": "超值福袋，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "czfd_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "108009003": {
-    "name": "高级福袋",
-    "des": "高级福袋，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "gjfd_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "108009004": {
-    "name": "豪华福袋",
-    "des": "豪华福袋，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "hhfd_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "108009005": {
-    "name": "至尊福袋",
-    "des": "至尊福袋，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "zzfd_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
-    "buyNum": 1,
-    "quality": 5,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "108010001": {
-    "name": "幸运护符",
-    "des": "幸运护符，开启可获得以下物品中的一个",
-    "isBag": true,
-    "type": "item",
-    "useType": "chest",
-    "arg": "xyhflb_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
+    "arg": "pjcz_wxdj_1",
+    "gold": 10000,
+    "coin": 50000000,
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
@@ -8261,7 +8826,7 @@
     "gold": 120,
     "coin": 600000,
     "buyNum": 1,
-    "quality": 3,
+    "quality": 2,
     "source1": "gift"
   },
   "204002001": {
@@ -8274,7 +8839,7 @@
     "gold": 800,
     "coin": 4000000,
     "buyNum": 1,
-    "quality": 4,
+    "quality": 3,
     "source1": "gift"
   },
   "204003001": {
@@ -8287,7 +8852,7 @@
     "gold": 6000,
     "coin": 30000000,
     "buyNum": 1,
-    "quality": 5,
+    "quality": 4,
     "source1": "gift"
   },
   "204004001": {
@@ -8300,7 +8865,7 @@
     "gold": 12000,
     "coin": 60000000,
     "buyNum": 1,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "204005001": {
@@ -8317,8 +8882,8 @@
     "source1": "gift"
   },
   "205010100": {
-    "name": "十星赵云",
-    "des": "可获得十星赵云",
+    "name": "十星郭襄",
+    "des": "可获得十星郭襄",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8330,8 +8895,8 @@
     "source1": "gift"
   },
   "205020100": {
-    "name": "十星诸葛亮",
-    "des": "可获得十星诸葛亮",
+    "name": "十星黄药师",
+    "des": "可获得十星黄药师",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8343,8 +8908,8 @@
     "source1": "gift"
   },
   "205030100": {
-    "name": "十星刘备",
-    "des": "可获得十星刘备",
+    "name": "十星程英",
+    "des": "可获得十星程英",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8356,8 +8921,8 @@
     "source1": "gift"
   },
   "205040100": {
-    "name": "十星马云禄",
-    "des": "可获得十星马云禄",
+    "name": "十星洪七公",
+    "des": "可获得十星洪七公",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8369,8 +8934,8 @@
     "source1": "gift"
   },
   "205050100": {
-    "name": "十星黄月英",
-    "des": "可获得十星黄月英",
+    "name": "十星金轮法王",
+    "des": "可获得十星金轮法王",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8382,8 +8947,8 @@
     "source1": "gift"
   },
   "205060100": {
-    "name": "十星马超",
-    "des": "可获得十星马超",
+    "name": "十星陆无双",
+    "des": "可获得十星陆无双",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8395,8 +8960,8 @@
     "source1": "gift"
   },
   "205070100": {
-    "name": "十星关羽",
-    "des": "可获得十星关羽",
+    "name": "十星斗酒神僧",
+    "des": "可获得十星斗酒神僧",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8408,8 +8973,8 @@
     "source1": "gift"
   },
   "205080100": {
-    "name": "十星张飞",
-    "des": "可获得十星张飞",
+    "name": "十星丘处机",
+    "des": "可获得十星丘处机",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8421,8 +8986,8 @@
     "source1": "gift"
   },
   "205130100": {
-    "name": "十星庞统",
-    "des": "可获得十星庞统",
+    "name": "十星李莫愁",
+    "des": "可获得十星李莫愁",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8434,8 +8999,8 @@
     "source1": "gift"
   },
   "205140100": {
-    "name": "十星姜维",
-    "des": "可获得十星姜维",
+    "name": "十星黄蓉",
+    "des": "可获得十星黄蓉",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8491,11 +9056,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5009010:1&5009020:1&5009030:1&5009040:1",
-    "gold": 3440,
-    "coin": 17200000,
-    "buyNum": 1,
-    "quality": 5
+    "arg": "5009010:1&5009020:1&5009030:1&5009040:1"
   },
   "205508013": {
     "name": "橙色3星套装箱",
@@ -8503,11 +9064,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5010010:1&5010020:1&5010030:1&5010040:1",
-    "gold": 6880,
-    "coin": 34400000,
-    "buyNum": 1,
-    "quality": 5
+    "arg": "5010010:1&5010020:1&5010030:1&5010040:1"
   },
   "205508014": {
     "name": "橙色4星套装箱",
@@ -8515,11 +9072,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "5011010:1&5011020:1&5011030:1&5011040:1",
-    "gold": 13760,
-    "coin": 68800000,
-    "buyNum": 1,
-    "quality": 5
+    "arg": "5011010:1&5011020:1&5011030:1&5011040:1"
   },
   "205512010": {
     "name": "红色套装宝箱",
@@ -8535,7 +9088,7 @@
     "source1": "gift"
   },
   "205512011": {
-    "name": "轩辕套装宝箱",
+    "name": "紫金套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8549,7 +9102,7 @@
     "source1": "gift"
   },
   "205513010": {
-    "name": "战神套装宝箱",
+    "name": "蟠龙套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8563,7 +9116,7 @@
     "source1": "gift"
   },
   "205514010": {
-    "name": "逐鹿套装宝箱",
+    "name": "炎阳套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8577,7 +9130,7 @@
     "source1": "gift"
   },
   "205515010": {
-    "name": "盘古套装宝箱",
+    "name": "四海套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8591,7 +9144,7 @@
     "source1": "gift"
   },
   "205516010": {
-    "name": "诛神套装宝箱",
+    "name": "至尊套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8605,7 +9158,7 @@
     "source1": "gift"
   },
   "205517010": {
-    "name": "创世套装宝箱",
+    "name": "傲世套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8619,7 +9172,7 @@
     "source1": "gift"
   },
   "206010500": {
-    "name": "魏国推荐队宝箱",
+    "name": "兵器推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8632,8 +9185,22 @@
     "effects": "daiji",
     "source1": "gift"
   },
+  "206010514": {
+    "name": "兵器全侠客宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "105010:30&105020:30&105030:30&105040:30&105050:30&105060:30&105070:30&105080:30&105090:30&105100:30&105110:30&105120:30&105130:30&105140:30",
+    "gold": 42000,
+    "coin": 210000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
+  },
   "206020500": {
-    "name": "蜀国推荐队宝箱",
+    "name": "奇门推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8646,8 +9213,22 @@
     "effects": "daiji",
     "source1": "gift"
   },
+  "206020514": {
+    "name": "奇门全侠客宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "205010:30&205020:30&205030:30&205040:30&205050:30&205060:30&205070:30&205080:30&205090:30&205100:30&205110:30&205120:30&205130:30&205140:30",
+    "gold": 42000,
+    "coin": 210000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
+  },
   "206030500": {
-    "name": "吴国推荐队宝箱",
+    "name": "拳掌推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8660,8 +9241,22 @@
     "effects": "daiji",
     "source1": "gift"
   },
+  "206030514": {
+    "name": "拳掌全侠客宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "305010:30&305020:30&305030:30&305040:30&305050:30&305060:30&305070:30&305080:30&305090:30&305100:30&305110:30&305120:30&305130:30&305140:30",
+    "gold": 42000,
+    "coin": 210000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
+  },
   "206040500": {
-    "name": "群雄推荐队宝箱",
+    "name": "气劲推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8674,15 +9269,43 @@
     "effects": "daiji",
     "source1": "gift"
   },
-  "206040530": {
-    "name": "初唐三雄宝箱",
+  "206040514": {
+    "name": "气劲全侠客宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "405060:30&405070:30&405040:30",
-    "gold": 9000,
-    "coin": 45000000,
+    "arg": "405010:30&405020:30&405030:30&405040:30&405050:30&405060:30&405070:30&405080:30&405090:30&405100:30&405110:30&405120:30&405130:30&405140:30",
+    "gold": 42000,
+    "coin": 210000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
+  },
+  "206040530": {
+    "name": "侠客宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "405040:30&405060:30&405070:30",
+    "gold": 12000,
+    "coin": 60000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
+  },
+  "206050514": {
+    "name": "武侠全阵容宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "box",
+    "arg": "206010514:1&206020514:1&206030514:1&206040514:1",
+    "gold": 168000,
+    "coin": 840000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
@@ -8707,7 +9330,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "4004:1&4004:1&4004:1",
+    "arg": "4004:1&4004:1",
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
@@ -8720,7 +9343,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "4004:1&4004:1&4004:1&4004:1&4004:1&4004:1",
+    "arg": "4004:1&4004:1&4004:1&4004:1",
     "gold": 200000,
     "coin": 1000000000,
     "buyNum": 1,
@@ -8728,8 +9351,8 @@
     "effects": "baowu"
   },
   "303006001": {
-    "name": "兵法碎片自选箱",
-    "des": "兵法碎片自选箱,开启选择以下物品中的一个",
+    "name": "神器碎片自选箱",
+    "des": "神器碎片自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -8742,8 +9365,8 @@
     "source2": "lottery_bf"
   },
   "303006010": {
-    "name": "兵法自选箱",
-    "des": "兵法自选箱,开启选择以下物品中的一个",
+    "name": "神器自选箱",
+    "des": "神器自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -8794,8 +9417,8 @@
     "source1": "gift"
   },
   "305010100": {
-    "name": "十星孙策",
-    "des": "可获得十星孙策",
+    "name": "十星阳顶天",
+    "des": "可获得十星阳顶天",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8807,8 +9430,8 @@
     "source1": "gift"
   },
   "305020100": {
-    "name": "十星周瑜",
-    "des": "可获得十星周瑜",
+    "name": "十星杨逍",
+    "des": "可获得十星杨逍",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8820,8 +9443,8 @@
     "source1": "gift"
   },
   "305030100": {
-    "name": "十星小乔",
-    "des": "可获得十星小乔",
+    "name": "十星胡青牛",
+    "des": "可获得十星胡青牛",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8833,8 +9456,8 @@
     "source1": "gift"
   },
   "305040100": {
-    "name": "十星孙坚",
-    "des": "可获得十星孙坚",
+    "name": "十星青翼蝠王",
+    "des": "可获得十星青翼蝠王",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8846,8 +9469,8 @@
     "source1": "gift"
   },
   "305050100": {
-    "name": "十星孙尚香",
-    "des": "可获得十星孙尚香",
+    "name": "十星白眉鹰王",
+    "des": "可获得十星白眉鹰王",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8859,8 +9482,8 @@
     "source1": "gift"
   },
   "305060100": {
-    "name": "十星陆逊",
-    "des": "可获得十星陆逊",
+    "name": "十星紫衫龙王",
+    "des": "可获得十星紫衫龙王",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8872,8 +9495,8 @@
     "source1": "gift"
   },
   "305070100": {
-    "name": "十星孙皓",
-    "des": "可获得十星孙皓",
+    "name": "十星梅超风",
+    "des": "可获得十星梅超风",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8885,8 +9508,8 @@
     "source1": "gift"
   },
   "305080100": {
-    "name": "十星张昭",
-    "des": "可获得十星张昭",
+    "name": "十星瑛姑",
+    "des": "可获得十星瑛姑",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8898,8 +9521,8 @@
     "source1": "gift"
   },
   "305130100": {
-    "name": "十星鲁肃",
-    "des": "可获得十星鲁肃",
+    "name": "十星小昭",
+    "des": "可获得十星小昭",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8911,8 +9534,8 @@
     "source1": "gift"
   },
   "305140100": {
-    "name": "十星孙权",
-    "des": "可获得十星孙权",
+    "name": "十星张无忌",
+    "des": "可获得十星张无忌",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8950,8 +9573,8 @@
     "source1": "gift"
   },
   "306005001": {
-    "name": "控制英雄自选箱",
-    "des": "控制英雄自选箱,开启选择以下物品中的一个",
+    "name": "控制侠客自选箱",
+    "des": "控制侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -8963,8 +9586,8 @@
     "source1": "gift"
   },
   "306005002": {
-    "name": "输出英雄自选箱",
-    "des": "输出英雄自选箱,开启选择以下物品中的一个",
+    "name": "输出侠客自选箱",
+    "des": "输出侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -8976,8 +9599,8 @@
     "source1": "gift"
   },
   "306005003": {
-    "name": "辅助英雄自选箱",
-    "des": "辅助英雄自选箱,开启选择以下物品中的一个",
+    "name": "辅助侠客自选箱",
+    "des": "辅助侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -8989,8 +9612,8 @@
     "source1": "gift"
   },
   "306005004": {
-    "name": "精选英雄自选箱",
-    "des": "精选英雄自选箱,开启选择以下物品中的一个",
+    "name": "精选侠客自选箱",
+    "des": "精选侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9002,8 +9625,8 @@
     "source1": "gift"
   },
   "306005005": {
-    "name": "治疗英雄自选箱",
-    "des": "治疗英雄自选箱,开启选择以下物品中的一个",
+    "name": "治疗侠客自选箱",
+    "des": "治疗侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9015,8 +9638,8 @@
     "source1": "gift"
   },
   "306005006": {
-    "name": "肉盾英雄自选箱",
-    "des": "肉盾英雄自选箱,开启选择以下物品中的一个",
+    "name": "肉盾侠客自选箱",
+    "des": "肉盾侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9028,12 +9651,12 @@
     "source1": "gift"
   },
   "306005007": {
-    "name": "梦幻开局自选箱",
-    "des": "梦幻开局自选箱,开启选择以下物品中的一个",
+    "name": "侠客自选箱",
+    "des": "主角自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"206010500:1\",\"206020500:1\",\"206030500:1\",\"206010500:1\"]",
+    "arg": "[\"105140:30\",\"205070:30\",\"305140:30\",\"405020:30\"]",
     "gold": 18000,
     "coin": 90000000,
     "buyNum": 1,
@@ -9042,8 +9665,8 @@
     "source1": "gift"
   },
   "306005008": {
-    "name": "神将自选箱",
-    "des": "限定英雄自选箱,开启选择以下物品中的一个",
+    "name": "限定自选箱",
+    "des": "限定侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9051,23 +9674,27 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306005101": {
-    "name": "魏国稀有自选箱",
-    "des": "群雄限定自选箱,开启选择以下物品中的一个",
+    "name": "兵器侠客限定自选箱",
+    "des": "兵器限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"105040:30\",\"105070:30\",\"105130:30\",\"105140:30\"]",
+    "arg": "[\"105010:30\",\"105040:30\",\"105130:30\",\"105140:30\"]",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306005201": {
-    "name": "蜀国稀有自选箱",
-    "des": "楚汉限定自选箱,开启选择以下物品中的一个",
+    "name": "奇门侠客限定自选箱",
+    "des": "奇门限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9075,35 +9702,41 @@
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306005301": {
-    "name": "吴国稀有自选箱",
-    "des": "三国限定自选箱,开启选择以下物品中的一个",
+    "name": "拳掌侠客限定自选箱",
+    "des": "拳掌限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"305010:30\",\"305050:30\",\"305070:30\",\"305140:30\"]",
+    "arg": "[\"305050:30\",\"305070:30\",\"305130:30\",\"305140:30\"]",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306005401": {
-    "name": "群雄稀有自选箱",
-    "des": "隋唐限定自选箱,开启选择以下物品中的一个",
+    "name": "气劲侠客限定自选箱",
+    "des": "气劲限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
-    "arg": "[\"405010:30\",\"405020:30\",\"405080:30\",\"405130:30\"]",
+    "arg": "[\"405020:30\",\"405060:30\",\"405080:30\",\"405130:30\"]",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306005501": {
     "name": "阵营碎片自选箱",
-    "des": "隋唐限定自选箱,开启选择以下物品中的一个",
+    "des": "气劲限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9111,11 +9744,27 @@
     "gold": 200,
     "coin": 1000000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "effects": "daiji",
+    "source1": "gift"
+  },
+  "306005506": {
+    "name": "推荐阵营自选箱",
+    "des": "气劲限定自选箱,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"206010500:1\",\"206020500:1\",\"206030500:1\",\"206040500:1\"]",
+    "gold": 18000,
+    "coin": 90000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift"
   },
   "306010101": {
-    "name": "魏国十星自选箱",
-    "des": "魏国十星自选箱,开启选择以下物品中的一个",
+    "name": "兵器侠客十星自选箱",
+    "des": "兵器十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9128,8 +9777,8 @@
     "source1": "gift"
   },
   "306010201": {
-    "name": "蜀国十星自选箱",
-    "des": "蜀国十星自选箱,开启选择以下物品中的一个",
+    "name": "奇门侠客十星自选箱",
+    "des": "奇门十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9142,8 +9791,8 @@
     "source1": "gift"
   },
   "306010301": {
-    "name": "吴国十星自选箱",
-    "des": "吴国十星自选箱,开启选择以下物品中的一个",
+    "name": "拳掌侠客十星自选箱",
+    "des": "拳掌十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9156,8 +9805,8 @@
     "source1": "gift"
   },
   "306010401": {
-    "name": "群雄十星自选箱",
-    "des": "群雄十星自选箱,开启选择以下物品中的一个",
+    "name": "气劲侠客十星自选箱",
+    "des": "气劲十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9170,8 +9819,8 @@
     "source1": "gift"
   },
   "306010501": {
-    "name": "十星英雄自选箱",
-    "des": "十星英雄自选箱,开启选择以下物品中的一个",
+    "name": "十星侠客自选箱",
+    "des": "十星侠客自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10373,7 +11022,7 @@
   },
   "400051100": {
     "name": "破天逐月",
-    "des": "【0星技能】直接伤害击杀目标后，有40%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
+    "des": "【0星技能】直接伤害击杀目标后，有40%概率清除己方侠客身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
     "gold": 6000,
@@ -10386,7 +11035,7 @@
   },
   "400051101": {
     "name": "破天逐月",
-    "des": "【1星技能】直接伤害击杀目标后，有60%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
+    "des": "【1星技能】直接伤害击杀目标后，有60%概率清除己方侠客身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
     "quality": 6,
@@ -10394,7 +11043,7 @@
   },
   "400051102": {
     "name": "破天逐月",
-    "des": "【2星技能】直接伤害击杀目标后，有80%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
+    "des": "【2星技能】直接伤害击杀目标后，有80%概率清除己方侠客身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
     "quality": 6,
@@ -10402,7 +11051,7 @@
   },
   "400051103": {
     "name": "破天逐月",
-    "des": "【3星技能】直接伤害击杀目标后，有100%概率清除己方英雄身上该目标死亡前释放的所有异常效果",
+    "des": "【3星技能】直接伤害击杀目标后，有100%概率清除己方侠客身上该目标死亡前释放的所有异常效果",
     "isBag": true,
     "type": "stone",
     "quality": 6,
@@ -10853,8 +11502,8 @@
     "effects": "baowu"
   },
   "405010100": {
-    "name": "十星左慈",
-    "des": "可获得十星左慈",
+    "name": "十星周伯通",
+    "des": "可获得十星周伯通",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10866,8 +11515,8 @@
     "source1": "gift"
   },
   "405020100": {
-    "name": "十星吕布",
-    "des": "可获得十星吕布",
+    "name": "十星张三丰",
+    "des": "可获得十星张三丰",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10879,8 +11528,8 @@
     "source1": "gift"
   },
   "405030100": {
-    "name": "十星华佗",
-    "des": "可获得十星华佗",
+    "name": "十星达摩祖师",
+    "des": "可获得十星达摩祖师",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10892,8 +11541,8 @@
     "source1": "gift"
   },
   "405040100": {
-    "name": "十星董卓",
-    "des": "可获得十星董卓",
+    "name": "十星灵智上人",
+    "des": "可获得十星灵智上人",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10905,8 +11554,8 @@
     "source1": "gift"
   },
   "405050100": {
-    "name": "十星张角",
-    "des": "可获得十星张角",
+    "name": "十星一灯大师",
+    "des": "可获得十星一灯大师",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10918,8 +11567,8 @@
     "source1": "gift"
   },
   "405060100": {
-    "name": "十星李傕",
-    "des": "可获得十星李傕",
+    "name": "十星黄裳",
+    "des": "可获得十星黄裳",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10931,8 +11580,8 @@
     "source1": "gift"
   },
   "405070100": {
-    "name": "十星南华老仙",
-    "des": "可获得十星南华老仙",
+    "name": "十星郭靖",
+    "des": "可获得十星郭靖",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10944,8 +11593,8 @@
     "source1": "gift"
   },
   "405080100": {
-    "name": "十星于吉",
-    "des": "可获得十星于吉",
+    "name": "十星欧阳锋",
+    "des": "可获得十星欧阳锋",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10957,8 +11606,8 @@
     "source1": "gift"
   },
   "405130100": {
-    "name": "十星貂蝉",
-    "des": "可获得十星貂蝉",
+    "name": "十星天竺僧",
+    "des": "可获得十星天竺僧",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -10970,8 +11619,8 @@
     "source1": "gift"
   },
   "405140100": {
-    "name": "十星孟获",
-    "des": "可获得十星孟获",
+    "name": "十星鹿杖客",
+    "des": "可获得十星鹿杖客",
     "isBag": true,
     "type": "hero",
     "useType": 10,
