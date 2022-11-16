@@ -432,7 +432,7 @@
   "jiaowai_10005000_1": {
     "cmd": "end",
     "text": "今日你的谈吐介绍beaut印象深刻，beaut对你的好感度增加",
-    "result": "hudong_2"
+    "result": "att1_2"
   },
   "jiaowai_10005000_2": {
     "cmd": "end",
@@ -511,5 +511,219 @@
     "cmd": "end",
     "text": "你今天的言论击中beaut的内心，beaut对你的好感度增加",
     "result": "att3_3"
+  },
+  "shangu_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "此时正是山谷狩猎季，一起骑马围猎，可不快哉！",
+    "next": "shangu_10001002",
+    "bg": "shangu"
+  },
+  "shangu_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "传闻山中有老虎，不敢前往",
+    "next": "shangu_10001003"
+  },
+  "shangu_10001003": {
+    "cmd": "choice",
+    "choice1": "有我别怕",
+    "choice1_next": "shangu_10001101",
+    "choice2": "下次再约",
+    "choice2_next": "shangu_10001201"
+  },
+  "shangu_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军身材了得，不知武艺如何",
+    "next": "shangu_10001102"
+  },
+  "shangu_10001102": {
+    "cmd": "choice",
+    "choice1": "展示武艺",
+    "choice1_next": "shangu_10001111",
+    "choice2": "说明战绩",
+    "choice2_next": "shangu_10001121"
+  },
+  "shangu_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军武艺高强有将军在定能无忧",
+    "next": "shangu_10001000_1"
+  },
+  "shangu_10001201": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那我们下次再约",
+    "next": "shangu_10001000_2"
+  },
+  "shangu_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到少将军，年纪轻轻却久经沙场",
+    "next": "shangu_10001122"
+  },
+  "shangu_10001122": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日山谷之行，定会收获满满",
+    "next": "shangu_10001000_3"
+  },
+  "shangu_10001000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att2_3"
+  },
+  "shangu_10001000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att2_1"
+  },
+  "shangu_10001000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att2_2"
+  },
+  "shangu_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "听说有人在山谷中寻得宝物，一起去探险吗？",
+    "next": "shangu_10002002",
+    "bg": "shangu"
+  },
+  "shangu_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "正好要去山谷采集，有少将军相伴定会安全许多",
+    "next": "shangu_10002003"
+  },
+  "shangu_10002003": {
+    "cmd": "choice",
+    "choice1": "解除忧虑",
+    "choice1_next": "shangu_10002101",
+    "choice2": "相伴而行",
+    "choice2_next": "shangu_10002201"
+  },
+  "shangu_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军刚才所展示的实力，高深莫测",
+    "next": "shangu_10002102"
+  },
+  "shangu_10002102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "想必少将军在战场中定是如鱼得水",
+    "next": "shangu_10002103"
+  },
+  "shangu_10002103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这次山谷之行定会满满的收获",
+    "next": "shangu_10002104"
+  },
+  "shangu_10002104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "借少将军吉言！",
+    "next": "shangu_10002000_1"
+  },
+  "shangu_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "与少将军相伴出行，安全无忧",
+    "next": "shangu_10002202"
+  },
+  "shangu_10002202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不对，少将军前面好像有山贼，可有办法",
+    "next": "shangu_10002203"
+  },
+  "shangu_10002203": {
+    "cmd": "choice",
+    "choice1": "我去平定",
+    "choice1_next": "shangu_10002301",
+    "choice2": "绕道而行",
+    "choice2_next": "shangu_10002401"
+  },
+  "shangu_10002301": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军实力非凡，几下功夫都将贼人制服了",
+    "next": "shangu_10002302"
+  },
+  "shangu_10002302": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "我已让人将他们扣押，也加强此区域的巡查",
+    "next": "shangu_10002303"
+  },
+  "shangu_10002303": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "相信姑娘下次自己出门也无需担心",
+    "next": "shangu_10002304"
+  },
+  "shangu_10002304": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，这可是为城中百姓解决了一大难题",
+    "next": "shangu_10002000_2"
+  },
+  "shangu_10002401": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然机智过人",
+    "next": "shangu_10002402"
+  },
+  "shangu_10002402": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "此路是偶然间发现，而且这里的风景也很美",
+    "next": "shangu_10002403"
+  },
+  "shangu_10002403": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，雅致过人哈",
+    "next": "shangu_10002000_3"
+  },
+  "shangu_10002000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att2_3"
+  },
+  "shangu_10002000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att2_4"
+  },
+  "shangu_10002000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att4_1"
   }
 }
