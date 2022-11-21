@@ -725,5 +725,2783 @@
     "cmd": "end",
     "text": "beaut对你好感度增加",
     "result": "att4_1"
+  },
+  "shangu_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "山中云雾缭绕，是探险的好去处，一起吗？",
+    "next": "shangu_10003002",
+    "bg": "shangu"
+  },
+  "shangu_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这忽降的骤雨，我们下次再约吧",
+    "next": "shangu_10003003"
+  },
+  "shangu_10003003": {
+    "cmd": "choice",
+    "choice1": "等待雨停",
+    "choice1_next": "shangu_10003101",
+    "choice2": "下次再约",
+    "choice2_next": "shangu_10003401"
+  },
+  "shangu_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军好雅致，那就等雨停",
+    "next": "shangu_10003102"
+  },
+  "shangu_10003102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨后说不定会有更多惊喜",
+    "next": "shangu_10003103"
+  },
+  "shangu_10003103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，现在雨停了，我们该走哪条路去呢？",
+    "next": "shangu_10003104"
+  },
+  "shangu_10003104": {
+    "cmd": "choice",
+    "choice1": "康庄大道",
+    "choice1_next": "shangu_10003201",
+    "choice2": "山间小路",
+    "choice2_next": "shangu_10003301"
+  },
+  "shangu_10003201": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "沿着这条路前去，晚点可以看到晚霞",
+    "next": "shangu_10003202"
+  },
+  "shangu_10003202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军同行，此生难忘",
+    "next": "shangu_10003000_2"
+  },
+  "shangu_10003301": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "小路上会不会危险重重",
+    "next": "shangu_10003302"
+  },
+  "shangu_10003302": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "有我在，不用怕任何困难险阻",
+    "next": "shangu_10003303"
+  },
+  "shangu_10003303": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就听从少将军",
+    "next": "shangu_10003304"
+  },
+  "shangu_10003304": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "山间小路，才会有许多趣味",
+    "next": "shangu_10003000_3"
+  },
+  "shangu_10003401": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次定能与少将军同行",
+    "next": "shangu_10003000_1"
+  },
+  "shangu_10003000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "shangu_10003000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_3"
+  },
+  "shangu_10003000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_3"
+  },
+  "shangu_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "听说此时山谷中美景如画，不知姑娘可感兴趣？",
+    "next": "shangu_10004002",
+    "bg": "shangu"
+  },
+  "shangu_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，目前天下大乱，还是要以天下苍生为己任",
+    "next": "shangu_10004000_1"
+  },
+  "shangu_10004000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "shangu_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "从山中远眺可以看到云中景象，可否同去？",
+    "next": "shangu_10005002"
+  },
+  "shangu_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日天气真不错，感谢少将军相约",
+    "next": "shangu_10005003"
+  },
+  "shangu_10005003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此景虽美，可如今天下大乱，人心惶惶",
+    "next": "shangu_10005004"
+  },
+  "shangu_10005004": {
+    "cmd": "choice",
+    "choice1": "表现决心",
+    "choice1_next": "shangu_10005101",
+    "choice2": "悉心安慰",
+    "choice2_next": "shangu_10005201"
+  },
+  "shangu_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军如此雄才壮志，相信不久之后就能平定这天下",
+    "next": "shangu_10005000_2"
+  },
+  "shangu_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军所言甚是，也就少将军这样的少年英雄才能解决这问题",
+    "next": "shangu_10005000_1"
+  },
+  "shangu_10005000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "shangu_10005000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "shangu_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "近期山谷中不太平，可否同去一探究竟",
+    "next": "shangu_10006002"
+  },
+  "shangu_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军邀约，意欲何为？",
+    "next": "shangu_10006003"
+  },
+  "shangu_10006003": {
+    "cmd": "choice",
+    "choice1": "野外探险",
+    "choice1_next": "shangu_10006101",
+    "choice2": "野外除贼",
+    "choice2_next": "shangu_10006201"
+  },
+  "shangu_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "目前正逢乱世，小女子就不出门了",
+    "next": "shangu_10006000_1"
+  },
+  "shangu_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军如此为城中百姓着想，小女子定舍命奉陪"
+  },
+  "shangu_10006202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "有我在，定不会让你受伤",
+    "next": "shangu_10006202"
+  },
+  "shangu_10006203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "看少将军的样子，应该是久经沙场",
+    "next": "shangu_10006203"
+  },
+  "shangu_10006204": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "如今天下纷乱，只能护这一方百姓",
+    "next": "shangu_10006204"
+  },
+  "shangu_10006205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军在此养精蓄锐，待时机成熟可以逐鹿天下",
+    "next": "shangu_10006000_2"
+  },
+  "shangu_10006000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "shangu_10006000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "hupan_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "烈日炎炎，一起去游船可否？",
+    "next": "hupan_10001002",
+    "bg": "hupan"
+  },
+  "hupan_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军出游，是小女子的荣幸",
+    "next": "hupan_10001003"
+  },
+  "hupan_10001003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知游船有什么好玩",
+    "next": "hupan_10001004"
+  },
+  "hupan_10001004": {
+    "cmd": "choice",
+    "choice1": "欣赏美景",
+    "choice1_next": "hupan_10001101",
+    "choice2": "游玩听曲",
+    "choice2_next": "hupan_10001201"
+  },
+  "hupan_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此番景象确实很美，少将军是如何寻得如此美景",
+    "next": "hupan_10001111"
+  },
+  "hupan_10001102": {
+    "cmd": "choice",
+    "choice1": "偶尔得知",
+    "choice1_next": "hupan_10001111",
+    "choice2": "多日寻找",
+    "choice2_next": "hupan_10001121"
+  },
+  "hupan_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军消息灵通，期待与少将军的下次历险",
+    "next": "hupan_10001000_1"
+  },
+  "hupan_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军如此用心，此行甚是开心",
+    "next": "hupan_10001000_2"
+  },
+  "hupan_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，有如此闲情雅兴，不知音律如何",
+    "next": "hupan_10001202"
+  },
+  "hupan_10001202": {
+    "cmd": "choice",
+    "choice1": "演奏一曲",
+    "choice1_next": "hupan_10001211",
+    "choice2": "放生吟唱",
+    "choice2_next": "hupan_10001221"
+  },
+  "hupan_10001211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此情此景，有少将军的音律，显得更加高雅",
+    "next": "hupan_10001000_3"
+  },
+  "hupan_10001221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，声音如天籁，让人痴迷",
+    "next": "hupan_10001000_4"
+  },
+  "hupan_10001000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_3"
+  },
+  "hupan_10001000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_3"
+  },
+  "hupan_10001000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_3"
+  },
+  "hupan_10001000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "hupan_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "湖边有游诗会，不知姑娘可感兴趣",
+    "next": "hupan_10002002",
+    "bg": "hupan"
+  },
+  "hupan_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，心有所烦，不想出门",
+    "next": "hupan_10002003"
+  },
+  "hupan_10002003": {
+    "cmd": "choice",
+    "choice1": "询问原因",
+    "choice1_next": "hupan_10002101",
+    "choice2": "下次再约",
+    "choice2_next": "hupan_10002201"
+  },
+  "hupan_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "无可奉告",
+    "next": "hupan_10002000_1"
+  },
+  "hupan_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军难道就不想知道是为何？"
+  },
+  "hupan_10002202": {
+    "cmd": "choice",
+    "choice1": "不想知道",
+    "choice1_next": "hupan_10002211",
+    "choice2": "所为何事",
+    "choice2_next": "hupan_10002221"
+  },
+  "hupan_10002211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那下次再约",
+    "next": "hupan_10002000_2"
+  },
+  "hupan_10002221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "天下纷乱，百姓流离失所，不想去游诗会",
+    "next": "hupan_10002222"
+  },
+  "hupan_10002222": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘放心，大军即将集结完毕，很快就可以平这天下",
+    "next": "hupan_10002223"
+  },
+  "hupan_10002223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军这番话就放心了，那我们出发吧",
+    "next": "hupan_10002000_3"
+  },
+  "hupan_10002000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "hupan_10002000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att1_1"
+  },
+  "hupan_10002000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "hupan_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "据说湖中锦鲤成群，景观难得，看见则运气恒通",
+    "next": "hupan_10003002",
+    "bg": "hupan"
+  },
+  "hupan_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "早就想去观赏一番，正好同将军前去更安全些",
+    "next": "hupan_10003003"
+  },
+  "hupan_10003003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，那我们怎么样过去呢？",
+    "next": "hupan_10003004"
+  },
+  "hupan_10003004": {
+    "cmd": "choice",
+    "choice1": "步行过去",
+    "choice1_next": "hupan_10003101",
+    "choice2": "快来上马",
+    "choice2_next": "hupan_10003201"
+  },
+  "hupan_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军同行甚是开心",
+    "next": "hupan_10003102"
+  },
+  "hupan_10003102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这一路还可以看到沿路风景",
+    "next": "hupan_10003103"
+  },
+  "hupan_10003103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "将军如此安排甚佳",
+    "next": "hupan_10003104"
+  },
+  "hupan_10003104": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "前面就到了",
+    "next": "hupan_10003105"
+  },
+  "hupan_10003105": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，还有什么好玩的吗？",
+    "next": "hupan_10003106"
+  },
+  "hupan_10003106": {
+    "cmd": "choice",
+    "choice1": "前往喂鱼",
+    "choice1_next": "hupan_10003111",
+    "choice2": "前去许愿",
+    "choice2_next": "hupan_10003121"
+  },
+  "hupan_10003111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "鱼儿游来游去多自在，真让人羡慕",
+    "next": "hupan_10003112"
+  },
+  "hupan_10003112": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的邀约，才能看到如此美的景象",
+    "next": "hupan_10003000_2"
+  },
+  "hupan_10003121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军前来许愿的人不少啊",
+    "next": "hupan_10003122"
+  },
+  "hupan_10003122": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘所许何愿？",
+    "next": "hupan_10003123"
+  },
+  "hupan_10003123": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "愿少将军实现心中抱负，平定天下，凯旋归来",
+    "next": "hupan_10003124"
+  },
+  "hupan_10003124": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军的愿望是如何？能否分享？",
+    "next": "hupan_10003125"
+  },
+  "hupan_10003125": {
+    "cmd": "choice",
+    "choice1": "愿天下太平",
+    "choice1_next": "hupan_10003131",
+    "choice2": "愿姑娘无忧",
+    "choice2_next": "hupan_10003132"
+  },
+  "hupan_10003131": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军心怀天下，定能实现愿望",
+    "next": "hupan_10003000_2"
+  },
+  "hupan_10003132": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "多谢少将军牵挂，能与少将军同行并是无忧",
+    "next": "hupan_10003000_3"
+  },
+  "hupan_10003201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "还需少将军拉扶一把",
+    "next": "hupan_10003202"
+  },
+  "hupan_10003202": {
+    "cmd": "choice",
+    "choice1": "伸手拉扶",
+    "choice1_next": "hupan_10003211",
+    "choice2": "下马搀扶",
+    "choice2_next": "hupan_10003301"
+  },
+  "hupan_10003211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，出发吧",
+    "next": "hupan_10003212"
+  },
+  "hupan_10003212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "骑马速度就是快，片刻就到达了",
+    "next": "hupan_10003213"
+  },
+  "hupan_10003213": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，这湖畔这么大，我们应该怎么去游玩呢",
+    "next": "hupan_10003214"
+  },
+  "hupan_10003214": {
+    "cmd": "choice",
+    "choice1": "跟着我走",
+    "choice1_next": "hupan_10003221",
+    "choice2": "沿湖而行",
+    "choice2_next": "hupan_10003241"
+  },
+  "hupan_10003221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军快看，那是那条金色的锦鲤",
+    "next": "hupan_10003222"
+  },
+  "hupan_10003222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "快快许愿",
+    "next": "hupan_10003223"
+  },
+  "hupan_10003223": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘所许何愿？",
+    "next": "hupan_10003224"
+  },
+  "hupan_10003224": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "许了几个，有一个与少将军有关",
+    "next": "hupan_10003225"
+  },
+  "hupan_10003225": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "愿少将军实现心中抱负，平定天下，凯旋归来",
+    "next": "hupan_10003226"
+  },
+  "hupan_10003226": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军许愿了吗？",
+    "next": "hupan_10003227"
+  },
+  "hupan_10003227": {
+    "cmd": "choice",
+    "choice1": "愿天下太平",
+    "choice1_next": "hupan_10003231",
+    "choice2": "愿姑娘无忧",
+    "choice2_next": "hupan_10003232"
+  },
+  "hupan_10003231": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军心怀天下，定能一展宏图，完成霸业",
+    "next": "hupan_10003000_3"
+  },
+  "hupan_10003232": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能有少将军的牵挂，此生无忧",
+    "next": "hupan_10003000_4"
+  },
+  "hupan_10003241": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "快看，那就是那条传说中金色的锦鲤",
+    "next": "hupan_10003242"
+  },
+  "hupan_10003242": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "据说许愿都会成真，快快许愿",
+    "next": "hupan_10003243"
+  },
+  "hupan_10003243": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘所许何愿？",
+    "next": "hupan_10003244"
+  },
+  "hupan_10003244": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "许了个与少将军有关的愿望",
+    "next": "hupan_10003245"
+  },
+  "hupan_10003245": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军可感兴趣",
+    "next": "hupan_10003246"
+  },
+  "hupan_10003246": {
+    "cmd": "choice",
+    "choice1": "不感兴趣",
+    "choice1_next": "hupan_10003251",
+    "choice2": "说来听听",
+    "choice2_next": "hupan_10003261"
+  },
+  "hupan_10003251": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那下次少将军想知道时再告知",
+    "next": "hupan_10003000_1"
+  },
+  "hupan_10003261": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "愿少将军实现心中抱负，平定天下，凯旋归来",
+    "next": "hupan_10003262"
+  },
+  "hupan_10003262": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军所许是何愿？",
+    "next": "hupan_10003263"
+  },
+  "hupan_10003263": {
+    "cmd": "choice",
+    "choice1": "愿天下太平",
+    "choice1_next": "hupan_10003231",
+    "choice2": "愿姑娘无忧",
+    "choice2_next": "hupan_10003232"
+  },
+  "hupan_10003301": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军特地下马，不然真要出糗",
+    "next": "hupan_10003302"
+  },
+  "hupan_10003302": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "定然不会让姑娘难堪",
+    "next": "hupan_10003303"
+  },
+  "hupan_10003303": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我们出发吧",
+    "next": "hupan_10003304"
+  },
+  "hupan_10003304": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘可要坐稳了",
+    "next": "hupan_10003305"
+  },
+  "hupan_10003305": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到今日人如此之多",
+    "next": "hupan_10003306"
+  },
+  "hupan_10003306": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军如何安排",
+    "next": "hupan_10003307"
+  },
+  "hupan_10003307": {
+    "cmd": "choice",
+    "choice1": "跟着我走",
+    "choice1_next": "hupan_10003221",
+    "choice2": "沿湖而行",
+    "choice2_next": "hupan_10003241"
+  },
+  "hupan_10003000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "hupan_10003000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "hupan_10003000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "hupan_10003000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_5"
+  },
+  "hupan_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "湖中水草新生，画面如画，游船可观全貌，不知可有时间同去",
+    "next": "hupan_10004002",
+    "bg": "hupan"
+  },
+  "hupan_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，心绪不佳，怕打扰少将军心情，下次再约吧",
+    "next": "hupan_10004003"
+  },
+  "hupan_10004003": {
+    "cmd": "choice",
+    "choice1": "所为何事",
+    "choice1_next": "hupan_10004101",
+    "choice2": "下次再约",
+    "choice2_next": "hupan_10004201"
+  },
+  "hupan_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉不想说，不想自己的事情烦扰少将军",
+    "next": "hupan_10004102"
+  },
+  "hupan_10004102": {
+    "cmd": "choice",
+    "choice1": "但说无妨",
+    "choice1_next": "hupan_10004111",
+    "choice2": "愿为分忧",
+    "choice2_next": "hupan_10004121"
+  },
+  "hupan_10004111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次吧，下次定会与少将军细说",
+    "next": "hupan_10004000_2"
+  },
+  "hupan_10004121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的好意，但此事需自身解决，少将军下次再约吧",
+    "next": "hupan_10004000_3"
+  },
+  "hupan_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次肯定与少将军相约",
+    "next": "hupan_10004000_1"
+  },
+  "hupan_10004000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "hupan_10004000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_2"
+  },
+  "hupan_10004000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_3"
+  },
+  "hupan_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨后，湖边景色甚美，现在正是最佳观赏时期",
+    "next": "hupan_10005002",
+    "bg": "hupan"
+  },
+  "hupan_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，前几天刚去过，这次就不去了，我们下次再约",
+    "next": "hupan_10005003"
+  },
+  "hupan_10005003": {
+    "cmd": "choice",
+    "choice1": "下次再约",
+    "choice1_next": "hupan_10005101",
+    "choice2": "再去一次",
+    "choice2_next": "hupan_10005201"
+  },
+  "hupan_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，早点约",
+    "next": "hupan_10005000_1"
+  },
+  "hupan_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，为何如此执着于此呢？",
+    "next": "hupan_10005202"
+  },
+  "hupan_10005202": {
+    "cmd": "choice",
+    "choice1": "美景难得",
+    "choice1_next": "hupan_10005211",
+    "choice2": "只是牵挂",
+    "choice2_next": "hupan_10005221"
+  },
+  "hupan_10005211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次定于少将军同去欣赏风景",
+    "next": "hupan_10005000_2"
+  },
+  "hupan_10005221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能成为少将军牵挂之人，实在荣幸",
+    "next": "hupan_10005222"
+  },
+  "hupan_10005222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就再与少将军同游一番",
+    "next": "hupan_10005223"
+  },
+  "hupan_10005223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "本次我做向导如何？",
+    "next": "hupan_10005224"
+  },
+  "hupan_10005224": {
+    "cmd": "choice",
+    "choice1": "乐意之极",
+    "choice1_next": "hupan_10005231",
+    "choice2": "还是我来",
+    "choice2_next": "hupan_10005241"
+  },
+  "hupan_10005231": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "有姑娘做向导，今天玩的甚是开心",
+    "next": "hupan_10005232"
+  },
+  "hupan_10005232": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "我们下次再约",
+    "next": "hupan_10005233"
+  },
+  "hupan_10005233": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "若少将军需要，下次还是由我来做向导",
+    "next": "hupan_10005000_4"
+  },
+  "hupan_10005241": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那有劳少将军了",
+    "next": "hupan_10005000_3"
+  },
+  "hupan_10005000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "hupan_10005000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_2"
+  },
+  "hupan_10005000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "hupan_10005000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_4"
+  },
+  "hupan_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "湖中鸳鸯成群，画面很治愈，适合一同观赏",
+    "next": "hupan_10006002",
+    "bg": "hupan"
+  },
+  "hupan_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军邀约，意欲何为？",
+    "next": "hupan_10006003"
+  },
+  "hupan_10006003": {
+    "cmd": "choice",
+    "choice1": "分享美景",
+    "choice1_next": "hupan_10006101",
+    "choice2": "多些了解",
+    "choice2_next": "hupan_10006201"
+  },
+  "hupan_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就出发吧",
+    "next": "hupan_10006102"
+  },
+  "hupan_10006102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的邀约，才能看到如此美的景象",
+    "next": "hupan_10006103"
+  },
+  "hupan_10006103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这美景不及姑娘万分",
+    "next": "hupan_10006104"
+  },
+  "hupan_10006104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军说笑了，我们还是欣赏美景吧",
+    "next": "hupan_10006000_1"
+  },
+  "hupan_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "若只是这样的话，就不必要去了",
+    "next": "hupan_10006202"
+  },
+  "hupan_10006202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军想了解哪方面的事情呢？",
+    "next": "hupan_10006203"
+  },
+  "hupan_10006203": {
+    "cmd": "choice",
+    "choice1": "生活趣事",
+    "choice1_next": "hupan_10006211",
+    "choice2": "人生经历",
+    "choice2_next": "hupan_10006241"
+  },
+  "hupan_10006211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "生活中趣事不多，不知少将军生活中又有哪些趣事",
+    "next": "hupan_10006212"
+  },
+  "hupan_10006212": {
+    "cmd": "choice",
+    "choice1": "展开分享",
+    "choice1_next": "hupan_10006222",
+    "choice2": "一语带过",
+    "choice2_next": "hupan_10006231"
+  },
+  "hupan_10006222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到少将军生活中趣味事物颇多，让人心神向往",
+    "next": "hupan_10006223"
+  },
+  "hupan_10006223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "期待下次与少将军相约",
+    "next": "hupan_10006000_3"
+  },
+  "hupan_10006231": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军的生活也同我一般枯燥乏味啊，我们下次再约吧",
+    "next": "hupan_10006000_2"
+  },
+  "hupan_10006241": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "人生经历不多，出城游玩都没有几次",
+    "next": "hupan_10006242"
+  },
+  "hupan_10006242": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军的人生经历应该很精彩吧，能否分享一二？",
+    "next": "hupan_10006243"
+  },
+  "hupan_10006243": {
+    "cmd": "choice",
+    "choice1": "从头讲起",
+    "choice1_next": "hupan_10006251",
+    "choice2": "总结概括",
+    "choice2_next": "hupan_10006261"
+  },
+  "hupan_10006251": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军的人生经历丰富，跌宕起伏相信中间定有许多苦难",
+    "next": "hupan_10006252"
+  },
+  "hupan_10006252": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，定能完成心中抱负",
+    "next": "hupan_10006253"
+  },
+  "hupan_10006253": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "无礼物赠与少将军，那就祝愿少将军一统天下",
+    "next": "hupan_10006000_4"
+  },
+  "hupan_10006261": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军的人生精彩程度都能著书立传了",
+    "next": "hupan_10006000_4"
+  },
+  "hupan_10006000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "hupan_10006000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_2"
+  },
+  "hupan_10006000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "hupan_10006000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att1_4"
+  },
+  "shiji_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "市集开了一家新店，新商品琳琅满目，过去挑几件吗？",
+    "next": "shiji_10001002",
+    "bg": "shiji"
+  },
+  "shiji_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日天气真不错，感谢少将军相约",
+    "next": "shiji_10001003"
+  },
+  "shiji_10001003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我们该从哪儿开始逛",
+    "next": "shiji_10001004"
+  },
+  "shiji_10001004": {
+    "cmd": "choice",
+    "choice1": "从东市开始",
+    "choice1_next": "shiji_10001101",
+    "choice2": "从西市开始",
+    "choice2_next": "shiji_10001201"
+  },
+  "shiji_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今天确实热闹非凡",
+    "next": "shiji_10001102"
+  },
+  "shiji_10001102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军这发簪带着好看吗？",
+    "next": "shiji_10001103"
+  },
+  "shiji_10001103": {
+    "cmd": "choice",
+    "choice1": "用心赞美",
+    "choice1_next": "shiji_10001111",
+    "choice2": "吟诗赞美",
+    "choice2_next": "shiji_10001121"
+  },
+  "shiji_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军夸赞，我们继续逛逛吧",
+    "next": "shiji_10001000_1"
+  },
+  "shiji_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军夸张了，没有少将军说的那么美",
+    "next": "shiji_10001000_2"
+  },
+  "shiji_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今天确实热闹非凡",
+    "next": "shiji_10001202"
+  },
+  "shiji_10001202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军想吃糖葫芦吗？",
+    "next": "shiji_10001203"
+  },
+  "shiji_10001203": {
+    "cmd": "choice",
+    "choice1": "点头回应",
+    "choice1_next": "shiji_10001211",
+    "choice2": "前去购买",
+    "choice2_next": "shiji_10001221"
+  },
+  "shiji_10001211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "一同去购买吧",
+    "next": "shiji_10001212"
+  },
+  "shiji_10001212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此物还是如此美味",
+    "next": "shiji_10001213"
+  },
+  "shiji_10001213": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "如今天下纷乱，感谢少将军为这个城池的付出",
+    "next": "shiji_10001214"
+  },
+  "shiji_10001214": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不然哪能安然的逛街饮食",
+    "next": "shiji_10001215"
+  },
+  "shiji_10001215": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "迟早会一统天下",
+    "next": "shiji_10001000_2"
+  },
+  "shiji_10001221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的心意",
+    "next": "shiji_10001222"
+  },
+  "shiji_10001222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "从小就爱吃，只有此物能暂时忘却烦恼",
+    "next": "shiji_10001223"
+  },
+  "shiji_10001223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军保护了这一方土地的安宁",
+    "next": "shiji_10001224"
+  },
+  "shiji_10001224": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "若不是少将军，可能还在躲避战乱",
+    "next": "shiji_10001225"
+  },
+  "shiji_10001225": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那能享受此刻安宁",
+    "next": "shiji_10001226"
+  },
+  "shiji_10001226": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "相信不久就能一统天下，那时候就可以天下畅玩",
+    "next": "shiji_10001227"
+  },
+  "shiji_10001227": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "期待少将军带来的那天",
+    "next": "shiji_10001000_3"
+  },
+  "shiji_10001000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "shiji_10001000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "shiji_10001000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "shiji_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "黄昏时分沿着市集方向一直走，据说会看到金色洋溢的城市，一起去见证吗",
+    "next": "shiji_10002002",
+    "bg": "shiji"
+  },
+  "shiji_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，今日已晚，不宜出门，深感抱歉",
+    "next": "shiji_10002003"
+  },
+  "shiji_10002003": {
+    "cmd": "choice",
+    "choice1": "热情邀请",
+    "choice1_next": "shiji_10002101",
+    "choice2": "下次再约",
+    "choice2_next": "shiji_10002201"
+  },
+  "shiji_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的热情邀约，但今日确实太晚了，抱歉"
+  },
+  "shiji_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次定能与少将军一起见证黄昏"
+  },
+  "shiji_10002000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "shiji_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "市集有活动，据说还能放许愿灯，一起去许愿吧",
+    "next": "shiji_10003002",
+    "bg": "shiji"
+  },
+  "shiji_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日的景色真美",
+    "next": "shiji_10003003"
+  },
+  "shiji_10003003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "只有姑娘出现这美景才完美",
+    "next": "shiji_10003004"
+  },
+  "shiji_10003004": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "看那许愿灯已经升空，快许愿吧",
+    "next": "shiji_10003005"
+  },
+  "shiji_10003005": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘许了什么愿望",
+    "next": "shiji_10003006"
+  },
+  "shiji_10003006": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "愿这天下太平，愿少将军能够一展宏图",
+    "next": "shiji_10003007"
+  },
+  "shiji_10003007": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军所许是何愿？",
+    "next": "shiji_10003008"
+  },
+  "shiji_10003008": {
+    "cmd": "choice",
+    "choice1": "所愿姑娘无忧",
+    "choice1_next": "shiji_10003101",
+    "choice2": "所愿天下太平",
+    "choice2_next": "shiji_10003201"
+  },
+  "shiji_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军相伴，定能无忧",
+    "next": "shiji_10003000_1"
+  },
+  "shiji_10003201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军心怀天下，定能实现愿望",
+    "next": "shiji_10003202"
+  },
+  "shiji_10003202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "希望我们愿意都能够实现",
+    "next": "shiji_10003000_2"
+  },
+  "shiji_10003000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_3"
+  },
+  "shiji_10003000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "shiji_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "市集中来了一拨番邦商人，商品稀奇古怪，一起去看看吗？",
+    "next": "shiji_10004002",
+    "bg": "shiji"
+  },
+  "shiji_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，而身患病不能出门",
+    "next": "shiji_10004003"
+  },
+  "shiji_10004003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那姑娘安心养病，我们下次再约",
+    "next": "shiji_10004000_1"
+  },
+  "shiji_10004000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "shiji_10005001": {
+    "cmd": "begin",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "市集中来了一拨番邦商人，商品稀奇古怪，一起去看看吗？",
+    "next": "shiji_10005002",
+    "bg": "shiji"
+  },
+  "shiji_10005002": {
+    "cmd": "choice",
+    "choice1": "抱歉不去",
+    "choice1_next": "shiji_10005101",
+    "choice2": "一同前往",
+    "choice2_next": "shiji_10005201"
+  },
+  "shiji_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那少将军安心养病，我们下次再约",
+    "next": "shiji_10005000_1"
+  },
+  "shiji_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军同去，安全可靠，定能玩的尽兴",
+    "next": "shiji_10005000_2"
+  },
+  "shiji_10005000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "shiji_10005000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att1_3"
+  },
+  "shiji_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日市集有赶集活动，热闹非凡，有诸多有意思的商品，去淘宝吗？",
+    "next": "shiji_10006002",
+    "bg": "shiji"
+  },
+  "shiji_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "听上去就觉得特别有意思",
+    "next": "shiji_10006003"
+  },
+  "shiji_10006003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那我们出发吧",
+    "next": "shiji_10006004"
+  },
+  "shiji_10006004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军那是什么？",
+    "next": "shiji_10006005"
+  },
+  "shiji_10006005": {
+    "cmd": "choice",
+    "choice1": "一一解答",
+    "choice1_next": "shiji_10006101",
+    "choice2": "胡乱回答",
+    "choice2_next": "shiji_10006102"
+  },
+  "shiji_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军懂的真多"
+  },
+  "shiji_10006102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "虽然觉得不靠谱，但是还是觉得挺有意思"
+  },
+  "shiji_10006000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_3"
+  },
+  "shiji_10006000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "huayuan_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "百花园中花已经绽放，吸引蝴蝶纷飞，景色绝佳，一起去赏花扑蝶吗？",
+    "next": "huayuan_10001002",
+    "bg": "huayuan"
+  },
+  "huayuan_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "听上去就觉得特别有意思",
+    "next": "huayuan_10001003"
+  },
+  "huayuan_10001003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那现在就出发吧",
+    "next": "huayuan_10001004"
+  },
+  "huayuan_10001004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "快看，那边的蝴蝶飞舞",
+    "next": "huayuan_10001005"
+  },
+  "huayuan_10001005": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "像极了姑娘的舞姿",
+    "next": "huayuan_10001006"
+  },
+  "huayuan_10001006": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军寓意何为？",
+    "next": "huayuan_10001007"
+  },
+  "huayuan_10001007": {
+    "cmd": "choice",
+    "choice1": "想看舞姿",
+    "choice1_next": "huayuan_10001101",
+    "choice2": "随口一说"
+  },
+  "huayuan_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就满足少将军的愿望",
+    "next": "huayuan_10001102"
+  },
+  "huayuan_10001102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军你看我美吗？",
+    "next": "huayuan_10001103"
+  },
+  "huayuan_10001103": {
+    "cmd": "choice",
+    "choice1": "美若天仙",
+    "choice1_next": "huayuan_10001111",
+    "choice2": "舞姿曼妙",
+    "choice2_next": "huayuan_10001121"
+  },
+  "huayuan_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的赞美",
+    "next": "huayuan_10001112"
+  },
+  "huayuan_10001112": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日与少将军同游共赏，甚是心欢"
+  },
+  "huayuan_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "看来样貌还是不能入少将军的眼",
+    "next": "huayuan_10001122"
+  },
+  "huayuan_10001122": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "非也非也，姑娘容貌甚佳，只是这舞姿确实更为惊艳",
+    "next": "huayuan_10001123"
+  },
+  "huayuan_10001123": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "就相信你一回"
+  },
+  "huayuan_10001000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_3"
+  },
+  "huayuan_10001000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_3"
+  },
+  "huayuan_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨中，亭里，等你",
+    "next": "huayuan_10002002",
+    "bg": "huayuan"
+  },
+  "huayuan_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军出游，真是三生有幸",
+    "next": "huayuan_10002003"
+  },
+  "huayuan_10002003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，今日行程如何安排？",
+    "next": "huayuan_10002004"
+  },
+  "huayuan_10002004": {
+    "cmd": "choice",
+    "choice1": "雨中漫步",
+    "choice1_next": "huayuan_10002101",
+    "choice2": "亭中看雨",
+    "choice2_next": "huayuan_10002201"
+  },
+  "huayuan_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "雨中看花原来也有一番新的景象",
+    "next": "huayuan_10002102"
+  },
+  "huayuan_10002102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军一路的撑伞",
+    "next": "huayuan_10002103"
+  },
+  "huayuan_10002103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军雨中同游花园，此乃今生难忘",
+    "next": "huayuan_10002000_1"
+  },
+  "huayuan_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知看着此景象，少将军内心有所感想",
+    "next": "huayuan_10002202"
+  },
+  "huayuan_10002202": {
+    "cmd": "choice",
+    "choice1": "点评景色",
+    "choice1_next": "huayuan_10002211",
+    "choice2": "抒发情感",
+    "choice2_next": "huayuan_10002221"
+  },
+  "huayuan_10002211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军文采深含韵味，能够将此景色描绘的如此动人",
+    "next": "huayuan_10002212"
+  },
+  "huayuan_10002212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "尤其是最后的那句的含义已经超出景色，能感到少将军心怀天下之心",
+    "next": "huayuan_10002000_2"
+  },
+  "huayuan_10002221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "看的出来少将军是心怀天下百姓之人",
+    "next": "huayuan_10002222"
+  },
+  "huayuan_10002222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "相信少将军定能实现心中抱负",
+    "next": "huayuan_10002223"
+  },
+  "huayuan_10002223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "一统山河，还天下百姓一个安定之天下",
+    "next": "huayuan_10002000_3"
+  },
+  "huayuan_10002000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "huayuan_10002000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_4"
+  },
+  "huayuan_10002000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_4"
+  },
+  "huayuan_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "百花酿在百花园中品尝别有一番滋味，就只等你来",
+    "next": "huayuan_10003002",
+    "bg": "huayuan"
+  },
+  "huayuan_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，今日故人来访，无法抽身",
+    "next": "huayuan_10003003"
+  },
+  "huayuan_10003003": {
+    "cmd": "choice",
+    "choice1": "下次再约",
+    "choice1_next": "huayuan_10003101",
+    "choice2": "我愿等待",
+    "choice2_next": "huayuan_10003201"
+  },
+  "huayuan_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，下次定与少将军同行"
+  },
+  "huayuan_10003201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，今日确实无法抽出时间，我们下次再约吧"
+  },
+  "huayuan_10003000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "huayuan_10003000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att3_2"
+  },
+  "huayuan_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "鸟语花香中，静待佳人相伴",
+    "next": "huayuan_10004002",
+    "bg": "huayuan"
+  },
+  "huayuan_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，心有所烦，不想出门",
+    "next": "huayuan_10004003"
+  },
+  "huayuan_10004003": {
+    "cmd": "choice",
+    "choice1": "询问原因",
+    "choice1_next": "huayuan_10004101",
+    "choice2": "下次再约",
+    "choice2_next": "huayuan_10004201"
+  },
+  "huayuan_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，不想说，少将军还是另寻他人吧",
+    "next": "huayuan_10004000_1"
+  },
+  "huayuan_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "扫了少将军的雅兴，深感抱歉，下次再约吧",
+    "next": "huayuan_10004000_2"
+  },
+  "huayuan_10004000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "huayuan_10004000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_2"
+  },
+  "huayuan_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "百花园在黄昏时分十分美丽，鸟鸣、蝶舞、斜阳，只差我们的背影就构成佳画了",
+    "next": "huayuan_10005002",
+    "bg": "huayuan"
+  },
+  "huayuan_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "正好想去，少将军怎么会知道呢？",
+    "next": "huayuan_10005003"
+  },
+  "huayuan_10005003": {
+    "cmd": "choice",
+    "choice1": "心有灵犀",
+    "choice1_next": "huayuan_10005101",
+    "choice2": "我会算卦",
+    "choice2_next": "huayuan_10005201"
+  },
+  "huayuan_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军丹青功力如何",
+    "next": "huayuan_10005102"
+  },
+  "huayuan_10005102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "儿时有学过，但已经许久没有画了",
+    "next": "huayuan_10005103"
+  },
+  "huayuan_10005103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那我们来比赛作画如何",
+    "next": "huayuan_10005104"
+  },
+  "huayuan_10005104": {
+    "cmd": "choice",
+    "choice1": "那就开始",
+    "choice1_next": "huayuan_10005111",
+    "choice2": "还是算了",
+    "choice2_next": "huayuan_10005121"
+  },
+  "huayuan_10005111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军你看此画如何？我们谁赢了？",
+    "next": "huayuan_10005113"
+  },
+  "huayuan_10005112": {
+    "cmd": "choice",
+    "choice1": "姑娘略胜",
+    "choice1_next": "huayuan_10005113",
+    "choice2": "不分伯仲",
+    "choice2_next": "huayuan_10005116"
+  },
+  "huayuan_10005113": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军谦虚了，能看的出少将军画中蕴含天下之势",
+    "next": "huayuan_10005114"
+  },
+  "huayuan_10005114": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "与少将军的画比起来，此画只是形似，缺乏神韵",
+    "next": "huayuan_10005115"
+  },
+  "huayuan_10005115": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "是少将军胜出了哈",
+    "next": "huayuan_10005000_4"
+  },
+  "huayuan_10005116": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "哪里的话，是少将军让着我了",
+    "next": "huayuan_10005117"
+  },
+  "huayuan_10005117": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日能与少将军同游作画，深感欢喜",
+    "next": "huayuan_10005118"
+  },
+  "huayuan_10005118": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "期待下次与少将军再约",
+    "next": "huayuan_10005000_5"
+  },
+  "huayuan_10005121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军谦虚了，听说少将军的丹青水平国士无双",
+    "next": "huayuan_10005122"
+  },
+  "huayuan_10005122": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没法亲眼看到真是可惜",
+    "next": "huayuan_10005000_1"
+  },
+  "huayuan_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那少将军可能算出我此刻的心情",
+    "next": "huayuan_10005202"
+  },
+  "huayuan_10005202": {
+    "cmd": "choice",
+    "choice1": "心情愉悦",
+    "choice1_next": "huayuan_10005211",
+    "choice2": "心思忧愁",
+    "choice2_next": "huayuan_10005221"
+  },
+  "huayuan_10005211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这卦算的还挺准",
+    "next": "huayuan_10005212"
+  },
+  "huayuan_10005212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军同游，心情愉悦",
+    "next": "huayuan_10005213"
+  },
+  "huayuan_10005213": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此景真美，感谢少将军的邀约",
+    "next": "huayuan_10005000_2"
+  },
+  "huayuan_10005221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "原本心绪不佳，不过得知是少将军邀约",
+    "next": "huayuan_10005222"
+  },
+  "huayuan_10005222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "心情瞬间就好了",
+    "next": "huayuan_10005223"
+  },
+  "huayuan_10005223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢能与少将军同游，今生又多了难忘瞬间",
+    "next": "huayuan_10005000_3"
+  },
+  "huayuan_10005000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "huayuan_10005000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "huayuan_10005000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "huayuan_10005000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "huayuan_10005000_5": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_4"
+  },
+  "huayuan_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "深夜百花园中萤火虫漫天飞舞，感觉置身在漫天星河中，据说对着萤火虫许愿也能实现",
+    "next": "huayuan_10006002",
+    "bg": "huayuan"
+  },
+  "huayuan_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那还等什么，现在就出发吧",
+    "next": "huayuan_10006003"
+  },
+  "huayuan_10006003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这真如少将军所言，这景色真美",
+    "next": "huayuan_10006004"
+  },
+  "huayuan_10006004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "我们一起许愿吧",
+    "next": "huayuan_10006005"
+  },
+  "huayuan_10006005": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘所许的是什么愿望？",
+    "next": "huayuan_10006006"
+  },
+  "huayuan_10006006": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "愿这天下太平，愿少将军能够身心健康，实现愿望",
+    "next": "huayuan_10006007"
+  },
+  "huayuan_10006007": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军所许是何愿？",
+    "next": "huayuan_10006008"
+  },
+  "huayuan_10006008": {
+    "cmd": "choice",
+    "choice1": "愿姑娘无忧",
+    "choice1_next": "huayuan_10006101",
+    "choice2": "愿天下太平",
+    "choice2_next": "huayuan_10006201"
+  },
+  "huayuan_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军所愿，有少将军相伴定能无忧",
+    "next": "huayuan_10005000_1"
+  },
+  "huayuan_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "如今天下纷乱，少将军能有如此情怀乃天下之幸",
+    "next": "huayuan_10006202"
+  },
+  "huayuan_10006202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军在，定能安然无恙",
+    "next": "huayuan_10005000_2"
+  },
+  "senlin_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "傍晚在森林中携席而坐，听着森林归途的声鸣，惬意人生",
+    "next": "senlin_10001002",
+    "bg": "senlin"
+  },
+  "senlin_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "正有此意，少将军我们出发吧",
+    "next": "senlin_10001003"
+  },
+  "senlin_10001003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我们走哪条路呢？",
+    "next": "senlin_10001004"
+  },
+  "senlin_10001004": {
+    "cmd": "choice",
+    "choice1": "平坦大路",
+    "choice1_next": "senlin_10001101",
+    "choice2": "山涧小路",
+    "choice2_next": "senlin_10001201"
+  },
+  "senlin_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军前面似乎有动静，这可怎么好",
+    "next": "senlin_10001102"
+  },
+  "senlin_10001102": {
+    "cmd": "choice",
+    "choice1": "绕道而行",
+    "choice1_next": "senlin_10001111",
+    "choice2": "前去看看",
+    "choice2_next": "senlin_10001121"
+  },
+  "senlin_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "刚才真惊险，似乎看到黄巾军的身影",
+    "next": "senlin_10001112"
+  },
+  "senlin_10001112": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "还好少将军机敏过人",
+    "next": "senlin_10001113"
+  },
+  "senlin_10001113": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "我远望过去就觉得有问题，绕道而行只是不想让他们扰了雅兴",
+    "next": "senlin_10001114"
+  },
+  "senlin_10001114": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "等回去一定集结兵力将他们剿灭",
+    "next": "senlin_10001115"
+  },
+  "senlin_10001115": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然非凡，相信定能将其剿灭",
+    "next": "senlin_10001000_1"
+  },
+  "senlin_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不好少将军，是黄巾军余党，看着人数还不少",
+    "next": "senlin_10001122"
+  },
+  "senlin_10001122": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "有我在，姑娘放心，此等小贼无惧",
+    "next": "senlin_10001123"
+  },
+  "senlin_10001123": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那少将军小心",
+    "next": "senlin_10001124"
+  },
+  "senlin_10001124": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然武艺非凡，三五下就把他们制服",
+    "next": "senlin_10001125"
+  },
+  "senlin_10001125": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那这些贼人该怎么办呢",
+    "next": "senlin_10001126"
+  },
+  "senlin_10001126": {
+    "cmd": "choice",
+    "choice1": "就地正法",
+    "choice1_next": "senlin_10001131",
+    "choice2": "押送回城",
+    "choice2_next": "senlin_10001141"
+  },
+  "senlin_10001131": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "可怜了他们，出身也是穷苦人家的孩子",
+    "next": "senlin_10001132"
+  },
+  "senlin_10001132": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这乱世无情啊",
+    "next": "senlin_10001133"
+  },
+  "senlin_10001133": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "乱世不是他们作乱的借口，被他们压迫人定然不在少数",
+    "next": "senlin_10001134"
+  },
+  "senlin_10001134": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那些被他们杀害的人可以安息了",
+    "next": "senlin_10001135"
+  },
+  "senlin_10001135": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军所言甚是，有少将军现在的城池才能安宁",
+    "next": "senlin_10001136"
+  },
+  "senlin_10001136": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军今日经历此事，我们返程再次再约吧",
+    "next": "senlin_10001000_2"
+  },
+  "senlin_10001141": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "他们应该要受到应有的惩罚",
+    "next": "senlin_10001142"
+  },
+  "senlin_10001142": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "可生逢乱世，希望少将军也给他们一次机会",
+    "next": "senlin_10001143"
+  },
+  "senlin_10001143": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "虽是乱世可也不能目无法纪，也不能为非作乱",
+    "next": "senlin_10001144"
+  },
+  "senlin_10001144": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "对于没有做过十恶不赦的人给予机会，对于作恶多端的人定会严惩不贷",
+    "next": "senlin_10001145"
+  },
+  "senlin_10001145": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军赏罚分明人尽皆知",
+    "next": "senlin_10001146"
+  },
+  "senlin_10001146": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "已经耽误不少时间了，我们尽快出发吧，应该还来得及",
+    "next": "senlin_10001000_3"
+  },
+  "senlin_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到，这山涧小路风景如此美好",
+    "next": "senlin_10001202"
+  },
+  "senlin_10001202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "前面就是了",
+    "next": "senlin_10001203"
+  },
+  "senlin_10001203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军已经安排人将此处部署好了",
+    "next": "senlin_10001204"
+  },
+  "senlin_10001204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此景美如画，正如将军所言惬意",
+    "next": "senlin_10001205"
+  },
+  "senlin_10001205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军对目前的局势有所看法",
+    "next": "senlin_10001206"
+  },
+  "senlin_10001206": {
+    "cmd": "choice",
+    "choice1": "明哲保身",
+    "choice1_next": "senlin_10001211",
+    "choice2": "分析大势",
+    "choice2_next": "senlin_10001221"
+  },
+  "senlin_10001211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军分析极是，先稳固这一方天地之后再做打算",
+    "next": "senlin_10001212"
+  },
+  "senlin_10001212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "希望少将军早日实现心中霸业",
+    "next": "senlin_10001000_4"
+  },
+  "senlin_10001221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到少将军早有打算，是小女子多虑了",
+    "next": "senlin_10001222"
+  },
+  "senlin_10001222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "相信很快少将军就能够完成心中宏图霸业",
+    "next": "senlin_10001000_5"
+  },
+  "senlin_10001000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att1_4"
+  },
+  "senlin_10001000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "senlin_10001000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "senlin_10001000_4": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_4"
+  },
+  "senlin_10001000_5": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att5_4"
+  },
+  "senlin_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "森林探险队，就差你一人啦",
+    "next": "senlin_10002002",
+    "bg": "senlin"
+  },
+  "senlin_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "又有什么好玩的地方吗？这次是去哪儿",
+    "next": "senlin_10002003"
+  },
+  "senlin_10002003": {
+    "cmd": "choice",
+    "choice1": "山中探险",
+    "choice1_next": "senlin_10002101",
+    "choice2": "山中狩猎",
+    "choice2_next": "senlin_10002201"
+  },
+  "senlin_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "探险一定很好玩",
+    "next": "senlin_10002000_1"
+  },
+  "senlin_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那现在就出发吧",
+    "next": "senlin_10002000_2"
+  },
+  "senlin_10002000_1": {
+    "cmd": "end",
+    "text": "经过一天的探险，beaut对你好感度大幅增加",
+    "result": "att2_3"
+  },
+  "senlin_10002000_2": {
+    "cmd": "end",
+    "text": "经过一天的狩猎，beaut对你好感度大幅增加",
+    "result": "att2_3"
+  },
+  "senlin_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨后森林里长满蘑菇，采集的乐趣一起去了解下？",
+    "next": "senlin_10003002",
+    "bg": "senlin"
+  },
+  "senlin_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉不感兴趣",
+    "next": "senlin_10003000_1"
+  },
+  "senlin_10003000_1": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "senlin_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "森林中野兽横行，正是锻炼的好时机，狩猎可强身健体，一起吗",
+    "next": "senlin_10004002",
+    "bg": "senlin"
+  },
+  "senlin_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军，心绪不佳，怕打扰少将军心情，下次再约吧",
+    "next": "senlin_10004003"
+  },
+  "senlin_10004003": {
+    "cmd": "choice",
+    "choice1": "询问原因",
+    "choice1_next": "senlin_10004101",
+    "choice2": "下次再约",
+    "choice2_next": "senlin_10004201"
+  },
+  "senlin_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "心爱的宠物去世了，抱歉少将军，下次再约吧",
+    "next": "senlin_10004102"
+  },
+  "senlin_10004102": {
+    "cmd": "choice",
+    "choice1": "言语安慰",
+    "choice1_next": "senlin_10004111",
+    "choice2": "寻找宠物",
+    "choice2_next": "senlin_10004121"
+  },
+  "senlin_10004111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的安慰，但还是不想出门",
+    "next": "senlin_10002000_1"
+  },
+  "senlin_10004121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军寻得的宠物，可那毕竟不一样，抱歉少将军今日不想出门",
+    "next": "senlin_10002000_2"
+  },
+  "senlin_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "下次定能与少将军同行",
+    "next": "senlin_10002000_3"
+  },
+  "senlin_10004000_1": {
+    "cmd": "end",
+    "text": "虽然没有约成，由于你的言语安慰，beaut对你好感度大幅增加",
+    "result": "att3_3"
+  },
+  "senlin_10004000_2": {
+    "cmd": "end",
+    "text": "你的举动让beaut感动，beaut对你好感度大幅增加",
+    "result": "att1_3"
+  },
+  "senlin_10004000_3": {
+    "cmd": "end",
+    "text": "听到你的邀约，beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "senlin_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "森林中有许多可爱的小动物，喜欢的话我们去抓一些回来养着",
+    "next": "senlin_10005002",
+    "bg": "senlin"
+  },
+  "senlin_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "小动物是很可爱，可把他们抓回来是不是不太好",
+    "next": "senlin_10005003"
+  },
+  "senlin_10005003": {
+    "cmd": "choice",
+    "choice1": "辩解一番",
+    "choice1_next": "senlin_10005101",
+    "choice2": "说服同行",
+    "choice2_next": "senlin_10005201"
+  },
+  "senlin_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军所言有理，那现在出发吧",
+    "next": "senlin_10005000_1"
+  },
+  "senlin_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "小动物那么可爱，不能被圈养起来",
+    "next": "senlin_10005202"
+  },
+  "senlin_10005202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "他们应该自由，少将军还是请回吧",
+    "next": "senlin_10005000_2"
+  },
+  "senlin_10005000_1": {
+    "cmd": "end",
+    "text": "在森林里玩了一天，beaut对你好感度大幅增加",
+    "result": "att5_2"
+  },
+  "senlin_10005000_2": {
+    "cmd": "end",
+    "text": "beaut对你好感度增加",
+    "result": "att5_1"
+  },
+  "senlin_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨后森林弥漫着一股诡异的气息，有胆量一起去探险吗",
+    "next": "senlin_10006002",
+    "bg": "senlin"
+  },
+  "senlin_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "抱歉少将军不敢",
+    "next": "senlin_10006003"
+  },
+  "senlin_10006003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘有我在，不用怕",
+    "next": "senlin_10006004"
+  },
+  "senlin_10006004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那好，少将军能保证安全呢？",
+    "next": "senlin_10006005"
+  },
+  "senlin_10006005": {
+    "cmd": "choice",
+    "choice1": "展示实力",
+    "choice1_next": "senlin_10006101",
+    "choice2": "说明行程",
+    "choice2_next": "senlin_10006201"
+  },
+  "senlin_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然武艺高强，此行无忧"
+  },
+  "senlin_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "还是相信少将军一回"
+  },
+  "senlin_10006000_1": {
+    "cmd": "end",
+    "text": "你在森林里中探险多次保护beaut，beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "senlin_10006000_2": {
+    "cmd": "end",
+    "text": "beaut对你行程安排深感满意，beaut对你好感度大幅增加",
+    "result": "att2_4"
   }
 }
