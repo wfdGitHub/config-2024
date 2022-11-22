@@ -3503,5 +3503,620 @@
     "cmd": "end",
     "text": "beaut对你行程安排深感满意，beaut对你好感度大幅增加",
     "result": "att2_4"
+  },
+  "shuyuan_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今夜书院有诗词大会，诚邀同行",
+    "next": "shuyuan_10001002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军对诗词歌赋这方面也有涉及吗？",
+    "next": "shuyuan_10001003"
+  },
+  "shuyuan_10001003": {
+    "cmd": "choice",
+    "choice1": "略知一二",
+    "choice1_next": "shuyuan_10001101",
+    "choice2": "博览群书",
+    "choice2_next": "shuyuan_10001201"
+  },
+  "shuyuan_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此情此景少将军可否作诗一首",
+    "next": "shuyuan_10001102"
+  },
+  "shuyuan_10001102": {
+    "cmd": "choice",
+    "choice1": "即兴创作",
+    "choice1_next": "shuyuan_10001111",
+    "choice2": "精心创作",
+    "choice2_next": "shuyuan_10001121"
+  },
+  "shuyuan_10001111": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军文采了得，即兴创作的作品都媲美大家之作",
+    "next": "shuyuan_10001112"
+  },
+  "shuyuan_10001112": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日与少将军相约，收获良多",
+    "next": "shuyuan_10001000_1"
+  },
+  "shuyuan_10001121": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军做的诗词工整，文学底蕴浓厚",
+    "next": "shuyuan_10001122"
+  },
+  "shuyuan_10001122": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然是传闻中的文武双全",
+    "next": "shuyuan_10001000_2"
+  },
+  "shuyuan_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "既然少将军博览群书，那对于天下局势有何看法",
+    "next": "shuyuan_10001202"
+  },
+  "shuyuan_10001202": {
+    "cmd": "choice",
+    "choice1": "分析局势",
+    "choice1_next": "shuyuan_10001211",
+    "choice2": "指出问题",
+    "choice2_next": "shuyuan_10001221"
+  },
+  "shuyuan_10001211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军对天下大势了如指掌，相信定有一番霸业所图",
+    "next": "shuyuan_10001212"
+  },
+  "shuyuan_10001212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "祝愿少将军完成心中霸业，一统天下",
+    "next": "shuyuan_10001000_3"
+  },
+  "shuyuan_10001221": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军看待问题如此犀利",
+    "next": "shuyuan_10001222"
+  },
+  "shuyuan_10001222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "正如少将军指出的问题，不过这里面也藏着机遇",
+    "next": "shuyuan_10001223"
+  },
+  "shuyuan_10001223": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "若少将军使用得当，一统天下并非难事",
+    "next": "shuyuan_10001000_4"
+  },
+  "shuyuan_10001000_1": {
+    "cmd": "end",
+    "text": "你的即兴创作打动了beaut，beaut对你好感度大幅增加",
+    "result": "att3_4"
+  },
+  "shuyuan_10001000_2": {
+    "cmd": "end",
+    "text": "你才识打动了beaut，beaut对你好感度大幅增加",
+    "result": "att5_4"
+  },
+  "shuyuan_10001000_3": {
+    "cmd": "end",
+    "text": "你分析局势的样子打动了beaut，beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "shuyuan_10001000_4": {
+    "cmd": "end",
+    "text": "你以犀利的言语指出天下问题之关键打动了beaut，beaut对你好感度大幅增加",
+    "result": "att4_5"
+  },
+  "shuyuan_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "雨后书院内景色颇美，希望同游",
+    "next": "shuyuan_10002002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "正有此意，少将军我们出发吧",
+    "next": "shuyuan_10002003"
+  },
+  "shuyuan_10002003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军觉得，女人读书是为何？",
+    "next": "shuyuan_10002004"
+  },
+  "shuyuan_10002004": {
+    "cmd": "choice",
+    "choice1": "相夫教子",
+    "choice1_next": "shuyuan_10002101",
+    "choice2": "无需理由",
+    "choice2_next": "shuyuan_10002201"
+  },
+  "shuyuan_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不是都说女子无才便是德吗？",
+    "next": "shuyuan_10002102"
+  },
+  "shuyuan_10002102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那都是妖言惑众，天下哪个人不是由母亲教养出来的？",
+    "next": "shuyuan_10002103"
+  },
+  "shuyuan_10002103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军言之有理，没想到少将军文武双全外还如此善解人意",
+    "next": "shuyuan_10002000_1"
+  },
+  "shuyuan_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军何出此言？",
+    "next": "shuyuan_10002202"
+  },
+  "shuyuan_10002202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "读书哪需要理由，喜爱便读即可",
+    "next": "shuyuan_10002203"
+  },
+  "shuyuan_10002203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "读书又不是作奸犯科之事，为何要区分三六九等？",
+    "next": "shuyuan_10002204"
+  },
+  "shuyuan_10002204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日听少将军一席话，顿然开朗",
+    "next": "shuyuan_10002205"
+  },
+  "shuyuan_10002205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能与少将军同游真是三生有幸",
+    "next": "shuyuan_10002206"
+  },
+  "shuyuan_10002206": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "希望下次还能与少将军同游畅谈",
+    "next": "shuyuan_10002000_2"
+  },
+  "shuyuan_10002000_1": {
+    "cmd": "end",
+    "text": "你的言论深深的打动了beaut，beaut对你好感度大幅增加",
+    "result": "att5_5"
+  },
+  "shuyuan_10002000_2": {
+    "cmd": "end",
+    "text": "听了你的言论beaut深受启发，beaut对你好感度大幅增加",
+    "result": "att3_5"
+  },
+  "shuyuan_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日书院有朗诵大赛，一起报名吗",
+    "next": "shuyuan_10003002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "朗诵这种少将军也感兴趣吗？",
+    "next": "shuyuan_10003003"
+  },
+  "shuyuan_10003003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "能与姑娘一起，幼稚一些又何妨？",
+    "next": "shuyuan_10003004"
+  },
+  "shuyuan_10003004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "既然少将军言尽于此，那就比赛一番如何",
+    "next": "shuyuan_10003005"
+  },
+  "shuyuan_10003005": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "虽知不是姑娘对手，也不愿坏了姑娘雅兴，那就请姑娘高抬贵手",
+    "next": "shuyuan_10003006"
+  },
+  "shuyuan_10003006": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军谦逊了，这城中谁人不知，少将军文武双全，才气了得",
+    "next": "shuyuan_10003007"
+  },
+  "shuyuan_10003007": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军我们以何为赛",
+    "next": "shuyuan_10003008"
+  },
+  "shuyuan_10003008": {
+    "cmd": "choice",
+    "choice1": "朗诵诗词",
+    "choice1_next": "shuyuan_10003101",
+    "choice2": "吟唱音律",
+    "choice2_next": "shuyuan_10003201"
+  },
+  "shuyuan_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军朗诵的诗词是自身所作吧",
+    "next": "shuyuan_10003102"
+  },
+  "shuyuan_10003102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "是前几年所作",
+    "next": "shuyuan_10003103"
+  },
+  "shuyuan_10003103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此诗词中隐约能感受到少将军的雄心壮志",
+    "next": "shuyuan_10003104"
+  },
+  "shuyuan_10003104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此局是少将军胜出了",
+    "next": "shuyuan_10003000_1"
+  },
+  "shuyuan_10003201": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘的声音犹如天籁",
+    "next": "shuyuan_10003202"
+  },
+  "shuyuan_10003202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军在音韵上也有如此高超的造诣",
+    "next": "shuyuan_10003203"
+  },
+  "shuyuan_10003203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "却不及姑娘万分之一",
+    "next": "shuyuan_10003204"
+  },
+  "shuyuan_10003204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军过谦了，刚才那一曲定能享誉天下",
+    "next": "shuyuan_10003000_2"
+  },
+  "shuyuan_10003000_1": {
+    "cmd": "end",
+    "text": "beaut将你今日所作的词句记录下来，beaut对你好感度大幅增加",
+    "result": "att4_5"
+  },
+  "shuyuan_10003000_2": {
+    "cmd": "end",
+    "text": "beaut与你畅谈一天感受颇深，beaut对你好感度大幅增加",
+    "result": "att3_5"
+  },
+  "shuyuan_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "学院中藏着许多秘密，半夜一起偷偷潜入查看吗？",
+    "next": "shuyuan_10004002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军这样不好吧",
+    "next": "shuyuan_10004003"
+  },
+  "shuyuan_10004003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "已经查过安全，而且我们只是查看不偷抢，不怕",
+    "next": "shuyuan_10004004"
+  },
+  "shuyuan_10004004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就依少将军所言，现在出发吧",
+    "next": "shuyuan_10004005"
+  },
+  "shuyuan_10004005": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军此处路口这么多，我们该如何进去",
+    "next": "shuyuan_10004006"
+  },
+  "shuyuan_10004006": {
+    "cmd": "choice",
+    "choice1": "翻墙进去",
+    "choice1_next": "shuyuan_10004101",
+    "choice2": "趁乱闯入",
+    "choice2_next": "shuyuan_10004201"
+  },
+  "shuyuan_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军好身手，若不是有少将军，这可翻不过来",
+    "next": "shuyuan_10004102"
+  },
+  "shuyuan_10004102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "让姑娘受苦了",
+    "next": "shuyuan_10004103"
+  },
+  "shuyuan_10004103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有一次这样的体验也是趣事，感谢少将军邀约才能体验不一样的趣事",
+    "next": "shuyuan_10004000_1"
+  },
+  "shuyuan_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "糟糕好像被发现了",
+    "next": "shuyuan_10004202"
+  },
+  "shuyuan_10004202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘勿担心，我去摆平",
+    "next": "shuyuan_10004203"
+  },
+  "shuyuan_10004203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "可以了，现在可以大摇大摆的进去",
+    "next": "shuyuan_10004204"
+  },
+  "shuyuan_10004204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军相约，今日体验甚是有趣",
+    "next": "shuyuan_10004000_2"
+  },
+  "shuyuan_10004000_1": {
+    "cmd": "end",
+    "text": "beaut将你今日所作的词句记录下来，beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "shuyuan_10004000_2": {
+    "cmd": "end",
+    "text": "beaut与你畅谈一天感受颇深，beaut对你好感度大幅增加",
+    "result": "att4_5"
+  },
+  "shuyuan_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "书声、蝉鸣声、礼乐声，演奏出独特的合鸣，只有在书院才能体会",
+    "next": "shuyuan_10005002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没想到少将军也喜欢宁静惬意的环境",
+    "next": "shuyuan_10005003"
+  },
+  "shuyuan_10005003": {
+    "cmd": "choice",
+    "choice1": "忙里偷闲",
+    "choice1_next": "shuyuan_10005101",
+    "choice2": "闲情逸致",
+    "choice2_next": "shuyuan_10005201"
+  },
+  "shuyuan_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军可要照顾好自身，我们城的安宁可需要仰仗您",
+    "next": "shuyuan_10005000_1"
+  },
+  "shuyuan_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "能听到如此雅致的合鸣，全都是少将军为我们争取而来",
+    "next": "shuyuan_10005202"
+  },
+  "shuyuan_10005202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "在这乱世中，如此声音显得更加珍贵，感谢少将军为城池的付出",
+    "next": "shuyuan_10005000_2"
+  },
+  "shuyuan_10005000_1": {
+    "cmd": "end",
+    "text": "经过一天的体验，beaut对你好感度大幅增加",
+    "result": "att1_5"
+  },
+  "shuyuan_10005000_2": {
+    "cmd": "end",
+    "text": "听着合鸣声，beaut对你好感度大幅增加",
+    "result": "att5_5"
+  },
+  "shuyuan_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "温故而知新，一起去学习吧",
+    "next": "shuyuan_10006002",
+    "bg": "shuyuan"
+  },
+  "shuyuan_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军邀约，我们这就出发吧",
+    "next": "shuyuan_10006003"
+  },
+  "shuyuan_10006003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军，平常喜爱读什么书",
+    "next": "shuyuan_10006004"
+  },
+  "shuyuan_10006004": {
+    "cmd": "choice",
+    "choice1": "谋略兵法",
+    "choice1_next": "shuyuan_10006101",
+    "choice2": "人物传记",
+    "choice2_next": "shuyuan_10006201"
+  },
+  "shuyuan_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军文武双全谋略过人，应该下不少苦功夫吧",
+    "next": "shuyuan_10006102"
+  },
+  "shuyuan_10006102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "跟天下百姓比，这点苦又算什么",
+    "next": "shuyuan_10006103"
+  },
+  "shuyuan_10006103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "可惜这天下战乱纷争，苦了百姓",
+    "next": "shuyuan_10006104"
+  },
+  "shuyuan_10006104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "相信不久就能一统天下，解救黎民百姓于水火",
+    "next": "shuyuan_10006000_1"
+  },
+  "shuyuan_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "还以为少将军会喜爱兵法谋略这类书籍",
+    "next": "shuyuan_10006202"
+  },
+  "shuyuan_10006202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "此类书籍也看，不过人物传记多一些",
+    "next": "shuyuan_10006203"
+  },
+  "shuyuan_10006203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "人物传记中可以学习到一些古人的做事手段",
+    "next": "shuyuan_10006204"
+  },
+  "shuyuan_10006204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "以历为鉴，方可一统天下",
+    "next": "shuyuan_10006205"
+  },
+  "shuyuan_10006205": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军要加油，解救天下百姓就靠你了",
+    "next": "shuyuan_10006000_2"
+  },
+  "shuyuan_10006000_1": {
+    "cmd": "end",
+    "text": "一同研读一天的书籍，beaut对你好感度大幅增加",
+    "result": "att4_5"
+  },
+  "shuyuan_10006000_2": {
+    "cmd": "end",
+    "text": "经过与你相处，beaut对你好感度大幅增加",
+    "result": "att5_4"
   }
 }
