@@ -4118,5 +4118,1220 @@
     "cmd": "end",
     "text": "经过与你相处，beaut对你好感度大幅增加",
     "result": "att5_4"
+  },
+  "wuchang_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "有人在武场摆了擂台赛，一共去凑热闹吗？",
+    "next": "wuchang_10001002",
+    "bg": "wuchang"
+  },
+  "wuchang_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军女子出现在这些场合不好吧",
+    "next": "wuchang_10001003"
+  },
+  "wuchang_10001003": {
+    "cmd": "choice",
+    "choice1": "无妨无妨",
+    "choice1_next": "wuchang_10001101",
+    "choice2": "为何忧虑",
+    "choice2_next": "wuchang_10001201"
+  },
+  "wuchang_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那也是，有少将军在，定能安然无恙",
+    "next": "wuchang_10001000_1"
+  },
+  "wuchang_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "武场均是男性，会引人闲言乱语",
+    "next": "wuchang_10001202"
+  },
+  "wuchang_10001202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "怕给少将军带来困扰",
+    "next": "wuchang_10001203"
+  },
+  "wuchang_10001203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "无妨无妨，姑娘是受过教育的人，思想要开发些才行",
+    "next": "wuchang_10001204"
+  },
+  "wuchang_10001204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军教训的是，那我们现在出发吧",
+    "next": "wuchang_10001000_2"
+  },
+  "wuchang_10001000_1": {
+    "cmd": "end",
+    "text": "一同看了几场比赛，beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "wuchang_10001000_2": {
+    "cmd": "end",
+    "text": "经过与你相处，beaut对你好感度大幅增加",
+    "result": "att5_5"
+  },
+  "wuchang_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "武场中新进一批器械，有许多新奇的东西，去一看究竟",
+    "next": "wuchang_10002002",
+    "bg": "wuchang"
+  },
+  "wuchang_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军对器械也有研究吗？",
+    "next": "wuchang_10002003"
+  },
+  "wuchang_10002003": {
+    "cmd": "choice",
+    "choice1": "略知一二",
+    "choice1_next": "wuchang_10002101",
+    "choice2": "了如指掌",
+    "choice2_next": "wuchang_10002201"
+  },
+  "wuchang_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军了解器械的原理也会制作图纸，应该不止是略知一二这么简单",
+    "next": "wuchang_10002102"
+  },
+  "wuchang_10002102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "许多器械都是战时所用工具，了解也是当然",
+    "next": "wuchang_10002103"
+  },
+  "wuchang_10002103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "只是没想到姑娘对器械了解也如此深入",
+    "next": "wuchang_10002104"
+  },
+  "wuchang_10002104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没有少将军那般见识，只是研读过几本著作，闲时技痒组装一番",
+    "next": "wuchang_10002000_1"
+  },
+  "wuchang_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军涉猎真广，还有多少秘密是不知道的",
+    "next": "wuchang_10002202"
+  },
+  "wuchang_10002202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "许多器械都是战时所用工具，了解也是当然",
+    "next": "wuchang_10002203"
+  },
+  "wuchang_10002203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "只是没想到姑娘对器械了解也如此深入",
+    "next": "wuchang_10002204"
+  },
+  "wuchang_10002204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军此些器械，有些笨重，不知有想过如何优化吗？",
+    "next": "wuchang_10002205"
+  },
+  "wuchang_10002205": {
+    "cmd": "choice",
+    "choice1": "有何见解",
+    "choice1_next": "wuchang_10002211",
+    "choice2": "正在考虑",
+    "choice2_next": "wuchang_10002221"
+  },
+  "wuchang_10002211": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "像此种押运车，单轮难以掌握平衡，若是这样修改成双轮",
+    "next": "wuchang_10002212"
+  },
+  "wuchang_10002212": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不止是平衡性大大提高，还降低操作难度，而且速度也会相应提升",
+    "next": "wuchang_10002213"
+  },
+  "wuchang_10002213": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘这想法妙哉，要是加个车厢，再运用动物驱动",
+    "next": "wuchang_10002214"
+  },
+  "wuchang_10002214": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不止增加运送数量，还能降低运送人员",
+    "next": "wuchang_10002215"
+  },
+  "wuchang_10002215": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军指出的才是关键所在，今日能与少将军商讨是小女子的荣幸",
+    "next": "wuchang_10002216"
+  },
+  "wuchang_10002216": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "哪里，都是受姑娘的启发，不知姑娘能否当我军的器械顾问",
+    "next": "wuchang_10002217"
+  },
+  "wuchang_10002217": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "若少将军不嫌弃在下才粗识浅，乐意之极",
+    "next": "wuchang_10002000_2"
+  },
+  "wuchang_10002221": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这是新的图纸方案，不知姑娘有何高见",
+    "next": "wuchang_10002222"
+  },
+  "wuchang_10002222": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "新的图纸是出自少将军之手？",
+    "next": "wuchang_10002223"
+  },
+  "wuchang_10002223": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "是的，还是比较粗糙的手稿",
+    "next": "wuchang_10002224"
+  },
+  "wuchang_10002224": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "该图纸已经很完善了，若是轮子再大一些，这样移动会不会更为方便",
+    "next": "wuchang_10002225"
+  },
+  "wuchang_10002225": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "确实，之前就觉得哪里有问题，听过姑娘这么一说，恍然大悟",
+    "next": "wuchang_10002226"
+  },
+  "wuchang_10002226": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘器械上的才学了得，不知姑娘是否愿意当我军的器械顾问",
+    "next": "wuchang_10002227"
+  },
+  "wuchang_10002227": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "承蒙少将军抬爱，愿意为少将军分忧",
+    "next": "wuchang_10002000_3"
+  },
+  "wuchang_10002000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att1_5"
+  },
+  "wuchang_10002000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "wuchang_10002000_3": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_5"
+  },
+  "wuchang_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "比武喧天，不知今日谁能夺冠？",
+    "next": "wuchang_10003002",
+    "bg": "wuchang"
+  },
+  "wuchang_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军看好哪方？",
+    "next": "wuchang_10003003"
+  },
+  "wuchang_10003003": {
+    "cmd": "choice",
+    "choice1": "图个热闹",
+    "choice1_next": "wuchang_10003101",
+    "choice2": "看好蓝方",
+    "choice2_next": "wuchang_10003201"
+  },
+  "wuchang_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "也是，这种事情就是热闹快乐即可",
+    "next": "wuchang_10003102"
+  },
+  "wuchang_10003102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘看好哪方？",
+    "next": "wuchang_10003103"
+  },
+  "wuchang_10003103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "看好少将军看好的那方",
+    "next": "wuchang_10003000_1"
+  },
+  "wuchang_10003201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "蓝方看着弱小，应该缺乏力量吧",
+    "next": "wuchang_10003202"
+  },
+  "wuchang_10003202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这个时候看的是爆发力，有时候胜负只在一击之间",
+    "next": "wuchang_10003203"
+  },
+  "wuchang_10003203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "真被少将军言中了",
+    "next": "wuchang_10003000_2"
+  },
+  "wuchang_10003000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att5_5"
+  },
+  "wuchang_10003000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "wuchang_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日武场那边有活动，一起去看看吗？",
+    "next": "wuchang_10004002",
+    "bg": "wuchang"
+  },
+  "wuchang_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "一起同去吧",
+    "next": "wuchang_10004003"
+  },
+  "wuchang_10004003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军这么多项目，不知哪个最擅长",
+    "next": "wuchang_10004004"
+  },
+  "wuchang_10004004": {
+    "cmd": "choice",
+    "choice1": "全都擅长",
+    "choice1_next": "wuchang_10004101",
+    "choice2": "略知一二",
+    "choice2_next": "wuchang_10004201"
+  },
+  "wuchang_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军可否都演示一番",
+    "next": "wuchang_10004102"
+  },
+  "wuchang_10004102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "既然姑娘想看，那就看我表现吧",
+    "next": "wuchang_10004103"
+  },
+  "wuchang_10004103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军果然实力非凡",
+    "next": "wuchang_10003000_1"
+  },
+  "wuchang_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军过谦了，这城中谁然不知少将军实力非凡啊",
+    "next": "wuchang_10004202"
+  },
+  "wuchang_10004202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "想看少将军去玩这些项目",
+    "next": "wuchang_10004203"
+  },
+  "wuchang_10004203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "自己玩不好玩，姑娘能否一起体验一番",
+    "next": "wuchang_10004204"
+  },
+  "wuchang_10004204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军热情难却，那就一同去吧，可少将军定要带好我",
+    "next": "wuchang_10004205"
+  },
+  "wuchang_10004205": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘放心，有我在，定能保你无忧",
+    "next": "wuchang_10003000_2"
+  },
+  "wuchang_10004000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_5"
+  },
+  "wuchang_10004000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "wuchang_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "擂台已起，想要看我夺冠吗？",
+    "next": "wuchang_10005002",
+    "bg": "wuchang"
+  },
+  "wuchang_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日少将军有参赛，那定然要去捧场",
+    "next": "wuchang_10005003"
+  },
+  "wuchang_10005003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军今日为何参赛",
+    "next": "wuchang_10005004"
+  },
+  "wuchang_10005004": {
+    "cmd": "choice",
+    "choice1": "为了奖励",
+    "choice1_next": "wuchang_10005101",
+    "choice2": "锻炼身体",
+    "choice2_next": "wuchang_10005201"
+  },
+  "wuchang_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "是什么奖励如此吸引你呢？",
+    "next": "wuchang_10005102"
+  },
+  "wuchang_10005102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "是一个雕花玉坠，很适合姑娘你",
+    "next": "wuchang_10005103"
+  },
+  "wuchang_10005103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "承蒙少将军的抬爱，深受感动",
+    "next": "wuchang_10005104"
+  },
+  "wuchang_10005104": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "这个当成礼物很有意义",
+    "next": "wuchang_10005105"
+  },
+  "wuchang_10005105": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的眷顾，定会好好保护",
+    "next": "wuchang_10005000_1"
+  },
+  "wuchang_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军武艺超群定能夺冠",
+    "next": "wuchang_10005000_2"
+  },
+  "wuchang_10005000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "wuchang_10005000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_4"
+  },
+  "wuchang_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "来见证我的夺冠之旅",
+    "next": "wuchang_10006002",
+    "bg": "wuchang"
+  },
+  "wuchang_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的邀约，来见证少将军夺冠",
+    "next": "wuchang_10006003"
+  },
+  "wuchang_10006003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军夺冠之后我们去庆祝一番怎么样",
+    "next": "wuchang_10006004"
+  },
+  "wuchang_10006004": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘邀约又怎么能拒绝",
+    "next": "wuchang_10006005"
+  },
+  "wuchang_10006005": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军想去哪儿庆祝呢？",
+    "next": "wuchang_10006006"
+  },
+  "wuchang_10006006": {
+    "cmd": "choice",
+    "choice1": "江边小店",
+    "choice1_next": "wuchang_10006101",
+    "choice2": "豪华酒楼",
+    "choice2_next": "wuchang_10006201"
+  },
+  "wuchang_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那静待少将军夺冠，就一同前去，今日我做东",
+    "next": "wuchang_10006102"
+  },
+  "wuchang_10006102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那先感谢姑娘的款待，我去去就来",
+    "next": "wuchang_10006000_1"
+  },
+  "wuchang_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那就去最豪华的酒楼中等少将军夺冠归来",
+    "next": "wuchang_10006000_2"
+  },
+  "wuchang_10006000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_6"
+  },
+  "wuchang_10006000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "chaguan_10001001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "茶馆新开张一起去饮茶吗？",
+    "next": "chaguan_10001002",
+    "bg": "chaguan"
+  },
+  "chaguan_10001002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军稍等片刻，准备下就一同前往",
+    "next": "chaguan_10001003"
+  },
+  "chaguan_10001003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘今日装扮格外清雅",
+    "next": "chaguan_10001004"
+  },
+  "chaguan_10001004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我今日美吗？",
+    "next": "chaguan_10001005"
+  },
+  "chaguan_10001005": {
+    "cmd": "choice",
+    "choice1": "依然很美",
+    "choice1_next": "chaguan_10001101",
+    "choice2": "格外美丽",
+    "choice2_next": "chaguan_10001201"
+  },
+  "chaguan_10001101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这言下之意是之前不够美吗？",
+    "next": "chaguan_10001102"
+  },
+  "chaguan_10001102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不是这么说，可能是我嘴笨，应该是一直都很美",
+    "next": "chaguan_10001103"
+  },
+  "chaguan_10001103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "O(∩_∩)O哈哈~是跟少将军开个小玩笑",
+    "next": "chaguan_10001104"
+  },
+  "chaguan_10001104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "我们快去吧，不然没有好的位置",
+    "next": "chaguan_10005000_1"
+  },
+  "chaguan_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那与众多红颜中，哪个最美？",
+    "next": "chaguan_10001202"
+  },
+  "chaguan_10001202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "没有最美但是都各具特色，各有各的美",
+    "next": "chaguan_10001203"
+  },
+  "chaguan_10001203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "O(∩_∩)O哈哈~放过你把，我们快去不然没好位置",
+    "next": "chaguan_10005000_2"
+  },
+  "chaguan_10001000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "chaguan_10001000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att5_6"
+  },
+  "chaguan_10002001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "茶馆有新作果子，据说香甜软糯",
+    "next": "chaguan_10002002",
+    "bg": "chaguan"
+  },
+  "chaguan_10002002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军稍等片刻，准备下就一同前往",
+    "next": "chaguan_10002003"
+  },
+  "chaguan_10002003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘今日装扮格外美丽",
+    "next": "chaguan_10002004"
+  },
+  "chaguan_10002004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军今日又是为何去这家店呢？",
+    "next": "chaguan_10002005"
+  },
+  "chaguan_10002005": {
+    "cmd": "choice",
+    "choice1": "品尝新品",
+    "choice1_next": "chaguan_10002101",
+    "choice2": "寻找回忆",
+    "choice2_next": "chaguan_10002201"
+  },
+  "chaguan_10002101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这家茶馆的新果子我也听说了，早就想来品尝",
+    "next": "chaguan_10002102"
+  },
+  "chaguan_10002102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那就现在出发吧",
+    "next": "chaguan_10002000_1"
+  },
+  "chaguan_10002201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "这里还有少将军其他的回忆？",
+    "next": "chaguan_10002202"
+  },
+  "chaguan_10002202": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "此前就是在此窗边，偶然见到姑娘路过，记忆深刻",
+    "next": "chaguan_10002203"
+  },
+  "chaguan_10002203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "所以今日邀约姑娘就是想要多制造一些回忆",
+    "next": "chaguan_10002204"
+  },
+  "chaguan_10002204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军说笑了，能得少将军垂青，此乃三生有幸",
+    "next": "chaguan_10002000_2"
+  },
+  "chaguan_10002000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att4_6"
+  },
+  "chaguan_10002000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "chaguan_10003001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "不知姑娘喜欢听书否？茶馆来了一位说书先生，颇有趣",
+    "next": "chaguan_10003002",
+    "bg": "chaguan"
+  },
+  "chaguan_10003002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有趣之是都感兴趣，由少将军带路吧",
+    "next": "chaguan_10003003"
+  },
+  "chaguan_10003003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，此人说的事情，好像是少将军之事？",
+    "next": "chaguan_10003004"
+  },
+  "chaguan_10003004": {
+    "cmd": "choice",
+    "choice1": "尴尬应对",
+    "choice1_next": "chaguan_10003101",
+    "choice2": "大方承认",
+    "choice2_next": "chaguan_10003201"
+  },
+  "chaguan_10003101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军无需感到尴尬，少将军为我们城中百姓所做之事，有目共睹",
+    "next": "chaguan_10003102"
+  },
+  "chaguan_10003102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "无少将军的付出，哪有城中安居乐业之态",
+    "next": "chaguan_10003103"
+  },
+  "chaguan_10003103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "哪里，哪里，都需要全城人齐心协力，并非一个人的功劳",
+    "next": "chaguan_10003104"
+  },
+  "chaguan_10003104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "天下纷乱，战争四起，无少将军这般的守护，说不定早就被破了城",
+    "next": "chaguan_10003105"
+  },
+  "chaguan_10003105": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的付出",
+    "next": "chaguan_10003000_1"
+  },
+  "chaguan_10003201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军的故事，我也铭记于心",
+    "next": "chaguan_10003202"
+  },
+  "chaguan_10003202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此前少将军的守城之战中见过少将军的背影，深感钦佩",
+    "next": "chaguan_10003203"
+  },
+  "chaguan_10003203": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "今日能与少将军坐下来饮茶真是三生有幸",
+    "next": "chaguan_10003000_2"
+  },
+  "chaguan_10003000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_6"
+  },
+  "chaguan_10003000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
+  },
+  "chaguan_10004001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "闲来无事，一起去饮茶吗？",
+    "next": "chaguan_10004002",
+    "bg": "chaguan"
+  },
+  "chaguan_10004002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军稍等片刻，准备下就一同前往",
+    "next": "chaguan_10004003"
+  },
+  "chaguan_10004003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘今日格外美丽",
+    "next": "chaguan_10004004"
+  },
+  "chaguan_10004004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军谬赞了",
+    "next": "chaguan_10004005"
+  },
+  "chaguan_10004005": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军今日心情如何",
+    "next": "chaguan_10004006"
+  },
+  "chaguan_10004006": {
+    "cmd": "choice",
+    "choice1": "略感不安",
+    "choice1_next": "chaguan_10004101",
+    "choice2": "雨过天晴",
+    "choice2_next": "chaguan_10004201"
+  },
+  "chaguan_10004101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军是为前方战事吃紧的事情感到不安吧",
+    "next": "chaguan_10004102"
+  },
+  "chaguan_10004102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘料事如神",
+    "next": "chaguan_10004103"
+  },
+  "chaguan_10004103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军无需不安，少将军前阵子的筹划应该起了作用",
+    "next": "chaguan_10004104"
+  },
+  "chaguan_10004104": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "真是对姑娘刮目相看，不知姑娘可否愿意当谋士",
+    "next": "chaguan_10004105"
+  },
+  "chaguan_10004105": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "谋士不敢当，不过少将军需要的话愿意为少将军分忧",
+    "next": "chaguan_10004106"
+  },
+  "chaguan_10004106": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "此事无忧，说不定能坐手渔翁之利",
+    "next": "chaguan_10004107"
+  },
+  "chaguan_10004107": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那就相信姑娘，继续饮茶",
+    "next": "chaguan_10004000_1"
+  },
+  "chaguan_10004201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军所愁何事",
+    "next": "chaguan_10004202"
+  },
+  "chaguan_10004202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "不知少将军又因何事雨过天晴，可否愿意分享",
+    "next": "chaguan_10004203"
+  },
+  "chaguan_10004203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "之前有所不安是因为前方战事吃紧，担心会对我们方有影响",
+    "next": "chaguan_10004204"
+  },
+  "chaguan_10004204": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "不过今日看到姑娘，就觉得烟消云散",
+    "next": "chaguan_10004205"
+  },
+  "chaguan_10004205": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "尽人事听天命，尽享今日之欢乐",
+    "next": "chaguan_10004206"
+  },
+  "chaguan_10004206": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军心胸阔达，前方战事应该无忧",
+    "next": "chaguan_10004207"
+  },
+  "chaguan_10004207": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军应该思考的是如何坐收渔翁之利",
+    "next": "chaguan_10004208"
+  },
+  "chaguan_10004208": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "今日听姑娘所言，顿然开朗，不知姑娘可否当谋士",
+    "next": "chaguan_10004209"
+  },
+  "chaguan_10004209": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军有所需要，在死不辞",
+    "next": "chaguan_10004000_2"
+  },
+  "chaguan_10004000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att1_6"
+  },
+  "chaguan_10004000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att4_6"
+  },
+  "chaguan_10005001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "又开一家茶馆，据说是番邦的人所开，别具风味",
+    "next": "chaguan_10005002",
+    "bg": "chaguan"
+  },
+  "chaguan_10005002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军稍等片刻，准备下就一同前往",
+    "next": "chaguan_10005003"
+  },
+  "chaguan_10005003": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "姑娘今日这番打扮，怕是要成为茶馆的焦点",
+    "next": "chaguan_10005004"
+  },
+  "chaguan_10005004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "那少将军害怕成为焦点吗？",
+    "next": "chaguan_10005005"
+  },
+  "chaguan_10005005": {
+    "cmd": "choice",
+    "choice1": "当然不怕",
+    "choice1_next": "chaguan_10005101",
+    "choice2": "求之不得",
+    "choice2_next": "chaguan_10005201"
+  },
+  "chaguan_10005101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军什么大风大浪没有见过，肯定是不会胆怯的啦",
+    "next": "chaguan_10005102"
+  },
+  "chaguan_10005102": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，我们就出发吧，今天就靠少将军守护了",
+    "next": "chaguan_10005103"
+  },
+  "chaguan_10005103": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "那我今天就当护花使者吧",
+    "next": "chaguan_10005104"
+  },
+  "chaguan_10005104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的抬爱，能与少将军同行三生有幸",
+    "next": "chaguan_10005000_1"
+  },
+  "chaguan_10005201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "有少将军在，定能无忧",
+    "next": "chaguan_10005000_2"
+  },
+  "chaguan_10005000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att5_6"
+  },
+  "chaguan_10005000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att2_6"
+  },
+  "chaguan_10006001": {
+    "cmd": "begin",
+    "characterId": "self",
+    "name": "self",
+    "text": "你喜欢吃的点心又有货啦",
+    "next": "chaguan_10006002",
+    "bg": "chaguan"
+  },
+  "chaguan_10006002": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军真是善解人意，都已经知我所想",
+    "next": "chaguan_10006003"
+  },
+  "chaguan_10006003": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军稍等片刻，准备下就一同前往",
+    "next": "chaguan_10006004"
+  },
+  "chaguan_10006004": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军你看这身装扮如何？",
+    "next": "chaguan_10006005"
+  },
+  "chaguan_10006005": {
+    "cmd": "choice",
+    "choice1": "精心点评",
+    "choice1_next": "chaguan_10006101",
+    "choice2": "用心赞美",
+    "choice2_next": "chaguan_10006201"
+  },
+  "chaguan_10006101": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，所言甚是，下次定能让少将军满意",
+    "next": "chaguan_10006102"
+  },
+  "chaguan_10006102": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "我是不是又惹姑娘生气了？",
+    "next": "chaguan_10006103"
+  },
+  "chaguan_10006103": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "没有，没有，只是没想到少将军对穿着也有深入研究",
+    "next": "chaguan_10006104"
+  },
+  "chaguan_10006104": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，饮茶，饮茶",
+    "next": "chaguan_10006000_1"
+  },
+  "chaguan_10006201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "哪有少将军说的那么好，只是随心搭配而已",
+    "next": "chaguan_10006202"
+  },
+  "chaguan_10006202": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，下次提前约，会准备的更好",
+    "next": "chaguan_10006203"
+  },
+  "chaguan_10006203": {
+    "cmd": "text",
+    "characterId": "self",
+    "name": "self",
+    "text": "随心配就如此美丽，那精心打扮那还得了",
+    "next": "chaguan_10006204"
+  },
+  "chaguan_10006204": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "少将军，饮茶，饮茶",
+    "next": "chaguan_10006000_2"
+  },
+  "chaguan_10006000_1": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att1_6"
+  },
+  "chaguan_10006000_2": {
+    "cmd": "end",
+    "text": "经过一天的相处，beaut对你好感度大幅增加",
+    "result": "att3_6"
   }
 }
