@@ -8307,31 +8307,31 @@
     "award": "1000080:20&1000120:4"
   },
   "302207": {
+    "title": "高级捕捉250次",
+    "refresh": "week_target",
+    "type": "recruit_great",
+    "value": 250,
+    "award": "1000080:30&1000120:5"
+  },
+  "302208": {
     "title": "高级捕捉300次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 300,
-    "award": "1000080:30&1000120:5"
+    "award": "1000080:40&1000130:1"
   },
-  "302208": {
+  "302209": {
     "title": "高级捕捉400次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 400,
-    "award": "1000080:40&1000130:1"
+    "award": "1000080:50&1000130:2"
   },
-  "302209": {
+  "302210": {
     "title": "高级捕捉500次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 500,
-    "award": "1000080:50&1000130:2"
-  },
-  "302210": {
-    "title": "高级捕捉1000次",
-    "refresh": "week_target",
-    "type": "recruit_great",
-    "value": 1000,
     "award": "1000080:100&1000130:5"
   },
   "303101": {
@@ -8405,74 +8405,94 @@
     "award": "1000080:100&1000120:10"
   },
   "303201": {
-    "title": "招财5次",
+    "title": "任意秘宝强化等级到达5级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 5,
-    "award": "1000040:3&1000100:1"
+    "type": "artifactLv",
+    "arg": 5,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:1&1000080:5"
   },
   "303202": {
-    "title": "招财10次",
+    "title": "任意秘宝强化等级到达10级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 10,
-    "award": "1000040:6&1000100:2"
+    "type": "artifactLv",
+    "arg": 10,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:2&1000080:10"
   },
   "303203": {
-    "title": "招财15次",
+    "title": "任意秘宝强化等级到达15级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 15,
-    "award": "1000040:9&1000100:3"
+    "type": "artifactLv",
+    "arg": 15,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:3&1000080:15"
   },
   "303204": {
-    "title": "招财20次",
+    "title": "任意秘宝强化等级到达20级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 20,
-    "award": "1000040:12&1000100:4"
+    "type": "artifactLv",
+    "arg": 20,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:4&1000080:20"
   },
   "303205": {
-    "title": "招财25次",
+    "title": "任意秘宝强化等级到达25级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 25,
-    "award": "1000040:15&1000100:5"
+    "type": "artifactLv",
+    "arg": 25,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:5&1000080:25"
   },
   "303206": {
-    "title": "招财30次",
+    "title": "任意秘宝强化等级到达30级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 30,
-    "award": "1000040:20&1000100:6"
+    "type": "artifactLv",
+    "arg": 30,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:6&1000080:30"
   },
   "303207": {
-    "title": "招财35次",
+    "title": "任意秘宝强化等级到达35级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 35,
-    "award": "1000040:30&1000100:7"
+    "type": "artifactLv",
+    "arg": 35,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:7&1000080:35"
   },
   "303208": {
-    "title": "招财40次",
+    "title": "任意秘宝强化等级到达40级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 40,
-    "award": "1000040:40&1000100:8"
+    "type": "artifactLv",
+    "arg": 40,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:8&1000080:40"
   },
   "303209": {
-    "title": "招财45次",
+    "title": "任意秘宝强化等级到达45级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 45,
-    "award": "1000040:50&1000100:9"
+    "type": "artifactLv",
+    "arg": 45,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:9&1000080:45"
   },
   "303210": {
-    "title": "招财50次",
+    "title": "任意秘宝强化等级到达50级",
     "refresh": "week_target",
-    "type": "revenue",
-    "value": 50,
-    "award": "1000040:100&1000100:10"
+    "type": "artifactLv",
+    "arg": 50,
+    "value": 1,
+    "inherit": true,
+    "award": "1000150:10&1000080:50"
   },
   "304101": {
     "title": "在华蓝洞窟中击败2个敌人",
@@ -8625,144 +8645,144 @@
     "award": "1000504:5&1000080:10"
   },
   "305101": {
-    "title": "宝可梦联赛中战胜对手1次",
+    "title": "战斗力到达30万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 1,
-    "award": "905000:1&505000:1"
+    "type": "totalCe",
+    "value": 1000000,
+    "award": "1000080:3&1000120:1"
   },
   "305102": {
-    "title": "宝可梦联赛中战胜对手2次",
+    "title": "战斗力到达50万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 2,
-    "award": "905000:2&505000:2"
+    "type": "totalCe",
+    "value": 200000,
+    "award": "1000080:5&1000120:2"
   },
   "305103": {
-    "title": "宝可梦联赛中战胜对手3次",
+    "title": "战斗力到达80万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 3,
-    "award": "905000:3&505000:3"
+    "type": "totalCe",
+    "value": 800000,
+    "award": "1000080:8&1000120:3"
   },
   "305104": {
-    "title": "宝可梦联赛中战胜对手4次",
+    "title": "战斗力到达120万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 4,
-    "award": "905000:4&505000:4"
+    "type": "totalCe",
+    "value": 1200000,
+    "award": "1000080:12&1000120:4"
   },
   "305105": {
-    "title": "宝可梦联赛中战胜对手5次",
+    "title": "战斗力到达150万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 5,
-    "award": "905000:5&505000:5"
+    "type": "totalCe",
+    "value": 1500000,
+    "award": "1000080:15&1000120:5"
   },
   "305106": {
-    "title": "宝可梦联赛中战胜对手6次",
+    "title": "战斗力到达200万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 6,
-    "award": "905000:6&505000:6"
+    "type": "totalCe",
+    "value": 2000000,
+    "award": "1000080:20&1000120:6"
   },
   "305107": {
-    "title": "宝可梦联赛中战胜对手7次",
+    "title": "战斗力到达300万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 7,
-    "award": "905000:7&505000:7"
+    "type": "totalCe",
+    "value": 3000000,
+    "award": "1000080:30&1000120:7"
   },
   "305108": {
-    "title": "宝可梦联赛中战胜对手8次",
+    "title": "战斗力到达400万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 8,
-    "award": "905000:8&505000:8"
+    "type": "totalCe",
+    "value": 4000000,
+    "award": "1000080:40&1000120:8"
   },
   "305109": {
-    "title": "宝可梦联赛中战胜对手9次",
+    "title": "战斗力到达500万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 9,
-    "award": "905000:9&505000:9"
+    "type": "totalCe",
+    "value": 5000000,
+    "award": "1000080:50&1000120:9"
   },
   "305110": {
-    "title": "宝可梦联赛中战胜对手10次",
+    "title": "战斗力到达1000万",
     "refresh": "week_target",
-    "type": "ancient_win",
-    "value": 10,
-    "award": "905000:10&505000:10"
+    "type": "totalCe",
+    "value": 10000000,
+    "award": "1000080:100&1000120:10"
   },
   "305201": {
-    "title": "超级捕捉10次",
+    "title": "竞技场挑战5次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 10,
-    "award": "1000130:1&1000120:1"
+    "type": "arena",
+    "value": 5,
+    "award": "905000:1&505000:1"
   },
   "305202": {
-    "title": "超级捕捉15次",
+    "title": "竞技场挑战10次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 15,
-    "award": "1000130:1&1000120:2"
+    "type": "arena",
+    "value": 10,
+    "award": "905000:2&505000:2"
   },
   "305203": {
-    "title": "超级捕捉20次",
+    "title": "竞技场挑战15次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 20,
-    "award": "1000130:1&1000120:3"
+    "type": "arena",
+    "value": 15,
+    "award": "905000:3&505000:3"
   },
   "305204": {
-    "title": "超级捕捉25次",
+    "title": "竞技场挑战20次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 25,
-    "award": "1000130:1&1000120:4"
+    "type": "arena",
+    "value": 20,
+    "award": "905000:4&505000:4"
   },
   "305205": {
-    "title": "超级捕捉30次",
+    "title": "竞技场挑战25次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 30,
-    "award": "1000130:1&1000120:5"
+    "type": "arena",
+    "value": 25,
+    "award": "905000:5&505000:5"
   },
   "305206": {
-    "title": "超级捕捉35次",
+    "title": "竞技场挑战30次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 35,
-    "award": "1000130:1&1000120:6"
+    "type": "arena",
+    "value": 30,
+    "award": "905000:6&505000:6"
   },
   "305207": {
-    "title": "超级捕捉40次",
+    "title": "竞技场挑战35次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 40,
-    "award": "1000130:1&1000120:7"
+    "type": "arena",
+    "value": 35,
+    "award": "905000:7&505000:7"
   },
   "305208": {
-    "title": "超级捕捉45次",
+    "title": "竞技场挑战40次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 45,
-    "award": "1000130:1&1000120:8"
+    "type": "arena",
+    "value": 40,
+    "award": "905000:8&505000:8"
   },
   "305209": {
-    "title": "超级捕捉50次",
+    "title": "竞技场挑战45次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 50,
-    "award": "1000130:1&1000120:9"
+    "type": "arena",
+    "value": 45,
+    "award": "905000:9&505000:9"
   },
   "305210": {
-    "title": "超级捕捉100次",
+    "title": "竞技场挑战50次",
     "refresh": "week_target",
-    "type": "general",
-    "value": 100,
-    "award": "1000130:1&1000120:10"
+    "type": "arena",
+    "value": 50,
+    "award": "905000:10&505000:10"
   },
   "306101": {
     "title": "跨服竞技场中战胜5次",
@@ -8835,164 +8855,144 @@
     "award": "405000:10&905000:150"
   },
   "306201": {
-    "title": "任意秘宝强化等级到达25级",
+    "title": "招财5次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 25,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:1&1000080:5"
+    "type": "revenue",
+    "value": 5,
+    "award": "1000040:3&1000100:1"
   },
   "306202": {
-    "title": "任意秘宝强化等级到达30级",
+    "title": "招财10次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 30,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:2&1000080:10"
+    "type": "revenue",
+    "value": 10,
+    "award": "1000040:6&1000100:2"
   },
   "306203": {
-    "title": "任意秘宝强化等级到达35级",
+    "title": "招财15次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 35,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:3&1000080:15"
+    "type": "revenue",
+    "value": 15,
+    "award": "1000040:9&1000100:3"
   },
   "306204": {
-    "title": "任意秘宝强化等级到达40级",
+    "title": "招财20次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 40,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:4&1000080:20"
+    "type": "revenue",
+    "value": 20,
+    "award": "1000040:12&1000100:4"
   },
   "306205": {
-    "title": "任意秘宝强化等级到达45级",
+    "title": "招财25次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 45,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:5&1000080:25"
+    "type": "revenue",
+    "value": 25,
+    "award": "1000040:15&1000100:5"
   },
   "306206": {
-    "title": "任意秘宝强化等级到达50级",
+    "title": "招财30次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 50,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:6&1000080:30"
+    "type": "revenue",
+    "value": 30,
+    "award": "1000040:20&1000100:6"
   },
   "306207": {
-    "title": "任意秘宝强化等级到达55级",
+    "title": "招财35次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 55,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:7&1000080:35"
+    "type": "revenue",
+    "value": 35,
+    "award": "1000040:30&1000100:7"
   },
   "306208": {
-    "title": "任意秘宝强化等级到达60级",
+    "title": "招财40次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 60,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:8&1000080:40"
+    "type": "revenue",
+    "value": 40,
+    "award": "1000040:40&1000100:8"
   },
   "306209": {
-    "title": "任意秘宝强化等级到达70级",
+    "title": "招财45次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 70,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:9&1000080:45"
+    "type": "revenue",
+    "value": 45,
+    "award": "1000040:50&1000100:9"
   },
   "306210": {
-    "title": "任意秘宝强化等级到达75级",
+    "title": "招财50次",
     "refresh": "week_target",
-    "type": "artifactLv",
-    "arg": 75,
-    "value": 1,
-    "inherit": true,
-    "award": "1000150:10&1000080:50"
+    "type": "revenue",
+    "value": 50,
+    "award": "1000040:100&1000100:10"
   },
   "307101": {
-    "title": "战斗力到达100万",
+    "title": "梦幻大乱斗中战胜1次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 1000000,
-    "award": "1000080:3&1000120:1"
+    "type": "muye_win",
+    "value": 1,
+    "award": "405000:1&505000:1"
   },
   "307102": {
-    "title": "战斗力到达200万",
+    "title": "梦幻大乱斗中战胜2次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 2000000,
-    "award": "1000080:5&1000120:2"
+    "type": "muye_win",
+    "value": 2,
+    "award": "405000:2&505000:2"
   },
   "307103": {
-    "title": "战斗力到达300万",
+    "title": "梦幻大乱斗中战胜3次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 3000000,
-    "award": "1000080:8&1000120:3"
+    "type": "muye_win",
+    "value": 3,
+    "award": "405000:3&505000:3"
   },
   "307104": {
-    "title": "战斗力到达400万",
+    "title": "梦幻大乱斗中战胜4次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 4000000,
-    "award": "1000080:12&1000120:4"
+    "type": "muye_win",
+    "value": 4,
+    "award": "405000:4&505000:4"
   },
   "307105": {
-    "title": "战斗力到达500万",
+    "title": "梦幻大乱斗中战胜5次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 5000000,
-    "award": "1000080:15&1000120:5"
+    "type": "muye_win",
+    "value": 5,
+    "award": "405000:5&505000:5"
   },
   "307106": {
-    "title": "战斗力到达600万",
+    "title": "梦幻大乱斗中战胜6次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 6000000,
-    "award": "1000080:20&1000120:6"
+    "type": "muye_win",
+    "value": 6,
+    "award": "405000:6&505000:6"
   },
   "307107": {
-    "title": "战斗力到达700万",
+    "title": "梦幻大乱斗中战胜7次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 7000000,
-    "award": "1000080:30&1000120:7"
+    "type": "muye_win",
+    "value": 7,
+    "award": "405000:7&505000:7"
   },
   "307108": {
-    "title": "战斗力到达800万",
+    "title": "梦幻大乱斗中战胜8次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 8000000,
-    "award": "1000080:40&1000120:8"
+    "type": "muye_win",
+    "value": 8,
+    "award": "405000:8&505000:8"
   },
   "307109": {
-    "title": "战斗力到达1000万",
+    "title": "梦幻大乱斗中战胜9次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 10000000,
-    "award": "1000080:50&1000120:9"
+    "type": "muye_win",
+    "value": 9,
+    "award": "405000:9&505000:9"
   },
   "307110": {
-    "title": "战斗力到达1500万",
+    "title": "梦幻大乱斗中战胜10次对手",
     "refresh": "week_target",
-    "type": "totalCe",
-    "value": 15000000,
-    "award": "1000080:100&1000120:10"
+    "type": "muye_win",
+    "value": 10,
+    "award": "405000:10&505000:10"
   },
   "307201": {
     "title": "将精灵升至6星",
@@ -10092,28 +10092,28 @@
     "refresh": "mewtwo",
     "type": "login",
     "value": 1,
-    "award": "105040:30"
+    "award": "505070:10"
   },
   "601002": {
     "title": "主角达到20级",
     "refresh": "mewtwo",
     "type": "loadLv",
     "value": 20,
-    "award": "205080:30"
+    "award": "505070:10"
   },
   "601003": {
     "title": "激活作战特权",
     "refresh": "mewtwo",
     "type": "buy_kszz",
     "value": 1,
-    "award": "505010:30"
+    "award": "505070:10"
   },
   "602001": {
     "title": "梦幻模拟战(简单)",
     "refresh": "mewtwo",
     "type": "exercise",
     "value": 1,
-    "award": "305080:30"
+    "award": "1000260:10"
   },
   "602002": {
     "title": "主线30关",
@@ -10121,22 +10121,22 @@
     "type": "checkpoints",
     "arg": 30,
     "value": 1,
-    "award": "505080:30"
+    "award": "1000260:10"
   },
   "602003": {
     "title": "激活至尊特权",
     "refresh": "mewtwo",
     "type": "buy_zztq",
     "value": 1,
-    "award": "405070:30"
+    "award": "1000260:10"
   },
   "603001": {
-    "title": "将任意英雄升至8星",
+    "title": "升星任意英雄到9星",
     "refresh": "mewtwo",
     "type": "hero",
-    "arg": 8,
+    "arg": 9,
     "value": 1,
-    "award": "505020:30"
+    "award": "1000280:10"
   },
   "603002": {
     "title": "时空秘境1-10",
@@ -10144,14 +10144,338 @@
     "type": "ss_pass",
     "arg": 10,
     "value": 1,
-    "award": "405090:30"
+    "award": "1000280:10"
   },
   "603003": {
     "title": "激活通行证",
     "refresh": "mewtwo",
     "type": "buy_zl",
     "value": 1,
-    "award": "405100:30"
+    "award": "1000280:10"
+  },
+  "700100": {
+    "title": "人物到达20级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 20,
+    "award": "1000080:10",
+    "first": true
+  },
+  "700101": {
+    "title": "人物到达30级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 30,
+    "award": "1000080:15",
+    "first": true
+  },
+  "700102": {
+    "title": "人物到达50级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 50,
+    "award": "1000080:20",
+    "first": true
+  },
+  "700103": {
+    "title": "人物到达60级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 60,
+    "award": "1000080:25",
+    "first": true
+  },
+  "700104": {
+    "title": "人物到达80级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 80,
+    "award": "1000080:30",
+    "first": true
+  },
+  "700105": {
+    "title": "人物到达100级",
+    "refresh": "default",
+    "type": "loadLv",
+    "value": 100,
+    "award": "1000080:50",
+    "first": true
+  },
+  "700200": {
+    "title": "主线通关30关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 30,
+    "value": 1,
+    "award": "110:300",
+    "first": true
+  },
+  "700201": {
+    "title": "主线通关60关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 60,
+    "value": 1,
+    "award": "110:600",
+    "first": true
+  },
+  "700202": {
+    "title": "主线通关90关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 90,
+    "value": 1,
+    "award": "110:900",
+    "first": true
+  },
+  "700203": {
+    "title": "主线通关120关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 120,
+    "value": 1,
+    "award": "110:1200",
+    "first": true
+  },
+  "700204": {
+    "title": "主线通关150关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 150,
+    "value": 1,
+    "award": "110:1500",
+    "first": true
+  },
+  "700205": {
+    "title": "主线通关200关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 200,
+    "value": 1,
+    "award": "110:2000",
+    "first": true
+  },
+  "700300": {
+    "title": "试练塔到达50层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 50,
+    "award": "505002:10",
+    "first": true
+  },
+  "700301": {
+    "title": "试练塔到达100层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 100,
+    "award": "505002:10",
+    "first": true
+  },
+  "700302": {
+    "title": "试练塔到达150层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 150,
+    "award": "505002:10",
+    "first": true
+  },
+  "700303": {
+    "title": "试练塔到达200层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 200,
+    "award": "505002:10",
+    "first": true
+  },
+  "700304": {
+    "title": "试练塔到达250层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 250,
+    "award": "505002:10",
+    "first": true
+  },
+  "700305": {
+    "title": "试练塔到达300层",
+    "refresh": "default",
+    "type": "ttt",
+    "value": 300,
+    "award": "505002:10",
+    "first": true
+  },
+  "700400": {
+    "title": "通关时空秘境第1章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 10,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700401": {
+    "title": "通关时空秘境第2章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 20,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700402": {
+    "title": "通关时空秘境第3章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 30,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700403": {
+    "title": "通关时空秘境第4章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 40,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700404": {
+    "title": "通关时空秘境第5章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 50,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700405": {
+    "title": "通关时空秘境第6章",
+    "refresh": "default",
+    "type": "ss_pass",
+    "arg": 60,
+    "value": 1,
+    "award": "505004:10",
+    "first": true
+  },
+  "700500": {
+    "title": "总战斗力到达100万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 1000000,
+    "award": "10020:1",
+    "first": true
+  },
+  "700501": {
+    "title": "总战斗力到达150万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 1500000,
+    "award": "10020:1",
+    "first": true
+  },
+  "700502": {
+    "title": "总战斗力到达200万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 2000000,
+    "award": "10020:1",
+    "first": true
+  },
+  "700503": {
+    "title": "总战斗力到达300万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 3000000,
+    "award": "10020:1",
+    "first": true
+  },
+  "700504": {
+    "title": "总战斗力到达500万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 5000000,
+    "award": "10020:1",
+    "first": true
+  },
+  "700505": {
+    "title": "总战斗力到达1000万",
+    "refresh": "default",
+    "type": "totalCe",
+    "value": 10000000,
+    "award": "10020:1",
+    "first": true
+  },
+  "721010": {
+    "title": "主角等级达到10级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 10,
+    "award": "10020:1",
+    "first": true
+  },
+  "721020": {
+    "title": "主公等级达到30级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 30,
+    "award": "10020:1",
+    "first": true
+  },
+  "721030": {
+    "title": "主公等级达到50级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 50,
+    "award": "10020:1",
+    "first": true
+  },
+  "721040": {
+    "title": "主公等级达到70级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 70,
+    "award": "10020:1",
+    "first": true
+  },
+  "721050": {
+    "title": "主公等级达到90级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 90,
+    "award": "10020:1",
+    "first": true
+  },
+  "721060": {
+    "title": "主公等级达到100级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 100,
+    "award": "10020:1",
+    "first": true
+  },
+  "721070": {
+    "title": "主公等级达到120级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 120,
+    "award": "10020:1",
+    "first": true
+  },
+  "721080": {
+    "title": "主公等级达到150级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 150,
+    "award": "10020:1",
+    "first": true
+  },
+  "721090": {
+    "title": "主公等级达到200级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 200,
+    "award": "10020:1",
+    "first": true
   },
   "506105080": {
     "title": "活动期间内将海蒂亚升至6星",
