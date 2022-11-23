@@ -40,7 +40,7 @@
     "liveness": 10
   },
   "100006": {
-    "title": "抓捕10次精灵",
+    "title": "抓捕10次英雄",
     "refresh": "day",
     "type": "recruit",
     "value": 10,
@@ -48,7 +48,7 @@
     "liveness": 10
   },
   "100007": {
-    "title": "完成3次精灵派遣",
+    "title": "完成3次英雄派遣",
     "refresh": "day",
     "type": "tour",
     "arg": 1,
@@ -89,7 +89,7 @@
     "liveness": 10
   },
   "100012": {
-    "title": "完成1次飞行大赛",
+    "title": "完成1次魔宠竞速",
     "refresh": "day",
     "type": "escort",
     "value": 1,
@@ -104,14 +104,14 @@
     "exp": 200
   },
   "100102": {
-    "title": "完成3次飞行大赛",
+    "title": "完成3次魔宠竞速",
     "refresh": "day",
     "type": "escort",
     "value": 3,
     "exp": 200
   },
   "100103": {
-    "title": "完成5次精灵任务",
+    "title": "完成5次英雄任务",
     "refresh": "day",
     "type": "tour",
     "arg": 1,
@@ -119,7 +119,7 @@
     "exp": 200
   },
   "100104": {
-    "title": "宝可梦联赛中战胜2次对手",
+    "title": "巅峰对决中战胜2次对手",
     "refresh": "day",
     "type": "ancient_win",
     "value": 2,
@@ -140,7 +140,7 @@
     "exp": 200
   },
   "100107": {
-    "title": "华蓝洞窟打败10个怪物",
+    "title": "蓝晶洞窟打败10个怪物",
     "refresh": "day",
     "type": "zhulu_monster",
     "value": 10,
@@ -162,20 +162,20 @@
     "desc": "赠送好友15次友情点"
   },
   "100202": {
-    "title": "完成20次飞行大赛",
+    "title": "完成20次魔宠竞速",
     "refresh": "week",
     "type": "escort",
     "value": 20,
     "exp": 1000,
-    "desc": "完成20次飞行大赛"
+    "desc": "完成20次魔宠竞速"
   },
   "100203": {
-    "title": "世界锦标赛参与5次投注",
+    "title": "王者巅峰参与5次投注",
     "refresh": "week",
     "type": "peak_bet",
     "value": 3,
     "exp": 1000,
-    "desc": "世界锦标赛参与5次投注"
+    "desc": "王者巅峰参与5次投注"
   },
   "100204": {
     "title": "通关5次梦幻模拟战",
@@ -194,12 +194,12 @@
     "desc": "进行点金18次"
   },
   "100206": {
-    "title": "宝可梦联赛中战胜15次对手",
+    "title": "巅峰对决中战胜15次对手",
     "refresh": "week",
     "type": "ancient_win",
     "value": 15,
     "exp": 1000,
-    "desc": "宝可梦联赛中战胜15次对手"
+    "desc": "巅峰对决中战胜15次对手"
   },
   "100207": {
     "title": "宝石矿场挖掘30次",
@@ -218,13 +218,13 @@
     "desc": "跨服竞技场中战胜30次对手"
   },
   "100301": {
-    "title": "完成50次红色精灵派遣",
+    "title": "完成50次红色英雄派遣",
     "refresh": "month",
     "type": "tour",
     "arg": 6,
     "value": 50,
     "exp": 3000,
-    "desc": "完成50次红色精灵派遣"
+    "desc": "完成50次红色英雄派遣"
   },
   "100302": {
     "title": "消耗5亿金币",
@@ -235,28 +235,28 @@
     "desc": "消耗5亿金币"
   },
   "100303": {
-    "title": "高级捕捉1000次",
+    "title": "高级招募1000次",
     "refresh": "month",
     "type": "recruit_great",
     "value": 200,
     "exp": 3000,
-    "desc": "高级捕捉1000次"
+    "desc": "高级招募1000次"
   },
   "100304": {
-    "title": "超级捕捉100次",
+    "title": "超级招募100次",
     "refresh": "month",
     "type": "general",
     "value": 100,
     "exp": 3000,
-    "desc": "超级捕捉100次"
+    "desc": "超级招募100次"
   },
   "100305": {
-    "title": "分解1000个精灵",
+    "title": "分解1000个英雄",
     "refresh": "month",
     "type": "resolve",
     "value": 500,
     "exp": 3000,
-    "desc": "分解1000个精灵"
+    "desc": "分解1000个英雄"
   },
   "100306": {
     "title": "快速作战300次",
@@ -267,13 +267,13 @@
     "desc": "快速作战300次"
   },
   "100307": {
-    "title": "获得1个十星精灵",
+    "title": "获得1个十星英雄",
     "refresh": "month",
     "type": "hero",
     "arg": 10,
     "value": 1,
     "exp": 3000,
-    "desc": "获得1个十星精灵"
+    "desc": "获得1个十星英雄"
   },
   "100308": {
     "title": "获得100个护符",
@@ -1194,7 +1194,7 @@
     "desc": "竞技排名"
   },
   "200601": {
-    "title": "获得10个四星精灵",
+    "title": "获得10个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1203,10 +1203,10 @@
     "inherit": true,
     "award": "201:50000",
     "first": true,
-    "desc": "精灵助阵"
+    "desc": "英雄助阵"
   },
   "200602": {
-    "title": "获得50个四星精灵",
+    "title": "获得50个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1214,10 +1214,10 @@
     "next": 200603,
     "inherit": true,
     "award": "201:100000",
-    "desc": "精灵助阵"
+    "desc": "英雄助阵"
   },
   "200603": {
-    "title": "获得100个四星精灵",
+    "title": "获得100个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1228,7 +1228,7 @@
     "desc": "四星助阵"
   },
   "200604": {
-    "title": "获得200个四星精灵",
+    "title": "获得200个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1239,7 +1239,7 @@
     "desc": "四星助阵"
   },
   "200605": {
-    "title": "获得300个四星精灵",
+    "title": "获得300个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1250,7 +1250,7 @@
     "desc": "四星助阵"
   },
   "200606": {
-    "title": "获得400个四星精灵",
+    "title": "获得400个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1261,7 +1261,7 @@
     "desc": "四星助阵"
   },
   "200607": {
-    "title": "获得500个四星精灵",
+    "title": "获得500个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1272,7 +1272,7 @@
     "desc": "四星助阵"
   },
   "200608": {
-    "title": "获得600个四星精灵",
+    "title": "获得600个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1283,7 +1283,7 @@
     "desc": "四星助阵"
   },
   "200609": {
-    "title": "获得700个四星精灵",
+    "title": "获得700个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1294,7 +1294,7 @@
     "desc": "四星助阵"
   },
   "200610": {
-    "title": "获得800个四星精灵",
+    "title": "获得800个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1305,7 +1305,7 @@
     "desc": "四星助阵"
   },
   "200611": {
-    "title": "获得900个四星精灵",
+    "title": "获得900个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1316,7 +1316,7 @@
     "desc": "四星助阵"
   },
   "200612": {
-    "title": "获得1000个四星精灵",
+    "title": "获得1000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1327,7 +1327,7 @@
     "desc": "四星助阵"
   },
   "200613": {
-    "title": "获得1500个四星精灵",
+    "title": "获得1500个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1338,7 +1338,7 @@
     "desc": "四星助阵"
   },
   "200614": {
-    "title": "获得2000个四星精灵",
+    "title": "获得2000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1349,7 +1349,7 @@
     "desc": "四星助阵"
   },
   "200615": {
-    "title": "获得2500个四星精灵",
+    "title": "获得2500个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1360,7 +1360,7 @@
     "desc": "四星助阵"
   },
   "200616": {
-    "title": "获得3000个四星精灵",
+    "title": "获得3000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1371,7 +1371,7 @@
     "desc": "四星助阵"
   },
   "200617": {
-    "title": "获得4000个四星精灵",
+    "title": "获得4000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1382,7 +1382,7 @@
     "desc": "四星助阵"
   },
   "200618": {
-    "title": "获得5000个四星精灵",
+    "title": "获得5000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1393,7 +1393,7 @@
     "desc": "四星助阵"
   },
   "200619": {
-    "title": "获得6000个四星精灵",
+    "title": "获得6000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1404,7 +1404,7 @@
     "desc": "四星助阵"
   },
   "200620": {
-    "title": "获得7000个四星精灵",
+    "title": "获得7000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1415,7 +1415,7 @@
     "desc": "四星助阵"
   },
   "200621": {
-    "title": "获得8000个四星精灵",
+    "title": "获得8000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1426,7 +1426,7 @@
     "desc": "四星助阵"
   },
   "200622": {
-    "title": "获得9000个四星精灵",
+    "title": "获得9000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1437,7 +1437,7 @@
     "desc": "四星助阵"
   },
   "200623": {
-    "title": "获得10000个四星精灵",
+    "title": "获得10000个四星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 4,
@@ -1447,7 +1447,7 @@
     "desc": "四星助阵"
   },
   "200701": {
-    "title": "获得5个五星精灵",
+    "title": "获得5个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1456,10 +1456,10 @@
     "inherit": true,
     "award": "101:10000",
     "first": true,
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200702": {
-    "title": "获得10个五星精灵",
+    "title": "获得10个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1467,10 +1467,10 @@
     "next": 200703,
     "inherit": true,
     "award": "101:20000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200703": {
-    "title": "获得15个五星精灵",
+    "title": "获得15个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1478,10 +1478,10 @@
     "next": 200704,
     "inherit": true,
     "award": "101:30000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200704": {
-    "title": "获得20个五星精灵",
+    "title": "获得20个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1489,10 +1489,10 @@
     "next": 200705,
     "inherit": true,
     "award": "101:40000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200705": {
-    "title": "获得30个五星精灵",
+    "title": "获得30个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1500,10 +1500,10 @@
     "next": 200706,
     "inherit": true,
     "award": "101:50000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200706": {
-    "title": "获得40个五星精灵",
+    "title": "获得40个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1511,10 +1511,10 @@
     "next": 200707,
     "inherit": true,
     "award": "101:60000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200707": {
-    "title": "获得50个五星精灵",
+    "title": "获得50个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1522,10 +1522,10 @@
     "next": 200708,
     "inherit": true,
     "award": "101:70000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200708": {
-    "title": "获得80个五星精灵",
+    "title": "获得80个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1533,10 +1533,10 @@
     "next": 200709,
     "inherit": true,
     "award": "101:80000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200709": {
-    "title": "获得100个五星精灵",
+    "title": "获得100个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1544,10 +1544,10 @@
     "next": 200710,
     "inherit": true,
     "award": "101:90000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200710": {
-    "title": "获得150个五星精灵",
+    "title": "获得150个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1555,10 +1555,10 @@
     "next": 200711,
     "inherit": true,
     "award": "101:100000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200711": {
-    "title": "获得200个五星精灵",
+    "title": "获得200个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1566,10 +1566,10 @@
     "next": 200712,
     "inherit": true,
     "award": "101:120000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200712": {
-    "title": "获得300个五星精灵",
+    "title": "获得300个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
@@ -1577,256 +1577,256 @@
     "next": 200713,
     "inherit": true,
     "award": "101:140000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200713": {
-    "title": "获得400个五星精灵",
+    "title": "获得400个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 400,
     "next": 200714,
     "award": "101:160000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200714": {
-    "title": "获得500个五星精灵",
+    "title": "获得500个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 500,
     "next": 200715,
     "award": "101:180000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200715": {
-    "title": "获得600个五星精灵",
+    "title": "获得600个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 600,
     "next": 200716,
     "award": "101:200000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200716": {
-    "title": "获得700个五星精灵",
+    "title": "获得700个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 700,
     "next": 200717,
     "award": "101:220000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200717": {
-    "title": "获得800个五星精灵",
+    "title": "获得800个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 800,
     "next": 200718,
     "award": "101:240000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200718": {
-    "title": "获得900个五星精灵",
+    "title": "获得900个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 900,
     "next": 200719,
     "award": "101:260000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200719": {
-    "title": "获得1000个五星精灵",
+    "title": "获得1000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1000,
     "next": 200720,
     "award": "101:280000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200720": {
-    "title": "获得1100个五星精灵",
+    "title": "获得1100个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1100,
     "next": 200721,
     "award": "101:300000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200721": {
-    "title": "获得1200个五星精灵",
+    "title": "获得1200个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1200,
     "next": 200722,
     "award": "101:400000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200722": {
-    "title": "获得1300个五星精灵",
+    "title": "获得1300个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1300,
     "next": 200723,
     "award": "101:500000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200723": {
-    "title": "获得1400个五星精灵",
+    "title": "获得1400个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1400,
     "next": 200724,
     "award": "101:600000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200724": {
-    "title": "获得1500个五星精灵",
+    "title": "获得1500个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1500,
     "next": 200725,
     "award": "101:700000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200725": {
-    "title": "获得1600个五星精灵",
+    "title": "获得1600个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1600,
     "next": 200726,
     "award": "101:800000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200726": {
-    "title": "获得1700个五星精灵",
+    "title": "获得1700个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1700,
     "next": 200727,
     "award": "101:900000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200727": {
-    "title": "获得1800个五星精灵",
+    "title": "获得1800个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1800,
     "next": 200728,
     "award": "101:1000000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200728": {
-    "title": "获得1900个五星精灵",
+    "title": "获得1900个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 1900,
     "next": 200729,
     "award": "101:1100000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200729": {
-    "title": "获得2000个五星精灵",
+    "title": "获得2000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 2000,
     "next": 200730,
     "award": "101:1200000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200730": {
-    "title": "获得3000个五星精灵",
+    "title": "获得3000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 3000,
     "next": 200731,
     "award": "101:1300000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200731": {
-    "title": "获得4000个五星精灵",
+    "title": "获得4000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 4000,
     "next": 200732,
     "award": "101:1400000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200732": {
-    "title": "获得5000个五星精灵",
+    "title": "获得5000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 5000,
     "next": 200733,
     "award": "101:1500000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200733": {
-    "title": "获得6000个五星精灵",
+    "title": "获得6000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 6000,
     "next": 200734,
     "award": "101:1600000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200734": {
-    "title": "获得7000个五星精灵",
+    "title": "获得7000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 7000,
     "next": 200735,
     "award": "101:1700000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200735": {
-    "title": "获得8000个五星精灵",
+    "title": "获得8000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 8000,
     "next": 200736,
     "award": "101:1800000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200736": {
-    "title": "获得9000个五星精灵",
+    "title": "获得9000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 9000,
     "next": 200737,
     "award": "101:1900000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200737": {
-    "title": "获得10000个五星精灵",
+    "title": "获得10000个五星英雄",
     "refresh": "always",
     "type": "hero",
     "arg": 5,
     "value": 10000,
     "award": "101:2000000",
-    "desc": "精灵大师"
+    "desc": "英雄大师"
   },
   "200801": {
     "title": "试练塔到达10层",
@@ -2129,7 +2129,7 @@
     "desc": "试炼之塔"
   },
   "201001": {
-    "title": "三系捕捉累计5次",
+    "title": "三系招募累计5次",
     "refresh": "always",
     "type": "general",
     "value": 5,
@@ -2137,395 +2137,395 @@
     "inherit": true,
     "award": "1000070:5",
     "first": true,
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201002": {
-    "title": "三系捕捉累计10次",
+    "title": "三系招募累计10次",
     "refresh": "always",
     "type": "general",
     "value": 10,
     "next": 201003,
     "inherit": true,
     "award": "1000070:10",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201003": {
-    "title": "三系捕捉累计20次",
+    "title": "三系招募累计20次",
     "refresh": "always",
     "type": "general",
     "value": 20,
     "next": 201004,
     "inherit": true,
     "award": "1000070:15",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201004": {
-    "title": "三系捕捉累计40次",
+    "title": "三系招募累计40次",
     "refresh": "always",
     "type": "general",
     "value": 40,
     "next": 201005,
     "inherit": true,
     "award": "1000070:20",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201005": {
-    "title": "三系捕捉累计80次",
+    "title": "三系招募累计80次",
     "refresh": "always",
     "type": "general",
     "value": 80,
     "next": 201006,
     "inherit": true,
     "award": "1000070:25",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201006": {
-    "title": "三系捕捉累计100次",
+    "title": "三系招募累计100次",
     "refresh": "always",
     "type": "general",
     "value": 100,
     "next": 201007,
     "inherit": true,
     "award": "1000070:30",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201007": {
-    "title": "三系捕捉累计120次",
+    "title": "三系招募累计120次",
     "refresh": "always",
     "type": "general",
     "value": 120,
     "next": 201008,
     "inherit": true,
     "award": "1000070:35",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201008": {
-    "title": "三系捕捉累计140次",
+    "title": "三系招募累计140次",
     "refresh": "always",
     "type": "general",
     "value": 140,
     "next": 201009,
     "inherit": true,
     "award": "1000070:40",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201009": {
-    "title": "三系捕捉累计160次",
+    "title": "三系招募累计160次",
     "refresh": "always",
     "type": "general",
     "value": 160,
     "next": 201010,
     "inherit": true,
     "award": "1000070:50",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201010": {
-    "title": "三系捕捉累计180次",
+    "title": "三系招募累计180次",
     "refresh": "always",
     "type": "general",
     "value": 180,
     "next": 201011,
     "inherit": true,
     "award": "1000070:55",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201011": {
-    "title": "三系捕捉累计200次",
+    "title": "三系招募累计200次",
     "refresh": "always",
     "type": "general",
     "value": 200,
     "next": 201012,
     "inherit": true,
     "award": "1000070:60",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201012": {
-    "title": "三系捕捉累计250次",
+    "title": "三系招募累计250次",
     "refresh": "always",
     "type": "general",
     "value": 250,
     "next": 201013,
     "inherit": true,
     "award": "1000070:65",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201013": {
-    "title": "三系捕捉累计300次",
+    "title": "三系招募累计300次",
     "refresh": "always",
     "type": "general",
     "value": 300,
     "next": 201014,
     "inherit": true,
     "award": "1000070:70",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201014": {
-    "title": "三系捕捉累计350次",
+    "title": "三系招募累计350次",
     "refresh": "always",
     "type": "general",
     "value": 350,
     "next": 201015,
     "inherit": true,
     "award": "1000070:75",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201015": {
-    "title": "三系捕捉累计400次",
+    "title": "三系招募累计400次",
     "refresh": "always",
     "type": "general",
     "value": 400,
     "next": 201016,
     "inherit": true,
     "award": "1000070:80",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201016": {
-    "title": "三系捕捉累计450次",
+    "title": "三系招募累计450次",
     "refresh": "always",
     "type": "general",
     "value": 450,
     "next": 201017,
     "inherit": true,
     "award": "1000070:85",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201017": {
-    "title": "三系捕捉累计500次",
+    "title": "三系招募累计500次",
     "refresh": "always",
     "type": "general",
     "value": 500,
     "next": 201018,
     "inherit": true,
     "award": "1000070:90",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201018": {
-    "title": "三系捕捉累计600次",
+    "title": "三系招募累计600次",
     "refresh": "always",
     "type": "general",
     "value": 600,
     "next": 201019,
     "inherit": true,
     "award": "1000070:95",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201019": {
-    "title": "三系捕捉累计700次",
+    "title": "三系招募累计700次",
     "refresh": "always",
     "type": "general",
     "value": 700,
     "next": 201020,
     "inherit": true,
     "award": "1000070:100",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201020": {
-    "title": "三系捕捉累计800次",
+    "title": "三系招募累计800次",
     "refresh": "always",
     "type": "general",
     "value": 800,
     "next": 201021,
     "inherit": true,
     "award": "1000070:105",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201021": {
-    "title": "三系捕捉累计900次",
+    "title": "三系招募累计900次",
     "refresh": "always",
     "type": "general",
     "value": 900,
     "next": 201022,
     "inherit": true,
     "award": "1000070:110",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201022": {
-    "title": "三系捕捉累计1000次",
+    "title": "三系招募累计1000次",
     "refresh": "always",
     "type": "general",
     "value": 1000,
     "next": 201023,
     "inherit": true,
     "award": "1000070:120",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201023": {
-    "title": "三系捕捉累计1100次",
+    "title": "三系招募累计1100次",
     "refresh": "always",
     "type": "general",
     "value": 1100,
     "next": 201024,
     "inherit": true,
     "award": "1000070:130",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201024": {
-    "title": "三系捕捉累计1200次",
+    "title": "三系招募累计1200次",
     "refresh": "always",
     "type": "general",
     "value": 1200,
     "next": 201025,
     "inherit": true,
     "award": "1000070:140",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201025": {
-    "title": "三系捕捉累计1300次",
+    "title": "三系招募累计1300次",
     "refresh": "always",
     "type": "general",
     "value": 1300,
     "next": 201026,
     "inherit": true,
     "award": "1000070:150",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201026": {
-    "title": "三系捕捉累计1400次",
+    "title": "三系招募累计1400次",
     "refresh": "always",
     "type": "general",
     "value": 1400,
     "next": 201027,
     "inherit": true,
     "award": "1000070:160",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201027": {
-    "title": "三系捕捉累计1500次",
+    "title": "三系招募累计1500次",
     "refresh": "always",
     "type": "general",
     "value": 1500,
     "next": 201028,
     "inherit": true,
     "award": "1000070:170",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201028": {
-    "title": "三系捕捉累计1600次",
+    "title": "三系招募累计1600次",
     "refresh": "always",
     "type": "general",
     "value": 1600,
     "next": 201029,
     "inherit": true,
     "award": "1000070:180",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201029": {
-    "title": "三系捕捉累计1700次",
+    "title": "三系招募累计1700次",
     "refresh": "always",
     "type": "general",
     "value": 1700,
     "next": 201030,
     "inherit": true,
     "award": "1000070:190",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201030": {
-    "title": "三系捕捉累计1800次",
+    "title": "三系招募累计1800次",
     "refresh": "always",
     "type": "general",
     "value": 1800,
     "next": 201031,
     "inherit": true,
     "award": "1000070:200",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201031": {
-    "title": "三系捕捉累计1900次",
+    "title": "三系招募累计1900次",
     "refresh": "always",
     "type": "general",
     "value": 1900,
     "next": 201032,
     "inherit": true,
     "award": "1000070:210",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201032": {
-    "title": "三系捕捉累计2000次",
+    "title": "三系招募累计2000次",
     "refresh": "always",
     "type": "general",
     "value": 2000,
     "next": 201033,
     "inherit": true,
     "award": "1000070:220",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201033": {
-    "title": "三系捕捉累计3000次",
+    "title": "三系招募累计3000次",
     "refresh": "always",
     "type": "general",
     "value": 3000,
     "next": 201034,
     "inherit": true,
     "award": "1000070:230",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201034": {
-    "title": "三系捕捉累计4000次",
+    "title": "三系招募累计4000次",
     "refresh": "always",
     "type": "general",
     "value": 4000,
     "next": 201035,
     "inherit": true,
     "award": "1000070:240",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201035": {
-    "title": "三系捕捉累计5000次",
+    "title": "三系招募累计5000次",
     "refresh": "always",
     "type": "general",
     "value": 5000,
     "next": 201036,
     "inherit": true,
     "award": "1000070:250",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201036": {
-    "title": "三系捕捉累计6000次",
+    "title": "三系招募累计6000次",
     "refresh": "always",
     "type": "general",
     "value": 6000,
     "next": 201037,
     "inherit": true,
     "award": "1000070:260",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201037": {
-    "title": "三系捕捉累计7000次",
+    "title": "三系招募累计7000次",
     "refresh": "always",
     "type": "general",
     "value": 7000,
     "next": 201038,
     "inherit": true,
     "award": "1000070:270",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201038": {
-    "title": "三系捕捉累计8000次",
+    "title": "三系招募累计8000次",
     "refresh": "always",
     "type": "general",
     "value": 8000,
     "next": 201039,
     "inherit": true,
     "award": "1000070:280",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201039": {
-    "title": "三系捕捉累计9000次",
+    "title": "三系招募累计9000次",
     "refresh": "always",
     "type": "general",
     "value": 9000,
     "next": 201040,
     "inherit": true,
     "award": "1000070:290",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201040": {
-    "title": "三系捕捉累计10000次",
+    "title": "三系招募累计10000次",
     "refresh": "always",
     "type": "general",
     "value": 10000,
     "award": "1000070:300",
-    "desc": "三系捕捉"
+    "desc": "三系招募"
   },
   "201101": {
     "title": "专属秘宝强化等级到达5级",
@@ -2678,7 +2678,7 @@
     "desc": "专属秘宝"
   },
   "201201": {
-    "title": "精灵升到30级",
+    "title": "英雄升到30级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 30,
@@ -2686,166 +2686,166 @@
     "next": 201302,
     "award": "101:10000",
     "first": true,
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201202": {
-    "title": "精灵升到40级",
+    "title": "英雄升到40级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 40,
     "value": 1,
     "next": 201303,
     "award": "101:20000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201203": {
-    "title": "精灵升到50级",
+    "title": "英雄升到50级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 50,
     "value": 1,
     "next": 201304,
     "award": "101:30000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201204": {
-    "title": "精灵升到60级",
+    "title": "英雄升到60级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 60,
     "value": 1,
     "next": 201305,
     "award": "101:40000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201205": {
-    "title": "精灵升到80级",
+    "title": "英雄升到80级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 80,
     "value": 1,
     "next": 201306,
     "award": "101:50000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201206": {
-    "title": "精灵升到100级",
+    "title": "英雄升到100级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 100,
     "value": 1,
     "next": 201307,
     "award": "101:60000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201207": {
-    "title": "精灵升到125级",
+    "title": "英雄升到125级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 125,
     "value": 1,
     "next": 201308,
     "award": "101:70000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201208": {
-    "title": "精灵升到145级",
+    "title": "英雄升到145级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 145,
     "value": 1,
     "next": 201309,
     "award": "101:80000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201209": {
-    "title": "精灵升到165级",
+    "title": "英雄升到165级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 165,
     "value": 1,
     "next": 201310,
     "award": "101:90000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201210": {
-    "title": "精灵升到185级",
+    "title": "英雄升到185级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 185,
     "value": 1,
     "next": 201311,
     "award": "101:100000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201211": {
-    "title": "精灵升到205级",
+    "title": "英雄升到205级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 205,
     "value": 1,
     "next": 201312,
     "award": "101:110000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201212": {
-    "title": "精灵升到255级",
+    "title": "英雄升到255级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 255,
     "value": 1,
     "next": 201313,
     "award": "101:120000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201213": {
-    "title": "精灵升到270级",
+    "title": "英雄升到270级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 270,
     "value": 1,
     "next": 201314,
     "award": "101:130000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201214": {
-    "title": "精灵升到285级",
+    "title": "英雄升到285级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 285,
     "value": 1,
     "next": 201315,
     "award": "101:140000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201215": {
-    "title": "精灵升到300级",
+    "title": "英雄升到300级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 300,
     "value": 1,
     "next": 201316,
     "award": "101:150000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201216": {
-    "title": "精灵升到315级",
+    "title": "英雄升到315级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 315,
     "value": 1,
     "next": 201317,
     "award": "101:160000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201217": {
-    "title": "精灵升到330级",
+    "title": "英雄升到330级",
     "refresh": "always",
     "type": "heroLv",
     "arg": 330,
     "value": 1,
     "award": "101:170000",
-    "desc": "精灵等级"
+    "desc": "英雄等级"
   },
   "201301": {
     "title": "通关时空秘境第1章",
@@ -3088,7 +3088,7 @@
     "desc": "日常副本"
   },
   "202001": {
-    "title": "将任意精灵升到1阶",
+    "title": "将任意英雄升到1阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 1,
@@ -3099,7 +3099,7 @@
     "desc": "进阶之路"
   },
   "202002": {
-    "title": "将任意精灵升到2阶",
+    "title": "将任意英雄升到2阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 2,
@@ -3109,7 +3109,7 @@
     "desc": "进阶之路"
   },
   "202003": {
-    "title": "将任意精灵升到3阶",
+    "title": "将任意英雄升到3阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 3,
@@ -3119,7 +3119,7 @@
     "desc": "进阶之路"
   },
   "202004": {
-    "title": "将任意精灵升到4阶",
+    "title": "将任意英雄升到4阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 4,
@@ -3129,7 +3129,7 @@
     "desc": "进阶之路"
   },
   "202005": {
-    "title": "将任意精灵升到5阶",
+    "title": "将任意英雄升到5阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3139,7 +3139,7 @@
     "desc": "进阶之路"
   },
   "202006": {
-    "title": "将任意精灵升到6阶",
+    "title": "将任意英雄升到6阶",
     "refresh": "always",
     "type": "heroAd",
     "arg": 6,
@@ -3148,7 +3148,7 @@
     "desc": "进阶之路"
   },
   "202010": {
-    "title": "获得2个五阶精灵",
+    "title": "获得2个五阶英雄",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3160,7 +3160,7 @@
     "desc": "进阶成神"
   },
   "202011": {
-    "title": "获得3个五阶精灵",
+    "title": "获得3个五阶英雄",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3171,7 +3171,7 @@
     "desc": "进阶成神"
   },
   "202012": {
-    "title": "获得4个五阶精灵",
+    "title": "获得4个五阶英雄",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3182,7 +3182,7 @@
     "desc": "进阶成神"
   },
   "202013": {
-    "title": "获得5个五阶精灵",
+    "title": "获得5个五阶英雄",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3193,7 +3193,7 @@
     "desc": "进阶成神"
   },
   "202014": {
-    "title": "获得6个五阶精灵",
+    "title": "获得6个五阶英雄",
     "refresh": "always",
     "type": "heroAd",
     "arg": 5,
@@ -3203,7 +3203,7 @@
     "desc": "进阶成神"
   },
   "202020": {
-    "title": "高级捕捉10次",
+    "title": "高级招募10次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 10,
@@ -3214,7 +3214,7 @@
     "desc": "挥金如土"
   },
   "202021": {
-    "title": "高级捕捉20次",
+    "title": "高级招募20次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 20,
@@ -3224,7 +3224,7 @@
     "desc": "挥金如土"
   },
   "202022": {
-    "title": "高级捕捉30次",
+    "title": "高级招募30次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 30,
@@ -3234,7 +3234,7 @@
     "desc": "挥金如土"
   },
   "202023": {
-    "title": "高级捕捉40次",
+    "title": "高级招募40次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 40,
@@ -3244,7 +3244,7 @@
     "desc": "挥金如土"
   },
   "202024": {
-    "title": "高级捕捉50次",
+    "title": "高级招募50次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 50,
@@ -3254,7 +3254,7 @@
     "desc": "挥金如土"
   },
   "202025": {
-    "title": "高级捕捉60次",
+    "title": "高级招募60次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 60,
@@ -3264,7 +3264,7 @@
     "desc": "挥金如土"
   },
   "202026": {
-    "title": "高级捕捉70次",
+    "title": "高级招募70次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 70,
@@ -3274,7 +3274,7 @@
     "desc": "挥金如土"
   },
   "202027": {
-    "title": "高级捕捉80次",
+    "title": "高级招募80次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 80,
@@ -3284,7 +3284,7 @@
     "desc": "挥金如土"
   },
   "202028": {
-    "title": "高级捕捉90次",
+    "title": "高级招募90次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 90,
@@ -3294,7 +3294,7 @@
     "desc": "挥金如土"
   },
   "202029": {
-    "title": "高级捕捉100次",
+    "title": "高级招募100次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 100,
@@ -3304,7 +3304,7 @@
     "desc": "挥金如土"
   },
   "202030": {
-    "title": "高级捕捉150次",
+    "title": "高级招募150次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 150,
@@ -3314,7 +3314,7 @@
     "desc": "挥金如土"
   },
   "202031": {
-    "title": "高级捕捉200次",
+    "title": "高级招募200次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 200,
@@ -3324,7 +3324,7 @@
     "desc": "挥金如土"
   },
   "202032": {
-    "title": "高级捕捉250次",
+    "title": "高级招募250次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 250,
@@ -3334,7 +3334,7 @@
     "desc": "挥金如土"
   },
   "202033": {
-    "title": "高级捕捉300次",
+    "title": "高级招募300次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 300,
@@ -3344,7 +3344,7 @@
     "desc": "挥金如土"
   },
   "202034": {
-    "title": "高级捕捉350次",
+    "title": "高级招募350次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 350,
@@ -3354,7 +3354,7 @@
     "desc": "挥金如土"
   },
   "202035": {
-    "title": "高级捕捉400次",
+    "title": "高级招募400次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 400,
@@ -3364,7 +3364,7 @@
     "desc": "挥金如土"
   },
   "202036": {
-    "title": "高级捕捉450次",
+    "title": "高级招募450次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 450,
@@ -3374,7 +3374,7 @@
     "desc": "挥金如土"
   },
   "202037": {
-    "title": "高级捕捉500次",
+    "title": "高级招募500次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 500,
@@ -3384,7 +3384,7 @@
     "desc": "挥金如土"
   },
   "202038": {
-    "title": "高级捕捉600次",
+    "title": "高级招募600次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 600,
@@ -3394,7 +3394,7 @@
     "desc": "挥金如土"
   },
   "202039": {
-    "title": "高级捕捉700次",
+    "title": "高级招募700次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 700,
@@ -3404,7 +3404,7 @@
     "desc": "挥金如土"
   },
   "202040": {
-    "title": "高级捕捉800次",
+    "title": "高级招募800次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 800,
@@ -3414,7 +3414,7 @@
     "desc": "挥金如土"
   },
   "202041": {
-    "title": "高级捕捉900次",
+    "title": "高级招募900次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 900,
@@ -3424,7 +3424,7 @@
     "desc": "挥金如土"
   },
   "202042": {
-    "title": "高级捕捉1000次",
+    "title": "高级招募1000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 1000,
@@ -3434,7 +3434,7 @@
     "desc": "挥金如土"
   },
   "202043": {
-    "title": "高级捕捉1500次",
+    "title": "高级招募1500次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 1500,
@@ -3444,7 +3444,7 @@
     "desc": "挥金如土"
   },
   "202044": {
-    "title": "高级捕捉2000次",
+    "title": "高级招募2000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 2000,
@@ -3454,7 +3454,7 @@
     "desc": "挥金如土"
   },
   "202045": {
-    "title": "高级捕捉2500次",
+    "title": "高级招募2500次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 2500,
@@ -3464,7 +3464,7 @@
     "desc": "挥金如土"
   },
   "202046": {
-    "title": "高级捕捉3000次",
+    "title": "高级招募3000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 3000,
@@ -3474,7 +3474,7 @@
     "desc": "挥金如土"
   },
   "202047": {
-    "title": "高级捕捉3500次",
+    "title": "高级招募3500次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 3500,
@@ -3484,7 +3484,7 @@
     "desc": "挥金如土"
   },
   "202048": {
-    "title": "高级捕捉4000次",
+    "title": "高级招募4000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 4000,
@@ -3494,7 +3494,7 @@
     "desc": "挥金如土"
   },
   "202049": {
-    "title": "高级捕捉4500次",
+    "title": "高级招募4500次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 4500,
@@ -3504,7 +3504,7 @@
     "desc": "挥金如土"
   },
   "202050": {
-    "title": "高级捕捉5000次",
+    "title": "高级招募5000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 5000,
@@ -3514,7 +3514,7 @@
     "desc": "挥金如土"
   },
   "202051": {
-    "title": "高级捕捉6000次",
+    "title": "高级招募6000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 6000,
@@ -3524,7 +3524,7 @@
     "desc": "挥金如土"
   },
   "202052": {
-    "title": "高级捕捉7000次",
+    "title": "高级招募7000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 7000,
@@ -3534,7 +3534,7 @@
     "desc": "挥金如土"
   },
   "202053": {
-    "title": "高级捕捉8000次",
+    "title": "高级招募8000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 8000,
@@ -3544,7 +3544,7 @@
     "desc": "挥金如土"
   },
   "202054": {
-    "title": "高级捕捉9000次",
+    "title": "高级招募9000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 9000,
@@ -3554,7 +3554,7 @@
     "desc": "挥金如土"
   },
   "202055": {
-    "title": "高级捕捉10000次",
+    "title": "高级招募10000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 10000,
@@ -3564,7 +3564,7 @@
     "desc": "挥金如土"
   },
   "202056": {
-    "title": "高级捕捉15000次",
+    "title": "高级招募15000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 15000,
@@ -3574,7 +3574,7 @@
     "desc": "挥金如土"
   },
   "202057": {
-    "title": "高级捕捉20000次",
+    "title": "高级招募20000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 20000,
@@ -3584,7 +3584,7 @@
     "desc": "挥金如土"
   },
   "202058": {
-    "title": "高级捕捉25000次",
+    "title": "高级招募25000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 25000,
@@ -3594,7 +3594,7 @@
     "desc": "挥金如土"
   },
   "202059": {
-    "title": "高级捕捉30000次",
+    "title": "高级招募30000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 30000,
@@ -3604,7 +3604,7 @@
     "desc": "挥金如土"
   },
   "202060": {
-    "title": "高级捕捉35000次",
+    "title": "高级招募35000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 35000,
@@ -3614,7 +3614,7 @@
     "desc": "挥金如土"
   },
   "202061": {
-    "title": "高级捕捉40000次",
+    "title": "高级招募40000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 40000,
@@ -3624,7 +3624,7 @@
     "desc": "挥金如土"
   },
   "202062": {
-    "title": "高级捕捉45000次",
+    "title": "高级招募45000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 45000,
@@ -3634,7 +3634,7 @@
     "desc": "挥金如土"
   },
   "202063": {
-    "title": "高级捕捉50000次",
+    "title": "高级招募50000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 50000,
@@ -3644,7 +3644,7 @@
     "desc": "挥金如土"
   },
   "202064": {
-    "title": "高级捕捉60000次",
+    "title": "高级招募60000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 60000,
@@ -3654,7 +3654,7 @@
     "desc": "挥金如土"
   },
   "202065": {
-    "title": "高级捕捉70000次",
+    "title": "高级招募70000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 70000,
@@ -3664,7 +3664,7 @@
     "desc": "挥金如土"
   },
   "202066": {
-    "title": "高级捕捉80000次",
+    "title": "高级招募80000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 80000,
@@ -3674,7 +3674,7 @@
     "desc": "挥金如土"
   },
   "202067": {
-    "title": "高级捕捉90000次",
+    "title": "高级招募90000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 90000,
@@ -3684,7 +3684,7 @@
     "desc": "挥金如土"
   },
   "202068": {
-    "title": "高级捕捉100000次",
+    "title": "高级招募100000次",
     "refresh": "always",
     "type": "recruit_great",
     "value": 100000,
@@ -3694,7 +3694,7 @@
     "desc": "挥金如土"
   },
   "202070": {
-    "title": "普通捕捉10次",
+    "title": "普通招募10次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 10,
@@ -3702,187 +3702,187 @@
     "inherit": true,
     "award": "101:10000",
     "first": true,
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202071": {
-    "title": "普通捕捉20次",
+    "title": "普通招募20次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 20,
     "next": 202072,
     "inherit": true,
     "award": "101:12000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202072": {
-    "title": "普通捕捉30次",
+    "title": "普通招募30次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 30,
     "next": 202073,
     "inherit": true,
     "award": "101:14000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202073": {
-    "title": "普通捕捉40次",
+    "title": "普通招募40次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 40,
     "next": 202074,
     "inherit": true,
     "award": "101:16000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202074": {
-    "title": "普通捕捉50次",
+    "title": "普通招募50次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 50,
     "next": 202075,
     "inherit": true,
     "award": "101:18000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202075": {
-    "title": "普通捕捉60次",
+    "title": "普通招募60次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 60,
     "next": 202076,
     "inherit": true,
     "award": "101:20000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202076": {
-    "title": "普通捕捉70次",
+    "title": "普通招募70次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 70,
     "next": 202077,
     "inherit": true,
     "award": "101:22000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202077": {
-    "title": "普通捕捉80次",
+    "title": "普通招募80次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 80,
     "next": 202078,
     "inherit": true,
     "award": "101:24000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202078": {
-    "title": "普通捕捉90次",
+    "title": "普通招募90次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 90,
     "next": 202079,
     "inherit": true,
     "award": "101:26000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202079": {
-    "title": "普通捕捉100次",
+    "title": "普通招募100次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 100,
     "next": 202080,
     "inherit": true,
     "award": "101:28000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202080": {
-    "title": "普通捕捉200次",
+    "title": "普通招募200次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 200,
     "next": 202081,
     "inherit": true,
     "award": "101:30000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202081": {
-    "title": "普通捕捉300次",
+    "title": "普通招募300次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 300,
     "next": 202082,
     "inherit": true,
     "award": "101:32000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202082": {
-    "title": "普通捕捉400次",
+    "title": "普通招募400次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 400,
     "next": 202083,
     "inherit": true,
     "award": "101:34000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202083": {
-    "title": "普通捕捉500次",
+    "title": "普通招募500次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 500,
     "next": 202084,
     "inherit": true,
     "award": "101:36000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202084": {
-    "title": "普通捕捉600次",
+    "title": "普通招募600次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 600,
     "next": 202085,
     "inherit": true,
     "award": "101:38000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202085": {
-    "title": "普通捕捉700次",
+    "title": "普通招募700次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 700,
     "next": 202086,
     "inherit": true,
     "award": "101:40000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202086": {
-    "title": "普通捕捉800次",
+    "title": "普通招募800次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 800,
     "next": 202087,
     "inherit": true,
     "award": "101:42000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202087": {
-    "title": "普通捕捉900次",
+    "title": "普通招募900次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 900,
     "next": 202088,
     "inherit": true,
     "award": "101:44000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "202088": {
-    "title": "普通捕捉1000次",
+    "title": "普通招募1000次",
     "refresh": "always",
     "type": "recruit_normal",
     "value": 1000,
     "next": 202089,
     "inherit": true,
     "award": "101:46000",
-    "desc": "精灵捕捉"
+    "desc": "英雄招募"
   },
   "203001": {
     "title": "快速作战3次",
@@ -5675,7 +5675,7 @@
     "desc": "矿场开采"
   },
   "209001": {
-    "title": "参与飞行大赛10次",
+    "title": "参与魔宠竞速10次",
     "refresh": "always",
     "type": "escort",
     "value": 10,
@@ -5683,226 +5683,226 @@
     "inherit": true,
     "award": "101:10000",
     "first": true,
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209002": {
-    "title": "参与飞行大赛20次",
+    "title": "参与魔宠竞速20次",
     "refresh": "always",
     "type": "escort",
     "value": 20,
     "next": 209003,
     "inherit": true,
     "award": "101:15000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209003": {
-    "title": "参与飞行大赛30次",
+    "title": "参与魔宠竞速30次",
     "refresh": "always",
     "type": "escort",
     "value": 30,
     "next": 209004,
     "inherit": true,
     "award": "101:20000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209004": {
-    "title": "参与飞行大赛40次",
+    "title": "参与魔宠竞速40次",
     "refresh": "always",
     "type": "escort",
     "value": 40,
     "next": 209005,
     "inherit": true,
     "award": "101:25000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209005": {
-    "title": "参与飞行大赛50次",
+    "title": "参与魔宠竞速50次",
     "refresh": "always",
     "type": "escort",
     "value": 50,
     "next": 209006,
     "inherit": true,
     "award": "101:30000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209006": {
-    "title": "参与飞行大赛60次",
+    "title": "参与魔宠竞速60次",
     "refresh": "always",
     "type": "escort",
     "value": 60,
     "next": 209007,
     "inherit": true,
     "award": "101:35000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209007": {
-    "title": "参与飞行大赛70次",
+    "title": "参与魔宠竞速70次",
     "refresh": "always",
     "type": "escort",
     "value": 70,
     "next": 209008,
     "inherit": true,
     "award": "101:40000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209008": {
-    "title": "参与飞行大赛80次",
+    "title": "参与魔宠竞速80次",
     "refresh": "always",
     "type": "escort",
     "value": 80,
     "next": 209009,
     "inherit": true,
     "award": "101:45000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209009": {
-    "title": "参与飞行大赛90次",
+    "title": "参与魔宠竞速90次",
     "refresh": "always",
     "type": "escort",
     "value": 90,
     "next": 209010,
     "inherit": true,
     "award": "101:50000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209010": {
-    "title": "参与飞行大赛100次",
+    "title": "参与魔宠竞速100次",
     "refresh": "always",
     "type": "escort",
     "value": 100,
     "next": 209011,
     "inherit": true,
     "award": "101:55000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209011": {
-    "title": "参与飞行大赛150次",
+    "title": "参与魔宠竞速150次",
     "refresh": "always",
     "type": "escort",
     "value": 150,
     "next": 209012,
     "inherit": true,
     "award": "101:60000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209012": {
-    "title": "参与飞行大赛200次",
+    "title": "参与魔宠竞速200次",
     "refresh": "always",
     "type": "escort",
     "value": 200,
     "next": 209013,
     "inherit": true,
     "award": "101:65000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209013": {
-    "title": "参与飞行大赛250次",
+    "title": "参与魔宠竞速250次",
     "refresh": "always",
     "type": "escort",
     "value": 250,
     "next": 209014,
     "inherit": true,
     "award": "101:70000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209014": {
-    "title": "参与飞行大赛300次",
+    "title": "参与魔宠竞速300次",
     "refresh": "always",
     "type": "escort",
     "value": 300,
     "next": 209015,
     "inherit": true,
     "award": "101:75000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209015": {
-    "title": "参与飞行大赛350次",
+    "title": "参与魔宠竞速350次",
     "refresh": "always",
     "type": "escort",
     "value": 350,
     "next": 209016,
     "inherit": true,
     "award": "101:80000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209016": {
-    "title": "参与飞行大赛400次",
+    "title": "参与魔宠竞速400次",
     "refresh": "always",
     "type": "escort",
     "value": 400,
     "next": 209017,
     "inherit": true,
     "award": "101:85000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209017": {
-    "title": "参与飞行大赛450次",
+    "title": "参与魔宠竞速450次",
     "refresh": "always",
     "type": "escort",
     "value": 450,
     "next": 209018,
     "inherit": true,
     "award": "101:90000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209018": {
-    "title": "参与飞行大赛500次",
+    "title": "参与魔宠竞速500次",
     "refresh": "always",
     "type": "escort",
     "value": 500,
     "next": 209019,
     "inherit": true,
     "award": "101:95000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209019": {
-    "title": "参与飞行大赛600次",
+    "title": "参与魔宠竞速600次",
     "refresh": "always",
     "type": "escort",
     "value": 600,
     "next": 209020,
     "inherit": true,
     "award": "101:100000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209020": {
-    "title": "参与飞行大赛700次",
+    "title": "参与魔宠竞速700次",
     "refresh": "always",
     "type": "escort",
     "value": 700,
     "next": 209021,
     "inherit": true,
     "award": "101:105000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209021": {
-    "title": "参与飞行大赛800次",
+    "title": "参与魔宠竞速800次",
     "refresh": "always",
     "type": "escort",
     "value": 800,
     "next": 209022,
     "inherit": true,
     "award": "101:110000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209022": {
-    "title": "参与飞行大赛900次",
+    "title": "参与魔宠竞速900次",
     "refresh": "always",
     "type": "escort",
     "value": 900,
     "next": 209023,
     "inherit": true,
     "award": "101:115000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "209023": {
-    "title": "参与飞行大赛1000次",
+    "title": "参与魔宠竞速1000次",
     "refresh": "always",
     "type": "escort",
     "value": 1000,
     "inherit": true,
     "award": "101:120000",
-    "desc": "飞行大赛"
+    "desc": "魔宠竞速"
   },
   "210001": {
     "title": "参与梦幻模拟战10次",
@@ -6085,7 +6085,7 @@
     "desc": "梦幻模拟战"
   },
   "220001": {
-    "title": "通关华蓝洞窟3次",
+    "title": "通关蓝晶洞窟3次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 3,
@@ -6093,326 +6093,326 @@
     "inherit": true,
     "award": "201:10000",
     "first": true,
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220002": {
-    "title": "通关华蓝洞窟6次",
+    "title": "通关蓝晶洞窟6次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 6,
     "next": 220003,
     "inherit": true,
     "award": "201:11000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220003": {
-    "title": "通关华蓝洞窟9次",
+    "title": "通关蓝晶洞窟9次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 9,
     "next": 220004,
     "inherit": true,
     "award": "201:12000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220004": {
-    "title": "通关华蓝洞窟12次",
+    "title": "通关蓝晶洞窟12次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 12,
     "next": 220005,
     "inherit": true,
     "award": "201:13000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220005": {
-    "title": "通关华蓝洞窟15次",
+    "title": "通关蓝晶洞窟15次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 15,
     "next": 220006,
     "inherit": true,
     "award": "201:14000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220006": {
-    "title": "通关华蓝洞窟18次",
+    "title": "通关蓝晶洞窟18次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 18,
     "next": 220007,
     "inherit": true,
     "award": "201:15000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220007": {
-    "title": "通关华蓝洞窟21次",
+    "title": "通关蓝晶洞窟21次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 21,
     "next": 220008,
     "inherit": true,
     "award": "201:16000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220008": {
-    "title": "通关华蓝洞窟24次",
+    "title": "通关蓝晶洞窟24次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 24,
     "next": 220009,
     "inherit": true,
     "award": "201:17000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220009": {
-    "title": "通关华蓝洞窟27次",
+    "title": "通关蓝晶洞窟27次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 27,
     "next": 220010,
     "inherit": true,
     "award": "201:18000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220010": {
-    "title": "通关华蓝洞窟30次",
+    "title": "通关蓝晶洞窟30次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 30,
     "next": 220011,
     "inherit": true,
     "award": "201:19000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220011": {
-    "title": "通关华蓝洞窟33次",
+    "title": "通关蓝晶洞窟33次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 33,
     "next": 220012,
     "inherit": true,
     "award": "201:20000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220012": {
-    "title": "通关华蓝洞窟36次",
+    "title": "通关蓝晶洞窟36次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 36,
     "next": 220013,
     "inherit": true,
     "award": "201:21000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220013": {
-    "title": "通关华蓝洞窟39次",
+    "title": "通关蓝晶洞窟39次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 39,
     "next": 220014,
     "inherit": true,
     "award": "201:22000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220014": {
-    "title": "通关华蓝洞窟42次",
+    "title": "通关蓝晶洞窟42次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 42,
     "next": 220015,
     "inherit": true,
     "award": "201:23000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220015": {
-    "title": "通关华蓝洞窟45次",
+    "title": "通关蓝晶洞窟45次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 45,
     "next": 220016,
     "inherit": true,
     "award": "201:24000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220016": {
-    "title": "通关华蓝洞窟48次",
+    "title": "通关蓝晶洞窟48次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 48,
     "next": 220017,
     "inherit": true,
     "award": "201:25000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220017": {
-    "title": "通关华蓝洞窟51次",
+    "title": "通关蓝晶洞窟51次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 51,
     "next": 220018,
     "inherit": true,
     "award": "201:26000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220018": {
-    "title": "通关华蓝洞窟54次",
+    "title": "通关蓝晶洞窟54次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 54,
     "next": 220019,
     "inherit": true,
     "award": "201:27000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220019": {
-    "title": "通关华蓝洞窟57次",
+    "title": "通关蓝晶洞窟57次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 57,
     "next": 220020,
     "inherit": true,
     "award": "201:28000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220020": {
-    "title": "通关华蓝洞窟60次",
+    "title": "通关蓝晶洞窟60次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 60,
     "next": 220021,
     "inherit": true,
     "award": "201:29000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220021": {
-    "title": "通关华蓝洞窟63次",
+    "title": "通关蓝晶洞窟63次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 63,
     "next": 220022,
     "inherit": true,
     "award": "201:30000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220022": {
-    "title": "通关华蓝洞窟66次",
+    "title": "通关蓝晶洞窟66次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 66,
     "next": 220023,
     "inherit": true,
     "award": "201:31000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220023": {
-    "title": "通关华蓝洞窟69次",
+    "title": "通关蓝晶洞窟69次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 69,
     "next": 220024,
     "inherit": true,
     "award": "201:32000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220024": {
-    "title": "通关华蓝洞窟72次",
+    "title": "通关蓝晶洞窟72次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 72,
     "next": 220025,
     "inherit": true,
     "award": "201:33000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220025": {
-    "title": "通关华蓝洞窟75次",
+    "title": "通关蓝晶洞窟75次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 75,
     "next": 220026,
     "inherit": true,
     "award": "201:34000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220026": {
-    "title": "通关华蓝洞窟78次",
+    "title": "通关蓝晶洞窟78次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 78,
     "next": 220027,
     "inherit": true,
     "award": "201:35000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220027": {
-    "title": "通关华蓝洞窟81次",
+    "title": "通关蓝晶洞窟81次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 81,
     "next": 220028,
     "inherit": true,
     "award": "201:36000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220028": {
-    "title": "通关华蓝洞窟84次",
+    "title": "通关蓝晶洞窟84次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 84,
     "next": 220029,
     "inherit": true,
     "award": "201:37000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220029": {
-    "title": "通关华蓝洞窟87次",
+    "title": "通关蓝晶洞窟87次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 87,
     "next": 220030,
     "inherit": true,
     "award": "201:38000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220030": {
-    "title": "通关华蓝洞窟90次",
+    "title": "通关蓝晶洞窟90次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 90,
     "next": 220031,
     "inherit": true,
     "award": "201:39000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220031": {
-    "title": "通关华蓝洞窟93次",
+    "title": "通关蓝晶洞窟93次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 93,
     "next": 220032,
     "inherit": true,
     "award": "201:40000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220032": {
-    "title": "通关华蓝洞窟96次",
+    "title": "通关蓝晶洞窟96次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 96,
     "next": 220033,
     "inherit": true,
     "award": "201:41000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "220033": {
-    "title": "通关华蓝洞窟99次",
+    "title": "通关蓝晶洞窟99次",
     "refresh": "always",
     "type": "zhulu_pass",
     "value": 99,
     "inherit": true,
     "award": "201:42000",
-    "desc": "华蓝洞窟"
+    "desc": "蓝晶洞窟"
   },
   "230001": {
     "title": "获得护符10次",
@@ -7317,236 +7317,236 @@
     "desc": "跨服竞技"
   },
   "260001": {
-    "title": "宝可梦联赛中战胜10次",
+    "title": "巅峰对决中战胜10次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 10,
     "next": 260002,
     "inherit": true,
     "award": "101:10000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260002": {
-    "title": "宝可梦联赛中战胜20次",
+    "title": "巅峰对决中战胜20次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 20,
     "next": 260003,
     "inherit": true,
     "award": "101:11000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260003": {
-    "title": "宝可梦联赛中战胜30次",
+    "title": "巅峰对决中战胜30次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 30,
     "next": 260004,
     "inherit": true,
     "award": "101:12000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260004": {
-    "title": "宝可梦联赛中战胜40次",
+    "title": "巅峰对决中战胜40次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 40,
     "next": 260005,
     "inherit": true,
     "award": "101:13000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260005": {
-    "title": "宝可梦联赛中战胜50次",
+    "title": "巅峰对决中战胜50次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 50,
     "next": 260006,
     "inherit": true,
     "award": "101:14000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260006": {
-    "title": "宝可梦联赛中战胜60次",
+    "title": "巅峰对决中战胜60次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 60,
     "next": 260007,
     "inherit": true,
     "award": "101:15000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260007": {
-    "title": "宝可梦联赛中战胜70次",
+    "title": "巅峰对决中战胜70次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 70,
     "next": 260008,
     "inherit": true,
     "award": "101:16000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260008": {
-    "title": "宝可梦联赛中战胜80次",
+    "title": "巅峰对决中战胜80次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 80,
     "next": 260009,
     "inherit": true,
     "award": "101:17000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260009": {
-    "title": "宝可梦联赛中战胜90次",
+    "title": "巅峰对决中战胜90次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 90,
     "next": 260010,
     "inherit": true,
     "award": "101:18000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260010": {
-    "title": "宝可梦联赛中战胜100次",
+    "title": "巅峰对决中战胜100次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 100,
     "next": 260011,
     "inherit": true,
     "award": "101:19000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260011": {
-    "title": "宝可梦联赛中战胜150次",
+    "title": "巅峰对决中战胜150次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 150,
     "next": 260012,
     "inherit": true,
     "award": "101:20000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260012": {
-    "title": "宝可梦联赛中战胜200次",
+    "title": "巅峰对决中战胜200次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 200,
     "next": 260013,
     "inherit": true,
     "award": "101:21000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260013": {
-    "title": "宝可梦联赛中战胜250次",
+    "title": "巅峰对决中战胜250次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 250,
     "next": 260014,
     "inherit": true,
     "award": "101:22000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260014": {
-    "title": "宝可梦联赛中战胜300次",
+    "title": "巅峰对决中战胜300次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 300,
     "next": 260015,
     "inherit": true,
     "award": "101:23000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260015": {
-    "title": "宝可梦联赛中战胜350次",
+    "title": "巅峰对决中战胜350次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 350,
     "next": 260016,
     "inherit": true,
     "award": "101:24000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260016": {
-    "title": "宝可梦联赛中战胜400次",
+    "title": "巅峰对决中战胜400次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 400,
     "next": 260017,
     "inherit": true,
     "award": "101:25000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260017": {
-    "title": "宝可梦联赛中战胜450次",
+    "title": "巅峰对决中战胜450次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 450,
     "next": 260018,
     "inherit": true,
     "award": "101:26000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260018": {
-    "title": "宝可梦联赛中战胜500次",
+    "title": "巅峰对决中战胜500次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 500,
     "next": 260019,
     "inherit": true,
     "award": "101:27000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260019": {
-    "title": "宝可梦联赛中战胜600次",
+    "title": "巅峰对决中战胜600次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 600,
     "next": 260020,
     "inherit": true,
     "award": "101:28000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260020": {
-    "title": "宝可梦联赛中战胜700次",
+    "title": "巅峰对决中战胜700次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 700,
     "next": 260021,
     "inherit": true,
     "award": "101:29000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260021": {
-    "title": "宝可梦联赛中战胜800次",
+    "title": "巅峰对决中战胜800次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 800,
     "next": 260022,
     "inherit": true,
     "award": "101:30000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260022": {
-    "title": "宝可梦联赛中战胜900次",
+    "title": "巅峰对决中战胜900次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 900,
     "next": 260023,
     "inherit": true,
     "award": "101:31000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "260023": {
-    "title": "宝可梦联赛中战胜1000次",
+    "title": "巅峰对决中战胜1000次",
     "refresh": "always",
     "type": "ancient_win",
     "value": 1000,
     "inherit": true,
     "award": "101:32000",
-    "desc": "梦幻联赛"
+    "desc": "巅峰战场对决"
   },
   "270001": {
-    "title": "世界锦标赛中竞猜10次",
+    "title": "王者巅峰中竞猜10次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 10,
@@ -7556,7 +7556,7 @@
     "desc": "竞猜王者"
   },
   "270002": {
-    "title": "世界锦标赛中竞猜20次",
+    "title": "王者巅峰中竞猜20次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 20,
@@ -7566,7 +7566,7 @@
     "desc": "竞猜王者"
   },
   "270003": {
-    "title": "世界锦标赛中竞猜30次",
+    "title": "王者巅峰中竞猜30次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 30,
@@ -7576,7 +7576,7 @@
     "desc": "竞猜王者"
   },
   "270004": {
-    "title": "世界锦标赛中竞猜40次",
+    "title": "王者巅峰中竞猜40次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 40,
@@ -7586,7 +7586,7 @@
     "desc": "竞猜王者"
   },
   "270005": {
-    "title": "世界锦标赛中竞猜50次",
+    "title": "王者巅峰中竞猜50次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 50,
@@ -7596,7 +7596,7 @@
     "desc": "竞猜王者"
   },
   "270006": {
-    "title": "世界锦标赛中竞猜60次",
+    "title": "王者巅峰中竞猜60次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 60,
@@ -7606,7 +7606,7 @@
     "desc": "竞猜王者"
   },
   "270007": {
-    "title": "世界锦标赛中竞猜70次",
+    "title": "王者巅峰中竞猜70次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 70,
@@ -7616,7 +7616,7 @@
     "desc": "竞猜王者"
   },
   "270008": {
-    "title": "世界锦标赛中竞猜80次",
+    "title": "王者巅峰中竞猜80次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 80,
@@ -7626,7 +7626,7 @@
     "desc": "竞猜王者"
   },
   "270009": {
-    "title": "世界锦标赛中竞猜90次",
+    "title": "王者巅峰中竞猜90次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 90,
@@ -7636,7 +7636,7 @@
     "desc": "竞猜王者"
   },
   "270010": {
-    "title": "世界锦标赛中竞猜100次",
+    "title": "王者巅峰中竞猜100次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 100,
@@ -7646,7 +7646,7 @@
     "desc": "竞猜王者"
   },
   "270011": {
-    "title": "世界锦标赛中竞猜150次",
+    "title": "王者巅峰中竞猜150次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 150,
@@ -7656,7 +7656,7 @@
     "desc": "竞猜王者"
   },
   "270012": {
-    "title": "世界锦标赛中竞猜200次",
+    "title": "王者巅峰中竞猜200次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 200,
@@ -7666,7 +7666,7 @@
     "desc": "竞猜王者"
   },
   "270013": {
-    "title": "世界锦标赛中竞猜250次",
+    "title": "王者巅峰中竞猜250次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 250,
@@ -7676,7 +7676,7 @@
     "desc": "竞猜王者"
   },
   "270014": {
-    "title": "世界锦标赛中竞猜300次",
+    "title": "王者巅峰中竞猜300次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 300,
@@ -7686,7 +7686,7 @@
     "desc": "竞猜王者"
   },
   "270015": {
-    "title": "世界锦标赛中竞猜350次",
+    "title": "王者巅峰中竞猜350次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 350,
@@ -7696,7 +7696,7 @@
     "desc": "竞猜王者"
   },
   "270016": {
-    "title": "世界锦标赛中竞猜400次",
+    "title": "王者巅峰中竞猜400次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 400,
@@ -7706,7 +7706,7 @@
     "desc": "竞猜王者"
   },
   "270017": {
-    "title": "世界锦标赛中竞猜450次",
+    "title": "王者巅峰中竞猜450次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 450,
@@ -7716,7 +7716,7 @@
     "desc": "竞猜王者"
   },
   "270018": {
-    "title": "世界锦标赛中竞猜500次",
+    "title": "王者巅峰中竞猜500次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 500,
@@ -7726,7 +7726,7 @@
     "desc": "竞猜王者"
   },
   "270019": {
-    "title": "世界锦标赛中竞猜600次",
+    "title": "王者巅峰中竞猜600次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 600,
@@ -7736,7 +7736,7 @@
     "desc": "竞猜王者"
   },
   "270020": {
-    "title": "世界锦标赛中竞猜700次",
+    "title": "王者巅峰中竞猜700次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 700,
@@ -7746,7 +7746,7 @@
     "desc": "竞猜王者"
   },
   "270021": {
-    "title": "世界锦标赛中竞猜800次",
+    "title": "王者巅峰中竞猜800次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 800,
@@ -7756,7 +7756,7 @@
     "desc": "竞猜王者"
   },
   "270022": {
-    "title": "世界锦标赛中竞猜900次",
+    "title": "王者巅峰中竞猜900次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 900,
@@ -7766,7 +7766,7 @@
     "desc": "竞猜王者"
   },
   "270023": {
-    "title": "世界锦标赛中竞猜1000次",
+    "title": "王者巅峰中竞猜1000次",
     "refresh": "always",
     "type": "peak_bet",
     "value": 1000,
@@ -8265,70 +8265,70 @@
     "award": "110:210&1000100:5"
   },
   "302201": {
-    "title": "高级捕捉30次",
+    "title": "高级招募30次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 30,
     "award": "1000080:1&1000120:1"
   },
   "302202": {
-    "title": "高级捕捉60次",
+    "title": "高级招募60次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 60,
     "award": "1000080:2&1000120:1"
   },
   "302203": {
-    "title": "高级捕捉90次",
+    "title": "高级招募90次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 90,
     "award": "1000080:3&1000120:1"
   },
   "302204": {
-    "title": "高级捕捉120次",
+    "title": "高级招募120次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 120,
     "award": "1000080:5&1000120:2"
   },
   "302205": {
-    "title": "高级捕捉150次",
+    "title": "高级招募150次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 150,
     "award": "1000080:10&1000120:3"
   },
   "302206": {
-    "title": "高级捕捉200次",
+    "title": "高级招募200次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 200,
     "award": "1000080:20&1000120:4"
   },
   "302207": {
-    "title": "高级捕捉250次",
+    "title": "高级招募250次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 250,
     "award": "1000080:30&1000120:5"
   },
   "302208": {
-    "title": "高级捕捉300次",
+    "title": "高级招募300次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 300,
     "award": "1000080:40&1000130:1"
   },
   "302209": {
-    "title": "高级捕捉400次",
+    "title": "高级招募400次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 400,
     "award": "1000080:50&1000130:2"
   },
   "302210": {
-    "title": "高级捕捉500次",
+    "title": "高级招募500次",
     "refresh": "week_target",
     "type": "recruit_great",
     "value": 500,
@@ -8495,7 +8495,7 @@
     "award": "1000150:10&1000080:50"
   },
   "304101": {
-    "title": "在华蓝洞窟中击败2个敌人",
+    "title": "在蓝晶洞窟中击败2个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 2,
@@ -8503,7 +8503,7 @@
     "award": "1000400:1&1000300:10000"
   },
   "304102": {
-    "title": "在华蓝洞窟中击败4个敌人",
+    "title": "在蓝晶洞窟中击败4个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 4,
@@ -8511,7 +8511,7 @@
     "award": "1000400:2&1000300:20000"
   },
   "304103": {
-    "title": "在华蓝洞窟中击败6个敌人",
+    "title": "在蓝晶洞窟中击败6个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 6,
@@ -8519,7 +8519,7 @@
     "award": "1000400:3&1000300:30000"
   },
   "304104": {
-    "title": "在华蓝洞窟中击败8个敌人",
+    "title": "在蓝晶洞窟中击败8个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 8,
@@ -8527,7 +8527,7 @@
     "award": "1000400:4&1000300:40000"
   },
   "304105": {
-    "title": "在华蓝洞窟中击败10个敌人",
+    "title": "在蓝晶洞窟中击败10个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 10,
@@ -8535,7 +8535,7 @@
     "award": "1000400:5&1000300:50000"
   },
   "304106": {
-    "title": "在华蓝洞窟中击败12个敌人",
+    "title": "在蓝晶洞窟中击败12个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 12,
@@ -8543,7 +8543,7 @@
     "award": "1000400:6&1000300:60000"
   },
   "304107": {
-    "title": "在华蓝洞窟中击败14个敌人",
+    "title": "在蓝晶洞窟中击败14个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 14,
@@ -8551,7 +8551,7 @@
     "award": "1000400:7&1000300:70000"
   },
   "304108": {
-    "title": "在华蓝洞窟中击败16个敌人",
+    "title": "在蓝晶洞窟中击败16个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 16,
@@ -8559,7 +8559,7 @@
     "award": "1000400:8&1000300:80000"
   },
   "304109": {
-    "title": "在华蓝洞窟中击败18个敌人",
+    "title": "在蓝晶洞窟中击败18个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 18,
@@ -8567,7 +8567,7 @@
     "award": "1000400:9&1000300:90000"
   },
   "304110": {
-    "title": "在华蓝洞窟中击败20个敌人",
+    "title": "在蓝晶洞窟中击败20个敌人",
     "refresh": "week_target",
     "type": "zhulu_monster",
     "arg": 20,
@@ -8925,77 +8925,77 @@
     "award": "1000040:100&1000100:10"
   },
   "307101": {
-    "title": "梦幻大乱斗中战胜1次对手",
+    "title": "阵营战场中战胜1次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 1,
     "award": "405000:1&505000:1"
   },
   "307102": {
-    "title": "梦幻大乱斗中战胜2次对手",
+    "title": "阵营战场中战胜2次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 2,
     "award": "405000:2&505000:2"
   },
   "307103": {
-    "title": "梦幻大乱斗中战胜3次对手",
+    "title": "阵营战场中战胜3次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 3,
     "award": "405000:3&505000:3"
   },
   "307104": {
-    "title": "梦幻大乱斗中战胜4次对手",
+    "title": "阵营战场中战胜4次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 4,
     "award": "405000:4&505000:4"
   },
   "307105": {
-    "title": "梦幻大乱斗中战胜5次对手",
+    "title": "阵营战场中战胜5次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 5,
     "award": "405000:5&505000:5"
   },
   "307106": {
-    "title": "梦幻大乱斗中战胜6次对手",
+    "title": "阵营战场中战胜6次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 6,
     "award": "405000:6&505000:6"
   },
   "307107": {
-    "title": "梦幻大乱斗中战胜7次对手",
+    "title": "阵营战场中战胜7次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 7,
     "award": "405000:7&505000:7"
   },
   "307108": {
-    "title": "梦幻大乱斗中战胜8次对手",
+    "title": "阵营战场中战胜8次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 8,
     "award": "405000:8&505000:8"
   },
   "307109": {
-    "title": "梦幻大乱斗中战胜9次对手",
+    "title": "阵营战场中战胜9次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 9,
     "award": "405000:9&505000:9"
   },
   "307110": {
-    "title": "梦幻大乱斗中战胜10次对手",
+    "title": "阵营战场中战胜10次对手",
     "refresh": "week_target",
     "type": "muye_win",
     "value": 10,
     "award": "405000:10&505000:10"
   },
   "307201": {
-    "title": "将精灵升至6星",
+    "title": "将英雄升至6星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 6,
@@ -9003,7 +9003,7 @@
     "award": "1000120:1&1000130:1"
   },
   "307202": {
-    "title": "将精灵升至7星",
+    "title": "将英雄升至7星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 7,
@@ -9011,7 +9011,7 @@
     "award": "1000120:3&1000130:1"
   },
   "307203": {
-    "title": "将精灵升至8星",
+    "title": "将英雄升至8星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 8,
@@ -9019,7 +9019,7 @@
     "award": "1000120:5&1000130:1"
   },
   "307204": {
-    "title": "将精灵升至9星",
+    "title": "将英雄升至9星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 9,
@@ -9027,7 +9027,7 @@
     "award": "1000120:7&1000130:3"
   },
   "307205": {
-    "title": "将精灵升至10星",
+    "title": "将英雄升至10星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 10,
@@ -9035,7 +9035,7 @@
     "award": "1000120:9&1000130:5"
   },
   "307206": {
-    "title": "将精灵升至觉醒1星",
+    "title": "将英雄升至觉醒1星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 11,
@@ -9043,7 +9043,7 @@
     "award": "1000120:10&1000130:6"
   },
   "307207": {
-    "title": "将精灵升至觉醒2星",
+    "title": "将英雄升至觉醒2星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 12,
@@ -9051,7 +9051,7 @@
     "award": "1000120:15&1000130:7"
   },
   "307208": {
-    "title": "将精灵升至觉醒3星",
+    "title": "将英雄升至觉醒3星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 13,
@@ -9059,7 +9059,7 @@
     "award": "1000120:20&1000130:8"
   },
   "307209": {
-    "title": "将精灵升至觉醒4星",
+    "title": "将英雄升至觉醒4星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 14,
@@ -9067,7 +9067,7 @@
     "award": "1000120:25&1000130:9"
   },
   "307210": {
-    "title": "将精灵升至觉醒5星",
+    "title": "将英雄升至觉醒5星",
     "refresh": "week_target",
     "type": "hero",
     "arg": 15,
@@ -9075,70 +9075,70 @@
     "award": "1000120:30&1000130:10"
   },
   "401001": {
-    "title": "高级捕捉30次",
+    "title": "高级招募30次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 30,
     "award": "1000080:3"
   },
   "401002": {
-    "title": "高级捕捉60次",
+    "title": "高级招募60次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 60,
     "award": "1000080:6"
   },
   "401003": {
-    "title": "高级捕捉90次",
+    "title": "高级招募90次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 90,
     "award": "1000080:9"
   },
   "401004": {
-    "title": "高级捕捉120次",
+    "title": "高级招募120次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 120,
     "award": "1000080:12"
   },
   "401005": {
-    "title": "高级捕捉150次",
+    "title": "高级招募150次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 150,
     "award": "1000080:15"
   },
   "401006": {
-    "title": "高级捕捉180次",
+    "title": "高级招募180次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 180,
     "award": "1000120:1"
   },
   "401007": {
-    "title": "高级捕捉210次",
+    "title": "高级招募210次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 210,
     "award": "1000120:3"
   },
   "401008": {
-    "title": "高级捕捉240次",
+    "title": "高级招募240次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 240,
     "award": "1000120:5"
   },
   "401009": {
-    "title": "高级捕捉270次",
+    "title": "高级招募270次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 270,
     "award": "1000130:2"
   },
   "401010": {
-    "title": "高级捕捉300次",
+    "title": "高级招募300次",
     "refresh": "week_loop",
     "type": "recruit_great",
     "value": 300,
@@ -9285,7 +9285,7 @@
     "award": "1000300:400000"
   },
   "404001": {
-    "title": "精灵派遣六星任务1次",
+    "title": "英雄派遣六星任务1次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9293,7 +9293,7 @@
     "award": "405000:1"
   },
   "404002": {
-    "title": "精灵派遣六星任务2次",
+    "title": "英雄派遣六星任务2次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9301,7 +9301,7 @@
     "award": "405000:2"
   },
   "404003": {
-    "title": "精灵派遣六星任务3次",
+    "title": "英雄派遣六星任务3次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9309,7 +9309,7 @@
     "award": "405000:3"
   },
   "404004": {
-    "title": "精灵派遣六星任务5次",
+    "title": "英雄派遣六星任务5次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9317,7 +9317,7 @@
     "award": "405000:5"
   },
   "404005": {
-    "title": "精灵派遣六星任务7次",
+    "title": "英雄派遣六星任务7次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9325,7 +9325,7 @@
     "award": "405000:7"
   },
   "404006": {
-    "title": "精灵派遣六星任务9次",
+    "title": "英雄派遣六星任务9次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9333,7 +9333,7 @@
     "award": "405000:9"
   },
   "404007": {
-    "title": "精灵派遣六星任务11次",
+    "title": "英雄派遣六星任务11次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9341,7 +9341,7 @@
     "award": "405000:11"
   },
   "404008": {
-    "title": "精灵派遣六星任务13次",
+    "title": "英雄派遣六星任务13次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9349,7 +9349,7 @@
     "award": "405000:13"
   },
   "404009": {
-    "title": "精灵派遣六星任务15次",
+    "title": "英雄派遣六星任务15次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9357,7 +9357,7 @@
     "award": "405000:15"
   },
   "404010": {
-    "title": "精灵派遣六星任务20次",
+    "title": "英雄派遣六星任务20次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 6,
@@ -9592,21 +9592,21 @@
     "desc": "征战达到6关"
   },
   "501003": {
-    "title": "精灵:捕抓精灵",
+    "title": "英雄:招募英雄",
     "refresh": "officer",
     "type": "recruit_great",
     "value": 1,
     "award": "110:10",
-    "desc": "高级捕捉1次"
+    "desc": "高级招募1次"
   },
   "501004": {
-    "title": "精灵:提升等级",
+    "title": "英雄:提升等级",
     "refresh": "officer",
     "type": "heroLv",
     "arg": 30,
     "value": 1,
     "award": "110:10",
-    "desc": "任意精灵到达30级"
+    "desc": "任意英雄到达30级"
   },
   "502001": {
     "title": "主角:等级提升",
@@ -9626,13 +9626,13 @@
     "desc": "征战达到30关"
   },
   "502003": {
-    "title": "玩法:精灵派遣",
+    "title": "玩法:英雄派遣",
     "refresh": "officer",
     "type": "tour",
     "arg": 1,
     "value": 1,
     "award": "110:10",
-    "desc": "完成1个精灵派遣"
+    "desc": "完成1个英雄派遣"
   },
   "502004": {
     "title": "玩法:竞技挑战",
@@ -9701,13 +9701,13 @@
     "desc": "通关1次梦幻模拟战"
   },
   "504004": {
-    "title": "精灵:精灵助阵",
+    "title": "英雄:英雄助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 6,
     "value": 1,
     "award": "110:10",
-    "desc": "任意精灵升至6星"
+    "desc": "任意英雄升至6星"
   },
   "505001": {
     "title": "主角:等级提升",
@@ -9794,12 +9794,12 @@
     "desc": "征战达到190关"
   },
   "507003": {
-    "title": "玩法:华蓝洞窟",
+    "title": "玩法:蓝晶洞窟",
     "refresh": "officer",
     "type": "zhulu_monster",
     "value": 30,
     "award": "110:10",
-    "desc": "华蓝洞窟击杀30个怪物"
+    "desc": "蓝晶洞窟击杀30个怪物"
   },
   "507004": {
     "title": "玩法:挖掘宝石",
@@ -9836,13 +9836,13 @@
     "desc": "通关时空秘境第1章"
   },
   "508004": {
-    "title": "玩法:精灵任务",
+    "title": "玩法:英雄任务",
     "refresh": "officer",
     "type": "tour",
     "arg": 6,
     "value": 30,
     "award": "110:10",
-    "desc": "完成30次红色精灵任务"
+    "desc": "完成30次红色英雄任务"
   },
   "509001": {
     "title": "主角:等级提升",
@@ -9867,7 +9867,7 @@
     "type": "muye_win",
     "value": 5,
     "award": "110:10",
-    "desc": "梦幻大乱斗战胜5次"
+    "desc": "阵营战场战胜5次"
   },
   "509004": {
     "title": "玩法:火系试炼",
@@ -9904,13 +9904,13 @@
     "desc": "试炼塔挑战至300层"
   },
   "510004": {
-    "title": "精灵:精灵觉醒",
+    "title": "英雄:英雄觉醒",
     "refresh": "officer",
     "type": "hero",
     "arg": 11,
     "value": 1,
     "award": "110:10",
-    "desc": "任意精灵升至觉醒1星"
+    "desc": "任意英雄升至觉醒1星"
   },
   "511001": {
     "title": "主角:等级提升",
@@ -9939,13 +9939,13 @@
     "desc": "木系试炼塔挑战至60层"
   },
   "511004": {
-    "title": "精灵:精灵助阵",
+    "title": "英雄:英雄助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 12,
     "value": 1,
     "award": "110:10",
-    "desc": "任意精灵升至觉醒2星"
+    "desc": "任意英雄升至觉醒2星"
   },
   "512001": {
     "title": "主角:等级提升",
@@ -10035,13 +10035,13 @@
     "desc": "征战达到400关"
   },
   "514003": {
-    "title": "精灵:精灵助阵",
+    "title": "英雄:英雄助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 15,
     "value": 1,
     "award": "110:10",
-    "desc": "拥有1个觉醒5星精灵"
+    "desc": "拥有1个觉醒5星英雄"
   },
   "514004": {
     "title": "玩法:时空秘境",
@@ -10070,13 +10070,13 @@
     "desc": "征战达到430关"
   },
   "515003": {
-    "title": "精灵:精灵助阵",
+    "title": "英雄:英雄助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 15,
     "value": 6,
     "award": "110:10",
-    "desc": "拥有6个觉醒5星精灵"
+    "desc": "拥有6个觉醒5星英雄"
   },
   "515004": {
     "title": "玩法:时空秘境",
@@ -10154,323 +10154,323 @@
     "award": "1000280:10"
   },
   "700100": {
-    "title": "高级招募30次",
+    "title": "人物到达20级",
     "refresh": "default",
-    "type": "recruit_great",
-    "value": 30,
+    "type": "loadLv",
+    "value": 20,
     "award": "1000080:10",
     "first": true
   },
   "700101": {
-    "title": "高级招募100次",
+    "title": "人物到达30级",
     "refresh": "default",
-    "type": "recruit_great",
-    "value": 100,
-    "award": "1000080:10",
+    "type": "loadLv",
+    "value": 30,
+    "award": "1000080:15",
     "first": true
   },
   "700102": {
-    "title": "高级招募300次",
+    "title": "人物到达50级",
     "refresh": "default",
-    "type": "recruit_great",
-    "value": 300,
-    "award": "1000080:10",
+    "type": "loadLv",
+    "value": 50,
+    "award": "1000080:20",
     "first": true
   },
   "700103": {
-    "title": "招募5个五星英雄",
+    "title": "人物到达60级",
     "refresh": "default",
-    "type": "hero",
-    "arg": 5,
-    "value": 5,
-    "award": "1000080:10",
+    "type": "loadLv",
+    "value": 60,
+    "award": "1000080:25",
     "first": true
   },
   "700104": {
-    "title": "招募20个五星英雄",
+    "title": "人物到达80级",
     "refresh": "default",
-    "type": "hero",
-    "arg": 5,
-    "value": 20,
-    "award": "1000080:10",
+    "type": "loadLv",
+    "value": 80,
+    "award": "1000080:30",
     "first": true
   },
   "700105": {
-    "title": "招募100个五星英雄",
+    "title": "人物到达100级",
     "refresh": "default",
-    "type": "hero",
-    "arg": 5,
+    "type": "loadLv",
     "value": 100,
-    "award": "1000080:10",
+    "award": "1000080:50",
     "first": true
   },
   "700200": {
-    "title": "快速作战4次",
+    "title": "主线通关30关",
     "refresh": "default",
-    "type": "quick",
-    "value": 4,
-    "award": "101100003:1",
+    "type": "checkpoints",
+    "arg": 30,
+    "value": 1,
+    "award": "110:300",
     "first": true
   },
   "700201": {
-    "title": "快速作战8次",
+    "title": "主线通关60关",
     "refresh": "default",
-    "type": "quick",
-    "value": 8,
-    "award": "101100003:1",
+    "type": "checkpoints",
+    "arg": 60,
+    "value": 1,
+    "award": "110:600",
     "first": true
   },
   "700202": {
-    "title": "快速作战20次",
+    "title": "主线通关90关",
     "refresh": "default",
-    "type": "quick",
-    "value": 20,
-    "award": "101100003:1",
+    "type": "checkpoints",
+    "arg": 90,
+    "value": 1,
+    "award": "110:900",
     "first": true
   },
   "700203": {
-    "title": "征战通关20关",
+    "title": "主线通关120关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 20,
+    "arg": 120,
     "value": 1,
-    "award": "101100003:1",
+    "award": "110:1200",
     "first": true
   },
   "700204": {
-    "title": "征战通关50关",
+    "title": "主线通关150关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 50,
+    "arg": 150,
     "value": 1,
-    "award": "101100003:1",
+    "award": "110:1500",
     "first": true
   },
   "700205": {
-    "title": "征战通关100关",
+    "title": "主线通关200关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 100,
+    "arg": 200,
     "value": 1,
-    "award": "101100003:1",
+    "award": "110:2000",
     "first": true
   },
   "700300": {
-    "title": "英雄升级至150级",
+    "title": "试练塔到达50层",
     "refresh": "default",
-    "type": "heroLv",
-    "arg": 150,
-    "value": 1,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 50,
+    "award": "505002:10",
     "first": true
   },
   "700301": {
-    "title": "英雄升级至210级",
+    "title": "试练塔到达100层",
     "refresh": "default",
-    "type": "heroLv",
-    "arg": 210,
-    "value": 1,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 100,
+    "award": "505002:10",
     "first": true
   },
   "700302": {
-    "title": "英雄升级至270级",
+    "title": "试练塔到达150层",
     "refresh": "default",
-    "type": "heroLv",
-    "arg": 270,
-    "value": 1,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 150,
+    "award": "505002:10",
     "first": true
   },
   "700303": {
-    "title": "战力提升至300万",
+    "title": "试练塔到达200层",
     "refresh": "default",
-    "type": "totalCe",
-    "value": 3000000,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 200,
+    "award": "505002:10",
     "first": true
   },
   "700304": {
-    "title": "战力提升至400万",
+    "title": "试练塔到达250层",
     "refresh": "default",
-    "type": "totalCe",
-    "value": 4000000,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 250,
+    "award": "505002:10",
     "first": true
   },
   "700305": {
-    "title": "战力提升至500万",
+    "title": "试练塔到达300层",
     "refresh": "default",
-    "type": "totalCe",
-    "value": 5000000,
-    "award": "109300001:1",
+    "type": "ttt",
+    "value": 300,
+    "award": "505002:10",
     "first": true
   },
   "700400": {
-    "title": "解锁1个红颜",
+    "title": "通关时空秘境第1章",
     "refresh": "default",
-    "type": "beauty_num",
+    "type": "ss_pass",
+    "arg": 10,
     "value": 1,
-    "award": "6050000:1",
+    "award": "505004:10",
     "first": true
   },
   "700401": {
-    "title": "解锁2个红颜",
+    "title": "通关时空秘境第2章",
     "refresh": "default",
-    "type": "beauty_num",
-    "value": 2,
-    "award": "6050000:1",
+    "type": "ss_pass",
+    "arg": 20,
+    "value": 1,
+    "award": "505004:10",
     "first": true
   },
   "700402": {
-    "title": "解锁3个红颜",
+    "title": "通关时空秘境第3章",
     "refresh": "default",
-    "type": "beauty_num",
-    "value": 3,
-    "award": "6050000:1",
+    "type": "ss_pass",
+    "arg": 30,
+    "value": 1,
+    "award": "505004:10",
     "first": true
   },
   "700403": {
-    "title": "提升红颜好感度1000点",
+    "title": "通关时空秘境第4章",
     "refresh": "default",
-    "type": "beauty_opinion",
-    "value": 1000,
-    "award": "6050000:1",
+    "type": "ss_pass",
+    "arg": 40,
+    "value": 1,
+    "award": "505004:10",
     "first": true
   },
   "700404": {
-    "title": "提升红颜好感度3000点",
+    "title": "通关时空秘境第5章",
     "refresh": "default",
-    "type": "beauty_opinion",
-    "value": 3000,
-    "award": "6050000:1",
+    "type": "ss_pass",
+    "arg": 50,
+    "value": 1,
+    "award": "505004:10",
     "first": true
   },
   "700405": {
-    "title": "提升红颜好感度5000点",
+    "title": "通关时空秘境第6章",
     "refresh": "default",
-    "type": "beauty_opinion",
-    "value": 5000,
-    "award": "6050000:1",
+    "type": "ss_pass",
+    "arg": 60,
+    "value": 1,
+    "award": "505004:10",
     "first": true
   },
   "700500": {
-    "title": "封地大厅3级",
+    "title": "总战斗力到达100万",
     "refresh": "default",
-    "type": "manor_lv",
-    "arg": 3,
-    "value": 1,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 1000000,
+    "award": "10020:1",
     "first": true
   },
   "700501": {
-    "title": "封地大厅5级",
+    "title": "总战斗力到达150万",
     "refresh": "default",
-    "type": "manor_lv",
-    "arg": 5,
-    "value": 1,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 1500000,
+    "award": "10020:1",
     "first": true
   },
   "700502": {
-    "title": "封地大厅7级",
+    "title": "总战斗力到达200万",
     "refresh": "default",
-    "type": "manor_lv",
-    "arg": 7,
-    "value": 1,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 2000000,
+    "award": "10020:1",
     "first": true
   },
   "700503": {
-    "title": "获得300建筑评分",
+    "title": "总战斗力到达300万",
     "refresh": "default",
-    "type": "manor_score",
-    "value": 300,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 3000000,
+    "award": "10020:1",
     "first": true
   },
   "700504": {
-    "title": "获得500建筑评分",
+    "title": "总战斗力到达500万",
     "refresh": "default",
-    "type": "manor_score",
-    "value": 500,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 5000000,
+    "award": "10020:1",
     "first": true
   },
   "700505": {
-    "title": "获得800建筑评分",
+    "title": "总战斗力到达1000万",
     "refresh": "default",
-    "type": "manor_score",
-    "value": 800,
-    "award": "15200:1",
+    "type": "totalCe",
+    "value": 10000000,
+    "award": "10020:1",
     "first": true
   },
   "721010": {
-    "title": "主公等级达到50级",
+    "title": "主角等级达到10级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 10,
+    "award": "10020:1",
+    "first": true
+  },
+  "721020": {
+    "title": "主角等级达到30级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 30,
+    "award": "10020:1",
+    "first": true
+  },
+  "721030": {
+    "title": "主角等级达到50级",
     "refresh": "infinite",
     "type": "loadLv",
     "value": 50,
     "award": "10020:1",
     "first": true
   },
-  "721020": {
-    "title": "主公等级达到70级",
+  "721040": {
+    "title": "主角等级达到70级",
     "refresh": "infinite",
     "type": "loadLv",
     "value": 70,
     "award": "10020:1",
     "first": true
   },
-  "721030": {
-    "title": "主公等级达到90级",
+  "721050": {
+    "title": "主角等级达到90级",
     "refresh": "infinite",
     "type": "loadLv",
     "value": 90,
     "award": "10020:1",
     "first": true
   },
-  "721040": {
-    "title": "主公等级达到110级",
-    "refresh": "infinite",
-    "type": "loadLv",
-    "value": 110,
-    "award": "10020:1",
-    "first": true
-  },
-  "721050": {
-    "title": "主公等级达到130级",
-    "refresh": "infinite",
-    "type": "loadLv",
-    "value": 130,
-    "award": "10020:1",
-    "first": true
-  },
   "721060": {
-    "title": "主公等级达到150级",
+    "title": "主角等级达到100级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 100,
+    "award": "10020:1",
+    "first": true
+  },
+  "721070": {
+    "title": "主角等级达到120级",
+    "refresh": "infinite",
+    "type": "loadLv",
+    "value": 120,
+    "award": "10020:1",
+    "first": true
+  },
+  "721080": {
+    "title": "主角等级达到150级",
     "refresh": "infinite",
     "type": "loadLv",
     "value": 150,
     "award": "10020:1",
     "first": true
   },
-  "721070": {
-    "title": "主公等级达到170级",
-    "refresh": "infinite",
-    "type": "loadLv",
-    "value": 170,
-    "award": "10020:1",
-    "first": true
-  },
-  "721080": {
-    "title": "主公等级达到190级",
-    "refresh": "infinite",
-    "type": "loadLv",
-    "value": 190,
-    "award": "10020:1",
-    "first": true
-  },
   "721090": {
-    "title": "主公等级达到200级",
+    "title": "主角等级达到200级",
     "refresh": "infinite",
     "type": "loadLv",
     "value": 200,
@@ -10478,7 +10478,7 @@
     "first": true
   },
   "506105080": {
-    "title": "活动期间内将海蒂亚升至6星",
+    "title": "活动期间内将乌璐升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 105080,
@@ -10494,7 +10494,7 @@
     "award": "207:100&201:500000&101:100000&1000050:500"
   },
   "506105100": {
-    "title": "活动期间内将露琪亚升至6星",
+    "title": "活动期间内将夏露露升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 105100,
@@ -10534,7 +10534,7 @@
     "award": "207:100&201:500000&101:100000&1000050:500"
   },
   "506305090": {
-    "title": "活动期间内将爱姬升至6星",
+    "title": "活动期间内将乌鲁蒂亚升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 305090,
@@ -10558,7 +10558,7 @@
     "award": "207:100&201:500000&101:100000&1000050:500"
   },
   "506405090": {
-    "title": "活动期间内将亚丝娜升至6星",
+    "title": "活动期间内将诗乃升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 405090,
@@ -10574,7 +10574,7 @@
     "award": "207:100&201:500000&101:100000&1000050:500"
   },
   "506505090": {
-    "title": "活动期间内将美琴升至6星",
+    "title": "活动期间内将乌鲁蒂亚升至6星",
     "refresh": "topic",
     "type": "heroStar_6",
     "arg": 505090,
@@ -10582,7 +10582,7 @@
     "award": "207:100&201:500000&101:100000&1000050:500"
   },
   "507105080": {
-    "title": "活动期间内将海蒂亚升至7星",
+    "title": "活动期间内将乌璐升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 105080,
@@ -10598,7 +10598,7 @@
     "award": "207:200&1000080:3&1000180:1&1000170:10"
   },
   "507105100": {
-    "title": "活动期间内将露琪亚升至7星",
+    "title": "活动期间内将夏露露升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 105100,
@@ -10638,7 +10638,7 @@
     "award": "207:200&1000080:3&1000180:1&1000170:10"
   },
   "507305090": {
-    "title": "活动期间内将爱姬升至7星",
+    "title": "活动期间内将乌鲁蒂亚升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 305090,
@@ -10662,7 +10662,7 @@
     "award": "207:200&1000080:3&1000180:1&1000170:10"
   },
   "507405090": {
-    "title": "活动期间内将亚丝娜升至7星",
+    "title": "活动期间内将诗乃升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 405090,
@@ -10678,7 +10678,7 @@
     "award": "207:200&1000080:3&1000180:1&1000170:10"
   },
   "507505090": {
-    "title": "活动期间内将美琴升至7星",
+    "title": "活动期间内将乌鲁蒂亚升至7星",
     "refresh": "topic",
     "type": "heroStar_7",
     "arg": 505090,
@@ -10686,7 +10686,7 @@
     "award": "207:200&1000080:3&1000180:1&1000170:10"
   },
   "508105080": {
-    "title": "活动期间内将海蒂亚升至8星",
+    "title": "活动期间内将乌璐升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 105080,
@@ -10702,7 +10702,7 @@
     "award": "207:400&1000100:1&4002:1&1000170:10"
   },
   "508105100": {
-    "title": "活动期间内将露琪亚升至8星",
+    "title": "活动期间内将夏露露升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 105100,
@@ -10742,7 +10742,7 @@
     "award": "207:400&1000100:1&4002:1&1000170:10"
   },
   "508305090": {
-    "title": "活动期间内将爱姬升至8星",
+    "title": "活动期间内将乌鲁蒂亚升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 305090,
@@ -10766,7 +10766,7 @@
     "award": "207:400&1000120:1&4002:1&1000170:10"
   },
   "508405090": {
-    "title": "活动期间内将亚丝娜升至8星",
+    "title": "活动期间内将诗乃升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 405090,
@@ -10782,7 +10782,7 @@
     "award": "207:400&1000120:1&4002:1&1000170:10"
   },
   "508505090": {
-    "title": "活动期间内将美琴升至8星",
+    "title": "活动期间内将乌鲁蒂亚升至8星",
     "refresh": "topic",
     "type": "heroStar_8",
     "arg": 505090,
@@ -10790,7 +10790,7 @@
     "award": "207:400&1000120:1&4002:1&1000170:10"
   },
   "509105080": {
-    "title": "活动期间内将海蒂亚升至9星",
+    "title": "活动期间内将乌璐升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 105080,
@@ -10806,7 +10806,7 @@
     "award": "207:600&1000120:1&4003:1&1000503:1"
   },
   "509105100": {
-    "title": "活动期间内将露琪亚升至9星",
+    "title": "活动期间内将夏露露升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 105100,
@@ -10846,7 +10846,7 @@
     "award": "207:600&1000120:1&4003:1&1000503:1"
   },
   "509305090": {
-    "title": "活动期间内将爱姬升至9星",
+    "title": "活动期间内将乌鲁蒂亚升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 305090,
@@ -10870,7 +10870,7 @@
     "award": "207:600&1000130:1&4003:1&1000504:1"
   },
   "509405090": {
-    "title": "活动期间内将亚丝娜升至9星",
+    "title": "活动期间内将诗乃升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 405090,
@@ -10886,7 +10886,7 @@
     "award": "207:600&1000130:1&4003:1&1000504:1"
   },
   "509505090": {
-    "title": "活动期间内将美琴升至9星",
+    "title": "活动期间内将乌鲁蒂亚升至9星",
     "refresh": "topic",
     "type": "heroStar_9",
     "arg": 505090,
@@ -10894,7 +10894,7 @@
     "award": "207:600&1000130:1&4003:1&1000504:1"
   },
   "510105080": {
-    "title": "活动期间内将海蒂亚升至10星",
+    "title": "活动期间内将乌璐升至10星",
     "refresh": "topic",
     "type": "heroStar_10",
     "arg": 105080,
@@ -10910,7 +10910,7 @@
     "award": "207:1000&1000130:1&4004:1&1000504:1"
   },
   "510105100": {
-    "title": "活动期间内将露琪亚升至10星",
+    "title": "活动期间内将夏露露升至10星",
     "refresh": "topic",
     "type": "heroStar_10",
     "arg": 105100,
@@ -10950,7 +10950,7 @@
     "award": "207:1000&1000130:1&4004:1&1000504:1"
   },
   "510305090": {
-    "title": "活动期间内将爱姬升至10星",
+    "title": "活动期间内将乌鲁蒂亚升至10星",
     "refresh": "topic",
     "type": "heroStar_10",
     "arg": 305090,
@@ -10974,7 +10974,7 @@
     "award": "207:1000&1000130:1&4004:1&1000190:1"
   },
   "510405090": {
-    "title": "活动期间内将亚丝娜升至10星",
+    "title": "活动期间内将诗乃升至10星",
     "refresh": "topic",
     "type": "heroStar_10",
     "arg": 405090,
@@ -10990,7 +10990,7 @@
     "award": "207:1000&1000130:1&4004:1&1000190:1"
   },
   "510505090": {
-    "title": "活动期间内将美琴升至10星",
+    "title": "活动期间内将乌鲁蒂亚升至10星",
     "refresh": "topic",
     "type": "heroStar_10",
     "arg": 505090,
