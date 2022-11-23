@@ -944,28 +944,29 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "少将军如此为城中百姓着想，小女子定舍命奉陪"
+    "text": "少将军如此为城中百姓着想，小女子定舍命奉陪",
+    "next": "shangu_10006202"
   },
   "shangu_10006202": {
     "cmd": "text",
     "characterId": "self",
     "name": "self",
     "text": "有我在，定不会让你受伤",
-    "next": "shangu_10006202"
+    "next": "shangu_10006203"
   },
   "shangu_10006203": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
     "text": "看少将军的样子，应该是久经沙场",
-    "next": "shangu_10006203"
+    "next": "shangu_10006204"
   },
   "shangu_10006204": {
     "cmd": "text",
     "characterId": "self",
     "name": "self",
     "text": "如今天下纷乱，只能护这一方百姓",
-    "next": "shangu_10006204"
+    "next": "shangu_10006205"
   },
   "shangu_10006205": {
     "cmd": "text",
@@ -1122,7 +1123,8 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "少将军难道就不想知道是为何？"
+    "text": "少将军难道就不想知道是为何？",
+    "next": "hupan_10002202"
   },
   "hupan_10002202": {
     "cmd": "choice",
@@ -2135,13 +2137,15 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "感谢少将军的热情邀约，但今日确实太晚了，抱歉"
+    "text": "感谢少将军的热情邀约，但今日确实太晚了，抱歉",
+    "next": "shiji_10002000_1"
   },
   "shiji_10002201": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "下次定能与少将军一起见证黄昏"
+    "text": "下次定能与少将军一起见证黄昏",
+    "next": "shiji_10002000_1"
   },
   "shiji_10002000_1": {
     "cmd": "end",
@@ -2342,13 +2346,15 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "少将军懂的真多"
+    "text": "少将军懂的真多",
+    "next": "shiji_10006000_1"
   },
   "shiji_10006102": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "虽然觉得不靠谱，但是还是觉得挺有意思"
+    "text": "虽然觉得不靠谱，但是还是觉得挺有意思",
+    "next": "shiji_10006000_2"
   },
   "shiji_10006000_1": {
     "cmd": "end",
@@ -2407,7 +2413,8 @@
     "cmd": "choice",
     "choice1": "想看舞姿",
     "choice1_next": "huayuan_10001101",
-    "choice2": "随口一说"
+    "choice2": "随口一说",
+    "choice2_next": "huayuan_10001201"
   },
   "huayuan_10001101": {
     "cmd": "text",
@@ -2441,7 +2448,8 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "今日与少将军同游共赏，甚是心欢"
+    "text": "今日与少将军同游共赏，甚是心欢",
+    "next": "huayuan_10001000_1"
   },
   "huayuan_10001121": {
     "cmd": "text",
@@ -2461,7 +2469,15 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "就相信你一回"
+    "text": "就相信你一回",
+    "next": "huayuan_10001000_2"
+  },
+  "huayuan_10001201": {
+    "cmd": "text",
+    "characterId": "beaut",
+    "name": "beaut",
+    "text": "感谢少将军的邀约，能与少将军同行深感欢喜",
+    "next": "huayuan_10001000_3"
   },
   "huayuan_10001000_1": {
     "cmd": "end",
@@ -2472,6 +2488,11 @@
     "cmd": "end",
     "text": "beaut对你好感度大幅增加",
     "result": "att3_3"
+  },
+  "huayuan_10001000_3": {
+    "cmd": "end",
+    "text": "beaut对你好感度大幅增加",
+    "result": "att4_3"
   },
   "huayuan_10002001": {
     "cmd": "begin",
@@ -2613,13 +2634,15 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "抱歉少将军，下次定与少将军同行"
+    "text": "抱歉少将军，下次定与少将军同行",
+    "next": "huayuan_10003000_1"
   },
   "huayuan_10003201": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "抱歉少将军，今日确实无法抽出时间，我们下次再约吧"
+    "text": "抱歉少将军，今日确实无法抽出时间，我们下次再约吧",
+    "next": "huayuan_10003000_2"
   },
   "huayuan_10003000_1": {
     "cmd": "end",
@@ -3362,21 +3385,21 @@
     "characterId": "beaut",
     "name": "beaut",
     "text": "感谢少将军的安慰，但还是不想出门",
-    "next": "senlin_10002000_1"
+    "next": "senlin_10004000_1"
   },
   "senlin_10004121": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
     "text": "感谢少将军寻得的宠物，可那毕竟不一样，抱歉少将军今日不想出门",
-    "next": "senlin_10002000_2"
+    "next": "senlin_10004000_2"
   },
   "senlin_10004201": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
     "text": "下次定能与少将军同行",
-    "next": "senlin_10002000_3"
+    "next": "senlin_10004000_3"
   },
   "senlin_10004000_1": {
     "cmd": "end",
@@ -3486,13 +3509,15 @@
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "少将军果然武艺高强，此行无忧"
+    "text": "少将军果然武艺高强，此行无忧",
+    "next": "senlin_10006000_1"
   },
   "senlin_10006201": {
     "cmd": "text",
     "characterId": "beaut",
     "name": "beaut",
-    "text": "还是相信少将军一回"
+    "text": "还是相信少将军一回",
+    "next": "senlin_10006000_2"
   },
   "senlin_10006000_1": {
     "cmd": "end",
