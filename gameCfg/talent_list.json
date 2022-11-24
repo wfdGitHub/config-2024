@@ -1307,7 +1307,7 @@
     "value1": 0.05
   },
   "9501": {
-    "des": "技能命中的目标越少，沉默概率越高，每少一个目标，沉默概率提升5%",
+    "des": "技能命中的目标越少，折戟概率越高，每少一个目标，折戟概率提升5%",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
@@ -1457,7 +1457,7 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "9613": {
-    "des": "受到控制效果（折戟、沉默、眩晕、嘲讽）概率降低35%",
+    "des": "受到控制效果（折戟、折戟、眩晕、嘲讽）概率降低35%",
     "key1": "control_buff_lowrate",
     "value1": 0.35
   },
@@ -3063,7 +3063,7 @@
     "value1": true
   },
   "40502010": {
-    "des": "释放技能时，有100%概率添加沉默，持续1回合",
+    "des": "释放技能时，有100%概率添加折戟，持续1回合",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -3759,7 +3759,7 @@
     "value2": 0.26
   },
   "50510006": {
-    "des": "普通攻击有60%概率沉默目标",
+    "des": "普通攻击有60%概率折戟目标",
     "key1": "normal_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
@@ -3769,7 +3769,7 @@
     "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50510010": {
-    "des": "释放技能时，有100%概率使目标沉默1回合",
+    "des": "释放技能时，有100%概率使目标折戟1回合",
     "key1": "skill_buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -4670,21 +4670,21 @@
   },
   "NPC_GFS": {
     "name": "高反伤",
-    "des": "反伤效果30%",
+    "des": "反伤效果50%",
     "key1": "hit_rebound",
-    "value1": 0.3
+    "value1": 0.5
   },
   "NPC_CJFS": {
     "name": "超级反伤",
-    "des": "反伤效果60%",
+    "des": "反伤效果100%",
     "key1": "hit_rebound",
-    "value1": 0.6
+    "value1": 1
   },
   "NPC_SJHX": {
     "name": "受伤回血",
-    "des": "受到伤害恢复5%最大生命值",
+    "des": "受到伤害恢复15%最大生命值",
     "key1": "behit_heal",
-    "value1": 0.05
+    "value1": 0.15
   },
   "NPC_GDCR": {
     "name": "感电折戟",
