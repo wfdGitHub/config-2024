@@ -2476,6 +2476,8 @@
     "name": "无限名将令",
     "des": "使用无限名将令,可以在无限十连中提取英雄",
     "type": "item",
+    "useType": "hook_lord",
+    "arg": 60,
     "gold": 20000,
     "coin": 100000000,
     "buyNum": 1,
@@ -3796,6 +3798,18 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "200101": {
+    "name": "1小时主公经验",
+    "des": "使用后可获得1小时当前主线关卡进度对应的挂机主公经验收益",
+    "type": "item",
+    "useType": "hook_lord",
+    "arg": 120,
+    "gold": 500,
+    "coin": 2500000,
+    "buyNum": 1,
+    "quality": 2,
+    "source1": "gift"
+  },
   "200102": {
     "name": "2小时主公经验",
     "des": "使用后可获得2小时当前主线关卡进度对应的挂机主公经验收益",
@@ -3842,6 +3856,18 @@
     "coin": 120000000,
     "buyNum": 1,
     "quality": 6,
+    "source1": "gift"
+  },
+  "200201": {
+    "name": "1小时英雄经验",
+    "des": "使用后可获得1小时当前主线关卡进度对应的挂机英雄经验收益",
+    "type": "item",
+    "useType": "hook_hero",
+    "arg": 60,
+    "gold": 200,
+    "coin": 1000000,
+    "buyNum": 1,
+    "quality": 2,
     "source1": "gift"
   },
   "200202": {
@@ -3904,6 +3930,18 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "200301": {
+    "name": "1小时铜币",
+    "des": "使用后可获得1小时当前主线关卡进度对应的挂机铜币收益",
+    "type": "item",
+    "useType": "hook_coin",
+    "arg": 60,
+    "gold": 200,
+    "coin": 1000000,
+    "buyNum": 1,
+    "quality": 2,
+    "source1": "gift"
+  },
   "200302": {
     "name": "2小时铜币",
     "des": "使用后可获得2小时当前主线关卡进度对应的挂机铜币收益",
@@ -3962,6 +4000,66 @@
     "buyNum": 1,
     "quality": 4,
     "effects": "baowu",
+    "source1": "gift"
+  },
+  "200401": {
+    "name": "1小时无双灵气",
+    "des": "使用后可获得1小时当前主线关卡进度对应的挂机无双灵气收益",
+    "type": "item",
+    "useType": "hook_power",
+    "arg": 60,
+    "gold": 200,
+    "coin": 1000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "200402": {
+    "name": "2小时无双灵气",
+    "des": "使用后可获得2小时当前主线关卡进度对应的挂机无双灵气收益",
+    "type": "item",
+    "useType": "hook_power",
+    "arg": 120,
+    "gold": 400,
+    "coin": 2000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "200404": {
+    "name": "4小时无双灵气",
+    "des": "使用后可获得4小时当前主线关卡进度对应的挂机无双灵气收益",
+    "type": "item",
+    "useType": "hook_power",
+    "arg": 240,
+    "gold": 800,
+    "coin": 4000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "200408": {
+    "name": "8小时无双灵气",
+    "des": "使用后可获得8小时当前主线关卡进度对应的挂机无双灵气收益",
+    "type": "item",
+    "useType": "hook_power",
+    "arg": 480,
+    "gold": 1600,
+    "coin": 8000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "200424": {
+    "name": "24小时无双灵气",
+    "des": "使用后可获得24小时当前主线关卡进度对应的挂机无双灵气收益",
+    "type": "item",
+    "useType": "hook_power",
+    "arg": 1440,
+    "gold": 4800,
+    "coin": 24000000,
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "200500": {
