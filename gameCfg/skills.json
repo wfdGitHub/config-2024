@@ -8,7 +8,7 @@
     "mul": 0.6
   },
   "1010102": {
-    "name": "刀砍",
+    "name": "锤击",
     "type": "attack",
     "des": "对敌方单体造成160%的物理伤害",
     "damageType": "phy",
@@ -24,7 +24,7 @@
     "mul": 0.8
   },
   "1020102": {
-    "name": "盾击",
+    "name": "锤击",
     "type": "attack",
     "des": "对敌方单体造成220%的物理伤害",
     "damageType": "phy",
@@ -32,7 +32,7 @@
     "mul": 2.2
   },
   "1030101": {
-    "name": "冲撞",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -40,7 +40,7 @@
     "mul": 1
   },
   "1030102": {
-    "name": "穿刺",
+    "name": "突袭",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -48,7 +48,7 @@
     "mul": 2.6
   },
   "1030201": {
-    "name": "冲撞",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -56,7 +56,7 @@
     "mul": 1
   },
   "1030202": {
-    "name": "冲击",
+    "name": "术式",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -64,7 +64,7 @@
     "mul": 2.6
   },
   "1040101": {
-    "name": "冲撞",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -72,7 +72,7 @@
     "mul": 1
   },
   "1040102": {
-    "name": "扇刃",
+    "name": "谋略",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加寒冷效果",
     "damageType": "phy",
@@ -123,7 +123,7 @@
     "mul": 1
   },
   "1050202": {
-    "name": "洛神赋",
+    "name": "王佐之才",
     "type": "heal",
     "des": "为己方损失血量最多单位治疗360%攻击的生命，并添加水境护盾",
     "targetType": "team_lossMaxHP",
@@ -150,7 +150,7 @@
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "1050401": {
-    "name": "剑袭",
+    "name": "术袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -158,7 +158,7 @@
     "mul": 1
   },
   "1050402": {
-    "name": "魏武之世",
+    "name": "奇佐谋术",
     "type": "attack",
     "des": "对敌方全体造成108%攻击力的法术伤害，有30%概率附加寒冷效果",
     "damageType": "mag",
@@ -204,7 +204,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "1050701": {
-    "name": "乱爪",
+    "name": "剑袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害，为自身添加1层破浪效果",
     "damageType": "phy",
@@ -214,7 +214,7 @@
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "1050702": {
-    "name": "威风凌烈",
+    "name": "魏武之势",
     "type": "attack",
     "des": "对敌方纵排造成225%的物理伤害，为自身添加为自身添加2层破浪效果",
     "damageType": "phy",
@@ -232,7 +232,7 @@
     "mul": 0.43
   },
   "1050802": {
-    "name": "算无遗策",
+    "name": "洛神降临",
     "type": "attack",
     "des": "对敌方随机三人造成160%攻击力的法术伤害，若目标身上有寒冷效果，则立即使其冰冻",
     "damageType": "mag",
@@ -250,7 +250,7 @@
     "mul": 1
   },
   "1050902": {
-    "name": "驱虎吞狼",
+    "name": "魏武天下",
     "type": "attack",
     "des": "对敌方纵排造成245%攻击力的法术伤害，造成伤害的30%治疗血量最低的我方英雄",
     "damageType": "mag",
@@ -262,7 +262,7 @@
     "value2": "team_lossMaxHP"
   },
   "1051001": {
-    "name": "枪袭",
+    "name": "突袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -270,7 +270,7 @@
     "mul": 1
   },
   "1051002": {
-    "name": "盲侯奋勇",
+    "name": "奋勇突袭",
     "type": "attack",
     "des": "对敌方攻击力最高目标造成360%的物理伤害，并偷取目标25%攻击力持续2回合",
     "damageType": "phy",
@@ -280,7 +280,7 @@
     "value1": 0.25
   },
   "1051003": {
-    "name": "盲侯奋勇",
+    "name": "奋勇突袭",
     "type": "attack",
     "des": "对敌方攻击力最高目标造成360%的物理伤害，并偷取目标40%攻击力持续2回合,降低目标2点怒气值",
     "damageType": "phy",
@@ -316,7 +316,7 @@
     "mul": 0.8
   },
   "2020102": {
-    "name": "盾击",
+    "name": "双击",
     "type": "attack",
     "des": "对敌方单体造成220%的物理伤害",
     "damageType": "phy",
@@ -332,7 +332,7 @@
     "mul": 1
   },
   "2030102": {
-    "name": "穿刺",
+    "name": "撞击",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -364,7 +364,7 @@
     "mul": 1
   },
   "2040102": {
-    "name": "扇刃",
+    "name": "刀刃",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加流血效果",
     "damageType": "phy",
@@ -374,7 +374,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2040201": {
-    "name": "枪击",
+    "name": "袭击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -410,7 +410,7 @@
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "2050201": {
-    "name": "重拳",
+    "name": "重击",
     "type": "attack",
     "des": "对敌方后排单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -428,7 +428,7 @@
     "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "2050301": {
-    "name": "刀击",
+    "name": "剑击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -436,7 +436,7 @@
     "mul": 1
   },
   "2050302": {
-    "name": "无畏连砍",
+    "name": "无畏剑势",
     "type": "attack",
     "des": "对敌方全体造成92%攻击力的法术伤害，如果目标处于灼烧状态，有30%概率使其眩晕，持续1回合",
     "damageType": "mag",
@@ -464,7 +464,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "2050501": {
-    "name": "剑势",
+    "name": "刀势",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -472,7 +472,7 @@
     "mul": 1
   },
   "2050502": {
-    "name": "宏图天下",
+    "name": "烈火刀袭",
     "type": "attack",
     "des": "对敌方全体造成120%攻击力的物理伤害，并添加1层流血效果",
     "damageType": "phy",
@@ -482,7 +482,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2050601": {
-    "name": "穿刺",
+    "name": "剑砍",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -490,7 +490,7 @@
     "mul": 1
   },
   "2050602": {
-    "name": "悍勇袭枪",
+    "name": "悍勇剑袭",
     "type": "attack",
     "des": "对敌方单体造成330%攻击力的物理伤害，随后添加3层暴击印记，持续2回合",
     "damageType": "phy",
@@ -546,7 +546,7 @@
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "2050901": {
-    "name": "飞剑",
+    "name": "飞箭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -554,7 +554,7 @@
     "mul": 1
   },
   "2050902": {
-    "name": "剑破阵袭",
+    "name": "箭破阵袭",
     "type": "attack",
     "des": "对敌方随机2-4个目标造成攻击力160%的法术伤害，随后为自身添加暴击加成",
     "damageType": "mag",
@@ -564,7 +564,7 @@
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2050903": {
-    "name": "剑破阵袭",
+    "name": "箭破阵袭",
     "type": "attack",
     "des": "对敌方随机3-5个目标造成攻击力220%的法术伤害，随后为自身添加暴击加成",
     "damageType": "mag",
@@ -574,7 +574,7 @@
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "2051001": {
-    "name": "狙击",
+    "name": "笔势",
     "type": "attack",
     "des": "对敌方后排造成60%攻击力的法术伤害",
     "damageType": "mag",
@@ -582,7 +582,7 @@
     "mul": 0.6
   },
   "2051002": {
-    "name": "夺心箭",
+    "name": "夺心书画",
     "type": "attack",
     "des": "对敌方后排造成180%攻击力的法术伤害，有35%概率添加沙尘暴，持续2回合",
     "damageType": "mag",
@@ -592,7 +592,7 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
   },
   "2051003": {
-    "name": "夺心箭",
+    "name": "夺心书画",
     "type": "attack",
     "des": "对敌方全体造成120%攻击力的法术伤害，有100%概率添加沙尘暴，持续2回合",
     "damageType": "mag",
@@ -626,7 +626,7 @@
     "mul": 0.8
   },
   "3020102": {
-    "name": "盾击",
+    "name": "弓箭",
     "type": "attack",
     "des": "对敌方单体造成220%的物理伤害",
     "damageType": "phy",
@@ -658,7 +658,7 @@
     "mul": 1
   },
   "3030202": {
-    "name": "冲击",
+    "name": "铁骑",
     "type": "attack",
     "des": "对敌方单体造成260%的物理伤害",
     "damageType": "phy",
@@ -674,7 +674,7 @@
     "mul": 1
   },
   "3040102": {
-    "name": "扇刃",
+    "name": "蛮撞",
     "type": "attack",
     "des": "对敌方单体造成280%攻击力的物理伤害,有100%概率附加破甲效果",
     "damageType": "phy",
@@ -702,7 +702,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050101": {
-    "name": "八卦",
+    "name": "射击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -710,7 +710,7 @@
     "mul": 1
   },
   "3050102": {
-    "name": "奇门八阵",
+    "name": "万箭穿心",
     "type": "attack",
     "des": "对敌方随机三人造成175%攻击力的法术伤害，并附加1层破甲效果",
     "damageType": "mag",
@@ -720,7 +720,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "3050103": {
-    "name": "奇门八阵",
+    "name": "万箭穿心",
     "type": "attack",
     "des": "对敌方随机三人造成60%攻击力的法术伤害，降低目标1点怒气",
     "damageType": "mag",
@@ -730,7 +730,7 @@
     "value1": 1
   },
   "3050201": {
-    "name": "凤炎",
+    "name": "乐天",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -738,7 +738,7 @@
     "mul": 1
   },
   "3050202": {
-    "name": "凤舞九天",
+    "name": "安乐香公",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害，给我方生命值最少的友方英雄添加闪避祝福，持续1回合",
     "damageType": "mag",
@@ -748,7 +748,7 @@
     "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "3050301": {
-    "name": "虎啸",
+    "name": "刀袭",
     "type": "attack",
     "des": "对敌方后排单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -756,7 +756,7 @@
     "mul": 1
   },
   "3050302": {
-    "name": "雄狮怒吼",
+    "name": "巾帼须眉",
     "type": "attack",
     "des": "对敌方后排单体造成360%攻击力的物理伤害，攻击可立即结算目标身上流血效果",
     "damageType": "phy",
@@ -838,7 +838,7 @@
     "mul": 1
   },
   "3050702": {
-    "name": "神鬼奇谋",
+    "name": "麒麟长枪",
     "type": "attack",
     "des": "对敌方纵排造成180%的法术伤害，添加1层连击印记，当队友攻击该目标时，消耗1层连击印记，对该目标追加1次普通攻击",
     "damageType": "mag",
@@ -893,7 +893,7 @@
     "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "3051001": {
-    "name": "穿心",
+    "name": "奇袭",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -901,7 +901,7 @@
     "mul": 1
   },
   "3051002": {
-    "name": "箭无虚发",
+    "name": "铁骑长枪",
     "type": "attack",
     "des": "对敌方血量最少的目标造成300%攻击力的物理伤害，消耗所有反制印记，每消耗1层反制印记，对其添加1层破甲",
     "damageType": "phy",
@@ -939,7 +939,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "4050201": {
-    "name": "快刀",
+    "name": "拳击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -947,7 +947,7 @@
     "mul": 1
   },
   "4050202": {
-    "name": "神龙偃月",
+    "name": "神拳破天",
     "type": "attack",
     "des": "对敌方生命值最少的单位造成320%攻击力的物理伤害，随后为自身添加神力效果",
     "damageType": "phy",
@@ -957,7 +957,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "4050301": {
-    "name": "谋略",
+    "name": "剑技",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -965,7 +965,7 @@
     "mul": 1
   },
   "4050302": {
-    "name": "天残魔冰",
+    "name": "天残剑击",
     "type": "attack",
     "des": "对敌方前排造成165%攻击力的法术伤害，解除我方全体1个减益效果",
     "damageType": "mag",
@@ -993,7 +993,7 @@
     "value1": true
   },
   "4050501": {
-    "name": "剑舞",
+    "name": "重锤",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1001,7 +1001,7 @@
     "mul": 1
   },
   "4050502": {
-    "name": "黄龙之力",
+    "name": "憾天之力",
     "type": "attack",
     "des": "对敌方随机三人造成160%攻击力的法术伤害，额外造成目标最大生命值5%的伤害",
     "damageType": "mag",
@@ -1011,7 +1011,7 @@
     "value1": 0.05
   },
   "4050503": {
-    "name": "黄龙之力",
+    "name": "憾天之力",
     "type": "attack",
     "des": "对敌方随机三人造成220%攻击力的法术伤害，额外造成目标最大生命值17%的伤害",
     "damageType": "mag",
@@ -1029,7 +1029,7 @@
     "mul": 1
   },
   "4050602": {
-    "name": "神龙破天",
+    "name": "天雷破天",
     "type": "attack",
     "des": "对敌方单体造成225%的物理伤害。有40%概率眩晕目标",
     "damageType": "phy",
@@ -1039,7 +1039,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.4}"
   },
   "4050603": {
-    "name": "神龙破天",
+    "name": "天雷破天",
     "type": "attack",
     "des": "对敌方单体造成225%的物理伤害。有100%概率眩晕目标",
     "damageType": "phy",
@@ -1049,7 +1049,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "4050701": {
-    "name": "神箭",
+    "name": "直击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1057,7 +1057,7 @@
     "mul": 1
   },
   "4050702": {
-    "name": "强袭神箭",
+    "name": "天命神术",
     "type": "attack",
     "des": "对敌方单体造成300%的法术伤害。随后为自身添加坚毅效果",
     "damageType": "mag",
@@ -1074,7 +1074,7 @@
     "mul": 1
   },
   "4050802": {
-    "name": "神门异术",
+    "name": "神医异术",
     "type": "heal",
     "des": "随机复活一名友方英雄，恢复其100%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复240%攻击力的生命值",
     "targetType": "team_minHp_1",
@@ -1147,7 +1147,7 @@
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050201": {
-    "name": "鬼斩",
+    "name": "鬼雷",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1155,7 +1155,7 @@
     "mul": 1
   },
   "5050202": {
-    "name": "暗武隐匿",
+    "name": "暗影天雷",
     "type": "attack",
     "des": "对敌方血量最低的目标造成360%的物理伤害,击杀目标后，进入潜行状态，持续2回合",
     "damageType": "phy",
@@ -1165,7 +1165,7 @@
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "5050301": {
-    "name": "符印",
+    "name": "冲拳",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1173,7 +1173,7 @@
     "mul": 1
   },
   "5050302": {
-    "name": "八门遁甲",
+    "name": "魔神之力",
     "type": "attack",
     "des": "对敌方全体造成112%的法术伤害，并有20%的概率为目标添加眩晕效果",
     "damageType": "mag",
@@ -1183,7 +1183,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.20}"
   },
   "5050303": {
-    "name": "八门遁甲",
+    "name": "魔神之力",
     "type": "attack",
     "des": "对随机三个目标造成230%的法术伤害，有70%的概率添加眩晕效果",
     "damageType": "mag",
@@ -1193,7 +1193,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
   },
   "5050401": {
-    "name": "砍杀",
+    "name": "击杀",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1201,7 +1201,7 @@
     "mul": 1
   },
   "5050402": {
-    "name": "撼地鬼斧",
+    "name": "撼地鬼神",
     "type": "attack",
     "des": "对敌方前排造成160%攻击力的物理伤害，有40%概率嘲讽目标",
     "damageType": "phy",
@@ -1267,7 +1267,7 @@
     "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "5050701": {
-    "name": "刺击",
+    "name": "琴弦",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1275,7 +1275,7 @@
     "mul": 1
   },
   "5050702": {
-    "name": "鬼神霸王枪",
+    "name": "鬼魅琴魔",
     "type": "attack",
     "des": "对敌方血量最低的目标造成300%攻击力的物理伤害，并添加灵魂窃取效果，持续1回合",
     "damageType": "phy",
@@ -1285,7 +1285,7 @@
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "5050703": {
-    "name": "鬼神霸王枪",
+    "name": "鬼魅琴魔",
     "type": "attack",
     "des": "对敌方随机三个目标造成155%攻击力的物理伤害，并添加灵魂窃取效果，持续1回合",
     "damageType": "phy",
@@ -1311,7 +1311,7 @@
     "value1": true
   },
   "5050901": {
-    "name": "剑袭",
+    "name": "术式",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1319,7 +1319,7 @@
     "mul": 1
   },
   "5050902": {
-    "name": "魏武鬼神",
+    "name": "地暴天星",
     "type": "attack",
     "des": "对敌方随机3人造成110%的物理伤害，并添加魔印效果,持续1回合",
     "damageType": "phy",
@@ -1337,7 +1337,7 @@
     "mul": 1
   },
   "5051002": {
-    "name": "寒风裂刃",
+    "name": "天锁裂石",
     "type": "attack",
     "des": "对敌方单体造成275%的物理伤害。并添加禁魂效果，持续3回合",
     "damageType": "phy",
@@ -1355,7 +1355,7 @@
     "mul": 1
   },
   "6040102": {
-    "name": "巨锤挥舞",
+    "name": "巨盾挥舞",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的物理伤害,有30%概率添加眩晕",
     "damageType": "phy",
@@ -1373,7 +1373,7 @@
     "mul": 1
   },
   "6040202": {
-    "name": "开山巨斧",
+    "name": "战鼓震耳",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的物理伤害,有30%概率添加眩晕",
     "damageType": "phy",
@@ -1391,7 +1391,7 @@
     "mul": 1
   },
   "6040302": {
-    "name": "天机伞",
+    "name": "天机",
     "type": "attack",
     "des": "对敌方前排造成120%攻击力的法术伤害,有15%概率添加冰冻",
     "damageType": "mag",
@@ -1409,7 +1409,7 @@
     "mul": 1
   },
   "6050102": {
-    "name": "南蛮入侵",
+    "name": "回旋刀刃",
     "type": "attack",
     "des": "对敌方单体造成320%攻击力的物理伤害,有35%概率添加眩晕",
     "damageType": "phy",
@@ -1419,7 +1419,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "6050201": {
-    "name": "刀刃",
+    "name": "鼓击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1427,7 +1427,7 @@
     "mul": 1
   },
   "6050202": {
-    "name": "回旋刀刃",
+    "name": "战鼓震耳",
     "type": "attack",
     "des": "对敌方前排造成150%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
@@ -1437,7 +1437,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "6050301": {
-    "name": "剑袭",
+    "name": "剑击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的物理伤害",
     "damageType": "phy",
@@ -1445,7 +1445,7 @@
     "mul": 1
   },
   "6050302": {
-    "name": "号令万箭",
+    "name": "天机",
     "type": "attack",
     "des": "对敌方后排造成100%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
@@ -1455,7 +1455,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "6050401": {
-    "name": "花容",
+    "name": "术势",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
@@ -1465,7 +1465,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050402": {
-    "name": "沉鱼落雁",
+    "name": "青龙之术",
     "type": "attack",
     "des": "对敌方全体造成225%攻击力的物理伤害,有50%概率添加眩晕",
     "damageType": "phy",
@@ -1475,7 +1475,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "6050501": {
-    "name": "砍杀",
+    "name": "疯狂攻击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有100%概率添加眩晕",
     "damageType": "mag",
@@ -1485,7 +1485,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050502": {
-    "name": "撼地鬼斧",
+    "name": "撼地鬼袭",
     "type": "attack",
     "des": "对敌方纵排造成550%攻击力的法术伤害,有50%概率添加眩晕",
     "damageType": "mag",
@@ -1495,7 +1495,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "6050601": {
-    "name": "天雷",
+    "name": "砍杀",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有100%概率添加冰冻",
     "damageType": "mag",
@@ -1505,7 +1505,7 @@
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "6050602": {
-    "name": "雷霆万钧",
+    "name": "天外陨石",
     "type": "attack",
     "des": "对敌方后排造成360%攻击力的法术伤害,有50%概率添加冰冻",
     "damageType": "mag",
@@ -1523,7 +1523,7 @@
     "mul": 1.2
   },
   "7040102": {
-    "name": "悍勇鏖战",
+    "name": "长钩袭击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1533,7 +1533,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "7040201": {
-    "name": "长枪",
+    "name": "长勺",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的物理伤害",
     "damageType": "phy",
@@ -1541,7 +1541,7 @@
     "mul": 1.2
   },
   "7040202": {
-    "name": "长枪突袭",
+    "name": "疯狂攻击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率添加寒冷",
     "damageType": "phy",
@@ -1551,7 +1551,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "7050101": {
-    "name": "刀砍",
+    "name": "迅击",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害",
     "damageType": "mag",
@@ -1559,7 +1559,7 @@
     "mul": 1.2
   },
   "7050102": {
-    "name": "双刃出击",
+    "name": "长钩袭击",
     "type": "attack",
     "des": "对敌方随机三人造成180%攻击力的法术伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1569,7 +1569,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "7050201": {
-    "name": "蓄力箭",
+    "name": "长勺",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的物理伤害",
     "damageType": "phy",
@@ -1577,7 +1577,7 @@
     "mul": 1.2
   },
   "7050202": {
-    "name": "弯弓射击",
+    "name": "疯狂蔬菜",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害,有100%概率为自己添加铜墙铁壁",
     "damageType": "phy",
@@ -1615,7 +1615,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "7050402": {
-    "name": "万花缤纷",
+    "name": "万枪突袭",
     "type": "attack",
     "des": "对敌方全体造成325%攻击力的物理伤害,有50%概率添加折戟",
     "damageType": "phy",
@@ -1625,7 +1625,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "7050501": {
-    "name": "劈开",
+    "name": "金勺",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1635,7 +1635,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "7050502": {
-    "name": "无畏连砍",
+    "name": "疯狂蔬菜",
     "type": "attack",
     "des": "对敌方单体造成800%攻击力的法术伤害,若击杀目标，重复释放技能",
     "damageType": "mag",
@@ -1645,7 +1645,7 @@
     "value1": true
   },
   "7050601": {
-    "name": "追打",
+    "name": "迅击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的物理伤害",
     "damageType": "phy",
@@ -1653,7 +1653,7 @@
     "mul": 2.4
   },
   "7050602": {
-    "name": "双刃突刺",
+    "name": "长钩袭击",
     "type": "attack",
     "des": "对敌方单体造成800%攻击力的物理伤害,有100%概率为自己添加神力",
     "damageType": "phy",
@@ -1663,7 +1663,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "7050701": {
-    "name": "飞剑",
+    "name": "花术",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,有100%概率添加中毒",
     "damageType": "mag",
@@ -1673,7 +1673,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "7050702": {
-    "name": "银风剑阵",
+    "name": "落雁缤纷",
     "type": "attack",
     "des": "对敌方全体造成325%攻击力的法术伤害,有100%概率添加中毒，35%概率添加折戟",
     "damageType": "mag",
@@ -1693,7 +1693,7 @@
     "mul": 1
   },
   "8040102": {
-    "name": "火焰箭",
+    "name": "猛虎突袭",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有50%概率添加中毒",
     "damageType": "mag",
@@ -1719,7 +1719,7 @@
     "mul": 2.5
   },
   "8040301": {
-    "name": "追思",
+    "name": "追击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1727,7 +1727,7 @@
     "mul": 1
   },
   "8040302": {
-    "name": "摄魂旋律",
+    "name": "疯狂投掷",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有30%概率添加眩晕",
     "damageType": "mag",
@@ -1737,7 +1737,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040401": {
-    "name": "闪耀",
+    "name": "冲击",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1745,7 +1745,7 @@
     "mul": 1
   },
   "8040402": {
-    "name": "绿茵之风",
+    "name": "莽夫直击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有30%概率添加眩晕",
     "damageType": "mag",
@@ -1755,7 +1755,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040501": {
-    "name": "夺命",
+    "name": "践踏",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1763,7 +1763,7 @@
     "mul": 1
   },
   "8040502": {
-    "name": "夺命镰刀",
+    "name": "巨象冲撞",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有30%概率添加眩晕",
     "damageType": "mag",
@@ -1773,7 +1773,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "8040601": {
-    "name": "瞬剑",
+    "name": "飞镖",
     "type": "attack",
     "des": "对敌方单体造成100%攻击力的法术伤害",
     "damageType": "mag",
@@ -1781,7 +1781,7 @@
     "mul": 1
   },
   "8040602": {
-    "name": "幼麟出世",
+    "name": "迅捷直击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害,有50%概率添加中毒",
     "damageType": "mag",
@@ -1791,7 +1791,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":0.5}"
   },
   "8050101": {
-    "name": "重锤",
+    "name": "重击",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的物理伤害",
     "damageType": "phy",
@@ -1831,7 +1831,7 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8050301": {
-    "name": "毒计",
+    "name": "毒击",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -1841,7 +1841,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050302": {
-    "name": "毒言",
+    "name": "复仇痛击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -1853,7 +1853,7 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8050401": {
-    "name": "开刃",
+    "name": "投掷",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -1863,7 +1863,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050402": {
-    "name": "无畏冲击",
+    "name": "沉默投掷",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、沉默",
     "damageType": "mag",
@@ -1875,7 +1875,7 @@
     "value2": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8050501": {
-    "name": "雷击",
+    "name": "践踏",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -1885,7 +1885,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050502": {
-    "name": "雷霆天罚",
+    "name": "巨象冲撞",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、虚弱",
     "damageType": "mag",
@@ -1897,7 +1897,7 @@
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8050601": {
-    "name": "火拳",
+    "name": "刀击",
     "type": "attack",
     "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
     "damageType": "mag",
@@ -1907,7 +1907,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050602": {
-    "name": "绝命战火",
+    "name": "绝命战刃",
     "type": "attack",
     "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
     "damageType": "mag",
@@ -1917,7 +1917,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050701": {
-    "name": "雷击",
+    "name": "虎爪",
     "type": "attack",
     "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
     "damageType": "mag",
@@ -1927,7 +1927,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050702": {
-    "name": "雷霆八卦",
+    "name": "幽灵之爪",
     "type": "attack",
     "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
     "damageType": "mag",
@@ -1937,7 +1937,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050801": {
-    "name": "术击",
+    "name": "重击",
     "type": "attack",
     "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
     "damageType": "mag",
@@ -1947,7 +1947,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "8050802": {
-    "name": "雷霆阵法",
+    "name": "雷霆震击",
     "type": "attack",
     "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
     "damageType": "mag",
@@ -1957,7 +1957,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8050901": {
-    "name": "毒术",
+    "name": "凤术",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -1967,7 +1967,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8050902": {
-    "name": "鬼神阵法",
+    "name": "鬼凤阵法",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -1979,7 +1979,7 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8051001": {
-    "name": "毒击",
+    "name": "践踏",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -1989,7 +1989,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051002": {
-    "name": "鬼神之术",
+    "name": "魔神践踏",
     "type": "attack",
     "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -2001,7 +2001,7 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8051101": {
-    "name": "毒火",
+    "name": "盾击",
     "type": "attack",
     "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -2011,7 +2011,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051102": {
-    "name": "复仇毒炎",
+    "name": "复仇盾击",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒、禁疗",
     "damageType": "mag",
@@ -2023,7 +2023,7 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8051201": {
-    "name": "雷术",
+    "name": "刃击",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害，并添加3层感电",
     "damageType": "mag",
@@ -2033,7 +2033,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8051202": {
-    "name": "鬼魅雷击",
+    "name": "刀刃乱舞",
     "type": "attack",
     "des": "对敌方全体造成300%攻击力的法术伤害，并添加3层感电",
     "damageType": "mag",
@@ -2043,7 +2043,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "8051301": {
-    "name": "毒咬",
+    "name": "虎咬",
     "type": "attack",
     "des": "对敌方单体造成200%攻击力的法术伤害，并添加中毒",
     "damageType": "mag",
@@ -2053,7 +2053,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051302": {
-    "name": "鬼神毒术",
+    "name": "猛虎突袭",
     "type": "attack",
     "des": "对敌方全体造成225%攻击力的法术伤害，有50%概率添加沉默",
     "damageType": "mag",
@@ -2063,7 +2063,7 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "8051401": {
-    "name": "咒杀",
+    "name": "践踏",
     "type": "attack",
     "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒",
     "damageType": "mag",
@@ -2073,7 +2073,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "8051402": {
-    "name": "暗黑剑咒",
+    "name": "巨象冲撞",
     "type": "attack",
     "des": "对地方纵排造成500%攻击力的法术伤害，并添加中毒，100%概率眩晕",
     "damageType": "mag",
@@ -2085,7 +2085,7 @@
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "8051501": {
-    "name": "鬼斩",
+    "name": "鬼袭",
     "type": "attack",
     "des": "对敌方前排造成240%攻击力的物理伤害,并添加中毒",
     "damageType": "phy",
