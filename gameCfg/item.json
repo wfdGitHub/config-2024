@@ -38,8 +38,8 @@
     "name": "元宝",
     "des": "稀有货币,可用于购买商城物品",
     "type": "currency",
-    "gold": 0.01,
-    "coin": 50,
+    "gold": 0.002,
+    "coin": 10,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -63,7 +63,7 @@
     "name": "元宝替换道具",
     "des": "稀有货币,可用于购买商城物品",
     "type": "currency",
-    "arg": 100,
+    "arg": 500,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -133,7 +133,7 @@
   },
   "209": {
     "name": "皇陵晶石",
-    "des": "皇陵晶石在皇陵探险玩法中获得,用于兑换皇陵商店稀有道具",
+    "des": "皇陵晶石，在皇陵探险玩法中获得,用于兑换皇陵商店稀有道具",
     "type": "currency",
     "gold": 20,
     "coin": 100000,
@@ -143,7 +143,7 @@
   },
   "210": {
     "name": "争霸币",
-    "des": "无双争霸中可获得,可用于争霸商店兑换商品",
+    "des": "争霸币，无双争霸中可获得,可用于争霸商店兑换商品",
     "type": "currency",
     "gold": 7.5,
     "coin": 37500,
@@ -208,8 +208,8 @@
     "name": "战法令",
     "des": "可在英雄战法中学习技能",
     "type": "item",
-    "gold": 2000,
-    "coin": 10000000,
+    "gold": 200,
+    "coin": 1000000,
     "buyNum": 1,
     "quality": 5,
     "source1": "crossTop",
@@ -227,36 +227,36 @@
     "source2": "recruit_normal"
   },
   "401": {
-    "name": "魏武之魂",
-    "des": "魏武之魂,能够提升魏国武魂的属性加成,可通过魏之塔中获得。",
+    "name": "魏武战魂",
+    "des": "魏武战魂,能够提升魏国武魂的属性加成,可通过魏之塔中获得。",
     "type": "currency",
     "quality": 5,
     "source1": "tower_realm"
   },
   "402": {
-    "name": "东吴之魂",
-    "des": "东吴之魂,能够提升吴国武魂的属性加成,可通过吴之塔中获得。",
+    "name": "东吴战魂",
+    "des": "东吴战魂,能够提升吴国武魂的属性加成,可通过吴之塔中获得。",
     "type": "currency",
     "quality": 5,
     "source1": "tower_realm"
   },
   "403": {
-    "name": "蜀汉之魂",
-    "des": "蜀汉之魂,能够提升蜀国武魂的属性加成,可通过蜀之塔中获得。",
+    "name": "蜀汉战魂",
+    "des": "蜀汉战魂,能够提升蜀国武魂的属性加成,可通过蜀之塔中获得。",
     "type": "currency",
     "quality": 5,
     "source1": "tower_realm"
   },
   "404": {
-    "name": "神天之魂",
-    "des": "神族之魂,能够提升神国武将的属性加成,可通过神之塔中获得。",
+    "name": "神天战魂",
+    "des": "神族战魂,能够提升神国武将的属性加成,可通过神之塔中获得。",
     "type": "currency",
     "quality": 5,
     "source1": "tower_realm"
   },
   "405": {
-    "name": "魔狱之魂",
-    "des": "魔族之魂,能够提升魔国武将的属性加成,可通过魔之塔中获得。",
+    "name": "魔狱战魂",
+    "des": "魔族战魂,能够提升魔国武将的属性加成,可通过魔之塔中获得。",
     "type": "currency",
     "quality": 5,
     "source1": "tower_realm"
@@ -1263,6 +1263,123 @@
     "effects": "baowu",
     "source1": "beherrscher"
   },
+  "7401": {
+    "name": "匡扶汉室",
+    "des": "匡扶汉室,新手刷充特权激活",
+    "type": "title",
+    "arg": 7401,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7402": {
+    "name": "初出茅庐",
+    "des": "初出茅庐,普通刷充特权激活",
+    "type": "title",
+    "arg": 7402,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7403": {
+    "name": "一战成名",
+    "des": "一战成名,初级刷充特权激活",
+    "type": "title",
+    "arg": 7403,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7404": {
+    "name": "征战沙场",
+    "des": "征战沙场,中级刷充特权激活",
+    "type": "title",
+    "arg": 7404,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7405": {
+    "name": "明日之星",
+    "des": "明日之星,高级刷充特权激活",
+    "type": "title",
+    "arg": 7405,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7406": {
+    "name": "年少有为",
+    "des": "年少有为,超级刷充特权激活",
+    "type": "title",
+    "arg": 7406,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7407": {
+    "name": "少年英雄",
+    "des": "少年英雄,顶级刷充特权激活",
+    "type": "title",
+    "arg": 7407,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7408": {
+    "name": "三国名将",
+    "des": "三国名将,神级刷充特权激活",
+    "type": "title",
+    "arg": 7408,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7409": {
+    "name": "一州之主",
+    "des": "一州之主,超神刷充特权激活",
+    "type": "title",
+    "arg": 7409,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7410": {
+    "name": "王侯将相",
+    "des": "王侯将相,至尊刷充特权激活",
+    "type": "title",
+    "arg": 7410,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7411": {
+    "name": "雄霸天下",
+    "des": "雄霸天下,英主刷充特权激活",
+    "type": "title",
+    "arg": 7411,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7412": {
+    "name": "自立为王",
+    "des": "自立为王,霸主刷充特权激活",
+    "type": "title",
+    "arg": 7412,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "7413": {
+    "name": "一统九州",
+    "des": "一统九州,雄主刷充特权激活",
+    "type": "title",
+    "arg": 7413,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
   "8010": {
     "name": "青铜士卒",
     "des": "青铜士卒,在跨服赛季中到达士卒段位结算获得",
@@ -2151,7 +2268,7 @@
   },
   "9705": {
     "name": "限定宝物",
-    "des": "特防增加20%",
+    "des": "法防增加20%",
     "isBag": true,
     "type": "ace",
     "gold": 40000,
@@ -2462,11 +2579,11 @@
     "source1": "gift"
   },
   "10010": {
-    "name": "制作人工具",
-    "des": "制作人工具",
+    "name": "海克斯工具",
+    "des": "海克斯工具",
     "type": "currency",
     "useType": "optional",
-    "arg": "[\"200:1000000\",\"201:10000000\",\"101:10000000\",\"1000050:10000\",\"1000300:1000000\"]",
+    "arg": "[\"200:1000000\",\"201:5000000\",\"101:5000000\",\"1000050:500\",\"1000020:500\"]",
     "gold": 2000,
     "coin": 10000000,
     "buyNum": 1,
@@ -3533,7 +3650,7 @@
   },
   "105000": {
     "name": "五星魏英雄碎片",
-    "des": "集齐30个碎片合成可获得【魏】系五星英雄",
+    "des": "集齐30个碎片合成可获得【魏】阵营五星英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -3860,7 +3977,7 @@
   },
   "205000": {
     "name": "五星吴英雄碎片",
-    "des": "集齐30个碎片合成可获得【吴】系五星英雄",
+    "des": "集齐30个碎片合成可获得【吴】阵营五星英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -4103,7 +4220,7 @@
   },
   "305000": {
     "name": "五星蜀英雄碎片",
-    "des": "集齐30个碎片合成可获得【蜀】系五星英雄",
+    "des": "集齐30个碎片合成可获得【蜀】阵营五星英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -4356,7 +4473,7 @@
   },
   "405000": {
     "name": "五星神英雄碎片",
-    "des": "集齐30个碎片合成可获得【神】系五星英雄",
+    "des": "集齐30个碎片合成可获得【神】阵营五星英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -4585,7 +4702,7 @@
   },
   "505000": {
     "name": "五星魔英雄碎片",
-    "des": "集齐30个碎片合成可获得【魔】系五星英雄",
+    "des": "集齐30个碎片合成可获得【魔】阵营五星英雄",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -4738,6 +4855,110 @@
     "source1": "tower_realm",
     "source2": "gift"
   },
+  "601001": {
+    "name": "魏十星英雄",
+    "des": "魏十星英雄，打开可随机获得魏国十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "weiguo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601002": {
+    "name": "吴十星英雄",
+    "des": "吴十星英雄，打开可随机获得吴国十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "wuguo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601003": {
+    "name": "蜀十星英雄",
+    "des": "蜀十星英雄，打开可随机获得蜀国十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shuguo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601004": {
+    "name": "神十星英雄",
+    "des": "神阵营星英雄，打开可随机获得神阵营十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shen_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601005": {
+    "name": "魔十星英雄",
+    "des": "魔阵营星英雄，打开可随机获得魔阵营十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "mo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601006": {
+    "name": "三国高资质十星",
+    "des": "三国高资质十星，打开可随机获得三国阵营高资质十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanguo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601007": {
+    "name": "神魔高资质十星",
+    "des": "神魔高资质十星，打开可随机获得神魔阵营高资质十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shenmo_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "601008": {
+    "name": "高资质十星",
+    "des": "高资质十星，打开可随机获得高资质十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "gaozizhi_chest_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "603100": {
     "name": "乔珊珊信物",
     "des": "富家千金，矜持温婉，喜好帮助他人，不计回报。乔珊珊热情大方，平时喜好书籍",
@@ -4763,6 +4984,36 @@
     "effects": "baowu",
     "source1": "gift",
     "source2": "gift"
+  },
+  "605001": {
+    "name": "三国高资质碎片",
+    "des": "集齐30个碎片合成可获得【魏、蜀、吴】三个个阵营五星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": "hero_6",
+    "gold": 6000,
+    "coin": 30000000,
+    "buyNum": 30,
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
+  },
+  "605002": {
+    "name": "神魔高资质碎片",
+    "des": "集齐30个碎片合成可获得【神、魔】三个个阵营五星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": "hero_7",
+    "gold": 12000,
+    "coin": 60000000,
+    "buyNum": 30,
+    "quality": 5,
+    "source1": "tower_realm",
+    "source2": "beherrscher",
+    "source3": "gift"
   },
   "605100": {
     "name": "杨玉环信物",
@@ -5149,8 +5400,8 @@
     "des": "颁授给功臣、重臣的一种特权凭证，又称“丹书铁契”，可将英雄提升至最高官职",
     "isBag": true,
     "type": "item",
-    "gold": 100000,
-    "coin": 500000000,
+    "gold": 10000,
+    "coin": 50000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
@@ -6525,7 +6776,7 @@
   },
   "5014040": {
     "name": "逐鹿·凯旋靴",
-    "des": "郭嘉制,以逐鹿之战中将士战意滋养神石,再以火神之火炼制数年,靴有万军之魂,郭嘉唤名凯旋靴",
+    "des": "郭嘉制,以逐鹿之战中将士战意滋养神石,再以火神之火炼制数年,靴有万军战魂,郭嘉唤名凯旋靴",
     "isBag": true,
     "type": "equip",
     "gold": 9800,
@@ -10707,7 +10958,7 @@
   },
   "306007501": {
     "name": "开局自选箱",
-    "des": "神兽开局自选箱,开启选择以下物品中的一个",
+    "des": "开局自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10858,6 +11109,80 @@
     "quality": 5,
     "effects": "baowu",
     "source1": "gift"
+  },
+  "306008511": {
+    "name": "魏阵营自选",
+    "des": "魏阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"105010:30\",\"105020:30\",\"105030:30\",\"105040:30\",\"105050:30\",\"105060:30\",\"105070:30\",\"105080:30\",\"105090:30\",\"105100:30\"]",
+    "gold": 9000,
+    "coin": 45000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "306008521": {
+    "name": "吴阵营自选",
+    "des": "吴阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"205010:30\",\"205020:30\",\"205030:30\",\"205040:30\",\"205050:30\",\"205060:30\",\"205070:30\",\"205080:30\",\"205090:30\",\"205100:30\"]",
+    "gold": 0,
+    "coin": 0
+  },
+  "306008531": {
+    "name": "蜀阵营自选",
+    "des": "蜀阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"305010:30\",\"305020:30\",\"305030:30\",\"305040:30\",\"305050:30\",\"305060:30\",\"305070:30\",\"305080:30\",\"305090:30\",\"305100:30\"]",
+    "gold": 0,
+    "coin": 0
+  },
+  "306008541": {
+    "name": "神阵营自选",
+    "des": "神阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"405010:30\",\"405020:30\",\"405030:30\",\"405040:30\",\"405050:30\",\"405060:30\",\"405070:30\",\"405080:30\",\"405090:30\",\"405100:30\"]",
+    "gold": 0,
+    "coin": 0
+  },
+  "306008551": {
+    "name": "魔阵营自选",
+    "des": "魔阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"505010:30\",\"505020:30\",\"505030:30\",\"505040:30\",\"505050:30\",\"505060:30\",\"505070:30\",\"505080:30\",\"505090:30\",\"505100:30\"]",
+    "gold": 0,
+    "coin": 0
+  },
+  "306008561": {
+    "name": "三国阵营自选",
+    "des": "三国阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"306008511:1\",\"306008521:1\",\"306008531:1\"]",
+    "gold": 0,
+    "coin": 0
+  },
+  "306008562": {
+    "name": "神魔阵营自选",
+    "des": "神魔阵营自选,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"306008541:1\",\"306008551:1\"]",
+    "gold": 0,
+    "coin": 0
   },
   "306008601": {
     "name": "三国中资质十星宝箱",
