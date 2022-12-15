@@ -1,6 +1,7 @@
 {
   "login": {
-    "name": "登录"
+    "name": "登录",
+    "soure": "hook"
   },
   "recruit": {
     "name": "英雄祭祀",
@@ -224,7 +225,8 @@
     "soure": "pit"
   },
   "escort": {
-    "name": "木牛流马护送次数"
+    "name": "木牛流马护送次数",
+    "soure": "escort"
   },
   "exercise": {
     "name": "通关沙盘演武",
@@ -289,70 +291,87 @@
   },
   "officer": {
     "name": "爵位等级",
-    "des": "参数代表等级"
+    "des": "参数代表等级",
+    "soure": "officer"
   },
   "coexist_lv": {
     "name": "共鸣等级",
-    "des": "参数代表等级"
+    "des": "参数代表等级",
+    "soure": "heroCenter"
   },
   "evolution": {
     "name": "官职等级",
     "des": "参数代表等级",
-    "equal": true
+    "equal": true,
+    "soure": "hero"
   },
   "camp_att": {
-    "name": "阵营加成等级"
+    "name": "阵营加成等级",
+    "soure": "campAtt"
   },
   "hero_tr": {
     "name": "培养等级",
-    "des": "参数代表等级"
+    "des": "参数代表等级",
+    "soure": "hero"
   },
   "equip_st": {
     "name": "装备强化等级",
-    "des": "参数代表等级"
+    "des": "参数代表等级",
+    "soure": "hero"
   },
   "power_star": {
     "name": "主动技升星",
     "des": "参数代表无双技ID",
-    "equal": true
+    "equal": true,
+    "soure": "power"
   },
   "grading": {
-    "name": "跨服竞技场挑战次数"
+    "name": "跨服竞技场挑战次数",
+    "soure": "crossPK"
   },
   "ancient": {
-    "name": "远古战场挑战次数"
+    "name": "远古战场挑战次数",
+    "soure": "ancient"
   },
   "beherrscher": {
-    "name": "无双争霸赛获得席位"
+    "name": "无双争霸赛获得席位",
+    "soure": "beherrscher"
   },
   "muye": {
-    "name": "天命之战挑战次数"
+    "name": "天命之战挑战次数",
+    "soure": "crossTeamPK"
   },
   "baowu_gain": {
     "name": "获得宝物",
     "des": "参数代表宝物品质",
-    "equal": true
+    "equal": true,
+    "soure": "shop"
   },
   "zhanfa_gain": {
     "name": "获得战法",
     "des": "参数代表战法ID",
-    "equal": true
+    "equal": true,
+    "soure": "shop"
   },
   "book_gain": {
     "name": "获得天书",
     "des": "参数代表天书ID",
-    "equal": true
+    "equal": true,
+    "soure": "shop"
   },
   "beauty_star": {
     "name": "红颜升星",
     "des": "参数代表红颜ID",
-    "equal": true
+    "equal": true,
+    "soure": "beauty"
   },
   "exercise_fight": {
-    "name": "沙盘演武挑战胜利"
+    "name": "沙盘演武挑战胜利",
+    "soure": "exercise"
   },
   "area_trial": {
     "name": "血战华容通关",
-    "des": "参数代表关卡ID"
+    "des": "参数代表关卡ID",
+    "soure": "areaTrial"
   }
 }
