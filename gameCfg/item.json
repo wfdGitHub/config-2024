@@ -45,8 +45,8 @@
     "name": "元宝",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.002,
-    "coin": 10,
+    "gold": 0.001,
+    "coin": 5,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -70,7 +70,7 @@
     "name": "元宝替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 500,
+    "arg": 1000,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -528,71 +528,15 @@
   },
   "7301": {
     "name": "初出茅庐",
-    "des": "初出茅庐，激活新手武林盟主获得",
+    "des": "初出茅庐，激活新手刷充获得，攻击+1%，生命+1%",
     "type": "title",
     "arg": 7301,
     "quality": 7,
     "effects": "baowu"
   },
-  "7302": {
-    "name": "江湖小虾",
-    "des": "江湖小虾，激活初级武林盟主获得",
-    "type": "title",
-    "arg": 7302,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7303": {
-    "name": "初露头角",
-    "des": "初露头角，激活中级武林盟主获得",
-    "type": "title",
-    "arg": 7303,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7304": {
-    "name": "锋芒显露",
-    "des": "锋芒显露，激活高级武林盟主获得",
-    "type": "title",
-    "arg": 7304,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7305": {
-    "name": "小有名气",
-    "des": "小有名气，激活超级武林盟主获得",
-    "type": "title",
-    "arg": 7305,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7306": {
-    "name": "练武奇才",
-    "des": "练武奇才，激活顶级武林盟主获得",
-    "type": "title",
-    "arg": 7306,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7307": {
-    "name": "明日之星",
-    "des": "明日之星，激活神级武林盟主获得",
-    "type": "title",
-    "arg": 7307,
-    "quality": 7,
-    "effects": "baowu"
-  },
-  "7308": {
-    "name": "名声鹊起",
-    "des": "名声鹊起，激活至尊武林盟主获得",
-    "type": "title",
-    "arg": 7308,
-    "quality": 7,
-    "effects": "baowu"
-  },
   "7309": {
     "name": "武林高手",
-    "des": "武林高手，激活仙尊武林盟主获得",
+    "des": "武林高手，激活初级刷充获得，攻击+12%，生命+12%",
     "type": "title",
     "arg": 7309,
     "quality": 7,
@@ -600,7 +544,7 @@
   },
   "7310": {
     "name": "赫赫有名",
-    "des": "赫赫有名，激活神尊武林盟主获得",
+    "des": "赫赫有名，激活中级刷充获得，攻击+15%，生命+15%",
     "type": "title",
     "arg": 7310,
     "quality": 7,
@@ -608,7 +552,7 @@
   },
   "7311": {
     "name": "名动江湖",
-    "des": "名动江湖，激活神权武林盟主获得",
+    "des": "名动江湖，激活高级刷充获得，攻击+20%，生命+20%",
     "type": "title",
     "arg": 7311,
     "quality": 7,
@@ -616,7 +560,7 @@
   },
   "7312": {
     "name": "盖世英雄",
-    "des": "盖世英雄，激活神源武林盟主获得",
+    "des": "盖世英雄，激活至尊刷充获得，攻击+25%，生命+25%",
     "type": "title",
     "arg": 7312,
     "quality": 7,
@@ -624,7 +568,7 @@
   },
   "7313": {
     "name": "武林至尊",
-    "des": "武林至尊，激活神话武林盟主获得",
+    "des": "武林至尊，激活盟主刷充获得，攻击+30%，生命+30%",
     "type": "title",
     "arg": 7313,
     "quality": 7,
@@ -2082,8 +2026,8 @@
     "source4": "shop_hero"
   },
   "505001": {
-    "name": "5星限定碎片",
-    "des": "集齐30个碎片即可招募精英侠客",
+    "name": "5星超稀有碎片",
+    "des": "集齐30个碎片即可招募超稀有侠客",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -8460,6 +8404,20 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
+    "source1": "gift"
+  },
+  "106010010": {
+    "name": "稀有十星宝箱",
+    "des": "打开可获得，以下物品",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "stsj_wxsp_1",
+    "gold": 100000,
+    "coin": 500000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "baowu",
     "source1": "gift"
   },
   "107101001": {
