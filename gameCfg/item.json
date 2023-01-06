@@ -190,8 +190,8 @@
     "des_zh": "皇陵积分在皇陵探险玩法中获得，用于兑换皇陵商店道具",
     "des_vn": "Điểm hoàng lăng nhận được qua Thám Hiểm Hoàng Lăng, dùng để đổi đạo cụ trong Shop hoàng lăng",
     "type": "currency",
-    "gold": 20,
-    "coin": 100000,
+    "gold": 100,
+    "coin": 500000,
     "buyNum": 100,
     "quality": 4,
     "source1": "zhulu"
@@ -314,35 +314,35 @@
     "source2": "recruit_normal"
   },
   "401": {
-    "name": "群雄魂力",
-    "name_zh": "群雄魂力",
+    "name": "魏国魂力",
+    "name_zh": "魏国魂力",
     "name_vn": "Chiến Hồn nước Ngụy",
-    "des": "群雄魂力，能够提升群雄战魂的属性加成，可通过群雄之路中获得。",
-    "des_zh": "群雄魂力，能够提升群雄战魂的属性加成，可通过群雄之路中获得。",
+    "des": "魏国魂力，能够提升魏国战魂的属性加成，可通过魏国之路中获得。",
+    "des_zh": "魏国魂力，能够提升魏国战魂的属性加成，可通过魏国之路中获得。",
     "des_vn": "Ngụy Vũ Hồn Lực, có khả năng tăng thuộc tính của Ngụy Vũ Chiến Hồn, có thể nhận được thông qua Ngụy Vũ Chi Hồn"
   },
   "402": {
-    "name": "楚汉魂力",
-    "name_zh": "楚汉魂力",
+    "name": "蜀国魂力",
+    "name_zh": "蜀国魂力",
     "name_vn": "Chiến Hồn nước Thục",
-    "des": "楚汉魂力，能够提升楚汉战魂的属性加成，可通过楚汉之路中获得。",
-    "des_zh": "楚汉魂力，能够提升楚汉战魂的属性加成，可通过楚汉之路中获得。",
+    "des": "蜀国魂力，能够提升蜀国战魂的属性加成，可通过蜀国之路中获得。",
+    "des_zh": "蜀国魂力，能够提升蜀国战魂的属性加成，可通过蜀国之路中获得。",
     "des_vn": "Thục Hán Hồn Lực, có khả năng tăng thuộc tính của Thục Hán Chiến Hồn, có thể nhận được thông qua Thục Võ Chi Hồn"
   },
   "403": {
-    "name": "三国魂力",
-    "name_zh": "三国魂力",
+    "name": "吴国魂力",
+    "name_zh": "吴国魂力",
     "name_vn": "Chiến Hồn nước Ngô",
-    "des": "三国魂力，能够提升三国战魂的属性加成，可通过三国之路中获得。",
-    "des_zh": "三国魂力，能够提升三国战魂的属性加成，可通过三国之路中获得。",
+    "des": "吴国魂力，能够提升吴国战魂的属性加成，可通过吴国之路中获得。",
+    "des_zh": "吴国魂力，能够提升吴国战魂的属性加成，可通过吴国之路中获得。",
     "des_vn": "Đông Ngô Hồn Lực, có khả năng tăng thuộc tính của Đông Ngô Chiến Hồn, có thể nhận được thông qua Ngụy Vũ Chi Hồn"
   },
   "404": {
-    "name": "隋唐魂力",
-    "name_zh": "隋唐魂力",
+    "name": "群雄魂力",
+    "name_zh": "群雄魂力",
     "name_vn": "Chiến Hồn quần hùng",
-    "des": "隋唐魂力，能够提升隋唐战魂的属性加成，可通过隋唐之路中获得。",
-    "des_zh": "隋唐魂力，能够提升隋唐战魂的属性加成，可通过隋唐之路中获得。",
+    "des": "群雄魂力，能够提升群雄战魂的属性加成，可通过群雄之路中获得。",
+    "des_zh": "群雄魂力，能够提升群雄战魂的属性加成，可通过群雄之路中获得。",
     "des_vn": "Quần Hùng Hồn Lực, có khả năng tăng thuộc tính của Quần Hùng Chiến Hồn, có thể nhận được thông qua Ngụy Vũ Chi Hồn"
   },
   "501": {
@@ -3115,6 +3115,20 @@
     "source3": "shop_guild",
     "source4": "shop_hero"
   },
+  "1000020": {
+    "name": "培养丹",
+    "name_zh": "培养丹",
+    "name_vn": "Đan Bồi Dưỡng",
+    "des": "培养丹,可用于英雄培养",
+    "des_zh": "培养丹,可用于英雄培养",
+    "des_vn": "Đan Bồi Dưỡng, dùng bồi dưỡng Tướng",
+    "isBag": true,
+    "type": "item",
+    "gold": 10,
+    "coin": 50000,
+    "buyNum": 1,
+    "quality": 5
+  },
   "1000040": {
     "name": "洗炼石",
     "name_zh": "洗炼石",
@@ -3232,6 +3246,21 @@
     "source1": "secretChallenge",
     "source2": "gift"
   },
+  "1000110": {
+    "name": "强化石",
+    "name_zh": "强化石",
+    "name_vn": "Đá Cường Hóa",
+    "des": "可用于强化装备",
+    "des_zh": "可用于强化装备",
+    "des_vn": "Dùng cường hóa trang bị",
+    "isBag": true,
+    "type": "item",
+    "gold": 10,
+    "coin": 50000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "shop_zhulu"
+  },
   "1000120": {
     "name": "英雄名帖",
     "name_zh": "英雄名帖",
@@ -3331,6 +3360,20 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "gift"
+  },
+  "1000200": {
+    "name": "培养突破丹",
+    "name_zh": "培养突破丹",
+    "name_vn": "Đan Đột Phá Bồi Dưỡng",
+    "des": "培养突破丹,可用于突破英雄培养上线",
+    "des_zh": "培养突破丹,可用于突破英雄培养上线",
+    "des_vn": "Đan Đột Phá Bồi Dưỡng, dùng đột phá giới hạn bồi dưỡng Tướng",
+    "isBag": true,
+    "type": "item",
+    "gold": 100,
+    "coin": 500000,
+    "buyNum": 1,
+    "quality": 5
   },
   "1000300": {
     "name": "兵法经验",
