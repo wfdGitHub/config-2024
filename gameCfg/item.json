@@ -34,12 +34,20 @@
     "effects": "baowu",
     "source1": "recharge"
   },
+  "120": {
+    "name": "提额券",
+    "des": "使用后可增加直充券使用额度，使用额度每日刷新",
+    "isBag": true,
+    "type": "item",
+    "useType": "dp_limit",
+    "quality": 5
+  },
   "200": {
     "name": "钻石",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.002,
-    "coin": 10,
+    "gold": 0.001,
+    "coin": 5,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -63,7 +71,7 @@
     "name": "钻石替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 500,
+    "arg": 1000,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -2576,8 +2584,8 @@
     "source1": "gift"
   },
   "10010": {
-    "name": "海克斯工具",
-    "des": "海克斯工具",
+    "name": "狂飙工具",
+    "des": "狂飙工具",
     "type": "currency",
     "useType": "optional",
     "arg": "[\"200:1000000\",\"201:10000000\",\"101:10000000\",\"1000050:10000\",\"1000300:1000000\"]",
@@ -5231,8 +5239,8 @@
     "source2": "gift"
   },
   "1000602": {
-    "name": "欧皇卡",
-    "des": "欧皇卡，可在欧皇寻宝中抽取奖励",
+    "name": "巡街卡",
+    "des": "巡街卡，可在强哥寻宝中抽取奖励",
     "isBag": true,
     "type": "item",
     "gold": 100,
