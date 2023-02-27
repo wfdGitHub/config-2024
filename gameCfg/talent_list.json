@@ -1347,9 +1347,9 @@
     "value1": true
   },
   "9509": {
-    "des": "攻击时35%概率清除敌方无敌状态",
+    "des": "攻击时最高20%概率清除敌方无敌状态，目标越少概率越高",
     "key1": "less_clear_invincible",
-    "value1": 0.35
+    "value1": 0.2
   },
   "9510": {
     "des": "受到的治疗效果增加30%",
@@ -1432,9 +1432,9 @@
     "value1": 0.1
   },
   "9608": {
-    "des": "使用技能攻击时，降低破甲状态下的目标一点怒气值",
-    "key1": "pj_less_anger",
-    "value1": 1
+    "des": "直接伤害击杀目标后，追加1次技能，对敌方单体造成155%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
+    "key1": "kill_later_skill",
+    "value1": "{\"type\":\"attack\",\"mul\":1.55,\"damageType\":\"phy\",\"targetType\":\"enemy_1\",\"rate\":1}"
   },
   "9609": {
     "des": "战斗首回合获得免控盾，免疫控制效果",
@@ -2623,11 +2623,9 @@
     "value1": true
   },
   "30501009": {
-    "des": "造成直接伤害时对目标添加1层流血效果",
+    "des": "普攻附带破甲效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30501010": {
     "des": "普攻强化：对敌方随机三人造成60%攻击力的法术伤害，降低目标1点怒气",
@@ -2734,9 +2732,9 @@
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30504000": {
-    "des": "受到直接物理伤害时，伤害的30%反弹给攻击者",
+    "des": "受到直接物理伤害时，伤害的20%反弹给攻击者",
     "key1": "hit_rebound",
-    "value1": 0.3
+    "value1": 0.2
   },
   "30504006": {
     "des": "每次受到直接伤害后，恢复自身10%的生命值",
@@ -2749,19 +2747,19 @@
     "value1": 0.3
   },
   "30504010": {
-    "des": "物理反伤效果增加至60%",
+    "des": "物理反伤效果增加20%",
     "key1": "hit_rebound",
-    "value1": 0.3
+    "value1": 0.2
   },
   "30504011": {
-    "des": "物理反伤效果增加值至90%",
+    "des": "物理反伤效果增加10%",
     "key1": "hit_rebound",
-    "value1": 0.3
+    "value1": 0.1
   },
   "30504020": {
-    "des": "物理反伤效果增加至130%",
+    "des": "物理反伤效果增加30%",
     "key1": "hit_rebound",
-    "value1": 0.4
+    "value1": 0.3
   },
   "30504025": {
     "des": "受到普通攻击时，降低目标1点怒气",
@@ -2829,9 +2827,9 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.36}"
   },
   "30506010": {
-    "des": "释放技能后追加一次普通攻击",
-    "key1": "skill_add_d_s",
-    "value1": true
+    "des": "技能有26%概率附带中毒效果",
+    "key1": "skill_buff2",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.26}"
   },
   "30506011": {
     "des": "入场时，随机折戟2个敌方英雄，持续1回合,自身回合开始前，随机折戟1个敌方英雄，持续1回合",
@@ -2890,31 +2888,31 @@
     "value1": 1
   },
   "30508000": {
-    "des": "生命值增加24%，攻击力增加18%",
+    "des": "生命值增加24%，中毒持续时间+1",
     "key1": "self_maxHP_add",
     "value1": 0.24,
-    "key2": "self_atk_add",
-    "value2": 0.18
+    "key2": "poison_duration",
+    "value2": 1
   },
   "30508006": {
-    "des": "普通攻击有60%概率添加1层中毒效果",
+    "des": "普通攻击附带中毒效果",
     "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30508009": {
-    "des": "释放技能后，追加1次普通攻击",
-    "key1": "skill_add_d_s",
-    "value1": true
+    "des": "释放中毒时，有概率使目标身上的中毒状态立即结算",
+    "key1": "poison_settle",
+    "value1": 0.3
   },
   "30508010": {
-    "des": "释放技能时，中毒的概率增加至60%",
+    "des": "释放技能时，中毒的概率增加至36%",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.36}"
   },
   "30508011": {
-    "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值20%的伤害",
+    "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值12%的伤害",
     "key1": "poison_clean_damage",
-    "value1": 0.2
+    "value1": 0.12
   },
   "30508020": {
     "des": "入场时，对敌方随机三个目标添加中毒。释放技能时触发中毒概率提升100%，该效果触发后冷却4回合",
@@ -2924,9 +2922,9 @@
     "value2": "{\"buffId\":\"poison\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "30508025": {
-    "des": "受到普通攻击时，30%概率对攻击者添加1层中毒",
-    "key1": "hit_buff",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "des": "中毒伤害的15%治疗自身生命值",
+    "key1": "poison_change_hp",
+    "value1": 0.15
   },
   "30509000": {
     "des": "生命值增加20%，闪避率增加10%",
@@ -3058,9 +3056,9 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40502009": {
-    "des": "攻击无视无敌盾效果",
-    "key1": "ignoreInvincible",
-    "value1": true
+    "des": "攻击时最高40%概率清除敌方无敌状态，目标越少概率越高",
+    "key1": "less_clear_invincible",
+    "value1": 0.4
   },
   "40502010": {
     "des": "释放技能时，有100%概率添加折戟，持续1回合",
@@ -3402,9 +3400,9 @@
     "value2": 0.16
   },
   "50501006": {
-    "des": "释放技能后，有50%的概率连击，再次释放该技能，每回合最多触发1次。",
+    "des": "释放技能后，有30%的概率连击，再次释放该技能，每回合最多触发1次。",
     "key1": "skill_combo",
-    "value1": 0.5
+    "value1": 0.3
   },
   "50501009": {
     "des": "首次阵亡时，将进入亡魂状态，增加4点怒气值，亡魂状态下无法被攻击，无法被治疗，2回合后将彻底死亡，无法被复活",
@@ -3412,18 +3410,18 @@
     "value1": "{\"buffId\":\"ghost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50501010": {
-    "des": "存活时每击杀一个目标，亡魂持续回合数+1。亡魂状态下伤害增加50%",
+    "des": "存活时每击杀一个目标，亡魂持续回合数+1。亡魂状态下伤害增加30%",
     "key1": "kill_ghost_dur",
     "value1": true,
     "key2": "ghost_amp",
-    "value2": 0.5
+    "value2": 0.3
   },
   "50501011": {
-    "des": "释放技能时连击概率提升至100%。亡魂状态结束后仍然可以被其他英雄复生为亡魂",
+    "des": "释放技能时连击概率提升至60%。亡魂状态结束后仍然可以被其他英雄复生为亡魂",
     "key1": "ghost_unlimit",
     "value1": true,
     "key2": "skill_combo",
-    "value2": 0.5
+    "value2": 0.3
   },
   "50501020": {
     "des": "每次进行攻击时，吸取目标5%攻击力，持续至战斗结束，不可驱散。",
@@ -4415,9 +4413,9 @@
   },
   "zf_025": {
     "name": "银龙冲阵",
-    "des": "攻击时忽视目标无敌盾状态",
-    "key1": "ignoreInvincible",
-    "value1": true
+    "des": "攻击时最高40%概率清除敌方无敌状态，目标越少概率越高",
+    "key1": "less_clear_invincible",
+    "value1": 0.4
   },
   "zf_026": {
     "name": "身经百战",

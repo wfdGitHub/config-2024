@@ -712,12 +712,12 @@
   "3050102": {
     "name": "残影突刺",
     "type": "attack",
-    "des": "对敌方随机三人造成175%攻击力的法术伤害，并附加1层破甲效果",
+    "des": "对敌方随机三人造成175%攻击力的法术伤害，有40%概率附带中毒效果",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.4}"
   },
   "3050103": {
     "name": "残影突刺",
@@ -794,20 +794,20 @@
   "3050502": {
     "name": "风暴突击",
     "type": "attack",
-    "des": "对敌方生命值最少的单位造成220%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
+    "des": "对敌方生命值最少的单位造成245%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "damageType": "phy",
     "targetType": "enemy_minHP",
-    "mul": 2.2,
+    "mul": 2.45,
     "key1": "killRet",
     "value1": true
   },
   "3050503": {
     "name": "风暴突击",
     "type": "attack",
-    "des": "对敌方生命值最少的单位造成360%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
+    "des": "对敌方生命值最少的单位造成320%攻击力的物理伤害，若击杀目标，则再次释放技能（每回合不限制次数）",
     "damageType": "phy",
     "targetType": "enemy_minHP",
-    "mul": 3.6,
+    "mul": 3.2,
     "key1": "killRet",
     "value1": true
   },
@@ -858,12 +858,12 @@
   "3050802": {
     "name": "毒咒之风",
     "type": "attack",
-    "des": "对敌方全体造成92%攻击力的法术伤害，有30%概率添加中毒，持续2回合",
+    "des": "对敌方全体造成92%攻击力的法术伤害，有24%概率添加中毒，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 0.92,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.24}"
   },
   "3050901": {
     "name": "治愈",
