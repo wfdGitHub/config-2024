@@ -9810,28 +9810,28 @@
     "refresh": "mewtwo",
     "type": "revenue",
     "value": 1,
-    "award": "1000260:60"
+    "award": "110:1000"
   },
   "601002": {
-    "title": "主角达到30级",
+    "title": "人物达到30级",
     "refresh": "mewtwo",
     "type": "loadLv",
     "value": 30,
-    "award": "1000260:60"
+    "award": "110:1000"
   },
   "601003": {
     "title": "激活作战特权",
     "refresh": "mewtwo",
     "type": "buy_kszz",
     "value": 1,
-    "award": "1000260:60"
+    "award": "110:1000"
   },
   "602001": {
-    "title": "沙盘演武(简单)",
+    "title": "神秘商店刷新30次",
     "refresh": "mewtwo",
-    "type": "exercise",
-    "value": 1,
-    "award": "1000260:120"
+    "type": "bazzar_refresh",
+    "value": 30,
+    "award": "110:1000"
   },
   "602002": {
     "title": "主线100关",
@@ -9839,14 +9839,14 @@
     "type": "checkpoints",
     "arg": 100,
     "value": 1,
-    "award": "1000260:120"
+    "award": "110:1000"
   },
   "602003": {
     "title": "激活至尊特权",
     "refresh": "mewtwo",
     "type": "buy_zztq",
     "value": 1,
-    "award": "1000260:120"
+    "award": "110:1000"
   },
   "603001": {
     "title": "完成3次红色寻街任务",
@@ -9854,31 +9854,23 @@
     "type": "tour",
     "arg": 6,
     "value": 3,
-    "award": "1000260:180"
+    "award": "110:1000"
   },
   "603002": {
-    "title": "乱世之路到达60层",
+    "title": "快速作战150次",
     "refresh": "mewtwo",
-    "type": "tttLv",
-    "value": 60,
-    "award": "1000260:180"
+    "type": "quick",
+    "value": 150,
+    "award": "110:1000"
   },
   "603003": {
     "title": "激活战令",
     "refresh": "mewtwo",
     "type": "buy_zl",
     "value": 1,
-    "award": "1000260:180"
+    "award": "110:1000"
   },
   "700100": {
-    "title": "高级招募30次",
-    "refresh": "default",
-    "type": "recruit_great",
-    "value": 30,
-    "award": "1000080:10",
-    "first": true
-  },
-  "700101": {
     "title": "高级招募100次",
     "refresh": "default",
     "type": "recruit_great",
@@ -9886,30 +9878,38 @@
     "award": "1000080:10",
     "first": true
   },
-  "700102": {
+  "700101": {
     "title": "高级招募300次",
     "refresh": "default",
     "type": "recruit_great",
     "value": 300,
-    "award": "1000080:10",
+    "award": "1000080:20",
+    "first": true
+  },
+  "700102": {
+    "title": "高级招募500次",
+    "refresh": "default",
+    "type": "recruit_great",
+    "value": 500,
+    "award": "1000080:30",
     "first": true
   },
   "700103": {
-    "title": "招募5个五星英雄",
+    "title": "招募10个五星英雄",
     "refresh": "default",
     "type": "hero",
     "arg": 5,
-    "value": 5,
+    "value": 10,
     "award": "1000080:10",
     "first": true
   },
   "700104": {
-    "title": "招募20个五星英雄",
+    "title": "招募50个五星英雄",
     "refresh": "default",
     "type": "hero",
     "arg": 5,
-    "value": 20,
-    "award": "1000080:10",
+    "value": 50,
+    "award": "1000080:30",
     "first": true
   },
   "700105": {
@@ -9918,56 +9918,56 @@
     "type": "hero",
     "arg": 5,
     "value": 100,
-    "award": "1000080:10",
+    "award": "1000080:50",
     "first": true
   },
   "700200": {
-    "title": "快速作战4次",
+    "title": "快速作战10次",
     "refresh": "default",
     "type": "quick",
-    "value": 4,
-    "award": "101100003:1",
+    "value": 10,
+    "award": "10020:1",
     "first": true
   },
   "700201": {
-    "title": "快速作战8次",
+    "title": "快速作战30次",
     "refresh": "default",
     "type": "quick",
-    "value": 8,
-    "award": "101100003:1",
+    "value": 30,
+    "award": "10020:3",
     "first": true
   },
   "700202": {
-    "title": "快速作战20次",
+    "title": "快速作战100次",
     "refresh": "default",
     "type": "quick",
-    "value": 20,
-    "award": "101100003:1",
+    "value": 100,
+    "award": "10020:10",
     "first": true
   },
   "700203": {
-    "title": "征战通关20关",
+    "title": "征战通关100关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 20,
+    "arg": 100,
     "value": 1,
     "award": "101100003:1",
     "first": true
   },
   "700204": {
-    "title": "征战通关50关",
+    "title": "征战通关150关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 50,
+    "arg": 150,
     "value": 1,
     "award": "101100003:1",
     "first": true
   },
   "700205": {
-    "title": "征战通关100关",
+    "title": "征战通关200关",
     "refresh": "default",
     "type": "checkpoints",
-    "arg": 100,
+    "arg": 200,
     "value": 1,
     "award": "101100003:1",
     "first": true
@@ -10028,7 +10028,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 1,
-    "award": "6050000:1",
+    "award": "6000000:1",
     "first": true
   },
   "700401": {
@@ -10036,7 +10036,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 2,
-    "award": "6050000:1",
+    "award": "6000000:2",
     "first": true
   },
   "700402": {
@@ -10044,7 +10044,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 3,
-    "award": "6050000:1",
+    "award": "6000000:3",
     "first": true
   },
   "700403": {
@@ -10052,7 +10052,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 1000,
-    "award": "6050000:1",
+    "award": "6009000:10",
     "first": true
   },
   "700404": {
@@ -10060,7 +10060,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 3000,
-    "award": "6050000:1",
+    "award": "6009000:30",
     "first": true
   },
   "700405": {
@@ -10068,7 +10068,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 5000,
-    "award": "6050000:1",
+    "award": "6009000:50",
     "first": true
   },
   "700500": {
@@ -10077,7 +10077,7 @@
     "type": "manor_lv",
     "arg": 3,
     "value": 1,
-    "award": "15200:1",
+    "award": "15100:1",
     "first": true
   },
   "700501": {
@@ -10095,31 +10095,31 @@
     "type": "manor_lv",
     "arg": 7,
     "value": 1,
-    "award": "15200:1",
+    "award": "15300:1",
     "first": true
   },
   "700503": {
-    "title": "获得300建筑评分",
-    "refresh": "default",
-    "type": "manor_score",
-    "value": 300,
-    "award": "15200:1",
-    "first": true
-  },
-  "700504": {
     "title": "获得500建筑评分",
     "refresh": "default",
     "type": "manor_score",
     "value": 500,
-    "award": "15200:1",
+    "award": "12200:1",
+    "first": true
+  },
+  "700504": {
+    "title": "获得1000建筑评分",
+    "refresh": "default",
+    "type": "manor_score",
+    "value": 1000,
+    "award": "12300:1",
     "first": true
   },
   "700505": {
-    "title": "获得800建筑评分",
+    "title": "获得2000建筑评分",
     "refresh": "default",
     "type": "manor_score",
-    "value": 800,
-    "award": "15200:1",
+    "value": 2000,
+    "award": "12400:1",
     "first": true
   },
   "721010": {
