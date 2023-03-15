@@ -26,8 +26,17 @@
     "source1": "recharge"
   },
   "110": {
-    "name": "银票",
-    "des": "银票,可在直充界面直接充值",
+    "name": "现金券",
+    "des": "现金券,可在直充界面直接充值",
+    "isBag": true,
+    "type": "item",
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "recharge"
+  },
+  "120": {
+    "name": "提额券",
+    "des": "提额券，使用可提供临时额度，额度次日清零",
     "isBag": true,
     "type": "item",
     "quality": 5,
@@ -1264,8 +1273,8 @@
     "source1": "beherrscher"
   },
   "7401": {
-    "name": "匡扶汉室",
-    "des": "匡扶汉室,新手刷充特权激活",
+    "name": "王者归来",
+    "des": "王者归来,强哥特权中激活",
     "type": "title",
     "arg": 7401,
     "quality": 7,
@@ -1273,8 +1282,8 @@
     "source1": "gift"
   },
   "7402": {
-    "name": "初出茅庐",
-    "des": "初出茅庐,普通刷充特权激活",
+    "name": "初入江湖",
+    "des": "初入江湖,强哥特权中激活",
     "type": "title",
     "arg": 7402,
     "quality": 7,
@@ -1282,8 +1291,8 @@
     "source1": "gift"
   },
   "7403": {
-    "name": "一战成名",
-    "des": "一战成名,初级刷充特权激活",
+    "name": "贵人相助",
+    "des": "贵人相助,强哥特权中激活",
     "type": "title",
     "arg": 7403,
     "quality": 7,
@@ -1291,8 +1300,8 @@
     "source1": "gift"
   },
   "7404": {
-    "name": "征战沙场",
-    "des": "征战沙场,中级刷充特权激活",
+    "name": "小有名气",
+    "des": "小有名气,强哥特权中激活",
     "type": "title",
     "arg": 7404,
     "quality": 7,
@@ -1300,8 +1309,8 @@
     "source1": "gift"
   },
   "7405": {
-    "name": "明日之星",
-    "des": "明日之星,高级刷充特权激活",
+    "name": "高歌猛进",
+    "des": "高歌猛进,强哥特权中激活",
     "type": "title",
     "arg": 7405,
     "quality": 7,
@@ -1309,8 +1318,8 @@
     "source1": "gift"
   },
   "7406": {
-    "name": "年少有为",
-    "des": "年少有为,超级刷充特权激活",
+    "name": "人生巅峰",
+    "des": "人生巅峰,强哥特权中激活",
     "type": "title",
     "arg": 7406,
     "quality": 7,
@@ -1318,64 +1327,10 @@
     "source1": "gift"
   },
   "7407": {
-    "name": "少年英雄",
-    "des": "少年英雄,顶级刷充特权激活",
+    "name": "永久强盛",
+    "des": "永久强盛,强哥特权中激活",
     "type": "title",
     "arg": 7407,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7408": {
-    "name": "三国名将",
-    "des": "三国名将,神级刷充特权激活",
-    "type": "title",
-    "arg": 7408,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7409": {
-    "name": "一州之主",
-    "des": "一州之主,超神刷充特权激活",
-    "type": "title",
-    "arg": 7409,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7410": {
-    "name": "王侯将相",
-    "des": "王侯将相,至尊刷充特权激活",
-    "type": "title",
-    "arg": 7410,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7411": {
-    "name": "雄霸天下",
-    "des": "雄霸天下,英主刷充特权激活",
-    "type": "title",
-    "arg": 7411,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7412": {
-    "name": "自立为王",
-    "des": "自立为王,霸主刷充特权激活",
-    "type": "title",
-    "arg": 7412,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
-  },
-  "7413": {
-    "name": "一统九州",
-    "des": "一统九州,雄主刷充特权激活",
-    "type": "title",
-    "arg": 7413,
     "quality": 7,
     "effects": "baowu",
     "source1": "gift"
@@ -2590,8 +2545,8 @@
     "quality": 6
   },
   "10020": {
-    "name": "无限名将令",
-    "des": "使用无限名将令,可以在无限十连中提取英雄",
+    "name": "强哥招募令",
+    "des": "使用强哥招募令,可以在无限十连中提取英雄",
     "type": "item",
     "gold": 20000,
     "coin": 100000000,
