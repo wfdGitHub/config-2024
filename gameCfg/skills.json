@@ -1,38 +1,48 @@
 {
   "1040101": {
-    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标已损失血量越多，受到的伤害越高，最高增加20%伤害结果",
     "atk_mul": 2.93,
     "atk_basic": 78,
     "atk_aim": "enemy_minHP",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1040101,
+    "atk_count": 1
   },
   "1040102": {
-    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标已损失血量越多，受到的伤害越高，最高增加30%伤害结果",
     "atk_mul": 4.51,
     "atk_basic": 78,
     "atk_aim": "enemy_minHP",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1040102,
+    "atk_count": 1
   },
   "1040103": {
-    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标已损失血量越多，受到的伤害越高，最高增加40%伤害结果",
     "atk_mul": 6.62,
     "atk_basic": 78,
     "atk_aim": "enemy_minHP",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1040103,
+    "atk_count": 1
   },
   "1040104": {
-    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标已损失血量越多，受到的伤害越高，最高增加40%伤害结果;若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升4%伤害。(每回合仅触发1次 )",
     "atk_mul": 8.08,
     "atk_basic": 78,
     "atk_aim": "enemy_minHP",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1040104,
+    "atk_count": 1
   },
   "1040105": {
-    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标已损失血量越多，受到的伤害越高，最高增加60%伤害结果;若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗1点怒气提升0.6%伤害。(每回合仅触发1次 )",
     "atk_mul": 9.68,
     "atk_basic": 78,
     "atk_aim": "enemy_minHP",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1040105,
+    "atk_count": 1
   },
   "1050101": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害，反之则为外功d_type伤害",
@@ -127,140 +137,180 @@
     "atk_mul": 1.18,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050301,
+    "atk_count": 1
   },
   "1050302": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标7%的攻击和护甲,持续2回合",
     "atk_mul": 1.77,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050302,
+    "atk_count": 1
   },
   "1050303": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标10%的攻击和护甲,持续2回合",
     "atk_mul": 2.71,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050303,
+    "atk_count": 1
   },
   "1050304": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标13%的攻击和护甲,持续2回合",
     "atk_mul": 3.3,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050304,
+    "atk_count": 1
   },
   "1050305": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标15%的攻击和护甲,持续2回合",
     "atk_mul": 3.92,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050305,
+    "atk_count": 1
   },
   "1050401": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值1%的真实伤害",
     "atk_mul": 1.18,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050401,
+    "atk_count": 1
   },
   "1050402": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值2%的真实伤害",
     "atk_mul": 1.77,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050402,
+    "atk_count": 1
   },
   "1050403": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值3%的真实伤害",
     "atk_mul": 2.71,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050403,
+    "atk_count": 1
   },
   "1050404": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值4%的真实伤害",
     "atk_mul": 3.3,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050404,
+    "atk_count": 1
   },
   "1050405": {
     "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值6%的真实伤害",
     "atk_mul": 3.92,
     "atk_basic": 24,
     "atk_aim": "enemy_all",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050405,
+    "atk_count": 1
   },
   "1050501": {
     "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击8%，持续2回合（不可驱散）",
     "atk_mul": 2.93,
     "atk_basic": 78,
     "atk_aim": "enemy_maxAtk_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050501,
+    "atk_count": 1
   },
   "1050502": {
     "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击11%，持续2回合（不可驱散）",
     "atk_mul": 4.51,
     "atk_basic": 78,
     "atk_aim": "enemy_maxAtk_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050502,
+    "atk_count": 1
   },
   "1050503": {
     "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击14%，持续2回合（不可驱散）",
     "atk_mul": 6.62,
     "atk_basic": 78,
     "atk_aim": "enemy_maxAtk_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050503,
+    "atk_count": 1
   },
   "1050504": {
     "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击17%，持续2回合（不可驱散）",
     "atk_mul": 8.08,
     "atk_basic": 78,
     "atk_aim": "enemy_maxAtk_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050504,
+    "atk_count": 1
   },
   "1050505": {
     "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击20%，持续3回合（不可驱散）",
     "atk_mul": 9.68,
     "atk_basic": 78,
     "atk_aim": "enemy_maxAtk_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050505,
+    "atk_count": 1
   },
   "1050601": {
     "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击8%",
     "atk_mul": 2.93,
     "atk_basic": 78,
     "atk_aim": "enemy_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050601,
+    "atk_count": 1
   },
   "1050602": {
     "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击12%",
     "atk_mul": 4.51,
     "atk_basic": 78,
     "atk_aim": "enemy_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050602,
+    "atk_count": 1
   },
   "1050603": {
     "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击12%，破格12%",
     "atk_mul": 6.62,
     "atk_basic": 78,
     "atk_aim": "enemy_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050603,
+    "atk_count": 1
   },
   "1050604": {
     "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击15%，破格15%",
     "atk_mul": 8.08,
     "atk_basic": 78,
     "atk_aim": "enemy_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050604,
+    "atk_count": 1
   },
   "1050605": {
     "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击20%，破格20%",
     "atk_mul": 9.68,
     "atk_basic": 78,
     "atk_aim": "enemy_1",
-    "d_type": "phy"
+    "d_type": "phy",
+    "talentId": 1050605,
+    "atk_count": 1
   },
   "1060101": {
     "des": "对enemy_back_rand_1造成6段atk_mul+atk_value的d_type伤害，每段目标随机选择",

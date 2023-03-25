@@ -1,18 +1,56 @@
 {
+  "mag_damage": {
+    "name": "内伤",
+    "des": "受到内伤，每回合受到一定内功伤害",
+    "icon": true,
+    "effects": true,
+    "max_count": 5
+  },
+  "phy_damage": {
+    "name": "外伤",
+    "des": "受到外伤，每回合受到一定外功伤害",
+    "icon": true,
+    "effects": true,
+    "max_count": 5
+  },
   "atk_down": {
     "name": "攻击降低",
+    "des": "攻击力降低",
     "icon": false,
     "effects": false,
     "max_count": 1,
     "attKey": "atk",
-    "normal": true
+    "normal": true,
+    "show_tag": "atk_down"
   },
   "armor_down": {
     "name": "护甲降低",
+    "des": "护甲降低",
     "icon": false,
     "effects": false,
     "max_count": 1,
     "attKey": "armor",
-    "normal": true
+    "normal": true,
+    "show_tag": "armor_down"
+  },
+  "atk_suck_add": {
+    "name": "汲取攻击",
+    "des": "吸取目标一定攻击力，不可驱散",
+    "icon": false,
+    "effects": false,
+    "max_count": 2,
+    "attKey": "atk",
+    "normal": true,
+    "undispel": true
+  },
+  "atk_suck_les": {
+    "name": "汲取攻击",
+    "des": "被吸取一定攻击力，不可驱散",
+    "icon": false,
+    "effects": false,
+    "max_count": 2,
+    "attKey": "atk",
+    "show_tag": "atk_suck",
+    "undispel": true
   }
 }
