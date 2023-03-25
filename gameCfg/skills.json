@@ -1,67 +1,323 @@
 {
-  "1060101": {
-    "name": "黯然消魂掌",
-    "des": "对enemy_back_rand_1造成6段atk_mul+atk_value的damageType伤害，每段目标随机选择",
-    "atk_count": 6,
-    "atk_mul": 0.46,
-    "atk_basic": 12,
-    "atk_aim": "enemy_back_rand_1",
-    "damageType": "phy"
+  "1040101": {
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "atk_mul": 2.93,
+    "atk_basic": 78,
+    "atk_aim": "enemy_minHP",
+    "d_type": "phy"
   },
-  "1060102": {
-    "name": "黯然消魂掌",
-    "des": "对enemy_back_rand_1造成7段atk_mul+atk_value的damageType伤害，每段目标随机选择",
-    "atk_count": 7,
+  "1040102": {
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "atk_mul": 4.51,
+    "atk_basic": 78,
+    "atk_aim": "enemy_minHP",
+    "d_type": "phy"
+  },
+  "1040103": {
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "atk_mul": 6.62,
+    "atk_basic": 78,
+    "atk_aim": "enemy_minHP",
+    "d_type": "phy"
+  },
+  "1040104": {
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "atk_mul": 8.08,
+    "atk_basic": 78,
+    "atk_aim": "enemy_minHP",
+    "d_type": "phy"
+  },
+  "1040105": {
+    "des": "对enemy_minHP造成atk_mul+atk_value的d_type伤害，目标损失血量比例越高，伤害越高。 (目标每损失1%血量，技能系数提高5%) 若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升5%伤害。(每回合仅能发1次 )",
+    "atk_mul": 9.68,
+    "atk_basic": 78,
+    "atk_aim": "enemy_minHP",
+    "d_type": "phy"
+  },
+  "1050101": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害，反之则为外功d_type伤害",
+    "atk_mul": 1.18,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 1050101,
+    "atk_count": 1
+  },
+  "1050102": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害，反之则为外功d_type伤害",
+    "atk_mul": 1.77,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "1050103": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害，反之则为外功d_type伤害",
+    "atk_mul": 2.71,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "1050104": {
+    "des": "对enemy_back_rand_1造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害并无视目标25%的护甲，反之则为外功d_type伤害并提升15%的暴击d_type伤害",
+    "atk_mul": 3.3,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 1050104,
+    "atk_count": 1
+  },
+  "1050105": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，若目标筋骨大于内力，则本次d_type伤害为内功d_type伤害并无视目标50%的护甲，反之则为外功d_type伤害并提升30%的暴击d_type伤害",
+    "atk_mul": 3.92,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 1050105,
+    "atk_count": 1
+  },
+  "1050201": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，分别有6%的概率清空目标怒气",
+    "atk_mul": 1.18,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 1050201,
+    "atk_count": 1
+  },
+  "1050202": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，分别有9%的概率清空目标怒气",
+    "atk_mul": 1.77,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 1050202,
+    "atk_count": 1
+  },
+  "1050203": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，分别有12%的概率清空目标怒气",
+    "atk_mul": 2.71,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 1050203,
+    "atk_count": 1
+  },
+  "1050204": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，分别有16%的概率清空目标怒气",
+    "atk_mul": 3.3,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 1050204,
+    "atk_count": 1
+  },
+  "1050205": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，分别有21%的概率清空目标怒气",
+    "atk_mul": 3.92,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 1050205,
+    "atk_count": 1
+  },
+  "1050301": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标5%的攻击和护甲,持续2回合",
+    "atk_mul": 1.18,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050302": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标7%的攻击和护甲,持续2回合",
+    "atk_mul": 1.77,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050303": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标10%的攻击和护甲,持续2回合",
+    "atk_mul": 2.71,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050304": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标13%的攻击和护甲,持续2回合",
+    "atk_mul": 3.3,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050305": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，降低目标15%的攻击和护甲,持续2回合",
+    "atk_mul": 3.92,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050401": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值1%的真实伤害",
+    "atk_mul": 1.18,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050402": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值2%的真实伤害",
+    "atk_mul": 1.77,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050403": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值3%的真实伤害",
+    "atk_mul": 2.71,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050404": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值4%的真实伤害",
+    "atk_mul": 3.3,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050405": {
+    "des": "对enemy_all造成atk_mul+atk_value的d_type伤害，并额外造成最大生命值6%的真实伤害",
+    "atk_mul": 3.92,
+    "atk_basic": 24,
+    "atk_aim": "enemy_all",
+    "d_type": "phy"
+  },
+  "1050501": {
+    "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击8%，持续2回合（不可驱散）",
+    "atk_mul": 2.93,
+    "atk_basic": 78,
+    "atk_aim": "enemy_maxAtk_1",
+    "d_type": "phy"
+  },
+  "1050502": {
+    "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击11%，持续2回合（不可驱散）",
+    "atk_mul": 4.51,
+    "atk_basic": 78,
+    "atk_aim": "enemy_maxAtk_1",
+    "d_type": "phy"
+  },
+  "1050503": {
+    "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击14%，持续2回合（不可驱散）",
+    "atk_mul": 6.62,
+    "atk_basic": 78,
+    "atk_aim": "enemy_maxAtk_1",
+    "d_type": "phy"
+  },
+  "1050504": {
+    "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击17%，持续2回合（不可驱散）",
+    "atk_mul": 8.08,
+    "atk_basic": 78,
+    "atk_aim": "enemy_maxAtk_1",
+    "d_type": "phy"
+  },
+  "1050505": {
+    "des": "对enemy_maxAtk_1造成atk_mul+atk_value的d_type伤害，同时汲取目标攻击20%，持续3回合（不可驱散）",
+    "atk_mul": 9.68,
+    "atk_basic": 78,
+    "atk_aim": "enemy_maxAtk_1",
+    "d_type": "phy"
+  },
+  "1050601": {
+    "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击8%",
+    "atk_mul": 2.93,
+    "atk_basic": 78,
+    "atk_aim": "enemy_1",
+    "d_type": "phy"
+  },
+  "1050602": {
+    "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击12%",
+    "atk_mul": 4.51,
+    "atk_basic": 78,
+    "atk_aim": "enemy_1",
+    "d_type": "phy"
+  },
+  "1050603": {
+    "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击12%，破格12%",
+    "atk_mul": 6.62,
+    "atk_basic": 78,
+    "atk_aim": "enemy_1",
+    "d_type": "phy"
+  },
+  "1050604": {
+    "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击15%，破格15%",
+    "atk_mul": 8.08,
+    "atk_basic": 78,
+    "atk_aim": "enemy_1",
+    "d_type": "phy"
+  },
+  "1050605": {
+    "des": "对enemy_1造成atk_mul+atk_value的d_type伤害，若目标处于【外伤】状态，则本次攻击增加暴击20%，破格20%",
+    "atk_mul": 9.68,
+    "atk_basic": 78,
+    "atk_aim": "enemy_1",
+    "d_type": "phy"
+  },
+  "1060101": {
+    "des": "对enemy_back_rand_1造成6段atk_mul+atk_value的d_type伤害，每段目标随机选择",
     "atk_mul": 0.64,
     "atk_basic": 12,
     "atk_aim": "enemy_back_rand_1",
-    "damageType": "phy"
+    "d_type": "phy",
+    "atk_count": 6
   },
-  "1060103": {
-    "name": "黯然消魂掌",
-    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的damageType伤害，每段目标随机选择",
-    "atk_count": 8,
+  "1060102": {
+    "des": "对enemy_back_rand_1造成7段atk_mul+atk_value的d_type伤害，每段目标随机选择",
     "atk_mul": 0.85,
     "atk_basic": 12,
     "atk_aim": "enemy_back_rand_1",
-    "damageType": "phy"
+    "d_type": "phy",
+    "atk_count": 7
   },
-  "1060104": {
-    "name": "黯然消魂掌",
-    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的damageType伤害，每段目标随机选择;使用技能时消耗自身当前生命值的30%，额外造成伤害",
-    "atk_count": 8,
+  "1060103": {
+    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的d_type伤害，每段目标随机选择",
     "atk_mul": 1.09,
     "atk_basic": 12,
     "atk_aim": "enemy_back_rand_1",
-    "damageType": "phy",
-    "talentId": 10601013
+    "d_type": "phy",
+    "atk_count": 8
   },
-  "1060105": {
-    "name": "黯然消魂掌",
-    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的damageType伤害，每段目标随机选择;使用技能时消耗自身当前生命值的30%，额外造成伤害；自身生命值每损失20%,额外附加1段伤害",
-    "atk_count": 8,
+  "1060104": {
+    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的d_type伤害，每段目标随机选择;使用技能时消耗自身当前生命值的30%，额外造成伤害",
     "atk_mul": 1.33,
     "atk_basic": 12,
     "atk_aim": "enemy_back_rand_1",
-    "damageType": "phy",
-    "talentId": 10601014
+    "d_type": "phy",
+    "talentId": 1060104,
+    "atk_count": 8
+  },
+  "1060105": {
+    "des": "对enemy_back_rand_1造成8段atk_mul+atk_value的d_type伤害，每段目标随机选择;使用技能时消耗自身当前生命值的30%，额外造成伤害；自身生命值每损失20%,额外附加1段伤害",
+    "atk_mul": 1.59,
+    "atk_basic": 12,
+    "atk_aim": "enemy_back_rand_1",
+    "d_type": "phy",
+    "talentId": 1060105,
+    "atk_count": 8
   },
   "2000001": {
-    "name": "普通攻击",
     "des": "造成100%外功伤害",
-    "atk_count": 1,
     "atk_mul": 1,
     "atk_basic": 0,
     "atk_aim": "enemy_normal",
-    "damageType": "phy"
+    "d_type": "phy",
+    "atk_count": 1
   },
   "2000002": {
-    "name": "普通攻击",
     "des": "造成100%内功伤害",
-    "atk_count": 1,
     "atk_mul": 1,
     "atk_basic": 0,
     "atk_aim": "enemy_normal",
-    "damageType": "mag"
+    "d_type": "mag",
+    "atk_count": 1
   }
 }
