@@ -1,4 +1,11 @@
 {
+  "poison": {
+    "name": "中毒",
+    "des": "中毒状态，每回合受到一定中毒伤害",
+    "icon": true,
+    "effects": true,
+    "max_count": 5
+  },
   "mag_damage": {
     "name": "内伤",
     "des": "受到内伤，每回合受到一定内功伤害",
@@ -19,7 +26,7 @@
     "icon": false,
     "effects": false,
     "max_count": 1,
-    "attKey": "atk",
+    "attKey1": "atk",
     "normal": true,
     "show_tag": "atk_down"
   },
@@ -29,7 +36,7 @@
     "icon": false,
     "effects": false,
     "max_count": 1,
-    "attKey": "armor",
+    "attKey1": "armor",
     "normal": true,
     "show_tag": "armor_down"
   },
@@ -39,7 +46,7 @@
     "icon": false,
     "effects": false,
     "max_count": 2,
-    "attKey": "atk",
+    "attKey1": "atk",
     "normal": true,
     "undispel": true
   },
@@ -49,8 +56,29 @@
     "icon": false,
     "effects": false,
     "max_count": 2,
-    "attKey": "atk",
+    "attKey1": "atk",
     "show_tag": "atk_suck",
+    "undispel": true
+  },
+  "bingpo": {
+    "name": "冰魄",
+    "des": "降低增伤和减伤15%",
+    "icon": true,
+    "effects": false,
+    "max_count": 1,
+    "attKey1": "amp",
+    "attKey2": "ampDef",
+    "normal": true
+  },
+  "skill_up": {
+    "name": "技能增伤",
+    "des": "技能伤害增加，持续至战斗结束",
+    "icon": false,
+    "effects": false,
+    "max_count": 1,
+    "attKey1": "angerAmp",
+    "normal": true,
+    "show_tag": "skill_up",
     "undispel": true
   }
 }

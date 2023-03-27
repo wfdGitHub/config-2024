@@ -207,5 +207,224 @@
     "des": "自身生命值每损失20%,额外附加1段伤害",
     "key1": "hp_low_count",
     "value1": 0.2
+  },
+  "2040101": {
+    "des": "分别有10%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击25%的相应伤害，持续3回合，每个效果独立生效",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.25,\"duration\":2,\"rate\":0.1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.25,\"duration\":2,\"rate\":0.1}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.25,\"duration\":2,\"rate\":0.1}"
+  },
+  "2040102": {
+    "des": "分别有15%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击30%的相应伤害，持续3回合，每个效果独立生效",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.3,\"duration\":2,\"rate\":0.15}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.3,\"duration\":2,\"rate\":0.15}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.3,\"duration\":2,\"rate\":0.15}"
+  },
+  "2040103": {
+    "des": "分别有20%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击35%的相应伤害，持续3回合，每个效果独立生效",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.35,\"duration\":2,\"rate\":0.2}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.35,\"duration\":2,\"rate\":0.2}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.35,\"duration\":2,\"rate\":0.2}"
+  },
+  "2040104": {
+    "des": "分别有25%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击40%的相应伤害，持续3回合，每个效果独立生效",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.25}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.25}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.25}"
+  },
+  "2040105": {
+    "des": "分别有30%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击60%的相应伤害，持续3回合，每个效果独立生效",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.3}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.3}",
+    "key3": "buff3",
+    "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.3}"
+  },
+  "2040301": {
+    "des": "并增加自己技能增伤20%，持续至战斗结束；不可叠加不可驱散",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.2,\"duration\":99,\"rate\":1}"
+  },
+  "2040302": {
+    "des": "并增加自己技能增伤30%，持续至战斗结束；不可叠加不可驱散",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":99,\"rate\":1}"
+  },
+  "2040303": {
+    "des": "并增加自己技能增伤40%，持续至战斗结束；不可叠加不可驱散",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.4,\"duration\":99,\"rate\":1}"
+  },
+  "2040304": {
+    "des": "并增加自己技能增伤50%，持续至战斗结束；不可叠加不可驱散",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.5,\"duration\":99,\"rate\":1}"
+  },
+  "2040305": {
+    "des": "并增加自己技能增伤60%，持续至战斗结束；不可叠加不可驱散",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.6,\"duration\":99,\"rate\":1}"
+  },
+  "2040401": {
+    "des": "若目标职业为剑或气，则伤害增加30%。",
+    "key1": "career_amp_2",
+    "value1": 0.3,
+    "key2": "career_amp_4",
+    "value2": 0.3
+  },
+  "2040402": {
+    "des": "若目标职业为剑或气，则伤害增加40%。",
+    "key1": "career_amp_2",
+    "value1": 0.4,
+    "key2": "career_amp_4",
+    "value2": 0.4
+  },
+  "2040403": {
+    "des": "若目标职业为剑或气，则伤害增加50%。",
+    "key1": "career_amp_2",
+    "value1": 0.5,
+    "key2": "career_amp_4",
+    "value2": 0.5
+  },
+  "2040404": {
+    "des": "若目标职业为剑或气，则伤害增加60%。",
+    "key1": "career_amp_2",
+    "value1": 0.6,
+    "key2": "career_amp_4",
+    "value2": 0.6
+  },
+  "2040405": {
+    "des": "若目标职业为剑或气，则伤害增加80%。",
+    "key1": "career_amp_2",
+    "value1": 0.8,
+    "key2": "career_amp_4",
+    "value2": 0.8
+  },
+  "2050101": {
+    "des": "20%几率使目标受到【外伤】，每回合受到攻击40%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.2}"
+  },
+  "2050102": {
+    "des": "20%几率使目标受到【外伤】，每回合受到攻击50%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.5,\"duration\":2,\"rate\":0.2}"
+  },
+  "2050103": {
+    "des": "20%几率使目标受到【外伤】，每回合受到攻击60%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.2}"
+  },
+  "2050104": {
+    "des": "20%几率使目标受到【外伤】，每回合受到攻击80%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.8,\"duration\":2,\"rate\":0.2}"
+  },
+  "2050105": {
+    "des": "20%几率使目标受到【外伤】，每回合受到攻击100%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":0.2}"
+  },
+  "2050201": {
+    "des": "汲取10%",
+    "key1": "suck_blood",
+    "value1": 0.1
+  },
+  "2050202": {
+    "des": "汲取15%",
+    "key1": "suck_blood",
+    "value1": 0.05
+  },
+  "2050203": {
+    "des": "汲取20%",
+    "key1": "suck_blood",
+    "value1": 0.05
+  },
+  "2050204": {
+    "des": "汲取25%;若目标处于【外伤】状态，本次攻击增加15%暴击几率",
+    "key1": "suck_blood",
+    "value1": 0.05,
+    "key2": "phy_buff_att1",
+    "value2": "crit",
+    "key3": "phy_buff_value1",
+    "value3": 0.15
+  },
+  "2050205": {
+    "des": "汲取30%;若目标处于【外伤】状态，本次攻击增加30%暴击几率",
+    "key1": "suck_blood",
+    "value1": 0.05,
+    "key2": "phy_buff_att1",
+    "value2": "crit",
+    "key3": "phy_buff_value1",
+    "value3": 0.15
+  },
+  "2060101": {
+    "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.68倍的真实伤害",
+    "key1": "loss_hp_amp",
+    "value1": 0.68
+  },
+  "2060102": {
+    "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.82倍的真实伤害",
+    "key1": "loss_hp_amp",
+    "value1": 0.14
+  },
+  "2060103": {
+    "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.96倍的真实伤害",
+    "key1": "loss_hp_amp",
+    "value1": 0.14
+  },
+  "2060104": {
+    "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量1.15倍的真实伤害，攻击无视免疫伤害",
+    "key1": "loss_hp_amp",
+    "value1": 0.19,
+    "key2": "ign_invincible",
+    "value2": true
+  },
+  "2060105": {
+    "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量1.56倍的真实伤害，攻击无视免疫伤害",
+    "key1": "loss_hp_amp",
+    "value1": 0.41
+  },
+  "2060201": {
+    "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤5%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.05,\"duration\":2,\"rate\":0.6}"
+  },
+  "2060202": {
+    "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤7%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.07,\"duration\":2,\"rate\":0.6}"
+  },
+  "2060203": {
+    "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤9%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.09,\"duration\":2,\"rate\":0.6}"
+  },
+  "2060204": {
+    "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤12%，持续2回合;若目标血量高于50%，本次技攻暴击率和暴击伤害增加15%",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.12,\"duration\":2,\"rate\":1}",
+    "key2": "high_hp_crit_slay",
+    "value2": 0.15
+  },
+  "2060205": {
+    "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤15%，持续2回合;若目标血量高于50%，本次技攻暴击率和暴击伤害增加30%",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.15,\"duration\":2,\"rate\":0.6}",
+    "key2": "high_hp_crit_slay",
+    "value2": 0.15
   }
 }
