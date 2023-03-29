@@ -427,6 +427,183 @@
     "key2": "high_hp_crit_slay",
     "value2": 0.15
   },
+  "3040101": {
+    "des": "提升自身格挡20%，持续2回合(不可叠加)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.2,\"duration\":2,\"rate\":1}"
+  },
+  "3040102": {
+    "des": "提升自身格挡25%，持续2回合(不可叠加)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.25,\"duration\":2,\"rate\":1}"
+  },
+  "3040103": {
+    "des": "提升自身格挡30%，持续2回合(不可叠加)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":2,\"rate\":1}"
+  },
+  "3040104": {
+    "des": "提升自身格挡35%，持续2回合(不可叠加)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.35,\"duration\":2,\"rate\":1}"
+  },
+  "3040105": {
+    "des": "提升自身格挡40%，持续3回合(不可叠加)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.4,\"duration\":3,\"rate\":1}"
+  },
+  "3040301": {
+    "des": "有15%的概率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.15}"
+  },
+  "3040302": {
+    "des": "有20%的概率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.2}"
+  },
+  "3040303": {
+    "des": "有25%的概率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.25}"
+  },
+  "3040304": {
+    "des": "有30%的概率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
+  },
+  "3040305": {
+    "des": "有40%的概率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
+  },
+  "3050101": {
+    "des": "有60%几率吸取目标护甲10%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.1,\"duration\":2,\"rate\":1}"
+  },
+  "3050102": {
+    "des": "有65%几率吸取目标护甲13%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.13,\"duration\":2,\"rate\":1}"
+  },
+  "3050103": {
+    "des": "有70%几率吸取目标护甲16%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.16,\"duration\":2,\"rate\":1}"
+  },
+  "3050104": {
+    "des": "有75%几率吸取目标护甲20%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.2,\"duration\":2,\"rate\":1}"
+  },
+  "3050105": {
+    "des": "有80%几率吸取目标护甲25%，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.25,\"duration\":2,\"rate\":1}"
+  },
+  "3050201": {
+    "des": "对敌方周围目标造成25%的减射伤害",
+    "key1": "splash_nearby",
+    "value1": 0.25
+  },
+  "3050202": {
+    "des": "对敌方周围目标造成30%的减射伤害",
+    "key1": "splash_nearby",
+    "value1": 0.05
+  },
+  "3050203": {
+    "des": "对敌方周围目标造成35%的减射伤害",
+    "key1": "splash_nearby",
+    "value1": 0.05
+  },
+  "3050204": {
+    "des": "对敌方周围目标造成40%的减射伤害",
+    "key1": "splash_nearby",
+    "value1": 0.05
+  },
+  "3050205": {
+    "des": "对敌方周围目标造成50%的减射伤害",
+    "key1": "splash_nearby",
+    "value1": 0.1
+  },
+  "3050301": {
+    "des": "提升友方全体侠客技攻减伤8%，不可叠加，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.08,\"duration\":2,\"rate\":1}"
+  },
+  "3050302": {
+    "des": "提升友方全体侠客技攻减伤12%，不可叠加，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.12,\"duration\":2,\"rate\":1}"
+  },
+  "3050303": {
+    "des": "提升友方全体侠客技攻减伤15%，不可叠加，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.15,\"duration\":2,\"rate\":1}"
+  },
+  "3050304": {
+    "des": "提升友方全体侠客技攻减伤20%，不可叠加，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.2,\"duration\":2,\"rate\":1}"
+  },
+  "3050305": {
+    "des": "提升友方全体侠客技攻减伤30%，不可叠加，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.3,\"duration\":2,\"rate\":1}"
+  },
+  "3050401": {
+    "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的30%转化为自身的血量，并且自身无法行动，持续3回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jianren\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":3,\"rate\":1}"
+  },
+  "3050402": {
+    "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的35%转化为自身的血量，并且自身无法行动，持续3回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jianren\",\"targetType\":\"team_self\",\"mul\":0.35,\"duration\":3,\"rate\":1}"
+  },
+  "3050403": {
+    "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的40%转化为自身的血量，并且自身无法行动，持续3回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jianren\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":3,\"rate\":1}"
+  },
+  "3050404": {
+    "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的50%转化为自身的血量，并且自身无法行动，持续3回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jianren\",\"targetType\":\"team_self\",\"mul\":0.5,\"duration\":3,\"rate\":1}"
+  },
+  "3050405": {
+    "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的60%转化为自身的血量，并且自身无法行动，持续3回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jianren\",\"targetType\":\"team_self\",\"mul\":0.6,\"duration\":3,\"rate\":1}"
+  },
+  "3050501": {
+    "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的8%伤害，下次释放普攻时附带此部分真实伤害",
+    "key1": "store_to_normal",
+    "value1": 0.08,
+    "key2": "attack_share",
+    "value2": true
+  },
+  "3050502": {
+    "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的10%伤害，下次释放普攻时附带此部分真实伤害",
+    "key1": "store_to_normal",
+    "value1": 0.02
+  },
+  "3050503": {
+    "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的12%伤害，下次释放普攻时附带此部分真实伤害",
+    "key1": "store_to_normal",
+    "value1": 0.02
+  },
+  "3050504": {
+    "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的15%伤害，下次释放普攻时附带此部分真实伤害",
+    "key1": "store_to_normal",
+    "value1": 0.03
+  },
+  "3050505": {
+    "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的18%伤害，下次释放普攻时附带此部分真实伤害",
+    "key1": "store_to_normal",
+    "value1": 0.03
+  },
   "3060101": {
     "des": "有30%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害30%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",

@@ -60,6 +60,26 @@
     "show_tag": "atk_suck",
     "undispel": true
   },
+  "armor_suck_add": {
+    "name": "汲取护甲",
+    "des": "吸取目标一定护甲，不可驱散",
+    "icon": false,
+    "effects": false,
+    "max_count": 2,
+    "attKey1": "armor",
+    "normal": true,
+    "undispel": true
+  },
+  "armor_suck_les": {
+    "name": "汲取护甲",
+    "des": "被吸取一定护甲，不可驱散",
+    "icon": false,
+    "effects": false,
+    "max_count": 2,
+    "attKey1": "armor",
+    "show_tag": "armor_suck",
+    "undispel": true
+  },
   "bingpo": {
     "name": "冰魄",
     "des": "降低增伤和减伤15%",
@@ -96,6 +116,46 @@
     "icon": false,
     "effects": true,
     "max_count": 5,
+    "undispel": true
+  },
+  "skill_rud": {
+    "name": "技攻减伤",
+    "des": "提升友方全体侠客技攻减伤,不可叠加",
+    "icon": true,
+    "effects": false,
+    "max_count": 1,
+    "attKey1": "angerDef",
+    "normal": true,
+    "show_tag": "skill_rud"
+  },
+  "jianren": {
+    "name": "坚韧",
+    "des": "受到攻击时，将一部分受到的伤害转化为自身的血量，自身无法行动",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "undispel": true
+  },
+  "block_buff": {
+    "name": "格挡",
+    "des": "提升自身一定格挡比例",
+    "icon": true,
+    "effects": false,
+    "max_count": 1,
+    "attKey1": "block",
+    "normal": true,
+    "show_tag": "block_up"
+  },
+  "petrify": {
+    "name": "石化",
+    "des": "石化状态，无法行动",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "control": true,
+    "show_tag": "petrify",
     "undispel": true
   }
 }
