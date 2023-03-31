@@ -23,8 +23,6 @@
   "atk_down": {
     "name": "攻击降低",
     "des": "攻击力降低",
-    "icon": false,
-    "effects": false,
     "max_count": 1,
     "attKey1": "atk",
     "normal": true,
@@ -33,8 +31,6 @@
   "armor_down": {
     "name": "护甲降低",
     "des": "护甲降低",
-    "icon": false,
-    "effects": false,
     "max_count": 1,
     "attKey1": "armor",
     "normal": true,
@@ -43,8 +39,6 @@
   "atk_suck_add": {
     "name": "汲取攻击",
     "des": "吸取目标一定攻击力，不可驱散",
-    "icon": false,
-    "effects": false,
     "max_count": 2,
     "attKey1": "atk",
     "normal": true,
@@ -53,8 +47,6 @@
   "atk_suck_les": {
     "name": "汲取攻击",
     "des": "被吸取一定攻击力，不可驱散",
-    "icon": false,
-    "effects": false,
     "max_count": 2,
     "attKey1": "atk",
     "show_tag": "atk_suck",
@@ -63,8 +55,6 @@
   "armor_suck_add": {
     "name": "汲取护甲",
     "des": "吸取目标一定护甲，不可驱散",
-    "icon": false,
-    "effects": false,
     "max_count": 2,
     "attKey1": "armor",
     "normal": true,
@@ -73,8 +63,6 @@
   "armor_suck_les": {
     "name": "汲取护甲",
     "des": "被吸取一定护甲，不可驱散",
-    "icon": false,
-    "effects": false,
     "max_count": 2,
     "attKey1": "armor",
     "show_tag": "armor_suck",
@@ -84,7 +72,6 @@
     "name": "冰魄",
     "des": "降低增伤和减伤15%",
     "icon": true,
-    "effects": false,
     "max_count": 1,
     "attKey1": "amp",
     "attKey2": "ampDef",
@@ -93,8 +80,6 @@
   "skill_up": {
     "name": "技能增伤",
     "des": "技能伤害增加，持续至战斗结束",
-    "icon": false,
-    "effects": false,
     "max_count": 1,
     "attKey1": "angerAmp",
     "normal": true,
@@ -113,7 +98,6 @@
   "hudun": {
     "name": "护盾",
     "des": "吸收受到的伤害",
-    "icon": false,
     "effects": true,
     "max_count": 5,
     "undispel": true
@@ -122,13 +106,12 @@
     "name": "技攻减伤",
     "des": "提升友方全体侠客技攻减伤,不可叠加",
     "icon": true,
-    "effects": false,
     "max_count": 1,
     "attKey1": "angerDef",
     "normal": true,
     "show_tag": "skill_rud"
   },
-  "jianren": {
+  "totem_hit_heal": {
     "name": "坚韧",
     "des": "受到攻击时，将一部分受到的伤害转化为自身的血量，自身无法行动",
     "icon": true,
@@ -137,11 +120,29 @@
     "normal": true,
     "undispel": true
   },
+  "totem_friend_amp": {
+    "name": "百鸟朝凤",
+    "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客伤害增加，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "attKey1": "normalDef",
+    "attValue1": -1,
+    "undispel": true
+  },
+  "totem_amp": {
+    "name": "百鸟朝凤增伤",
+    "des": "百鸟朝凤伤害增加",
+    "max_count": 1,
+    "attKey1": "amp",
+    "normal": true,
+    "show_tag": "amp_up",
+    "undispel": true
+  },
   "block_buff": {
     "name": "格挡",
     "des": "提升自身一定格挡比例",
     "icon": true,
-    "effects": false,
     "max_count": 1,
     "attKey1": "block",
     "normal": true,
@@ -157,5 +158,76 @@
     "control": true,
     "show_tag": "petrify",
     "undispel": true
+  },
+  "splash_mag": {
+    "name": "内伤平摊",
+    "des": "自身受到的伤害一定比例由敌方处于内伤状态侠客分摊",
+    "max_count": 1,
+    "normal": true,
+    "undispel": true
+  },
+  "hit_heal": {
+    "name": "聚息",
+    "des": "受到攻击后血量低于50%时触发，立即恢复血量上限百分比的生命值，不可叠加",
+    "icon": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "amp_up": {
+    "name": "药香",
+    "des": "伤害增加，不可叠加",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "amp",
+    "normal": true,
+    "show_tag": "amp_up"
+  },
+  "mag_hitDef": {
+    "name": "蛇影",
+    "des": "受到处于内伤状态的侠客攻击时，闪避提升",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "vital_point": {
+    "name": "封穴",
+    "des": "触发类技能将无法施展，且无法格挡和闪避",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "ban_anger": {
+    "name": "禁怒",
+    "des": "无法回复怒气",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "disarm": {
+    "name": "束缚",
+    "des": "无法使用普攻技能",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "silence": {
+    "name": "沉默",
+    "des": "无法使用怒气技能",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "armor_up": {
+    "name": "护甲提升",
+    "des": "护甲提升",
+    "max_count": 1,
+    "attKey1": "armor",
+    "normal": true,
+    "show_tag": "armor_up"
   }
 }
