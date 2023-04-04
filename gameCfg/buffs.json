@@ -20,54 +20,6 @@
     "effects": true,
     "max_count": 5
   },
-  "atk_down": {
-    "name": "攻击降低",
-    "des": "攻击力降低",
-    "max_count": 1,
-    "attKey1": "atk",
-    "normal": true,
-    "show_tag": "atk_down"
-  },
-  "armor_down": {
-    "name": "护甲降低",
-    "des": "护甲降低",
-    "max_count": 1,
-    "attKey1": "armor",
-    "normal": true,
-    "show_tag": "armor_down"
-  },
-  "atk_suck_add": {
-    "name": "汲取攻击",
-    "des": "吸取目标一定攻击力，不可驱散",
-    "max_count": 2,
-    "attKey1": "atk",
-    "normal": true,
-    "undispel": true
-  },
-  "atk_suck_les": {
-    "name": "汲取攻击",
-    "des": "被吸取一定攻击力，不可驱散",
-    "max_count": 2,
-    "attKey1": "atk",
-    "show_tag": "atk_suck",
-    "undispel": true
-  },
-  "armor_suck_add": {
-    "name": "汲取护甲",
-    "des": "吸取目标一定护甲，不可驱散",
-    "max_count": 2,
-    "attKey1": "armor",
-    "normal": true,
-    "undispel": true
-  },
-  "armor_suck_les": {
-    "name": "汲取护甲",
-    "des": "被吸取一定护甲，不可驱散",
-    "max_count": 2,
-    "attKey1": "armor",
-    "show_tag": "armor_suck",
-    "undispel": true
-  },
   "bingpo": {
     "name": "冰魄",
     "des": "降低增伤和减伤15%",
@@ -86,9 +38,18 @@
     "show_tag": "skill_up",
     "undispel": true
   },
-  "nuoyi": {
+  "nuoyi_back": {
     "name": "挪移",
-    "des": "受到伤害的一定比例转化为真实伤害反弹给攻击者",
+    "des": "受到直接伤害的一定比例转化为真实伤害反弹给攻击者",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "undispel": true
+  },
+  "nuoyi_share": {
+    "name": "化力挪移",
+    "des": "受到直接伤害的一定比例转化为真实伤害挪移给其余友方分摊。",
     "icon": true,
     "effects": true,
     "max_count": 1,
@@ -101,15 +62,6 @@
     "effects": true,
     "max_count": 5,
     "undispel": true
-  },
-  "skill_rud": {
-    "name": "技攻减伤",
-    "des": "提升友方全体侠客技攻减伤,不可叠加",
-    "icon": true,
-    "max_count": 1,
-    "attKey1": "angerDef",
-    "normal": true,
-    "show_tag": "skill_rud"
   },
   "totem_hit_heal": {
     "name": "坚韧",
@@ -148,17 +100,6 @@
     "normal": true,
     "show_tag": "block_up"
   },
-  "petrify": {
-    "name": "石化",
-    "des": "石化状态，无法行动",
-    "icon": true,
-    "effects": true,
-    "max_count": 1,
-    "normal": true,
-    "control": true,
-    "show_tag": "petrify",
-    "undispel": true
-  },
   "splash_mag": {
     "name": "内伤平摊",
     "des": "自身受到的伤害一定比例由敌方处于内伤状态侠客分摊",
@@ -173,15 +114,6 @@
     "max_count": 1,
     "normal": true
   },
-  "amp_up": {
-    "name": "药香",
-    "des": "伤害增加，不可叠加",
-    "icon": true,
-    "max_count": 1,
-    "attKey1": "amp",
-    "normal": true,
-    "show_tag": "amp_up"
-  },
   "mag_hitDef": {
     "name": "蛇影",
     "des": "受到处于内伤状态的侠客攻击时，闪避提升",
@@ -189,6 +121,26 @@
     "effects": true,
     "max_count": 1,
     "normal": true
+  },
+  "petrify": {
+    "name": "石化",
+    "des": "石化状态，无法行动",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "control": true,
+    "undispel": true
+  },
+  "frozen": {
+    "name": "冰冻",
+    "des": "冰冻状态，无法行动",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "control": true,
+    "undispel": true
   },
   "vital_point": {
     "name": "封穴",
@@ -229,5 +181,170 @@
     "attKey1": "armor",
     "normal": true,
     "show_tag": "armor_up"
+  },
+  "atk_down": {
+    "name": "攻击降低",
+    "des": "攻击力降低",
+    "max_count": 1,
+    "attKey1": "atk",
+    "normal": true,
+    "show_tag": "atk_down"
+  },
+  "armor_down": {
+    "name": "护甲降低",
+    "des": "护甲降低",
+    "max_count": 1,
+    "attKey1": "armor",
+    "normal": true,
+    "show_tag": "armor_down"
+  },
+  "atk_suck_add": {
+    "name": "汲取攻击(攻)",
+    "des": "吸取目标一定攻击力，不可驱散",
+    "max_count": 2,
+    "attKey1": "atk",
+    "normal": true,
+    "undispel": true
+  },
+  "atk_suck_les": {
+    "name": "汲取攻击",
+    "des": "被吸取一定攻击力，不可驱散",
+    "max_count": 2,
+    "attKey1": "atk",
+    "show_tag": "atk_suck",
+    "undispel": true
+  },
+  "armor_suck_add": {
+    "name": "汲取护甲(攻)",
+    "des": "吸取目标一定护甲，不可驱散",
+    "max_count": 2,
+    "attKey1": "armor",
+    "normal": true,
+    "undispel": true
+  },
+  "armor_suck_les": {
+    "name": "汲取护甲",
+    "des": "被吸取一定护甲，不可驱散",
+    "max_count": 2,
+    "attKey1": "armor",
+    "show_tag": "armor_suck",
+    "undispel": true
+  },
+  "amp_up": {
+    "name": "药香",
+    "des": "伤害增加，不可叠加",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "amp",
+    "normal": true,
+    "show_tag": "amp_up"
+  },
+  "amp_down": {
+    "name": "伤害降低",
+    "des": "造成的伤害降低",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "amp",
+    "normal": true,
+    "show_tag": "amp_down"
+  },
+  "ampDef_up": {
+    "name": "减伤增加",
+    "des": "受到的伤害减少",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "ampDef",
+    "normal": true,
+    "show_tag": "ampDef_up"
+  },
+  "ampDef_down": {
+    "name": "减伤降低",
+    "des": "受到的伤害增加",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "ampDef",
+    "normal": true,
+    "show_tag": "ampDef_down"
+  },
+  "skill_rud": {
+    "name": "技攻减伤",
+    "des": "提升友方全体侠客技攻减伤,不可叠加",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "angerDef",
+    "normal": true,
+    "show_tag": "skill_rud"
+  },
+  "phyAmp_up": {
+    "name": "外功加强",
+    "des": "造成的外功伤害增加",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "phyAmp",
+    "normal": true,
+    "show_tag": "phyAmp_up"
+  },
+  "phyAmp_down": {
+    "name": "外功削弱",
+    "des": "造成的外功伤害降低",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "phyAmp",
+    "normal": true,
+    "show_tag": "phyAmp_down"
+  },
+  "magAmp_up": {
+    "name": "内功加强",
+    "des": "造成的内功伤害增加",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "magAmp",
+    "normal": true,
+    "show_tag": "magAmp_up"
+  },
+  "phyAmp_dwon": {
+    "name": "内功削弱",
+    "des": "造成的内功伤害降低",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "magAmp",
+    "normal": true,
+    "show_tag": "phyAmp_dwon"
+  },
+  "phyDef_up": {
+    "name": "外功减伤",
+    "des": "受到的外功伤害减少",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "phyDef",
+    "normal": true,
+    "show_tag": "phyDef_up"
+  },
+  "phyDef_down": {
+    "name": "外功增伤",
+    "des": "受到的外功伤害增加",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "phyDef",
+    "normal": true,
+    "show_tag": "phyDef_down"
+  },
+  "magDef_up": {
+    "name": "内功减伤",
+    "des": "受到的内功伤害减少",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "magDef",
+    "normal": true,
+    "show_tag": "magDef_up"
+  },
+  "magDef_down": {
+    "name": "内功增伤",
+    "des": "受到的内功伤害增加",
+    "icon": true,
+    "max_count": 3,
+    "attKey1": "magDef",
+    "normal": true,
+    "show_tag": "magDef_down"
   }
 }
