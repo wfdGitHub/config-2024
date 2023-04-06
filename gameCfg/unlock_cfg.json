@@ -9,7 +9,7 @@
     "name": "豪侠馆",
     "key": "heroCenter",
     "openlv": 1,
-    "desc": "指定国家英雄招募，英雄直升，英雄分解，英雄置换都在这里"
+    "desc": "指定阵营侠客招募，侠客直升，侠客分解，侠客置换都在这里"
   },
   "3": {
     "name": "VIP特权",
@@ -109,28 +109,28 @@
     "name": "材料副本",
     "key": "dailyFb",
     "openlv": 10,
-    "desc": "玩法集合，获得英雄培养材料",
+    "desc": "玩法集合，获得侠客培养材料",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "18": {
-    "name": "讨伐董卓",
+    "name": "金币副本",
     "key": "dailyFb_gold",
     "openlv": 10,
-    "desc": "讨伐董卓，挑战可获得金币",
+    "desc": "金币副本，挑战可获得金币",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "19": {
-    "name": "保卫徐州",
+    "name": "装备副本",
     "key": "dailyFb_equip",
     "openlv": 10,
-    "desc": "保卫徐州，挑战可获得装备",
+    "desc": "装备副本，挑战可获得装备",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "20": {
     "name": "江湖悬赏",
     "key": "tour",
     "openlv": 12,
-    "desc": "派遣英雄执行任务，获得稀有奖励",
+    "desc": "派遣侠客执行任务，获得稀有奖励",
     "target": "uiNode/bottomNode/btnBattle",
     "targetChild": true
   },
@@ -142,7 +142,7 @@
     "target": "hallNode/btnLimited"
   },
   "22": {
-    "name": "宝物商店",
+    "name": "心法商店",
     "key": "bazaar",
     "openlv": 14,
     "desc": "神秘商店，有概率刷新特价稀有道具",
@@ -159,7 +159,7 @@
     "name": "试炼之塔",
     "key": "tower",
     "openlv": 16,
-    "desc": "勇闯试炼之塔，拿英雄培养材料",
+    "desc": "勇闯试炼之塔，拿侠客培养材料",
     "target": "uiNode/bottomNode/btnPlaying",
     "targetChild": true
   },
@@ -167,29 +167,29 @@
     "name": "帮派功能",
     "key": "guild",
     "openlv": 17,
-    "desc": "创建/加入帮派，挑战三国名将，抢夺三国城池",
+    "desc": "创建/加入帮派，挑战武林，争夺武林第一大帮",
     "target": "uiNode/bottomNode/btnGuild"
   },
   "26": {
-    "name": "官渡之战",
+    "name": "侠客副本",
     "key": "dailyFb_hero",
     "openlv": 18,
-    "desc": "问鼎武林之地，挑战可获得英雄碎片",
+    "desc": "问鼎武林之地，挑战可获得侠客碎片",
     "target": "uiNode/bottomNode/btnPlaying",
     "targetChild": true
   },
   "27": {
-    "name": "火烧博望",
+    "name": "进阶副本",
     "key": "dailyFb_art",
     "openlv": 18,
-    "desc": "神兵埋藏之地，挑战可获得大量神兵值",
+    "desc": "进阶副本，挑战可获得大量进阶材料",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "28": {
     "name": "制作坊",
     "key": "smithy",
     "openlv": 19,
-    "desc": "合成极品装备，合成稀有护符，提升英雄属性",
+    "desc": "合成极品装备，合成稀有护符，提升侠客属性",
     "target": "hallNode/map/content/mapNode/near/btnSmithy"
   },
   "29": {
@@ -200,10 +200,10 @@
     "target": "hallNode/topNode/mainBtnList/btnAreaBoss"
   },
   "30": {
-    "name": "英雄进阶",
+    "name": "侠客进阶",
     "key": "heroAdvance",
     "openlv": 28,
-    "desc": "英雄进阶，提高英雄等级上限",
+    "desc": "侠客进阶，提高侠客等级上限",
     "target": "uiNode/bottomNode/btnHero"
   },
   "31": {
@@ -214,10 +214,10 @@
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "32": {
-    "name": "英雄培养",
+    "name": "侠客培养",
     "key": "heroTrain",
     "openlv": 35,
-    "desc": "英雄培养，提升英雄实力",
+    "desc": "侠客培养，提升侠客实力",
     "target": "uiNode/bottomNode/btnHero"
   },
   "33": {
@@ -235,10 +235,10 @@
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "35": {
-    "name": "战魂之力",
+    "name": "武魂之力",
     "key": "campAtt",
     "openlv": 48,
-    "desc": "战魂之力，提高阵营英雄实力",
+    "desc": "武魂之力，提高阵营侠客实力",
     "target": "hallNode/btnCampAtt"
   },
   "36": {
@@ -267,14 +267,14 @@
     "name": "门派试练",
     "key": "exercise",
     "openlv": 62,
-    "desc": "公平对战，提前体验顶级英雄",
+    "desc": "公平对战，提前体验顶级侠客",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "40": {
     "name": "玉石系统",
     "key": "pit",
     "openlv": 65,
-    "desc": "四圣宝石加持，加强英雄属性",
+    "desc": "四圣宝石加持，加强侠客属性",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "41": {
@@ -296,18 +296,18 @@
     "name": "武功系统",
     "key": "book",
     "openlv": 70,
-    "desc": "武功助战，英雄属性加成，全新特性战斗策略升级",
+    "desc": "武功助战，侠客属性加成，全新特性战斗策略升级",
     "target": "uiNode/bottomNode/btnBook"
   },
   "44": {
     "name": "问鼎武林",
     "key": "secretChallenge",
     "openlv": 71,
-    "desc": "完成问鼎武林，获取英雄碎片",
+    "desc": "完成问鼎武林，获取侠客碎片",
     "target": "uiNode/bottomNode/btnPlaying"
   },
   "45": {
-    "name": "七擒孟获",
+    "name": "武功副本",
     "key": "dailyFb_book",
     "openlv": 70,
     "desc": "武功孕育之地，挑战可获得大量武功培养材料",
@@ -331,12 +331,12 @@
     "name": "宝物系统",
     "key": "ace",
     "openlv": 75,
-    "desc": "宝物助阵英雄，发挥极致实力",
+    "desc": "宝物助阵侠客，发挥极致实力",
     "target": "uiNode/bottomNode/btnHero",
     "targetChild": true
   },
   "49": {
-    "name": "夷陵之战",
+    "name": "宝物副本",
     "key": "dailyFb_ace",
     "openlv": 75,
     "desc": "宝物散落之地，挑战可获得大量宝物值",
@@ -368,7 +368,7 @@
     "name": "传说星级",
     "key": "wake",
     "openlv": 81,
-    "desc": "英雄突破极限，觉醒全新天赋",
+    "desc": "侠客突破极限，觉醒全新天赋",
     "target": "uiNode/bottomNode/btnHero",
     "targetChild": true
   },
@@ -376,11 +376,11 @@
     "name": "觉醒招募",
     "key": "star_10",
     "openlv": 80,
-    "desc": "觉醒招募，可以招募到觉醒英雄",
+    "desc": "觉醒招募，可以招募到觉醒侠客",
     "target": "hallNode/map/mid/btnRecruit"
   },
   "55": {
-    "name": "天命之战",
+    "name": "正邪之战",
     "key": "crossTeamPK",
     "openlv": 90,
     "desc": "阵营决战，酣战不休，提升积分，榜上留名",
@@ -406,14 +406,14 @@
     "name": "化境招募",
     "key": "star_20",
     "openlv": 120,
-    "desc": "化境招募，可以招募到化境英雄",
+    "desc": "化境招募，可以招募到化境侠客",
     "target": "hallNode/map/mid/btnRecruit"
   },
   "59": {
-    "name": "英雄化境",
+    "name": "侠客化境",
     "key": "wakeSuper",
     "openlv": 120,
-    "desc": "英雄化境，激活全新天赋",
+    "desc": "侠客化境，激活全新天赋",
     "target": "uiNode/bottomNode/btnHero"
   },
   "60": {

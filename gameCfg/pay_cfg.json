@@ -20,7 +20,8 @@
     "name": "高级战令",
     "rmb": 30,
     "cent": 3000,
-    "updateType": "month"
+    "updateType": "month",
+    "count": 1
   },
   "1004": {
     "type": "quick_pri",
@@ -53,25 +54,28 @@
     "type": "wuxian",
     "name": "无限经验",
     "arg": "wuxian_1",
-    "rmb": 198,
-    "cent": 19800,
-    "dianpiao": 198
+    "rmb": 30,
+    "cent": 3000,
+    "updateType": "always",
+    "count": 1
   },
   "1012": {
     "type": "wuxian",
     "name": "无限铜币",
     "arg": "wuxian_2",
-    "rmb": 328,
-    "cent": 32800,
-    "dianpiao": 328
+    "rmb": 30,
+    "cent": 3000,
+    "updateType": "always",
+    "count": 1
   },
   "1013": {
     "type": "wuxian",
-    "name": "无限进阶",
+    "name": "无限培养",
     "arg": "wuxian_3",
-    "rmb": 500,
-    "cent": 50000,
-    "dianpiao": 500
+    "rmb": 68,
+    "cent": 6800,
+    "updateType": "always",
+    "count": 1
   },
   "1201": {
     "type": "gmLv",
@@ -1201,7 +1205,7 @@
   },
   "6014": {
     "type": "limit_gift",
-    "name": "红色宝物礼包",
+    "name": "红色心法礼包",
     "arg": 1014,
     "rmb": 198,
     "cent": 19800
@@ -1619,7 +1623,7 @@
   },
   "7301": {
     "type": "fast",
-    "name": "宝物礼包1",
+    "name": "心法礼包1",
     "arg": "ace_1",
     "rmb": 68,
     "cent": 6800,
@@ -1630,7 +1634,7 @@
   },
   "7302": {
     "type": "fast",
-    "name": "宝物礼包2",
+    "name": "心法礼包2",
     "arg": "ace_2",
     "rmb": 98,
     "cent": 9800,
@@ -1641,7 +1645,7 @@
   },
   "7303": {
     "type": "fast",
-    "name": "宝物礼包3",
+    "name": "心法礼包3",
     "arg": "ace_3",
     "rmb": 198,
     "cent": 19800,
@@ -1652,7 +1656,7 @@
   },
   "7304": {
     "type": "fast",
-    "name": "宝物礼包4",
+    "name": "心法礼包4",
     "arg": "ace_4",
     "rmb": 328,
     "cent": 32800,
@@ -1663,7 +1667,7 @@
   },
   "7305": {
     "type": "fast",
-    "name": "宝物礼包5",
+    "name": "心法礼包5",
     "arg": "ace_5",
     "rmb": 648,
     "cent": 64800,
@@ -1674,7 +1678,7 @@
   },
   "7306": {
     "type": "fast",
-    "name": "宝物礼包6",
+    "name": "心法礼包6",
     "arg": "ace_6",
     "rmb": 998,
     "cent": 99800,
@@ -1685,7 +1689,7 @@
   },
   "7307": {
     "type": "fast",
-    "name": "宝物礼包7",
+    "name": "心法礼包7",
     "arg": "ace_7",
     "rmb": 1980,
     "cent": 198000,
@@ -1696,7 +1700,7 @@
   },
   "7308": {
     "type": "fast",
-    "name": "宝物礼包8",
+    "name": "心法礼包8",
     "arg": "ace_8",
     "rmb": 2998,
     "cent": 299800,
@@ -1707,7 +1711,7 @@
   },
   "7309": {
     "type": "fast",
-    "name": "宝物礼包9",
+    "name": "心法礼包9",
     "arg": "ace_9",
     "rmb": 5000,
     "cent": 500000,
@@ -1718,7 +1722,7 @@
   },
   "7310": {
     "type": "fast",
-    "name": "宝物礼包10",
+    "name": "心法礼包10",
     "arg": "ace_10",
     "rmb": 10000,
     "cent": 1000000,
@@ -1960,7 +1964,7 @@
   },
   "7514": {
     "type": "fast",
-    "name": "购买可获限定宝物",
+    "name": "购买可获限定心法",
     "arg": "super_14",
     "rmb": 9998,
     "cent": 999800,
@@ -1984,8 +1988,8 @@
     "type": "fast",
     "name": "购买可获百万培养材料",
     "arg": "super_16",
-    "rmb": 28888,
-    "cent": 2888800,
+    "rmb": 18888,
+    "cent": 1888800,
     "gift_type": "gift_loop",
     "award": "1000110:1000000&1000020:1000000&1000050:1000000",
     "updateType": "always",
@@ -1995,8 +1999,8 @@
     "type": "fast",
     "name": "购买可获万世神装",
     "arg": "super_17",
-    "rmb": 29998,
-    "cent": 2999800,
+    "rmb": 19999,
+    "cent": 1999900,
     "gift_type": "gift_loop",
     "award": "5023010:1&5023020:1&5023030:1&5023040:1",
     "updateType": "always",
