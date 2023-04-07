@@ -1,182 +1,182 @@
 {
-  "1040101": {
+  "10401011": {
     "des": "目标已损失血量越多，受到的伤害越高，最高增加20%伤害结果",
     "key1": "hp_low_amp",
     "value1": 0.2
   },
-  "1040102": {
+  "10401012": {
     "des": "目标已损失血量越多，受到的伤害越高，最高增加30%伤害结果",
     "key1": "hp_low_amp",
     "value1": 0.1
   },
-  "1040103": {
+  "10401013": {
     "des": "目标已损失血量越多，受到的伤害越高，最高增加40%伤害结果",
     "key1": "hp_low_amp",
     "value1": 0.1
   },
-  "1040104": {
+  "10401014": {
     "des": "目标已损失血量越多，受到的伤害越高，最高增加40%伤害结果;若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗10点怒气提升4%伤害。(每回合仅触发1次 )",
     "key1": "kill_repet",
     "value1": 0.004
   },
-  "1040105": {
+  "10401015": {
     "des": "目标已损失血量越多，受到的伤害越高，最高增加60%伤害结果;若击杀目标，则消耗当前怒气以50%基础伤害再次施放,但每消耗1点怒气提升0.6%伤害。(每回合仅触发1次 )",
     "key1": "hp_low_amp",
     "value1": 0.2,
     "key2": "kill_repet",
     "value2": 0.002
   },
-  "1050101": {
+  "10501011": {
     "des": "若目标筋骨大于内力，则造成外功伤害",
     "key1": "weak_damage_type",
     "value1": true
   },
-  "1050104": {
+  "10501014": {
     "des": "内功伤害无视目标25%的护甲,外功伤害提升15%的暴击伤害",
     "key1": "mag_ign_armor",
     "value1": 0.25,
     "key2": "phy_slay",
     "value2": 0.15
   },
-  "1050105": {
+  "10501015": {
     "des": "内功伤害无视目标25%的护甲,外功伤害提升15%的暴击伤害",
     "key1": "mag_ign_armor",
     "value1": 0.25,
     "key2": "phy_slay",
     "value2": 0.15
   },
-  "1050201": {
+  "10502011": {
     "des": "有6%的概率清空目标怒气",
     "key1": "clear_anger",
     "value1": 0.06
   },
-  "1050202": {
+  "10502012": {
     "des": "有9%的概率清空目标怒气",
     "key1": "clear_anger",
     "value1": 0.03
   },
-  "1050203": {
+  "10502013": {
     "des": "有12%的概率清空目标怒气",
     "key1": "clear_anger",
     "value1": 0.03
   },
-  "1050204": {
+  "10502014": {
     "des": "有16%的概率清空目标怒气",
     "key1": "clear_anger",
     "value1": 0.04
   },
-  "1050205": {
+  "10502015": {
     "des": "有21%的概率清空目标怒气",
     "key1": "clear_anger",
     "value1": 0.05
   },
-  "1050301": {
+  "10503011": {
     "des": "降低目标5%的攻击和护甲,持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_down\",\"targetType\":\"skill_targets\",\"mul\":-0.05,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.05,\"duration\":2,\"rate\":1}"
   },
-  "1050302": {
+  "10503012": {
     "des": "降低目标7%的攻击和护甲,持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_down\",\"targetType\":\"skill_targets\",\"mul\":-0.07,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.07,\"duration\":2,\"rate\":1}"
   },
-  "1050303": {
+  "10503013": {
     "des": "降低目标10%的攻击和护甲,持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_down\",\"targetType\":\"skill_targets\",\"mul\":-0.1,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.1,\"duration\":2,\"rate\":1}"
   },
-  "1050304": {
+  "10503014": {
     "des": "降低目标13%的攻击和护甲,持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_down\",\"targetType\":\"skill_targets\",\"mul\":-0.13,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.13,\"duration\":2,\"rate\":1}"
   },
-  "1050305": {
+  "10503015": {
     "des": "降低目标15%的攻击和护甲,持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_down\",\"targetType\":\"skill_targets\",\"mul\":-0.15,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.15,\"duration\":2,\"rate\":1}"
   },
-  "1050401": {
+  "10504011": {
     "des": "造成最大生命值1%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.01
   },
-  "1050402": {
+  "10504012": {
     "des": "造成最大生命值2%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.02
   },
-  "1050403": {
+  "10504013": {
     "des": "造成最大生命值3%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.03
   },
-  "1050404": {
+  "10504014": {
     "des": "造成最大生命值4%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.04
   },
-  "1050405": {
+  "10504015": {
     "des": "造成最大生命值6%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.06
   },
-  "1050501": {
+  "10505011": {
     "des": "同时汲取目标攻击8%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.08,\"duration\":2,\"rate\":1}"
   },
-  "1050502": {
+  "10505012": {
     "des": "同时汲取目标攻击11%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.11,\"duration\":2,\"rate\":1}"
   },
-  "1050503": {
+  "10505013": {
     "des": "同时汲取目标攻击14%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.14,\"duration\":2,\"rate\":1}"
   },
-  "1050504": {
+  "10505014": {
     "des": "同时汲取目标攻击17%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.17,\"duration\":2,\"rate\":1}"
   },
-  "1050505": {
+  "10505015": {
     "des": "同时汲取目标攻击20%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atk_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.2,\"duration\":2,\"rate\":1}"
   },
-  "1050601": {
+  "10506011": {
     "des": "若目标处于【外伤】状态，则本次攻击增加暴击8%",
     "key1": "phy_buff_att1",
     "value1": "slay",
     "key2": "phy_buff_value1",
     "value2": 0.08
   },
-  "1050602": {
+  "10506012": {
     "des": "若目标处于【外伤】状态，则本次攻击增加暴击12%",
     "key1": "phy_buff_att1",
     "value1": "slay",
     "key2": "phy_buff_value1",
     "value2": 0.04
   },
-  "1050603": {
+  "10506013": {
     "des": "若目标处于【外伤】状态，则本次攻击增加暴击12%，破格12%",
     "key1": "phy_buff_att2",
     "value1": "blockDef",
     "key2": "phy_buff_value2",
     "value2": 0.12
   },
-  "1050604": {
+  "10506014": {
     "des": "若目标处于【外伤】状态，则本次攻击增加暴击15%，破格15%",
     "key1": "phy_buff_att1",
     "value1": "slay",
@@ -187,7 +187,7 @@
     "key4": "phy_buff_value2",
     "value4": 0.03
   },
-  "1050605": {
+  "10506015": {
     "des": "若目标处于【外伤】状态，则本次攻击增加暴击20%，破格20%",
     "key1": "phy_buff_att1",
     "value1": "slay",
@@ -198,17 +198,32 @@
     "key4": "phy_buff_value2",
     "value4": 0.05
   },
-  "1060104": {
+  "10601014": {
     "des": "使用技能时消耗自身当前生命值的30%,附加到技能伤害",
     "key1": "hp_to_damage",
     "value1": 0.3
   },
-  "1060105": {
+  "10601015": {
     "des": "自身生命值每损失20%,额外附加1段伤害",
     "key1": "hp_low_count",
     "value1": 0.2
   },
-  "2040101": {
+  "10601023": {
+    "des": "恢复自身10点怒气",
+    "key1": "addAnger",
+    "value1": 10
+  },
+  "10601024": {
+    "des": "恢复自身20点怒气",
+    "key1": "addAnger",
+    "value1": 20
+  },
+  "10601025": {
+    "des": "恢复自身30点怒气",
+    "key1": "addAnger",
+    "value1": 30
+  },
+  "20401011": {
     "des": "分别有10%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击25%的相应伤害，持续3回合，每个效果独立生效",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.25,\"duration\":2,\"rate\":0.1}",
@@ -217,7 +232,7 @@
     "key3": "buff3",
     "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.25,\"duration\":2,\"rate\":0.1}"
   },
-  "2040102": {
+  "20401012": {
     "des": "分别有15%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击30%的相应伤害，持续3回合，每个效果独立生效",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.3,\"duration\":2,\"rate\":0.15}",
@@ -226,7 +241,7 @@
     "key3": "buff3",
     "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.3,\"duration\":2,\"rate\":0.15}"
   },
-  "2040103": {
+  "20401013": {
     "des": "分别有20%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击35%的相应伤害，持续3回合，每个效果独立生效",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.35,\"duration\":2,\"rate\":0.2}",
@@ -235,7 +250,7 @@
     "key3": "buff3",
     "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.35,\"duration\":2,\"rate\":0.2}"
   },
-  "2040104": {
+  "20401014": {
     "des": "分别有25%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击40%的相应伤害，持续3回合，每个效果独立生效",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.25}",
@@ -244,7 +259,7 @@
     "key3": "buff3",
     "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.25}"
   },
-  "2040105": {
+  "20401015": {
     "des": "分别有30%概率使目标【中毒】、【内伤】、【外伤】,每回合分别受到攻击60%的相应伤害，持续3回合，每个效果独立生效",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.3}",
@@ -253,107 +268,107 @@
     "key3": "buff3",
     "value3": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.3}"
   },
-  "2040301": {
+  "20403011": {
     "des": "并增加自己技能增伤20%，持续至战斗结束；不可叠加不可驱散",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.2,\"duration\":99,\"rate\":1}"
   },
-  "2040302": {
+  "20403012": {
     "des": "并增加自己技能增伤30%，持续至战斗结束；不可叠加不可驱散",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":99,\"rate\":1}"
   },
-  "2040303": {
+  "20403013": {
     "des": "并增加自己技能增伤40%，持续至战斗结束；不可叠加不可驱散",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.4,\"duration\":99,\"rate\":1}"
   },
-  "2040304": {
+  "20403014": {
     "des": "并增加自己技能增伤50%，持续至战斗结束；不可叠加不可驱散",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.5,\"duration\":99,\"rate\":1}"
   },
-  "2040305": {
+  "20403015": {
     "des": "并增加自己技能增伤60%，持续至战斗结束；不可叠加不可驱散",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.6,\"duration\":99,\"rate\":1}"
   },
-  "2040401": {
+  "20404011": {
     "des": "若目标职业为剑或气，则伤害增加30%。",
     "key1": "career_amp_2",
     "value1": 0.3,
     "key2": "career_amp_4",
     "value2": 0.3
   },
-  "2040402": {
+  "20404012": {
     "des": "若目标职业为剑或气，则伤害增加40%。",
     "key1": "career_amp_2",
     "value1": 0.1,
     "key2": "career_amp_4",
     "value2": 0.1
   },
-  "2040403": {
+  "20404013": {
     "des": "若目标职业为剑或气，则伤害增加50%。",
     "key1": "career_amp_2",
     "value1": 0.1,
     "key2": "career_amp_4",
     "value2": 0.1
   },
-  "2040404": {
+  "20404014": {
     "des": "若目标职业为剑或气，则伤害增加60%。",
     "key1": "career_amp_2",
     "value1": 0.1,
     "key2": "career_amp_4",
     "value2": 0.1
   },
-  "2040405": {
+  "20404015": {
     "des": "若目标职业为剑或气，则伤害增加80%。",
     "key1": "career_amp_2",
     "value1": 0.2,
     "key2": "career_amp_4",
     "value2": 0.2
   },
-  "2050101": {
+  "20501011": {
     "des": "20%几率使目标受到【外伤】，每回合受到攻击40%的外功伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":2,\"rate\":0.2}"
   },
-  "2050102": {
+  "20501012": {
     "des": "20%几率使目标受到【外伤】，每回合受到攻击50%的外功伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.5,\"duration\":2,\"rate\":0.2}"
   },
-  "2050103": {
+  "20501013": {
     "des": "20%几率使目标受到【外伤】，每回合受到攻击60%的外功伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":0.2}"
   },
-  "2050104": {
+  "20501014": {
     "des": "20%几率使目标受到【外伤】，每回合受到攻击80%的外功伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":0.8,\"duration\":2,\"rate\":0.2}"
   },
-  "2050105": {
+  "20501015": {
     "des": "20%几率使目标受到【外伤】，每回合受到攻击100%的外功伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":0.2}"
   },
-  "2050201": {
+  "20502011": {
     "des": "汲取10%",
     "key1": "suck_blood",
     "value1": 0.1
   },
-  "2050202": {
+  "20502012": {
     "des": "汲取15%",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "2050203": {
+  "20502013": {
     "des": "汲取20%",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "2050204": {
+  "20502014": {
     "des": "汲取25%;若目标处于【外伤】状态，本次攻击增加15%暴击几率",
     "key1": "suck_blood",
     "value1": 0.05,
@@ -362,7 +377,7 @@
     "key3": "phy_buff_value1",
     "value3": 0.15
   },
-  "2050205": {
+  "20502015": {
     "des": "汲取30%;若目标处于【外伤】状态，本次攻击增加30%暴击几率",
     "key1": "suck_blood",
     "value1": 0.05,
@@ -371,460 +386,410 @@
     "key3": "phy_buff_value1",
     "value3": 0.15
   },
-  "2060101": {
+  "20601011": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.68倍的真实伤害",
     "key1": "loss_hp_amp",
     "value1": 0.68
   },
-  "2060102": {
+  "20601012": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.82倍的真实伤害",
     "key1": "loss_hp_amp",
     "value1": 0.14
   },
-  "2060103": {
+  "20601013": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.96倍的真实伤害",
     "key1": "loss_hp_amp",
     "value1": 0.14
   },
-  "2060104": {
+  "20601014": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量1.15倍的真实伤害，攻击无视免疫伤害",
     "key1": "loss_hp_amp",
     "value1": 0.19,
     "key2": "ign_invincible",
     "value2": true
   },
-  "2060105": {
+  "20601015": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量1.56倍的真实伤害，攻击无视免疫伤害",
     "key1": "loss_hp_amp",
     "value1": 0.41
   },
-  "2060201": {
+  "20602011": {
     "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤5%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.05,\"duration\":2,\"rate\":0.6}"
   },
-  "2060202": {
+  "20602012": {
     "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤7%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.07,\"duration\":2,\"rate\":0.6}"
   },
-  "2060203": {
+  "20602013": {
     "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤9%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.09,\"duration\":2,\"rate\":0.6}"
   },
-  "2060204": {
+  "20602014": {
     "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤12%，持续2回合;若目标血量高于50%，本次技攻暴击率和暴击伤害增加15%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.12,\"duration\":2,\"rate\":1}",
     "key2": "high_hp_crit_slay",
     "value2": 0.15
   },
-  "2060205": {
+  "20602015": {
     "des": "有60%概率对目标附加【冰魄】，使目标降低增伤和减伤15%，持续2回合;若目标血量高于50%，本次技攻暴击率和暴击伤害增加30%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"bingpo\",\"targetType\":\"skill_targets\",\"value\":-0.15,\"duration\":2,\"rate\":0.6}",
     "key2": "high_hp_crit_slay",
     "value2": 0.15
   },
-  "3040101": {
+  "30401011": {
     "des": "提升自身格挡20%，持续2回合(不可叠加)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.2,\"duration\":2,\"rate\":1}"
   },
-  "3040102": {
+  "30401012": {
     "des": "提升自身格挡25%，持续2回合(不可叠加)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.25,\"duration\":2,\"rate\":1}"
   },
-  "3040103": {
+  "30401013": {
     "des": "提升自身格挡30%，持续2回合(不可叠加)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":2,\"rate\":1}"
   },
-  "3040104": {
+  "30401014": {
     "des": "提升自身格挡35%，持续2回合(不可叠加)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.35,\"duration\":2,\"rate\":1}"
   },
-  "3040105": {
+  "30401015": {
     "des": "提升自身格挡40%，持续3回合(不可叠加)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"block_buff\",\"targetType\":\"team_self\",\"value\":0.4,\"duration\":3,\"rate\":1}"
   },
-  "3040301": {
+  "30403011": {
     "des": "有15%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.15}"
   },
-  "3040302": {
+  "30403012": {
     "des": "有20%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.2}"
   },
-  "3040303": {
+  "30403013": {
     "des": "有25%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.25}"
   },
-  "3040304": {
+  "30403014": {
     "des": "有30%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
   },
-  "3040305": {
+  "30403015": {
     "des": "有40%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
   },
-  "3050101": {
+  "30501011": {
     "des": "有60%几率吸取目标护甲10%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.1,\"duration\":2,\"rate\":1}"
   },
-  "3050102": {
+  "30501012": {
     "des": "有65%几率吸取目标护甲13%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.13,\"duration\":2,\"rate\":1}"
   },
-  "3050103": {
+  "30501013": {
     "des": "有70%几率吸取目标护甲16%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.16,\"duration\":2,\"rate\":1}"
   },
-  "3050104": {
+  "30501014": {
     "des": "有75%几率吸取目标护甲20%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.2,\"duration\":2,\"rate\":1}"
   },
-  "3050105": {
+  "30501015": {
     "des": "有80%几率吸取目标护甲25%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor_suck_les\",\"targetType\":\"skill_targets\",\"mul\":-0.25,\"duration\":2,\"rate\":1}"
   },
-  "3050201": {
+  "30502011": {
     "des": "对敌方周围目标造成25%的减射伤害",
     "key1": "splash_nearby",
     "value1": 0.25
   },
-  "3050202": {
+  "30502012": {
     "des": "对敌方周围目标造成30%的减射伤害",
     "key1": "splash_nearby",
     "value1": 0.05
   },
-  "3050203": {
+  "30502013": {
     "des": "对敌方周围目标造成35%的减射伤害",
     "key1": "splash_nearby",
     "value1": 0.05
   },
-  "3050204": {
+  "30502014": {
     "des": "对敌方周围目标造成40%的减射伤害",
     "key1": "splash_nearby",
     "value1": 0.05
   },
-  "3050205": {
+  "30502015": {
     "des": "对敌方周围目标造成50%的减射伤害",
     "key1": "splash_nearby",
     "value1": 0.1
   },
-  "3050301": {
+  "30503011": {
     "des": "提升友方全体侠客技攻减伤8%，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.08,\"duration\":2,\"rate\":1}"
   },
-  "3050302": {
+  "30503012": {
     "des": "提升友方全体侠客技攻减伤12%，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.12,\"duration\":2,\"rate\":1}"
   },
-  "3050303": {
+  "30503013": {
     "des": "提升友方全体侠客技攻减伤15%，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.15,\"duration\":2,\"rate\":1}"
   },
-  "3050304": {
+  "30503014": {
     "des": "提升友方全体侠客技攻减伤20%，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.2,\"duration\":2,\"rate\":1}"
   },
-  "3050305": {
+  "30503015": {
     "des": "提升友方全体侠客技攻减伤30%，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.3,\"duration\":2,\"rate\":1}"
   },
-  "3050401": {
+  "30504011": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的30%转化为自身的血量，并且自身无法行动，持续3回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":3,\"rate\":1}"
   },
-  "3050402": {
+  "30504012": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的35%转化为自身的血量，并且自身无法行动，持续3回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.35,\"duration\":3,\"rate\":1}"
   },
-  "3050403": {
+  "30504013": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的40%转化为自身的血量，并且自身无法行动，持续3回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":3,\"rate\":1}"
   },
-  "3050404": {
+  "30504014": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的50%转化为自身的血量，并且自身无法行动，持续3回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.5,\"duration\":3,\"rate\":1}"
   },
-  "3050405": {
+  "30504015": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的60%转化为自身的血量，并且自身无法行动，持续3回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.6,\"duration\":3,\"rate\":1}"
   },
-  "3050501": {
+  "30505011": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的8%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
     "value1": 0.08,
     "key2": "attack_share",
     "value2": true
   },
-  "3050502": {
+  "30505012": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的10%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
     "value1": 0.02
   },
-  "3050503": {
+  "30505013": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的12%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
     "value1": 0.02
   },
-  "3050504": {
+  "30505014": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的15%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
     "value1": 0.03
   },
-  "3050505": {
+  "30505015": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的18%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
     "value1": 0.03
   },
-  "3060101": {
+  "30601011": {
     "des": "有30%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害30%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":2,\"rate\":0.3}"
   },
-  "3060102": {
+  "30601012": {
     "des": "有40%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害40%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":2,\"rate\":0.4}"
   },
-  "3060103": {
+  "30601013": {
     "des": "有50%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害50%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.5,\"duration\":2,\"rate\":0.5}"
   },
-  "3060104": {
+  "30601014": {
     "des": "有60%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害60%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.6,\"duration\":2,\"rate\":0.6}"
   },
-  "3060105": {
+  "30601015": {
     "des": "有70%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害70%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.7,\"duration\":2,\"rate\":0.7}"
   },
-  "3060201": {
+  "30602011": {
     "des": "为友方全体侠客附加攻击156%的护盾，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.56,\"duration\":2,\"rate\":1}"
   },
-  "3060202": {
+  "30602012": {
     "des": "为友方全体侠客附加攻击224%的护盾，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":2.24,\"duration\":2,\"rate\":1}"
   },
-  "3060203": {
+  "30602013": {
     "des": "为友方全体侠客附加攻击331%的护盾，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":3.31,\"duration\":2,\"rate\":1}"
   },
-  "3060204": {
+  "30602014": {
     "des": "为友方全体侠客附加攻击406%的护盾，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.06,\"duration\":2,\"rate\":1}"
   },
-  "3060205": {
+  "30602015": {
     "des": "为友方全体侠客附加攻击498%的护盾，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.98,\"duration\":2,\"rate\":1}"
   },
-  "4040101": {
-    "des": "并分别有15%几率束缚目标，持续2回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.15}"
-  },
-  "4040102": {
-    "des": "并分别有18%几率束缚目标，持续2回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.18}"
-  },
-  "4040103": {
-    "des": "并分别有21%几率束缚目标，持续2回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.21}"
-  },
-  "4040104": {
-    "des": "并分别有24%几率束缚目标，持续2回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.24}"
-  },
-  "4040105": {
-    "des": "并分别有30%几率束缚目标，持续2回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.3}"
-  },
-  "4040201": {
-    "des": "增加护甲值5%，持续3回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.05,\"duration\":3,\"rate\":1}"
-  },
-  "4040202": {
-    "des": "增加护甲值10%，持续3回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.1,\"duration\":3,\"rate\":1}"
-  },
-  "4040203": {
-    "des": "增加护甲值15%，持续3回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.15,\"duration\":3,\"rate\":1}"
-  },
-  "4040204": {
-    "des": "增加护甲值20%，持续3回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.2,\"duration\":3,\"rate\":1}"
-  },
-  "4040205": {
-    "des": "增加护甲值25%，持续3回合。",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.25,\"duration\":3,\"rate\":1}"
-  },
-  "4050101": {
+  "40501011": {
     "des": "分别有50%概率降低目标15点怒气",
     "key1": "loss_anger_rate",
     "value1": 0.5,
     "key2": "loss_anger_value",
     "value2": 15
   },
-  "4050102": {
+  "40501012": {
     "des": "分别有55%概率降低目标20点怒气",
     "key1": "loss_anger_rate",
     "value1": 0.55,
     "key2": "loss_anger_value",
     "value2": 5
   },
-  "4050103": {
+  "40501013": {
     "des": "分别有60%概率降低目标25点怒气",
     "key1": "loss_anger_rate",
     "value1": 0.6,
     "key2": "loss_anger_value",
     "value2": 5
   },
-  "4050104": {
+  "40501014": {
     "des": "分别有70%概率降低目标30点怒气",
     "key1": "loss_anger_rate",
     "value1": 0.7,
     "key2": "loss_anger_value",
     "value2": 5
   },
-  "4050105": {
+  "40501015": {
     "des": "分别有80%概率降低目标35点怒气",
     "key1": "loss_anger_rate",
     "value1": 0.8,
     "key2": "loss_anger_value",
     "value2": 5
   },
-  "4050201": {
+  "40502011": {
     "des": "使目标受到【内伤】，每回合受到攻击60%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":1}"
   },
-  "4050202": {
+  "40502012": {
     "des": "使目标受到【内伤】，每回合受到攻击80%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.8,\"duration\":2,\"rate\":1}"
   },
-  "4050203": {
+  "40502013": {
     "des": "使目标受到【内伤】，每回合受到攻击110%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.1,\"duration\":2,\"rate\":1}"
   },
-  "4050204": {
+  "40502014": {
     "des": "使目标受到【内伤】，每回合受到攻击140%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.4,\"duration\":2,\"rate\":1}"
   },
-  "4050205": {
+  "40502015": {
     "des": "使目标受到【内伤】，每回合受到攻击180%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.8,\"duration\":2,\"rate\":1}"
   },
-  "4050301": {
+  "40503011": {
     "des": "分别有40%概率施加【中毒】,每回合受到攻击100%的伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":0.4}"
   },
-  "4050302": {
+  "40503012": {
     "des": "分别有45%概率施加【中毒】,每回合受到攻击120%的伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.2,\"duration\":2,\"rate\":0.45}"
   },
-  "4050303": {
+  "40503013": {
     "des": "分别有50%概率施加【中毒】,每回合受到攻击140%的伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.4,\"duration\":2,\"rate\":0.5}"
   },
-  "4050304": {
+  "40503014": {
     "des": "分别有55%概率施加【中毒】,每回合受到攻击160%的伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.6,\"duration\":2,\"rate\":0.55}"
   },
-  "4050305": {
+  "40503015": {
     "des": "分别有60%概率施加【中毒】,每回合受到攻击200%的伤害，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":2,\"duration\":2,\"rate\":0.6}"
   },
-  "4050401": {},
-  "4050402": {
+  "40504011": {},
+  "40504012": {
     "des": "为前排侠客添加【聚息】效果，受到攻击后若血量低于50%触发，立即恢复最大生命值的3%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hit_heal\",\"targetType\":\"team_front\",\"mul\":0.03,\"duration\":2,\"rate\":1}"
   },
-  "4050403": {
+  "40504013": {
     "des": "为前排侠客添加【聚息】效果，受到攻击后若血量低于50%触发，立即恢复最大生命值的4%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hit_heal\",\"targetType\":\"team_front\",\"mul\":0.04,\"duration\":2,\"rate\":1}"
   },
-  "4050404": {
+  "40504014": {
     "des": "为前排侠客添加【聚息】效果，受到攻击后若血量低于50%触发，立即恢复最大生命值的5%，持续2回合;为后排侠客添加【药香】，伤害提升5%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hit_heal\",\"targetType\":\"team_front\",\"mul\":0.05,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"amp_up\",\"targetType\":\"team_back\",\"value\":0.05,\"duration\":2,\"rate\":1}"
   },
-  "4050405": {
+  "40504015": {
     "des": "为前排侠客添加【聚息】效果，受到攻击后若血量低于50%触发，立即恢复最大生命值的6%，持续2回合；为后排侠客添加【药香】，伤害提升10%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hit_heal\",\"targetType\":\"team_only_front\",\"mul\":0.06,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"amp_up\",\"targetType\":\"team_only_back\",\"value\":0.1,\"duration\":2,\"rate\":1}"
   },
-  "4050501": {
+  "40505011": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升15%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_hitDef\",\"targetType\":\"team_self\",\"mul\":0.15,\"duration\":2,\"rate\":1}"
   },
-  "4050502": {
+  "40505012": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升18%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_hitDef\",\"targetType\":\"team_self\",\"mul\":0.18,\"duration\":2,\"rate\":1}"
   },
-  "4050503": {
+  "40505013": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升21%，持续2回合;对处于【内伤】状态的侠客伤害提升21%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_hitDef\",\"targetType\":\"team_self\",\"mul\":0.21,\"duration\":2,\"rate\":1}",
@@ -833,7 +798,7 @@
     "key3": "mag_buff_value1",
     "value3": 0.21
   },
-  "4050504": {
+  "40505014": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升24%，持续2回合;对处于【内伤】状态的侠客伤害提升25%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_hitDef\",\"targetType\":\"team_self\",\"mul\":0.25,\"duration\":2,\"rate\":1}",
@@ -842,7 +807,7 @@
     "key3": "mag_buff_value1",
     "value3": 0.04
   },
-  "4050505": {
+  "40505015": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升30%，持续2回合;对处于【内伤】状态的侠客伤害提升30%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_hitDef\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":2,\"rate\":1}",
@@ -851,47 +816,151 @@
     "key3": "mag_buff_value1",
     "value3": 0.05
   },
-  "4050601": {
+  "40506011": {
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤10%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.1,\"duration\":3,\"rate\":1}"
   },
-  "4050602": {
+  "40506012": {
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤15%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.15,\"duration\":3,\"rate\":1}"
   },
-  "4050603": {
+  "40601011": {
+    "des": "使目标受到【中毒】，每回合受到攻击70%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.7,\"duration\":2,\"rate\":1}"
+  },
+  "40601012": {
+    "des": "使目标受到【中毒】，每回合受到攻击90%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.9,\"duration\":2,\"rate\":1}"
+  },
+  "40601013": {
+    "des": "使目标受到【中毒】，每回合受到攻击110%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.1,\"duration\":2,\"rate\":1}"
+  },
+  "40601014": {
+    "des": "使目标受到【中毒】，每回合受到攻击130%的伤害，持续2回合;;若目标已处于【中毒】状态，则中毒伤害提升至160%",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.3,\"duration\":2,\"rate\":1,\"repet_amp\":0.3}"
+  },
+  "40601015": {
+    "des": "使目标受到【中毒】，每回合受到攻击150%的伤害，持续2回合;若目标已处于【中毒】状态，则中毒伤害提升至200%",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.5,\"duration\":2,\"rate\":1,\"repet_amp\":0.5}"
+  },
+  "40602011": {
+    "des": "使目标受到【内伤】，每回合受到攻击60%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":1}"
+  },
+  "40602012": {
+    "des": "使目标受到【内伤】，每回合受到攻击80%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.8,\"duration\":2,\"rate\":1}"
+  },
+  "40602013": {
+    "des": "使目标受到【内伤】，每回合受到攻击100%的伤害，持续2回合;",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":1}"
+  },
+  "40602014": {
+    "des": "使目标受到【内伤】，每回合受到攻击120%的伤害，持续2回合;自身受到攻击伤害的20%由敌方处于【内伤】状态的侠客共同承担",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.2,\"duration\":2,\"rate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"splash_mag\",\"targetType\":\"team_self\",\"mul\":0.2,\"duration\":2,\"rate\":1}"
+  },
+  "40602015": {
+    "des": "使目标受到【内伤】，每回合受到攻击150%的伤害，持续2回合;自身受到攻击伤害的40%由敌方处于【内伤】状态的侠客共同承担",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.5,\"duration\":2,\"rate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"splash_mag\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":2,\"rate\":1}"
+  },
+  "404010011": {
+    "des": "并分别有15%几率束缚目标，持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.15}"
+  },
+  "404010012": {
+    "des": "并分别有18%几率束缚目标，持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.18}"
+  },
+  "404010013": {
+    "des": "并分别有21%几率束缚目标，持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.21}"
+  },
+  "404010014": {
+    "des": "并分别有24%几率束缚目标，持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.24}"
+  },
+  "404010015": {
+    "des": "并分别有30%几率束缚目标，持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.3}"
+  },
+  "404020011": {
+    "des": "增加护甲值5%，持续3回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.05,\"duration\":3,\"rate\":1}"
+  },
+  "404020012": {
+    "des": "增加护甲值10%，持续3回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.1,\"duration\":3,\"rate\":1}"
+  },
+  "404020013": {
+    "des": "增加护甲值15%，持续3回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.15,\"duration\":3,\"rate\":1}"
+  },
+  "404020014": {
+    "des": "增加护甲值20%，持续3回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.2,\"duration\":3,\"rate\":1}"
+  },
+  "404020015": {
+    "des": "增加护甲值25%，持续3回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"armor_up\",\"targetType\":\"team_all\",\"mul\":0.25,\"duration\":3,\"rate\":1}"
+  },
+  "405060013": {
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤20%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.2,\"duration\":3,\"rate\":1}"
   },
-  "4050604": {
+  "405060014": {
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤30%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":3,\"rate\":1}"
   },
-  "4050605": {
+  "405060015": {
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤40%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.4,\"duration\":3,\"rate\":1}"
   },
-  "4050701": {
+  "405070011": {
     "des": "有10%概率对目标【封穴】(触发类技能将无法施展，且无法格挡和闪避)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.1}"
   },
-  "4050702": {
+  "405070012": {
     "des": "有14%概率对目标【封穴】(触发类技能将无法施展，且无法格挡和闪避)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.14}"
   },
-  "4050703": {
+  "405070013": {
     "des": "有18%概率对目标【封穴】(触发类技能将无法施展，且无法格挡和闪避)",
     "key1": "buff1",
     "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.18}"
   },
-  "4050704": {
+  "405070014": {
     "des": "有22%概率对目标【封穴】(触发类技能将无法施展，且无法格挡和闪避);若目标处于【中毒】，【封穴】概率提升8%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.22}",
@@ -900,7 +969,7 @@
     "key3": "target_buff_rate",
     "value3": 0.08
   },
-  "4050705": {
+  "405070015": {
     "des": "有26%概率对目标【封穴】(触发类技能将无法施展，且无法格挡和闪避);若目标处于【中毒】，【封穴】概率提升16%",
     "key1": "buff1",
     "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.26}",
@@ -909,376 +978,322 @@
     "key3": "target_buff_rate",
     "value3": 0.08
   },
-  "4050801": {
+  "405080011": {
     "des": "分别有20%几率使目标受到【禁怒】状态，持续1回合，若目标处于被控制状态 (晕眩、石化、冰冻、魅惑、沉跌、束缚、嘲讽等)，则持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ban_anger\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.2}",
     "key2": "control_dur",
     "value2": 1
   },
-  "4050802": {
+  "405080012": {
     "des": "分别有25%几率使目标受到【禁怒】状态，持续1回合，若目标处于被控制状态 (晕眩、石化、冰冻、魅惑、沉跌、束缚、嘲讽等)，则持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ban_anger\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.25}"
   },
-  "4050803": {
+  "405080013": {
     "des": "分别有30%几率使目标受到【禁怒】状态，持续1回合，若目标处于被控制状态 (晕眩、石化、冰冻、魅惑、沉跌、束缚、嘲讽等)，则持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ban_anger\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
   },
-  "4050804": {
+  "405080014": {
     "des": "分别有40%几率使目标受到【禁怒】状态，持续1回合，若目标处于被控制状态 (晕眩、石化、冰冻、魅惑、沉跌、束缚、嘲讽等)，则持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ban_anger\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
   },
-  "4050805": {
+  "405080015": {
     "des": "分别有50%几率使目标受到【禁怒】状态，持续1回合，若目标处于被控制状态 (晕眩、石化、冰冻、魅惑、沉跌、束缚、嘲讽等)，则持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ban_anger\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.5}"
   },
-  "4050901": {
+  "405090011": {
     "des": "分别有40%几率使目标受到【内伤】，每回合受到攻击100%伤害，持续2回合:",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":0.4}"
   },
-  "4050902": {
+  "405090012": {
     "des": "分别有50%几率使目标受到【内伤】，每回合受到攻击120%伤害，持续2回合:",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.2,\"duration\":2,\"rate\":0.5}"
   },
-  "4050903": {
+  "405090013": {
     "des": "分别有60%几率使目标受到【内伤】，每回合受到攻击140%伤害，持续2回合:",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.4,\"duration\":2,\"rate\":0.6}"
   },
-  "4050904": {
+  "405090014": {
     "des": "分别有70%几率使目标受到【内伤】，每回合受到攻击160%伤害，持续2回合:",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.6,\"duration\":2,\"rate\":0.7}"
   },
-  "4050905": {
+  "405090015": {
     "des": "分别有80%几率使目标受到【内伤】，每回合受到攻击180%伤害，持续2回合:",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.8,\"duration\":2,\"rate\":0.8}"
   },
-  "4060101": {
-    "des": "使目标受到【中毒】，每回合受到攻击70%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.7,\"duration\":2,\"rate\":1}"
-  },
-  "4060102": {
-    "des": "使目标受到【中毒】，每回合受到攻击90%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.9,\"duration\":2,\"rate\":1}"
-  },
-  "4060103": {
-    "des": "使目标受到【中毒】，每回合受到攻击110%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.1,\"duration\":2,\"rate\":1}"
-  },
-  "4060104": {
-    "des": "使目标受到【中毒】，每回合受到攻击130%的伤害，持续2回合;;若目标已处于【中毒】状态，则中毒伤害提升至160%",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.3,\"duration\":2,\"rate\":1,\"repet_amp\":0.3}"
-  },
-  "4060105": {
-    "des": "使目标受到【中毒】，每回合受到攻击150%的伤害，持续2回合;若目标已处于【中毒】状态，则中毒伤害提升至200%",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.5,\"duration\":2,\"rate\":1,\"repet_amp\":0.5}"
-  },
-  "4060201": {
-    "des": "使目标受到【内伤】，每回合受到攻击60%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":2,\"rate\":1}"
-  },
-  "4060202": {
-    "des": "使目标受到【内伤】，每回合受到攻击80%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.8,\"duration\":2,\"rate\":1}"
-  },
-  "4060203": {
-    "des": "使目标受到【内伤】，每回合受到攻击100%的伤害，持续2回合;",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":1}"
-  },
-  "4060204": {
-    "des": "使目标受到【内伤】，每回合受到攻击120%的伤害，持续2回合;自身受到攻击伤害的20%由敌方处于【内伤】状态的侠客共同承担",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.2,\"duration\":2,\"rate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"splash_mag\",\"targetType\":\"team_self\",\"mul\":0.2,\"duration\":2,\"rate\":1}"
-  },
-  "4060205": {
-    "des": "使目标受到【内伤】，每回合受到攻击150%的伤害，持续2回合;自身受到攻击伤害的40%由敌方处于【内伤】状态的侠客共同承担",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.5,\"duration\":2,\"rate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"splash_mag\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":2,\"rate\":1}"
-  },
-  "5040101": {
+  "504010011": {
     "des": "为友方全体施加一个能吸收攻击80%伤害的【护盾】",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":0.8,\"duration\":2,\"rate\":1}"
   },
-  "5040102": {
+  "504010012": {
     "des": "为友方全体施加一个能吸收攻击100%伤害的【护盾】",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1,\"duration\":2,\"rate\":1}"
   },
-  "5040103": {
+  "504010013": {
     "des": "为友方全体施加一个能吸收攻击120%伤害的【护盾】",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.2,\"duration\":2,\"rate\":1}"
   },
-  "5040104": {
+  "504010014": {
     "des": "为友方全体施加一个能吸收攻击150%伤害的【护盾】",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.5,\"duration\":2,\"rate\":1}"
   },
-  "5040105": {
+  "504010015": {
     "des": "为友方全体施加一个能吸收攻击180%伤害的【护盾】",
     "key1": "buff1",
     "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.8,\"duration\":2,\"rate\":1}"
   },
-  "5040201": {
+  "504020011": {
     "des": "该伤害无视护甲，汲取30%。",
     "key1": "suck_blood",
     "value1": 0.3,
     "key2": "ign_armor",
     "value2": 1
   },
-  "5040202": {
+  "504020012": {
     "des": "该伤害无视护甲，汲取35%。",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5040203": {
+  "504020013": {
     "des": "该伤害无视护甲，汲取40%。",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5040204": {
+  "504020014": {
     "des": "该伤害无视护甲，汲取45%;若击杀目标，则恢复自身全部血量",
     "key1": "suck_blood",
     "value1": 0.05,
     "key2": "full_heal_kill",
     "value2": true
   },
-  "5040205": {
+  "504020015": {
     "des": "该伤害无视护甲，汲取50%;若击杀目标，则恢复自身全部血量",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5040301": {
+  "504030011": {
     "des": "如果击杀目标，则增加自己怒气40",
     "key1": "addAnger_kill",
     "value1": 40
   },
-  "5040302": {
+  "504030012": {
     "des": "如果击杀目标，则增加自己怒气50",
     "key1": "addAnger_kill",
     "value1": 10
   },
-  "5040303": {
+  "504030013": {
     "des": "如果击杀目标，则增加自己怒气60",
     "key1": "addAnger_kill",
     "value1": 10
   },
-  "5040304": {
+  "504030014": {
     "des": "如果击杀目标，则增加自己怒气80",
     "key1": "addAnger_kill",
     "value1": 20
   },
-  "5040305": {
+  "504030015": {
     "des": "如果击杀目标，则增加自己怒气100",
     "key1": "addAnger_kill",
     "value1": 20
   },
-  "5050101": {
+  "505010011": {
     "des": "同时提高友方全体5%减伤，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ampDef_up\",\"targetType\":\"team_all\",\"value\":0.05,\"duration\":1,\"rate\":1}"
   },
-  "5050102": {
+  "505010012": {
     "des": "同时提高友方全体7%减伤，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ampDef_up\",\"targetType\":\"team_all\",\"value\":0.07,\"duration\":1,\"rate\":1}"
   },
-  "5050103": {
+  "505010013": {
     "des": "同时提高友方全体9%减伤，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ampDef_up\",\"targetType\":\"team_all\",\"value\":0.09,\"duration\":1,\"rate\":2}"
   },
-  "5050104": {
+  "505010014": {
     "des": "同时提高友方全体12%减伤，持续2回合;并使自己进入【化力挪移】 状态，持续2回合。【化力挪移】:自身受到的25%直接攻击伤害挪移给其余友方分摊。",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ampDef_up\",\"targetType\":\"team_all\",\"value\":0.12,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"nuoyi_share\",\"targetType\":\"team_self\",\"mul\":0.25,\"duration\":2,\"rate\":1}"
   },
-  "5050105": {
+  "505010015": {
     "des": "同时提高友方全体15%减伤，持续2回合;并使自己进入【化力挪移】 状态，持续2回合。【化力挪移】:自身受到的50%直接攻击伤害挪移给其余友方分摊。",
     "key1": "buff1",
     "value1": "{\"buffId\":\"ampDef_up\",\"targetType\":\"team_all\",\"value\":0.15,\"duration\":2,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"nuoyi_share\",\"targetType\":\"team_self\",\"mul\":0.5,\"duration\":2,\"rate\":1}"
   },
-  "5050201": {
+  "505020011": {
     "des": "并增加目标外功减伤10%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phyDef_up\",\"targetType\":\"skill_targets\",\"value\":0.1,\"duration\":2,\"rate\":1}"
   },
-  "5050202": {
+  "505020012": {
     "des": "并增加目标外功减伤15%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phyDef_up\",\"targetType\":\"skill_targets\",\"value\":0.15,\"duration\":2,\"rate\":1}"
   },
-  "5050203": {
+  "505020013": {
     "des": "并增加目标外功减伤20%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phyDef_up\",\"targetType\":\"skill_targets\",\"value\":0.2,\"duration\":2,\"rate\":1}"
   },
-  "5050204": {
+  "505020014": {
     "des": "并增加目标外功减伤25%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phyDef_up\",\"targetType\":\"skill_targets\",\"value\":0.25,\"duration\":2,\"rate\":1}"
   },
-  "5050205": {
+  "505020015": {
     "des": "并增加目标外功减伤30%，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"phyDef_up\",\"targetType\":\"skill_targets\",\"value\":0.3,\"duration\":2,\"rate\":1}"
   },
-  "5050301": {
+  "505030011": {
     "des": "使目标受到【内伤】，每回合受到攻击40%内功伤害,持续至战斗结束;有40%概率使目标【冰冻】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.4,\"duration\":99,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
   },
-  "5050302": {
+  "505030012": {
     "des": "使目标受到【内伤】，每回合受到攻击50%内功伤害,持续至战斗结束;有60%概率使目标【冰冻】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.5,\"duration\":99,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.6}"
   },
-  "5050303": {
+  "505030013": {
     "des": "使目标受到【内伤】，每回合受到攻击60%内功伤害,持续至战斗结束;有80%概率使目标【冰冻】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.6,\"duration\":99,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.8}"
   },
-  "5050304": {
+  "505030014": {
     "des": "使目标受到【内伤】，每回合受到攻击70%内功伤害,持续至战斗结束;使目标【冰冻】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.7,\"duration\":99,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
   },
-  "5050305": {
+  "505030015": {
     "des": "使目标受到【内伤】，每回合受到攻击90%内功伤害,持续至战斗结束;使目标【冰冻】，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":0.9,\"duration\":99,\"rate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":1}"
   },
-  "5050401": {
+  "505040011": {
     "des": "分别有50%概率使目标受到【中毒】，每回合受到攻击90%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":0.9,\"duration\":2,\"rate\":0.5}"
   },
-  "5050402": {
+  "505040012": {
     "des": "分别有55%概率使目标受到【中毒】，每回合受到攻击100%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1,\"duration\":2,\"rate\":0.55}"
   },
-  "5050403": {
+  "505040013": {
     "des": "分别有60%概率使目标受到【中毒】，每回合受到攻击110%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.1,\"duration\":2,\"rate\":0.6}"
   },
-  "5050404": {
+  "505040014": {
     "des": "分别有70%概率使目标受到【中毒】，每回合受到攻击130%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.3,\"duration\":2,\"rate\":0.7}"
   },
-  "5050405": {
+  "505040015": {
     "des": "分别有80%概率使目标受到【中毒】，每回合受到攻击150%的伤害，持续2回合;",
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"targetType\":\"skill_targets\",\"mul\":1.5,\"duration\":2,\"rate\":0.8}"
   },
-  "5050501": {
+  "505050011": {
     "des": "汲取25%",
     "key1": "suck_blood",
     "value1": 0.25
   },
-  "5050502": {
+  "505050012": {
     "des": "汲取30%",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5050503": {
+  "505050013": {
     "des": "汲取35%",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5050504": {
+  "505050014": {
     "des": "汲取40%",
     "key1": "suck_blood",
     "value1": 0.05
   },
-  "5050505": {
+  "505050015": {
     "des": "汲取50%",
     "key1": "suck_blood",
     "value1": 0.1
   },
-  "5050601": {
+  "505060011": {
     "des": "若击杀目标，则对敌方其余侠客造成本次伤害5%的真实伤害。",
     "key1": "splash_kill",
     "value1": 0.05
   },
-  "5050602": {
+  "505060012": {
     "des": "若击杀目标，则对敌方其余侠客造成本次伤害8%的真实伤害。",
     "key1": "splash_kill",
     "value1": 0.03
   },
-  "5050603": {
+  "505060013": {
     "des": "若击杀目标，则对敌方其余侠客造成本次伤害11%的真实伤害。",
     "key1": "splash_kill",
     "value1": 0.03
   },
-  "5050604": {
+  "505060014": {
     "des": "若击杀目标，则对敌方其余侠客造成本次伤害14%的真实伤害。",
     "key1": "splash_kill",
     "value1": 0.03
   },
-  "5050605": {
+  "505060015": {
     "des": "若击杀目标，则对敌方其余侠客造成本次伤害20%的真实伤害。",
     "key1": "splash_kill",
     "value1": 0.06
   },
-  "5060101": {
+  "506010011": {
     "des": "使目标有20%概率【石化】，持续1回合;若未使目标【石化】 ，则降低目标造成伤害5%，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.2,\"elseBuff\":{\"buffId\":\"amp_down\",\"value\":-0.05,\"duration\":1}}"
   },
-  "5060102": {
+  "506010012": {
     "des": "使目标有25%概率【石化】，持续1回合;若未使目标【石化】 ，则降低目标造成伤害10%，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.25,\"elseBuff\":{\"buffId\":\"amp_down\",\"value\":-0.1,\"duration\":1}}"
   },
-  "5060103": {
+  "506010013": {
     "des": "使目标有30%概率【石化】，持续1回合;若未使目标【石化】 ，则降低目标造成伤害15%，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3,\"elseBuff\":{\"buffId\":\"amp_down\",\"value\":-0.15,\"duration\":1}}"
   },
-  "5060104": {
+  "506010014": {
     "des": "使目标有35%概率【石化】，持续1回合;若未使目标【石化】 ，则降低目标造成伤害20%，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.35,\"elseBuff\":{\"buffId\":\"amp_down\",\"value\":-0.2,\"duration\":1}}"
   },
-  "5060105": {
+  "506010015": {
     "des": "使目标有40%概率【石化】，持续1回合;若未使目标【石化】 ，则降低目标造成伤害30%，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4,\"elseBuff\":{\"buffId\":\"amp_down\",\"value\":-0.3,\"duration\":1}}"
