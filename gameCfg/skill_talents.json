@@ -70,6 +70,31 @@
     "key1": "clear_anger",
     "value1": 0.05
   },
+  "10502021": {
+    "des": "有50%的概率使敌方全体侠客受到【外伤】，造成攻击60%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":0.6,\"duration\":2,\"rate\":0.5}"
+  },
+  "10502022": {
+    "des": "有55%的概率使敌方全体侠客受到【外伤】，造成攻击80%的外功伤害，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":0.8,\"duration\":2,\"rate\":0.55}"
+  },
+  "10502023": {
+    "des": "有60%的概率使敌方全体侠客受到【外伤】，造成攻击100%的外功伤害，持续2回合;若目标为女性侠客，则持续至战斗结束",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":1,\"duration\":2,\"rate\":0.6,\"sexDur\":99}"
+  },
+  "10502024": {
+    "des": "有70%的概率使敌方全体侠客受到【外伤】，造成攻击120%的外功伤害，持续2回合;若目标为女性侠客，则持续至战斗结束",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":1.2,\"duration\":2,\"rate\":0.7,\"sexDur\":99}"
+  },
+  "10502025": {
+    "des": "有80%的概率使敌方全体侠客受到【外伤】，造成攻击150%的外功伤害，持续2回合;若目标为女性侠客，则持续至战斗结束",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":1.5,\"duration\":2,\"rate\":0.8,\"sexDur\":99}"
+  },
   "10503011": {
     "des": "降低目标5%的攻击和护甲,持续2回合",
     "key1": "buff1",
@@ -105,6 +130,36 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"armor_down\",\"targetType\":\"skill_targets\",\"mul\":-0.15,\"duration\":2,\"rate\":1}"
   },
+  "10503023": {
+    "des": "有30%概率使目标石化，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
+  },
+  "10503024": {
+    "des": "有60%概率使目标石化，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.6}"
+  },
+  "10503025": {
+    "des": "有100%概率使目标石化，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
+  },
+  "10503033": {
+    "des": "10%几率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.1}"
+  },
+  "10503034": {
+    "des": "20%几率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.2}"
+  },
+  "10503035": {
+    "des": "40%几率使目标【石化】，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
+  },
   "10504011": {
     "des": "造成最大生命值1%的真实伤害",
     "key1": "maxHP_damage",
@@ -129,6 +184,31 @@
     "des": "造成最大生命值6%的真实伤害",
     "key1": "maxHP_damage",
     "value1": 0.06
+  },
+  "10504041": {
+    "des": "每隔3回合触发，40%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害20%，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"angerDef_up_once\",\"targetType\":\"team_all\",\"num\":0.2,\"duration\":1,\"rate\":0.4}"
+  },
+  "10504042": {
+    "des": "每隔2回合触发，45%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害25%，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"angerDef_up_once\",\"targetType\":\"team_all\",\"num\":0.25,\"duration\":1,\"rate\":0.45}"
+  },
+  "10504043": {
+    "des": "每隔1回合触发，50%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害30%，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"angerDef_up_once\",\"targetType\":\"team_all\",\"num\":0.3,\"duration\":1,\"rate\":0.5}"
+  },
+  "10504044": {
+    "des": "每隔1回合触发，60%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害35%，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"angerDef_up_once\",\"targetType\":\"team_all\",\"num\":0.35,\"duration\":1,\"rate\":0.6}"
+  },
+  "10504045": {
+    "des": "每隔1回合触发，70%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害40%，并且提升10%减伤，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"angerDef_up_once\",\"targetType\":\"team_all\",\"num\":0.4,\"mul\":0.1,\"duration\":1,\"rate\":0.7}"
   },
   "10505011": {
     "des": "同时汲取目标攻击8%",
@@ -545,27 +625,27 @@
   "30503011": {
     "des": "提升友方全体侠客技攻减伤8%，不可叠加，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.08,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"angerDef_up\",\"targetType\":\"team_all\",\"value\":0.08,\"duration\":2,\"rate\":1}"
   },
   "30503012": {
     "des": "提升友方全体侠客技攻减伤12%，不可叠加，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.12,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"angerDef_up\",\"targetType\":\"team_all\",\"value\":0.12,\"duration\":2,\"rate\":1}"
   },
   "30503013": {
     "des": "提升友方全体侠客技攻减伤15%，不可叠加，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.15,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"angerDef_up\",\"targetType\":\"team_all\",\"value\":0.15,\"duration\":2,\"rate\":1}"
   },
   "30503014": {
     "des": "提升友方全体侠客技攻减伤20%，不可叠加，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.2,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"angerDef_up\",\"targetType\":\"team_all\",\"value\":0.2,\"duration\":2,\"rate\":1}"
   },
   "30503015": {
     "des": "提升友方全体侠客技攻减伤30%，不可叠加，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"skill_rud\",\"targetType\":\"team_all\",\"value\":0.3,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"angerDef_up\",\"targetType\":\"team_all\",\"value\":0.3,\"duration\":2,\"rate\":1}"
   },
   "30504011": {
     "des": "使自身进入[坚韧] 状态，受到攻击时，将受到伤害的30%转化为自身的血量，并且自身无法行动，持续3回合",

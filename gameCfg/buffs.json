@@ -83,6 +83,14 @@
     "show_tag": "armor_suck",
     "undispel": true
   },
+  "amp_up_always": {
+    "name": "伤害增加",
+    "des": "伤害增加，永久",
+    "max_count": 99,
+    "attKey1": "amp",
+    "normal": true,
+    "show_tag": "amp_up"
+  },
   "amp_up": {
     "name": "药香",
     "des": "伤害增加，不可叠加",
@@ -119,14 +127,56 @@
     "normal": true,
     "show_tag": "ampDef_down"
   },
-  "skill_rud": {
+  "hitDef_up_once": {
+    "name": "闪避提升",
+    "des": "下一次被攻击时闪避提升",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "hitDef",
+    "show_tag": "hitDef_up"
+  },
+  "jiuyang_up": {
+    "name": "九阳技能增伤",
+    "des": "技能伤害增加",
+    "max_count": 3,
+    "attKey1": "angerAmp",
+    "normal": true,
+    "show_tag": "skill_up"
+  },
+  "skill_up": {
+    "name": "技能增伤",
+    "des": "技能伤害增加，持续至战斗结束",
+    "max_count": 1,
+    "attKey1": "angerAmp",
+    "normal": true,
+    "show_tag": "skill_up",
+    "undispel": true
+  },
+  "angerDef_up": {
     "name": "技攻减伤",
     "des": "提升友方全体侠客技攻减伤,不可叠加",
     "icon": true,
     "max_count": 1,
     "attKey1": "angerDef",
     "normal": true,
-    "show_tag": "skill_rud"
+    "show_tag": "angerDef_up"
+  },
+  "angerDef_up_once": {
+    "name": "金刚不坏",
+    "des": "降低下次受到的技攻伤害",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "ampDef",
+    "show_tag": "angerDef_up"
+  },
+  "phyAmp_always": {
+    "name": "外功加强",
+    "des": "造成的外功伤害增加",
+    "max_count": 99,
+    "attKey1": "phyAmp",
+    "normal": true,
+    "show_tag": "phyAmp_up",
+    "undispel": true
   },
   "phyAmp_up": {
     "name": "外功加强",
@@ -200,6 +250,33 @@
     "normal": true,
     "show_tag": "magDef_down"
   },
+  "crit_up": {
+    "name": "暴击提升",
+    "des": "暴击率提高",
+    "icon": true,
+    "max_count": 99,
+    "attKey1": "crit",
+    "normal": true,
+    "show_tag": "crit_up"
+  },
+  "slay_up": {
+    "name": "暴伤提升",
+    "des": "暴击伤害提高",
+    "icon": true,
+    "max_count": 99,
+    "attKey1": "slay",
+    "normal": true,
+    "show_tag": "slay_up"
+  },
+  "roundAnger_up": {
+    "name": "回合回怒提升",
+    "des": "回合回怒增加",
+    "icon": true,
+    "max_count": 99,
+    "attKey1": "roundAnger",
+    "normal": true,
+    "show_tag": "roundAnger_up"
+  },
   "poison": {
     "name": "中毒",
     "des": "中毒状态，每回合受到一定中毒伤害",
@@ -229,15 +306,6 @@
     "attKey1": "amp",
     "attKey2": "ampDef",
     "normal": true
-  },
-  "skill_up": {
-    "name": "技能增伤",
-    "des": "技能伤害增加，持续至战斗结束",
-    "max_count": 1,
-    "attKey1": "angerAmp",
-    "normal": true,
-    "show_tag": "skill_up",
-    "undispel": true
   },
   "nuoyi_back": {
     "name": "挪移",
@@ -277,7 +345,6 @@
     "name": "百鸟朝凤",
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客伤害增加，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "icon": true,
-    "effects": true,
     "max_count": 1,
     "attKey1": "normalDef",
     "attValue1": -1,
@@ -319,7 +386,6 @@
     "name": "蛇影",
     "des": "受到处于内伤状态的侠客攻击时，闪避提升",
     "icon": true,
-    "effects": true,
     "max_count": 1,
     "normal": true
   },
@@ -330,8 +396,7 @@
     "effects": true,
     "max_count": 1,
     "normal": true,
-    "control": true,
-    "undispel": true
+    "control": true
   },
   "frozen": {
     "name": "冰冻",
@@ -340,8 +405,7 @@
     "effects": true,
     "max_count": 1,
     "normal": true,
-    "control": true,
-    "undispel": true
+    "control": true
   },
   "vital_point": {
     "name": "封穴",
@@ -355,7 +419,6 @@
     "name": "禁怒",
     "des": "无法回复怒气",
     "icon": true,
-    "effects": true,
     "max_count": 1,
     "normal": true
   },
@@ -365,7 +428,8 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "control": true
   },
   "silence": {
     "name": "沉默",
@@ -373,7 +437,8 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "control": true
   },
   "free_control": {
     "name": "掌势",
@@ -391,5 +456,54 @@
     "attKey2": "hit",
     "attKey3": "crit",
     "undispel": true
+  },
+  "store_damage": {
+    "name": "化劲",
+    "des": "受到总伤害减少一定比例，转化为化劲，三回合后对自身造成等比例的真实伤害",
+    "icon": true,
+    "max_count": 999,
+    "undispel": true
+  },
+  "lowhp_atk": {
+    "name": "低血量攻击加成",
+    "des": "血量低于30%时，增加自身攻击力一定比例",
+    "attKey1": "atk",
+    "undispel": true
+  },
+  "jiuyang": {
+    "name": "九阳真气",
+    "des": "每累计损失血量上限30%的血量，提升自身技攻伤害",
+    "icon": true,
+    "max_count": 1,
+    "undispel": true
+  },
+  "chaodu": {
+    "name": "超度",
+    "des": "血量低于一定比例时立即死亡",
+    "icon": true,
+    "effects": true,
+    "max_count": 1
+  },
+  "sign_aim": {
+    "name": "标记",
+    "des": "标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击30%的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）,且对目标造成伤害增加",
+    "effects": true,
+    "max_count": 1,
+    "undispel": true
+  },
+  "not_revived": {
+    "name": "无法复活",
+    "des": "无法以任何方式复活",
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "undispel": true
+  },
+  "sign_unheal": {
+    "name": "印记",
+    "des": "[印记] 状态下的目标无法获得护盾，受治疗效果降低。若在印记状态下被攻击击杀，则2回合内无法以任何方式复活",
+    "effects": true,
+    "max_count": 1,
+    "attKey1": "healAdd"
   }
 }
