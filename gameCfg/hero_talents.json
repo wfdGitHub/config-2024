@@ -22,7 +22,7 @@
   "10401025": {
     "des": "技攻触发，有100%概率对目标施加[印记]，持续2回合。[印记] 状态下的目标无法获得护盾，受治疗效果降低50%。若在印记状态下被攻击击杀，则2回合内无法以任何方式复活",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"sign_unheal\",\"targetType\":\"skill_targets\",\"value\":-0.5,\"duration\":2,\"rate\":1,\"killBuff\":{\"buffId\":\"not_revived\",\"duration\":2}}"
+    "value1": "{\"buffId\":\"sign_unheal\",\"targetType\":\"skill_targets\",\"value\":-0.5,\"duration\":2,\"rate\":1,\"not_revived\":true}"
   },
   "10401031": {
     "des": "击杀触发，并提升自己3%增伤，持续至战斗结束。(可叠加)",
@@ -401,9 +401,7 @@
     "key1": "realm_add_atk",
     "value1": 0.02,
     "key2": "realm_add_armor",
-    "value2": 0.05,
-    "key3": "realm_add_id",
-    "value3": 1
+    "value2": 0.05
   },
   "10503052": {
     "des": "增加友方全体职业为掌的侠客攻击5%，护甲10%，持续至战斗结束",
@@ -517,31 +515,31 @@
   },
   "10505021": {
     "des": "普攻触发，有10%几率吸取目标怒气50%",
-    "key1": "normal_suck_anger_value",
+    "key1": "normal_suck_anger_rate",
     "value1": 0.1
   },
   "10505022": {
     "des": "普攻触发，有20%几率吸取目标怒气50%",
-    "key1": "normal_suck_anger_value",
+    "key1": "normal_suck_anger_rate",
     "value1": 0.1
   },
   "10505023": {
     "des": "普攻触发，有30%几率吸取目标怒气50%，若目标处于控制状态（眩晕、石化、冰冻、沉默、魅惑、束缚），则概率提升至60%",
-    "key1": "normal_suck_anger_value",
+    "key1": "normal_suck_anger_rate",
     "value1": 0.1,
     "key2": "normal_suck_anger_ctr",
     "value2": 0.3
   },
   "10505024": {
     "des": "普攻触发，有40%几率吸取目标怒气50%，若目标处于控制状态（眩晕、石化、冰冻、沉默、魅惑、束缚），则概率提升至80%",
-    "key1": "normal_suck_anger_value",
+    "key1": "normal_suck_anger_rate",
     "value1": 0.1,
     "key2": "normal_suck_anger_ctr",
     "value2": 0.1
   },
   "10505025": {
     "des": "普攻触发，有50%几率吸取目标怒气50%，若目标处于控制状态（眩晕、石化、冰冻、沉默、魅惑、束缚），则概率提升至100%",
-    "key1": "normal_suck_anger_value",
+    "key1": "normal_suck_anger_rate",
     "value1": 0.1,
     "key2": "normal_suck_anger_ctr",
     "value2": 0.1
@@ -711,17 +709,17 @@
   "10506051": {
     "des": "开场时，标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击30%的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）;且对目标造成伤害增加5%",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_1\",\"mul\":0.3,\"value\":0.05,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_back_rand_1\",\"mul\":0.3,\"value\":0.05,\"duration\":99,\"rate\":1}"
   },
   "10506052": {
     "des": "开场时，标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击50%的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）;且对目标造成伤害增加10%",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_1\",\"mul\":0.5,\"value\":0.1,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_back_rand_1\",\"mul\":0.5,\"value\":0.1,\"duration\":99,\"rate\":1}"
   },
   "10506053": {
     "des": "开场时，标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击80%的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）;且对目标造成伤害增加20%",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_1\",\"mul\":0.8,\"value\":0.2,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"sign_aim\",\"targetType\":\"enemy_back_rand_1\",\"mul\":0.8,\"value\":0.2,\"duration\":99,\"rate\":1}"
   },
   "10601021": {
     "des": "自身每累计损失80%的最大血量，有30%概率对敌方后排造成攻击60%的外功伤害",

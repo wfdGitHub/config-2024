@@ -166,7 +166,8 @@
     "des": "降低下次受到的技攻伤害",
     "icon": true,
     "max_count": 1,
-    "attKey1": "ampDef",
+    "attKey1": "angerDef",
+    "normal": true,
     "show_tag": "angerDef_up"
   },
   "phyAmp_always": {
@@ -467,7 +468,7 @@
   "lowhp_atk": {
     "name": "低血量攻击加成",
     "des": "血量低于30%时，增加自身攻击力一定比例",
-    "attKey1": "atk",
+    "max_count": 1,
     "undispel": true
   },
   "jiuyang": {
@@ -475,6 +476,7 @@
     "des": "每累计损失血量上限30%的血量，提升自身技攻伤害",
     "icon": true,
     "max_count": 1,
+    "normal": true,
     "undispel": true
   },
   "chaodu": {
@@ -482,11 +484,12 @@
     "des": "血量低于一定比例时立即死亡",
     "icon": true,
     "effects": true,
-    "max_count": 1
+    "max_count": 1,
+    "normal": true
   },
   "sign_aim": {
     "name": "标记",
-    "des": "标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击30%的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）,且对目标造成伤害增加",
+    "des": "标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击一定比例的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）,且对目标造成伤害增加",
     "effects": true,
     "max_count": 1,
     "undispel": true
@@ -504,6 +507,7 @@
     "des": "[印记] 状态下的目标无法获得护盾，受治疗效果降低。若在印记状态下被攻击击杀，则2回合内无法以任何方式复活",
     "effects": true,
     "max_count": 1,
-    "attKey1": "healAdd"
+    "attKey1": "healAdd",
+    "normal": true
   }
 }
