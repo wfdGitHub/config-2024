@@ -313,9 +313,9 @@
     "value1": 0.1
   },
   "10502053": {
-    "des": "无法被男性侠客击杀，至多降至1血",
-    "key1": "sexNoDie_1",
-    "value1": true
+    "des": "被男性角色侠客攻击时，伤害降低30%",
+    "key1": "sexDef_1",
+    "value1": 0.1
   },
   "10503021": {
     "des": "首次攻击触发，对敌方全体造成30%的外功伤害",
@@ -501,17 +501,17 @@
   "10504051": {
     "des": "技攻触发，有60%概率为敌方侠客添加【超度】，血量低于3%时立即死亡，持续2回合",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.03,\"duration\":1,\"rate\":0.6}"
+    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.03,\"duration\":2,\"rate\":0.6}"
   },
   "10504052": {
     "des": "技攻触发，有60%概率为敌方侠客添加【超度】，血量低于6%时立即死亡，持续2回合",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.06,\"duration\":1,\"rate\":0.6}"
+    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.06,\"duration\":2,\"rate\":0.6}"
   },
   "10504053": {
     "des": "技攻触发，有60%概率为敌方侠客添加【超度】，血量低于12%时立即死亡，持续2回合",
     "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.12,\"duration\":1,\"rate\":0.6}"
+    "value1": "{\"buffId\":\"chaodu\",\"targetType\":\"skill_targets\",\"mul\":0.12,\"duration\":2,\"rate\":0.6}"
   },
   "10505021": {
     "des": "普攻触发，有10%几率吸取目标怒气50%",
