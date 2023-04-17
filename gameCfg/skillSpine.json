@@ -1,100 +1,96 @@
 {
   "101010_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": false,
+    "situ": true,
     "turn": "turn",
+    "tra": "SG/101010/dd/dd",
     "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[800]"
+    "ht": "[500]"
   },
   "101010_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
+    "situ": true,
     "turn": "turn",
+    "tra": "SG/101010/dd/dd",
     "skill": "SG/101010/skill/skill",
     "st": 0,
-    "ht": "[630,730,830]"
+    "ht": "[500,830]"
   },
   "102010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/102010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[500]"
   },
   "102010_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
+    "situ": false,
     "turn": "turn",
     "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[500]"
   },
   "103010_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": false,
+    "situ": true,
     "turn": "turn",
-    "skill": "SG/103010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[500]"
   },
   "103010_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/103010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[500]"
   },
   "103020_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": false,
+    "situ": true,
     "turn": "turn",
-    "skill": "SG/103020/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[500]"
   },
   "103020_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": false,
     "turn": "turn",
-    "skill": "SG/103020/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[500]"
   },
   "104010_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": false,
-    "skill": "SG/104010/pg/pg",
+    "situ": false,
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[530]"
   },
   "104010_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
+    "situ": false,
+    "repetition": true,
+    "turn": "turn",
     "skill": "SG/104010/skill/skill",
     "st": 0,
-    "ht": "[1160,1230,1260]"
+    "ht": "[500,660]"
   },
   "104020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/104020/pg/pg",
     "st": 0,
-    "ht": "[500]"
+    "ht": "[430]"
   },
   "104020_skill": {
     "name": "skill",
@@ -103,43 +99,40 @@
     "turn": "turn",
     "skill": "SG/104020/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[430]"
   },
   "104030_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": false,
+    "situ": false,
     "turn": "turn",
     "skill": "SG/104030/pg/pg",
     "st": 0,
-    "ht": "[930]"
+    "ht": "[660]"
   },
   "104030_skill": {
     "name": "skill",
-    "situ": true,
+    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/104030/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[1000,1260,1560,1830]"
   },
   "104040_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/104040/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[530]"
   },
   "104040_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/104040/skill/skill",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[530]"
   },
   "105010_atk": {
     "name": "attack",
@@ -148,25 +141,24 @@
     "turn": "turn",
     "skill": "SG/105010/pg/pg",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[500]"
   },
   "105010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/105010/skill/skill",
     "st": 0,
-    "ht": "[2500]"
+    "ht": "[1160,2000,2330,2500,2830]"
   },
   "105020_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/105020/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[500]"
   },
   "105020_skill": {
     "name": "skill",
@@ -175,12 +167,11 @@
     "turn": "turn",
     "skill": "SG/105020/skill/skill",
     "st": 0,
-    "ht": "[1300]"
+    "ht": "[1260]"
   },
   "105030_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": false,
     "skill": "SG/105030/pg/pg",
     "st": 0,
     "ht": "[830]"
@@ -195,30 +186,25 @@
   },
   "105040_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105040/pg/pg",
     "st": 0,
-    "ht": "[860]"
+    "ht": "[660]"
   },
   "105040_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105040/skill/skill",
     "st": 0,
-    "ht": "[2200]"
+    "ht": "[1330,1660,2000,2330,2660,3000]"
   },
   "105050_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105050/pg/pg",
     "st": 0,
-    "ht": "[1800]"
+    "ht": "[660]"
   },
   "105050_skill": {
     "name": "skill",
@@ -227,65 +213,55 @@
     "turn": "turn",
     "skill": "SG/105050/skill/skill",
     "st": 0,
-    "ht": "[3100]"
+    "ht": "[1600]"
   },
   "105060_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105060/pg/pg",
     "st": 0,
-    "ht": "[1200]"
+    "ht": "[830]"
   },
   "105060_skill": {
     "name": "skill",
-    "situ": false,
     "repetition": false,
     "turn": "turn",
     "skill": "SG/105060/skill/skill",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[2660,3000,3330,3660]"
   },
   "105070_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105070/pg/pg",
     "st": 0,
-    "ht": "[500]"
+    "ht": "[530]"
   },
   "105070_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/105070/skill/skill",
     "st": 0,
-    "ht": "[860]"
+    "ht": "[760,1200]"
   },
   "105080_atk": {
     "name": "attack",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/105080/pg/pg",
     "st": 0,
-    "ht": "[700]"
+    "ht": "[730]"
   },
   "105080_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/105080/skill/skill",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[1000,1160,1330,1500,1660]"
   },
   "105090_atk": {
     "name": "attack",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/105090/pg/pg",
@@ -294,64 +270,56 @@
   },
   "105090_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/105090/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[1000,3830]"
   },
   "105100_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "tra": "SG/105100/dd/dd",
     "skill": "SG/105100/pg/pg",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[660]"
   },
   "105100_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
+    "repetition": true,
+    "turn": "turn",
     "skill": "SG/105100/skill/skill",
     "st": 0,
-    "ht": "[2130]"
+    "ht": "[2160,2500,2830,3160,3300]"
   },
   "105110_atk": {
     "name": "attack",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/105110/pg/pg",
     "st": 0,
-    "ht": "[800]"
+    "ht": "[360]"
   },
   "105110_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "skill": "SG/105110/skill/skill",
     "st": 0,
-    "ht": "[1430,1530]"
+    "ht": "[160,860]"
   },
   "105120_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/105120/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[160]"
   },
   "105120_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "turn": "turn",
     "skill": "SG/105120/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[830,1000,1160,1330]"
   },
   "105130_atk": {
     "name": "attack",
@@ -374,134 +342,128 @@
   "105140_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
+    "turn": "turn",
     "skill": "SG/105140/pg/pg",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[430]"
   },
   "105140_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
+    "turn": "turn",
     "skill": "SG/105140/skill/skill",
     "st": 0,
-    "ht": "[2330,2400,2460,2560,2830]"
+    "ht": "[3330,3660,4000,4330,4660]"
   },
   "201010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/201010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[500]"
   },
   "201010_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/201010/skill/skill",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[500,830]"
   },
   "202010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "tra": "SG/202010/dd/dd",
-    "skill": "SG/202010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[500]"
   },
   "202010_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
+    "situ": false,
     "turn": "turn",
-    "skill": "SG/202010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1600]"
+    "ht": "[500]"
   },
   "203010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/203010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[500]"
   },
   "203010_skill": {
     "name": "skill",
     "situ": false,
     "repetition": false,
     "turn": "turn",
-    "skill": "SG/203010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1700]"
+    "ht": "[500]"
   },
   "203020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": false,
     "turn": "turn",
-    "skill": "SG/203020/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[500]"
   },
   "203020_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/203020/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[960]"
+    "ht": "[500]"
   },
   "204010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/204010/pg/pg",
     "st": 0,
-    "ht": "[360]"
+    "ht": "[530]"
   },
   "204010_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/204010/skill/skill",
+    "skill": "SG/104010/skill/skill",
     "st": 0,
-    "ht": "[330,1100]"
+    "ht": "[500,660]"
   },
   "204020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/204020/pg/pg",
+    "skill": "SG/104020/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[430]"
   },
   "204020_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/204020/skill/skill",
+    "skill": "SG/104020/skill/skill",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[430]"
   },
   "204030_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/204030/pg/pg",
+    "skill": "SG/104030/pg/pg",
     "st": 0,
     "ht": "[660]"
   },
@@ -510,77 +472,68 @@
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/204030/skill/skill",
+    "skill": "SG/104030/skill/skill",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[1000,1260,1560,1830]"
   },
   "204040_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/204040/pg/pg",
+    "skill": "SG/104040/pg/pg",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[530]"
   },
   "204040_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
+    "situ": false,
     "turn": "turn",
-    "skill": "SG/204040/skill/skill",
+    "skill": "SG/104040/skill/skill",
     "st": 0,
-    "ht": "[1100]"
+    "ht": "[530]"
   },
   "205010_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/205010/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[1730]"
   },
   "205010_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/205010/skill/skill",
     "st": 0,
-    "ht": "[730,1030,1200,1600,1900,2230]"
+    "ht": "[3330]"
   },
   "205020_atk": {
     "name": "attack",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/205020/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[530]"
   },
   "205020_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/205020/skill/skill",
     "st": 0,
-    "ht": "[2200]"
+    "ht": "[1260,1560,1730,1860]"
   },
   "205030_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205030/pg/pg",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[1000]"
   },
   "205030_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/205030/skill/skill",
     "st": 0,
@@ -588,12 +541,10 @@
   },
   "205040_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205040/pg/pg",
     "st": 0,
-    "ht": "[1560]"
+    "ht": "[1730]"
   },
   "205040_skill": {
     "name": "skill",
@@ -602,16 +553,15 @@
     "turn": "turn",
     "skill": "SG/205040/skill/skill",
     "st": 0,
-    "ht": "[1930]"
+    "ht": "[1330,1660,1830,2000]"
   },
   "205050_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205050/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[760]"
   },
   "205050_skill": {
     "name": "skill",
@@ -620,30 +570,25 @@
     "turn": "turn",
     "skill": "SG/205050/skill/skill",
     "st": 0,
-    "ht": "[1300]"
+    "ht": "[830]"
   },
   "205060_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205060/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[1630]"
   },
   "205060_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205060/skill/skill",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[2060,2200,2330,2460,2660,3160]"
   },
   "205070_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205070/pg/pg",
     "st": 0,
@@ -652,51 +597,44 @@
   "205070_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205070/skill/skill",
     "st": 0,
-    "ht": "[900,2260]"
+    "ht": "[3100,3330]"
   },
   "205080_atk": {
     "name": "attack",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/205080/pg/pg",
     "st": 0,
-    "ht": "[400,1430]"
+    "ht": "[660]"
   },
   "205080_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205080/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[2500,2660,2830,3000,3160,3330]"
   },
   "205090_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205090/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[700]"
   },
   "205090_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/205090/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[700]"
   },
   "205100_atk": {
     "name": "attack",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/205100/pg/pg",
@@ -705,66 +643,56 @@
   },
   "205100_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/205100/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[800]"
   },
   "205110_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205110/pg/pg",
     "st": 0,
-    "ht": "[730,1060]"
+    "ht": "[1260,1560]"
   },
   "205110_skill": {
     "name": "skill",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/205110/skill/skill",
     "st": 0,
-    "ht": "[1100]"
+    "ht": "[900]"
   },
   "205120_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/205120/pg/pg",
     "st": 0,
-    "ht": "[430]"
+    "ht": "[600]"
   },
   "205120_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/205120/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[2600]"
   },
   "205130_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/205130/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[630]"
   },
   "205130_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/205130/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[1160,1700]"
   },
   "205140_atk": {
     "name": "attack",
@@ -782,187 +710,176 @@
     "turn": "turn",
     "skill": "SG/205140/skill/skill",
     "st": 0,
-    "ht": "[1130]"
+    "ht": "[4400,4500,4660,4900]"
   },
   "301010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/301010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[500]"
   },
   "301010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/301010/skill/skill",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/skill/skill",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[500,830]"
   },
   "302010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/302010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
     "ht": "[500]"
   },
   "302010_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/302010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[500]"
   },
   "303010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/303010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[1130]"
+    "ht": "[500]"
   },
   "303010_skill": {
     "name": "skill",
     "situ": true,
     "repetition": false,
     "turn": "turn",
-    "skill": "SG/303010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1900]"
+    "ht": "[500]"
   },
   "303020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/303020/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[500]"
   },
   "303020_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/303020/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[500]"
   },
   "304010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/304010/pg/pg",
     "st": 0,
-    "ht": "[460]"
+    "ht": "[530]"
   },
   "304010_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/304010/skill/skill",
+    "skill": "SG/104010/skill/skill",
     "st": 0,
-    "ht": "[700,1100,2200]"
+    "ht": "[500,660]"
   },
   "304020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/304020/pg/pg",
+    "skill": "SG/104020/pg/pg",
     "st": 0,
     "ht": "[430]"
   },
   "304020_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/304020/skill/skill",
+    "skill": "SG/104020/skill/skill",
     "st": 0,
-    "ht": "[1260]"
+    "ht": "[430]"
   },
   "304030_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/304030/pg/pg",
+    "skill": "SG/104030/pg/pg",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[660]"
   },
   "304030_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/304030/skill/skill",
+    "skill": "SG/104030/skill/skill",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[1000,1260,1560,1830]"
   },
   "304040_atk": {
     "name": "attack",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/304040/pg/pg",
+    "skill": "SG/104040/pg/pg",
     "st": 0,
-    "ht": "[560]"
+    "ht": "[530]"
   },
   "304040_skill": {
     "name": "skill",
-    "situ": true,
+    "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/304040/skill/skill",
+    "skill": "SG/104040/skill/skill",
     "st": 0,
-    "ht": "[1560]"
+    "ht": "[530]"
   },
   "305010_atk": {
     "name": "attack",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305010/pg/pg",
     "st": 0,
-    "ht": "[930]"
+    "ht": "[2000,2330,2660,3000]"
   },
   "305010_skill": {
     "name": "skill",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305010/skill/skill",
     "st": 0,
-    "ht": "[930,1930]"
+    "ht": "[2160,2330,2500]"
   },
   "305020_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305020/pg/pg",
     "st": 0,
-    "ht": "[1360]"
+    "ht": "[260,500,800]"
   },
   "305020_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
     "turn": "turn",
     "skill": "SG/305020/skill/skill",
     "st": 0,
-    "ht": "[1000,1160,1330,1500,1660,1900]"
+    "ht": "[2500,2660,3000,3330,3660,4000,4330,4660]"
   },
   "305030_atk": {
     "name": "attack",
@@ -985,20 +902,18 @@
   "305040_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305040/pg/pg",
     "st": 0,
-    "ht": "[1430]"
+    "ht": "[2830,3000]"
   },
   "305040_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305040/skill/skill",
     "st": 0,
-    "ht": "[2060]"
+    "ht": "[500,660,830,1330,1730]"
   },
   "305050_atk": {
     "name": "attack",
@@ -1020,66 +935,61 @@
   },
   "305060_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/305060/pg/pg",
     "st": 0,
-    "ht": "[560]"
+    "ht": "[2460]"
   },
   "305060_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/305060/skill/skill",
     "st": 0,
-    "ht": "[1260]"
+    "ht": "[2330,2660,3000,3330]"
   },
   "305070_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305070/pg/pg",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[560]"
   },
   "305070_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/305070/skill/skill",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[2500,2660,2830,3000,3160,3330,3500]"
   },
   "305080_atk": {
     "name": "attack",
-    "situ": true,
+    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305080/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[1130,1360,1660,2330]"
   },
   "305080_skill": {
     "name": "skill",
-    "situ": true,
+    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305080/skill/skill",
     "st": 0,
-    "ht": "[1730]"
+    "ht": "[1330,1500]"
   },
   "305090_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305090/pg/pg",
     "st": 0,
-    "ht": "[630]"
+    "ht": "[2660]"
   },
   "305090_skill": {
     "name": "skill",
@@ -1088,16 +998,15 @@
     "turn": "turn",
     "skill": "SG/305090/skill/skill",
     "st": 0,
-    "ht": "[1460]"
+    "ht": "[1000,1100,1260,1400]"
   },
   "305100_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/305100/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[660]"
   },
   "305100_skill": {
     "name": "skill",
@@ -1106,52 +1015,47 @@
     "turn": "turn",
     "skill": "SG/305100/skill/skill",
     "st": 0,
-    "ht": "[1560]"
+    "ht": "[2000,2330]"
   },
   "305110_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/305110/pg/pg",
     "st": 0,
-    "ht": "[430]"
+    "ht": "[1160]"
   },
   "305110_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305110/skill/skill",
     "st": 0,
-    "ht": "[1260]"
+    "ht": "[3160]"
   },
   "305120_atk": {
     "name": "attack",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305120/pg/pg",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[560]"
   },
   "305120_skill": {
     "name": "skill",
-    "situ": false,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/305120/skill/skill",
     "st": 0,
-    "ht": "[1560]"
+    "ht": "[660]"
   },
   "305130_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/305130/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[1060]"
   },
   "305130_skill": {
     "name": "skill",
@@ -1183,178 +1087,164 @@
   "401010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/401010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[500]"
   },
   "401010_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/401010/skill/skill",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/skill/skill",
     "st": 0,
-    "ht": "[2060]"
+    "ht": "[500,830]"
   },
   "402010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/402010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[500]"
   },
   "402010_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/402010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[2060]"
+    "ht": "[500]"
   },
   "403010_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/403010/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[500]"
   },
   "403010_skill": {
     "name": "skill",
     "situ": false,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/403010/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[500]"
   },
   "403020_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/403020/pg/pg",
+    "tra": "SG/101010/dd/dd",
+    "skill": "SG/101010/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[500]"
   },
   "403020_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/403020/skill/skill",
+    "skill": "SG/102010/skill/skill",
     "st": 0,
-    "ht": "[1130]"
+    "ht": "[500]"
   },
   "404010_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/404010/pg/pg",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[530]"
   },
   "404010_skill": {
     "name": "skill",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/404010/skill/skill",
+    "skill": "SG/104010/skill/skill",
     "st": 0,
-    "ht": "[2900,3060,3130]"
+    "ht": "[500,660]"
   },
   "404020_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/404020/pg/pg",
+    "skill": "SG/104020/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[430]"
   },
   "404020_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/404020/skill/skill",
+    "skill": "SG/104020/skill/skill",
     "st": 0,
-    "ht": "[800]"
+    "ht": "[430]"
   },
   "404030_atk": {
     "name": "attack",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/404030/pg/pg",
+    "skill": "SG/104030/pg/pg",
     "st": 0,
-    "ht": "[1360]"
+    "ht": "[660]"
   },
   "404030_skill": {
     "name": "skill",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "SG/404030/skill/skill",
+    "skill": "SG/104030/skill/skill",
     "st": 0,
-    "ht": "[2160]"
+    "ht": "[1000,1260,1560,1830]"
   },
   "404040_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/404040/pg/pg",
+    "skill": "SG/104040/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[530]"
   },
   "404040_skill": {
     "name": "skill",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
-    "skill": "SG/404040/skill/skill",
+    "skill": "SG/104040/skill/skill",
     "st": 0,
-    "ht": "[700,1000,1500]"
+    "ht": "[530]"
   },
   "405010_atk": {
     "name": "attack",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/405010/pg/pg",
     "st": 0,
-    "ht": "[1130]"
+    "ht": "[300]"
   },
   "405010_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/405010/skill/skill",
     "st": 0,
-    "ht": "[1660,1930]"
+    "ht": "[1100]"
   },
   "405020_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405020/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[1130,1300,1500,2160]"
   },
   "405020_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405020/skill/skill",
     "st": 0,
@@ -1379,12 +1269,10 @@
   },
   "405040_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405040/pg/pg",
     "st": 0,
-    "ht": "[800]"
+    "ht": "[830]"
   },
   "405040_skill": {
     "name": "skill",
@@ -1397,136 +1285,115 @@
   },
   "405050_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405050/pg/pg",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[1000]"
   },
   "405050_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405050/skill/skill",
     "st": 0,
-    "ht": "[1660]"
+    "ht": "[2000,2330,2660,3000]"
   },
   "405060_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405060/pg/pg",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[760]"
   },
   "405060_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405060/skill/skill",
     "st": 0,
-    "ht": "[860,1600]"
+    "ht": "[1160]"
   },
   "405070_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405070/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[1330,1530,1830]"
   },
   "405070_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": false,
     "skill": "SG/405070/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[1330,1530,1830]"
   },
   "405080_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405080/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[730]"
   },
   "405080_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": false,
     "skill": "SG/405080/skill/skill",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[2330,2660,3000,3330]"
   },
   "405090_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
+    "situ": true,
     "turn": "turn",
     "skill": "SG/405090/pg/pg",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[530]"
   },
   "405090_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "SG/405090/skill/skill",
     "st": 0,
-    "ht": "[900]"
+    "ht": "[1000,1260,1600,2260,2400,2560,2730,3200,3500,3660]"
   },
   "405100_atk": {
     "name": "attack",
     "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405100/pg/pg",
     "st": 0,
-    "ht": "[700]"
+    "ht": "[1500,1660,1830,2000,2160,2330]"
   },
   "405100_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": true,
+    "situ": false,
     "turn": "turn",
     "skill": "SG/405100/skill/skill",
     "st": 0,
-    "ht": "[1730,1800]"
+    "ht": "[1000,1330,1660,2000,2330,2500]"
   },
   "405110_atk": {
     "name": "attack",
-    "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405110/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[630]"
   },
   "405110_skill": {
     "name": "skill",
-    "situ": true,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/405110/skill/skill",
     "st": 0,
-    "ht": "[1660,1760,1830,1900]"
+    "ht": "[330,660,1330,1430,1530]"
   },
   "405120_atk": {
     "name": "attack",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405120/pg/pg",
     "st": 0,
-    "ht": "[560]"
+    "ht": "[600]"
   },
   "405120_skill": {
     "name": "skill",
@@ -1535,7 +1402,7 @@
     "turn": "turn",
     "skill": "SG/405120/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[2400]"
   },
   "405130_atk": {
     "name": "attack",
@@ -1557,21 +1424,18 @@
   },
   "405140_atk": {
     "name": "attack",
-    "situ": false,
-    "repetition": true,
     "turn": "turn",
     "skill": "SG/405140/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[1330]"
   },
   "405140_skill": {
     "name": "skill",
-    "situ": false,
-    "repetition": false,
+    "repetition": true,
     "turn": "turn",
     "skill": "SG/405140/skill/skill",
     "st": 0,
-    "ht": "[600,1500]"
+    "ht": "[1100,3433,5330]"
   },
   "singleAtk": {
     "repetition": true,
