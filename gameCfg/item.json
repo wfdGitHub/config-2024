@@ -267,7 +267,7 @@
     "des": "迷之精华，能够提升迷忍战魂的属性加成，可通过之试炼中获得。"
   },
   "501": {
-    "name": "功勋",
+    "name": "亲热天堂",
     "des": "功勋游戏中的稀有货币，可在【兑换商城】兑换奖励",
     "type": "currency",
     "buyNum": 1,
@@ -539,77 +539,88 @@
     "des": "初出茅庐，激活一元全开特权开启",
     "type": "title",
     "arg": 7301,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7302": {
     "name": "小有名气",
     "des": "小有名气，激活新手狂飙开特权开启",
     "type": "title",
     "arg": 7302,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7303": {
     "name": "明日之星",
     "des": "明日之星，激活初级狂飙开特权开启",
     "type": "title",
     "arg": 7303,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7304": {
     "name": "名声鹊起",
     "des": "名声鹊起，激活中级狂飙开特权开启",
     "type": "title",
     "arg": 7304,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7305": {
     "name": "赫赫有名",
     "des": "赫赫有名，激活高级狂飙开特权开启",
     "type": "title",
     "arg": 7305,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7306": {
     "name": "人尽皆知",
     "des": "人尽皆知，激活超级狂飙开特权开启",
     "type": "title",
     "arg": 7306,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7307": {
     "name": "声名显赫",
     "des": "声名显赫，激活顶级狂飙开特权开启",
     "type": "title",
     "arg": 7307,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7308": {
     "name": "盖世忍者",
     "des": "盖世忍者，激活传说狂飙开特权开启",
     "type": "title",
     "arg": 7308,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7309": {
-    "name": "名动天下",
-    "des": "名动天下，激活神级狂飙开特权开启",
+    "name": "比博人燃",
+    "des": "比博人燃，稀有定制称号",
     "type": "title",
     "arg": 7309,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7310": {
     "name": "火影霸主",
     "des": "火影霸主，激活超神狂飙开特权开启",
     "type": "title",
     "arg": 7310,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7311": {
     "name": "一统天下",
     "des": "一统天下，激活至尊狂飙开特权开启",
     "type": "title",
     "arg": 7311,
-    "quality": 7
+    "quality": 7,
+    "effects": "baowu"
   },
   "7501": {
     "name": "无敌战神",
@@ -754,11 +765,11 @@
     "source1": "gift"
   },
   "10010": {
-    "name": "莽村工具",
-    "des": "莽村工具",
+    "name": "暗部密令",
+    "des": "暗部密令",
     "type": "currency",
     "useType": "optional",
-    "arg": "[\"200:10000\",\"201:10000000\",\"101:10000000\",\"1000050:500\",\"1000020:500\",\"1000010:500\"]",
+    "arg": "[\"108010101:1\",\"108010102:1\",\"108010103:1\",\"108010104:1\",\"108010105:1\",\"108010106:1\",\"108010107:1\",\"108010108:1\",\"108010109:1\",\"108010110:1\",\"108010111:1\"]",
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
@@ -2196,7 +2207,7 @@
   },
   "510002": {
     "name": "10星随机忍者碎片",
-    "des": "集齐30个碎片即可获得10星稀有忍者",
+    "des": "集齐30个碎片即可获得10星随机忍者",
     "isBag": true,
     "type": "heroChip",
     "useType": "randChip",
@@ -5916,8 +5927,8 @@
     "quality": 5
   },
   "13020010": {
-    "name": "奥义*雷切碎片",
-    "des": "可用于激活和奥义*雷切",
+    "name": "雷切碎片",
+    "des": "雷切碎片，用于激活/升星奥义【雷切】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5928,8 +5939,8 @@
     "source2": "shop_crossTop"
   },
   "13020020": {
-    "name": "奥义*掌仙术碎片",
-    "des": "可用于激活和奥义*掌仙术",
+    "name": "掌仙术碎片",
+    "des": "掌仙术碎片，用于激活/升星奥义【掌仙术】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5939,8 +5950,8 @@
     "source1": "shop_zhulu"
   },
   "13030010": {
-    "name": "奥义*螺旋丸碎片",
-    "des": "可用于激活和奥义*螺旋丸",
+    "name": "螺旋丸碎片",
+    "des": "螺旋丸碎片，用于激活/升星奥义【螺旋丸】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5951,8 +5962,8 @@
     "source2": "shop_crossTop"
   },
   "13030020": {
-    "name": "奥义*麒麟碎片",
-    "des": "可用于激活和奥义*麒麟",
+    "name": "麒麟碎片",
+    "des": "麒麟碎片，用于激活/升星奥义【麒麟】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5963,8 +5974,8 @@
     "source2": "shop_crossTop"
   },
   "13040010": {
-    "name": "奥义*无限月读碎片",
-    "des": "可用于激活和奥义*无限月读",
+    "name": "无限月读碎片",
+    "des": "无限月读碎片，用于激活/升星奥义【无限月读】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5974,8 +5985,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040030": {
-    "name": "奥义*阴封术碎片",
-    "des": "可用于激活和奥义*阴封术",
+    "name": "阴封术碎片",
+    "des": "阴封术碎片，用于激活/升星奥义【阴封术】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5985,8 +5996,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040040": {
-    "name": "奥义*蛤蟆油弹碎片",
-    "des": "可用于激活和奥义*蛤蟆油弹",
+    "name": "蛤蟆油弹碎片",
+    "des": "蛤蟆油弹碎片，用于激活/升星奥义【蛤蟆油弹】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5996,8 +6007,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040060": {
-    "name": "奥义*砂之盾碎片",
-    "des": "可用于激活和奥义*砂之盾",
+    "name": "砂之盾碎片",
+    "des": "砂之盾碎片，用于激活/升星奥义【砂之盾】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -6007,8 +6018,8 @@
     "source1": "shop_crossTeamPK"
   },
   "13040070": {
-    "name": "奥义*九尾兽玉碎片",
-    "des": "可用于激活和奥义*九尾兽玉",
+    "name": "九尾兽玉碎片",
+    "des": "九尾兽玉碎片，用于激活/升星奥义【九尾兽玉】",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -7994,7 +8005,7 @@
   },
   "108007003": {
     "name": "会武战胜宝箱",
-    "des": "同盟会武战胜，开启可获得以下物品中的一个",
+    "des": "会武战胜宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8007,7 +8018,7 @@
   },
   "108007004": {
     "name": "会武参与宝箱",
-    "des": "同盟会武参与，开启可获得以下物品中的一个",
+    "des": "会武参与宝箱，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8234,9 +8245,163 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "108010101": {
+    "name": "缉拿佩恩奖励",
+    "des": "缉拿佩恩奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010102": {
+    "name": "缉拿小南奖励",
+    "des": "缉拿小南奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010103": {
+    "name": "缉拿绝奖励",
+    "des": "缉拿绝奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010104": {
+    "name": "缉拿宇智波鼬奖励",
+    "des": "缉拿宇智波鼬奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010105": {
+    "name": "缉拿干柿鬼鲛奖励",
+    "des": "缉拿干柿鬼鲛奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010106": {
+    "name": "缉拿大蛇丸奖励",
+    "des": "缉拿大蛇丸奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010107": {
+    "name": "缉拿蝎奖励",
+    "des": "缉拿蝎奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010108": {
+    "name": "缉拿迪达拉奖励",
+    "des": "缉拿迪达拉奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010109": {
+    "name": "缉拿角都奖励",
+    "des": "缉拿角都奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010110": {
+    "name": "缉拿飞段奖励",
+    "des": "缉拿飞段奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "108010111": {
+    "name": "缉拿飞奖励",
+    "des": "缉拿飞奖励，开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "xyhflb_chest_1",
+    "gold": 3000,
+    "coin": 15000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
   "109300001": {
     "name": "紫色忍法匣",
-    "des": "紫色兽魂匣，开启可获得以下物品中的一个",
+    "des": "紫色忍法匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8249,7 +8414,7 @@
   },
   "109400001": {
     "name": "橙色忍法匣",
-    "des": "橙色兽魂匣，开启可获得以下物品中的一个",
+    "des": "橙色忍法匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8262,7 +8427,7 @@
   },
   "109500001": {
     "name": "红色忍法匣",
-    "des": "红色兽魂匣，开启可获得以下物品中的一个",
+    "des": "红色忍法匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8697,12 +8862,12 @@
     "source1": "gift"
   },
   "206040530": {
-    "name": "初始三忍宝箱",
+    "name": "木叶传说三忍",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "405060:30&405070:30&405040:30",
+    "arg": "105080:30&305140:30&305060:30",
     "gold": 9000,
     "coin": 45000000,
     "buyNum": 1,
@@ -9077,7 +9242,7 @@
   },
   "306005101": {
     "name": "技忍稀有自选箱",
-    "des": "技忍限定自选箱,开启选择以下物品中的一个",
+    "des": "技忍稀有自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9089,7 +9254,7 @@
   },
   "306005201": {
     "name": "器忍稀有自选箱",
-    "des": "器忍限定自选箱,开启选择以下物品中的一个",
+    "des": "器忍稀有自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9101,7 +9266,7 @@
   },
   "306005301": {
     "name": "奇忍稀有自选箱",
-    "des": "奇忍限定自选箱,开启选择以下物品中的一个",
+    "des": "奇忍稀有自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9113,7 +9278,7 @@
   },
   "306005401": {
     "name": "密忍稀有自选箱",
-    "des": "密忍限定自选箱,开启选择以下物品中的一个",
+    "des": "密忍稀有自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
