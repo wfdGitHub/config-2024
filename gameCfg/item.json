@@ -53,8 +53,8 @@
     "name": "忍玉",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.01,
-    "coin": 50,
+    "gold": 0.1,
+    "coin": 500,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -78,7 +78,7 @@
     "name": "元宝替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 100,
+    "arg": 10,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -229,7 +229,7 @@
     "effects": "baowu"
   },
   "230": {
-    "name": "兽魂卷轴",
+    "name": "通灵卷轴",
     "des": "可在同盟商店中兑换获得，用于激活兽魂",
     "type": "currency",
     "gold": 2000,
@@ -268,7 +268,7 @@
   },
   "501": {
     "name": "亲热天堂",
-    "des": "功勋游戏中的稀有货币，可在【兑换商城】兑换奖励",
+    "des": "亲热天堂，可用于兑换稀有奖励",
     "type": "currency",
     "buyNum": 1,
     "quality": 5
@@ -2454,7 +2454,7 @@
   },
   "1000210": {
     "name": "六星卷轴",
-    "des": "六星招募卷轴，可在【契约招募】进行一次红将招募",
+    "des": "六星卷轴，可在【契约招募】进行一次六星招募",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -2585,8 +2585,8 @@
     "source1": "lottery_oh"
   },
   "1000602": {
-    "name": "狂飙分红券",
-    "des": "狂飙分红券，可在狂飙转盘中获得物品",
+    "name": "欧皇卡",
+    "des": "欧皇卡，可在欧皇转盘中获得物品",
     "isBag": true,
     "type": "item",
     "gold": 20,
@@ -2611,8 +2611,8 @@
     "source1": "gift"
   },
   "1000604": {
-    "name": "直升卡(直升满GM)",
-    "des": "直升卡，使用后可以直升GM等級",
+    "name": "超级飞升卡",
+    "des": "超级飞升卡，使用后可以直升满V",
     "isBag": true,
     "type": "item",
     "useType": "box",
@@ -8251,7 +8251,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8265,7 +8265,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8279,7 +8279,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8293,7 +8293,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8307,7 +8307,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8321,7 +8321,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8335,7 +8335,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8349,7 +8349,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8363,7 +8363,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8377,7 +8377,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8391,7 +8391,7 @@
     "isBag": true,
     "type": "item",
     "useType": "chest",
-    "arg": "xyhflb_chest_1",
+    "arg": "tongji_chest_1",
     "gold": 3000,
     "coin": 15000000,
     "buyNum": 1,
@@ -8722,7 +8722,7 @@
     "source1": "gift"
   },
   "205512011": {
-    "name": "红色1星套装宝箱",
+    "name": "地爆套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8736,7 +8736,7 @@
     "source1": "gift"
   },
   "205513010": {
-    "name": "红色2星套装宝箱",
+    "name": "天星套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8750,7 +8750,7 @@
     "source1": "gift"
   },
   "205514010": {
-    "name": "红色3星套装宝箱",
+    "name": "八岐套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8764,7 +8764,7 @@
     "source1": "gift"
   },
   "205515010": {
-    "name": "红色4星套装宝箱",
+    "name": "地爆套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8778,7 +8778,7 @@
     "source1": "gift"
   },
   "205516010": {
-    "name": "红色5星套装宝箱",
+    "name": "麒麟套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8792,7 +8792,7 @@
     "source1": "gift"
   },
   "205517010": {
-    "name": "红色6星套装宝箱",
+    "name": "尾兽套装宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9386,7 +9386,7 @@
   },
   "309400001": {
     "name": "橙色忍法自选箱",
-    "des": "橙色兽魂自选箱,开启选择以下物品中的一个",
+    "des": "橙色忍法自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9399,7 +9399,7 @@
   },
   "309500001": {
     "name": "红色忍法自选箱",
-    "des": "红色兽魂自选箱,开启选择以下物品中的一个",
+    "des": "红色忍法自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9412,7 +9412,7 @@
   },
   "309600001": {
     "name": "金色忍法自选箱",
-    "des": "金色兽魂自选箱,开启选择以下物品中的一个",
+    "des": "金色忍法自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
