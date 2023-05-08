@@ -8915,74 +8915,84 @@
     "award": "1000040:100&1000100:10"
   },
   "307101": {
-    "title": "阵营战场中战胜1次对手",
+    "title": "完成1次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 1,
     "award": "405000:1&505000:1"
   },
   "307102": {
-    "title": "阵营战场中战胜2次对手",
+    "title": "完成2次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 2,
     "award": "405000:2&505000:2"
   },
   "307103": {
-    "title": "阵营战场中战胜3次对手",
+    "title": "完成4次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
-    "value": 3,
-    "award": "405000:3&505000:3"
-  },
-  "307104": {
-    "title": "阵营战场中战胜4次对手",
-    "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 4,
     "award": "405000:4&505000:4"
   },
-  "307105": {
-    "title": "阵营战场中战胜5次对手",
+  "307104": {
+    "title": "完成6次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
-    "value": 5,
-    "award": "405000:5&505000:5"
-  },
-  "307106": {
-    "title": "阵营战场中战胜6次对手",
-    "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 6,
     "award": "405000:6&505000:6"
   },
-  "307107": {
-    "title": "阵营战场中战胜7次对手",
+  "307105": {
+    "title": "完成8次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
-    "value": 7,
-    "award": "405000:7&505000:7"
-  },
-  "307108": {
-    "title": "阵营战场中战胜8次对手",
-    "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 8,
     "award": "405000:8&505000:8"
   },
-  "307109": {
-    "title": "阵营战场中战胜9次对手",
+  "307106": {
+    "title": "完成10次红色悬赏任务",
     "refresh": "week_target",
-    "type": "muye_win",
-    "value": 9,
-    "award": "405000:9&505000:9"
-  },
-  "307110": {
-    "title": "阵营战场中战胜10次对手",
-    "refresh": "week_target",
-    "type": "muye_win",
+    "type": "tour",
+    "arg": 6,
     "value": 10,
     "award": "405000:10&505000:10"
+  },
+  "307107": {
+    "title": "完成12次红色悬赏任务",
+    "refresh": "week_target",
+    "type": "tour",
+    "arg": 6,
+    "value": 12,
+    "award": "405000:12&505000:12"
+  },
+  "307108": {
+    "title": "完成15次红色悬赏任务",
+    "refresh": "week_target",
+    "type": "tour",
+    "arg": 6,
+    "value": 15,
+    "award": "405000:15&505000:15"
+  },
+  "307109": {
+    "title": "完成20次红色悬赏任务",
+    "refresh": "week_target",
+    "type": "tour",
+    "arg": 6,
+    "value": 20,
+    "award": "405000:20&505000:20"
+  },
+  "307110": {
+    "title": "完成30次红色悬赏任务",
+    "refresh": "week_target",
+    "type": "tour",
+    "arg": 6,
+    "value": 30,
+    "award": "300500501:1&300500601:1"
   },
   "307201": {
     "title": "将英雄升至6星",
@@ -10081,28 +10091,28 @@
     "refresh": "mewtwo",
     "type": "login",
     "value": 1,
-    "award": "1000070:10"
+    "award": "1000080:10"
   },
   "601002": {
     "title": "主角达到20级",
     "refresh": "mewtwo",
     "type": "loadLv",
     "value": 20,
-    "award": "1000070:10"
+    "award": "1000080:10"
   },
   "601003": {
     "title": "激活作战特权",
     "refresh": "mewtwo",
     "type": "buy_kszz",
     "value": 1,
-    "award": "1000070:10"
+    "award": "1000080:10"
   },
   "602001": {
     "title": "快速作战30次",
     "refresh": "mewtwo",
     "type": "quick",
     "value": 30,
-    "award": "1000080:10"
+    "award": "1000120:1"
   },
   "602002": {
     "title": "主线100关",
@@ -10110,35 +10120,35 @@
     "type": "checkpoints",
     "arg": 100,
     "value": 1,
-    "award": "1000080:10"
+    "award": "1000120:1"
   },
   "602003": {
     "title": "激活至尊特权",
     "refresh": "mewtwo",
     "type": "buy_zztq",
     "value": 1,
-    "award": "1000080:10"
+    "award": "1000120:1"
   },
   "603001": {
     "title": "高级招募1000次",
     "refresh": "mewtwo",
     "type": "recruit_great",
     "value": 1000,
-    "award": "1000190:1"
+    "award": "1000130:1"
   },
   "603002": {
     "title": "主角达到80级",
     "refresh": "mewtwo",
     "type": "loadLv",
     "value": 80,
-    "award": "1000190:1"
+    "award": "1000130:1"
   },
   "603003": {
     "title": "激活战令",
     "refresh": "mewtwo",
     "type": "buy_zl",
     "value": 1,
-    "award": "1000120:1"
+    "award": "1000130:1"
   },
   "506105080": {
     "title": "活动期间内将乌璐升至6星",

@@ -1,19 +1,19 @@
 {
   "1000080_10": {
     "name": "高级召唤卡",
-    "pc": "202:2000",
+    "pc": "202:4000",
     "pa": "1000080:10",
     "quality": 5
   },
   "1000080_1": {
     "name": "高级召唤卡",
-    "pc": "202:220",
+    "pc": "202:500",
     "pa": "1000080:1",
     "quality": 5
   },
   "1000150_1": {
     "name": "改名卡",
-    "pc": "202:4000",
+    "pc": "202:500",
     "pa": "1000150:1",
     "quality": 5
   },
@@ -21,7 +21,7 @@
     "name": "高级召唤卡",
     "day_count": 100,
     "discount": 0.5,
-    "pc": "202:110",
+    "pc": "202:250",
     "pa": "1000080:1",
     "type": "item",
     "quality": 5
@@ -30,7 +30,7 @@
     "name": "5星三系碎片",
     "day_count": 30,
     "discount": 0.5,
-    "pc": "202:50",
+    "pc": "202:100",
     "pa": "905000:1",
     "type": "item",
     "quality": 5
@@ -181,14 +181,14 @@
   },
   "general_405010_30": {
     "name": "蕾米亚碎片",
-    "pc": "208:120",
+    "pc": "208:150",
     "pa": "405010:30",
     "type": "general",
     "quality": 5
   },
   "general_505010_30": {
     "name": "千夏碎片",
-    "pc": "208:120",
+    "pc": "208:150",
     "pa": "505010:30",
     "type": "general",
     "quality": 5
@@ -504,58 +504,117 @@
     "type": "guild",
     "quality": 5
   },
-  "chongzhi_101000010_1": {
-    "name": "1元充值卡",
+  "chongzhi_1": {
+    "name": "进阶石",
     "day_count": 1,
-    "pc": "1000603:100",
-    "pa": "110:1",
+    "pc": "501:1000",
+    "pa": "1000050:1000",
     "type": "chongzhi",
     "quality": 5
   },
-  "chongzhi_101000100_1": {
-    "name": "10元充值卡",
+  "chongzhi_2": {
+    "name": "幸运充值卡盲盒",
     "day_count": 1,
-    "discount": 0.9,
-    "pc": "1000603:900",
-    "pa": "110:10",
+    "pc": "501:1000",
+    "pa": "108008101:1",
     "type": "chongzhi",
     "quality": 5
   },
-  "chongzhi_101000200_1": {
-    "name": "50元充值卡",
+  "chongzhi_3": {
+    "name": "幸运碎片盲盒",
     "day_count": 1,
-    "discount": 0.8,
-    "pc": "1000603:4000",
-    "pa": "110:50",
+    "pc": "501:1000",
+    "pa": "108008102:1",
     "type": "chongzhi",
     "quality": 5
   },
-  "chongzhi_101000500_1": {
-    "name": "100元充值卡",
+  "chongzhi_4": {
+    "name": "幸运材料盲盒",
     "day_count": 1,
-    "discount": 0.7,
-    "pc": "1000603:7000",
-    "pa": "110:100",
+    "pc": "501:1000",
+    "pa": "108008103:1",
     "type": "chongzhi",
     "quality": 6
   },
-  "chongzhi_101001000_1": {
-    "name": "200元充值卡",
+  "chongzhi_5": {
+    "name": "超值充值卡盲盒",
     "day_count": 1,
-    "discount": 0.6,
-    "pc": "1000603:12000",
-    "pa": "110:200",
+    "pc": "501:3000",
+    "pa": "108008201:1",
     "type": "chongzhi",
     "quality": 6
   },
-  "chongzhi_101003000_1": {
-    "name": "500元充值卡",
+  "chongzhi_6": {
+    "name": "超值碎片盲盒",
     "day_count": 1,
-    "discount": 0.5,
-    "pc": "1000603:25000",
-    "pa": "110:500",
+    "pc": "501:3000",
+    "pa": "108008202:1",
     "type": "chongzhi",
     "quality": 6
+  },
+  "chongzhi_7": {
+    "name": "超值材料盲盒",
+    "day_count": 1,
+    "pc": "501:3000",
+    "pa": "108008203:1",
+    "type": "chongzhi",
+    "quality": 6
+  },
+  "chongzhi_8": {
+    "name": "元素卷轴",
+    "day_count": 1,
+    "pc": "501:3000",
+    "pa": "1000120:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_9": {
+    "name": "光暗卷轴",
+    "day_count": 1,
+    "pc": "501:5000",
+    "pa": "1000120:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_10": {
+    "name": "高级召唤卡",
+    "day_count": 1,
+    "pc": "501:5000",
+    "pa": "1000080:10",
+    "type": "chongzhi"
+  },
+  "chongzhi_11": {
+    "name": "红色符文匣",
+    "day_count": 1,
+    "pc": "501:10000",
+    "pa": "109500001:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_12": {
+    "name": "神秘红色宝石",
+    "day_count": 1,
+    "pc": "501:10000",
+    "pa": "104505010:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_13": {
+    "name": "神秘技能宝石",
+    "day_count": 1,
+    "pc": "501:10000",
+    "pa": "104505110:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_14": {
+    "name": "红色套装宝箱",
+    "day_count": 1,
+    "pc": "501:10000",
+    "pa": "205512010:1",
+    "type": "chongzhi"
+  },
+  "chongzhi_15": {
+    "name": "提额券",
+    "day_count": 1,
+    "pc": "501:10000",
+    "pa": "120:1000",
+    "type": "chongzhi"
   },
   "ancient_400010300_1": {
     "name": "高级青龙石",
@@ -740,161 +799,161 @@
     "quality": 5
   },
   "super_store_1": {
-    "day_count": 1,
-    "pc": "200:50000",
+    "day_count": 10,
+    "pc": "501:1000",
     "pa": "201:100000",
     "type": "super_store",
     "arg": 1,
     "quality": 5
   },
   "super_store_2": {
-    "day_count": 1,
-    "pc": "200:50000",
+    "day_count": 10,
+    "pc": "501:1000",
     "pa": "101:100000",
     "type": "super_store",
     "arg": 1,
     "quality": 5
   },
   "super_store_3": {
-    "day_count": 1,
-    "pc": "200:50000",
-    "pa": "1000050:1000",
+    "day_count": 3,
+    "pc": "501:3000",
+    "pa": "405000:10",
     "type": "super_store",
     "arg": 1,
     "quality": 5
   },
   "super_store_4": {
-    "day_count": 1,
-    "pc": "200:50000",
-    "pa": "1000090:10",
+    "day_count": 3,
+    "pc": "501:3000",
+    "pa": "505000:10",
     "type": "super_store",
     "arg": 1,
     "quality": 5
   },
   "super_store_5": {
     "day_count": 1,
-    "pc": "200:100000",
-    "pa": "201:300000",
+    "pc": "501:1500",
+    "pa": "201:500000",
     "type": "super_store",
     "arg": 2,
     "quality": 5
   },
   "super_store_6": {
     "day_count": 1,
-    "pc": "200:100000",
-    "pa": "101:300000",
+    "pc": "501:1500",
+    "pa": "101:500000",
     "type": "super_store",
     "arg": 2,
     "quality": 5
   },
   "super_store_7": {
     "day_count": 1,
-    "pc": "200:100000",
-    "pa": "1000050:3000",
+    "pc": "501:4000",
+    "pa": "405000:15",
     "type": "super_store",
     "arg": 2,
     "quality": 5
   },
   "super_store_8": {
     "day_count": 1,
-    "pc": "200:100000",
-    "pa": "1000170:30",
+    "pc": "501:4000",
+    "pa": "505000:15",
     "type": "super_store",
     "arg": 2,
     "quality": 5
   },
   "super_store_9": {
     "day_count": 1,
-    "pc": "200:500000",
-    "pa": "201:500000",
+    "pc": "501:2000",
+    "pa": "201:1000000",
     "type": "super_store",
     "arg": 3,
     "quality": 5
   },
   "super_store_10": {
     "day_count": 1,
-    "pc": "200:500000",
-    "pa": "101:500000",
+    "pc": "501:2000",
+    "pa": "101:1000000",
     "type": "super_store",
     "arg": 3,
     "quality": 5
   },
   "super_store_11": {
     "day_count": 1,
-    "pc": "200:500000",
-    "pa": "101301003:1",
+    "pc": "501:5000",
+    "pa": "405000:20",
     "type": "super_store",
     "arg": 3,
     "quality": 5
   },
   "super_store_12": {
     "day_count": 1,
-    "pc": "200:500000",
-    "pa": "101401005:1",
+    "pc": "501:5000",
+    "pa": "505000:20",
     "type": "super_store",
     "arg": 3,
     "quality": 5
   },
   "super_store_13": {
     "day_count": 1,
-    "pc": "200:1000000",
-    "pa": "1000120:1",
+    "pc": "501:3000",
+    "pa": "201:2000000",
     "type": "super_store",
     "arg": 4,
     "quality": 5
   },
   "super_store_14": {
     "day_count": 1,
-    "pc": "200:3000000",
-    "pa": "1000130:1",
+    "pc": "501:3000",
+    "pa": "101:2000000",
     "type": "super_store",
     "arg": 4,
     "quality": 5
   },
   "super_store_15": {
     "day_count": 1,
-    "pc": "110:1000",
-    "pa": "10010:1",
+    "pc": "501:7000",
+    "pa": "405000:25",
     "type": "super_store",
     "arg": 4,
     "quality": 5
   },
   "super_store_16": {
     "day_count": 1,
-    "pc": "110:3000",
-    "pa": "1000190:1",
+    "pc": "501:7000",
+    "pa": "505000:25",
     "type": "super_store",
     "arg": 4,
     "quality": 5
   },
   "super_store_17": {
     "day_count": 1,
-    "pc": "110:1000",
-    "pa": "300500101:1",
+    "pc": "501:5000",
+    "pa": "201:3000000",
     "type": "super_store",
     "arg": 5,
     "quality": 5
   },
   "super_store_18": {
     "day_count": 1,
-    "pc": "110:1000",
-    "pa": "300500201:1",
+    "pc": "501:5000",
+    "pa": "101:3000000",
     "type": "super_store",
     "arg": 5,
     "quality": 5
   },
   "super_store_19": {
     "day_count": 1,
-    "pc": "110:1000",
-    "pa": "300500301:1",
+    "pc": "501:10000",
+    "pa": "300500401:1",
     "type": "super_store",
     "arg": 5,
     "quality": 5
   },
   "super_store_20": {
     "day_count": 1,
-    "pc": "110:5000",
-    "pa": "300500601:1",
+    "pc": "501:10000",
+    "pa": "300500501:1",
     "type": "super_store",
     "arg": 5,
     "quality": 5
