@@ -71,9 +71,9 @@
     "value1": 0.05
   },
   "10502021": {
-    "des": "有50%的概率使敌方全体侠客受到【外伤】，造成攻击60%的外功伤害，持续2回合",
+    "des": "为友方全体侠客释放1层[九阳真气]",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"phy_damage\",\"targetType\":\"enemy_all\",\"mul\":0.6,\"duration\":2,\"rate\":0.5}"
+    "value1": "{\"buffId\":\"jiuyang_real\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"max\":3}"
   },
   "10502022": {
     "des": "有55%的概率使敌方全体侠客受到【外伤】，造成攻击80%的外功伤害，持续2回合",
@@ -373,6 +373,21 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"skill_up\",\"targetType\":\"team_self\",\"value\":0.6,\"duration\":99,\"rate\":1}"
   },
+  "20403051": {
+    "des": "有10%概率使目标[晕眩]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"team_self\",\"duration\":0.1,\"rate\":1}"
+  },
+  "20403052": {
+    "des": "有30%概率使目标[晕眩]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"team_self\",\"duration\":0.3,\"rate\":1}"
+  },
+  "20403053": {
+    "des": "有50%概率使目标[晕眩]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"team_self\",\"duration\":0.5,\"rate\":1}"
+  },
   "20404011": {
     "des": "若目标职业为剑或气，则伤害增加30%。",
     "key1": "career_amp_2",
@@ -466,6 +481,21 @@
     "key3": "phy_buff_value1",
     "value3": 0.15
   },
+  "20502043": {
+    "des": "40%概率使目标[石化]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
+  },
+  "20502044": {
+    "des": "70%概率使目标[石化]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.7}"
+  },
+  "20502045": {
+    "des": "100%概率使目标[石化]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
+  },
   "20601011": {
     "des": "若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量0.68倍的真实伤害",
     "key1": "loss_hp_amp",
@@ -522,6 +552,25 @@
     "key2": "high_hp_crit_slay",
     "value2": 0.15
   },
+  "20602023": {
+    "des": "死亡触发，有50%概率对敌方全体侠客造成攻击80%的外功伤害，若目标处于【冰魄】状态，则额外受到80%，并且降低减伤5%，持续1回合",
+    "key1": "spe_buff_buff",
+    "value1": "{\"buffId\":\"ampDef_206020\",\"targetType\":\"team_self\",\"value\":0.05,\"duration\":1,\"rate\":1}",
+    "key2": "spe_buff_amp",
+    "value2": 1,
+    "key3": "spe_buff",
+    "value3": "bingpo"
+  },
+  "20602024": {
+    "des": "死亡触发，有60%概率对敌方全体侠客造成攻击100%的外功伤害，若目标处于【冰魄】状态，则额外受到100%，并且降低减伤10%，持续1回合",
+    "key1": "spe_buff_buff",
+    "value1": "{\"buffId\":\"ampDef_206020\",\"targetType\":\"team_self\",\"value\":0.1,\"duration\":1,\"rate\":1}"
+  },
+  "20602025": {
+    "des": "死亡触发，有80%概率对敌方全体侠客造成攻击150%的外功伤害，若目标处于【冰魄】状态，则额外受到150%，并且降低减伤15%，持续1回合",
+    "key1": "spe_buff_buff",
+    "value1": "{\"buffId\":\"ampDef_206020\",\"targetType\":\"team_self\",\"value\":0.15,\"duration\":1,\"rate\":1}"
+  },
   "30401011": {
     "des": "提升自身格挡20%，持续2回合(不可叠加)",
     "key1": "buff1",
@@ -571,6 +620,16 @@
     "des": "有40%的概率使目标【石化】，持续1回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.4}"
+  },
+  "30403052": {
+    "des": "有25%概率使目标[石化]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.25}"
+  },
+  "30403053": {
+    "des": "有50%概率使目标[石化]，持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.5}"
   },
   "30501011": {
     "des": "有60%几率吸取目标护甲10%，持续2回合",
@@ -672,6 +731,11 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_hit_heal\",\"targetType\":\"team_self\",\"mul\":0.6,\"duration\":3,\"rate\":1}"
   },
+  "30504051": {
+    "des": "真实伤害",
+    "key1": "mag_ign_armor",
+    "value1": 1
+  },
   "30505011": {
     "des": "伤害由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的8%伤害，下次释放普攻时附带此部分真实伤害",
     "key1": "store_to_normal",
@@ -699,6 +763,31 @@
     "key1": "store_to_normal",
     "value1": 0.03
   },
+  "30506011": {
+    "des": "为友方全体侠客附加攻击156%的护盾，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.56,\"duration\":2,\"rate\":1}"
+  },
+  "30506012": {
+    "des": "为友方全体侠客附加攻击224%的护盾，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":2.24,\"duration\":2,\"rate\":1}"
+  },
+  "30506013": {
+    "des": "为友方全体侠客附加攻击331%的护盾，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":3.31,\"duration\":2,\"rate\":1}"
+  },
+  "30506014": {
+    "des": "为友方全体侠客附加攻击406%的护盾，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.06,\"duration\":2,\"rate\":1}"
+  },
+  "30506015": {
+    "des": "为友方全体侠客附加攻击498%的护盾，持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.98,\"duration\":2,\"rate\":1}"
+  },
   "30601011": {
     "des": "有30%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害30%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
@@ -723,31 +812,6 @@
     "des": "有70%概率对自身附加【挪移】 。受到攻击时反弹攻击伤害70%的真实伤害，不可叠加，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.7,\"duration\":2,\"rate\":0.7}"
-  },
-  "30602011": {
-    "des": "为友方全体侠客附加攻击156%的护盾，持续2回合",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":1.56,\"duration\":2,\"rate\":1}"
-  },
-  "30602012": {
-    "des": "为友方全体侠客附加攻击224%的护盾，持续2回合",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":2.24,\"duration\":2,\"rate\":1}"
-  },
-  "30602013": {
-    "des": "为友方全体侠客附加攻击331%的护盾，持续2回合",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":3.31,\"duration\":2,\"rate\":1}"
-  },
-  "30602014": {
-    "des": "为友方全体侠客附加攻击406%的护盾，持续2回合",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.06,\"duration\":2,\"rate\":1}"
-  },
-  "30602015": {
-    "des": "为友方全体侠客附加攻击498%的护盾，持续2回合",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"mul\":4.98,\"duration\":2,\"rate\":1}"
   },
   "40501011": {
     "des": "分别有50%概率降低目标15点怒气",

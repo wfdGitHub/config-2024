@@ -2,93 +2,124 @@
   "control_up": {
     "name": "控制提升",
     "des": "控制提升",
-    "attKey1": "control",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "control",
     "show_tag": "control_up"
   },
   "control_down": {
     "name": "控制降低",
     "des": "控制降低",
-    "attKey1": "control",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "control",
     "show_tag": "control_down"
   },
   "controlDef_up": {
     "name": "免控提升",
     "des": "免控提升",
-    "attKey1": "controlDef",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "controlDef",
     "show_tag": "controlDef_up"
   },
   "controlDef_down": {
     "name": "免控降低",
     "des": "免控降低",
-    "attKey1": "controlDef",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "controlDef",
     "show_tag": "controlDef_down"
   },
   "armor_up": {
     "name": "护甲提升",
     "des": "护甲提升",
     "max_count": 1,
-    "attKey1": "armor",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "armor",
     "show_tag": "armor_up"
   },
   "atk_down": {
     "name": "攻击降低",
     "des": "攻击力降低",
     "max_count": 1,
-    "attKey1": "atk",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "atk",
     "show_tag": "atk_down"
   },
   "armor_down": {
     "name": "护甲降低",
     "des": "护甲降低",
     "max_count": 1,
-    "attKey1": "armor",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "armor",
     "show_tag": "armor_down"
   },
   "atk_suck_add": {
     "name": "汲取攻击(攻)",
     "des": "吸取目标一定攻击力，不可驱散",
     "max_count": 2,
-    "attKey1": "atk",
     "normal": true,
-    "undispel": true
+    "attKey1": "atk"
   },
   "atk_suck_les": {
     "name": "汲取攻击",
     "des": "被吸取一定攻击力，不可驱散",
     "max_count": 2,
     "attKey1": "atk",
-    "show_tag": "atk_suck",
-    "undispel": true
+    "show_tag": "atk_suck"
   },
   "armor_suck_add": {
     "name": "汲取护甲(攻)",
     "des": "吸取目标一定护甲，不可驱散",
     "max_count": 2,
-    "attKey1": "armor",
     "normal": true,
-    "undispel": true
+    "attKey1": "armor"
   },
   "armor_suck_les": {
     "name": "汲取护甲",
     "des": "被吸取一定护甲，不可驱散",
     "max_count": 2,
     "attKey1": "armor",
-    "show_tag": "armor_suck",
-    "undispel": true
+    "show_tag": "armor_suck"
+  },
+  "atk_up_always": {
+    "name": "攻击增加",
+    "des": "攻击力提升",
+    "max_count": 99,
+    "normal": true,
+    "dispel_add": true,
+    "attKey1": "atk",
+    "show_tag": "atk_up"
+  },
+  "atk_down_always": {
+    "name": "攻击降低",
+    "des": "攻击力降低",
+    "max_count": 1,
+    "normal": true,
+    "dispel_less": true,
+    "attKey1": "atk",
+    "show_tag": "atk_dwon"
   },
   "amp_up_always": {
     "name": "伤害增加",
-    "des": "伤害增加，永久",
+    "des": "造成的伤害增加",
     "max_count": 99,
-    "attKey1": "amp",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "amp",
+    "show_tag": "amp_up"
+  },
+  "amp_206010": {
+    "name": "增伤",
+    "des": "每当其他任意侠客攻击后，均会增加自己增伤",
+    "max_count": 5,
+    "normal": true,
+    "dispel_add": true,
+    "attKey1": "amp",
     "show_tag": "amp_up"
   },
   "amp_up": {
@@ -96,8 +127,9 @@
     "des": "伤害增加，不可叠加",
     "icon": true,
     "max_count": 1,
-    "attKey1": "amp",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "amp",
     "show_tag": "amp_up"
   },
   "amp_down": {
@@ -105,8 +137,9 @@
     "des": "造成的伤害降低",
     "icon": true,
     "max_count": 3,
-    "attKey1": "amp",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "amp",
     "show_tag": "amp_down"
   },
   "ampDef_up": {
@@ -114,8 +147,9 @@
     "des": "受到的伤害减少",
     "icon": true,
     "max_count": 3,
-    "attKey1": "ampDef",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "ampDef",
     "show_tag": "ampDef_up"
   },
   "ampDef_down": {
@@ -123,8 +157,19 @@
     "des": "受到的伤害增加",
     "icon": true,
     "max_count": 3,
-    "attKey1": "ampDef",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "ampDef",
+    "show_tag": "ampDef_down"
+  },
+  "ampDef_206020": {
+    "name": "减伤降低",
+    "des": "受到的伤害增加",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "dispel_less": true,
+    "attKey1": "ampDef",
     "show_tag": "ampDef_down"
   },
   "hitDef_up_once": {
@@ -132,33 +177,43 @@
     "des": "下一次被攻击时闪避提升",
     "icon": true,
     "max_count": 1,
+    "once": true,
     "attKey1": "hitDef",
     "show_tag": "hitDef_up"
+  },
+  "hitDef_up_cd": {
+    "name": "闪避提升",
+    "des": "每隔一定回合下一次被攻击闪避提升",
+    "max_count": 1,
+    "normal": true,
+    "once": true,
+    "attKey1": "hitDef"
   },
   "jiuyang_up": {
     "name": "九阳技能增伤",
     "des": "技能伤害增加",
     "max_count": 3,
-    "attKey1": "angerAmp",
     "normal": true,
-    "show_tag": "skill_up"
+    "dispel_add": true,
+    "attKey1": "angerAmp",
+    "show_tag": "angerAmp_up"
   },
   "skill_up": {
     "name": "技能增伤",
     "des": "技能伤害增加，持续至战斗结束",
     "max_count": 1,
-    "attKey1": "angerAmp",
     "normal": true,
-    "show_tag": "skill_up",
-    "undispel": true
+    "attKey1": "angerAmp",
+    "show_tag": "angerAmp_up"
   },
   "angerDef_up": {
     "name": "技攻减伤",
     "des": "提升友方全体侠客技攻减伤,不可叠加",
     "icon": true,
     "max_count": 1,
-    "attKey1": "angerDef",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "angerDef",
     "show_tag": "angerDef_up"
   },
   "angerDef_up_once": {
@@ -166,26 +221,48 @@
     "des": "降低下次受到的技攻伤害",
     "icon": true,
     "max_count": 1,
-    "attKey1": "angerDef",
     "normal": true,
+    "once": true,
+    "attKey1": "angerDef",
     "show_tag": "angerDef_up"
+  },
+  "angerAmp_up_once": {
+    "name": "技攻增伤",
+    "des": "提高下一次造成的技攻伤害",
+    "icon": true,
+    "max_count": 6,
+    "normal": true,
+    "once": true,
+    "attKey1": "angerAmp",
+    "show_tag": "angerAmp_up"
   },
   "phyAmp_always": {
     "name": "外功加强",
     "des": "造成的外功伤害增加",
     "max_count": 99,
-    "attKey1": "phyAmp",
     "normal": true,
-    "show_tag": "phyAmp_up",
-    "undispel": true
+    "dispel_add": true,
+    "attKey1": "phyAmp",
+    "show_tag": "phyAmp_up"
+  },
+  "critDef_always": {
+    "name": "降低抗暴",
+    "des": "暴击抗性降低",
+    "icon": true,
+    "max_count": 99,
+    "normal": true,
+    "dispel_less": true,
+    "attKey1": "critDef",
+    "show_tag": "critDef"
   },
   "phyAmp_up": {
     "name": "外功加强",
     "des": "造成的外功伤害增加",
     "icon": true,
     "max_count": 3,
-    "attKey1": "phyAmp",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "phyAmp",
     "show_tag": "phyAmp_up"
   },
   "phyAmp_down": {
@@ -193,8 +270,9 @@
     "des": "造成的外功伤害降低",
     "icon": true,
     "max_count": 3,
-    "attKey1": "phyAmp",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "phyAmp",
     "show_tag": "phyAmp_down"
   },
   "magAmp_up": {
@@ -202,8 +280,9 @@
     "des": "造成的内功伤害增加",
     "icon": true,
     "max_count": 3,
-    "attKey1": "magAmp",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "magAmp",
     "show_tag": "magAmp_up"
   },
   "phyAmp_dwon": {
@@ -211,8 +290,9 @@
     "des": "造成的内功伤害降低",
     "icon": true,
     "max_count": 3,
-    "attKey1": "magAmp",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "magAmp",
     "show_tag": "phyAmp_dwon"
   },
   "phyDef_up": {
@@ -220,17 +300,19 @@
     "des": "受到的外功伤害减少",
     "icon": true,
     "max_count": 3,
-    "attKey1": "phyDef",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "phyDef",
     "show_tag": "phyDef_up"
   },
   "phyDef_down": {
-    "name": "外功增伤",
+    "name": "外伤增加",
     "des": "受到的外功伤害增加",
     "icon": true,
     "max_count": 3,
-    "attKey1": "phyDef",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "phyDef",
     "show_tag": "phyDef_down"
   },
   "magDef_up": {
@@ -238,26 +320,36 @@
     "des": "受到的内功伤害减少",
     "icon": true,
     "max_count": 3,
-    "attKey1": "magDef",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "magDef",
     "show_tag": "magDef_up"
   },
   "magDef_down": {
-    "name": "内功增伤",
+    "name": "内伤增加",
     "des": "受到的内功伤害增加",
     "icon": true,
     "max_count": 3,
-    "attKey1": "magDef",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "magDef",
     "show_tag": "magDef_down"
+  },
+  "crit_always": {
+    "name": "暴击改变",
+    "des": "暴击率改变（不可驱散）",
+    "max_count": 99,
+    "normal": true,
+    "attKey1": "crit"
   },
   "crit_up": {
     "name": "暴击提升",
     "des": "暴击率提高",
     "icon": true,
     "max_count": 99,
-    "attKey1": "crit",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "crit",
     "show_tag": "crit_up"
   },
   "slay_up": {
@@ -265,48 +357,63 @@
     "des": "暴击伤害提高",
     "icon": true,
     "max_count": 99,
-    "attKey1": "slay",
     "normal": true,
+    "dispel_add": true,
+    "attKey1": "slay",
     "show_tag": "slay_up"
   },
   "roundAnger_up": {
-    "name": "回合回怒提升",
+    "name": "回怒提升",
     "des": "回合回怒增加",
     "icon": true,
     "max_count": 99,
-    "attKey1": "roundAnger",
     "normal": true,
+    "dispel_less": true,
+    "attKey1": "roundAnger",
     "show_tag": "roundAnger_up"
+  },
+  "roundAnger_down": {
+    "name": "回怒降低",
+    "des": "回合回怒降低",
+    "icon": true,
+    "max_count": 99,
+    "normal": true,
+    "attKey1": "roundAnger",
+    "show_tag": "roundAnger_down"
   },
   "poison": {
     "name": "中毒",
     "des": "中毒状态，每回合受到一定中毒伤害",
     "icon": true,
     "effects": true,
-    "max_count": 5
+    "max_count": 5,
+    "dispel_less": true
   },
   "mag_damage": {
     "name": "内伤",
     "des": "受到内伤，每回合受到一定内功伤害",
     "icon": true,
     "effects": true,
-    "max_count": 5
+    "max_count": 5,
+    "dispel_less": true
   },
   "phy_damage": {
     "name": "外伤",
     "des": "受到外伤，每回合受到一定外功伤害",
     "icon": true,
     "effects": true,
-    "max_count": 5
+    "max_count": 5,
+    "dispel_less": true
   },
   "bingpo": {
     "name": "冰魄",
     "des": "降低增伤和减伤15%",
     "icon": true,
     "max_count": 1,
+    "normal": true,
+    "dispel_less": true,
     "attKey1": "amp",
-    "attKey2": "ampDef",
-    "normal": true
+    "attKey2": "ampDef"
   },
   "nuoyi_back": {
     "name": "挪移",
@@ -314,8 +421,7 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "nuoyi_share": {
     "name": "化力挪移",
@@ -323,15 +429,13 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "hudun": {
     "name": "护盾",
     "des": "吸收受到的伤害",
     "effects": true,
-    "max_count": 5,
-    "undispel": true
+    "max_count": 5
   },
   "totem_hit_heal": {
     "name": "坚韧",
@@ -339,8 +443,7 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "totem_friend_amp": {
     "name": "百鸟朝凤",
@@ -348,47 +451,46 @@
     "icon": true,
     "max_count": 1,
     "attKey1": "normalDef",
-    "attValue1": -1,
-    "undispel": true
+    "attValue1": -1
   },
   "totem_amp": {
     "name": "百鸟朝凤增伤",
     "des": "百鸟朝凤伤害增加",
     "max_count": 1,
-    "attKey1": "amp",
     "normal": true,
-    "show_tag": "amp_up",
-    "undispel": true
+    "attKey1": "amp",
+    "show_tag": "amp_up"
   },
   "block_buff": {
     "name": "格挡",
     "des": "提升自身一定格挡比例",
     "icon": true,
     "max_count": 1,
-    "attKey1": "block",
     "normal": true,
+    "attKey1": "block",
     "show_tag": "block_up"
   },
   "splash_mag": {
     "name": "内伤平摊",
     "des": "自身受到的伤害一定比例由敌方处于内伤状态侠客分摊",
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "hit_heal": {
     "name": "聚息",
     "des": "受到攻击后血量低于50%时触发，立即恢复血量上限百分比的生命值，不可叠加",
     "icon": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "dispel_add": true
   },
   "mag_hitDef": {
     "name": "蛇影",
     "des": "受到处于内伤状态的侠客攻击时，闪避提升",
     "icon": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "dispel_add": true
   },
   "petrify": {
     "name": "石化",
@@ -399,6 +501,12 @@
     "normal": true,
     "control": true
   },
+  "petrifyDef": {
+    "name": "石化抗性",
+    "des": "石化抗性",
+    "max_count": 99,
+    "normal": true
+  },
   "frozen": {
     "name": "冰冻",
     "des": "冰冻状态，无法行动",
@@ -408,20 +516,28 @@
     "normal": true,
     "control": true
   },
+  "frozenDef": {
+    "name": "冰冻抗性",
+    "des": "冰冻抗性",
+    "max_count": 99,
+    "normal": true
+  },
   "vital_point": {
     "name": "封穴",
     "des": "触发类技能将无法施展，且无法格挡和闪避",
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "dispel_less": true
   },
   "ban_anger": {
     "name": "禁怒",
     "des": "无法回复怒气",
     "icon": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "dispel_less": true
   },
   "disarm": {
     "name": "束缚",
@@ -432,6 +548,12 @@
     "normal": true,
     "control": true
   },
+  "disarmDef": {
+    "name": "束缚抗性",
+    "des": "束缚抗性",
+    "max_count": 99,
+    "normal": true
+  },
   "silence": {
     "name": "沉默",
     "des": "无法使用怒气技能",
@@ -441,12 +563,17 @@
     "normal": true,
     "control": true
   },
+  "silenceDef": {
+    "name": "沉默抗性",
+    "des": "沉默抗性",
+    "max_count": 99,
+    "normal": true
+  },
   "free_control": {
     "name": "掌势",
     "des": "我方侠客被控制时，有概率驱散此次控制，并提升免控",
     "icon": true,
-    "max_count": 3,
-    "undispel": true
+    "max_count": 3
   },
   "kuangtao": {
     "name": "狂涛",
@@ -455,29 +582,25 @@
     "max_count": 1,
     "attKey1": "amp",
     "attKey2": "hit",
-    "attKey3": "crit",
-    "undispel": true
+    "attKey3": "crit"
   },
   "store_damage": {
     "name": "化劲",
     "des": "受到总伤害减少一定比例，转化为化劲，三回合后对自身造成等比例的真实伤害",
     "icon": true,
-    "max_count": 999,
-    "undispel": true
+    "max_count": 99
   },
   "lowhp_atk": {
     "name": "低血量攻击加成",
     "des": "血量低于30%时，增加自身攻击力一定比例",
-    "max_count": 1,
-    "undispel": true
+    "max_count": 1
   },
   "jiuyang": {
-    "name": "九阳真气",
+    "name": "九阳功",
     "des": "每累计损失血量上限30%的血量，提升自身技攻伤害",
     "icon": true,
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "chaodu": {
     "name": "超度",
@@ -485,29 +608,232 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "dispel_less": true
   },
   "sign_aim": {
     "name": "标记",
     "des": "标记敌方后排随机1名侠客，使其受到【外伤】，每回合造成攻击一定比例的外功伤害，持续至战斗结束；优先攻击标记目标，若标记目标死亡，则再次释放标记（标记不可驱散）,且对目标造成伤害增加",
     "effects": true,
-    "max_count": 1,
-    "undispel": true
+    "max_count": 1
   },
   "not_revived": {
     "name": "无法复活",
     "des": "无法以任何方式复活",
     "effects": true,
     "max_count": 1,
-    "normal": true,
-    "undispel": true
+    "normal": true
   },
   "sign_unheal": {
     "name": "印记",
     "des": "[印记] 状态下的目标无法获得护盾，受治疗效果降低。若在印记状态下被攻击击杀，则2回合内无法以任何方式复活",
     "effects": true,
     "max_count": 1,
-    "attKey1": "healAdd",
+    "normal": true,
+    "dispel_less": true,
+    "attKey1": "healAdd"
+  },
+  "uncontrol_losshp": {
+    "name": "耗血免控",
+    "des": "被控制时有几率触发，消耗自身血量上限9%的血量 (血量低于15%时不消耗血量)，免疫此次控制效果，该效果每隔N回合至多生效1次。",
+    "max_count": 1,
+    "normal": true
+  },
+  "extra_ation": {
+    "name": "先机",
+    "des": "开场触发，获得[先机]，回合开始时进行一次攻击行为 (不消耗原有的攻击次数)，该效果每隔N回合生效1次。",
+    "max_count": 1,
+    "normal": true
+  },
+  "chuchen_pre": {
+    "name": "出尘(预备)",
+    "des": "受到致命伤害时触发，进入[出尘] 状态",
+    "max_count": 1,
+    "normal": true
+  },
+  "chuchen": {
+    "name": "出尘",
+    "des": "忘却伤痛，继续战斗，驱散所有异常状态并且在状态结束前免疫控制，本次溢出的伤害和后续受到的伤害在下次攻击后结算，若在[出尘]状态下击杀敌方侠客，则移除[出尘]时受到的伤害",
+    "effects": true,
+    "max_count": 1
+  },
+  "together": {
+    "name": "共赴生死",
+    "des": "每回合开始时，若一人阵亡、一人存活，则使阵亡方以30%血量复活，恢复25点怒气，且可以行动",
+    "max_count": 1,
+    "normal": true
+  },
+  "disturb": {
+    "name": "干扰",
+    "des": "释放技能时有概率释放失败",
+    "effects": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "crit_losshp": {
+    "name": "血量越少，暴击越高",
+    "des": "血量越少，暴击越高",
+    "max_count": 1
+  },
+  "atk_losshp": {
+    "name": "血量越少，攻击越高",
+    "des": "血量越少，攻击越高",
+    "max_count": 1
+  },
+  "dizzy": {
+    "name": "眩晕",
+    "des": "眩晕状态，无法行动",
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "control": true
+  },
+  "dizzyDef": {
+    "name": "眩晕抗性",
+    "des": "抵抗眩晕概率",
+    "effects": true,
+    "max_count": 99,
+    "normal": true
+  },
+  "jiuyang_real": {
+    "name": "九阳真气",
+    "des": "九阳真气每叠加1层，效果得到巨大提升，并且同时生效，第一层:受击前，将自身10%攻击转换为护甲;攻击前，将自身20%护甲转换为攻击;第二层:受到外功伤害攻击时，反弹本次遭受的外功伤害的20%。",
+    "icon": true,
+    "effects": true,
+    "max_count": 2
+  },
+  "damage_rebound": {
+    "name": "反弹伤害",
+    "des": "受到的伤害反弹",
+    "max_count": 99,
+    "normal": true
+  },
+  "yuhuo": {
+    "name": "浴火",
+    "des": "浴火状态，伤害与速度提升",
+    "icon": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "yinyang": {
+    "name": "阴阳",
+    "des": "免疫1次控制效果，提升自身8%技攻伤害,死亡时，消耗【阴阳】状态，以50%最大血量重生，可以正常行动，一场战斗仅触发1次",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "angerAmp",
+    "attValue1": 0.08
+  },
+  "copy_skill": {
+    "name": "复制武学",
+    "des": "敌方侠客释放技攻时，有概率复制对方技能（仅复制1个，无法复制使自身无法行动的技能），回合结束时，消耗最多50点怒气释放此次技能，且不受控制状态影响",
+    "max_count": 1
+  },
+  "buff_305010": {
+    "name": "提升攻防",
+    "des": "自身血量高于50%时，攻击提升,自身血量低于50%时，减伤提升",
+    "max_count": 1
+  },
+  "lowhp_heal": {
+    "name": "低血回血",
+    "des": "血量低于30%时触发，敌方每存在1个侠客，恢复自身上限血量。(每回合仅生效1次)",
+    "max_count": 1,
+    "normal": true
+  },
+  "chaofeng": {
+    "name": "嘲讽",
+    "des": "强制以普攻攻击嘲讽目标",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
+    "normal": true,
+    "control": true
+  },
+  "chaofengDef": {
+    "name": "嘲讽抗性",
+    "des": "嘲讽抗性",
+    "max_count": 99,
+    "normal": true
+  },
+  "behit_rebound_allAtk": {
+    "name": "受击反伤",
+    "des": "受击触发，对攻击者造成友方存活侠客总攻击一定比例的真实伤害，每回合至多触发一定次数",
+    "max_count": 2
+  },
+  "hitDef_305030": {
+    "name": "醉步",
+    "des": "【醉步】状态，提升自身闪避率",
+    "icon": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "jiuyang_305030": {
+    "name": "九阳",
+    "des": "反弹下一个受到的技攻伤害一定比例",
+    "icon": true,
+    "max_count": 1
+  },
+  "doujiu": {
+    "name": "斗酒",
+    "des": "普攻优先选择斗酒目标，普攻斗酒目标时伤害增加",
+    "icon": true,
+    "max_count": 1
+  },
+  "xianglong": {
+    "name": "降龙",
+    "des": "吸取敌方侠客中血量最高的目标血量上限;攻击最高的目标攻击，护甲最高的目标护甲，持续至战斗结束",
+    "icon": true,
+    "max_count": 1
+  },
+  "kill_add_normal": {
+    "name": "击杀普攻",
+    "des": "击杀触发普攻,有冷却回合",
+    "max_count": 1,
+    "normal": true
+  },
+  "buff_305050": {
+    "name": "打狗棒法",
+    "des": "敌方侠客攻击时，有概率进行反击，对出手侠客进行一次普攻 (可触发普攻效果，不受控制效果影响，但是无法回怒)",
+    "max_count": 1,
+    "normal": true
+  },
+  "hunyuan": {
+    "name": "混元",
+    "des": "受到的护盾效果提升(不包含治疗转盾)，受到攻击时反弹一定比例",
+    "icon": true,
+    "max_count": 1
+  },
+  "buff_305060": {
+    "name": "存活加成",
+    "des": "每回合开始时，友方每有1名侠客存活，提升友方全体属性。",
+    "max_count": 5
+  },
+  "buff_304010": {
+    "name": "破格降低",
+    "des": "破格降低，敌方格挡成功率增加",
+    "icon": true,
+    "max_count": 3,
+    "normal": true,
+    "dispel_less": true
+  },
+  "suck_blood": {
+    "name": "汲取增加",
+    "des": "汲取增加",
+    "max_count": 5,
+    "normal": true
+  },
+  "insane": {
+    "name": "疯癫",
+    "des": "[疯癫]状态，免疫[冰冻]和[石化]，并为随机敌方侠客标记[追杀]，使自身所有攻击均优先攻击[追杀] 目标",
+    "effects": true,
+    "max_count": 1
+  },
+  "wuxiang": {
+    "name": "无相",
+    "des": "免疫外功伤害和【外伤】 状态",
+    "icon": true,
+    "effects": true,
+    "max_count": 1,
     "normal": true
   }
 }

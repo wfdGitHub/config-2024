@@ -356,30 +356,35 @@
   },
   "10504041": {
     "des": "每隔3回合触发，40%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害20%，持续1回合",
+    "atk_basic": 0,
     "heal_aim": "team_self",
     "talentId": 10504041,
     "atk_count": 1
   },
   "10504042": {
     "des": "每隔2回合触发，45%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害25%，持续1回合",
+    "atk_basic": 0,
     "heal_aim": "team_self",
     "talentId": 10504042,
     "atk_count": 1
   },
   "10504043": {
     "des": "每隔1回合触发，50%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害30%，持续1回合",
+    "atk_basic": 0,
     "heal_aim": "team_self",
     "talentId": 10504043,
     "atk_count": 1
   },
   "10504044": {
     "des": "每隔1回合触发，60%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害35%，持续1回合",
+    "atk_basic": 0,
     "heal_aim": "team_self",
     "talentId": 10504044,
     "atk_count": 1
   },
   "10504045": {
     "des": "每隔1回合触发，70%概率为友方全体侠客附加1层[金刚不坏]，降低下次受到的技攻伤害40%，并且提升10%减伤，持续1回合",
+    "atk_basic": 0,
     "heal_aim": "team_self",
     "talentId": 10504045,
     "atk_count": 1
@@ -689,6 +694,70 @@
     "talentId": 20403015,
     "atk_count": 1
   },
+  "20403021": {
+    "des": "攻击触发，对友方全体治疗攻击60%等量血量",
+    "heal_mul": 0.6,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 20403021,
+    "atk_count": 1
+  },
+  "20403022": {
+    "des": "攻击触发，对友方全体治疗攻击75%等量血量",
+    "heal_mul": 0.75,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 20403022,
+    "atk_count": 1
+  },
+  "20403023": {
+    "des": "攻击触发，对友方全体治疗攻击90%等量血量",
+    "heal_mul": 0.9,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 20403023,
+    "atk_count": 1
+  },
+  "20403024": {
+    "des": "攻击触发，对友方全体治疗攻击120%等量血量",
+    "heal_mul": 1.2,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 20403024,
+    "atk_count": 1
+  },
+  "20403025": {
+    "des": "攻击触发，对友方全体治疗攻击150%等量血量",
+    "heal_mul": 1.5,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 20403025,
+    "atk_count": 1
+  },
+  "20403051": {
+    "des": "开场触发，对敌方前排造成攻击100%外功伤害，有10%概率使目标[晕眩]，持续1回合",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "talentId": 20403051,
+    "atk_count": 1
+  },
+  "20403052": {
+    "des": "开场触发，对敌方前排造成攻击200%外功伤害，有30%概率使目标[晕眩]，持续1回合",
+    "atk_mul": 2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "talentId": 20403052,
+    "atk_count": 1
+  },
+  "20403053": {
+    "des": "开场触发，对敌方前排造成攻击300%外功伤害，有50%概率使目标[晕眩]，持续1回合",
+    "atk_mul": 3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "talentId": 20403053,
+    "atk_count": 1
+  },
   "20404011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;若目标职业为剑或气，则伤害增加30%。",
     "atk_mul": 2.93,
@@ -732,6 +801,46 @@
     "atk_aim": "enemy_far",
     "d_type": "phy",
     "talentId": 20404015,
+    "atk_count": 1
+  },
+  "20404021": {
+    "des": "对敌方全体造成攻击100%外功伤害。",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "20404022": {
+    "des": "对敌方全体造成攻击150%外功伤害。",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "20404023": {
+    "des": "对敌方全体造成攻击200%外功伤害。",
+    "atk_mul": 2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "20404024": {
+    "des": "对敌方全体造成攻击250%外功伤害。",
+    "atk_mul": 2.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "20404025": {
+    "des": "对敌方全体造成攻击320%外功伤害。",
+    "atk_mul": 3.2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
     "atk_count": 1
   },
   "20501011": {
@@ -824,6 +933,47 @@
     "talentId": 20502015,
     "atk_count": 1
   },
+  "20502041": {
+    "des": "开场触发，对敌方距离最远1名侠客造成攻击200%外功伤害",
+    "atk_mul": 2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_far",
+    "d_type": "phy"
+  },
+  "20502042": {
+    "des": "开场触发，对敌方距离最远1名侠客造成攻击300%外功伤害",
+    "atk_mul": 3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_far",
+    "d_type": "phy"
+  },
+  "20502043": {
+    "des": "每隔5回合开始时，对敌方距离最远1名侠客造成攻击300%外功伤害；40%概率使目标[石化]，持续1回合",
+    "atk_mul": 3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_far",
+    "d_type": "phy",
+    "talentId": 20502043,
+    "atk_count": 1
+  },
+  "20502044": {
+    "des": "每隔4回合开始时，对敌方距离最远1名侠客造成攻击400%外功伤害；70%概率使目标[石化]，持续1回合",
+    "atk_mul": 4,
+    "atk_basic": 0,
+    "atk_aim": "enemy_far",
+    "d_type": "phy",
+    "talentId": 20502044,
+    "atk_count": 1
+  },
+  "20502045": {
+    "des": "每隔3回合开始时，对敌方距离最远1名侠客造成攻击500%外功伤害；100%概率使目标[石化]，持续1回合",
+    "atk_mul": 5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_far",
+    "d_type": "phy",
+    "talentId": 20502045,
+    "atk_count": 1
+  },
   "20601011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;若未击杀目标，则消耗自身15%当前血量，对目标造成消耗血量68%的真实伤害",
     "atk_mul": 4.51,
@@ -914,6 +1064,42 @@
     "talentId": 20602015,
     "atk_count": 1
   },
+  "20602021": {
+    "des": "死亡触发，对敌方全体侠客造成攻击30%的外功伤害",
+    "atk_mul": 0.3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all"
+  },
+  "20602022": {
+    "des": "死亡触发，对敌方全体侠客造成攻击40%的外功伤害",
+    "atk_mul": 0.4,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all"
+  },
+  "20602023": {
+    "des": "死亡触发，对敌方全体侠客造成攻击60%的外功伤害，若目标处于【冰魄】状态，则额外受到60%，并且降低减伤5%，持续1回合",
+    "atk_mul": 0.6,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "talentId": 20602023,
+    "atk_count": 1
+  },
+  "20602024": {
+    "des": "死亡触发，对敌方全体侠客造成攻击90%的外功伤害，若目标处于【冰魄】状态，则额外受到90%，并且降低减伤10%，持续1回合",
+    "atk_mul": 0.9,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "talentId": 20602024,
+    "atk_count": 1
+  },
+  "20602025": {
+    "des": "死亡触发，对敌方全体侠客造成攻击130%的外功伤害，若目标处于【冰魄】状态，则额外受到130%，并且降低减伤15%，持续1回合",
+    "atk_mul": 1.3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "talentId": 20602025,
+    "atk_count": 1
+  },
   "30401011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;并且提升自身格挡20%，持续2回合(不可叠加)",
     "atk_mul": 2.93,
@@ -999,6 +1185,30 @@
     "d_type": "phy",
     "atk_count": 1
   },
+  "30402051": {
+    "des": "被攻击有5%几率触发，对敌方全体造成攻击30%外功伤害",
+    "atk_mul": 0.3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "30402052": {
+    "des": "被攻击有10%几率触发，对敌方全体造成攻击40%外功伤害",
+    "atk_mul": 0.4,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "30402053": {
+    "des": "被攻击有15%几率触发，对敌方全体造成攻击50%外功伤害",
+    "atk_mul": 0.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "atk_count": 1
+  },
   "30403011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;有15%的概率使目标【石化】，持续1回合",
     "atk_mul": 1.2,
@@ -1042,6 +1252,32 @@
     "atk_aim": "enemy_adjoin",
     "d_type": "phy",
     "talentId": 30403015,
+    "atk_count": 1
+  },
+  "30403051": {
+    "des": "首次攻击触发，对敌方前排造成攻击30%外功伤害",
+    "atk_mul": 0.3,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "phy",
+    "atk_count": 1
+  },
+  "30403052": {
+    "des": "首次攻击触发，对敌方前排造成攻击40%外功伤害;并有25%概率使目标[石化]，持续1回合",
+    "atk_mul": 0.4,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "phy",
+    "talentId": 30403052,
+    "atk_count": 1
+  },
+  "30403053": {
+    "des": "首次攻击触发，对敌方前排造成攻击50%外功伤害;并有50%概率使目标[石化]，持续1回合",
+    "atk_mul": 0.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "phy",
+    "talentId": 30403053,
     "atk_count": 1
   },
   "30501011": {
@@ -1224,6 +1460,31 @@
     "talentId": 30504015,
     "atk_count": 1
   },
+  "30504051": {
+    "des": "自身每累计损失80%的最大血量时触发，立即对敌方全体造成攻击100%的真实伤害",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 30504051,
+    "atk_count": 1
+  },
+  "30504052": {
+    "des": "自身每累计损失70%的最大血量时触发，立即对敌方全体造成攻击150%的真实伤害",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "30504053": {
+    "des": "自身每累计损失60%的最大血量时触发，立即对敌方全体造成攻击250%的真实伤害",
+    "atk_mul": 2.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
   "30505011": {
     "des": "对atk_aim总计造成atk_mul+atk_value的d_type伤害;由所有目标分摊（单个目标最高受到最大伤害值的50%）;并储存技攻造成的8%伤害，下次释放普攻时附带此部分真实伤害，可叠加",
     "atk_mul": 6,
@@ -1267,6 +1528,51 @@
     "atk_aim": "enemy_all",
     "d_type": "phy",
     "talentId": 30505015,
+    "atk_count": 1
+  },
+  "30506011": {
+    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击156%的护盾，持续2回合",
+    "atk_mul": 0.66,
+    "atk_basic": 18,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 30506011,
+    "atk_count": 1
+  },
+  "30506012": {
+    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击224%的护盾，持续2回合",
+    "atk_mul": 0.98,
+    "atk_basic": 18,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 30506012,
+    "atk_count": 1
+  },
+  "30506013": {
+    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击331%的护盾，持续2回合",
+    "atk_mul": 1.51,
+    "atk_basic": 18,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 30506013,
+    "atk_count": 1
+  },
+  "30506014": {
+    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击406%的护盾，持续2回合",
+    "atk_mul": 1.83,
+    "atk_basic": 18,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 30506014,
+    "atk_count": 1
+  },
+  "30506015": {
+    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击498%的护盾，持续2回合",
+    "atk_mul": 2.18,
+    "atk_basic": 18,
+    "atk_aim": "enemy_all",
+    "d_type": "phy",
+    "talentId": 30506015,
     "atk_count": 1
   },
   "30601011": {
@@ -1314,49 +1620,30 @@
     "talentId": 30601015,
     "atk_count": 1
   },
-  "30602011": {
-    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击156%的护盾，持续2回合",
-    "atk_mul": 0.66,
-    "atk_basic": 18,
-    "atk_aim": "enemy_all",
-    "d_type": "phy",
-    "talentId": 30602011,
+  "30601021": {
+    "des": "在场触发，每隔4回合触发，为友方全体侠客释放1层[九阳真气]，可叠加,持续2回合，并且能额外触发第3层效果:回合回怒效果提升100%",
+    "heal_aim": "team_self",
+    "talentId": 10502021,
     "atk_count": 1
   },
-  "30602012": {
-    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击224%的护盾，持续2回合",
-    "atk_mul": 0.98,
-    "atk_basic": 18,
-    "atk_aim": "enemy_all",
-    "d_type": "phy",
-    "talentId": 30602012,
+  "30601022": {
+    "des": "在场触发，每隔3回合触发，为友方全体侠客释放1层[九阳真气]，可叠加,持续2回合，并且能额外触发第3层效果:回合回怒效果提升100%",
+    "heal_aim": "team_self",
     "atk_count": 1
   },
-  "30602013": {
-    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击331%的护盾，持续2回合",
-    "atk_mul": 1.51,
-    "atk_basic": 18,
-    "atk_aim": "enemy_all",
-    "d_type": "phy",
-    "talentId": 30602013,
+  "30601023": {
+    "des": "在场触发，每隔2回合触发，为友方全体侠客释放1层[九阳真气]，可叠加,持续2回合，并且能额外触发第3层效果:回合回怒效果提升100%",
+    "heal_aim": "team_self",
     "atk_count": 1
   },
-  "30602014": {
-    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击406%的护盾，持续2回合",
-    "atk_mul": 1.83,
-    "atk_basic": 18,
-    "atk_aim": "enemy_all",
-    "d_type": "phy",
-    "talentId": 30602014,
+  "30601024": {
+    "des": "在场触发，每隔1回合触发，为友方全体侠客释放1层[九阳真气]，可叠加,持续2回合，并且能额外触发第3层效果:回合回怒效果提升100%",
+    "heal_aim": "team_self",
     "atk_count": 1
   },
-  "30602015": {
-    "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;为友方全体侠客附加攻击498%的护盾，持续2回合",
-    "atk_mul": 2.18,
-    "atk_basic": 18,
-    "atk_aim": "enemy_all",
-    "d_type": "phy",
-    "talentId": 30602015,
+  "30601025": {
+    "des": "在场触发，每回合开始时为友方全体侠客释放1层[九阳真气]，可叠加,持续2回合，并且能额外触发第3层效果:回合回怒效果提升100%",
+    "heal_aim": "team_self",
     "atk_count": 1
   },
   "40501011": {
