@@ -1111,17 +1111,17 @@
   "20403051": {
     "des": "开场触发，对敌方前排造成攻击100%外功伤害，有10%概率使目标【晕眩】，持续1回合",
     "key1": "beigin_skill",
-    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.1}"
+    "value1": 20403051
   },
   "20403052": {
     "des": "开场触发，对敌方前排造成攻击200%外功伤害，有30%概率使目标【晕眩】，持续1回合",
     "key1": "beigin_skill",
-    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
+    "value1": 1
   },
   "20403053": {
     "des": "开场触发，对敌方前排造成攻击300%外功伤害，有50%概率使目标【晕眩】，持续1回合",
     "key1": "beigin_skill",
-    "value1": "{\"buffId\":\"dizzy\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.5}"
+    "value1": 1
   },
   "20404021": {
     "des": "击杀触发，若目标职业为剑或者气，则对敌方全体造成攻击100%外功伤害。",
@@ -1251,27 +1251,27 @@
   "20501031": {
     "des": "每隔4回合开始，使自身下1次被攻击时闪避额外提升30%",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":4,\"value,:0.3,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":4,\"value\":0.3,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "20501032": {
     "des": "每隔3回合开始，使自身下1次被攻击时闪避额外提升30%",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":3,\"value,:0.3,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":3,\"value\":0.3,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "20501033": {
     "des": "每隔2回合开始，使自身下1次被攻击时闪避额外提升35%",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":2,\"value,:0.35,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":2,\"value\":0.35,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "20501034": {
     "des": "每隔2回合开始，使自身下1次被攻击时闪避额外提升45%",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":2,\"value,:0.45,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":2,\"value\":0.45,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "20501035": {
     "des": "每隔1回合开始，使自身下1次被攻击时闪避额外提升50%",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":1,\"value,:0.5,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"hitDef_up_cd\",\"cd\":1,\"value\":0.5,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "20501041": {
     "des": "技攻触发，增加自己增伤10%,持续2回合（可叠加）",
@@ -1365,28 +1365,28 @@
   },
   "20502041": {
     "des": "开场触发，对敌方距离最远1名侠客造成攻击200%外功伤害",
-    "key1": "beigin_skill",
-    "value1": 20502041
+    "key1": "round_skill",
+    "value1": "skill_20502041"
   },
   "20502042": {
     "des": "开场触发，对敌方距离最远1名侠客造成攻击300%外功伤害",
-    "key1": "beigin_skill",
-    "value1": 1
+    "key1": "round_skill",
+    "value1": "skill_20502042"
   },
   "20502043": {
     "des": "每隔5回合开始时，对敌方距离最远1名侠客造成攻击300%外功伤害；40%概率使目标【石化】，持续1回合",
-    "key1": "beigin_skill",
-    "value1": 1
+    "key1": "round_skill",
+    "value1": "skill_20502043"
   },
   "20502044": {
     "des": "每隔4回合开始时，对敌方距离最远1名侠客造成攻击400%外功伤害；70%概率使目标【石化】，持续1回合",
-    "key1": "beigin_skill",
-    "value1": 1
+    "key1": "round_skill",
+    "value1": "skill_20502044"
   },
   "20502045": {
     "des": "每隔3回合开始时，对敌方距离最远1名侠客造成攻击500%外功伤害；100%概率使目标【石化】，持续1回合",
-    "key1": "beigin_skill",
-    "value1": 1
+    "key1": "round_skill",
+    "value1": "skill_20502045"
   },
   "20502051": {
     "des": "普攻有30%概率使敌方随机1人受到【外伤】，每回合受到攻击45%伤害，持续2回合",
@@ -1501,22 +1501,22 @@
   "20602022": {
     "des": "死亡触发，有45%概率对敌方全体侠客造成攻击80%的外功伤害",
     "key1": "died_skill",
-    "value1": 20602022
+    "value1": 1
   },
   "20602023": {
     "des": "死亡触发，有50%概率对敌方全体侠客造成攻击80%的外功伤害，若目标处于【冰魄】状态，则额外受到80%，并且降低减伤5%，持续1回合",
     "key1": "died_skill",
-    "value1": 20602023
+    "value1": 1
   },
   "20602024": {
     "des": "死亡触发，有60%概率对敌方全体侠客造成攻击100%的外功伤害，若目标处于【冰魄】状态，则额外受到100%，并且降低减伤10%，持续1回合",
     "key1": "died_skill",
-    "value1": 20602024
+    "value1": 1
   },
   "20602025": {
     "des": "死亡触发，有80%概率对敌方全体侠客造成攻击150%的外功伤害，若目标处于【冰魄】状态，则额外受到150%，并且降低减伤15%，持续1回合",
     "key1": "died_skill",
-    "value1": 20602025
+    "value1": 1
   },
   "20602031": {
     "des": "开场触发，素心小龙女与西狂杨过同练玉女心经，使两者速度提升3点，持续至战斗结束。",
@@ -1773,17 +1773,23 @@
   "30402051": {
     "des": "被攻击有5%几率触发，对敌方全体造成攻击30%外功伤害",
     "key1": "behit_skill",
-    "value1": 30402051
+    "value1": 30402051,
+    "key2": "behit_skill_rate",
+    "value2": 0.05
   },
   "30402052": {
     "des": "被攻击有10%几率触发，对敌方全体造成攻击40%外功伤害",
     "key1": "behit_skill",
-    "value1": 1
+    "value1": 1,
+    "key2": "behit_skill_rate",
+    "value2": 0.05
   },
   "30402053": {
     "des": "被攻击有15%几率触发，对敌方全体造成攻击50%外功伤害",
     "key1": "behit_skill",
-    "value1": 1
+    "value1": 1,
+    "key2": "behit_skill_rate",
+    "value2": 0.05
   },
   "30403021": {
     "des": "开场增加友方全体侠客攻击值4%，持续至战斗结束",
@@ -2055,14 +2061,12 @@
   "30502051": {
     "des": "自身血量首次低于30%触发，进入【无相】状态，免疫外功伤害和【外伤】 状态，持续1回合",
     "key1": "first_buff2",
-    "value1": "{\"buffId\":\"wuxiang\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"wuxiang_pre\",\"targetType\":\"team_self\",\"LOWHP1\":0.3,\"duration\":99,\"rate\":1,\"buff\":{\"buffId\":\"wuxiang\",\"targetType\":\"team_self\",\"duration\":1,\"rate\":1}}"
   },
   "30502052": {
     "des": "自身血量首次低于70%和30%触发，进入【无相】状态，免疫外功伤害和【外伤】 状态，持续1回合；同时回复自身怒气30点，30%最大血量",
     "key1": "first_buff2",
-    "value1": "{\"buffId\":\"wuxiang\",\"targetType\":\"team_self\",\"mul\":0.3,\"duration\":99,\"rate\":1,\"anger\":30,\"heal\":0.3}",
-    "key2": "first_buff3",
-    "value2": "{\"buffId\":\"wuxiang\",\"targetType\":\"team_self\",\"mul\":0.7,\"duration\":99,\"rate\":1,\"anger\":30,\"heal\":0.3}"
+    "value1": "{\"buffId\":\"wuxiang_pre\",\"targetType\":\"team_self\",\"LOWHP1\":0.7,\"LOWHP2\":0.3,\"duration\":99,\"rate\":1,\"buff\":{\"buffId\":\"wuxiang\",\"targetType\":\"team_self\",\"duration\":1,\"rate\":1}}"
   },
   "30502053": {
     "des": "开场触发，分别有40%概率嘲讽敌方全体侠客，强制其普攻自己，持续1回合",
@@ -2249,21 +2253,23 @@
     "key2": "hp_loss_star",
     "value2": 1,
     "key3": "hp_loss_skill",
-    "value3": 30504050
+    "value3": 30504050,
+    "key4": "hp_loss_rate",
+    "value4": 1
   },
   "30504052": {
     "des": "自身每累计损失70%的最大血量时触发，立即对敌方全体造成攻击150%的真实伤害",
     "key1": "hp_loss_per",
     "value1": -0.1,
     "key2": "hp_loss_star",
-    "value2": 2
+    "value2": 1
   },
   "30504053": {
     "des": "自身每累计损失60%的最大血量时触发，立即对敌方全体造成攻击250%的真实伤害",
     "key1": "hp_loss_per",
     "value1": -0.1,
     "key2": "hp_loss_star",
-    "value2": 3
+    "value2": 1
   },
   "30505021": {
     "des": "开场触发，进入【降龙】 状态，吸取敌方侠客中血量最高的目标血量上限6%;攻击最高的目标攻击4%，持续至战斗结束",
@@ -2331,37 +2337,37 @@
     "des": "击杀触发，提升自身外功伤害10%，可叠加，持续至战斗结束;并且对敌方随机1名侠客释放一次普攻 (不受控制效果影响，但是无法回怒)，每回合可触发1次",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"phyAmp_always\",\"targetType\":\"team_self\",\"value\":0.1,\"duration\":99,\"rate\":1}",
-    "key2": "first_buff1",
+    "key2": "first_buff3",
     "value2": "{\"buffId\":\"kill_add_normal\",\"targetType\":\"team_self\",\"num\":1,\"duration\":99,\"rate\":1}"
   },
   "30505044": {
     "des": "击杀触发，提升自身外功伤害12%，可叠加，持续至战斗结束;并且对敌方随机1名侠客释放一次普攻 (不受控制效果影响，但是无法回怒)，每回合可触发2次",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"phyAmp_always\",\"targetType\":\"team_self\",\"value\":0.12,\"duration\":99,\"rate\":1}",
-    "key2": "first_buff1",
+    "key2": "first_buff3",
     "value2": "{\"buffId\":\"kill_add_normal\",\"targetType\":\"team_self\",\"num\":2,\"duration\":99,\"rate\":1}"
   },
   "30505045": {
     "des": "击杀触发，提升自身外功伤害15%，可叠加，持续至战斗结束;并且对敌方随机1名侠客释放一次普攻 (不受控制效果影响，但是无法回怒)，每回合可触发3次",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"phyAmp_always\",\"targetType\":\"team_self\",\"value\":0.15,\"duration\":99,\"rate\":1}",
-    "key2": "first_buff1",
+    "key2": "first_buff3",
     "value2": "{\"buffId\":\"kill_add_normal\",\"targetType\":\"team_self\",\"num\":3,\"duration\":99,\"rate\":1}"
   },
   "30505051": {
     "des": "在场触发，洪七公使用打狗棒法护卫友方全体侠客，敌方侠客攻击时，洪七公有40%概率进行反击，对出手侠客进行一次普攻 (可触发普攻效果，不受控制效果影响，但是无法回怒)，每回合可触发1次",
-    "key1": "first_buff2",
-    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.4,\"value\":1,\"duration\":99,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.4,\"num\":1,\"duration\":99,\"rate\":1}"
   },
   "30505052": {
     "des": "在场触发，洪七公使用打狗棒法护卫友方全体侠客，敌方侠客攻击时，洪七公有50%概率进行反击，对出手侠客进行一次普攻 (可触发普攻效果，不受控制效果影响，但是无法回怒)，每回合可触发2次",
-    "key1": "first_buff2",
-    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.5,\"value\":2,\"duration\":99,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.5,\"num\":2,\"duration\":99,\"rate\":1}"
   },
   "30505053": {
     "des": "在场触发，洪七公使用打狗棒法护卫友方全体侠客，敌方侠客攻击时，洪七公有60%概率进行反击，对出手侠客进行一次普攻 (可触发普攻效果，不受控制效果影响，但是无法回怒)，每回合可触发3次",
-    "key1": "first_buff2",
-    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.6,\"value\":3,\"duration\":99,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_305050\",\"targetType\":\"enemy_all\",\"mul\":0.6,\"num\":3,\"duration\":99,\"rate\":1}"
   },
   "30506021": {
     "des": "技攻触发，有30%概率为友方全体侠客释放1层【九阳真气】可叠加，持续2回合;九阳真气每叠加1层，效果得到巨大提升，并且同时生效，第一层:受击前，将自身10%攻击转换为护甲;攻击前，将自身20%护甲转换为攻击;第二层:受到外功伤害攻击时，反弹本次遭受的外功伤害的20%。",
