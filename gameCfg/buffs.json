@@ -40,6 +40,14 @@
     "attKey1": "armor",
     "show_tag": "armor_up"
   },
+  "armor_up_always": {
+    "name": "护甲提升（不可驱散）",
+    "des": "护甲提升",
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "armor",
+    "show_tag": "armor_up"
+  },
   "atk_down": {
     "name": "攻击降低",
     "des": "攻击力降低",
@@ -63,13 +71,15 @@
     "des": "吸取目标一定攻击力，不可驱散",
     "max_count": 2,
     "normal": true,
-    "attKey1": "atk"
+    "attKey1": "atk",
+    "save": true
   },
   "atk_suck_les": {
     "name": "汲取攻击",
     "des": "被吸取一定攻击力，不可驱散",
     "max_count": 2,
     "attKey1": "atk",
+    "save": true,
     "show_tag": "atk_suck"
   },
   "armor_suck_add": {
@@ -77,13 +87,15 @@
     "des": "吸取目标一定护甲，不可驱散",
     "max_count": 2,
     "normal": true,
-    "attKey1": "armor"
+    "attKey1": "armor",
+    "save": true
   },
   "armor_suck_les": {
     "name": "汲取护甲",
     "des": "被吸取一定护甲，不可驱散",
     "max_count": 2,
     "attKey1": "armor",
+    "save": true,
     "show_tag": "armor_suck"
   },
   "atk_up_always": {
@@ -444,7 +456,8 @@
     "icon": true,
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "totem_friend_amp": {
     "name": "百鸟朝凤",
@@ -452,7 +465,8 @@
     "icon": true,
     "max_count": 1,
     "attKey1": "normalDef",
-    "attValue1": -1
+    "attValue1": -1,
+    "save": true
   },
   "totem_amp": {
     "name": "百鸟朝凤增伤",
@@ -574,7 +588,8 @@
     "name": "掌势",
     "des": "我方侠客被控制时，有概率驱散此次控制，并提升免控",
     "icon": true,
-    "max_count": 3
+    "max_count": 3,
+    "save": true
   },
   "kuangtao": {
     "name": "狂涛",
@@ -583,7 +598,8 @@
     "max_count": 1,
     "attKey1": "amp",
     "attKey2": "hit",
-    "attKey3": "crit"
+    "attKey3": "crit",
+    "save": true
   },
   "store_damage": {
     "name": "化劲",
@@ -594,7 +610,8 @@
   "lowhp_atk": {
     "name": "低血量攻击加成",
     "des": "血量低于30%时，增加自身攻击力一定比例",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "jiuyang": {
     "name": "九阳功",
@@ -623,7 +640,8 @@
     "des": "无法以任何方式复活",
     "effects": true,
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "sign_unheal": {
     "name": "印记",
@@ -638,19 +656,22 @@
     "name": "耗血免控",
     "des": "被控制时有几率触发，消耗自身血量上限9%的血量 (血量低于15%时不消耗血量)，免疫此次控制效果，该效果每隔N回合至多生效1次。",
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "extra_ation": {
     "name": "先机",
     "des": "开场触发，获得[先机]，回合开始时进行一次攻击行为 (不消耗原有的攻击次数)，该效果每隔N回合生效1次。",
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "chuchen_pre": {
     "name": "出尘(预备)",
     "des": "受到致命伤害时触发，进入[出尘] 状态",
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "chuchen": {
     "name": "出尘",
@@ -662,7 +683,8 @@
     "name": "共赴生死",
     "des": "每回合开始时，若一人阵亡、一人存活，则使阵亡方以30%血量复活，恢复25点怒气，且可以行动",
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "disturb": {
     "name": "干扰",
@@ -674,12 +696,14 @@
   "crit_losshp": {
     "name": "血量越少，暴击越高",
     "des": "血量越少，暴击越高",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "atk_losshp": {
     "name": "血量越少，攻击越高",
     "des": "血量越少，攻击越高",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "dizzy": {
     "name": "眩晕",
@@ -728,12 +752,14 @@
   "copy_skill": {
     "name": "复制武学",
     "des": "敌方侠客释放技攻时，有概率复制对方技能（仅复制1个，无法复制使自身无法行动的技能），回合结束时，消耗最多50点怒气释放此次技能，且不受控制状态影响",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "buff_305010": {
     "name": "提升攻防",
     "des": "自身血量高于50%时，攻击提升,自身血量低于50%时，减伤提升",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "lowhp_heal": {
     "name": "低血回血",
@@ -754,12 +780,14 @@
     "name": "嘲讽抗性",
     "des": "嘲讽抗性",
     "max_count": 99,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "behit_rebound_allAtk": {
     "name": "受击反伤",
     "des": "受击触发，对攻击者造成友方存活侠客总攻击一定比例的真实伤害，每回合至多触发一定次数",
-    "max_count": 2
+    "max_count": 2,
+    "save": true
   },
   "hitDef_305030": {
     "name": "醉步",
@@ -779,24 +807,28 @@
     "name": "斗酒",
     "des": "普攻优先选择斗酒目标，普攻斗酒目标时伤害增加",
     "icon": true,
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "xianglong": {
     "name": "降龙",
     "des": "吸取敌方侠客中血量最高的目标血量上限;攻击最高的目标攻击，护甲最高的目标护甲，持续至战斗结束",
     "icon": true,
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "kill_add_normal": {
     "name": "击杀普攻",
     "des": "击杀触发普攻,有冷却回合",
     "max_count": 1,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "buff_305050": {
     "name": "打狗棒法",
     "des": "敌方侠客攻击时，有概率进行反击，对出手侠客进行一次普攻 (可触发普攻效果，不受控制效果影响，但是无法回怒)",
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "hunyuan": {
     "name": "混元",
@@ -808,7 +840,8 @@
   "buff_305060": {
     "name": "存活加成",
     "des": "每回合开始时，友方每有1名侠客存活，提升友方全体属性。",
-    "max_count": 5
+    "max_count": 5,
+    "save": true
   },
   "buff_304010": {
     "name": "破格降低",
@@ -822,13 +855,15 @@
     "name": "汲取增加",
     "des": "汲取增加",
     "max_count": 5,
-    "normal": true
+    "normal": true,
+    "save": true
   },
   "insane": {
     "name": "疯癫",
     "des": "[疯癫]状态，免疫[冰冻]和[石化]，并为随机敌方侠客标记[追杀]，使自身所有攻击均优先攻击[追杀] 目标",
     "effects": true,
-    "max_count": 1
+    "max_count": 1,
+    "save": true
   },
   "wuxiang_pre": {
     "name": "无相(预备)",
@@ -843,5 +878,202 @@
     "effects": true,
     "max_count": 1,
     "normal": true
+  },
+  "buff_406010": {
+    "name": "花烬",
+    "des": "每回合结束时,若自身已经死亡,则以一定血量复活 (场上存在友方侠客时生效),每隔数回合可生效一次",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_406015": {
+    "name": "人鬼殊途",
+    "des": "降低受疗效果、汲取效果",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "healAdd",
+    "save": true
+  },
+  "buff_406022": {
+    "name": "高内力加成",
+    "des": "若内力高于目标,每点内力造成额外伤害，最高100点",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_406023": {
+    "name": "内力降低",
+    "des": "降低内力、同时降低内力对应内伤内防",
+    "max_count": 5,
+    "attKey1": "main_mag",
+    "attKey2": "magAmp",
+    "attKey3": "magDef"
+  },
+  "buff_406024": {
+    "name": "气系复活",
+    "des": "友方职业为气的侠客死亡触发,该侠客立即以血量上限一定比例复活，并获得免疫盾",
+    "max_count": 1,
+    "save": true
+  },
+  "invincible": {
+    "name": "伤害免疫",
+    "des": "一定回合内免疫任何伤害",
+    "icon": true,
+    "effects": true,
+    "max_count": 3
+  },
+  "buff_406025": {
+    "name": "超额内力伤害",
+    "des": "每回合结束时,若友方侠客当前内力总值高于敌方120点,则由自身和友方内力最高的2个侠客,分别对敌方全体造成一次伤害",
+    "max_count": 1,
+    "save": true
+  },
+  "normal_damage": {
+    "name": "溅射伤害",
+    "des": "攻击有概率造成溅射伤害",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_405015": {
+    "name": "女性回怒",
+    "des": "开场触发,每回合结束时,有概率回复友方全体女性侠客一定怒气",
+    "max_count": 1,
+    "save": true
+  },
+  "normal_skill": {
+    "name": "普攻技能",
+    "des": "普攻有几率触发技能",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_405024": {
+    "name": "复活",
+    "des": "自己死亡时有几率重生,并恢复60%血量,恢复自己怒气100;可生效1次",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405033": {
+    "name": "降低受疗",
+    "des": "开场触发,降低敌方全体受疗效果10%,持续1回合。(不可驱散)",
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "healAdd"
+  },
+  "skill_anger": {
+    "name": "技能回怒",
+    "des": "有概率恢复自身怒气值",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405035": {
+    "name": "中毒减疗",
+    "des": "若目标处于中毒状态,则受疗效果降低",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405043": {
+    "name": "技攻回怒",
+    "des": "敌方侠客技攻触发,立即恢复自身怒气",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_405044": {
+    "name": "免疫外伤",
+    "des": "被附加外伤时,有概率免疫此次外伤状态",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405045": {
+    "name": "后排减伤",
+    "des": "提升友方后排侠客减伤、暴免,每被攻击一次效果降低,不可叠加",
+    "icon": true,
+    "max_count": 1,
+    "attKey1": "ampDef",
+    "attKey2": "critDef"
+  },
+  "buff_405052": {
+    "name": "灵蛇追命",
+    "des": "释放技攻时消耗的怒气提升,并且增伤降低",
+    "icon": true,
+    "max_count": 1,
+    "normal": true
+  },
+  "buff_405053": {
+    "name": "闪避提升",
+    "des": "自身闪避提升",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "hitDef"
+  },
+  "buff_405054": {
+    "name": "气系反击",
+    "des": "在场触发,友方职业为气的侠客受到攻击时,自身有概率对攻击者发动复仇,造成攻击一定比例的真实伤害",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_405055": {
+    "name": "内伤袭杀",
+    "des": "在场触发,敌方侠客被附加内伤时,自身对目标发动袭杀,造成敌方血量上限的真实伤害",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405062": {
+    "name": "弹奏免伤",
+    "des": "在弹奏状态下,受到技攻伤害有几率触发,免疫本次伤害 (每回合至多触发N次）",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405073": {
+    "name": "中毒减怒",
+    "des": "目标受到【中毒】 伤害时,每层【中毒】 额外降低目标怒气，最多5层",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405083": {
+    "name": "控制反弹",
+    "des": "被控制时有几率反弹此控制效果给敌方随机目标,该效果每隔N回合生效1次",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405085": {
+    "name": "禁怒",
+    "des": "无法获得任何怒气,持续至战斗结束",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405092": {
+    "name": "驱散中毒内伤",
+    "des": "攻击有几率触发,驱散自己和友方侠客的N个【中毒】和【内伤】状态。",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405094": {
+    "name": "内功增伤减伤",
+    "des": "增加自己内功增伤、内功减伤",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_405095": {
+    "name": "持续伤害增加",
+    "des": "受到的【外伤】【内伤】【中毒】伤害增加",
+    "save": true
+  },
+  "heal": {
+    "name": "持续恢复",
+    "des": "每回合恢复一定生命值",
+    "icon": true,
+    "max_count": 99
   }
 }

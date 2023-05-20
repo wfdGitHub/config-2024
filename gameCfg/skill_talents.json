@@ -813,6 +813,21 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"nuoyi_back\",\"targetType\":\"team_self\",\"mul\":0.7,\"duration\":2,\"rate\":0.7}"
   },
+  "40401023": {
+    "des": "普攻有26%几率触发,对敌方前排造成攻击100%内功伤害。并束缚目标,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
+  },
+  "40401024": {
+    "des": "普攻有32%几率触发,对敌方前排造成攻击100%内功伤害。并束缚目标,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
+  },
+  "40401025": {
+    "des": "普攻有40%几率触发,对敌方前排造成攻击100%内功伤害。并束缚目标,持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"disarm\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":1}"
+  },
   "40501011": {
     "des": "分别有50%概率降低目标15点怒气",
     "key1": "loss_anger_rate",
@@ -923,6 +938,21 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"amp_up\",\"targetType\":\"team_only_back\",\"value\":0.1,\"duration\":2,\"rate\":1}"
   },
+  "40504051": {
+    "des": "每隔4回合触发,提升友方后排侠客减伤15%、暴免15%,每被攻击一次降低5%,不可叠加",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"buff_405045\",\"targetType\":\"team_all\",\"value\":0.1,\"duration\":99,\"rate\":1}"
+  },
+  "40504052": {
+    "des": "每隔3回合触发,提升友方后排侠客减伤20%、暴免20%,每被攻击一次降低5%,不可叠加",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"buff_405045\",\"targetType\":\"team_all\",\"value\":0.2,\"duration\":99,\"rate\":1}"
+  },
+  "40504053": {
+    "des": "每隔2回合触发,提升友方后排侠客减伤30%、暴免30%,每被攻击一次降低5%,不可叠加",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"buff_405045\",\"targetType\":\"team_all\",\"value\":0.3,\"duration\":99,\"rate\":1}"
+  },
   "40505011": {
     "des": "自身进入【蛇影】状态，受到处于内伤状态的侠客攻击时，闪避提升15%，持续2回合",
     "key1": "buff1",
@@ -969,6 +999,51 @@
     "des": "弹奏百鸟朝风，持续3回合。弹奏期间，自身无法行动，增加友方除自己外全体侠客增伤15%，同时自身免疫控制 (眩晕、石化、冰冻、魅惑、沉默、束缚)，但无法恢复怒气，受到的普攻伤害翻倍",
     "key1": "buff1",
     "value1": "{\"buffId\":\"totem_friend_amp\",\"targetType\":\"team_self\",\"value\":0.15,\"duration\":3,\"rate\":1}"
+  },
+  "40507021": {
+    "des": "每隔2回合开始,获得自身生命上限6%的护盾,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_self\",\"duration\":1,\"maxHP_mul\":0.06,\"rate\":1}"
+  },
+  "40507022": {
+    "des": "每隔2回合开始,获得自身生命上限8%的护盾,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_self\",\"duration\":1,\"maxHP_mul\":0.08,\"rate\":1}"
+  },
+  "40507023": {
+    "des": "每隔2回合开始,获得自身生命上限10%的护盾,持续2回合,护盾持续期间,自身减伤提升10%。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_self\",\"duration\":2,\"maxHP_mul\":0.1,\"rate\":1,\"attKey1\":\"ampDef\",\"attValue1\":0.1}"
+  },
+  "40507024": {
+    "des": "每隔2回合开始,获得自身生命上限12%的护盾,持续2回合,护盾持续期间,自身减伤提升12%。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_self\",\"duration\":2,\"maxHP_mul\":0.12,\"rate\":1,\"attKey1\":\"ampDef\",\"attValue1\":0.12}"
+  },
+  "40507025": {
+    "des": "每隔1回合开始,获得自身生命上限15%的护盾,持续2回合,护盾持续期间,自身减伤提升15%。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_self\",\"duration\":2,\"maxHP_mul\":0.15,\"rate\":1,\"attKey1\":\"ampDef\",\"attValue1\":0.15}"
+  },
+  "40508023": {
+    "des": "每隔2回合开始,对敌方前排侠客造成攻击150%内功伤害,有70%几率使目标【沉默】,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"silence\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.7}"
+  },
+  "40509033": {
+    "des": "攻击触发,对敌方前排造成攻击52%外功伤害,并分别有12%几率使目标【封穴】 (目标触发技能无法施展,且无法格挡和闪避),持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.12}"
+  },
+  "40509034": {
+    "des": "攻击触发,对敌方前排造成攻击64%外功伤害,并分别有24%几率使目标【封穴】 (目标触发技能无法施展,且无法格挡和闪避),持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.24}"
+  },
+  "40509035": {
+    "des": "攻击触发,对敌方前排造成攻击80%外功伤害,并分别有40%几率使目标【封穴】 (目标触发技能无法施展,且无法格挡和闪避),持续2回合。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"vital_point\",\"targetType\":\"skill_targets\",\"duration\":2,\"rate\":0.4}"
   },
   "40601011": {
     "des": "使目标受到【中毒】，每回合受到攻击70%的伤害，持续2回合;",
