@@ -43,7 +43,7 @@
   "armor_up_always": {
     "name": "护甲提升（不可驱散）",
     "des": "护甲提升",
-    "max_count": 1,
+    "max_count": 99,
     "normal": true,
     "attKey1": "armor",
     "show_tag": "armor_up"
@@ -60,7 +60,7 @@
   "armor_down": {
     "name": "护甲降低",
     "des": "护甲降低",
-    "max_count": 1,
+    "max_count": 3,
     "normal": true,
     "dispel_less": true,
     "attKey1": "armor",
@@ -103,7 +103,6 @@
     "des": "攻击力提升",
     "max_count": 99,
     "normal": true,
-    "dispel_add": true,
     "attKey1": "atk",
     "show_tag": "atk_up"
   },
@@ -198,9 +197,8 @@
     "name": "闪避提升",
     "des": "每隔一定回合下一次被攻击闪避提升",
     "max_count": 1,
-    "normal": true,
-    "once": true,
-    "attKey1": "hitDef"
+    "attKey1": "hitDef",
+    "save": true
   },
   "jiuyang_up": {
     "name": "九阳技能增伤",
@@ -841,6 +839,7 @@
     "name": "存活加成",
     "des": "每回合开始时，友方每有1名侠客存活，提升友方全体属性。",
     "max_count": 5,
+    "normal": true,
     "save": true
   },
   "buff_304010": {
@@ -862,8 +861,7 @@
     "name": "疯癫",
     "des": "[疯癫]状态，免疫[冰冻]和[石化]，并为随机敌方侠客标记[追杀]，使自身所有攻击均优先攻击[追杀] 目标",
     "effects": true,
-    "max_count": 1,
-    "save": true
+    "max_count": 1
   },
   "wuxiang_pre": {
     "name": "无相(预备)",
@@ -891,7 +889,7 @@
     "name": "人鬼殊途",
     "des": "降低受疗效果、汲取效果",
     "icon": true,
-    "max_count": 1,
+    "max_count": 2,
     "attKey1": "healAdd",
     "save": true
   },
@@ -899,12 +897,14 @@
     "name": "高内力加成",
     "des": "若内力高于目标,每点内力造成额外伤害，最高100点",
     "max_count": 1,
+    "normal": true,
     "save": true
   },
   "buff_406023": {
     "name": "内力降低",
     "des": "降低内力、同时降低内力对应内伤内防",
     "max_count": 5,
+    "normal": true,
     "attKey1": "main_mag",
     "attKey2": "magAmp",
     "attKey3": "magDef"
@@ -913,6 +913,7 @@
     "name": "气系复活",
     "des": "友方职业为气的侠客死亡触发,该侠客立即以血量上限一定比例复活，并获得免疫盾",
     "max_count": 1,
+    "normal": true,
     "save": true
   },
   "invincible": {
@@ -920,7 +921,8 @@
     "des": "一定回合内免疫任何伤害",
     "icon": true,
     "effects": true,
-    "max_count": 3
+    "max_count": 3,
+    "normal": true
   },
   "buff_406025": {
     "name": "超额内力伤害",
@@ -930,14 +932,16 @@
   },
   "normal_damage": {
     "name": "溅射伤害",
-    "des": "攻击有概率造成溅射伤害",
+    "des": "普攻有概率造成溅射伤害",
     "max_count": 1,
+    "normal": true,
     "save": true
   },
   "buff_405015": {
     "name": "女性回怒",
     "des": "开场触发,每回合结束时,有概率回复友方全体女性侠客一定怒气",
     "max_count": 1,
+    "normal": true,
     "save": true
   },
   "normal_skill": {
@@ -948,17 +952,9 @@
   },
   "buff_405024": {
     "name": "复活",
-    "des": "自己死亡时有几率重生,并恢复60%血量,恢复自己怒气100;可生效1次",
+    "des": "自己死亡时有几率重生,并恢复60%血量,恢复自己怒气100;有次数限制",
     "max_count": 1,
-    "normal": true,
     "save": true
-  },
-  "buff_405033": {
-    "name": "降低受疗",
-    "des": "开场触发,降低敌方全体受疗效果10%,持续1回合。(不可驱散)",
-    "max_count": 1,
-    "normal": true,
-    "attKey1": "healAdd"
   },
   "skill_anger": {
     "name": "技能回怒",
@@ -971,7 +967,6 @@
     "name": "中毒减疗",
     "des": "若目标处于中毒状态,则受疗效果降低",
     "max_count": 1,
-    "normal": true,
     "save": true
   },
   "buff_405043": {
@@ -989,11 +984,10 @@
   },
   "buff_405045": {
     "name": "后排减伤",
-    "des": "提升友方后排侠客减伤、暴免,每被攻击一次效果降低,不可叠加",
+    "des": "提升友方后排侠客减伤,每被攻击一次效果降低,不可叠加",
     "icon": true,
     "max_count": 1,
-    "attKey1": "ampDef",
-    "attKey2": "critDef"
+    "attKey1": "ampDef"
   },
   "buff_405052": {
     "name": "灵蛇追命",
@@ -1011,7 +1005,7 @@
     "attKey1": "hitDef"
   },
   "buff_405054": {
-    "name": "气系反击",
+    "name": "同系反击",
     "des": "在场触发,友方职业为气的侠客受到攻击时,自身有概率对攻击者发动复仇,造成攻击一定比例的真实伤害",
     "max_count": 1,
     "save": true
@@ -1038,7 +1032,7 @@
     "save": true
   },
   "buff_405083": {
-    "name": "控制反弹",
+    "name": "转移控制",
     "des": "被控制时有几率反弹此控制效果给敌方随机目标,该效果每隔N回合生效1次",
     "max_count": 1,
     "normal": true,
@@ -1068,6 +1062,9 @@
   "buff_405095": {
     "name": "持续伤害增加",
     "des": "受到的【外伤】【内伤】【中毒】伤害增加",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
     "save": true
   },
   "heal": {
@@ -1075,5 +1072,11 @@
     "des": "每回合恢复一定生命值",
     "icon": true,
     "max_count": 99
+  },
+  "buff_206014": {
+    "name": "行动BUFF",
+    "des": "其他侠客攻击时为自己添加BUFF",
+    "max_count": 1,
+    "save": true
   }
 }

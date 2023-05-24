@@ -1455,28 +1455,28 @@
   },
   "20601041": {
     "des": "在场时,每当其他任意侠客攻击后,均会增加自己增伤1%,持续1回合 (至多叠加5层)",
-    "key1": "other_hero_ation_buff",
-    "value1": "{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.01,\"duration\":1,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_206014\",\"targetType\":\"team_self\",\"duration\":99,\"rate\":1,\"extra_buff\":{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.01,\"duration\":1,\"rate\":1}}"
   },
   "20601042": {
     "des": "在场时,每当其他任意侠客攻击后,均会增加自己增伤2%,持续1回合 (至多叠加5层)",
-    "key1": "other_hero_ation_buff",
-    "value1": "{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.02,\"duration\":1,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_206014\",\"targetType\":\"team_self\",\"duration\":99,\"rate\":1,\"extra_buff\":{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.02,\"duration\":1,\"rate\":1}}"
   },
   "20601043": {
     "des": "在场时,每当其他任意侠客攻击后,均会增加自己增伤3%,持续1回合 (至多叠加5层)",
-    "key1": "other_hero_ation_buff",
-    "value1": "{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.03,\"duration\":1,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_206014\",\"targetType\":\"team_self\",\"duration\":99,\"rate\":1,\"extra_buff\":{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.03,\"duration\":1,\"rate\":1}}"
   },
   "20601044": {
     "des": "在场时,每当其他任意侠客攻击后,均会增加自己增伤4%,持续1回合 (至多叠加5层)",
-    "key1": "other_hero_ation_buff",
-    "value1": "{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.04,\"duration\":1,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_206014\",\"targetType\":\"team_self\",\"duration\":99,\"rate\":1,\"extra_buff\":{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.04,\"duration\":1,\"rate\":1}}"
   },
   "20601045": {
     "des": "在场时,每当其他任意侠客攻击后,均会增加自己增伤6%,持续1回合 (至多叠加5层)",
-    "key1": "other_hero_ation_buff",
-    "value1": "{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.06,\"duration\":1,\"rate\":1}"
+    "key1": "first_buff4",
+    "value1": "{\"buffId\":\"buff_206014\",\"targetType\":\"team_self\",\"duration\":99,\"rate\":1,\"extra_buff\":{\"buffId\":\"amp_206010\",\"targetType\":\"team_self\",\"value\":0.06,\"duration\":1,\"rate\":1}}"
   },
   "20601051": {
     "des": "开场触发,获得【先机】,回合开始时进行一次攻击行为 (不消耗原有的攻击次数),该效果每隔4回合生效1次。",
@@ -2761,27 +2761,27 @@
   "40501031": {
     "des": "普攻有24%几率触发,对范围目标造成56%溅射伤害",
     "key1": "first_buff3",
-    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.56,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.24,\"value\":0.56,\"duration\":99,\"rate\":1}"
   },
   "40501032": {
     "des": "普攻有36%几率触发,对范围目标造成80%溅射伤害",
     "key1": "first_buff3",
-    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.8,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.36,\"value\":0.8,\"duration\":99,\"rate\":1}"
   },
   "40501033": {
     "des": "普攻有48%几率触发,对范围目标造成104%溅射伤害",
     "key1": "first_buff3",
-    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":1.04,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.48,\"value\":1.04,\"duration\":99,\"rate\":1}"
   },
   "40501034": {
     "des": "普攻有60%几率触发,对范围目标造成128%溅射伤害",
     "key1": "first_buff3",
-    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":1.28,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.6,\"value\":1.28,\"duration\":99,\"rate\":1}"
   },
   "40501035": {
     "des": "普攻有75%几率触发,对范围目标造成152%溅射伤害",
     "key1": "first_buff3",
-    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":1.52,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"normal_damage\",\"targetType\":\"team_self\",\"mul\":0.75,\"value\":1.52,\"duration\":99,\"rate\":1}"
   },
   "40501041": {
     "des": "技攻触发,对男性侠客伤害增加14%",
@@ -2811,17 +2811,17 @@
   "40501051": {
     "des": "开场触发,每回合结束时,有25%概率回复友方全体女性侠客10点怒气,持续3回合",
     "key1": "first_buff4",
-    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.25,\"value\":10,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.25,\"value\":10,\"duration\":3,\"rate\":1}"
   },
   "40501052": {
     "des": "开场触发,每回合结束时,有40%概率回复友方全体女性侠客15点怒气,持续3回合",
     "key1": "first_buff4",
-    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.4,\"value\":15,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.4,\"value\":15,\"duration\":3,\"rate\":1}"
   },
   "40501053": {
     "des": "开场触发,每回合结束时,有60%概率回复友方全体女性侠客25点怒气,持续3回合",
     "key1": "first_buff4",
-    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.6,\"value\":25,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405015\",\"targetType\":\"team_self\",\"mul\":0.6,\"value\":25,\"duration\":3,\"rate\":1}"
   },
   "40502021": {
     "des": "普攻有12%几率触发,对敌方全体侠客造成攻击160%内功伤害。",
@@ -2951,27 +2951,27 @@
   "40503031": {
     "des": "开场触发,降低敌方全体受疗效果10%,持续1回合。(不可驱散)",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"buff_405033\",\"targetType\":\"enemy_all\",\"value\":0.1,\"duration\":1,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_406015\",\"targetType\":\"enemy_all\",\"value\":-0.1,\"duration\":1,\"rate\":1}"
   },
   "40503032": {
     "des": "开场触发,降低敌方全体受疗效果15%,持续1回合。(不可驱散)",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"buff_405033\",\"targetType\":\"enemy_all\",\"value\":0.15,\"duration\":1,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_406015\",\"targetType\":\"enemy_all\",\"value\":-0.15,\"duration\":1,\"rate\":1}"
   },
   "40503033": {
     "des": "开场触发,降低敌方全体受疗效果20%,持续2回合。(不可驱散)",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"buff_405033\",\"targetType\":\"enemy_all\",\"value\":0.2,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_406015\",\"targetType\":\"enemy_all\",\"value\":-0.2,\"duration\":2,\"rate\":1}"
   },
   "40503034": {
     "des": "开场触发,降低敌方全体受疗效果25%,持续2回合。(不可驱散)",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"buff_405033\",\"targetType\":\"enemy_all\",\"value\":0.25,\"duration\":2,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_406015\",\"targetType\":\"enemy_all\",\"value\":-0.25,\"duration\":2,\"rate\":1}"
   },
   "40503035": {
     "des": "开场触发,降低敌方全体受疗效果35%,持续3回合。(不可驱散)",
     "key1": "begin_buff1",
-    "value1": "{\"buffId\":\"buff_405033\",\"targetType\":\"enemy_all\",\"value\":0.35,\"duration\":3,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_406015\",\"targetType\":\"enemy_all\",\"value\":-0.35,\"duration\":3,\"rate\":1}"
   },
   "40503041": {
     "des": "技攻触发,有28%概率增加自己怒气24",
@@ -3001,17 +3001,17 @@
   "40503051": {
     "des": "在场时,若目标处于中毒状态,则受疗效果降低15%",
     "key1": "begin_buff2",
-    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":0.15,\"duration\":1,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":-0.15,\"duration\":99,\"rate\":1}"
   },
   "40503052": {
     "des": "在场时,若目标处于中毒状态,则受疗效果降低25%",
     "key1": "begin_buff2",
-    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":0.25,\"duration\":1,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":-0.25,\"duration\":99,\"rate\":1}"
   },
   "40503053": {
     "des": "在场时,若目标处于中毒状态,则受疗效果降低35%",
     "key1": "begin_buff2",
-    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":0.35,\"duration\":1,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405035\",\"targetType\":\"enemy_all\",\"value\":-0.35,\"duration\":99,\"rate\":1}"
   },
   "40504021": {
     "des": "首次死亡触发,为友方全体侠客恢复已损失血量30%,降低敌方全体侠客增伤8%,持续1回合",
@@ -3089,17 +3089,17 @@
     "value1": "{\"buffId\":\"buff_405044\",\"targetType\":\"team_all\",\"mul\":0.4,\"duration\":99,\"rate\":1}"
   },
   "40504051": {
-    "des": "每隔4回合触发,提升友方后排侠客减伤10%、暴免10%,每被攻击一次降低5%,不可叠加",
+    "des": "每隔4回合触发,提升友方后排侠客减伤10%,每被攻击一次降低5%,不可叠加",
     "key1": "round_skill",
     "value1": 40504051
   },
   "40504052": {
-    "des": "每隔3回合触发,提升友方后排侠客减伤20%、暴免20%,每被攻击一次降低5%,不可叠加",
+    "des": "每隔3回合触发,提升友方后排侠客减伤20%,每被攻击一次降低5%,不可叠加",
     "key1": "round_skill",
     "value1": 1
   },
   "40504053": {
-    "des": "每隔2回合触发,提升友方后排侠客减伤30%、暴免30%,每被攻击一次降低5%,不可叠加",
+    "des": "每隔2回合触发,提升友方后排侠客减伤30%,每被攻击一次降低5%,不可叠加",
     "key1": "round_skill",
     "value1": 1
   },
@@ -3118,21 +3118,21 @@
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"skill_anger\",\"targetType\":\"team_self\",\"mul\":0.38,\"value\":25,\"duration\":99,\"rate\":1}",
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"skill_targets\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":0.1,\"duration\":1,\"rate\":1}"
+    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"enemy_3\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":-0.1,\"duration\":1,\"rate\":1}"
   },
   "40505024": {
     "des": "技攻触发,有46%概率恢复自身25点怒气,并对敌方随机3名侠客附加灵蛇追命,目标释放技攻时消耗的怒气提升25点,并且增伤降低15%,持续1回合",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"skill_anger\",\"targetType\":\"team_self\",\"mul\":0.46,\"value\":25,\"duration\":99,\"rate\":1}",
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"skill_targets\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":0.1,\"duration\":1,\"rate\":1}"
+    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"enemy_3\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":-0.15,\"duration\":1,\"rate\":1}"
   },
   "40505025": {
     "des": "技攻触发,有60%概率恢复自身25点怒气,并对敌方随机3名侠客附加灵蛇追命,目标释放技攻时消耗的怒气提升25点,并且增伤降低20%,持续2回合",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"skill_anger\",\"targetType\":\"team_self\",\"mul\":0.6,\"value\":25,\"duration\":99,\"rate\":1}",
     "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"skill_targets\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":0.1,\"duration\":1,\"rate\":1}"
+    "value2": "{\"buffId\":\"buff_405052\",\"targetType\":\"enemy_3\",\"value\":25,\"attKey1\":\"amp\",\"attValue1\":-0.2,\"duration\":1,\"rate\":1}"
   },
   "40505031": {
     "des": "开场触发,使自身闪避提升12%,持续1回合",
@@ -3161,7 +3161,7 @@
   "40505035": {
     "des": "开场触发,使自身闪避提升30%,闪避触发,为目标附加1层内伤,每回合受到180%的内功伤害,持续2回合",
     "key1": "first_buff2",
-    "value1": "{\"buffId\":\"buff_405053\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":3,\"rate\":1}",
+    "value1": "{\"buffId\":\"buff_405053\",\"targetType\":\"team_self\",\"value\":0.3,\"duration\":2,\"rate\":1}",
     "key2": "miss_buff",
     "value2": "{\"buffId\":\"mag_damage\",\"targetType\":\"skill_targets\",\"mul\":1.8,\"duration\":2,\"rate\":1}"
   },
@@ -3419,27 +3419,27 @@
     "value1": 1
   },
   "40508031": {
-    "des": "被控制时有28%几率反弹此控制效果给敌方随机目标,该效果每隔4回合生效1次",
+    "des": "被控制时有28%几率反弹此控制效果给敌方随机目标,该效果每4回合生效1次",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"buff_405083\",\"cd\":4,\"mul\":0.28,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "40508032": {
-    "des": "被控制时有40%几率反弹此控制效果给敌方随机目标,该效果每隔4回合生效1次",
+    "des": "被控制时有40%几率反弹此控制效果给敌方随机目标,该效果每4回合生效1次",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"buff_405083\",\"cd\":4,\"mul\":0.4,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "40508033": {
-    "des": "被控制时有52%几率反弹此控制效果给敌方随机目标,该效果每隔3回合生效1次",
+    "des": "被控制时有52%几率反弹此控制效果给敌方随机目标,该效果每3回合生效1次",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"buff_405083\",\"cd\":3,\"mul\":0.52,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "40508034": {
-    "des": "被控制时有64%几率反弹此控制效果给敌方随机目标,该效果每隔3回合生效1次",
+    "des": "被控制时有64%几率反弹此控制效果给敌方随机目标,该效果每3回合生效1次",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"buff_405083\",\"cd\":3,\"mul\":0.64,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
   "40508035": {
-    "des": "被控制时有80%几率反弹此控制效果给敌方随机目标,该效果每隔2回合生效1次",
+    "des": "被控制时有80%几率反弹此控制效果给敌方随机目标,该效果每2回合生效1次",
     "key1": "first_buff1",
     "value1": "{\"buffId\":\"buff_405083\",\"cd\":2,\"mul\":0.8,\"targetType\":\"team_self\",\"duration\":99,\"rate\":1}"
   },
@@ -3486,27 +3486,27 @@
   "40509021": {
     "des": "攻击有28%几率触发,驱散自己1个【中毒】和1个【内伤】状态。",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.28,\"value\":1,\"player\":1,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.28,\"value\":1,\"player\":0,\"duration\":99,\"rate\":1}"
   },
   "40509022": {
     "des": "攻击有40%几率触发,驱散自己1个【中毒】和1个【内伤】状态。",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.4,\"value\":1,\"player\":1,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.4,\"value\":1,\"player\":0,\"duration\":99,\"rate\":1}"
   },
   "40509023": {
     "des": "攻击有52%几率触发,驱散自己和友方随机1个侠客的1个【中毒】和1个【内伤】状态。",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.52,\"value\":1,\"player\":2,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.52,\"value\":1,\"player\":1,\"duration\":99,\"rate\":1}"
   },
   "40509024": {
     "des": "攻击有64%几率触发,驱散自己和友方随机1个侠客的2个【中毒】和2个【内伤】状态。",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.64,\"value\":2,\"player\":2,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.64,\"value\":2,\"player\":1,\"duration\":99,\"rate\":1}"
   },
   "40509025": {
     "des": "攻击有80%几率触发,驱散自己和友方随机2个侠客的2个【中毒】和2个【内伤】状态。",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.8,\"value\":2,\"player\":3,\"duration\":99,\"rate\":1}"
+    "value1": "{\"buffId\":\"buff_405092\",\"targetType\":\"team_self\",\"mul\":0.8,\"value\":2,\"player\":2,\"duration\":99,\"rate\":1}"
   },
   "40509031": {
     "des": "攻击触发,对敌方前排造成攻击28%外功伤害",
@@ -3713,32 +3713,34 @@
   "40602031": {
     "des": "攻击触发,目标每有1层【内伤】 状态,降低其2点内力,持续3回合,至多叠加5层。",
     "key1": "atk_magdmg_buff",
-    "value1": "{\"buffId\":\"hunyuan\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":2,\"magAmp\":0.02,\"magDef\":0.02,\"duration\":3,\"rate\":1,\"count\":1}"
+    "value1": "{\"buffId\":\"buff_406023\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":2,\"magAmp\":0.02,\"magDef\":0.02,\"duration\":3,\"rate\":1,\"count\":1}"
   },
   "40602032": {
     "des": "攻击触发,目标每有1层【内伤】 状态,降低其4点内力,持续3回合,至多叠加5层。",
     "key1": "atk_magdmg_buff",
-    "value1": "{\"buffId\":\"hunyuan\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":4,\"magAmp\":0.04,\"magDef\":0.04,\"duration\":3,\"rate\":1,\"count\":1}"
+    "value1": "{\"buffId\":\"buff_406023\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":4,\"magAmp\":0.04,\"magDef\":0.04,\"duration\":3,\"rate\":1,\"count\":1}"
   },
   "40602033": {
     "des": "攻击触发,目标每有1层【内伤】 状态,降低其6点内力,持续3回合,至多叠加5层。",
     "key1": "atk_magdmg_buff",
-    "value1": "{\"buffId\":\"hunyuan\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":6,\"magAmp\":0.06,\"magDef\":0.06,\"duration\":3,\"rate\":1,\"count\":1}"
+    "value1": "{\"buffId\":\"buff_406023\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":6,\"magAmp\":0.06,\"magDef\":0.06,\"duration\":3,\"rate\":1,\"count\":1}"
   },
   "40602034": {
     "des": "攻击触发,目标每有1层【内伤】 状态,降低其8点内力,持续3回合,至多叠加5层。",
     "key1": "atk_magdmg_buff",
-    "value1": "{\"buffId\":\"hunyuan\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":8,\"magAmp\":0.08,\"magDef\":0.08,\"duration\":3,\"rate\":1,\"count\":1}"
+    "value1": "{\"buffId\":\"buff_406023\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":8,\"magAmp\":0.08,\"magDef\":0.08,\"duration\":3,\"rate\":1,\"count\":1}"
   },
   "40602035": {
     "des": "攻击触发,目标每有1层【内伤】 状态,降低其10点内力,持续3回合,至多叠加5层。",
     "key1": "atk_magdmg_buff",
-    "value1": "{\"buffId\":\"hunyuan\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":10,\"magAmp\":0.1,\"magDef\":0.1,\"duration\":3,\"rate\":1,\"count\":1}"
+    "value1": "{\"buffId\":\"buff_406023\",\"targetType\":\"team_all\",\"attKey1\":\"main_mag\",\"attValue1\":10,\"magAmp\":0.1,\"magDef\":0.1,\"duration\":3,\"rate\":1,\"count\":1}"
   },
   "40602041": {
     "des": "友方职业为气的侠客死亡触发,该侠客立即以血量上限10%的血量复活(仅生效1次)",
     "key1": "first_buff1",
-    "value1": "{\"buffId\":\"buff_406024\",\"targetType\":\"team_self\",\"mul\":0.1,\"duration\":99,\"rate\":1,\"num\":1}"
+    "value1": "{\"buffId\":\"buff_406024\",\"targetType\":\"team_self\",\"mul\":0.1,\"duration\":99,\"rate\":1,\"num\":1}",
+    "key2": "any_die_monitor",
+    "value2": true
   },
   "40602042": {
     "des": "友方职业为气的侠客死亡触发,该侠客立即以血量上限15%的血量复活(仅生效1次)",
