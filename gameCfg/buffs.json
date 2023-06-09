@@ -2,6 +2,7 @@
   "control_up": {
     "name": "控制提升",
     "des": "控制提升",
+    "max_count": 99,
     "normal": true,
     "dispel_add": true,
     "attKey1": "control",
@@ -10,6 +11,7 @@
   "control_down": {
     "name": "控制降低",
     "des": "控制降低",
+    "max_count": 99,
     "normal": true,
     "dispel_less": true,
     "attKey1": "control",
@@ -18,14 +20,16 @@
   "controlDef_up": {
     "name": "免控提升",
     "des": "免控提升",
+    "max_count": 99,
     "normal": true,
-    "dispel_add": true,
     "attKey1": "controlDef",
+    "save": true,
     "show_tag": "controlDef_up"
   },
   "controlDef_down": {
     "name": "免控降低",
     "des": "免控降低",
+    "max_count": 99,
     "normal": true,
     "dispel_less": true,
     "attKey1": "controlDef",
@@ -69,7 +73,7 @@
   "atk_suck_add": {
     "name": "汲取攻击(攻)",
     "des": "吸取目标一定攻击力，不可驱散",
-    "max_count": 2,
+    "max_count": 4,
     "normal": true,
     "attKey1": "atk",
     "save": true
@@ -77,7 +81,7 @@
   "atk_suck_les": {
     "name": "汲取攻击",
     "des": "被吸取一定攻击力，不可驱散",
-    "max_count": 2,
+    "max_count": 4,
     "attKey1": "atk",
     "save": true,
     "show_tag": "atk_suck"
@@ -85,7 +89,7 @@
   "armor_suck_add": {
     "name": "汲取护甲(攻)",
     "des": "吸取目标一定护甲，不可驱散",
-    "max_count": 2,
+    "max_count": 4,
     "normal": true,
     "attKey1": "armor",
     "save": true
@@ -93,7 +97,7 @@
   "armor_suck_les": {
     "name": "汲取护甲",
     "des": "被吸取一定护甲，不可驱散",
-    "max_count": 2,
+    "max_count": 4,
     "attKey1": "armor",
     "save": true,
     "show_tag": "armor_suck"
@@ -475,7 +479,7 @@
     "show_tag": "amp_up"
   },
   "block_buff": {
-    "name": "格挡",
+    "name": "格挡提升",
     "des": "提升自身一定格挡比例",
     "icon": true,
     "max_count": 1,
@@ -1003,7 +1007,8 @@
     "icon": true,
     "max_count": 1,
     "normal": true,
-    "attKey1": "hitDef"
+    "attKey1": "hitDef",
+    "save": true
   },
   "buff_405054": {
     "name": "同系反击",
@@ -1077,6 +1082,106 @@
     "name": "行动BUFF",
     "des": "其他侠客攻击时为自己添加BUFF",
     "max_count": 1,
+    "save": true
+  },
+  "woman_amp": {
+    "name": "女性伤害",
+    "des": "对女性侠客造成的伤害改变",
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "amp",
+    "save": true
+  },
+  "man_amp": {
+    "name": "男性伤害",
+    "des": "对男性侠客造成的伤害改变",
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "amp",
+    "save": true
+  },
+  "buff_506015": {
+    "name": "友方技攻回怒",
+    "des": "友方其他侠客每次技攻后。立即获得5点怒气,每回合至多可获得20",
+    "max_count": 1,
+    "save": true
+  },
+  "uncontrol_once": {
+    "name": "免疫控制",
+    "des": "免疫一次控制效果",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_505015": {
+    "name": "驱散异常",
+    "des": "被攻击后血量低于30%时触发,驱散自身所有异常状态,并对友方全体侠客治疗自身血量上限20%血量。(仅触发2次)",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "turtle": {
+    "name": "龟息",
+    "des": "死亡触发,进入【龟息】状态,下回合有10%的概率复活,并恢复血量上限20%的血量,每过1回合复活概率增加5%,5回合后必定复活",
+    "max_count": 1,
+    "save": true
+  },
+  "buff_505033": {
+    "name": "伤害增加",
+    "des": "造成的伤害增加,持续至战斗结束 (可叠加7层)",
+    "icon": true,
+    "max_count": 7,
+    "normal": true,
+    "attKey1": "amp",
+    "save": true,
+    "show_tag": "amp_up"
+  },
+  "buff_505054": {
+    "name": "伤害强化",
+    "des": "增加自己增伤和减伤,持续至战斗结束,最多叠加10层",
+    "icon": true,
+    "max_count": 10,
+    "normal": true
+  },
+  "ampDef_up_always": {
+    "name": "减伤增加",
+    "des": "减伤增加",
+    "max_count": 99,
+    "normal": true,
+    "attKey1": "ampDef",
+    "save": true
+  },
+  "buff_505063": {
+    "name": "技攻触发追击",
+    "des": "在场触发,友方侠客释放技攻时,圣因师太有80%概率对敌方侠客追击1次普攻。(无视控制状态,可触发自身技能)",
+    "max_count": 1,
+    "save": true
+  },
+  "vital_point_sneak": {
+    "name": "袭杀",
+    "des": "攻击前对目标附加【封穴】 (触发类技能将无法施展,且无法格挡和闪避) ,攻击后消失",
+    "max_count": 1,
+    "normal": true,
+    "save": true
+  },
+  "buff_504012": {
+    "name": "护甲增加",
+    "des": "增加友方全体护甲,持续至战斗结束",
+    "icon": true,
+    "max_count": 99,
+    "normal": true,
+    "dispel_add": true,
+    "attKey1": "armor"
+  },
+  "buff_504034": {
+    "name": "强化",
+    "des": "开场增加自己增伤减伤,持续至战斗结束。",
+    "icon": true,
+    "max_count": 1,
+    "normal": true,
+    "attKey1": "amp",
+    "attKey2": "ampDef",
     "save": true
   }
 }

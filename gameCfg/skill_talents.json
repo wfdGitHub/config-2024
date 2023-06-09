@@ -1099,6 +1099,91 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"splash_mag\",\"targetType\":\"team_self\",\"mul\":0.4,\"duration\":2,\"rate\":1}"
   },
+  "50501023": {
+    "des": "攻击触发,对友方全体治疗攻击60%血量;同时有10%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"targetType\":\"enemy_all\",\"duration\":1,\"rate\":0.1}"
+  },
+  "50501024": {
+    "des": "攻击触发,对友方全体治疗攻击80%血量;同时有20%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"targetType\":\"enemy_all\",\"duration\":1,\"rate\":0.2}"
+  },
+  "50501025": {
+    "des": "攻击触发,对友方全体治疗攻击100%血量;同时有30%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"targetType\":\"enemy_all\",\"duration\":1,\"rate\":0.3}"
+  },
+  "50501041": {
+    "des": "每隔5回合触发,为友方全体附加血量上限3%的护盾,持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"maxHP_mul\":0.03}"
+  },
+  "50501042": {
+    "des": "每隔5回合触发,为友方全体附加血量上限5%的护盾,持续2回合",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"maxHP_mul\":0.05}"
+  },
+  "50501043": {
+    "des": "每隔4回合触发,为友方全体附加血量上限7%的护盾,持续2回合,并且护盾消失后获得10点怒气。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"maxHP_mul\":0.07,\"anger\":10}"
+  },
+  "50501044": {
+    "des": "每隔4回合触发,为友方全体附加血量上限10%的护盾,持续2回合,并且护盾消失后获得15点怒气。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"maxHP_mul\":0.1,\"anger\":15}"
+  },
+  "50501045": {
+    "des": "每隔3回合触发,为友方全体附加血量上限15%的护盾,持续2回合,并且护盾消失后获得25点怒气。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"hudun\",\"targetType\":\"team_all\",\"duration\":2,\"rate\":1,\"maxHP_mul\":0.15,\"anger\":25}"
+  },
+  "50502023": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击100%内功伤害,并使目标有5%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击100%血量。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.05}"
+  },
+  "50502024": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击120%内功伤害,并使目标有15%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击120%血量。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.15}"
+  },
+  "50502025": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击150%内功伤害,并使目标有30%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击150%血量。",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"petrify\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
+  },
+  "50502043": {
+    "des": "每隔3回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击120%血量,否则,为友方血量最低的目标恢复攻击488%血量",
+    "key1": "revive_friend_mul",
+    "value1": 1.2
+  },
+  "50502044": {
+    "des": "每隔2回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击240%血量,否则,为友方血量最低的目标恢复攻击600%血量",
+    "key1": "revive_friend_mul",
+    "value1": 1.2
+  },
+  "50502045": {
+    "des": "每隔2回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击360%血量,否则,为友方血量最低的目标恢复攻击728%血量",
+    "key1": "revive_friend_mul",
+    "value1": 1.2
+  },
+  "50505033": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击100%内功伤害,分别有30%概率冰冻,持续1回合(仅生效1次)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.3}"
+  },
+  "50505034": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击120%内功伤害,分别有60%概率冰冻,持续1回合(仅生效1次)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":0.6}"
+  },
+  "50505035": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击150%内功伤害,分别有100%概率冰冻,持续1回合(仅生效1次)",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"targetType\":\"skill_targets\",\"duration\":1,\"rate\":1}"
+  },
   "404010011": {
     "des": "并分别有15%几率束缚目标，持续2回合。",
     "key1": "buff1",

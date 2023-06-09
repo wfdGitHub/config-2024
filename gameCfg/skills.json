@@ -2529,6 +2529,46 @@
     "talentId": 50401015,
     "atk_count": 1
   },
+  "50401031": {
+    "des": "攻击有20%几率触发,对敌方前排造成攻击80%内功伤害。",
+    "atk_mul": 0.8,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50401032": {
+    "des": "攻击有30%几率触发,对敌方前排造成攻击100%内功伤害。",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50401033": {
+    "des": "攻击有40%几率触发,对敌方前排造成攻击120%内功伤害。",
+    "atk_mul": 1.2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50401034": {
+    "des": "攻击有50%几率触发,对敌方前排造成攻击150%内功伤害。",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50401035": {
+    "des": "攻击有65%几率触发,对敌方前排造成攻击200%内功伤害。",
+    "atk_mul": 2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
   "50402011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;该伤害无视护甲，汲取30%。",
     "atk_mul": 2.1,
@@ -2619,6 +2659,46 @@
     "talentId": 50403015,
     "atk_count": 1
   },
+  "50403031": {
+    "des": "被普攻触发,对敌方前排分别有16%概率造成攻击60%内功伤害",
+    "atk_mul": 0.6,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50403032": {
+    "des": "被普攻触发,对敌方前排分别有22%概率造成攻击90%内功伤害",
+    "atk_mul": 0.9,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50403033": {
+    "des": "被普攻触发,对敌方前排分别有30%概率造成攻击120%内功伤害",
+    "atk_mul": 1.2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50403034": {
+    "des": "被普攻触发,对敌方前排分别有40%概率造成攻击150%内功伤害",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50403035": {
+    "des": "被普攻触发,对敌方前排分别有50%概率造成攻击200%内功伤害",
+    "atk_mul": 2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_front",
+    "d_type": "mag",
+    "atk_count": 1
+  },
   "50501011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;同时提高友方全体5%减伤，持续1回合",
     "atk_mul": 1.18,
@@ -2664,6 +2744,79 @@
     "talentId": 50501015,
     "atk_count": 1
   },
+  "50501021": {
+    "des": "攻击触发,对友方全体治疗攻击20%血量",
+    "heal_mul": 0.2,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "atk_count": 1
+  },
+  "50501022": {
+    "des": "攻击触发,对友方全体治疗攻击40%血量",
+    "heal_mul": 0.4,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "atk_count": 1
+  },
+  "50501023": {
+    "des": "攻击触发,对友方全体治疗攻击60%血量;同时有10%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "heal_mul": 0.6,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 50501023,
+    "atk_count": 1
+  },
+  "50501024": {
+    "des": "攻击触发,对友方全体治疗攻击80%血量;同时有20%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "heal_mul": 0.8,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 50501024,
+    "atk_count": 1
+  },
+  "50501025": {
+    "des": "攻击触发,对友方全体治疗攻击100%血量;同时有30%概率对攻击目标【嘲讽】 ,强制其普攻自己,持续1回合",
+    "heal_mul": 1,
+    "heal_basic": 0,
+    "heal_aim": "team_all",
+    "talentId": 50501025,
+    "atk_count": 1
+  },
+  "50501041": {
+    "des": "每隔5回合触发,为友方全体附加自身血量上限3%的护盾,持续2回合",
+    "heal_aim": "team_all",
+    "talentId": 50501041,
+    "atk_count": 1,
+    "CD": 5
+  },
+  "50501042": {
+    "des": "每隔5回合触发,为友方全体附加自身血量上限4%的护盾,持续2回合",
+    "heal_aim": "team_all",
+    "talentId": 50501042,
+    "atk_count": 1,
+    "CD": 5
+  },
+  "50501043": {
+    "des": "每隔4回合触发,为友方全体附加自身血量上限5%的护盾,持续2回合,并且护盾消失后获得10点怒气。",
+    "heal_aim": "team_all",
+    "talentId": 50501043,
+    "atk_count": 1,
+    "CD": 4
+  },
+  "50501044": {
+    "des": "每隔4回合触发,为友方全体附加自身血量上限6%的护盾,持续2回合,并且护盾消失后获得15点怒气。",
+    "heal_aim": "team_all",
+    "talentId": 50501044,
+    "atk_count": 1,
+    "CD": 4
+  },
+  "50501045": {
+    "des": "每隔3回合触发,为友方全体附加自身血量上限8%的护盾,持续2回合,并且护盾消失后获得25点怒气。",
+    "heal_aim": "team_all",
+    "talentId": 50501045,
+    "atk_count": 1,
+    "CD": 3
+  },
   "50502011": {
     "des": "对heal_aim治疗攻击heal_mul+heal_value的血量;并增加目标外功减伤10%，持续2回合",
     "heal_mul": 1.65,
@@ -2703,6 +2856,107 @@
     "heal_aim": "team_all",
     "talentId": 50502015,
     "atk_count": 1
+  },
+  "50502021": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击60%内功伤害,同时为友方血量最低目标治疗攻击60%血量。",
+    "atk_mul": 0.6,
+    "atk_basic": 0,
+    "atk_aim": "enemy_1",
+    "d_type": "mag",
+    "heal_mul": 0.6,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "atk_count": 1
+  },
+  "50502022": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击80%内功伤害,同时为友方血量最低目标治疗攻击80%血量。",
+    "atk_mul": 0.8,
+    "atk_basic": 0,
+    "atk_aim": "enemy_1",
+    "d_type": "mag",
+    "heal_mul": 0.8,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "atk_count": 1
+  },
+  "50502023": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击100%内功伤害,并使目标有5%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击100%血量。",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_1",
+    "d_type": "mag",
+    "heal_mul": 1,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502023,
+    "atk_count": 1
+  },
+  "50502024": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击120%内功伤害,并使目标有15%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击120%血量。",
+    "atk_mul": 1.2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_1",
+    "d_type": "mag",
+    "heal_mul": 1.2,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502024,
+    "atk_count": 1
+  },
+  "50502025": {
+    "des": "普攻触发,对敌方随机1名侠客造成攻击150%内功伤害,并使目标有30%几率【石化】 ,持续1回合。同时为友方血量最低目标治疗攻击150%血量。",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_1",
+    "d_type": "mag",
+    "heal_mul": 1.5,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502025,
+    "atk_count": 1
+  },
+  "50502041": {
+    "des": "每隔3回合触发一次;为友方血量最低的目标恢复攻击264%血量",
+    "heal_mul": 2.64,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "atk_count": 1,
+    "CD": 3
+  },
+  "50502042": {
+    "des": "每隔3回合触发一次;为友方血量最低的目标恢复攻击376%血量",
+    "heal_mul": 3.76,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "atk_count": 1,
+    "CD": 3
+  },
+  "50502043": {
+    "des": "每隔3回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击120%血量,否则,为友方血量最低的目标恢复攻击488%血量",
+    "heal_mul": 4.88,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502043,
+    "atk_count": 1,
+    "CD": 3
+  },
+  "50502044": {
+    "des": "每隔2回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击240%血量,否则,为友方血量最低的目标恢复攻击600%血量",
+    "heal_mul": 6,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502044,
+    "atk_count": 1,
+    "CD": 2
+  },
+  "50502045": {
+    "des": "每隔2回合触发一次;若友方存在阵亡侠客,则随机复活友方1个侠客,并恢复攻击360%血量,否则,为友方血量最低的目标恢复攻击728%血量",
+    "heal_mul": 7.28,
+    "heal_basic": 0,
+    "heal_aim": "friend_minHP",
+    "talentId": 50502045,
+    "atk_count": 1,
+    "CD": 2
   },
   "50503011": {
     "des": "对atk_aim造成atk_mul+atk_value的d_type伤害;使目标受到【内伤】，每回合受到攻击40%内功伤害,持续至战斗结束;有40%概率使目标【冰冻】，持续1回合",
@@ -2837,6 +3091,49 @@
     "atk_aim": "enemy_normal",
     "d_type": "mag",
     "talentId": 50505015,
+    "atk_count": 1
+  },
+  "50505031": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击60%内功伤害(仅生效1次)",
+    "atk_mul": 0.6,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50505032": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击80%内功伤害(仅生效1次)",
+    "atk_mul": 0.8,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "atk_count": 1
+  },
+  "50505033": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击100%内功伤害,分别有30%概率冰冻,持续1回合(仅生效1次)",
+    "atk_mul": 1,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 50505033,
+    "atk_count": 1
+  },
+  "50505034": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击120%内功伤害,分别有60%概率冰冻,持续1回合(仅生效1次)",
+    "atk_mul": 1.2,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 50505034,
+    "atk_count": 1
+  },
+  "50505035": {
+    "des": "被攻击后,自身血量低于50%时触发,对敌方全体造成攻击150%内功伤害,分别有100%概率冰冻,持续1回合(仅生效1次)",
+    "atk_mul": 1.5,
+    "atk_basic": 0,
+    "atk_aim": "enemy_all",
+    "d_type": "mag",
+    "talentId": 50505035,
     "atk_count": 1
   },
   "50506011": {
