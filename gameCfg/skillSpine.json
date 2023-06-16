@@ -27,7 +27,7 @@
     "name": "凋零术",
     "skill": "ACGN/300100/skill",
     "st": 0,
-    "ht": "[160,330,430,560,700,830,960,1100,1230,1360,1500,1830]"
+    "ht": "[160,330,430,560,700,830,960]"
   },
   "300200": {
     "name": "燃魂劫火",
@@ -51,7 +51,7 @@
     "name": "灭神击",
     "skill": "ACGN/400100/skill",
     "st": 0,
-    "ht": "[60,160,260,400,500,660,730,830]"
+    "ht": "[60,160,260,400,500,660]"
   },
   "400200": {
     "name": "火焰吐息",
@@ -184,10 +184,11 @@
   },
   "backDamage": {
     "name": "物理群",
+    "repetition": true,
     "res": "books/backDamage/001/backDamage_001",
     "skill": "books/backDamage/002/backDamage_002",
     "st": 0,
-    "ht": "[200,400,600,800,1000]"
+    "ht": "[730]"
   },
   "frontDamage": {
     "name": "法术群",
@@ -240,7 +241,7 @@
     "situ": true,
     "skill": "ACGN/105010/pg/pg",
     "st": 0,
-    "ht": "[1660]"
+    "ht": "[1000]"
   },
   "105010_skill": {
     "name": "skill",
@@ -266,17 +267,17 @@
   },
   "105030_atk": {
     "name": "Atk",
-    "situ": true,
+    "turn": "turn",
     "skill": "ACGN/105030/pg/pg",
     "st": 0,
-    "ht": "[330]"
+    "ht": "[730]"
   },
   "105030_skill": {
     "name": "skill",
-    "situ": true,
+    "turn": "turn",
     "skill": "ACGN/105030/skill/skill",
     "st": 0,
-    "ht": "[800,1000,1300]"
+    "ht": "[1160]"
   },
   "105040_atk": {
     "name": "Atk",
@@ -296,22 +297,25 @@
   },
   "105050_atk": {
     "name": "Atk",
+    "turn": "turn",
     "skill": "ACGN/105050/pg/pg",
     "st": 0,
-    "ht": "[460,1200]"
+    "ht": "[730,1130]"
   },
   "105050_skill": {
     "name": "skill",
+    "turn": "turn",
     "skill": "ACGN/105050/skill/skill",
     "st": 0,
-    "ht": "[1660]"
+    "ht": "[1000,1330,1660,2100]"
   },
   "105060_atk": {
     "name": "Atk",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/105060/pg/pg",
     "st": 0,
-    "ht": "[330]"
+    "ht": "[1000]"
   },
   "105060_skill": {
     "name": "skill",
@@ -319,22 +323,21 @@
     "turn": "turn",
     "skill": "ACGN/105060/skill/skill",
     "st": 0,
-    "ht": "[1060]"
+    "ht": "[1830]"
   },
   "105070_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/105070/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[830,1000]"
   },
   "105070_skill": {
     "name": "skill",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/105070/skill/skill",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[660,1000,1330]"
   },
   "105080_atk": {
     "name": "Atk",
@@ -343,15 +346,16 @@
     "turn": "turn",
     "skill": "ACGN/105080/pg/pg",
     "st": 0,
-    "ht": "[360,1100,1300,1930]"
+    "ht": "[660,1100]"
   },
   "105080_skill": {
     "name": "skill",
+    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/105080/skill/skill",
     "st": 0,
-    "ht": "[500,800]"
+    "ht": "[330,660,1000]"
   },
   "105090_atk": {
     "name": "Atk",
@@ -359,7 +363,7 @@
     "turn": "turn",
     "skill": "ACGN/105090/pg/pg",
     "st": 0,
-    "ht": "[830,1000]"
+    "ht": "[330]"
   },
   "105090_skill": {
     "name": "skill",
@@ -367,63 +371,58 @@
     "repetition": true,
     "skill": "ACGN/105090/skill/skill",
     "st": 0,
-    "ht": "[360,1100,1330,1930]"
+    "ht": "[360]"
   },
   "105100_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/105100/pg/pg",
     "st": 0,
-    "ht": "[1660,2800]"
+    "ht": "[800]"
   },
   "105100_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/105100/skill/skill",
     "st": 0,
-    "ht": "[1660]"
+    "ht": "[1960]"
   },
   "205010_atk": {
     "name": "Atk",
-    "skill": "ACGN/205010/pg/pg",
     "st": 0,
-    "ht": "[860]"
+    "ht": "[430]"
   },
   "205010_skill": {
     "name": "skill",
-    "skill": "ACGN/205010/skill/skill",
     "st": 0,
-    "ht": "[860]"
+    "ht": "[1260]"
   },
   "205020_atk": {
     "name": "Atk",
     "skill": "ACGN/205020/pg/pg",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[600]"
   },
   "205020_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/205020/skill/skill",
     "st": 0,
-    "ht": "[860,1600]"
+    "ht": "[500]"
   },
   "205030_atk": {
     "name": "Atk",
-    "situ": true,
     "turn": "turn",
-    "skill": "ACGN/205030/pg/pg",
     "st": 0,
-    "ht": "[330,1000]"
+    "ht": "[1400]"
   },
   "205030_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/205030/skill/skill",
     "st": 0,
-    "ht": "[2330]"
+    "ht": "[1930]"
   },
   "205040_atk": {
     "name": "Atk",
@@ -445,6 +444,7 @@
   },
   "205050_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/205050/pg/pg",
     "st": 0,
     "ht": "[500]"
@@ -466,47 +466,42 @@
   },
   "205060_skill": {
     "name": "skill",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/205060/skill/skill",
     "st": 0,
-    "ht": "[1160,1360,1860]"
+    "ht": "[1160]"
   },
   "205070_atk": {
     "name": "Atk",
+    "turn": "turn",
     "skill": "ACGN/205070/pg/pg",
     "st": 0,
-    "ht": "[400]"
+    "ht": "[700,1900]"
   },
   "205070_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/205070/skill/skill",
     "st": 0,
-    "ht": "[1800]"
+    "ht": "[1500,1660,1830,2000,2160,2330,2660,3000,3330,3600]"
   },
   "205080_atk": {
     "name": "Atk",
-    "situ": true,
-    "skill": "ACGN/205080/pg/pg",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[760]"
   },
   "205080_skill": {
     "name": "skill",
-    "situ": true,
-    "skill": "ACGN/205080/skill/skill",
     "st": 0,
-    "ht": "[360,830,1160]"
+    "ht": "[1730]"
   },
   "205090_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/205090/pg/pg",
     "st": 0,
-    "ht": "[530,1960]"
+    "ht": "[530]"
   },
   "205090_skill": {
     "name": "skill",
@@ -514,7 +509,7 @@
     "turn": "turn",
     "skill": "ACGN/205090/skill/skill",
     "st": 0,
-    "ht": "[1830,3100]"
+    "ht": "[2100]"
   },
   "205100_atk": {
     "name": "Atk",
@@ -532,22 +527,23 @@
     "turn": "turn",
     "skill": "ACGN/205100/skill/skill",
     "st": 0,
-    "ht": "[300,500,800,900,1000,1100,1200,1300,1400]"
+    "ht": "[160,330,500,660,830,1000,1160,1330,1500]"
   },
   "305010_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/305010/pg/pg",
     "st": 0,
-    "ht": "[560]"
+    "ht": "[660]"
   },
   "305010_skill": {
     "name": "skill",
+    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/305010/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[1660,1830,2000,2160,2330,2500,2660]"
   },
   "305020_atk": {
     "name": "Atk",
@@ -555,7 +551,7 @@
     "turn": "turn",
     "skill": "ACGN/305020/pg/pg",
     "st": 0,
-    "ht": "[660,1130]"
+    "ht": "[660]"
   },
   "305020_skill": {
     "name": "skill",
@@ -563,55 +559,51 @@
     "turn": "turn",
     "skill": "ACGN/305020/skill/skill",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[2060]"
   },
   "305030_atk": {
     "name": "Atk",
     "skill": "ACGN/305030/pg/pg",
     "st": 0,
-    "ht": "[560]"
+    "ht": "[960]"
   },
   "305030_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/305030/skill/skill",
     "st": 0,
-    "ht": "[1760]"
+    "ht": "[500]"
   },
   "305040_atk": {
     "name": "Atk",
     "turn": "turn",
-    "skill": "ACGN/305040/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[500]"
   },
   "305040_skill": {
     "name": "skill",
     "turn": "turn",
-    "skill": "ACGN/305040/skill/skill",
     "st": 0,
-    "ht": "[1300,1560,1830,2000,2260]"
+    "ht": "[600,1300]"
   },
   "305050_atk": {
     "name": "Atk",
     "turn": "turn",
-    "skill": "ACGN/305050/pg/pg",
     "st": 0,
-    "ht": "[900,1400]"
+    "ht": "[900]"
   },
   "305050_skill": {
     "name": "skill",
     "turn": "turn",
-    "skill": "ACGN/305050/skill/skill",
     "st": 0,
-    "ht": "[930,1160]"
+    "ht": "[1330]"
   },
   "305060_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/305060/pg/pg",
     "st": 0,
-    "ht": "[600]"
+    "ht": "[830,900,1000]"
   },
   "305060_skill": {
     "name": "skill",
@@ -625,9 +617,8 @@
   "305070_atk": {
     "name": "Atk",
     "turn": "turn",
-    "skill": "ACGN/305070/pg/pg",
     "st": 0,
-    "ht": "[700,1900]"
+    "ht": "[530]"
   },
   "305070_skill": {
     "name": "skill",
@@ -635,7 +626,7 @@
     "turn": "turn",
     "skill": "ACGN/305070/skill/skill",
     "st": 0,
-    "ht": "[1500,1660,1830,2000,2160,2330,2660,3000,3330,3600]"
+    "ht": "[2000]"
   },
   "305080_atk": {
     "name": "Atk",
@@ -673,7 +664,7 @@
     "situ": true,
     "skill": "ACGN/305100/pg/pg",
     "st": 0,
-    "ht": "[1500,1830,2160]"
+    "ht": "[330,500,1000]"
   },
   "305100_skill": {
     "name": "skill",
@@ -684,84 +675,86 @@
   },
   "405010_atk": {
     "name": "Atk",
-    "situ": true,
-    "skill": "ACGN/405010/pg/pg",
+    "turn": "turn",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[1000]"
   },
   "405010_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/405010/skill/skill",
     "st": 0,
-    "ht": "[1160,1460,1760]"
+    "ht": "[1330]"
   },
   "405020_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/405020/pg/pg",
     "st": 0,
-    "ht": "[300,550]"
+    "ht": "[830]"
   },
   "405020_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/405020/skill/skill",
     "st": 0,
-    "ht": "[1100,1330,1500]"
+    "ht": "[1400]"
   },
   "405030_atk": {
     "name": "Atk",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/405030/pg/pg",
     "st": 0,
-    "ht": "[360,1460]"
+    "ht": "[900]"
   },
   "405030_skill": {
     "name": "skill",
+    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/405030/skill/skill",
     "st": 0,
-    "ht": "[660,1330,2430]"
+    "ht": "[1500]"
   },
   "405040_atk": {
     "name": "Atk",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/405040/pg/pg",
     "st": 0,
-    "ht": "[1300,1500,1700]"
+    "ht": "[260]"
   },
   "405040_skill": {
     "name": "skill",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/405040/skill/skill",
     "st": 0,
-    "ht": "[2600]"
+    "ht": "[830]"
   },
   "405050_atk": {
     "name": "Atk",
+    "situ": true,
+    "turn": "turn",
     "skill": "ACGN/405050/pg/pg",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[1300,1500,1700]"
   },
   "405050_skill": {
     "name": "skill",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/405050/skill/skill",
     "st": 0,
-    "ht": "[2000]"
+    "ht": "[2600]"
   },
   "405060_atk": {
     "name": "Atk",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/405060/pg/pg",
     "st": 0,
-    "ht": "[1530]"
+    "ht": "[600]"
   },
   "405060_skill": {
     "name": "skill",
@@ -769,19 +762,21 @@
     "turn": "turn",
     "skill": "ACGN/405060/skill/skill",
     "st": 0,
-    "ht": "[1430]"
+    "ht": "[1500]"
   },
   "405070_atk": {
     "name": "Atk",
+    "turn": "turn",
+    "skill": "ACGN/405070/pg/pg",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[460]"
   },
   "405070_skill": {
     "name": "skill",
-    "situ": true,
+    "turn": "turn",
     "skill": "ACGN/405070/skill/skill",
     "st": 0,
-    "ht": "[500,830]"
+    "ht": "[2160]"
   },
   "405080_atk": {
     "name": "Atk",
@@ -799,6 +794,7 @@
   },
   "405090_atk": {
     "name": "Atk",
+    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/405090/pg/pg",
@@ -815,68 +811,65 @@
   },
   "405100_atk": {
     "name": "Atk",
-    "situ": true,
     "turn": "turn",
-    "skill": "ACGN/405100/pg/pg",
     "st": 0,
-    "ht": "[830,1000]"
+    "ht": "[1160]"
   },
   "405100_skill": {
     "name": "skill",
-    "situ": true,
     "repetition": true,
     "turn": "turn",
     "skill": "ACGN/405100/skill/skill",
     "st": 0,
-    "ht": "[1730]"
+    "ht": "[2500]"
   },
   "505010_atk": {
     "name": "Atk",
     "skill": "ACGN/505010/pg/pg",
     "st": 0,
-    "ht": "[1160]"
+    "ht": "[860]"
   },
   "505010_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/505010/skill/skill",
     "st": 0,
-    "ht": "[1500,1660,1730,1800,1860,1930,2160]"
+    "ht": "[1660]"
   },
   "505020_atk": {
     "name": "Atk",
     "skill": "ACGN/505020/pg/pg",
     "st": 0,
-    "ht": "[430]"
+    "ht": "[660]"
   },
   "505020_skill": {
     "name": "skill",
     "turn": "turn",
     "skill": "ACGN/505020/skill/skill",
     "st": 0,
-    "ht": "[360,960]"
+    "ht": "[660,830,1000]"
   },
   "505030_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/505030/pg/pg",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[160,330,500,660,1000,1160,1330]"
   },
   "505030_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/505030/skill/skill",
     "st": 0,
-    "ht": "[1330]"
+    "ht": "[2160]"
   },
   "505040_atk": {
     "name": "Atk",
     "turn": "turn",
     "skill": "ACGN/505040/pg/pg",
     "st": 0,
-    "ht": "[660,1030]"
+    "ht": "[900]"
   },
   "505040_skill": {
     "name": "skill",
@@ -884,14 +877,14 @@
     "turn": "turn",
     "skill": "ACGN/505040/skill/skill",
     "st": 0,
-    "ht": "[1230,1500]"
+    "ht": "[1400]"
   },
   "505050_atk": {
     "name": "Atk",
     "situ": true,
     "skill": "ACGN/505050/pg/pg",
     "st": 0,
-    "ht": "[660,730,860,1060]"
+    "ht": "[1230]"
   },
   "505050_skill": {
     "name": "skill",
@@ -900,13 +893,13 @@
     "turn": "turn",
     "skill": "ACGN/505050/skill/skill",
     "st": 0,
-    "ht": "[2000,2330,2660,3000,3560]"
+    "ht": "[1160,1300,1500,1660,1830,2000,2160]"
   },
   "505060_atk": {
     "name": "Atk",
     "skill": "ACGN/505060/pg/pg",
     "st": 0,
-    "ht": "[760]"
+    "ht": "[600,930]"
   },
   "505060_skill": {
     "name": "skill",
@@ -914,23 +907,21 @@
     "turn": "turn",
     "skill": "ACGN/505060/skill/skill",
     "st": 0,
-    "ht": "[2330]"
+    "ht": "[660,830,1000,1160]"
   },
   "505070_atk": {
     "name": "Atk",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/505070/pg/pg",
     "st": 0,
-    "ht": "[1900]"
+    "ht": "[1500]"
   },
   "505070_skill": {
     "name": "skill",
-    "situ": true,
     "turn": "turn",
     "skill": "ACGN/505070/skill/skill",
     "st": 0,
-    "ht": "[2160,2500,2660,3000,3330,3830]"
+    "ht": "[2200]"
   },
   "505080_atk": {
     "name": "Atk",
@@ -949,10 +940,11 @@
   },
   "505090_atk": {
     "name": "Atk",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/505090/pg/pg",
     "st": 0,
-    "ht": "[1230]"
+    "ht": "[630]"
   },
   "505090_skill": {
     "name": "skill",
@@ -961,131 +953,123 @@
     "turn": "turn",
     "skill": "ACGN/505090/skill/skill",
     "st": 0,
-    "ht": "[1160,1300,1500,1660,1830,2000,2160]"
+    "ht": "[2160,2500,2660]"
   },
   "505100_atk": {
     "name": "Atk",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/505100/pg/pg",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[930]"
   },
   "505100_skill": {
     "name": "skill",
+    "situ": true,
     "turn": "turn",
     "skill": "ACGN/505100/skill/skill",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[1730]"
   },
   "101010_atk": {
     "name": "Atk",
-    "situ": true,
-    "turn": "turn",
     "skill": "ACGN/101010/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[930]"
   },
   "101010_skill": {
     "name": "skill",
     "skill": "ACGN/101010/skill/skill",
     "st": 0,
-    "ht": "[60,260]"
+    "ht": "[2100]"
   },
   "102010_atk": {
     "name": "Atk",
-    "situ": true,
-    "turn": "turn",
-    "skill": "ACGN/102010/pg/pg",
+    "skill": "ACGN/101010/pg/pg",
     "st": 0,
-    "ht": "[1000]"
+    "ht": "[930]"
   },
   "102010_skill": {
     "name": "skill",
-    "skill": "ACGN/102010/skill/skill",
+    "skill": "ACGN/101010/skill/skill",
     "st": 0,
-    "ht": "[60,260]"
+    "ht": "[2100]"
   },
   "103010_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/103010/pg/pg",
     "st": 0,
-    "ht": "[1100]"
+    "ht": "[1400]"
   },
   "103010_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/103010/skill/skill",
     "st": 0,
-    "ht": "[1000,1530]"
+    "ht": "[2500]"
   },
   "103020_atk": {
     "name": "Atk",
-    "skill": "ACGN/103020/pg/pg",
+    "situ": true,
+    "skill": "ACGN/103010/pg/pg",
     "st": 0,
-    "ht": "[1100]"
+    "ht": "[1400]"
   },
   "103020_skill": {
     "name": "skill",
-    "skill": "ACGN/103020/skill/skill",
+    "situ": true,
+    "skill": "ACGN/103010/skill/skill",
     "st": 0,
-    "ht": "[1000,1530]"
+    "ht": "[2500]"
   },
   "104010_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/104010/pg/pg",
     "st": 0,
-    "ht": "[1000,1700]"
+    "ht": "[500]"
   },
   "104010_skill": {
     "name": "skill",
-    "situ": true,
-    "turn": "turn",
     "skill": "ACGN/104010/skill/skill",
     "st": 0,
     "ht": "[330]"
   },
   "104020_atk": {
     "name": "Atk",
-    "situ": true,
-    "skill": "ACGN/104020/pg/pg",
+    "skill": "ACGN/104010/pg/pg",
     "st": 0,
-    "ht": "[1000,1700]"
+    "ht": "[500]"
   },
   "104020_skill": {
     "name": "skill",
-    "situ": true,
-    "turn": "turn",
-    "skill": "ACGN/104020/skill/skill",
+    "skill": "ACGN/104010/skill/skill",
     "st": 0,
     "ht": "[330]"
   },
   "201010_atk": {
     "name": "Atk",
-    "situ": true,
     "skill": "ACGN/201010/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[600]"
   },
   "201010_skill": {
     "name": "skill",
-    "situ": true,
     "skill": "ACGN/201010/skill/skill",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[600]"
   },
   "202010_atk": {
     "name": "Atk",
-    "situ": true,
-    "skill": "ACGN/202010/pg/pg",
+    "skill": "ACGN/201010/pg/pg",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[600]"
   },
   "202010_skill": {
     "name": "skill",
-    "situ": true,
-    "skill": "ACGN/202010/skill/skill",
+    "skill": "ACGN/201010/skill/skill",
     "st": 0,
-    "ht": "[830]"
+    "ht": "[600]"
   },
   "203010_atk": {
     "name": "Atk",
@@ -1097,121 +1081,123 @@
     "name": "skill",
     "skill": "ACGN/203010/skill/skill",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[1930]"
   },
   "203020_atk": {
     "name": "Atk",
-    "skill": "ACGN/203020/pg/pg",
+    "skill": "ACGN/203010/pg/pg",
     "st": 0,
     "ht": "[760]"
   },
   "203020_skill": {
     "name": "skill",
-    "skill": "ACGN/203020/skill/skill",
+    "skill": "ACGN/203010/skill/skill",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[1930]"
   },
   "204010_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/204010/pg/pg",
     "st": 0,
-    "ht": "[330]"
+    "ht": "[760]"
   },
   "204010_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/204010/skill/skill",
     "st": 0,
-    "ht": "[500,1300]"
+    "ht": "[1930]"
   },
   "204020_atk": {
     "name": "Atk",
-    "skill": "ACGN/204020/pg/pg",
+    "situ": true,
+    "skill": "ACGN/204010/pg/pg",
     "st": 0,
-    "ht": "[330]"
+    "ht": "[760]"
   },
   "204020_skill": {
     "name": "skill",
-    "skill": "ACGN/204020/skill/skill",
+    "situ": true,
+    "skill": "ACGN/204010/skill/skill",
     "st": 0,
-    "ht": "[500,1300]"
+    "ht": "[1930]"
   },
   "301010_atk": {
     "name": "Atk",
-    "turn": "turn",
     "skill": "ACGN/301010/pg/pg",
     "st": 0,
-    "ht": "[660,860,1430]"
+    "ht": "[660]"
   },
   "301010_skill": {
     "name": "skill",
-    "turn": "turn",
     "skill": "ACGN/301010/skill/skill",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[2100]"
   },
   "302010_atk": {
     "name": "Atk",
-    "turn": "turn",
-    "skill": "ACGN/302010/pg/pg",
+    "skill": "ACGN/301010/pg/pg",
     "st": 0,
-    "ht": "[660,860,1430]"
+    "ht": "[660]"
   },
   "302010_skill": {
     "name": "skill",
-    "turn": "turn",
-    "skill": "ACGN/302010/skill/skill",
+    "skill": "ACGN/301010/skill/skill",
     "st": 0,
-    "ht": "[1500]"
+    "ht": "[2100]"
   },
   "303010_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/303010/pg/pg",
     "st": 0,
-    "ht": "[500]"
+    "ht": "[1500]"
   },
   "303010_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/303010/skill/skill",
     "st": 0,
-    "ht": "[1260]"
+    "ht": "[1300,1930,3000]"
   },
   "303020_atk": {
     "name": "Atk",
+    "situ": true,
     "skill": "ACGN/303020/pg/pg",
     "st": 0,
-    "ht": "[500]"
+    "ht": "[1500]"
   },
   "303020_skill": {
     "name": "skill",
+    "situ": true,
     "skill": "ACGN/303020/skill/skill",
     "st": 0,
-    "ht": "[1260]"
+    "ht": "[1300,1930,3000]"
   },
   "304010_atk": {
     "name": "Atk",
     "skill": "ACGN/304010/pg/pg",
     "st": 0,
-    "ht": "[430,830,1330]"
+    "ht": "[830]"
   },
   "304010_skill": {
     "name": "skill",
     "skill": "ACGN/304010/skill/skill",
     "st": 0,
-    "ht": "[700]"
+    "ht": "[1160]"
   },
   "304020_atk": {
     "name": "Atk",
-    "turn": "turn",
     "skill": "ACGN/304020/pg/pg",
     "st": 0,
-    "ht": "[430,830,1330]"
+    "ht": "[830]"
   },
   "304020_skill": {
     "name": "skill",
-    "turn": "turn",
     "skill": "ACGN/304020/skill/skill",
     "st": 0,
-    "ht": "[730]"
+    "ht": "[1160]"
   },
   "604010_atk": {
     "name": "Atk",
