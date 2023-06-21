@@ -27,7 +27,7 @@
   },
   "110": {
     "name": "现金券",
-    "des": "现金券，可在直充界面直接充值",
+    "des": "现金券，可在【训练师之家】中进行充值",
     "isBag": true,
     "type": "item",
     "quality": 5,
@@ -36,7 +36,7 @@
   },
   "120": {
     "name": "提额券",
-    "des": "提额券，使用可提高临时额度，临时额度每天清零",
+    "des": "提额券，使用可提高临时使用现金券额度，临时额度次日清零",
     "isBag": true,
     "type": "item",
     "useType": "dp_limit",
@@ -48,8 +48,8 @@
     "name": "钻石",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.002,
-    "coin": 10,
+    "gold": 0.001,
+    "coin": 5,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
@@ -73,7 +73,7 @@
     "name": "钻石替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 500,
+    "arg": 1000,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -2622,7 +2622,7 @@
     "source1": "gift"
   },
   "10010": {
-    "name": "狂飙工具",
+    "name": "训练师",
     "des": "狂飙工具",
     "type": "currency",
     "useType": "optional",
