@@ -39,7 +39,7 @@
     "type": "item",
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "120": {
     "name": "提额券",
@@ -121,8 +121,7 @@
     "coin": 5000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "dailyFb",
-    "source2": "warHorn"
+    "source1": "dailyFb"
   },
   "207": {
     "name": "专属灵石",
@@ -133,8 +132,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "dailyFb",
-    "source2": "tower",
-    "source3": "warHorn"
+    "source2": "tower"
   },
   "208": {
     "name": "玉璧",
@@ -228,7 +226,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "shop_guild",
-    "source2": "gift"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "301": {
     "name": "招募积分",
@@ -243,19 +242,23 @@
   },
   "401": {
     "name": "苍蓝果实",
-    "des": "苍蓝果实，能够提升苍蓝战魂的属性加成，可通过苍蓝之塔中获得。"
+    "des": "苍蓝果实，能够提升苍蓝战魂的属性加成，可通过苍蓝之塔中获得。",
+    "source1": "tower"
   },
   "402": {
     "name": "紫耀果实",
-    "des": "紫耀果实，能够提升紫耀战魂的属性加成，可通过紫耀之塔中获得。"
+    "des": "紫耀果实，能够提升紫耀战魂的属性加成，可通过紫耀之塔中获得。",
+    "source1": "tower"
   },
   "403": {
     "name": "赤炎果实",
-    "des": "赤炎果实，能够提升赤炎战魂的属性加成，可通过赤炎之塔中获得。"
+    "des": "赤炎果实，能够提升赤炎战魂的属性加成，可通过赤炎之塔中获得。",
+    "source1": "tower"
   },
   "404": {
     "name": "暗影果实",
-    "des": "暗影果实，能够提升暗影战魂的属性加成，可通过暗影之塔中获得。"
+    "des": "暗影果实，能够提升暗影战魂的属性加成，可通过暗影之塔中获得。",
+    "source1": "tower"
   },
   "501": {
     "name": "水晶苹果",
@@ -304,7 +307,8 @@
     "coin": 12500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "4004": {
     "name": "君王护符",
@@ -2233,7 +2237,10 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "arena",
+    "source3": "shop_arena",
+    "source4": "crossPK"
   },
   "1000020": {
     "name": "培养药剂",
@@ -2244,7 +2251,10 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "endless",
+    "source3": "guild_auction",
+    "source4": "ancient"
   },
   "1000040": {
     "name": "洗炼石",
@@ -2255,7 +2265,8 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "endless"
   },
   "1000050": {
     "name": "进阶星尘",
@@ -2282,7 +2293,8 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "shop_crossTop",
-    "source2": "gift"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000070": {
     "name": "初级招募卡",
@@ -2344,7 +2356,11 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "weekTarget",
+    "source2": "crossTeamPK",
+    "source3": "shop_ancient",
+    "source4": "warHorn"
   },
   "1000120": {
     "name": "阵营招募卡",
@@ -2358,7 +2374,8 @@
     "effects": "baowu",
     "source1": "gift",
     "source2": "shop_crossPK",
-    "source3": "shop_crossTop"
+    "source3": "shop_crossTop",
+    "source4": "warHorn"
   },
   "1000150": {
     "name": "万能专属",
@@ -2372,7 +2389,9 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "gift",
-    "source2": "shop_crossPK"
+    "source2": "weekTarget",
+    "source3": "shop_guild",
+    "source4": "warHorn"
   },
   "1000160": {
     "name": "刷新卷",
@@ -2383,7 +2402,8 @@
     "coin": 100000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "1000170": {
     "name": "挑战卷",
@@ -2395,7 +2415,8 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "gift",
-    "source2": "shop_arena"
+    "source2": "shop_arena",
+    "source3": "warHorn"
   },
   "1000180": {
     "name": "转换石",
@@ -2408,7 +2429,8 @@
     "quality": 5,
     "source1": "gift",
     "source2": "shop_crossPK",
-    "source3": "areaTrial"
+    "source3": "areaTrial",
+    "source4": "warHorn"
   },
   "1000190": {
     "name": "十星卡",
@@ -2420,7 +2442,9 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "warHorn",
+    "source3": "weekTarget"
   },
   "1000210": {
     "name": "传说招募卡",
@@ -2495,7 +2519,8 @@
     "quality": 5,
     "source1": "shop_crossTop",
     "source2": "gift",
-    "source3": "shop_crossTop"
+    "source3": "shop_crossTop",
+    "source4": "warHorn"
   },
   "1000500": {
     "name": "改名卡",
@@ -2529,7 +2554,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "shop_ancient",
-    "source2": "gift"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000503": {
     "name": "白银矿镐",
@@ -2541,7 +2567,8 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "shop_ancient",
-    "source2": "gift"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000504": {
     "name": "黄金矿镐",
@@ -7800,7 +7827,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "warHorn"
   },
   "104505110": {
     "name": "神秘技能宝石",
@@ -7813,7 +7841,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "warHorn"
   },
   "105010100": {
     "name": "十星奥蕾莉亚",
@@ -8837,7 +8866,8 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "109500001": {
     "name": "红色符文匣",
@@ -9470,7 +9500,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "gift",
-    "source2": "lottery_bf"
+    "source2": "lottery_bf",
+    "source3": "warHorn"
   },
   "303006010": {
     "name": "合击自选箱",
