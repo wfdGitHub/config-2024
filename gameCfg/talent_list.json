@@ -1478,21 +1478,27 @@
   },
   "9701": {
     "name": "限定符文",
-    "des": "生命值增加20%",
-    "key1": "self_maxHP_add",
-    "value1": 0.2
+    "des": "攻击5%，生命5%",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "self_maxHP_add",
+    "value2": 0.05
   },
   "9702": {
     "name": "限定符文",
-    "des": "抗暴增加20%",
-    "key1": "critDef",
-    "value1": 0.2
+    "des": "攻击8%，生命8%",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "self_maxHP_add",
+    "value2": 0.08
   },
   "9703": {
     "name": "限定符文",
-    "des": "命中增加20%",
-    "key1": "hitRate",
-    "value1": 0.2
+    "des": "攻击10%，生命10%",
+    "key1": "self_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
   },
   "9704": {
     "name": "限定符文",
@@ -1657,6 +1663,254 @@
     "des": "战斗前二回合获得无敌吸血盾",
     "key1": "first_buff2",
     "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
+  },
+  "800101": {
+    "name": "茂盛",
+    "des": "生命值每降低10%，草系伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05
+  },
+  "800102": {
+    "name": "猛火",
+    "des": "生命值每降低10%，火系伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05
+  },
+  "800103": {
+    "name": "激流",
+    "des": "生命值每降低10%，水系伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05
+  },
+  "800104": {
+    "name": "锐利目光",
+    "des": "命中率不会被降低，攻击必定命中",
+    "key1": "skill_must_hit",
+    "value1": true
+  },
+  "800105": {
+    "name": "避雷针",
+    "des": "不受电属性攻击伤害，特攻伤害提升5%",
+    "key1": "specie_immune",
+    "value1": 13,
+    "key2": "mag_add",
+    "value2": 0.05
+  },
+  "800106": {
+    "name": "毒刺",
+    "des": "攻击敌人时有30%概率使其中毒，持续3回合",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}",
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}"
+  },
+  "800107": {
+    "name": "友情防守",
+    "des": "每回合开始前，守护我方血量最少的英雄，增加其20%免伤，并分担50%伤害。",
+    "key1": "round_buff1",
+    "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "800108": {
+    "name": "孢子",
+    "des": "攻击敌方时，有50%概率使敌方陷入麻痹",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}",
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "800109": {
+    "name": "魔法防守",
+    "des": "受到的持续伤害减半",
+    "key1": "damage_buff_lowArg",
+    "value1": 0.5
+  },
+  "800110": {
+    "name": "毅力",
+    "des": "该特性的宝可梦处于异常状态时，免伤增加30%",
+    "key1": "my_debuff_red",
+    "value1": 0.3
+  },
+  "800111": {
+    "name": "贪吃鬼",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身10%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.1
+  },
+  "800112": {
+    "name": "结实",
+    "des": "HP全满时，受到一次攻击时，至少保留1点HP。",
+    "key1": "full_hp_save",
+    "value1": true
+  },
+  "800113": {
+    "name": "分析",
+    "des": "释放技能时，如果目标怒气不足4点，技能伤害增加30%，如果目标怒气大于4点，额外降低目标1点怒气。",
+    "key1": "skill_amp_or_lessAnger",
+    "value1": 0.3
+  },
+  "800114": {
+    "name": "诅咒之躯",
+    "des": "拥有该特性的宝可梦，受到攻击后有30%使目标沉默",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+  },
+  "800115": {
+    "name": "坚硬岩石",
+    "des": "对战中，对自身造成的克制伤害*0.75",
+    "key1": "specie_behit",
+    "value1": 0.75
+  },
+  "800116": {
+    "name": "电气引擎",
+    "des": "不受电属性伤害，速度增加5%",
+    "key1": "specie_immune",
+    "value1": 13,
+    "key2": "self_speed_add",
+    "value2": 0.05
+  },
+  "800117": {
+    "name": "火焰之躯",
+    "des": "被敌方攻击时，有30%的几率对敌方造成灼烧",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.3}"
+  },
+  "800118": {
+    "name": "多重鳞片",
+    "des": "HP全满的时候，受到的伤害减为原来1/2",
+    "key1": "full_hp_red",
+    "value1": 0.5
+  },
+  "800119": {
+    "name": "鳞粉",
+    "des": "每回合行动前，清除所有自身非控制类负面状态",
+    "key1": "action_clean_debuff",
+    "value1": true
+  },
+  "800120": {
+    "name": "活力",
+    "des": "攻击提升20%,命中降低20%",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "hitRate",
+    "value2": -0.2
+  },
+  "800121": {
+    "name": "沙隐",
+    "des": "闪避率提升20%",
+    "key1": "dodgeRate",
+    "value1": 0.2
+  },
+  "800122": {
+    "name": "复眼",
+    "des": "命中提升30%",
+    "key1": "hitRate",
+    "value1": 0.3
+  },
+  "800123": {
+    "name": "愤怒穴位",
+    "des": "直接伤害击杀目标后增加自身15%暴击",
+    "key1": "kill_crit",
+    "value1": 0.15
+  },
+  "800124": {
+    "name": "毒手",
+    "des": "攻击敌方造成伤害时，有30%的几率使敌方中毒。",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}",
+    "key2": "skill_buff1",
+    "value2": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}"
+  },
+  "800125": {
+    "name": "战斗盔甲",
+    "des": "抗暴率提升100%",
+    "key1": "critDef",
+    "value1": 1
+  },
+  "800126": {
+    "name": "迟钝",
+    "des": "速度降低20%,伤害减免增加20%",
+    "key1": "self_speed_add",
+    "value1": -0.2,
+    "key2": "reduction",
+    "value2": 0.2
+  },
+  "800127": {
+    "name": "悠然自如",
+    "des": "速度提升20%",
+    "key1": "self_speed_add",
+    "value1": 0.2
+  },
+  "800128": {
+    "name": "蜕皮",
+    "des": "每回合行动前，清除所有自身非控制类负面状态",
+    "key1": "action_clean_debuff",
+    "value1": true
+  },
+  "800129": {
+    "name": "免疫",
+    "des": "该特性宝可梦不会中毒",
+    "key1": "immune_poison",
+    "value1": 1
+  },
+  "800130": {
+    "name": "虫之预感",
+    "des": "生命值每降低10%，虫系伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05
+  },
+  "800131": {
+    "name": "引火",
+    "des": "该特性的宝可梦不受火属性技能伤害和影响",
+    "key1": "specie_immune",
+    "value1": 10
+  },
+  "800132": {
+    "name": "静电",
+    "des": "攻击该特性的宝可梦，有30%概率附加敌方麻痹效果",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.3}"
+  },
+  "800133": {
+    "name": "大力士",
+    "des": "使用物理攻击时，伤害提升30%",
+    "key1": "phy_add",
+    "value1": 0.3
+  },
+  "800134": {
+    "name": "怒气",
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
+  },
+  "800135": {
+    "name": "超幸运",
+    "des": "暴击伤害增加30%",
+    "key1": "slay",
+    "value1": 0.3
+  },
+  "800136": {
+    "name": "雪隐",
+    "des": "闪避率提升20%",
+    "key1": "dodgeRate",
+    "value1": 0.2
+  },
+  "800137": {
+    "name": "厚脂肪",
+    "des": "伤害减免增加15%",
+    "key1": "reduction",
+    "value1": 0.15
+  },
+  "800138": {
+    "name": "粗糙皮肤",
+    "des": "受到直接物理伤害时，伤害的20%反弹给攻击者",
+    "key1": "hit_rebound",
+    "value1": 0.2
+  },
+  "800139": {
+    "name": "不屈之心",
+    "des": "被控制概率降低15%（麻痹、沉默、眩晕）",
+    "key1": "control_buff_lowrate",
+    "value1": 0.15
   },
   "9050180": {
     "name": "射声校尉",
@@ -4477,35 +4731,56 @@
     "key1": "bm_fz",
     "value1": true
   },
+  "title_7910": {
+    "des": "攻击5%，生命5%",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "self_maxHP_add",
+    "value2": 0.05
+  },
+  "title_7920": {
+    "des": "攻击8%，生命8%",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "self_maxHP_add",
+    "value2": 0.08
+  },
+  "title_7930": {
+    "des": "攻击10%，生命10%",
+    "key1": "self_atk_add",
+    "value1": 0.1,
+    "key2": "self_maxHP_add",
+    "value2": 0.1
+  },
   "suit_2_1": {
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收10%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.1
+  },
+  "suit_2_2": {
     "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收15%生命值上限伤害）",
     "key1": "kill_shield",
     "value1": 0.15
   },
-  "suit_2_2": {
-    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收22%生命值上限伤害）",
-    "key1": "kill_shield",
-    "value1": 0.22
-  },
   "suit_2_3": {
-    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收29%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收20%生命值上限伤害）",
     "key1": "kill_shield",
-    "value1": 0.29
+    "value1": 0.2
   },
   "suit_2_4": {
-    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收36%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收25%生命值上限伤害）",
     "key1": "kill_shield",
-    "value1": 0.36
+    "value1": 0.25
   },
   "suit_2_5": {
-    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收43%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收30%生命值上限伤害）",
     "key1": "kill_shield",
-    "value1": 0.43
+    "value1": 0.3
   },
   "suit_2_6": {
-    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收50%生命值上限伤害）",
+    "des": "直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收35%生命值上限伤害）",
     "key1": "kill_shield",
-    "value1": 0.5
+    "value1": 0.35
   },
   "suit_4_1": {
     "des": "技能造成的伤害和治疗量增加10%",
@@ -4549,26 +4824,89 @@
     "key2": "skill_heal_amp",
     "value2": 0.3
   },
-  "title_7910": {
-    "des": "攻击5%，生命5%",
-    "key1": "self_atk_add",
-    "value1": 0.05,
-    "key2": "self_maxHP_add",
-    "value2": 0.05
+  "suit_2_11": {
+    "des": "技能伤害增加33%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收40%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.33,
+    "key2": "kill_shield",
+    "value2": 0.4
   },
-  "title_7920": {
-    "des": "攻击8%，生命8%",
-    "key1": "self_atk_add",
-    "value1": 0.08,
-    "key2": "self_maxHP_add",
-    "value2": 0.08
+  "suit_2_12": {
+    "des": "技能伤害增加36%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收45%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.36,
+    "key2": "kill_shield",
+    "value2": 0.45
   },
-  "title_7930": {
-    "des": "攻击10%，生命10%",
-    "key1": "self_atk_add",
-    "value1": 0.1,
-    "key2": "self_maxHP_add",
-    "value2": 0.1
+  "suit_2_13": {
+    "des": "技能伤害增加39%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收50%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.39,
+    "key2": "kill_shield",
+    "value2": 0.5
+  },
+  "suit_2_14": {
+    "des": "技能伤害增加42%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收55%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.42,
+    "key2": "kill_shield",
+    "value2": 0.55
+  },
+  "suit_2_15": {
+    "des": "技能伤害增加45%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收60%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.45,
+    "key2": "kill_shield",
+    "value2": 0.6
+  },
+  "suit_2_16": {
+    "des": "技能伤害增加50%;直接伤害击杀敌方英雄后，为自身添加伤害吸收盾（吸收70%生命值上限伤害）",
+    "key1": "kill_shield",
+    "value1": 0.5,
+    "key2": "kill_shield",
+    "value2": 0.7
+  },
+  "suit_4_11": {
+    "des": "受到技能伤害降低33%;首次阵亡时，有15%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.33,
+    "key2": "first_resurgence",
+    "value2": 0.15
+  },
+  "suit_4_12": {
+    "des": "受到技能伤害降低36%;首次阵亡时，有21%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.36,
+    "key2": "first_resurgence",
+    "value2": 0.21
+  },
+  "suit_4_13": {
+    "des": "受到技能伤害降低39%;首次阵亡时，有27%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.39,
+    "key2": "first_resurgence",
+    "value2": 0.27
+  },
+  "suit_4_14": {
+    "des": "受到技能伤害降低42%;首次阵亡时，有33%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.42,
+    "key2": "first_resurgence",
+    "value2": 0.33
+  },
+  "suit_4_15": {
+    "des": "受到技能伤害降低45%;首次阵亡时，有39%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.45,
+    "key2": "first_resurgence",
+    "value2": 0.39
+  },
+  "suit_4_16": {
+    "des": "受到技能伤害降低50%;首次阵亡时，有45%概率恢复自身30%生命值复活",
+    "key1": "skill_attack_def",
+    "value1": 0.5,
+    "key2": "first_resurgence",
+    "value2": 0.45
   },
   "NPC_DS": {
     "name": "低速",
