@@ -3,63 +3,77 @@
     "name": "凡阶",
     "aptitude": 8,
     "rate": 1,
-    "pc": 10,
+    "basic": 10,
+    "pc": "201:1000",
     "prRate": 1,
     "wash_pc": 3,
-    "wash_value": 16
+    "wash_value": 16,
+    "limit": 1
   },
   "1": {
     "name": "黄阶",
     "aptitude": 12,
     "rate": 1,
-    "pc": 10,
+    "basic": 10,
+    "pc": "201:1000",
     "prRate": 1,
     "wash_pc": 3,
-    "wash_value": 16
+    "wash_value": 16,
+    "limit": 1
   },
   "2": {
     "name": "玄阶",
     "aptitude": 15,
-    "rate": 3,
-    "pc": 20,
+    "rate": 2,
+    "basic": 20,
+    "pc": "201:1000",
     "prRate": 2,
     "wash_pc": 6,
-    "wash_value": 8
+    "wash_value": 8,
+    "limit": 40
   },
   "3": {
     "name": "通玄",
     "aptitude": 18,
-    "rate": 5,
-    "pc": 30,
+    "rate": 4,
+    "basic": 40,
+    "pc": "201:1000",
     "prRate": 3,
     "wash_pc": 12,
-    "wash_value": 6
+    "wash_value": 6,
+    "limit": 70
   },
   "4": {
     "name": "地阶",
     "aptitude": 21,
-    "rate": 10,
-    "pc": 50,
+    "rate": 8,
+    "basic": 80,
+    "pc": "201:1000",
     "prRate": 4,
     "wash_pc": 24,
-    "wash_value": 4
+    "wash_value": 4,
+    "limit": 100
   },
   "5": {
     "name": "超凡",
     "aptitude": 24,
-    "rate": 20,
-    "pc": 100,
+    "rate": 16,
+    "basic": 160,
+    "pc": "201:1000",
     "prRate": 5,
     "wash_pc": 36,
-    "wash_value": 2
+    "wash_value": 3,
+    "limit": 130
   },
   "6": {
     "name": "天阶",
     "aptitude": 27,
-    "rate": 30,
-    "pc": 200,
+    "rate": 32,
+    "basic": 320,
+    "pc": "201:1000",
     "prRate": 6,
     "wash_pc": 48,
-    "wash_value": 1
+    "wash_value": 2,
+    "limit": 160
   }
 }
