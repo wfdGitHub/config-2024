@@ -48,7 +48,7 @@
     "liveness": 10
   },
   "100007": {
-    "title": "完成3次忍者任务",
+    "title": "完成3次暗部任务",
     "refresh": "day",
     "type": "tour",
     "arg": 1,
@@ -111,7 +111,7 @@
     "exp": 20
   },
   "100103": {
-    "title": "完成5次忍者任务",
+    "title": "完成5次暗部任务",
     "refresh": "day",
     "type": "tour",
     "arg": 1,
@@ -218,13 +218,13 @@
     "desc": "跨服竞技场中战胜30次对手"
   },
   "100301": {
-    "title": "完成50次红色忍者任务",
+    "title": "完成50次红色暗部任务",
     "refresh": "month",
     "type": "tour",
     "arg": 6,
     "value": 50,
     "exp": 5000,
-    "desc": "完成50次红色忍者任务"
+    "desc": "完成50次红色暗部任务"
   },
   "100302": {
     "title": "消耗50000万铜币",
@@ -9287,7 +9287,7 @@
     "award": "101:400000"
   },
   "404001": {
-    "title": "完成橙色以上忍者任务1次",
+    "title": "完成橙色以上暗部任务1次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9295,7 +9295,7 @@
     "award": "504000:1"
   },
   "404002": {
-    "title": "完成橙色以上忍者任务2次",
+    "title": "完成橙色以上暗部任务2次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9303,7 +9303,7 @@
     "award": "504000:2"
   },
   "404003": {
-    "title": "完成橙色以上忍者任务4次",
+    "title": "完成橙色以上暗部任务4次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9311,7 +9311,7 @@
     "award": "504000:3"
   },
   "404004": {
-    "title": "完成橙色以上忍者任务6次",
+    "title": "完成橙色以上暗部任务6次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9319,7 +9319,7 @@
     "award": "504000:4"
   },
   "404005": {
-    "title": "完成橙色以上忍者任务8次",
+    "title": "完成橙色以上暗部任务8次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9327,7 +9327,7 @@
     "award": "504000:5"
   },
   "404006": {
-    "title": "完成橙色以上忍者任务10次",
+    "title": "完成橙色以上暗部任务10次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9335,7 +9335,7 @@
     "award": "505000:4"
   },
   "404007": {
-    "title": "完成橙色以上忍者任务12次",
+    "title": "完成橙色以上暗部任务12次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9343,7 +9343,7 @@
     "award": "505000:5"
   },
   "404008": {
-    "title": "完成橙色以上忍者任务15次",
+    "title": "完成橙色以上暗部任务15次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9351,7 +9351,7 @@
     "award": "505000:6"
   },
   "404009": {
-    "title": "完成橙色以上忍者任务20次",
+    "title": "完成橙色以上暗部任务20次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9359,7 +9359,7 @@
     "award": "505000:7"
   },
   "404010": {
-    "title": "完成橙色以上忍者任务25次",
+    "title": "完成橙色以上暗部任务25次",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 5,
@@ -9581,7 +9581,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 5,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达5级"
   },
   "501002": {
@@ -9590,32 +9590,32 @@
     "type": "checkpoints",
     "arg": 10,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到10关"
   },
   "501003": {
-    "title": "忍者:招募忍者",
+    "title": "收集:招募忍者",
     "refresh": "officer",
     "type": "recruit_great",
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "高级招募1次"
   },
   "501004": {
-    "title": "忍者:提升等级",
+    "title": "培养:忍者等级",
     "refresh": "officer",
     "type": "heroLv",
-    "arg": 30,
+    "arg": 100,
     "value": 1,
-    "award": "120:100",
-    "desc": "任意忍者到达30级"
+    "award": "1000080:10",
+    "desc": "任意忍者到达100级"
   },
   "502001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
     "value": 10,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达10级"
   },
   "502002": {
@@ -9624,24 +9624,24 @@
     "type": "checkpoints",
     "arg": 50,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到50关"
   },
   "502003": {
-    "title": "玩法:忍者任务",
+    "title": "玩法:暗部任务",
     "refresh": "officer",
     "type": "tour",
     "arg": 1,
     "value": 1,
-    "award": "120:100",
-    "desc": "完成1个忍者任务"
+    "award": "1000080:10",
+    "desc": "完成1个暗部任务"
   },
   "502004": {
     "title": "玩法:竞技挑战",
     "refresh": "officer",
     "type": "arena_win",
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "竞技场战胜1次"
   },
   "503001": {
@@ -9649,7 +9649,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 20,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达20级"
   },
   "503002": {
@@ -9658,7 +9658,7 @@
     "type": "checkpoints",
     "arg": 100,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到100关"
   },
   "503003": {
@@ -9666,23 +9666,23 @@
     "refresh": "officer",
     "type": "tttLv",
     "value": 30,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "试炼之塔挑战至30层"
   },
   "503004": {
-    "title": "玩法:高级招募",
+    "title": "收集:招募忍者",
     "refresh": "officer",
     "type": "recruit_great",
-    "value": 10,
-    "award": "120:100",
-    "desc": "高级招募10次"
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "高级招募100次"
   },
   "504001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
     "value": 30,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达30级"
   },
   "504002": {
@@ -9691,32 +9691,32 @@
     "type": "checkpoints",
     "arg": 300,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到300关"
   },
   "504003": {
-    "title": "忍者:忍者助阵",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
     "type": "hero",
-    "arg": 6,
+    "arg": 10,
     "value": 1,
-    "award": "120:100",
-    "desc": "任意忍者升至6星"
+    "award": "1000080:10",
+    "desc": "任意忍者升至10星"
   },
   "504004": {
-    "title": "玩法:巅峰竞技",
+    "title": "玩法:快速作战",
     "refresh": "officer",
-    "type": "ancient_win",
-    "value": 3,
-    "award": "120:100",
-    "desc": "巅峰竞技中战胜3次"
+    "type": "quick",
+    "value": 10,
+    "award": "1000080:10",
+    "desc": "快速作战10次"
   },
   "505001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
     "value": 40,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达40级"
   },
   "505002": {
@@ -9725,32 +9725,32 @@
     "type": "checkpoints",
     "arg": 400,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到400关"
   },
   "505003": {
     "title": "玩法:试炼之塔",
     "refresh": "officer",
     "type": "tttLv",
-    "value": 80,
-    "award": "120:100",
-    "desc": "试炼之塔挑战至80层"
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "试炼之塔挑战至100层"
   },
   "505004": {
-    "title": "玩法:阵营招募",
+    "title": "收集:阵营招募",
     "refresh": "officer",
     "type": "general",
-    "value": 1,
-    "award": "120:100",
-    "desc": "高级招募1次"
+    "value": 10,
+    "award": "1000080:10",
+    "desc": "阵营招募10次"
   },
   "506001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 45,
-    "award": "120:100",
-    "desc": "主角等级到达45级"
+    "value": 50,
+    "award": "1000080:10",
+    "desc": "主角等级到达50级"
   },
   "506002": {
     "title": "主线:征战之路",
@@ -9758,33 +9758,32 @@
     "type": "checkpoints",
     "arg": 500,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到500关"
   },
   "506003": {
-    "title": "玩法:高级招募",
+    "title": "收集:高级招募",
     "refresh": "officer",
     "type": "recruit_great",
-    "value": 30,
-    "award": "120:100",
-    "desc": "高级招募30次"
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "高级招募100次"
   },
   "506004": {
-    "title": "玩法:忍者派遣",
+    "title": "玩法:巅峰竞技",
     "refresh": "officer",
-    "type": "tour",
-    "arg": 5,
-    "value": 10,
-    "award": "120:100",
-    "desc": "完成10次橙色忍者派遣"
+    "type": "ancient_win",
+    "value": 3,
+    "award": "1000080:10",
+    "desc": "巅峰竞技中战胜3次"
   },
   "507001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 50,
-    "award": "120:100",
-    "desc": "主角等级到达50级"
+    "value": 60,
+    "award": "1000080:10",
+    "desc": "主角等级到达60级"
   },
   "507002": {
     "title": "主线:征战之路",
@@ -9792,32 +9791,32 @@
     "type": "checkpoints",
     "arg": 900,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到900关"
   },
   "507003": {
-    "title": "玩法:秘境探险",
+    "title": "收集:招募忍者",
     "refresh": "officer",
-    "type": "zhulu_pass",
-    "value": 2,
-    "award": "120:100",
-    "desc": "秘境探险通关2次"
+    "type": "recruit_great",
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "高级招募100次"
   },
   "507004": {
     "title": "玩法:试炼之塔",
     "refresh": "officer",
     "type": "tttLv",
     "value": 150,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "试炼之塔挑战至150层"
   },
   "508001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 60,
-    "award": "120:100",
-    "desc": "主角等级到达60级"
+    "value": 70,
+    "award": "1000080:10",
+    "desc": "主角等级到达70级"
   },
   "508002": {
     "title": "主线:征战之路",
@@ -9825,33 +9824,32 @@
     "type": "checkpoints",
     "arg": 1000,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1000关"
   },
   "508003": {
-    "title": "玩法:梦幻模拟战",
+    "title": "玩法:挖掘勾玉",
     "refresh": "officer",
-    "type": "exercise",
-    "value": 1,
-    "award": "120:100",
-    "desc": "通关1次梦幻模拟战"
+    "type": "use_pickaxe",
+    "value": 10,
+    "award": "1000080:10",
+    "desc": "勾玉矿场挖掘10次"
   },
   "508004": {
-    "title": "玩法:忍者派遣",
+    "title": "玩法:巅峰竞技",
     "refresh": "officer",
-    "type": "tour",
-    "arg": 6,
-    "value": 10,
-    "award": "120:100",
-    "desc": "完成10次红色忍者派遣"
+    "type": "ancient_win",
+    "value": 15,
+    "award": "1000080:10",
+    "desc": "巅峰竞技中战胜15次"
   },
   "509001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 65,
-    "award": "120:100",
-    "desc": "主角等级到达65级"
+    "value": 80,
+    "award": "1000080:10",
+    "desc": "主角等级到达80级"
   },
   "509002": {
     "title": "主线:征战之路",
@@ -9859,32 +9857,32 @@
     "type": "checkpoints",
     "arg": 1100,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1100关"
   },
   "509003": {
-    "title": "玩法:尾兽来袭",
+    "title": "收集:高级招募",
     "refresh": "officer",
-    "type": "extremity",
-    "value": 1,
-    "award": "120:100",
-    "desc": "挑战1次尾兽来袭"
+    "type": "recruit_great",
+    "value": 500,
+    "award": "1000080:10",
+    "desc": "高级招募500次"
   },
   "509004": {
-    "title": "玩法:挖掘勾玉",
+    "title": "收集:阵营招募",
     "refresh": "officer",
-    "type": "use_pickaxe",
-    "value": 10,
-    "award": "120:100",
-    "desc": "勾玉矿场挖掘10次"
+    "type": "general",
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "阵营招募100次"
   },
   "510001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 75,
-    "award": "120:100",
-    "desc": "主角等级到达70级"
+    "value": 90,
+    "award": "1000080:10",
+    "desc": "主角等级到达90级"
   },
   "510002": {
     "title": "主线:征战之路",
@@ -9892,33 +9890,32 @@
     "type": "checkpoints",
     "arg": 1200,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1200关"
   },
   "510003": {
-    "title": "玩法:忍者试炼",
-    "refresh": "officer",
-    "type": "ss_pass",
-    "arg": 10,
-    "value": 1,
-    "award": "120:100",
-    "desc": "通关忍者试炼第1章"
-  },
-  "510004": {
     "title": "玩法:跨服竞技",
     "refresh": "officer",
     "type": "grading_win",
     "value": 12,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "跨服竞技场战胜12次"
+  },
+  "510004": {
+    "title": "玩法:快速作战",
+    "refresh": "officer",
+    "type": "quick",
+    "value": 30,
+    "award": "1000080:10",
+    "desc": "快速作战30次"
   },
   "511001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 80,
-    "award": "120:100",
-    "desc": "主角等级到达80级"
+    "value": 90,
+    "award": "1000080:10",
+    "desc": "主角等级到达90级"
   },
   "511002": {
     "title": "主线:征战之路",
@@ -9926,16 +9923,16 @@
     "type": "checkpoints",
     "arg": 1400,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1400关"
   },
   "511003": {
-    "title": "忍者:忍者助阵",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 11,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "任意忍者升至觉醒1星"
   },
   "511004": {
@@ -9943,16 +9940,16 @@
     "refresh": "officer",
     "type": "endless_count",
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "无尽试炼参与1次"
   },
   "512001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 90,
-    "award": "120:100",
-    "desc": "主角等级到达90级"
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "主角等级到达100级"
   },
   "512002": {
     "title": "主线:征战之路",
@@ -9960,33 +9957,33 @@
     "type": "checkpoints",
     "arg": 1700,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1700关"
   },
   "512003": {
-    "title": "玩法:阵营对决",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
-    "type": "muye_win",
-    "value": 10,
-    "award": "120:100",
-    "desc": "阵营对决战胜10次"
+    "type": "hero",
+    "arg": 15,
+    "value": 1,
+    "award": "1000080:10",
+    "desc": "任意忍者升至觉醒5星"
   },
   "512004": {
-    "title": "玩法:技之试炼",
+    "title": "玩法:跨服竞技",
     "refresh": "officer",
-    "type": "tttRealmLv",
-    "arg": 1,
-    "value": 200,
-    "award": "120:100",
-    "desc": "技之试炼挑战至200层"
+    "type": "grading_win",
+    "value": 30,
+    "award": "1000080:10",
+    "desc": "跨服竞技场战胜30次"
   },
   "513001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 100,
-    "award": "120:100",
-    "desc": "主角等级到达100级"
+    "value": 110,
+    "award": "1000080:10",
+    "desc": "主角等级到达110级"
   },
   "513002": {
     "title": "主线:征战之路",
@@ -9994,33 +9991,32 @@
     "type": "checkpoints",
     "arg": 1900,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到1900关"
   },
   "513003": {
-    "title": "忍者:忍者助阵",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
     "type": "hero",
-    "arg": 20,
-    "value": 1,
-    "award": "120:100",
-    "desc": "任意忍者升至觉醒10星"
+    "arg": 15,
+    "value": 6,
+    "award": "1000080:10",
+    "desc": "6位忍者升至觉醒5星"
   },
   "513004": {
-    "title": "玩法:器之试炼",
+    "title": "玩法:跨服竞技",
     "refresh": "officer",
-    "type": "tttRealmLv",
-    "arg": 2,
-    "value": 200,
-    "award": "120:100",
-    "desc": "器之试炼挑战至200层"
+    "type": "grading_win",
+    "value": 100,
+    "award": "1000080:10",
+    "desc": "跨服竞技场战胜100次"
   },
   "514001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
     "value": 120,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "主角等级到达120级"
   },
   "514002": {
@@ -10029,34 +10025,33 @@
     "type": "checkpoints",
     "arg": 2100,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到2100关"
   },
   "514003": {
-    "title": "忍者:忍者助阵",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
     "type": "hero",
-    "arg": 20,
-    "value": 6,
-    "award": "120:100",
-    "desc": "拥有6个觉醒10星忍者"
+    "arg": 19,
+    "value": 1,
+    "award": "1000080:10",
+    "desc": "任意忍者升至觉醒9星"
   },
   "514004": {
-    "title": "玩法:奇之试炼",
+    "title": "玩法:快速作战",
     "refresh": "officer",
-    "type": "tttRealmLv",
-    "arg": 3,
-    "value": 200,
-    "award": "120:100",
-    "desc": "奇之试炼挑战至200层"
+    "type": "quick",
+    "value": 50,
+    "award": "1000080:10",
+    "desc": "快速作战50次"
   },
   "515001": {
     "title": "主角:等级提升",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 140,
-    "award": "120:100",
-    "desc": "主角等级到达130级"
+    "value": 150,
+    "award": "1000080:10",
+    "desc": "主角等级到达150级"
   },
   "515002": {
     "title": "主线:征战之路",
@@ -10064,26 +10059,17 @@
     "type": "checkpoints",
     "arg": 2500,
     "value": 1,
-    "award": "120:100",
+    "award": "1000080:10",
     "desc": "征战达到2500关"
   },
   "515003": {
-    "title": "玩法:密之试炼",
-    "refresh": "officer",
-    "type": "tttRealmLv",
-    "arg": 4,
-    "value": 200,
-    "award": "120:100",
-    "desc": "密之试炼挑战至200层"
-  },
-  "515004": {
-    "title": "忍者:忍者助阵",
+    "title": "收集:忍者助阵",
     "refresh": "officer",
     "type": "hero",
     "arg": 30,
     "value": 6,
-    "award": "120:100",
-    "desc": "拥有6个30星忍者"
+    "award": "1000080:10",
+    "desc": "6位忍者升至化境10星"
   },
   "56105010": {
     "title": "活动期间内将迪达拉升至6星",
