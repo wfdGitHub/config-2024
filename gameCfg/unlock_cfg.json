@@ -1,436 +1,512 @@
 {
-  "recharge": {
+  "1": {
     "name": "充值",
+    "key": "recharge",
     "openlv": 1,
     "desc": "充值"
   },
-  "heroCenter": {
-    "name": "时光屋",
+  "2": {
+    "name": "英雄殿堂",
+    "key": "heroCenter",
     "openlv": 1,
-    "desc": "指定阵营英雄招募，英雄直升，英雄遣散，英雄置换都在这里"
+    "desc": "英雄殿堂，可快速升星，英雄直升，英雄置换，英雄分解"
   },
-  "vip": {
+  "3": {
     "name": "VIP特权",
+    "key": "vip",
     "openlv": 1,
     "desc": "VIP特权"
   },
-  "lottery": {
-    "name": "寻宝",
-    "openlv": 20,
-    "desc": "宝藏寻宝，获得稀有道具"
-  },
-  "mail": {
+  "4": {
     "name": "邮件",
+    "key": "mail",
     "openlv": 1,
     "desc": "邮件"
   },
-  "rechargeFirst": {
+  "5": {
     "name": "首充",
+    "key": "rechargeFirst",
     "openlv": 1,
     "desc": "首充"
   },
-  "tower": {
-    "name": "试炼之塔",
-    "openlv": 1,
-    "award": "110:5&1000050:10&1000080:1",
-    "desc": "勇闯乱世之路，获取大量英雄进阶物品"
+  "6": {
+    "name": "抽卡",
+    "key": "recruit",
+    "openlv": 1
   },
-  "task": {
+  "7": {
+    "name": "主线",
+    "key": "hook",
+    "openlv": 1
+  },
+  "8": {
+    "name": "英雄列表",
+    "key": "hero",
+    "openlv": 1
+  },
+  "9": {
+    "name": "招财",
+    "key": "revenue",
+    "openlv": 1
+  },
+  "10": {
+    "name": "好友列表",
+    "key": "friend",
+    "openlv": 1
+  },
+  "11": {
+    "name": "竞技商城",
+    "key": "shop_arena",
+    "openlv": 1
+  },
+  "12": {
+    "name": "世界商城",
+    "key": "shop_crossTop",
+    "openlv": 1
+  },
+  "13": {
+    "name": "阵营商城",
+    "key": "shop_crossTeamPK",
+    "openlv": 1
+  },
+  "14": {
+    "name": "公会商城",
+    "key": "shop_guild",
+    "openlv": 1
+  },
+  "15": {
+    "name": "巅峰商城",
+    "key": "shop_ancient",
+    "openlv": 1
+  },
+  "16": {
+    "name": "魔宠竞速",
+    "key": "escort",
+    "openlv": 1
+  },
+  "17": {
+    "name": "欧皇转盘",
+    "key": "oh_turntable",
+    "openlv": 1
+  },
+  "18": {
+    "name": "至尊特权",
+    "key": "highCard",
+    "openlv": 1
+  },
+  "19": {
+    "name": "成长基金",
+    "key": "lvAward",
+    "openlv": 1
+  },
+  "20": {
     "name": "日常任务",
+    "key": "task",
     "openlv": 1,
-    "award": "110:5&1000090:1&1000070:1",
+    "award": "202:100&1000090:1&1000070:1",
     "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
+    "target": "hallNode/mainNode/bottomNode/btnList/btnTask",
     "targetChild": true
   },
-  "loginAward": {
+  "21": {
+    "name": "寻宝",
+    "key": "lottery",
+    "openlv": 1,
+    "desc": "宝藏寻宝，获得稀有道具"
+  },
+  "22": {
+    "name": "福利",
+    "key": "gift",
+    "openlv": 5,
+    "desc": "集合多种免费福利，免费领取超多奖励",
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnGift"
+  },
+  "23": {
+    "name": "新人豪礼",
+    "key": "dayAward",
+    "openlv": 6
+  },
+  "24": {
+    "name": "七日目标",
+    "key": "weekTarget",
+    "openlv": 7,
+    "desc": "七日目标",
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnWeekTarget"
+  },
+  "25": {
     "name": "十日豪礼",
+    "key": "loginAward",
     "openlv": 8,
     "desc": "新玩家前十天，每天登陆均可免费领取诸多豪礼",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnLoginAward"
   },
-  "rechargeTotal": {
-    "name": "限时累充",
-    "openlv": 35,
-    "desc": "限时充值到达指定额度可领取诸多壕礼",
-    "target": "hallNode/mainNode/topNode/rightNode/btnList/btnRechargeTotal"
-  },
-  "gift": {
-    "name": "福利",
+  "26": {
+    "name": "通行证",
+    "key": "warHorn",
     "openlv": 9,
-    "desc": "集合多种免费福利，免费领取超多奖励",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnGift"
-  },
-  "weekLoop": {
-    "name": "七日悬赏",
-    "openlv": 1,
-    "desc": "每日完成任务，获取丰厚奖励"
-  },
-  "dayRecharge": {
-    "name": "每日首充",
-    "openlv": 40,
-    "desc": "每日首充"
-  },
-  "highCard": {
-    "name": "至尊特权",
-    "openlv": 15
-  },
-  "giftLoop": {
-    "name": "超值礼包",
-    "openlv": 18
-  },
-  "lvAward": {
-    "name": "成长基金",
-    "openlv": 40
-  },
-  "dayAward": {
-    "name": "送万元",
-    "openlv": 25
-  },
-  "warHorn": {
-    "name": "战令",
-    "openlv": 11,
-    "award": "110:5&1000050:10&1000080:1",
-    "desc": "解锁战令，完成战令任务获取丰厚奖励",
+    "award": "202:100&1000050:10&1000080:1",
+    "desc": "通行证",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
   },
-  "dailyFb": {
-    "name": "材料副本",
+  "27": {
+    "name": "试炼之塔",
+    "key": "tower",
     "openlv": 10,
-    "award": "110:5&1000050:10&1000080:1",
+    "award": "202:100&1000050:10&1000080:1",
+    "desc": "勇闯试炼塔，获取大量进阶材料"
+  },
+  "28": {
+    "name": "日常副本",
+    "key": "dailyFb",
+    "openlv": 15,
+    "award": "202:100&1000050:10&1000080:1",
     "desc": "每日挑战，获得英雄培养材料",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "dailyFb_coin": {
-    "name": "金币副本",
-    "openlv": 16,
-    "desc": "金币副本，挑战可获得金币",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
-  },
-  "dailyFb_hero": {
-    "name": "经验副本",
-    "openlv": 19,
-    "desc": "经验副本，挑战可获得英雄经验",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
-  },
-  "limitedTime": {
-    "name": "限时活动",
-    "openlv": 13,
-    "desc": "限时活动",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
-  },
-  "smithy": {
-    "name": "研制屋",
+  "29": {
+    "name": "材料副本",
+    "key": "dailyFb_coin",
     "openlv": 15,
-    "award": "110:5&105503010:1&1000080:1",
-    "desc": "合成极品装备，合成稀有护符，提升英雄属性",
-    "target": "hallNode/mainNode/bottomNode/smithy",
-    "targetChild": true
+    "desc": "材料副本，挑战可获得进阶材料",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "tour": {
-    "name": "英雄派遣",
-    "openlv": 16,
-    "award": "110:5&1000090:1&1000160:1",
-    "desc": "派遣英雄执行任务，获得稀有奖励"
+  "30": {
+    "name": "英雄副本",
+    "key": "dailyFb_hero",
+    "openlv": 15,
+    "desc": "英雄副本，挑战可获得英雄碎片",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "guild": {
+  "31": {
     "name": "公会系统",
+    "key": "guild",
     "openlv": 17,
-    "award": "110:5&213:100&1000090:1",
+    "award": "202:100&213:100&1000090:1",
     "desc": "创建或加入公会，与好友一起探索世界",
     "target": "uiNode/frontNode/bottomNode/btnGuild",
     "targetChild": true
   },
-  "chat": {
+  "32": {
     "name": "聊天",
+    "key": "chat",
     "openlv": 17,
     "desc": "聊天"
   },
-  "arena": {
+  "33": {
+    "name": "冒险任务",
+    "key": "tour",
+    "openlv": 19,
+    "award": "202:100&1000090:1&1000160:1",
+    "desc": "派遣英雄执行任务，获得稀有奖励"
+  },
+  "34": {
+    "name": "制作工坊",
+    "key": "smithy",
+    "openlv": 20,
+    "award": "202:100&105503010:1&1000080:1",
+    "desc": "合成极品装备，合成稀有护符，提升英雄属性",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy",
+    "targetChild": true
+  },
+  "35": {
+    "name": "限时累充",
+    "key": "rechargeTotal",
+    "openlv": 21,
+    "desc": "限时充值到达指定额度可领取诸多壕礼",
+    "target": "hallNode/mainNode/topNode/rightNode/btnList/btnRechargeTotal"
+  },
+  "36": {
+    "name": "超值礼包",
+    "key": "giftLoop",
+    "openlv": 22
+  },
+  "37": {
+    "name": "限时活动",
+    "key": "limitedTime",
+    "openlv": 25,
+    "desc": "限时活动",
+    "target": "hallNode/mainNode/btnLimited"
+  },
+  "38": {
     "name": "竞技场",
-    "openlv": 17,
-    "award": "110:5&205:100&1000090:1",
+    "key": "arena",
+    "openlv": 25,
+    "award": "202:100&205:100&1000090:1",
     "desc": "展现实力，争夺竞技排名，赢取排名奖励"
   },
-  "bazaar": {
+  "39": {
     "name": "神秘商店",
-    "openlv": 21,
-    "award": "110:5&1000070:10&1000090:1",
+    "key": "bazaar",
+    "openlv": 26,
+    "award": "202:100&1000070:10&1000090:1",
     "desc": "神秘商店，有概率刷新特价稀有道具"
   },
-  "dailyFb_equip": {
-    "name": "装备副本",
-    "openlv": 22,
-    "desc": "装备副本，挑战可获得装备箱子",
+  "40": {
+    "name": "养成副本",
+    "key": "dailyFb_equip",
+    "openlv": 27,
+    "desc": "养成副本，挑战可获得养成材料",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "dailyFb_art": {
-    "name": "进阶副本",
-    "openlv": 25,
-    "desc": "进阶副本，挑战可获得进阶石",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
-  },
-  "areaBoss": {
-    "name": "新服BOSS",
-    "openlv": 15,
-    "desc": "全服挑战，击杀后可领取全服奖励",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
-  },
-  "extremity": {
-    "name": "魔龙宝库",
+  "41": {
+    "name": "时装副本",
+    "key": "dailyFb_art",
     "openlv": 28,
-    "award": "110:5&201:10000&101:10000",
-    "desc": "挑战魔龙，突破自身上限",
+    "desc": "时装副本，挑战可获得时装碎片",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  },
+  "42": {
+    "name": "神兽试炼",
+    "key": "extremity",
+    "openlv": 29,
+    "award": "202:100&201:10000&101:10000",
+    "desc": "挑战神兽，突破自身上限",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "areaChallenge": {
+  "43": {
     "name": "新服挑战",
-    "openlv": 15,
+    "key": "areaChallenge",
+    "openlv": 30,
     "desc": "极限挑战，战胜获得丰富奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge"
   },
-  "exercise": {
-    "name": "英雄演练",
-    "openlv": 31,
-    "award": "110:5&1000050:10&1000170:1",
-    "desc": "模拟战斗，获得大量英雄经验",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+  "44": {
+    "name": "时装寻宝",
+    "key": "power_normal",
+    "openlv": 32
   },
-  "manor": {
+  "45": {
     "name": "家园系统",
+    "key": "manor",
     "openlv": 33,
     "award": "810:3000&820:10",
-    "desc": "建设家园，探索冒险",
-    "target": "uiNode/frontNode/bottomNode/btnOffice"
+    "desc": "建设家园，探索领地",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/manor"
   },
-  "ancient": {
-    "name": "挑战赛",
+  "46": {
+    "name": "巅峰对决",
+    "key": "ancient",
     "openlv": 36,
-    "award": "110:5&215:100&1000080:1",
+    "award": "202:100&215:100&1000080:1",
     "desc": "英雄对战，策略为王",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "tower_realm": {
+  "47": {
+    "name": "新服BOSS",
+    "key": "areaBoss",
+    "openlv": 38,
+    "desc": "全服挑战，击杀后可领取全服奖励",
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
+  },
+  "48": {
     "name": "阵营之塔",
+    "key": "tower_realm",
     "openlv": 40,
-    "award": "110:5&1000050:10&1000080:1",
-    "desc": "勇闯阵营之塔，获取大量英雄碎片",
+    "award": "202:100&1000050:10&1000080:1",
+    "desc": "阵营之塔，获取大量英雄碎片",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "endless": {
-    "name": "无尽试炼",
-    "openlv": 38,
-    "award": "110:5&201:10000&101:10000",
-    "desc": "无尽试炼，获取稀有道具",
+  "49": {
+    "name": "每日首充",
+    "key": "dayRecharge",
+    "openlv": 40,
+    "desc": "每日首充"
+  },
+  "50": {
+    "name": "梦幻模拟战",
+    "key": "exercise",
+    "openlv": 45,
+    "award": "202:100&1000050:10&1000170:1",
+    "desc": "模拟对抗，获得大量英雄经验",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "beherrscher": {
-    "name": "英雄神殿",
+  "51": {
+    "name": "元素擂台赛",
+    "key": "beherrscher",
     "openlv": 46,
-    "award": "110:5&201:10000&101:10000",
-    "desc": "殿堂擂台，等你来战",
+    "award": "202:100&201:10000&101:10000",
+    "desc": "元素擂台赛，等你来战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "crossPK": {
+  "52": {
     "name": "跨服竞技场",
-    "openlv": 56,
-    "award": "110:5&210:100&1000080:1",
+    "key": "crossPK",
+    "openlv": 50,
+    "award": "202:100&210:100&1000080:1",
     "desc": "跨服竞技，勇夺冠军，彰显实力",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "crossTop": {
+  "53": {
     "name": "王者巅峰赛",
-    "openlv": 57,
-    "award": "110:5&211:100&1000080:1",
+    "key": "crossTop",
+    "openlv": 52,
+    "award": "202:100&211:100&1000080:1",
     "desc": "最高赛事，角逐英雄最强王者",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/crossTop",
+    "targetChild": true
+  },
+  "54": {
+    "name": "无尽试炼",
+    "key": "endless",
+    "openlv": 58,
+    "award": "202:100&201:10000&101:10000",
+    "desc": "森林探险，获取稀有道具",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "extract": {
-    "name": "藏宝阁",
-    "openlv": 58,
-    "desc": "探秘宝库，获得稀有道具",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
-  },
-  "topic": {
+  "55": {
     "name": "限时招募",
-    "openlv": 58,
+    "key": "topic",
+    "openlv": 59,
     "desc": "可招募主题英雄，每日刷新主题",
-    "target": "hallNode/mainNode/bottomNode/recruit"
+    "target": "hallNode/mainNode/btnLimited"
   },
-  "zhulu": {
+  "56": {
+    "name": "藏宝阁",
+    "key": "extract",
+    "openlv": 59,
+    "desc": "探秘宝库，获得稀有道具",
+    "target": "hallNode/mainNode/btnLimited"
+  },
+  "57": {
+    "name": "宝石矿场",
+    "key": "pit",
+    "openlv": 60,
+    "desc": "挖掘宝石壮大实力",
+    "target": "uiNode/frontNode/bottomNode/btnBattle",
+    "targetChild": true
+  },
+  "58": {
+    "name": "宝石系统",
+    "key": "pit",
+    "openlv": 60,
+    "award": "202:100&1000501:1&1000080:1",
+    "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
+    "target": "uiNode/frontNode/bottomNode/btnHero"
+  },
+  "59": {
+    "name": "时空秘境",
+    "key": "secretChallenge",
+    "openlv": 65,
+    "award": "202:100&201:10000&101:10000",
+    "desc": "穿梭时空，获取时装材料",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying",
+    "targetChild": true
+  },
+  "60": {
+    "name": "七日悬赏",
+    "key": "weekLoop",
+    "openlv": 68,
+    "desc": "每日完成任务，获取丰厚奖励"
+  },
+  "61": {
+    "name": "技能宝石",
+    "key": "pit_skill",
+    "openlv": 70,
+    "desc": "穿戴技能石，提高英雄战力",
+    "target": "uiNode/frontNode/bottomNode/btnHero"
+  },
+  "62": {
     "name": "诸神遗迹",
-    "openlv": 52,
-    "award": "110:5&206:100&1000080:1",
+    "key": "zhulu",
+    "openlv": 71,
+    "award": "202:100&206:100&1000080:1",
     "desc": "探索洞窟，获得英雄石板",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "pit": {
-    "name": "宝石系统",
-    "openlv": 30,
-    "award": "110:5&1000501:1&1000080:1",
-    "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
-    "target": "uiNode/frontNode/bottomNode/btnHero"
-  },
-  "secretChallenge": {
-    "name": "虚空幻境",
-    "openlv": 130,
-    "award": "110:5&201:10000&101:10000",
-    "desc": "探索幻境，收集材料",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
-  },
-  "pit_skill": {
-    "name": "技能宝石",
-    "openlv": 45,
-    "desc": "穿戴技能石，提高英雄战力",
-    "target": "uiNode/frontNode/bottomNode/btnHero"
-  },
-  "ace": {
-    "name": "基因系统",
-    "openlv": 62,
-    "award": "110:5&206:100&1000080:1",
-    "desc": "基因助阵英雄，发挥极致实力",
+  "63": {
+    "name": "魂环系统",
+    "key": "ace",
+    "openlv": 72,
+    "award": "202:100&206:100&1000080:1",
+    "desc": "石板助阵英雄，发挥极致实力",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
-  "wake": {
-    "name": "传奇星级",
+  "64": {
+    "name": "英雄觉醒",
+    "key": "wake",
     "openlv": 80,
-    "award": "110:5&201:10000&1000120:1",
+    "award": "202:100&201:10000&1000120:1",
     "desc": "英雄突破极限，觉醒全新天赋",
     "target": "uiNode/frontNode/bottomNode/btnHero",
     "targetChild": true
   },
-  "zhanfa": {
-    "name": "智能模组",
+  "65": {
+    "name": "武魂觉醒",
+    "key": "zhanfa",
     "openlv": 90,
-    "award": "110:5&230:10&101:10000",
-    "desc": "策略圣物战法，全新战斗体验",
-    "target": "uiNode/frontNode/bottomNode/btnOffice",
+    "award": "202:100&230:10&101:10000",
+    "desc": "觉醒武魂，全新战斗体验",
+    "target": "hallNode/mainNode/bottomNode/btnList/btnZf",
     "targetChild": true
   },
-  "superEquip": {
-    "name": "神装系统",
+  "66": {
+    "name": "金装系统",
+    "key": "superEquip",
     "openlv": 100,
-    "award": "110:5&1000060:1&201:10000",
-    "desc": "铸造神装，无敌于世",
-    "target": "hallNode/mainNode/bottomNode/smithy"
+    "award": "202:100&1000060:1&201:10000",
+    "desc": "铸造金装，无敌于世",
+    "target": "hallNode/mapNode/scrollView/view/content/buildingNode/smithy"
   },
-  "areaTrial": {
+  "67": {
     "name": "异界征战",
-    "openlv": 103,
-    "award": "110:5&1000060:1&201:10000",
+    "key": "areaTrial",
+    "openlv": 105,
+    "award": "202:100&1000060:1&201:10000",
     "desc": "以少胜多，夺取神装",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "book": {
-    "name": "灵宠系统",
-    "openlv": 125,
-    "award": "110:5&1000300:1000&1000400:1",
-    "desc": "灵宠助战，全新特性战斗策略升级",
-    "target": "uiNode/frontNode/bottomNode/btnOffice",
+  "68": {
+    "name": "神兽系统",
+    "key": "book",
+    "openlv": 110,
+    "award": "202:100&1000300:1000&1000400:1",
+    "desc": "神兽助战，全新特性战斗策略升级",
+    "target": "uiNode/frontNode/bottomNode/btnRole",
     "targetChild": true
   },
-  "crossTeamPK": {
-    "name": "阵营战场",
+  "69": {
+    "name": "神兽转盘",
+    "key": "bf_turntable",
+    "openlv": 110
+  },
+  "70": {
+    "name": "阵营决战",
+    "key": "crossTeamPK",
     "openlv": 115,
-    "award": "110:5&212:100&1000080:1",
+    "award": "202:100&212:100&1000080:1",
     "desc": "阵营对抗，为胜利而战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "targetChild": true
   },
-  "recruit": {
-    "name": "抽卡",
-    "openlv": 1
+  "71": {
+    "name": "超级时装",
+    "key": "power_super",
+    "openlv": 120
   },
-  "hook": {
-    "name": "主线",
-    "openlv": 1
-  },
-  "hero": {
-    "name": "英雄列表",
-    "openlv": 1
-  },
-  "revenue": {
-    "name": "招财",
-    "openlv": 1
-  },
-  "friend": {
-    "name": "好友列表",
-    "openlv": 1
-  },
-  "shop_arena": {
-    "name": "竞技商城",
-    "openlv": 1
-  },
-  "shop_crossTop": {
-    "name": "王者商城",
-    "openlv": 1
-  },
-  "shop_crossTeamPK": {
-    "name": "次元商城",
-    "openlv": 1
-  },
-  "shop_guild": {
-    "name": "公会商城",
-    "openlv": 1
-  },
-  "shop_ancient": {
-    "name": "擂台商城",
-    "openlv": 1
-  },
-  "escort": {
-    "name": "秘境寻宝",
-    "openlv": 1
-  },
-  "oh_turntable": {
-    "name": "欧皇转盘",
-    "openlv": 1
-  },
-  "power_normal": {
-    "name": "魔技转盘",
-    "openlv": 10
-  },
-  "bf_turntable": {
-    "name": "灵宠转盘",
-    "openlv": 110
-  },
-  "power_super": {
-    "name": "超级魔技",
-    "openlv": 90
-  },
-  "star_20": {
-    "name": "神将星级",
-    "openlv": 120,
+  "72": {
+    "name": "觉醒阶级",
+    "key": "star_20",
+    "openlv": 125,
     "award": "110:10&2000060:1000",
-    "desc": "变身神将，镶嵌符文力量，解锁专属天赋",
+    "desc": "闪光英雄，镶嵌符文力量，解锁专属天赋",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
-  "fushi": {
+  "73": {
     "name": "符石系统",
-    "openlv": 120
+    "key": "fushi",
+    "openlv": 125
   },
-  "dailyFb_fushi": {
+  "74": {
     "name": "符石副本",
-    "openlv": 120
-  },
-  "beauty": {
-    "name": "女神系统",
-    "openlv": 60,
-    "award": "603100:15&6000000:1",
-    "desc": "高山流水觅知音，知音不在谁堪听"
-  },
-  "bingfu": {
-    "name": "魔方系统",
-    "openlv": 63,
-    "award": "300010:1&1000310:50",
-    "desc": "魔方加持，愈战愈勇"
+    "key": "dailyFb_fushi",
+    "openlv": 125
   }
 }

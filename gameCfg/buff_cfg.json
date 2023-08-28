@@ -10,7 +10,7 @@
   },
   "poison": {
     "name": "中毒",
-    "des": "每回合损失3%的最大生命值，受治疗效果降低12%，持续3回合，最多可叠加5层，效果随层数提高。",
+    "des": "每回合受到施法者攻击力60%的伤害，持续2回合，最多可叠加3层，中毒伤害无视防御",
     "refreshType": "before",
     "lower": true,
     "hurt": true,
@@ -18,7 +18,7 @@
     "effects": true
   },
   "disarm": {
-    "name": "折戟",
+    "name": "缠绕",
     "des": "无法进行普通攻击",
     "refreshType": "after",
     "control": true,
@@ -63,7 +63,7 @@
   },
   "amplify_mag": {
     "name": "法伤加成",
-    "des": "造成的法术伤害增加",
+    "des": "造成的特攻伤害增加",
     "refreshType": "roundOver",
     "intensify": true
   },
@@ -80,8 +80,8 @@
     "effects": true
   },
   "reduction_mag": {
-    "name": "水镜护盾",
-    "des": "受到的法术伤害降低60%，持续2回合,不可驱散",
+    "name": "水神护盾",
+    "des": "受到的特攻伤害降低60%，持续2回合,不可驱散",
     "refreshType": "roundOver",
     "effects": true
   },
@@ -132,7 +132,7 @@
   },
   "chaofeng": {
     "name": "嘲讽",
-    "des": "使敌人只能进行普通攻击（对治疗英雄无效），且优先以自身为目标，持续1回合",
+    "des": "使敌人只能进行普通攻击（对治疗宝可梦无效），且优先以自身为目标，持续1回合",
     "refreshType": "after",
     "control": true,
     "debuff": true,
@@ -257,8 +257,8 @@
     "intensify": true
   },
   "fengzheng": {
-    "name": "连击印记",
-    "des": "当队友攻击该目标时，消耗1层连击印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
+    "name": "风筝印记",
+    "des": "当队友攻击该目标时，消耗1层风筝印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
@@ -270,7 +270,7 @@
     "intensify": true
   },
   "dodgeRate": {
-    "name": "闪避祝福",
+    "name": "精灵祝福",
     "des": "闪避率提高50%，持续1回合,不可驱散",
     "refreshType": "roundOver"
   },
@@ -301,13 +301,13 @@
   },
   "sneak": {
     "name": "潜行",
-    "des": "潜行状态下不会被攻击。自身回合开始时，若没有其他存活的队友，则潜行消失",
+    "des": "潜行状态下不会被攻击，持续1回合",
     "refreshType": "before",
     "effects": true
   },
   "curse": {
     "name": "诅咒",
-    "des": "在持续3回合后，造成添加者攻击力100%的法术伤害，最大可叠加5层",
+    "des": "在持续3回合后，造成添加者攻击力100%的特攻伤害，最大可叠加5层",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
