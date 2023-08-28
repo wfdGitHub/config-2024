@@ -1,6 +1,7 @@
 {
   "login": {
-    "name": "登录"
+    "name": "登录",
+    "soure": "hook"
   },
   "recruit": {
     "name": "英雄祭祀",
@@ -17,7 +18,7 @@
   "checkpoints": {
     "name": "关卡等级",
     "des": "参数代表关卡等级",
-    "soure": "tower"
+    "soure": "hook"
   },
   "general": {
     "name": "将军府征募",
@@ -70,7 +71,7 @@
     "soure": "hero"
   },
   "hero": {
-    "name": "获取武将",
+    "name": "获得英雄星级",
     "des": "参数代表英雄星级",
     "equal": true,
     "soure": "recruit"
@@ -84,42 +85,6 @@
   "heroAd": {
     "name": "英雄阶级",
     "des": "参数代表英雄阶级",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_5": {
-    "name": "英雄升到5星",
-    "des": "参数代表英雄ID",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_6": {
-    "name": "英雄升到6星",
-    "des": "参数代表英雄ID",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_7": {
-    "name": "英雄升到7星",
-    "des": "参数代表英雄ID",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_8": {
-    "name": "英雄升到8星",
-    "des": "参数代表英雄ID",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_9": {
-    "name": "英雄升到9星",
-    "des": "参数代表英雄ID",
-    "equal": true,
-    "soure": "hero"
-  },
-  "heroStar_10": {
-    "name": "英雄升到10星",
-    "des": "参数代表英雄ID",
     "equal": true,
     "soure": "hero"
   },
@@ -154,6 +119,7 @@
   "ace": {
     "name": "获得元神",
     "des": "参数代表元神品质等级",
+    "equal": true,
     "soure": "bazaar"
   },
   "tttLv": {
@@ -220,11 +186,6 @@
     "equal": true,
     "soure": "hook"
   },
-  "battleNum": {
-    "name": "上阵英雄",
-    "des": "参数代表上阵英雄数量",
-    "soure": "hero"
-  },
   "ss_pass": {
     "name": "挑战山海通关",
     "des": "参数代表关卡数",
@@ -265,7 +226,8 @@
     "soure": "pit"
   },
   "escort": {
-    "name": "木牛流马护送次数"
+    "name": "木牛流马护送次数",
+    "soure": "escort"
   },
   "exercise": {
     "name": "通关沙盘演武",
@@ -310,5 +272,101 @@
   "buy_zztq": {
     "name": "激活至尊特权",
     "soure": "recharge"
+  },
+  "beauty_num": {
+    "name": "解锁红颜",
+    "soure": "beauty"
+  },
+  "beauty_opinion": {
+    "name": "红颜好感度",
+    "soure": "beauty"
+  },
+  "manor_lv": {
+    "name": "封地大厅等级",
+    "des": "参数代表等级",
+    "soure": "manor"
+  },
+  "manor_score": {
+    "name": "获得建筑评分",
+    "soure": "manor"
+  },
+  "officer": {
+    "name": "爵位等级",
+    "des": "参数代表等级",
+    "soure": "officer"
+  },
+  "coexist_lv": {
+    "name": "共鸣等级",
+    "des": "参数代表等级",
+    "soure": "coexist"
+  },
+  "evolution": {
+    "name": "官职等级",
+    "des": "参数代表等级",
+    "equal": true,
+    "soure": "hero"
+  },
+  "camp_att": {
+    "name": "阵营加成等级",
+    "soure": "campAtt"
+  },
+  "hero_tr": {
+    "name": "培养等级",
+    "des": "参数代表等级",
+    "soure": "hero"
+  },
+  "equip_st": {
+    "name": "装备强化等级",
+    "des": "参数代表等级",
+    "soure": "hero"
+  },
+  "power_star": {
+    "name": "主动技升星",
+    "des": "参数代表无双技ID",
+    "equal": true,
+    "soure": "power"
+  },
+  "grading": {
+    "name": "跨服竞技场挑战次数",
+    "soure": "crossPK"
+  },
+  "ancient": {
+    "name": "远古战场挑战次数",
+    "soure": "ancient"
+  },
+  "beherrscher": {
+    "name": "无双争霸赛获得席位",
+    "soure": "beherrscher"
+  },
+  "muye": {
+    "name": "天命之战挑战次数",
+    "soure": "crossTeamPK"
+  },
+  "zhanfa_gain": {
+    "name": "获得战法",
+    "des": "参数代表战法ID",
+    "equal": true,
+    "soure": "shop"
+  },
+  "book_gain": {
+    "name": "获得天书",
+    "des": "参数代表天书ID",
+    "equal": true,
+    "soure": "shop"
+  },
+  "beauty_star": {
+    "name": "红颜升星",
+    "des": "参数代表红颜ID",
+    "equal": true,
+    "soure": "beauty"
+  },
+  "exercise_fight": {
+    "name": "沙盘演武挑战胜利",
+    "soure": "exercise"
+  },
+  "area_trial": {
+    "name": "血战华容通关",
+    "des": "参数代表关卡ID",
+    "soure": "areaTrial"
   }
 }
