@@ -1,0 +1,64 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "【冒险】当中的【快速作战】可以一次性获得大量资源！"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "每天都能免费获得1次【快速作战】次数，快去试试吧！"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/btnQuick",
+    "text": "【快速作战】可获得大量经验和装备"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hook_dialog/quickNode/mainNode/btnQuickOK",
+    "key": true,
+    "delay": 500
+  },
+  "5": {
+    "cmd": "click",
+    "target": "dialogNode/awardShow/mask"
+  },
+  "6": {
+    "cmd": "click",
+    "target": "hook_dialog/quickNode/mainNode/btnClose"
+  },
+  "7": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "激活快速作战特权可额外获得购买次数"
+  },
+  "8": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "这次我们试着去将敌人彻底清除吧！"
+  },
+  "9": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "准备好了我们就出发吧！"
+  },
+  "10": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/btnFight"
+  },
+  "11": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/viewNode/btnSetTeam/btnFight",
+    "text": "点击出战"
+  }
+}

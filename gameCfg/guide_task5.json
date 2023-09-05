@@ -1,0 +1,39 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "已经经历了多场战斗，是时候去升级了"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnHero",
+    "text": "点击忍者",
+    "key": true,
+    "delay": 550
+  },
+  "2": {
+    "cmd": "click",
+    "target": "heroBag/mainNode/heroView/cardView/view/content/cardNode/hero_405030",
+    "text": "选择要升级的忍者",
+    "delay": 550
+  },
+  "3": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/develop/levelUp/btnLevelUp"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/develop/btnAutoWear"
+  },
+  "5": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/btnReturn"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "上阵相同阵营的忍者能够获得额外属性加成"
+  }
+}

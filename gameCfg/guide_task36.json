@@ -1,0 +1,30 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "忍界试炼已经开启"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnPlaying"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "levelNode1/mainPlayingLayer/typeSelect/toggle1"
+  },
+  "3": {
+    "cmd": "mainPlaying_move"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "levelNode1/mainPlayingLayer/mainNode/mode1/view/view/content/areaTrial",
+    "key": true
+  },
+  "5": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "一队战胜三队，实力证道领觉醒石"
+  }
+}

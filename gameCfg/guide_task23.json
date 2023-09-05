@@ -1,0 +1,38 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "无尽历练已开启"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnPlaying"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "levelNode1/mainPlayingLayer/typeSelect/toggle1"
+  },
+  "3": {
+    "cmd": "mainPlaying_move"
+  },
+  "4": {
+    "cmd": "click",
+    "characterId": 10000,
+    "name": "小樱",
+    "target": "levelNode1/mainPlayingLayer/mainNode/mode1/view/view/content/endless",
+    "key": true
+  },
+  "5": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "周1/3/5/7开启小队模式，周2/4/6开启单人模式"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "完成后记得领取奖励"
+  }
+}
