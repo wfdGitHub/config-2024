@@ -1,0 +1,34 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "通关主线，可以在【关卡奖励】处领取奖励哦！"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "这些奖励可以让我们快速成长，记得去领取"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle",
+    "delay": 200
+  },
+  "3": {
+    "cmd": "click",
+    "target": "hookNode/topNode/btnHookTask",
+    "text": "点击这里就能领取到奖励"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hookTaskLayer/mainNode/taskView/view/content/taskNode/task_0/btnGet",
+    "key": true
+  },
+  "5": {
+    "cmd": "click",
+    "target": "dialogNode/awardShow/mask",
+    "delay": 500
+  }
+}

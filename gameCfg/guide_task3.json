@@ -1,0 +1,28 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "恭喜获得忍者：五星忍者"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "小樱",
+    "text": "快去【背包】合成忍者"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBag"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "bagLayer/mainNode/bagView/mainView/view/content/itemNode/item_405030",
+    "text": "忍者碎片可以合成忍者~"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "itemInfoNode/mainNode/bg/infoNode/btnNode/btnCompound",
+    "key": true
+  }
+}
