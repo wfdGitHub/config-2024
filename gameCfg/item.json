@@ -3868,7 +3868,7 @@
     "source1": "gift"
   },
   "200100": {
-    "name": "新气功炮卷轴",
+    "name": "紫红彗星冲击卷轴",
     "des": "对敌方随机三人造成30%攻击力的物理伤害。",
     "isBag": true,
     "type": "item",
@@ -4072,7 +4072,7 @@
     "source1": "gift"
   },
   "200400": {
-    "name": "紫红彗星冲击卷轴",
+    "name": "新气功炮卷轴",
     "des": "对敌方随机单体造成90%攻击力的物理伤害，降低目标5%攻击力，持续1回合。",
     "isBag": true,
     "type": "item",
@@ -4392,7 +4392,7 @@
     "quality": 6
   },
   "300100": {
-    "name": "魔人撒旦爆裂卷轴",
+    "name": "魔闪光杀炮卷轴",
     "des": "对敌方前排造成200%攻击力的物理伤害，有10%概率添加破甲效果。",
     "isBag": true,
     "type": "item",
@@ -4444,7 +4444,7 @@
     "quality": 6
   },
   "300200": {
-    "name": "魔闪光杀炮卷轴",
+    "name": "疯狂死亡光束卷轴",
     "des": "对敌方随机三人造成175%的法术伤害，有20%概率添加灼烧。",
     "isBag": true,
     "type": "item",
@@ -4536,7 +4536,7 @@
     "quality": 6
   },
   "300400": {
-    "name": "合体气功炮卷轴",
+    "name": "魔人撒旦爆裂卷轴",
     "des": "对敌方随机2个战士造成180%的法术伤害，有20%概率添加折戟，持续1回合。",
     "isBag": true,
     "type": "item",
@@ -4548,8 +4548,20 @@
     "source1": "gift"
   },
   "300500": {
-    "name": "疯狂死亡光束卷轴",
+    "name": "合体气功炮卷轴",
     "des": "对敌方单体造成160%攻击力的物理伤害，有20%概率添加重伤效果,持续1回合。",
+    "isBag": true,
+    "type": "item",
+    "gold": 500,
+    "coin": 2500000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "300600": {
+    "name": "四星球之力卷轴",
+    "des": "为我方血量最少的2个目标恢复70%技能威力的生命值",
     "isBag": true,
     "type": "item",
     "gold": 500,
@@ -4915,7 +4927,7 @@
     "source1": "gift"
   },
   "400100": {
-    "name": "终极加力炮卷轴",
+    "name": "伽马爆能卷轴",
     "des": "对敌方随机3人造成135%攻击力的法术伤害，对力系战士伤害增加30%。",
     "isBag": true,
     "type": "item",
@@ -4939,7 +4951,7 @@
     "source1": "gift"
   },
   "400300": {
-    "name": "闪光龟派气功卷轴",
+    "name": "究极龟派气功卷轴",
     "des": "对敌方随机3人造成135%攻击力的法术伤害，对气系战士伤害增加30%。",
     "isBag": true,
     "type": "item",
@@ -4951,7 +4963,7 @@
     "source1": "gift"
   },
   "400400": {
-    "name": "伽马爆能卷轴",
+    "name": "终极加力炮卷轴",
     "des": "对敌方随机目标造成255%攻击的物理伤害，对魔战士伤害增加30%。",
     "isBag": true,
     "type": "item",
@@ -4988,7 +5000,19 @@
   },
   "401000": {
     "name": "爆发加农炮卷轴",
-    "des": "对敌方后排造成225%攻击力的法术伤害，35%概率添加沉默。",
+    "des": "对敌方后排造成225%攻击力的法术伤害，35%概率添加折戟。",
+    "isBag": true,
+    "type": "item",
+    "gold": 1000,
+    "coin": 5000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "401100": {
+    "name": "龟仙人馈赠卷轴",
+    "des": "恢复我方血量最少的目标200%技能威力的生命值",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5174,6 +5198,8 @@
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
@@ -5186,6 +5212,8 @@
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
@@ -5198,18 +5226,22 @@
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
     "source1": "gift"
   },
   "500800": {
-    "name": "超蓝全功率卷轴",
+    "name": "超蓝暴走卷轴",
     "des": "对敌方单体造成330%攻击力的物理伤害。",
     "isBag": true,
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
@@ -5222,6 +5254,92 @@
     "type": "item",
     "gold": 2000,
     "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501100": {
+    "name": "合体最强之力卷轴",
+    "des": "为我方全体治疗100%攻击的生命,并提高16%的免伤，持续2回合",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501200": {
+    "name": "布欧回礼卷轴",
+    "des": "为我方全体治疗235%攻击的生命,并添加持续恢复效果，每回合恢复30%攻击的生命值，持续2回合",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501300": {
+    "name": "比迪丽鼓励卷轴",
+    "des": "提高我方全体战士16%的攻击力，持续2回合",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501400": {
+    "name": "达普拉魔咒卷轴",
+    "des": "40%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501500": {
+    "name": "神龙复活卷轴",
+    "des": "随机复活一名友方战士，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方战士恢复120%技能威力的生命值，此技能每次使用BP消耗+1",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "501600": {
+    "name": "龟仙流意志卷轴",
+    "des": "使我方随机单体获得一个额外回合，并获得伤害增加10%效果，持续1回合",
+    "isBag": true,
+    "type": "item",
+    "gold": 2000,
+    "coin": 10000000,
+    "other_currency": 2000060,
+    "other_value": 2000,
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
