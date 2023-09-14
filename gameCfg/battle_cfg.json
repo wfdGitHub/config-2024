@@ -1,61 +1,54 @@
 {
   "checkpoints": {
     "name": "主线关卡",
-    "type": "本服",
     "team": "normal",
-    "defComeonNum": 6,
-    "atkComeonNum": 3,
-    "maxNum": 5,
-    "dl": "lv_1"
-  },
-  "ttt": {
-    "name": "通天塔",
-    "type": "本服",
-    "team": "normal",
-    "defComeonNum": 6,
-    "atkComeonNum": 3,
-    "maxNum": 5,
-    "dl": "lv_1"
-  },
-  "daily_fb": {
-    "name": "日常副本",
-    "type": "本服",
-    "team": "simple",
-    "defComeonNum": 1,
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 3,
     "dl": "lv_1"
   },
+  "ttt": {
+    "name": "通天塔",
+    "team": "normal",
+    "defComeonNum": 6,
+    "atkComeonNum": 3,
+    "maxNum": 5,
+    "dl": "lv_2"
+  },
+  "daily_fb": {
+    "name": "日常副本",
+    "team": "normal",
+    "defComeonNum": 1,
+    "atkComeonNum": 3,
+    "maxNum": 3,
+    "dl": "lv_3"
+  },
   "arena": {
     "name": "竞技场",
-    "type": "本服",
     "team": "wheel",
     "defComeonNum": 1,
     "atkComeonNum": 1,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "grading": {
     "name": "跨服段位赛",
-    "type": "跨服",
     "team": "high",
     "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 8,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "peak": {
     "name": "王者巅峰赛",
-    "type": "跨服",
     "team": "high",
     "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 8,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "exercise": {
     "name": "模拟对战",
-    "type": "本服",
     "team": "custom",
     "defComeonNum": 3,
     "atkComeonNum": 3,
@@ -63,94 +56,93 @@
   },
   "extremity": {
     "name": "极限挑战",
-    "type": "本服",
-    "team": "custom",
+    "team": "normal",
     "defComeonNum": 1,
     "atkComeonNum": 3,
-    "maxNum": 5,
-    "dl": "lv_1"
+    "maxNum": 3,
+    "dl": "lv_4"
   },
   "beherrscher": {
     "name": "无双争霸赛",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "muye": {
     "name": "全明星赛",
-    "type": "跨服",
     "team": "allstar",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 9,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "area_trial": {
     "name": "血战华容",
-    "type": "本服",
     "team": "allstar",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 9,
-    "dl": "lv_1"
+    "dl": "lv_4"
   },
   "mysterious": {
     "name": "山海秘境",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 6,
     "atkComeonNum": 3,
     "maxNum": 5,
     "dl": "lv_1"
   },
   "zhulu": {
     "name": "涿鹿之战",
-    "type": "本服",
-    "team": "simple",
+    "team": "normal",
+    "defComeonNum": 6,
     "atkComeonNum": 3,
     "maxNum": 3,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "area_challenge1": {
     "name": "挑战单骑(1vs1)",
     "des": "新服活动",
-    "type": "本服",
     "team": "custom",
-    "atkComeonNum": 3,
-    "maxNum": 3,
-    "dl": "lv_1"
+    "defComeonNum": 1,
+    "atkComeonNum": 1,
+    "maxNum": 1,
+    "dl": "lv_4"
   },
   "area_challenge3": {
     "name": "挑战单骑(3vs3)",
     "des": "新服活动",
-    "type": "本服",
     "team": "custom",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 3,
-    "dl": "lv_1"
+    "dl": "lv_4"
   },
   "area_challenge6": {
     "name": "挑战单骑(6vs6)",
     "des": "新服活动",
-    "type": "本服",
     "team": "custom",
-    "atkComeonNum": 3,
-    "maxNum": 3,
-    "dl": "lv_1"
+    "defComeonNum": 6,
+    "atkComeonNum": 6,
+    "maxNum": 6,
+    "dl": "lv_4"
   },
   "area_boss": {
     "name": "新服BOSS",
     "des": "新服活动",
-    "type": "本服",
-    "team": "simple",
+    "team": "normal",
+    "defComeonNum": 1,
     "atkComeonNum": 3,
     "maxNum": 3,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "invade": {
     "name": "魔物入侵",
     "des": "限时玩法",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 6,
     "atkComeonNum": 3,
     "maxNum": 5,
     "dl": "lv_1"
@@ -158,91 +150,91 @@
   "worldBoss": {
     "name": "世界BOSS",
     "des": "限时玩法",
-    "type": "本服",
-    "team": "simple",
+    "team": "normal",
+    "defComeonNum": 1,
     "atkComeonNum": 3,
     "maxNum": 3,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "escort": {
     "name": "押镖玩法",
     "des": "限时玩法",
-    "type": "跨服",
     "team": "normal",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "guild_fb": {
     "name": "公会副本",
     "des": "公会玩法",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 1,
     "atkComeonNum": 3,
-    "maxNum": 5,
-    "dl": "lv_1"
+    "maxNum": 3,
+    "dl": "lv_3"
   },
   "guild_city": {
     "name": "公会攻城战",
     "des": "公会玩法",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_4"
   },
   "guild_treasure": {
     "name": "公会夺宝竞拍",
     "des": "公会玩法",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 6,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "guild_pk": {
     "name": "公会会武",
     "des": "公会玩法",
-    "type": "跨服",
     "team": "normal",
+    "defComeonNum": 3,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   },
   "manor_mon": {
     "name": "家园怪物",
     "des": "家园玩法",
-    "type": "本服",
-    "team": "normal",
-    "atkComeonNum": 3,
-    "maxNum": 5,
-    "dl": "lv_1"
+    "team": "custom",
+    "defComeonNum": 1,
+    "atkComeonNum": 1,
+    "maxNum": 1,
+    "dl": "lv_2"
   },
   "manor_city": {
     "name": "家园特殊地点",
     "des": "家园玩法",
-    "type": "本服",
     "team": "wheel",
+    "defComeonNum": 1,
     "atkComeonNum": 1,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_4"
   },
   "manor_player": {
     "name": "家园占领玩家",
     "des": "家园玩法",
-    "type": "跨服",
     "team": "wheel",
+    "defComeonNum": 1,
     "atkComeonNum": 1,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_4"
   },
   "festival": {
     "name": "节假日活动BOSS",
     "des": "假日活动",
-    "type": "本服",
     "team": "normal",
+    "defComeonNum": 1,
     "atkComeonNum": 3,
     "maxNum": 5,
-    "dl": "lv_1"
+    "dl": "lv_3"
   }
 }
