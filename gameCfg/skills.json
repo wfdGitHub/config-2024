@@ -1,5 +1,5 @@
 {
-  "6040101": {
+  "30101001": {
     "name": "砍杀",
     "specie": 1,
     "anger": 4,
@@ -9,7 +9,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6040102": {
+  "30101002": {
     "name": "疯狂砍杀",
     "specie": 1,
     "anger": 4,
@@ -21,7 +21,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
-  "6040201": {
+  "30102001": {
     "name": "碎击",
     "specie": 1,
     "anger": 4,
@@ -31,7 +31,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6040202": {
+  "30102002": {
     "name": "巨石冲击",
     "specie": 1,
     "anger": 4,
@@ -43,7 +43,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
-  "6040301": {
+  "30103001": {
     "name": "碎击",
     "specie": 1,
     "anger": 4,
@@ -53,19 +53,19 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6040302": {
+  "30103002": {
     "name": "霜冻冲击",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成120%攻击力的法术伤害,有15%概率添加冰冻",
+    "des": "对敌方单体造成120%攻击力的法术伤害,有15%概率添加冰冻",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 1.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
-  "6050101": {
+  "30104001": {
     "name": "蛮力",
     "specie": 1,
     "anger": 4,
@@ -75,7 +75,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6050102": {
+  "30104002": {
     "name": "猪魔巨角",
     "specie": 1,
     "anger": 4,
@@ -87,7 +87,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
-  "6050201": {
+  "30105001": {
     "name": "冲击",
     "specie": 1,
     "anger": 4,
@@ -97,19 +97,19 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6050202": {
+  "30105002": {
     "name": "碾压冲撞",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成150%攻击力的物理伤害,有100%概率添加眩晕",
+    "des": "对敌方单体造成150%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 1.5,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
-  "6050301": {
+  "30106001": {
     "name": "利爪",
     "specie": 1,
     "anger": 4,
@@ -119,19 +119,19 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "6050302": {
+  "30106002": {
     "name": "炎火喷射",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成100%攻击力的物理伤害,有100%概率添加眩晕",
+    "des": "对敌方单体造成100%攻击力的物理伤害,有100%概率添加眩晕",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 1.5,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
-  "6050401": {
+  "30107001": {
     "name": "爪击",
     "specie": 1,
     "anger": 4,
@@ -143,7 +143,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "6050402": {
+  "30107002": {
     "name": "巨熊怒吼",
     "specie": 1,
     "anger": 4,
@@ -155,7 +155,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "6050501": {
+  "30108001": {
     "name": "冲击",
     "specie": 1,
     "anger": 4,
@@ -167,19 +167,19 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "6050502": {
+  "30108002": {
     "name": "撼天动地",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成550%攻击力的法术伤害,有50%概率添加眩晕",
+    "des": "对敌方随机3人造成550%攻击力的法术伤害,有50%概率添加眩晕",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 5.5,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "6050601": {
+  "30109001": {
     "name": "冰石",
     "specie": 1,
     "anger": 4,
@@ -191,19 +191,19 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "6050602": {
+  "30109002": {
     "name": "冰冻之力",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成360%攻击力的法术伤害,有50%概率添加冰冻",
+    "des": "对敌方单体造成360%攻击力的法术伤害,有50%概率添加冰冻",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "7040101": {
+  "30110001": {
     "name": "毒咬",
     "specie": 1,
     "anger": 4,
@@ -213,7 +213,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "7040102": {
+  "30110002": {
     "name": "巨蛇毒液",
     "specie": 1,
     "anger": 4,
@@ -225,7 +225,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "7040201": {
+  "30111001": {
     "name": "咬碎",
     "specie": 1,
     "anger": 4,
@@ -235,7 +235,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "7040202": {
+  "30111002": {
     "name": "巨蚁突袭",
     "specie": 1,
     "anger": 4,
@@ -247,7 +247,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "7050101": {
+  "30112001": {
     "name": "冲撞",
     "specie": 1,
     "anger": 4,
@@ -257,7 +257,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "7050102": {
+  "30112002": {
     "name": "毒液打击",
     "specie": 1,
     "anger": 4,
@@ -269,7 +269,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "7050201": {
+  "30113001": {
     "name": "冲撞",
     "specie": 1,
     "anger": 4,
@@ -279,7 +279,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "7050202": {
+  "30113002": {
     "name": "巨鲨撕咬",
     "specie": 1,
     "anger": 4,
@@ -291,7 +291,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
-  "7050301": {
+  "30114001": {
     "name": "冲撞",
     "specie": 1,
     "anger": 4,
@@ -301,7 +301,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "7050302": {
+  "30114002": {
     "name": "连续冲撞",
     "specie": 1,
     "anger": 4,
@@ -313,7 +313,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "7050401": {
+  "30115001": {
     "name": "毒雾",
     "specie": 1,
     "anger": 4,
@@ -325,7 +325,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "7050402": {
+  "30115002": {
     "name": "风灵孢子",
     "specie": 1,
     "anger": 4,
@@ -337,7 +337,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "7050501": {
+  "40101001": {
     "name": "劈开",
     "specie": 1,
     "anger": 4,
@@ -349,7 +349,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "7050502": {
+  "40101002": {
     "name": "无畏连砍",
     "specie": 1,
     "anger": 4,
@@ -361,7 +361,7 @@
     "key1": "killRet",
     "value1": true
   },
-  "7050601": {
+  "40102001": {
     "name": "追打",
     "specie": 1,
     "anger": 4,
@@ -371,7 +371,7 @@
     "targetType": "enemy_normal",
     "mul": 2.4
   },
-  "7050602": {
+  "40102002": {
     "name": "双刃突刺",
     "specie": 1,
     "anger": 4,
@@ -383,7 +383,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
-  "7050701": {
+  "40103001": {
     "name": "沙暴",
     "specie": 1,
     "anger": 4,
@@ -395,7 +395,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "7050702": {
+  "40103002": {
     "name": "飞沙走石",
     "specie": 1,
     "anger": 4,
@@ -409,7 +409,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
-  "8040101": {
+  "40104001": {
     "name": "毒雾",
     "specie": 1,
     "anger": 4,
@@ -419,7 +419,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040102": {
+  "40104002": {
     "name": "毒药孢子",
     "specie": 1,
     "anger": 4,
@@ -431,7 +431,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8040201": {
+  "40105001": {
     "name": "手刀",
     "specie": 1,
     "anger": 4,
@@ -441,7 +441,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040202": {
+  "40105002": {
     "name": "劈开",
     "specie": 1,
     "anger": 4,
@@ -451,7 +451,7 @@
     "targetType": "enemy_normal",
     "mul": 2.5
   },
-  "8040301": {
+  "40106001": {
     "name": "爪击",
     "specie": 1,
     "anger": 4,
@@ -461,7 +461,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040302": {
+  "40106002": {
     "name": "飞刃",
     "specie": 1,
     "anger": 4,
@@ -473,7 +473,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
-  "8040401": {
+  "40107001": {
     "name": "投掷",
     "specie": 1,
     "anger": 4,
@@ -483,7 +483,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040402": {
+  "40107002": {
     "name": "冲击",
     "specie": 1,
     "anger": 4,
@@ -495,7 +495,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
-  "8040501": {
+  "40108001": {
     "name": "投掷",
     "specie": 1,
     "anger": 4,
@@ -505,7 +505,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040502": {
+  "40108002": {
     "name": "冰封冲击",
     "specie": 1,
     "anger": 4,
@@ -517,7 +517,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
-  "8040601": {
+  "40109001": {
     "name": "突刺",
     "specie": 1,
     "anger": 4,
@@ -527,7 +527,7 @@
     "targetType": "enemy_normal",
     "mul": 1
   },
-  "8040602": {
+  "40109002": {
     "name": "毒针突击",
     "specie": 1,
     "anger": 4,
@@ -539,7 +539,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":0.5}"
   },
-  "8050101": {
+  "40110001": {
     "name": "泡沫",
     "specie": 1,
     "anger": 4,
@@ -549,7 +549,7 @@
     "targetType": "enemy_normal",
     "mul": 1.2
   },
-  "8050102": {
+  "40110002": {
     "name": "海浪猛击",
     "specie": 1,
     "anger": 4,
@@ -561,7 +561,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
-  "8050201": {
+  "40111001": {
     "name": "毒液",
     "specie": 1,
     "anger": 4,
@@ -573,7 +573,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8050202": {
+  "40111002": {
     "name": "毒弹射击",
     "specie": 1,
     "anger": 4,
@@ -587,7 +587,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8050301": {
+  "40112001": {
     "name": "毒液",
     "specie": 1,
     "anger": 4,
@@ -599,7 +599,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8050302": {
+  "40112002": {
     "name": "疯狂毒刃",
     "specie": 1,
     "anger": 4,
@@ -613,7 +613,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8050401": {
+  "40113001": {
     "name": "光束",
     "specie": 1,
     "anger": 4,
@@ -625,7 +625,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8050402": {
+  "40113002": {
     "name": "无畏冲击",
     "specie": 1,
     "anger": 4,
@@ -639,7 +639,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8050501": {
+  "40114001": {
     "name": "光束",
     "specie": 1,
     "anger": 4,
@@ -651,7 +651,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8050502": {
+  "40114002": {
     "name": "能量冲击",
     "specie": 1,
     "anger": 4,
@@ -665,7 +665,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8050601": {
+  "40115001": {
     "name": "火炮",
     "specie": 1,
     "anger": 4,
@@ -677,7 +677,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "8050602": {
+  "40115002": {
     "name": "绝命战火",
     "specie": 1,
     "anger": 4,
@@ -689,7 +689,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
-  "8050701": {
+  "40116001": {
     "name": "火炮",
     "specie": 1,
     "anger": 4,
@@ -701,7 +701,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "8050702": {
+  "40116002": {
     "name": "绝命炮击",
     "specie": 1,
     "anger": 4,
@@ -713,7 +713,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
-  "8050801": {
+  "40117001": {
     "name": "雷击",
     "specie": 1,
     "anger": 4,
@@ -725,7 +725,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "8050802": {
+  "40117002": {
     "name": "雷霆光束",
     "specie": 1,
     "anger": 4,
@@ -737,7 +737,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
-  "8050901": {
+  "40118001": {
     "name": "电击",
     "specie": 1,
     "anger": 4,
@@ -749,7 +749,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8050902": {
+  "40118002": {
     "name": "巨大角撞",
     "specie": 1,
     "anger": 4,
@@ -763,7 +763,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8051001": {
+  "40119001": {
     "name": "毒爪",
     "specie": 1,
     "anger": 4,
@@ -775,7 +775,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8051002": {
+  "40119002": {
     "name": "毒液冲击",
     "specie": 1,
     "anger": 4,
@@ -789,7 +789,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "8051101": {
+  "40120001": {
     "name": "毒爪",
     "specie": 1,
     "anger": 4,
@@ -801,7 +801,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
-  "8051102": {
+  "40120002": {
     "name": "复仇嘶吼",
     "specie": 1,
     "anger": 4,
@@ -814,134 +814,6 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
-  },
-  "8051201": {
-    "name": "雷击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方单体造成200%攻击力的法术伤害，并添加3层感电",
-    "damageType": "mag",
-    "targetType": "enemy_normal",
-    "mul": 2,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
-  },
-  "8051202": {
-    "name": "疯狂炮击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方全体造成300%攻击力的法术伤害，并添加3层感电",
-    "damageType": "mag",
-    "targetType": "enemy_all",
-    "mul": 3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
-  },
-  "8051301": {
-    "name": "毒击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方单体造成200%攻击力的法术伤害，并添加中毒",
-    "damageType": "mag",
-    "targetType": "enemy_normal",
-    "mul": 2,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
-  },
-  "8051302": {
-    "name": "剧毒射击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方全体造成225%攻击力的法术伤害，有50%概率添加沉默",
-    "damageType": "mag",
-    "targetType": "enemy_all",
-    "mul": 2.25,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
-  },
-  "8051401": {
-    "name": "咒杀",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒",
-    "damageType": "mag",
-    "targetType": "enemy_normal",
-    "mul": 2.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
-  },
-  "8051402": {
-    "name": "天降毒炎",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对地方纵排造成500%攻击力的法术伤害，并添加中毒，100%概率眩晕",
-    "damageType": "mag",
-    "targetType": "enemy_vertical",
-    "mul": 5,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
-    "key2": "buff2",
-    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
-  },
-  "8051501": {
-    "name": "冲击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方前排造成240%攻击力的物理伤害,并添加中毒",
-    "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
-    "mul": 2.4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
-  },
-  "8051502": {
-    "name": "玄武之力",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方单体造成600%攻击力的物理伤害",
-    "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 6
-  },
-  "8051601": {
-    "name": "巨龙冲击",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方随机单体造成200%攻击力的物理伤害,有30%概率眩晕,若击杀目标，重复释放此技能",
-    "damageType": "phy",
-    "targetType": "enemy_1",
-    "mul": 2,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}",
-    "key2": "killRet",
-    "value2": true,
-    "key3": "maxHP_damage",
-    "value3": 0.1
-  },
-  "8051602": {
-    "name": "黑龙咆哮",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方随机单体造成400%攻击力的物理伤害,有100%概率眩晕,若击杀目标，重复释放此技能",
-    "damageType": "phy",
-    "targetType": "enemy_1",
-    "mul": 4,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "killRet",
-    "value2": true,
-    "key3": "maxHP_damage",
-    "value3": 0.3
   },
   "50101001": {
     "name": "吸取",
@@ -3376,6 +3248,436 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
+  "60101001": {
+    "name": "雷击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60101002": {
+    "name": "疯狂炮击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方全体造成300%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60102001": {
+    "name": "毒击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的法术伤害，并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60102002": {
+    "name": "剧毒射击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方全体造成225%攻击力的法术伤害，有50%概率添加沉默",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "60103001": {
+    "name": "咒杀",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60103002": {
+    "name": "天降毒炎",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对地方随机3人造成500%攻击力的法术伤害，并添加中毒，100%概率眩晕",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60104001": {
+    "name": "冲击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的物理伤害,并添加中毒",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60104002": {
+    "name": "玄武之力",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成600%攻击力的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 6
+  },
+  "60105001": {
+    "name": "巨龙冲击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机单体造成200%攻击力的物理伤害,有30%概率眩晕,若击杀目标，重复释放此技能",
+    "damageType": "phy",
+    "targetType": "enemy_1",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}",
+    "key2": "killRet",
+    "value2": true,
+    "key3": "maxHP_damage",
+    "value3": 0.1
+  },
+  "60105002": {
+    "name": "黑龙咆哮",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机单体造成400%攻击力的物理伤害,有100%概率眩晕,若击杀目标，重复释放此技能",
+    "damageType": "phy",
+    "targetType": "enemy_1",
+    "mul": 4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "killRet",
+    "value2": true,
+    "key3": "maxHP_damage",
+    "value3": 0.3
+  },
+  "60106001": {
+    "name": "能量冲击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、虚弱",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60106002": {
+    "name": "火炮",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "60107001": {
+    "name": "绝命战火",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60107002": {
+    "name": "火炮",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "60108001": {
+    "name": "绝命炮击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60108002": {
+    "name": "雷击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成60%攻击力的法术伤害,并添加1层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "60109001": {
+    "name": "雷霆光束",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方随机三人造成180%攻击力的法术伤害,并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 1.8,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60109002": {
+    "name": "电击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60110001": {
+    "name": "巨大角撞",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60110002": {
+    "name": "毒爪",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60111001": {
+    "name": "毒液冲击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60111002": {
+    "name": "毒爪",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60112001": {
+    "name": "复仇嘶吼",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60112002": {
+    "name": "雷击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60113001": {
+    "name": "疯狂炮击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方全体造成300%攻击力的法术伤害，并添加3层感电",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 3,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "60113002": {
+    "name": "毒击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的法术伤害，并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60114001": {
+    "name": "剧毒射击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方全体造成225%攻击力的法术伤害，有50%概率添加沉默",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 2.25,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "60114002": {
+    "name": "咒杀",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60115001": {
+    "name": "电击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60115002": {
+    "name": "巨大角撞",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60116001": {
+    "name": "毒爪",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60116002": {
+    "name": "毒液冲击",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成360%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 3.6,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "60117001": {
+    "name": "毒爪",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成120%攻击力的法术伤害,并添加中毒",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60117002": {
+    "name": "复仇嘶吼",
+    "specie": 1,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成240%攻击力的法术伤害,并添加中毒、禁疗",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2.4,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
   "1002001001": {
     "name": "主角技能",
     "specie": 1,
@@ -3798,9 +4100,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成200%技能威力的物理伤害，有10%概率添加破甲效果",
+    "des": "对敌方单体造成200%技能威力的物理伤害，有10%概率添加破甲效果",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
@@ -3810,9 +4112,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成230%技能威力的物理伤害，有15%概率添加破甲效果",
+    "des": "对敌方单体造成230%技能威力的物理伤害，有15%概率添加破甲效果",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
@@ -3822,9 +4124,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成260%技能威力的物理伤害，有20%概率添加破甲效果",
+    "des": "对敌方单体造成260%技能威力的物理伤害，有20%概率添加破甲效果",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
@@ -3834,9 +4136,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方前排造成290%技能威力的物理伤害，有25%概率添加破甲效果",
+    "des": "对敌方单体造成290%技能威力的物理伤害，有25%概率添加破甲效果",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.9,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
@@ -3848,7 +4150,7 @@
     "type": "attack",
     "des": "技能无视目标40%的防御",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.9,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}",
@@ -3862,7 +4164,7 @@
     "type": "attack",
     "des": "所有主动技能效果提升10%",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.9,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}",
@@ -3878,7 +4180,7 @@
     "type": "attack",
     "des": "释放技能时，100%附加破甲效果",
     "damageType": "phy",
-    "targetType": "enemy_horizontal_front",
+    "targetType": "enemy_normal",
     "mul": 2.9,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
@@ -4800,9 +5102,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成275%技能威力的法术伤害，有30%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成275%技能威力的法术伤害，有30%概率造成冰冻，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 2.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
@@ -4812,9 +5114,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成305%技能威力的法术伤害，有35%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成305%技能威力的法术伤害，有35%概率造成冰冻，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.05,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
@@ -4824,9 +5126,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成335%技能威力的法术伤害，有40%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成335%技能威力的法术伤害，有40%概率造成冰冻，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.35,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
@@ -4836,9 +5138,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成365%技能威力的法术伤害，有45%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成365%技能威力的法术伤害，有45%概率造成冰冻，持续2回合",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.65,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
@@ -4850,7 +5152,7 @@
     "type": "attack",
     "des": "若未释放此技能，则每过一个回合，冰冻概率增加5%，可叠加，释放技能后重置。",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.65,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
@@ -4864,7 +5166,7 @@
     "type": "attack",
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.65,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
@@ -4880,7 +5182,7 @@
     "type": "attack",
     "des": "BP消耗降低至6点",
     "damageType": "mag",
-    "targetType": "enemy_vertical",
+    "targetType": "enemy_3",
     "mul": 3.65,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
@@ -4896,9 +5198,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成225%技能威力的法术伤害，35%概率添加沉默",
+    "des": "对敌方单体造成225%技能威力的法术伤害，35%概率添加沉默",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 2.25,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
@@ -4908,9 +5210,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成275%技能威力的法术伤害，40%概率添加沉默",
+    "des": "对敌方单体造成275%技能威力的法术伤害，40%概率添加沉默",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 2.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
@@ -4920,9 +5222,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成325%技能威力的法术伤害，45%概率添加沉默",
+    "des": "对敌方单体造成325%技能威力的法术伤害，45%概率添加沉默",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.25,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
@@ -4932,9 +5234,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方后排造成375%技能威力的法术伤害，50%概率添加沉默",
+    "des": "对敌方单体造成375%技能威力的法术伤害，50%概率添加沉默",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
@@ -4946,7 +5248,7 @@
     "type": "attack",
     "des": "若未释放此技能，则每过一个回合，沉默概率增加5%，可叠加，释放技能后重置。",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
@@ -4960,7 +5262,7 @@
     "type": "attack",
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
@@ -4976,7 +5278,7 @@
     "type": "attack",
     "des": "释放技能时，降低目标1点怒气",
     "damageType": "mag",
-    "targetType": "enemy_horizontal_back",
+    "targetType": "enemy_normal",
     "mul": 3.75,
     "key1": "buff1",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
