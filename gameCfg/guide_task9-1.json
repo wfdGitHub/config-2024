@@ -1,0 +1,36 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者，国王的补给已经送到了，我们快去看看吧！"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "邮件里面有给你的经费"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "hallNode/bottomNode/btnList/btnMail",
+    "text": "点击邮件"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "mailLayer/mainNode/bottomNode/btnGetAll",
+    "text": "点击一键领取~",
+    "key": true,
+    "delay": 500
+  },
+  "4": {
+    "cmd": "click",
+    "target": "dialogNode/awardShow/mask",
+    "text": "点击关闭奖励"
+  },
+  "5": {
+    "cmd": "click",
+    "target": "mailLayer/mainNode/btnClose",
+    "text": "点击关闭邮件"
+  }
+}

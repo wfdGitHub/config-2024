@@ -1,0 +1,43 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "异世界的勇者啊，您再次听到我的呼唤，来到这个世界。",
+    "voice": "peiying01"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "邪恶的魔王再次复苏，我们的世界危在旦夕，你将是我们的希望之星，带领我们击败魔王。",
+    "voice": "peiying02"
+  },
+  "2": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "有敌人来袭，我们需要先去击败敌人",
+    "delay": 1000,
+    "voice": "peiying03"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle",
+    "text": "点击主线",
+    "voice": "peiying04"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/main/btnFight",
+    "text": "点击挑战",
+    "voice": "peiying05"
+  },
+  "5": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnSetTeam/btnFight",
+    "text": "点击出战",
+    "voice": "peiying06",
+    "fight": true
+  }
+}

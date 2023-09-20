@@ -1,0 +1,37 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "每击败一定的敌人以后都可以在【关卡奖励】处领取奖励",
+    "voice": "peiying18"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "这些奖励可以让我们快速成长，记得去领取哦",
+    "voice": "peiying19"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle",
+    "delay": 200
+  },
+  "3": {
+    "cmd": "click",
+    "target": "hookNode/topNode/leftNode/btnHookTask",
+    "text": "勇者大人，点击这里就能领取到奖励",
+    "voice": "peiying20"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hookTaskLayer/mainNode/taskView/view/content/taskNode/task_0/btnGet",
+    "key": true
+  },
+  "5": {
+    "cmd": "click",
+    "target": "dialogNode/awardShow/mask",
+    "delay": 500
+  }
+}

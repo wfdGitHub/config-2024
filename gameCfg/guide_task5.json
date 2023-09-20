@@ -1,0 +1,67 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "我们的阵容越来越强大了呢~",
+    "voice": "peiying28"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "试试再去击败一些敌人吧！",
+    "voice": "peiying29"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle"
+  },
+  "3": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "挑战关卡可以获得英雄装备~",
+    "voice": "peiying30"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/main/btnFight",
+    "key": true
+  },
+  "5": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnType"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "上阵相同阵营的英雄有大幅加成，阵营克制效果更好！",
+    "voice": "peiying31"
+  },
+  "7": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "苍蓝克赤炎，赤炎克紫耀，紫耀克苍蓝国，暗影伤害和被伤害都提升10%，快去体验吧！",
+    "voice": "peiying32"
+  },
+  "8": {
+    "cmd": "click",
+    "target": "formationInfo/mainNode/btnClose"
+  },
+  "9": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnSetTeam/btnAuto",
+    "text": "点击一键上阵",
+    "voice": "peiying33"
+  },
+  "10": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnSetTeam/btnFight",
+    "text": "点击出战",
+    "voice": "peiying34",
+    "fight": true
+  }
+}

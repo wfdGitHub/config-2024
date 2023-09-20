@@ -1,0 +1,43 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "升级英雄是最简单的变强方式，我们需要增加新加入的伙伴的实力。",
+    "voice": "peiying24"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnHero",
+    "text": "点击英雄",
+    "key": true,
+    "delay": 550,
+    "voice": "peiying25"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "heroBag/mainNode/heroView/cardView/view/content/cardNode/hero_105140",
+    "text": "选择要升级的英雄",
+    "delay": 550,
+    "voice": "peiying26"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/develop/levelUp/btnLevelUp"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/develop/btnAutoWear"
+  },
+  "5": {
+    "cmd": "click",
+    "target": "heroInfo/pageNode/btnReturn"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "上阵相同阵营的英雄能够获得额外属性加成",
+    "voice": "peiying27"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "guide_task1": {
+    "name": "首次战斗",
+    "nextTask": "guide_task1-1",
+    "triggers": "none"
+  },
+  "guide_task1-1": {
+    "name": "英雄招募",
+    "nextTask": "guide_task1-2",
+    "triggers": "checkpoints",
+    "arg": 1
+  },
+  "guide_task1-2": {
+    "name": "首次强化+对战",
+    "nextTask": "guide_task2",
+    "triggers": "none"
+  },
+  "guide_task2": {
+    "name": "通关奖励",
+    "nextTask": "guide_task3",
+    "triggers": "checkpoints",
+    "arg": 2
+  },
+  "guide_task3": {
+    "name": "合成英雄",
+    "nextTask": "guide_task4",
+    "triggers": "none"
+  },
+  "guide_task4": {
+    "name": "穿戴装备",
+    "nextTask": "guide_task5",
+    "triggers": "none"
+  },
+  "guide_task5": {
+    "name": "普通战斗",
+    "nextTask": "guide_task7",
+    "triggers": "none"
+  },
+  "guide_task7": {
+    "name": "快速作战",
+    "nextTask": "guide_task8",
+    "triggers": "checkpoints",
+    "arg": 3
+  },
+  "guide_task8": {
+    "name": "战令引导",
+    "nextTask": "guide_task9",
+    "triggers": "checkpoints",
+    "arg": 4,
+    "openkey": "warHorn"
+  },
+  "guide_task9": {
+    "name": "结束引导",
+    "nextTask": "guide_task9-1",
+    "triggers": "checkpoints",
+    "arg": 5
+  },
+  "guide_task9-1": {
+    "name": "激活打金",
+    "nextTask": "guide_task13",
+    "triggers": "none"
+  },
+  "guide_task13": {
+    "name": "竞技场",
+    "nextTask": "guide_task14",
+    "triggers": "lv",
+    "arg": 8,
+    "openkey": "arena"
+  },
+  "guide_task14": {
+    "name": "日常战场",
+    "nextTask": "guide_task15",
+    "triggers": "lv",
+    "arg": 10,
+    "openkey": "dailyFb"
+  },
+  "guide_task15": {
+    "name": "英雄任务",
+    "nextTask": "guide_task18",
+    "triggers": "lv",
+    "arg": 12,
+    "openkey": "tour"
+  },
+  "guide_task18": {
+    "name": "乱世之路",
+    "nextTask": "guide_task19",
+    "triggers": "lv",
+    "arg": 16,
+    "openkey": "tower"
+  },
+  "guide_task19": {
+    "name": "同盟",
+    "nextTask": "guide_task20",
+    "triggers": "lv",
+    "arg": 17,
+    "openkey": "guild"
+  },
+  "guide_task20": {
+    "name": "铸铁坊",
+    "nextTask": "guide_task21",
+    "triggers": "lv",
+    "arg": 18,
+    "openkey": "smithy"
+  },
+  "guide_task21": {
+    "name": "巅峰竞技",
+    "nextTask": "guide_task22",
+    "triggers": "lv",
+    "arg": 20,
+    "openkey": "ancient"
+  },
+  "guide_task22": {
+    "name": "无尽试炼",
+    "nextTask": "guide_task23",
+    "triggers": "lv",
+    "arg": 26,
+    "openkey": "endless"
+  },
+  "guide_task23": {
+    "name": "皇陵探险",
+    "nextTask": "guide_task24",
+    "triggers": "lv",
+    "arg": 36,
+    "openkey": "zhulu"
+  },
+  "guide_task24": {
+    "name": "战魂之力",
+    "nextTask": "guide_task25",
+    "triggers": "lv",
+    "arg": 38
+  },
+  "guide_task25": {
+    "name": "玉石矿场",
+    "nextTask": "guide_task26",
+    "triggers": "lv",
+    "arg": 43,
+    "openkey": "pit"
+  },
+  "guide_task26": {
+    "name": "沙盘演武",
+    "nextTask": "guide_task27",
+    "triggers": "lv",
+    "arg": 45,
+    "openkey": "exercise"
+  },
+  "guide_task27": {
+    "name": "跨服竞技",
+    "nextTask": "guide_task28",
+    "triggers": "lv",
+    "arg": 50,
+    "openkey": "crossPK"
+  },
+  "guide_task28": {
+    "name": "宝物系统",
+    "nextTask": "guide_task29",
+    "triggers": "lv",
+    "arg": 54,
+    "openkey": "ace"
+  },
+  "guide_task29": {
+    "name": "极限挑战",
+    "nextTask": "guide_task30",
+    "triggers": "lv",
+    "arg": 56,
+    "openkey": "extremity"
+  },
+  "guide_task30": {
+    "name": "王者巅峰赛",
+    "nextTask": "guide_task31",
+    "triggers": "lv",
+    "arg": 57,
+    "openkey": "crossTop"
+  },
+  "guide_task31": {
+    "name": "兵法系统",
+    "nextTask": "guide_task32",
+    "triggers": "lv",
+    "arg": 58,
+    "openkey": "book"
+  },
+  "guide_task32": {
+    "name": "英雄试炼",
+    "nextTask": "guide_task33",
+    "triggers": "lv",
+    "arg": 65,
+    "openkey": "secretChallenge"
+  },
+  "guide_task33": {
+    "name": "英雄觉醒",
+    "nextTask": "guide_task34",
+    "triggers": "lv",
+    "arg": 80,
+    "openkey": "wake"
+  },
+  "guide_task34": {
+    "name": "天命之战",
+    "nextTask": "guide_task35",
+    "triggers": "lv",
+    "arg": 82,
+    "openkey": "crossTeamPK"
+  },
+  "guide_task35": {
+    "name": "战法系统",
+    "nextTask": "guide_task36",
+    "triggers": "lv",
+    "arg": 85,
+    "openkey": "zhanfa"
+  },
+  "guide_task36": {
+    "name": "神装系统",
+    "nextTask": "guide_task37",
+    "triggers": "lv",
+    "arg": 90,
+    "openkey": "superEquip"
+  },
+  "guide_task37": {
+    "name": "诸神黄昏",
+    "nextTask": "guide_task38",
+    "triggers": "lv",
+    "arg": 120,
+    "openkey": "areaTrial"
+  },
+  "guide_task38": {
+    "name": "融合系统",
+    "triggers": "lv",
+    "arg": 125,
+    "openkey": "rune"
+  }
+}

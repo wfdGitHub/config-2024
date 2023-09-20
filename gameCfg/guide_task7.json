@@ -1,0 +1,72 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者大人，【征战】当中的【快速作战】可以一次性获得大量资源！",
+    "voice": "peiying35"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "每天都能免费获得1次【快速作战】次数，勇者快去试试吧！",
+    "voice": "peiying36"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/main/btnQuick",
+    "text": "【快速作战】可获得大量经验和装备",
+    "voice": "peiying37"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "hook_dialog/quickNode/mainNode/btnQuickOK",
+    "key": true,
+    "delay": 500
+  },
+  "5": {
+    "cmd": "click",
+    "target": "dialogNode/awardShow/mask"
+  },
+  "6": {
+    "cmd": "click",
+    "target": "hook_dialog/quickNode/mainNode/btnClose"
+  },
+  "7": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "激活快速作战特权可额外获得购买次数",
+    "voice": "peiying38"
+  },
+  "8": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "这次我们试着去将敌人彻底铲除吧！",
+    "voice": "peiying39"
+  },
+  "9": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者，准备好了我们就出发吧！",
+    "voice": "peiying40"
+  },
+  "10": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/main/btnFight"
+  },
+  "11": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnSetTeam/btnFight",
+    "text": "点击出战",
+    "voice": "peiying41",
+    "fight": true
+  }
+}

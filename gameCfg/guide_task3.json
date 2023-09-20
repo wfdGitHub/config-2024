@@ -1,0 +1,35 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "恭喜勇者获得：五星强力英雄",
+    "voice": "peiying21"
+  },
+  "1": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者大人，快去背包里合成英雄",
+    "voice": "peiying22"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBag"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "bagLayer/mainNode/bagView/mainView/view/content/itemNode/item_105140",
+    "text": "累计英雄碎片可以合成对应英雄",
+    "voice": "peiying23"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "itemInfoNode/mainNode/heroInfo/btnCompound",
+    "key": true
+  },
+  "5": {
+    "cmd": "click",
+    "target": "newHeroLayer/mainNode/bottomNode/btnHide"
+  }
+}

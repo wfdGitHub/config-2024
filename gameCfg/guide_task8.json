@@ -1,0 +1,61 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者，通行证功能已开启，里面有丰富奖励快去看看吧~",
+    "delay": 30,
+    "voice": "peiying42"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "hallNode/bottomNode/btnWarHorn"
+  },
+  "2": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "完成通行证任务获得通行证经验可解锁通行证奖励",
+    "voice": "peiying43"
+  },
+  "3": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "激活高级通行证能领取更多奖励",
+    "voice": "peiying44"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "warHornLayer/bottomNode/btnReturn"
+  },
+  "5": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者击败的敌人越多，成长速度就会越快",
+    "voice": "peiying45"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "让我们去更多的击败敌人吧~",
+    "voice": "peiying46"
+  },
+  "7": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnBattle"
+  },
+  "8": {
+    "cmd": "click",
+    "target": "hookNode/mainNode/bottomNode/main/btnFight"
+  },
+  "9": {
+    "cmd": "click",
+    "target": "heroFormation/mainNode/btnSetTeam/btnFight",
+    "text": "点击出战",
+    "voice": "peiying47",
+    "true": true
+  }
+}

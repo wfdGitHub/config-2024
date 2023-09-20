@@ -1,0 +1,34 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者，无尽试炼已开启"
+  },
+  "1": {
+    "cmd": "click",
+    "target": "uiNode/bottomNode/btnPlaying"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "levelNode1/mainPlayingLayer/typeSelect/toggle1"
+  },
+  "3": {
+    "cmd": "mainPlaying_move"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "levelNode1/mainPlayingLayer/mainNode/mode1/view/view/content/endless",
+    "key": true
+  },
+  "5": {
+    "cmd": "text",
+    "text": "周1/3/5/7开启小队模式，周2/4/6开启单人模式"
+  },
+  "6": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "完成后记得领取奖励"
+  }
+}

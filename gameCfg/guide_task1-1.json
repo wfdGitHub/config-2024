@@ -1,0 +1,34 @@
+{
+  "0": {
+    "cmd": "text",
+    "characterId": 10000,
+    "name": "游戏助手",
+    "text": "勇者，有许多英雄响应你的号召，愿意追随你击败魔王。先去召集你的队伍吧！",
+    "voice": "peiying07"
+  },
+  "1": {
+    "cmd": "main_move",
+    "target": "btnRecruit"
+  },
+  "2": {
+    "cmd": "click",
+    "target": "hallNode/map/content/btnList/btnRecruit",
+    "text": "现在去【英雄招募】看看吧！",
+    "voice": "peiying09"
+  },
+  "3": {
+    "cmd": "click",
+    "target": "recruitLayer/mainNode/bottomNode/btn1",
+    "text": "会招募到谁呢?还有点小期待呢！",
+    "key": true,
+    "delay": 500,
+    "voice": "peiying10"
+  },
+  "4": {
+    "cmd": "click",
+    "target": "newHeroLayer/mainNode/bottomNode/btnHide",
+    "text": "太棒了，是强力的英雄加入我们队伍了。",
+    "delay": 500,
+    "voice": "peiying11"
+  }
+}
