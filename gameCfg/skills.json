@@ -916,28 +916,28 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.6}"
   },
   "50105001": {
-    "name": "雷火",
+    "name": "巨浪",
     "specie": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害，并有35%的概率给敌方附加麻痹。",
-    "damageType": "mag",
+    "des": "对敌方单体造成100%攻击力的物理伤害，为自身添加1层龙舞（破浪）效果",
+    "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "50105002": {
-    "name": "星体风暴",
+    "name": "海洋潮汐",
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成150%攻击力的法术伤害，并添加3层感电",
-    "damageType": "mag",
-    "targetType": "enemy_all",
-    "mul": 1.5,
+    "des": "对敌方单体造成290%的物理伤害，为自身添加为自身添加1层龙舞（破浪）效果。",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 2.9,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "50106001": {
     "name": "疾风破",
@@ -1255,30 +1255,6 @@
     "mul": 1.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
-  },
-  "50120001": {
-    "name": "巨浪",
-    "specie": 1,
-    "anger": 0,
-    "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害，为自身添加1层龙舞（破浪）效果",
-    "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 1,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
-  },
-  "50120002": {
-    "name": "海洋潮汐",
-    "specie": 1,
-    "anger": 4,
-    "type": "attack",
-    "des": "对敌方单体造成290%的物理伤害，为自身添加为自身添加1层龙舞（破浪）效果。",
-    "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 2.9,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "50201001": {
     "name": "普通攻击",
