@@ -138,7 +138,7 @@
   "4110": {
     "name": "初级牺牲",
     "des": "死亡时，有20%概率提升全体友方8%攻击，持续2回合",
-    "key1": "died_buff3",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.08,\"duration\":2,\"buffRate\":0.2}"
   },
   "4111": {
@@ -338,7 +338,7 @@
   "4210": {
     "name": "中级牺牲",
     "des": "死亡时，有20%概率提升全体友方12%攻击，持续2回合",
-    "key1": "died_buff3",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.12,\"duration\":2,\"buffRate\":0.2}"
   },
   "4211": {
@@ -538,7 +538,7 @@
   "4310": {
     "name": "高级牺牲",
     "des": "死亡时，有20%概率提升全体友方15%攻击，持续2回合",
-    "key1": "died_buff3",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":0.2}"
   },
   "4311": {
@@ -738,7 +738,7 @@
   "4410": {
     "name": "超级牺牲",
     "des": "死亡时，有30%概率提升全体友方20%攻击，持续2回合",
-    "key1": "died_buff3",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.3}"
   },
   "4411": {
@@ -938,7 +938,7 @@
   "4510": {
     "name": "究极牺牲",
     "des": "死亡时，有35%概率提升全体友方25%攻击，持续2回合",
-    "key1": "died_buff3",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":0.35}"
   },
   "4511": {
@@ -1399,7 +1399,7 @@
   },
   "9503": {
     "des": "释放技能时，有10%概率附加折戟效果，持续1回合",
-    "key1": "skill_buff_ace",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
   "9504": {
@@ -1519,12 +1519,12 @@
   },
   "9609": {
     "des": "战斗首回合获得免控盾，免疫控制效果",
-    "key1": "first_ace_buff1",
+    "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "9610": {
     "des": "战斗首回合获得护盾，吸收生命值上限15%的伤害，持续1回合",
-    "key1": "first_ace_buff2",
+    "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "9611": {
@@ -1534,7 +1534,7 @@
   },
   "9612": {
     "des": "战斗首回合获得1层嗜血效果，持续3回合",
-    "key1": "first_ace_buff1",
+    "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "9613": {
@@ -1742,7 +1742,7 @@
   "9912": {
     "name": "限定符文",
     "des": "战斗前二回合获得无敌吸血盾",
-    "key1": "first_buff2",
+    "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "800101": {
@@ -1780,23 +1780,23 @@
   "800106": {
     "name": "毒刺",
     "des": "攻击敌人时有30%概率使其中毒，持续3回合",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}",
-    "key2": "skill_buff1",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}"
   },
   "800107": {
     "name": "友情防守",
     "des": "每回合开始前，守护我方血量最少的英雄，增加其20%免伤，并分担50%伤害。",
-    "key1": "round_buff1",
+    "key1": "round_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "800108": {
     "name": "孢子",
     "des": "攻击敌方时，有50%概率使敌方陷入麻痹",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}",
-    "key2": "skill_buff1",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}"
   },
   "800109": {
@@ -1896,9 +1896,9 @@
   "800124": {
     "name": "毒手",
     "des": "攻击敌方造成伤害时，有30%的几率使敌方中毒。",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}",
-    "key2": "skill_buff1",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.3}"
   },
   "800125": {
@@ -2615,17 +2615,310 @@
     "key2": "back_atk",
     "value2": 0.1
   },
-  "50010004": {
+  "50011004": {
     "name": "进化技能2",
-    "des": "释放技能时有45%概率再次释放（每回合最多1次）",
+    "des": "释放技能时有55%概率再次释放（每回合最多1次）",
     "key1": "skill_combo",
     "value1": 0.2
   },
-  "50010005": {
+  "50011005": {
     "name": "进化技能3",
-    "des": "死亡时，触发全部敌人的感电效果",
+    "des": "释放技能时，每命中1个带有感电效果的目标，恢复自身1点怒气，并有65%概率麻痹敌方。",
     "key1": "flash_died_settle",
     "value1": true
+  },
+  "50011006": {
+    "name": "珍兽专属天赋",
+    "des": "技能伤害增加25%，技能目标每减少1个，技能伤害额外增加15%，对处于异常状态的宝可梦造成的直接伤害加成15%。",
+    "key1": "skill_attack_amp",
+    "value1": 0.25,
+    "key2": "skill_less_amp",
+    "value2": 0.15,
+    "key3": "enemy_debuff_amp",
+    "value3": 0.15
+  },
+  "50012004": {
+    "name": "进化技能2",
+    "des": "释放技能时，额外触发触发1次普通攻击，触发的普通攻击附加对方15%生命上限的伤害。",
+    "key1": "skill_add_d_s",
+    "value1": true,
+    "key2": "add_default_maxHp",
+    "value2": 0.15
+  },
+  "50012005": {
+    "name": "进化技能3",
+    "des": "释放技能时，破坏冰冻造成额外35%的伤害，并有75%的概率重新附加冰冻效果。",
+    "key1": "thawing_frozen",
+    "value1": 0.35,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.75}"
+  },
+  "50012006": {
+    "name": "珍兽专属天赋",
+    "des": "敌方每获得1层寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机冰冻一个敌方目标【冰霜：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
+    "key1": "listen_enemyBuff",
+    "value1": "cold",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+  },
+  "50013004": {
+    "name": "进化技能2",
+    "des": "释放技能时，每命中1个带有感电的目标，恢复自身1点怒气，技能额外添加2层感电效果。",
+    "key1": "skill_flash_anger",
+    "value1": 1,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "50013005": {
+    "name": "进化技能3",
+    "des": "释放技能时，立即触发目标身上所有感电效果，并对立即麻痹目标。",
+    "key1": "flash_settle",
+    "value1": true,
+    "key2": "gd_mb",
+    "value2": 1
+  },
+  "50013006": {
+    "name": "珍兽专属天赋",
+    "des": "自身生命值低于50%时进入觉醒状态，解除自身所有负面和控制状态，自身物害增加15%，抗控增加10%，持续至战斗结束",
+    "key1": "less_hp_rate",
+    "value1": 0.5,
+    "key2": "less_hp_buff",
+    "value2": "juexing"
+  },
+  "50014004": {
+    "name": "进化技能2",
+    "des": "技能造成的伤害额外增加15%，技能每命中一个灼烧目标，恢复自身1点怒气值.",
+    "key1": "skill_attack_amp",
+    "value1": 0.15,
+    "key2": "skill_burn_anger",
+    "value2": 1
+  },
+  "50014005": {
+    "name": "进化技能3",
+    "des": "释放技能时，对灼烧目标造成伤害增加35%的，普通攻击时会有65%的概率释放1次技能攻击。",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.3}",
+    "key2": "normal_add_skill",
+    "value2": 0.65
+  },
+  "50014006": {
+    "name": "珍兽专属天赋",
+    "des": "灼烧状态额外延长1回合，释放技能有75%几率追加1次，对敌方全体目标造成80%攻击的技能伤害。",
+    "key1": "burn_duration",
+    "value1": 1,
+    "key2": "skill_later_skill",
+    "value2": "{\"type\":\"attack\",\"mul\":0.8,\"damageType\":\"mag\",\"targetType\":\"enemy_all\",\"rate\":0.75}"
+  },
+  "50015004": {
+    "name": "进化技能2",
+    "des": "生命值增加50%，每受到1次普通攻击，恢复自身1点怒气",
+    "key1": "self_maxHP_add",
+    "value1": 0.5,
+    "key2": "hit_anger_s",
+    "value2": 1
+  },
+  "50015005": {
+    "name": "进化技能3",
+    "des": "自身拥有伤害吸收盾时，受到的伤害降低20%，并且战斗中自身生命每降低10%，伤害加成8%。",
+    "key1": "shield_red",
+    "value1": 0.2,
+    "key2": "low_hp_amp",
+    "value2": 0.08
+  },
+  "50015006": {
+    "name": "珍兽专属天赋",
+    "des": "每回合行动前，清除自身所有非控制类减益状态，每清除1个减益状态，恢复自身35%最大生命值。",
+    "key1": "action_clean_debuff",
+    "value1": true,
+    "key2": "action_clean_hp",
+    "value2": 0.35
+  },
+  "50021004": {
+    "name": "进化技能2",
+    "des": "释放技能时，额外为自身回复1点怒气，现在技能会消耗自身所以怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加20%",
+    "key1": "skill_anger_s",
+    "value1": 1,
+    "key2": "needAnger",
+    "value2": 4,
+    "key3": "allAnger",
+    "value3": true
+  },
+  "50021005": {
+    "name": "进化技能3",
+    "des": "释放技能后驱散目标1个增益效果，如果目标怒气不足4点，技能伤害额外增加40%，如果目标怒气大于4点，额外降低目标1点怒气",
+    "key1": "skill_dispel_enemy",
+    "value1": true,
+    "key2": "skill_amp_or_lessAnger",
+    "value2": 0.4
+  },
+  "50021006": {
+    "name": "珍兽专属天赋",
+    "des": "洛奇亚免疫减怒效果，每击杀1个目标时，回复自身2点怒气，若受到敌方普通攻击时，回复自己的1点怒气。",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "kill_anger",
+    "value2": 2,
+    "key3": "hit_anger_s",
+    "value3": 1
+  },
+  "50022004": {
+    "name": "进化技能2",
+    "des": "炙热光环生效时对目标附加灼烧状态",
+    "key1": "heat_halo_burn",
+    "value1": true
+  },
+  "50022005": {
+    "name": "进化技能3",
+    "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低30%,被灼烧状态下的敌人攻击时，回复自身生命上限8%血量。",
+    "key1": "burn_hit_reduction",
+    "value1": 0.3,
+    "key2": "skill_burn_turn_heal",
+    "value2": 0.08,
+    "key3": "normal_burn_turn_heal",
+    "value3": 0.08
+  },
+  "50022006": {
+    "name": "珍兽专属天赋",
+    "des": "敌方每次获得灼烧效果，自身获得1层圣火，每层圣火增加自身3%免伤和暴击，持续3回合。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值。圣火最高可叠加10层",
+    "key1": "listen_enemyBuff",
+    "value1": "burn",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+  },
+  "50023004": {
+    "name": "进化技能2",
+    "des": "破浪效果持续至战斗结束，使用技能时，每层破浪效果额外造成目标3%生命上限的伤害。",
+    "key1": "buffDuration",
+    "value1": 99,
+    "key2": "polang_power",
+    "value2": 0.03
+  },
+  "50023005": {
+    "name": "进化技能3",
+    "des": "技能伤害额外增加35%,每击杀一个英雄，获得3层破浪效果，",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":5,\"buffRate\":1}",
+    "key2": "skill_attack_amp",
+    "value2": 0.35
+  },
+  "50023006": {
+    "name": "珍兽专属天赋",
+    "des": "每回合受到的第一次攻击必定闪避。破浪效果叠加至20层时，进入狂暴状态，驱散自身所有异常状态，免疫控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
+    "key1": "polang_buff",
+    "value1": "kb_polang",
+    "key2": "dodgeFirst",
+    "value2": true
+  },
+  "50024004": {
+    "name": "进化技能2",
+    "des": "生命额外增加20%，受技能攻击时有85%概率给攻击者及其周围没有灼烧状态的敌方，附加灼烧状态，持续2回合",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "hit_skill_buff",
+    "value2": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.85,\"buff_tg\":\"team_adjoin\"}"
+  },
+  "50024005": {
+    "name": "进化技能3",
+    "des": "攻击敌方时，如果目标处于灼烧状态，直接伤害的50%转化为生命，回复自身生命值。",
+    "key1": "normal_burn_turn_heal",
+    "value1": 0.5
+  },
+  "50024006": {
+    "name": "珍兽专属天赋",
+    "des": "生命值低于30%时触发火神降临，驱散自身所有异常状态，提升自身30%伤害，每回合行动后恢复自身50%最大生命值，持续3回合，每场战斗只能触发1次",
+    "key1": "less_hp_rate",
+    "value1": 0.5,
+    "key2": "less_hp_buff",
+    "value2": "huosheng"
+  },
+  "50025004": {
+    "name": "进化技能2",
+    "des": "直接伤害击杀目标后，下回合攻击必定暴击。",
+    "key1": "kill_must_crit",
+    "value1": true
+  },
+  "50025005": {
+    "name": "进化技能3",
+    "des": "技能伤害增加30%，敌方每阵亡1人，自身伤害增加25%。",
+    "key1": "skill_attack_amp",
+    "value1": 0.35,
+    "key2": "enemy_died_amp",
+    "value2": 0.25
+  },
+  "50025006": {
+    "name": "珍兽专属天赋",
+    "des": "战斗首回合造成的伤害必定暴击，技能暴击后会对目标额外造成20%生命上限的伤害，直接伤害击杀目标后，回复自身生命上限的15%的生命。",
+    "key1": "first_crit",
+    "value1": true,
+    "key2": "skill_crit_maxHp",
+    "value2": 0.2,
+    "key3": "kill_heal",
+    "value3": 0.15
+  },
+  "50026004": {
+    "name": "进化技能2",
+    "des": "战斗第一回合获得超级无敌，免疫所有伤害和控制效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "50026005": {
+    "name": "进化技能3",
+    "des": "释放技能时100%为敌方附加1层持续2回合的破甲效果，并锁定敌方宝可梦，锁定的宝可梦受到伤害增加20%。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "50026006": {
+    "name": "珍兽专属天赋",
+    "des": "超梦获得基因强化，释放技能时有100%概率眩晕目标，击杀目标后，获得超级无敌盾，持续1回合",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "50027004": {
+    "name": "进化技能2",
+    "des": "行动结束后，治疗血量最低的三个英雄80%攻击力的生命值",
+    "key1": "round_heal_type",
+    "value1": "team_minHp_3",
+    "key2": "round_heal_value",
+    "value2": 0.8
+  },
+  "50027005": {
+    "name": "进化技能3",
+    "des": "梦幻无法被敌方控制",
+    "key1": "control_buff_lowrate",
+    "value1": 1
+  },
+  "50027006": {
+    "name": "珍兽专属天赋",
+    "des": "每回合全体友方随机获得一个增益效果（无敌吸血盾、铜墙铁壁、水神护盾、免控盾、精灵祝福）持续1回合",
+    "key1": "begin_round_buffs",
+    "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}]"
+  },
+  "50028004": {
+    "name": "进化技能2",
+    "des": "灵魂窃取的回合数增加至2回合，添加灵魂窃取的目标受到的回怒效果转移至自身。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "soul_steal_anger",
+    "value2": true
+  },
+  "50028005": {
+    "name": "进化技能3",
+    "des": "自身生命增加15%，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤。",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "round_buff",
+    "value2": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50028006": {
+    "name": "珍兽专属天赋",
+    "des": "释放技能时,附加上回合所受伤害100%平摊到所有宝可梦身上，若受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡，此技能触发后冷却5回合.",
+    "key1": "damage_save",
+    "value1": true,
+    "key2": "died_buff",
+    "value2": "passiveArg1",
+    "key3": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50101004": {
     "name": "进化技能2",
@@ -2648,7 +2941,7 @@
   "50102005": {
     "name": "进化技能3",
     "des": "炙热光环伤害提升为100%攻击力，每次造成伤害时降低目标1点怒气",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "heat_halo_less",
     "value2": 1
@@ -2720,7 +3013,7 @@
   "50108004": {
     "name": "进化技能2",
     "des": "释放普通技能时，为目标添加持续恢复效果，每回合恢复攻击力30%的生命值，持续2回合。",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "50108005": {
@@ -2752,7 +3045,7 @@
   "50110005": {
     "name": "进化技能3",
     "des": "技能有100%概率附带中毒效果",
-    "key1": "skill_buff2",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50111004": {
@@ -2764,19 +3057,19 @@
   "50111005": {
     "name": "进化技能3",
     "des": "每回合行动后为自身添加1层神力效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50112004": {
     "name": "进化技能2",
     "des": "每回合行动后为自身添加1层神力效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50112005": {
     "name": "进化技能3",
     "des": "每回合行动后为自身添加1层坚毅效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50113004": {
@@ -2790,7 +3083,7 @@
     "des": "闪避率增加20%，击杀目标后，为自身添加闪避祝福",
     "key1": "dodgeRate",
     "value1": 0.2,
-    "key2": "kill_buff1",
+    "key2": "kill_buff",
     "value2": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50114004": {
@@ -2816,13 +3109,13 @@
   "50115005": {
     "name": "进化技能3",
     "des": "战斗第一回合获得超级无敌，免疫所有伤害和控制效果",
-    "key1": "first_buff1",
+    "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50116004": {
     "name": "进化技能2",
     "des": "普通攻击有60%概率沉默目标",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
   "50116005": {
@@ -2870,7 +3163,7 @@
   "50201004": {
     "name": "进化技能2",
     "des": "释放技能时对目标添加2层风筝印记",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "50201005": {
@@ -2922,7 +3215,7 @@
   "50205004": {
     "name": "进化技能2",
     "des": "释放技能时，对目标添加3层感电效果",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "50205005": {
@@ -2952,7 +3245,7 @@
   "50207005": {
     "name": "进化技能3",
     "des": "每回合行动结束后，为自身添加免控盾",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50301004": {
@@ -2964,7 +3257,7 @@
   "50301005": {
     "name": "进化技能3",
     "des": "释放技能时，使目标重伤，持续2回合。",
-    "key1": "skill_buff3",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50302004": {
@@ -2984,13 +3277,13 @@
   "50303004": {
     "name": "进化技能2",
     "des": "每回合行动后为自身添加2层神力效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "50303005": {
     "name": "进化技能3",
     "des": "每回合行动结束后，为自身添加护盾",
-    "key1": "action_buff2",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "50304004": {
@@ -3032,21 +3325,21 @@
   "50307004": {
     "name": "进化技能2",
     "des": "所有攻击附加虚弱效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50307005": {
     "name": "进化技能3",
     "des": "释放技能时，有100%概率使目标沉默1回合",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50308004": {
     "name": "进化技能2",
     "des": "每回合行动结束后，为自身添加护盾",
-    "key1": "action_buff2",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "50308005": {
@@ -3058,7 +3351,7 @@
   "50309004": {
     "name": "进化技能2",
     "des": "释放技能后为自身添加寒冰护盾，受到攻击时，有35%概率使目标增加一层寒冷，寒冰护盾持续2回合。",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
   },
   "50309005": {
@@ -3084,7 +3377,7 @@
   "50311004": {
     "name": "进化技能2",
     "des": "每回合行动结束后，为自身添加免控盾",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50311005": {
@@ -3106,11 +3399,13 @@
     "value1": 1.5
   },
   "50402004": {
+    "name": "进化技能2",
     "des": "普攻后有45%概率释放1次怒气技能",
     "key1": "normal_add_skill",
     "value1": 0.45
   },
   "50402005": {
+    "name": "进化技能3",
     "des": "自身每有1个增益效果，造成的伤害增加20%",
     "key1": "my_intensify_amp",
     "value1": 0.2
@@ -3142,7 +3437,7 @@
   "50405004": {
     "name": "进化技能2",
     "des": "每回合行动后获得1层嗜血效果，并为自身回复10%生命上限的血量",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "action_heal",
     "value2": 0.1
@@ -3162,7 +3457,7 @@
   "50501005": {
     "name": "进化技能3",
     "des": "释放技能后，为我方全体增加1层疾速",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502004": {
@@ -3180,7 +3475,7 @@
   "50503004": {
     "name": "进化技能2",
     "des": "普通攻击附加虚弱效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50503005": {
@@ -3194,7 +3489,7 @@
   "50504004": {
     "name": "进化技能2",
     "des": "普通攻击附加破甲效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50504005": {
@@ -3218,9 +3513,9 @@
   "50506004": {
     "name": "进化技能2",
     "des": "所有攻击有65%概率附加晕眩效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}",
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50506005": {
@@ -3260,9 +3555,9 @@
   "50509004": {
     "name": "进化技能2",
     "des": "所有攻击附加1层感电效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50509005": {
@@ -3292,7 +3587,7 @@
     "des": "释放技能时，立即结算诅咒伤害，且结算后再为目标添加1层诅咒",
     "key1": "curse_settle",
     "value1": true,
-    "key2": "skill_buff1",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50511005": {
@@ -3306,7 +3601,7 @@
   "50601004": {
     "name": "进化技能2",
     "des": "释放技能后，为自身添加铜墙铁壁（受到的物理伤害降低60%，持续1回合）",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"reduction\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1}"
   },
   "50601005": {
@@ -3320,7 +3615,7 @@
   "50602004": {
     "name": "进化技能2",
     "des": "释放技能时，若目标处于灼烧状态，有100%概率添加缠绕，持续1回合",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50602005": {
@@ -3334,9 +3629,9 @@
   "50603004": {
     "name": "进化技能2",
     "des": "每回合行动后为自身添加1层神力效果和1层疾速效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "action_buff2",
+    "key2": "action_buff",
     "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50603005": {
@@ -3350,7 +3645,7 @@
   "50604004": {
     "name": "进化技能2",
     "des": "释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
-    "key1": "skill_buff2",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50604005": {
@@ -3362,21 +3657,23 @@
   "50605004": {
     "name": "进化技能2",
     "des": "释放技能有60%概率添加禁怒效果,持续1回合",
-    "key1": "skill_buff3",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
   "50605005": {
     "name": "进化技能3",
     "des": "阵亡时，对敌方全体添加禁魂效果，持续3回合",
-    "key1": "died_buff1",
+    "key1": "died_buff",
     "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50606004": {
+    "name": "进化技能2",
     "des": "释放技能后，对敌方目标添加重伤效果",
-    "key1": "skill_buff3",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50606005": {
+    "name": "进化技能3",
     "des": "直接伤害击杀目标后追加1次普通攻击（追加的普通攻击不会回复怒气），追加的普通攻击可以额外造成目标生命上限15%的伤害。",
     "key1": "kill_add_d_s",
     "value1": true,
@@ -3398,9 +3695,9 @@
   "50608004": {
     "name": "进化技能2",
     "des": "每次造成直接伤害时，100%概率对目标添加1层破甲效果",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "normal_buff1",
+    "key2": "normal_buff",
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50608005": {
@@ -3414,35 +3711,35 @@
   "50609004": {
     "name": "进化技能2",
     "des": "所有攻击附加虚弱效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50609005": {
     "name": "进化技能3",
     "des": "释放技能时，额外为目标添加诅咒效果",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50610004": {
     "name": "进化技能2",
     "des": "所有攻击附加虚弱效果",
-    "key1": "normal_buff1",
+    "key1": "normal_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50610005": {
     "name": "进化技能3",
     "des": "释放技能时，额外为目标添加灼烧效果",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.3}"
   },
   "50611004": {
     "name": "进化技能2",
     "des": "每回合行动后为自身添加暴伤提升效果",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50611005": {
@@ -3450,7 +3747,7 @@
     "des": "释放技能时，额外给目标附加1层破甲效果，目标身上每有1层破甲效果，造成伤害增加15%",
     "key1": "pojia_amp",
     "value1": 0.15,
-    "key2": "skill_buff2",
+    "key2": "skill_buff",
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "NPC_KB1": {
