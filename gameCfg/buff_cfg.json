@@ -34,7 +34,7 @@
     "effects": true
   },
   "dizzy": {
-    "name": "眩晕",
+    "name": "畏缩",
     "des": "无法行动",
     "refreshType": "after",
     "control": true,
@@ -62,25 +62,25 @@
     "intensify": true
   },
   "amplify_mag": {
-    "name": "法伤加成",
+    "name": "特攻加成",
     "des": "造成的法术伤害增加",
     "refreshType": "roundOver",
     "intensify": true
   },
   "amplify_phy": {
-    "name": "物伤加成",
+    "name": "物攻加成",
     "des": "造成的物理伤害增加",
     "refreshType": "roundOver",
     "intensify": true
   },
   "reduction": {
-    "name": "铜墙铁壁",
+    "name": "铁壁",
     "des": "受到的物理伤害降低60%，持续2回合,不可驱散",
     "refreshType": "roundOver",
     "effects": true
   },
   "reduction_mag": {
-    "name": "水镜护盾",
+    "name": "魔法护盾",
     "des": "受到的法术伤害降低60%，持续2回合,不可驱散",
     "refreshType": "roundOver",
     "effects": true
@@ -173,7 +173,7 @@
     "debuff": true
   },
   "cold": {
-    "name": "寒冷",
+    "name": "减速",
     "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为冰冻效果",
     "refreshType": "after",
     "lower": true,
@@ -195,7 +195,7 @@
     "effects": true
   },
   "polang": {
-    "name": "破浪",
+    "name": "剑舞",
     "des": "攻击+5%，暴击+5%，最大可叠加20层，持续5回合",
     "refreshType": "roundOver",
     "intensify": true
@@ -208,7 +208,7 @@
     "debuff": true
   },
   "heat_halo": {
-    "name": "炙热光环",
+    "name": "火焰漩涡",
     "des": "每回合对携带者及其周围目标造成施法者30%攻击力的伤害，持续2回合",
     "refreshType": "roundOver",
     "lower": true,
@@ -231,7 +231,7 @@
     "debuff": true
   },
   "burn_shield": {
-    "name": "烈焰护体",
+    "name": "火焰护体",
     "des": "受到攻击时，有30%概率使攻击者灼烧，持续2回合",
     "refreshType": "roundOver",
     "intensify": true,
@@ -455,7 +455,7 @@
   },
   "juexing": {
     "name": "觉醒",
-    "des": "自身生命值低于50%时进入觉醒状态，驱散所有负面和控制效果，自身物伤增加20%，抗控增加10%，持续至战斗结束",
+    "des": "自身生命值低于50%时进入觉醒状态，驱散所有负面和控制效果，自身物攻增加20%，抗控增加10%，持续至战斗结束",
     "refreshType": "after",
     "duration": -1,
     "max": 1,

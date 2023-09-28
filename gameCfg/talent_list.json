@@ -2087,6 +2087,14 @@
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
+  "800290": {
+    "name": "魔神之躯",
+    "des": "被减益效果和控制效果概率降低33%",
+    "key1": "control_buff_lowrate",
+    "value1": 0.33,
+    "key2": "control_debuff_lowrate",
+    "value2": 0.33
+  },
   "2010010": {
     "name": "1级攻击宝石",
     "des": "攻击力+8",
@@ -2620,6 +2628,74 @@
     "value1": 0.1,
     "key2": "back_atk",
     "value2": 0.1
+  },
+  "40106004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，物理防御增加9999%",
+    "key1": "self_phyDef_add",
+    "value1": 100,
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "40106005": {
+    "name": "进化技能3",
+    "des": "生命值增加60%,每次受到直接伤害后，恢复自身3%的生命值",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "behit_heal",
+    "value2": 0.03
+  },
+  "40110004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，首回合获得超级无敌盾，持续3个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "40110005": {
+    "name": "进化技能3",
+    "des": "技能伤害增加20%，使用技能后，释放中毒时，有概率使目标身上的中毒状态立即结算。",
+    "key1": "skill_attack_amp",
+    "value1": 0.25,
+    "key2": "poison_settle",
+    "value2": 0.5
+  },
+  "40114004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，特攻防御增加9999%",
+    "key1": "self_magDef_add",
+    "value1": 100,
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "40114005": {
+    "name": "进化技能3",
+    "des": "释放技能时降低目标1点怒气，每次行动后，为自身英雄恢复攻击力50%的生命值",
+    "key1": "skill_less_anger",
+    "value1": 1,
+    "key2": "round_heal_type",
+    "value2": "team_self",
+    "key3": "round_heal_value",
+    "value3": 0.5
+  },
+  "40122004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，若目标生命值低于35%，则将其斩杀。",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "seckill",
+    "value2": 0.35
+  },
+  "40122005": {
+    "name": "进化技能3",
+    "des": "攻击增加20%，击杀目标后，回复2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "kill_anger",
+    "value2": 2,
+    "key3": "killRet",
+    "value3": true
   },
   "50011004": {
     "name": "进化技能2",
@@ -3819,6 +3895,26 @@
     "value1": 0.15,
     "key2": "skill_buff",
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "60118004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，灵魂窃取的回合数增加至2回合，添加灵魂窃取的目标受到的回怒效果转移至自身。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "soul_steal_anger",
+    "value2": true,
+    "key3": "curAnger",
+    "value3": 2
+  },
+  "60118005": {
+    "name": "进化技能3",
+    "des": "技能额外造成目标最大生命值10%的伤害，释放技能时，立即结算诅咒伤害，且结算后再为目标添加2层诅咒",
+    "key1": "maxHP_damage",
+    "value1": 0.1,
+    "key2": "curse_settle",
+    "value2": true,
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "NPC_KB1": {
     "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，暴击增加50%,暴伤增加50%，持续3回合,每场战斗只能生效1次",
