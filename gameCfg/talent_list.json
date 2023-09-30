@@ -2629,73 +2629,237 @@
     "key2": "back_atk",
     "value2": 0.1
   },
+  "30102004": {
+    "name": "进化技能2",
+    "des": "所有攻击无视对方10%的防御",
+    "key1": "neglect_def",
+    "value1": 0.1
+  },
+  "30102005": {
+    "name": "进化技能3",
+    "des": "攻击增加10%，释放技能时，使目标重伤，持续2回合",
+    "key1": "self_atk_add",
+    "value1": 0.1
+  },
+  "30105004": {
+    "name": "进化技能2",
+    "des": "所有攻击有65%概率附加1层破甲效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
+  },
+  "30105005": {
+    "name": "进化技能3",
+    "des": "攻击增加10%，行动后恢复自身1点怒气",
+    "key1": "neglect_def",
+    "value1": 0.1,
+    "key2": "action_anger",
+    "value2": 1
+  },
+  "30106004": {
+    "name": "进化技能2",
+    "des": "每回合行动结束后添加2层反制印记",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "30106005": {
+    "name": "进化技能3",
+    "des": "闪避增加8%，释放技能时，若反制印记在3层以上时，对目标添加重伤效果",
+    "key1": "dodgeRate",
+    "value1": 0.08
+  },
+  "30107004": {
+    "name": "进化技能2",
+    "des": "所有攻击有70%概率附加锁定效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.7}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.7}"
+  },
+  "30107005": {
+    "name": "进化技能3",
+    "des": "攻击增加10%，释放技能时有25%概率再次释放（每回合最多1次）",
+    "key1": "neglect_def",
+    "value1": 0.1,
+    "key2": "skill_combo",
+    "value2": 0.25
+  },
+  "30110004": {
+    "name": "进化技能2",
+    "des": "每回合行动后为自身添加1层神力效果",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30110005": {
+    "name": "进化技能3",
+    "des": "攻击增加10%，造成伤害的50%转化为护盾，持续1回合",
+    "key1": "neglect_def",
+    "value1": 0.1,
+    "key2": "damage_change_shield",
+    "value2": 0.5
+  },
+  "40101004": {
+    "name": "进化技能2",
+    "des": "所有攻击无视对方15%的防御",
+    "key1": "neglect_def",
+    "value1": 0.15
+  },
+  "40101005": {
+    "name": "进化技能3",
+    "des": "攻击增加15%，行动后恢复自身2点怒气",
+    "key1": "neglect_def",
+    "value1": 0.15,
+    "key2": "action_anger",
+    "value2": 2
+  },
+  "40102004": {
+    "name": "进化技能2",
+    "des": "普通攻击降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "40102005": {
+    "name": "进化技能3",
+    "des": "速度增加15%，释放技能时降低目标1点怒气。",
+    "key1": "self_speed_add",
+    "value1": 0.15,
+    "key2": "skill_less_anger",
+    "value2": 1
+  },
   "40106004": {
     "name": "进化技能2",
-    "des": "初始怒气+2，物理防御增加9999%",
+    "des": "物理防御增加9999%",
     "key1": "self_phyDef_add",
-    "value1": 100,
-    "key2": "curAnger",
-    "value2": 2
+    "value1": 100
   },
   "40106005": {
     "name": "进化技能3",
-    "des": "生命值增加60%,每次受到直接伤害后，恢复自身3%的生命值",
+    "des": "生命值增加40%,每次受到直接伤害后，恢复自身2%的生命值",
     "key1": "self_maxHP_add",
-    "value1": 0.6,
+    "value1": 0.3,
     "key2": "behit_heal",
-    "value2": 0.03
+    "value2": 0.02
+  },
+  "40107004": {
+    "name": "进化技能2",
+    "des": "每回合行动后为自身添加1层破浪效果，破浪效果持续至战斗结束",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "key2": "buffDuration",
+    "value2": 99
+  },
+  "40107005": {
+    "name": "进化技能3",
+    "des": "技能伤害增加15%，释放技能后追加一次普通攻击。",
+    "key1": "skill_add_d_s",
+    "value1": true,
+    "key2": "skill_attack_amp",
+    "value2": 0.15
+  },
+  "40108004": {
+    "name": "进化技能2",
+    "des": "每回合行动后自身增加1层疾速",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "40108005": {
+    "name": "进化技能3",
+    "des": "技能伤害增加15%，所有攻击造成伤害30%治疗自身血量",
+    "key1": "skill_attack_amp",
+    "value1": 0.15,
+    "key2": "phy_turn_hp",
+    "value2": 0.3
+  },
+  "40109004": {
+    "name": "进化技能2",
+    "des": "释放技能后为自身添加暴怒状态，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "40109005": {
+    "name": "进化技能3",
+    "des": "攻击增加15%，释放技能后追加一次普通攻击。",
+    "key1": "neglect_def",
+    "value1": 0.15,
+    "key2": "skill_add_d_s",
+    "value2": true
   },
   "40110004": {
     "name": "进化技能2",
-    "des": "初始怒气+2，首回合获得超级无敌盾，持续3个回合",
+    "des": "首回合获得无敌盾，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
-    "key2": "curAnger",
-    "value2": 2
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "40110005": {
     "name": "进化技能3",
-    "des": "技能伤害增加20%，使用技能后，释放中毒时，有概率使目标身上的中毒状态立即结算。",
+    "des": "技能伤害增加20%，使用技能后，释放中毒时，有30%的概率使目标身上的中毒状态立即结算。",
     "key1": "skill_attack_amp",
-    "value1": 0.25,
+    "value1": 0.2,
     "key2": "poison_settle",
-    "value2": 0.5
+    "value2": 0.3
   },
   "40114004": {
     "name": "进化技能2",
-    "des": "初始怒气+2，特攻防御增加9999%",
+    "des": "特攻防御增加9999%",
     "key1": "self_magDef_add",
-    "value1": 100,
-    "key2": "curAnger",
-    "value2": 2
+    "value1": 100
   },
   "40114005": {
     "name": "进化技能3",
-    "des": "释放技能时降低目标1点怒气，每次行动后，为自身英雄恢复攻击力50%的生命值",
+    "des": "释放技能时降低目标1点怒气，每次行动后，为自身英雄恢复攻击力30%的生命值",
     "key1": "skill_less_anger",
     "value1": 1,
     "key2": "round_heal_type",
     "value2": "team_self",
     "key3": "round_heal_value",
-    "value3": 0.5
+    "value3": 0.3
+  },
+  "40115004": {
+    "name": "进化技能2",
+    "des": "行动后，为自身恢复3%的生命上限血量",
+    "key1": "action_heal",
+    "value1": 0.03
+  },
+  "40115005": {
+    "name": "进化技能3",
+    "des": "生命增加8%，防御增加8%，每回合行动前解除自身一个减益效果",
+    "key1": "self_maxHP_add",
+    "value1": 0.08,
+    "key2": "self_magDef_add",
+    "value2": 0.08,
+    "key3": "remove_one_lower",
+    "value3": true
+  },
+  "40119004": {
+    "name": "进化技能2",
+    "des": "所有攻击有100%概率附加锁定效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "40119005": {
+    "name": "进化技能3",
+    "des": "攻击增加15%，释放技能时有55%概率再次释放（每回合最多1次）",
+    "key1": "neglect_def",
+    "value1": 0.15,
+    "key2": "skill_combo",
+    "value2": 0.55
   },
   "40122004": {
     "name": "进化技能2",
-    "des": "初始怒气+2，若目标生命值低于35%，则将其斩杀。",
-    "key1": "curAnger",
-    "value1": 2,
-    "key2": "seckill",
-    "value2": 0.35
+    "des": "释放技能后追加一次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
   },
   "40122005": {
     "name": "进化技能3",
-    "des": "攻击增加20%，击杀目标后，回复2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "des": "攻击增加10%，击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "self_atk_add",
-    "value1": 0.2,
-    "key2": "kill_anger",
-    "value2": 2,
-    "key3": "killRet",
-    "value3": true
+    "value1": 0.1,
+    "key2": "killRet",
+    "value2": true
   },
   "50011004": {
     "name": "进化技能2",
@@ -3896,7 +4060,167 @@
     "key2": "skill_buff",
     "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
+  "60105004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，所有攻击有100%概率附加1层破甲效果",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "60105005": {
+    "name": "进化技能3",
+    "des": "攻击增加20%，行动后恢复自身1点怒气",
+    "key1": "neglect_def",
+    "value1": 0.2,
+    "key2": "action_anger",
+    "value2": 1
+  },
+  "60106004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，所有攻击降低目标1点怒气",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "normal_less_anger",
+    "value2": 1,
+    "key3": "skill_less_anger",
+    "value3": 1
+  },
+  "60106005": {
+    "name": "进化技能3",
+    "des": "速度增加20%，释放技能为目标附加沙尘暴效果，持续3个回合",
+    "key1": "self_speed_add",
+    "value1": 0.2,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "60107004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，首回合获得超级无敌盾，持续3个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "60107005": {
+    "name": "进化技能3",
+    "des": "技能伤害增加25%，使用技能后，释放中毒时，有50%的概率使目标身上的中毒状态立即结算。",
+    "key1": "skill_attack_amp",
+    "value1": 0.25,
+    "key2": "poison_settle",
+    "value2": 0.5
+  },
+  "60110004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，物理防御增加9999%",
+    "key1": "self_phyDef_add",
+    "value1": 100,
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "60110005": {
+    "name": "进化技能3",
+    "des": "生命值增加60%,每次受到直接伤害后，恢复自身3%的生命值",
+    "key1": "self_maxHP_add",
+    "value1": 0.6,
+    "key2": "behit_heal",
+    "value2": 0.03
+  },
+  "60113004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，若目标生命值低于35%，则将其斩杀。",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "seckill",
+    "value2": 0.35
+  },
+  "60113005": {
+    "name": "进化技能3",
+    "des": "攻击增加20%，击杀目标后，回复2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "kill_anger",
+    "value2": 2,
+    "key3": "killRet",
+    "value3": true
+  },
+  "60114004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，每回合行动后自身增加1层疾速和1层破浪",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key3": "action_buff",
+    "value3": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "60114005": {
+    "name": "进化技能3",
+    "des": "攻击增加20%，破浪持续战斗结束，回合结束时，每层破浪效果恢复自身2%的生命值",
+    "key1": "self_atk_add",
+    "value1": 0.2,
+    "key2": "buffDuration",
+    "value2": 99,
+    "key3": "polang_heal",
+    "value3": 0.02
+  },
+  "60115004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，行动后，为自身恢复5%的生命上限血量",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "action_heal",
+    "value2": 0.05
+  },
+  "60115005": {
+    "name": "进化技能3",
+    "des": "生命增加10%，防御增加10%，每回合行动前解除自身一个减益效果",
+    "key1": "self_maxHP_add",
+    "value1": 0.1,
+    "key2": "self_magDef_add",
+    "value2": 0.1,
+    "key3": "remove_one_lower",
+    "value3": true
+  },
+  "60117004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，每回合行动后为自身添加2层坚毅效果",
+    "key1": "curAnger",
+    "value1": 2,
+    "key2": "action_buff1",
+    "value2": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "60117005": {
+    "name": "进化技能3",
+    "des": "生命增加20%，每回合行动前，清除所有自身非控制类负面状态，并且在使用技能后，为自身添加伤害吸收护盾。",
+    "key1": "self_maxHP_add",
+    "value1": 0.2,
+    "key2": "action_clean_debuff",
+    "value2": true,
+    "key3": "skill_buff1",
+    "value3": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
+  },
   "60118004": {
+    "name": "进化技能2",
+    "des": "初始怒气+2，特攻防御增加9999%",
+    "key1": "self_magDef_add",
+    "value1": 100,
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "60118005": {
+    "name": "进化技能3",
+    "des": "释放技能时降低目标1点怒气，每次行动后，为自身英雄恢复攻击力50%的生命值",
+    "key1": "skill_less_anger",
+    "value1": 1,
+    "key2": "round_heal_type",
+    "value2": "team_self",
+    "key3": "round_heal_value",
+    "value3": 0.5
+  },
+  "60119004": {
     "name": "进化技能2",
     "des": "初始怒气+2，灵魂窃取的回合数增加至2回合，添加灵魂窃取的目标受到的回怒效果转移至自身。",
     "key1": "skill_buff",
@@ -3906,7 +4230,7 @@
     "key3": "curAnger",
     "value3": 2
   },
-  "60118005": {
+  "60119005": {
     "name": "进化技能3",
     "des": "技能额外造成目标最大生命值10%的伤害，释放技能时，立即结算诅咒伤害，且结算后再为目标添加2层诅咒",
     "key1": "maxHP_damage",

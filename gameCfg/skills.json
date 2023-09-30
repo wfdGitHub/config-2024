@@ -3763,25 +3763,26 @@
     "specie": 11,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成200%攻击力的物理伤害",
+    "des": "对敌方单体造成200%攻击力的物理伤害，并为自身附加1层神力效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2,
-    "key1": "buff1"
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "60113002": {
     "name": "技能攻击",
     "specie": 11,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成400%攻击力的物理伤害，为对方附加破甲效果，并75%的概率晕眩目标",
+    "des": "对敌方单体造成400%攻击力的物理伤害，为自身附加1层神力效果，并为对方附加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "buff2",
-    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.75}"
+    "value2": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "60114001": {
     "name": "普通攻击",
@@ -3890,6 +3891,30 @@
   },
   "60118001": {
     "name": "普通攻击",
+    "specie": 15,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成200%攻击力的法术伤害,并添加寒冰效果",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "60118002": {
+    "name": "技能攻击",
+    "specie": 15,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方全体造成200%攻击力的法术伤害,并有50%概率冰冻目标",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
+  },
+  "60119001": {
+    "name": "普通攻击",
     "specie": 8,
     "anger": 0,
     "type": "attack",
@@ -3902,7 +3927,7 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
-  "60118002": {
+  "60119002": {
     "name": "技能攻击",
     "specie": 8,
     "anger": 4,
