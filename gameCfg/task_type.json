@@ -7,22 +7,10 @@
     "name": "英雄招募",
     "soure": "recruit"
   },
-  "recruit_normal": {
-    "name": "普通招募",
-    "soure": "recruit"
-  },
-  "recruit_great": {
-    "name": "高级招募",
-    "soure": "recruit"
-  },
   "checkpoints": {
     "name": "关卡等级",
     "des": "参数代表关卡等级",
     "soure": "hook"
-  },
-  "general": {
-    "name": "将军府征募",
-    "soure": "recruit"
   },
   "arena": {
     "name": "竞技场挑战",
@@ -48,19 +36,10 @@
     "name": "参与日常副本",
     "soure": "dailyFb"
   },
-  "fb_hard": {
-    "name": "日常副本难度",
-    "des": "参数代表副本难度等级",
-    "soure": "dailyFb"
-  },
   "tour": {
     "name": "派遣任务",
     "des": "参数代表派遣任务品质",
     "soure": "hook"
-  },
-  "fb_coin": {
-    "name": "参与铜钱副本",
-    "soure": "dailyFb_gold"
   },
   "loadLv": {
     "name": "主角等级",
@@ -71,8 +50,8 @@
     "soure": "hero"
   },
   "hero": {
-    "name": "获得英雄星级",
-    "des": "参数代表英雄星级",
+    "name": "获得英雄品质",
+    "des": "参数代表英雄品质",
     "equal": true,
     "soure": "recruit"
   },
@@ -82,54 +61,24 @@
     "equal": true,
     "soure": "hero"
   },
-  "heroAd": {
-    "name": "英雄阶级",
-    "des": "参数代表英雄阶级",
-    "equal": true,
-    "soure": "hero"
-  },
   "equip": {
     "name": "获得装备",
     "des": "参数代表装备品质等级",
     "soure": "dailyFb_hero"
-  },
-  "equip_compound": {
-    "name": "合成装备",
-    "soure": "smithy"
-  },
-  "resolve": {
-    "name": "分解武将",
-    "soure": "heroCenter"
   },
   "rank": {
     "name": "竞技场排名",
     "des": "10000-所需排名",
     "soure": "arena"
   },
-  "artifact_gain": {
-    "name": "获得法宝",
-    "soure": "bazaar"
-  },
-  "artifactLv": {
-    "name": "法宝等级",
-    "des": "参数代表法宝等级",
-    "equal": true,
-    "soure": "bazaar"
-  },
   "ace": {
-    "name": "获得元神",
-    "des": "参数代表元神品质等级",
+    "name": "获得宝物",
+    "des": "参数代表宝物品质等级",
     "equal": true,
     "soure": "bazaar"
   },
   "tttLv": {
     "name": "通天塔等级",
-    "soure": "tower"
-  },
-  "tttRealmLv": {
-    "name": "阵营塔等级",
-    "des": "参数代表阵营",
-    "equal": true,
     "soure": "tower"
   },
   "use_coin": {
@@ -148,18 +97,6 @@
     "name": "领取挂机奖励",
     "soure": "hook"
   },
-  "shop_buy": {
-    "name": "杂货铺物品",
-    "soure": "bazaar"
-  },
-  "bazzar_buy": {
-    "name": "集市购买",
-    "soure": "bazaar"
-  },
-  "bazzar_refresh": {
-    "name": "集市刷新",
-    "soure": "bazaar"
-  },
   "zhulu_monster": {
     "name": "逐鹿之战击杀",
     "soure": "zhulu"
@@ -167,33 +104,6 @@
   "zhulu_pass": {
     "name": "逐鹿之战通关",
     "soure": "zhulu"
-  },
-  "world_boss_play": {
-    "name": "世界boss参与"
-  },
-  "world_boss_damage": {
-    "name": "世界boss单场伤害",
-    "des": "参数代表伤害值"
-  },
-  "wear_equip": {
-    "name": "穿戴装备",
-    "des": "参数代表装备等级",
-    "soure": "hero"
-  },
-  "passFb": {
-    "name": "通关剧情副本",
-    "des": "参数代表副本id",
-    "equal": true,
-    "soure": "hook"
-  },
-  "ss_pass": {
-    "name": "挑战山海通关",
-    "des": "参数代表关卡数",
-    "soure": "secretChallenge"
-  },
-  "ss_play": {
-    "name": "挑战或扫荡山海",
-    "soure": "secretChallenge"
   },
   "revenue": {
     "name": "征税次数",
@@ -211,20 +121,6 @@
     "name": "无尽试炼次数",
     "soure": "endless"
   },
-  "endless_one_lv": {
-    "name": "无尽试炼单人通关层数",
-    "des": "参数代表层数*6",
-    "soure": "endless"
-  },
-  "endless_three_lv": {
-    "name": "无尽试炼三人通关层数",
-    "des": "参数代表层数*6",
-    "soure": "endless"
-  },
-  "use_pickaxe": {
-    "name": "玉石矿场挖掘次数",
-    "soure": "pit"
-  },
   "escort": {
     "name": "木牛流马护送次数",
     "soure": "escort"
@@ -232,10 +128,6 @@
   "exercise": {
     "name": "通关沙盘演武",
     "soure": "exercise"
-  },
-  "reset_hufu": {
-    "name": "重铸护符次数",
-    "soure": "smithy"
   },
   "peak_bet": {
     "name": "王者巅峰赛投注次数",
@@ -245,17 +137,9 @@
     "name": "跨服竞技场获胜次数",
     "soure": "crossPK"
   },
-  "ancient_win": {
-    "name": "远古战场获胜次数",
-    "soure": "ancient"
-  },
   "hufu_gain": {
     "name": "获得护符数量",
     "soure": "endless"
-  },
-  "stone_gain": {
-    "name": "获得宝石数量",
-    "soure": "pit"
   },
   "muye_win": {
     "name": "天命之战获胜",
@@ -273,14 +157,6 @@
     "name": "激活至尊特权",
     "soure": "recharge"
   },
-  "beauty_num": {
-    "name": "解锁红颜",
-    "soure": "beauty"
-  },
-  "beauty_opinion": {
-    "name": "红颜好感度",
-    "soure": "beauty"
-  },
   "manor_lv": {
     "name": "封地大厅等级",
     "des": "参数代表等级",
@@ -294,26 +170,6 @@
     "name": "爵位等级",
     "des": "参数代表等级",
     "soure": "officer"
-  },
-  "coexist_lv": {
-    "name": "共鸣等级",
-    "des": "参数代表等级",
-    "soure": "coexist"
-  },
-  "evolution": {
-    "name": "官职等级",
-    "des": "参数代表等级",
-    "equal": true,
-    "soure": "hero"
-  },
-  "camp_att": {
-    "name": "阵营加成等级",
-    "soure": "campAtt"
-  },
-  "hero_tr": {
-    "name": "培养等级",
-    "des": "参数代表等级",
-    "soure": "hero"
   },
   "equip_st": {
     "name": "装备强化等级",
@@ -330,10 +186,6 @@
     "name": "跨服竞技场挑战次数",
     "soure": "crossPK"
   },
-  "ancient": {
-    "name": "远古战场挑战次数",
-    "soure": "ancient"
-  },
   "beherrscher": {
     "name": "无双争霸赛获得席位",
     "soure": "beherrscher"
@@ -347,18 +199,6 @@
     "des": "参数代表战法ID",
     "equal": true,
     "soure": "shop"
-  },
-  "book_gain": {
-    "name": "获得天书",
-    "des": "参数代表天书ID",
-    "equal": true,
-    "soure": "shop"
-  },
-  "beauty_star": {
-    "name": "红颜升星",
-    "des": "参数代表红颜ID",
-    "equal": true,
-    "soure": "beauty"
   },
   "exercise_fight": {
     "name": "沙盘演武挑战胜利",
@@ -377,6 +217,7 @@
   },
   "pokemon_evolveLv": {
     "name": "精灵进化层次",
-    "des": "参数代表层次"
+    "des": "参数代表层次",
+    "equal": true
   }
 }
