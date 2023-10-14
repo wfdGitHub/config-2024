@@ -2599,35 +2599,17 @@
     "key1": "critDef",
     "value1": 0.08
   },
-  "9050180": {
-    "name": "射声校尉",
-    "des": "携带英雄位于后排时，命中+10%，破甲+10%",
-    "key1": "back_hitRate",
-    "value1": 0.1,
-    "key2": "back_neglect_def",
-    "value2": 0.1
+  "30101004": {
+    "name": "进化技能2",
+    "des": "技能攻击会降低对方1点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
   },
-  "9050190": {
-    "name": "白羽扇",
-    "des": "携带英雄位于后排时，法术暴击增加12%",
-    "key1": "back_crit",
-    "value1": 0.12
-  },
-  "9050200": {
-    "name": "黄金甲",
-    "des": "携带英雄位于前排时，抗暴+15%，血量+15%",
-    "key1": "front_critDef",
-    "value1": 0.15,
-    "key2": "front_maxHP",
-    "value2": 0.15
-  },
-  "9050210": {
-    "name": "龙鳞铠",
-    "des": "携带英雄位于前排时，闪避+10%，位于后排时，攻击+10%",
-    "key1": "front_dodgeRate",
-    "value1": 0.1,
-    "key2": "back_atk",
-    "value2": 0.1
+  "30101005": {
+    "name": "进化技能3",
+    "des": "释放技能后，为我方全体增加1层疾速",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "30102004": {
     "name": "进化技能2",
@@ -2640,6 +2622,36 @@
     "des": "攻击增加10%，释放技能时，使目标重伤，持续2回合",
     "key1": "self_atk_add",
     "value1": 0.1
+  },
+  "30103004": {
+    "name": "进化技能2",
+    "des": "所有攻击有50%的概率为敌方附加1层破甲效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}"
+  },
+  "30103005": {
+    "name": "进化技能3",
+    "des": "生命值增加5%，受到治疗量增加20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.05,
+    "key2": "healAdd",
+    "value2": 0.3
+  },
+  "30104004": {
+    "name": "进化技能2",
+    "des": "普通攻击降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "30104005": {
+    "name": "进化技能3",
+    "des": "普通攻击麻痹概率提升至60%，并且造成伤害20%恢复自身生命值。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}",
+    "key2": "turn_rate",
+    "value2": 0.2
   },
   "30105004": {
     "name": "进化技能2",
@@ -2685,6 +2697,36 @@
     "key2": "skill_combo",
     "value2": 0.25
   },
+  "30108004": {
+    "name": "进化技能2",
+    "des": "所有攻击中毒概率提升至65%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
+  },
+  "30108005": {
+    "name": "进化技能3",
+    "des": "特防增加15%，普通攻击降低目标1点怒气",
+    "key1": "self_magDef_add",
+    "value1": 0.15,
+    "key2": "normal_less_anger",
+    "value2": 1
+  },
+  "30109004": {
+    "name": "进化技能2",
+    "des": "晕眩和破甲效果触发概率提升至50%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}"
+  },
+  "30109005": {
+    "name": "进化技能3",
+    "des": "物防增加15%，攻击造成伤害25%治疗自身血量",
+    "key1": "self_phyDef_add",
+    "value1": 0.15,
+    "key2": "turn_rate",
+    "value2": 0.25
+  },
   "30110004": {
     "name": "进化技能2",
     "des": "每回合行动后为自身添加1层神力效果",
@@ -2698,6 +2740,68 @@
     "value1": 0.1,
     "key2": "damage_change_shield",
     "value2": 0.5
+  },
+  "30112004": {
+    "name": "进化技能2",
+    "des": "中毒持续回合+1",
+    "key1": "poison_duration",
+    "value1": 1
+  },
+  "30112005": {
+    "name": "进化技能3",
+    "des": "生命增加10%，对敌方造成的中毒状态结算或被清除时，对其造成最大生命值12%的伤害",
+    "key1": "self_maxHP_add",
+    "value1": 0.1,
+    "key2": "poison_clean_damage",
+    "value2": 0.12
+  },
+  "30113004": {
+    "name": "进化技能2",
+    "des": "所有攻击有60%概率附加减速效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
+  },
+  "30113005": {
+    "name": "进化技能3",
+    "des": "攻击增加12%，技能附加对方生命上限8%的伤害。",
+    "key1": "self_atk_add",
+    "value1": 0.12,
+    "key2": "maxHP_damage",
+    "value2": 0.08
+  },
+  "30114004": {
+    "name": "进化技能2",
+    "des": "所有攻击有60%概率附加减速效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
+  },
+  "30114005": {
+    "name": "进化技能3",
+    "des": "生命增加10%，技能附加对方生命上限10%的伤害。",
+    "key1": "self_maxHP_add",
+    "value1": 0.1,
+    "key2": "maxHP_damage",
+    "value2": 0.1
+  },
+  "30115004": {
+    "name": "进化技能2",
+    "des": "初始怒气增加1点，释放技能后为自身添加1层疾速，增加5%的速度，持续3回合",
+    "key1": "curAnger",
+    "value1": 1,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "30115005": {
+    "name": "进化技能3",
+    "des": "攻击增加5%，释放技能后，为我方全体增加1层疾速",
+    "key1": "self_atk_add",
+    "value1": 0.05,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "40101004": {
     "name": "进化技能2",
@@ -2737,7 +2841,7 @@
     "name": "进化技能3",
     "des": "生命值增加40%,每次受到直接伤害后，恢复自身2%的生命值",
     "key1": "self_maxHP_add",
-    "value1": 0.3,
+    "value1": 0.4,
     "key2": "behit_heal",
     "value2": 0.02
   },
@@ -2797,7 +2901,23 @@
     "key1": "skill_attack_amp",
     "value1": 0.2,
     "key2": "poison_settle",
-    "value2": 0.3
+    "value2": 0.5
+  },
+  "40112004": {
+    "name": "进化技能2",
+    "des": "所有攻击有60%概率附加虚弱效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+  },
+  "40112005": {
+    "name": "进化技能3",
+    "des": "攻击增加15%，目标身上每有1个负面效果，伤害增加10%",
+    "key1": "neglect_def",
+    "value1": 0.15,
+    "key2": "enemy_low_amp",
+    "value2": 0.1
   },
   "40114004": {
     "name": "进化技能2",
@@ -2830,6 +2950,24 @@
     "value2": 0.08,
     "key3": "remove_one_lower",
     "value3": true
+  },
+  "40116004": {
+    "name": "进化技能2",
+    "des": "初始怒气+1，所有攻击有60%概率附加锁定效果",
+    "key1": "curAnger",
+    "value1": 1,
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.5}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":3,\"buffRate\":0.5}"
+  },
+  "40116005": {
+    "name": "进化技能3",
+    "des": "速度增加15%，释放技能后追加1次普通攻击。",
+    "key1": "self_speed_add",
+    "value1": 0.15,
+    "key2": "skill_add_d_s",
+    "value2": true
   },
   "40119004": {
     "name": "进化技能2",
@@ -3848,9 +3986,9 @@
     "key1": "skill_heal_maxHp",
     "value1": 0.2,
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key3": "skill_buff",
-    "value3": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value3": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50509004": {
     "name": "进化技能2",
