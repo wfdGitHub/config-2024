@@ -4,20 +4,10 @@
     "openlv": 1,
     "desc": "充值"
   },
-  "heroCenter": {
-    "name": "时光屋",
-    "openlv": 1,
-    "desc": "指定阵营英雄招募，英雄直升，英雄遣散，英雄置换都在这里"
-  },
   "vip": {
     "name": "VIP特权",
     "openlv": 1,
     "desc": "VIP特权"
-  },
-  "lottery": {
-    "name": "寻宝",
-    "openlv": 20,
-    "desc": "宝藏寻宝，获得稀有道具"
   },
   "mail": {
     "name": "邮件",
@@ -29,18 +19,21 @@
     "openlv": 1,
     "desc": "首充"
   },
+  "revenue": {
+    "name": "聚宝功",
+    "openlv": 1
+  },
   "tower": {
-    "name": "试炼之塔",
+    "name": "对战塔",
     "openlv": 1,
     "award": "110:100&1000050:10&1000080:1",
-    "desc": "勇闯乱世之路，获取大量英雄进阶物品"
+    "desc": "训练家云集的对战塔，向上攀爬赢取奖励吧"
   },
   "task": {
     "name": "日常任务",
     "openlv": 1,
     "award": "110:100&1000090:1&1000070:1",
-    "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
-    "targetChild": true
+    "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱"
   },
   "rechargeTotal": {
     "name": "限时累充",
@@ -81,31 +74,11 @@
     "openlv": 25
   },
   "warHorn": {
-    "name": "战令",
+    "name": "通行证",
     "openlv": 11,
     "award": "110:100&1000050:10&1000080:1",
-    "desc": "解锁战令，完成战令任务获取丰厚奖励",
+    "desc": "解锁通行证，完成通行证任务获取丰厚奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
-  },
-  "dailyFb": {
-    "name": "材料副本",
-    "openlv": 10,
-    "award": "110:100&1000050:10&1000080:1",
-    "desc": "每日挑战，获得英雄培养材料",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
-  },
-  "dailyFb_coin": {
-    "name": "金币副本",
-    "openlv": 16,
-    "desc": "金币副本，挑战可获得金币",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
-  },
-  "dailyFb_hero": {
-    "name": "经验副本",
-    "openlv": 19,
-    "desc": "经验副本，挑战可获得英雄经验",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "limitedTime": {
     "name": "限时活动",
@@ -113,62 +86,28 @@
     "desc": "限时活动",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
   },
-  "tour": {
-    "name": "英雄派遣",
-    "openlv": 16,
-    "award": "110:100&1000090:1&1000160:1",
-    "desc": "派遣英雄执行任务，获得稀有奖励"
-  },
-  "guild": {
-    "name": "公会系统",
-    "openlv": 17,
-    "award": "110:100&213:100&1000090:1",
-    "desc": "创建或加入公会，与好友一起探索世界",
-    "target": "uiNode/frontNode/bottomNode/btnGuild",
-    "targetChild": true
-  },
   "chat": {
     "name": "聊天",
     "openlv": 17,
     "desc": "聊天"
   },
-  "arena": {
-    "name": "竞技场",
-    "openlv": 17,
-    "award": "110:100&205:100&1000090:1",
-    "desc": "展现实力，争夺竞技排名，赢取排名奖励"
-  },
-  "bazaar": {
-    "name": "神秘商店",
-    "openlv": 21,
-    "award": "110:100&1000070:10&1000090:1",
-    "desc": "神秘商店，有概率刷新特价稀有道具"
-  },
-  "dailyFb_equip": {
-    "name": "装备副本",
-    "openlv": 22,
-    "desc": "装备副本，挑战可获得装备箱子",
+  "dailyFb": {
+    "name": "日常对战赛",
+    "openlv": 1,
+    "award": "110:100&1000050:10&1000080:1",
+    "desc": "对战各系强者，考验对战策略",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "dailyFb_art": {
-    "name": "进阶副本",
-    "openlv": 25,
-    "desc": "进阶副本，挑战可获得进阶石",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  "tour": {
+    "name": "精灵派遣",
+    "openlv": 1,
+    "award": "110:100&1000090:1&1000160:1",
+    "desc": "派遣精灵执行任务，获得稀有奖励"
   },
-  "areaBoss": {
-    "name": "新服BOSS",
-    "openlv": 15,
-    "desc": "全服挑战，击杀后可领取全服奖励",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
-  },
-  "extremity": {
-    "name": "魔龙宝库",
-    "openlv": 28,
-    "award": "110:100&201:10000&101:10000",
-    "desc": "挑战魔龙，突破自身上限",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+  "invade": {
+    "name": "野生精灵暴走",
+    "openlv": 5,
+    "desc": "限时挑战，越快击败奖励越多"
   },
   "areaChallenge": {
     "name": "新服挑战",
@@ -176,118 +115,130 @@
     "desc": "极限挑战，战胜获得丰富奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge"
   },
+  "areaBoss": {
+    "name": "幻兽来临",
+    "openlv": 5,
+    "desc": "新服挑战，击败后可领取排名奖励",
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
+  },
+  "worldBoss": {
+    "name": "神兽现身",
+    "openlv": 5,
+    "desc": "终极挑战，击败后可领取排名奖励"
+  },
+  "escort": {
+    "name": "宝藏森林",
+    "openlv": 5,
+    "desc": "森林探险，挖掘宝藏，获取稀有道具"
+  },
+  "arena": {
+    "name": "对战竞技场",
+    "openlv": 8,
+    "award": "110:100&205:100&1000090:1",
+    "desc": "展现实力，争夺竞技排名，赢取排名奖励"
+  },
   "exercise": {
     "name": "模拟对战",
-    "openlv": 31,
+    "openlv": 12,
     "award": "110:100&1000050:10&1000170:1",
     "desc": "模拟战斗，获得大量英雄经验",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
-  },
-  "manor": {
-    "name": "家园系统",
-    "openlv": 33,
-    "award": "810:3000&820:10",
-    "desc": "建设家园，探索冒险",
-    "target": "uiNode/frontNode/bottomNode/btnOffice"
-  },
-  "ancient": {
-    "name": "远古战争",
-    "openlv": 36,
-    "award": "110:100&215:100&1000080:1",
-    "desc": "英雄对战，策略为王",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "endless": {
     "name": "无尽试炼",
-    "openlv": 38,
+    "openlv": 14,
     "award": "110:100&201:10000&101:10000",
     "desc": "无尽试炼，获取稀有道具",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
-  },
-  "beherrscher": {
-    "name": "英雄殿堂",
-    "openlv": 46,
-    "award": "110:100&201:10000&101:10000",
-    "desc": "殿堂擂台，等你来战",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "crossPK": {
-    "name": "跨服竞技场",
-    "openlv": 56,
-    "award": "110:100&210:100&1000080:1",
-    "desc": "跨服竞技，勇夺冠军，彰显实力",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+  "guild": {
+    "name": "联盟系统",
+    "openlv": 16,
+    "award": "110:100&213:100&1000090:1",
+    "desc": "创建或加入联盟，与好友一起探索世界",
+    "target": "uiNode/frontNode/bottomNode/btnGuild"
   },
-  "crossTop": {
-    "name": "王者巅峰赛",
-    "openlv": 57,
-    "award": "110:100&211:100&1000080:1",
-    "desc": "最高赛事，角逐英雄最强王者",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+  "extremity": {
+    "name": "光环超魔神",
+    "openlv": 18,
+    "award": "110:100&201:10000&101:10000",
+    "desc": "迎战光环的超魔神，突破自我吧！",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
-  "topic": {
-    "name": "限时招募",
-    "openlv": 58,
-    "desc": "可招募主题英雄，每日刷新主题",
-    "target": "hallNode/mainNode/bottomNode/recruit"
+  "manor": {
+    "name": "家园系统",
+    "openlv": 20,
+    "award": "810:3000&820:10",
+    "desc": "经营家园，探索冒险，获取建筑收益。",
+    "target": "uiNode/frontNode/bottomNode/btnOffice"
   },
-  "zhulu": {
-    "name": "地下城探险",
-    "openlv": 52,
-    "award": "110:100&206:100&1000080:1",
-    "desc": "探索古老地下城，获得英雄魔法书籍",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+  "beherrscher": {
+    "name": "对战开拓区",
+    "openlv": 22,
+    "award": "110:100&201:10000&101:10000",
+    "desc": "最强训练家的擂台，谁与争锋",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "pit": {
-    "name": "宝石系统",
+    "name": "装备镶嵌",
     "openlv": 30,
     "award": "110:100&1000501:1&1000080:1",
-    "desc": "加强英雄属性，增加被动技能，助力逆风翻盘",
+    "desc": "可为装备镶嵌宝石，提高装备性能",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
+  "crossPK": {
+    "name": "跨服段位赛",
+    "openlv": 32,
+    "award": "110:100&210:100&1000080:1",
+    "desc": "跨服对战，刷新排名，赢取排名奖励",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  },
   "ace": {
-    "name": "魔书系统",
-    "openlv": 62,
+    "name": "芯片",
+    "openlv": 38,
     "award": "110:100&206:100&1000080:1",
-    "desc": "助阵英雄，发挥极致实力",
-    "target": "uiNode/frontNode/bottomNode/btnHero",
-    "targetChild": true
+    "desc": "芯片能给予佩戴宝可梦一般被动能力加成。",
+    "target": "uiNode/frontNode/bottomNode/btnHero"
+  },
+  "fabao": {
+    "name": "法宝",
+    "openlv": 45,
+    "desc": "法宝可以给予佩戴它的宝可梦以全面性的加成"
   },
   "zhanfa": {
-    "name": "智能模组",
-    "openlv": 90,
+    "name": "携带物",
+    "openlv": 60,
     "award": "110:100&230:10&101:10000",
-    "desc": "策略圣物战法，全新战斗体验",
-    "target": "uiNode/frontNode/bottomNode/btnOffice",
-    "targetChild": true
-  },
-  "superEquip": {
-    "name": "神装系统",
-    "openlv": 100,
-    "award": "110:100&1000060:1&201:10000",
-    "desc": "铸造神装，无敌于世",
-    "target": "hallNode/mainNode/bottomNode/smithy"
+    "desc": "携带物能给予佩戴它的宝可梦特殊的被动能力。",
+    "target": "uiNode/frontNode/bottomNode/btnOffice"
   },
   "areaTrial": {
-    "name": "异界深渊",
-    "openlv": 103,
+    "name": "次元危机",
+    "openlv": 38,
     "award": "110:100&1000060:1&201:10000",
-    "desc": "以少胜多，夺取神装",
+    "desc": "持续对战，胜出次元危机",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  },
+  "zhulu": {
+    "name": "神秘洞窟",
+    "openlv": 45,
+    "award": "110:100&206:100&1000080:1",
+    "desc": "探索神秘洞窟，享受随机对战",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  },
+  "crossTop": {
+    "name": "世界锦标赛",
+    "openlv": 56,
+    "award": "110:100&211:100&1000080:1",
+    "desc": "排名赛制最高峰，角逐最强精灵大师",
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "crossTeamPK": {
-    "name": "宿命之战",
-    "openlv": 115,
+    "name": "全明星赛",
+    "openlv": 60,
     "award": "110:100&212:100&1000080:1",
-    "desc": "阵营对抗，为胜利而战",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying",
-    "targetChild": true
+    "desc": "阵营团体对抗赛，团结合作赢得胜利吧！",
+    "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "recruit": {
     "name": "捕捉精灵",
@@ -301,10 +252,6 @@
     "name": "英雄列表",
     "openlv": 1
   },
-  "revenue": {
-    "name": "招财",
-    "openlv": 1
-  },
   "friend": {
     "name": "好友列表",
     "openlv": 1
@@ -314,39 +261,15 @@
     "openlv": 1
   },
   "shop_crossTop": {
-    "name": "王者商城",
+    "name": "锦标赛商城",
     "openlv": 1
   },
   "shop_crossTeamPK": {
-    "name": "次元商城",
+    "name": "全明星商城",
     "openlv": 1
   },
   "shop_guild": {
-    "name": "公会商城",
+    "name": "联盟商城",
     "openlv": 1
-  },
-  "shop_ancient": {
-    "name": "擂台商城",
-    "openlv": 1
-  },
-  "escort": {
-    "name": "欢乐夺宝",
-    "openlv": 1
-  },
-  "oh_turntable": {
-    "name": "欧皇转盘",
-    "openlv": 1
-  },
-  "power_normal": {
-    "name": "合击转盘",
-    "openlv": 10
-  },
-  "bf_turntable": {
-    "name": "魔宠转盘",
-    "openlv": 110
-  },
-  "power_super": {
-    "name": "超级合击",
-    "openlv": 90
   }
 }
