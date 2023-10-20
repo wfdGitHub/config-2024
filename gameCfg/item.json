@@ -11,8 +11,8 @@
     "name": "英雄经验",
     "des": "英雄经验，可用于升级英雄等级",
     "type": "currency",
-    "gold": 10,
-    "coin": 50000,
+    "gold": 100,
+    "coin": 500000,
     "buyNum": 10000,
     "quality": 4,
     "source1": "checkpoints",
@@ -34,12 +34,12 @@
   },
   "110": {
     "name": "现金券",
-    "des": "现金券，用于游戏直充",
+    "des": "现金券，用于游戏中钻石直充",
     "isBag": true,
     "type": "item",
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "120": {
     "name": "提额券",
@@ -53,32 +53,32 @@
     "name": "钻石",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "gold": 0.01,
-    "coin": 50,
+    "gold": 0.1,
+    "coin": 500,
     "buyNum": 1,
     "quality": 5,
     "source1": "recharge",
     "source2": "secretChallenge",
-    "source3": "recharge"
+    "source3": "gift"
   },
   "201": {
-    "name": "金币",
+    "name": "铜币",
     "des": "游戏中常见的货币，可用于提升英雄，升级等诸多作用",
     "type": "currency",
-    "gold": 50,
-    "coin": 250000,
+    "gold": 250,
+    "coin": 1250000,
     "buyNum": 50000,
     "quality": 4,
     "source1": "revenue",
     "source2": "quick",
     "source3": "dailyFb",
-    "source4": "exercise"
+    "source4": "tower"
   },
   "202": {
     "name": "钻石替换道具",
     "des": "稀有货币，可用于购买商城物品",
     "type": "currency",
-    "arg": 100,
+    "arg": 10,
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
@@ -114,15 +114,14 @@
     "source1": "arena"
   },
   "206": {
-    "name": "微光之灵",
-    "des": "微光孕育而成，可用于在微光商店购买微光",
+    "name": "符文之灵",
+    "des": "符文孕育而成，可用于在符文商店购买符文",
     "type": "currency",
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "dailyFb",
-    "source2": "warHorn"
+    "source1": "dailyFb"
   },
   "207": {
     "name": "专属灵石",
@@ -133,12 +132,11 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "dailyFb",
-    "source2": "tower",
-    "source3": "warHorn"
+    "source2": "tower"
   },
   "208": {
-    "name": "英灵石",
-    "des": "英灵石通过英雄招募获得，可在招募商城中兑换英雄",
+    "name": "玉璧",
+    "des": "玉璧通过英雄招募获得，可在招募商城中兑换英雄",
     "type": "currency",
     "gold": 100,
     "coin": 500000,
@@ -147,8 +145,8 @@
     "source1": "general"
   },
   "209": {
-    "name": "圣域积分",
-    "des": "积分在沙暴圣域玩法中获得，用于兑换积分商店道具",
+    "name": "探险积分",
+    "des": "积分在魔王遗迹玩法中获得，用于兑换皇陵商店道具",
     "type": "currency",
     "gold": 0.2,
     "coin": 1000,
@@ -200,8 +198,8 @@
     "source1": "friend"
   },
   "215": {
-    "name": "角斗士积分",
-    "des": "可参与角斗场对战获得，可用于角斗商店兑换商品",
+    "name": "巅峰积分",
+    "des": "可参与巅峰对决活动获得，可用于巅峰商店兑换商品",
     "type": "currency",
     "gold": 0.1,
     "coin": 500,
@@ -228,7 +226,8 @@
     "buyNum": 1,
     "quality": 6,
     "source1": "shop_guild",
-    "source2": "recharge"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "301": {
     "name": "招募积分",
@@ -242,20 +241,24 @@
     "source2": "recruit_normal"
   },
   "401": {
-    "name": "星蓝之石",
-    "des": "星蓝之石，能够提升星蓝战魂的属性加成，可通过星蓝之塔中获得。"
+    "name": "苍蓝果实",
+    "des": "苍蓝果实，能够提升苍蓝战魂的属性加成，可通过苍蓝之塔中获得。",
+    "source1": "tower"
   },
   "402": {
-    "name": "苍翠之石",
-    "des": "苍翠之石，能够提升苍翠战魂的属性加成，可通过苍翠之塔中获得。"
+    "name": "紫耀果实",
+    "des": "紫耀果实，能够提升紫耀战魂的属性加成，可通过紫耀之塔中获得。",
+    "source1": "tower"
   },
   "403": {
-    "name": "业红之石",
-    "des": "业红之石，能够提升业红战魂的属性加成，可通过业红之塔中获得。"
+    "name": "赤炎果实",
+    "des": "赤炎果实，能够提升赤炎战魂的属性加成，可通过赤炎之塔中获得。",
+    "source1": "tower"
   },
   "404": {
-    "name": "黑曜之石",
-    "des": "黑曜之石，能够提升黑曜战魂的属性加成，可通过黑曜之塔中获得。"
+    "name": "暗影果实",
+    "des": "暗影果实，能够提升暗影战魂的属性加成，可通过暗影之塔中获得。",
+    "source1": "tower"
   },
   "501": {
     "name": "水晶苹果",
@@ -272,43 +275,44 @@
     "quality": 5
   },
   "4001": {
-    "name": "黄铜护戒",
-    "des": "黄铜护戒，比较常见的护戒。",
+    "name": "黄铜护符",
+    "des": "黄铜护符，比较常见的护符。",
     "type": "hufu",
     "arg": "{\"lv\":1}",
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "arena"
   },
   "4002": {
-    "name": "白银护戒",
-    "des": "白银护戒，冒险者常用护戒，以稀缺的白银矿石铸造而成。",
+    "name": "白银护符",
+    "des": "白银护符，冒险者常用护符，以稀缺的白银矿石铸造而成。",
     "type": "hufu",
     "arg": "{\"lv\":2}",
     "gold": 500,
     "coin": 2500000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_crossPK"
   },
   "4003": {
-    "name": "黄金护戒",
-    "des": "黄金护戒，是一个由纯金铸造而成的护身符，可以为佩戴者提供保护、祝福和好运。",
+    "name": "黄金护符",
+    "des": "黄金护符，是一个由纯金铸造而成的护身符，可以为佩戴者提供保护、祝福和好运。",
     "type": "hufu",
     "arg": "{\"lv\":3}",
     "gold": 2500,
     "coin": 12500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "4004": {
-    "name": "君王护戒",
-    "des": "君王护戒，是古代君主或皇帝佩戴的一种护身符，由祭司覆上神圣的祝福，保护君王安全。",
+    "name": "君王护符",
+    "des": "君王护符，是古代君主或皇帝佩戴的一种护身符，由祭司覆上神圣的祝福，保护君王安全。",
     "type": "hufu",
     "arg": "{\"lv\":4}",
     "gold": 10000,
@@ -316,7 +320,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "hufu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "7010": {
     "name": "战场统帅",
@@ -406,7 +410,7 @@
     "arg": 7100,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "7110": {
     "name": "未完新人",
@@ -415,7 +419,7 @@
     "arg": 7110,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "7120": {
     "name": "富甲一方",
@@ -424,7 +428,7 @@
     "arg": 7120,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "7130": {
     "name": "初露锋芒",
@@ -437,7 +441,7 @@
   },
   "7140": {
     "name": "冰霜之星",
-    "des": "冰霜之星，新服BOSS娜迦女王伤害第1获得",
+    "des": "冰霜之星，新服BOSS卡蒂娜伤害第1获得",
     "type": "title",
     "arg": 7140,
     "quality": 7,
@@ -446,7 +450,7 @@
   },
   "7150": {
     "name": "魔法师长",
-    "des": "魔法师长，新服BOSS梦境树妖伤害第1获得",
+    "des": "魔法师长，新服BOSS安吉丽娜伤害第1获得",
     "type": "title",
     "arg": 7150,
     "quality": 7,
@@ -455,7 +459,7 @@
   },
   "7160": {
     "name": "火焰化身",
-    "des": "火焰化身，新服BOSS烈焰领主伤害第1获得",
+    "des": "火焰化身，新服BOSS普莉希拉伤害第1获得",
     "type": "title",
     "arg": 7160,
     "quality": 7,
@@ -464,7 +468,7 @@
   },
   "7170": {
     "name": "黑暗游侠",
-    "des": "黑暗游侠，新服BOSS光明祭司伤害第1获得",
+    "des": "黑暗游侠，新服BOSS海伦娜伤害第1获得",
     "type": "title",
     "arg": 7170,
     "quality": 7,
@@ -472,8 +476,8 @@
     "source1": "areaBoss"
   },
   "7180": {
-    "name": "星蓝海使",
-    "des": "星蓝海使，新服BOSS冰雪巫女伤害第1获得",
+    "name": "苍蓝海使",
+    "des": "苍蓝海使，新服BOSS艾薇儿伤害第1获得",
     "type": "title",
     "arg": 7180,
     "quality": 7,
@@ -482,7 +486,7 @@
   },
   "7190": {
     "name": "魔法帝王",
-    "des": "魔法帝王，新服BOSS荆棘女王伤害第1获得",
+    "des": "魔法帝王，新服BOSS罗迪卡伤害第1获得",
     "type": "title",
     "arg": 7190,
     "quality": 7,
@@ -491,7 +495,7 @@
   },
   "7200": {
     "name": "火焰使者",
-    "des": "火焰使者，新服BOSS炎之舞者伤害第1获得",
+    "des": "火焰使者，新服BOSS心朵拉伤害第1获得",
     "type": "title",
     "arg": 7200,
     "quality": 7,
@@ -500,7 +504,7 @@
   },
   "7210": {
     "name": "黑暗领主",
-    "des": "黑暗领主，新服BOSS审判天使伤害第1获得",
+    "des": "黑暗领主，新服BOSS芙蕾雅伤害第1获得",
     "type": "title",
     "arg": 7210,
     "quality": 7,
@@ -690,7 +694,7 @@
     "arg": 8070,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8080": {
     "name": "以令诸侯",
@@ -699,7 +703,7 @@
     "arg": 8080,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8090": {
     "name": "春意盎然",
@@ -708,7 +712,7 @@
     "arg": 8090,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8100": {
     "name": "豪气冲天",
@@ -717,7 +721,7 @@
     "arg": 8100,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8110": {
     "name": "童心妙笔",
@@ -726,7 +730,7 @@
     "arg": 8110,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8120": {
     "name": "情人节",
@@ -735,7 +739,7 @@
     "arg": 8120,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8130": {
     "name": "中秋节",
@@ -744,7 +748,7 @@
     "arg": 8130,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "8990": {
     "name": "矢志不渝",
@@ -753,11 +757,11 @@
     "arg": 8990,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "10010": {
     "name": "秘密齿轮",
-    "des": "秘密齿轮，可在活动中兑换稀有道具",
+    "des": "秘密齿轮",
     "type": "currency",
     "useType": "optional",
     "arg": "[\"108010101:1\",\"108010102:1\",\"108010103:1\",\"108010104:1\",\"108010105:1\",\"108010106:1\",\"108010107:1\",\"108010108:1\",\"108010109:1\",\"108010110:1\",\"108010111:1\",\"108010112:1\"]",
@@ -767,7 +771,7 @@
     "quality": 6
   },
   "103010": {
-    "name": "冰幼龙碎片",
+    "name": "汐碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -781,7 +785,7 @@
     "source2": "tower"
   },
   "103020": {
-    "name": "水元素碎片",
+    "name": "莉莉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -795,7 +799,7 @@
     "source2": "tower"
   },
   "104000": {
-    "name": "4星星蓝碎片",
+    "name": "4星苍蓝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -810,7 +814,7 @@
     "source3": "shop_hero"
   },
   "104010": {
-    "name": "水导士碎片",
+    "name": "银灵碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -824,7 +828,7 @@
     "source2": "tower"
   },
   "104020": {
-    "name": "海洋水母碎片",
+    "name": "美波碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -838,7 +842,7 @@
     "source2": "tower"
   },
   "104030": {
-    "name": "海灵龙碎片",
+    "name": "菲菲碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -852,7 +856,7 @@
     "source2": "tower"
   },
   "104040": {
-    "name": "潮汐人鱼碎片",
+    "name": "潮汐碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -866,7 +870,7 @@
     "source2": "tower"
   },
   "105000": {
-    "name": "5星星蓝碎片",
+    "name": "5星苍蓝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -880,7 +884,7 @@
     "source2": "tower"
   },
   "105010": {
-    "name": "海兽使者碎片",
+    "name": "奥蕾莉亚碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -895,7 +899,7 @@
     "source3": "shop_general"
   },
   "105020": {
-    "name": "人鱼公主碎片",
+    "name": "莉莉丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -910,7 +914,7 @@
     "source3": "shop_hero"
   },
   "105030": {
-    "name": "霜冻使者碎片",
+    "name": "瑟琳娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -924,7 +928,7 @@
     "source2": "tower"
   },
   "105040": {
-    "name": "冰雪巫女碎片",
+    "name": "艾薇儿碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -939,7 +943,7 @@
     "source3": "shop_guild"
   },
   "105050": {
-    "name": "水之魔仙碎片",
+    "name": "露西碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -953,7 +957,7 @@
     "source2": "tower"
   },
   "105060": {
-    "name": "海妖舰长碎片",
+    "name": "梅莎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -967,7 +971,7 @@
     "source2": "tower"
   },
   "105070": {
-    "name": "娜迦女王碎片",
+    "name": "卡蒂娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -981,7 +985,7 @@
     "source2": "tower"
   },
   "105080": {
-    "name": "冰霜女王碎片",
+    "name": "安德烈碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -996,7 +1000,7 @@
     "source3": "shop_zhulu"
   },
   "105090": {
-    "name": "风暴航行者碎片",
+    "name": "娜塔莎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1010,7 +1014,7 @@
     "source2": "tower"
   },
   "105100": {
-    "name": "海洋守护者碎片",
+    "name": "莉娅娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1024,7 +1028,7 @@
     "source2": "tower"
   },
   "105110": {
-    "name": "娜迦海妖碎片",
+    "name": "神凛碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1038,7 +1042,7 @@
     "source2": "tower"
   },
   "105120": {
-    "name": "寒霜刺客碎片",
+    "name": "艾莉森碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1053,7 +1057,7 @@
     "source3": "shop_general"
   },
   "105130": {
-    "name": "月光祭祀碎片",
+    "name": "玛丽莲碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1068,7 +1072,7 @@
     "source2": "tower"
   },
   "105140": {
-    "name": "冰焰勇士碎片",
+    "name": "萨拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1086,87 +1090,87 @@
     "des": "能够在夏日海滩中找到许多海螺。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110120": {
     "name": "棒棒糖",
     "des": "棒棒糖是一种深受小孩子深爱糖果。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110130": {
     "name": "贝壳",
     "des": "美丽的白色贝壳，从海域那里漂流到这里的。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110140": {
     "name": "灯笼",
     "des": "赋予了灵魂的灯笼,照亮这整片大地。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110150": {
     "name": "花朵",
     "des": "神奇绚丽的花朵，至今仍未发现能长出这种花朵的花园。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110160": {
     "name": "花灯",
     "des": "花灯又似满天繁星，闪着亮光。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110170": {
     "name": "彩带",
     "des": "散发着美丽银辉的彩带，手感十分细腻。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110180": {
     "name": "秋叶",
     "des": "黄金似的秋叶，能够给人带来幸运。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110190": {
     "name": "爆竹",
     "des": "爆竹发出的声响，能够驱除邪灵，给人们在新的一年带来好运。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110200": {
     "name": "雪人",
     "des": "手感细腻且十分好看的雪人玩偶，冬季时许多商店都有售卖。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110210": {
     "name": "月饼",
     "des": "月饼是古代中秋拜祭月神的供品，也是中秋节的时节食品。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "110220": {
     "name": "星星",
     "des": "以纯金制成，闪着金光的星星。",
     "type": "currency",
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "203010": {
-    "name": "森林幼龙碎片",
+    "name": "朵拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1180,7 +1184,7 @@
     "source2": "tower"
   },
   "203020": {
-    "name": "风元素碎片",
+    "name": "莱娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1194,7 +1198,7 @@
     "source2": "tower"
   },
   "204000": {
-    "name": "4星苍翠碎片",
+    "name": "4星紫耀碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1209,7 +1213,7 @@
     "source3": "shop_hero"
   },
   "204010": {
-    "name": "风导士碎片",
+    "name": "黛西碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1223,7 +1227,7 @@
     "source2": "tower"
   },
   "204020": {
-    "name": "森林树精碎片",
+    "name": "莉萨碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1237,7 +1241,7 @@
     "source2": "tower"
   },
   "204030": {
-    "name": "风灵龙碎片",
+    "name": "琳达碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1251,7 +1255,7 @@
     "source2": "tower"
   },
   "204040": {
-    "name": "森林幻兽碎片",
+    "name": "露丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1265,7 +1269,7 @@
     "source2": "tower"
   },
   "205000": {
-    "name": "5星苍翠碎片",
+    "name": "5星紫耀碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1279,7 +1283,7 @@
     "source2": "tower"
   },
   "205010": {
-    "name": "风暴唤灵师碎片",
+    "name": "尔薇娅碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1294,7 +1298,7 @@
     "source3": "shop_hero"
   },
   "205020": {
-    "name": "黄蜂女王碎片",
+    "name": "艾尔莎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1309,7 +1313,7 @@
     "source3": "shop_general"
   },
   "205030": {
-    "name": "翠绿精灵碎片",
+    "name": "席薇亚碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1324,7 +1328,7 @@
     "source3": "shop_guild"
   },
   "205040": {
-    "name": "风之灵使碎片",
+    "name": "克洛伊碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1339,7 +1343,7 @@
     "source3": "shop_zhulu"
   },
   "205050": {
-    "name": "森林守望者碎片",
+    "name": "爱丽丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1353,7 +1357,7 @@
     "source2": "tower"
   },
   "205060": {
-    "name": "翠绿林妖碎片",
+    "name": "卡洛琳碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1367,7 +1371,7 @@
     "source2": "tower"
   },
   "205070": {
-    "name": "荆棘女王碎片",
+    "name": "罗迪卡碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1382,7 +1386,7 @@
     "source3": "shop_general"
   },
   "205080": {
-    "name": "流浪剑客碎片",
+    "name": "安琪儿碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1396,7 +1400,7 @@
     "source2": "tower"
   },
   "205090": {
-    "name": "风灵舞者碎片",
+    "name": "薇多娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1410,7 +1414,7 @@
     "source2": "tower"
   },
   "205100": {
-    "name": "荒野战士碎片",
+    "name": "洛丽塔碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1424,7 +1428,7 @@
     "source2": "tower"
   },
   "205110": {
-    "name": "风吟者碎片",
+    "name": "克莉丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1438,7 +1442,7 @@
     "source2": "tower"
   },
   "205120": {
-    "name": "精灵游侠碎片",
+    "name": "莫妮卡碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1452,7 +1456,7 @@
     "source2": "tower"
   },
   "205130": {
-    "name": "森林秘术师碎片",
+    "name": "格拉迪斯碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1466,7 +1470,7 @@
     "source2": "tower"
   },
   "205140": {
-    "name": "梦境树妖碎片",
+    "name": "安吉丽娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1480,7 +1484,7 @@
     "source2": "tower"
   },
   "303010": {
-    "name": "火炎幼龙碎片",
+    "name": "艾薇碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1494,7 +1498,7 @@
     "source2": "tower"
   },
   "303020": {
-    "name": "火元素碎片",
+    "name": "洛薇碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1508,7 +1512,7 @@
     "source2": "tower"
   },
   "304000": {
-    "name": "4星业红碎片",
+    "name": "4星赤炎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1523,7 +1527,7 @@
     "source3": "shop_hero"
   },
   "304010": {
-    "name": "火导士碎片",
+    "name": "立夏碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1537,7 +1541,7 @@
     "source2": "tower"
   },
   "304020": {
-    "name": "火焰恶魔碎片",
+    "name": "安娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1551,7 +1555,7 @@
     "source2": "tower"
   },
   "304030": {
-    "name": "炎魔龙碎片",
+    "name": "茉莉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1565,7 +1569,7 @@
     "source2": "tower"
   },
   "304040": {
-    "name": "火焰守卫碎片",
+    "name": "琪琪碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1579,7 +1583,7 @@
     "source2": "tower"
   },
   "305000": {
-    "name": "5星业红碎片",
+    "name": "5星赤炎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1593,7 +1597,7 @@
     "source2": "tower"
   },
   "305010": {
-    "name": "烈焰领主碎片",
+    "name": "普莉希拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1607,7 +1611,7 @@
     "source2": "tower"
   },
   "305020": {
-    "name": "炎龙骑士碎片",
+    "name": "梅莉莎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1622,7 +1626,7 @@
     "source3": "shop_general"
   },
   "305030": {
-    "name": "火焰贤者碎片",
+    "name": "菲奥娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1636,7 +1640,7 @@
     "source2": "tower"
   },
   "305040": {
-    "name": "炎魔之刃碎片",
+    "name": "特蕾西碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1651,7 +1655,7 @@
     "source3": "shop_zhulu"
   },
   "305050": {
-    "name": "火焰吟唱者碎片",
+    "name": "艾琳碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1666,7 +1670,7 @@
     "source3": "shop_guild"
   },
   "305060": {
-    "name": "烈焰之星碎片",
+    "name": "莉莉丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1681,7 +1685,7 @@
     "source3": "shop_hero"
   },
   "305070": {
-    "name": "炎之舞者碎片",
+    "name": "心朵拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1696,7 +1700,7 @@
     "source3": "shop_general"
   },
   "305080": {
-    "name": "九尾巫女碎片",
+    "name": "芙丽雅碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1710,7 +1714,7 @@
     "source2": "tower"
   },
   "305090": {
-    "name": "火焰行者碎片",
+    "name": "娜塔莎碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1724,7 +1728,7 @@
     "source2": "tower"
   },
   "305100": {
-    "name": "熔岩魔使碎片",
+    "name": "阿丽雅碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1738,7 +1742,7 @@
     "source2": "tower"
   },
   "305110": {
-    "name": "太阳使者碎片",
+    "name": "奥利维亚碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1752,7 +1756,7 @@
     "source2": "tower"
   },
   "305120": {
-    "name": "烈焰剑士碎片",
+    "name": "凯尔碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1767,7 +1771,7 @@
     "source3": "shop_general"
   },
   "305130": {
-    "name": "炎魔女皇碎片",
+    "name": "安娜贝尔碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1781,7 +1785,7 @@
     "source2": "tower"
   },
   "305140": {
-    "name": "圣火祭师碎片",
+    "name": "卡蕾娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1795,7 +1799,7 @@
     "source2": "tower"
   },
   "403010": {
-    "name": "大地幼龙碎片",
+    "name": "瑞丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1809,7 +1813,7 @@
     "source2": "tower"
   },
   "403020": {
-    "name": "光元素碎片",
+    "name": "卡拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1823,7 +1827,7 @@
     "source2": "tower"
   },
   "404000": {
-    "name": "4星黑曜碎片",
+    "name": "4星暗影碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1838,7 +1842,7 @@
     "source3": "shop_hero"
   },
   "404010": {
-    "name": "光导士碎片",
+    "name": "希拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1852,7 +1856,7 @@
     "source2": "tower"
   },
   "404020": {
-    "name": "土具士兵碎片",
+    "name": "艾文碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1866,7 +1870,7 @@
     "source2": "tower"
   },
   "404030": {
-    "name": "圣耀龙碎片",
+    "name": "莱拉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1880,7 +1884,7 @@
     "source2": "tower"
   },
   "404040": {
-    "name": "光耀狮鹫碎片",
+    "name": "凯茜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1894,7 +1898,7 @@
     "source2": "tower"
   },
   "405000": {
-    "name": "5星黑曜碎片",
+    "name": "5星暗影碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1908,7 +1912,7 @@
     "source2": "tower"
   },
   "405010": {
-    "name": "光明祭司碎片",
+    "name": "海伦娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1922,7 +1926,7 @@
     "source2": "tower"
   },
   "405020": {
-    "name": "审判天使碎片",
+    "name": "芙蕾雅碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1937,7 +1941,7 @@
     "source3": "shop_general"
   },
   "405030": {
-    "name": "美艳女王碎片",
+    "name": "南丁格碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1951,7 +1955,7 @@
     "source2": "tower"
   },
   "405040": {
-    "name": "光明勇者碎片",
+    "name": "阿尔瑟雅碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1966,7 +1970,7 @@
     "source3": "shop_zhulu"
   },
   "405050": {
-    "name": "深渊猎魔人碎片",
+    "name": "卡莉娜碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1981,7 +1985,7 @@
     "source3": "shop_hero"
   },
   "405060": {
-    "name": "龙族公主碎片",
+    "name": "萝莉碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -1996,7 +2000,7 @@
     "source3": "shop_guild"
   },
   "405070": {
-    "name": "深渊蛇妖碎片",
+    "name": "南华碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2011,7 +2015,7 @@
     "source3": "shop_general"
   },
   "405080": {
-    "name": "深渊诅咒者碎片",
+    "name": "伊莎贝尔碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2025,7 +2029,7 @@
     "source2": "tower"
   },
   "405090": {
-    "name": "黑暗魔导士碎片",
+    "name": "卡迪碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2039,7 +2043,7 @@
     "source2": "tower"
   },
   "405100": {
-    "name": "荣耀骑士碎片",
+    "name": "丽萨碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2053,7 +2057,7 @@
     "source2": "tower"
   },
   "405110": {
-    "name": "荒野兽灵碎片",
+    "name": "格洛丽亚碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2067,7 +2071,7 @@
     "source2": "tower"
   },
   "405120": {
-    "name": "黑暗巫师碎片",
+    "name": "伊芙碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2082,7 +2086,7 @@
     "source3": "shop_general"
   },
   "405130": {
-    "name": "月神舞姬碎片",
+    "name": "飞鸟碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2096,7 +2100,7 @@
     "source2": "tower"
   },
   "405140": {
-    "name": "深渊化身碎片",
+    "name": "丽迪丝碎片",
     "des": "集齐30个碎片即可招募该英雄",
     "isBag": true,
     "type": "heroChip",
@@ -2152,7 +2156,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "506002": {
     "name": "6星英雄碎片",
@@ -2166,7 +2170,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "506003": {
     "name": "6星稀有碎片",
@@ -2180,7 +2184,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "510001": {
     "name": "10星材料碎片",
@@ -2194,7 +2198,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "510002": {
     "name": "10星英雄碎片",
@@ -2208,7 +2212,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "520002": {
     "name": "20星英雄碎片",
@@ -2222,7 +2226,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000010": {
     "name": "升星之砂",
@@ -2233,7 +2237,10 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "arena",
+    "source3": "shop_arena",
+    "source4": "crossPK"
   },
   "1000020": {
     "name": "培养药剂",
@@ -2244,18 +2251,22 @@
     "coin": 50000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "endless",
+    "source3": "guild_auction",
+    "source4": "ancient"
   },
   "1000040": {
     "name": "洗炼石",
-    "des": "洗练石，刻有古老的撰文：重置技能，出售护戒获得，可在【铁匠铺】的护戒分页中进行护戒洗练",
+    "des": "洗练石，刻有古老的撰文：重置技能，出售护符获得，可在【铁匠铺】的护符分页中进行护符洗练",
     "isBag": true,
     "type": "item",
     "gold": 100,
     "coin": 500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "endless"
   },
   "1000050": {
     "name": "进阶星尘",
@@ -2267,13 +2278,12 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "heroRemove",
-    "source2": "secretChallenge",
-    "source3": "tower",
-    "source4": "recharge"
+    "source2": "tower",
+    "source3": "gift"
   },
   "1000060": {
-    "name": "觉醒水晶",
-    "des": "觉醒水晶，蕴含强大的能力，可在【铁匠铺】中神将分页将装备觉醒成神装",
+    "name": "觉醒石",
+    "des": "觉醒实，蕴含强大的能力，相传干将莫邪铸造时所用之石，可在【铁匠铺】中神将分页将装备觉醒成神装",
     "isBag": true,
     "type": "item",
     "gold": 200,
@@ -2282,7 +2292,8 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "shop_crossTop",
-    "source2": "recharge"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000070": {
     "name": "初级招募卡",
@@ -2301,13 +2312,13 @@
     "des": "可在【英雄招募】进行一次高级招募",
     "isBag": true,
     "type": "item",
-    "gold": 220,
-    "coin": 1100000,
+    "gold": 100,
+    "coin": 500000,
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
     "source1": "shop_zhulu",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "endless",
     "source4": "areaTrial"
   },
@@ -2334,7 +2345,7 @@
     "quality": 5,
     "effects": "baowu",
     "source1": "secretChallenge",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "1000110": {
     "name": "强化石",
@@ -2344,25 +2355,30 @@
     "gold": 10,
     "coin": 50000,
     "buyNum": 1,
-    "quality": 5
+    "quality": 5,
+    "source1": "weekTarget",
+    "source2": "crossTeamPK",
+    "source3": "shop_ancient",
+    "source4": "warHorn"
   },
   "1000120": {
     "name": "阵营招募卡",
     "des": "阵营招募卡，能够在【招募】进行阵营点击，招募5星英雄",
     "isBag": true,
     "type": "item",
-    "gold": 500,
-    "coin": 2500000,
+    "gold": 1000,
+    "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_crossPK",
-    "source3": "shop_crossTop"
+    "source3": "shop_crossTop",
+    "source4": "warHorn"
   },
   "1000150": {
-    "name": "万能之羽",
-    "des": "万能之羽，可以用于强化专属。",
+    "name": "万能专属",
+    "des": "万能专属石，可以在强化神兵时替代任何神兵",
     "isBag": true,
     "type": "item",
     "gold": 100,
@@ -2371,8 +2387,10 @@
     "other_value": 500,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
-    "source2": "shop_crossPK"
+    "source1": "gift",
+    "source2": "weekTarget",
+    "source3": "shop_guild",
+    "source4": "warHorn"
   },
   "1000160": {
     "name": "刷新卷",
@@ -2383,7 +2401,8 @@
     "coin": 100000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "1000170": {
     "name": "挑战卷",
@@ -2394,8 +2413,9 @@
     "coin": 300000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "recharge",
-    "source2": "shop_arena"
+    "source1": "gift",
+    "source2": "shop_arena",
+    "source3": "warHorn"
   },
   "1000180": {
     "name": "转换石",
@@ -2406,9 +2426,10 @@
     "coin": 1000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_crossPK",
-    "source3": "areaTrial"
+    "source3": "areaTrial",
+    "source4": "warHorn"
   },
   "1000190": {
     "name": "十星卡",
@@ -2420,43 +2441,45 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "warHorn",
+    "source3": "weekTarget"
   },
   "1000210": {
-    "name": "传说招募卡",
-    "des": "传说招募卡，可在【招募】进行一次传说招募",
+    "name": "六星招募卡",
+    "des": "六星招募卡，可在【招募】进行一次六星招募",
     "isBag": true,
     "type": "item",
-    "gold": 1000,
-    "coin": 5000000,
+    "gold": 200,
+    "coin": 1000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000220": {
-    "name": "觉醒招募卡",
-    "des": "觉醒招募卡，可在【招募】进行一次觉醒招募",
+    "name": "十星招募卡",
+    "des": "十星招募卡，可在【招募】进行一次十星招募",
     "isBag": true,
     "type": "item",
-    "gold": 5000,
-    "coin": 25000000,
+    "gold": 500,
+    "coin": 2500000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000230": {
-    "name": "远古招募卡",
-    "des": "远古招募卡，可在【招募】进行一次远古招募",
+    "name": "二十星招募卡",
+    "des": "二十星招募卡，可在【招募】进行一次二十星招募",
     "isBag": true,
     "type": "item",
-    "gold": 10000,
-    "coin": 50000000,
+    "gold": 2000,
+    "coin": 10000000,
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000240": {
     "name": "混沌宝珠",
@@ -2468,7 +2491,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000300": {
     "name": "合击经验书",
@@ -2480,13 +2503,13 @@
     "buyNum": 10000,
     "quality": 4,
     "source1": "shop_crossTop",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTop",
     "source4": "lottery_bf"
   },
   "1000400": {
-    "name": "合击神具",
-    "des": "合击神具，可与合击碎片一同使用提升合击星级",
+    "name": "合击神像",
+    "des": "合击神像，可与合击碎片一同使用提升合击星级",
     "isBag": true,
     "type": "item",
     "gold": 100,
@@ -2494,12 +2517,13 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "shop_crossTop",
-    "source2": "recharge",
-    "source3": "shop_crossTop"
+    "source2": "gift",
+    "source3": "shop_crossTop",
+    "source4": "warHorn"
   },
   "1000500": {
-    "name": "改名之书",
-    "des": "可以在【用户中心】中进行修改角色名称",
+    "name": "改名卡",
+    "des": "改名卡，可以在【用户中心】中进行修改角色名称",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -2517,7 +2541,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "shop_ancient",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "1000502": {
     "name": "铁制矿镐",
@@ -2529,7 +2553,8 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "shop_ancient",
-    "source2": "recharge"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000503": {
     "name": "白银矿镐",
@@ -2541,7 +2566,8 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "shop_ancient",
-    "source2": "recharge"
+    "source2": "gift",
+    "source3": "warHorn"
   },
   "1000504": {
     "name": "黄金矿镐",
@@ -2553,7 +2579,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000601": {
     "name": "红包碎片",
@@ -2575,7 +2601,7 @@
     "coin": 100000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000603": {
     "name": "飞升宝珠",
@@ -2590,7 +2616,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "1000604": {
     "name": "直升宝珠(直升满GM)",
@@ -2605,11 +2631,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "5001010": {
-    "name": "破旧护手",
-    "des": "用于战斗多年的手套，但已经开始破旧不堪。",
+    "name": "破旧短剑",
+    "des": "用于战斗多年的短句，但已经开始破旧不堪。",
     "isBag": true,
     "type": "equip",
     "gold": 5,
@@ -2620,8 +2646,8 @@
     "source2": "smithy"
   },
   "5001020": {
-    "name": "破旧帽子",
-    "des": "用于战斗多年的帽子，但已经开始破旧不堪。",
+    "name": "破旧护手",
+    "des": "用于战斗多年的手套，但已经开始破旧不堪。",
     "isBag": true,
     "type": "equip",
     "gold": 5,
@@ -2656,8 +2682,8 @@
     "source2": "smithy"
   },
   "5002010": {
-    "name": "初心手套",
-    "des": "由初学者所用的手套，少量的皮革和布制成。",
+    "name": "初心长剑",
+    "des": "由初学者所用的短剑，常见钢铁制成。",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2668,8 +2694,8 @@
     "source2": "smithy"
   },
   "5002020": {
-    "name": "初心帽子",
-    "des": "由初学者所用的帽子，少量的皮革和布制成。",
+    "name": "初心手套",
+    "des": "由初学者所用的手套，柔软的皮革制成。",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2680,8 +2706,8 @@
     "source2": "smithy"
   },
   "5002030": {
-    "name": "初心盔袍",
-    "des": "由初学者所用的盔袍，少量的皮革和布制成。",
+    "name": "初心盔甲",
+    "des": "由初学者所用的盔甲，少量的钢铁和皮革制成。",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2693,7 +2719,7 @@
   },
   "5002040": {
     "name": "初心皮靴",
-    "des": "由初学者所用的皮靴，少量的皮革和布制成。",
+    "des": "由初学者所用的皮靴，柔软的皮革制成。",
     "isBag": true,
     "type": "equip",
     "gold": 10,
@@ -2704,6 +2730,18 @@
     "source2": "smithy"
   },
   "5003010": {
+    "name": "生铁长剑",
+    "des": "使用基础材料锻造的长剑，便宜实在。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 20,
+    "coin": 100000,
+    "buyNum": 1,
+    "quality": 3,
+    "source1": "dailyFb",
+    "source2": "smithy"
+  },
+  "5003020": {
     "name": "轻质手套",
     "des": "使用基础材料锻造的手套，便宜实在。",
     "isBag": true,
@@ -2715,21 +2753,9 @@
     "source1": "dailyFb",
     "source2": "smithy"
   },
-  "5003020": {
-    "name": "轻质帽子",
-    "des": "使用基础材料锻造的帽子，便宜实在。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 20,
-    "coin": 100000,
-    "buyNum": 1,
-    "quality": 3,
-    "source1": "dailyFb",
-    "source2": "smithy"
-  },
   "5003030": {
-    "name": "轻质胸袍",
-    "des": "使用基础材料锻造的胸袍，便宜实在。",
+    "name": "轻质胸甲",
+    "des": "使用基础材料锻造的胸甲，便宜实在。",
     "isBag": true,
     "type": "equip",
     "gold": 20,
@@ -2752,8 +2778,8 @@
     "source2": "smithy"
   },
   "5004010": {
-    "name": "坚韧手套",
-    "des": "使用高品质材料锻造的手套，可轻松抵御伤害。",
+    "name": "坚钢长剑",
+    "des": "使用高品质材料锻造的长剑，可轻松切割石头。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2764,8 +2790,8 @@
     "source2": "smithy"
   },
   "5004020": {
-    "name": "坚韧帽子",
-    "des": "使用高品质材料锻造的帽子，可轻松抵御伤害。",
+    "name": "坚钢手套",
+    "des": "使用高品质材料锻造的手套，可轻松抵御伤害。",
     "isBag": true,
     "type": "equip",
     "gold": 40,
@@ -2776,7 +2802,7 @@
     "source2": "smithy"
   },
   "5004030": {
-    "name": "坚韧胸袍",
+    "name": "坚钢胸甲",
     "des": "使用高品质材料锻造的长剑，可轻松抵御伤害。",
     "isBag": true,
     "type": "equip",
@@ -2788,7 +2814,7 @@
     "source2": "smithy"
   },
   "5004040": {
-    "name": "坚韧战靴",
+    "name": "坚钢战靴",
     "des": "使用高品质材料锻造的长剑，可轻松抵御伤害。",
     "isBag": true,
     "type": "equip",
@@ -2800,8 +2826,8 @@
     "source2": "smithy"
   },
   "5005010": {
-    "name": "崭新护手",
-    "des": "全新的手套，经过精细的制作，提供基本保护。",
+    "name": "崭新铜刀",
+    "des": "全新的铜刀，经过精细的制作，提供基本保护。",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2812,8 +2838,8 @@
     "source2": "smithy"
   },
   "5005020": {
-    "name": "崭新帽子",
-    "des": "全新的帽子，经过精细的制作，提供基本保护。",
+    "name": "崭新护手",
+    "des": "全新的手套，经过精细的制作，提供基本保护。",
     "isBag": true,
     "type": "equip",
     "gold": 90,
@@ -2848,8 +2874,8 @@
     "source2": "smithy"
   },
   "5006010": {
-    "name": "锤炼护手",
-    "des": "经过精密工具和大师之手制作的护手，能提供神秘的效果。",
+    "name": "锤炼长剑",
+    "des": "进行多次锤炼的长剑，锋利无比，可刺穿强韧铠甲。",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2860,8 +2886,8 @@
     "source2": "smithy"
   },
   "5006020": {
-    "name": "锤炼帽子",
-    "des": "经过精密工具和大师之手制作的帽子，强韧耐用，可承受更多的攻击。",
+    "name": "锤炼护手",
+    "des": "使用秘术制作的护手，能提供神秘的效果。",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2872,8 +2898,8 @@
     "source2": "smithy"
   },
   "5006030": {
-    "name": "锤炼鳞袍",
-    "des": "经过精密工具和大师之手制作的长袍，强韧耐用，可承受更多的攻击。",
+    "name": "锤炼鳞甲",
+    "des": "进行多次锤炼的鳞甲，强韧耐用，可承受更多的攻击。",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2885,7 +2911,7 @@
   },
   "5006040": {
     "name": "锤炼翔覆",
-    "des": "经过精密工具和大师之手制作的靴子，强韧耐用，可承受更多的攻击。",
+    "des": "进行多次锤炼的靴子，强韧耐用，可承受更多的攻击。",
     "isBag": true,
     "type": "equip",
     "gold": 150,
@@ -2896,6 +2922,18 @@
     "source2": "smithy"
   },
   "5007010": {
+    "name": "神秘圣剑",
+    "des": "使用秘术制作的圣剑，蕴含神秘魔法。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 250,
+    "coin": 1250000,
+    "buyNum": 1,
+    "quality": 4,
+    "source1": "gift",
+    "source2": "smithy"
+  },
+  "5007020": {
     "name": "神秘手套",
     "des": "使用秘术制作的手套，蕴含神秘魔法。",
     "isBag": true,
@@ -2904,19 +2942,7 @@
     "coin": 1250000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge",
-    "source2": "smithy"
-  },
-  "5007020": {
-    "name": "神秘帽子",
-    "des": "使用秘术制作的帽子，蕴含神秘魔法。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 250,
-    "coin": 1250000,
-    "buyNum": 1,
-    "quality": 4,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5007030": {
@@ -2928,7 +2954,7 @@
     "coin": 1250000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5007040": {
@@ -2940,58 +2966,70 @@
     "coin": 1250000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5008010": {
-    "name": "斩舞手套",
-    "des": "专门用于华丽的手套，专门设计使拥有者彻底奋斗。",
+    "name": "斩舞长剑",
+    "des": "专门用于斩击的长剑，专门设计使拥有者彻底奋斗。",
     "isBag": true,
     "type": "equip",
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5008020": {
-    "name": "斩舞头饰",
-    "des": "专门用于华丽的头饰，专门设计使拥有者彻底奋斗。",
+    "name": "斩舞手套",
+    "des": "专门用于斩击的手套，专门设计使拥有者彻底奋斗。",
     "isBag": true,
     "type": "equip",
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5008030": {
-    "name": "斩舞胸袍",
-    "des": "专门用于华丽的胸袍，专门设计使拥有者彻底奋斗。",
+    "name": "斩舞胸甲",
+    "des": "专门用于斩击的胸甲，专门设计使拥有者彻底奋斗。",
     "isBag": true,
     "type": "equip",
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5008040": {
     "name": "斩舞战靴",
-    "des": "专门用于华丽的战靴，专门设计使拥有者彻底奋斗。",
+    "des": "专门用于斩击的战靴，专门设计使拥有者彻底奋斗。",
     "isBag": true,
     "type": "equip",
     "gold": 430,
     "coin": 2150000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5009010": {
+    "name": "赤炎之剑",
+    "des": "在火山的熔岩中制造的剑，只有强大的人才能使用该能量。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 730,
+    "coin": 3650000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift",
+    "source2": "smithy"
+  },
+  "5009020": {
     "name": "赤炎手套",
     "des": "在火山的熔岩中制造的手套，只有强大的人才能使用该能量。",
     "isBag": true,
@@ -3000,19 +3038,7 @@
     "coin": 3650000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
-    "source2": "smithy"
-  },
-  "5009020": {
-    "name": "赤炎头饰",
-    "des": "在火山的熔岩中制造的头饰，只有强大的人才能使用该能量。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 730,
-    "coin": 3650000,
-    "buyNum": 1,
-    "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5009030": {
@@ -3024,7 +3050,7 @@
     "coin": 3650000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5009040": {
@@ -3036,10 +3062,22 @@
     "coin": 3650000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5010010": {
+    "name": "火龙之剑",
+    "des": "利用火龙鳞片制造的长剑，提供强大的火属性力量。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 1250,
+    "coin": 6250000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift",
+    "source2": "smithy"
+  },
+  "5010020": {
     "name": "火龙手套",
     "des": "利用火龙鳞片制造手套，提供强大的火属性力量。",
     "isBag": true,
@@ -3048,19 +3086,7 @@
     "coin": 6250000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
-    "source2": "smithy"
-  },
-  "5010020": {
-    "name": "火龙头饰",
-    "des": "利用火龙鳞片制造头饰，提供强大的火属性力量。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 1250,
-    "coin": 6250000,
-    "buyNum": 1,
-    "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5010030": {
@@ -3072,7 +3098,7 @@
     "coin": 6250000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5010040": {
@@ -3084,10 +3110,23 @@
     "coin": 6250000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5011010": {
+    "name": "龙神·神机剑",
+    "des": "使用龙神之力制造，能够提供绝对的破坏力。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 2100,
+    "coin": 10500000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "gift",
+    "source2": "smithy",
+    "source3": "shop_guild"
+  },
+  "5011020": {
     "name": "龙神·神机手",
     "des": "使用龙神之力制造，能够提供绝对的防御力。",
     "isBag": true,
@@ -3096,25 +3135,12 @@
     "coin": 10500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
-    "source2": "smithy",
-    "source3": "shop_guild"
-  },
-  "5011020": {
-    "name": "龙神·神机帽",
-    "des": "使用龙神之力制造，能够提供绝对的防御力。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 2100,
-    "coin": 10500000,
-    "buyNum": 1,
-    "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy",
     "source3": "shop_guild"
   },
   "5011030": {
-    "name": "龙神·神机服",
+    "name": "龙神·神机甲",
     "des": "使用龙神之力制造，能够提供绝对的防御力。",
     "isBag": true,
     "type": "equip",
@@ -3122,7 +3148,7 @@
     "coin": 10500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy",
     "source3": "shop_guild"
   },
@@ -3135,11 +3161,24 @@
     "coin": 10500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy",
     "source3": "shop_guild"
   },
   "5012010": {
+    "name": "天翼·绝影剑",
+    "des": "由天使之翼和宝石制成的神剑，是最强大的武器之一，可将敌人瞬间消灭。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 3500,
+    "coin": 17500000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "smithy"
+  },
+  "5012020": {
     "name": "天翼·绝影手",
     "des": "由天使之翼和宝石制成的手套，是最强大的护具之一，可将敌人攻击化为乌有。",
     "isBag": true,
@@ -3149,25 +3188,12 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
-    "source2": "smithy"
-  },
-  "5012020": {
-    "name": "天翼·绝影帽",
-    "des": "由天使之翼和宝石制成的帽子，是最强大的护具之一，可将敌人攻击化为乌有。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 3500,
-    "coin": 17500000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5012030": {
-    "name": "天翼·绝影服",
-    "des": "由天使之翼和宝石制成的胸袍，是最强大的护具之一，可将敌人攻击化为乌有。",
+    "name": "天翼·绝影甲",
+    "des": "由天使之翼和宝石制成的胸甲，是最强大的护具之一，可将敌人攻击化为乌有。",
     "isBag": true,
     "type": "equip",
     "gold": 3500,
@@ -3175,7 +3201,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5012040": {
@@ -3188,10 +3214,23 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5013010": {
+    "name": "冰霜·贤者刀",
+    "des": "古代冰霜魔法贤者，使用冰霜水晶制作，拥有极高的抗寒和攻击力。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 5800,
+    "coin": 29000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "gift",
+    "source2": "smithy"
+  },
+  "5013020": {
     "name": "冰霜·贤者手",
     "des": "古代冰霜魔法贤者，使用冰霜水晶制作，拥有极高的抗寒和防御力。",
     "isBag": true,
@@ -3201,24 +3240,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
-    "source2": "smithy"
-  },
-  "5013020": {
-    "name": "冰霜·贤者帽",
-    "des": "古代冰霜魔法贤者，使用冰霜水晶制作，拥有极高的抗寒和防御力。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 5800,
-    "coin": 29000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5013030": {
-    "name": "冰霜·贤者服",
+    "name": "冰霜·贤者甲",
     "des": "古代冰霜魔法贤者，使用冰霜水晶制作，拥有极高的抗寒和防御力。",
     "isBag": true,
     "type": "equip",
@@ -3227,7 +3253,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5013040": {
@@ -3240,11 +3266,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "smithy"
   },
   "5014010": {
-    "name": "战神·圣耀手",
+    "name": "战神·圣耀刀",
     "des": "注入大量器灵孕育而成，形成之日高光四起，照耀整个星空",
     "isBag": true,
     "type": "equip",
@@ -3256,7 +3282,7 @@
     "source1": "smithy"
   },
   "5014020": {
-    "name": "战神·圣耀帽",
+    "name": "战神·圣耀手",
     "des": "注入大量器灵孕育而成，形成之日高光四起，照耀整个星空",
     "isBag": true,
     "type": "equip",
@@ -3268,7 +3294,7 @@
     "source1": "smithy"
   },
   "5014030": {
-    "name": "战神·圣耀衣",
+    "name": "战神·圣耀铠",
     "des": "注入大量器灵孕育而成，形成之日高光四起，照耀整个星空",
     "isBag": true,
     "type": "equip",
@@ -3292,6 +3318,18 @@
     "source1": "smithy"
   },
   "5015010": {
+    "name": "光芒·圣战刃",
+    "des": "使用圣光水晶制造战刃，可释放强大的光芒攻击，能够净化所有邪恶。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 16000,
+    "coin": 80000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "smithy"
+  },
+  "5015020": {
     "name": "光芒·圣战手",
     "des": "使用圣光水晶制造手套，可释放强大的光芒攻击，能够净化所有邪恶。",
     "isBag": true,
@@ -3303,20 +3341,8 @@
     "effects": "daiji",
     "source1": "smithy"
   },
-  "5015020": {
-    "name": "光芒·圣战帽",
-    "des": "使用圣光水晶制造帽子，可释放强大的光芒攻击，能够净化所有邪恶。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 16000,
-    "coin": 80000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "daiji",
-    "source1": "smithy"
-  },
   "5015030": {
-    "name": "光芒·圣战服",
+    "name": "光芒·圣战铠",
     "des": "使用圣光水晶制造战铠，可释放强大的光芒攻击，能够净化所有邪恶。",
     "isBag": true,
     "type": "equip",
@@ -3340,6 +3366,18 @@
     "source1": "smithy"
   },
   "5016010": {
+    "name": "地狱·冰魔刀",
+    "des": "使用地狱深渊冰石制造的魔刀，能释放出深渊寒冰冻结任何敌人。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 28000,
+    "coin": 140000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "smithy"
+  },
+  "5016020": {
     "name": "地狱·冰魔手",
     "des": "使用地狱深渊冰石制造的魔手套，能释放出深渊寒冰冻结任何敌人。",
     "isBag": true,
@@ -3351,20 +3389,8 @@
     "effects": "daiji",
     "source1": "smithy"
   },
-  "5016020": {
-    "name": "地狱·冰魔帽",
-    "des": "使用地狱深渊冰石制造的魔礼帽，能释放出深渊寒冰冻结任何敌人。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 28000,
-    "coin": 140000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "daiji",
-    "source1": "smithy"
-  },
   "5016030": {
-    "name": "地狱·冰魔衣",
+    "name": "地狱·冰魔铠",
     "des": "使用地狱深渊冰石制造的魔铠，能释放出深渊寒冰冻结任何敌人。",
     "isBag": true,
     "type": "equip",
@@ -3388,6 +3414,18 @@
     "source1": "smithy"
   },
   "5017010": {
+    "name": "雷神·魔力圣剑",
+    "des": "由神铁和雷电水晶制造的圣剑，当使用者有危险时，能够自行释放出强大的雷电攻击。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 48000,
+    "coin": 240000000,
+    "buyNum": 1,
+    "quality": 6,
+    "effects": "daiji",
+    "source1": "smithy"
+  },
+  "5017020": {
     "name": "雷神·魔力手套",
     "des": "由神铁和雷电水晶制造的手套，当使用者有危险时，能够自行释放出强大的雷电攻击。",
     "isBag": true,
@@ -3399,21 +3437,9 @@
     "effects": "daiji",
     "source1": "smithy"
   },
-  "5017020": {
-    "name": "雷神·魔力礼帽",
-    "des": "由神铁和雷电水晶制造的礼帽，当使用者有危险时，能够自行释放出强大的雷电攻击。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 48000,
-    "coin": 240000000,
-    "buyNum": 1,
-    "quality": 6,
-    "effects": "daiji",
-    "source1": "smithy"
-  },
   "5017030": {
-    "name": "雷神·魔力长袍",
-    "des": "由神铁和雷电水晶制造的战袍，当使用者有危险时，能够自行释放出强大的雷电攻击。",
+    "name": "雷神·魔力铠甲",
+    "des": "由神铁和雷电水晶制造的铠甲，当使用者有危险时，能够自行释放出强大的雷电攻击。",
     "isBag": true,
     "type": "equip",
     "gold": 48000,
@@ -3436,6 +3462,18 @@
     "source1": "smithy"
   },
   "5018010": {
+    "name": "月华·千年魔剑",
+    "des": "由一个神秘的魔法师所创造，这把魔剑还被赋予了神奇的魔力，能够超越时间与空间的限制，穿越时空，达到任何一个目的地。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 72000,
+    "coin": 360000000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "daiji",
+    "source1": "smithy"
+  },
+  "5018020": {
     "name": "月华·千年手套",
     "des": "由一个神秘的魔法师所创造，这把手套还被赋予了神奇的魔力，能够超越时间与空间的限制，穿越时空，达到任何一个目的地。",
     "isBag": true,
@@ -3447,21 +3485,9 @@
     "effects": "daiji",
     "source1": "smithy"
   },
-  "5018020": {
-    "name": "月华·千年魔甲",
-    "des": "由一个神秘的魔法师所创造，这把战袍还被赋予了神奇的魔力，能够超越时间与空间的限制，穿越时空，达到任何一个目的地。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 72000,
-    "coin": 360000000,
-    "buyNum": 1,
-    "quality": 7,
-    "effects": "daiji",
-    "source1": "smithy"
-  },
   "5018030": {
-    "name": "月华·千年长袍",
-    "des": "由一个神秘的魔法师所创造，这把战袍还被赋予了神奇的魔力，能够超越时间与空间的限制，穿越时空，达到任何一个目的地。",
+    "name": "月华·千年铠甲",
+    "des": "由一个神秘的魔法师所创造，这把铠甲还被赋予了神奇的魔力，能够超越时间与空间的限制，穿越时空，达到任何一个目的地。",
     "isBag": true,
     "type": "equip",
     "gold": 72000,
@@ -3484,8 +3510,8 @@
     "source1": "smithy"
   },
   "5019010": {
-    "name": "上古·英雄手套",
-    "des": "是一把传说中的手袍，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
+    "name": "上古·英雄巨刃",
+    "des": "是一把传说中的武器，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
     "isBag": true,
     "type": "equip",
     "gold": 108000,
@@ -3496,8 +3522,8 @@
     "source1": "smithy"
   },
   "5019020": {
-    "name": "上古·英雄战盔",
-    "des": "是一把传说中的战盔，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
+    "name": "上古·英雄手甲",
+    "des": "是一把传说中的手甲，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
     "isBag": true,
     "type": "equip",
     "gold": 108000,
@@ -3508,8 +3534,8 @@
     "source1": "smithy"
   },
   "5019030": {
-    "name": "上古·英雄战袍",
-    "des": "是一把传说中的战袍，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
+    "name": "上古·英雄战铠",
+    "des": "是一把传说中的铠甲，据说它是由上古时期的一位英雄铸造而成。这把刀的造型非常特别，刀身上铭刻了一些古老的符文和神秘的图案，据传说这些图案可以赐予使用者超凡脱俗的力量。",
     "isBag": true,
     "type": "equip",
     "gold": 108000,
@@ -3532,8 +3558,8 @@
     "source1": "smithy"
   },
   "5020010": {
-    "name": "圣兽·海龙手套",
-    "des": "传说海洋霸主孕育而成，蕴含着海龙之力，拥有者可毁天灭地",
+    "name": "圣兽·翡翠神剑",
+    "des": "青龙孕育而成，据说已通灵，拥有者可毁天灭地",
     "isBag": true,
     "type": "equip",
     "gold": 162000,
@@ -3544,8 +3570,8 @@
     "source1": "smithy"
   },
   "5020020": {
-    "name": "圣兽·海龙战盔",
-    "des": "传说海洋霸主孕育而成，蕴含着海龙之力，拥有者可毁天灭地",
+    "name": "圣兽·翡翠手套",
+    "des": "白虎淬炼而成，据说已通灵，拥有者可瞒天过海",
     "isBag": true,
     "type": "equip",
     "gold": 162000,
@@ -3556,8 +3582,8 @@
     "source1": "smithy"
   },
   "5020030": {
-    "name": "圣兽·海龙战袍",
-    "des": "传说海洋霸主孕育而成，蕴含着海龙之力，拥有者可毁天灭地",
+    "name": "圣兽·翡翠铠甲",
+    "des": "玄武秘制而成，据说已通灵，拥有者可金光护体",
     "isBag": true,
     "type": "equip",
     "gold": 162000,
@@ -3568,8 +3594,8 @@
     "source1": "smithy"
   },
   "5020040": {
-    "name": "圣兽·海龙战靴",
-    "des": "传说海洋霸主孕育而成，蕴含着海龙之力，拥有者可毁天灭地",
+    "name": "圣兽·翡翠战靴",
+    "des": "朱雀打造而成，据说已通灵，拥有者可上天入地",
     "isBag": true,
     "type": "equip",
     "gold": 162000,
@@ -3580,8 +3606,8 @@
     "source1": "smithy"
   },
   "5021010": {
-    "name": "圣天·阿修罗手",
-    "des": "阿修罗剑是一把古老而神秘的手套，有着威猛可怕的外观和超凡的力量",
+    "name": "圣天·阿修罗剑",
+    "des": "阿修罗剑是一把古老而神秘的神剑，有着威猛可怕的外观和超凡的力量",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3592,8 +3618,8 @@
     "source1": "smithy"
   },
   "5021020": {
-    "name": "圣天·阿修罗帽",
-    "des": "阿修罗剑是一把古老而神秘的兜帽，有着威猛可怕的外观和超凡的力量",
+    "name": "圣天·阿修罗手",
+    "des": "阿修罗剑是一把古老而神秘的手甲，有着威猛可怕的外观和超凡的力量",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3604,8 +3630,8 @@
     "source1": "smithy"
   },
   "5021030": {
-    "name": "圣天·阿修罗袍",
-    "des": "阿修罗剑是一把古老而神秘的战袍，有着威猛可怕的外观和超凡的力量",
+    "name": "圣天·阿修罗甲",
+    "des": "阿修罗剑是一把古老而神秘的铠甲，有着威猛可怕的外观和超凡的力量",
     "isBag": true,
     "type": "equip",
     "gold": 243000,
@@ -3628,7 +3654,7 @@
     "source1": "smithy"
   },
   "5022010": {
-    "name": "荒野·众神手套",
+    "name": "荒野·众神古剑",
     "des": "据传说是由荒野中的神灵制造的，剑的外形异常华丽，身上绘有丰富的图案，图案里隐藏着复杂的符号和神秘的祝福。",
     "isBag": true,
     "type": "equip",
@@ -3640,8 +3666,8 @@
     "source1": "smithy"
   },
   "5022020": {
-    "name": "荒野·众神兜帽",
-    "des": "据传说是由荒野中的神灵制造的，战袍的外形异常华丽，身上绘有丰富的图案，图案里隐藏着复杂的符号和神秘的祝福。",
+    "name": "荒野·众神手套",
+    "des": "据传说是由荒野中的神灵制造的，手套的外形异常华丽，身上绘有丰富的图案，图案里隐藏着复杂的符号和神秘的祝福。",
     "isBag": true,
     "type": "equip",
     "gold": 364500,
@@ -3652,8 +3678,8 @@
     "source1": "smithy"
   },
   "5022030": {
-    "name": "荒野·众神战袍",
-    "des": "据传说是由荒野中的神灵制造的，战袍的外形异常华丽，身上绘有丰富的图案，图案里隐藏着复杂的符号和神秘的祝福。",
+    "name": "荒野·众神铠甲",
+    "des": "据传说是由荒野中的神灵制造的，铠甲的外形异常华丽，身上绘有丰富的图案，图案里隐藏着复杂的符号和神秘的祝福。",
     "isBag": true,
     "type": "equip",
     "gold": 364500,
@@ -3676,6 +3702,18 @@
     "source1": "smithy"
   },
   "5023010": {
+    "name": "创世·圣殿神剑",
+    "des": "由创世圣殿宝石和秘银制成的圣剑，佩戴它的人会得到神圣的庇护，并获得创世之力。",
+    "isBag": true,
+    "type": "equip",
+    "gold": 546750,
+    "coin": 2733750000,
+    "buyNum": 1,
+    "quality": 7,
+    "effects": "daiji",
+    "source1": "smithy"
+  },
+  "5023020": {
     "name": "创世·圣殿手套",
     "des": "由创世圣殿宝石和秘银制成的手套，佩戴它的人会得到神圣的庇护，并获得创世之力。",
     "isBag": true,
@@ -3687,21 +3725,9 @@
     "effects": "daiji",
     "source1": "smithy"
   },
-  "5023020": {
-    "name": "创世·圣殿头盔",
-    "des": "由创世圣殿宝石和秘银制成的头盔，佩戴它的人会得到神圣的庇护，并获得创世之力。",
-    "isBag": true,
-    "type": "equip",
-    "gold": 546750,
-    "coin": 2733750000,
-    "buyNum": 1,
-    "quality": 7,
-    "effects": "daiji",
-    "source1": "smithy"
-  },
   "5023030": {
-    "name": "创世·圣殿战袍",
-    "des": "由创世圣殿宝石和秘银制成的战袍，佩戴它的人会得到神圣的庇护，并获得创世之力。",
+    "name": "创世·圣殿铠甲",
+    "des": "由创世圣殿宝石和秘银制成的铠甲，佩戴它的人会得到神圣的庇护，并获得创世之力。",
     "isBag": true,
     "type": "equip",
     "gold": 546750,
@@ -3724,8 +3750,8 @@
     "source1": "smithy"
   },
   "5024010": {
-    "name": "[混沌]咒印*天之战手",
-    "des": "由天堂咒印之力制作而成的，手套上还有一些变幻不定的能量流动，不断地释放着强大的毁灭性能量。",
+    "name": "[混沌]咒印*天之战刃",
+    "des": "由天堂咒印之力制作而成的，刀身上还有一些变幻不定的能量流动，不断地释放着强大的毁灭性能量。",
     "isBag": true,
     "type": "equip",
     "gold": 820100,
@@ -3748,8 +3774,8 @@
     "source1": "smithy"
   },
   "5024030": {
-    "name": "[混沌]咒印*天之护衣",
-    "des": "由天堂咒印之力制作而成的，护衣上还有一些变幻不定的能量流动，不断地释放着强大的毁灭性能量。",
+    "name": "[混沌]咒印*天之战甲",
+    "des": "由天堂咒印之力制作而成的，战甲上还有一些变幻不定的能量流动，不断地释放着强大的毁灭性能量。",
     "isBag": true,
     "type": "equip",
     "gold": 820100,
@@ -3772,8 +3798,8 @@
     "source1": "smithy"
   },
   "5025010": {
-    "name": "[混沌]失落*亚特兰之手",
-    "des": "由亚特兰蒂斯的龙鳞制成的手套，它的造型独特，呈现出特殊棱角，整体散发出一种神秘而危险的气息。",
+    "name": "[混沌]失落*亚特兰利剑",
+    "des": "由亚特兰蒂斯的龙鳞制成的利刃，它的造型独特，刃身呈现出特殊的曲线和锋利的棱角，整体散发出一种神秘而危险的气息。",
     "isBag": true,
     "type": "equip",
     "gold": 1230100,
@@ -3785,7 +3811,7 @@
   },
   "5025020": {
     "name": "[混沌]失落*亚特兰头盔",
-    "des": "由亚特兰蒂斯的龙鳞制成的头盔，它的造型独特，头盔呈现出特殊棱角，整体散发出一种神秘而危险的气息。",
+    "des": "由亚特兰蒂斯的龙鳞制成的头盔，它的造型独特，头盔呈现出特殊的曲线和锋利的棱角，整体散发出一种神秘而危险的气息。",
     "isBag": true,
     "type": "equip",
     "gold": 1230100,
@@ -3796,8 +3822,8 @@
     "source1": "smithy"
   },
   "5025030": {
-    "name": "[混沌]失落*亚特兰护衣",
-    "des": "由亚特兰蒂斯的龙鳞制成的护衣，它的造型独特，护衣呈现出特殊棱角，整体散发出一种神秘而危险的气息。",
+    "name": "[混沌]失落*亚特兰战甲",
+    "des": "由亚特兰蒂斯的龙鳞制成的战甲，它的造型独特，战甲呈现出特殊的曲线和锋利的棱角，整体散发出一种神秘而危险的气息。",
     "isBag": true,
     "type": "equip",
     "gold": 1230100,
@@ -3809,7 +3835,7 @@
   },
   "5025040": {
     "name": "[混沌]失落*亚特兰战靴",
-    "des": "由亚特兰蒂斯的龙鳞制成的战靴，它的造型独特，战靴呈现出特殊棱角，整体散发出一种神秘而危险的气息。",
+    "des": "由亚特兰蒂斯的龙鳞制成的战靴，它的造型独特，战靴呈现出特殊的曲线和锋利的棱角，整体散发出一种神秘而危险的气息。",
     "isBag": true,
     "type": "equip",
     "gold": 1230100,
@@ -3820,8 +3846,8 @@
     "source1": "smithy"
   },
   "5026010": {
-    "name": "[混沌]救赎*天使之手",
-    "des": "由用特殊金属打造而成，外形非常华丽和精美，伴随着一些自然元素，吸收周围的自然元素，如空气、水分和能量，将它们转化为攻击的能量，使攻击更加凶猛。",
+    "name": "[混沌]救赎*天使之刃",
+    "des": "由用特殊金属打造而成，外形非常华丽和精美，伴随着一些自然元素，吸收周围的自然元素，如空气、水分和能量，将它们转化为攻击的能量，使利刃的攻击更加凶猛。",
     "isBag": true,
     "type": "equip",
     "gold": 1845100,
@@ -3844,7 +3870,7 @@
     "source1": "smithy"
   },
   "5026030": {
-    "name": "[混沌]救赎*天使之袍",
+    "name": "[混沌]救赎*天使之甲",
     "des": "由用特殊金属打造而成，外形非常华丽和精美，伴随着一些自然元素，吸收周围的自然元素，如空气、水分和能量，将它们转化为防御的能量，抵挡各种忍术攻击。",
     "isBag": true,
     "type": "equip",
@@ -3868,8 +3894,8 @@
     "source1": "smithy"
   },
   "5027010": {
-    "name": "[混沌]光暗*堕落之手",
-    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这把刃有着天使之印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，全身闪耀着金色和绿色，整个通体散发出刺眼的光芒。",
+    "name": "[混沌]光暗*堕落之刃",
+    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这把刃有着千手印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，刀身闪耀着金色和绿色，整个刃身通体散发出刺眼的光芒。",
     "isBag": true,
     "type": "equip",
     "gold": 2767600,
@@ -3881,7 +3907,7 @@
   },
   "5027020": {
     "name": "[混沌]光暗*堕落战盔",
-    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这头盔有着天使之印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，战盔闪耀着金色和绿色，散发出刺眼的光芒。",
+    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这头盔有着千手印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，战盔闪耀着金色和绿色，散发出刺眼的光芒。",
     "isBag": true,
     "type": "equip",
     "gold": 2767600,
@@ -3892,8 +3918,8 @@
     "source1": "smithy"
   },
   "5027030": {
-    "name": "[混沌]光暗*堕落护衣",
-    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这护衣有着天使之印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，护衣闪耀着金色和绿色，散发出刺眼的光芒。",
+    "name": "[混沌]光暗*堕落战甲",
+    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这战甲有着千手印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，战甲闪耀着金色和绿色，散发出刺眼的光芒。",
     "isBag": true,
     "type": "equip",
     "gold": 2767600,
@@ -3905,7 +3931,7 @@
   },
   "5027040": {
     "name": "[混沌]光暗*堕落战靴",
-    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这战靴有着天使之印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，战靴闪耀着金色和绿色，散发出刺眼的光芒。",
+    "des": "由一位堕落的天使运用光与暗的力量制造而成的，这战靴有着千手印和神秘符文的加持，据说只有最强大的英雄才能够完美地运用它，战靴闪耀着金色和绿色，散发出刺眼的光芒。",
     "isBag": true,
     "type": "equip",
     "gold": 2767600,
@@ -3916,8 +3942,8 @@
     "source1": "smithy"
   },
   "5028010": {
-    "name": "[混沌]不朽*死神手套",
-    "des": "不朽*地狱死神神剑是闪烁着黑暗气息的手套，身上布满了神秘符文，只存在传说中的强大装备，没有人能够活着见到真身。",
+    "name": "[混沌]不朽*死神神剑",
+    "des": "不朽*地狱死神神剑是闪烁着黑暗气息的利刃，剑身上布满了神秘符文，只存在传说中的强大武器，没有人能够活着见到真身。",
     "isBag": true,
     "type": "equip",
     "gold": 4151400,
@@ -3929,7 +3955,7 @@
   },
   "5028020": {
     "name": "[混沌]不朽*死神神盔",
-    "des": "不朽*地狱死神神盔是闪烁着黑暗气息的盔袍，身上布满了神秘符文，只存在传说中的强大装备，没有人能够活着见到真身。",
+    "des": "不朽*地狱死神神盔是闪烁着黑暗气息的盔甲，身上布满了神秘符文，只存在传说中的强大装备，没有人能够活着见到真身。",
     "isBag": true,
     "type": "equip",
     "gold": 4151400,
@@ -3940,8 +3966,8 @@
     "source1": "smithy"
   },
   "5028030": {
-    "name": "[混沌]不朽*死神神袍",
-    "des": "不朽*地狱死神神盔是闪烁着黑暗气息的胸袍，身上布满了神秘符文，只存在传说中的强大装备，没有人能够活着见到真身。",
+    "name": "[混沌]不朽*死神神甲",
+    "des": "不朽*地狱死神神盔是闪烁着黑暗气息的胸甲，身上布满了神秘符文，只存在传说中的强大装备，没有人能够活着见到真身。",
     "isBag": true,
     "type": "equip",
     "gold": 4151400,
@@ -3965,7 +3991,7 @@
   },
   "5029010": {
     "name": "[混沌]协调者*教皇至高之力",
-    "des": "传说中泰坦造物“协调者”留下来的宝物。由阴和阳的力量所凝结而成的，可以施展强大的破坏力威力魔法，使用者可以随意控制神器，可以切割一切物体和攻击，甚至可以将空间都斩开。",
+    "des": "传说中泰坦造物“协调者”留下来的宝物。由阴和阳的力量所凝结而成的，可以施展强大的破坏力威力魔法，使用者可以随意控制这把利器，可以切割一切物体和攻击，甚至可以将空间都斩开。",
     "isBag": true,
     "type": "equip",
     "gold": 6227100,
@@ -4012,7 +4038,7 @@
     "source1": "smithy"
   },
   "9030010": {
-    "name": "伤害微光",
+    "name": "伤害符文",
     "des": "暴击伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -4022,10 +4048,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030020": {
-    "name": "攻击微光",
+    "name": "攻击符文",
     "des": "攻击+300（英雄100级后每升1级攻击额外+9）",
     "isBag": true,
     "type": "ace",
@@ -4035,10 +4061,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030030": {
-    "name": "生命微光",
+    "name": "生命符文",
     "des": "生命+2000（英雄100级后每升1级生命额外+60）",
     "isBag": true,
     "type": "ace",
@@ -4048,10 +4074,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030040": {
-    "name": "物防微光",
+    "name": "物防符文",
     "des": "物理防御+200（英雄100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
@@ -4061,10 +4087,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030041": {
-    "name": "法防微光",
+    "name": "法防符文",
     "des": "法术防御+200（英雄100级后每升1级额外+6）",
     "isBag": true,
     "type": "ace",
@@ -4074,10 +4100,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030050": {
-    "name": "抗暴微光",
+    "name": "抗暴符文",
     "des": "抗暴概率+5%",
     "isBag": true,
     "type": "ace",
@@ -4087,10 +4113,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030060": {
-    "name": "暴击微光",
+    "name": "暴击符文",
     "des": "暴击概率+5%",
     "isBag": true,
     "type": "ace",
@@ -4100,10 +4126,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030070": {
-    "name": "增伤微光",
+    "name": "增伤符文",
     "des": "伤害+5%",
     "isBag": true,
     "type": "ace",
@@ -4113,10 +4139,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9030080": {
-    "name": "免伤微光",
+    "name": "免伤符文",
     "des": "伤害减免+5%",
     "isBag": true,
     "type": "ace",
@@ -4126,10 +4152,10 @@
     "other_value": 800,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040010": {
-    "name": "沉默微光",
+    "name": "沉默符文",
     "des": "攻击目标越少，沉默概率提升越高，最多对1个目标提高36%的沉默概率。（只对当前有沉默效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4139,10 +4165,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040020": {
-    "name": "反伤微光",
+    "name": "反伤符文",
     "des": "反伤增加20%（只对当前有反伤效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4152,10 +4178,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040030": {
-    "name": "祝福微光",
+    "name": "祝福符文",
     "des": "生命值+12%",
     "isBag": true,
     "type": "ace",
@@ -4165,10 +4191,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040040": {
-    "name": "血怒微光",
+    "name": "血怒符文",
     "des": "击杀目标回复自身1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -4178,10 +4204,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040050": {
-    "name": "滋养微光",
+    "name": "滋养符文",
     "des": "技能直接伤害转化为血量治疗当前血量最少的英雄的比例提升18%。（只对当前有技能转治疗的辅助英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4191,10 +4217,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040060": {
-    "name": "治疗微光",
+    "name": "治疗符文",
     "des": "治疗英雄释放技能时，对己方血量最少英雄造成治疗效果额外提升30%",
     "isBag": true,
     "type": "ace",
@@ -4204,10 +4230,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040070": {
-    "name": "守护微光",
+    "name": "守护符文",
     "des": "抗暴概率+12%",
     "isBag": true,
     "type": "ace",
@@ -4217,10 +4243,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040080": {
-    "name": "怒气微光",
+    "name": "怒气符文",
     "des": "初始怒气增加1点",
     "isBag": true,
     "type": "ace",
@@ -4230,10 +4256,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040090": {
-    "name": "巨人微光",
+    "name": "巨人符文",
     "des": "攻击+900（英雄100级后每升1级攻击额外+27）",
     "isBag": true,
     "type": "ace",
@@ -4243,10 +4269,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040100": {
-    "name": "护盾微光",
+    "name": "护盾符文",
     "des": "保护目标越少，减少效果越高，最高可以减少36%的直接伤害。（只对当前有减伤护盾的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4256,10 +4282,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040110": {
-    "name": "生长微光",
+    "name": "生长符文",
     "des": "生命+6000(英雄100级后每升1级生命额外+180)",
     "isBag": true,
     "type": "ace",
@@ -4269,10 +4295,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040120": {
-    "name": "眩晕微光",
+    "name": "眩晕符文",
     "des": "攻击目标越少，眩晕概率提升越高，最多提高36%的眩晕概率。（只对当前有眩晕效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4282,10 +4308,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040130": {
-    "name": "沉默微光",
+    "name": "沉默符文",
     "des": "攻击目标越少，麻痹概率提升越高，最多对1个目标提高36%的麻痹概率。（只对当前有麻痹效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4295,10 +4321,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040140": {
-    "name": "静谧微光",
+    "name": "静谧符文",
     "des": "技能治疗效果+10%",
     "isBag": true,
     "type": "ace",
@@ -4308,10 +4334,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040150": {
-    "name": "铠甲微光",
+    "name": "铠甲符文",
     "des": "物理防御+600（英雄100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
@@ -4321,10 +4347,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040151": {
-    "name": "魔晶微光",
+    "name": "魔晶符文",
     "des": "法术防御+600（英雄100级后每升1级额外+18）",
     "isBag": true,
     "type": "ace",
@@ -4334,10 +4360,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040160": {
-    "name": "绝命微光",
+    "name": "绝命符文",
     "des": "暴击伤害+12%",
     "isBag": true,
     "type": "ace",
@@ -4347,10 +4373,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040170": {
-    "name": "永生微光",
+    "name": "永生符文",
     "des": "防御+20%",
     "isBag": true,
     "type": "ace",
@@ -4360,10 +4386,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040180": {
-    "name": "毒印微光",
+    "name": "毒印符文",
     "des": "造成的中毒伤害的10%转化为血量治疗自己。",
     "isBag": true,
     "type": "ace",
@@ -4373,10 +4399,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040190": {
-    "name": "抗性微光",
+    "name": "抗性符文",
     "des": "受到灼烧、中毒伤害时，该伤害降低35%",
     "isBag": true,
     "type": "ace",
@@ -4386,10 +4412,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040200": {
-    "name": "控伤微光",
+    "name": "控伤符文",
     "des": "伤害减免+8%",
     "isBag": true,
     "type": "ace",
@@ -4399,10 +4425,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040210": {
-    "name": "毒咒微光",
+    "name": "毒咒符文",
     "des": "攻击目标越少，中毒概率提升越高，最多可对1个目标提高36%的中毒概率",
     "isBag": true,
     "type": "ace",
@@ -4412,10 +4438,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040220": {
-    "name": "掌控微光",
+    "name": "掌控符文",
     "des": "攻击单体目标时额外降低目标1点怒气。",
     "isBag": true,
     "type": "ace",
@@ -4425,10 +4451,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040230": {
-    "name": "绝命微光",
+    "name": "绝命符文",
     "des": "攻击目标越少，中毒伤害提升越高，最多可对1个目标提高30%的中毒伤害",
     "isBag": true,
     "type": "ace",
@@ -4438,10 +4464,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9040240": {
-    "name": "强击微光",
+    "name": "强击符文",
     "des": "暴击概率+8%",
     "isBag": true,
     "type": "ace",
@@ -4451,10 +4477,10 @@
     "other_value": 3000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050010": {
-    "name": "强功微光",
+    "name": "强功符文",
     "des": "暴击伤害+30%",
     "isBag": true,
     "type": "ace",
@@ -4464,10 +4490,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050020": {
-    "name": "急救微光",
+    "name": "急救符文",
     "des": "治疗英雄释放技能时，对己方血量最少的3个英雄治疗效果额外提升治疗英雄攻击的32%",
     "isBag": true,
     "type": "ace",
@@ -4477,10 +4503,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050030": {
-    "name": "清算微光",
+    "name": "清算符文",
     "des": "攻击时70%概率清除敌方无敌状态",
     "isBag": true,
     "type": "ace",
@@ -4490,10 +4516,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050040": {
-    "name": "压制微光",
+    "name": "压制符文",
     "des": "攻击纵排目标时，额外降低目标1点怒气。（只对当前有纵排减怒效果的英雄生效）",
     "isBag": true,
     "type": "ace",
@@ -4503,10 +4529,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050050": {
-    "name": "毁灭微光",
+    "name": "毁灭符文",
     "des": "普通攻击必定暴击。（包括治疗英雄）",
     "isBag": true,
     "type": "ace",
@@ -4516,10 +4542,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050060": {
-    "name": "圣壁微光",
+    "name": "圣壁符文",
     "des": "伤害减免+20%",
     "isBag": true,
     "type": "ace",
@@ -4529,10 +4555,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050070": {
-    "name": "烈焰微光",
+    "name": "烈焰符文",
     "des": "灼烧状态额外延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4542,10 +4568,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050080": {
-    "name": "焚烧微光",
+    "name": "焚烧符文",
     "des": "攻击目标越少，灼烧概率提升越高，最多可对1个目标提高36%的灼烧概率",
     "isBag": true,
     "type": "ace",
@@ -4555,10 +4581,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050090": {
-    "name": "逆转微光",
+    "name": "逆转符文",
     "des": "治疗目标英雄时，若目标处于禁疗状态，将治疗量的200%转化为伤害吸收盾，持续一回合",
     "isBag": true,
     "type": "ace",
@@ -4568,10 +4594,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050100": {
-    "name": "锁链微光",
+    "name": "锁链符文",
     "des": "被灼烧的英雄无法获得无敌和无敌吸血盾效果",
     "isBag": true,
     "type": "ace",
@@ -4581,10 +4607,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050110": {
-    "name": "制裁微光",
+    "name": "制裁符文",
     "des": "技能必定命中",
     "isBag": true,
     "type": "ace",
@@ -4594,10 +4620,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050120": {
-    "name": "碾压微光",
+    "name": "碾压符文",
     "des": "技能直接伤害的18%转化为血量，治疗自己",
     "isBag": true,
     "type": "ace",
@@ -4607,10 +4633,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050130": {
-    "name": "侵蚀微光",
+    "name": "侵蚀符文",
     "des": "中毒状态延长1回合",
     "isBag": true,
     "type": "ace",
@@ -4620,10 +4646,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050160": {
-    "name": "影袭微光",
+    "name": "影袭符文",
     "des": "单体输出英雄的所有攻击优先攻击敌方当前血量最低的英雄",
     "isBag": true,
     "type": "ace",
@@ -4633,10 +4659,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050170": {
-    "name": "霸体微光",
+    "name": "霸体符文",
     "des": "生命值增加30%",
     "isBag": true,
     "type": "ace",
@@ -4646,10 +4672,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050180": {
-    "name": "平衡微光",
+    "name": "平衡符文",
     "des": "携带英雄位于后排时，命中+10%，破甲+10%",
     "isBag": true,
     "type": "ace",
@@ -4659,10 +4685,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050190": {
-    "name": "魔爆微光",
+    "name": "魔爆符文",
     "des": "携带英雄位于后排时，法术暴击增加12%",
     "isBag": true,
     "type": "ace",
@@ -4672,10 +4698,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050200": {
-    "name": "灵光微光",
+    "name": "灵光符文",
     "des": "携带英雄位于前排时，抗暴+15%，血量+15%",
     "isBag": true,
     "type": "ace",
@@ -4685,10 +4711,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9050210": {
-    "name": "协调微光",
+    "name": "协调符文",
     "des": "携带英雄位于前排时，闪避+10%，位于后排时，攻击+10%",
     "isBag": true,
     "type": "ace",
@@ -4698,10 +4724,10 @@
     "other_value": 10000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060010": {
-    "name": "天启微光",
+    "name": "天启符文",
     "des": "英雄怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加15%",
     "isBag": true,
     "type": "ace",
@@ -4710,10 +4736,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060020": {
-    "name": "疯狂微光",
+    "name": "疯狂符文",
     "des": "技能直接击杀敌方目标时，获得目标剩余的所有怒气（输出英雄佩戴）",
     "isBag": true,
     "type": "ace",
@@ -4722,10 +4748,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060030": {
-    "name": "剧毒微光",
+    "name": "剧毒符文",
     "des": "释放技能造成的中毒时附加一回合重伤状态，重伤状态的英雄受到治疗效果减少70%",
     "isBag": true,
     "type": "ace",
@@ -4734,10 +4760,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060040": {
-    "name": "抵抗微光",
+    "name": "抵抗符文",
     "des": "受到控制效果（麻痹、沉默、眩晕）概率降低35%",
     "isBag": true,
     "type": "ace",
@@ -4746,10 +4772,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060050": {
-    "name": "鼓动微光",
+    "name": "鼓动符文",
     "des": "初始怒气增加2点",
     "isBag": true,
     "type": "ace",
@@ -4758,10 +4784,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060060": {
-    "name": "追击微光",
+    "name": "追击符文",
     "des": "单体输出英雄直接伤害击杀目标后，追加1次技能，对敌方单体造成175%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
     "isBag": true,
     "type": "ace",
@@ -4770,10 +4796,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060070": {
-    "name": "免疫微光",
+    "name": "免疫符文",
     "des": "首回合免疫眩晕、沉默、麻痹效果",
     "isBag": true,
     "type": "ace",
@@ -4782,10 +4808,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9060080": {
-    "name": "超载微光",
+    "name": "超载符文",
     "des": "眩晕敌方英雄时，清空其所有怒气",
     "isBag": true,
     "type": "ace",
@@ -4794,10 +4820,10 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080010": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "生命值增加20%",
     "isBag": true,
     "type": "ace",
@@ -4806,10 +4832,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080020": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "抗暴增加20%",
     "isBag": true,
     "type": "ace",
@@ -4818,10 +4844,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080030": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "命中增加20%",
     "isBag": true,
     "type": "ace",
@@ -4830,10 +4856,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080040": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "物防增加20%",
     "isBag": true,
     "type": "ace",
@@ -4842,10 +4868,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080050": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "法防增加20%",
     "isBag": true,
     "type": "ace",
@@ -4854,10 +4880,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080060": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "受到治疗效果增加20%",
     "isBag": true,
     "type": "ace",
@@ -4866,10 +4892,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080070": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "暴击增加20%",
     "isBag": true,
     "type": "ace",
@@ -4878,10 +4904,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080080": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "伤害增加20%",
     "isBag": true,
     "type": "ace",
@@ -4890,10 +4916,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080090": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "闪避增加20%",
     "isBag": true,
     "type": "ace",
@@ -4902,10 +4928,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080100": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "受到直接伤害反伤增加20%",
     "isBag": true,
     "type": "ace",
@@ -4914,10 +4940,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080110": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "技能治疗效果增加20%",
     "isBag": true,
     "type": "ace",
@@ -4926,10 +4952,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080120": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "释放技能后恢复自身1点怒气",
     "isBag": true,
     "type": "ace",
@@ -4938,10 +4964,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080130": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "自身处于异常状态时，免伤+30%",
     "isBag": true,
     "type": "ace",
@@ -4950,10 +4976,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080140": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "全体上阵英雄伤害+8%",
     "isBag": true,
     "type": "ace",
@@ -4962,10 +4988,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080150": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "全体上阵英雄生命+8%",
     "isBag": true,
     "type": "ace",
@@ -4974,10 +5000,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080160": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "全体上阵英雄暴击+8%",
     "isBag": true,
     "type": "ace",
@@ -4986,10 +5012,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080170": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "每回合行动后恢复35%最大生命值",
     "isBag": true,
     "type": "ace",
@@ -4998,10 +5024,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080180": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "战斗中首次死亡时复活，并恢复全部血量",
     "isBag": true,
     "type": "ace",
@@ -5010,10 +5036,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080190": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "释放技能后回复全体队友1点怒气",
     "isBag": true,
     "type": "ace",
@@ -5022,10 +5048,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080200": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "行动前，如果自己怒气小于4点,则会跳过行动，并使自身怒气增加4点",
     "isBag": true,
     "type": "ace",
@@ -5034,10 +5060,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080210": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "当自身被添加负面状态和控制效果时，会失去10%最大生命值，并免疫此效果。自身生命小于10%时不会触发",
     "isBag": true,
     "type": "ace",
@@ -5046,10 +5072,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080220": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "全局回合结束时，如果自身生命小于50%，则恢复自身24%生命，如果大于等于50%，则提升自身24%的伤害，持续1回合",
     "isBag": true,
     "type": "ace",
@@ -5058,10 +5084,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080230": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "受到直接物理伤害时己方全体怒气提升1点，每回合最多触发2次",
     "isBag": true,
     "type": "ace",
@@ -5070,10 +5096,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080240": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "每回合受到的第一次技能伤害降低80%",
     "isBag": true,
     "type": "ace",
@@ -5082,10 +5108,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080250": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "受到直接伤害时，有40%概率使自己额外行动一回合，每回合最多触发一次",
     "isBag": true,
     "type": "ace",
@@ -5094,10 +5120,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080260": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "自身行动后，有55%概率使自身额外行动一回合，每回合最多触发一次",
     "isBag": true,
     "type": "ace",
@@ -5106,10 +5132,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080270": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "技能伤害增加35%",
     "isBag": true,
     "type": "ace",
@@ -5118,10 +5144,10 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "9080280": {
-    "name": "限定微光",
+    "name": "限定符文",
     "des": "战斗前二回合获得无敌吸血盾",
     "isBag": true,
     "type": "ace",
@@ -5130,7 +5156,7 @@
     "buyNum": 1,
     "quality": 8,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "10501010": {
     "name": "狼顾之相",
@@ -5469,7 +5495,7 @@
     "effects": "baowu"
   },
   "11105010": {
-    "name": "海兽使者专属",
+    "name": "奥蕾莉亚专属",
     "des": "【+25激活】释放技能有40%几率追加1次技能，对全体造成41%法术伤害",
     "isBag": true,
     "type": "art",
@@ -5482,7 +5508,7 @@
     "quality": 5
   },
   "11105020": {
-    "name": "人鱼公主专属",
+    "name": "莉莉丝专属",
     "des": "【+25激活】释放技能后，回复所在纵排友方英雄1点怒气",
     "isBag": true,
     "type": "art",
@@ -5495,7 +5521,7 @@
     "quality": 5
   },
   "11105030": {
-    "name": "霜冻使者专属",
+    "name": "瑟琳娜专属",
     "des": "【+25激活】行动后回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5508,7 +5534,7 @@
     "quality": 5
   },
   "11105040": {
-    "name": "冰雪巫女专属",
+    "name": "艾薇儿专属",
     "des": "【+25激活】死亡时提升全体友方20%伤害减免，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5521,7 +5547,7 @@
     "quality": 5
   },
   "11105050": {
-    "name": "水之魔仙专属",
+    "name": "露西专属",
     "des": "【+25激活】技能造成的治疗量+25%",
     "isBag": true,
     "type": "art",
@@ -5534,7 +5560,7 @@
     "quality": 5
   },
   "11105060": {
-    "name": "海妖舰长专属",
+    "name": "梅莎专属",
     "des": "【+25激活】受到普通攻击直接伤害时，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5547,7 +5573,7 @@
     "quality": 5
   },
   "11105070": {
-    "name": "娜迦女王专属",
+    "name": "卡蒂娜专属",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5560,7 +5586,7 @@
     "quality": 5
   },
   "11105080": {
-    "name": "冰霜女王专属",
+    "name": "安德烈专属",
     "des": "【+25激活】直接伤害导致死亡时100%眩晕击杀自己的敌方英雄",
     "isBag": true,
     "type": "art",
@@ -5573,7 +5599,7 @@
     "quality": 5
   },
   "11105090": {
-    "name": "风暴航行者专属",
+    "name": "娜塔莎专属",
     "des": "【+25激活】技能造成的伤害增加25%",
     "isBag": true,
     "type": "art",
@@ -5586,7 +5612,7 @@
     "quality": 5
   },
   "11105100": {
-    "name": "海洋守护者专属",
+    "name": "莉娅娜专属",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5599,7 +5625,7 @@
     "quality": 5
   },
   "11105110": {
-    "name": "娜迦海妖专属",
+    "name": "神凛专属",
     "des": "【+25激活】技能目标每减少1个，技能伤害增加10%",
     "isBag": true,
     "type": "art",
@@ -5612,7 +5638,7 @@
     "quality": 5
   },
   "11105120": {
-    "name": "寒霜刺客专属",
+    "name": "艾莉森专属",
     "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
@@ -5625,7 +5651,7 @@
     "quality": 5
   },
   "11105130": {
-    "name": "月光祭祀专属",
+    "name": "玛丽莲专属",
     "des": "【+25激活】行动后恢复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5638,7 +5664,7 @@
     "quality": 5
   },
   "11105140": {
-    "name": "冰焰勇士专属",
+    "name": "萨拉专属",
     "des": "【+25激活】释放技能后恢复1点怒气",
     "isBag": true,
     "type": "art",
@@ -5651,7 +5677,7 @@
     "quality": 5
   },
   "11205010": {
-    "name": "风暴唤灵师专属",
+    "name": "尔薇娅专属",
     "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5664,7 +5690,7 @@
     "quality": 5
   },
   "11205020": {
-    "name": "黄蜂女王专属",
+    "name": "艾尔莎专属",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5677,7 +5703,7 @@
     "quality": 5
   },
   "11205030": {
-    "name": "翠绿精灵专属",
+    "name": "席薇亚专属",
     "des": "【+25激活】受到直接伤害的18%转化为生命，治疗己方全体目标",
     "isBag": true,
     "type": "art",
@@ -5690,7 +5716,7 @@
     "quality": 5
   },
   "11205040": {
-    "name": "风之灵使专属",
+    "name": "克洛伊专属",
     "des": "【+25激活】受到的治疗量增加50%",
     "isBag": true,
     "type": "art",
@@ -5703,7 +5729,7 @@
     "quality": 5
   },
   "11205050": {
-    "name": "森林守望者专属",
+    "name": "爱丽丝专属",
     "des": "【+25激活】与黄月英处于同一纵排的友方英雄暴击伤害+20%",
     "isBag": true,
     "type": "art",
@@ -5716,7 +5742,7 @@
     "quality": 5
   },
   "11205060": {
-    "name": "翠绿林妖专属",
+    "name": "卡洛琳专属",
     "des": "【+25激活】释放技能后，回复所在横排英雄1点怒气",
     "isBag": true,
     "type": "art",
@@ -5729,7 +5755,7 @@
     "quality": 5
   },
   "11205070": {
-    "name": "荆棘女王专属",
+    "name": "罗迪卡专属",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5742,7 +5768,7 @@
     "quality": 5
   },
   "11205080": {
-    "name": "流浪剑客专属",
+    "name": "安琪儿专属",
     "des": "【+25激活】自身生命每降低10%，伤害增加5%",
     "isBag": true,
     "type": "art",
@@ -5755,7 +5781,7 @@
     "quality": 5
   },
   "11205090": {
-    "name": "风灵舞者专属",
+    "name": "薇多娜专属",
     "des": "【+25激活】直接伤害击杀目标后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5768,7 +5794,7 @@
     "quality": 5
   },
   "11205100": {
-    "name": "荒野战士专属",
+    "name": "洛丽塔专属",
     "des": "【+25激活】行动后自身伤害增加8%",
     "isBag": true,
     "type": "art",
@@ -5781,7 +5807,7 @@
     "quality": 5
   },
   "11205110": {
-    "name": "风吟者专属",
+    "name": "克莉丝专属",
     "des": "【+25激活】释放技能附带眩晕的概率增加至65%",
     "isBag": true,
     "type": "art",
@@ -5794,7 +5820,7 @@
     "quality": 5
   },
   "11205120": {
-    "name": "精灵游侠专属",
+    "name": "莫妮卡专属",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -5807,7 +5833,7 @@
     "quality": 5
   },
   "11205130": {
-    "name": "森林秘术师专属",
+    "name": "格拉迪斯专属",
     "des": "【+25激活】每受到一次伤害，自身伤害永久增加3%",
     "isBag": true,
     "type": "art",
@@ -5820,7 +5846,7 @@
     "quality": 5
   },
   "11205140": {
-    "name": "梦境树妖专属",
+    "name": "安吉丽娜专属",
     "des": "【+25激活】直接伤害击杀目标时恢复2点怒气",
     "isBag": true,
     "type": "art",
@@ -5833,7 +5859,7 @@
     "quality": 5
   },
   "11305010": {
-    "name": "烈焰领主专属",
+    "name": "普莉希拉专属",
     "des": "【+25激活】攻击时，对灼烧目标的暴击几率额外增加80%",
     "isBag": true,
     "type": "art",
@@ -5846,7 +5872,7 @@
     "quality": 5
   },
   "11305020": {
-    "name": "炎龙骑士专属",
+    "name": "梅莉莎专属",
     "des": "【+25激活】受到普通攻击时，有80%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5859,7 +5885,7 @@
     "quality": 5
   },
   "11305030": {
-    "name": "火焰贤者专属",
+    "name": "菲奥娜专属",
     "des": "【+25激活】释放技能时，为队友附加的持续治疗效果增加至风伯攻击的32%",
     "isBag": true,
     "type": "art",
@@ -5872,7 +5898,7 @@
     "quality": 5
   },
   "11305040": {
-    "name": "炎魔之刃专属",
+    "name": "特蕾西专属",
     "des": "【+25激活】受到灼烧状态敌人攻击时，受到的直接伤害额外再降低25%",
     "isBag": true,
     "type": "art",
@@ -5885,7 +5911,7 @@
     "quality": 5
   },
   "11305050": {
-    "name": "火焰吟唱者专属",
+    "name": "艾琳专属",
     "des": "【+25激活】释放技能后，给血量最少的2名队友附加无敌吸血盾，持续1回合",
     "isBag": true,
     "type": "art",
@@ -5898,7 +5924,7 @@
     "quality": 5
   },
   "11305060": {
-    "name": "烈焰之星专属",
+    "name": "莉莉丝专属",
     "des": "【+25激活】释放技能时，如果目标处于灼烧状态，附加眩晕的概率提升至80%",
     "isBag": true,
     "type": "art",
@@ -5911,7 +5937,7 @@
     "quality": 5
   },
   "11305070": {
-    "name": "炎之舞者专属",
+    "name": "心朵拉专属",
     "des": "【+25激活】释放技能后追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5924,7 +5950,7 @@
     "quality": 5
   },
   "11305080": {
-    "name": "九尾巫女专属",
+    "name": "芙丽雅专属",
     "des": "【+25激活】释放技能附加灼烧状态的概率增加至80%",
     "isBag": true,
     "type": "art",
@@ -5937,7 +5963,7 @@
     "quality": 5
   },
   "11305090": {
-    "name": "火焰行者专属",
+    "name": "娜塔莎专属",
     "des": "【+25激活】受到普通攻击时，有50%概率使攻击者灼烧，持续2回合",
     "isBag": true,
     "type": "art",
@@ -5950,7 +5976,7 @@
     "quality": 5
   },
   "11305100": {
-    "name": "熔岩魔使专属",
+    "name": "阿丽雅专属",
     "des": "【+25激活】直接伤害击杀灼烧目标后，回复自身50%生命",
     "isBag": true,
     "type": "art",
@@ -5963,7 +5989,7 @@
     "quality": 5
   },
   "11305110": {
-    "name": "太阳使者专属",
+    "name": "奥利维亚专属",
     "des": "【+25激活】释放技能后，追加1次普通攻击（追加的普通攻击不会回复怒气）",
     "isBag": true,
     "type": "art",
@@ -5976,7 +6002,7 @@
     "quality": 5
   },
   "11305120": {
-    "name": "烈焰剑士专属",
+    "name": "凯尔专属",
     "des": "【+25激活】释放普通攻击后额外降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -5989,7 +6015,7 @@
     "quality": 5
   },
   "11305130": {
-    "name": "炎魔女皇专属",
+    "name": "安娜贝尔专属",
     "des": "【+25激活】释放技能造成压制时附加重伤效果，持续一回合",
     "isBag": true,
     "type": "art",
@@ -6002,7 +6028,7 @@
     "quality": 5
   },
   "11305140": {
-    "name": "圣火祭师专属",
+    "name": "卡蕾娜专属",
     "des": "【+25激活】释放技能时，每命中一个燃烧状态下的目标恢复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -6015,7 +6041,7 @@
     "quality": 5
   },
   "11405010": {
-    "name": "光明祭司专属",
+    "name": "海伦娜专属",
     "des": "【+25激活】释放技能附带眩晕的概率增加至50%",
     "isBag": true,
     "type": "art",
@@ -6028,7 +6054,7 @@
     "quality": 5
   },
   "11405020": {
-    "name": "审判天使专属",
+    "name": "芙蕾雅专属",
     "des": "【+25激活】直接伤害击杀目标后回复自身2点怒气",
     "isBag": true,
     "type": "art",
@@ -6041,7 +6067,7 @@
     "quality": 5
   },
   "11405030": {
-    "name": "美艳女王专属",
+    "name": "南丁格专属",
     "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
@@ -6054,7 +6080,7 @@
     "quality": 5
   },
   "11405040": {
-    "name": "光明勇者专属",
+    "name": "阿尔瑟雅专属",
     "des": "【+25激活】物理护盾减少受到物理伤害的百分比增加至60%",
     "isBag": true,
     "type": "art",
@@ -6067,7 +6093,7 @@
     "quality": 5
   },
   "11405050": {
-    "name": "深渊猎魔人专属",
+    "name": "卡莉娜专属",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -6080,7 +6106,7 @@
     "quality": 5
   },
   "11405060": {
-    "name": "龙族公主专属",
+    "name": "萝莉专属",
     "des": "【+25激活】技能直接伤害的50%转化为生命，治疗己方生命最低的队友",
     "isBag": true,
     "type": "art",
@@ -6093,7 +6119,7 @@
     "quality": 5
   },
   "11405070": {
-    "name": "深渊蛇妖专属",
+    "name": "南华专属",
     "des": "【+25激活】释放技能附加麻痹效果的概率增加至50%",
     "isBag": true,
     "type": "art",
@@ -6106,7 +6132,7 @@
     "quality": 5
   },
   "11405080": {
-    "name": "深渊诅咒者专属",
+    "name": "伊莎贝尔专属",
     "des": "【+25激活】释放技能附加中毒效果的概率增加至80%",
     "isBag": true,
     "type": "art",
@@ -6119,7 +6145,7 @@
     "quality": 5
   },
   "11405090": {
-    "name": "黑暗魔导士专属",
+    "name": "卡迪专属",
     "des": "【+25激活】直接伤害击杀目标后，回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -6132,7 +6158,7 @@
     "quality": 5
   },
   "11405100": {
-    "name": "荣耀骑士专属",
+    "name": "丽萨专属",
     "des": "【+25激活】释放技能后，额外回复自身1点怒气",
     "isBag": true,
     "type": "art",
@@ -6145,7 +6171,7 @@
     "quality": 5
   },
   "11405110": {
-    "name": "荒野兽灵专属",
+    "name": "格洛丽亚专属",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -6158,7 +6184,7 @@
     "quality": 5
   },
   "11405120": {
-    "name": "黑暗巫师专属",
+    "name": "伊芙专属",
     "des": "【+25激活】释放技能后，降低目标1点怒气",
     "isBag": true,
     "type": "art",
@@ -6171,7 +6197,7 @@
     "quality": 5
   },
   "11405130": {
-    "name": "月神舞姬专属",
+    "name": "飞鸟专属",
     "des": "【+25激活】目标血量每减少10%，对其造成的治疗量增加5%",
     "isBag": true,
     "type": "art",
@@ -6184,7 +6210,7 @@
     "quality": 5
   },
   "11405140": {
-    "name": "深渊化身专属",
+    "name": "丽迪丝专属",
     "des": "【+25激活】受到技能或普攻直接伤害的30%反弹给攻击者",
     "isBag": true,
     "type": "art",
@@ -6296,7 +6322,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "20501010": {
     "name": "少年将军",
@@ -7332,7 +7358,7 @@
     "coin": 300000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101000010": {
     "name": "10元充值卡(可激活限时累充)",
@@ -7361,7 +7387,7 @@
     "coin": 600000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101000018": {
     "name": "18元充值卡(可激活限时累充)",
@@ -7375,7 +7401,7 @@
     "coin": 900000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101000030": {
     "name": "30元充值卡(可激活限时累充)",
@@ -7389,7 +7415,7 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101000050": {
     "name": "50元充值卡(可激活限时累充)",
@@ -7403,7 +7429,7 @@
     "coin": 2500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101000100": {
     "name": "100元充值卡(可激活限时累充)",
@@ -7418,7 +7444,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_chongzhi"
   },
   "101000200": {
@@ -7434,7 +7460,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_chongzhi"
   },
   "101000300": {
@@ -7450,7 +7476,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge",
+    "source1": "gift",
     "source2": "shop_chongzhi"
   },
   "101000500": {
@@ -7482,7 +7508,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101001000": {
     "name": "1000元充值卡(可激活限时累充)",
@@ -7513,7 +7539,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101003000": {
     "name": "3000元充值卡(可激活限时累充)",
@@ -7543,7 +7569,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101010000": {
     "name": "10000元充值卡(可激活限时累充)",
@@ -7558,7 +7584,7 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101020000": {
     "name": "20000元充值卡(可激活限时累充)",
@@ -7573,7 +7599,7 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101050000": {
     "name": "50000元充值卡(可激活限时累充)",
@@ -7588,7 +7614,7 @@
     "buyNum": 1,
     "quality": 7,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101101000": {
     "name": "英雄经验盲盒",
@@ -7601,7 +7627,7 @@
     "coin": 1000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101101006": {
     "name": "小经验袋",
@@ -7654,10 +7680,10 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "101201000": {
-    "name": "金币盲盒",
+    "name": "铜币盲盒",
     "des": "铜钱盲盒，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
@@ -7670,7 +7696,7 @@
     "source1": "extract"
   },
   "101201003": {
-    "name": "小金币袋",
+    "name": "小铜币袋",
     "des": "打开可获得5000铜币",
     "isBag": true,
     "type": "item",
@@ -7683,7 +7709,7 @@
     "source1": "extract"
   },
   "101201004": {
-    "name": "中金币袋",
+    "name": "中铜币袋",
     "des": "打开可获得25000铜币",
     "isBag": true,
     "type": "item",
@@ -7696,7 +7722,7 @@
     "source1": "extract"
   },
   "101201005": {
-    "name": "大金币袋",
+    "name": "大铜币袋",
     "des": "打开可获得50000铜币",
     "isBag": true,
     "type": "item",
@@ -7709,7 +7735,7 @@
     "source1": "extract"
   },
   "101201006": {
-    "name": "豪华金币袋",
+    "name": "豪华铜币袋",
     "des": "打开可获得150000铜币",
     "isBag": true,
     "type": "item",
@@ -7720,7 +7746,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "103100001": {
     "name": "合击碎片盲盒",
@@ -7734,7 +7760,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "crossTeamPK",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "crossTop"
   },
   "104501010": {
@@ -7800,7 +7826,8 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "warHorn"
   },
   "104505110": {
     "name": "神秘技能宝石",
@@ -7813,11 +7840,12 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "extract"
+    "source1": "extract",
+    "source2": "warHorn"
   },
   "105010100": {
-    "name": "十星海兽使者",
-    "des": "可获得十星海兽使者",
+    "name": "十星奥蕾莉亚",
+    "des": "可获得十星奥蕾莉亚",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7826,11 +7854,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105010200": {
-    "name": "二十星海兽使者",
-    "des": "可获得二十星海兽使者",
+    "name": "二十星奥蕾莉亚",
+    "des": "可获得二十星奥蕾莉亚",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7839,11 +7867,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105020100": {
-    "name": "十星人鱼公主",
-    "des": "可获得十星鱼公主",
+    "name": "十星莉莉丝",
+    "des": "可获得十星莉莉丝",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7852,11 +7880,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105020200": {
-    "name": "二十星鱼公主",
-    "des": "可获得二十星鱼公主",
+    "name": "二十星莉莉丝",
+    "des": "可获得二十星莉莉丝",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7865,11 +7893,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105030100": {
-    "name": "十星霜冻使者",
-    "des": "可获得十星霜冻使者",
+    "name": "十星瑟琳娜",
+    "des": "可获得十星瑟琳娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7878,11 +7906,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105030200": {
-    "name": "二十星霜冻使者",
-    "des": "可获得二十星霜冻使者",
+    "name": "二十星瑟琳娜",
+    "des": "可获得二十星瑟琳娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7891,11 +7919,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105040100": {
-    "name": "十星冰雪巫女",
-    "des": "可获得十星冰雪巫女",
+    "name": "十星艾薇儿",
+    "des": "可获得十星艾薇儿",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7904,11 +7932,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105040200": {
-    "name": "二十星冰雪巫女",
-    "des": "可获得二十星冰雪巫女",
+    "name": "二十星艾薇儿",
+    "des": "可获得二十星艾薇儿",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7917,11 +7945,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105050100": {
-    "name": "十星水之魔仙",
-    "des": "可获得十星水之魔仙",
+    "name": "十星露西",
+    "des": "可获得十星露西",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7930,11 +7958,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105050200": {
-    "name": "二十星水之魔仙",
-    "des": "可获得二十星水之魔仙",
+    "name": "二十星露西",
+    "des": "可获得二十星露西",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7943,11 +7971,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105060100": {
-    "name": "十星海妖舰长",
-    "des": "可获得十星海妖舰长",
+    "name": "十星梅莎",
+    "des": "可获得十星梅莎",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7956,11 +7984,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105060200": {
-    "name": "二十星海妖舰长",
-    "des": "可获得二十星海妖舰长",
+    "name": "二十星梅莎",
+    "des": "可获得二十星梅莎",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7969,11 +7997,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105070100": {
-    "name": "十星娜迦女王",
-    "des": "可获得十星娜迦女王",
+    "name": "十星卡蒂娜",
+    "des": "可获得十星卡蒂娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -7982,11 +8010,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105070200": {
-    "name": "二十星娜迦女王",
-    "des": "可获得二十星娜迦女王",
+    "name": "二十星卡蒂娜",
+    "des": "可获得二十星卡蒂娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -7995,11 +8023,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105080100": {
-    "name": "十星冰霜女王",
-    "des": "可获得十星冰霜女王",
+    "name": "十星安德烈",
+    "des": "可获得十星安德烈",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8008,11 +8036,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105080200": {
-    "name": "二十星冰霜女王",
-    "des": "可获得二十星冰霜女王",
+    "name": "二十星安德烈",
+    "des": "可获得二十星安德烈",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8021,11 +8049,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105130100": {
-    "name": "十星月光祭祀",
-    "des": "可获得十星月光祭祀",
+    "name": "十星玛丽莲",
+    "des": "可获得十星玛丽莲",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8034,11 +8062,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105130200": {
-    "name": "二十星月光祭祀",
-    "des": "可获得二十星月光祭祀",
+    "name": "二十星玛丽莲",
+    "des": "可获得二十星玛丽莲",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8047,11 +8075,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105140100": {
-    "name": "十星冰焰勇士",
-    "des": "可获得十星冰焰勇士",
+    "name": "十星萨拉",
+    "des": "可获得十星萨拉",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8060,11 +8088,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105140200": {
-    "name": "二十星冰焰勇士",
-    "des": "可获得二十星冰焰勇士",
+    "name": "二十星萨拉",
+    "des": "可获得二十星萨拉",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8073,7 +8101,7 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105501010": {
     "name": "绿色装备匣",
@@ -8112,7 +8140,7 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105508010": {
     "name": "橙色装备匣",
@@ -8125,7 +8153,7 @@
     "coin": 2250000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "105512010": {
     "name": "红色装备匣",
@@ -8138,10 +8166,10 @@
     "coin": 18500000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "106000011": {
-    "name": "星蓝随机碎片",
+    "name": "苍蓝随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8151,10 +8179,10 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "106000021": {
-    "name": "苍翠随机碎片",
+    "name": "紫耀随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8164,10 +8192,10 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "106000031": {
-    "name": "业红随机碎片",
+    "name": "赤炎随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8177,10 +8205,10 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "106000041": {
-    "name": "黑曜随机碎片",
+    "name": "暗影随机碎片",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -8190,7 +8218,7 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "107101001": {
     "name": "进阶盲盒",
@@ -8203,7 +8231,7 @@
     "coin": 2250000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "107101002": {
     "name": "百抽礼盒",
@@ -8217,7 +8245,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "107101003": {
     "name": "英雄阵营礼盒",
@@ -8231,7 +8259,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "107101004": {
     "name": "万能专属礼盒",
@@ -8245,7 +8273,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108002001": {
     "name": "绿色护送宝箱",
@@ -8440,7 +8468,7 @@
     "coin": 2500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008002": {
     "name": "寻宝盲盒",
@@ -8453,7 +8481,7 @@
     "coin": 10000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008003": {
     "name": "成长盲盒",
@@ -8466,7 +8494,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008004": {
     "name": "装备盲盒",
@@ -8479,7 +8507,7 @@
     "coin": 7500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008005": {
     "name": "宝石盲盒",
@@ -8492,7 +8520,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008006": {
     "name": "合击盲盒",
@@ -8505,7 +8533,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008007": {
     "name": "进阶盲盒",
@@ -8518,7 +8546,7 @@
     "coin": 25000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008008": {
     "name": "七彩盲盒",
@@ -8531,7 +8559,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008009": {
     "name": "绸缎礼盒",
@@ -8545,7 +8573,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108008010": {
     "name": "欧皇卡礼盒",
@@ -8559,7 +8587,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108009001": {
     "name": "幸运福袋",
@@ -8573,7 +8601,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108009002": {
     "name": "超值福袋",
@@ -8587,7 +8615,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108009003": {
     "name": "高级福袋",
@@ -8601,7 +8629,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108009004": {
     "name": "豪华福袋",
@@ -8615,7 +8643,7 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108009005": {
     "name": "至尊福袋",
@@ -8629,11 +8657,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010001": {
-    "name": "幸运护戒",
-    "des": "幸运护戒，开启可获得以下物品中的一个",
+    "name": "幸运护符",
+    "des": "幸运护符，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8643,11 +8671,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010101": {
-    "name": "悬赏月光祭祀奖励",
-    "des": "悬赏月光祭祀奖励，开启可获得以下一个物品奖",
+    "name": "悬赏玛丽莲奖励",
+    "des": "悬赏玛丽莲奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8657,11 +8685,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010102": {
-    "name": "悬赏冰焰勇士奖励",
-    "des": "悬赏冰焰勇士奖励，开启可获得以下一个物品奖",
+    "name": "悬赏萨拉奖励",
+    "des": "悬赏萨拉奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8671,11 +8699,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010103": {
-    "name": "悬赏森林秘术师奖励",
-    "des": "悬赏森林秘术师奖励，开启可获得以下一个物品奖",
+    "name": "悬赏格拉迪斯奖励",
+    "des": "悬赏格拉迪斯奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8685,11 +8713,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010104": {
-    "name": "悬赏梦境树妖奖励",
-    "des": "悬赏梦境树妖奖励，开启可获得以下一个物品奖",
+    "name": "悬赏安吉丽娜奖励",
+    "des": "悬赏安吉丽娜奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8699,11 +8727,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010105": {
-    "name": "悬赏炎魔女皇奖励",
-    "des": "悬赏炎魔女皇奖励，开启可获得以下一个物品奖",
+    "name": "悬赏安娜贝尔奖励",
+    "des": "悬赏安娜贝尔奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8713,11 +8741,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010106": {
-    "name": "悬赏圣火祭师奖励",
-    "des": "悬赏圣火祭师奖励，开启可获得以下一个物品奖",
+    "name": "悬赏卡蕾娜奖励",
+    "des": "悬赏卡蕾娜奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8727,11 +8755,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010107": {
-    "name": "悬赏月神舞姬奖励",
-    "des": "悬赏月神舞姬奖励，开启可获得以下一个物品奖",
+    "name": "悬赏飞鸟奖励",
+    "des": "悬赏飞鸟奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8741,11 +8769,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010108": {
-    "name": "悬赏深渊化身奖励",
-    "des": "悬赏深渊化身奖励，开启可获得以下一个物品奖",
+    "name": "悬赏丽迪丝奖励",
+    "des": "悬赏丽迪丝奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8755,11 +8783,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010109": {
-    "name": "悬赏审判天使奖励",
-    "des": "悬赏审判天使奖励，开启可获得以下一个物品奖",
+    "name": "悬赏芙蕾雅奖励",
+    "des": "悬赏芙蕾雅奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8769,11 +8797,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010110": {
-    "name": "悬赏炎龙骑士奖励",
-    "des": "悬赏炎龙骑士奖励，开启可获得以下一个物品奖",
+    "name": "悬赏梅莉莎奖励",
+    "des": "悬赏梅莉莎奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8783,11 +8811,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010111": {
-    "name": "悬赏冰雪巫女奖励",
-    "des": "悬赏冰雪巫女奖励，开启可获得以下一个物品奖",
+    "name": "悬赏艾薇儿奖励",
+    "des": "悬赏艾薇儿奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8797,11 +8825,11 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "108010112": {
-    "name": "悬赏风暴唤灵师奖励",
-    "des": "悬赏风暴唤灵师奖励，开启可获得以下一个物品奖",
+    "name": "悬赏尔薇娅奖励",
+    "des": "悬赏尔薇娅奖励，开启可获得以下一个物品奖",
     "isBag": true,
     "type": "item",
     "useType": "chest",
@@ -8811,46 +8839,47 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "109300001": {
-    "name": "紫色微光匣",
-    "des": "紫色微光匣，开启可获得以下物品中的一个",
+    "name": "紫色符文匣",
+    "des": "紫色符文匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
     "arg": "ace_3_1",
-    "gold": 800,
-    "coin": 4000000,
+    "gold": 500,
+    "coin": 2500000,
     "buyNum": 1,
     "quality": 4,
     "source1": "shop_zhulu"
   },
   "109400001": {
-    "name": "橙色微光匣",
-    "des": "橙色微光匣，开启可获得以下物品中的一个",
+    "name": "橙色符文匣",
+    "des": "橙色符文匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
     "arg": "item_chest_1",
-    "gold": 3000,
-    "coin": 15000000,
+    "gold": 1000,
+    "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift",
+    "source2": "warHorn"
   },
   "109500001": {
-    "name": "红色微光匣",
-    "des": "红色微光匣，开启可获得以下物品中的一个",
+    "name": "红色符文匣",
+    "des": "红色符文匣，开启可获得以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "chest",
     "arg": "item_chest_2",
-    "gold": 10000,
-    "coin": 50000000,
+    "gold": 5000,
+    "coin": 25000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "204001001": {
     "name": "初级宝石袋",
@@ -8863,7 +8892,7 @@
     "coin": 600000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "204002001": {
     "name": "中级宝石袋",
@@ -8876,7 +8905,7 @@
     "coin": 4000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "204003001": {
     "name": "高级宝石袋",
@@ -8889,7 +8918,7 @@
     "coin": 30000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "204004001": {
     "name": "顶级宝石袋",
@@ -8902,7 +8931,7 @@
     "coin": 60000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "204005001": {
     "name": "至尊宝石袋",
@@ -8915,11 +8944,11 @@
     "coin": 120000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205010100": {
-    "name": "十星风暴唤灵师",
-    "des": "可获得十星风暴唤灵师",
+    "name": "十星尔薇娅",
+    "des": "可获得十星尔薇娅",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8928,11 +8957,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205010200": {
-    "name": "二十星风暴唤灵师",
-    "des": "可获得二十星风暴唤灵师",
+    "name": "二十星尔薇娅",
+    "des": "可获得二十星尔薇娅",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8941,11 +8970,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205020100": {
-    "name": "十星黄蜂女王",
-    "des": "可获得十星黄蜂女王",
+    "name": "十星艾尔莎",
+    "des": "可获得十星艾尔莎",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8954,11 +8983,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205020200": {
-    "name": "二十星黄蜂女王",
-    "des": "可获得二十星黄蜂女王",
+    "name": "二十星艾尔莎",
+    "des": "可获得二十星艾尔莎",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8967,11 +8996,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205030100": {
-    "name": "十星翠绿精灵",
-    "des": "可获得十星翠绿精灵",
+    "name": "十星席薇亚",
+    "des": "可获得十星席薇亚",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -8980,11 +9009,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205030200": {
-    "name": "二十星翠绿精灵",
-    "des": "可获得二十星翠绿精灵",
+    "name": "二十星席薇亚",
+    "des": "可获得二十星席薇亚",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -8993,11 +9022,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205040100": {
-    "name": "十星风之灵使",
-    "des": "可获得十星风之灵使",
+    "name": "十星克洛伊",
+    "des": "可获得十星克洛伊",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9006,11 +9035,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205040200": {
-    "name": "二十星风之灵使",
-    "des": "可获得二十星风之灵使",
+    "name": "二十星克洛伊",
+    "des": "可获得二十星克洛伊",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9019,11 +9048,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205050100": {
-    "name": "十星森林守望者",
-    "des": "可获得十星森林守望者",
+    "name": "十星爱丽丝",
+    "des": "可获得十星爱丽丝",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9032,11 +9061,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205050200": {
-    "name": "二十星森林守望者",
-    "des": "可获得二十星森林守望者",
+    "name": "二十星爱丽丝",
+    "des": "可获得二十星爱丽丝",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9045,11 +9074,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205060100": {
-    "name": "十星翠绿林妖",
-    "des": "可获得十星翠绿林妖",
+    "name": "十星卡洛琳",
+    "des": "可获得十星卡洛琳",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9058,11 +9087,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205060200": {
-    "name": "二十星翠绿林妖",
-    "des": "可获得二十星翠绿林妖",
+    "name": "二十星卡洛琳",
+    "des": "可获得二十星卡洛琳",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9071,11 +9100,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205070100": {
-    "name": "十星荆棘女王",
-    "des": "可获得十星荆棘女王",
+    "name": "十星罗迪卡",
+    "des": "可获得十星罗迪卡",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9084,11 +9113,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205070200": {
-    "name": "二十星荆棘女王",
-    "des": "可获得二十星荆棘女王",
+    "name": "二十星罗迪卡",
+    "des": "可获得二十星罗迪卡",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9097,11 +9126,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205080100": {
-    "name": "十星流浪剑客",
-    "des": "可获得十星流浪剑客",
+    "name": "十星安琪儿",
+    "des": "可获得十星安琪儿",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9110,11 +9139,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205080200": {
-    "name": "二十星流浪剑客",
-    "des": "可获得二十星流浪剑客",
+    "name": "二十星安琪儿",
+    "des": "可获得二十星安琪儿",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9123,11 +9152,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205130100": {
-    "name": "十星森林秘术师",
-    "des": "可获得十星森林秘术师",
+    "name": "十星格拉迪斯",
+    "des": "可获得十星格拉迪斯",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9136,11 +9165,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205130200": {
-    "name": "二十星森林秘术师",
-    "des": "可获得二十星森林秘术师",
+    "name": "二十星格拉迪斯",
+    "des": "可获得二十星格拉迪斯",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9149,11 +9178,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205140100": {
-    "name": "十星梦境树妖",
-    "des": "可获得十星梦境树妖",
+    "name": "十星安吉丽娜",
+    "des": "可获得十星安吉丽娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9162,11 +9191,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205140200": {
-    "name": "二十星梦境树妖",
-    "des": "可获得二十星梦境树妖",
+    "name": "二十星安吉丽娜",
+    "des": "可获得二十星安吉丽娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9175,7 +9204,7 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205503010": {
     "name": "蓝色套装宝箱",
@@ -9188,7 +9217,7 @@
     "coin": 400000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205505010": {
     "name": "紫色套装宝箱",
@@ -9201,7 +9230,7 @@
     "coin": 1800000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205508010": {
     "name": "橙色1星套装箱",
@@ -9214,7 +9243,7 @@
     "coin": 8600000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205508012": {
     "name": "橙色2星套装箱",
@@ -9263,7 +9292,7 @@
     "coin": 70000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205512011": {
     "name": "红色1星套装宝箱",
@@ -9277,7 +9306,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205513010": {
     "name": "红色2星套装宝箱",
@@ -9291,7 +9320,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205514010": {
     "name": "红色3星套装宝箱",
@@ -9305,7 +9334,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205515010": {
     "name": "红色4星套装宝箱",
@@ -9319,7 +9348,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205516010": {
     "name": "红色5星套装宝箱",
@@ -9333,7 +9362,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "205517010": {
     "name": "红色6星套装宝箱",
@@ -9347,10 +9376,10 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "206010500": {
-    "name": "星蓝推荐队宝箱",
+    "name": "苍蓝推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9361,10 +9390,10 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "206020500": {
-    "name": "苍翠推荐队宝箱",
+    "name": "紫耀推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9375,10 +9404,10 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "206030500": {
-    "name": "业红推荐队宝箱",
+    "name": "赤炎推荐队宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9389,7 +9418,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "206040500": {
     "name": "暗隐推荐队宝箱",
@@ -9403,7 +9432,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "206040530": {
     "name": "初始推荐宝箱",
@@ -9417,7 +9446,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "207001001": {
     "name": "特权称号头像宝箱",
@@ -9433,7 +9462,7 @@
     "effects": "baowu"
   },
   "207004404": {
-    "name": "超值护戒宝箱",
+    "name": "超值护符宝箱",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9446,7 +9475,7 @@
     "effects": "baowu"
   },
   "207004408": {
-    "name": "至尊护戒宝盒",
+    "name": "至尊护符宝盒",
     "des": "打开可获得，以下物品",
     "isBag": true,
     "type": "item",
@@ -9469,8 +9498,9 @@
     "coin": 1500000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge",
-    "source2": "lottery_bf"
+    "source1": "gift",
+    "source2": "lottery_bf",
+    "source3": "warHorn"
   },
   "303006010": {
     "name": "合击自选箱",
@@ -9483,7 +9513,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "304005001": {
     "name": "橙色宝石自选箱",
@@ -9496,7 +9526,7 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "304006001": {
     "name": "红色宝石自选箱",
@@ -9509,7 +9539,7 @@
     "coin": 10000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "304007001": {
     "name": "技能宝石自选箱",
@@ -9522,11 +9552,11 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305010100": {
-    "name": "十星烈焰领主",
-    "des": "可获得十星烈焰领主",
+    "name": "十星普莉希拉",
+    "des": "可获得十星普莉希拉",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9535,11 +9565,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305010200": {
-    "name": "二十星烈焰领主",
-    "des": "可获得二十星烈焰领主",
+    "name": "二十星普莉希拉",
+    "des": "可获得二十星普莉希拉",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9548,11 +9578,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305020100": {
-    "name": "十星炎龙骑士",
-    "des": "可获得十星炎龙骑士",
+    "name": "十星梅莉莎",
+    "des": "可获得十星梅莉莎",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9561,11 +9591,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305020200": {
-    "name": "二十星炎龙骑士",
-    "des": "可获得二十星炎龙骑士",
+    "name": "二十星梅莉莎",
+    "des": "可获得二十星梅莉莎",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9574,11 +9604,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305030100": {
-    "name": "十星火焰贤者",
-    "des": "可获得十星火焰贤者",
+    "name": "十星菲奥娜",
+    "des": "可获得十星菲奥娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9587,11 +9617,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305030200": {
-    "name": "二十星火焰贤者",
-    "des": "可获得二十星火焰贤者",
+    "name": "二十星菲奥娜",
+    "des": "可获得二十星菲奥娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9600,11 +9630,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305040100": {
-    "name": "十星炎魔之刃",
-    "des": "可获得十星炎魔之刃",
+    "name": "十星特蕾西",
+    "des": "可获得十星特蕾西",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9613,11 +9643,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305040200": {
-    "name": "二十星炎魔之刃",
-    "des": "可获得二十星炎魔之刃",
+    "name": "二十星特蕾西",
+    "des": "可获得二十星特蕾西",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9626,11 +9656,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305050100": {
-    "name": "十星火焰吟唱者",
-    "des": "可获得十星火焰吟唱者",
+    "name": "十星艾琳",
+    "des": "可获得十星艾琳",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9639,11 +9669,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305050200": {
-    "name": "二十星火焰吟唱者",
-    "des": "可获得二十星火焰吟唱者",
+    "name": "二十星艾琳",
+    "des": "可获得二十星艾琳",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9652,11 +9682,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305060100": {
-    "name": "十星人鱼公主",
-    "des": "可获得十星人鱼公主",
+    "name": "十星莉莉丝",
+    "des": "可获得十星莉莉丝",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9665,11 +9695,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305060200": {
-    "name": "二十星人鱼公主",
-    "des": "可获得二十星人鱼公主",
+    "name": "二十星莉莉丝",
+    "des": "可获得二十星莉莉丝",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9678,11 +9708,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305070100": {
-    "name": "十星炎之舞者",
-    "des": "可获得十星炎之舞者",
+    "name": "十星心朵拉",
+    "des": "可获得十星心朵拉",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9691,11 +9721,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305070200": {
-    "name": "二十星炎之舞者",
-    "des": "可获得二十星炎之舞者",
+    "name": "二十星心朵拉",
+    "des": "可获得二十星心朵拉",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9704,11 +9734,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305080100": {
-    "name": "十星九尾巫女",
-    "des": "可获得十星九尾巫女",
+    "name": "十星芙丽雅",
+    "des": "可获得十星芙丽雅",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9717,11 +9747,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305080200": {
-    "name": "二十星九尾巫女",
-    "des": "可获得二十星九尾巫女",
+    "name": "二十星芙丽雅",
+    "des": "可获得二十星芙丽雅",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9730,11 +9760,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305130100": {
-    "name": "十星炎魔女皇",
-    "des": "可获得十星炎魔女皇",
+    "name": "十星安娜贝尔",
+    "des": "可获得十星安娜贝尔",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9743,11 +9773,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305130200": {
-    "name": "二十星炎魔女皇",
-    "des": "可获得二十星炎魔女皇",
+    "name": "二十星安娜贝尔",
+    "des": "可获得二十星安娜贝尔",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9756,11 +9786,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305140100": {
-    "name": "十星圣火祭师",
-    "des": "可获得十星圣火祭师",
+    "name": "十星卡蕾娜",
+    "des": "可获得十星卡蕾娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -9769,11 +9799,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305140200": {
-    "name": "二十星圣火祭师",
-    "des": "可获得二十星圣火祭师",
+    "name": "二十星卡蕾娜",
+    "des": "可获得二十星卡蕾娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -9782,7 +9812,7 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305508010": {
     "name": "橙色装备自选箱",
@@ -9795,7 +9825,7 @@
     "coin": 2150000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "305512010": {
     "name": "红色装备自选箱",
@@ -9808,7 +9838,7 @@
     "coin": 17500000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005001": {
     "name": "控制英雄自选箱",
@@ -9821,7 +9851,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005002": {
     "name": "输出英雄自选箱",
@@ -9834,7 +9864,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005003": {
     "name": "辅助英雄自选箱",
@@ -9847,7 +9877,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005004": {
     "name": "精选英雄自选箱",
@@ -9860,7 +9890,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005005": {
     "name": "治疗英雄自选箱",
@@ -9873,7 +9903,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005006": {
     "name": "肉盾英雄自选箱",
@@ -9886,7 +9916,7 @@
     "coin": 15000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005007": {
     "name": "梦幻开局自选箱",
@@ -9900,7 +9930,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "daiji",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306005008": {
     "name": "传说自选箱",
@@ -9915,8 +9945,8 @@
     "quality": 5
   },
   "306005101": {
-    "name": "星蓝稀有自选箱",
-    "des": "黑曜限定自选箱,开启选择以下物品中的一个",
+    "name": "苍蓝稀有自选箱",
+    "des": "暗影限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9927,8 +9957,8 @@
     "quality": 5
   },
   "306005201": {
-    "name": "苍翠稀有自选箱",
-    "des": "苍翠限定自选箱,开启选择以下物品中的一个",
+    "name": "紫耀稀有自选箱",
+    "des": "紫耀限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9939,8 +9969,8 @@
     "quality": 5
   },
   "306005301": {
-    "name": "业红稀有自选箱",
-    "des": "业红限定自选箱,开启选择以下物品中的一个",
+    "name": "赤炎稀有自选箱",
+    "des": "赤炎限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9951,8 +9981,8 @@
     "quality": 5
   },
   "306005401": {
-    "name": "黑曜稀有自选箱",
-    "des": "黑曜限定自选箱,开启选择以下物品中的一个",
+    "name": "暗影稀有自选箱",
+    "des": "暗影限定自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9975,8 +10005,8 @@
     "quality": 5
   },
   "306010101": {
-    "name": "星蓝十星自选箱",
-    "des": "星蓝十星自选箱,开启选择以下物品中的一个",
+    "name": "苍蓝十星自选箱",
+    "des": "苍蓝十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -9986,11 +10016,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306010201": {
-    "name": "苍翠十星自选箱",
-    "des": "苍翠十星自选箱,开启选择以下物品中的一个",
+    "name": "紫耀十星自选箱",
+    "des": "紫耀十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10000,11 +10030,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306010301": {
-    "name": "业红十星自选箱",
-    "des": "业红十星自选箱,开启选择以下物品中的一个",
+    "name": "赤炎十星自选箱",
+    "des": "赤炎十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10014,11 +10044,11 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306010401": {
-    "name": "黑曜十星自选箱",
-    "des": "黑曜十星自选箱,开启选择以下物品中的一个",
+    "name": "暗影十星自选箱",
+    "des": "暗影十星自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10028,7 +10058,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "306010501": {
     "name": "十星英雄自选箱",
@@ -10042,7 +10072,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "307001001": {
     "name": "超级材料自选箱",
@@ -10056,24 +10086,24 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
-    "source1": "recharge"
+    "source1": "gift"
   },
   "309400001": {
-    "name": "橙色微光自选箱",
-    "des": "橙色微光自选箱,开启选择以下物品中的一个",
+    "name": "橙色符文自选箱",
+    "des": "橙色符文自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
     "arg": "[\"9040040:1\",\"9040080:1\",\"9040090:1\",\"9040110:1\",\"9040150:1\",\"9040151:1\",\"9040160:1\",\"9040170:1\",\"9040200:1\",\"9040240:1\"]",
-    "gold": 2000,
-    "coin": 10000000,
+    "gold": 1000,
+    "coin": 5000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "309500001": {
-    "name": "红色微光自选箱",
-    "des": "红色微光自选箱,开启选择以下物品中的一个",
+    "name": "红色符文自选箱",
+    "des": "红色符文自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10082,11 +10112,11 @@
     "coin": 25000000,
     "buyNum": 1,
     "quality": 6,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "309600001": {
-    "name": "金色微光自选箱",
-    "des": "金色微光自选箱,开启选择以下物品中的一个",
+    "name": "金色符文自选箱",
+    "des": "金色符文自选箱,开启选择以下物品中的一个",
     "isBag": true,
     "type": "item",
     "useType": "optional",
@@ -10095,7 +10125,7 @@
     "coin": 100000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "400010100": {
     "name": "初级攻击宝石",
@@ -10104,7 +10134,7 @@
     "type": "stone",
     "quality": 2,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "extract"
   },
   "400010101": {
@@ -10131,7 +10161,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400010201": {
     "name": "中级攻击宝石",
@@ -10171,7 +10201,7 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_ancient",
     "source4": "extract"
   },
@@ -10227,7 +10257,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400010401": {
     "name": "顶级攻击宝石",
@@ -10296,7 +10326,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400010501": {
@@ -10390,7 +10420,7 @@
     "quality": 7,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400010601": {
@@ -10483,7 +10513,7 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "extract"
   },
   "400020101": {
@@ -10510,7 +10540,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400020201": {
     "name": "中级生命宝石",
@@ -10550,7 +10580,7 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_ancient",
     "source4": "extract"
   },
@@ -10606,7 +10636,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400020401": {
     "name": "顶级生命宝石",
@@ -10675,7 +10705,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400020501": {
     "name": "至尊生命宝石",
@@ -10768,7 +10798,7 @@
     "quality": 7,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400020601": {
@@ -10861,7 +10891,7 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "extract"
   },
   "400030101": {
@@ -10888,7 +10918,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400030201": {
     "name": "中级物防玉石",
@@ -10928,7 +10958,7 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_ancient",
     "source4": "extract"
   },
@@ -10984,7 +11014,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400030401": {
     "name": "顶级物防玉石",
@@ -11053,7 +11083,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400030501": {
@@ -11147,7 +11177,7 @@
     "quality": 7,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400030601": {
@@ -11240,7 +11270,7 @@
     "buyNum": 1,
     "quality": 2,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "extract"
   },
   "400040101": {
@@ -11267,7 +11297,7 @@
     "buyNum": 1,
     "quality": 3,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400040201": {
     "name": "中级法防玉石",
@@ -11307,7 +11337,7 @@
     "buyNum": 1,
     "quality": 4,
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_ancient",
     "source4": "extract"
   },
@@ -11363,7 +11393,7 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400040401": {
     "name": "顶级法防玉石",
@@ -11432,7 +11462,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400040501": {
     "name": "至尊法防玉石",
@@ -11525,7 +11555,7 @@
     "quality": 7,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge",
+    "source2": "gift",
     "source3": "shop_crossTeamPK"
   },
   "400040601": {
@@ -11619,7 +11649,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400051101": {
     "name": "破天逐月",
@@ -11656,7 +11686,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400052101": {
     "name": "降淬之辉",
@@ -11693,7 +11723,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400053101": {
     "name": "绝处逢生",
@@ -11730,7 +11760,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400054101": {
     "name": "致死压制",
@@ -11767,7 +11797,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400061101": {
     "name": "精灵庇佑",
@@ -11804,7 +11834,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400062101": {
     "name": "神圣干涉",
@@ -11841,7 +11871,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400063101": {
     "name": "霜龙守护",
@@ -11878,7 +11908,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400064101": {
     "name": "龙炎护体",
@@ -11915,7 +11945,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400071101": {
     "name": "无尽怒火",
@@ -11952,7 +11982,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400072101": {
     "name": "祝福导言",
@@ -11989,7 +12019,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400073101": {
     "name": "崩雷之怒",
@@ -12026,7 +12056,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400074101": {
     "name": "生生不息",
@@ -12063,7 +12093,7 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "pit",
-    "source2": "recharge"
+    "source2": "gift"
   },
   "400081101": {
     "name": "天神降临",
@@ -12090,8 +12120,8 @@
     "effects": "baowu"
   },
   "405010100": {
-    "name": "十星光明祭司",
-    "des": "可获得十星光明祭司",
+    "name": "十星海伦娜",
+    "des": "可获得十星海伦娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12100,11 +12130,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405010200": {
-    "name": "二十星光明祭司",
-    "des": "可获得二十星光明祭司",
+    "name": "二十星海伦娜",
+    "des": "可获得二十星海伦娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12113,11 +12143,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405020100": {
-    "name": "十星审判天使",
-    "des": "可获得十星审判天使",
+    "name": "十星芙蕾雅",
+    "des": "可获得十星芙蕾雅",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12126,11 +12156,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405020200": {
-    "name": "二十星审判天使",
-    "des": "可获得二十星审判天使",
+    "name": "二十星芙蕾雅",
+    "des": "可获得二十星芙蕾雅",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12139,11 +12169,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405030100": {
-    "name": "十星美艳女王",
-    "des": "可获得十星美艳女王",
+    "name": "十星南丁格",
+    "des": "可获得十星南丁格",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12152,11 +12182,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405030200": {
-    "name": "二十星美艳女王",
-    "des": "可获得二十星美艳女王",
+    "name": "二十星南丁格",
+    "des": "可获得二十星南丁格",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12165,11 +12195,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405040100": {
-    "name": "十星光明勇者",
-    "des": "可获得十星光明勇者",
+    "name": "十星阿尔瑟雅",
+    "des": "可获得十星阿尔瑟雅",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12178,11 +12208,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405040200": {
-    "name": "二十星光明勇者",
-    "des": "可获得二十星光明勇者",
+    "name": "二十星阿尔瑟雅",
+    "des": "可获得二十星阿尔瑟雅",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12191,11 +12221,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405050100": {
-    "name": "十星深渊猎魔人",
-    "des": "可获得十星深渊猎魔人",
+    "name": "十星卡莉娜",
+    "des": "可获得十星卡莉娜",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12204,11 +12234,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405050200": {
-    "name": "二十星深渊猎魔人",
-    "des": "可获得二十星深渊猎魔人",
+    "name": "二十星卡莉娜",
+    "des": "可获得二十星卡莉娜",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12217,11 +12247,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405060100": {
-    "name": "十星龙族公主",
-    "des": "可获得十星龙族公主",
+    "name": "十星萝莉",
+    "des": "可获得十星萝莉",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12230,11 +12260,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405060200": {
-    "name": "二十星龙族公主",
-    "des": "可获得二十星龙族公主",
+    "name": "二十星萝莉",
+    "des": "可获得二十星萝莉",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12243,11 +12273,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405070100": {
-    "name": "十星深渊蛇妖",
-    "des": "可获得十星深渊蛇妖",
+    "name": "十星南华",
+    "des": "可获得十星南华",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12256,11 +12286,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405070200": {
-    "name": "二十星深渊蛇妖",
-    "des": "可获得二十星深渊蛇妖",
+    "name": "二十星南华",
+    "des": "可获得二十星南华",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12269,11 +12299,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405080100": {
-    "name": "十星深渊诅咒者",
-    "des": "可获得十星深渊诅咒者",
+    "name": "十星伊莎贝尔",
+    "des": "可获得十星伊莎贝尔",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12282,11 +12312,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405080200": {
-    "name": "二十星深渊诅咒者",
-    "des": "可获得二十星深渊诅咒者",
+    "name": "二十星伊莎贝尔",
+    "des": "可获得二十星伊莎贝尔",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12295,11 +12325,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405130100": {
-    "name": "十星月神舞姬",
-    "des": "可获得十星月神舞姬",
+    "name": "十星飞鸟",
+    "des": "可获得十星飞鸟",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12308,11 +12338,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405130200": {
-    "name": "二十星月神舞姬",
-    "des": "可获得二十星月神舞姬",
+    "name": "二十星飞鸟",
+    "des": "可获得二十星飞鸟",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12321,11 +12351,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405140100": {
-    "name": "十星深渊化身",
-    "des": "可获得十星深渊化身",
+    "name": "十星丽迪丝",
+    "des": "可获得十星丽迪丝",
     "isBag": true,
     "type": "hero",
     "useType": 10,
@@ -12334,11 +12364,11 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   },
   "405140200": {
-    "name": "二十星深渊化身",
-    "des": "可获得二十星深渊化身",
+    "name": "二十星丽迪丝",
+    "des": "可获得二十星丽迪丝",
     "isBag": true,
     "type": "hero",
     "useType": 20,
@@ -12347,6 +12377,6 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
-    "source1": "recharge"
+    "source1": "gift"
   }
 }
