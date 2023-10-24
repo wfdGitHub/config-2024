@@ -1206,7 +1206,7 @@
   "8160": {
     "name": "守护套装",
     "des": "进入战斗时，使我方全体获得自身最大生命值25%的护盾,持续1回合",
-    "key1": "maga_buff1",
+    "key1": "first_realm_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
   },
   "8170": {
@@ -3293,41 +3293,43 @@
   },
   "50023004": {
     "name": "进化技能2",
-    "des": "破浪效果持续至战斗结束，使用技能时，每层破浪效果额外造成目标3%生命上限的伤害。",
-    "key1": "buffDuration",
-    "value1": 99,
-    "key2": "polang_power",
-    "value2": 0.03
+    "des": "普通攻击100%附加减速效果，击杀目标后吞噬其剩余怒气值",
+    "key1": "kill_rob_anger",
+    "value1": true,
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50023005": {
     "name": "进化技能3",
-    "des": "技能伤害额外增加35%,每击杀一个英雄，获得3层破浪效果，",
-    "key1": "kill_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":5,\"buffRate\":1}",
-    "key2": "skill_attack_amp",
-    "value2": 0.35
+    "des": "技能伤害额外增加35%,每击杀一个英雄，直接伤害击杀目标后增加自身20%暴击率和20%的暴击伤害",
+    "key1": "skill_attack_amp",
+    "value1": 0.35,
+    "key2": "kill_crit",
+    "value2": 0.2,
+    "key3": "kill_slay",
+    "value3": 0.2
   },
   "50023006": {
     "name": "珍兽专属天赋",
-    "des": "每回合受到的第一次攻击必定闪避。破浪效果叠加至20层时，进入狂暴状态，驱散自身所有异常状态，免疫控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
-    "key1": "polang_buff",
-    "value1": "kb_polang",
-    "key2": "dodgeFirst",
-    "value2": true
+    "des": "释放技能后偷取目标20%攻击力持续2回合，并降低目标1点怒气值。",
+    "key1": "suckAtk",
+    "value1": 0.2,
+    "key2": "skill_less_anger",
+    "value2": 1
   },
   "50024004": {
     "name": "进化技能2",
-    "des": "生命额外增加20%，受技能攻击时有100%概率给攻击者及其周围没有灼烧状态的敌方，附加灼烧状态，持续2回合",
+    "des": "生命额外增加20%，受技能攻击时有65%概率给攻击者及其周围没有灼烧状态的敌方，附加灼烧状态，持续2回合",
     "key1": "self_maxHP_add",
     "value1": 0.2,
     "key2": "hit_skill_buff",
-    "value2": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1,\"buff_tg\":\"team_adjoin\"}"
+    "value2": "{\"buffId\":\"burn\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65,\"buff_tg\":\"team_adjoin\"}"
   },
   "50024005": {
     "name": "进化技能3",
-    "des": "每次行动后回复生命上限的10%的血量，受到直接伤害反弹65%的伤害，并有35%的概率晕眩攻击目标。",
+    "des": "每次行动后回复生命上限的10%的血量，受到直接伤害反弹50%的伤害，并有35%的概率晕眩攻击目标。",
     "key1": "hit_rebound",
-    "value1": 0.65,
+    "value1": 0.5,
     "key2": "action_heal",
     "value2": 0.1,
     "key3": "hit_buff",
@@ -3448,17 +3450,19 @@
   },
   "50102004": {
     "name": "进化技能2",
-    "des": "炙热光环生效时对目标附加灼烧状态",
-    "key1": "heat_halo_burn",
-    "value1": true
+    "des": "普通攻击有65%概率额外附加敌方1层灼烧",
+    "key1": "normal_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
   },
   "50102005": {
     "name": "进化技能3",
-    "des": "炙热光环伤害提升为200%攻击力，每次造成伤害时降低目标1点怒气",
-    "key1": "skill_buff",
-    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
-    "key2": "heat_halo_less",
-    "value2": 1
+    "des": "灼烧持续伤害增加至自身攻击50%，攻击灼烧目标时，伤害增加50%。",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}",
+    "key2": "burn_att_change_skill",
+    "value2": "{\"amplify\":0.5}",
+    "key3": "burn_att_change_normal",
+    "value3": "{\"amplify\":0.5}"
   },
   "50103004": {
     "name": "进化技能2",
@@ -3488,15 +3492,15 @@
   },
   "50105004": {
     "name": "进化技能2",
-    "des": "释放技能时连击概率提升至50%,触发连击技能时，额外造成目标最大生命值10%的伤害",
+    "des": "释放技能时连击概率提升至65%,触发连击技能时，额外造成目标最大生命值8%的伤害",
     "key1": "add_anger_maxHp",
-    "value1": 0.1,
+    "value1": 0.08,
     "key2": "skill_combo",
-    "value2": 0.5
+    "value2": 0.65
   },
   "50105005": {
     "name": "进化技能3",
-    "des": "回合结束时，每层破浪效果恢复自身5%的生命值",
+    "des": "回合结束时，每层剑舞效果恢复自身5%的生命值",
     "key1": "polang_heal",
     "value1": 0.05
   },
@@ -3604,11 +3608,13 @@
   },
   "50113005": {
     "name": "进化技能3",
-    "des": "闪避率增加20%，击杀目标后，为自身添加闪避祝福",
+    "des": "闪避率增加20%，击杀目标后，为自身添加闪避祝福，每次闪避后为自身附加1层反制印记",
     "key1": "dodgeRate",
     "value1": 0.2,
     "key2": "kill_buff",
-    "value2": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "key3": "shanbi_fanzhi",
+    "value3": true
   },
   "50114004": {
     "name": "进化技能2",
@@ -4106,9 +4112,9 @@
     "key1": "skill_heal_maxHp",
     "value1": 0.2,
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key3": "skill_buff",
-    "value3": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value3": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50509004": {
     "name": "进化技能2",
