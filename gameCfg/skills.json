@@ -2314,20 +2314,20 @@
     "specie": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方随机1人造成160%攻击的物理伤害",
+    "des": "对敌方随机1人造成150%攻击的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 1.6
+    "mul": 1.5
   },
   "50504002": {
     "name": "蛮力",
     "specie": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机1人造成400%攻击的物理伤害，并有65%的概率附加破甲效果。",
+    "des": "对敌方随机1人造成360%攻击的物理伤害，并有65%的概率附加破甲效果。",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4,
+    "mul": 3.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.65}"
   },
