@@ -3269,12 +3269,6 @@
   },
   "50022004": {
     "name": "进化技能2",
-    "des": "炙热光环生效时对目标附加灼烧状态",
-    "key1": "heat_halo_burn",
-    "value1": true
-  },
-  "50022005": {
-    "name": "进化技能3",
     "des": "受到灼烧状态的敌人攻击时，受到的直接伤害降低30%,被灼烧状态下的敌人攻击时，回复自身生命上限8%血量。",
     "key1": "burn_hit_reduction",
     "value1": 0.3,
@@ -3282,6 +3276,12 @@
     "value2": 0.08,
     "key3": "normal_burn_turn_heal",
     "value3": 0.08
+  },
+  "50022005": {
+    "name": "进化技能3",
+    "des": "阵亡后进入浴火重生状态，下回合有20%概率满血复活，每过1回合复活概率增加10%，第5回合必定复活",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"birth_fire\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":-1,\"buffRate\":1}"
   },
   "50022006": {
     "name": "珍兽专属天赋",
@@ -3430,9 +3430,10 @@
     "des": "释放技能时,附加上回合所受伤害100%平摊到所有宝可梦身上，若受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡，此技能触发后冷却5回合.",
     "key1": "damage_save",
     "value1": true,
-    "key2": "died_buff",
-    "value2": "passiveArg1",
-    "key3": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "key2": "passive",
+    "value2": "died_buff",
+    "key3": "passiveArg",
+    "value3": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50101004": {
     "name": "进化技能2",
