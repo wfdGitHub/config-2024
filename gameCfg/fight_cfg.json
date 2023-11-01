@@ -1,29 +1,28 @@
 {
-  "checkPoint": {
-    "name": "征战关卡",
+  "checkpoints": {
+    "name": "主线关卡",
     "bg": 1,
-    "type": "pve",
-    "manualState": true
-  },
-  "endless": {
-    "name": "无尽试炼",
-    "bg": 2,
     "type": "pve",
     "jumpLimit": true
   },
+  "endless": {
+    "name": "无尽试炼",
+    "bg": 7,
+    "type": "pve"
+  },
   "beherrscher": {
-    "name": "无双争霸",
-    "bg": 3,
+    "name": "王座殿堂",
+    "bg": 11,
     "type": "pvp"
   },
   "ancient": {
-    "name": "远古战场",
-    "bg": 4,
+    "name": "巅峰对决",
+    "bg": 11,
     "type": "pvp"
   },
   "exercise": {
-    "name": "沙盘演武",
-    "bg": 2,
+    "name": "模拟对战",
+    "bg": 4,
     "type": "pve"
   },
   "areaBoss": {
@@ -32,102 +31,154 @@
     "type": "pve"
   },
   "zhulu": {
-    "name": "皇陵探险",
-    "bg": 6,
+    "name": "魔王遗迹",
+    "bg": 3,
     "type": "pve"
   },
-  "secretChallenge": {
-    "name": "英雄试炼",
-    "bg": 2,
+  "mysterious": {
+    "name": "时空裂缝",
+    "bg": 6,
     "type": "pve",
-    "manualState": true
+    "jumpLimit": true
   },
   "extremity": {
-    "name": "极限挑战",
-    "bg": 2,
+    "name": "巨龙巢穴",
+    "bg": 5,
     "type": "pve",
     "jumpLimit": true
   },
   "areaTrial": {
-    "name": "血战华容",
+    "name": "黑暗虚影",
+    "bg": 5,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "ttttower": {
+    "name": "试炼塔",
+    "bg": 8,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "tower_realm1": {
+    "name": "苍蓝之塔",
+    "bg": 8,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "tower_realm2": {
+    "name": "紫耀之塔",
+    "bg": 6,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "tower_realm3": {
+    "name": "赤炎之塔",
+    "bg": 10,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "tower_realm4": {
+    "name": "暗影之塔",
+    "bg": 3,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "dailyFb": {
+    "name": "日常副本",
     "bg": 2,
     "type": "pve",
     "jumpLimit": true
   },
-  "tower": {
-    "name": "乱世之路",
-    "bg": 1,
+  "coin": {
+    "name": "日常副本",
+    "bg": 2,
     "type": "pve",
-    "manualState": true
+    "jumpLimit": true
   },
-  "tower_realm": {
-    "name": "阵营塔",
-    "bg": 1,
+  "hero": {
+    "name": "日常副本",
+    "bg": 2,
     "type": "pve",
-    "manualState": true
+    "jumpLimit": true
   },
-  "dailyFb": {
-    "name": "日常战场",
-    "bg": 1,
+  "art": {
+    "name": "日常副本",
+    "bg": 2,
     "type": "pve",
-    "manualState": true
+    "jumpLimit": true
+  },
+  "equip": {
+    "name": "日常副本",
+    "bg": 2,
+    "type": "pve",
+    "jumpLimit": true
+  },
+  "book": {
+    "name": "日常副本",
+    "bg": 2,
+    "type": "pve",
+    "jumpLimit": true
   },
   "crossTop": {
     "name": "王者巅峰",
-    "bg": 3,
+    "bg": 10,
     "type": "pvp"
   },
   "escort": {
-    "name": "木牛流马",
-    "bg": 3,
+    "name": "欢乐夺宝",
+    "bg": 4,
     "type": "pvp"
   },
   "areaChallenge": {
-    "name": "千里走单骑",
+    "name": "新服挑战",
     "bg": 2,
-    "type": "pve",
-    "jumpLimit": true
-  },
-  "areaChallengeSix": {
-    "name": "千里走单骑",
-    "bg": 2,
-    "type": "pve",
-    "jumpLimit": true,
-    "manualState": true
+    "type": "pve"
   },
   "arena": {
     "name": "竞技场",
-    "bg": 3,
-    "type": "pvp"
+    "bg": 11,
+    "type": "pvp",
+    "jumpLimit": true
   },
   "crossPK": {
     "name": "跨服竞技",
-    "bg": 3,
+    "bg": 11,
     "type": "pvp"
   },
   "crossTeamPK": {
-    "name": "天命之战",
-    "bg": 3,
+    "name": "上古之战",
+    "bg": 11,
     "type": "pvp"
   },
   "guildFb": {
     "name": "同盟副本",
-    "bg": 5,
+    "bg": 4,
     "type": "pve"
   },
   "guildAuction": {
     "name": "夺宝竞拍",
-    "bg": 6,
+    "bg": 9,
     "type": "pve"
   },
   "guildPK": {
     "name": "同盟会武",
-    "bg": 5,
+    "bg": 9,
     "type": "pvp"
   },
   "guildCity": {
     "name": "攻城战",
-    "bg": 5,
+    "bg": 9,
     "type": "pvp"
+  },
+  "worldBoss": {
+    "name": "世界BOSS",
+    "bg": 5,
+    "type": "pve"
+  },
+  "invade": {
+    "name": "魔物入侵",
+    "bg": 7,
+    "type": "pve",
+    "jumpLimit": true
   }
 }
