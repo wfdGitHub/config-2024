@@ -9806,32 +9806,32 @@
     "award": "202:1000"
   },
   "601001": {
-    "title": "快速作战10次",
+    "title": "快速作战30次",
     "refresh": "mewtwo",
     "type": "quick",
-    "value": 10,
-    "award": "1000260:60"
+    "value": 30,
+    "award": "601001:1"
   },
   "601002": {
-    "title": "玩家达到35级",
+    "title": "玩家达到50级",
     "refresh": "mewtwo",
     "type": "loadLv",
-    "value": 35,
-    "award": "1000260:60"
+    "value": 50,
+    "award": "601001:1"
   },
   "601003": {
     "title": "激活作战特权",
     "refresh": "mewtwo",
     "type": "buy_kszz",
     "value": 1,
-    "award": "1000260:60"
+    "award": "601001:1"
   },
   "602001": {
     "title": "战力提升至100万",
     "refresh": "mewtwo",
     "type": "totalCe",
     "value": 1000000,
-    "award": "1000260:120"
+    "award": "601002:1"
   },
   "602002": {
     "title": "主线100关",
@@ -9839,136 +9839,136 @@
     "type": "checkpoints",
     "arg": 100,
     "value": 1,
-    "award": "1000260:120"
+    "award": "601002:1"
   },
   "602003": {
     "title": "激活至尊特权",
     "refresh": "mewtwo",
     "type": "buy_zztq",
     "value": 1,
-    "award": "1000260:120"
+    "award": "601002:1"
   },
   "603001": {
     "title": "高级招募1000次",
     "refresh": "mewtwo",
     "type": "recruit_great",
     "value": 1000,
-    "award": "1000260:180"
+    "award": "601003:1"
   },
   "603002": {
     "title": "解锁3个女神",
     "refresh": "mewtwo",
     "type": "beauty_num",
     "value": 3,
-    "award": "1000260:180"
+    "award": "601003:1"
   },
   "603003": {
     "title": "激活战令",
     "refresh": "mewtwo",
     "type": "buy_zl",
     "value": 1,
-    "award": "1000260:180"
+    "award": "601003:1"
   },
   "700100": {
-    "title": "高级招募30次",
-    "refresh": "default",
-    "type": "recruit_great",
-    "value": 30,
-    "award": "1000080:10",
-    "first": true
-  },
-  "700101": {
     "title": "高级招募100次",
     "refresh": "default",
     "type": "recruit_great",
     "value": 100,
-    "award": "1000080:10",
+    "award": "1000080:100",
+    "first": true
+  },
+  "700101": {
+    "title": "高级招募500次",
+    "refresh": "default",
+    "type": "recruit_great",
+    "value": 500,
+    "award": "601006:1",
     "first": true
   },
   "700102": {
-    "title": "高级招募300次",
+    "title": "高级招募1000次",
     "refresh": "default",
     "type": "recruit_great",
-    "value": 300,
-    "award": "1000080:10",
+    "value": 1000,
+    "award": "601007:1",
     "first": true
   },
   "700103": {
-    "title": "招募5个五星英雄",
+    "title": "招募50个五星英雄",
     "refresh": "default",
     "type": "hero",
     "arg": 5,
-    "value": 5,
-    "award": "1000080:10",
+    "value": 50,
+    "award": "1000080:100",
     "first": true
   },
   "700104": {
-    "title": "招募20个五星英雄",
-    "refresh": "default",
-    "type": "hero",
-    "arg": 5,
-    "value": 20,
-    "award": "1000080:10",
-    "first": true
-  },
-  "700105": {
     "title": "招募100个五星英雄",
     "refresh": "default",
     "type": "hero",
     "arg": 5,
     "value": 100,
-    "award": "1000080:10",
+    "award": "601006:1",
+    "first": true
+  },
+  "700105": {
+    "title": "招募200个五星英雄",
+    "refresh": "default",
+    "type": "hero",
+    "arg": 5,
+    "value": 200,
+    "award": "601007:1",
     "first": true
   },
   "700200": {
-    "title": "快速作战4次",
+    "title": "快速作战10次",
     "refresh": "default",
     "type": "quick",
-    "value": 4,
-    "award": "101100003:1",
+    "value": 10,
+    "award": "1000080:100",
     "first": true
   },
   "700201": {
-    "title": "快速作战8次",
+    "title": "快速作战30次",
     "refresh": "default",
     "type": "quick",
-    "value": 8,
-    "award": "101100003:1",
+    "value": 30,
+    "award": "601001:1",
     "first": true
   },
   "700202": {
-    "title": "快速作战20次",
+    "title": "快速作战50次",
     "refresh": "default",
     "type": "quick",
-    "value": 20,
-    "award": "101100003:1",
+    "value": 50,
+    "award": "601001:1",
     "first": true
   },
   "700203": {
-    "title": "冒险通关20关",
-    "refresh": "default",
-    "type": "checkpoints",
-    "arg": 20,
-    "value": 1,
-    "award": "101100003:1",
-    "first": true
-  },
-  "700204": {
-    "title": "冒险通关50关",
-    "refresh": "default",
-    "type": "checkpoints",
-    "arg": 50,
-    "value": 1,
-    "award": "101100003:1",
-    "first": true
-  },
-  "700205": {
     "title": "冒险通关100关",
     "refresh": "default",
     "type": "checkpoints",
     "arg": 100,
     "value": 1,
-    "award": "101100003:1",
+    "award": "1000080:100",
+    "first": true
+  },
+  "700204": {
+    "title": "冒险通关150关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 150,
+    "value": 1,
+    "award": "601001:1",
+    "first": true
+  },
+  "700205": {
+    "title": "冒险通关200关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 200,
+    "value": 1,
+    "award": "601001:1",
     "first": true
   },
   "700300": {
@@ -9977,7 +9977,7 @@
     "type": "heroLv",
     "arg": 150,
     "value": 1,
-    "award": "109300001:1",
+    "award": "1000080:100",
     "first": true
   },
   "700301": {
@@ -9986,7 +9986,7 @@
     "type": "heroLv",
     "arg": 210,
     "value": 1,
-    "award": "109300001:1",
+    "award": "601002:1",
     "first": true
   },
   "700302": {
@@ -9995,7 +9995,7 @@
     "type": "heroLv",
     "arg": 270,
     "value": 1,
-    "award": "109300001:1",
+    "award": "601002:1",
     "first": true
   },
   "700303": {
@@ -10003,7 +10003,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 3000000,
-    "award": "109300001:1",
+    "award": "1000080:100",
     "first": true
   },
   "700304": {
@@ -10011,7 +10011,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 4000000,
-    "award": "109300001:1",
+    "award": "601002:1",
     "first": true
   },
   "700305": {
@@ -10019,7 +10019,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 5000000,
-    "award": "109300001:1",
+    "award": "601002:1",
     "first": true
   },
   "700400": {
@@ -10027,7 +10027,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 1,
-    "award": "6050000:1",
+    "award": "6007000:10",
     "first": true
   },
   "700401": {
@@ -10035,7 +10035,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 2,
-    "award": "6050000:1",
+    "award": "6008000:10",
     "first": true
   },
   "700402": {
@@ -10043,7 +10043,7 @@
     "refresh": "default",
     "type": "beauty_num",
     "value": 3,
-    "award": "6050000:1",
+    "award": "601003:3",
     "first": true
   },
   "700403": {
@@ -10051,7 +10051,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 1000,
-    "award": "6050000:1",
+    "award": "6009000:100",
     "first": true
   },
   "700404": {
@@ -10059,7 +10059,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 3000,
-    "award": "6050000:1",
+    "award": "6008000:100",
     "first": true
   },
   "700405": {
@@ -10067,7 +10067,7 @@
     "refresh": "default",
     "type": "beauty_opinion",
     "value": 5000,
-    "award": "6050000:1",
+    "award": "601003:3",
     "first": true
   },
   "700500": {
@@ -10076,7 +10076,7 @@
     "type": "manor_lv",
     "arg": 3,
     "value": 1,
-    "award": "15200:1",
+    "award": "601004:1",
     "first": true
   },
   "700501": {
@@ -10085,7 +10085,7 @@
     "type": "manor_lv",
     "arg": 5,
     "value": 1,
-    "award": "15200:1",
+    "award": "601004:1",
     "first": true
   },
   "700502": {
@@ -10094,7 +10094,7 @@
     "type": "manor_lv",
     "arg": 7,
     "value": 1,
-    "award": "15200:1",
+    "award": "601004:1",
     "first": true
   },
   "700503": {
@@ -10102,7 +10102,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 300,
-    "award": "15200:1",
+    "award": "601005:1",
     "first": true
   },
   "700504": {
@@ -10110,7 +10110,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 500,
-    "award": "15200:1",
+    "award": "601005:1",
     "first": true
   },
   "700505": {
@@ -10118,7 +10118,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 800,
-    "award": "15200:1",
+    "award": "601005:1",
     "first": true
   },
   "721010": {
