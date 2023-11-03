@@ -3487,19 +3487,17 @@
   },
   "50102004": {
     "name": "进化技能2",
-    "des": "普通攻击有65%概率额外附加敌方1层灼烧",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
+    "des": "自身附加的灼烧伤害提高至攻击100%",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50102005": {
     "name": "进化技能3",
-    "des": "灼烧持续伤害增加至自身攻击50%，攻击灼烧目标时，伤害增加50%。",
-    "key1": "skill_buff1",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}",
-    "key2": "burn_att_change_skill",
-    "value2": "{\"amplify\":0.5}",
-    "key3": "burn_att_change_normal",
-    "value3": "{\"amplify\":0.5}"
+    "des": "攻击灼烧目标单位时，直接伤害增加50%。",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"amplify\":0.5}",
+    "key2": "burn_att_change_normal",
+    "value2": "{\"amplify\":0.5}"
   },
   "50103004": {
     "name": "进化技能2",
