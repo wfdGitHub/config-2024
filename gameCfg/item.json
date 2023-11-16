@@ -318,7 +318,9 @@
   "920": {
     "name": "龙珠",
     "des": "散落世界的传说宝珠，获取后可以在神龙哈啦少中提取神秘宝物。",
-    "type": "item",
+    "type": "currency",
+    "useType": "chest",
+    "arg": "shenlong_chest",
     "source1": "checkpoints",
     "source2": "gift"
   },
@@ -5781,12 +5783,6 @@
     "quality": 5,
     "effects": "baowu",
     "source1": "gift"
-  },
-  "701001": {
-    "name": "神龙哈啦少宝箱",
-    "useType": "chest",
-    "arg": "shenlong_chest",
-    "source1": "checkpoints"
   },
   "903000": {
     "name": "三星战士碎片",
