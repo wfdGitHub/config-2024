@@ -2520,9 +2520,9 @@
     "specie": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成152%的特殊伤害，并附加2层诅咒",
+    "des": "对敌方随机1至2个目标造成152%的特殊伤害，并附加2层诅咒",
     "damageType": "mag",
-    "targetType": "enemy_normal",
+    "targetType": "enemy_12",
     "mul": 1.52,
     "key1": "buff1",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
@@ -2532,9 +2532,9 @@
     "specie": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机双人造成223%的特殊伤害，并附加3层诅咒。",
+    "des": "对敌方随机2至3个目标造成223%的特殊伤害，并附加3层诅咒。",
     "damageType": "mag",
-    "targetType": "enemy_2",
+    "targetType": "enemy_23",
     "mul": 2.23,
     "key1": "buff1",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
@@ -3336,6 +3336,20 @@
     "mul": 4.3,
     "key1": "maxHP_damage",
     "value1": 0.2
+  },
+  "50610003": {
+    "name": "驱散隐身",
+    "specie": 8,
+    "anger": 4,
+    "type": "attack",
+    "des": "入场有55%概率驱散敌方全体隐身效果",
+    "damageType": "mag",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "dispel_sneak",
+    "value1": 0.55,
+    "key2": "dispel_sneak_buff",
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50611001": {
     "name": "龙尾",
