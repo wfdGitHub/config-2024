@@ -177,8 +177,8 @@
     "source1": "crossTeamPK"
   },
   "213": {
-    "name": "同盟贡献",
-    "des": "同盟贡献贡献",
+    "name": "联盟贡献",
+    "des": "联盟贡献贡献",
     "type": "currency",
     "gold": 0.4,
     "coin": 2000,
@@ -221,7 +221,7 @@
   },
   "230": {
     "name": "通灵卷轴",
-    "des": "可在同盟商店中兑换获得，用于激活兽魂",
+    "des": "可在联盟商店中兑换获得，用于激活兽魂",
     "type": "currency",
     "gold": 2000,
     "coin": 10000000,
@@ -243,19 +243,23 @@
   },
   "401": {
     "name": "技之精华",
-    "des": "技之精华，能够提升技忍战魂的属性加成，可通过技之试炼中获得。"
+    "des": "技之精华，能够提升技忍战魂的属性加成，可通过技之试炼中获得。",
+    "quality": 5
   },
   "402": {
     "name": "器之精华",
-    "des": "器之精华，能够提升器忍战魂的属性加成，可通过器之试炼中获得。"
+    "des": "器之精华，能够提升器忍战魂的属性加成，可通过器之试炼中获得。",
+    "quality": 5
   },
   "403": {
     "name": "奇之精华",
-    "des": "奇之精华，能够提升奇忍战魂的属性加成，可通过奇之试炼中获得。"
+    "des": "奇之精华，能够提升奇忍战魂的属性加成，可通过奇之试炼中获得。",
+    "quality": 5
   },
   "404": {
-    "name": "迷之精华",
-    "des": "迷之精华，能够提升迷忍战魂的属性加成，可通过之试炼中获得。"
+    "name": "密之精华",
+    "des": "密之精华，能够提升密忍战魂的属性加成，可通过之试炼中获得。",
+    "quality": 5
   },
   "501": {
     "name": "亲热天堂",
@@ -2255,7 +2259,7 @@
     "coin": 500000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "gift"
+    "source1": "endless"
   },
   "1000050": {
     "name": "进阶石",
@@ -2280,9 +2284,7 @@
     "coin": 1000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "baowu",
-    "source1": "shop_crossTop",
-    "source2": "gift"
+    "effects": "baowu"
   },
   "1000070": {
     "name": "初级卷轴",
@@ -2468,7 +2470,7 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
-    "source1": "gift"
+    "source1": "dailyFb"
   },
   "1000300": {
     "name": "奥义经验书",
@@ -2493,9 +2495,7 @@
     "coin": 3000000,
     "buyNum": 1,
     "quality": 5,
-    "source1": "shop_crossTop",
-    "source2": "gift",
-    "source3": "shop_crossTop"
+    "source1": "shop_crossTop"
   },
   "1000500": {
     "name": "改名卡",
@@ -2563,8 +2563,7 @@
     "gold": 1,
     "coin": 5000,
     "buyNum": 1,
-    "quality": 3,
-    "source1": "lottery_oh"
+    "quality": 3
   },
   "1000602": {
     "name": "欧皇卡",
