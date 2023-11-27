@@ -1402,7 +1402,7 @@
   },
   "50011001": {
     "name": "电击",
-    "specie": 1,
+    "specie": 13,
     "anger": 0,
     "type": "attack",
     "des": "使用带电的脸颊蹭蹭对手进行攻击，对敌方单体造成145%的特殊伤害，并附加感电",
@@ -1414,12 +1414,12 @@
   },
   "50011002": {
     "name": "电球",
-    "specie": 1,
+    "specie": 13,
     "anger": 4,
     "type": "attack",
     "des": "向敌方发出强力电击进行攻击，对敌方全体目标造成135%的特殊伤害，立即触发感电，有小概率再次释放技能",
     "damageType": "mag",
-    "targetType": "enemy_rand_12",
+    "targetType": "enemy_all",
     "mul": 1.35,
     "key1": "flash_settle",
     "value1": true,
@@ -1694,8 +1694,8 @@
     "name": "治愈",
     "specie": 17,
     "anger": 0,
-    "type": "attack",
-    "des": "对友方血量最低目标回复130%攻击力的生命值，给自身回怒",
+    "type": "heal",
+    "des": "对己方血量最低目标回复130%攻击力的生命值，给自身回怒",
     "targetType": "team_minHp_1",
     "mul": 1.73,
     "key1": "skill_anger_s",
@@ -1705,8 +1705,8 @@
     "name": "辅助力量",
     "specie": 14,
     "anger": 4,
-    "type": "attack",
-    "des": "对友方2到3个目标回复207%攻击力的生命值 ，释放技能后驱散目标1个减益效果，回全体1点怒气",
+    "type": "heal",
+    "des": "对己方2到3个目标回复207%攻击力的生命值 ，释放技能后驱散目标1个减益效果，回全体1点怒气",
     "targetType": "team_minHp_23",
     "mul": 2.43,
     "key1": "skill_anger_a",
@@ -1916,7 +1916,7 @@
     "anger": 0,
     "type": "heal",
     "des": "对友方血量最少目标回复100%攻击力的生命值",
-    "targetType": "friend_minHp_1",
+    "targetType": "team_minHp_1",
     "mul": 1
   },
   "50108002": {
@@ -1925,7 +1925,7 @@
     "anger": 4,
     "type": "heal",
     "des": "对友方血量最少目标回复225%攻击力的生命值，并附加60%攻击力的持续恢复，2回合",
-    "targetType": "friend_minHp_1",
+    "targetType": "team_minHp_1",
     "mul": 2.25,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
@@ -1961,7 +1961,7 @@
     "targetType": "enemy_normal",
     "mul": 2.93,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "50110001": {
     "name": "冲撞",
@@ -2442,26 +2442,24 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50304001": {
-    "name": "乱抓",
+    "name": "疗伤",
     "specie": 12,
     "anger": 0,
-    "type": "attack",
-    "des": "对敌方1到2个目标造成125%的特殊伤害",
-    "damageType": "mag",
-    "targetType": "enemy_rand_12",
-    "mul": 1.25
+    "type": "heal",
+    "des": "对友方血量最少的1到2个目标回复103%攻击力的生命值",
+    "targetType": "friend_minHp_12",
+    "mul": 1.03
   },
   "50304002": {
-    "name": "摇晃舞击",
+    "name": "治愈气泡",
     "specie": 12,
     "anger": 4,
-    "type": "attack",
-    "des": "对敌方2到3个目标造成203%的特殊伤害，并减少敌方1点怒气",
-    "damageType": "mag",
-    "targetType": "enemy_rand_23",
-    "mul": 2.03,
-    "key1": "skill_less_anger",
-    "value1": 1
+    "type": "heal",
+    "des": "对友方血量最少的2到3个目标回复163%攻击力的生命值,35%概率获得无敌盾，持续1回合",
+    "targetType": "friend_minHp_23",
+    "mul": 1.63,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50305001": {
     "name": "精神冲击",
@@ -2522,7 +2520,7 @@
     "type": "attack",
     "des": "对敌方随机1至2个目标造成152%的特殊伤害，并附加2层诅咒",
     "damageType": "mag",
-    "targetType": "enemy_12",
+    "targetType": "enemy_rand_12",
     "mul": 1.52,
     "key1": "buff1",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
@@ -2534,7 +2532,7 @@
     "type": "attack",
     "des": "对敌方随机2至3个目标造成223%的特殊伤害，并附加3层诅咒。",
     "damageType": "mag",
-    "targetType": "enemy_23",
+    "targetType": "enemy_rand_23",
     "mul": 2.23,
     "key1": "buff1",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
@@ -2578,24 +2576,26 @@
     "value2": true
   },
   "50309001": {
-    "name": "疗伤",
+    "name": "冰击",
     "specie": 15,
     "anger": 0,
     "type": "attack",
-    "des": "对友方血量最少的1到2个目标回复103%攻击力的生命值",
-    "targetType": "friend_minHp_12",
-    "mul": 1.03
+    "des": "对敌方1到2个目标造成125%的特殊伤害",
+    "damageType": "mag",
+    "targetType": "enemy_rand_12",
+    "mul": 1.25
   },
   "50309002": {
-    "name": "治愈气泡",
+    "name": "冰冻天地",
     "specie": 15,
     "anger": 4,
     "type": "attack",
-    "des": "对友方血量最少的2到3个目标回复163%攻击力的生命值,35%概率获得无敌盾，持续1回合",
-    "targetType": "friend_minHp_23",
-    "mul": 1.63,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
+    "des": "对敌方2到3个目标造成203%的特殊伤害，并减少敌方1点怒气",
+    "damageType": "mag",
+    "targetType": "enemy_rand_23",
+    "mul": 2.03,
+    "key1": "skill_less_anger",
+    "value1": 1
   },
   "50310001": {
     "name": "金属爪",
@@ -2952,7 +2952,7 @@
     "name": "妖精吸取",
     "specie": 14,
     "anger": 0,
-    "type": "attack",
+    "type": "heal",
     "des": "回复友方血量最低目标136%攻击的血量，并驱散目标1层减益",
     "targetType": "friend_minHp_1",
     "mul": 1.36,
@@ -3148,7 +3148,7 @@
     "name": "魔法治愈",
     "specie": 12,
     "anger": 0,
-    "type": "attack",
+    "type": "heal",
     "des": "对友方血量最低的2到3个目标，回复73%攻击力的生命值，并驱散我方1个减益效果。",
     "targetType": "team_minHp_23",
     "mul": 0.73,
@@ -3159,7 +3159,7 @@
     "name": "落英缤纷",
     "specie": 12,
     "anger": 4,
-    "type": "attack",
+    "type": "heal",
     "des": "对友方血量最低的3个目标，回复165%攻击力的生命值，解除目标控制，并驱散我方1个减益效果。",
     "targetType": "team_minHp_3",
     "mul": 1.65,

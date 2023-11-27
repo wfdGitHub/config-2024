@@ -4059,15 +4059,17 @@
   },
   "50304004": {
     "name": "进化技能2",
-    "des": "普通攻击可降低对应敌方目标1点怒气",
-    "key1": "normal_less_anger",
-    "value1": 1
+    "des": "每回合行动结束后，恢复生命值最少的目标攻击力80%血量",
+    "key1": "round_heal_type",
+    "value1": "team_minHp_1",
+    "key2": "round_heal_value",
+    "value2": 0.8
   },
   "50304005": {
     "name": "进化技能3",
-    "des": "入场时为自身添加50%最大生命值的伤害吸收盾，持续2回合",
+    "des": "入场时为随机目标释放一回合无敌盾",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50305004": {
     "name": "进化技能2",
@@ -4123,17 +4125,15 @@
   },
   "50309004": {
     "name": "进化技能2",
-    "des": "每回合行动结束后，恢复生命值最少的目标攻击力80%血量",
-    "key1": "round_heal_type",
-    "value1": "team_minHp_1",
-    "key2": "round_heal_value",
-    "value2": 0.8
+    "des": "普通攻击可降低对应敌方目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
   },
   "50309005": {
     "name": "进化技能3",
-    "des": "入场时为随机目标释放一回合无敌盾",
+    "des": "入场时为自身添加50%最大生命值的伤害吸收盾，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
   },
   "50310004": {
     "name": "进化技能2",
