@@ -109,7 +109,7 @@
     "exp": 200
   },
   "100013": {
-    "title": "完成1次宝藏森林",
+    "title": "完成1次飞行大赛",
     "refresh": "day",
     "type": "escort",
     "value": 1,
@@ -1257,6 +1257,24 @@
     "award": "202:100",
     "first": true
   },
+  "700106": {
+    "title": "主线通关第80关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 80,
+    "value": 1,
+    "award": "202:100",
+    "first": true
+  },
+  "700107": {
+    "title": "主线通关第100关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 100,
+    "value": 1,
+    "award": "7501:1",
+    "first": true
+  },
   "700200": {
     "title": "获得40家园积分",
     "refresh": "default",
@@ -1448,6 +1466,55 @@
     "value": 300000,
     "award": "202:100",
     "first": true
+  },
+  "700601": {
+    "title": "通关对战塔100层",
+    "refresh": "default",
+    "type": "tttLv",
+    "value": 100,
+    "award": "7502:1"
+  },
+  "700602": {
+    "title": "竞技场达到第1名",
+    "refresh": "default",
+    "type": "rank",
+    "value": 1,
+    "award": "7503:1"
+  },
+  "700603": {
+    "title": "竞技场达到第2名",
+    "refresh": "default",
+    "type": "rank",
+    "value": 2,
+    "award": "7504:1"
+  },
+  "700604": {
+    "title": "通关模拟对战5次",
+    "refresh": "default",
+    "type": "exercise",
+    "value": 5,
+    "award": "7508:1"
+  },
+  "700605": {
+    "title": "通关次元危机100关",
+    "refresh": "default",
+    "type": "area_trial",
+    "value": 100,
+    "award": "7518:1"
+  },
+  "700606": {
+    "title": "通关神秘洞窟5次",
+    "refresh": "default",
+    "type": "zhulu_pass",
+    "value": 5,
+    "award": "7519:1"
+  },
+  "700607": {
+    "title": "通关无尽试炼20次",
+    "refresh": "default",
+    "type": "endless_count",
+    "value": 20,
+    "award": "7520:1"
   },
   "800100": {
     "title": "登陆游戏1次",

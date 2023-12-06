@@ -1114,16 +1114,333 @@
     "source4": "cangbaotu",
     "icon": 4004
   },
-  "8990": {
-    "name": "矢志不渝",
-    "des": "矢志不渝,谨献给参与内测并对游戏做出重大贡献的玩家",
-    "type": "frame",
-    "rmb": 1000,
-    "arg": 8990,
-    "quality": 7,
-    "effects": "baowu",
-    "source1": "gift",
-    "icon": 8990
+  "7501": {
+    "name": "最强萌新",
+    "des": "通关主线100关奖励获得",
+    "type": "item",
+    "arg": 7501,
+    "quality": 5,
+    "source1": "checkpoints"
+  },
+  "7502": {
+    "name": "对战塔主",
+    "des": "通关对战塔100层奖励获得",
+    "type": "item",
+    "arg": 7502,
+    "quality": 5,
+    "source1": "tower"
+  },
+  "7503": {
+    "name": "冠军霸主",
+    "des": "竞技场第1名",
+    "type": "item",
+    "arg": 7503,
+    "quality": 5,
+    "source1": "arena"
+  },
+  "7504": {
+    "name": "不屈战士",
+    "des": "竞技场第2名",
+    "type": "item",
+    "arg": 7504,
+    "quality": 5,
+    "source1": "arena"
+  },
+  "7505": {
+    "name": "闪耀大师",
+    "des": "跨服段位赛第1名",
+    "type": "item",
+    "arg": 7505,
+    "quality": 6,
+    "source1": "crossPK"
+  },
+  "7506": {
+    "name": "世界最强王者",
+    "des": "世界锦标赛第1名",
+    "type": "item",
+    "arg": 7506,
+    "quality": 6,
+    "source1": "crossTop"
+  },
+  "7507": {
+    "name": "世界荣誉大师",
+    "des": "世界锦标赛第2名",
+    "type": "item",
+    "arg": 7507,
+    "quality": 6,
+    "source1": "crossTop"
+  },
+  "7508": {
+    "name": "宝可梦爱好者",
+    "des": "通关模拟对战5次",
+    "type": "item",
+    "arg": 7508,
+    "quality": 5,
+    "source1": "exercise"
+  },
+  "7509": {
+    "name": "光环超魔神",
+    "des": "光环超魔神，伤害排名第1名的玩家获得",
+    "type": "item",
+    "arg": 7509,
+    "quality": 6,
+    "source1": "extremity"
+  },
+  "7510": {
+    "name": "波导勇者",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7510,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7511": {
+    "name": "幻影霸者",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7511,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7512": {
+    "name": "结晶帝王",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7512,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7513": {
+    "name": "苍穹主宰",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7513,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7514": {
+    "name": "理想英雄",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7514,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7515": {
+    "name": "超越界限",
+    "des": "对战开拓，挑战对应席位获得",
+    "type": "item",
+    "arg": 7515,
+    "quality": 6,
+    "source1": "beherrscher"
+  },
+  "7516": {
+    "name": "最强超梦之证",
+    "des": "全明星赛积分排名第1名",
+    "type": "item",
+    "arg": 7516,
+    "quality": 6,
+    "source1": "crossTeamPK"
+  },
+  "7517": {
+    "name": "最强梦幻之证",
+    "des": "全明星赛积分排名第2~10名",
+    "type": "item",
+    "arg": 7517,
+    "quality": 6,
+    "source1": "crossTeamPK"
+  },
+  "7518": {
+    "name": "战斗狂人",
+    "des": "通关次元危机100关奖励获得",
+    "type": "item",
+    "arg": 7518,
+    "quality": 6,
+    "source1": "areaTrial"
+  },
+  "7519": {
+    "name": "宝主之证",
+    "des": "通关神秘洞窟5次获得",
+    "type": "item",
+    "arg": 7519,
+    "quality": 6,
+    "source1": "zhulu"
+  },
+  "7520": {
+    "name": "宝可梦探险家",
+    "des": "通关无尽试炼20次获得",
+    "type": "item",
+    "arg": 7520,
+    "quality": 6,
+    "source1": "endless"
+  },
+  "7521": {
+    "name": "传说训练家",
+    "des": "挑战新服挑战，挑战击败最后boss奖励",
+    "type": "item",
+    "arg": 7521,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7522": {
+    "name": "海洋征服者",
+    "des": "新服BOSS伤害排名第1的玩家获得",
+    "type": "item",
+    "arg": 7522,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7523": {
+    "name": "大地征服者",
+    "des": "新服BOSS伤害排名第1的玩家获得",
+    "type": "item",
+    "arg": 7523,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7524": {
+    "name": "天空征服者",
+    "des": "新服BOSS伤害排名第1的玩家获得",
+    "type": "item",
+    "arg": 7524,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7525": {
+    "name": "黑暗征服者",
+    "des": "新服BOSS伤害排名第1的玩家获得",
+    "type": "item",
+    "arg": 7525,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8140": {
+    "name": "主线冲榜边框",
+    "des": "主线冲榜获得",
+    "type": "item",
+    "arg": 8140,
+    "quality": 6,
+    "source1": "checkpoints"
+  },
+  "8150": {
+    "name": "家园冲榜边框",
+    "des": "道馆冲榜获得",
+    "type": "item",
+    "arg": 8150,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8160": {
+    "name": "捕捉冲榜边框",
+    "des": "捕捉冲榜获得",
+    "type": "item",
+    "arg": 8160,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8170": {
+    "name": "等级冲榜边框",
+    "des": "等级冲榜获得",
+    "type": "item",
+    "arg": 8170,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8180": {
+    "name": "战力冲榜边框",
+    "des": "战力冲榜获得",
+    "type": "item",
+    "arg": 8180,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8190": {
+    "name": "新服七日边框",
+    "des": "完成新服活动任务获得",
+    "type": "item",
+    "arg": 8190,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8200": {
+    "name": "逆袭者边框",
+    "des": "完成新服回馈任务获得",
+    "type": "item",
+    "arg": 8200,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8210": {
+    "name": "收藏家边框",
+    "des": "购买新服限购后获得",
+    "type": "item",
+    "arg": 8210,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8220": {
+    "name": "淘金者边框",
+    "des": "完成新服限购最后任务奖励获得",
+    "type": "item",
+    "arg": 8220,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8230": {
+    "name": "首充边框",
+    "des": "购买首次礼包获得",
+    "type": "item",
+    "arg": 8230,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8240": {
+    "name": "至尊边框",
+    "des": "购买至尊特权获得",
+    "type": "item",
+    "arg": 8240,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8250": {
+    "name": "通行证边框",
+    "des": "购买战令获得",
+    "type": "item",
+    "arg": 8250,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8260": {
+    "name": "富甲一方边框",
+    "des": "购买基金获得",
+    "type": "item",
+    "arg": 8260,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8270": {
+    "name": "月卡边框",
+    "des": "购买月卡获得",
+    "type": "item",
+    "arg": 8270,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8280": {
+    "name": "VIP边框",
+    "des": "VIP到达对应等级后获得",
+    "type": "item",
+    "arg": 8280,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "8290": {
+    "name": "签到边框",
+    "des": "每日签到获得",
+    "type": "item",
+    "arg": 8290,
+    "quality": 6,
+    "source1": "gift"
   },
   "9300": {
     "name": "随机紫色芯片盒",
