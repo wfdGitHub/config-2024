@@ -1064,28 +1064,28 @@
     "des": "佩戴装备的等级要求-6"
   },
   "9301": {
-    "des": "暴击+3%",
-    "key1": "crit",
+    "des": "物攻+3%",
+    "key1": "phy_add",
     "value1": 0.03
   },
   "9302": {
-    "des": "抗暴+3%",
-    "key1": "critDef",
+    "des": "法攻+3%",
+    "key1": "mag_add",
     "value1": 0.03
   },
   "9303": {
-    "des": "命中+3%",
-    "key1": "hitRate",
+    "des": "生命+3%",
+    "key1": "self_maxHP_add",
     "value1": 0.03
   },
   "9304": {
-    "des": "闪避+3%",
-    "key1": "dodgeRate",
+    "des": "物防+3%",
+    "key1": "self_phyDef_add",
     "value1": 0.03
   },
   "9305": {
-    "des": "攻击力+3%",
-    "key1": "self_atk_add",
+    "des": "法防+3%",
+    "key1": "self_magDef_add",
     "value1": 0.03
   },
   "9306": {
@@ -1142,24 +1142,28 @@
     "value1": 0.1
   },
   "9403": {
-    "des": "英雄位于后排时，忽视防御+8%",
-    "key1": "back_neglect_def",
-    "value1": 0.08
+    "name": "命中芯片",
+    "des": "命中+5%",
+    "key1": "hitRate",
+    "value1": 0.05
   },
   "9404": {
-    "des": "英雄位于后排时，暴击率+8%",
-    "key1": "back_crit",
-    "value1": 0.08
+    "name": "闪避芯片",
+    "des": "闪避+5%",
+    "key1": "dodgeRate",
+    "value1": 0.05
   },
   "9405": {
-    "des": "英雄位于前排时，生命值+8%",
-    "key1": "front_maxHP",
-    "value1": 0.08
+    "name": "暴击芯片",
+    "des": "暴击+5%",
+    "key1": "crit",
+    "value1": 0.05
   },
   "9406": {
-    "des": "英雄位于前排时，抗暴+8%",
-    "key1": "front_critDef",
-    "value1": 0.08
+    "name": "抗暴芯片",
+    "des": "抗暴+5%",
+    "key1": "critDef",
+    "value1": 0.05
   },
   "9407": {
     "des": "英雄位于前排时，免伤+8%，英雄位于后排时，伤害+8%",
