@@ -49,7 +49,7 @@
     "arg": 1,
     "rmb": 30,
     "cent": 3000,
-    "award": "202:300&100300:3&8210",
+    "award": "202:300&100300:3&100200:3&8210",
     "updateType": "always",
     "count": 1
   },
@@ -59,7 +59,7 @@
     "arg": 5,
     "rmb": 68,
     "cent": 6800,
-    "award": "202:680&100300:5",
+    "award": "202:680&100300:5&100200:5&201:100000",
     "updateType": "day",
     "count": 1
   },
@@ -69,7 +69,7 @@
     "arg": 10,
     "rmb": 128,
     "cent": 12800,
-    "award": "202:1280&100300:10",
+    "award": "202:1280&100300:10&100200:10&201:200000",
     "updateType": "day",
     "count": 1
   },
@@ -79,7 +79,7 @@
     "arg": 20,
     "rmb": 328,
     "cent": 32800,
-    "award": "202:3280&100300:30",
+    "award": "202:3280&100300:30&100200:30&201:500000",
     "updateType": "day",
     "count": 1
   },
@@ -822,7 +822,7 @@
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_week",
-    "award": "202:300&3610:30&3620:30&3640:9",
+    "award": "202:300&3610:30&3620:30&3640:1",
     "updateType": "week",
     "count": 6,
     "rate": true,
@@ -930,7 +930,7 @@
   "321010": {
     "type": "fast",
     "name": "每日礼包1",
-    "arg": 1,
+    "arg": 5,
     "rmb": 6,
     "cent": 600,
     "gift_type": "box_day",
@@ -944,7 +944,7 @@
   "321020": {
     "type": "fast",
     "name": "每日礼包2",
-    "arg": 2,
+    "arg": 6,
     "rmb": 12,
     "cent": 1200,
     "gift_type": "box_day",
@@ -958,7 +958,7 @@
   "321030": {
     "type": "fast",
     "name": "每日礼包3",
-    "arg": 3,
+    "arg": 7,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -972,7 +972,7 @@
   "321040": {
     "type": "fast",
     "name": "每日礼包4",
-    "arg": 4,
+    "arg": 8,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -986,11 +986,11 @@
   "322010": {
     "type": "fast",
     "name": "每周礼包1",
-    "arg": 1,
+    "arg": 5,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_week",
-    "award": "202:300&3610:30&3620:30&3640:9",
+    "award": "202:300&3610:30&3620:30&3640:1",
     "updateType": "week",
     "count": 6,
     "rate": true,
@@ -1000,7 +1000,7 @@
   "322020": {
     "type": "fast",
     "name": "每周礼包2",
-    "arg": 2,
+    "arg": 6,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_week",
@@ -1014,7 +1014,7 @@
   "322030": {
     "type": "fast",
     "name": "每周礼包3",
-    "arg": 3,
+    "arg": 7,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1028,7 +1028,7 @@
   "322040": {
     "type": "fast",
     "name": "每周礼包4",
-    "arg": 4,
+    "arg": 8,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1042,7 +1042,7 @@
   "323010": {
     "type": "fast",
     "name": "每月礼包1",
-    "arg": 1,
+    "arg": 5,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_month",
@@ -1056,7 +1056,7 @@
   "323020": {
     "type": "fast",
     "name": "每月礼包2",
-    "arg": 2,
+    "arg": 6,
     "rmb": 128,
     "cent": 12800,
     "gift_type": "box_month",
@@ -1070,7 +1070,7 @@
   "323030": {
     "type": "fast",
     "name": "每月礼包3",
-    "arg": 3,
+    "arg": 7,
     "rmb": 328,
     "cent": 32800,
     "gift_type": "box_month",
@@ -1084,7 +1084,7 @@
   "323040": {
     "type": "fast",
     "name": "每月礼包4",
-    "arg": 4,
+    "arg": 8,
     "rmb": 648,
     "cent": 64800,
     "gift_type": "box_month",
@@ -1098,7 +1098,7 @@
   "331010": {
     "type": "fast",
     "name": "每日礼包1",
-    "arg": 1,
+    "arg": 9,
     "rmb": 12,
     "cent": 1200,
     "gift_type": "box_day",
@@ -1112,7 +1112,7 @@
   "331020": {
     "type": "fast",
     "name": "每日礼包2",
-    "arg": 2,
+    "arg": 10,
     "rmb": 12,
     "cent": 1200,
     "gift_type": "box_day",
@@ -1126,7 +1126,7 @@
   "331030": {
     "type": "fast",
     "name": "每日礼包3",
-    "arg": 3,
+    "arg": 11,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -1140,7 +1140,7 @@
   "331040": {
     "type": "fast",
     "name": "每日礼包4",
-    "arg": 4,
+    "arg": 12,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -1154,11 +1154,11 @@
   "332010": {
     "type": "fast",
     "name": "每周礼包1",
-    "arg": 1,
+    "arg": 9,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
-    "award": "202:680&3610:68&3620:68&3640:21",
+    "award": "202:680&3610:68&3620:68&3640:3",
     "updateType": "week",
     "count": 6,
     "rate": true,
@@ -1168,7 +1168,7 @@
   "332020": {
     "type": "fast",
     "name": "每周礼包2",
-    "arg": 2,
+    "arg": 10,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1182,7 +1182,7 @@
   "332030": {
     "type": "fast",
     "name": "每周礼包3",
-    "arg": 3,
+    "arg": 11,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1196,7 +1196,7 @@
   "332040": {
     "type": "fast",
     "name": "每周礼包4",
-    "arg": 4,
+    "arg": 12,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1210,7 +1210,7 @@
   "333010": {
     "type": "fast",
     "name": "每月礼包1",
-    "arg": 1,
+    "arg": 9,
     "rmb": 128,
     "cent": 12800,
     "gift_type": "box_month",
@@ -1224,7 +1224,7 @@
   "333020": {
     "type": "fast",
     "name": "每月礼包2",
-    "arg": 2,
+    "arg": 10,
     "rmb": 128,
     "cent": 12800,
     "gift_type": "box_month",
@@ -1238,7 +1238,7 @@
   "333030": {
     "type": "fast",
     "name": "每月礼包3",
-    "arg": 3,
+    "arg": 11,
     "rmb": 328,
     "cent": 32800,
     "gift_type": "box_month",
@@ -1252,7 +1252,7 @@
   "333040": {
     "type": "fast",
     "name": "每月礼包4",
-    "arg": 4,
+    "arg": 12,
     "rmb": 648,
     "cent": 64800,
     "gift_type": "box_month",
@@ -1266,7 +1266,7 @@
   "341010": {
     "type": "fast",
     "name": "每日礼包1",
-    "arg": 1,
+    "arg": 13,
     "rmb": 12,
     "cent": 1200,
     "gift_type": "box_day",
@@ -1280,7 +1280,7 @@
   "341020": {
     "type": "fast",
     "name": "每日礼包2",
-    "arg": 2,
+    "arg": 14,
     "rmb": 12,
     "cent": 1200,
     "gift_type": "box_day",
@@ -1294,7 +1294,7 @@
   "341030": {
     "type": "fast",
     "name": "每日礼包3",
-    "arg": 3,
+    "arg": 15,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -1308,7 +1308,7 @@
   "341040": {
     "type": "fast",
     "name": "每日礼包4",
-    "arg": 4,
+    "arg": 16,
     "rmb": 30,
     "cent": 3000,
     "gift_type": "box_day",
@@ -1322,11 +1322,11 @@
   "342010": {
     "type": "fast",
     "name": "每周礼包1",
-    "arg": 1,
+    "arg": 13,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
-    "award": "202:680&3610:68&3620:68&3640:21",
+    "award": "202:680&3610:68&3620:68&3640:3",
     "updateType": "week",
     "count": 6,
     "rate": true,
@@ -1336,7 +1336,7 @@
   "342020": {
     "type": "fast",
     "name": "每周礼包2",
-    "arg": 2,
+    "arg": 14,
     "rmb": 68,
     "cent": 6800,
     "gift_type": "box_week",
@@ -1350,7 +1350,7 @@
   "342030": {
     "type": "fast",
     "name": "每周礼包3",
-    "arg": 3,
+    "arg": 15,
     "rmb": 128,
     "cent": 12800,
     "gift_type": "box_week",
@@ -1364,7 +1364,7 @@
   "342040": {
     "type": "fast",
     "name": "每周礼包4",
-    "arg": 4,
+    "arg": 16,
     "rmb": 128,
     "cent": 12800,
     "gift_type": "box_week",
@@ -1378,7 +1378,7 @@
   "343010": {
     "type": "fast",
     "name": "每月礼包1",
-    "arg": 1,
+    "arg": 13,
     "rmb": 328,
     "cent": 32800,
     "gift_type": "box_month",
@@ -1392,7 +1392,7 @@
   "343020": {
     "type": "fast",
     "name": "每月礼包2",
-    "arg": 2,
+    "arg": 14,
     "rmb": 328,
     "cent": 32800,
     "gift_type": "box_month",
@@ -1406,7 +1406,7 @@
   "343030": {
     "type": "fast",
     "name": "每月礼包3",
-    "arg": 3,
+    "arg": 15,
     "rmb": 648,
     "cent": 64800,
     "gift_type": "box_month",
@@ -1420,7 +1420,7 @@
   "343040": {
     "type": "fast",
     "name": "每月礼包4",
-    "arg": 4,
+    "arg": 16,
     "rmb": 648,
     "cent": 64800,
     "gift_type": "box_month",
