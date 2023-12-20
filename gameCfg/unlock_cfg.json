@@ -12,7 +12,8 @@
   "mail": {
     "name": "邮件",
     "openlv": 1,
-    "desc": "邮件"
+    "desc": "邮件",
+    "showType": 1
   },
   "rechargeFirst": {
     "name": "首充",
@@ -26,14 +27,16 @@
   "tower": {
     "name": "对战塔",
     "openlv": 1,
-    "award": "110:100",
-    "desc": "训练家云集的对战塔，向上攀爬赢取奖励吧"
+    "award": "202:100",
+    "desc": "训练家云集的对战塔，向上攀爬赢取奖励吧",
+    "icon": 2001010
   },
   "task": {
-    "name": "日常任务",
+    "name": "活跃任务",
     "openlv": 1,
-    "award": "110:100",
-    "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱"
+    "award": "202:100",
+    "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
+    "showType": 4
   },
   "rechargeTotal": {
     "name": "限时累充",
@@ -76,7 +79,7 @@
   "warHorn": {
     "name": "通行证",
     "openlv": 11,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "解锁通行证，完成通行证任务获取丰厚奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
   },
@@ -84,7 +87,8 @@
     "name": "限时活动",
     "openlv": 13,
     "desc": "限时活动",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited"
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnLimited",
+    "showType": 2
   },
   "chat": {
     "name": "聊天",
@@ -94,151 +98,173 @@
   "dailyFb": {
     "name": "日常对战赛",
     "openlv": 1,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "对战各系强者，考验对战策略",
+    "icon": 2003000,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "tour": {
     "name": "精灵派遣",
     "openlv": 1,
-    "award": "110:100",
-    "desc": "派遣精灵执行任务，获得稀有奖励"
+    "award": "202:100",
+    "desc": "派遣精灵执行任务，获得稀有奖励",
+    "showType": 4
   },
   "invade": {
     "name": "野生精灵暴走",
     "openlv": 5,
-    "desc": "限时挑战，越快击败奖励越多"
-  },
-  "areaChallenge": {
-    "name": "新服挑战",
-    "openlv": 15,
-    "desc": "极限挑战，战胜获得丰富奖励",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge"
+    "desc": "限时挑战，越快击败奖励越多",
+    "showType": 2
   },
   "areaBoss": {
     "name": "幻兽来临",
     "openlv": 5,
     "desc": "新服挑战，击败后可领取排名奖励",
-    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss"
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaBoss",
+    "showType": 2
   },
   "worldBoss": {
     "name": "神兽现身",
     "openlv": 5,
-    "desc": "终极挑战，击败后可领取排名奖励"
+    "desc": "终极挑战，击败后可领取排名奖励",
+    "showType": 2
   },
   "escort": {
-    "name": "宝藏森林",
+    "name": "飞行大赛",
     "openlv": 5,
-    "desc": "森林探险，挖掘宝藏，获取稀有道具"
+    "desc": "森林探险，挖掘宝藏，获取稀有道具",
+    "showType": 2
   },
   "arena": {
-    "name": "对战竞技场",
+    "name": "竞技场",
     "openlv": 8,
-    "award": "110:100",
-    "desc": "展现实力，争夺竞技排名，赢取排名奖励"
+    "award": "202:100",
+    "desc": "展现实力，争夺竞技排名，赢取排名奖励",
+    "icon": 205
+  },
+  "areaChallenge": {
+    "name": "新服挑战",
+    "openlv": 15,
+    "desc": "极限挑战，战胜获得丰富奖励",
+    "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge",
+    "showType": 2
   },
   "exercise": {
     "name": "模拟对战",
     "openlv": 12,
-    "award": "110:100",
-    "desc": "模拟战斗，获得大量英雄经验",
+    "award": "202:100",
+    "desc": "模拟战斗，获得大量精灵经验",
+    "icon": 101,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "endless": {
     "name": "无尽试炼",
     "openlv": 14,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "无尽试炼，获取稀有道具",
+    "icon": 2000030,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "guild": {
     "name": "联盟系统",
     "openlv": 16,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "创建或加入联盟，与好友一起探索世界",
-    "target": "uiNode/frontNode/bottomNode/btnGuild"
+    "target": "uiNode/frontNode/bottomNode/btnGuild",
+    "showType": 2
   },
   "extremity": {
     "name": "光环超魔神",
     "openlv": 18,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "迎战光环的超魔神，突破自我吧！",
+    "icon": 100,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "manor": {
     "name": "家园系统",
     "openlv": 20,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "经营家园，探索冒险，获取建筑收益。",
-    "target": "uiNode/frontNode/bottomNode/btnOffice"
+    "target": "uiNode/frontNode/bottomNode/btnOffice",
+    "showType": 3
   },
   "beherrscher": {
     "name": "对战开拓区",
     "openlv": 22,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "最强训练家的擂台，谁与争锋",
+    "icon": 2000050,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "pit": {
     "name": "装备镶嵌",
     "openlv": 30,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "可为装备镶嵌宝石，提高装备性能",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "crossPK": {
     "name": "跨服段位赛",
     "openlv": 32,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "跨服对战，刷新排名，赢取排名奖励",
+    "icon": 205,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "ace": {
     "name": "芯片",
     "openlv": 38,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "芯片能给予佩戴宝可梦一般被动能力加成。",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "fabao": {
     "name": "法宝",
     "openlv": 45,
+    "award": "202:100",
     "desc": "法宝可以给予佩戴它的宝可梦以全面性的加成"
   },
   "zhanfa": {
     "name": "携带物",
     "openlv": 60,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "携带物能给予佩戴它的宝可梦特殊的被动能力。",
     "target": "uiNode/frontNode/bottomNode/btnOffice"
   },
   "areaTrial": {
     "name": "次元危机",
     "openlv": 39,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "持续对战，胜出次元危机",
+    "icon": 2004100,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "zhulu": {
     "name": "神秘洞窟",
     "openlv": 46,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "探索神秘洞窟，享受随机对战",
+    "icon": 2000,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "crossTop": {
     "name": "世界锦标赛",
     "openlv": 56,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "排名赛制最高峰，角逐最强精灵大师",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+    "icon": 211,
+    "target": "uiNode/frontNode/bottomNode/btnPlaying",
+    "showType": 2
   },
   "crossTeamPK": {
     "name": "全明星赛",
     "openlv": 61,
-    "award": "110:100",
+    "award": "202:100",
     "desc": "阵营团体对抗赛，团结合作赢得胜利吧！",
-    "target": "uiNode/frontNode/bottomNode/btnPlaying"
+    "icon": 212,
+    "target": "uiNode/frontNode/bottomNode/btnPlaying",
+    "showType": 2
   },
   "recruit": {
     "name": "捕捉精灵",
@@ -254,7 +280,8 @@
   },
   "friend": {
     "name": "好友列表",
-    "openlv": 1
+    "openlv": 1,
+    "showType": 6
   },
   "shop_arena": {
     "name": "竞技商城",
@@ -271,5 +298,10 @@
   "shop_guild": {
     "name": "联盟商城",
     "openlv": 1
+  },
+  "on_hook": {
+    "name": "挂机宝箱",
+    "openlv": 1,
+    "showType": 5
   }
 }
