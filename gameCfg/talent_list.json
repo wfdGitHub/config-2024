@@ -3261,7 +3261,7 @@
   "50013006": {
     "name": "不屈雷鸣",
     "des": "受到致命伤害时必定触发<color=#f9ac72>保命</c>，保留20%生命值，该技能触发后冷却4回合",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "bm_hx"
   },
   "50014004": {
@@ -3363,7 +3363,7 @@
   "50023006": {
     "name": "不屈洋流",
     "des": "受到致命伤害时<color=#f9ac72>保留1点生命值</c>，获得1回合<color=#f9ac72>无敌</c>效果，技能触发后冷却4回合",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "bm_wd"
   },
   "50024004": {
@@ -3383,7 +3383,7 @@
   "50024006": {
     "name": "熔岩守护",
     "des": "有队友受到致命伤害退场时，若自身生命值大于<color=#f9ac72>30%</c>，则<color=#f9ac72>输送</c>自身<color=#f9ac72>15%</c>生命值使其<color=#f9ac72>立即复活</c>，此技能触发后冷却4回合",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "fh_ss"
   },
   "50025004": {
@@ -3403,7 +3403,7 @@
   "50025006": {
     "name": "不屈龙吼",
     "des": "回合内受到致命伤害时<color=#f9ac72>不会死亡</c>，整体回合结束前，若血量大于零，则继续存活。此效果触发后冷却3回合.",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "died_buff",
     "key2": "passiveArg",
     "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -3423,7 +3423,7 @@
   "50026006": {
     "name": "念力反制",
     "des": "自身行动后，为己方<color=#f9ac72>全体</c>单位各<color=#f9ac72>移除</c>1个非控制类的负面状态，并转化为<color=#f9ac72><color=#f9ac72>诅咒</c>转移</c>至敌方随机单体,此效果每3回合可触发1次",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "zy_zz"
   },
   "50027004": {
@@ -3441,7 +3441,7 @@
   "50027006": {
     "name": "眠者复苏",
     "des": "若本回合内存在已阵亡队友，则自身行动回合结束时以自身攻击力<color=#f9ac72>180%</c>的血量<color=#f9ac72>复活己方</c>单体阵亡目标，技能触发后冷却4回合",
-    "key1": "passive",
+    "key1": "passive1",
     "value1": "fh_dy"
   },
   "50028004": {
@@ -4867,6 +4867,1525 @@
     "value1": 0.3,
     "key2": "maxHP_damage",
     "value2": 0.25
+  },
+  "90130001": {
+    "des": "攻击提升20%",
+    "key1": "neglect_def",
+    "value1": 0.2
+  },
+  "90130002": {
+    "des": "物防提升20%",
+    "key1": "self_phyDef_add",
+    "value1": 0.2
+  },
+  "90130003": {
+    "des": "特防提升20%",
+    "key1": "self_magDef_add",
+    "value1": 0.2
+  },
+  "90130004": {
+    "des": "生命提升20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.2
+  },
+  "90130005": {
+    "des": "暴击伤害增加20%",
+    "key1": "slay",
+    "value1": 0.2
+  },
+  "90130006": {
+    "des": "暴击率增加20%",
+    "key1": "crit",
+    "value1": 0.2
+  },
+  "90130007": {
+    "des": "伤害减免增加20%",
+    "key1": "reduction",
+    "value1": 0.2
+  },
+  "90130008": {
+    "des": "攻击资质+8",
+    "key1": "M_ATK",
+    "value1": 8
+  },
+  "90130009": {
+    "des": "特攻资质+8",
+    "key1": "M_STK",
+    "value1": 8
+  },
+  "90130010": {
+    "des": "增加20%的免疫控制",
+    "key1": "control_buff_lowrate",
+    "value1": 0.2
+  },
+  "90130011": {
+    "des": "速度提升20%",
+    "key1": "self_speed_add",
+    "value1": 0.2
+  },
+  "90130012": {
+    "des": "闪避率提升20%",
+    "key1": "dodgeRate",
+    "value1": 0.2
+  },
+  "90130013": {
+    "des": "命中提升20%",
+    "key1": "hitRate",
+    "value1": 0.2
+  },
+  "90130014": {
+    "des": "抗暴率提升20%",
+    "key1": "critDef",
+    "value1": 0.2
+  },
+  "90130015": {
+    "des": "治疗效果提升20%",
+    "key1": "skill_heal_amp",
+    "value1": 0.2,
+    "key2": "normal_heal_amp",
+    "value2": 0.2
+  },
+  "90130016": {
+    "des": "生命资质+8",
+    "key1": "M_HP",
+    "value1": 8
+  },
+  "90130017": {
+    "des": "受到治疗量增加20%",
+    "key1": "healAdd",
+    "value1": 0.2
+  },
+  "90130018": {
+    "des": "受到的持续伤害降低20%",
+    "key1": "damage_buff_lowArg",
+    "value1": 0.2
+  },
+  "90130019": {
+    "des": "普通攻击附加1层破甲效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90130020": {
+    "des": "技能攻击附加1层破甲效果",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90130021": {
+    "des": "生命值每降低10%，伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05
+  },
+  "90130022": {
+    "des": "全属性资质加成+5",
+    "key1": "M_HP",
+    "value1": 5,
+    "key2": "M_ATK",
+    "value2": 5,
+    "key3": "M_DEF",
+    "value3": 5,
+    "key4": "M_STK",
+    "value4": 5,
+    "key5": "M_SEF",
+    "value5": 5,
+    "key6": "M_SPE",
+    "value6": 5
+  },
+  "90130023": {
+    "des": "对敌方造成克制的额外伤害增加20%"
+  },
+  "90130024": {
+    "des": "受克制造成的额外伤害降低20%",
+    "key1": "specie_behit",
+    "value1": 0.8
+  },
+  "90130025": {
+    "des": "伤害增加30%，物防降低15%",
+    "key1": "amplify",
+    "value1": 0.3,
+    "key2": "self_phyDef_add",
+    "value2": -0.15
+  },
+  "90130026": {
+    "des": "伤害增加30%，特防降低15%",
+    "key1": "amplify",
+    "value1": 0.3,
+    "key2": "self_magDef_add",
+    "value2": -0.15
+  },
+  "90130027": {
+    "des": "伤害增加30%，命中降低15%",
+    "key1": "amplify",
+    "value1": 0.3,
+    "key2": "hitRate",
+    "value2": -0.15
+  },
+  "90130028": {
+    "des": "伤害增加30%，生命降低15%",
+    "key1": "amplify",
+    "value1": 0.3,
+    "key2": "self_maxHP_add",
+    "value2": -0.15
+  },
+  "90130029": {
+    "des": "减伤增加30%，速度降低15%",
+    "key1": "reduction",
+    "value1": 0.3,
+    "key2": "self_speed_add",
+    "value2": -0.15
+  },
+  "90130030": {
+    "des": "生命增加30%，速度降低15%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3,
+    "key2": "self_speed_add",
+    "value2": -0.15
+  },
+  "90140001": {
+    "des": "行动后恢复自身1点怒气",
+    "key1": "action_anger",
+    "value1": 1
+  },
+  "90140002": {
+    "des": "普攻后有30%概率释放1次怒气技能",
+    "key1": "normal_add_skill",
+    "value1": 0.3
+  },
+  "90140003": {
+    "des": "回复等同于攻击造成伤害的25%的生命值",
+    "key1": "turn_rate",
+    "value1": 0.25,
+    "key2": "turn_tg",
+    "value2": "team_self"
+  },
+  "90140004": {
+    "des": "技能攻击附带目标最大生命值10%伤害",
+    "key1": "maxHP_damage",
+    "value1": 0.1
+  },
+  "90140005": {
+    "des": "每受到一次伤害，回复自身生命5%",
+    "key1": "hit_turn_rate",
+    "value1": 0.05
+  },
+  "90140006": {
+    "des": "每次击败目标后，自身暴击增加25%，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 0.25
+  },
+  "90140007": {
+    "des": "每次释放技能后可追加1次普通攻击",
+    "key1": "skill_add_d_s",
+    "value1": true
+  },
+  "90140008": {
+    "des": "每当直接伤害击败目标时,自身获得1点怒气",
+    "key1": "kill_anger",
+    "value1": 1
+  },
+  "90140009": {
+    "des": "释放技能有25%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.25
+  },
+  "90140010": {
+    "des": "技能攻击可降低目标1点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
+  },
+  "90140011": {
+    "des": "普通攻击可降低目标1点怒气",
+    "key1": "normal_less_anger",
+    "value1": 1
+  },
+  "90140012": {
+    "des": "释放技能时，若目标生命值低于15%，则将其斩杀。",
+    "key1": "seckill",
+    "value1": 0.15
+  },
+  "90140013": {
+    "des": "每回合行动前解除自身1个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
+  },
+  "90140014": {
+    "des": "每回合行动后回复自身3%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.03
+  },
+  "90140015": {
+    "des": "普通攻击伤害增加100%",
+    "key1": "normal_attack_amp",
+    "value1": 1
+  },
+  "90140016": {
+    "des": "技能伤害效果增加100%",
+    "key1": "skill_attack_amp",
+    "value1": 1
+  },
+  "90140017": {
+    "des": "每回合为自身附加1层坚毅效果",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
+  },
+  "90140018": {
+    "des": "所有攻击无视对方15%的防御",
+    "key1": "neglect_def",
+    "value1": 0.15
+  },
+  "90140019": {
+    "des": "直接伤害击杀目标后追加1次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true
+  },
+  "90140020": {
+    "des": "受到直接伤害的24%转化为生命治疗自身",
+    "key1": "hit_turn_rate",
+    "value1": 0.24,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
+  },
+  "90140021": {
+    "des": "释放技能后恢复自身20%最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.2
+  },
+  "90140022": {
+    "des": "每当击败一个目标的时候，获得1回合无敌盾",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90140023": {
+    "des": "每回合伤害永久增加15%，可叠加.",
+    "key1": "round_amplify",
+    "value1": 0.15
+  },
+  "90140024": {
+    "des": "击败目标后，吞噬其剩余怒气值",
+    "key1": "kill_rob_anger",
+    "value1": true
+  },
+  "90140025": {
+    "des": "击败目标后对其余目标追加一次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true
+  },
+  "90140026": {
+    "des": "受到直接伤害反弹20%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.2
+  },
+  "90140027": {
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身10%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.1
+  },
+  "90140028": {
+    "des": "免疫减怒效果",
+    "key1": "banLessAnger",
+    "value1": true
+  },
+  "90140029": {
+    "des": "每回合行动结束后，为自身添加免控盾",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90140030": {
+    "des": "击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "key1": "killRet",
+    "value1": true
+  },
+  "90150001": {
+    "des": "入场时，为敌方全体附加灼烧效果。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
+  },
+  "90150002": {
+    "des": "入场时，为敌方全体附加1层感电效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150003": {
+    "des": "入场时，随机放逐敌方1个目标",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150004": {
+    "des": "入场时，为自身附加20%生命上限的伤害吸收盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150005": {
+    "des": "入场时，保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续3回合。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90150006": {
+    "des": "入场时，自身获得持续1个回合的无敌盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150007": {
+    "des": "入场时，自身获得暴击增加15%，伤害增加15%，持续2回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150008": {
+    "des": "入场时，立即释放一次技能",
+    "key1": "enter_skill",
+    "value1": true
+  },
+  "90150009": {
+    "des": "入场时，自身获得1层疾速状态",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90150010": {
+    "des": "入场时，自身获得1层坚毅效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90150011": {
+    "des": "入场时，为自身附加1回合免疫盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150012": {
+    "des": "入场时，为敌方全体附加虚弱效果1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150013": {
+    "des": "入场时，攻击敌方最高的目标，造成最大生命值15%的物理伤害",
+    "key1": "beginSkill",
+    "value1": "dz_001"
+  },
+  "90150014": {
+    "des": "入场时，为敌方随机1-2个目标附加连击印记，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150015": {
+    "des": "入场时，为敌方随机3个目标附加沙暴，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150016": {
+    "des": "入场时，降低敌方攻击最高的目标2点怒气",
+    "key1": "beginSkill",
+    "value1": "dz_002"
+  },
+  "90150017": {
+    "des": "入场时，为敌方随机1-2个目标附加1层减速，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150018": {
+    "des": "入场时，可给自身附加1层嗜血效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90150019": {
+    "des": "入场时，可给敌方随机1个目标附加嘲讽效果，持续1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150020": {
+    "des": "入场时，自身获得2层剑舞，每回合行动后获得1层剑舞。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "90150021": {
+    "des": "死亡后，为敌方全体附加灼烧效果。",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150022": {
+    "des": "死亡后，给敌方随机3个目标附加1层感电效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150023": {
+    "des": "死亡后，随机放逐敌方1个目标1个回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150024": {
+    "des": "入场时，自身获得潜行效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150025": {
+    "des": "入场时，为敌方随机1-2个目标附加1层破甲效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90150026": {
+    "des": "死亡后，对敌方攻击最高的目标造成200%攻击的特殊伤害",
+    "key1": "died_buff",
+    "value1": "dz_015"
+  },
+  "90150027": {
+    "des": "死亡后，为敌方全体附加虚弱效果1回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90150028": {
+    "des": "死亡后，降低敌方攻击最高的目标2点怒气",
+    "key1": "diedSkill",
+    "value1": "dz_002"
+  },
+  "90150029": {
+    "des": "死亡后，为我方生命中最低的1个目标，回复200%攻击的生命。",
+    "key1": "diedSkill",
+    "value1": "dz_005"
+  },
+  "90150030": {
+    "des": "死亡后，随机冰冻敌方1个目标",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90230001": {
+    "des": "攻击提升30%",
+    "key1": "neglect_def",
+    "value1": 0.3
+  },
+  "90230002": {
+    "des": "物防提升30%",
+    "key1": "self_phyDef_add",
+    "value1": 0.3
+  },
+  "90230003": {
+    "des": "特防提升30%",
+    "key1": "self_magDef_add",
+    "value1": 0.3
+  },
+  "90230004": {
+    "des": "生命提升30%",
+    "key1": "self_maxHP_add",
+    "value1": 0.3
+  },
+  "90230005": {
+    "des": "暴击伤害增加30%",
+    "key1": "slay",
+    "value1": 0.3
+  },
+  "90230006": {
+    "des": "暴击率增加30%",
+    "key1": "crit",
+    "value1": 0.3
+  },
+  "90230007": {
+    "des": "伤害减免增加30%",
+    "key1": "reduction",
+    "value1": 0.3
+  },
+  "90230008": {
+    "des": "攻击资质+15",
+    "key1": "M_ATK",
+    "value1": 15
+  },
+  "90230009": {
+    "des": "特攻资质+15",
+    "key1": "M_STK",
+    "value1": 15
+  },
+  "90230010": {
+    "des": "增加30%的免疫控制",
+    "key1": "control_buff_lowrate",
+    "value1": 0.3
+  },
+  "90230011": {
+    "des": "速度提升30%",
+    "key1": "self_speed_add",
+    "value1": 0.3
+  },
+  "90230012": {
+    "des": "闪避率提升30%",
+    "key1": "dodgeRate",
+    "value1": 0.3
+  },
+  "90230013": {
+    "des": "命中提升30%",
+    "key1": "hitRate",
+    "value1": 0.3
+  },
+  "90230014": {
+    "des": "抗暴率提升30%",
+    "key1": "critDef",
+    "value1": 0.3
+  },
+  "90230015": {
+    "des": "治疗效果提升30%",
+    "key1": "skill_heal_amp",
+    "value1": 0.3,
+    "key2": "normal_heal_amp",
+    "value2": 0.3
+  },
+  "90230016": {
+    "des": "生命资质+15",
+    "key1": "M_HP",
+    "value1": 15
+  },
+  "90230017": {
+    "des": "受到治疗量增加30%",
+    "key1": "healAdd",
+    "value1": 0.3
+  },
+  "90230018": {
+    "des": "受到的持续伤害降低30%",
+    "key1": "damage_buff_lowArg",
+    "value1": 0.3
+  },
+  "90230019": {
+    "des": "普通攻击附加2层破甲效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "90230020": {
+    "des": "技能攻击附加2层破甲效果",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "90230021": {
+    "des": "生命值每降低10%，伤害增加10%",
+    "key1": "low_hp_amp",
+    "value1": 0.1
+  },
+  "90230022": {
+    "des": "全属性资质加成+10",
+    "key1": "M_HP",
+    "value1": 10,
+    "key2": "M_ATK",
+    "value2": 10,
+    "key3": "M_DEF",
+    "value3": 10,
+    "key4": "M_STK",
+    "value4": 10,
+    "key5": "M_SEF",
+    "value5": 10,
+    "key6": "M_SPE",
+    "value6": 10
+  },
+  "90230023": {
+    "des": "对敌方造成克制的额外伤害增加30%"
+  },
+  "90230024": {
+    "des": "受克制造成的额外伤害降低30%",
+    "key1": "specie_behit",
+    "value1": 0.7
+  },
+  "90230025": {
+    "des": "伤害增加40%，物防降低20%",
+    "key1": "amplify",
+    "value1": 0.4,
+    "key2": "self_phyDef_add",
+    "value2": -0.2
+  },
+  "90230026": {
+    "des": "伤害增加40%，特防降低20%",
+    "key1": "amplify",
+    "value1": 0.4,
+    "key2": "self_magDef_add",
+    "value2": -0.2
+  },
+  "90230027": {
+    "des": "伤害增加40%，命中降低20%",
+    "key1": "amplify",
+    "value1": 0.4,
+    "key2": "hitRate",
+    "value2": -0.2
+  },
+  "90230028": {
+    "des": "伤害增加40%，生命降低20%",
+    "key1": "amplify",
+    "value1": 0.4,
+    "key2": "self_maxHP_add",
+    "value2": -0.2
+  },
+  "90230029": {
+    "des": "减伤增加40%，速度降低20%",
+    "key1": "reduction",
+    "value1": 0.4,
+    "key2": "self_speed_add",
+    "value2": -0.2
+  },
+  "90230030": {
+    "des": "生命增加40%，速度降低20%",
+    "key1": "self_maxHP_add",
+    "value1": 0.4,
+    "key2": "self_speed_add",
+    "value2": -0.2
+  },
+  "90240001": {
+    "des": "行动后恢复自身1点怒气，并回复自身3%最大生命值",
+    "key1": "action_anger",
+    "value1": 1,
+    "key2": "action_heal",
+    "value2": 0.03
+  },
+  "90240002": {
+    "des": "普攻后有50%概率释放1次怒气技能",
+    "key1": "normal_add_skill",
+    "value1": 0.5
+  },
+  "90240003": {
+    "des": "回复等同于攻击造成伤害的50%的生命值",
+    "key1": "turn_rate",
+    "value1": 0.5,
+    "key2": "turn_tg",
+    "value2": "team_self"
+  },
+  "90240004": {
+    "des": "技能攻击附带目标最大生命值20%伤害",
+    "key1": "maxHP_damage",
+    "value1": 0.2
+  },
+  "90240005": {
+    "des": "每受到一次伤害，回复自身生命10%",
+    "key1": "hit_turn_rate",
+    "value1": 0.1
+  },
+  "90240006": {
+    "des": "每次击败目标后，自身暴击增加50%，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 0.5
+  },
+  "90240007": {
+    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成5%生命上限伤害",
+    "key1": "skill_add_d_s",
+    "value1": true,
+    "key2": "add_default_maxHp",
+    "value2": 0.05
+  },
+  "90240008": {
+    "des": "每当直接伤害击败目标时,自身获得2点怒气",
+    "key1": "kill_anger",
+    "value1": 2
+  },
+  "90240009": {
+    "des": "释放技能有45%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.45
+  },
+  "90240010": {
+    "des": "技能攻击可降低目标2点怒气",
+    "key1": "skill_less_anger",
+    "value1": 2
+  },
+  "90240011": {
+    "des": "普通攻击可降低目标1点怒气，普通攻击伤害增加25%。",
+    "key1": "normal_less_anger",
+    "value1": 1,
+    "key2": "normal_attack_amp",
+    "value2": 0.25
+  },
+  "90240012": {
+    "des": "释放技能时，若目标生命值低于25%，则将其斩杀。",
+    "key1": "seckill",
+    "value1": 0.25
+  },
+  "90240013": {
+    "des": "每回合行动前解除自身2个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true,
+    "key2": "remove_one_lower",
+    "value2": true
+  },
+  "90240014": {
+    "des": "每回合行动后回复自身6%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.06
+  },
+  "90240015": {
+    "des": "普通攻击伤害增加150%",
+    "key1": "normal_attack_amp",
+    "value1": 1.5
+  },
+  "90240016": {
+    "des": "技能伤害效果增加150%",
+    "key1": "skill_attack_amp",
+    "value1": 1.5
+  },
+  "90240017": {
+    "des": "每回合为自身附加2层坚毅效果",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":0.65}"
+  },
+  "90240018": {
+    "des": "所有攻击无视对方25%的防御",
+    "key1": "neglect_def",
+    "value1": 0.25
+  },
+  "90240019": {
+    "des": "直接伤害击杀目标后追加1次普通攻击，增加自身10%暴击率和10%的暴击伤害.",
+    "key1": "kill_add_d_s",
+    "value1": true,
+    "key2": "kill_crit",
+    "value2": 0.1,
+    "key3": "kill_slay",
+    "value3": 0.1
+  },
+  "90240020": {
+    "des": "受到直接伤害的36%转化为生命治疗自身",
+    "key1": "hit_turn_rate",
+    "value1": 0.36,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
+  },
+  "90240021": {
+    "des": "释放技能后恢复自身30%最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.3
+  },
+  "90240022": {
+    "des": "每当击败一个目标的时候，获得1回合无敌盾，无敌盾消失时回复自身25%生命上限的血量",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "key2": "invincibleHeal",
+    "value2": 0.25
+  },
+  "90240023": {
+    "des": "每回合伤害永久增加20%，可叠加.",
+    "key1": "round_amplify",
+    "value1": 0.2
+  },
+  "90240024": {
+    "des": "击败目标后，吞噬其剩余怒气值，并增加自身2O%的攻击力。",
+    "key1": "kill_rob_anger",
+    "value1": true,
+    "key2": "kill_amp",
+    "value2": 0.2
+  },
+  "90240025": {
+    "des": "击败目标后对其余目标追加一次普通攻击，若目标存活，普通攻击有25%的概率触发1次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true,
+    "key2": "normal_combo",
+    "value2": 0.25
+  },
+  "90240026": {
+    "des": "受到直接伤害反弹40%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.4
+  },
+  "90240027": {
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身20%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.2
+  },
+  "90240028": {
+    "des": "免疫减怒效果，初始怒气+1",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "curAnger",
+    "value2": 1
+  },
+  "90240029": {
+    "des": "每回合行动结束后，为自身添加免控盾和20%生命上限伤害吸收盾，持续1回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
+  },
+  "90240030": {
+    "des": "击杀目标后，获得2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "key1": "killRet",
+    "value1": true,
+    "key2": "kill_anger",
+    "value2": 2
+  },
+  "90250001": {
+    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+1",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
+    "key2": "burn_duration",
+    "value2": 1
+  },
+  "90250002": {
+    "des": "入场时，为敌方全体附加2层感电效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250003": {
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90250004": {
+    "des": "入场时，为自身附加30%生命上限的伤害吸收盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+  },
+  "90250005": {
+    "des": "入场时，为我方全体附加持续1回合，10%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90250006": {
+    "des": "入场时，自身获得持续2个回合的无敌盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250007": {
+    "des": "入场时，自身获得暴击增加30%，暴伤增加30%，持续2回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250008": {
+    "des": "入场时，立即释放一次技能，并偷取攻击最高的敌方10%攻击力，持续至战斗结束",
+    "key1": "enter_skill",
+    "value1": true,
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.1,\"duration\":-1,\"buffRate\":1}"
+  },
+  "90250009": {
+    "des": "入场时，自身获得2层疾速状态",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "90250010": {
+    "des": "入场时，自身获得2层坚毅效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "90250011": {
+    "des": "入场时，为自身附加2回合免疫盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250012": {
+    "des": "入场时，为敌方全体附加虚弱效果2回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250013": {
+    "des": "入场时，攻击敌方最高的目标，造成最大生命值30%的物理伤害",
+    "key1": "beginSkill",
+    "value1": "dz_013"
+  },
+  "90250014": {
+    "des": "入场时，为敌方随机2-3个目标附加连击印记，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250015": {
+    "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率降低30%，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
+    "key2": "sand_low_hit",
+    "value2": 0.3
+  },
+  "90250016": {
+    "des": "入场时，随机降低敌方2个目标2点怒气",
+    "key1": "beginSkill",
+    "value1": "dz_003"
+  },
+  "90250017": {
+    "des": "入场时，为敌方随机2-3个目标附加1层减速，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250018": {
+    "des": "入场时，可给自身附加2层嗜血效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+  },
+  "90250019": {
+    "des": "入场时，可给敌方随机2个目标附加嘲讽效果，持续1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90250020": {
+    "des": "入场时，自身获得4层剑舞，每回合行动后获得1层剑舞。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":4,\"duration\":5,\"buffRate\":1}",
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "90250021": {
+    "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
+    "key2": "burn_duration",
+    "value2": 1
+  },
+  "90250022": {
+    "des": "死亡后，给敌方随机3个目标造成攻击100%的伤害，并附加1层感电效果",
+    "key1": "beginSkill",
+    "value1": "dz_010"
+  },
+  "90250023": {
+    "des": "死亡后，放逐敌方攻击力最高的英雄1回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "90250024": {
+    "des": "入场时，自身获得潜行效果，持续3个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff"
+  },
+  "90250025": {
+    "des": "入场时，为敌方随机1-3个目标附加2层破甲效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250026": {
+    "des": "死亡后，对敌方攻击最高的目标造成300%攻击的特殊伤害",
+    "key1": "died_buff",
+    "value1": "dz_016"
+  },
+  "90250027": {
+    "des": "死亡后，为敌方全体附加虚弱效果2回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90250028": {
+    "des": "死亡后，降低敌方随机2个目标2点怒气",
+    "key1": "diedSkill",
+    "value1": "dz_003"
+  },
+  "90250029": {
+    "des": "死亡后，为我方生命中最低的2个目标，回复200%攻击的生命。",
+    "key1": "diedSkill",
+    "value1": "dz_006"
+  },
+  "90250030": {
+    "des": "死亡后，随机冰冻敌方1-2个目标",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "90330001": {
+    "des": "攻击提升40%",
+    "key1": "neglect_def",
+    "value1": 0.4
+  },
+  "90330002": {
+    "des": "物防提升40%",
+    "key1": "self_phyDef_add",
+    "value1": 0.4
+  },
+  "90330003": {
+    "des": "特防提升40%",
+    "key1": "self_magDef_add",
+    "value1": 0.4
+  },
+  "90330004": {
+    "des": "生命提升40%",
+    "key1": "self_maxHP_add",
+    "value1": 0.4
+  },
+  "90330005": {
+    "des": "暴击伤害增加40%",
+    "key1": "slay",
+    "value1": 0.4
+  },
+  "90330006": {
+    "des": "暴击率增加40%",
+    "key1": "crit",
+    "value1": 0.4
+  },
+  "90330007": {
+    "des": "伤害减免增加40%",
+    "key1": "reduction",
+    "value1": 0.4
+  },
+  "90330008": {
+    "des": "攻击资质+30",
+    "key1": "M_ATK",
+    "value1": 30
+  },
+  "90330009": {
+    "des": "特攻资质+30",
+    "key1": "M_STK",
+    "value1": 30
+  },
+  "90330010": {
+    "des": "增加40%的免疫控制",
+    "key1": "control_buff_lowrate",
+    "value1": 0.4
+  },
+  "90330011": {
+    "des": "速度提升40%",
+    "key1": "self_speed_add",
+    "value1": 0.4
+  },
+  "90330012": {
+    "des": "闪避率提升40%",
+    "key1": "dodgeRate",
+    "value1": 0.4
+  },
+  "90330013": {
+    "des": "命中率不会被降低，攻击必定命中",
+    "key1": "skill_must_hit",
+    "value1": true
+  },
+  "90330014": {
+    "des": "抗暴率提升40%",
+    "key1": "critDef",
+    "value1": 0.4
+  },
+  "90330015": {
+    "des": "治疗效果提升40%",
+    "key1": "skill_heal_amp",
+    "value1": 0.4,
+    "key2": "normal_heal_amp",
+    "value2": 0.4
+  },
+  "90330016": {
+    "des": "生命资质+30",
+    "key1": "M_HP",
+    "value1": 30
+  },
+  "90330017": {
+    "des": "受到治疗量增加40%",
+    "key1": "healAdd",
+    "value1": 0.4
+  },
+  "90330018": {
+    "des": "受到的持续伤害降低40%",
+    "key1": "damage_buff_lowArg",
+    "value1": 0.4
+  },
+  "90330019": {
+    "des": "普通攻击附加3层破甲效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+  },
+  "90330020": {
+    "des": "技能攻击附加3层破甲效果",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+  },
+  "90330021": {
+    "des": "生命值每降低10%，伤害增加20%",
+    "key1": "low_hp_amp",
+    "value1": 0.2
+  },
+  "90330022": {
+    "des": "全属性资质加成+20",
+    "key1": "M_HP",
+    "value1": 20,
+    "key2": "M_ATK",
+    "value2": 20,
+    "key3": "M_DEF",
+    "value3": 20,
+    "key4": "M_STK",
+    "value4": 20,
+    "key5": "M_SEF",
+    "value5": 20,
+    "key6": "M_SPE",
+    "value6": 20
+  },
+  "90330023": {
+    "des": "对敌方造成克制的额外伤害增加40%"
+  },
+  "90330024": {
+    "des": "受克制造成的额外伤害降低40%",
+    "key1": "specie_behit",
+    "value1": 0.4
+  },
+  "90330025": {
+    "des": "伤害增加50%，物防降低25%",
+    "key1": "amplify",
+    "value1": 0.5,
+    "key2": "self_phyDef_add",
+    "value2": -0.25
+  },
+  "90330026": {
+    "des": "伤害增加50%，特防降低25%",
+    "key1": "amplify",
+    "value1": 0.5,
+    "key2": "self_magDef_add",
+    "value2": -0.25
+  },
+  "90330027": {
+    "des": "伤害增加50%，命中降低25%",
+    "key1": "amplify",
+    "value1": 0.5,
+    "key2": "hitRate",
+    "value2": -0.25
+  },
+  "90330028": {
+    "des": "伤害增加50%，生命降低25%",
+    "key1": "amplify",
+    "value1": 0.5,
+    "key2": "self_maxHP_add",
+    "value2": -0.25
+  },
+  "90330029": {
+    "des": "减伤增加50%，速度降低25%",
+    "key1": "reduction",
+    "value1": 0.5,
+    "key2": "self_speed_add",
+    "value2": -0.25
+  },
+  "90330030": {
+    "des": "生命增加50%，速度降低25%",
+    "key1": "self_maxHP_add",
+    "value1": 0.5,
+    "key2": "self_speed_add",
+    "value2": -0.25
+  },
+  "90340001": {
+    "des": "行动后恢复自身2点怒气，并回复自身6%最大生命值",
+    "key1": "action_anger",
+    "value1": 2,
+    "key2": "action_heal",
+    "value2": 0.06
+  },
+  "90340002": {
+    "des": "普攻后有70%概率释放1次怒气技能",
+    "key1": "normal_add_skill",
+    "value1": 0.7
+  },
+  "90340003": {
+    "des": "回复等同于攻击造成伤害的75%的生命值",
+    "key1": "turn_rate",
+    "value1": 0.75,
+    "key2": "turn_tg",
+    "value2": "team_self"
+  },
+  "90340004": {
+    "des": "技能攻击附带目标最大生命值30%伤害",
+    "key1": "maxHP_damage",
+    "value1": 0.3
+  },
+  "90340005": {
+    "des": "每受到一次伤害，回复自身生命15%",
+    "key1": "hit_turn_rate",
+    "value1": 0.15
+  },
+  "90340006": {
+    "des": "每次击败目标后，自身暴击增加100%，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 1
+  },
+  "90340007": {
+    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成10%生命上限伤害",
+    "key1": "skill_add_d_s",
+    "value1": true,
+    "key2": "add_default_maxHp",
+    "value2": 0.1
+  },
+  "90340008": {
+    "des": "每当直接伤害击败目标时,自身获得4点怒气",
+    "key1": "kill_anger",
+    "value1": 4
+  },
+  "90340009": {
+    "des": "释放技能有70%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.7
+  },
+  "90340010": {
+    "des": "技能攻击可降低目标2点怒气，技能伤害增加25%",
+    "key1": "skill_less_anger",
+    "value1": 2,
+    "key2": "skill_attack_amp",
+    "value2": 0.25
+  },
+  "90340011": {
+    "des": "普通攻击可降低目标2点怒气，普通攻击伤害增加25%。",
+    "key1": "normal_less_anger",
+    "value1": 2,
+    "key2": "normal_attack_amp",
+    "value2": 0.25
+  },
+  "90340012": {
+    "des": "释放技能时，若目标生命值低于35%，则将其斩杀。",
+    "key1": "seckill",
+    "value1": 0.35
+  },
+  "90340013": {
+    "des": "每回合行动前解除自身3个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true,
+    "key2": "remove_one_lower",
+    "value2": true,
+    "key3": "remove_one_lower",
+    "value3": true
+  },
+  "90340014": {
+    "des": "每回合行动后回复自身10%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.1
+  },
+  "90340015": {
+    "des": "普通攻击伤害增加200%",
+    "key1": "normal_attack_amp",
+    "value1": 2
+  },
+  "90340016": {
+    "des": "技能伤害效果增加200%",
+    "key1": "skill_attack_amp",
+    "value1": 2
+  },
+  "90340017": {
+    "des": "每回合为自身附加3层坚毅效果",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":0.65}"
+  },
+  "90340018": {
+    "des": "所有攻击无视对方35%的防御",
+    "key1": "neglect_def",
+    "value1": 0.35
+  },
+  "90340019": {
+    "des": "直接伤害击杀目标后追加1次普通攻击，增加自身20%暴击率和20%的暴击伤害.",
+    "key1": "kill_add_d_s",
+    "value1": true,
+    "key2": "kill_crit",
+    "value2": 0.2,
+    "key3": "kill_slay",
+    "value3": 0.2
+  },
+  "90340020": {
+    "des": "受到直接伤害的48%转化为生命治疗自身",
+    "key1": "hit_turn_rate",
+    "value1": 0.48,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
+  },
+  "90340021": {
+    "des": "释放技能后恢复自身40%最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.4
+  },
+  "90340022": {
+    "des": "每当击败一个目标的时候，获得1回合无敌盾，无敌盾消失时回复自身35%生命上限的血量",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "key2": "invincibleHeal",
+    "value2": 0.35
+  },
+  "90340023": {
+    "des": "每回合伤害永久增加30%，可叠加.",
+    "key1": "round_amplify",
+    "value1": 0.3
+  },
+  "90340024": {
+    "des": "击败目标后，吞噬其剩余怒气值，并增加自身4O%的攻击力。",
+    "key1": "kill_rob_anger",
+    "value1": true,
+    "key2": "kill_amp",
+    "value2": 0.4
+  },
+  "90340025": {
+    "des": "击败目标后对其余目标追加一次普通攻击，若目标存活，普通攻击有45%的概率触发1次普通攻击",
+    "key1": "kill_add_d_s",
+    "value1": true,
+    "key2": "normal_combo",
+    "value2": 0.45
+  },
+  "90340026": {
+    "des": "受到直接伤害反弹60%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.6
+  },
+  "90340027": {
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身30%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.3
+  },
+  "90340028": {
+    "des": "免疫减怒效果，初始怒气+2",
+    "key1": "banLessAnger",
+    "value1": true,
+    "key2": "curAnger",
+    "value2": 2
+  },
+  "90340029": {
+    "des": "每回合行动结束后，为自身添加免控盾和30%生命上限伤害吸收盾，持续1回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+  },
+  "90340030": {
+    "des": "击杀目标后，获得4点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "key1": "killRet",
+    "value1": true,
+    "key2": "kill_anger",
+    "value2": 4
+  },
+  "90350001": {
+    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+2.",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
+    "key2": "burn_duration",
+    "value2": 2
+  },
+  "90350002": {
+    "des": "入场时，为敌方全体附加3层感电效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "90350003": {
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦20%的攻击力，持续至战斗结束。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":-1,\"buffRate\":1}"
+  },
+  "90350004": {
+    "des": "入场时，为全体队友附加30%生命上限的伤害吸收盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+  },
+  "90350005": {
+    "des": "入场时，为我方全体附加15%生命上限的吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续至战斗结束。",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+  },
+  "90350006": {
+    "des": "入场时，获得持续3个回合的无敌盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350007": {
+    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
+  },
+  "90350008": {
+    "des": "入场时，立即释放一次技能，并偷取攻击最高的敌方20%攻击力，持续至战斗结束。",
+    "key1": "enter_skill",
+    "value1": true,
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":-1,\"buffRate\":1}"
+  },
+  "90350009": {
+    "des": "入场时，自身获得3层疾速状态",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350010": {
+    "des": "入场时，自身获得3层坚毅效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350011": {
+    "des": "入场时，为自身附加3回合免疫盾",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350012": {
+    "des": "入场时，为敌方全体附加虚弱效果3回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350013": {
+    "des": "入场时，攻击敌方最高的目标，造成最大生命值45%的物理伤害",
+    "key1": "beginSkill",
+    "value1": "dz_014"
+  },
+  "90350014": {
+    "des": "入场时，为敌方随机3个目标附加连击印记，持续3个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350015": {
+    "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率和攻击力降低30%，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
+    "key2": "sand_low_hit",
+    "value2": 0.3,
+    "key3": "sand_low_damage",
+    "value3": 0.3
+  },
+  "90350016": {
+    "des": "入场时，随机降低敌方3个目标2点怒气",
+    "key1": "beginSkill",
+    "value1": "dz_004"
+  },
+  "90350017": {
+    "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+  },
+  "90350018": {
+    "des": "入场时，可给自身附加3层嗜血效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350019": {
+    "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "90350020": {
+    "des": "入场时，自身获得6层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
+    "key2": "buffDuration",
+    "value2": 99,
+    "key3": "action_buff",
+    "value3": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
+  },
+  "90350021": {
+    "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1，若敌方处于灼烧状态，则给目标附加晕眩效果。",
+    "key1": "diedSkill",
+    "value1": "dz_012",
+    "key2": "burn_duration",
+    "value2": 1
+  },
+  "90350022": {
+    "des": "死亡后，给敌方随机3个目标造成攻击200%的伤害，并附加1层感电效果",
+    "key1": "beginSkill",
+    "value1": "dz_011"
+  },
+  "90350023": {
+    "des": "死亡后，放逐敌方攻击力最高的英雄2回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "90350024": {
+    "des": "入场时，自身获得潜行效果，持续4个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":4,\"buffRate\":1}"
+  },
+  "90350025": {
+    "des": "入场时，为敌方随机2-3个目标附加3层破甲效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":4,\"duration\":2,\"buffRate\":1}"
+  },
+  "90350026": {
+    "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
+    "key1": "died_buff",
+    "value1": "dz_017"
+  },
+  "90350027": {
+    "des": "死亡后，为敌方全体附加虚弱效果3回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "90350028": {
+    "des": "死亡后，降低敌方随机3个目标2点怒气",
+    "key1": "diedSkill",
+    "value1": "dz_003"
+  },
+  "90350029": {
+    "des": "死亡后，为我方生命中最低的3个目标，回复200%攻击的生命。",
+    "key1": "diedSkill",
+    "value1": "dz_007"
+  },
+  "90350030": {
+    "des": "死亡后，随机冰冻敌方1-3个目标",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "NPC_KB1": {
     "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，暴击增加50%,暴伤增加50%，持续3回合,每场战斗只能生效1次",

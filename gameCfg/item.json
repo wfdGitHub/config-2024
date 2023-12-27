@@ -3,7 +3,7 @@
     "name": "主角经验",
     "des": "主角经验,用于升级主角等级",
     "type": "lordexp",
-    "quality": 5,
+    "quality": 4,
     "source1": "checkpoints",
     "source2": "quick",
     "icon": 100
@@ -48,7 +48,7 @@
     "name": "活跃度",
     "des": "完成每日活跃任务获得，累计一定数量后可获得活跃度丰厚奖励。",
     "type": "currency",
-    "quality": 4,
+    "quality": 5,
     "source1": "gift",
     "icon": 130
   },
@@ -69,7 +69,7 @@
     "des": "游戏中常见的货币,可用于购买道具,强化宝可梦等",
     "type": "currency",
     "rmb": 0.001,
-    "quality": 4,
+    "quality": 3,
     "source1": "escort",
     "source2": "dailyFb",
     "source3": "gift",
@@ -96,7 +96,7 @@
   },
   "205": {
     "name": "贡献币",
-    "des": "挑战竞技场可获得,用于贡献商店兑换商品",
+    "des": "每日活跃和挑战竞技场可获得,用于贡献商店兑换商品",
     "type": "currency",
     "rmb": 0.05,
     "quality": 4,
@@ -109,7 +109,7 @@
     "des": "锦标赛积分,可用于锦标赛商店兑换商品",
     "type": "currency",
     "rmb": 0.05,
-    "quality": 4,
+    "quality": 5,
     "source1": "crossTop",
     "icon": 211
   },
@@ -148,7 +148,7 @@
     "des": "可用于兑换技能书",
     "type": "currency",
     "rmb": 0.1,
-    "quality": 3,
+    "quality": 4,
     "source1": "gift",
     "icon": 220
   },
@@ -1200,21 +1200,13 @@
     "source1": "gift",
     "icon": 941
   },
-  "1050": {
-    "name": "梦幻基因",
-    "des": "定制宝可梦技能材料",
-    "type": "item",
-    "quality": 5,
-    "source1": "gift",
-    "icon": 1050
-  },
   "1060": {
     "name": "幻兽珠",
     "des": "可用于兑换幻兽",
     "story": "蕴含奇异精华的宝珠，好像能吸引幻兽的到来",
     "type": "item",
     "rmb": 20,
-    "quality": 5,
+    "quality": 6,
     "source1": "extremity",
     "source2": "beherrscher",
     "source3": "invade",
@@ -1227,7 +1219,7 @@
     "story": "蕴含远古精华的宝珠，神兽都可能为此而来",
     "type": "item",
     "rmb": 100,
-    "quality": 5,
+    "quality": 7,
     "source1": "extremity",
     "source2": "beherrscher",
     "source3": "cangbaotu",
@@ -1240,7 +1232,7 @@
     "story": "用超古代技艺从法宝中提取而出的具有强大能量的珠子，可用于蕴养法宝",
     "type": "item",
     "rmb": 5,
-    "quality": 4,
+    "quality": 5,
     "source1": "dailyFb",
     "source2": "tour",
     "source3": "zhulu",
@@ -1486,7 +1478,7 @@
       "2004329:1",
       "2004330:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3650": {
@@ -1610,7 +1602,7 @@
       "2003040:1",
       "2003040:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3680": {
@@ -1711,7 +1703,7 @@
       "2001030:1",
       "2000050:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3710": {
@@ -1752,7 +1744,7 @@
       "3101203:1",
       "3101303:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3720": {
@@ -1793,7 +1785,7 @@
       "3101204:1",
       "3101304:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3730": {
@@ -1828,7 +1820,7 @@
       "200400:1",
       "200500:1"
     ],
-    "quality": 5,
+    "quality": 3,
     "source1": "gift"
   },
   "3740": {
@@ -1863,7 +1855,7 @@
       "300400:1",
       "300500:1"
     ],
-    "quality": 5,
+    "quality": 4,
     "source1": "gift"
   },
   "3750": {
@@ -1899,7 +1891,7 @@
       "400900:1",
       "401000:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3760": {
@@ -2028,7 +2020,7 @@
       "4003:1",
       "4004:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3790": {
@@ -2045,7 +2037,7 @@
       "1000130:1",
       "1000140:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "3800": {
@@ -2092,7 +2084,7 @@
       "1080:1",
       "1080:1"
     ],
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "4001": {
@@ -2189,7 +2181,7 @@
     "des": "跨服段位赛第1名",
     "type": "title",
     "arg": 7505,
-    "quality": 6,
+    "quality": 5,
     "source1": "crossPK"
   },
   "7506": {
@@ -2197,7 +2189,7 @@
     "des": "世界锦标赛第1名",
     "type": "title",
     "arg": 7506,
-    "quality": 6,
+    "quality": 5,
     "source1": "crossTop"
   },
   "7507": {
@@ -2205,7 +2197,7 @@
     "des": "世界锦标赛第2名",
     "type": "title",
     "arg": 7507,
-    "quality": 6,
+    "quality": 5,
     "source1": "crossTop"
   },
   "7508": {
@@ -2221,7 +2213,7 @@
     "des": "光环超魔神，伤害排名第1名的玩家获得",
     "type": "title",
     "arg": 7509,
-    "quality": 6,
+    "quality": 5,
     "source1": "extremity"
   },
   "7510": {
@@ -2229,7 +2221,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7510,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7511": {
@@ -2237,7 +2229,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7511,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7512": {
@@ -2245,7 +2237,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7512,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7513": {
@@ -2253,7 +2245,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7513,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7514": {
@@ -2261,7 +2253,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7514,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7515": {
@@ -2269,7 +2261,7 @@
     "des": "对战开拓，挑战对应席位获得",
     "type": "title",
     "arg": 7515,
-    "quality": 6,
+    "quality": 5,
     "source1": "beherrscher"
   },
   "7516": {
@@ -2277,7 +2269,7 @@
     "des": "全明星赛积分排名第1名",
     "type": "title",
     "arg": 7516,
-    "quality": 6,
+    "quality": 5,
     "source1": "crossTeamPK"
   },
   "7517": {
@@ -2285,7 +2277,7 @@
     "des": "全明星赛积分排名第2~10名",
     "type": "title",
     "arg": 7517,
-    "quality": 6,
+    "quality": 5,
     "source1": "crossTeamPK"
   },
   "7518": {
@@ -2293,7 +2285,7 @@
     "des": "通关次元危机100关奖励获得",
     "type": "title",
     "arg": 7518,
-    "quality": 6,
+    "quality": 5,
     "source1": "areaTrial"
   },
   "7519": {
@@ -2301,7 +2293,7 @@
     "des": "通关神秘洞窟5次获得",
     "type": "title",
     "arg": 7519,
-    "quality": 6,
+    "quality": 5,
     "source1": "zhulu"
   },
   "7520": {
@@ -2309,7 +2301,7 @@
     "des": "通关无尽试炼20次获得",
     "type": "title",
     "arg": 7520,
-    "quality": 6,
+    "quality": 5,
     "source1": "endless"
   },
   "7521": {
@@ -2317,7 +2309,7 @@
     "des": "挑战新服挑战，挑战击败最后boss奖励",
     "type": "title",
     "arg": 7521,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "7522": {
@@ -2325,7 +2317,7 @@
     "des": "新服BOSS伤害排名第1的玩家获得",
     "type": "title",
     "arg": 7522,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "7523": {
@@ -2333,7 +2325,7 @@
     "des": "新服BOSS伤害排名第1的玩家获得",
     "type": "title",
     "arg": 7523,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "7524": {
@@ -2341,7 +2333,7 @@
     "des": "新服BOSS伤害排名第1的玩家获得",
     "type": "title",
     "arg": 7524,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "7525": {
@@ -2349,7 +2341,7 @@
     "des": "新服BOSS伤害排名第1的玩家获得",
     "type": "title",
     "arg": 7525,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8140": {
@@ -2357,7 +2349,7 @@
     "des": "主线冲榜获得",
     "type": "frame",
     "arg": 8140,
-    "quality": 6,
+    "quality": 5,
     "source1": "checkpoints"
   },
   "8150": {
@@ -2365,7 +2357,7 @@
     "des": "道馆冲榜获得",
     "type": "frame",
     "arg": 8150,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8160": {
@@ -2373,7 +2365,7 @@
     "des": "捕捉冲榜获得",
     "type": "frame",
     "arg": 8160,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8170": {
@@ -2381,7 +2373,7 @@
     "des": "等级冲榜获得",
     "type": "frame",
     "arg": 8170,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8180": {
@@ -2389,7 +2381,7 @@
     "des": "战力冲榜获得",
     "type": "frame",
     "arg": 8180,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8190": {
@@ -2397,7 +2389,7 @@
     "des": "完成新服活动任务获得",
     "type": "frame",
     "arg": 8190,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8200": {
@@ -2405,7 +2397,7 @@
     "des": "完成新服回馈任务获得",
     "type": "frame",
     "arg": 8200,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8210": {
@@ -2413,7 +2405,7 @@
     "des": "购买新服限购后获得",
     "type": "frame",
     "arg": 8210,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8220": {
@@ -2421,7 +2413,7 @@
     "des": "完成新服限购最后任务奖励获得",
     "type": "frame",
     "arg": 8220,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8230": {
@@ -2429,7 +2421,7 @@
     "des": "购买首次礼包获得",
     "type": "frame",
     "arg": 8230,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8240": {
@@ -2437,7 +2429,7 @@
     "des": "购买至尊特权获得",
     "type": "frame",
     "arg": 8240,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8250": {
@@ -2445,7 +2437,7 @@
     "des": "购买战令获得",
     "type": "frame",
     "arg": 8250,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8260": {
@@ -2453,7 +2445,7 @@
     "des": "购买基金获得",
     "type": "frame",
     "arg": 8260,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8270": {
@@ -2461,7 +2453,7 @@
     "des": "购买月卡获得",
     "type": "frame",
     "arg": 8270,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8280": {
@@ -2469,7 +2461,7 @@
     "des": "VIP到达对应等级后获得",
     "type": "frame",
     "arg": 8280,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "8290": {
@@ -2477,7 +2469,7 @@
     "des": "每日签到获得",
     "type": "frame",
     "arg": 8290,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift"
   },
   "9300": {
@@ -3089,6 +3081,59 @@
     "source4": "tour",
     "icon": 9616
   },
+  "10100": {
+    "name": "梦幻基因1",
+    "des": "定制1世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "source1": "gift",
+    "icon": 10100
+  },
+  "10200": {
+    "name": "梦幻基因2",
+    "des": "定制2世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "buy": "10100:3",
+    "source1": "gift",
+    "icon": 10200
+  },
+  "10300": {
+    "name": "梦幻基因3",
+    "des": "定制3世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "buy": "10200:3",
+    "source1": "gift",
+    "icon": 10300
+  },
+  "10400": {
+    "name": "梦幻基因4",
+    "des": "定制4世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "buy": "10300:3",
+    "source1": "gift",
+    "icon": 10400
+  },
+  "10500": {
+    "name": "梦幻基因5",
+    "des": "定制5世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "buy": "10400:3",
+    "source1": "gift",
+    "icon": 10500
+  },
+  "10600": {
+    "name": "梦幻基因6",
+    "des": "定制6世代宝可梦技能材料",
+    "type": "item",
+    "quality": 5,
+    "buy": "10500:3",
+    "source1": "gift",
+    "icon": 10600
+  },
   "100100": {
     "name": "主角经验胶囊",
     "des": "使用后可获得2小时当前主线关卡进度对应的挂机主角经验收益",
@@ -3653,7 +3698,7 @@
     "story": 0,
     "type": "item",
     "rmb": 1,
-    "quality": 4,
+    "quality": 3,
     "source1": "gift",
     "icon": 1000160
   },
@@ -3674,7 +3719,7 @@
     "story": "据说武藏和小次郎是这款商品的常客",
     "type": "item",
     "rmb": 10,
-    "quality": 4,
+    "quality": 5,
     "source1": "gift",
     "icon": 1000500
   },
@@ -4159,7 +4204,7 @@
     "story": "来自神秘遗迹里的灵露，给宝可梦食用会拥有奇妙的效果",
     "type": "item",
     "rmb": 1,
-    "quality": 6,
+    "quality": 5,
     "source1": "checkpoints",
     "source2": "tower",
     "source3": "extremity",
@@ -4184,7 +4229,7 @@
     "story": "大木博士：“快去收服各种各样的宝可梦吧！”",
     "type": "item",
     "rmb": 2,
-    "quality": 6,
+    "quality": 2,
     "source1": "gift",
     "source2": "tower",
     "source3": "extremity",
@@ -4197,7 +4242,7 @@
     "story": "大木博士：“快去收服各种各样的宝可梦吧！”",
     "type": "item",
     "rmb": 4,
-    "quality": 6,
+    "quality": 3,
     "buy": "2001010:2",
     "source1": "gift",
     "source2": "tower",
@@ -4211,7 +4256,7 @@
     "story": "大木博士：“快去收服各种各样的宝可梦吧！”",
     "type": "item",
     "rmb": 8,
-    "quality": 6,
+    "quality": 4,
     "buy": "2001020:2",
     "source1": "gift",
     "source2": "tower",
@@ -4225,7 +4270,7 @@
     "story": "大木博士：“快去收服各种各样的宝可梦吧！”",
     "type": "item",
     "rmb": 16,
-    "quality": 6,
+    "quality": 5,
     "buy": "2001030:2",
     "source1": "gift",
     "source2": "tower",
@@ -4253,7 +4298,7 @@
     "story": "大木博士：“快去收服各种各样的宝可梦吧！”",
     "type": "item",
     "rmb": 64,
-    "quality": 6,
+    "quality": 7,
     "buy": "2001050:2",
     "source1": "gift",
     "source2": "tower",
@@ -4336,7 +4381,7 @@
     "story": "蕴含着进化力量的石头",
     "type": "item",
     "rmb": 2,
-    "quality": 6,
+    "quality": 4,
     "source1": "gift",
     "source2": "dailyFb",
     "source3": "worldBoss",
@@ -4348,7 +4393,7 @@
     "story": "这看似蓝色的晶体实则是一种铜矿石，一座铜矿也产出不了几枚这等品质的铜矿石",
     "type": "item",
     "rmb": 4,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift",
     "source2": "checkpoints",
     "source3": "cangbaotu",
@@ -4360,7 +4405,7 @@
     "story": "流淌着淡雅湖光的铁矿，只有湖之传说的宝可梦栖息的神奥地区三大湖才能产出如此高质量的铁矿",
     "type": "item",
     "rmb": 8,
-    "quality": 6,
+    "quality": 5,
     "buy": "2003010:2",
     "source1": "gift",
     "source2": "checkpoints",
@@ -4373,7 +4418,7 @@
     "story": "据传是远古时代的陨石落入地面，在地壳运动下卷入地底深处，在地底深处的高压环境下才能诞生的陨石中的精华",
     "type": "item",
     "rmb": 16,
-    "quality": 6,
+    "quality": 5,
     "buy": "2003020:2",
     "source1": "gift",
     "source2": "checkpoints",
@@ -4386,7 +4431,7 @@
     "story": "流转着火光的晶石，实则同时有着银的性质，在高洁的银质内包含着的是那炽热的内心，",
     "type": "item",
     "rmb": 32,
-    "quality": 6,
+    "quality": 5,
     "buy": "2003030:2",
     "source1": "gift",
     "source2": "checkpoints",
@@ -4399,7 +4444,7 @@
     "story": "这紫红色的玉石仅是盯着看仿佛就要被吸入一般，充满着神秘的色彩",
     "type": "item",
     "rmb": 64,
-    "quality": 6,
+    "quality": 5,
     "buy": "2003040:2",
     "source1": "gift",
     "source2": "checkpoints",
@@ -4412,7 +4457,7 @@
     "story": "状如琉璃，如梦如幻，只有在流传着古代传说和神话的遗迹才能见到的奇迹矿石，尚且不明其的生成原理",
     "type": "item",
     "rmb": 128,
-    "quality": 6,
+    "quality": 5,
     "buy": "2003050:2",
     "source1": "gift",
     "source2": "checkpoints",
@@ -4425,7 +4470,7 @@
     "story": "宛若碧空色泽的玉材",
     "type": "item",
     "rmb": 10,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift",
     "source2": "worldBoss",
     "icon": 2003100
@@ -4436,7 +4481,7 @@
     "story": "其精密的结晶结构，在光线下映照出仿佛月亮般的景象，因此而得名",
     "type": "item",
     "rmb": 20,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift",
     "source2": "worldBoss",
     "icon": 2003200
@@ -4447,7 +4492,7 @@
     "story": "像是万华镜般看不出内部有多少面的水晶王冠",
     "type": "item",
     "rmb": 20,
-    "quality": 6,
+    "quality": 5,
     "source1": "gift",
     "source2": "worldBoss",
     "icon": 2003300
@@ -9137,7 +9182,7 @@
     "useType": "fabao",
     "useMax": 99,
     "rmb": 10,
-    "arg": 1,
+    "arg": 2,
     "quality": 2,
     "source1": "gift",
     "icon": 3000001
@@ -9150,7 +9195,7 @@
     "useType": "fabao",
     "useMax": 99,
     "rmb": 25,
-    "arg": 2,
+    "arg": 3,
     "quality": 3,
     "source1": "gift",
     "icon": 3000002
@@ -9163,7 +9208,7 @@
     "useType": "fabao",
     "useMax": 99,
     "rmb": 50,
-    "arg": 3,
+    "arg": 4,
     "quality": 4,
     "source1": "gift",
     "icon": 3000003
@@ -9176,7 +9221,7 @@
     "useType": "fabao",
     "useMax": 99,
     "rmb": 100,
-    "arg": 4,
+    "arg": 5,
     "quality": 5,
     "source1": "gift",
     "icon": 3000004
@@ -9189,7 +9234,7 @@
     "useType": "fabao",
     "useMax": 99,
     "rmb": 200,
-    "arg": 5,
+    "arg": 6,
     "quality": 6,
     "source1": "gift",
     "icon": 3000005
