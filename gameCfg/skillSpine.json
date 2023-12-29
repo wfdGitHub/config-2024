@@ -377,53 +377,39 @@
   "5010402_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5010402/skill/skill",
     "st": 0,
     "ht": "[2830]"
   },
-  "5001100_atk": {
+  "5010500_atk": {
     "name": "pg",
-    "turn": "turn",
-    "skill": "ACGN/5001100/pg/pg",
     "st": 0,
     "ht": "[930,1400,1530]"
   },
-  "5001100_skill": {
+  "5010500_skill": {
     "name": "skill",
-    "repetition": true,
-    "turn": "turn",
-    "skill": "ACGN/5001100/skill/skill",
     "st": 0,
     "ht": "[1530,1660,1800]"
   },
-  "5001101_atk": {
+  "5010501_atk": {
     "name": "pg",
-    "turn": "turn",
-    "skill": "ACGN/5001101/pg/pg",
     "st": 0,
     "ht": "[930,1400,1530]"
   },
-  "5001101_skill": {
+  "5010501_skill": {
     "name": "skill",
-    "repetition": true,
-    "turn": "turn",
-    "skill": "ACGN/5001101/skill/skill",
     "st": 0,
     "ht": "[1530,1660,1800]"
   },
-  "5001102_atk": {
+  "5010502_atk": {
     "name": "pg",
-    "turn": "turn",
-    "skill": "ACGN/5001102/pg/pg",
     "st": 0,
     "ht": "[1700,1860,2060]"
   },
-  "5001102_skill": {
+  "5010502_skill": {
     "name": "skill",
-    "repetition": true,
-    "turn": "turn",
-    "skill": "ACGN/5001102/skill/skill",
     "st": 0,
     "ht": "[1260,1400]"
   },
@@ -491,6 +477,7 @@
   },
   "5010701_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5010701/skill/skill",
     "st": 0,
@@ -503,6 +490,7 @@
   },
   "5010702_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5010702/skill/skill",
     "st": 0,
@@ -595,7 +583,6 @@
   "5011000_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011000/skill/skill",
     "st": 0,
@@ -631,6 +618,8 @@
   },
   "5011100_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5011100/pg/pg",
     "st": 0,
     "ht": "[1160]"
@@ -646,6 +635,8 @@
   },
   "5011101_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5011101/pg/pg",
     "st": 0,
     "ht": "[1060,1530]"
@@ -653,6 +644,7 @@
   "5011101_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011101/skill/skill",
     "st": 0,
@@ -660,6 +652,8 @@
   },
   "5011102_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5011102/pg/pg",
     "st": 0,
     "ht": "[930,1100,1330]"
@@ -829,6 +823,7 @@
   },
   "5011600_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "st": 0,
     "ht": "[1300]"
@@ -836,6 +831,7 @@
   "5011600_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011600/skill/skill",
     "st": 0,
@@ -843,12 +839,14 @@
   },
   "5011601_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "st": 0,
     "ht": "[960,1130,1230]"
   },
   "5011601_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011601/skill/skill",
     "st": 0,
@@ -856,12 +854,14 @@
   },
   "5011602_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "st": 0,
     "ht": "[700,860,1060,1700]"
   },
   "5011602_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011602/skill/skill",
     "st": 0,
@@ -940,7 +940,6 @@
   },
   "5011900_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011900/skill/skill",
     "st": 0,
@@ -953,7 +952,6 @@
   },
   "5011901_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011901/skill/skill",
     "st": 0,
@@ -966,41 +964,55 @@
   },
   "5011902_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5011902/skill/skill",
     "st": 0,
     "ht": "[1660,2330,2660,2730,2800,2900,3060,3200,3230,3400,3500,3600]"
   },
-  "5010500_atk": {
+  "5001100_atk": {
     "name": "pg",
+    "turn": "turn",
+    "skill": "ACGN/5001100/pg/pg",
     "st": 0,
-    "ht": "[660]"
+    "ht": "[930,1400,1530]"
   },
-  "5010500_skill": {
+  "5001100_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/5001100/skill/skill",
     "st": 0,
-    "ht": "[1360,1460,1560]"
+    "ht": "[1530,1660,1800]"
   },
-  "5010501_atk": {
+  "5001101_atk": {
     "name": "pg",
+    "turn": "turn",
+    "skill": "ACGN/5001101/pg/pg",
     "st": 0,
-    "ht": "[700]"
+    "ht": "[930,1400,1530]"
   },
-  "5010501_skill": {
+  "5001101_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/5001101/skill/skill",
     "st": 0,
-    "ht": "[700,1430,1700,1830,2030,2230]"
+    "ht": "[1530,1660,1800]"
   },
-  "5010502_atk": {
+  "5001102_atk": {
     "name": "pg",
+    "turn": "turn",
+    "skill": "ACGN/5001102/pg/pg",
     "st": 0,
-    "ht": "[700]"
+    "ht": "[1700,1860,2060]"
   },
-  "5010502_skill": {
+  "5001102_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/5001102/skill/skill",
     "st": 0,
-    "ht": "[700,1430,1700,1830,2030,2230]"
+    "ht": "[1260,1400]"
   },
   "5020100_atk": {
     "name": "pg",
@@ -1011,7 +1023,6 @@
   },
   "5020100_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5020100/skill/skill",
     "st": 0,
@@ -1027,7 +1038,6 @@
   "5020101_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5020101/skill/skill",
     "st": 0,
@@ -1043,7 +1053,6 @@
   "5020102_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5020102/skill/skill",
     "st": 0,
@@ -1051,36 +1060,47 @@
   },
   "5020200_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5020200/pg/pg",
     "st": 0,
     "ht": "[1000,1060,1160,1330]"
   },
   "5020200_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5020200/skill/skill",
     "st": 0,
     "ht": "[2800,3500,4460,4760]"
   },
   "5020201_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5020201/pg/pg",
     "st": 0,
     "ht": "[960]"
   },
   "5020201_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5020201/skill/skill",
     "st": 0,
     "ht": "[1300,1500,1800]"
   },
   "5020202_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5020202/pg/pg",
     "st": 0,
     "ht": "[1230]"
   },
   "5020202_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5020202/skill/skill",
     "st": 0,
@@ -1417,6 +1437,7 @@
   "5030302_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5030302/skill/skill",
     "st": 0,
@@ -1481,7 +1502,6 @@
   "5030500_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5030500/skill/skill",
     "st": 0,
@@ -1496,7 +1516,6 @@
   "5030501_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5030501/skill/skill",
     "st": 0,
@@ -1696,6 +1715,8 @@
   },
   "5031000_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5031000/skill/skill",
     "ht": "[1930,2130]"
   },
@@ -1706,6 +1727,8 @@
   },
   "5031001_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5031001/skill/skill",
     "ht": "[1860,2030,2230]"
   },
@@ -1717,6 +1740,7 @@
   "5031002_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5031002/skill/skill",
     "ht": "[2400]"
@@ -1790,6 +1814,7 @@
   },
   "5040102_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5040102/skill/skill",
     "ht": "[1730,1930,2160]"
@@ -1826,6 +1851,7 @@
   },
   "5040300_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5040300/pg/pg",
     "ht": "[1400]"
@@ -1840,6 +1866,7 @@
   },
   "5040301_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5040301/pg/pg",
     "ht": "[1130]"
@@ -1854,6 +1881,7 @@
   },
   "5040302_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5040302/pg/pg",
     "ht": "[630,1260]"
@@ -1868,6 +1896,8 @@
   },
   "5040400_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5040400/pg/pg",
     "ht": "[1600,1760,2060]"
   },
@@ -1880,6 +1910,8 @@
   },
   "5040401_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5040401/pg/pg",
     "ht": "[1060]"
   },
@@ -1892,6 +1924,8 @@
   },
   "5040402_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5040402/pg/pg",
     "ht": "[730,1460,1860]"
   },
@@ -1934,31 +1968,43 @@
   },
   "5050100_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050100/pg/pg",
     "ht": "[1530]"
   },
   "5050100_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050100/skill/skill",
     "ht": "[900,1130,2000]"
   },
   "5050101_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050101/pg/pg",
     "ht": "[960,1000,1060]"
   },
   "5050101_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050101/skill/skill",
     "ht": "[1530]"
   },
   "5050102_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050102/pg/pg",
     "ht": "[1066,1230,1460,1700,1900]"
   },
   "5050102_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050102/skill/skill",
     "ht": "[1160,1260,1430,1600,1800,2030]"
   },
@@ -1999,6 +2045,8 @@
   },
   "5050300_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050300/skill/skill",
     "ht": "[660,930,1200,1460,1730,1830,2000]"
   },
@@ -2009,6 +2057,8 @@
   },
   "5050301_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050301/skill/skill",
     "ht": "[1330,1630,1960,2330]"
   },
@@ -2019,6 +2069,8 @@
   },
   "5050302_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050302/skill/skill",
     "ht": "[2130]"
   },
@@ -2160,6 +2212,8 @@
   },
   "5050800_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050800/skill/skill",
     "ht": "[1000,1160,1330,1660,1830]"
   },
@@ -2170,6 +2224,8 @@
   },
   "5050801_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050801/skill/skill",
     "ht": "[1160,1330,1500,1660,2000]"
   },
@@ -2180,6 +2236,8 @@
   },
   "5050802_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050802/skill/skill",
     "ht": "[1730]"
   },
@@ -2190,6 +2248,8 @@
   },
   "5050900_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050900/skill/skill",
     "ht": "[160,500,660,1000,1330,1500]"
   },
@@ -2200,6 +2260,8 @@
   },
   "5050901_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5050901/skill/skill",
     "ht": "[2460,2660]"
   },
@@ -2220,6 +2282,8 @@
   },
   "5051000_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5051000/skill/skill",
     "ht": "[1000,1160,1330,1660,1830]"
   },
@@ -2230,6 +2294,8 @@
   },
   "5051001_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5051001/skill/skill",
     "ht": "[860,1160,1660]"
   },
@@ -2240,6 +2306,8 @@
   },
   "5051002_skill": {
     "name": "skill",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5051002/skill/skill",
     "ht": "[1160,2060]"
   },
@@ -2318,7 +2386,6 @@
   "5060200_atk": {
     "name": "pg",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060200/pg/pg",
     "ht": "[1260]"
@@ -2326,7 +2393,6 @@
   "5060200_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060200/skill/skill",
     "ht": "[1000]"
@@ -2334,21 +2400,18 @@
   "5060201_atk": {
     "name": "pg",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060201/pg/pg",
     "ht": "[930]"
   },
   "5060201_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060201/skill/skill",
     "ht": "[930,1260]"
   },
   "5060202_atk": {
     "name": "pg",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060202/pg/pg",
     "ht": "[1160,2060]"
@@ -2362,6 +2425,7 @@
   },
   "5060300_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060300/pg/pg",
     "ht": "[1730,1830]"
@@ -2369,60 +2433,83 @@
   "5060300_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060300/skill/skill",
     "ht": "[930,1260]"
   },
   "5060301_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060301/pg/pg",
     "ht": "[930]"
   },
   "5060301_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060301/skill/skill",
     "ht": "[930,1260]"
   },
   "5060302_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060302/pg/pg",
     "ht": "[1160,2060]"
   },
   "5060302_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "ht": "[1260]"
   },
   "5060400_atk": {
     "name": "pg",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060400/pg/pg",
     "ht": "[1260]"
   },
   "5060400_skill": {
     "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060400/skill/skill",
     "ht": "[1330,1500,1660]"
   },
   "5060401_atk": {
     "name": "pg",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060401/pg/pg",
     "ht": "[1400]"
   },
   "5060401_skill": {
     "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060401/skill/skill",
     "ht": "[1730,1930,2000,2430]"
   },
   "5060402_atk": {
     "name": "pg",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060402/pg/pg",
     "ht": "[2000]"
   },
   "5060402_skill": {
     "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060402/skill/skill",
     "ht": "[1830,2160]"
   },
@@ -2458,6 +2545,8 @@
   },
   "5060600_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "ht": "[1400]"
   },
   "5060600_skill": {
@@ -2469,6 +2558,8 @@
   },
   "5060601_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060601/pg/pg",
     "ht": "[1330]"
   },
@@ -2481,6 +2572,8 @@
   },
   "5060602_atk": {
     "name": "pg",
+    "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/5060602/pg/pg",
     "ht": "[930]"
   },
@@ -2531,6 +2624,7 @@
   "5060702_skill": {
     "name": "skill",
     "situ": true,
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060702/skill/skill",
     "ht": "[1800]"
@@ -2577,6 +2671,7 @@
   },
   "5060900_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060900/pg/pg",
     "ht": "[2000]"
@@ -2590,6 +2685,7 @@
   },
   "5060901_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060901/pg/pg",
     "ht": "[430,930]"
@@ -2603,6 +2699,7 @@
   },
   "5060902_atk": {
     "name": "pg",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5060902/pg/pg",
     "ht": "[630,760,900,1160]"
@@ -2622,7 +2719,6 @@
   "5061000_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5061000/skill/skill",
     "ht": "[1500,1660,1830,2000,2160,2330,2500,2660,2830]"
@@ -2633,7 +2729,6 @@
   },
   "5061001_skill": {
     "name": "skill",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5061001/skill/skill",
     "ht": "[1230,2660,3000,3330]"
@@ -2645,7 +2740,6 @@
   "5061002_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5061002/skill/skill",
     "ht": "[1930]"
@@ -2658,6 +2752,7 @@
   },
   "5061100_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5061100/skill/skill",
     "ht": "[1430,1500,1660]"
@@ -2670,6 +2765,7 @@
   },
   "5061101_skill": {
     "name": "skill",
+    "repetition": true,
     "skill": "ACGN/5061101/skill/skill",
     "ht": "[1200,1260,1330,1430,1500]"
   },
@@ -2681,13 +2777,13 @@
   },
   "5061102_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5061102/skill/skill",
     "ht": "[1430,1500,1660]"
   },
   "5001200_atk": {
     "name": "pg",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5001200/pg/pg",
     "ht": "[1230,1360,1500,1700]"
@@ -2737,6 +2833,7 @@
   },
   "5002600_skill": {
     "name": "skill",
+    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5002600/skill/skill",
     "ht": "[660,1400,3000,3400,3733,4060]"
@@ -2755,43 +2852,43 @@
     "skill": "ACGN/5002700/skill/skill",
     "ht": "[1400]"
   },
-  "5070600_atk": {
+  "9010100_atk": {
     "name": "pg",
-    "skill": "ACGN/5070600/pg/pg",
+    "skill": "ACGN/9010100/pg/pg",
     "ht": "[2060,2130,2200]"
   },
-  "5070600_skill": {
+  "9010100_skill": {
     "name": "skill",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "ACGN/5070600/skill/skill",
+    "skill": "ACGN/9010100/skill/skill",
     "ht": "[1430,1830,2130,2560,2900,3160]"
   },
-  "5070700_atk": {
+  "9010200_atk": {
     "name": "pg",
-    "skill": "ACGN/5070700/pg/pg",
+    "skill": "ACGN/9010200/pg/pg",
     "ht": "[860,1000,1500,1630]"
   },
-  "5070700_skill": {
+  "9010200_skill": {
     "name": "skill",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "ACGN/5070700/skill/skill",
+    "skill": "ACGN/9010200/skill/skill",
     "ht": "[1860,2030,2160,2530,2630]"
   },
-  "5070800_atk": {
+  "9010300_atk": {
     "name": "pg",
-    "skill": "ACGN/5070800/pg/pg",
+    "skill": "ACGN/9010300/pg/pg",
     "ht": "[1630]"
   },
-  "5070800_skill": {
+  "9010300_skill": {
     "name": "skill",
     "situ": true,
     "repetition": true,
     "turn": "turn",
-    "skill": "ACGN/5070800/skill/skill",
+    "skill": "ACGN/9010300/skill/skill",
     "ht": "[2360,2500,2630,2760]"
   },
   "5070900_atk": {
@@ -2844,24 +2941,24 @@
     "skill": "ACGN/6014200/skill/skill",
     "ht": "[1430]"
   },
-  "5071300_atk": {
+  "9020100_atk": {
     "name": "pg",
-    "skill": "ACGN/5071300/pg/pg",
+    "skill": "ACGN/9020100/pg/pg",
     "ht": "[1160]"
   },
-  "5071300_skill": {
+  "9020100_skill": {
     "name": "skill",
-    "skill": "ACGN/5071300/skill/skill",
+    "skill": "ACGN/9020100/skill/skill",
     "ht": "[2660]"
   },
-  "5071400_atk": {
+  "9020200_atk": {
     "name": "pg",
-    "skill": "ACGN/5071400/pg/pg",
+    "skill": "ACGN/9020200/pg/pg",
     "ht": "[930]"
   },
-  "5071400_skill": {
+  "9020200_skill": {
     "name": "skill",
-    "skill": "ACGN/5071400/skill/skill",
+    "skill": "ACGN/9020200/skill/skill",
     "ht": "[1360,1560,1830]"
   },
   "6014300_atk": {
@@ -2874,25 +2971,25 @@
     "skill": "ACGN/6014300/skill/skill",
     "ht": "[1260,1560,1830,2100]"
   },
-  "5071600_atk": {
+  "9030100_atk": {
     "name": "pg",
-    "skill": "ACGN/5071600/pg/pg",
+    "skill": "ACGN/9030100/pg/pg",
     "ht": "[1060,1400,1700]"
   },
-  "5071600_skill": {
+  "9030100_skill": {
     "name": "skill",
     "situ": true,
-    "skill": "ACGN/5071600/skill/skill",
+    "skill": "ACGN/9030100/skill/skill",
     "ht": "[1700,2000,2330]"
   },
-  "5071700_atk": {
+  "9030200_atk": {
     "name": "pg",
-    "skill": "ACGN/5071700/pg/pg",
+    "skill": "ACGN/9030200/pg/pg",
     "ht": "[260,500,1730]"
   },
-  "5071700_skill": {
+  "9030200_skill": {
     "name": "skill",
-    "skill": "ACGN/5071700/skill/skill",
+    "skill": "ACGN/9030200/skill/skill",
     "ht": "[1530,1930]"
   },
   "5071800_atk": {
@@ -3054,7 +3151,6 @@
   "5002100_atk": {
     "name": "pg",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5002100/pg/pg",
     "ht": "[960,2400]"
@@ -3083,7 +3179,6 @@
   },
   "5002300_atk": {
     "name": "pg",
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5002300/pg/pg",
     "ht": "[1730]"
@@ -3091,18 +3186,19 @@
   "5002300_skill": {
     "name": "skill",
     "situ": true,
-    "repetition": true,
     "turn": "turn",
     "skill": "ACGN/5002300/skill/skill",
     "ht": "[1530]"
   },
   "5002400_atk": {
     "name": "pg",
+    "repetition": true,
     "skill": "ACGN/5002400/pg/pg",
     "ht": "[1500,2500]"
   },
   "5002400_skill": {
     "name": "skill",
+    "repetition": true,
     "skill": "ACGN/5002400/skill/skill",
     "ht": "[1130,1860,2860]"
   },
@@ -3116,38 +3212,38 @@
     "skill": "ACGN/5002500/skill/skill",
     "ht": "[1800,2000,2230,2460,2700,3000]"
   },
-  "5080600_atk": {
+  "9040100_atk": {
     "name": "pg",
-    "skill": "ACGN/5080600/pg/pg",
+    "skill": "ACGN/9040100/pg/pg",
     "ht": "[1400,1660,1900,2160]"
   },
-  "5080600_skill": {
+  "9040100_skill": {
     "name": "skill",
-    "skill": "ACGN/5080600/skill/skill",
+    "skill": "ACGN/9040100/skill/skill",
     "ht": "[2600]"
   },
-  "5080700_atk": {
+  "9050100_atk": {
     "name": "pg",
     "repetition": true,
     "turn": "turn",
-    "skill": "ACGN/5080700/pg/pg",
+    "skill": "ACGN/9050100/pg/pg",
     "ht": "[900]"
   },
-  "5080700_skill": {
+  "9050100_skill": {
     "name": "skill",
     "repetition": true,
     "turn": "turn",
-    "skill": "ACGN/5080700/skill/skill",
+    "skill": "ACGN/9050100/skill/skill",
     "ht": "[1600,1760,1930,2330]"
   },
-  "5080800_atk": {
+  "9060100_atk": {
     "name": "pg",
-    "skill": "ACGN/5080800/pg/pg",
+    "skill": "ACGN/9060100/pg/pg",
     "ht": "[1930]"
   },
-  "5080800_skill": {
+  "9060100_skill": {
     "name": "skill",
-    "skill": "ACGN/5080800/skill/skill",
+    "skill": "ACGN/9060100/skill/skill",
     "ht": "[1500]"
   },
   "5080900_atk": {
