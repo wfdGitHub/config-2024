@@ -6166,6 +6166,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90110065": {
+    "name": "普通攻击",
+    "icon": 50111002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.45
+  },
+  "90110066": {
+    "name": "普通攻击",
+    "icon": 50112001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.23
+  },
+  "90110067": {
+    "name": "普通攻击",
+    "icon": 50112002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.1
+  },
+  "90110068": {
+    "name": "普通攻击",
+    "icon": 50113001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 0.93
+  },
+  "90110069": {
+    "name": "普通攻击",
+    "icon": 50113002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 0.85
+  },
   "90120001": {
     "name": "技能攻击",
     "icon": 50118002,
@@ -6924,6 +6974,56 @@
     "mul": 1.46,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90120065": {
+    "name": "技能攻击",
+    "icon": 50302002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90120066": {
+    "name": "技能攻击",
+    "icon": 50303001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90120067": {
+    "name": "技能攻击",
+    "icon": 50303002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90120068": {
+    "name": "技能攻击",
+    "icon": 50304001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90120069": {
+    "name": "技能攻击",
+    "icon": 50304002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90210001": {
     "name": "普通攻击",
@@ -7684,6 +7784,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90210065": {
+    "name": "普通攻击",
+    "icon": 50114001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.57
+  },
+  "90210066": {
+    "name": "普通攻击",
+    "icon": 50114002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.33
+  },
+  "90210067": {
+    "name": "普通攻击",
+    "icon": 50114003,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.19
+  },
+  "90210068": {
+    "name": "普通攻击",
+    "icon": 50115001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1
+  },
+  "90210069": {
+    "name": "普通攻击",
+    "icon": 50115002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.69
+  },
   "90220001": {
     "name": "技能攻击",
     "icon": 50722001,
@@ -8442,6 +8592,56 @@
     "mul": 1.58,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90220065": {
+    "name": "技能攻击",
+    "icon": 50305001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90220066": {
+    "name": "技能攻击",
+    "icon": 50305002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90220067": {
+    "name": "技能攻击",
+    "icon": 50306001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90220068": {
+    "name": "技能攻击",
+    "icon": 50302002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90220069": {
+    "name": "技能攻击",
+    "icon": 50303001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90310001": {
     "name": "普通攻击",
@@ -9202,6 +9402,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90310065": {
+    "name": "普通攻击",
+    "icon": 50116001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90310066": {
+    "name": "普通攻击",
+    "icon": 50116002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90310067": {
+    "name": "普通攻击",
+    "icon": 50117001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90310068": {
+    "name": "普通攻击",
+    "icon": 50117002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90310069": {
+    "name": "普通攻击",
+    "icon": 50118001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
+  },
   "90320001": {
     "name": "技能攻击",
     "icon": 50502002,
@@ -9960,6 +10210,56 @@
     "mul": 1.71,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90320065": {
+    "name": "技能攻击",
+    "icon": 50303002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90320066": {
+    "name": "技能攻击",
+    "icon": 50304001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90320067": {
+    "name": "技能攻击",
+    "icon": 50304002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90320068": {
+    "name": "技能攻击",
+    "icon": 50305001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90320069": {
+    "name": "技能攻击",
+    "icon": 50305002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90410001": {
     "name": "普通攻击",
@@ -10720,6 +11020,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90410065": {
+    "name": "普通攻击",
+    "icon": 50118002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.28
+  },
+  "90410066": {
+    "name": "普通攻击",
+    "icon": 50119001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.08
+  },
+  "90410067": {
+    "name": "普通攻击",
+    "icon": 50119002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.69
+  },
+  "90410068": {
+    "name": "普通攻击",
+    "icon": 50201001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.43
+  },
+  "90410069": {
+    "name": "普通攻击",
+    "icon": 50201002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.28
+  },
   "90420001": {
     "name": "技能攻击",
     "icon": 50110001,
@@ -11478,6 +11828,56 @@
     "mul": 1.84,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90420065": {
+    "name": "技能攻击",
+    "icon": 50306001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90420066": {
+    "name": "技能攻击",
+    "icon": 50302002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90420067": {
+    "name": "技能攻击",
+    "icon": 50303001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90420068": {
+    "name": "技能攻击",
+    "icon": 50303002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90420069": {
+    "name": "技能攻击",
+    "icon": 50304001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90510001": {
     "name": "普通攻击",
@@ -12238,6 +12638,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90510065": {
+    "name": "普通攻击",
+    "icon": 50202001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.08
+  },
+  "90510066": {
+    "name": "普通攻击",
+    "icon": 50202002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.69
+  },
+  "90510067": {
+    "name": "普通攻击",
+    "icon": 50203001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.43
+  },
+  "90510068": {
+    "name": "普通攻击",
+    "icon": 50203002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.28
+  },
+  "90510069": {
+    "name": "普通攻击",
+    "icon": 50204001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.08
+  },
   "90520001": {
     "name": "技能攻击",
     "icon": 50713001,
@@ -12996,6 +13446,56 @@
     "mul": 1.99,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90520065": {
+    "name": "技能攻击",
+    "icon": 50304002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90520066": {
+    "name": "技能攻击",
+    "icon": 50305001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90520067": {
+    "name": "技能攻击",
+    "icon": 50305002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90520068": {
+    "name": "技能攻击",
+    "icon": 50306001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90520069": {
+    "name": "技能攻击",
+    "icon": 50302002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90610001": {
     "name": "普通攻击",
@@ -13756,6 +14256,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90610065": {
+    "name": "普通攻击",
+    "icon": 50204002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.69
+  },
+  "90610066": {
+    "name": "普通攻击",
+    "icon": 50205001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.43
+  },
+  "90610067": {
+    "name": "普通攻击",
+    "icon": 50205002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.28
+  },
+  "90610068": {
+    "name": "普通攻击",
+    "icon": 50206001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.08
+  },
+  "90610069": {
+    "name": "普通攻击",
+    "icon": 50206002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.69
+  },
   "90620001": {
     "name": "技能攻击",
     "icon": 50310002,
@@ -14514,6 +15064,56 @@
     "mul": 2.15,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90620065": {
+    "name": "技能攻击",
+    "icon": 50303001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90620066": {
+    "name": "技能攻击",
+    "icon": 50303002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90620067": {
+    "name": "技能攻击",
+    "icon": 50304001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90620068": {
+    "name": "技能攻击",
+    "icon": 50304002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90620069": {
+    "name": "技能攻击",
+    "icon": 50305001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "90710001": {
     "name": "普通攻击",
@@ -15274,6 +15874,56 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
+  "90710065": {
+    "name": "普通攻击",
+    "icon": 50207001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90710066": {
+    "name": "普通攻击",
+    "icon": 50207002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90710067": {
+    "name": "普通攻击",
+    "icon": 50301001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90710068": {
+    "name": "普通攻击",
+    "icon": 50301002,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90710069": {
+    "name": "普通攻击",
+    "icon": 50302001,
+    "anger": 0,
+    "type": "attack",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
+  },
   "90720001": {
     "name": "技能攻击",
     "icon": 50101002,
@@ -16032,6 +16682,56 @@
     "mul": 2.32,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+  },
+  "90720065": {
+    "name": "技能攻击",
+    "icon": 50305002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_normal",
+    "mul": 1.43
+  },
+  "90720066": {
+    "name": "技能攻击",
+    "icon": 50306001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 1.28
+  },
+  "90720067": {
+    "name": "技能攻击",
+    "icon": 50305001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_13",
+    "mul": 1.08
+  },
+  "90720068": {
+    "name": "技能攻击",
+    "icon": 50305002,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_rand_23",
+    "mul": 1.69
+  },
+  "90720069": {
+    "name": "技能攻击",
+    "icon": 50306001,
+    "anger": 4,
+    "type": "attack",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有55%概率嘲讽敌方.",
+    "damageType": "phy",
+    "targetType": "enemy_3",
+    "mul": 1.43
   },
   "1002001001": {
     "name": "主角技能",
