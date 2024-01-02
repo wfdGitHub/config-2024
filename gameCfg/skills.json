@@ -19728,57 +19728,57 @@
     "icon": "dz_001",
     "anger": 4,
     "type": "heal",
-    "des": "敌方攻击最高的目标，造成最大生命值15%的物理伤害",
+    "des": "攻击敌方随机1-2个目标，造成最大生命值10%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "enemy_rand_12",
     "mul": 0,
     "key1": "maxHP_damage",
-    "value1": 0.15
+    "value1": 0.1
   },
   "dz_002": {
     "name": "怒气技能",
     "icon": "dz_002",
     "anger": 4,
     "type": "heal",
-    "des": "降低敌方攻击最高的目标2点怒气",
+    "des": "降低敌方攻击最高的目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
     "mul": 0,
     "key1": "skill_less_anger",
-    "value1": 2
+    "value1": 1
   },
   "dz_003": {
     "name": "怒气技能",
     "icon": "dz_003",
     "anger": 4,
     "type": "heal",
-    "des": "随机降低敌方2个目标2点怒气",
+    "des": "随机降低敌方2个目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_2",
     "mul": 0,
     "key1": "skill_less_anger",
-    "value1": 2
+    "value1": 1
   },
   "dz_004": {
     "name": "怒气技能",
     "icon": "dz_004",
     "anger": 4,
     "type": "heal",
-    "des": "随机降低敌方3个目标2点怒气",
+    "des": "随机降低敌方3个目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0,
     "key1": "skill_less_anger",
-    "value1": 2
+    "value1": 1
   },
   "dz_005": {
     "name": "怒气技能",
     "icon": "dz_005",
     "anger": 4,
     "type": "heal",
-    "des": "为我方生命中最低的1个目标，回复200%攻击的生命。",
+    "des": "为我方生命中最低的1个目标，回复150%攻击的生命。",
     "targetType": "team_minHp_1",
-    "mul": 2
+    "mul": 1.5
   },
   "dz_006": {
     "name": "怒气技能",
@@ -19803,28 +19803,24 @@
     "icon": "dz_008",
     "anger": 4,
     "type": "heal",
-    "des": "为敌方随机2个目标造成最大生命值15%的物理伤害,并驱散目标1个增益效果",
+    "des": "为敌方随机1-2个目标造成最大生命值15%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_2",
+    "targetType": "enemy_rand_12",
     "mul": 0,
     "key1": "maxHP_damage",
-    "value1": 0.15,
-    "key2": "skill_dispel_enemy",
-    "value2": true
+    "value1": 0.15
   },
   "dz_009": {
     "name": "怒气技能",
     "icon": "dz_009",
     "anger": 4,
     "type": "heal",
-    "des": "为敌方随机3个目标造成最大生命值15%的物理伤害,并驱散目标1个增益效果",
+    "des": "为敌方随机1-2个目标造成最大生命值20%的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_3",
+    "targetType": "enemy_rand_12",
     "mul": 0,
     "key1": "maxHP_damage",
-    "value1": 0.15,
-    "key2": "skill_dispel_enemy",
-    "value2": true
+    "value1": 0.2
   },
   "dz_010": {
     "name": "怒气技能",
@@ -19893,14 +19889,24 @@
     "icon": "dz_015",
     "anger": 4,
     "type": "heal",
+    "des": "死亡后，对敌方攻击最高的目标造成100%攻击的特殊伤害",
+    "damageType": "mag",
+    "targetType": "enemy_maxAtk_1",
+    "mul": 1
+  },
+  "dz_016": {
+    "name": "怒气技能",
+    "icon": "dz_016",
+    "anger": 4,
+    "type": "heal",
     "des": "死亡后，对敌方攻击最高的目标造成200%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
     "mul": 2
   },
-  "dz_016": {
+  "dz_017": {
     "name": "怒气技能",
-    "icon": "dz_016",
+    "icon": "dz_017",
     "anger": 4,
     "type": "heal",
     "des": "死亡后，对敌方攻击最高的目标造成300%攻击的特殊伤害",
@@ -19908,14 +19914,224 @@
     "targetType": "enemy_maxAtk_1",
     "mul": 3
   },
-  "dz_017": {
+  "dz_018": {
     "name": "怒气技能",
-    "icon": "dz_017",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队20%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 0.2
+  },
+  "dz_019": {
+    "name": "怒气技能",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队30%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 0.3
+  },
+  "dz_020": {
+    "name": "怒气技能",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队40%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 0.4
+  },
+  "dz_021": {
+    "name": "怒气技能",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队50%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 0.5
+  },
+  "dz_022": {
+    "name": "怒气技能",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队70%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 0.7
+  },
+  "dz_023": {
+    "name": "怒气技能",
+    "icon": "dz_018",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时恢复全队100%血量，仅生效1次",
+    "targetType": "team_all",
+    "mul": 0,
+    "key1": "heal_maxHp",
+    "value1": 1
+  },
+  "dz_024": {
+    "name": "怒气技能",
+    "icon": "dz_024",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时，对敌方全体造成5%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "maxHP_damage",
+    "value1": 0.05,
+    "key2": "seckill",
+    "value2": 0.15
+  },
+  "dz_025": {
+    "name": "怒气技能",
+    "icon": "dz_015",
     "anger": 4,
     "type": "heal",
     "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
-    "mul": 4
+    "mul": 1
+  },
+  "dz_026": {
+    "name": "怒气技能",
+    "icon": "dz_015",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡后，对敌方攻击最高的目标造成500%攻击的特殊伤害",
+    "damageType": "mag",
+    "targetType": "enemy_maxAtk_1",
+    "mul": 1
+  },
+  "dz_027": {
+    "name": "怒气技能",
+    "icon": "dz_015",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
+    "damageType": "mag",
+    "targetType": "enemy_maxAtk_1",
+    "mul": 1
+  },
+  "dz_028": {
+    "name": "怒气技能",
+    "icon": "dz_024",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时，对敌方全体造成8%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "maxHP_damage",
+    "value1": 0.08,
+    "key2": "seckill",
+    "value2": 0.15
+  },
+  "dz_029": {
+    "name": "怒气技能",
+    "icon": "dz_024",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时，对敌方全体造成10%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "maxHP_damage",
+    "value1": 0.1,
+    "key2": "seckill",
+    "value2": 0.15
+  },
+  "dz_030": {
+    "name": "怒气技能",
+    "icon": "dz_024",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时，对敌方全体造成15%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "maxHP_damage",
+    "value1": 0.15,
+    "key2": "seckill",
+    "value2": 0.15
+  },
+  "dz_031": {
+    "name": "怒气技能",
+    "icon": "dz_024",
+    "anger": 4,
+    "type": "heal",
+    "des": "死亡时，对敌方全体造成10%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀"
+  },
+  "dz_032": {},
+  "dz_033": {},
+  "dz_034": {
+    "name": "怒气技能",
+    "icon": "dz_029",
+    "anger": 4,
+    "type": "heal",
+    "des": "为敌方全体附加灼烧效果，若敌方处于灼烧状态，则给目标附加晕眩效果。",
+    "damageType": "phy",
+    "targetType": "enemy_all",
+    "mul": 0,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
+    "key2": "burn_buff_change_skill",
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "dz_035": {
+    "name": "怒气技能",
+    "icon": "dz_004",
+    "anger": 4,
+    "type": "heal",
+    "des": "随机降低敌方3个目标2点怒气",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0,
+    "key1": "skill_less_anger",
+    "value1": 2
+  },
+  "dz_036": {
+    "name": "怒气技能",
+    "icon": "dz_009",
+    "anger": 4,
+    "type": "heal",
+    "des": "为敌方随机1-2个目标造成最大生命值25%的物理伤害",
+    "damageType": "phy",
+    "targetType": "enemy_rand_12",
+    "mul": 0,
+    "key1": "maxHP_damage",
+    "value1": 0.25
+  },
+  "dz_037": {
+    "name": "怒气技能",
+    "icon": "dz_007",
+    "anger": 4,
+    "type": "heal",
+    "des": "为我方生命中最低的3个目标，回复300%攻击的生命。",
+    "targetType": "team_minHp_3",
+    "mul": 3
+  },
+  "dz_038": {
+    "name": "怒气技能",
+    "icon": "dz_004",
+    "anger": 4,
+    "type": "heal",
+    "des": "随机降低敌方3个目标3点怒气",
+    "damageType": "mag",
+    "targetType": "enemy_3",
+    "mul": 0,
+    "key1": "skill_less_anger",
+    "value1": 3
   }
 }
