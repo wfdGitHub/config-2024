@@ -1,20 +1,20 @@
 {
   "normal_1": {
-    "day_count": 99,
+    "day_count": 20,
     "pc": "202:100",
     "pa": "2001010:1",
     "type": "normal"
   },
   "normal_2": {
-    "day_count": 99,
+    "day_count": 20,
     "pc": "202:200",
     "pa": "2001020:1",
     "type": "normal"
   },
   "normal_3": {
-    "day_count": 99,
-    "pc": "202:100",
-    "pa": "101:30000",
+    "day_count": 20,
+    "pc": "202:400",
+    "pa": "2001030:1",
     "type": "normal"
   },
   "normal_4": {
@@ -25,14 +25,14 @@
   },
   "normal_5": {
     "day_count": 99,
-    "pc": "202:100",
-    "pa": "2100010:1",
+    "pc": "202:300",
+    "pa": "201:100000",
     "type": "normal"
   },
   "normal_6": {
     "day_count": 99,
-    "pc": "202:200",
-    "pa": "2100020:1",
+    "pc": "202:1000",
+    "pa": "201:300000",
     "type": "normal"
   },
   "normal_7": {
@@ -47,6 +47,12 @@
     "pa": "2100040:1",
     "type": "normal"
   },
+  "normal_9": {
+    "day_count": 99,
+    "pc": "202:1600",
+    "pa": "2100050:1",
+    "type": "normal"
+  },
   "arena_1": {
     "day_count": 10,
     "pc": "205:20",
@@ -54,33 +60,33 @@
     "type": "arena"
   },
   "arena_2": {
-    "day_count": 20,
-    "pc": "205:10",
-    "pa": "2000030:1",
+    "day_count": 10,
+    "pc": "205:40",
+    "pa": "2001020:1",
     "type": "arena"
   },
   "arena_3": {
     "day_count": 10,
+    "pc": "205:10",
+    "pa": "2000030:1",
+    "type": "arena"
+  },
+  "arena_4": {
+    "day_count": 3,
     "pc": "205:200",
     "pa": "2004100:1",
     "type": "arena"
   },
-  "arena_4": {
+  "arena_5": {
     "day_count": 3,
     "pc": "205:500",
     "pa": "2004200:1",
     "type": "arena"
   },
-  "arena_5": {
-    "day_count": 3,
-    "pc": "205:150",
-    "pa": "2100030:1",
-    "type": "arena"
-  },
   "arena_6": {
     "day_count": 3,
-    "pc": "205:600",
-    "pa": "2100050:1",
+    "pc": "205:1000",
+    "pa": "2004300:1",
     "type": "arena"
   },
   "arena_7": {
@@ -91,8 +97,14 @@
   },
   "arena_8": {
     "day_count": 3,
-    "pc": "205:400",
-    "pa": "1060:1",
+    "pc": "205:1000",
+    "pa": "9400:1",
+    "type": "arena"
+  },
+  "arena_9": {
+    "day_count": 3,
+    "pc": "205:3000",
+    "pa": "9500:1",
     "type": "arena"
   },
   "guild_1": {
@@ -102,69 +114,75 @@
     "type": "guild"
   },
   "guild_2": {
-    "day_count": 10,
-    "pc": "213:180",
+    "day_count": 99,
+    "pc": "213:200",
     "pa": "1000710:10",
     "type": "guild"
   },
   "guild_3": {
-    "day_count": 3,
+    "day_count": 99,
+    "pc": "213:600",
+    "pa": "1000710:30",
+    "type": "guild"
+  },
+  "guild_4": {
+    "day_count": 99,
     "pc": "213:100",
     "pa": "1000720:1",
     "type": "guild"
   },
-  "guild_4": {
-    "day_count": 3,
-    "pc": "213:960",
+  "guild_5": {
+    "day_count": 99,
+    "pc": "213:1000",
     "pa": "1000720:10",
     "type": "guild"
   },
-  "guild_5": {
-    "day_count": 10,
-    "pc": "213:240",
-    "pa": "300400:5",
-    "type": "guild"
-  },
   "guild_6": {
-    "day_count": 10,
-    "pc": "213:240",
-    "pa": "300500:5",
+    "day_count": 99,
+    "pc": "213:3000",
+    "pa": "1000720:30",
     "type": "guild"
   },
   "guild_7": {
-    "day_count": 3,
-    "pc": "213:480",
-    "pa": "400900:5",
+    "day_count": 99,
+    "pc": "213:400",
+    "pa": "400900:1",
     "type": "guild"
   },
   "guild_8": {
-    "day_count": 3,
-    "pc": "213:480",
-    "pa": "401000:5",
+    "day_count": 99,
+    "pc": "213:400",
+    "pa": "401000:1",
+    "type": "guild"
+  },
+  "guild_9": {
+    "day_count": 99,
+    "pc": "213:400",
+    "pa": "401100:1",
     "type": "guild"
   },
   "camp_1": {
-    "day_count": 3,
-    "pc": "212:240",
-    "pa": "4002:1",
+    "day_count": 10,
+    "pc": "212:100",
+    "pa": "2000030:10",
     "type": "camp"
   },
   "camp_2": {
-    "day_count": 1,
-    "pc": "212:600",
-    "pa": "4003:1",
-    "type": "camp"
-  },
-  "camp_3": {
-    "day_count": 1,
+    "day_count": 3,
     "pc": "212:800",
     "pa": "2000050:1",
     "type": "camp"
   },
-  "camp_4": {
-    "day_count": 1,
+  "camp_3": {
+    "day_count": 3,
     "pc": "212:600",
     "pa": "2002010:1",
+    "type": "camp"
+  },
+  "camp_4": {
+    "day_count": 3,
+    "pc": "212:600",
+    "pa": "2004200:1",
     "type": "camp"
   },
   "camp_5": {
@@ -174,69 +192,81 @@
     "type": "camp"
   },
   "camp_6": {
-    "day_count": 1,
+    "day_count": 3,
     "pc": "212:3000",
     "pa": "2004400:1",
     "type": "camp"
   },
   "camp_7": {
     "day_count": 3,
+    "pc": "212:600",
+    "pa": "4003:1",
+    "type": "camp"
+  },
+  "camp_8": {
+    "day_count": 3,
     "pc": "212:400",
     "pa": "1060:1",
     "type": "camp"
   },
-  "camp_8": {
-    "day_count": 1,
+  "camp_9": {
+    "day_count": 3,
     "pc": "212:1800",
     "pa": "1080:1",
     "type": "camp"
   },
   "peak_1": {
     "day_count": 3,
-    "pc": "211:1600",
-    "pa": "9400:1",
+    "pc": "211:500",
+    "pa": "3000002:1",
     "type": "peak"
   },
   "peak_2": {
     "day_count": 3,
-    "pc": "211:1600",
-    "pa": "3000004:1",
+    "pc": "211:1000",
+    "pa": "3000003:1",
     "type": "peak"
   },
   "peak_3": {
-    "day_count": 99,
-    "pc": "211:100",
-    "pa": "2000:1",
+    "day_count": 3,
+    "pc": "211:2000",
+    "pa": "3000004:1",
     "type": "peak"
   },
   "peak_4": {
     "day_count": 3,
-    "pc": "211:960",
-    "pa": "2000:10",
+    "pc": "211:100",
+    "pa": "2000:1",
     "type": "peak"
   },
   "peak_5": {
+    "day_count": 3,
+    "pc": "211:500",
+    "pa": "2000:5",
+    "type": "peak"
+  },
+  "peak_6": {
+    "day_count": 3,
+    "pc": "211:2000",
+    "pa": "2000:20",
+    "type": "peak"
+  },
+  "peak_7": {
+    "day_count": 99,
+    "pc": "211:100",
+    "pa": "230:1",
+    "type": "peak"
+  },
+  "peak_8": {
     "day_count": 99,
     "pc": "211:500",
     "pa": "230:5",
     "type": "peak"
   },
-  "peak_6": {
-    "day_count": 3,
-    "pc": "211:1800",
+  "peak_9": {
+    "day_count": 99,
+    "pc": "211:2000",
     "pa": "230:20",
-    "type": "peak"
-  },
-  "peak_7": {
-    "day_count": 3,
-    "pc": "211:3000",
-    "pa": "2004400:1",
-    "type": "peak"
-  },
-  "peak_8": {
-    "day_count": 1,
-    "pc": "211:2400",
-    "pa": "2004400:1",
     "type": "peak"
   }
 }
