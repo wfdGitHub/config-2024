@@ -5723,7 +5723,7 @@
   "90130010": {
     "icon": 50014004,
     "name": "精灵天赋",
-    "des": "增加15%的免疫控制",
+    "des": "增加10%的免疫控制",
     "key1": "control_buff_lowrate",
     "value1": 0.1
   },
@@ -5826,7 +5826,9 @@
   "90130023": {
     "icon": 50023005,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加10%"
+    "des": "对敌方造成克制的额外伤害增加10%",
+    "key1": "specie hit",
+    "value1": 1.1
   },
   "90130024": {
     "icon": 50023006,
@@ -5884,9 +5886,9 @@
   "90140002": {
     "icon": 50011006,
     "name": "精灵天赋",
-    "des": "普攻后有30%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 0.3
+    "des": "普通攻击有20%的概率为敌方附加1层破甲效果，持续2个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}"
   },
   "90140003": {
     "icon": 50012004,
@@ -5900,30 +5902,30 @@
   "90140004": {
     "icon": 50012005,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值15%伤害",
+    "des": "技能攻击附带目标最大生命值10%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90140005": {
     "icon": 50012006,
     "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命3%",
+    "des": "每受到一次伤害，回复自身生命2%",
     "key1": "hit_turn_rate",
-    "value1": 0.03
+    "value1": 0.02
   },
   "90140006": {
     "icon": 50013004,
     "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加10%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加5%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90140007": {
     "icon": 50013005,
     "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击",
-    "key1": "skill_add_d_s",
-    "value1": true
+    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续1个回合",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90140008": {
     "icon": 50013006,
@@ -5949,9 +5951,9 @@
   "90140012": {
     "icon": 50014006,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于15%，则将其斩杀。",
+    "des": "释放技能时，若目标生命值低于8%，则将其斩杀。",
     "key1": "seckill",
-    "value1": 0.15
+    "value1": 0.08
   },
   "90140013": {
     "icon": 50015004,
@@ -5970,16 +5972,16 @@
   "90140015": {
     "icon": 50015006,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加30%",
+    "des": "普通攻击伤害增加15%",
     "key1": "normal_attack_amp",
-    "value1": 0.3
+    "value1": 0.15
   },
   "90140016": {
     "icon": 50021004,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加30%",
+    "des": "技能伤害效果增加15%",
     "key1": "skill_attack_amp",
-    "value1": 0.3
+    "value1": 0.15
   },
   "90140017": {
     "icon": 50021005,
@@ -5998,16 +6000,16 @@
   "90140019": {
     "icon": 50022004,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击",
-    "key1": "kill_add_d_s",
-    "value1": true
+    "des": "直接伤害击杀目标后,增加自身10%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.1
   },
   "90140020": {
     "icon": 50022005,
     "name": "精灵天赋",
-    "des": "受到直接伤害的24%转化为生命治疗自身",
+    "des": "受到直接伤害的10%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.24,
+    "value1": 0.1,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -6021,16 +6023,16 @@
   "90140022": {
     "icon": 50023004,
     "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得1个回合无敌盾",
+    "des": "每当击败一个目标的时候，获得1回合无敌盾",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90140023": {
     "icon": 50023005,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加3%，可叠加.",
+    "des": "每回合伤害永久增加2%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.03
+    "value1": 0.02
   },
   "90140024": {
     "icon": 50023006,
@@ -6056,9 +6058,9 @@
   "90140027": {
     "icon": 50024006,
     "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身10%生命值",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身2%生命值",
     "key1": "less_half_hp_heal",
-    "value1": 0.1
+    "value1": 0.02
   },
   "90140028": {
     "icon": 50025004,
@@ -6074,360 +6076,344 @@
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "90140030": {
+  "90140032": {
     "icon": 50011005,
     "name": "精灵天赋",
-    "des": "击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
-    "key1": "killRet",
-    "value1": true
-  },
-  "90140032": {
-    "icon": 50011006,
-    "name": "精灵天赋",
-    "des": "行动后，恢复攻击力30%的生命值",
+    "des": "行动后，恢复攻击力20%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90140033": {
-    "icon": 50012004,
+    "icon": 50011006,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成30%",
+    "des": "普攻治疗量加成15%",
     "key1": "normal_heal_amp",
-    "value1": 0.3
+    "value1": 0.15
   },
   "90140034": {
-    "icon": 50012005,
+    "icon": 50012004,
     "name": "精灵天赋",
-    "des": "技能治疗量加成30%",
+    "des": "技能治疗量加成15%",
     "key1": "skill_heal_amp",
-    "value1": 0.3
+    "value1": 0.15
   },
   "90150001": {
-    "icon": 50012006,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "90150002": {
-    "icon": 50013004,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加1层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150003": {
-    "icon": 50013005,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "入场时，随机放逐敌方1个目标",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90150004": {
-    "icon": 50013006,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "入场时，为自身附加30%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
   "90150005": {
-    "icon": 50014004,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "入场时，保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续3回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90150006": {
-    "icon": 50014005,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "入场时，自身获得持续1个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
-  "90150007": {
-    "icon": 50014006,
-    "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加15%，暴伤增加15%，持续2回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
-  },
   "90150008": {
-    "icon": 50015004,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能",
-    "key1": "enter_skill",
-    "value1": true
+    "des": "入场时，随机偷取敌方1个目标的10%攻击力，持续1个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "90150009": {
-    "icon": 50015005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "入场时，自身获得1层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90150010": {
-    "icon": 50015006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "入场时，自身获得1层坚毅效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90150011": {
-    "icon": 50021004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "入场时，为自身附加1回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150012": {
-    "icon": 50021005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加1层虚弱效果1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150013": {
-    "icon": 50021006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "入场时，随机为敌方1个目标附加灵魂窃取，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150014": {
-    "icon": 50022004,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机1个目标附加1层连击印记，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150015": {
-    "icon": 50022005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙暴，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90150016": {
-    "icon": 50022006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "入场时，敌方攻击最高的目标降低1点怒气",
     "key1": "beginSkill",
     "value1": "dz_002"
   },
   "90150017": {
-    "icon": 50023004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机1个目标附加1层减速，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150018": {
-    "icon": 50023005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "入场时，可给自身附加1层嗜血效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150019": {
-    "icon": 50023006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机1个目标附加嘲讽效果，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150020": {
-    "icon": 50024004,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "入场时，自身获得2层剑舞。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
   },
   "90150021": {
-    "icon": 50024005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加灼烧效果，持续2个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "90150022": {
-    "icon": 50024006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为自身附加无敌吸血盾的效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90150023": {
-    "icon": 50025004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "死亡后，随机放逐敌方1个目标1个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90150024": {
-    "icon": 50011004,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "入场时，自身获得潜行效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150025": {
-    "icon": 50011005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值10%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_001"
   },
   "90150026": {
-    "icon": 50011006,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成100%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_015"
   },
   "90150027": {
-    "icon": 50012004,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加1层虚弱，效果持续1个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150028": {
-    "icon": 50012005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方攻击最高的目标1点怒气",
     "key1": "diedSkill",
     "value1": "dz_002"
   },
   "90150029": {
-    "icon": 50012006,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的1个目标，回复150%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_005"
   },
   "90150030": {
-    "icon": 50013004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "死亡后，随机冰冻敌方1个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150031": {
-    "icon": 50013005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "死亡时恢复全队20%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_018"
   },
   "90150032": {
-    "icon": 50013006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成5%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_024"
   },
   "90230001": {
-    "icon": 50014004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "攻击提升15%",
     "key1": "neglect_def",
     "value1": 0.15
   },
   "90230002": {
-    "icon": 50014005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "物防提升15%",
     "key1": "self_phyDef_add",
     "value1": 0.15
   },
   "90230003": {
-    "icon": 50014006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "特防提升15%",
     "key1": "self_magDef_add",
     "value1": 0.15
   },
   "90230004": {
-    "icon": 50015004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "生命提升15%",
     "key1": "self_maxHP_add",
     "value1": 0.15
   },
   "90230005": {
-    "icon": 50015005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "暴击伤害增加15%",
     "key1": "slay",
     "value1": 0.15
   },
   "90230006": {
-    "icon": 50015006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "暴击率增加15%",
     "key1": "crit",
     "value1": 0.15
   },
   "90230007": {
-    "icon": 50021004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "伤害减免增加15%",
     "key1": "reduction",
     "value1": 0.15
   },
   "90230008": {
-    "icon": 50021005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "攻击资质+20",
     "key1": "M_ATK",
     "value1": 20
   },
   "90230009": {
-    "icon": 50021006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "特攻资质+20",
     "key1": "M_STK",
     "value1": 20
   },
   "90230010": {
-    "icon": 50022004,
+    "icon": 50021005,
     "name": "精灵天赋",
-    "des": "增加20%的免疫控制",
+    "des": "增加15%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90230011": {
-    "icon": 50022005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "速度提升20%",
     "key1": "self_speed_add",
     "value1": 0.2
   },
   "90230012": {
-    "icon": 50022006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "闪避率提升20%",
     "key1": "dodgeRate",
     "value1": 0.2
   },
   "90230013": {
-    "icon": 50023004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "命中提升20%",
     "key1": "hitRate",
     "value1": 0.2
   },
   "90230014": {
-    "icon": 50023005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "抗暴率提升20%",
     "key1": "critDef",
     "value1": 0.2
   },
   "90230015": {
-    "icon": 50023006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "治疗效果提升20%",
     "key1": "skill_heal_amp",
@@ -6436,49 +6422,49 @@
     "value2": 0.2
   },
   "90230016": {
-    "icon": 50024004,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "生命资质+20",
     "key1": "M_HP",
     "value1": 20
   },
   "90230017": {
-    "icon": 50024005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "受到治疗量增加15%",
     "key1": "healAdd",
     "value1": 0.15
   },
   "90230018": {
-    "icon": 50024006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "受到的持续伤害降低15%",
     "key1": "damage_buff_lowArg",
     "value1": 0.15
   },
   "90230019": {
-    "icon": 50025004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "速度资质+20",
     "key1": "M_SPE",
     "value1": 20
   },
   "90230020": {
-    "icon": 50011004,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "生命值每降低10%，暴击增加7%",
     "key1": "low_hp_crit",
     "value1": 0.07
   },
   "90230021": {
-    "icon": 50011005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "生命值每降低10%，伤害增加7%",
     "key1": "low_hp_amp",
     "value1": 0.07
   },
   "90230022": {
-    "icon": 50011006,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "全属性资质加成+10",
     "key1": "M_HP",
@@ -6495,19 +6481,21 @@
     "value6": 10
   },
   "90230023": {
-    "icon": 50012004,
+    "icon": 50011005,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加20%"
+    "des": "对敌方造成克制的额外伤害增加20%",
+    "key1": "specie hit",
+    "value1": 1.2
   },
   "90230024": {
-    "icon": 50012005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "受克制造成的额外伤害降低15%",
     "key1": "specie_behit",
     "value1": 0.85
   },
   "90230025": {
-    "icon": 50012006,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "伤害增加20%，受伤增加20%",
     "key1": "amplify",
@@ -6516,7 +6504,7 @@
     "value2": -0.2
   },
   "90230026": {
-    "icon": 50013004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "暴击增加20%，速度降低20%",
     "key1": "crit",
@@ -6525,28 +6513,28 @@
     "value2": -0.2
   },
   "90230027": {
-    "icon": 50013005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "HP全满的时候，受到的伤害降低至原来的45%",
     "key1": "full_hp_red",
     "value1": 0.45
   },
   "90230028": {
-    "icon": 50013006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "自身的被控制概率降低20%",
     "key1": "control_buff_lowrate",
     "value1": 0.2
   },
   "90230029": {
-    "icon": 50014004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "生命每降低10%，闪避增加2%",
     "key1": "low_hp_dodge",
     "value1": 0.02
   },
   "90240001": {
-    "icon": 50014005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "行动后恢复自身1点怒气，并回复自身2%最大生命值",
     "key1": "action_anger",
@@ -6555,14 +6543,14 @@
     "value2": 0.02
   },
   "90240002": {
-    "icon": 50014006,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "普攻后有40%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 0.4
+    "des": "普通攻击有35%的概率为敌方附加1层破甲效果，持续2个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "90240003": {
-    "icon": 50015004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "回复等同于攻击造成伤害的20%的生命值",
     "key1": "turn_rate",
@@ -6571,65 +6559,63 @@
     "value2": "team_self"
   },
   "90240004": {
-    "icon": 50015005,
+    "icon": 50014006,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值20%伤害",
+    "des": "技能攻击附带目标最大生命值15%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.2
-  },
-  "90240005": {
-    "icon": 50015006,
-    "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命5%",
-    "key1": "hit_turn_rate",
-    "value1": 0.05
-  },
-  "90240006": {
-    "icon": 50021004,
-    "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加15%，持续至战斗结束",
-    "key1": "kill_crit",
     "value1": 0.15
   },
-  "90240007": {
-    "icon": 50021005,
+  "90240005": {
+    "icon": 50015004,
     "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成5%生命上限伤害",
-    "key1": "skill_add_d_s",
-    "value1": true,
-    "key2": "add_default_maxHp",
-    "value2": 0.05
+    "des": "每受到一次伤害，回复自身生命4%",
+    "key1": "hit_turn_rate",
+    "value1": 0.04
+  },
+  "90240006": {
+    "icon": 50015005,
+    "name": "精灵天赋",
+    "des": "每次击败目标后，自身暴击增加10%，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 0.1
+  },
+  "90240007": {
+    "icon": 50015006,
+    "name": "精灵天赋",
+    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续2个回合",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90240008": {
-    "icon": 50021006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "每当直接伤害击败目标时,自身获得2点怒气",
     "key1": "kill_anger",
     "value1": 2
   },
   "90240009": {
-    "icon": 50022004,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "释放技能有45%概率不消耗怒气",
     "key1": "skill_free",
     "value1": 0.45
   },
   "90240010": {
-    "icon": 50022005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "技能攻击可降低目标2点怒气",
     "key1": "skill_less_anger",
     "value1": 2
   },
   "90240012": {
-    "icon": 50022006,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于20%，则将其斩杀。",
+    "des": "释放技能时，若目标生命值低于10%，则将其斩杀。",
     "key1": "seckill",
-    "value1": 0.2
+    "value1": 0.1
   },
   "90240013": {
-    "icon": 50023004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "每回合行动前解除自身2个减益效果",
     "key1": "remove_one_lower",
@@ -6638,83 +6624,72 @@
     "value2": true
   },
   "90240014": {
-    "icon": 50023005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "每回合行动后回复自身6%最大生命值",
     "key1": "action_heal",
     "value1": 0.06
   },
   "90240015": {
-    "icon": 50023006,
+    "icon": 50023004,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加50%",
+    "des": "普通攻击伤害增加20%",
     "key1": "normal_attack_amp",
-    "value1": 0.5
+    "value1": 0.2
   },
   "90240016": {
-    "icon": 50024004,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加50%",
+    "des": "技能伤害效果增加20%",
     "key1": "skill_attack_amp",
-    "value1": 0.5
+    "value1": 0.2
   },
   "90240017": {
-    "icon": 50024005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "每回合为自身附加2层坚毅效果",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":0.65}"
   },
   "90240018": {
-    "icon": 50024006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "所有攻击无视对方15%的防御",
     "key1": "neglect_def",
     "value1": 0.15
   },
   "90240019": {
-    "icon": 50025004,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击，并增加自身20%暴击率，持续2个回合",
-    "key1": "kill_add_d_s",
-    "value1": true,
-    "key2": "kill_crit",
-    "value2": 0.2
+    "des": "直接伤害击杀目标后,增加自身15%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.15
   },
   "90240020": {
-    "icon": 50011004,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "受到直接伤害的36%转化为生命治疗自身",
+    "des": "受到直接伤害的15%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.36,
+    "value1": 0.15,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90240021": {
-    "icon": 50011005,
+    "icon": 50025004,
     "name": "精灵天赋",
-    "des": "释放技能后恢复自身20%最大生命值",
+    "des": "释放技能后恢复自身15%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.2
-  },
-  "90240022": {
-    "icon": 50011006,
-    "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得1个回合无敌盾，无敌盾消失时回复自身10%生命上限的血量",
-    "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
-    "key2": "invincibleHeal",
-    "value2": 0.1
+    "value1": 0.15
   },
   "90240023": {
-    "icon": 50012004,
+    "icon": 50011004,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加5%，可叠加.",
+    "des": "每回合伤害永久增加4%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.05
+    "value1": 0.04
   },
   "90240024": {
-    "icon": 50012005,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害20%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
@@ -6723,35 +6698,35 @@
     "value2": 0.2
   },
   "90240025": {
-    "icon": 50012006,
+    "icon": 50011006,
     "name": "精灵天赋",
-    "des": "击败目标后,自身伤害增加20%。",
+    "des": "击败目标后,自身伤害增加15%。",
     "key1": "kill_amp",
-    "value1": 0.2
-  },
-  "90240026": {
-    "icon": 50013004,
-    "name": "精灵天赋",
-    "des": "受到直接伤害反弹30%的伤害",
-    "key1": "hit_rebound",
-    "value1": 0.3
-  },
-  "90240027": {
-    "icon": 50013005,
-    "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身15%生命值",
-    "key1": "less_half_hp_heal",
     "value1": 0.15
   },
+  "90240026": {
+    "icon": 50012004,
+    "name": "精灵天赋",
+    "des": "受到直接伤害反弹25%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.25
+  },
+  "90240027": {
+    "icon": 50012005,
+    "name": "精灵天赋",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身4%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.04
+  },
   "90240028": {
-    "icon": 50013006,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "初始怒气+2",
     "key1": "curAnger",
     "value1": 2
   },
   "90240029": {
-    "icon": 50014004,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "每回合行动结束后，为自身添加免控盾和20%生命上限伤害吸收盾，持续1回合",
     "key1": "action_buff",
@@ -6760,37 +6735,35 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
   "90240030": {
-    "icon": 50014005,
+    "icon": 50013005,
     "name": "精灵天赋",
-    "des": "击杀目标后，获得1点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "des": "击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "killRet",
-    "value1": true,
-    "key2": "kill_anger",
-    "value2": 1
+    "value1": true
   },
   "90240032": {
-    "icon": 50014006,
+    "icon": 50013006,
     "name": "精灵天赋",
-    "des": "行动后，恢复攻击力50%的生命值",
+    "des": "行动后，恢复攻击力25%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.5
+    "value1": 0.25
   },
   "90240033": {
-    "icon": 50015004,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成50%",
+    "des": "普攻治疗量加成20%",
     "key1": "normal_heal_amp",
-    "value1": 0.5
+    "value1": 0.2
   },
   "90240034": {
-    "icon": 50015005,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "技能治疗量加成50%",
+    "des": "技能治疗量加成20%",
     "key1": "skill_heal_amp",
-    "value1": 0.5
+    "value1": 0.2
   },
   "90250001": {
-    "icon": 50015006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+1",
     "key1": "first_buff",
@@ -6799,28 +6772,28 @@
     "value2": 1
   },
   "90250002": {
-    "icon": 50021004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加2层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90250003": {
-    "icon": 50021005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90250004": {
-    "icon": 50021006,
+    "icon": 50015006,
     "name": "精灵天赋",
-    "des": "入场时，为自身附加50%生命上限的伤害吸收盾，持续1回合",
+    "des": "入场时，为自身附加40%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.4,\"duration\":1,\"buffRate\":1}"
   },
   "90250005": {
-    "icon": 50022004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "入场时，为我方全体附加持续1回合，10%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续3个回合。",
     "key1": "first_buff",
@@ -6829,74 +6802,70 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "90250006": {
-    "icon": 50022005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "入场时，自身获得持续2个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90250007": {
-    "icon": 50022006,
+    "icon": 50021006,
     "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加30%，暴伤增加30%，持续2回合",
+    "des": "入场时，自身获得暴击增加15%，暴伤增加15%，持续1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250008": {
-    "icon": 50023004,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能，并随机偷取敌方1-2个目标的5%攻击力，持续2个回合",
-    "key1": "enter_skill",
-    "value1": true,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0.05,\"duration\":2,\"buffRate\":1}"
+    "des": "入场时，随机偷取敌方1-2个目标的10%攻击力，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
   },
   "90250009": {
-    "icon": 50023005,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "入场时，自身获得2层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90250010": {
-    "icon": 50023006,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "入场时，自身获得2层坚毅效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90250011": {
-    "icon": 50024004,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，为自身附加2回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250012": {
-    "icon": 50024005,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加1层虚弱效果2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250013": {
-    "icon": 50024006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，随机为敌方1-2个目标附加灵魂窃取，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250014": {
-    "icon": 50025004,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机2个目标附加1层连击印记，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250015": {
-    "icon": 50011004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率降低10%，持续2个回合",
     "key1": "first_buff",
@@ -6905,35 +6874,35 @@
     "value2": 0.1
   },
   "90250016": {
-    "icon": 50011005,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "入场时，敌方随机2个目标降低1点怒气",
     "key1": "beginSkill",
     "value1": "dz_003"
   },
   "90250017": {
-    "icon": 50011006,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "入场时，为敌方攻击最高的目标附加1层减速效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250018": {
-    "icon": 50012004,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "入场时，可给自身附加2层嗜血效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":1,\"buffRate\":1}"
   },
   "90250019": {
-    "icon": 50012005,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机2个目标附加嘲讽效果，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250020": {
-    "icon": 50012006,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "入场时，自身获得2层剑舞，每回合行动后获得1层剑舞。",
     "key1": "first_buff",
@@ -6942,7 +6911,7 @@
     "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "90250021": {
-    "icon": 50013004,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1",
     "key1": "died_buff",
@@ -6951,182 +6920,182 @@
     "value2": 1
   },
   "90250022": {
-    "icon": 50013005,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "入场时，为自身附加无敌吸血盾的效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90250023": {
-    "icon": 50013006,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "死亡后，放逐敌方攻击力最高的英雄1回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90250024": {
-    "icon": 50014004,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "入场时，自身获得潜行效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250025": {
-    "icon": 50014005,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值15%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_008"
   },
   "90250026": {
-    "icon": 50014006,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成200%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_016"
   },
   "90250027": {
-    "icon": 50015004,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加1层虚弱，效果持续2个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250028": {
-    "icon": 50015005,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方随机2个目标1点怒气",
     "key1": "diedSkill",
     "value1": "dz_003"
   },
   "90250029": {
-    "icon": 50015006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的2个目标，回复200%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_006"
   },
   "90250030": {
-    "icon": 50021004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "死亡后，冰冻敌方攻击最高的1个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90250031": {
-    "icon": 50021005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "死亡时恢复全队30%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_019"
   },
   "90250032": {
-    "icon": 50021006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成8%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_028"
   },
   "90330001": {
-    "icon": 50022004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "攻击提升20%",
     "key1": "neglect_def",
     "value1": 0.2
   },
   "90330002": {
-    "icon": 50022005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "物防提升20%",
     "key1": "self_phyDef_add",
     "value1": 0.2
   },
   "90330003": {
-    "icon": 50022006,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "特防提升20%",
     "key1": "self_magDef_add",
     "value1": 0.2
   },
   "90330004": {
-    "icon": 50023004,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "生命提升20%",
     "key1": "self_maxHP_add",
     "value1": 0.2
   },
   "90330005": {
-    "icon": 50023005,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "暴击伤害增加20%",
     "key1": "slay",
     "value1": 0.2
   },
   "90330006": {
-    "icon": 50023006,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "暴击率增加20%",
     "key1": "crit",
     "value1": 0.2
   },
   "90330007": {
-    "icon": 50024004,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "伤害减免增加20%",
     "key1": "reduction",
     "value1": 0.2
   },
   "90330008": {
-    "icon": 50024005,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "攻击资质+30",
     "key1": "M_ATK",
     "value1": 30
   },
   "90330009": {
-    "icon": 50024006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "特攻资质+30",
     "key1": "M_STK",
     "value1": 30
   },
   "90330010": {
-    "icon": 50025004,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "增加25%的免疫控制",
+    "des": "增加20%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.25
+    "value1": 0.2
   },
   "90330011": {
-    "icon": 50011004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "速度提升25%",
     "key1": "self_speed_add",
     "value1": 0.25
   },
   "90330012": {
-    "icon": 50011005,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "闪避率提升25%",
     "key1": "dodgeRate",
     "value1": 0.25
   },
   "90330013": {
-    "icon": 50011006,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "命中提升30%",
     "key1": "hitRate",
     "value1": 0.3
   },
   "90330014": {
-    "icon": 50012004,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "抗暴率提升25%",
     "key1": "critDef",
     "value1": 0.25
   },
   "90330015": {
-    "icon": 50012005,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "治疗效果提升25%",
     "key1": "skill_heal_amp",
@@ -7135,49 +7104,49 @@
     "value2": 0.25
   },
   "90330016": {
-    "icon": 50012006,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "生命资质+30",
     "key1": "M_HP",
     "value1": 30
   },
   "90330017": {
-    "icon": 50013004,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "受到治疗量增加20%",
     "key1": "healAdd",
     "value1": 0.2
   },
   "90330018": {
-    "icon": 50013005,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "受到的持续伤害降低20%",
     "key1": "damage_buff_lowArg",
     "value1": 0.2
   },
   "90330019": {
-    "icon": 50013006,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "速度资质+30",
     "key1": "M_SPE",
     "value1": 30
   },
   "90330020": {
-    "icon": 50014004,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "生命值每降低10%，暴击增加10%",
     "key1": "low_hp_crit",
     "value1": 0.1
   },
   "90330021": {
-    "icon": 50014005,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "生命值每降低10%，伤害增加10%",
     "key1": "low_hp_amp",
     "value1": 0.1
   },
   "90330022": {
-    "icon": 50014006,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "全属性资质加成+15",
     "key1": "M_HP",
@@ -7194,19 +7163,21 @@
     "value6": 15
   },
   "90330023": {
-    "icon": 50015004,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加30%"
+    "des": "对敌方造成克制的额外伤害增加30%",
+    "key1": "specie hit",
+    "value1": 1.3
   },
   "90330024": {
-    "icon": 50015005,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "受克制造成的额外伤害降低30%",
     "key1": "specie_behit",
     "value1": 0.7
   },
   "90330025": {
-    "icon": 50015006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "伤害增加25%，受伤增加20%",
     "key1": "amplify",
@@ -7215,7 +7186,7 @@
     "value2": -0.2
   },
   "90330026": {
-    "icon": 50021004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "暴击增加25%，速度降低20%",
     "key1": "crit",
@@ -7224,28 +7195,28 @@
     "value2": -0.2
   },
   "90330027": {
-    "icon": 50021005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "HP全满的时候，受到的伤害降低至原来的40%",
     "key1": "full_hp_red",
     "value1": 0.4
   },
   "90330028": {
-    "icon": 50021006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "自身的被控制概率降低30%",
     "key1": "control_buff_lowrate",
     "value1": 0.3
   },
   "90330029": {
-    "icon": 50022004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "生命每降低10%，闪避增加3%",
     "key1": "low_hp_dodge",
     "value1": 0.03
   },
   "90340001": {
-    "icon": 50022005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "行动后恢复自身1点怒气，并回复自身4%最大生命值",
     "key1": "action_anger",
@@ -7254,14 +7225,14 @@
     "value2": 0.04
   },
   "90340002": {
-    "icon": 50022006,
+    "icon": 50021006,
     "name": "精灵天赋",
-    "des": "普攻后有50%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 0.5
+    "des": "普通攻击有50%的概率为敌方附加1层破甲效果，持续2个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "90340003": {
-    "icon": 50023004,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "回复等同于攻击造成伤害的25%的生命值",
     "key1": "turn_rate",
@@ -7270,67 +7241,65 @@
     "value2": "team_self"
   },
   "90340004": {
-    "icon": 50023005,
+    "icon": 50022005,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值25%伤害",
+    "des": "技能攻击附带目标最大生命值20%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.25
-  },
-  "90340005": {
-    "icon": 50023006,
-    "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命7%",
-    "key1": "hit_turn_rate",
-    "value1": 0.07
-  },
-  "90340006": {
-    "icon": 50024004,
-    "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加20%，持续至战斗结束",
-    "key1": "kill_crit",
     "value1": 0.2
   },
-  "90340007": {
-    "icon": 50024005,
+  "90340005": {
+    "icon": 50022006,
     "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成10%生命上限伤害",
-    "key1": "skill_add_d_s",
-    "value1": true,
-    "key2": "add_default_maxHp",
-    "value2": 0.1
+    "des": "每受到一次伤害，回复自身生命6%",
+    "key1": "hit_turn_rate",
+    "value1": 0.06
+  },
+  "90340006": {
+    "icon": 50023004,
+    "name": "精灵天赋",
+    "des": "每次击败目标后，自身暴击增加15%，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 0.15
+  },
+  "90340007": {
+    "icon": 50023005,
+    "name": "精灵天赋",
+    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续3个回合",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90340008": {
-    "icon": 50024006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "每当直接伤害击败目标时,自身获得3点怒气",
     "key1": "kill_anger",
     "value1": 3
   },
   "90340009": {
-    "icon": 50025004,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "释放技能有70%概率不消耗怒气",
     "key1": "skill_free",
     "value1": 0.7
   },
   "90340010": {
-    "icon": 50011004,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "技能攻击可降低目标2点怒气，技能伤害增加25%",
+    "des": "技能攻击可降低目标2点怒气，技能伤害增加10%",
     "key1": "skill_less_anger",
     "value1": 2,
     "key2": "skill_attack_amp",
-    "value2": 0.25
+    "value2": 0.1
   },
   "90340012": {
-    "icon": 50011005,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于25%，则将其斩杀。",
+    "des": "释放技能时，若目标生命值低于15%，则将其斩杀。",
     "key1": "seckill",
-    "value1": 0.25
+    "value1": 0.15
   },
   "90340013": {
-    "icon": 50011006,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "每回合行动前解除自身3个减益效果",
     "key1": "remove_one_lower",
@@ -7341,83 +7310,81 @@
     "value3": true
   },
   "90340014": {
-    "icon": 50012004,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "每回合行动后回复自身9%最大生命值",
     "key1": "action_heal",
     "value1": 0.09
   },
   "90340015": {
-    "icon": 50012005,
+    "icon": 50011005,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加70%",
+    "des": "普通攻击伤害增加30%",
     "key1": "normal_attack_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90340016": {
-    "icon": 50012006,
+    "icon": 50011006,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加70%",
+    "des": "技能伤害效果增加30%",
     "key1": "skill_attack_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90340017": {
-    "icon": 50013004,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "每回合为自身附加3层坚毅效果",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":0.65}"
   },
   "90340018": {
-    "icon": 50013005,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "所有攻击无视对方20%的防御",
     "key1": "neglect_def",
     "value1": 0.2
   },
   "90340019": {
-    "icon": 50013006,
+    "icon": 50012006,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击，并增加自身30%暴击率，持续2个回合",
-    "key1": "kill_add_d_s",
-    "value1": true,
-    "key2": "kill_crit",
-    "value2": 0.3
+    "des": "直接伤害击杀目标后,增加自身20%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.2
   },
   "90340020": {
-    "icon": 50014004,
+    "icon": 50013004,
     "name": "精灵天赋",
-    "des": "受到直接伤害的48%转化为生命治疗自身",
+    "des": "受到直接伤害的30%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.48,
+    "value1": 0.3,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90340021": {
-    "icon": 50014005,
+    "icon": 50013005,
     "name": "精灵天赋",
-    "des": "释放技能后恢复自身30%最大生命值",
+    "des": "释放技能后恢复自身20%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90340022": {
-    "icon": 50014006,
+    "icon": 50013006,
     "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得2回合无敌盾，无敌盾消失时回复自身20%生命上限的血量",
+    "des": "每当击败一个目标的时候，获得1回合无敌盾，无敌盾消失时回复自身20%生命上限的血量",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
     "key2": "invincibleHeal",
     "value2": 0.2
   },
   "90340023": {
-    "icon": 50015004,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加7%，可叠加.",
+    "des": "每回合伤害永久增加6%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.07
+    "value1": 0.06
   },
   "90340024": {
-    "icon": 50015005,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害30%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
@@ -7426,35 +7393,35 @@
     "value2": 0.3
   },
   "90340025": {
-    "icon": 50015006,
+    "icon": 50014006,
     "name": "精灵天赋",
-    "des": "击败目标后,自身伤害增加30%。",
+    "des": "击败目标后,自身伤害增加20%。",
     "key1": "kill_amp",
-    "value1": 0.3
-  },
-  "90340026": {
-    "icon": 50021004,
-    "name": "精灵天赋",
-    "des": "受到直接伤害反弹40%的伤害",
-    "key1": "hit_rebound",
-    "value1": 0.4
-  },
-  "90340027": {
-    "icon": 50021005,
-    "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身20%生命值",
-    "key1": "less_half_hp_heal",
     "value1": 0.2
   },
+  "90340026": {
+    "icon": 50015004,
+    "name": "精灵天赋",
+    "des": "受到直接伤害反弹30%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.3
+  },
+  "90340027": {
+    "icon": 50015005,
+    "name": "精灵天赋",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身6%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.06
+  },
   "90340028": {
-    "icon": 50021006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "初始怒气+3",
     "key1": "curAnger",
     "value1": 3
   },
   "90340029": {
-    "icon": 50022004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "每回合行动结束后，为自身添加免控盾和30%生命上限伤害吸收盾，持续1回合",
     "key1": "action_buff",
@@ -7462,38 +7429,29 @@
     "key2": "action_buff",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
-  "90340030": {
-    "icon": 50022005,
-    "name": "精灵天赋",
-    "des": "击杀目标后，获得2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
-    "key1": "killRet",
-    "value1": true,
-    "key2": "kill_anger",
-    "value2": 2
-  },
   "90340032": {
-    "icon": 50022006,
+    "icon": 50021005,
     "name": "精灵天赋",
-    "des": "行动后，恢复攻击力80%的生命值",
+    "des": "行动后，恢复攻击力30%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.8
+    "value1": 0.3
   },
   "90340033": {
-    "icon": 50023004,
+    "icon": 50021006,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成70%",
+    "des": "普攻治疗量加成30%",
     "key1": "normal_heal_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90340034": {
-    "icon": 50023005,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "技能治疗量加成70%",
+    "des": "技能治疗量加成30%",
     "key1": "skill_heal_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90350001": {
-    "icon": 50023006,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+2.",
     "key1": "first_buff",
@@ -7502,14 +7460,14 @@
     "value2": 2
   },
   "90350002": {
-    "icon": 50024004,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加3层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "90350003": {
-    "icon": 50024005,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦20%的攻击力，持续至战斗结束。",
     "key1": "first_buff",
@@ -7518,14 +7476,14 @@
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90350004": {
-    "icon": 50024006,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "入场时，为自身附加100%生命上限的伤害吸收盾，持续1回合",
+    "des": "入场时，为自身附加50%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
   },
   "90350005": {
-    "icon": 50025004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，为我方全体附加持续1回合，15%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
     "key1": "first_buff",
@@ -7534,74 +7492,63 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "90350006": {
-    "icon": 50011004,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，获得持续3个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
-  "90350007": {
-    "icon": 50011005,
-    "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
-  },
   "90350008": {
-    "icon": 50011006,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能，并随机偷取敌方1-2个目标的10%攻击力，持续2个回合",
-    "key1": "enter_skill",
-    "value1": true,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
+    "des": "入场时，随机偷取敌方2-3个目标的15%攻击力，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
   },
   "90350009": {
-    "icon": 50012004,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "入场时，自身获得3层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90350010": {
-    "icon": 50012005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "入场时，自身获得3层坚毅效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90350011": {
-    "icon": 50012006,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "入场时，为自身附加3回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90350012": {
-    "icon": 50013004,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加1层虚弱效果3回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90350013": {
-    "icon": 50013005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "入场时，随机为敌方2-3个目标附加灵魂窃取，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90350014": {
-    "icon": 50013006,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机2个目标附加2层连击印记，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_2\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90350015": {
-    "icon": 50014004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率降低20%，持续2个回合",
     "key1": "first_buff",
@@ -7610,35 +7557,35 @@
     "value2": 0.2
   },
   "90350016": {
-    "icon": 50014005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "入场时，敌方随机3个目标降低1点怒气",
     "key1": "beginSkill",
     "value1": "dz_004"
   },
   "90350017": {
-    "icon": 50014006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机2个目标附加1层减速，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90350018": {
-    "icon": 50015004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "入场时，可给自身附加2层嗜血效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90350019": {
-    "icon": 50015005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350020": {
-    "icon": 50015006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "入场时，自身获得4层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
@@ -7649,7 +7596,7 @@
     "value3": 99
   },
   "90350021": {
-    "icon": 50021004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1，若敌方处于灼烧状态，则给目标附加晕眩效果。",
     "key1": "burn_duration",
@@ -7658,182 +7605,182 @@
     "value2": "dz_034"
   },
   "90350022": {
-    "icon": 50021005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "入场时，为自身附加无敌吸血盾的效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90350023": {
-    "icon": 50021006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "死亡后，放逐敌方攻击力最高的英雄2回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90350024": {
-    "icon": 50022004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "入场时，自身获得潜行效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90350025": {
-    "icon": 50022005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值20%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_009"
   },
   "90350026": {
-    "icon": 50022006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成300%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_017"
   },
   "90350027": {
-    "icon": 50023004,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加2层虚弱，效果持续2个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90350028": {
-    "icon": 50023005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方随机3个目标1点怒气",
     "key1": "diedSkill",
     "value1": "dz_004"
   },
   "90350029": {
-    "icon": 50023006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的3个目标，回复200%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_007"
   },
   "90350030": {
-    "icon": 50024004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "死亡后，随机冰冻敌方2个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_2\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90350031": {
-    "icon": 50024005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "死亡时恢复全队40%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_020"
   },
   "90350032": {
-    "icon": 50024006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成10%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_029"
   },
   "90430001": {
-    "icon": 50025004,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "攻击提升30%",
     "key1": "neglect_def",
     "value1": 0.3
   },
   "90430002": {
-    "icon": 50011004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "物防提升30%",
     "key1": "self_phyDef_add",
     "value1": 0.3
   },
   "90430003": {
-    "icon": 50011005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "特防提升30%",
     "key1": "self_magDef_add",
     "value1": 0.3
   },
   "90430004": {
-    "icon": 50011006,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "生命提升30%",
     "key1": "self_maxHP_add",
     "value1": 0.3
   },
   "90430005": {
-    "icon": 50012004,
+    "icon": 50024006,
     "name": "精灵天赋",
     "des": "暴击伤害增加30%",
     "key1": "slay",
     "value1": 0.3
   },
   "90430006": {
-    "icon": 50012005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "暴击率增加30%",
     "key1": "crit",
     "value1": 0.3
   },
   "90430007": {
-    "icon": 50012006,
+    "icon": 50011004,
     "name": "精灵天赋",
-    "des": "伤害减免增加30%",
+    "des": "伤害减免增加25%",
     "key1": "reduction",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90430008": {
-    "icon": 50013004,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "攻击资质+40",
     "key1": "M_ATK",
     "value1": 40
   },
   "90430009": {
-    "icon": 50013005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "特攻资质+40",
     "key1": "M_STK",
     "value1": 40
   },
   "90430010": {
-    "icon": 50013006,
+    "icon": 50012004,
     "name": "精灵天赋",
-    "des": "增加30%的免疫控制",
+    "des": "增加25%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90430011": {
-    "icon": 50014004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "速度提升30%",
     "key1": "self_speed_add",
     "value1": 0.3
   },
   "90430012": {
-    "icon": 50014005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "闪避率提升30%",
     "key1": "dodgeRate",
     "value1": 0.3
   },
   "90430013": {
-    "icon": 50014006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "命中提升45%",
     "key1": "hitRate",
     "value1": 0.45
   },
   "90430014": {
-    "icon": 50015004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "抗暴率提升30%",
     "key1": "critDef",
     "value1": 0.3
   },
   "90430015": {
-    "icon": 50015005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "治疗效果提升30%",
     "key1": "skill_heal_amp",
@@ -7842,49 +7789,49 @@
     "value2": 0.3
   },
   "90430016": {
-    "icon": 50015006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "生命资质+40",
     "key1": "M_HP",
     "value1": 40
   },
   "90430017": {
-    "icon": 50021004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "受到治疗量增加30%",
     "key1": "healAdd",
     "value1": 0.3
   },
   "90430018": {
-    "icon": 50021005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "受到的持续伤害降低30%",
     "key1": "damage_buff_lowArg",
     "value1": 0.3
   },
   "90430019": {
-    "icon": 50021006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "速度资质+40",
     "key1": "M_SPE",
     "value1": 40
   },
   "90430020": {
-    "icon": 50022004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "生命值每降低10%，暴击增加12%",
     "key1": "low_hp_crit",
     "value1": 0.12
   },
   "90430021": {
-    "icon": 50022005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "生命值每降低10%，伤害增加12%",
     "key1": "low_hp_amp",
     "value1": 0.12
   },
   "90430022": {
-    "icon": 50022006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "全属性资质加成+20",
     "key1": "M_HP",
@@ -7901,19 +7848,21 @@
     "value6": 20
   },
   "90430023": {
-    "icon": 50023004,
+    "icon": 50021005,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加40%"
+    "des": "对敌方造成克制的额外伤害增加40%",
+    "key1": "specie hit",
+    "value1": 1.4
   },
   "90430024": {
-    "icon": 50023005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "受克制造成的额外伤害降低40%",
     "key1": "specie_behit",
     "value1": 0.6
   },
   "90430025": {
-    "icon": 50023006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "伤害增加30%，受伤增加20%",
     "key1": "amplify",
@@ -7922,7 +7871,7 @@
     "value2": -0.2
   },
   "90430026": {
-    "icon": 50024004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "暴击增加30%，速度降低20%",
     "key1": "crit",
@@ -7931,28 +7880,28 @@
     "value2": -0.2
   },
   "90430027": {
-    "icon": 50024005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "HP全满的时候，受到的伤害降低至原来的35%",
     "key1": "full_hp_red",
     "value1": 0.35
   },
   "90430028": {
-    "icon": 50024006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "自身的被控制概率降低35%",
     "key1": "control_buff_lowrate",
     "value1": 0.35
   },
   "90430029": {
-    "icon": 50025004,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "生命每降低10%，闪避增加4%",
     "key1": "low_hp_dodge",
     "value1": 0.04
   },
   "90440001": {
-    "icon": 50011004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "行动后恢复自身2点怒气，并回复自身6%最大生命值",
     "key1": "action_anger",
@@ -7961,14 +7910,14 @@
     "value2": 0.06
   },
   "90440002": {
-    "icon": 50011005,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "普攻后有60%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 0.6
+    "des": "普通攻击有65%的概率为敌方附加1层破甲效果，持续2个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.65}"
   },
   "90440003": {
-    "icon": 50011006,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "回复等同于攻击造成伤害的30%的生命值",
     "key1": "turn_rate",
@@ -7977,129 +7926,109 @@
     "value2": "team_self"
   },
   "90440004": {
-    "icon": 50012004,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值30%伤害",
+    "des": "技能攻击附带目标最大生命值25%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90440005": {
-    "icon": 50012005,
+    "icon": 50025004,
     "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命10%",
+    "des": "每受到一次伤害，回复自身生命8%",
     "key1": "hit_turn_rate",
-    "value1": 0.1
+    "value1": 0.08
   },
   "90440006": {
-    "icon": 50012006,
+    "icon": 50011004,
     "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加30%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加20%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.3
-  },
-  "90440007": {
-    "icon": 50013004,
-    "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成15%生命上限伤害",
-    "key1": "skill_add_d_s",
-    "value1": true,
-    "key2": "add_default_maxHp",
-    "value2": 0.15
+    "value1": 0.2
   },
   "90440008": {
-    "icon": 50013005,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "每当直接伤害击败目标时,自身获得4点怒气",
     "key1": "kill_anger",
     "value1": 4
   },
   "90440010": {
-    "icon": 50013006,
+    "icon": 50011006,
     "name": "精灵天赋",
-    "des": "技能攻击可降低目标3点怒气，技能伤害增加35%",
+    "des": "技能攻击可降低目标3点怒气，技能伤害增加15%",
     "key1": "skill_less_anger",
     "value1": 3,
     "key2": "skill_attack_amp",
-    "value2": 0.35
+    "value2": 0.15
   },
   "90440012": {
-    "icon": 50014004,
+    "icon": 50012004,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于30%，则将其斩杀。",
+    "des": "释放技能时，若目标生命值低于20%，则将其斩杀。",
     "key1": "seckill",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90440014": {
-    "icon": 50014005,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "每回合行动后回复自身12%最大生命值",
     "key1": "action_heal",
     "value1": 0.12
   },
   "90440015": {
-    "icon": 50014006,
+    "icon": 50012006,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加100%",
+    "des": "普通攻击伤害增加50%",
     "key1": "normal_attack_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90440016": {
-    "icon": 50015004,
+    "icon": 50013004,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加100%",
+    "des": "技能伤害效果增加50%",
     "key1": "skill_attack_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90440018": {
-    "icon": 50015005,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "所有攻击无视对方25%的防御",
     "key1": "neglect_def",
     "value1": 0.25
   },
   "90440019": {
-    "icon": 50015006,
+    "icon": 50013006,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击，并增加自身40%暴击率，持续2个回合",
-    "key1": "kill_add_d_s",
-    "value1": true,
-    "key2": "kill_crit",
-    "value2": 0.4
+    "des": "直接伤害击杀目标后,增加自身25%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.25
   },
   "90440020": {
-    "icon": 50021004,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "受到直接伤害的60%转化为生命治疗自身",
+    "des": "受到直接伤害的35%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.6,
+    "value1": 0.35,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90440021": {
-    "icon": 50021005,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "释放技能后恢复自身40%最大生命值",
+    "des": "释放技能后恢复自身30%最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.3
   },
-  "90440022": {
-    "icon": 50021006,
-    "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得3回合无敌盾，无敌盾消失时回复自身30%生命上限的血量",
-    "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
-    "key2": "invincibleHeal",
-    "value2": 0.3
-  },
   "90440023": {
-    "icon": 50022004,
+    "icon": 50014006,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加10%，可叠加.",
+    "des": "每回合伤害永久增加8%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.1
+    "value1": 0.08
   },
   "90440024": {
-    "icon": 50022005,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害40%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
@@ -8108,35 +8037,35 @@
     "value2": 0.4
   },
   "90440025": {
-    "icon": 50022006,
+    "icon": 50015005,
     "name": "精灵天赋",
-    "des": "击败目标后,自身伤害增加50%。",
+    "des": "击败目标后,自身伤害增加25%。",
     "key1": "kill_amp",
-    "value1": 0.5
-  },
-  "90440026": {
-    "icon": 50023004,
-    "name": "精灵天赋",
-    "des": "受到直接伤害反弹50%的伤害",
-    "key1": "hit_rebound",
-    "value1": 0.5
-  },
-  "90440027": {
-    "icon": 50023005,
-    "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身25%生命值",
-    "key1": "less_half_hp_heal",
     "value1": 0.25
   },
+  "90440026": {
+    "icon": 50015006,
+    "name": "精灵天赋",
+    "des": "受到直接伤害反弹40%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.4
+  },
+  "90440027": {
+    "icon": 50021004,
+    "name": "精灵天赋",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身8%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.08
+  },
   "90440028": {
-    "icon": 50023006,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "初始怒气+4",
     "key1": "curAnger",
     "value1": 4
   },
   "90440029": {
-    "icon": 50024004,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "每回合行动结束后，为自身添加免控盾和50%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
@@ -8145,37 +8074,37 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
   },
   "90440030": {
-    "icon": 50024005,
+    "icon": 50012004,
     "name": "精灵天赋",
-    "des": "击杀目标后，获得3点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
+    "des": "击杀目标后，获得2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "killRet",
     "value1": true,
     "key2": "kill_anger",
-    "value2": 3
+    "value2": 2
   },
   "90440032": {
-    "icon": 50024006,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "行动后，恢复攻击力120%的生命值",
+    "des": "行动后，恢复攻击力40%的生命值",
     "key1": "round_heal_value",
-    "value1": 1.2
+    "value1": 0.4
   },
   "90440033": {
-    "icon": 50025004,
+    "icon": 50022005,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成100%",
+    "des": "普攻治疗量加成50%",
     "key1": "normal_heal_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90440034": {
-    "icon": 50011004,
+    "icon": 50022006,
     "name": "精灵天赋",
-    "des": "技能治疗量加成100%",
+    "des": "技能治疗量加成50%",
     "key1": "skill_heal_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90450001": {
-    "icon": 50011005,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+3.",
     "key1": "first_buff",
@@ -8184,7 +8113,7 @@
     "value2": 3
   },
   "90450003": {
-    "icon": 50011006,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦30%的攻击力，持续至战斗结束。",
     "key1": "first_buff",
@@ -8193,14 +8122,14 @@
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90450004": {
-    "icon": 50012004,
+    "icon": 50023006,
     "name": "精灵天赋",
-    "des": "入场时，为自身附加150%生命上限的伤害吸收盾，持续2回合",
+    "des": "入场时，为自身附加60%生命上限的伤害吸收盾，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1.5,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "90450005": {
-    "icon": 50012005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为我方全体附加持续1回合，20%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
     "key1": "first_buff",
@@ -8209,25 +8138,21 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
   "90450007": {
-    "icon": 50012006,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合,每击杀1个目标，自身获得15%暴击和15%爆伤效果，持续2个回合，最高可叠至3层。",
+    "des": "入场时，自身获得暴击增加30%，暴伤增加30%，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
-    "key2": "kill_buff",
-    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "90450008": {
-    "icon": 50013004,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能，并随机偷取敌方1-2个目标的20%攻击力，持续2个回合",
-    "key1": "enter_skill",
-    "value1": true,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "des": "入场时，并随机偷取敌方3个目标的20%攻击力，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "90450010": {
-    "icon": 50013005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "入场时，自身和随机1友方获得3层坚毅效果，持续3个回合",
     "key1": "first_buff",
@@ -8236,7 +8161,7 @@
     "value2": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90450011": {
-    "icon": 50013006,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "入场时，为自身附加3回合免疫盾,击杀目标时，自身获得1个回合的免控护盾。",
     "key1": "first_buff",
@@ -8245,28 +8170,28 @@
     "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450012": {
-    "icon": 50014004,
+    "icon": 50011005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加2层虚弱效果3回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90450013": {
-    "icon": 50014005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "入场时，随机为敌方3个目标附加灵魂窃取，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90450014": {
-    "icon": 50014006,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加3层连击印记，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90450015": {
-    "icon": 50015004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率和攻击力降低20%，持续2个回合",
     "key1": "first_buff",
@@ -8277,35 +8202,35 @@
     "value3": 0.2
   },
   "90450016": {
-    "icon": 50015005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "入场时，敌方随机3个目标降低2点怒气",
     "key1": "beginSkill",
     "value1": "dz_035"
   },
   "90450017": {
-    "icon": 50015006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加1层减速，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90450018": {
-    "icon": 50021004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "入场时，可给自身附加3层嗜血效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90450019": {
-    "icon": 50021005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90450020": {
-    "icon": 50021006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "入场时，自身获得6层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
@@ -8316,14 +8241,14 @@
     "value3": 99
   },
   "90450023": {
-    "icon": 50022004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "死亡后，放逐敌方攻击力最高的英雄3回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90450024": {
-    "icon": 50022005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "入场时，自身获得潜行效果，持续3个回合，每击杀目标获得1个回合潜行效果。",
     "key1": "first_buff",
@@ -8332,161 +8257,161 @@
     "value2": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450025": {
-    "icon": 50022006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值25%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_036"
   },
   "90450026": {
-    "icon": 50023004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_025"
   },
   "90450027": {
-    "icon": 50023005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加3层虚弱，效果持续3个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90450028": {
-    "icon": 50023006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方随机3个目标2点怒气",
     "key1": "diedSkill",
     "value1": "dz_035"
   },
   "90450029": {
-    "icon": 50024004,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的3个目标，回复300%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_037"
   },
   "90450030": {
-    "icon": 50024005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "死亡后，随机冰冻敌方3个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "90450031": {
-    "icon": 50024006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "死亡时恢复全队50%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_021"
   },
   "90450032": {
-    "icon": 50025004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成15%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_030"
   },
   "90530001": {
-    "icon": 50011004,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "攻击提升40%",
     "key1": "neglect_def",
     "value1": 0.4
   },
   "90530002": {
-    "icon": 50011005,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "物防提升40%",
     "key1": "self_phyDef_add",
     "value1": 0.4
   },
   "90530003": {
-    "icon": 50011006,
+    "icon": 50023005,
     "name": "精灵天赋",
     "des": "特防提升40%",
     "key1": "self_magDef_add",
     "value1": 0.4
   },
   "90530004": {
-    "icon": 50012004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "生命提升40%",
     "key1": "self_maxHP_add",
     "value1": 0.4
   },
   "90530005": {
-    "icon": 50012005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "暴击伤害增加40%",
     "key1": "slay",
     "value1": 0.4
   },
   "90530006": {
-    "icon": 50012006,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "暴击率增加40%",
     "key1": "crit",
     "value1": 0.4
   },
   "90530007": {
-    "icon": 50013004,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "伤害减免增加40%",
+    "des": "伤害减免增加30%",
     "key1": "reduction",
-    "value1": 0.4
+    "value1": 0.3
   },
   "90530008": {
-    "icon": 50013005,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "攻击资质+50",
     "key1": "M_ATK",
     "value1": 50
   },
   "90530009": {
-    "icon": 50013006,
+    "icon": 50011004,
     "name": "精灵天赋",
     "des": "特攻资质+50",
     "key1": "M_STK",
     "value1": 50
   },
   "90530010": {
-    "icon": 50014004,
+    "icon": 50011005,
     "name": "精灵天赋",
-    "des": "增加40%的免疫控制",
+    "des": "增加30%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.4
+    "value1": 0.3
   },
   "90530011": {
-    "icon": 50014005,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "速度提升40%",
     "key1": "self_speed_add",
     "value1": 0.4
   },
   "90530012": {
-    "icon": 50014006,
+    "icon": 50012004,
     "name": "精灵天赋",
     "des": "闪避率提升40%",
     "key1": "dodgeRate",
     "value1": 0.4
   },
   "90530013": {
-    "icon": 50015004,
+    "icon": 50012005,
     "name": "精灵天赋",
     "des": "命中提升55%",
     "key1": "hitRate",
     "value1": 0.55
   },
   "90530014": {
-    "icon": 50015005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "抗暴率提升40%",
     "key1": "critDef",
     "value1": 0.4
   },
   "90530015": {
-    "icon": 50015006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "治疗效果提升40%",
     "key1": "skill_heal_amp",
@@ -8495,49 +8420,49 @@
     "value2": 0.4
   },
   "90530016": {
-    "icon": 50021004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "生命资质+50",
     "key1": "M_HP",
     "value1": 50
   },
   "90530017": {
-    "icon": 50021005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "受到治疗量增加40%",
     "key1": "healAdd",
     "value1": 0.4
   },
   "90530018": {
-    "icon": 50021006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "受到的持续伤害降低40%",
     "key1": "damage_buff_lowArg",
     "value1": 0.4
   },
   "90530019": {
-    "icon": 50022004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "速度资质+50",
     "key1": "M_SPE",
     "value1": 50
   },
   "90530020": {
-    "icon": 50022005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "生命值每降低10%，暴击增加15%",
     "key1": "low_hp_crit",
     "value1": 0.15
   },
   "90530021": {
-    "icon": 50022006,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "生命值每降低10%，伤害增加15%",
     "key1": "low_hp_amp",
     "value1": 0.15
   },
   "90530022": {
-    "icon": 50023004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "全属性资质加成+30",
     "key1": "M_HP",
@@ -8554,19 +8479,21 @@
     "value6": 30
   },
   "90530023": {
-    "icon": 50023005,
+    "icon": 50015006,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加50%"
+    "des": "对敌方造成克制的额外伤害增加50%",
+    "key1": "specie hit",
+    "value1": 1.5
   },
   "90530024": {
-    "icon": 50023006,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "受克制造成的额外伤害降低50%",
     "key1": "specie_behit",
     "value1": 0.5
   },
   "90530025": {
-    "icon": 50024004,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "伤害增加35%，受伤增加20%",
     "key1": "amplify",
@@ -8575,7 +8502,7 @@
     "value2": -0.2
   },
   "90530026": {
-    "icon": 50024005,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "暴击增加35%，速度降低20%",
     "key1": "crit",
@@ -8584,28 +8511,28 @@
     "value2": -0.2
   },
   "90530027": {
-    "icon": 50024006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "HP全满的时候，受到的伤害降低至原来的30%",
     "key1": "full_hp_red",
     "value1": 0.3
   },
   "90530028": {
-    "icon": 50025004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "自身的被控制概率降低45%",
     "key1": "control_buff_lowrate",
     "value1": 0.45
   },
   "90530029": {
-    "icon": 50011004,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "生命每降低10%，闪避增加6%",
     "key1": "low_hp_dodge",
     "value1": 0.06
   },
   "90540001": {
-    "icon": 50011005,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "行动后恢复自身2点怒气，并回复自身8%最大生命值",
     "key1": "action_anger",
@@ -8614,14 +8541,14 @@
     "value2": 0.08
   },
   "90540002": {
-    "icon": 50011006,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "普攻后有80%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 0.8
+    "des": "普通攻击有80%的概率为敌方附加1层破甲效果，持续3个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.8}"
   },
   "90540003": {
-    "icon": 50012004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "回复等同于攻击造成伤害的35%的生命值",
     "key1": "turn_rate",
@@ -8630,129 +8557,118 @@
     "value2": "team_self"
   },
   "90540004": {
-    "icon": 50012005,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值35%伤害",
+    "des": "技能攻击附带目标最大生命值30%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.35
+    "value1": 0.3
   },
   "90540005": {
-    "icon": 50012006,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命13%",
+    "des": "每受到一次伤害，回复自身生命10%",
     "key1": "hit_turn_rate",
-    "value1": 0.13
+    "value1": 0.1
   },
   "90540006": {
-    "icon": 50013004,
+    "icon": 50024006,
     "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加40%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加25%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.4
-  },
-  "90540007": {
-    "icon": 50013005,
-    "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成20%生命上限伤害",
-    "key1": "skill_add_d_s",
-    "value1": true,
-    "key2": "add_default_maxHp",
-    "value2": 0.2
+    "value1": 0.25
   },
   "90540008": {
-    "icon": 50013006,
+    "icon": 50025004,
     "name": "精灵天赋",
     "des": "每当直接伤害击败目标时,自身获得5点怒气",
     "key1": "kill_anger",
     "value1": 5
   },
   "90540010": {
-    "icon": 50014004,
+    "icon": 50011004,
     "name": "精灵天赋",
-    "des": "技能攻击可降低目标3点怒气，技能伤害增加60%",
+    "des": "技能攻击可降低目标3点怒气，技能伤害增加20%",
     "key1": "skill_less_anger",
     "value1": 3,
     "key2": "skill_attack_amp",
-    "value2": 0.6
+    "value2": 0.2
   },
   "90540012": {
-    "icon": 50014005,
+    "icon": 50011005,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于35%，则将其斩杀。",
+    "des": "释放技能时，若目标生命值低于25%，则将其斩杀。",
     "key1": "seckill",
-    "value1": 0.35
+    "value1": 0.25
   },
   "90540014": {
-    "icon": 50014006,
+    "icon": 50011006,
     "name": "精灵天赋",
     "des": "每回合行动后回复自身15%最大生命值",
     "key1": "action_heal",
     "value1": 0.15
   },
   "90540015": {
-    "icon": 50015004,
+    "icon": 50012004,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加130%",
+    "des": "普通攻击伤害增加70%",
     "key1": "normal_attack_amp",
-    "value1": 1.3
+    "value1": 0.7
   },
   "90540016": {
-    "icon": 50015005,
+    "icon": 50012005,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加130%",
+    "des": "技能伤害效果增加70%",
     "key1": "skill_attack_amp",
-    "value1": 1.3
+    "value1": 0.7
   },
   "90540018": {
-    "icon": 50015006,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "所有攻击无视对方30%的防御",
     "key1": "neglect_def",
     "value1": 0.3
   },
   "90540019": {
-    "icon": 50021004,
+    "icon": 50013004,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击，并增加自身60%暴击率，持续2个回合",
-    "key1": "kill_add_d_s",
-    "value1": true,
-    "key2": "kill_crit",
-    "value2": 0.6
+    "des": "直接伤害击杀目标后,增加自身30%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.3
   },
   "90540020": {
-    "icon": 50021005,
+    "icon": 50013005,
     "name": "精灵天赋",
-    "des": "受到直接伤害的72%转化为生命治疗自身",
+    "des": "受到直接伤害的40%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.72,
+    "value1": 0.4,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90540021": {
-    "icon": 50021006,
+    "icon": 50013006,
     "name": "精灵天赋",
-    "des": "释放技能后恢复自身50%最大生命值",
+    "des": "释放技能后恢复自身35%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.5
+    "value1": 0.35
   },
   "90540022": {
-    "icon": 50022004,
+    "icon": 50014004,
     "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得3回合无敌盾，无敌盾消失时回复自身50%生命上限的血量",
+    "des": "每当击败一个目标的时候，获得2回合无敌盾，无敌盾消失时回复自身30%生命上限的血量",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
     "key2": "invincibleHeal",
-    "value2": 0.5
+    "value2": 0.3
   },
   "90540023": {
-    "icon": 50022005,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加15%，可叠加.",
+    "des": "每回合伤害永久增加10%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90540024": {
-    "icon": 50022006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害60%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
@@ -8761,35 +8677,35 @@
     "value2": 0.6
   },
   "90540025": {
-    "icon": 50023004,
+    "icon": 50015004,
     "name": "精灵天赋",
-    "des": "击败目标后,自身伤害增加60%。",
+    "des": "击败目标后,自身伤害增加30%。",
     "key1": "kill_amp",
-    "value1": 0.6
-  },
-  "90540026": {
-    "icon": 50023005,
-    "name": "精灵天赋",
-    "des": "受到直接伤害反弹70%的伤害",
-    "key1": "hit_rebound",
-    "value1": 0.7
-  },
-  "90540027": {
-    "icon": 50023006,
-    "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身30%生命值",
-    "key1": "less_half_hp_heal",
     "value1": 0.3
   },
+  "90540026": {
+    "icon": 50015005,
+    "name": "精灵天赋",
+    "des": "受到直接伤害反弹50%的伤害",
+    "key1": "hit_rebound",
+    "value1": 0.5
+  },
+  "90540027": {
+    "icon": 50015006,
+    "name": "精灵天赋",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身10%生命值",
+    "key1": "less_half_hp_heal",
+    "value1": 0.1
+  },
   "90540028": {
-    "icon": 50024004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "免疫减怒效果，初始怒气+4",
     "key1": "curAnger",
     "value1": 4
   },
   "90540029": {
-    "icon": 50024005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "每回合行动结束后，为自身添加免控盾和80%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
@@ -8797,38 +8713,29 @@
     "key2": "action_buff",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.8,\"duration\":2,\"buffRate\":1}"
   },
-  "90540030": {
-    "icon": 50023006,
-    "name": "精灵天赋",
-    "des": "击杀目标后，获得4点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
-    "key1": "killRet",
-    "value1": true,
-    "key2": "kill_anger",
-    "value2": 4
-  },
   "90540032": {
-    "icon": 50024004,
+    "icon": 50021006,
     "name": "精灵天赋",
-    "des": "行动后，恢复攻击力150%的生命值",
+    "des": "行动后，恢复攻击力60%的生命值",
     "key1": "round_heal_value",
-    "value1": 1.5
+    "value1": 0.6
   },
   "90540033": {
-    "icon": 50024005,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成130%",
+    "des": "普攻治疗量加成70%",
     "key1": "normal_heal_amp",
-    "value1": 1.3
+    "value1": 0.7
   },
   "90540034": {
-    "icon": 50023006,
+    "icon": 50022005,
     "name": "精灵天赋",
-    "des": "技能治疗量加成130%",
+    "des": "技能治疗量加成70%",
     "key1": "skill_heal_amp",
-    "value1": 1.3
+    "value1": 0.7
   },
   "90550001": {
-    "icon": 50024004,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+4.",
     "key1": "first_buff",
@@ -8837,7 +8744,7 @@
     "value2": 4
   },
   "90550003": {
-    "icon": 50013004,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦40%的攻击力，持续至战斗结束。",
     "key1": "first_buff",
@@ -8846,14 +8753,14 @@
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90550004": {
-    "icon": 50013005,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "入场时，为自身附加200%生命上限的伤害吸收盾，持续2回合",
+    "des": "入场时，为自身附加100%生命上限的伤害吸收盾，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550005": {
-    "icon": 50013006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，为我方全体附加持续1回合，25%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
     "key1": "first_buff",
@@ -8861,40 +8768,29 @@
     "key2": "first_buff",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
   },
-  "90550007": {
-    "icon": 50012006,
-    "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合,每击杀1个目标，自身获得30%暴击和30%爆伤效果，持续2个回合，最高可叠至3层。",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
-    "key2": "kill_buff",
-    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
-  },
   "90550008": {
-    "icon": 50014004,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能，并随机偷取敌方2-3个目标的30%攻击力，持续3个回合",
-    "key1": "enter_skill",
-    "value1": true,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
+    "des": "入场时，并随机偷取敌方2-3个目标的30%攻击力，持续3个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
   },
   "90550010": {
-    "icon": 50014005,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "入场时，全队获得3层坚毅效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90550012": {
-    "icon": 50014006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加3层虚弱效果3回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90550015": {
-    "icon": 50015004,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率和攻击力降低30%，持续2个回合",
     "key1": "first_buff",
@@ -8905,28 +8801,28 @@
     "value3": 0.3
   },
   "90550016": {
-    "icon": 50015005,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "入场时，敌方随机3个目标降低3点怒气",
     "key1": "beginSkill",
     "value1": "dz_038"
   },
   "90550017": {
-    "icon": 50015006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550019": {
-    "icon": 50021004,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续2回合，被普通攻击时，减低攻击目标1点怒气。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550020": {
-    "icon": 50021005,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "入场时，自身获得8层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
@@ -8937,21 +8833,21 @@
     "value3": 99
   },
   "90550025": {
-    "icon": 50021006,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值30%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_039"
   },
   "90550026": {
-    "icon": 50022004,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成500%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_026"
   },
   "90550027": {
-    "icon": 50022005,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加3层虚弱，效果持续3个回合，并附加1个回合的魔印效果。",
     "key1": "died_buff",
@@ -8960,142 +8856,133 @@
     "value2": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90550028": {
-    "icon": 50022006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方随机3个目标3点怒气",
     "key1": "diedSkill",
     "value1": "dz_038"
   },
   "90550029": {
-    "icon": 50023004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的3个目标，回复400%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_040"
   },
-  "90550030": {
-    "icon": 50023005,
-    "name": "精灵天赋",
-    "des": "死亡后，随机冰冻敌方3个目标，并给友方目标附加3个回合的寒冰护盾效果",
-    "key1": "died_buff",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
-    "key2": "died_buff",
-    "value2": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_all\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
-  },
   "90550031": {
-    "icon": 50023006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "死亡时恢复全队70%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_022"
   },
   "90550032": {
-    "icon": 50024004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成20%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_031"
   },
   "90630001": {
-    "icon": 50024005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "攻击提升50%",
     "key1": "neglect_def",
     "value1": 0.5
   },
   "90630002": {
-    "icon": 50023006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "物防提升50%",
     "key1": "self_phyDef_add",
     "value1": 0.5
   },
   "90630003": {
-    "icon": 50024004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "特防提升50%",
     "key1": "self_magDef_add",
     "value1": 0.5
   },
   "90630004": {
-    "icon": 50024005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "生命提升50%",
     "key1": "self_maxHP_add",
     "value1": 0.5
   },
   "90630005": {
-    "icon": 50023006,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "暴击伤害增加50%",
     "key1": "slay",
     "value1": 0.5
   },
   "90630006": {
-    "icon": 50024004,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "暴击率增加50%",
     "key1": "crit",
     "value1": 0.5
   },
   "90630007": {
-    "icon": 50013004,
+    "icon": 50022005,
     "name": "精灵天赋",
-    "des": "伤害减免增加50%",
+    "des": "伤害减免增加40%",
     "key1": "reduction",
-    "value1": 0.5
+    "value1": 0.4
   },
   "90630008": {
-    "icon": 50013005,
+    "icon": 50022006,
     "name": "精灵天赋",
     "des": "攻击资质+60",
     "key1": "M_ATK",
     "value1": 60
   },
   "90630009": {
-    "icon": 50013006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "特攻资质+60",
     "key1": "M_STK",
     "value1": 60
   },
   "90630010": {
-    "icon": 50014004,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "增加50%的免疫控制",
+    "des": "增加40%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.5
+    "value1": 0.4
   },
   "90630011": {
-    "icon": 50014005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "速度提升50%",
     "key1": "self_speed_add",
     "value1": 0.5
   },
   "90630012": {
-    "icon": 50014006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "闪避率提升50%",
     "key1": "dodgeRate",
     "value1": 0.5
   },
   "90630013": {
-    "icon": 50015004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "命中率不会被降低，攻击必定命中",
     "key1": "skill_must_hit",
     "value1": true
   },
   "90630014": {
-    "icon": 50015005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "抗暴率提升50%",
     "key1": "critDef",
     "value1": 0.5
   },
   "90630015": {
-    "icon": 50015006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "治疗效果提升50%",
     "key1": "skill_heal_amp",
@@ -9104,49 +8991,49 @@
     "value2": 0.5
   },
   "90630016": {
-    "icon": 50021004,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "生命资质+60",
     "key1": "M_HP",
     "value1": 60
   },
   "90630017": {
-    "icon": 50021005,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "受到治疗量增加50%",
     "key1": "healAdd",
     "value1": 0.5
   },
   "90630018": {
-    "icon": 50021006,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "受到的持续伤害降低50%",
     "key1": "damage_buff_lowArg",
     "value1": 0.5
   },
   "90630019": {
-    "icon": 50022004,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "速度资质+60",
     "key1": "M_SPE",
     "value1": 60
   },
   "90630020": {
-    "icon": 50022005,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "生命值每降低10%，暴击增加20%",
     "key1": "low_hp_crit",
     "value1": 0.2
   },
   "90630021": {
-    "icon": 50022006,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "生命值每降低10%，伤害增加20%",
     "key1": "low_hp_amp",
     "value1": 0.2
   },
   "90630022": {
-    "icon": 50023004,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "全属性资质加成+40",
     "key1": "M_HP",
@@ -9163,19 +9050,21 @@
     "value6": 40
   },
   "90630023": {
-    "icon": 50023005,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "对敌方造成克制的额外伤害增加60%"
+    "des": "对敌方造成克制的额外伤害增加60%",
+    "key1": "specie hit",
+    "value1": 1.6
   },
   "90630024": {
-    "icon": 50023006,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "受克制造成的额外伤害降低60%",
     "key1": "specie_behit",
     "value1": 0.4
   },
   "90630025": {
-    "icon": 50024004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "伤害增加40%，受伤增加20%",
     "key1": "amplify",
@@ -9184,7 +9073,7 @@
     "value2": -0.2
   },
   "90630026": {
-    "icon": 50024005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "暴击增加40%，速度降低20%",
     "key1": "crit",
@@ -9193,28 +9082,28 @@
     "value2": -0.2
   },
   "90630027": {
-    "icon": 50023006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "HP全满的时候，受到的伤害降低至原来的20%",
     "key1": "full_hp_red",
     "value1": 0.2
   },
   "90630028": {
-    "icon": 50024004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "自身的被控制概率降低55%",
     "key1": "control_buff_lowrate",
     "value1": 0.55
   },
   "90630029": {
-    "icon": 50024005,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "生命每降低10%，闪避增加8%",
     "key1": "low_hp_dodge",
     "value1": 0.08
   },
   "90640001": {
-    "icon": 50023006,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "行动后恢复自身2点怒气，并回复自身10%最大生命值",
     "key1": "action_anger",
@@ -9223,14 +9112,14 @@
     "value2": 0.1
   },
   "90640002": {
-    "icon": 50024004,
+    "icon": 50022004,
     "name": "精灵天赋",
-    "des": "普攻后有100%概率释放1次怒气技能",
-    "key1": "normal_add_skill",
-    "value1": 1
+    "des": "普通攻击有100%的概率为敌方附加2层破甲效果，持续3个回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90640003": {
-    "icon": 50013004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "回复等同于攻击造成伤害的40%的生命值",
     "key1": "turn_rate",
@@ -9239,133 +9128,111 @@
     "value2": "team_self"
   },
   "90640004": {
-    "icon": 50013005,
+    "icon": 50022006,
     "name": "精灵天赋",
-    "des": "技能攻击附带目标最大生命值45%伤害",
+    "des": "技能攻击附带目标最大生命值35%伤害",
     "key1": "maxHP_damage",
-    "value1": 0.45
+    "value1": 0.35
   },
   "90640005": {
-    "icon": 50013006,
+    "icon": 50023004,
     "name": "精灵天赋",
-    "des": "每受到一次伤害，回复自身生命16%",
+    "des": "每受到一次伤害，回复自身生命12%",
     "key1": "hit_turn_rate",
-    "value1": 0.16
+    "value1": 0.12
   },
   "90640006": {
-    "icon": 50014004,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "每次击败目标后，自身暴击增加60%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加30%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.6
-  },
-  "90640007": {
-    "icon": 50014005,
-    "name": "精灵天赋",
-    "des": "每次释放技能后可追加1次普通攻击，追加普通攻击额外造成30%生命上限伤害",
-    "key1": "skill_add_d_s",
-    "value1": true,
-    "key2": "add_default_maxHp",
-    "value2": 0.3
+    "value1": 0.3
   },
   "90640008": {
-    "icon": 50014006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "每当直接伤害击败目标时,自身获得6点怒气",
     "key1": "kill_anger",
     "value1": 6
   },
   "90640010": {
-    "icon": 50015004,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "技能攻击可降低目标4点怒气，技能伤害增加100%",
+    "des": "技能攻击可降低目标4点怒气，技能伤害增加30%",
     "key1": "skill_less_anger",
     "value1": 4,
     "key2": "skill_attack_amp",
-    "value2": 1
+    "value2": 0.3
   },
   "90640012": {
-    "icon": 50015005,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "释放技能时，若目标生命值低于35%，则将其斩杀,并且每次击杀1个目标自身回复2点怒气",
+    "des": "释放技能时，若目标生命值低于30%，则将其斩杀,并且每次击杀1个目标自身回复2点怒气",
     "key1": "seckill",
     "value1": 0.35,
     "key2": "kill_anger",
     "value2": 2
   },
   "90640014": {
-    "icon": 50015006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "每回合行动后回复自身20%最大生命值",
     "key1": "action_heal",
     "value1": 0.2
   },
   "90640015": {
-    "icon": 50021004,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "普通攻击伤害增加160%",
+    "des": "普通攻击伤害增加100%",
     "key1": "normal_attack_amp",
-    "value1": 1.6
+    "value1": 1
   },
   "90640016": {
-    "icon": 50021005,
+    "icon": 50024005,
     "name": "精灵天赋",
-    "des": "技能伤害效果增加160%",
+    "des": "技能伤害效果增加100%",
     "key1": "skill_attack_amp",
-    "value1": 1.6
+    "value1": 1
   },
   "90640018": {
-    "icon": 50021006,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "所有攻击无视对方50%的防御",
     "key1": "neglect_def",
     "value1": 0.5
   },
   "90640019": {
-    "icon": 50022004,
+    "icon": 50024004,
     "name": "精灵天赋",
-    "des": "直接伤害击杀目标后追加1次普通攻击，并获得100%暴击效果，持续2个回合",
-    "key1": "kill_add_d_s",
-    "value1": true,
-    "key2": "kill_crit",
-    "value2": 1
+    "des": "直接伤害击杀目标后,增加自身35%暴击伤害，持续至战斗结束",
+    "key1": "kill_slay",
+    "value1": 0.35
   },
   "90640020": {
-    "icon": 50022005,
+    "icon": 50013004,
     "name": "精灵天赋",
-    "des": "受到直接伤害的84%转化为生命治疗自身",
+    "des": "受到直接伤害的50%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.84,
+    "value1": 0.5,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90640021": {
-    "icon": 50022006,
+    "icon": 50013005,
     "name": "精灵天赋",
-    "des": "释放技能后恢复自身60%最大生命值",
+    "des": "释放技能后恢复自身40%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.6
-  },
-  "90640022": {
-    "icon": 50023004,
-    "name": "精灵天赋",
-    "des": "每当击败一个目标的时候，获得3回合无敌盾，无敌盾消失时回复自身60%生命上限的血量，无敌盾消失后有概率重新激活无敌盾的效果。",
-    "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}",
-    "key2": "invincibleHeal",
-    "value2": 0.6,
-    "key3": "invincibleSuper_again",
-    "value3": 0.25
+    "value1": 0.4
   },
   "90640023": {
-    "icon": 50023005,
+    "icon": 50013006,
     "name": "精灵天赋",
-    "des": "每回合伤害永久增加20%，可叠加.",
+    "des": "每回合伤害永久增加12%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.2
+    "value1": 0.12
   },
   "90640024": {
-    "icon": 50023006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害100%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
@@ -9374,28 +9241,28 @@
     "value2": 1
   },
   "90640025": {
-    "icon": 50024004,
+    "icon": 50014005,
     "name": "精灵天赋",
-    "des": "击败目标后,自身伤害增加80%。",
+    "des": "击败目标后,自身伤害增加40%。",
     "key1": "kill_amp",
-    "value1": 0.8
+    "value1": 0.4
   },
   "90640026": {
-    "icon": 50024005,
+    "icon": 50014006,
     "name": "精灵天赋",
-    "des": "受到直接伤害反弹100%的伤害",
+    "des": "受到直接伤害反弹70%的伤害",
     "key1": "hit_rebound",
-    "value1": 1
+    "value1": 0.7
   },
   "90640027": {
-    "icon": 50023006,
+    "icon": 50015004,
     "name": "精灵天赋",
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身35%生命值",
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身15%生命值",
     "key1": "less_half_hp_heal",
-    "value1": 0.35
+    "value1": 0.15
   },
   "90640028": {
-    "icon": 50024004,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "免疫减怒效果，初始怒气+6",
     "key1": "curAnger",
@@ -9404,7 +9271,7 @@
     "value2": true
   },
   "90640029": {
-    "icon": 50024005,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "每回合行动结束后，为自身添加免控盾和100%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
@@ -9412,38 +9279,29 @@
     "key2": "action_buff",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "90640030": {
-    "icon": 50023006,
-    "name": "精灵天赋",
-    "des": "击杀目标后，获得6点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
-    "key1": "killRet",
-    "value1": true,
-    "key2": "kill_anger",
-    "value2": 6
-  },
   "90640032": {
-    "icon": 50024004,
+    "icon": 50021004,
     "name": "精灵天赋",
-    "des": "行动后，恢复攻击力200%的生命值",
+    "des": "行动后，恢复攻击力100%的生命值",
     "key1": "round_heal_value",
-    "value1": 2
+    "value1": 1
   },
   "90640033": {
-    "icon": 50013004,
+    "icon": 50021005,
     "name": "精灵天赋",
-    "des": "普攻治疗量加成160%",
+    "des": "普攻治疗量加成100%",
     "key1": "normal_heal_amp",
-    "value1": 1.6
+    "value1": 1
   },
   "90640034": {
-    "icon": 50013005,
+    "icon": 50021006,
     "name": "精灵天赋",
-    "des": "技能治疗量加成160%",
+    "des": "技能治疗量加成100%",
     "key1": "skill_heal_amp",
-    "value1": 1.6
+    "value1": 1
   },
   "90650001": {
-    "icon": 50013006,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+5.",
     "key1": "first_buff",
@@ -9452,7 +9310,7 @@
     "value2": 5
   },
   "90650003": {
-    "icon": 50014004,
+    "icon": 50022005,
     "name": "精灵天赋",
     "des": "入场时，可放逐敌方攻击力最高的英雄2回合，并偷取放逐宝可梦50%的攻击力，持续至战斗结束。",
     "key1": "first_buff",
@@ -9461,14 +9319,14 @@
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "90650004": {
-    "icon": 50014005,
+    "icon": 50022006,
     "name": "精灵天赋",
-    "des": "入场时，为自身附加300%生命上限的伤害吸收盾，持续3回合",
+    "des": "入场时，为自身附加150%生命上限的伤害吸收盾，持续3回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1.5,\"duration\":3,\"buffRate\":1}"
   },
   "90650005": {
-    "icon": 50014006,
+    "icon": 50023004,
     "name": "精灵天赋",
     "des": "入场时，为我方全体附加持续1回合，30%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
     "key1": "first_buff",
@@ -9477,25 +9335,23 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
   "90650007": {
-    "icon": 50012006,
+    "icon": 50023005,
     "name": "精灵天赋",
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续3回合,每击杀1个目标，自身获得45%暴击和45%爆伤效果，持续3个回合，最高可叠至3层。",
+    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续3回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
-    "key2": "kill_buff",
-    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90650008": {
-    "icon": 50015004,
+    "icon": 50023006,
     "name": "精灵天赋",
-    "des": "入场时，立即释放一次技能，并偷取目标的敌方50%攻击力，持续3个回合",
+    "des": "入场时，并偷取目标的敌方50%攻击力，持续3个回合",
     "key1": "enter_skill",
     "value1": true,
     "key2": "first_buff",
     "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.5,\"duration\":3,\"buffRate\":1}"
   },
   "90650012": {
-    "icon": 50015005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加3层虚弱效果3回合，并每回合给敌方攻击最高的目标，附加1回合的1层虚弱效果。",
     "key1": "first_buff",
@@ -9504,7 +9360,7 @@
     "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90650015": {
-    "icon": 50015006,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率和攻击力降低40%，持续2个回合",
     "key1": "first_buff",
@@ -9515,14 +9371,14 @@
     "value3": 0.4
   },
   "90650016": {
-    "icon": 50021004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，敌方随机3个目标降低4点怒气",
     "key1": "beginSkill",
     "value1": "dz_041"
   },
   "90650017": {
-    "icon": 50021005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。",
     "key1": "first_buff",
@@ -9531,7 +9387,7 @@
     "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650019": {
-    "icon": 50021006,
+    "icon": 50024005,
     "name": "精灵天赋",
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续2回合，被普通攻击时，减低攻击目标2点怒气。",
     "key1": "first_buff",
@@ -9540,7 +9396,7 @@
     "value2": 2
   },
   "90650020": {
-    "icon": 50022004,
+    "icon": 50023006,
     "name": "精灵天赋",
     "des": "入场时，自身获得10层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
@@ -9551,21 +9407,21 @@
     "value3": 99
   },
   "90650025": {
-    "icon": 50022005,
+    "icon": 50024004,
     "name": "精灵天赋",
     "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值40%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_042"
   },
   "90650026": {
-    "icon": 50022006,
+    "icon": 50013004,
     "name": "精灵天赋",
     "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_027"
   },
   "90650027": {
-    "icon": 50023004,
+    "icon": 50013005,
     "name": "精灵天赋",
     "des": "死亡后，为敌方全体附加3层虚弱，效果持续3个回合，并附加2个回合的魔印效果。",
     "key1": "died_buff",
@@ -9574,7 +9430,7 @@
     "value2": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650028": {
-    "icon": 50023005,
+    "icon": 50013006,
     "name": "精灵天赋",
     "des": "死亡后，降低敌方随机3个目标4点怒气，并对其附加禁怒效果，持续2个回合",
     "key1": "diedSkill",
@@ -9583,28 +9439,28 @@
     "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650029": {
-    "icon": 50023006,
+    "icon": 50014004,
     "name": "精灵天赋",
     "des": "死亡后，为我方生命中最低的3个目标，回复500%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_043"
   },
   "90650031": {
-    "icon": 50024004,
+    "icon": 50014005,
     "name": "精灵天赋",
     "des": "死亡时恢复全队100%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_023"
   },
   "90650032": {
-    "icon": 50024005,
+    "icon": 50014006,
     "name": "精灵天赋",
     "des": "死亡时，对敌方全体造成25%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_031"
   },
   "90740035": {
-    "icon": 50023006,
+    "icon": 50012006,
     "name": "精灵天赋",
     "des": "生命值低于30%时触发火神降临，驱散所有负面和控制效果。提升自身30%伤害，每回合恢复30%最大生命值，持续3回合，每场战斗只能触发1次",
     "key1": "less_hp_rate",
@@ -9613,7 +9469,7 @@
     "value2": "huosheng"
   },
   "90740036": {
-    "icon": 50024004,
+    "icon": 50015004,
     "name": "精灵天赋",
     "des": "自身生命值低于50%时进入觉醒状态，解除自身所有负面和控制状态，自身伤害增加20%，抗控增加10%，持续至战斗结束",
     "key1": "less_hp_rate",
@@ -9622,7 +9478,7 @@
     "value2": "juexing"
   },
   "90740037": {
-    "icon": 50024005,
+    "icon": 50015005,
     "name": "精灵天赋",
     "des": "生命值低于30%时触发冰神降临，驱散所有负面和控制效果，提升自身30%免伤，受到直接攻击有30%概率冰冻敌人，持续3回合，每场战斗只能触发1次",
     "key1": "less_hp_rate",
@@ -9631,14 +9487,14 @@
     "value2": "bingshen"
   },
   "90740038": {
-    "icon": 50023006,
+    "icon": 50015006,
     "name": "精灵天赋",
     "des": "受到致命伤害时100%概率触发保命，保留20%生命值，该技能触发后冷却4回合",
     "key1": "passive1",
     "value1": "bm_hx"
   },
   "90740039": {
-    "icon": 50024004,
+    "icon": 50021004,
     "name": "精灵天赋",
     "des": "生命值低于30%时进入疯狂状态，驱散所有负面和控制效果，暴击增加50%,暴伤增加50%，持续3回合,每场战斗只能生效1次",
     "key1": "less_hp_rate",
@@ -9647,7 +9503,7 @@
     "value2": "kb_boss1"
   },
   "90750001": {
-    "icon": 50023006,
+    "icon": 50021005,
     "name": "精灵天赋",
     "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+5.敌方每次获得灼烧效果，自身获得1层圣火，每层圣火增加自身3%免伤和暴击，持续3回合。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值，圣火最高可叠加10层。",
     "key1": "first_buff",
@@ -9660,7 +9516,7 @@
     "value4": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
   },
   "90750017": {
-    "icon": 50024004,
+    "icon": 50021006,
     "name": "精灵天赋",
     "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。敌方每次获得寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机冰冻一个敌方目标【冰霜：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
     "key1": "first_buff",
@@ -9673,7 +9529,7 @@
     "value4": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
   },
   "90750020": {
-    "icon": 50024005,
+    "icon": 50022004,
     "name": "精灵天赋",
     "des": "入场时，自身获得10层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束，当剑舞效果叠加至20层时，进入狂暴状态，驱散所有负面和控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
     "key1": "polang_buff",
