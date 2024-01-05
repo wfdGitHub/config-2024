@@ -1905,7 +1905,9 @@
   "800132": {
     "des": "精灵周身环绕静电，受到攻击时有30%概率对敌方施加麻痹",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.3}",
+    "key2": "skill_combo",
+    "value2": 0.4
   },
   "800133": {
     "des": "玛丽露的攻击更加凌厉，自身使用物理攻击时，伤害提升30%",
@@ -3672,7 +3674,7 @@
   "50011005": {
     "icon": 50011005,
     "name": "怒气汲取",
-    "des": "皮卡丘从<color=#f9ac72>感电</c>的目标身上汲取能量，每命中1个带有<color=#f9ac72>感电</c>的目标，恢复<color=#f9ac72>1点怒气</c>",
+    "des": "皮卡丘从<color=#f9ac72>感电</c>的目标身上汲取能量，每次技能命中1个带有<color=#f9ac72>感电</c>的目标，恢复<color=#f9ac72>1点怒气</c>",
     "key1": "skill_flash_anger",
     "value1": 1
   },
