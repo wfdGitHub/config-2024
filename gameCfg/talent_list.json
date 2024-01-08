@@ -2066,7 +2066,7 @@
   "800340": {
     "des": "精灵的冰霜之力不断侵蚀战场，每回合获得一层冰霜效果,当叠满10层时，每回合行动后随机冰冻一个敌方目标",
     "key1": "action_buff",
-    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":99,\"buffRate\":1}"
   },
   "800350": {
     "des": "美录坦拥有坚固的护甲，每回合获得15%最大生命值的护盾，出场时，为友方宝可梦添加同等的护盾",
@@ -2084,7 +2084,7 @@
     "des": "凤王作为火焰之主，不受火属性技能伤害，战斗开始时获得一回合超级无敌盾，免疫伤害和控制效果",
     "key1": "specie_immune",
     "value1": 10,
-    "key2": "first_buff1",
+    "key2": "first_buff",
     "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "800380": {
@@ -2165,7 +2165,7 @@
   "800510": {
     "des": "咩利羊被电气环绕，受到攻击时有30%概率对攻击方附加麻痹效果",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "800520": {
     "des": "拉鲁拉丝拥有不屈的意志，被控制概率降低35%（麻痹、沉默、眩晕）",
@@ -2176,9 +2176,9 @@
     "des": "咕妞妞攻击时有概率额外增加一个目标"
   },
   "800540": {
-    "des": "可可多拉特殊的能量使得它能够驱散部分增益，若目标存在无敌盾或无敌吸血盾，则在伤害前移除",
+    "des": "可可多拉特殊的能量使得它能够驱散无敌盾增益，若目标存在无敌盾或无敌吸血盾，则在伤害前移除",
     "key1": "less_clear_invincible",
-    "value1": 1
+    "value1": 6
   },
   "800550": {
     "des": "拉鲁拉郎的念力攻击能够轻而易举地穿过敌人防线，所有攻击都无视无敌盾效果直接攻击敌方目标",
@@ -2297,6 +2297,13 @@
     "value1": true,
     "key2": "sneak_amp",
     "value2": 1
+  },
+  "800750": {
+    "des": "水系精灵战斗热情高涨，生命值每降低10%，水系伤害增加5%",
+    "key1": "low_hp_amp",
+    "value1": 0.05,
+    "key2": "skill_add_d_s",
+    "value2": true
   },
   "2010010": {
     "des": "攻击力+8",
@@ -3799,7 +3806,7 @@
     "name": "风暴之姿",
     "des": "原始之力将同时祝福洛奇亚的队伍，每回合<color=#f9ac72>全体</c>友方<color=#f9ac72>随机获得1个增益效果</c>（无敌吸血盾、铜墙铁壁、水神护盾、<color=#f9ac72>免控盾</c>、精灵祝福）持续1回合",
     "key1": "begin_round_buffs",
-    "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}]"
+    "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_3\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}]"
   },
   "50021006": {
     "icon": 50021006,
@@ -3843,7 +3850,7 @@
   "50023005": {
     "icon": 50023005,
     "name": "海洋之怒",
-    "des": "盖欧卡沐浴怒火，目标怒气值大于4点的部分每点怒气值额外受到<color=#f9ac72>20%伤害</c>，怒气值不足4点，则降低<color=#f9ac72>1点怒气</c>",
+    "des": "盖欧卡沐浴怒火，释放技能时，目标怒气值不足4点的部分，额外受到<color=#f9ac72>20%伤害</c>，目标怒气值超过4点时，则降低<color=#f9ac72>1点怒气</c>",
     "key1": "skill_amp_or_lessAnger",
     "value1": 0.2
   },
@@ -4083,7 +4090,7 @@
     "name": "精灵祝福",
     "des": "宝宝丁入场祈愿，恢复友方<color=#f9ac72>全体</c><color=#f9ac72>30%</c>最大生命值，并添加<color=#f9ac72>35%</c>攻击的<color=#f9ac72>持续回复</c>效果，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"team_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "beginSkill",
     "value2": 50108003
   },
@@ -4099,7 +4106,7 @@
     "name": "月亮守护",
     "des": "皮宝宝<color=#f9ac72>入场时</c>召唤月亮之力<color=#f9ac72>守护</c>随机<color=#f9ac72>1-3个</c>友军，释放<color=#f9ac72>魔法盾</c>,持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "50110004": {
     "icon": 50110004,
@@ -4125,9 +4132,9 @@
   "50111005": {
     "icon": 50111005,
     "name": "幸运",
-    "des": "凯西的念力控制更加精妙，给敌方目标附加<color=#f9ac72>麻痹</c>的概率增加25%",
+    "des": "凯西的念力控制更加精妙，给敌方目标附加<color=#f9ac72>麻痹</c>的概率增加30%",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "50112004": {
     "icon": 50112004,
@@ -4318,14 +4325,18 @@
     "name": "暴怒",
     "des": "战斗使玛丽露<color=#f9ac72>暴怒</c>，每回合可随机获得暴击提升与爆伤提升",
     "key1": "begin_round_buffs",
-    "value1": "[{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}]"
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "begin_round_buffs",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50206005": {
     "icon": 50206005,
     "name": "战意激昂",
     "des": "玛丽露渴望战斗，<color=#f9ac72>每次入场</c>时可获得暴击提升与爆伤提升",
     "key1": "first_buff",
-    "value1": "[{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}]"
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50207004": {
     "icon": 50207004,
@@ -4371,7 +4382,7 @@
     "name": "报复",
     "des": "火稚鸡退场时释放强大火焰，给敌方<color=#f9ac72>全体</c>目标附加<color=#f9ac72>灼烧</c>",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "50303004": {
     "icon": 50303004,
@@ -4416,7 +4427,7 @@
     "icon": 50305005,
     "name": "汲取",
     "des": "拉鲁拉丝会从眩晕目标身上汲取能量，每当自身眩晕一个敌方目标，自身可获得<color=#f9ac72>1点怒气</c>",
-    "key1": "dizzy_hit_anger",
+    "key1": "dizzy_add_anger",
     "value1": 1
   },
   "50306004": {
@@ -4475,7 +4486,7 @@
     "name": "冰晶守护",
     "des": "海豹球<color=#f9ac72>入场时</c>创造1个冰球保护自身，能抵挡50%<color=#f9ac72>最大生命值的伤害</c>，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
   },
   "50310004": {
     "icon": 50310004,

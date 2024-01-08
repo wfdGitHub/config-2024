@@ -1669,12 +1669,14 @@
     "icon": 50021001,
     "anger": 0,
     "type": "attack",
-    "des": "洛奇亚挥舞双翼，唤起风刃对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>160%</c>的特殊伤害，对自身回复100%攻击力的生命值",
+    "des": "洛奇亚挥舞双翼，唤起风刃对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>160%</c>的特殊伤害，对敌方造成伤害<color=#8ad5a2>50%</c>回复自身生命值。",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.6,
-    "key1": "team_self",
-    "value1": 1
+    "key1": "turn_rate",
+    "value1": 0.5,
+    "key2": "turn_tg",
+    "value2": "team_self"
   },
   "50021002": {
     "name": "气旋攻击",
@@ -1682,12 +1684,14 @@
     "icon": 50021002,
     "anger": 4,
     "type": "attack",
-    "des": "洛奇亚唤起无数风刃，形成大型飓风对敌方<color=#8ad5a2>全体</c>造成169%的特殊伤害，对血量最少的友方<color=#8ad5a2>单体</c>回复<color=#8ad5a2>100%</c>攻击力的生命值",
+    "des": "洛奇亚唤起无数风刃，形成大型飓风对敌方<color=#8ad5a2>全体</c>造成169%的特殊伤害，对血量最少的友方<color=#8ad5a2>单体</c>回复<color=#8ad5a2>100%</c>伤害的生命值。",
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.69,
-    "key1": "team_lossMaxHP",
-    "value1": 2.25
+    "key1": "turn_rate",
+    "value1": 0.5,
+    "key2": "turn_tg",
+    "value2": "team_minHp_1"
   },
   "50022001": {
     "name": "神鸟猛击",
@@ -1723,12 +1727,12 @@
     "icon": 50023001,
     "anger": 0,
     "type": "attack",
-    "des": "盖欧卡汇聚水能攻击敌方目标，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>160%</c>的特殊伤害，<color=#8ad5a2>偷取</c>对方攻击力<color=#8ad5a2>10%</c>，持续3回合",
+    "des": "盖欧卡汇聚水能攻击敌方目标，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>160%</c>的特殊伤害，<color=#8ad5a2>偷取</c>对方攻击力<color=#8ad5a2>20%</c>，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.6,
     "key1": "suckAtk",
-    "value1": 0.1
+    "value1": 0.2
   },
   "50023002": {
     "name": "暴风雪",
@@ -1784,7 +1788,7 @@
     "targetType": "enemy_normal",
     "mul": 1.87,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50025002": {
     "name": "暴风",
@@ -1792,12 +1796,12 @@
     "icon": 50025002,
     "anger": 4,
     "type": "attack",
-    "des": "烈空坐舞动巨大的身躯，形成强大的暴风席卷敌人，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>420%</c>的物理伤害，给自身附加<color=#8ad5a2>暴怒</c>，击败后<color=#8ad5a2>再次释放</c>",
+    "des": "烈空坐舞动巨大的身躯，形成强大的暴风席卷敌人，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>420%</c>的物理伤害，给自身附加<color=#8ad5a2>暴怒</c>，击败后，若怒气足够释放，则<color=#8ad5a2>再次释放</c>技能攻。",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4.2,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
     "key2": "killRet",
     "value2": true
   },
@@ -1845,8 +1849,8 @@
     "icon": 50027002,
     "anger": 4,
     "type": "heal",
-    "des": "梦幻释放生命之水，对己方<color=#8ad5a2>2-3个</c>目标回复<color=#8ad5a2>283%</c>攻击力的生命值 ，释放技能后<color=#8ad5a2>驱散</c>目标1个减益效果，获得<color=#8ad5a2>1点怒气</c>",
-    "targetType": "team_minHp_23",
+    "des": "梦幻释放生命之水，对己方生命值最少的<color=#8ad5a2>2个</c>目标回复<color=#8ad5a2>283%</c>攻击力的生命值 ，释放技能后<color=#8ad5a2>驱散</c>目标1个减益效果，获得<color=#8ad5a2>1点怒气</c>",
+    "targetType": "friend_minHp_2",
     "mul": 2.83,
     "key1": "skill_anger_a",
     "value1": 1,
@@ -2045,12 +2049,12 @@
     "icon": 50107001,
     "anger": 0,
     "type": "attack",
-    "des": "尼多朗使用能够腐蚀护甲的毒针攻击目标，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>130%</c>的物理伤害，并附加<color=#8ad5a2>破甲</c>，持续2回合",
+    "des": "尼多朗使用能够腐蚀护甲的毒针攻击目标，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>130%</c>的物理伤害，并有45%概率附加<color=#8ad5a2>破甲</c>，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.45}"
   },
   "50107002": {
     "name": "大地之力",
@@ -2058,12 +2062,12 @@
     "icon": 50107002,
     "anger": 4,
     "type": "attack",
-    "des": "尼多朗释放大地之力，对敌方<color=#8ad5a2>2-3个</c>目标造成<color=#8ad5a2>174%</c>的物理伤害，并附加<color=#8ad5a2>破甲</c>，持续2回合",
+    "des": "尼多朗释放大地之力，对敌方<color=#8ad5a2>2-3个</c>目标造成<color=#8ad5a2>174%</c>的物理伤害，并65%概率附加<color=#8ad5a2>破甲</c>，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 1.74,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50108001": {
     "name": "治愈",
@@ -2373,12 +2377,14 @@
     "icon": 50119002,
     "anger": 4,
     "type": "attack",
-    "des": "鸭嘴宝宝释放大量火球形成弹幕，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>293%</c>的特殊伤害，自身随机获得<color=#8ad5a2>神力</c>或<color=#8ad5a2>坚毅</c>",
+    "des": "鸭嘴宝宝释放大量火球形成弹幕，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>293%</c>的特殊伤害，自身分别有50%概率获得<color=#8ad5a2>神力</c>，<color=#8ad5a2>坚毅</c>",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 2.93,
     "key1": "buff1",
-    "value1": "[{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}]"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}"
   },
   "50201001": {
     "name": "藤鞭",
@@ -2402,9 +2408,9 @@
     "des": "菊叶草射出锋利的飞叶，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>316%</c>的物理伤害，3层<color=#8ad5a2>连击印记</c>",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.6,
+    "mul": 3.16,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "50202001": {
     "name": "火花",
@@ -2471,7 +2477,7 @@
     "targetType": "enemy_normal",
     "mul": 1.4,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
   },
   "50204002": {
     "name": "空气斩",
@@ -2484,7 +2490,7 @@
     "targetType": "enemy_rand_13",
     "mul": 2.31,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "50205001": {
     "name": "电拳",
@@ -2581,7 +2587,7 @@
     "icon": 50301002,
     "anger": 4,
     "type": "attack",
-    "des": "木守宫挥舞大量叶刀形成风暴，对敌方<color=#8ad5a2>单体</c>血量最少目标造成<color=#8ad5a2>341%</c>的物理伤害，若击败目标，则<color=#8ad5a2>再次释放</c>此技能",
+    "des": "木守宫挥舞大量叶刀形成风暴，对敌方<color=#8ad5a2>单体</c>血量最少目标造成<color=#8ad5a2>341%</c>的物理伤害，若击败目标，自身怒气足够时，则<color=#8ad5a2>再次释放</c>此技能",
     "damageType": "phy",
     "targetType": "enemy_minHP",
     "mul": 3.41,
@@ -2648,9 +2654,9 @@
     "icon": 50304001,
     "anger": 0,
     "type": "heal",
-    "des": "莲叶童子释放疗愈能量，为友方血量最少的<color=#8ad5a2>1-2个</c>目标回复<color=#8ad5a2>103%</c>攻击力的生命值",
-    "targetType": "friend_minHp_12",
-    "mul": 1.03
+    "des": "莲叶童子释放疗愈能量，为友方血量最少的<color=#8ad5a2>1个</c>目标回复<color=#8ad5a2>117%</c>攻击力的生命值",
+    "targetType": "friend_minHp_1",
+    "mul": 1.17
   },
   "50304002": {
     "name": "治愈气泡",
@@ -2658,9 +2664,9 @@
     "icon": 50304002,
     "anger": 4,
     "type": "heal",
-    "des": "莲叶童子释放大量疗愈气泡包裹队友，对友方血量最少的<color=#8ad5a2>2-3个</c>目标回复163%攻击力的生命值,<color=#8ad5a2>35%</c>概率获得<color=#8ad5a2>无敌盾</c>，持续1回合",
-    "targetType": "friend_minHp_23",
-    "mul": 1.63,
+    "des": "莲叶童子释放大量疗愈气泡包裹队友，对友方血量最少的<color=#8ad5a2>2个</c>目标回复197%攻击力的生命值,<color=#8ad5a2>35%</c>概率获得<color=#8ad5a2>无敌盾</c>，持续1回合",
+    "targetType": "friend_minHp_2",
+    "mul": 1.97,
     "key1": "buff1",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -2683,12 +2689,14 @@
     "icon": 50305002,
     "anger": 4,
     "type": "attack",
-    "des": "拉鲁拉丝释放月亮之力，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>341%</c>的特殊伤害，<color=#8ad5a2>驱散</c>1层增益效果，55%概率附加<color=#8ad5a2>眩晕</c>",
+    "des": "拉鲁拉丝释放月亮之力，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>341%</c>的特殊伤害，<color=#8ad5a2>驱散</c>目标所有增益效果，55%概率附加<color=#8ad5a2>眩晕</c>",
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 3.41,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}"
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}",
+    "key2": "dispel_intensify",
+    "value2": true
   },
   "50306001": {
     "name": "臂锤",
@@ -2731,7 +2739,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.52,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "50307002": {
     "name": "爆音波",
@@ -2744,7 +2752,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.23,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "50308001": {
     "name": "铁头",
@@ -2756,7 +2764,7 @@
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.26,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "50308002": {
@@ -2769,7 +2777,7 @@
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.03,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.2
   },
   "50308003": {
@@ -5406,7 +5414,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.75}"
   },
   "90110001": {
-    "name": "普通技能",
+    "name": "雷暴",
     "icon": 50011001,
     "anger": 0,
     "type": "attack",
@@ -5418,7 +5426,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110002": {
-    "name": "普通技能",
+    "name": "闪电",
     "icon": 50011002,
     "anger": 0,
     "type": "attack",
@@ -5430,7 +5438,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110003": {
-    "name": "普通技能",
+    "name": "雷电",
     "icon": 50012001,
     "anger": 0,
     "type": "attack",
@@ -5442,7 +5450,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110004": {
-    "name": "普通技能",
+    "name": "雷霆",
     "icon": 50012002,
     "anger": 0,
     "type": "attack",
@@ -5454,7 +5462,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110005": {
-    "name": "普通技能",
+    "name": "电爆",
     "icon": 50013001,
     "anger": 0,
     "type": "attack",
@@ -5466,7 +5474,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110006": {
-    "name": "普通技能",
+    "name": "电能",
     "icon": 50013002,
     "anger": 0,
     "type": "attack",
@@ -5478,7 +5486,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "90110007": {
-    "name": "普通技能",
+    "name": "电击",
     "icon": 50014001,
     "anger": 0,
     "type": "attack",
@@ -5490,7 +5498,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "90110008": {
-    "name": "普通技能",
+    "name": "电网",
     "icon": 50014002,
     "anger": 0,
     "type": "attack",
@@ -5502,7 +5510,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "90110009": {
-    "name": "普通技能",
+    "name": "雷光",
     "icon": 50011001,
     "anger": 0,
     "type": "attack",
@@ -5514,7 +5522,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "90110010": {
-    "name": "普通技能",
+    "name": "电气",
     "icon": 50011002,
     "anger": 0,
     "type": "attack",
@@ -5526,7 +5534,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "90110011": {
-    "name": "普通技能",
+    "name": "冲击",
     "icon": 50012001,
     "anger": 0,
     "type": "attack",
@@ -5538,7 +5546,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110012": {
-    "name": "普通技能",
+    "name": "愤怒",
     "icon": 50012002,
     "anger": 0,
     "type": "attack",
@@ -5550,7 +5558,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110013": {
-    "name": "普通技能",
+    "name": "打击",
     "icon": 50013001,
     "anger": 0,
     "type": "attack",
@@ -5562,7 +5570,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110014": {
-    "name": "普通技能",
+    "name": "神光",
     "icon": 50013002,
     "anger": 0,
     "type": "attack",
@@ -5574,7 +5582,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110015": {
-    "name": "普通技能",
+    "name": "爆破",
     "icon": 50014001,
     "anger": 0,
     "type": "attack",
@@ -5586,7 +5594,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110016": {
-    "name": "普通技能",
+    "name": "燃烧",
     "icon": 50014002,
     "anger": 0,
     "type": "attack",
@@ -5598,7 +5606,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.45}"
   },
   "90110017": {
-    "name": "普通技能",
+    "name": "火焰",
     "icon": 50011001,
     "anger": 0,
     "type": "attack",
@@ -5610,7 +5618,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.45}"
   },
   "90110018": {
-    "name": "普通技能",
+    "name": "灼热击",
     "icon": 50011002,
     "anger": 0,
     "type": "attack",
@@ -5622,7 +5630,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.45}"
   },
   "90110019": {
-    "name": "普通技能",
+    "name": "新星",
     "icon": 50012001,
     "anger": 0,
     "type": "attack",
@@ -5634,7 +5642,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.45}"
   },
   "90110020": {
-    "name": "普通技能",
+    "name": "焰击",
     "icon": 50012002,
     "anger": 0,
     "type": "attack",
@@ -5646,7 +5654,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.45}"
   },
   "90110021": {
-    "name": "普通技能",
+    "name": "寒冰",
     "icon": 50013001,
     "anger": 0,
     "type": "attack",
@@ -5658,7 +5666,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110022": {
-    "name": "普通技能",
+    "name": "冰幕",
     "icon": 50013002,
     "anger": 0,
     "type": "attack",
@@ -5670,7 +5678,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110023": {
-    "name": "普通技能",
+    "name": "冰锥",
     "icon": 50014001,
     "anger": 0,
     "type": "attack",
@@ -5682,7 +5690,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110024": {
-    "name": "普通技能",
+    "name": "极寒",
     "icon": 50014002,
     "anger": 0,
     "type": "attack",
@@ -5694,7 +5702,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110025": {
-    "name": "普通技能",
+    "name": "冰封",
     "icon": 50011001,
     "anger": 0,
     "type": "attack",
@@ -5706,7 +5714,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90110026": {
-    "name": "普通技能",
+    "name": "切割",
     "icon": 50011002,
     "anger": 0,
     "type": "attack",
@@ -5718,7 +5726,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "90110027": {
-    "name": "普通技能",
+    "name": "击碎",
     "icon": 50012001,
     "anger": 0,
     "type": "attack",
@@ -5730,7 +5738,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "90110028": {
-    "name": "普通技能",
+    "name": "咬碎",
     "icon": 50012002,
     "anger": 0,
     "type": "attack",
@@ -5742,7 +5750,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "90110029": {
-    "name": "普通技能",
+    "name": "痛击",
     "icon": 50013001,
     "anger": 0,
     "type": "attack",
@@ -5754,7 +5762,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "90110030": {
-    "name": "普通技能",
+    "name": "割裂",
     "icon": 50013002,
     "anger": 0,
     "type": "attack",
@@ -5766,7 +5774,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "90110031": {
-    "name": "普通技能",
+    "name": "巨声",
     "icon": 50014001,
     "anger": 0,
     "type": "attack",
@@ -5775,10 +5783,10 @@
     "targetType": "enemy_normal",
     "mul": 1.45,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90110032": {
-    "name": "普通技能",
+    "name": "爪击",
     "icon": 50014002,
     "anger": 0,
     "type": "attack",
@@ -5787,10 +5795,10 @@
     "targetType": "enemy_rand_12",
     "mul": 1.23,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90110033": {
-    "name": "普通技能",
+    "name": "怒火",
     "icon": 50011001,
     "anger": 0,
     "type": "attack",
@@ -5799,10 +5807,10 @@
     "targetType": "enemy_rand_13",
     "mul": 1.1,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90110034": {
-    "name": "普通技能",
+    "name": "疯狂冲击",
     "icon": 50011002,
     "anger": 0,
     "type": "attack",
@@ -5811,10 +5819,10 @@
     "targetType": "enemy_rand_23",
     "mul": 0.93,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90110035": {
-    "name": "普通技能",
+    "name": "怒击",
     "icon": 50012001,
     "anger": 0,
     "type": "attack",
@@ -5823,10 +5831,10 @@
     "targetType": "enemy_3",
     "mul": 0.85,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90110036": {
-    "name": "普通技能",
+    "name": "壁垒",
     "icon": 50012002,
     "anger": 0,
     "type": "attack",
@@ -5838,7 +5846,7 @@
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90110037": {
-    "name": "普通技能",
+    "name": "坚固",
     "icon": 50013001,
     "anger": 0,
     "type": "attack",
@@ -6584,7 +6592,7 @@
     "targetType": "enemy_normal",
     "mul": 3.26,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90120032": {
     "name": "怒气技能",
@@ -6596,7 +6604,7 @@
     "targetType": "enemy_rand_12",
     "mul": 2.77,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90120033": {
     "name": "怒气技能",
@@ -6608,7 +6616,7 @@
     "targetType": "enemy_rand_13",
     "mul": 2.48,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90120034": {
     "name": "怒气技能",
@@ -6620,7 +6628,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.09,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90120035": {
     "name": "怒气技能",
@@ -6632,7 +6640,7 @@
     "targetType": "enemy_3",
     "mul": 1.91,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90120036": {
     "name": "怒气技能",
@@ -7393,7 +7401,7 @@
     "targetType": "enemy_normal",
     "mul": 1.57,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90210032": {
     "name": "普通技能",
@@ -7405,7 +7413,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.33,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90210033": {
     "name": "普通技能",
@@ -7417,7 +7425,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.19,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90210034": {
     "name": "普通技能",
@@ -7429,7 +7437,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90210035": {
     "name": "普通技能",
@@ -7441,7 +7449,7 @@
     "targetType": "enemy_3",
     "mul": 0.92,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90210036": {
     "name": "普通技能",
@@ -8202,7 +8210,7 @@
     "targetType": "enemy_normal",
     "mul": 3.52,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90220032": {
     "name": "怒气技能",
@@ -8214,7 +8222,7 @@
     "targetType": "enemy_rand_12",
     "mul": 2.99,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90220033": {
     "name": "怒气技能",
@@ -8226,7 +8234,7 @@
     "targetType": "enemy_rand_13",
     "mul": 2.67,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90220034": {
     "name": "怒气技能",
@@ -8238,7 +8246,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.26,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90220035": {
     "name": "怒气技能",
@@ -8250,7 +8258,7 @@
     "targetType": "enemy_3",
     "mul": 2.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90220036": {
     "name": "怒气技能",
@@ -9011,7 +9019,7 @@
     "targetType": "enemy_normal",
     "mul": 1.69,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90310032": {
     "name": "普通技能",
@@ -9023,7 +9031,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.43,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90310033": {
     "name": "普通技能",
@@ -9035,7 +9043,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.28,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90310034": {
     "name": "普通技能",
@@ -9047,7 +9055,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1.08,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90310035": {
     "name": "普通技能",
@@ -9059,7 +9067,7 @@
     "targetType": "enemy_3",
     "mul": 0.99,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90310036": {
     "name": "普通技能",
@@ -9820,7 +9828,7 @@
     "targetType": "enemy_normal",
     "mul": 3.81,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90320032": {
     "name": "怒气技能",
@@ -9832,7 +9840,7 @@
     "targetType": "enemy_rand_12",
     "mul": 3.23,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90320033": {
     "name": "怒气技能",
@@ -9844,7 +9852,7 @@
     "targetType": "enemy_rand_13",
     "mul": 2.89,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90320034": {
     "name": "怒气技能",
@@ -9856,7 +9864,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.44,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90320035": {
     "name": "怒气技能",
@@ -9868,7 +9876,7 @@
     "targetType": "enemy_3",
     "mul": 2.23,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90320036": {
     "name": "怒气技能",
@@ -10629,7 +10637,7 @@
     "targetType": "enemy_normal",
     "mul": 1.83,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90410032": {
     "name": "普通技能",
@@ -10641,7 +10649,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.55,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90410033": {
     "name": "普通技能",
@@ -10653,7 +10661,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.39,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90410034": {
     "name": "普通技能",
@@ -10665,7 +10673,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1.17,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90410035": {
     "name": "普通技能",
@@ -10677,7 +10685,7 @@
     "targetType": "enemy_3",
     "mul": 1.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90410036": {
     "name": "普通技能",
@@ -11438,7 +11446,7 @@
     "targetType": "enemy_normal",
     "mul": 4.11,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90420032": {
     "name": "怒气技能",
@@ -11450,7 +11458,7 @@
     "targetType": "enemy_rand_12",
     "mul": 3.49,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90420033": {
     "name": "怒气技能",
@@ -11462,7 +11470,7 @@
     "targetType": "enemy_rand_13",
     "mul": 3.12,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90420034": {
     "name": "怒气技能",
@@ -11474,7 +11482,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.64,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90420035": {
     "name": "怒气技能",
@@ -11486,7 +11494,7 @@
     "targetType": "enemy_3",
     "mul": 2.41,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90420036": {
     "name": "怒气技能",
@@ -12247,7 +12255,7 @@
     "targetType": "enemy_normal",
     "mul": 1.97,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90510032": {
     "name": "普通技能",
@@ -12259,7 +12267,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.67,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90510033": {
     "name": "普通技能",
@@ -12271,7 +12279,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.5,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90510034": {
     "name": "普通技能",
@@ -12283,7 +12291,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1.27,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90510035": {
     "name": "普通技能",
@@ -12295,7 +12303,7 @@
     "targetType": "enemy_3",
     "mul": 1.16,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90510036": {
     "name": "普通技能",
@@ -13056,7 +13064,7 @@
     "targetType": "enemy_normal",
     "mul": 4.44,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90520032": {
     "name": "怒气技能",
@@ -13068,7 +13076,7 @@
     "targetType": "enemy_rand_12",
     "mul": 3.77,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90520033": {
     "name": "怒气技能",
@@ -13080,7 +13088,7 @@
     "targetType": "enemy_rand_13",
     "mul": 3.37,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90520034": {
     "name": "怒气技能",
@@ -13092,7 +13100,7 @@
     "targetType": "enemy_rand_23",
     "mul": 2.85,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90520035": {
     "name": "怒气技能",
@@ -13104,7 +13112,7 @@
     "targetType": "enemy_3",
     "mul": 2.6,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90520036": {
     "name": "怒气技能",
@@ -13865,7 +13873,7 @@
     "targetType": "enemy_normal",
     "mul": 2.13,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90610032": {
     "name": "普通技能",
@@ -13877,7 +13885,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.81,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90610033": {
     "name": "普通技能",
@@ -13889,7 +13897,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.62,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90610034": {
     "name": "普通技能",
@@ -13901,7 +13909,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1.37,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90610035": {
     "name": "普通技能",
@@ -13913,7 +13921,7 @@
     "targetType": "enemy_3",
     "mul": 1.25,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90610036": {
     "name": "普通技能",
@@ -14674,7 +14682,7 @@
     "targetType": "enemy_normal",
     "mul": 4.79,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90620032": {
     "name": "怒气技能",
@@ -14686,7 +14694,7 @@
     "targetType": "enemy_rand_12",
     "mul": 4.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90620033": {
     "name": "怒气技能",
@@ -14698,7 +14706,7 @@
     "targetType": "enemy_rand_13",
     "mul": 3.64,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90620034": {
     "name": "怒气技能",
@@ -14710,7 +14718,7 @@
     "targetType": "enemy_rand_23",
     "mul": 3.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90620035": {
     "name": "怒气技能",
@@ -14722,7 +14730,7 @@
     "targetType": "enemy_3",
     "mul": 2.81,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90620036": {
     "name": "怒气技能",
@@ -15483,7 +15491,7 @@
     "targetType": "enemy_normal",
     "mul": 2.3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90710032": {
     "name": "普通技能",
@@ -15495,7 +15503,7 @@
     "targetType": "enemy_rand_12",
     "mul": 1.95,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90710033": {
     "name": "普通技能",
@@ -15507,7 +15515,7 @@
     "targetType": "enemy_rand_13",
     "mul": 1.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90710034": {
     "name": "普通技能",
@@ -15519,7 +15527,7 @@
     "targetType": "enemy_rand_23",
     "mul": 1.48,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90710035": {
     "name": "普通技能",
@@ -15531,7 +15539,7 @@
     "targetType": "enemy_3",
     "mul": 1.35,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90710036": {
     "name": "普通技能",
@@ -16292,7 +16300,7 @@
     "targetType": "enemy_normal",
     "mul": 5.18,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90720032": {
     "name": "怒气技能",
@@ -16304,7 +16312,7 @@
     "targetType": "enemy_rand_12",
     "mul": 4.39,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90720033": {
     "name": "怒气技能",
@@ -16316,7 +16324,7 @@
     "targetType": "enemy_rand_13",
     "mul": 3.93,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90720034": {
     "name": "怒气技能",
@@ -16328,7 +16336,7 @@
     "targetType": "enemy_rand_23",
     "mul": 3.32,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90720035": {
     "name": "怒气技能",
@@ -16340,7 +16348,7 @@
     "targetType": "enemy_3",
     "mul": 3.03,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "90720036": {
     "name": "怒气技能",
