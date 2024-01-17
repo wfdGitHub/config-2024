@@ -135,7 +135,7 @@
   "banish": {
     "name": "放逐",
     "des": "跳过下一个回合，期间保留所有状态，且不会被选中为目标",
-    "refreshType": "roundOver",
+    "refreshType": "after",
     "debuff": true,
     "effects": true
   },
@@ -295,7 +295,7 @@
   "sneak": {
     "name": "潜行",
     "des": "潜行状态下不会被攻击。自身回合开始时，若没有其他存活的队友，则潜行消失",
-    "refreshType": "before",
+    "refreshType": "roundOver",
     "effects": true
   },
   "curse": {
