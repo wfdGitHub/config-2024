@@ -2418,14 +2418,14 @@
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "800360": {
-    "icon": 800360,
+    "icon": 50402005,
     "name": "愈战愈勇",
     "des": "洛奇亚愈战愈勇，每当自身受到一次伤害，自身伤害永久增加5%",
     "key1": "behit_amplify",
     "value1": 0.05
   },
   "800370": {
-    "icon": 800370,
+    "icon": 800117,
     "name": "火焰之主",
     "des": "凤王作为火焰之主，不受火属性技能伤害，战斗开始时获得一回合超级无敌盾，免疫伤害和控制效果",
     "key1": "specie_immune",
@@ -4460,7 +4460,7 @@
     "icon": 50021005,
     "name": "风暴之姿",
     "qa": 4,
-    "des": "原始之力将同时祝福洛奇亚的队伍，每回合<color=#f9ac72>全体</c>友方<color=#f9ac72>随机获得1个增益效果</c>（无敌吸血盾、铜墙铁壁、水神护盾、<color=#f9ac72>免控盾</c>、精灵祝福）持续1回合",
+    "des": "原始之力将同时祝福洛奇亚的队伍，每回合为友方3个目标<color=#f9ac72>随机获得1个增益效果</c>（无敌吸血盾、铜墙铁壁、水神护盾、<color=#f9ac72>免控盾</c>、精灵祝福）持续1回合",
     "key1": "begin_round_buffs",
     "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_3\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}]"
   },
@@ -5052,9 +5052,7 @@
     "qa": 3,
     "des": "战斗使玛丽露<color=#f9ac72>暴怒</c>，每回合可随机获得暴击提升与爆伤提升",
     "key1": "begin_round_buffs",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "begin_round_buffs",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "[{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}\n]"
   },
   "50206005": {
     "icon": 50206005,
