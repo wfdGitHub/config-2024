@@ -5482,6 +5482,83 @@
     "quality": 6,
     "source1": "gift"
   },
+  "603001": {
+    "name": "水系三十星英雄",
+    "des": "打开可随机获得水系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin1_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603002": {
+    "name": "火系三十星英雄",
+    "des": "打开可随机获得火系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin2_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603003": {
+    "name": "风系三十星英雄",
+    "des": "打开可随机获得风系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin3_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603004": {
+    "name": "光系三十星英雄",
+    "des": "打开可随机获得光系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin4_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603005": {
+    "name": "暗系三十星英雄",
+    "des": "打开可随机获得暗系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin5_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603006": {
+    "name": "三系随机三十星英雄",
+    "des": "打开可随机获得随机【水、火、风】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanxi30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "603007": {
+    "name": "光暗随机三十星英雄",
+    "des": "打开可随机获得随机【光、暗】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shenmo30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source2": "gift"
+  },
   "603100": {
     "name": "阿克娅信物",
     "des": "引导死去的年轻人类的水之女神，",
@@ -6582,6 +6659,17 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "1050030": {
+    "name": "三十星水系碎片",
+    "des": "集齐300个碎片合成可获得【水】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603001,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
   "2000060": {
     "name": "符石碎片",
     "des": "蕴含力量的符石,用于符石购买和符石升级,提升符石品质,增加符石被动技能。",
@@ -6617,6 +6705,39 @@
     "quality": 6,
     "effects": "baowu",
     "source1": "gift"
+  },
+  "2050030": {
+    "name": "三十星火系碎片",
+    "des": "集齐300个碎片合成可获得【火】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603002,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "3050030": {
+    "name": "三十星风系碎片",
+    "des": "集齐300个碎片合成可获得【风】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603003,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "4050030": {
+    "name": "三十星光系碎片",
+    "des": "集齐300个碎片合成可获得【光】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603004,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
   },
   "5001010": {
     "name": "铁剑",
@@ -7782,6 +7903,17 @@
     "effects": "daiji",
     "source1": "smithy"
   },
+  "5050030": {
+    "name": "三十星暗系碎片",
+    "des": "集齐300个碎片合成可获得【暗】系三十星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603005,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
   "6000000": {
     "name": "出游令",
     "des": "可增加五次出游次数",
@@ -8285,6 +8417,17 @@
     "quality": 6,
     "effects": "baowu"
   },
+  "7050030": {
+    "name": "光暗三十星碎片",
+    "des": "集齐300个碎片合成可获得【光暗】三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603007,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
   "10501010": {
     "name": "十星玛格丽特",
     "des": "可直接获取十星玛格丽特",
@@ -8311,6 +8454,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10501030": {
+    "name": "三十星玛格丽特",
+    "des": "可直接获取三十星玛格丽特",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10502010": {
     "name": "十星布里特妮",
@@ -8339,6 +8493,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10502030": {
+    "name": "三十星布里特妮",
+    "des": "可直接获取三十星布里特妮",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10503010": {
     "name": "十星洛贝莉亚",
     "des": "可直接获取十星洛贝莉亚",
@@ -8365,6 +8530,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10503030": {
+    "name": "三十星洛贝莉亚",
+    "des": "可直接获取三十星洛贝莉亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10504010": {
     "name": "十星沫寒",
@@ -8393,6 +8569,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10504030": {
+    "name": "三十星沫寒",
+    "des": "可直接获取三十星沫寒",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10505010": {
     "name": "十星瑞奇尔",
     "des": "可直接获取十星瑞奇尔",
@@ -8419,6 +8606,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10505030": {
+    "name": "三十星瑞奇尔",
+    "des": "可直接获取三十星瑞奇尔",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10506010": {
     "name": "十星画雪",
@@ -8447,6 +8645,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10506030": {
+    "name": "三十星画雪",
+    "des": "可直接获取三十星画雪",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10507010": {
     "name": "十星夏特洛",
     "des": "可直接获取十星夏特洛",
@@ -8473,6 +8682,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10507030": {
+    "name": "三十星夏特洛",
+    "des": "可直接获取三十星夏特洛",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10508010": {
     "name": "十星肖露",
@@ -8501,6 +8721,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10508030": {
+    "name": "三十星肖露",
+    "des": "可直接获取三十星肖露",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10509010": {
     "name": "十星维多莉娅",
     "des": "可直接获取十星维多莉娅",
@@ -8528,6 +8759,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10509030": {
+    "name": "三十星维多莉娅",
+    "des": "可直接获取三十星维多莉娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10510010": {
     "name": "十星蕾妮",
     "des": "可直接获取十星蕾妮",
@@ -8554,6 +8796,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10510030": {
+    "name": "三十星蕾妮",
+    "des": "可直接获取三十星蕾妮",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "13020010": {
     "name": "符文石灵碎片",
@@ -8685,6 +8938,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20501030": {
+    "name": "三十星樱火",
+    "des": "可直接获取三十星樱火",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20502010": {
     "name": "十星欧若拉",
     "des": "可直接获取十星欧若拉",
@@ -8711,6 +8975,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20502030": {
+    "name": "三十星欧若拉",
+    "des": "可直接获取三十星欧若拉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20503010": {
     "name": "十星绯红",
@@ -8739,6 +9014,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20503030": {
+    "name": "三十星绯红",
+    "des": "可直接获取三十星绯红",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20504010": {
     "name": "十星夏澄阳子",
     "des": "可直接获取十星夏澄阳子",
@@ -8765,6 +9051,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20504030": {
+    "name": "三十星夏澄阳子",
+    "des": "可直接获取三十星夏澄阳子",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20505010": {
     "name": "十星沈卉馨",
@@ -8793,6 +9090,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20505030": {
+    "name": "三十星沈卉馨",
+    "des": "可直接获取三十星沈卉馨",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20506010": {
     "name": "十星烈夏",
     "des": "可直接获取十星烈夏",
@@ -8819,6 +9127,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20506030": {
+    "name": "三十星烈夏",
+    "des": "可直接获取三十星烈夏",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20507010": {
     "name": "十星维尔贝那",
@@ -8847,6 +9166,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20507030": {
+    "name": "三十星维尔贝那",
+    "des": "可直接获取三十星维尔贝那",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20508010": {
     "name": "十星克罗娅斯",
     "des": "可直接获取十星克罗娅斯",
@@ -8873,6 +9203,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20508030": {
+    "name": "三十星克罗娅斯",
+    "des": "可直接获取三十星克罗娅斯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20509010": {
     "name": "十星阿尔贝蒂娜",
@@ -8901,6 +9242,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20509030": {
+    "name": "三十星阿尔贝蒂娜",
+    "des": "可直接获取三十星阿尔贝蒂娜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20510010": {
     "name": "十星克里斯蒂",
     "des": "可直接获取十星克里斯蒂",
@@ -8927,6 +9279,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20510030": {
+    "name": "三十星克里斯蒂",
+    "des": "可直接获取三十星克里斯蒂",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30501010": {
     "name": "十星莉莉丝",
@@ -8955,6 +9318,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30501030": {
+    "name": "三十星莉莉丝",
+    "des": "可直接获取三十星莉莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30502010": {
     "name": "十星枫华舞",
     "des": "可直接获取十星枫华舞",
@@ -8981,6 +9355,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30502030": {
+    "name": "三十星枫华舞",
+    "des": "可直接获取三十星枫华舞",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30503010": {
     "name": "十星莉迪亚",
@@ -9009,6 +9394,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30503030": {
+    "name": "三十星莉迪亚",
+    "des": "可直接获取三十星莉迪亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30504010": {
     "name": "十星千羽莉亚",
     "des": "可直接获取十星千羽莉亚",
@@ -9035,6 +9431,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30504030": {
+    "name": "三十星千羽莉亚",
+    "des": "可直接获取三十星千羽莉亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30505010": {
     "name": "十星苍岚",
@@ -9063,6 +9470,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30505030": {
+    "name": "三十星苍岚",
+    "des": "可直接获取三十星苍岚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30506010": {
     "name": "十星梅可露",
     "des": "可直接获取十星梅可露",
@@ -9089,6 +9507,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30506030": {
+    "name": "三十星梅可露",
+    "des": "可直接获取三十星梅可露",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30507010": {
     "name": "十星奥莉薇娅",
@@ -9117,6 +9546,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30507030": {
+    "name": "三十星奥莉薇娅",
+    "des": "可直接获取三十星奥莉薇娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30508010": {
     "name": "十星李芸诗",
     "des": "可直接获取十星李芸诗",
@@ -9143,6 +9583,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30508030": {
+    "name": "三十星李芸诗",
+    "des": "可直接获取三十星李芸诗",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30509010": {
     "name": "十星卡罗琳",
@@ -9171,6 +9622,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30509030": {
+    "name": "三十星卡罗琳",
+    "des": "可直接获取三十星卡罗琳",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30510010": {
     "name": "十星索尼娅",
     "des": "可直接获取十星索尼娅",
@@ -9197,6 +9659,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30510030": {
+    "name": "三十星索尼娅",
+    "des": "可直接获取三十星索尼娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40501010": {
     "name": "十星娜可朵莉丝",
@@ -9225,6 +9698,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40501030": {
+    "name": "三十星娜可朵莉丝",
+    "des": "可直接获取三十星娜可朵莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40502010": {
     "name": "十星米尔维斯",
     "des": "可直接获取十星米尔维斯",
@@ -9251,6 +9735,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40502030": {
+    "name": "三十星米尔维斯",
+    "des": "可直接获取三十星米尔维斯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40503010": {
     "name": "十星希里娅",
@@ -9279,6 +9774,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40503030": {
+    "name": "三十星希里娅",
+    "des": "可直接获取三十星希里娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40504010": {
     "name": "十星安娜莉丝",
     "des": "可直接获取十星安娜莉丝",
@@ -9305,6 +9811,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40504030": {
+    "name": "三十星安娜莉丝",
+    "des": "可直接获取三十星安娜莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40505010": {
     "name": "十星罗莎莉",
@@ -9333,6 +9850,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40505030": {
+    "name": "三十星罗莎莉",
+    "des": "可直接获取三十星罗莎莉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40506010": {
     "name": "十星娜尔科缇丝",
     "des": "可直接获取十星娜尔科缇丝",
@@ -9359,6 +9887,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40506030": {
+    "name": "三十星娜尔科缇丝",
+    "des": "可直接获取三十星娜尔科缇丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40507010": {
     "name": "十星神里绫华",
@@ -9387,6 +9926,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40507030": {
+    "name": "三十星神里绫华",
+    "des": "可直接获取三十星神里绫华",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40508010": {
     "name": "十星胡桃酱",
     "des": "可直接获取十星胡桃酱",
@@ -9413,6 +9963,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40508030": {
+    "name": "三十星胡桃酱",
+    "des": "可直接获取三十星胡桃酱",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40509010": {
     "name": "十星林玥倾",
@@ -9441,6 +10002,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40509030": {
+    "name": "三十星林玥倾",
+    "des": "可直接获取三十星林玥倾",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40510010": {
     "name": "十星悠依",
     "des": "可直接获取十星悠依",
@@ -9467,6 +10039,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40510030": {
+    "name": "三十星悠依",
+    "des": "可直接获取三十星悠依",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50501010": {
     "name": "十星郑芷嫣",
@@ -9495,6 +10078,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50501030": {
+    "name": "三十星郑芷嫣",
+    "des": "可直接获取三十星郑芷嫣",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50502010": {
     "name": "十星钟珍",
     "des": "可直接获取十星钟珍",
@@ -9521,6 +10115,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50502030": {
+    "name": "三十星钟珍",
+    "des": "可直接获取三十星钟珍",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50503010": {
     "name": "十星阿黛勒",
@@ -9549,6 +10154,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50503030": {
+    "name": "三十星阿黛勒",
+    "des": "可直接获取三十星阿黛勒",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50504010": {
     "name": "十星薇儿莉特",
     "des": "可直接获取十星薇儿莉特",
@@ -9575,6 +10191,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50504030": {
+    "name": "三十星薇儿莉特",
+    "des": "可直接获取三十星薇儿莉特",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50505010": {
     "name": "十星维罗妮卡",
@@ -9603,6 +10230,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50505030": {
+    "name": "三十星维罗妮卡",
+    "des": "可直接获取三十星维罗妮卡",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50506010": {
     "name": "十星索菲娅",
     "des": "可直接获取十星索菲娅",
@@ -9629,6 +10267,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50506030": {
+    "name": "三十星索菲娅",
+    "des": "可直接获取三十星索菲娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50507010": {
     "name": "十星萨米基娜",
@@ -9657,6 +10306,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50507030": {
+    "name": "三十星萨米基娜",
+    "des": "可直接获取三十星萨米基娜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50508010": {
     "name": "十星纳西妲",
     "des": "可直接获取十星纳西妲",
@@ -9683,6 +10343,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50508030": {
+    "name": "三十星纳西妲",
+    "des": "可直接获取三十星纳西妲",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50509010": {
     "name": "十星罗莎莉亚",
@@ -9711,6 +10382,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50509030": {
+    "name": "三十星罗莎莉亚",
+    "des": "可直接获取三十星罗莎莉亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50510010": {
     "name": "十星希尔雷安",
     "des": "可直接获取十星希尔雷安",
@@ -9737,6 +10419,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50510030": {
+    "name": "三十星希尔雷安",
+    "des": "可直接获取三十星希尔雷安",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "101000001": {
     "name": "1元充值卡",
@@ -11740,6 +12433,556 @@
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu"
+  },
+  "300105010": {
+    "name": "三十星玛格丽特碎片",
+    "des": "集齐300个碎片，可合成三十星【玛格丽特】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10501030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105020": {
+    "name": "三十星布里特妮碎片",
+    "des": "集齐300个碎片，可合成三十星【布里特妮】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10502030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105030": {
+    "name": "三十星洛贝莉亚碎片",
+    "des": "集齐300个碎片，可合成三十星【洛贝莉亚】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10503030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105040": {
+    "name": "三十星沫寒碎片",
+    "des": "集齐300个碎片，可合成三十星【沫寒】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10504030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105050": {
+    "name": "三十星瑞奇尔碎片",
+    "des": "集齐300个碎片，可合成三十星【瑞奇尔】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10505030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105060": {
+    "name": "三十星画雪碎片",
+    "des": "集齐300个碎片，可合成三十星【画雪】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10506030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105070": {
+    "name": "三十星夏特洛碎片",
+    "des": "集齐300个碎片，可合成三十星【夏特洛】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10507030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105080": {
+    "name": "三十星肖露碎片",
+    "des": "集齐300个碎片，可合成三十星【肖露】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10508030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105090": {
+    "name": "三十星维多莉娅碎片",
+    "des": "集齐300个碎片，可合成三十星【维多莉娅】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10509030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300105100": {
+    "name": "三十星蕾妮碎片",
+    "des": "集齐300个碎片，可合成三十星【蕾妮】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10510030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205010": {
+    "name": "三十星樱火碎片",
+    "des": "集齐300个碎片，可合成三十星【樱火】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20501030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205020": {
+    "name": "三十星欧若拉碎片",
+    "des": "集齐300个碎片，可合成三十星【欧若拉】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20502030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205030": {
+    "name": "三十星绯红碎片",
+    "des": "集齐300个碎片，可合成三十星【绯红】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20503030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205040": {
+    "name": "三十星夏澄阳子碎片",
+    "des": "集齐300个碎片，可合成三十星【夏澄阳子】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20504030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205050": {
+    "name": "三十星沈卉馨碎片",
+    "des": "集齐300个碎片，可合成三十星【沈卉馨】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20505030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205060": {
+    "name": "三十星烈夏碎片",
+    "des": "集齐300个碎片，可合成三十星【烈夏】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20506030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205070": {
+    "name": "三十星维尔贝那碎片",
+    "des": "集齐300个碎片，可合成三十星【维尔贝那】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20507030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205080": {
+    "name": "三十星克罗娅斯碎片",
+    "des": "集齐300个碎片，可合成三十星【克罗娅斯】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20508030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205090": {
+    "name": "三十星阿尔贝蒂娜碎片",
+    "des": "集齐300个碎片，可合成三十星【阿尔贝蒂娜】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20509030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300205100": {
+    "name": "三十星克里斯蒂碎片",
+    "des": "集齐300个碎片，可合成三十星【克里斯蒂】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20510030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305010": {
+    "name": "三十星莉莉丝碎片",
+    "des": "集齐300个碎片，可合成三十星【莉莉丝】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30501030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305020": {
+    "name": "三十星枫华舞碎片",
+    "des": "集齐300个碎片，可合成三十星【枫华舞】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30502030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305030": {
+    "name": "三十星莉迪亚碎片",
+    "des": "集齐300个碎片，可合成三十星【莉迪亚】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30503030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305040": {
+    "name": "三十星千羽莉亚碎片",
+    "des": "集齐300个碎片，可合成三十星【千羽莉亚】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30504030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305050": {
+    "name": "三十星苍岚碎片",
+    "des": "集齐300个碎片，可合成三十星【苍岚】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30505030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305060": {
+    "name": "三十星梅可露碎片",
+    "des": "集齐300个碎片，可合成三十星【梅可露】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30506030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305070": {
+    "name": "三十星奥莉薇娅碎片",
+    "des": "集齐300个碎片，可合成三十星【奥莉薇娅】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30507030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305080": {
+    "name": "三十星李芸诗碎片",
+    "des": "集齐300个碎片，可合成三十星【李芸诗】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30508030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305090": {
+    "name": "三十星卡罗琳碎片",
+    "des": "集齐300个碎片，可合成三十星【卡罗琳】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30509030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300305100": {
+    "name": "三十星索尼娅碎片",
+    "des": "集齐300个碎片，可合成三十星【索尼娅】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30510030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405010": {
+    "name": "三十星娜可朵莉丝碎片",
+    "des": "集齐300个碎片，可合成三十星【娜可朵莉丝】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40501030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405020": {
+    "name": "三十星米尔维斯碎片",
+    "des": "集齐300个碎片，可合成三十星【米尔维斯】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40502030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405030": {
+    "name": "三十星希里娅碎片",
+    "des": "集齐300个碎片，可合成三十星【希里娅】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40503030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405040": {
+    "name": "三十星安娜莉丝碎片",
+    "des": "集齐300个碎片，可合成三十星【安娜莉丝】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40504030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405050": {
+    "name": "三十星罗莎莉碎片",
+    "des": "集齐300个碎片，可合成三十星【罗莎莉】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40505030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405060": {
+    "name": "三十星娜尔科缇丝碎片",
+    "des": "集齐300个碎片，可合成三十星【娜尔科缇丝】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40506030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405070": {
+    "name": "三十星神里绫华碎片",
+    "des": "集齐300个碎片，可合成三十星【神里绫华】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40507030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405080": {
+    "name": "三十星胡桃酱碎片",
+    "des": "集齐300个碎片，可合成三十星【胡桃酱】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40508030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405090": {
+    "name": "三十星林玥倾碎片",
+    "des": "集齐300个碎片，可合成三十星【林玥倾】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40509030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300405100": {
+    "name": "三十星悠依碎片",
+    "des": "集齐300个碎片，可合成三十星【悠依】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40510030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505010": {
+    "name": "三十星郑芷嫣碎片",
+    "des": "集齐300个碎片，可合成三十星【郑芷嫣】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50501030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505020": {
+    "name": "三十星钟珍碎片",
+    "des": "集齐300个碎片，可合成三十星【钟珍】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50502030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505030": {
+    "name": "三十星阿黛勒碎片",
+    "des": "集齐300个碎片，可合成三十星【阿黛勒】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50503030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505040": {
+    "name": "三十星薇儿莉特碎片",
+    "des": "集齐300个碎片，可合成三十星【薇儿莉特】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50504030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505050": {
+    "name": "三十星维罗妮卡碎片",
+    "des": "集齐300个碎片，可合成三十星【维罗妮卡】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50505030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505060": {
+    "name": "三十星索菲娅碎片",
+    "des": "集齐300个碎片，可合成三十星【索菲娅】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50506030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505070": {
+    "name": "三十星萨米基娜碎片",
+    "des": "集齐300个碎片，可合成三十星【萨米基娜】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50507030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505080": {
+    "name": "三十星纳西妲碎片",
+    "des": "集齐300个碎片，可合成三十星【纳西妲】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50508030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505090": {
+    "name": "三十星罗莎莉亚碎片",
+    "des": "集齐300个碎片，可合成三十星【罗莎莉亚】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50509030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
+  },
+  "300505100": {
+    "name": "三十星希尔雷安碎片",
+    "des": "集齐300个碎片，可合成三十星【希尔雷安】。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50510030,
+    "buyNum": 300,
+    "quality": 6,
+    "source2": "gift"
   },
   "303006001": {
     "name": "灵宠碎片自选箱",
