@@ -4954,6 +4954,83 @@
     "source1": "tower_realm",
     "source2": "gift"
   },
+  "603001": {
+    "name": "水系三十星英雄",
+    "des": "打开可随机获得水系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin1_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603002": {
+    "name": "火系三十星英雄",
+    "des": "打开可随机获得火系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin2_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603003": {
+    "name": "风系三十星英雄",
+    "des": "打开可随机获得风系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin3_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603004": {
+    "name": "光系三十星英雄",
+    "des": "打开可随机获得光系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin4_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603005": {
+    "name": "暗系三十星英雄",
+    "des": "打开可随机获得暗系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin5_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603006": {
+    "name": "三系随机三十星英雄",
+    "des": "打开可随机获得随机【水、火、风】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanxi30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603007": {
+    "name": "光暗随机三十星英雄",
+    "des": "打开可随机获得随机【光、暗】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shenmo30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "903000": {
     "name": "三星精灵碎片",
     "des": "集齐30个碎片合成可获得【水】【火】【草】三星精灵",
@@ -5814,6 +5891,17 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "1050030": {
+    "name": "三十星水系碎片",
+    "des": "集齐300个碎片合成可获得【水】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603001,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
   "2000060": {
     "name": "符石精华",
     "des": "蕴含力量的符石，用于符石购买和符石升级，提升符石品质，增加符石被动技能。",
@@ -5848,6 +5936,39 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
+    "source1": "gift"
+  },
+  "2050030": {
+    "name": "三十星火系碎片",
+    "des": "集齐300个碎片合成可获得【火】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603002,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "3050030": {
+    "name": "三十星风系碎片",
+    "des": "集齐300个碎片合成可获得【风】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603003,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "4050030": {
+    "name": "三十星光系碎片",
+    "des": "集齐300个碎片合成可获得【光】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603004,
+    "buyNum": 300,
+    "quality": 6,
     "source1": "gift"
   },
   "5001010": {
@@ -7014,6 +7135,39 @@
     "effects": "daiji",
     "source1": "smithy"
   },
+  "5050030": {
+    "name": "三十星暗系碎片",
+    "des": "集齐300个碎片合成可获得【暗】系三十星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603005,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "6050030": {
+    "name": "三系三十星碎片",
+    "des": "集齐300个碎片合成可获得【三系】三十星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603006,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7050030": {
+    "name": "光暗三十星碎片",
+    "des": "集齐300个碎片合成可获得【光暗】三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603007,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
   "10501010": {
     "name": "十星波加曼",
     "des": "可获得十星波加曼",
@@ -7024,7 +7178,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10501025": {
     "name": "神秘水珠",
@@ -7041,6 +7196,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10501030": {
+    "name": "三十星波加曼",
+    "des": "可获得三十星波加曼",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105010,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10502010": {
     "name": "十星墨海马",
     "des": "可获得十星墨海马",
@@ -7051,7 +7217,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10502025": {
     "name": "水神吊坠",
@@ -7068,6 +7235,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10502030": {
+    "name": "三十星墨海马",
+    "des": "可获得三十星墨海马",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105020,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10503010": {
     "name": "十星水跃鱼",
     "des": "可获得十星水跃鱼",
@@ -7078,7 +7256,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10503025": {
     "name": "新月腰带",
@@ -7095,6 +7274,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10503030": {
+    "name": "三十星水跃鱼",
+    "des": "可获得三十星水跃鱼",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105030,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10504010": {
     "name": "十星盖欧卡",
     "des": "可获得十星盖欧卡",
@@ -7105,7 +7295,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10504025": {
     "name": "沧澜之壳",
@@ -7122,6 +7313,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10504030": {
+    "name": "三十星盖欧卡",
+    "des": "可获得三十星盖欧卡",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105040,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10505010": {
     "name": "十星小锯鳄",
     "des": "可获得十星小锯鳄",
@@ -7132,7 +7334,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10505025": {
     "name": "寒冬之铃",
@@ -7149,6 +7352,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10505030": {
+    "name": "三十星小锯鳄",
+    "des": "可获得三十星小锯鳄",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105050,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10506010": {
     "name": "十星蚊香蝌蚪",
     "des": "可获得十星蚊香蝌蚪",
@@ -7159,7 +7373,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10506025": {
     "name": "迅捷拳套",
@@ -7176,6 +7391,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10506030": {
+    "name": "三十星蚊香蝌蚪",
+    "des": "可获得三十星蚊香蝌蚪",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105060,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10507010": {
     "name": "十星杰尼龟",
     "des": "可获得十星杰尼龟",
@@ -7186,7 +7412,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10507025": {
     "name": "不融之冰",
@@ -7203,6 +7430,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10507030": {
+    "name": "三十星杰尼龟",
+    "des": "可获得三十星杰尼龟",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105070,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10508010": {
     "name": "十星帕路奇亚",
     "des": "可获得十星帕路奇亚",
@@ -7213,7 +7451,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10508025": {
     "name": "寒霜之枪",
@@ -7230,6 +7469,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10508030": {
+    "name": "三十星帕路奇亚",
+    "des": "可获得三十星帕路奇亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105080,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10509010": {
     "name": "十星水君",
     "des": "可获得十星水君",
@@ -7240,7 +7490,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10509025": {
     "name": "溟龙腰带",
@@ -7257,6 +7508,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10509030": {
+    "name": "三十星水君",
+    "des": "可获得三十星水君",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105090,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "10510010": {
     "name": "十星鲤鱼王",
     "des": "可获得十星鲤鱼王",
@@ -7267,7 +7529,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "10510025": {
     "name": "星月头巾",
@@ -7282,6 +7545,17 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "bazaar",
+    "source2": "gift"
+  },
+  "10510030": {
+    "name": "三十星鲤鱼王",
+    "des": "可获得三十星鲤鱼王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105100,
+    "buyNum": 1,
+    "quality": 7,
     "source2": "gift"
   },
   "13020010": {
@@ -7397,7 +7671,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20501025": {
     "name": "燃尽之核",
@@ -7414,6 +7689,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20501030": {
+    "name": "三十星小火马",
+    "des": "可获得三十星小火马",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205010,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20502010": {
     "name": "十星小火猴",
     "des": "可获得十星小火猴",
@@ -7424,7 +7710,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20502025": {
     "name": "愤怒围巾",
@@ -7441,6 +7728,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20502030": {
+    "name": "三十星小火猴",
+    "des": "可获得三十星小火猴",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205020,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20503010": {
     "name": "十星固拉多",
     "des": "可获得十星固拉多",
@@ -7451,7 +7749,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20503025": {
     "name": "炽热头巾",
@@ -7468,6 +7767,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20503030": {
+    "name": "三十星固拉多",
+    "des": "可获得三十星固拉多",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205030,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20504010": {
     "name": "十星炎帝",
     "des": "可获得十星炎帝",
@@ -7478,7 +7788,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20504025": {
     "name": "命运丝绸",
@@ -7495,6 +7806,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20504030": {
+    "name": "三十星炎帝",
+    "des": "可获得三十星炎帝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205040,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20505010": {
     "name": "十星戴鲁比",
     "des": "可获得十星戴鲁比",
@@ -7505,7 +7827,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20505025": {
     "name": "逐火之爪",
@@ -7522,6 +7845,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20505030": {
+    "name": "三十星戴鲁比",
+    "des": "可获得三十星戴鲁比",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205050,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20506010": {
     "name": "十星火球鼠",
     "des": "可获得十星火球鼠",
@@ -7532,7 +7866,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20506025": {
     "name": "烈焰玉带",
@@ -7549,6 +7884,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20506030": {
+    "name": "三十星火球鼠",
+    "des": "可获得三十星火球鼠",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205060,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20507010": {
     "name": "十星小火龙",
     "des": "可获得十星小火龙",
@@ -7559,7 +7905,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20507025": {
     "name": "火龙之羽",
@@ -7576,6 +7923,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20507030": {
+    "name": "三十星小火龙",
+    "des": "可获得三十星小火龙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205070,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20508010": {
     "name": "十星凤王",
     "des": "可获得十星凤王",
@@ -7586,7 +7944,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20508025": {
     "name": "虹色之羽",
@@ -7603,6 +7962,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20508030": {
+    "name": "三十星凤王",
+    "des": "可获得三十星凤王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205080,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20509010": {
     "name": "十星小鸭嘴兽",
     "des": "可获得十星小鸭嘴兽",
@@ -7613,7 +7983,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20509025": {
     "name": "羽翼白叶",
@@ -7630,6 +8001,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20509030": {
+    "name": "三十星小鸭嘴兽",
+    "des": "可获得三十星小鸭嘴兽",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205090,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "20510010": {
     "name": "十星火稚鸡",
     "des": "可获得十星火稚鸡",
@@ -7640,7 +8022,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "20510025": {
     "name": "火手里剑",
@@ -7657,6 +8040,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20510030": {
+    "name": "三十星火稚鸡",
+    "des": "可获得三十星火稚鸡",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205100,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30501010": {
     "name": "十星藤藤蛇",
     "des": "可获得十星藤藤蛇",
@@ -7667,7 +8061,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30501025": {
     "name": "四叶之花",
@@ -7684,6 +8079,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30501030": {
+    "name": "三十星藤藤蛇",
+    "des": "可获得三十星藤藤蛇",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305010,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30502010": {
     "name": "十星菊草叶",
     "des": "可获得十星菊草叶",
@@ -7694,7 +8100,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30502025": {
     "name": "蔷薇之灵",
@@ -7711,6 +8118,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30502030": {
+    "name": "三十星菊草叶",
+    "des": "可获得三十星菊草叶",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305020,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30503010": {
     "name": "十星喇叭芽",
     "des": "可获得十星喇叭芽",
@@ -7721,7 +8139,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30503025": {
     "name": "时间怀表",
@@ -7738,6 +8157,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30503030": {
+    "name": "三十星喇叭芽",
+    "des": "可获得三十星喇叭芽",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305030,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30504010": {
     "name": "十星嫩叶龟",
     "des": "可获得十星嫩叶龟",
@@ -7748,7 +8178,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30504025": {
     "name": "彩虹糖果",
@@ -7765,6 +8196,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30504030": {
+    "name": "三十星嫩叶龟",
+    "des": "可获得三十星嫩叶龟",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305040,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30505010": {
     "name": "十星木守宫",
     "des": "可获得十星木守宫",
@@ -7775,7 +8217,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30505025": {
     "name": "森林之刃",
@@ -7792,6 +8235,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30505030": {
+    "name": "三十星木守宫",
+    "des": "可获得三十星木守宫",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305050,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30506010": {
     "name": "十星妙蛙种子",
     "des": "可获得十星妙蛙种子",
@@ -7802,7 +8256,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30506025": {
     "name": "妙蛙之花",
@@ -7819,6 +8274,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30506030": {
+    "name": "三十星妙蛙种子",
+    "des": "可获得三十星妙蛙种子",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305060,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30507010": {
     "name": "十星橡实果",
     "des": "可获得十星橡实果",
@@ -7829,7 +8295,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30507025": {
     "name": "透明铃铛",
@@ -7846,6 +8313,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30507030": {
+    "name": "三十星橡实果",
+    "des": "可获得三十星橡实果",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305070,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30508010": {
     "name": "十星谢米",
     "des": "可获得十星谢米",
@@ -7856,7 +8334,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30508025": {
     "name": "翡翠之晶",
@@ -7873,6 +8352,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30508030": {
+    "name": "三十星谢米",
+    "des": "可获得三十星谢米",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305080,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30509010": {
     "name": "十星含羞苞",
     "des": "可获得十星含羞苞",
@@ -7883,7 +8373,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30509025": {
     "name": "落天之螺",
@@ -7900,6 +8391,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30509030": {
+    "name": "三十星含羞苞",
+    "des": "可获得三十星含羞苞",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305090,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "30510010": {
     "name": "十星毽子草",
     "des": "可获得十星毽子草",
@@ -7910,7 +8412,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "30510025": {
     "name": "狂风之羽",
@@ -7927,6 +8430,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30510030": {
+    "name": "三十星毽子草",
+    "des": "可获得三十星毽子草",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305100,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40501010": {
     "name": "十星皮卡丘",
     "des": "可获得十星皮卡丘",
@@ -7937,7 +8451,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40501025": {
     "name": "大师之帽",
@@ -7954,6 +8469,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40501030": {
+    "name": "三十星皮卡丘",
+    "des": "可获得三十星皮卡丘",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405010,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40502010": {
     "name": "十星铁哑铃",
     "des": "可获得十星铁哑铃",
@@ -7964,7 +8490,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40502025": {
     "name": "愤怒拳套",
@@ -7981,6 +8508,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40502030": {
+    "name": "三十星铁哑铃",
+    "des": "可获得三十星铁哑铃",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405020,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40503010": {
     "name": "十星利欧路",
     "des": "可获得十星利欧路",
@@ -7991,7 +8529,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40503025": {
     "name": "念力汤勺",
@@ -8008,6 +8547,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40503030": {
+    "name": "三十星利欧路",
+    "des": "可获得三十星利欧路",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405030,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40504010": {
     "name": "十星迷你龙",
     "des": "可获得十星迷你龙",
@@ -8018,7 +8568,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40504025": {
     "name": "圣纹围巾",
@@ -8035,6 +8586,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40504030": {
+    "name": "三十星迷你龙",
+    "des": "可获得三十星迷你龙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405040,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40505010": {
     "name": "十星雷公",
     "des": "可获得十星雷公",
@@ -8045,7 +8607,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40505025": {
     "name": "冠军腰带",
@@ -8062,6 +8625,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40505030": {
+    "name": "三十星雷公",
+    "des": "可获得三十星雷公",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405050,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40506010": {
     "name": "十星凯西",
     "des": "可获得十星凯西",
@@ -8072,7 +8646,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40506025": {
     "name": "光辉拳套",
@@ -8089,6 +8664,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40506030": {
+    "name": "三十星凯西",
+    "des": "可获得三十星凯西",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405060,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40507010": {
     "name": "十星洛基亚",
     "des": "可获得十星洛基亚",
@@ -8099,7 +8685,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40507025": {
     "name": "月光明珠",
@@ -8116,6 +8703,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40507030": {
+    "name": "三十星洛基亚",
+    "des": "可获得三十星洛基亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405070,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40508010": {
     "name": "十星波可比",
     "des": "可获得十星波克比",
@@ -8126,7 +8724,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40508025": {
     "name": "月华枫叶",
@@ -8143,6 +8742,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40508030": {
+    "name": "三十星波可比",
+    "des": "可获得三十星波可比",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405080,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40509010": {
     "name": "十星阿尔宙斯",
     "des": "可获得十星阿尔宙斯",
@@ -8153,7 +8763,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40509025": {
     "name": "创世之证",
@@ -8170,6 +8781,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40509030": {
+    "name": "三十星阿尔宙斯",
+    "des": "可获得三十星阿尔宙斯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405090,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "40510010": {
     "name": "十星裂空座",
     "des": "可获得十星裂空座",
@@ -8180,7 +8802,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "40510025": {
     "name": "精灵之笛",
@@ -8197,6 +8820,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40510030": {
+    "name": "三十星裂空座",
+    "des": "可获得三十星裂空座",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405100,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50501010": {
     "name": "十星达克莱伊",
     "des": "可获得十星达克莱伊",
@@ -8207,7 +8841,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50501025": {
     "name": "潜行布幕",
@@ -8224,6 +8859,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50501030": {
+    "name": "三十星达克莱伊",
+    "des": "可获得三十星达克莱伊",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505010,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50502010": {
     "name": "十星骑拉蒂纳",
     "des": "可获得十星骑拉帝纳",
@@ -8234,7 +8880,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50502025": {
     "name": "月亮晶石",
@@ -8251,6 +8898,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50502030": {
+    "name": "三十星骑拉蒂纳",
+    "des": "可获得三十星骑拉蒂纳",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505020,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50503010": {
     "name": "十星宝贝龙",
     "des": "可获得十星宝贝龙",
@@ -8261,7 +8919,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50503025": {
     "name": "龙星之石",
@@ -8278,6 +8937,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50503030": {
+    "name": "三十星宝贝龙",
+    "des": "可获得三十星宝贝龙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505030,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50504010": {
     "name": "十星妞妞",
     "des": "可获得十星妞妞",
@@ -8288,7 +8958,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50504025": {
     "name": "诅咒之珠",
@@ -8305,6 +8976,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50504030": {
+    "name": "三十星妞妞",
+    "des": "可获得三十星妞妞",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505040,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50505010": {
     "name": "十星代欧奇稀斯",
     "des": "可获得十星代欧奇稀斯",
@@ -8315,7 +8997,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50505025": {
     "name": "异兽之核",
@@ -8332,6 +9015,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50505030": {
+    "name": "三十星代欧奇稀斯",
+    "des": "可获得三十星代欧奇稀斯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505050,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50506010": {
     "name": "十星圆陆鲨",
     "des": "可获得十星圆陆鲨",
@@ -8342,7 +9036,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50506025": {
     "name": "精灵利爪",
@@ -8359,6 +9054,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50506030": {
+    "name": "三十星圆陆鲨",
+    "des": "可获得三十星圆陆鲨",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505060,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50507010": {
     "name": "十星超梦",
     "des": "可获得十星超梦",
@@ -8369,7 +9075,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50507025": {
     "name": "幽灵怀表",
@@ -8386,6 +9093,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50507030": {
+    "name": "三十星超梦",
+    "des": "可获得三十星超梦",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505070,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50508010": {
     "name": "十星鬼斯",
     "des": "可获得十星鬼斯",
@@ -8396,7 +9114,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50508025": {
     "name": "耿鬼恶面",
@@ -8413,6 +9132,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50508030": {
+    "name": "三十星鬼斯",
+    "des": "可获得三十星鬼斯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505080,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50509010": {
     "name": "十星姆克儿",
     "des": "可获得十星姆克儿",
@@ -8423,7 +9153,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50509025": {
     "name": "白兽之尾",
@@ -8440,6 +9171,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50509030": {
+    "name": "三十星姆克儿",
+    "des": "可获得三十星姆克儿",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505090,
+    "buyNum": 1,
+    "quality": 7,
+    "source2": "gift"
+  },
   "50510010": {
     "name": "十星化石翼龙",
     "des": "可获得十星化石翼龙",
@@ -8450,7 +9192,8 @@
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
-    "quality": 7
+    "quality": 7,
+    "source2": "gift"
   },
   "50510025": {
     "name": "玻琥之石",
@@ -8465,6 +9208,17 @@
     "buyNum": 1,
     "quality": 5,
     "source1": "bazaar",
+    "source2": "gift"
+  },
+  "50510030": {
+    "name": "三十星化石翼龙",
+    "des": "可获得三十星化石翼龙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505100,
+    "buyNum": 1,
+    "quality": 7,
     "source2": "gift"
   },
   "101000001": {
@@ -10203,6 +10957,556 @@
     "useType": "box",
     "arg": "1000602:10",
     "source1": "gift"
+  },
+  "300105010": {
+    "name": "三十星波加曼碎片",
+    "des": "波加曼，企鹅精灵。不擅长走路，所以经常跌倒，自尊心很強，总是抬头挺胸。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105020": {
+    "name": "三十星墨海马碎片",
+    "des": "墨海马，能灵活地靠背上的背鳍移动，面朝前地向四面八方移动，一旦察觉危险时就会吐出墨汁逃跑。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105030": {
+    "name": "三十星水跃鱼碎片",
+    "des": "水跃鱼，沼魚精灵。頭上的魚鰭是非常敏感的雷达，可以了解周围的狀況。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105040": {
+    "name": "三十星盖欧卡碎片",
+    "des": "盖欧卡，是超古代宝可梦之一，海底宝可梦，据说能用下大雨的能力扩张海洋，一直沉睡在海沟的底部。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105050": {
+    "name": "三十星小锯鳄碎片",
+    "des": "小锯鳄，大嘴宝可梦。拥有肌肉发达的下鄂，什么东西都可以咬碎。对于眼前移动的任何东西，都會产生反射反应，忍不住上前咬住。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105060": {
+    "name": "三十星蚊香蝌蚪碎片",
+    "des": "蚊香蝌蚪，蝌蚪宝可梦。肚子漩渦状花纹是它的特征。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105070": {
+    "name": "三十星杰尼龟碎片",
+    "des": "杰尼龟，那是擅长水属性攻击的小龟宝可梦。有坚硬的龟壳，能够发挥强烈的水枪攻击。详细的栖息地点不明。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105080": {
+    "name": "三十星帕路奇亚碎片",
+    "des": "帕路奇亚，据说居住在平行排列的空间狭缝中，是出现在神话中的宝可梦。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105090": {
+    "name": "三十星水君碎片",
+    "des": "水君，水属性传说的宝可梦，三圣兽之一，世界各地巡回清洁污水，能乘着北风而去。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300105100": {
+    "name": "三十星鲤鱼王碎片",
+    "des": "鲤鱼王，力量很弱，但繁殖力惊人，生命力顽强，无论位于多么肮脏的水中都能活下去，就算在没有水的陆地上也能活很久。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205010": {
+    "name": "三十星小火马碎片",
+    "des": "小火马，是马外形的四足宝可梦。它的身体是白色的，从头顶至尾巴以及四肢上长着燃烧着的火焰鬃毛，它脚上的蹄子有钻石的十倍硬，无论什么东西都能踩扁。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205020": {
+    "name": "三十星小火猴碎片",
+    "des": "小火焰猴，是非常灵巧的宝可梦，生活在岩山的山顶上，拥有能轻松攀上断崖绝壁的矫健身手。小火焰猴性格淘气，好奇心旺盛，但它也拥有强烈的斗志和坚韧不拔的意志。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205030": {
+    "name": "三十星固拉多碎片",
+    "des": "固拉多，地面属性传说的宝可梦，原始回归的样子是地面属性和火属性宝可梦，是超古代宝可梦之一。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205040": {
+    "name": "三十星炎帝碎片",
+    "des": "炎帝，火属性传说的宝可梦，它是三圣兽之一，蕴藏着熔岩之炎热的宝可梦,被认为是从火山的喷发中诞生，能吹出燃尽一切的火焰。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205050": {
+    "name": "三十星戴鲁比碎片",
+    "des": "戴鲁比，黑暗宝可梦。用叫声确认彼此的位置，追捕猎物的宝可梦。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205060": {
+    "name": "三十星火球鼠碎片",
+    "des": "火球鼠，是一种小型的双足宝可梦，身体上部有着浅蓝色的绒毛，暗面呈奶黄色。火球鼠看上去像针鼹和鼩鼱的结合。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205070": {
+    "name": "三十星小火龙碎片",
+    "des": "小火龙，火焰系精灵，擅长呼出火焰进行攻击，能够掌握大量的火属性招式，招式的威力与小火龙的精神状态密切相关。不仅如此，牙齿、爪子和尾巴也常常是小火龙攻击敌人的重要武器。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205080": {
+    "name": "三十星凤王碎片",
+    "des": "凤凰，记载于神话中的宝可梦，据说其身体闪耀着七彩光芒，飞过的地方会形成彩虹,传说看到凤王的人会获得永远的幸福。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205090": {
+    "name": "三十星小鸭嘴兽碎片",
+    "des": "小鸭嘴兽，是火属性宝可梦，通体火红，腹部及鸭嘴为黄色，有著一条与体色相同的尾巴。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300205100": {
+    "name": "三十星火稚鸡碎片",
+    "des": "火稚鸡，鸡型宝可梦，毛茸茸的黄色翅膀短而粗，它的全身长满橘色的羽毛，头部有橘色和黄色相间的火焰状头冠。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305010": {
+    "name": "三十星藤藤蛇碎片",
+    "des": "藤藤蛇，草属性宝可梦，很聪明、冷静的宝可梦。即使面对着比它更强大的对手，它也会保持镇静。它喜欢晒太阳并进行光合作用。如果它失去能量，它的尾巴就会枯萎。它有时也会抛弃无能的训练家。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305020": {
+    "name": "三十星菊草叶碎片",
+    "des": "菊草叶，淡绿色的小型宝可梦，头上有一片深绿色的叶子，脖子长著一圈芽。跟身体其他部位相比头部相当大，红色的大眼中看上去没有瞳孔，四只短脚分别有一根带指甲的脚趾，它还有一条小小的尾巴。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305030": {
+    "name": "三十星喇叭芽碎片",
+    "des": "喇叭芽，植物型的宝可梦，动作非常敏捷，捕捉食物时无法看清楚喇叭芽的样子，但用茎吸取水源时，很容易遭受攻击。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305040": {
+    "name": "三十星嫩叶龟碎片",
+    "des": "嫩叶龟，小型乌龟宝可梦，主要的颜色是草绿色。它有突出、鲜黄的下颌。黄色跟绿色的身躯上有壳，头上的咖啡色斑点上长了一棵幼苗。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305050": {
+    "name": "三十星木守宫碎片",
+    "des": "木守宫，草属性宝可梦，喜欢群居，注重同伴，大多数好斗，有着不打败对手不罢休的精神。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305060": {
+    "name": "三十星妙蛙种子碎片",
+    "des": "妙蛙种子，草属性和毒属性宝可梦，外表类似蟾蜍。它有着鲜红色的眼睛，白色的瞳孔和巩膜，头顶上长着一对凸起的耳朵。它的鼻子短而钝，且有一张大嘴。当它的嘴巴张开时，可以看到上颚的一对小而尖的牙齿。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305070": {
+    "name": "三十星橡实果碎片",
+    "des": "橡实果，草属性宝可梦，当它突然移动时会吓到别的宝可梦，橡实果喜欢吓它们。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305080": {
+    "name": "三十星谢米碎片",
+    "des": "谢米，草属性幻之宝可梦，能够分解掉大气当中的毒素，并使荒芜的大地变成花海，通过心灵感应进行交流，并能感受他人的感恩之心。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305090": {
+    "name": "三十星含羞苞碎片",
+    "des": "含羞苞，对温度的变化十分敏感，当感受到温暖的阳光时就会绽放， 所播撒的花粉会引起强烈的喷嚏和鼻涕。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300305100": {
+    "name": "三十星毽子草碎片",
+    "des": "毽子草，有着小且圆形的粉色身体。它头上长着长长的绿色的嫩叶，外形看起来像蒲公英的叶子。它很轻，能够很容易被风吹走。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405010": {
+    "name": "三十星皮卡丘碎片",
+    "des": "皮卡丘，电鼠宝可梦，會竖起尾巴感受周遭的动静，如果隨便用手拉它的尾巴，就會咬人，并放出十万伏特攻击。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405020": {
+    "name": "三十星铁哑铃碎片",
+    "des": "铁哑铃，机械生命体，外形酷似一个哑铃。细胞全部是磁铁，强力的磁力代替血液在它的体内不断循环，它使用磁力和伙伴之间进行交流。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405030": {
+    "name": "三十星利欧路碎片",
+    "des": "利欧路，格斗属性宝可梦，能看见被称为波导的一种波，它会使用波导来和伙伴交流，或以此观察人和宝可梦的感情，以及自然的样子。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405040": {
+    "name": "三十星迷你龙碎片",
+    "des": "迷你龙，幻之宝可梦，很胆小，比较难以捉摸而且极其害羞，因此它们很少被看到，这导致人们把它们认为是神话中的生物。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405050": {
+    "name": "三十星雷公碎片",
+    "des": "雷公，是电属性传说的宝可梦，三圣兽之一，据说雷公伴随着雷电降临，背上的暗紫色雷云披风般的长毛可以释放出落雷。雷公能够通过创造雷云飞行。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405060": {
+    "name": "三十星凯西碎片",
+    "des": "凯西，超能力属性宝可梦，能随心所欲地重复瞬间移动，看起来就好像在分身一样，它能读取对方的心声，在危险临近前会通过瞬间移动逃走。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405070": {
+    "name": "三十星洛基亚碎片",
+    "des": "洛基亚，超能力属性和飞行属性传说的宝可梦，沉睡在海沟深处。传说当洛奇亚扇动翅膀时，会引起长达40天的风暴。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405080": {
+    "name": "三十星波可比碎片",
+    "des": "波克比，妖精属性宝可梦，常常与孩子们在一起，而在危险情况下波克比很容易被遗忘，因此需要对它多加关心来保证它的安全。它们的个性大多都很欢乐，据说它们会与那些关心它们，以及从伤害中保护它们的人分享它们的快乐。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405090": {
+    "name": "三十星阿尔宙斯碎片",
+    "des": "阿尔宙斯，宝可梦创造神，创造了整个宝可梦世界、湖之众神和时空神话的宝可梦。正因为此，阿尔宙斯被认为是所有宝可梦种族中存在最久的宝可梦。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300405100": {
+    "name": "三十星裂空座碎片",
+    "des": "裂空座，龙属性和飞行属性传说的宝可梦，也是超古代宝可梦之一，天空守护者，一直在臭氧层里环球飞行，只在一些特定地点降落并停留来休息，它非常重视领土，会攻击任何入侵它居住地的精灵，并竭尽全力消灭之。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505010": {
+    "name": "三十星达克莱伊碎片",
+    "des": "达克莱伊，恶属性幻之宝可梦，如同阴影般的宝可梦。它的一头浊雾般不停翻滚的白色的类似头发的部分覆盖了大半的脸部，只露出一双明亮的蓝色眼睛，可以化为影子行走以躲避敌人的攻击。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505020": {
+    "name": "三十星骑拉蒂纳碎片",
+    "des": "骑拉帝纳，幽灵属性和龙属性传说的宝可梦，它是神话的宝可梦之一，拥有的特殊能力，它能够自由地进出毁坏的世界。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505030": {
+    "name": "三十星宝贝龙碎片",
+    "des": "宝贝龙，石头宝可梦，常常以头碰撞大岩石，因此头部被加強锻炼，头部变得比钢铁还硬。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505040": {
+    "name": "三十星妞妞碎片",
+    "des": "咕妞妞，是一种双足兽形宝可梦，躯干呈球形，有着两只长耳朵，眼睛看起来是四个椭圆形的小点。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505050": {
+    "name": "三十星代欧奇稀斯碎片",
+    "des": "代欧奇希斯，超能力属性幻之宝可梦，种长得像外星人的两足宝可梦，从宇宙病毒的DNA突变而来，能够利用不可思议的宇宙力量将队友极限化。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505060": {
+    "name": "三十星圆陆鲨碎片",
+    "des": "圆陆鲨，形似一只幼小的鲨鱼，够用巨大的嘴发动威力十足的攻击，但是还不能很灵活地战斗，有时候会伤到自己。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505070": {
+    "name": "三十星超梦碎片",
+    "des": "超梦，超能力属性传说的宝可梦，透过梦幻的基因修改而来的人造宝可梦，超梦的力量过于强大，研究员们实在控制不住，最后超梦摧毁研究室后逃离出来。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505080": {
+    "name": "三十星鬼斯碎片",
+    "des": "鬼斯，由气体构成的身体，它能潜入它想去的任何地方。然而当暴露在强风中的时候它的身体会被吹散变小，但它也许之后还能重新生长回来，鬼斯能够通过用有毒气体将其包围起来在两秒钟内使一头强壮的精灵倒下。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505090": {
+    "name": "三十星姆克儿碎片",
+    "des": "姆克儿，鸟型宝可梦，虽然身体很小，但拍打翅膀的力量非常强，叫声也非常吵闹。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
+  },
+  "300505100": {
+    "name": "三十星化石翼龙碎片",
+    "des": "化石翼龙，岩石属性和飞行属性宝可梦，远古时期的化石翼龙在天空中自由自在地到处飞行，是当时的天空王者。【30个碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source2": "gift"
   },
   "303006001": {
     "name": "圣物碎片自选箱",
