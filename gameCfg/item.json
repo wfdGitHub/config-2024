@@ -4891,6 +4891,83 @@
     "source1": "tower_realm",
     "source2": "gift"
   },
+  "603001": {
+    "name": "水系三十星英雄",
+    "des": "打开可随机获得水系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin1_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603002": {
+    "name": "火系三十星英雄",
+    "des": "打开可随机获得火系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin2_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603003": {
+    "name": "风系三十星英雄",
+    "des": "打开可随机获得风系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin3_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603004": {
+    "name": "光系三十星英雄",
+    "des": "打开可随机获得光系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin4_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603005": {
+    "name": "暗系三十星英雄",
+    "des": "打开可随机获得暗系三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "zhengyin5_30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603006": {
+    "name": "三系随机三十星英雄",
+    "des": "打开可随机获得随机【水、火、风】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanxi30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603007": {
+    "name": "光暗随机三十星英雄",
+    "des": "打开可随机获得随机【光、暗】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shenmo30_chest_1",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "903000": {
     "name": "三星英雄碎片",
     "des": "集齐30个碎片合成可获得【水】【火】【风】三星英雄",
@@ -5751,6 +5828,17 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "1050030": {
+    "name": "三十星水系碎片",
+    "des": "集齐300个碎片合成可获得【水】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603001,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
   "2000060": {
     "name": "符石精华",
     "des": "蕴含力量的符石，用于符石购买和符石升级，提升符石品质，增加符石被动技能。",
@@ -5785,6 +5873,39 @@
     "buyNum": 1,
     "quality": 6,
     "effects": "baowu",
+    "source1": "gift"
+  },
+  "2050030": {
+    "name": "三十星火系碎片",
+    "des": "集齐300个碎片合成可获得【火】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603002,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "3050030": {
+    "name": "三十星风系碎片",
+    "des": "集齐300个碎片合成可获得【风】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603003,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "4050030": {
+    "name": "三十星光系碎片",
+    "des": "集齐300个碎片合成可获得【光】系三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603004,
+    "buyNum": 300,
+    "quality": 6,
     "source1": "gift"
   },
   "5001010": {
@@ -6951,6 +7072,39 @@
     "effects": "daiji",
     "source1": "smithy"
   },
+  "5050030": {
+    "name": "三十星暗系碎片",
+    "des": "集齐300个碎片合成可获得【暗】系三十星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603005,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "6050030": {
+    "name": "三系三十星碎片",
+    "des": "集齐300个碎片合成可获得【三系】三十星英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603006,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "7050030": {
+    "name": "光暗三十星碎片",
+    "des": "集齐300个碎片合成可获得【光暗】三十英雄",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "randChip",
+    "arg": 603007,
+    "buyNum": 300,
+    "quality": 6,
+    "source1": "gift"
+  },
   "10501010": {
     "name": "十星温蒂",
     "des": "可获得十星温蒂",
@@ -6977,6 +7131,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10501030": {
+    "name": "三十星温蒂",
+    "des": "可获得三十星温蒂",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10502010": {
     "name": "十星妮潞",
@@ -7005,6 +7170,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10502030": {
+    "name": "三十星妮潞",
+    "des": "可获得三十星妮潞",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10503010": {
     "name": "十星李芸思",
     "des": "可获得十星李芸思",
@@ -7031,6 +7207,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10503030": {
+    "name": "三十星李芸思",
+    "des": "可获得三十星李芸思",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10504010": {
     "name": "十星寒",
@@ -7059,6 +7246,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10504030": {
+    "name": "三十星寒",
+    "des": "可获得三十星寒",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10505010": {
     "name": "十星莎莉菲",
     "des": "可获得十星莎莉菲",
@@ -7085,6 +7283,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10505030": {
+    "name": "三十星莎莉菲",
+    "des": "可获得三十星莎莉菲",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10506010": {
     "name": "十星阿蜜特",
@@ -7113,6 +7322,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10506030": {
+    "name": "三十星阿蜜特",
+    "des": "可获得三十星阿蜜特",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10507010": {
     "name": "十星劳拉",
     "des": "可获得十星劳拉",
@@ -7139,6 +7359,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10507030": {
+    "name": "三十星劳拉",
+    "des": "可获得三十星劳拉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "10508010": {
     "name": "十星米尔斯汀",
@@ -7167,6 +7398,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10508030": {
+    "name": "三十星米尔斯汀",
+    "des": "可获得三十星米尔斯汀",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10509010": {
     "name": "十星克蕾雅",
     "des": "可获得十星克蕾雅",
@@ -7194,6 +7436,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "10509030": {
+    "name": "三十星克蕾雅",
+    "des": "可获得三十星克蕾雅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "10510010": {
     "name": "十星米莉亚姆",
     "des": "可获得十星米莉亚姆",
@@ -7220,6 +7473,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "10510030": {
+    "name": "三十星米莉亚姆",
+    "des": "可获得三十星米莉亚姆",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "13020010": {
     "name": "契约胜利之剑碎片",
@@ -7351,6 +7615,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20501030": {
+    "name": "三十星蜜斯缇",
+    "des": "可获得三十星蜜斯缇",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20502010": {
     "name": "十星薇塔",
     "des": "可获得十星薇塔",
@@ -7377,6 +7652,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20502030": {
+    "name": "三十星薇塔",
+    "des": "可获得三十星薇塔",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20503010": {
     "name": "十星肖璐",
@@ -7405,6 +7691,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20503030": {
+    "name": "三十星肖璐",
+    "des": "可获得三十星肖璐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20504010": {
     "name": "十星煌",
     "des": "可获得十星煌",
@@ -7431,6 +7728,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20504030": {
+    "name": "三十星煌",
+    "des": "可获得三十星煌",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20505010": {
     "name": "十星拉菲妮亚",
@@ -7459,6 +7767,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20505030": {
+    "name": "三十星拉菲妮亚",
+    "des": "可获得三十星拉菲妮亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20506010": {
     "name": "十星里欧妮",
     "des": "可获得十星里欧妮",
@@ -7485,6 +7804,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20506030": {
+    "name": "三十星里欧妮",
+    "des": "可获得三十星里欧妮",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20507010": {
     "name": "十星莉洁洛特",
@@ -7513,6 +7843,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20507030": {
+    "name": "三十星莉洁洛特",
+    "des": "可获得三十星莉洁洛特",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20508010": {
     "name": "十星阿尔希亚",
     "des": "可获得十星阿尔希亚",
@@ -7539,6 +7880,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20508030": {
+    "name": "三十星阿尔希亚",
+    "des": "可获得三十星阿尔希亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "20509010": {
     "name": "十星米菈",
@@ -7567,6 +7919,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "20509030": {
+    "name": "三十星米菈",
+    "des": "可获得三十星米菈",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "20510010": {
     "name": "十星露米娜莉亚",
     "des": "可获得十星露米娜莉亚",
@@ -7593,6 +7956,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "20510030": {
+    "name": "三十星露米娜莉亚",
+    "des": "可获得三十星露米娜莉亚",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30501010": {
     "name": "十星紫苑",
@@ -7621,6 +7995,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30501030": {
+    "name": "三十星紫苑",
+    "des": "可获得三十星紫苑",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30502010": {
     "name": "十星拉米莉丝",
     "des": "可获得十星拉米莉丝",
@@ -7647,6 +8032,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30502030": {
+    "name": "三十星拉米莉丝",
+    "des": "可获得三十星拉米莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30503010": {
     "name": "十星米莉姆",
@@ -7675,6 +8071,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30503030": {
+    "name": "三十星米莉姆",
+    "des": "可获得三十星米莉姆",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30504010": {
     "name": "十星希兹",
     "des": "可获得十星希兹",
@@ -7701,6 +8108,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30504030": {
+    "name": "三十星希兹",
+    "des": "可获得三十星希兹",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30505010": {
     "name": "十星影",
@@ -7729,6 +8147,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30505030": {
+    "name": "三十星影",
+    "des": "可获得三十星影",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30506010": {
     "name": "十星阿尔薇思",
     "des": "可获得十星阿尔薇思",
@@ -7755,6 +8184,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30506030": {
+    "name": "三十星阿尔薇思",
+    "des": "可获得三十星阿尔薇思",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30507010": {
     "name": "十星露米娜丝",
@@ -7783,6 +8223,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30507030": {
+    "name": "三十星露米娜丝",
+    "des": "可获得三十星露米娜丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30508010": {
     "name": "十星沈蕙星",
     "des": "可获得十星沈蕙星",
@@ -7809,6 +8260,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30508030": {
+    "name": "三十星沈蕙星",
+    "des": "可获得三十星沈蕙星",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "30509010": {
     "name": "十星爱莉希雅",
@@ -7837,6 +8299,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "30509030": {
+    "name": "三十星爱莉希雅",
+    "des": "可获得三十星爱莉希雅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "30510010": {
     "name": "十星维尔薇",
     "des": "可获得十星维尔薇",
@@ -7863,6 +8336,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "30510030": {
+    "name": "三十星维尔薇",
+    "des": "可获得三十星维尔薇",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40501010": {
     "name": "十星郑紫颜",
@@ -7891,6 +8375,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40501030": {
+    "name": "三十星郑紫颜",
+    "des": "可获得三十星郑紫颜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40502010": {
     "name": "十星千劫",
     "des": "可获得十星千劫",
@@ -7917,6 +8412,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40502030": {
+    "name": "三十星千劫",
+    "des": "可获得三十星千劫",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40503010": {
     "name": "十星西西莉雅",
@@ -7945,6 +8451,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40503030": {
+    "name": "三十星西西莉雅",
+    "des": "可获得三十星西西莉雅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40504010": {
     "name": "十星梅诺",
     "des": "可获得十星梅诺",
@@ -7971,6 +8488,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40504030": {
+    "name": "三十星梅诺",
+    "des": "可获得三十星梅诺",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40505010": {
     "name": "十星伊莉丝",
@@ -7999,6 +8527,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40505030": {
+    "name": "三十星伊莉丝",
+    "des": "可获得三十星伊莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40506010": {
     "name": "十星卡娜迪雅",
     "des": "可获得十星卡娜迪雅",
@@ -8025,6 +8564,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40506030": {
+    "name": "三十星卡娜迪雅",
+    "des": "可获得三十星卡娜迪雅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40507010": {
     "name": "十星菲莉梅丝",
@@ -8053,6 +8603,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40507030": {
+    "name": "三十星菲莉梅丝",
+    "des": "可获得三十星菲莉梅丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40508010": {
     "name": "十星莎娜多莉",
     "des": "可获得十星莎娜多莉",
@@ -8079,6 +8640,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40508030": {
+    "name": "三十星莎娜多莉",
+    "des": "可获得三十星莎娜多莉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "40509010": {
     "name": "十星璇",
@@ -8107,6 +8679,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "40509030": {
+    "name": "三十星璇",
+    "des": "可获得三十星璇",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "40510010": {
     "name": "十星林悦轻",
     "des": "可获得十星林悦轻",
@@ -8133,6 +8716,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "40510030": {
+    "name": "三十星林悦轻",
+    "des": "可获得三十星林悦轻",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50501010": {
     "name": "十星娜贝拉尔",
@@ -8161,6 +8755,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50501030": {
+    "name": "三十星娜贝拉尔",
+    "des": "可获得三十星娜贝拉尔",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505010,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50502010": {
     "name": "十星匿",
     "des": "可获得十星匿",
@@ -8187,6 +8792,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50502030": {
+    "name": "三十星匿",
+    "des": "可获得三十星匿",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505020,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50503010": {
     "name": "十星希姿",
@@ -8215,6 +8831,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50503030": {
+    "name": "三十星希姿",
+    "des": "可获得三十星希姿",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505030,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50504010": {
     "name": "十星琪雅蕾妮纳",
     "des": "可获得十星琪雅蕾妮纳",
@@ -8241,6 +8868,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50504030": {
+    "name": "三十星琪雅蕾妮纳",
+    "des": "可获得三十星琪雅蕾妮纳",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505040,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50505010": {
     "name": "十星佩斯托娅",
@@ -8269,6 +8907,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50505030": {
+    "name": "三十星佩斯托娅",
+    "des": "可获得三十星佩斯托娅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505050,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50506010": {
     "name": "十星法斯莉丝",
     "des": "可获得十星法斯莉丝",
@@ -8295,6 +8944,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50506030": {
+    "name": "三十星法斯莉丝",
+    "des": "可获得三十星法斯莉丝",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505060,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50507010": {
     "name": "十星钟臻",
@@ -8323,6 +8983,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50507030": {
+    "name": "三十星钟臻",
+    "des": "可获得三十星钟臻",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505070,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50508010": {
     "name": "十星洛琪希",
     "des": "可获得十星洛琪希",
@@ -8349,6 +9020,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50508030": {
+    "name": "三十星洛琪希",
+    "des": "可获得三十星洛琪希",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505080,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "50509010": {
     "name": "十星希露菲叶特",
@@ -8377,6 +9059,17 @@
     "source1": "bazaar",
     "source2": "gift"
   },
+  "50509030": {
+    "name": "三十星希露菲叶特",
+    "des": "可获得三十星希露菲叶特",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505090,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "50510010": {
     "name": "十星莉莉雅",
     "des": "可获得十星莉莉雅",
@@ -8403,6 +9096,17 @@
     "quality": 5,
     "source1": "bazaar",
     "source2": "gift"
+  },
+  "50510030": {
+    "name": "三十星莉莉雅",
+    "des": "可获得三十星莉莉雅",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 505100,
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "101000001": {
     "name": "1元充值卡",
@@ -10305,6 +11009,556 @@
     "type": "item",
     "useType": "box",
     "arg": "1000602:10",
+    "source1": "gift"
+  },
+  "300105010": {
+    "name": "三十星温蒂碎片",
+    "des": "家中的小女儿，从小憧憬着歌声悠扬朝气的姐姐。性格过于乖巧温顺，甚至有些唯唯诺诺，小心翼翼地迎合别人生活着，可一旦唱起歌来却像换了个人，声音清澈治愈，能让人沉醉其中，暂时忘记忧愁疼痛。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105020": {
+    "name": "三十星妮潞碎片",
+    "des": "来自茫茫大海中的少女，一心向往着美好友善的事物，却因生长在鱼龙混杂的洛芙交易所，见惯了各种人和势力之间的利益冲突、勾心斗角，不得不学会生存，以致呈现两种不同的人格。平日里心思单纯，甚至有点呆呆的，偶尔还会被骗，可一旦战斗起来，整个人充满了凌厉气势，压迫感强烈。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105030": {
+    "name": "三十星李芸思碎片",
+    "des": "来自于深海的少女，身世不详。虽然使用一把与娇小的体态完全不相称的魔力锯，却完全没有令人不寒而栗的感觉。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105040": {
+    "name": "三十星寒碎片",
+    "des": "表面上不苟言笑，给人冷的感觉。简短的闲聊后就会让人觉得非常平易近人，气质温和，很容易成为朋友。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105050": {
+    "name": "三十星莎莉菲碎片",
+    "des": "来自大陆北方冰原地带的少女，具体家乡不明。平常给人迷迷糊糊的感觉，走起路来一摇一摆，漫不经心，据说到现在为止都没有掌握倒着走路的技术，是个无药可救的路痴。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105060": {
+    "name": "三十星阿蜜特碎片",
+    "des": "温柔腼腆的大家闺秀，钟情于写书信。其家族拥有佑护他人的古老能力，作为继承者的她自然成为众人祈求祝福的对象。但据调查，两年前她曾一度失去为他人祈福的能力，而之后又恢复如初。其间缘由尚未调查完全。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105070": {
+    "name": "三十星劳拉碎片",
+    "des": "她对待朋友亲近友善，但对不熟悉的人抱有莫名的敌意，并且往往固执到底。她生起气来咋咋呼呼，加上相对不讨喜的性格导致校园人气稍逊于其他，本人似乎不在意这些。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105080": {
+    "name": "三十星米尔斯汀碎片",
+    "des": "对自己感兴趣的事物会展现出极大的热情，反之则只会懒洋洋地躺着或趴着发呆。然而，她对外物的兴趣也会随时间变化，基本上全看当时的心情，因此想投其所好和她交流有相当的难度。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105090": {
+    "name": "三十星克蕾雅碎片",
+    "des": "非常擅长近身战斗的少女，需要战斗力时总会出现在第一线。虽然平日说得少做得多，但并非不擅言辞，只是很容易脸红，试着交流一下就会发现她和各种性格的人都很合得来。然而，脸红状态或多或少会对她的心理状态造成影响，有时候话说多了会一不留神跟着进入状态，突然变得紧张起来，并且越说话越紧张。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300105100": {
+    "name": "三十星米莉亚姆碎片",
+    "des": "自称超可爱的娇小少女，却意外地崇尚暴力，如果有人对她的可爱提出质疑的话，会产生难以收拾的后果。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 10510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205010": {
+    "name": "三十星蜜斯缇碎片",
+    "des": "曾独身往来于大陆南北的流浪少女，名义上是位旅行者，然而却经常做出一些游走于灰色地带的勾当并乐此不疲，在黑白两道都有一定的人脉。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205020": {
+    "name": "三十星薇塔碎片",
+    "des": "温婉可人的大家闺秀，性格和善，积极向上的态度总在冥冥中给周围的人带来好运，深受人们的喜爱。随身携带的小包里藏着各色小糖果，有时拿来哄哄路上遇见的爱哭的孩子，有时拿来缓解同学争吵间尴尬的气氛。如果哪一天你生病吃了苦药，相信她一定会强行塞你一颗糖。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205030": {
+    "name": "三十星肖璐碎片",
+    "des": "来自一魔法世家，神秘莫测的天才大姐姐，总是带着意味不明的笑容，没有人能窥探她内心的想法。据说有能预测未来的能力，但从来没有人对她预测的结果进行考证，事实无从而知。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205040": {
+    "name": "三十星煌碎片",
+    "des": "身份十分隐秘的少女。自称家乡在美丽的花园之都，总喜欢和别人绘声绘色地描述自己家乡的风景。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205050": {
+    "name": "三十星拉菲妮亚碎片",
+    "des": "来自白昼之湖的少女，高贵典雅，外表看起来有些冷淡，熟悉之后会发现她其实非常温柔。享受独处，偶尔也会困扰如何能结交到更多朋友。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205060": {
+    "name": "三十星里欧妮碎片",
+    "des": "她亲切爽朗，善于交谈，没有贵族小姐的架子，无论是上流人士还是普通镇民都对她有着不错的评价。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205070": {
+    "name": "三十星莉洁洛特碎片",
+    "des": "温和忍耐，坦率大方，很少有生气的时候，她对物质的追求十分寡淡，在衣食住行方面不怎么讲究，节俭质朴，喜欢简单的事物。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205080": {
+    "name": "三十星阿尔希亚碎片",
+    "des": "精力充沛，似乎永远都不会缺乏干劲的少女。来自无尽之森的她，是少数千里迢迢来到琥珀之丘，并乐此不疲地自荐入学的少女。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205090": {
+    "name": "三十星米菈碎片",
+    "des": "喜欢躺在摇椅上边晒太阳边吃东西，最讨厌麻烦的事。整日都没有干劲，能做六十分的事绝对不会做六十一分，一副懒懒散散的模样。战斗力似乎并不弱——前提是她愿意。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300205100": {
+    "name": "三十星露米娜莉亚碎片",
+    "des": "外表看起来有些冰冷，偶尔会表现出争强好胜的一面，只要认定的事情，即使再微不足道也一定要完成。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 20510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305010": {
+    "name": "三十星紫苑碎片",
+    "des": "希尔树海中树坞的守护者，居住在树藤盘踞而成的绿屋里。看似娇小的少女，骨子里却拥有强大的信念，坚毅执着，擅长占卜，但从不给自己占卜。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305020": {
+    "name": "三十星拉米莉丝碎片",
+    "des": "乍看上去是一个非常开朗活泼的女孩，实际上这样的时间一天只能维持不到三个小时，其绝大多数时间都处于睡眠状态。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305030": {
+    "name": "三十星米莉姆碎片",
+    "des": "娇小甜软的少女似乎总被好运庇佑，可爱又好相处，但有时无心的话语会让周围的人大受打击，她对此还毫不自知。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305040": {
+    "name": "三十星希兹碎片",
+    "des": "身居希尔树海古老的异说馆中，集万千宠爱于一身，却又无时无刻感到孤寂无聊的冰冷少女。充满神秘感的异色瞳孔据说是其身份的象征，但本人从不提及。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305050": {
+    "name": "三十星影碎片",
+    "des": "总是将“神明哥哥”挂在嘴边的少女，本人对此深信不疑甚至有些时候显得非常偏执。据调查组实际观察，她确实有聚集运气的力量，又或者说根据她口中的神明的指示不同，某一段时间内可以给周围的人带不同的运势。我们非常怀疑这种现象只是某种对他人有强烈心理暗示作用的魔法，只是连她自己都没有察觉到。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305060": {
+    "name": "三十星阿尔薇思碎片",
+    "des": "乍看起来毫无特点，无论是课业成绩还是魔法等级都属于非常一般的水平。经常会摆出一副扑克脸，完全看不出情绪的波动。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305070": {
+    "name": "三十星露米娜丝碎片",
+    "des": "看起来是个矮个子少女，但话语间有种微妙的压迫感，让人分不清是玩笑还是真话。\n具有运动神经，身手异常敏捷，爆发力强，尤其跑起来非常快。白天精力充沛，但一到日落就突然变得昏昏欲睡。\n对自己的过去一直守口如瓶。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305080": {
+    "name": "三十星沈蕙星碎片",
+    "des": "幼年时性格开朗，喜欢和他人交往，但由于无法很好控制身上的毒素，不时会伤到同伴。现在已经变成了只和书本对话的少女。和她作伴时只需静静地陪她一同阅读书籍即可。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305090": {
+    "name": "三十星爱莉希雅碎片",
+    "des": "喜欢冒险的少女，打招呼时会张开怀抱扑向对方，并热情地拥抱，有时甚至会把一些娇小的少女顺势扑倒。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300305100": {
+    "name": "三十星维尔薇碎片",
+    "des": "无处不在、一言难尽的麻烦制造者，平时说话总给人云里雾里的感觉，很难判断哪一句是发自内心、哪一句只是单纯的戏谑，令人苦恼不已。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 30510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405010": {
+    "name": "三十星郑紫颜碎片",
+    "des": "“世界迈向毁灭，众生渴望救赎。吾奉银河之龙敕命，拯救漂浮于虚空之海的蓝色之星。以沸腾炽枪贯穿一切邪恶之影，守护并传承众神的造物……”\n以上是她和别人初次相识时常用的开场白，事实上在交流时，她总会说出一些令人惊诧或难以理解的词句。不明真相的人会信以为真，然而只要稍作解就会知道绝大多数内容都……【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405020": {
+    "name": "三十星千劫碎片",
+    "des": "神秘少女，自称是个风水师，通晓五行八卦，还懂得炼丹制药，但也有声音质疑她是个神棍，具体情况待查。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405030": {
+    "name": "三十星西西莉雅碎片",
+    "des": "行游各处的少女，她擅长心理咨询和解梦，同时还能帮助人们驱除噩梦，获得平静安稳的睡眠，而她本人似乎从不做梦。凭借这一点，她被当地人尊称为“驱梦者”，也算是小有名气。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405040": {
+    "name": "三十星梅诺碎片",
+    "des": "谜一样的少女。似乎只有夜晚才精力充沛，一到白天就打瞌睡，疑似长期处于睡反觉的状态。然而，无论何时都会在外人面前装出一副充满干劲的样子。\n听觉非常敏锐，对微小的声音反应迅速，有时候甚至给人造成神经质的错觉。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405050": {
+    "name": "三十星伊莉丝碎片",
+    "des": "寡言冷淡，几乎没什么事能激起她太大的情绪变化，不怒而令人生畏，偶尔露出笑意又显得媚意十足。",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405060": {
+    "name": "三十星卡娜迪雅碎片",
+    "des": "不怕生又自来熟的性子让她交到了很多朋友，只擅长战斗，不过她似乎不太擅长手工、打扫、厨艺、园艺等，脑子看起来也不怎么灵光。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405070": {
+    "name": "三十星菲莉梅丝碎片",
+    "des": "活泼又古怪的少女，有着非常中正的金钱观，既不挥霍无度，也不视财如命。如果直接将钱财放在她面前，她会嗤之以鼻——比起拥有财物，她更在意得到的过程，据说“捡起掉落在各个角落无人问津的硬币”是她最大的乐趣。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405080": {
+    "name": "三十星莎娜多莉碎片",
+    "des": "野外生活的知识十分丰富，但其中很多似乎在失落之原以外的地方并不十分有用。相比于自己，往往更多地优先考虑他人，偶尔会显得有些优柔寡断。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405090": {
+    "name": "三十星璇碎片",
+    "des": "自称学者的研究型少女。对书本的知识非常不感冒，只相信自己亲眼所见的事物。喜欢观察或者解剖感兴趣的东西，甚至偶尔会因个性偏执而略微发狂。偶尔也会一本正经地开令人毛骨悚然的玩笑。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300405100": {
+    "name": "三十星林悦轻碎片",
+    "des": "文静怕生的少女，手里抱着毛茸茸的玩偶熊。由于十分怕生，到哪里都是这一身行头，因此不喜欢去热的地方，常常宅在屋子里吹冷气降温。另外不喜欢喝水，所以每逢夏日特别容易中暑。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 40510030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505010": {
+    "name": "三十星娜贝拉尔碎片",
+    "des": "出生自莫卡尼沼泽偏僻的浮芦小村，魔女审判、图特祭典……那里各式各样的传统习俗对千鹤影响颇深，她立志成为一名民俗学者，去寻找和唤醒那些失落在茫茫历史中的人类文明。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50501030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505020": {
+    "name": "三十星匿碎片",
+    "des": "浑身散发着令人窒息的可怕气息，总是面带神秘微笑的少女。\n喜欢穿黑色的斗篷，在光线不足的地方犹如黑暗中的幽灵一样。话语阴森、冰冷，充满神秘感，时常令人感到不寒而栗。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50502030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505030": {
+    "name": "三十星希姿碎片",
+    "des": "自称是来自月亮的迷之少女，如何及为何降至这片大陆则无从得知。身材苗条，看似弱不禁风，但其实力气很大，能自由挥舞手中的棒棒糖进行战斗。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50503030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505040": {
+    "name": "三十星琪雅蕾妮纳碎片",
+    "des": "性格颇为“另类”的少女。喜欢沉浸在自己的梦幻世界中，对甜甜软软的可爱事物没有抵抗力。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50504030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505050": {
+    "name": "三十星佩斯托娅碎片",
+    "des": "自称“不晒太阳就会死掉！”，认为皮肤越黝黑越健康，甚至因为自身的神经质偶尔给他人带来困扰。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50505030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505060": {
+    "name": "三十星法斯莉丝碎片",
+    "des": "来自莫卡尼沼泽西南处的暗腐之地，据说那里四周都是荒冢，人迹稀少，尚不知她是如何存活下来的。\n对腐烂的东西十分偏爱，但对过期食物的免疫力为负。外表文弱，却热衷于坟墓探险，总觉得有些阴森，不太好接近的样子。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50506030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505070": {
+    "name": "三十星钟臻碎片",
+    "des": "一名人体改造的狂热者。行为怪诞，表情浮夸，性格暴戾，如果用“危险的变态痴女”来形容恐怕也不为过。她的武器“断肢”就是身体的一部分。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50507030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505080": {
+    "name": "三十星洛琪希碎片",
+    "des": "拥有着无比治愈人心的笑容的少女，是一位葬仪师。她的职责是帮助尸体整理仪容，并在入殓前做最后的祷告，据说葬仪师的祷告能引导尸体的魂灵前往神明身旁，因此他们又被人们称为“引魂人”。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50508030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505090": {
+    "name": "三十星希露菲叶特碎片",
+    "des": "常年混迹于各地黑市的炼金师+投机商，擅长制造容易上瘾的致幻类药品。现已查明她制造的药品普遍具有一定的毒性，短时间内过度使用甚至会威胁生命，目前已被多地下达了流通禁令，而她本人也早已荣登了多地的通缉名录。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50509030,
+    "buyNum": 300,
+    "quality": 7,
+    "source1": "gift"
+  },
+  "300505100": {
+    "name": "三十星莉莉雅碎片",
+    "des": "性格憨厚的少女，随身携带的锤子看起来和她格格不入。视力明明不好，却因为不喜欢有东西压在鼻梁上而不戴眼镜，她做挥锤子练习的时候，周围人都会自觉躲远一些。【30碎片合成】",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "heroChip",
+    "arg": 50510030,
+    "buyNum": 300,
+    "quality": 7,
     "source1": "gift"
   },
   "303006001": {
