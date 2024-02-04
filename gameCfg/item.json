@@ -2224,6 +2224,66 @@
     "effects": "baowu",
     "source1": "recharge"
   },
+  "603001": {
+    "name": "星蓝阵营三十星英雄",
+    "des": "打开可随机获得星蓝阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "weiguo30_chest_1",
+    "buy": "30105000:300",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603002": {
+    "name": "苍翠阵营三十星英雄",
+    "des": "打开可随机获得苍翠阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "wuguo30_chest_1",
+    "buy": "30205000:300",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603003": {
+    "name": "业红阵营三十星英雄",
+    "des": "打开可随机获得业红阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shuguo30_chest_1",
+    "buy": "30305000:300",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603004": {
+    "name": "黑耀阵营三十星英雄",
+    "des": "打开可随机获得黑耀阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shen30_chest_1",
+    "buy": "30405000:300",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "603006": {
+    "name": "随机三十星英雄",
+    "des": "打开可随机获得随机【星蓝、苍翠、业红】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanguo30_chest_1",
+    "buy": "30605000:300",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "1000010": {
     "name": "升星之砂",
     "des": "升星之砂，能够使英雄升星到更高的水平",
@@ -6634,6 +6694,490 @@
     "quality": 7,
     "effects": "baowu"
   },
+  "30105000": {
+    "name": "星蓝三十星英雄碎片",
+    "des": "集齐30个碎片合成可获得【星蓝】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 603001,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105010": {
+    "name": "三十星海兽使者碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105010030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105020": {
+    "name": "三十星人鱼公主碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105020030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105030": {
+    "name": "三十星霜冻使者碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105030030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105040": {
+    "name": "三十星冰雪巫女碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105040030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105050": {
+    "name": "三十星水之魔仙碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105050030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105060": {
+    "name": "三十星海妖舰长碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105060030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105070": {
+    "name": "三十星娜迦女王碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105070030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105080": {
+    "name": "三十星李芸思碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105080030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105130": {
+    "name": "三十星月光祭祀碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105130030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30105140": {
+    "name": "三十星冰焰勇士碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 105140030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205000": {
+    "name": "苍翠三十星英雄碎片",
+    "des": "集齐30个碎片合成可获得【苍翠】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 603002,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205010": {
+    "name": "三十星风暴唤灵师碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205010030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205020": {
+    "name": "三十星黄蜂女王碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205020030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205030": {
+    "name": "三十星翠绿精灵碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205030030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205040": {
+    "name": "三十星风之灵使碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205040030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205050": {
+    "name": "三十星肖璐碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205050030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205060": {
+    "name": "三十星翠绿林妖碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205060030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205070": {
+    "name": "三十星荆棘女王碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205070030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205080": {
+    "name": "三十星流浪剑客碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205080030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205130": {
+    "name": "三十星森林秘术师碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205130030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30205140": {
+    "name": "三十星梦境树妖碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 205140030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305000": {
+    "name": "业红三十星英雄碎片",
+    "des": "集齐30个碎片合成可获得【业红】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 603003,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305010": {
+    "name": "三十星烈焰领主碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305010030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305020": {
+    "name": "三十星炎龙骑士碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305020030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305030": {
+    "name": "三十星火焰贤者碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305030030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305040": {
+    "name": "三十星炎魔之刃碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305040030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305050": {
+    "name": "三十星沈蕙星碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305050030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305060": {
+    "name": "三十星烈焰之星碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305060030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305070": {
+    "name": "三十星炎之舞者碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305070030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305080": {
+    "name": "三十星九尾巫女碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305080030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305130": {
+    "name": "三十星炎魔女皇碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305130030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30305140": {
+    "name": "三十星圣火祭师碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 305140030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405000": {
+    "name": "黑耀三十星英雄碎片",
+    "des": "集齐30个碎片合成可获得【黑耀】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 603004,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405010": {
+    "name": "三十星光明祭司碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405010030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405020": {
+    "name": "三十星郑紫颜碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405020030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405030": {
+    "name": "三十星美艳女王碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405030030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405040": {
+    "name": "三十星光明勇者碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405040030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405050": {
+    "name": "三十星林悦清碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405050030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405060": {
+    "name": "三十星龙族公主碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405060030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405070": {
+    "name": "三十星深渊蛇妖碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405070030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405080": {
+    "name": "三十星钟臻碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405080030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405130": {
+    "name": "三十星月神舞姬碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405130030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "30405140": {
+    "name": "三十星深渊化身碎片",
+    "des": "集齐300个碎片即可招募该三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 405140030,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "30501010": {
     "name": "横扫吴会",
     "des": "攻击力+10%，暴击率+10%",
@@ -6969,6 +7513,17 @@
     "arg": 30514030,
     "quality": 7,
     "effects": "baowu"
+  },
+  "30605000": {
+    "name": "随机三十星英雄碎片",
+    "des": "集齐30个碎片合成可获得【星蓝】【苍翠】【业红】阵营三十星英雄",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 603006,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
   },
   "40501010": {
     "name": "腾云驭风",
@@ -7815,6 +8370,18 @@
     "quality": 6,
     "source1": "extract"
   },
+  "105010030": {
+    "name": "三十星海兽使者",
+    "des": "使用可获得三十星海兽使者",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105010,
+    "buy": "30105010:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "105010100": {
     "name": "十星海兽使者",
     "des": "可获得十星海兽使者",
@@ -7840,6 +8407,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "105020030": {
+    "name": "三十星人鱼公主",
+    "des": "使用可获得三十星人鱼公主",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105020,
+    "buy": "30105020:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "105020100": {
     "name": "十星人鱼公主",
@@ -7867,6 +8446,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "105030030": {
+    "name": "三十星霜冻使者",
+    "des": "使用可获得三十星霜冻使者",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105030,
+    "buy": "30105030:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "105030100": {
     "name": "十星霜冻使者",
     "des": "可获得十星霜冻使者",
@@ -7892,6 +8483,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "105040030": {
+    "name": "三十星冰雪巫女",
+    "des": "使用可获得三十星冰雪巫女",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105040,
+    "buy": "30105040:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "105040100": {
     "name": "十星冰雪巫女",
@@ -7919,6 +8522,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "105050030": {
+    "name": "三十星水之魔仙",
+    "des": "使用可获得三十星水之魔仙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105050,
+    "buy": "30105050:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "105050100": {
     "name": "十星水之魔仙",
     "des": "可获得十星水之魔仙",
@@ -7944,6 +8559,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "105060030": {
+    "name": "三十星海妖舰长",
+    "des": "使用可获得三十星海妖舰长",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105060,
+    "buy": "30105060:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "105060100": {
     "name": "十星海妖舰长",
@@ -7971,6 +8598,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "105070030": {
+    "name": "三十星娜迦女王",
+    "des": "使用可获得三十星娜迦女王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105070,
+    "buy": "30105070:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "105070100": {
     "name": "十星娜迦女王",
     "des": "可获得十星娜迦女王",
@@ -7996,6 +8635,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "105080030": {
+    "name": "三十星李芸思碎",
+    "des": "使用可获得三十星李芸思碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105080,
+    "buy": "30105080:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "105080100": {
     "name": "十星李芸思",
@@ -8023,6 +8674,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "105130030": {
+    "name": "三十星月光祭祀",
+    "des": "使用可获得三十星月光祭祀",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105130,
+    "buy": "30105130:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "105130100": {
     "name": "十星月光祭祀",
     "des": "可获得十星月光祭祀",
@@ -8048,6 +8711,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "105140030": {
+    "name": "三十星冰焰勇士",
+    "des": "使用可获得三十星冰焰勇士",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 105140,
+    "buy": "30105140:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "105140100": {
     "name": "十星冰焰勇士",
@@ -9015,6 +9690,18 @@
     "quality": 6,
     "source1": "recharge"
   },
+  "205010030": {
+    "name": "三十星风暴唤灵",
+    "des": "使用可获得三十星风暴唤灵",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205010,
+    "buy": "30205010:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "205010100": {
     "name": "十星风暴唤灵师",
     "des": "可获得十星风暴唤灵师",
@@ -9040,6 +9727,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "205020030": {
+    "name": "三十星黄蜂女王",
+    "des": "使用可获得三十星黄蜂女王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205020,
+    "buy": "30205020:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "205020100": {
     "name": "十星黄蜂女王",
@@ -9067,6 +9766,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "205030030": {
+    "name": "三十星翠绿精灵",
+    "des": "使用可获得三十星翠绿精灵",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205030,
+    "buy": "30205030:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "205030100": {
     "name": "十星翠绿精灵",
     "des": "可获得十星翠绿精灵",
@@ -9092,6 +9803,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "205040030": {
+    "name": "三十星风之灵使",
+    "des": "使用可获得三十星风之灵使",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205040,
+    "buy": "30205040:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "205040100": {
     "name": "十星风之灵使",
@@ -9119,6 +9842,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "205050030": {
+    "name": "三十星肖璐碎片",
+    "des": "使用可获得三十星肖璐碎片",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205050,
+    "buy": "30205050:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "205050100": {
     "name": "十星肖璐",
     "des": "可获得十星肖璐",
@@ -9144,6 +9879,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "205060030": {
+    "name": "三十星翠绿林妖",
+    "des": "使用可获得三十星翠绿林妖",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205060,
+    "buy": "30205060:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "205060100": {
     "name": "十星翠绿林妖",
@@ -9171,6 +9918,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "205070030": {
+    "name": "三十星荆棘女王",
+    "des": "使用可获得三十星荆棘女王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205070,
+    "buy": "30205070:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "205070100": {
     "name": "十星荆棘女王",
     "des": "可获得十星荆棘女王",
@@ -9196,6 +9955,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "205080030": {
+    "name": "三十星流浪剑客",
+    "des": "使用可获得三十星流浪剑客",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205080,
+    "buy": "30205080:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "205080100": {
     "name": "十星流浪剑客",
@@ -9223,6 +9994,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "205130030": {
+    "name": "三十星森林秘术",
+    "des": "使用可获得三十星森林秘术",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205130,
+    "buy": "30205130:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "205130100": {
     "name": "十星森林秘术师",
     "des": "可获得十星森林秘术师",
@@ -9248,6 +10031,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "205140030": {
+    "name": "三十星梦境树妖",
+    "des": "使用可获得三十星梦境树妖",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 205140,
+    "buy": "30205140:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "205140100": {
     "name": "十星梦境树妖",
@@ -9622,6 +10417,18 @@
     "quality": 6,
     "source1": "recharge"
   },
+  "305010030": {
+    "name": "三十星烈焰领主",
+    "des": "使用可获得三十星烈焰领主",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305010,
+    "buy": "30305010:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "305010100": {
     "name": "十星烈焰领主",
     "des": "可获得十星烈焰领主",
@@ -9647,6 +10454,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "305020030": {
+    "name": "三十星炎龙骑士",
+    "des": "使用可获得三十星炎龙骑士",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305020,
+    "buy": "30305020:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "305020100": {
     "name": "十星炎龙骑士",
@@ -9674,6 +10493,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "305030030": {
+    "name": "三十星火焰贤者",
+    "des": "使用可获得三十星火焰贤者",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305030,
+    "buy": "30305030:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "305030100": {
     "name": "十星火焰贤者",
     "des": "可获得十星火焰贤者",
@@ -9699,6 +10530,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "305040030": {
+    "name": "三十星炎魔之刃",
+    "des": "使用可获得三十星炎魔之刃",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305040,
+    "buy": "30305040:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "305040100": {
     "name": "十星炎魔之刃",
@@ -9726,6 +10569,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "305050030": {
+    "name": "三十星沈蕙星碎",
+    "des": "使用可获得三十星沈蕙星碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305050,
+    "buy": "30305050:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "305050100": {
     "name": "十星沈蕙星",
     "des": "可获得十星沈蕙星",
@@ -9751,6 +10606,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "305060030": {
+    "name": "三十星烈焰之星",
+    "des": "使用可获得三十星烈焰之星",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305060,
+    "buy": "30305060:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "305060100": {
     "name": "十星人鱼公主",
@@ -9778,6 +10645,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "305070030": {
+    "name": "三十星炎之舞者",
+    "des": "使用可获得三十星炎之舞者",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305070,
+    "buy": "30305070:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "305070100": {
     "name": "十星炎之舞者",
     "des": "可获得十星炎之舞者",
@@ -9803,6 +10682,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "305080030": {
+    "name": "三十星九尾巫女",
+    "des": "使用可获得三十星九尾巫女",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305080,
+    "buy": "30305080:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "305080100": {
     "name": "十星九尾巫女",
@@ -9830,6 +10721,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "305130030": {
+    "name": "三十星炎魔女皇",
+    "des": "使用可获得三十星炎魔女皇",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305130,
+    "buy": "30305130:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "305130100": {
     "name": "十星炎魔女皇",
     "des": "可获得十星炎魔女皇",
@@ -9855,6 +10758,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "305140030": {
+    "name": "三十星圣火祭师",
+    "des": "使用可获得三十星圣火祭师",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 305140,
+    "buy": "30305140:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "305140100": {
     "name": "十星圣火祭师",
@@ -12199,6 +13114,18 @@
     "quality": 6,
     "effects": "baowu"
   },
+  "405010030": {
+    "name": "三十星光明祭司",
+    "des": "使用可获得三十星光明祭司",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405010,
+    "buy": "30405010:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "405010100": {
     "name": "十星光明祭司",
     "des": "可获得十星光明祭司",
@@ -12224,6 +13151,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "405020030": {
+    "name": "三十星郑紫颜碎",
+    "des": "使用可获得三十星郑紫颜碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405020,
+    "buy": "30405020:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "405020100": {
     "name": "十星郑紫颜",
@@ -12251,6 +13190,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "405030030": {
+    "name": "三十星美艳女王",
+    "des": "使用可获得三十星美艳女王",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405030,
+    "buy": "30405030:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "405030100": {
     "name": "十星美艳女王",
     "des": "可获得十星美艳女王",
@@ -12276,6 +13227,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "405040030": {
+    "name": "三十星光明勇者",
+    "des": "使用可获得三十星光明勇者",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405040,
+    "buy": "30405040:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "405040100": {
     "name": "十星光明勇者",
@@ -12303,6 +13266,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "405050030": {
+    "name": "三十星林悦清碎",
+    "des": "使用可获得三十星林悦清碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405050,
+    "buy": "30405050:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "405050100": {
     "name": "十星林悦清",
     "des": "可获得十星林悦清",
@@ -12328,6 +13303,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "405060030": {
+    "name": "三十星龙族公主",
+    "des": "使用可获得三十星龙族公主",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405060,
+    "buy": "30405060:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "405060100": {
     "name": "十星龙族公主",
@@ -12355,6 +13342,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "405070030": {
+    "name": "三十星深渊蛇妖",
+    "des": "使用可获得三十星深渊蛇妖",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405070,
+    "buy": "30405070:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "405070100": {
     "name": "十星深渊蛇妖",
     "des": "可获得十星深渊蛇妖",
@@ -12380,6 +13379,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "405080030": {
+    "name": "三十星钟臻碎片",
+    "des": "使用可获得三十星钟臻碎片",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405080,
+    "buy": "30405080:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "405080100": {
     "name": "十星钟臻",
@@ -12407,6 +13418,18 @@
     "quality": 7,
     "source1": "recharge"
   },
+  "405130030": {
+    "name": "三十星月神舞姬",
+    "des": "使用可获得三十星月神舞姬",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405130,
+    "buy": "30405130:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
+  },
   "405130100": {
     "name": "十星月神舞姬",
     "des": "可获得十星月神舞姬",
@@ -12432,6 +13455,18 @@
     "buyNum": 1,
     "quality": 7,
     "source1": "recharge"
+  },
+  "405140030": {
+    "name": "三十星深渊化身",
+    "des": "使用可获得三十星深渊化身",
+    "isBag": true,
+    "type": "hero",
+    "useType": 30,
+    "arg": 405140,
+    "buy": "30405140:300",
+    "buyNum": 1,
+    "quality": 7,
+    "source1": "gift"
   },
   "405140100": {
     "name": "十星深渊化身",
