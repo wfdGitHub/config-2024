@@ -1641,10 +1641,10 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "皮卡丘释放强力电击，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>145%</c>的特殊伤害，并附加<color=#8ad5a2>感电</c>",
+    "des": "皮卡丘释放强力电击，对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>135%</c>的特殊伤害，并附加<color=#8ad5a2>感电</c>",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 1.45,
+    "mul": 1.35,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -1655,12 +1655,14 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "皮卡丘释放强大的电球攻击敌方<color=#8ad5a2>全体</c>，造成<color=#8ad5a2>135%</c>的特殊伤害，立即触发<color=#8ad5a2>感电</c>，有小概率<color=#8ad5a2>再次释放</c>技能",
+    "des": "皮卡丘释放强大的电球攻击敌方<color=#8ad5a2>随机3个目标</c>，造成<color=#8ad5a2>145%</c>的特殊伤害，立即触发<color=#8ad5a2>感电</c>，技能目标越少伤害越高，并有小概率<color=#8ad5a2>再次释放</c>技能",
     "damageType": "mag",
-    "targetType": "enemy_all",
-    "mul": 1.35,
+    "targetType": "enemy_3",
+    "mul": 1.45,
     "key1": "flash_settle",
-    "value1": true
+    "value1": true,
+    "key2": "lessAmp",
+    "value2": 0.1
   },
   "50012001": {
     "name": "寒风",
@@ -1967,7 +1969,7 @@
     "type": "attack",
     "des": "超梦迸发强大的精神念力，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>213%</c>的特殊伤害，<color=#8ad5a2>70%</c>概率附加<color=#8ad5a2>眩晕</c>",
     "damageType": "mag",
-    "targetType": "enemy_3",
+    "targetType": "enemy_all",
     "mul": 2.13,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.7}"

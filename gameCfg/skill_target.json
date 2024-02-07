@@ -35,6 +35,10 @@
     "name": "敌方随机1-3个目标",
     "num": 2
   },
+  "enemy_rand_23": {
+    "name": "敌方随机2-3个目标",
+    "num": 3
+  },
   "enemy_rand_24": {
     "name": "敌方随机2-4个目标",
     "num": 3
@@ -53,6 +57,14 @@
   },
   "enemy_horizontal_back": {
     "name": "敌方后排",
+    "num": 3
+  },
+  "enemy_horizontal_front_real": {
+    "name": "敌方前排（仅前排）",
+    "num": 3
+  },
+  "enemy_horizontal_back_real": {
+    "name": "敌方后排（仅后排）",
     "num": 3
   },
   "enemy_all": {
@@ -157,6 +169,50 @@
   },
   "team_maxAtk_1": {
     "name": "获取己方攻击最高的1个单位",
+    "num": 1
+  },
+  "team_adjoin": {
+    "name": "友方相邻目标",
+    "num": 3
+  },
+  "friend_minAnger_1": {
+    "name": "友方怒气最少的1个单位",
+    "num": 1
+  },
+  "friend_minAnger_2": {
+    "name": "友方怒气最少的2个单位",
+    "num": 2
+  },
+  "friend_minAnger_3": {
+    "name": "友方怒气最少的3个单位",
+    "num": 3
+  },
+  "friend_maxAtk_1": {
+    "name": "友方攻击最高的1个单位",
+    "num": 1
+  },
+  "realm_minAnger_1": {
+    "name": "获取同阵营怒气最少的1个单位",
+    "num": 1
+  },
+  "realm_minAnger_3": {
+    "name": "获取同阵营怒气最少的3个单位",
+    "num": 3
+  },
+  "realm_maxAtk_1": {
+    "name": "己方攻击最高的1个单位",
+    "num": 1
+  },
+  "team_died_all": {
+    "name": "己方除自身外全部阵亡单位",
+    "num": 3
+  },
+  "team_died": {
+    "name": "己方随机一个阵亡单位",
+    "num": 1
+  },
+  "team_died_unghost": {
+    "name": "己方随机一个阵亡单位(未亡魂)",
     "num": 1
   }
 }
