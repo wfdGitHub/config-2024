@@ -1100,14 +1100,6 @@
     "award": "1000090:1"
   },
   "501001": {
-    "title": "等级提升",
-    "desc": "训练家提升至5级",
-    "refresh": "officer",
-    "type": "loadLv",
-    "value": 5,
-    "award": "3790:1"
-  },
-  "501002": {
     "title": "主线冒险",
     "desc": "冒险通关第5关",
     "refresh": "officer",
@@ -1116,30 +1108,38 @@
     "value": 1,
     "award": "3790:1"
   },
-  "501003": {
-    "title": "获得精灵",
-    "desc": "获得1个紫色精灵",
+  "501002": {
+    "title": "等级提升",
+    "desc": "训练家提升至8级",
     "refresh": "officer",
-    "type": "hero",
+    "type": "loadLv",
+    "value": 8,
+    "award": "3790:1"
+  },
+  "501003": {
+    "title": "喵喵聚宝",
+    "desc": "使用1次喵喵聚宝",
+    "refresh": "officer",
+    "type": "revenue",
     "arg": 3,
     "value": 1,
     "award": "3790:1"
   },
   "501004": {
-    "title": "挂机奖励",
-    "desc": "领取1次挂机奖励",
+    "title": "试炼挑战",
+    "desc": "试炼塔通关第5关",
     "refresh": "officer",
-    "type": "on_hook",
-    "arg": 1,
+    "type": "tttLv",
+    "arg": 5,
     "value": 1,
     "award": "3790:1"
   },
   "502001": {
     "title": "等级提升",
-    "desc": "训练家等级到达18级",
+    "desc": "训练家等级到达12级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 18,
+    "value": 12,
     "award": "3790:2"
   },
   "502002": {
@@ -1152,15 +1152,6 @@
     "award": "3790:2"
   },
   "502003": {
-    "title": "精灵提升",
-    "desc": "1个精灵升到18级",
-    "refresh": "officer",
-    "type": "heroLv",
-    "arg": 18,
-    "value": 1,
-    "award": "3790:2"
-  },
-  "502004": {
     "title": "热血竞技",
     "desc": "挑战3次对战竞技场",
     "refresh": "officer",
@@ -1168,106 +1159,113 @@
     "value": 3,
     "award": "3790:2"
   },
+  "502004": {
+    "title": "精灵派遣",
+    "desc": "进行5次派遣任务",
+    "refresh": "officer",
+    "type": "tour",
+    "arg": 1,
+    "value": 5,
+    "award": "3790:2"
+  },
   "503001": {
     "title": "等级提升",
-    "desc": "训练家等级到达31级",
+    "desc": "训练家等级到达20级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 31,
+    "value": 20,
     "award": "3790:3"
   },
   "503002": {
     "title": "主线冒险",
-    "desc": "冒险通关50关",
+    "desc": "冒险通关30关",
     "refresh": "officer",
     "type": "checkpoints",
-    "arg": 50,
+    "arg": 30,
     "value": 1,
     "award": "3790:3"
   },
   "503003": {
-    "title": "精灵提升",
-    "desc": "3个精灵升到31级",
+    "title": "模拟对战",
+    "desc": "模拟对战获胜1次",
     "refresh": "officer",
-    "type": "heroLv",
-    "arg": 31,
-    "value": 3,
+    "type": "exercise_fight",
+    "value": 1,
     "award": "3790:3"
   },
   "503004": {
-    "title": "互赠好感",
-    "desc": "赠送1次友情点",
+    "title": "无尽试炼",
+    "desc": "无尽试炼挑战2次",
     "refresh": "officer",
-    "type": "friendGift",
-    "value": 1,
+    "type": "endless_count",
+    "value": 2,
     "award": "3790:3"
   },
   "504001": {
     "title": "等级提升",
-    "desc": "训练家等级到达45级",
+    "desc": "训练家等级到达32级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 45,
+    "value": 32,
     "award": "3790:4"
   },
   "504002": {
+    "title": "主线冒险",
+    "desc": "冒险通关60关",
+    "refresh": "officer",
+    "type": "checkpoints",
+    "arg": 60,
+    "value": 1,
+    "award": "3790:4"
+  },
+  "504003": {
+    "title": "次元危机",
+    "desc": "次元危机通关第5关",
+    "refresh": "officer",
+    "type": "area_trial",
+    "arg": 5,
+    "value": 1,
+    "award": "3790:4"
+  },
+  "504004": {
+    "title": "跨服竞技",
+    "desc": "跨服段位赛获胜3次",
+    "refresh": "officer",
+    "type": "grading_win",
+    "value": 3,
+    "award": "3790:4"
+  },
+  "505001": {
+    "title": "等级提升",
+    "desc": "训练家提升至40级",
+    "refresh": "officer",
+    "type": "loadLv",
+    "value": 40,
+    "award": "3790:5"
+  },
+  "505002": {
     "title": "主线冒险",
     "desc": "冒险通关80关",
     "refresh": "officer",
     "type": "checkpoints",
     "arg": 80,
     "value": 1,
-    "award": "3790:4"
-  },
-  "504003": {
-    "title": "精灵提升",
-    "desc": "1个精灵进化到完全体",
-    "refresh": "officer",
-    "type": "pokemon_evolveLv",
-    "arg": 11,
-    "value": 1,
-    "award": "3790:4"
-  },
-  "504004": {
-    "title": "无尽试炼",
-    "desc": "无尽试炼挑战1次",
-    "refresh": "officer",
-    "type": "endless_count",
-    "value": 1,
-    "award": "3790:4"
-  },
-  "505001": {
-    "title": "等级提升",
-    "desc": "训练家提升至56级",
-    "refresh": "officer",
-    "type": "loadLv",
-    "value": 56,
-    "award": "3790:5"
-  },
-  "505002": {
-    "title": "主线冒险",
-    "desc": "冒险通关130关",
-    "refresh": "officer",
-    "type": "checkpoints",
-    "arg": 130,
-    "value": 1,
     "award": "3790:5"
   },
   "505003": {
-    "title": "精灵提升",
-    "desc": "3个精灵升到56级",
+    "title": "神秘洞窟",
+    "desc": "神秘洞窟通关1次",
     "refresh": "officer",
-    "type": "heroLv",
-    "arg": 56,
-    "value": 3,
+    "type": "zhulu_pass",
+    "value": 1,
     "award": "3790:5"
   },
   "505004": {
-    "title": "跨服段位",
-    "desc": "跨服段位赛胜利30次",
+    "title": "家园挑战",
+    "desc": "击败家园挑战者8次",
     "refresh": "officer",
-    "type": "grading_win",
-    "value": 30,
+    "type": "manorEnemy",
+    "value": 8,
     "award": "3790:5"
   },
   "506001": {
