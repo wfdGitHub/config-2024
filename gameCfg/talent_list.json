@@ -5674,7 +5674,7 @@
     "qa": 3,
     "des": "木木枭的普通攻击有20%概率将被攻击到的敌方目标<color=#f9ac72>放逐</c>",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
   "50608005": {
     "icon": 50608005,
@@ -5682,7 +5682,7 @@
     "qa": 3,
     "des": "木木枭以迅猛的身姿切入战场，<color=#f9ac72>入场时</c>，<color=#f9ac72>放逐</c>敌方<color=#f9ac72>单体</c>攻击力最高的宝可梦1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
   "50609004": {
     "icon": 50609004,
@@ -7080,7 +7080,7 @@
     "qa": 1,
     "des": "入场时，随机放逐敌方1个目标",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150004": {
     "icon": 50013005,
@@ -7232,7 +7232,7 @@
     "qa": 3,
     "des": "死亡后，随机放逐敌方1个目标1个回合",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150024": {
     "icon": 50024006,
@@ -7838,7 +7838,7 @@
     "qa": 2,
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250004": {
     "icon": 50015006,
@@ -8006,7 +8006,7 @@
     "qa": 4,
     "des": "死亡后，放逐敌方攻击力最高的英雄1回合",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250024": {
     "icon": 50013004,
@@ -8620,7 +8620,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":-1,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350004": {
     "icon": 50023005,
@@ -8782,7 +8782,7 @@
     "qa": 5,
     "des": "死亡后，放逐敌方攻击力最高的英雄2回合",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90350024": {
     "icon": 50015005,
@@ -9352,7 +9352,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.3,\"duration\":-1,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450004": {
     "icon": 50023006,
@@ -9494,7 +9494,7 @@
     "qa": 6,
     "des": "死亡后，放逐敌方攻击力最高的英雄3回合",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90450024": {
     "icon": 50014006,
@@ -10066,7 +10066,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":-1,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90550004": {
     "icon": 50023005,
@@ -10706,7 +10706,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.5,\"duration\":-1,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650004": {
     "icon": 50022006,
