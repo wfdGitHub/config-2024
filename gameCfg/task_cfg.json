@@ -740,7 +740,7 @@
     "award": "1000090:1"
   },
   "403001": {
-    "title": "进行8次派遣任务",
+    "title": "进行8次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -748,7 +748,7 @@
     "award": "1000090:1"
   },
   "403002": {
-    "title": "进行16次派遣任务",
+    "title": "进行16次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -756,7 +756,7 @@
     "award": "1000090:1"
   },
   "403003": {
-    "title": "进行24次派遣任务",
+    "title": "进行24次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -764,7 +764,7 @@
     "award": "1000090:1"
   },
   "403004": {
-    "title": "进行32次派遣任务",
+    "title": "进行32次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -772,7 +772,7 @@
     "award": "1000090:1"
   },
   "403005": {
-    "title": "进行40次派遣任务",
+    "title": "进行40次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -780,7 +780,7 @@
     "award": "1000090:1"
   },
   "403006": {
-    "title": "进行48次派遣任务",
+    "title": "进行48次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -788,7 +788,7 @@
     "award": "1000090:1"
   },
   "403007": {
-    "title": "进行56次派遣任务",
+    "title": "进行56次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -796,7 +796,7 @@
     "award": "1000090:1"
   },
   "403008": {
-    "title": "进行64次派遣任务",
+    "title": "进行64次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -804,7 +804,7 @@
     "award": "1000090:1"
   },
   "403009": {
-    "title": "进行72次派遣任务",
+    "title": "进行72次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -812,7 +812,7 @@
     "award": "1000090:1"
   },
   "403010": {
-    "title": "进行80次派遣任务",
+    "title": "进行80次冒险任务",
     "refresh": "week_loop",
     "type": "tour",
     "arg": 1,
@@ -1100,47 +1100,47 @@
     "award": "1000090:1"
   },
   "501001": {
-    "title": "等级提升",
-    "desc": "训练家提升至5级",
-    "refresh": "officer",
-    "type": "loadLv",
-    "value": 5,
-    "award": "3790:1"
-  },
-  "501002": {
     "title": "主线冒险",
     "desc": "冒险通关第5关",
     "refresh": "officer",
     "type": "checkpoints",
     "arg": 5,
     "value": 1,
-    "award": "3790:1"
+    "award": "1060:1"
+  },
+  "501002": {
+    "title": "等级提升",
+    "desc": "训练家提升至8级",
+    "refresh": "officer",
+    "type": "loadLv",
+    "value": 8,
+    "award": "1060:1"
   },
   "501003": {
-    "title": "获得精灵",
-    "desc": "获得1个紫色精灵",
+    "title": "喵喵聚宝",
+    "desc": "使用1次喵喵聚宝",
     "refresh": "officer",
-    "type": "hero",
+    "type": "revenue",
     "arg": 3,
     "value": 1,
-    "award": "3790:1"
+    "award": "1060:1"
   },
   "501004": {
-    "title": "挂机奖励",
-    "desc": "领取1次挂机奖励",
+    "title": "试炼挑战",
+    "desc": "试炼塔通关第5关",
     "refresh": "officer",
-    "type": "on_hook",
-    "arg": 1,
+    "type": "tttLv",
+    "arg": 5,
     "value": 1,
-    "award": "3790:1"
+    "award": "1060:1"
   },
   "502001": {
     "title": "等级提升",
-    "desc": "训练家等级到达18级",
+    "desc": "训练家等级到达12级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 18,
-    "award": "3790:2"
+    "value": 12,
+    "award": "1060:1"
   },
   "502002": {
     "title": "主线冒险",
@@ -1149,126 +1149,124 @@
     "type": "checkpoints",
     "arg": 20,
     "value": 1,
-    "award": "3790:2"
+    "award": "1060:1"
   },
   "502003": {
-    "title": "精灵提升",
-    "desc": "1个精灵升到18级",
-    "refresh": "officer",
-    "type": "heroLv",
-    "arg": 18,
-    "value": 1,
-    "award": "3790:2"
-  },
-  "502004": {
     "title": "热血竞技",
     "desc": "挑战3次对战竞技场",
     "refresh": "officer",
     "type": "arena",
     "value": 3,
-    "award": "3790:2"
+    "award": "1060:1"
+  },
+  "502004": {
+    "title": "精灵派遣",
+    "desc": "进行5次冒险任务",
+    "refresh": "officer",
+    "type": "tour",
+    "arg": 1,
+    "value": 5,
+    "award": "1060:1"
   },
   "503001": {
     "title": "等级提升",
-    "desc": "训练家等级到达31级",
+    "desc": "训练家等级到达20级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 31,
-    "award": "3790:3"
+    "value": 20,
+    "award": "1060:2"
   },
   "503002": {
     "title": "主线冒险",
-    "desc": "冒险通关50关",
+    "desc": "冒险通关30关",
     "refresh": "officer",
     "type": "checkpoints",
-    "arg": 50,
+    "arg": 30,
     "value": 1,
-    "award": "3790:3"
+    "award": "1060:2"
   },
   "503003": {
-    "title": "精灵提升",
-    "desc": "3个精灵升到31级",
+    "title": "模拟对战",
+    "desc": "模拟对战获胜1次",
     "refresh": "officer",
-    "type": "heroLv",
-    "arg": 31,
-    "value": 3,
-    "award": "3790:3"
+    "type": "exercise_fight",
+    "value": 1,
+    "award": "1060:2"
   },
   "503004": {
-    "title": "互赠好感",
-    "desc": "赠送1次友情点",
+    "title": "无尽试炼",
+    "desc": "无尽试炼挑战2次",
     "refresh": "officer",
-    "type": "friendGift",
-    "value": 1,
-    "award": "3790:3"
+    "type": "endless_count",
+    "value": 2,
+    "award": "1060:2"
   },
   "504001": {
     "title": "等级提升",
-    "desc": "训练家等级到达45级",
+    "desc": "训练家等级到达32级",
     "refresh": "officer",
     "type": "loadLv",
-    "value": 45,
-    "award": "3790:4"
+    "value": 32,
+    "award": "1060:3"
   },
   "504002": {
+    "title": "主线冒险",
+    "desc": "冒险通关60关",
+    "refresh": "officer",
+    "type": "checkpoints",
+    "arg": 60,
+    "value": 1,
+    "award": "1060:3"
+  },
+  "504003": {
+    "title": "次元危机",
+    "desc": "次元危机通关第5关",
+    "refresh": "officer",
+    "type": "area_trial",
+    "arg": 5,
+    "value": 1,
+    "award": "1060:3"
+  },
+  "504004": {
+    "title": "跨服竞技",
+    "desc": "跨服段位赛获胜3次",
+    "refresh": "officer",
+    "type": "grading_win",
+    "value": 3,
+    "award": "1060:3"
+  },
+  "505001": {
+    "title": "等级提升",
+    "desc": "训练家提升至40级",
+    "refresh": "officer",
+    "type": "loadLv",
+    "value": 40,
+    "award": "1060:3"
+  },
+  "505002": {
     "title": "主线冒险",
     "desc": "冒险通关80关",
     "refresh": "officer",
     "type": "checkpoints",
     "arg": 80,
     "value": 1,
-    "award": "3790:4"
-  },
-  "504003": {
-    "title": "精灵提升",
-    "desc": "1个精灵进化到完全体",
-    "refresh": "officer",
-    "type": "pokemon_evolveLv",
-    "arg": 11,
-    "value": 1,
-    "award": "3790:4"
-  },
-  "504004": {
-    "title": "无尽试炼",
-    "desc": "无尽试炼挑战1次",
-    "refresh": "officer",
-    "type": "endless_count",
-    "value": 1,
-    "award": "3790:4"
-  },
-  "505001": {
-    "title": "等级提升",
-    "desc": "训练家提升至56级",
-    "refresh": "officer",
-    "type": "loadLv",
-    "value": 56,
-    "award": "3790:5"
-  },
-  "505002": {
-    "title": "主线冒险",
-    "desc": "冒险通关130关",
-    "refresh": "officer",
-    "type": "checkpoints",
-    "arg": 130,
-    "value": 1,
-    "award": "3790:5"
+    "award": "1060:3"
   },
   "505003": {
-    "title": "精灵提升",
-    "desc": "3个精灵升到56级",
+    "title": "神秘洞窟",
+    "desc": "神秘洞窟通关1次",
     "refresh": "officer",
-    "type": "heroLv",
-    "arg": 56,
-    "value": 3,
-    "award": "3790:5"
+    "type": "zhulu_pass",
+    "value": 1,
+    "award": "1060:3"
   },
   "505004": {
-    "title": "跨服段位",
-    "desc": "跨服段位赛胜利30次",
+    "title": "家园挑战",
+    "desc": "击败家园挑战者8次",
     "refresh": "officer",
-    "type": "grading_win",
-    "value": 30,
-    "award": "3790:5"
+    "type": "manorEnemy",
+    "value": 8,
+    "award": "1060:3"
   },
   "506001": {
     "title": "等级提升",
@@ -1276,7 +1274,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 67,
-    "award": "3790:6"
+    "award": "300000:5"
   },
   "506002": {
     "title": "主线冒险",
@@ -1285,7 +1283,7 @@
     "type": "checkpoints",
     "arg": 180,
     "value": 1,
-    "award": "3790:6"
+    "award": "300000:5"
   },
   "506003": {
     "title": "精灵提升",
@@ -1294,15 +1292,15 @@
     "type": "pokemon_evolveLv",
     "arg": 16,
     "value": 1,
-    "award": "3790:6"
+    "award": "300000:5"
   },
   "506004": {
-    "title": "擂台赛",
-    "desc": "对战开拓区胜利30次",
+    "title": "无尽试炼",
+    "desc": "挑战无尽试炼10次",
     "refresh": "officer",
-    "type": "ancient_win",
+    "type": "endless_count",
     "value": 30,
-    "award": "3790:6"
+    "award": "300000:5"
   },
   "507001": {
     "title": "等级提升",
@@ -1310,7 +1308,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 79,
-    "award": "3790:7"
+    "award": "300000:10"
   },
   "507002": {
     "title": "主线冒险",
@@ -1319,7 +1317,7 @@
     "type": "checkpoints",
     "arg": 240,
     "value": 1,
-    "award": "3790:7"
+    "award": "300000:10"
   },
   "507003": {
     "title": "精灵提升",
@@ -1328,7 +1326,7 @@
     "type": "heroLv",
     "arg": 79,
     "value": 3,
-    "award": "3790:7"
+    "award": "300000:10"
   },
   "507004": {
     "title": "模拟对战",
@@ -1336,7 +1334,7 @@
     "refresh": "officer",
     "type": "exercise",
     "value": 3,
-    "award": "3790:7"
+    "award": "300000:10"
   },
   "508001": {
     "title": "等级提升",
@@ -1344,7 +1342,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 90,
-    "award": "3790:8"
+    "award": "400000:5"
   },
   "508002": {
     "title": "主线冒险",
@@ -1353,7 +1351,7 @@
     "type": "checkpoints",
     "arg": 300,
     "value": 1,
-    "award": "3790:8"
+    "award": "400000:5"
   },
   "508003": {
     "title": "精灵提升",
@@ -1362,15 +1360,15 @@
     "type": "heroLv",
     "arg": 90,
     "value": 3,
-    "award": "3790:8"
+    "award": "400000:5"
   },
   "508004": {
     "title": "登塔挑战",
-    "desc": "对战塔通关200层",
+    "desc": "试炼塔通关200层",
     "refresh": "officer",
     "type": "tttLv",
     "value": 200,
-    "award": "3790:8"
+    "award": "400000:5"
   },
   "509001": {
     "title": "等级提升",
@@ -1378,7 +1376,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 105,
-    "award": "3790:9"
+    "award": "400000:10"
   },
   "509002": {
     "title": "主线冒险",
@@ -1387,7 +1385,7 @@
     "type": "checkpoints",
     "arg": 360,
     "value": 1,
-    "award": "3790:9"
+    "award": "400000:10"
   },
   "509003": {
     "title": "精灵提升",
@@ -1396,7 +1394,7 @@
     "type": "heroLv",
     "arg": 105,
     "value": 1,
-    "award": "3790:9"
+    "award": "400000:10"
   },
   "509004": {
     "title": "神秘洞窟",
@@ -1404,7 +1402,7 @@
     "refresh": "officer",
     "type": "zhulu_pass",
     "value": 8,
-    "award": "3790:9"
+    "award": "400000:10"
   },
   "510001": {
     "title": "等级提升",
@@ -1412,7 +1410,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 125,
-    "award": "3790:10"
+    "award": "500000:5"
   },
   "510002": {
     "title": "主线冒险",
@@ -1421,7 +1419,7 @@
     "type": "checkpoints",
     "arg": 430,
     "value": 1,
-    "award": "3790:10"
+    "award": "500000:5"
   },
   "510003": {
     "title": "精灵提升",
@@ -1430,7 +1428,7 @@
     "type": "heroLv",
     "arg": 125,
     "value": 3,
-    "award": "3790:10"
+    "award": "500000:5"
   },
   "510004": {
     "title": "次元危机",
@@ -1439,7 +1437,7 @@
     "type": "area_trial",
     "arg": 30,
     "value": 1,
-    "award": "3790:10"
+    "award": "500000:5"
   },
   "511001": {
     "title": "等级提升",
@@ -1447,7 +1445,7 @@
     "refresh": "officer",
     "type": "loadLv",
     "value": 150,
-    "award": "3790:12"
+    "award": "500000:10"
   },
   "511002": {
     "title": "主线冒险",
@@ -1456,7 +1454,7 @@
     "type": "checkpoints",
     "arg": 600,
     "value": 1,
-    "award": "3790:12"
+    "award": "500000:10"
   },
   "511003": {
     "title": "精灵提升",
@@ -1465,7 +1463,7 @@
     "type": "heroLv",
     "arg": 150,
     "value": 3,
-    "award": "3790:12"
+    "award": "500000:10"
   },
   "511004": {
     "title": "全明星赛",
@@ -1473,7 +1471,7 @@
     "refresh": "officer",
     "type": "muye_win",
     "value": 300,
-    "award": "3790:12"
+    "award": "500000:10"
   },
   "601001": {
     "title": "使用3次聚宝",
@@ -1546,7 +1544,7 @@
     "type": "checkpoints",
     "arg": 10,
     "value": 1,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700101": {
@@ -1555,7 +1553,7 @@
     "type": "checkpoints",
     "arg": 20,
     "value": 1,
-    "award": "202:100"
+    "award": "202:10"
   },
   "700102": {
     "title": "主线通关第30关",
@@ -1563,45 +1561,28 @@
     "type": "checkpoints",
     "arg": 30,
     "value": 1,
-    "award": "202:100"
-  },
-  "700103": {
-    "title": "主线通关第40关",
-    "refresh": "default",
-    "type": "checkpoints",
-    "arg": 40,
-    "value": 1,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
-  "700104": {
+  "700103": {
     "title": "主线通关第50关",
     "refresh": "default",
     "type": "checkpoints",
     "arg": 50,
     "value": 1,
-    "award": "202:100",
+    "award": "202:10",
+    "first": true
+  },
+  "700104": {
+    "title": "主线通关第70关",
+    "refresh": "default",
+    "type": "checkpoints",
+    "arg": 70,
+    "value": 1,
+    "award": "202:10",
     "first": true
   },
   "700105": {
-    "title": "主线通关第60关",
-    "refresh": "default",
-    "type": "checkpoints",
-    "arg": 60,
-    "value": 1,
-    "award": "202:100",
-    "first": true
-  },
-  "700106": {
-    "title": "主线通关第80关",
-    "refresh": "default",
-    "type": "checkpoints",
-    "arg": 80,
-    "value": 1,
-    "award": "202:100",
-    "first": true
-  },
-  "700107": {
     "title": "主线通关第100关",
     "refresh": "default",
     "type": "checkpoints",
@@ -1615,7 +1596,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 40,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700201": {
@@ -1623,7 +1604,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 80,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700202": {
@@ -1631,7 +1612,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 120,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700203": {
@@ -1639,7 +1620,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 160,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700204": {
@@ -1647,7 +1628,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 200,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700205": {
@@ -1655,7 +1636,7 @@
     "refresh": "default",
     "type": "manor_score",
     "value": 240,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700300": {
@@ -1663,7 +1644,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 50,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700301": {
@@ -1671,7 +1652,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 100,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700302": {
@@ -1679,7 +1660,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 150,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700303": {
@@ -1687,7 +1668,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 200,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700304": {
@@ -1695,7 +1676,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 250,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700305": {
@@ -1703,7 +1684,7 @@
     "refresh": "default",
     "type": "buzhuo_score",
     "value": 300,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700400": {
@@ -1711,7 +1692,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 30,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700401": {
@@ -1719,7 +1700,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 40,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700402": {
@@ -1727,7 +1708,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 50,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700403": {
@@ -1735,7 +1716,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 60,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700404": {
@@ -1743,7 +1724,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 70,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700405": {
@@ -1751,7 +1732,7 @@
     "refresh": "default",
     "type": "loadLv",
     "value": 80,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700500": {
@@ -1759,7 +1740,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 50000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700501": {
@@ -1767,7 +1748,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 100000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700502": {
@@ -1775,7 +1756,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 150000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700503": {
@@ -1783,7 +1764,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 200000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700504": {
@@ -1791,7 +1772,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 250000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700505": {
@@ -1799,7 +1780,7 @@
     "refresh": "default",
     "type": "totalCe",
     "value": 300000,
-    "award": "202:100",
+    "award": "202:10",
     "first": true
   },
   "700601": {
@@ -1851,13 +1832,6 @@
     "value": 20,
     "award": "7520:1"
   },
-  "800100": {
-    "title": "登陆游戏1次",
-    "refresh": "medal",
-    "type": "login",
-    "value": 1,
-    "award": "3010:3"
-  },
   "800200": {
     "title": "精灵进化3次",
     "refresh": "medal",
@@ -1887,7 +1861,7 @@
     "award": "3010:3"
   },
   "800600": {
-    "title": "进行30次派遣任务",
+    "title": "进行30次冒险任务",
     "refresh": "medal",
     "type": "tour",
     "arg": 1,
