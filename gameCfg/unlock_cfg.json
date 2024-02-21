@@ -21,30 +21,30 @@
     "desc": "首充"
   },
   "revenue": {
-    "name": "聚宝",
+    "name": "招财",
     "openlv": 1
   },
   "tower": {
-    "name": "试炼塔",
+    "name": "忍者之路",
     "open_gq": 5,
     "openlv": 1,
     "award": "202:100",
-    "desc": "训练家云集的对战塔，向上攀爬赢取奖励吧",
+    "desc": "在强者云集的道路上，努力前行赢取奖励吧",
     "icon": 2001010
   },
   "DIY": {
-    "name": "精灵定制",
+    "name": "忍者定制",
     "open_gq": 10
   },
   "tanxian": {
-    "name": "精灵探险",
+    "name": "探险",
     "open_gq": 10
   },
   "task": {
     "name": "活跃任务",
     "openlv": 1,
     "award": "202:100",
-    "desc": "每日活跃度任务，完成一定数量可领取活跃度宝箱",
+    "desc": "完成每日活跃度任务，可领取活跃度宝箱",
     "showType": 4
   },
   "rechargeTotal": {
@@ -66,7 +66,8 @@
   },
   "dayRecharge": {
     "name": "每日首充",
-    "openlv": 40
+    "openlv": 40,
+    "desc": "每日首充"
   },
   "highCard": {
     "name": "至尊特权",
@@ -85,10 +86,10 @@
     "openlv": 25
   },
   "warHorn": {
-    "name": "通行证",
+    "name": "火影宝典",
     "openlv": 11,
     "award": "202:100",
-    "desc": "解锁通行证，完成通行证任务获取丰厚奖励",
+    "desc": "解锁宝典，完成宝典任务获取丰厚奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnWarHorn"
   },
   "limitedTime": {
@@ -104,23 +105,23 @@
     "desc": "聊天"
   },
   "dailyFb": {
-    "name": "日常试炼",
-    "open_gq": 15,
+    "name": "丰饶之间",
+    "open_gq": 13,
     "openlv": 1,
     "award": "202:100",
-    "desc": "对战各系强者，考验对战策略",
+    "desc": "对战各色忍者，考验对战策略",
     "icon": 2003000,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "tour": {
-    "name": "精灵派遣",
+    "name": "任务派遣",
     "openlv": 1,
     "award": "202:100",
-    "desc": "派遣精灵执行任务，获得稀有奖励",
+    "desc": "派遣忍者执行任务，获得稀有奖励",
     "showType": 4
   },
   "invade": {
-    "name": "暴走精灵",
+    "name": "尾兽入侵",
     "openlv": 5,
     "desc": "限时挑战，越快击败奖励越多",
     "showType": 2
@@ -133,13 +134,13 @@
     "showType": 2
   },
   "worldBoss": {
-    "name": "异兽来袭",
+    "name": "五影试炼",
     "openlv": 5,
     "desc": "终极挑战，击败后可领取排名奖励",
     "showType": 2
   },
   "escort": {
-    "name": "飞行大赛",
+    "name": "限时护送",
     "openlv": 5,
     "desc": "森林探险，挖掘宝藏，获取稀有道具",
     "showType": 2
@@ -153,18 +154,18 @@
     "icon": 205
   },
   "areaChallenge": {
-    "name": "新人试炼",
+    "name": "新服挑战",
     "openlv": 15,
     "desc": "极限挑战，战胜获得丰富奖励",
     "target": "hallNode/mainNode/topNode/mainBtnList/btnAreaChallenge",
     "showType": 2
   },
   "exercise": {
-    "name": "模拟对战",
+    "name": "忍术考试",
     "open_gq": 25,
     "openlv": 12,
     "award": "202:100",
-    "desc": "模拟战斗，获得大量精灵经验",
+    "desc": "参与忍术考试，获得大量忍者经验",
     "icon": 101,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
@@ -178,36 +179,43 @@
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "guild": {
-    "name": "联盟系统",
+    "name": "组织",
     "openlv": 16,
     "award": "202:100",
-    "desc": "创建或加入联盟，与好友一起探索世界",
+    "desc": "创建或加入组织，与好友一起探索世界",
     "target": "uiNode/frontNode/bottomNode/btnGuild",
     "showType": 2
   },
   "extremity": {
-    "name": "光环超魔神",
+    "name": "仙地试炼",
     "openlv": 18,
     "award": "202:100",
-    "desc": "迎战光环的超魔神，突破自我吧！",
+    "desc": "迎战来自仙人的试炼，突破自我吧！",
     "icon": 100,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "manor": {
-    "name": "家园系统",
+    "name": "忍村",
     "openlv": 20,
     "award": "202:100",
-    "desc": "经营家园，探索冒险，获取建筑收益。",
+    "desc": "经营忍村，探索冒险，获取大量收益",
     "target": "uiNode/frontNode/bottomNode/btnOffice",
     "showType": 3
   },
   "beherrscher": {
-    "name": "争霸宝可梦",
+    "name": "追击晓组织",
     "openlv": 22,
     "award": "202:100",
-    "desc": "最强训练家的擂台，谁与争锋",
+    "desc": "强者如云的晓组织，击败他们赢取荣耀",
     "icon": 2000050,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
+  },
+  "pit": {
+    "name": "装备镶嵌",
+    "openlv": 1,
+    "award": "202:100",
+    "desc": "可为装备镶嵌宝石，提高装备性能",
+    "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "crossPK": {
     "name": "跨服段位赛",
@@ -218,54 +226,54 @@
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "ace": {
-    "name": "芯片",
+    "name": "宝物",
     "openlv": 38,
     "award": "202:100",
-    "desc": "芯片能给予佩戴宝可梦一般被动能力加成。",
+    "desc": "宝物能给予佩戴忍者强大的被动能力加成",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
   "fabao": {
-    "name": "法宝",
+    "name": "宝具",
     "openlv": 45,
     "award": "202:100",
-    "desc": "法宝可以给予佩戴它的宝可梦以全面性的加成"
+    "desc": "宝具可以给予佩戴它的忍者以全面性的加成"
   },
   "zhanfa": {
-    "name": "携带物",
+    "name": "忍具",
     "openlv": 60,
     "award": "202:100",
-    "desc": "携带物能给予佩戴它的宝可梦特殊的被动能力。",
+    "desc": "忍具能给予佩戴它的忍者特殊的被动能力",
     "target": "uiNode/frontNode/bottomNode/btnOffice"
   },
   "areaTrial": {
-    "name": "次元危机",
+    "name": "木叶危机",
     "open_gq": 60,
     "openlv": 39,
     "award": "202:100",
-    "desc": "持续对战，胜出次元危机",
+    "desc": "持续对战，胜出木叶危机",
     "icon": 2004100,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "zhulu": {
-    "name": "神秘洞窟",
+    "name": "龙地洞窟",
     "open_gq": 80,
     "openlv": 46,
     "award": "202:100",
-    "desc": "探索神秘洞窟，享受随机对战",
+    "desc": "探索龙地洞窟，享受随机对战",
     "icon": 2000,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
   "crossTop": {
-    "name": "世界锦标赛",
+    "name": "王者巅峰",
     "openlv": 56,
     "award": "202:100",
-    "desc": "排名赛制最高峰，角逐最强精灵大师",
+    "desc": "排名赛制最高峰，角逐最强忍者巅峰",
     "icon": 211,
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "showType": 2
   },
   "crossTeamPK": {
-    "name": "全明星赛",
+    "name": "忍界大战",
     "openlv": 61,
     "award": "202:100",
     "desc": "阵营团体对抗赛，团结合作赢得胜利吧！",
@@ -273,12 +281,8 @@
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "showType": 2
   },
-  "manor_challenge": {
-    "name": "家园挑战",
-    "openlv": 70
-  },
   "recruit": {
-    "name": "捕捉精灵",
+    "name": "招募伙伴",
     "openlv": 1
   },
   "hook": {
@@ -299,15 +303,15 @@
     "openlv": 1
   },
   "shop_crossTop": {
-    "name": "锦标赛商城",
+    "name": "王者商城",
     "openlv": 1
   },
   "shop_crossTeamPK": {
-    "name": "全明星商城",
+    "name": "忍界商城",
     "openlv": 1
   },
   "shop_guild": {
-    "name": "联盟商城",
+    "name": "组织商城",
     "openlv": 1
   },
   "on_hook": {
@@ -316,13 +320,13 @@
     "showType": 5
   },
   "guildAuction": {
-    "name": "联盟竞拍"
+    "name": "组织竞拍"
   },
   "guildPK": {
-    "name": "联盟竞技"
+    "name": "组织竞技"
   },
   "guildCity": {
-    "name": "攻城战"
+    "name": "据点争夺"
   },
   "areaActivity": {
     "name": "新服狂欢"

@@ -26,7 +26,7 @@
     "effects": true
   },
   "silence": {
-    "name": "沉默",
+    "name": "封穴",
     "des": "无法使用怒气技能",
     "refreshType": "after",
     "control": true,
@@ -34,7 +34,7 @@
     "effects": true
   },
   "dizzy": {
-    "name": "畏缩",
+    "name": "晕眩",
     "des": "无法行动",
     "refreshType": "after",
     "control": true,
@@ -42,7 +42,7 @@
     "effects": true
   },
   "forbidden": {
-    "name": "重伤",
+    "name": "破伤",
     "des": "受到的治疗效果降低70%",
     "refreshType": "before",
     "lower": true,
@@ -74,14 +74,14 @@
     "intensify": true
   },
   "reduction": {
-    "name": "铁壁",
-    "des": "受到的物理伤害降低60%，持续2回合,不可驱散",
+    "name": "砂之铠甲",
+    "des": "受到的体术伤害降低60%，持续2回合,不可驱散",
     "refreshType": "roundOver",
     "effects": true
   },
   "reduction_mag": {
-    "name": "魔法护盾",
-    "des": "受到的法术伤害降低60%，持续2回合,不可驱散",
+    "name": "五行护盾",
+    "des": "受到的忍术伤害降低60%，持续2回合,不可驱散",
     "refreshType": "roundOver",
     "effects": true
   },
@@ -133,7 +133,7 @@
     "bottom": true
   },
   "banish": {
-    "name": "放逐",
+    "name": "封印",
     "des": "跳过下一个回合，期间保留所有状态，且不会被选中为目标",
     "refreshType": "after",
     "debuff": true,
@@ -167,41 +167,41 @@
   },
   "cold": {
     "name": "减速",
-    "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为冰冻效果",
+    "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为禁锢效果",
     "refreshType": "after",
     "lower": true,
     "debuff": true
   },
   "frozen": {
-    "name": "冰冻",
-    "des": "无法行动,持续2回合，被攻击3次后解除冰冻。",
+    "name": "禁锢",
+    "des": "无法行动,持续2回合，被攻击3次后解除禁锢。",
     "refreshType": "after",
     "control": true,
     "debuff": true,
     "effects": true
   },
   "cold_shield": {
-    "name": "寒冰护盾",
-    "des": "受到攻击时，有30%概率使目标增加一层寒冷，寒冰护盾持续2回合",
+    "name": "结界护盾",
+    "des": "受到攻击时，有100%概率使目标增加一层减速，结界护盾持续2回合",
     "refreshType": "roundOver",
     "intensify": true,
     "effects": true
   },
   "polang": {
-    "name": "剑舞",
+    "name": "莲华",
     "des": "攻击+5%，暴击+5%，最大可叠加20层，持续5回合",
     "refreshType": "roundOver",
     "intensify": true
   },
   "bleed": {
-    "name": "流血",
+    "name": "撕裂",
     "des": "每回合流失3%的最大生命值，持续3回合。最多叠加5层",
     "refreshType": "before",
     "lower": true,
     "debuff": true
   },
   "heat_halo": {
-    "name": "火焰漩涡",
+    "name": "火焰油弹",
     "des": "每回合对携带者及其周围目标造成施法者30%攻击力的伤害，持续2回合",
     "refreshType": "roundOver",
     "lower": true,
@@ -210,7 +210,7 @@
     "bottom": true
   },
   "sand": {
-    "name": "沙尘暴",
+    "name": "虫蛀",
     "des": "受到施法者本人造成的伤害提高30%，持续2回合",
     "refreshType": "after",
     "lower": true,
@@ -250,14 +250,14 @@
     "intensify": true
   },
   "fengzheng": {
-    "name": "连击印记",
-    "des": "当队友攻击该目标时，消耗1层连击印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
+    "name": "瞬身印记",
+    "des": "当队友攻击该目标时，消耗1层瞬身印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
   },
   "fanzhi": {
-    "name": "反制印记",
+    "name": "反击印记",
     "des": "闪避增加5%，最多叠加5层,持续2回合",
     "refreshType": "after",
     "intensify": true
@@ -268,14 +268,14 @@
     "refreshType": "roundOver"
   },
   "flash": {
-    "name": "感电",
+    "name": "雷咒",
     "des": "每次被攻击时，消耗1层感电，额外受到最大生命值4%的伤害，最大可叠加5层，持续2回合",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
   },
   "god_power": {
-    "name": "神力",
+    "name": "仙术",
     "des": "伤害增加15%，最大可叠加3层，持续3回合",
     "refreshType": "after",
     "intensify": true
@@ -313,25 +313,25 @@
     "debuff": true
   },
   "soul_steal": {
-    "name": "灵魂窃取",
+    "name": "治疗窃取",
     "des": "无法获得治疗，所受的的治疗效果将转移至添加者，该效果无法被净化",
     "refreshType": "roundOver",
     "debuff": true
   },
   "ghost": {
-    "name": "亡魂",
+    "name": "秽土转生",
     "des": "增加4点怒气值，净化自身负面状态，无法被攻击，无法被治疗，2回合后彻底死亡，无法复活",
     "refreshType": "after",
     "effects": true
   },
   "moyin": {
-    "name": "魔印",
+    "name": "咒印标记",
     "des": "被施加的负面效果无法被净化，持续2回合",
     "refreshType": "after",
     "debuff": true
   },
   "jinhun": {
-    "name": "禁魂",
+    "name": "禁止复活",
     "des": "持续回合内不可复活，直到效果回合结束，无法被净化",
     "refreshType": "always",
     "debuff": true,
@@ -351,8 +351,8 @@
     "intensify": true
   },
   "frost": {
-    "name": "冰霜",
-    "des": "每层增加自身5%免伤，最大可叠加10层,当叠满10层时，每回合行动后随机冰冻一个敌方目标",
+    "name": "六道",
+    "des": "每层增加自身5%免伤，最大可叠加10层,当叠满10层时，每回合行动后随机禁锢一个敌方目标",
     "refreshType": "roundOver",
     "duration": 3,
     "max": 10,
@@ -374,8 +374,8 @@
     "max": 1
   },
   "flame": {
-    "name": "圣火",
-    "des": "每层圣火增加自身3%免伤和暴击。回合开始前，恢复我方全体20%攻击力*圣火层数的生命值。圣火最高可叠加10层",
+    "name": "仙火",
+    "des": "每层仙火增加自身3%免伤和暴击。回合开始前，恢复我方全体20%攻击力*仙火层数的生命值。圣火最高可叠加10层",
     "refreshType": "roundOver",
     "duration": 3,
     "max": 10,
@@ -417,7 +417,7 @@
     "max": 1
   },
   "kb_polang": {
-    "name": "狂暴",
+    "name": "八门遁甲",
     "des": "破浪效果叠加至20层时，进入狂暴状态，驱散所有负面和控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
     "refreshType": "after",
     "duration": 3,
@@ -447,8 +447,8 @@
     "effects": true
   },
   "juexing": {
-    "name": "觉醒",
-    "des": "自身生命值低于50%时进入觉醒状态，驱散所有负面和控制效果，自身物攻增加20%，抗控增加10%，持续至战斗结束",
+    "name": "仙人化",
+    "des": "自身生命值低于50%时进入仙人化状态，驱散所有负面和控制效果，自身物攻增加20%，抗控增加10%，持续至战斗结束",
     "refreshType": "after",
     "duration": -1,
     "max": 1,
