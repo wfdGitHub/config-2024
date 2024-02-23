@@ -1,26 +1,147 @@
 {
-  "10010": {
-    "name": "普攻",
+  "1001000": {
+    "name": "直接物伤",
     "type": "normal",
-    "mul": 1,
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "resRange": 100,
+    "skillDur": 200,
     "targetType": "enemy_near",
-    "damageType": "mag",
-    "anger": 0
+    "d_type": "phy"
   },
-  "10020": {
-    "name": "弹道",
+  "1002000": {
+    "name": "弹道物伤",
     "type": "bullet",
-    "mul": 1.2,
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "bu_spe": 1500,
+    "resRange": 360,
+    "skillDur": 200,
     "targetType": "enemy_near",
-    "damageType": "phy",
-    "anger": 0
+    "d_type": "phy"
   },
-  "10030": {
-    "name": "治疗",
+  "1003000": {
+    "name": "范围物伤",
+    "type": "range",
+    "times": [
+      100,
+      200,
+      300
+    ],
+    "muls": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "resRange": 100,
+    "skillDur": 400,
+    "rangeRadius": 100,
+    "rangeType": "enemy",
+    "targetType": "self",
+    "d_type": "phy"
+  },
+  "1004000": {
+    "name": "直接法伤",
     "type": "normal",
-    "mul": 1,
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "resRange": 180,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "mag"
+  },
+  "1005000": {
+    "name": "弹道法伤",
+    "type": "bullet",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "bu_spe": 1000,
+    "resRange": 280,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "mag"
+  },
+  "1006000": {
+    "name": "范围法伤",
+    "type": "range",
+    "times": [
+      100,
+      300,
+      600
+    ],
+    "muls": [
+      0.5,
+      0.6,
+      0.8
+    ],
+    "resRange": 280,
+    "skillDur": 700,
+    "rangeRadius": 200,
+    "rangeType": "enemy",
+    "targetType": "enemy_near",
+    "d_type": "mag"
+  },
+  "1007000": {
+    "name": "直接治疗",
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "resRange": 160,
+    "skillDur": 200,
     "targetType": "team_near",
-    "damageType": "heal",
-    "anger": 0
+    "d_type": "heal"
+  },
+  "1008000": {
+    "name": "弹道治疗",
+    "type": "bullet",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "bu_spe": 800,
+    "targetType": "team_near",
+    "d_type": "heal"
+  },
+  "1009000": {
+    "name": "范围治疗",
+    "type": "range",
+    "times": [
+      100,
+      200,
+      300
+    ],
+    "muls": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "resRange": 100,
+    "skillDur": 400,
+    "rangeRadius": 150,
+    "rangeType": "team",
+    "targetType": "self",
+    "d_type": "heal"
   }
 }
