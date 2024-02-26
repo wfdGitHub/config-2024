@@ -244,21 +244,25 @@
   "401": {
     "name": "技之精华",
     "des": "技之精华，能够提升技忍战魂的属性加成，可通过技之试炼中获得。",
+    "buyNum": 1,
     "quality": 5
   },
   "402": {
     "name": "器之精华",
     "des": "器之精华，能够提升器忍战魂的属性加成，可通过器之试炼中获得。",
+    "buyNum": 1,
     "quality": 5
   },
   "403": {
     "name": "奇之精华",
     "des": "奇之精华，能够提升奇忍战魂的属性加成，可通过奇之试炼中获得。",
+    "buyNum": 1,
     "quality": 5
   },
   "404": {
     "name": "密之精华",
     "des": "密之精华，能够提升密忍战魂的属性加成，可通过之试炼中获得。",
+    "buyNum": 1,
     "quality": 5
   },
   "501": {
@@ -281,8 +285,9 @@
     "type": "currency",
     "useType": "chest_single",
     "arg": "halashao_chest",
-    "effects": "checkpoints",
-    "source1": "gift"
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu"
   },
   "4001": {
     "name": "下忍饰品",
@@ -293,7 +298,6 @@
     "coin": 1000000,
     "buyNum": 1,
     "quality": 3,
-    "source1": "gift",
     "source2": "arena"
   },
   "4002": {
@@ -305,7 +309,6 @@
     "coin": 5000000,
     "buyNum": 1,
     "quality": 4,
-    "source1": "gift",
     "source2": "shop_crossPK"
   },
   "4003": {
@@ -316,8 +319,7 @@
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
-    "quality": 5,
-    "source1": "gift"
+    "quality": 5
   },
   "4004": {
     "name": "影之饰品",
@@ -328,8 +330,7 @@
     "coin": 125000000,
     "buyNum": 1,
     "quality": 6,
-    "effects": "hufu",
-    "source1": "gift"
+    "effects": "hufu"
   },
   "7010": {
     "name": "名动忍界",
@@ -418,8 +419,7 @@
     "type": "title",
     "arg": 7100,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "7110": {
     "name": "潜龙勿用",
@@ -427,8 +427,7 @@
     "type": "title",
     "arg": 7110,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "7120": {
     "name": "富甲一方",
@@ -436,8 +435,7 @@
     "type": "title",
     "arg": 7120,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "7130": {
     "name": "初露锋芒",
@@ -702,8 +700,7 @@
     "type": "frame",
     "arg": 8070,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8080": {
     "name": "以令诸侯",
@@ -711,8 +708,7 @@
     "type": "frame",
     "arg": 8080,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8090": {
     "name": "春意盎然",
@@ -720,8 +716,7 @@
     "type": "frame",
     "arg": 8090,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8100": {
     "name": "豪气冲天",
@@ -729,8 +724,7 @@
     "type": "frame",
     "arg": 8100,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8110": {
     "name": "童心妙笔",
@@ -738,8 +732,7 @@
     "type": "frame",
     "arg": 8110,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8120": {
     "name": "情人节",
@@ -747,8 +740,7 @@
     "type": "frame",
     "arg": 8120,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8130": {
     "name": "中秋节",
@@ -756,8 +748,7 @@
     "type": "frame",
     "arg": 8130,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "8990": {
     "name": "矢志不渝",
@@ -765,8 +756,7 @@
     "type": "frame",
     "arg": 8990,
     "quality": 7,
-    "effects": "baowu",
-    "source1": "gift"
+    "effects": "baowu"
   },
   "10010": {
     "name": "暗部密令",
@@ -777,7 +767,8 @@
     "gold": 1000,
     "coin": 5000000,
     "buyNum": 1,
-    "quality": 6
+    "quality": 5,
+    "effects": "baowu"
   },
   "103010": {
     "name": "技系叛忍碎片",
@@ -9432,7 +9423,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "4004:1&4004:1&4004:1",
+    "arg": "4004:1&4004:1",
     "gold": 100000,
     "coin": 500000000,
     "buyNum": 1,
@@ -9445,7 +9436,7 @@
     "isBag": true,
     "type": "item",
     "useType": "box",
-    "arg": "4004:1&4004:1&4004:1&4004:1&4004:1&4004:1",
+    "arg": "4004:1&4004:1&4004:1",
     "gold": 200000,
     "coin": 1000000000,
     "buyNum": 1,
