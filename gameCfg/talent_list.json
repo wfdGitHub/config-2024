@@ -9270,9 +9270,9 @@
     "icon": 50015006,
     "name": "荆棘护甲",
     "qa": 4,
-    "des": "受到直接伤害反弹40%的伤害",
+    "des": "受到直接伤害反弹35%的伤害",
     "key1": "hit_rebound",
-    "value1": 0.4
+    "value1": 0.35
   },
   "90440027": {
     "icon": 50021004,
@@ -9280,7 +9280,7 @@
     "qa": 4,
     "des": "当宝可梦HP小于HP1/2,每回合恢复自身8%生命值",
     "key1": "less_half_hp_heal",
-    "value1": 0.08
+    "value1": 0.35
   },
   "90440028": {
     "icon": 50021005,
@@ -9480,9 +9480,9 @@
     "icon": 50014004,
     "name": "开场舞",
     "qa": 4,
-    "des": "入场时，自身获得6层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得5层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":5,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
     "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key3": "buffDuration",
@@ -9994,9 +9994,9 @@
     "icon": 50015005,
     "name": "荆棘护甲",
     "qa": 5,
-    "des": "受到直接伤害反弹50%的伤害",
+    "des": "受到直接伤害反弹45%的伤害",
     "key1": "hit_rebound",
-    "value1": 0.5
+    "value1": 0.45
   },
   "90540027": {
     "icon": 50015006,
@@ -10150,11 +10150,11 @@
     "icon": 50013004,
     "name": "开场舞",
     "qa": 5,
-    "des": "入场时，自身获得8层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得5层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":5,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
     "key3": "buffDuration",
     "value3": 99
   },
@@ -10632,9 +10632,9 @@
     "icon": 50014006,
     "name": "荆棘护甲",
     "qa": 5,
-    "des": "受到直接伤害反弹70%的伤害",
+    "des": "受到直接伤害反弹60%的伤害",
     "key1": "hit_rebound",
-    "value1": 0.7
+    "value1": 0.6
   },
   "90640027": {
     "icon": 50015004,
@@ -10798,9 +10798,9 @@
     "icon": 50023006,
     "name": "开场舞",
     "qa": 5,
-    "des": "入场时，自身获得10层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得6层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":10,\"duration\":5,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
     "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
     "key3": "buffDuration",
@@ -10946,11 +10946,11 @@
     "icon": 50022004,
     "name": "开场舞",
     "qa": 5,
-    "des": "入场时，自身获得10层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束，当剑舞效果叠加至20层时，进入狂暴状态，驱散所有负面和控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
+    "des": "入场时，自身获得6层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束，当剑舞效果叠加至20层时，进入狂暴状态，驱散所有负面和控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
     "key1": "polang_buff",
     "value1": "kb_polang",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":10,\"duration\":5,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
     "key3": "action_buff",
     "value3": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
     "key4": "buffDuration",

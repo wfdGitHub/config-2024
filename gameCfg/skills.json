@@ -857,7 +857,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成145%攻击力的法术伤害,有100%概率添加中毒，35%概率添加折戟",
+    "des": "对敌方全体造成145%攻击力的法术伤害,有100%概率添加中毒，35%概率添加麻痹",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 1.45,
@@ -15398,8 +15398,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成<color=#8ad5a2>213%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方单体造成<color=#8ad5a2>213%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.13,
     "key1": "buff1",
@@ -15412,8 +15412,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成<color=#8ad5a2>181%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到2个目标造成<color=#8ad5a2>181%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.81,
     "key1": "buff1",
@@ -15426,8 +15426,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成<color=#8ad5a2>162%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到3个目标造成<color=#8ad5a2>162%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.62,
     "key1": "buff1",
@@ -16397,8 +16397,8 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成<color=#8ad5a2>307%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方2到3个目标造成<color=#8ad5a2>307%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 3.07,
     "key1": "buff1",
@@ -16411,8 +16411,8 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成<color=#8ad5a2>281%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方3个目标造成<color=#8ad5a2>281%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.81,
     "key1": "buff1",
@@ -16482,7 +16482,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方3个目标造成<color=#8ad5a2>281%</c>攻击的特殊伤害,并有35%概率附加麻痹效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.81,
     "key1": "buff1",
@@ -17312,8 +17312,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成<color=#8ad5a2>230%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方单体造成<color=#8ad5a2>230%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.3,
     "key1": "buff1",
@@ -17326,8 +17326,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成<color=#8ad5a2>195%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到2个目标造成<color=#8ad5a2>195%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.95,
     "key1": "buff1",
@@ -17340,8 +17340,8 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成<color=#8ad5a2>175%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到3个目标造成<color=#8ad5a2>175%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.75,
     "key1": "buff1",
@@ -18312,7 +18312,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方2到3个目标造成<color=#8ad5a2>332%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 3.32,
     "key1": "buff1",
@@ -18326,7 +18326,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方3个目标造成<color=#8ad5a2>303%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 3.03,
     "key1": "buff1",
@@ -18396,7 +18396,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方3个目标造成<color=#8ad5a2>303%</c>攻击的特殊伤害,并有35%概率附加麻痹效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 3.03,
     "key1": "buff1",
@@ -19226,8 +19226,8 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成<color=#8ad5a2>249%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方单体造成<color=#8ad5a2>249%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.49,
     "key1": "buff1",
@@ -19240,8 +19240,8 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成<color=#8ad5a2>211%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到2个目标造成<color=#8ad5a2>211%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 2.11,
     "key1": "buff1",
@@ -19254,8 +19254,8 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成<color=#8ad5a2>189%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "des": "对敌方1到3个目标造成<color=#8ad5a2>189%</c>攻击的物理伤害,并附加1层感电效果.",
+    "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.89,
     "key1": "buff1",
@@ -19269,7 +19269,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方2到3个目标造成<color=#8ad5a2>359%%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 3.59,
     "key1": "buff1",
@@ -19283,7 +19283,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方3个目标造成<color=#8ad5a2>328%%</c>攻击的特殊伤害,并附加1层感电效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 3.28,
     "key1": "buff1",
@@ -19297,7 +19297,7 @@
     "anger": 4,
     "type": "attack",
     "des": "对敌方3个目标造成<color=#8ad5a2>328%%</c>攻击的特殊伤害,并有35%概率附加麻痹效果.",
-    "damageType": "mag",
+    "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 3.28,
     "key1": "buff1",
@@ -19310,10 +19310,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成43%技能威力的物理伤害",
+    "des": "对敌方随机三人造成161%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.43
+    "mul": 1.61
   },
   "1002001002": {
     "name": "主角技能",
@@ -19322,10 +19322,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成48%技能威力的物理伤害",
+    "des": "对敌方随机三人造成169%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.48
+    "mul": 1.69
   },
   "1002001003": {
     "name": "主角技能",
@@ -19334,10 +19334,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成53%技能威力的物理伤害",
+    "des": "对敌方随机三人造成178%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.53
+    "mul": 1.78
   },
   "1002001004": {
     "name": "主角技能",
@@ -19346,10 +19346,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成58%技能威力的物理伤害",
+    "des": "对敌方随机三人造成186%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.58
+    "mul": 1.86
   },
   "1002001005": {
     "name": "主角技能",
@@ -19361,7 +19361,7 @@
     "des": "技能附带目标最大生命值3%的真实伤害",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.58,
+    "mul": 1.86,
     "key1": "maxHP_damage",
     "value1": 0.03
   },
@@ -19375,7 +19375,7 @@
     "des": "所有主动技能效果提升5%",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.58,
+    "mul": 1.86,
     "key1": "maxHP_damage",
     "value1": 0.03,
     "key2": "power_up",
@@ -19388,10 +19388,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至80%",
+    "des": "技能伤害增加至200%",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.8,
+    "mul": 2,
     "key1": "maxHP_damage",
     "value1": 0.03,
     "key2": "power_up",
@@ -19404,9 +19404,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方随机单体恢复100%技能威力的生命值",
+    "des": "为我方随机单体恢复230%技能威力的生命值",
     "targetType": "team_1",
-    "mul": 1
+    "mul": 2.3
   },
   "1002002002": {
     "name": "主角技能",
@@ -19415,9 +19415,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方随机单体恢复110%技能威力的生命值",
+    "des": "为我方随机单体恢复242%技能威力的生命值",
     "targetType": "team_1",
-    "mul": 1.1
+    "mul": 2.42
   },
   "1002002003": {
     "name": "主角技能",
@@ -19426,9 +19426,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方随机单体恢复120%技能威力的生命值",
+    "des": "为我方随机单体恢复254%技能威力的生命值",
     "targetType": "team_1",
-    "mul": 1.2
+    "mul": 2.54
   },
   "1002002004": {
     "name": "主角技能",
@@ -19437,9 +19437,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方随机单体恢复130%技能威力的生命值",
+    "des": "为我方随机单体恢复266%技能威力的生命值",
     "targetType": "team_1",
-    "mul": 1.3
+    "mul": 2.66
   },
   "1002002005": {
     "name": "主角技能",
@@ -19450,7 +19450,7 @@
     "type": "heal",
     "des": "技能优先选择血量最少的目标",
     "targetType": "team_minHp_1",
-    "mul": 1.3
+    "mul": 2.66
   },
   "1002002006": {
     "name": "主角技能",
@@ -19461,7 +19461,7 @@
     "type": "heal",
     "des": "所有主动技能效果提升5%",
     "targetType": "team_minHp_1",
-    "mul": 1.3,
+    "mul": 2.66,
     "key1": "power_up",
     "value1": 0.05
   },
@@ -19472,9 +19472,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "技能治疗量增加至200%",
+    "des": "技能治疗量增加至300%",
     "targetType": "team_minHp_1",
-    "mul": 2,
+    "mul": 3,
     "key1": "power_up",
     "value1": 0.05
   },
@@ -19485,10 +19485,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成90%技能威力的法术伤害，有10%概率附加折戟",
+    "des": "对敌方随机单体造成290%技能威力的法术伤害，有10%概率附加麻痹",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 0.9,
+    "mul": 2.9,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
@@ -19499,10 +19499,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成95%技能威力的法术伤害，有15%概率附加折戟",
+    "des": "对敌方随机单体造成300%技能威力的法术伤害，有15%概率附加麻痹",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 0.95,
+    "mul": 3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
@@ -19513,10 +19513,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成100%技能威力的法术伤害，有20%概率附加折戟",
+    "des": "对敌方随机单体造成314%技能威力的法术伤害，有20%概率附加麻痹",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1,
+    "mul": 3.14,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
@@ -19527,10 +19527,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成105%技能威力的法术伤害，有25%概率附加折戟",
+    "des": "对敌方随机单体造成330%技能威力的法术伤害，有25%概率附加麻痹",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
@@ -19541,10 +19541,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "折戟概率提升至40%",
+    "des": "麻痹概率提升至40%",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
@@ -19558,7 +19558,7 @@
     "des": "所有主动技能效果提升5%",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
     "key2": "power_up",
@@ -19571,16 +19571,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能影响2个目标，伤害减半，折戟概率不变，BP消耗增加1点",
+    "des": "技能目标增加至2个",
     "damageType": "mag",
     "targetType": "enemy_2",
-    "mul": 0.525,
+    "mul": 3.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
     "key2": "power_up",
-    "value2": 0.05,
-    "key3": "NEED_BP",
-    "value3": 4
+    "value2": 0.05
   },
   "1002004001": {
     "name": "主角技能",
@@ -19589,10 +19587,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成50%技能威力的物理伤害，降低目标5%技能威力，持续1回合",
+    "des": "对敌方3个目标造成161%技能威力的物理伤害，降低目标5%攻击力，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.5,
+    "mul": 1.61,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.05,\"duration\":1,\"buffRate\":1}"
   },
@@ -19603,10 +19601,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成55%技能威力的物理伤害，降低目标10%技能威力，持续1回合",
+    "des": "对敌方3个目标造成169%技能威力的物理伤害，降低目标10%攻击力，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.55,
+    "mul": 1.69,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
@@ -19617,10 +19615,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成60%技能威力的物理伤害，降低目标15%技能威力，持续1回合",
+    "des": "对敌方3个目标造成178%技能威力的物理伤害，降低目标15%攻击力，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.6,
+    "mul": 1.78,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
@@ -19631,10 +19629,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成65%技能威力的物理伤害，降低目标20%技能威力，持续1回合",
+    "des": "对敌方3个目标造成186%技能威力的物理伤害，降低目标20%攻击力，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.65,
+    "mul": 1.86,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
@@ -19648,7 +19646,7 @@
     "des": "降攻状态持续2回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.65,
+    "mul": 1.86,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
@@ -19662,7 +19660,7 @@
     "des": "所有主动技能效果提升5%",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 0.65,
+    "mul": 1.86,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "power_up",
@@ -19675,16 +19673,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害翻倍，BP消耗增加1点",
+    "des": "对敌方3个目标造成200%技能威力的物理伤害，降低目标20%技能威力，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.3,
+    "mul": 2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "power_up",
-    "value2": 0.05,
-    "key3": "NEED_BP",
-    "value3": 4
+    "value2": 0.05
   },
   "1002005001": {
     "name": "主角技能",
@@ -19693,12 +19689,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成90%技能威力的法术伤害，有5%概率附加重伤效果,持续1回合",
+    "des": "对敌方随机单体造成299%技能威力的法术伤害，有15%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 0.9,
+    "mul": 2.99,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.05}"
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
   "1002005002": {
     "name": "主角技能",
@@ -19707,12 +19703,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成95%技能威力的法术伤害，有10%概率附加重伤效果,持续1回合",
+    "des": "对敌方随机单体造成314%技能威力的法术伤害，有20%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 0.95,
+    "mul": 3.14,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
   "1002005003": {
     "name": "主角技能",
@@ -19721,12 +19717,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成100%技能威力的法术伤害，有15%概率附加重伤效果,持续1回合",
+    "des": "对敌方随机单体造成330%技能威力的法术伤害，有25%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1,
+    "mul": 3.3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1002005004": {
     "name": "主角技能",
@@ -19735,12 +19731,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机单体造成105%技能威力的法术伤害，有20%概率附加重伤效果,持续1回合",
+    "des": "对敌方随机单体造成346%技能威力的法术伤害，有30%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.46,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
   "1002005005": {
     "name": "主角技能",
@@ -19752,9 +19748,9 @@
     "des": "重伤效果持续2回合",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.46,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}"
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "1002005006": {
     "name": "主角技能",
@@ -19766,9 +19762,9 @@
     "des": "所有主动技能效果提升5%",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 1.05,
+    "mul": 3.46,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}",
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
     "key2": "power_up",
     "value2": 0.05
   },
@@ -19779,16 +19775,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能影响2个目标，伤害减半，重伤概率不变，BP消耗增加1点",
+    "des": "对敌方随机单体造成363%技能威力的法术伤害，有35%概率附加重伤效果,持续1回合",
     "damageType": "mag",
     "targetType": "enemy_2",
-    "mul": 0.525,
+    "mul": 3.63,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}",
+    "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
     "key2": "power_up",
-    "value2": 0.05,
-    "key3": "NEED_BP",
-    "value3": 4
+    "value2": 0.05
   },
   "1003001001": {
     "name": "主角技能",
@@ -19797,10 +19791,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成200%技能威力的物理伤害，有10%概率添加破甲效果",
+    "des": "对敌方单体造成380%技能威力的物理伤害，有10%概率添加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2,
+    "mul": 3.8,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
@@ -19811,10 +19805,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成230%技能威力的物理伤害，有15%概率添加破甲效果",
+    "des": "对敌方单体造成400%技能威力的物理伤害，有15%概率添加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.3,
+    "mul": 4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
@@ -19825,10 +19819,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成260%技能威力的物理伤害，有20%概率添加破甲效果",
+    "des": "对敌方单体造成420%技能威力的物理伤害，有20%概率添加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.6,
+    "mul": 4.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
@@ -19839,10 +19833,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成290%技能威力的物理伤害，有25%概率添加破甲效果",
+    "des": "对敌方单体造成440%技能威力的物理伤害，有25%概率添加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.9,
+    "mul": 4.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
@@ -19856,7 +19850,7 @@
     "des": "技能无视目标40%的防御",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.9,
+    "mul": 4.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}",
     "key2": "neglect_def",
@@ -19872,7 +19866,7 @@
     "des": "所有主动技能效果提升10%",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.9,
+    "mul": 4.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}",
     "key2": "neglect_def",
@@ -19890,7 +19884,7 @@
     "des": "释放技能时，100%附加破甲效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.9,
+    "mul": 4.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key2": "neglect_def",
@@ -19905,10 +19899,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成175%的法术伤害，有20%概率添加灼烧",
+    "des": "对敌方随机三人造成209%的法术伤害，有20%概率添加灼烧",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.75,
+    "mul": 2.09,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":0.2}"
   },
@@ -19933,10 +19927,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成265%的法术伤害，有40%概率添加灼烧",
+    "des": "对敌方随机三人造成231%的法术伤害，有40%概率添加灼烧",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 2.65,
+    "mul": 2.31,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":0.4}"
   },
@@ -19947,10 +19941,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机三人造成310%的法术伤害，有50%概率添加灼烧",
+    "des": "对敌方随机三人造成242%的法术伤害，有50%概率添加灼烧",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.1,
+    "mul": 2.42,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":0.5}"
   },
@@ -19964,7 +19958,7 @@
     "des": "灼烧概率提升至100%",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.1,
+    "mul": 2.42,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
@@ -19978,7 +19972,7 @@
     "des": "所有主动技能效果提升10%",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.1,
+    "mul": 2.42,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
     "key2": "power_up",
@@ -19991,10 +19985,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "若目标身上已有灼烧效果，则先解除灼烧，技能伤害额外增加50%,随后添加灼烧效果",
+    "des": "若目标身上已有灼烧效果，则先解除灼烧，伤害额外增加50%,随后添加灼烧效果",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.1,
+    "mul": 2.42,
     "key1": "buff1",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
     "key2": "power_up",
@@ -20008,7 +20002,7 @@
     "icon": 1003003001,
     "qa": 3,
     "anger": 4,
-    "des": "降低敌方随机2个英雄16%技能威力，持续2回合",
+    "des": "降低敌方随机2个英雄16%攻击力，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
   },
@@ -20018,7 +20012,7 @@
     "icon": 1003003002,
     "qa": 3,
     "anger": 4,
-    "des": "降低敌方随机2个英雄20%技能威力，持续2回合",
+    "des": "降低敌方随机2个英雄20%攻击力，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
@@ -20028,7 +20022,7 @@
     "icon": 1003003003,
     "qa": 3,
     "anger": 4,
-    "des": "降低敌方随机2个英雄24%技能威力，持续2回合",
+    "des": "降低敌方随机2个英雄24%攻击力，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
   },
@@ -20038,7 +20032,7 @@
     "icon": 1003003004,
     "qa": 3,
     "anger": 4,
-    "des": "降低敌方随机2个英雄28%技能威力，持续2回合",
+    "des": "降低敌方随机2个英雄28%攻击力，持续2回合",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
@@ -20048,11 +20042,9 @@
     "icon": 1003003005,
     "qa": 3,
     "anger": 4,
-    "des": "技能目标增加至3个，BP消耗增加至5点",
+    "des": "降低敌方随机2个英雄34%攻击力，持续2回合",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "NEED_BP",
-    "value2": 5
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
   "1003003006": {
     "name": "主角技能",
@@ -20062,11 +20054,9 @@
     "anger": 4,
     "des": "所有主动技能效果提升10%",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "NEED_BP",
-    "value2": 5,
-    "key3": "power_up",
-    "value3": 0.1
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.34,\"duration\":2,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.1
   },
   "1003003007": {
     "name": "主角技能",
@@ -20074,13 +20064,11 @@
     "icon": 1003003007,
     "qa": 3,
     "anger": 4,
-    "des": "技能目标增加至敌方全体，BP消耗增加至6点",
+    "des": "技能目标增加至敌方随机3个目标",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
-    "key2": "NEED_BP",
-    "value2": 6,
-    "key3": "power_up",
-    "value3": 0.1
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.34,\"duration\":2,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.1
   },
   "1003004001": {
     "name": "主角技能",
@@ -20089,10 +20077,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2个英雄造成180%的法术伤害，有20%概率添加折戟，持续1回合",
+    "des": "对敌方随机2个英雄造成240%技能威力的法术伤害，有20%概率添加麻痹，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_2",
-    "mul": 1.8,
+    "mul": 2.4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
@@ -20103,10 +20091,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2个英雄造成220%的法术伤害，有25%概率添加折戟",
+    "des": "对敌方随机2个英雄造成260%技能威力的法术伤害，有25%概率添加麻痹，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_2",
-    "mul": 2.2,
+    "mul": 2.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
@@ -20117,10 +20105,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2个英雄造成260%的法术伤害，有30%概率添加折戟",
+    "des": "对敌方随机2个英雄造成280%技能威力的法术伤害，有30%概率添加麻痹，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_2",
-    "mul": 2.6,
+    "mul": 2.8,
     "key1": "buff1",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
@@ -20131,7 +20119,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2个英雄造成300%的法术伤害，有35%概率添加折戟",
+    "des": "对敌方随机2个英雄造成300%技能威力的法术伤害，有35%概率添加麻痹，持续1回合",
     "damageType": "mag",
     "targetType": "enemy_2",
     "mul": 3,
@@ -20145,12 +20133,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "折戟概率提升至60%",
+    "des": "麻痹概率提升至50%",
     "damageType": "mag",
     "targetType": "enemy_2",
     "mul": 3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "1003004006": {
     "name": "主角技能",
@@ -20164,7 +20152,7 @@
     "targetType": "enemy_2",
     "mul": 3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
     "key2": "power_up",
     "value2": 0.1
   },
@@ -20180,7 +20168,7 @@
     "targetType": "enemy_3",
     "mul": 3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
     "key2": "power_up",
     "value2": 0.1
   },
@@ -20191,10 +20179,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成160%技能威力的物理伤害，有20%概率添加重伤效果,持续1回合",
+    "des": "对敌方单体造成360%技能威力的物理伤害，有20%概率添加重伤效果,持续1回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.6,
+    "mul": 3.6,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
@@ -20205,10 +20193,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成190%技能威力的物理伤害，有25%概率添加重伤效果",
+    "des": "对敌方单体造成380%技能威力的物理伤害，有25%概率添加重伤效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.9,
+    "mul": 3.8,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
@@ -20219,10 +20207,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成210%技能威力的物理伤害，有30%概率添加重伤效果",
+    "des": "对敌方单体造成400%技能威力的物理伤害，有30%概率添加重伤效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.1,
+    "mul": 4,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
@@ -20233,10 +20221,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成240%技能威力的物理伤害，有35%概率添加重伤效果",
+    "des": "对敌方单体造成420%技能威力的物理伤害，有35%概率添加重伤效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.4,
+    "mul": 4.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -20250,7 +20238,7 @@
     "des": "技能附带目标最大生命值8%的真实伤害",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.4,
+    "mul": 4.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}",
     "key2": "maxHP_damage",
@@ -20266,7 +20254,7 @@
     "des": "所有主动技能效果提升10%",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.4,
+    "mul": 4.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}",
     "key2": "maxHP_damage",
@@ -20284,7 +20272,7 @@
     "des": "重伤概率提升至60%，持续2回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 2.4,
+    "mul": 4.2,
     "key1": "buff1",
     "value1": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
     "key2": "maxHP_damage",
@@ -20299,12 +20287,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成135%技能威力的法术伤害，对火系英雄伤害增加30%",
+    "des": "对敌方随机3人造成209%技能威力的法术伤害，并为目标附加1层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.35,
-    "key1": "camp_amp_2",
-    "value1": 0.3
+    "mul": 2.09,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "1004001002": {
     "name": "主角技能",
@@ -20313,12 +20301,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成150%技能威力的法术伤害，对火系英雄伤害增加40%",
+    "des": "对敌方随机3人造成220%技能威力的法术伤害，并为目标附加1层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.5,
-    "key1": "camp_amp_2",
-    "value1": 0.4
+    "mul": 2.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "1004001003": {
     "name": "主角技能",
@@ -20327,12 +20315,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成165%技能威力的法术伤害，对火系英雄伤害增加50%",
+    "des": "对敌方随机3人造成231%技能威力的法术伤害，并为目标附加1层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.65,
-    "key1": "camp_amp_2",
-    "value1": 0.5
+    "mul": 2.31,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "1004001004": {
     "name": "主角技能",
@@ -20341,12 +20329,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成180%技能威力的法术伤害，对火系英雄伤害增加60%",
+    "des": "对敌方随机3人造成242%技能威力的法术伤害，并为目标附加1层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_2",
-    "value1": 0.6
+    "mul": 2.42,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "1004001005": {
     "name": "主角技能",
@@ -20355,14 +20343,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能时，为目标添加1层寒冷效果，持续2回合",
+    "des": "对敌方随机3人造成254%技能威力的法术伤害，并为目标附加1层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_2",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "1004001006": {
     "name": "主角技能",
@@ -20374,13 +20360,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_2",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004001007": {
     "name": "主角技能",
@@ -20389,18 +20373,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
+    "des": "对敌方随机3人造成267%技能威力的法术伤害，并为目标附加2层寒冷效果，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 2.1,
-    "key1": "camp_amp_2",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "tmp_crit",
-    "value4": 0.3
+    "mul": 2.67,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004002001": {
     "name": "主角技能",
@@ -20409,13 +20389,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成135%技能威力的物理伤害，对风系英雄伤害增加30%",
+    "des": "对敌方随机3人造成209%技能威力的物理伤害，为目标附加2回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.35,
-    "key1": "camp_amp_3",
-    "value1": 0.3,
-    "key2": "buff1"
+    "mul": 2.09,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004002002": {
     "name": "主角技能",
@@ -20424,13 +20403,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成150%技能威力的物理伤害，对风系英雄伤害增加40%",
+    "des": "对敌方随机3人造成220%技能威力的物理伤害，为目标附加2回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.5,
-    "key1": "camp_amp_3",
-    "value1": 0.4,
-    "key2": "buff1"
+    "mul": 2.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004002003": {
     "name": "主角技能",
@@ -20439,13 +20417,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成165%技能威力的物理伤害，对风系英雄伤害增加50%",
+    "des": "对敌方随机3人造成231%技能威力的物理伤害，为目标附加2回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.65,
-    "key1": "camp_amp_3",
-    "value1": 0.5,
-    "key2": "buff1"
+    "mul": 2.31,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004002004": {
     "name": "主角技能",
@@ -20454,13 +20431,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成180%技能威力的物理伤害，对风系英雄伤害增加60%",
+    "des": "对敌方随机3人造成242%技能威力的物理伤害，为目标附加2回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_3",
-    "value1": 0.6,
-    "key2": "buff1"
+    "mul": 2.42,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004002005": {
     "name": "主角技能",
@@ -20469,14 +20445,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能时，为目标添加灼烧效果",
+    "des": "对敌方随机3人造成254%技能威力的物理伤害，为目标附加2回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_3",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004002006": {
     "name": "主角技能",
@@ -20488,13 +20462,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_3",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004002007": {
     "name": "主角技能",
@@ -20503,18 +20475,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
+    "des": "对敌方随机3人造成267%技能威力的物理伤害，为目标附加3回合灼烧效果",
     "damageType": "phy",
     "targetType": "enemy_3",
-    "mul": 2.1,
-    "key1": "camp_amp_3",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "tmp_crit",
-    "value4": 0.3
+    "mul": 2.67,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":3,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004003001": {
     "name": "主角技能",
@@ -20523,13 +20491,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成135%技能威力的法术伤害，对水系英雄伤害增加30%",
+    "des": "对敌方随机3人造成209%技能威力的法术伤害，为目标添加1层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.35,
-    "key1": "camp_amp_1",
-    "value1": 0.3,
-    "key2": "buff1"
+    "mul": 2.09,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003002": {
     "name": "主角技能",
@@ -20538,13 +20505,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成150%技能威力的法术伤害，对水系英雄伤害增加40%",
+    "des": "对敌方随机3人造成220%技能威力的法术伤害，为目标添加1层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.5,
-    "key1": "camp_amp_1",
-    "value1": 0.4,
-    "key2": "buff1"
+    "mul": 2.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003003": {
     "name": "主角技能",
@@ -20553,13 +20519,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成165%技能威力的法术伤害，对水系英雄伤害增加50%",
+    "des": "对敌方随机3人造成231%技能威力的法术伤害，为目标添加1层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.65,
-    "key1": "camp_amp_1",
-    "value1": 0.5,
-    "key2": "buff1"
+    "mul": 2.31,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003004": {
     "name": "主角技能",
@@ -20568,13 +20533,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成180%技能威力的法术伤害，对水系英雄伤害增加60%",
+    "des": "对敌方随机3人造成242%技能威力的法术伤害，为目标添加1层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_1",
-    "value1": 0.6,
-    "key2": "buff1"
+    "mul": 2.42,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003005": {
     "name": "主角技能",
@@ -20583,14 +20547,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能时，为目标添加1层破甲效果",
+    "des": "对敌方随机3人造成254%技能威力的法术伤害，为目标添加1层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_1",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "1004003006": {
     "name": "主角技能",
@@ -20602,13 +20564,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 1.8,
-    "key1": "camp_amp_1",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15
+    "mul": 2.54,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004003007": {
     "name": "主角技能",
@@ -20617,18 +20577,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至210%，使用技能时暴力率临时增加30%",
+    "des": "对敌方随机3人造成267%技能威力的法术伤害，为目标添加2层破甲效果，持续3回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 2.1,
-    "key1": "camp_amp_1",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "tmp_crit",
-    "value4": 0.3
+    "mul": 2.67,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004004001": {
     "name": "主角技能",
@@ -20637,12 +20593,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成255%攻击的物理伤害，对暗系英雄伤害增加30%",
+    "des": "对敌方随机目标造成408%攻击的物理伤害，并有25%概率晕眩目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 2.55,
-    "key1": "camp_amp_5",
-    "value1": 0.3
+    "mul": 4.08,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004004002": {
     "name": "主角技能",
@@ -20651,12 +20607,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成280%攻击的物理伤害，对暗系英雄伤害增加40%",
+    "des": "对敌方随机目标造成429%攻击的物理伤害，并有25%概率晕眩目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 2.8,
-    "key1": "camp_amp_5",
-    "value1": 0.4
+    "mul": 4.29,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004004003": {
     "name": "主角技能",
@@ -20665,12 +20621,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成305%攻击的物理伤害，对暗系英雄伤害增加50%",
+    "des": "对敌方随机目标造成450%攻击的物理伤害，并有25%概率晕眩目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.05,
-    "key1": "camp_amp_5",
-    "value1": 0.5
+    "mul": 4.5,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004004004": {
     "name": "主角技能",
@@ -20679,12 +20635,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成330%攻击的物理伤害，对暗系英雄伤害增加60%",
+    "des": "对敌方随机目标造成472%攻击的物理伤害，并有25%概率晕眩目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_5",
-    "value1": 0.6
+    "mul": 4.72,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004004005": {
     "name": "主角技能",
@@ -20693,14 +20649,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能有55%概率眩晕目标，持续1回合",
+    "des": "释放技能有45%概率眩晕目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_5",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
+    "mul": 4.72,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004004006": {
     "name": "主角技能",
@@ -20712,13 +20666,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_5",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
-    "key3": "power_up",
-    "value3": 0.15
+    "mul": 4.72,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004004007": {
     "name": "主角技能",
@@ -20727,18 +20679,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至400%，使用技能时暴力率临时增加30%",
+    "des": "对敌方随机目标造成496%攻击的物理伤害，并有50%概率晕眩目标，持续1回合",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4,
-    "key1": "camp_amp_5",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "tmp_crit",
-    "value4": 0.3
+    "mul": 4.96,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004005001": {
     "name": "主角技能",
@@ -20747,12 +20695,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成255%攻击的法术伤害，对光系英雄伤害增加30%",
+    "des": "对敌方随机目标造成420%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 2.55,
-    "key1": "camp_amp_4",
-    "value1": 0.3
+    "mul": 4.2,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1004005002": {
     "name": "主角技能",
@@ -20761,12 +20709,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成280%攻击的法术伤害，对光系英雄伤害增加40%",
+    "des": "对敌方随机目标造成441%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 2.8,
-    "key1": "camp_amp_4",
-    "value1": 0.4
+    "mul": 4.41,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1004005003": {
     "name": "主角技能",
@@ -20775,12 +20723,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成305%攻击的法术伤害，对光系英雄伤害增加50%",
+    "des": "对敌方随机目标造成463%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 3.05,
-    "key1": "camp_amp_4",
-    "value1": 0.5
+    "mul": 4.63,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1004005004": {
     "name": "主角技能",
@@ -20789,12 +20737,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机目标造成330%攻击的法术伤害，对光系英雄伤害增加60%",
+    "des": "对敌方随机目标造成487%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_4",
-    "value1": 0.6
+    "mul": 4.87,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1004005005": {
     "name": "主角技能",
@@ -20803,14 +20751,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能为目标添加1回合禁魂效果",
+    "des": "对敌方随机目标造成512%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_4",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "mul": 5.12,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1004005006": {
     "name": "主角技能",
@@ -20822,13 +20768,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 3.3,
-    "key1": "camp_amp_4",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15
+    "mul": 5.12,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004005007": {
     "name": "主角技能",
@@ -20837,18 +20781,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能伤害增加至400%，使用技能时暴力率临时增加30%",
+    "des": "对敌方随机目标造成538%攻击的法术伤害，为目标添加1回合禁魂效果",
     "damageType": "mag",
     "targetType": "enemy_1",
-    "mul": 4,
-    "key1": "camp_amp_4",
-    "value1": 0.6,
-    "key2": "buff1",
-    "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "tmp_crit",
-    "value4": 0.3
+    "mul": 5.38,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004008001": {
     "name": "主角技能",
@@ -20857,10 +20797,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "降低敌方全体英雄20%的攻击力，持续2回合",
+    "des": "降低敌方全体英雄15%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
   },
   "1004008002": {
     "name": "主角技能",
@@ -20869,10 +20809,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "降低敌方全体英雄25%的攻击力，持续2回合",
+    "des": "降低敌方全体英雄20%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1004008003": {
     "name": "主角技能",
@@ -20881,10 +20821,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "降低敌方全体英雄30%的攻击力，持续2回合",
+    "des": "降低敌方全体英雄25%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "1004008004": {
     "name": "主角技能",
@@ -20893,10 +20833,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "降低敌方全体英雄35%的攻击力，持续2回合",
+    "des": "降低敌方全体英雄30%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "1004008005": {
     "name": "主角技能",
@@ -20905,12 +20845,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "释放技能后，敌方本回合内BP消耗增加1点",
+    "des": "降低敌方全体英雄35%的攻击力，持续2回合",
     "targetType": "enemy_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
-    "key2": "enemy_bp_up",
-    "value2": 1
+    "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
   },
   "1004008006": {
     "name": "主角技能",
@@ -20923,10 +20861,8 @@
     "targetType": "enemy_all",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
-    "key2": "enemy_bp_up",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004008007": {
     "name": "主角技能",
@@ -20939,12 +20875,8 @@
     "targetType": "enemy_all",
     "key1": "buff1",
     "value1": "{\"buffId\":\"atkLess\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
-    "key2": "enemy_bp_up",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "enemy_less_anger",
-    "value4": 1
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004009001": {
     "name": "主角技能",
@@ -20953,12 +20885,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成275%技能威力的法术伤害，有30%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成209%技能威力的法术伤害，有20%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 2.75,
+    "mul": 2.09,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}"
   },
   "1004009002": {
     "name": "主角技能",
@@ -20967,12 +20899,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成305%技能威力的法术伤害，有35%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成220%技能威力的法术伤害，有25%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.05,
+    "mul": 2.2,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "1004009003": {
     "name": "主角技能",
@@ -20981,12 +20913,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成335%技能威力的法术伤害，有40%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成231%技能威力的法术伤害，有30%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.35,
+    "mul": 2.31,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "1004009004": {
     "name": "主角技能",
@@ -20995,12 +20927,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3人造成365%技能威力的法术伤害，有45%概率造成冰冻，持续2回合",
+    "des": "对敌方随机3人造成242%技能威力的法术伤害，有35%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.65,
+    "mul": 2.42,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "1004009005": {
     "name": "主角技能",
@@ -21009,14 +20941,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "若未释放此技能，则每过一个回合，冰冻概率增加5%，可叠加，释放技能后重置。",
+    "des": "对敌方随机3人造成254%技能威力的法术伤害，有40%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.65,
+    "mul": 2.54,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.40}"
   },
   "1004009006": {
     "name": "主角技能",
@@ -21028,13 +20958,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.65,
+    "mul": 2.54,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.15
+    "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004009007": {
     "name": "主角技能",
@@ -21043,18 +20971,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "BP消耗降低至6点",
+    "des": "对敌方随机3人造成267%技能威力的法术伤害，有45%概率造成冰冻，持续2回合",
     "damageType": "mag",
     "targetType": "enemy_3",
-    "mul": 3.65,
+    "mul": 2.67,
     "key1": "buff1",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "NEED_BP",
-    "value4": 6
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004010001": {
     "name": "主角技能",
@@ -21063,12 +20987,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成225%技能威力的法术伤害，35%概率添加沉默",
+    "des": "对敌方单体造成390%技能威力的法术伤害，20%概率添加沉默",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 2.25,
+    "mul": 3.9,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
   "1004010002": {
     "name": "主角技能",
@@ -21077,12 +21001,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成275%技能威力的法术伤害，40%概率添加沉默",
+    "des": "对敌方单体造成410%技能威力的法术伤害，25%概率添加沉默",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 2.75,
+    "mul": 4.1,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
   },
   "1004010003": {
     "name": "主角技能",
@@ -21091,12 +21015,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成325%技能威力的法术伤害，45%概率添加沉默",
+    "des": "对敌方单体造成430%技能威力的法术伤害，30%概率添加沉默",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 3.25,
+    "mul": 4.3,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
   "1004010004": {
     "name": "主角技能",
@@ -21105,12 +21029,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成375%技能威力的法术伤害，50%概率添加沉默",
+    "des": "对敌方单体造成450%技能威力的法术伤害，35%概率添加沉默",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 3.75,
+    "mul": 4.5,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "1004010005": {
     "name": "主角技能",
@@ -21119,14 +21043,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "若未释放此技能，则每过一个回合，沉默概率增加5%，可叠加，释放技能后重置。",
+    "des": "对敌方单体造成475%技能威力的法术伤害，40%概率添加沉默",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 3.75,
+    "mul": 4.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
-    "key2": "round_buff_rate",
-    "value2": 0.05
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
   "1004010006": {
     "name": "主角技能",
@@ -21138,13 +21060,11 @@
     "des": "所有主动技能效果提升15%",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 3.75,
+    "mul": 4.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.15
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
+    "key2": "power_up",
+    "value2": 0.15
   },
   "1004010007": {
     "name": "主角技能",
@@ -21156,15 +21076,13 @@
     "des": "释放技能时，降低目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_normal",
-    "mul": 3.75,
+    "mul": 4.75,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.15,
-    "key4": "skill_less_anger",
-    "value4": 1
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
+    "key2": "power_up",
+    "value2": 0.15,
+    "key3": "skill_less_anger",
+    "value3": 1
   },
   "1005002001": {
     "name": "主角技能",
@@ -21173,10 +21091,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成235%技能威力的物理伤害，有30%概率眩晕目标。",
+    "des": "对敌方全体造成253%技能威力的物理伤害，有30%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.35,
+    "mul": 2.53,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
@@ -21187,10 +21105,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成255%技能威力的物理伤害，有35%概率眩晕目标。",
+    "des": "对敌方全体造成265%技能威力的物理伤害，有35%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.55,
+    "mul": 2.65,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -21201,10 +21119,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成275%技能威力的物理伤害，有40%概率眩晕目标。",
+    "des": "对敌方全体造成279%技能威力的物理伤害，有40%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.75,
+    "mul": 2.79,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
@@ -21215,10 +21133,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成295%技能威力的物理伤害，有45%概率眩晕目标。",
+    "des": "对敌方全体造成292%技能威力的物理伤害，有45%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.95,
+    "mul": 2.92,
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
   },
@@ -21229,14 +21147,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "若未释放此技能，则每过一个回合，眩晕概率增加5%，可叠加，释放技能后重置。",
+    "des": "对敌方全体造成307%技能威力的物理伤害，有50%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.95,
+    "mul": 3.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "1005002006": {
     "name": "主角技能",
@@ -21245,16 +21161,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "所有主动技能效果提升30%",
+    "des": "所有Z招式威力效果提升30%",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.95,
+    "mul": 3.07,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.3
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}",
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1005002007": {
     "name": "主角技能",
@@ -21263,20 +21177,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "技能开场即可使用，冷却回合降低至3回合",
+    "des": "对敌方全体造成322%技能威力的物理伤害，有60%概率眩晕目标。",
     "damageType": "phy",
     "targetType": "enemy_all",
-    "mul": 2.95,
+    "mul": 3.22,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}",
-    "key2": "round_buff_rate",
-    "value2": 0.05,
-    "key3": "power_up",
-    "value3": 0.3,
-    "key4": "NEED_CD",
-    "value4": 3,
-    "key5": "CUR_CD",
-    "value5": 0
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1005003001": {
     "name": "主角技能",
@@ -21285,12 +21193,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成300%技能威力的法术伤害，额外附加目标生命上限5%的伤害",
+    "des": "对敌方全体造成253%技能威力的法术伤害，额外附加目标生命上限8%的伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3,
+    "mul": 2.53,
     "key1": "maxHP_damage",
-    "value1": 0.05
+    "value1": 0.08
   },
   "1005003002": {
     "name": "主角技能",
@@ -21299,12 +21207,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成330%技能威力的法术伤害，额外附加目标生命上限8%的伤害",
+    "des": "对敌方全体造成265%技能威力的法术伤害，额外附加目标生命上限10%的伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.3,
+    "mul": 2.65,
     "key1": "maxHP_damage",
-    "value1": 0.08
+    "value1": 0.1
   },
   "1005003003": {
     "name": "主角技能",
@@ -21313,12 +21221,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成360%技能威力的法术伤害，额外附加目标生命上限11%的伤害",
+    "des": "对敌方全体造成279%技能威力的法术伤害，额外附加目标生命上限12%的伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.6,
+    "mul": 2.79,
     "key1": "maxHP_damage",
-    "value1": 0.11
+    "value1": 0.12
   },
   "1005003004": {
     "name": "主角技能",
@@ -21327,10 +21235,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成390%技能威力的法术伤害，额外附加目标生命上限14%的伤害",
+    "des": "对敌方全体造成292%技能威力的法术伤害，额外附加目标生命上限14%的伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.9,
+    "mul": 2.92,
     "key1": "maxHP_damage",
     "value1": 0.14
   },
@@ -21344,7 +21252,7 @@
     "des": "释放技能时，对目标添加禁魂效果，1回合内不可复活，直到效果回合结束，无法被净化",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.9,
+    "mul": 2.92,
     "key1": "maxHP_damage",
     "value1": 0.14,
     "key2": "buff1",
@@ -21360,7 +21268,7 @@
     "des": "所有主动技能效果提升30%",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.9,
+    "mul": 2.92,
     "key1": "maxHP_damage",
     "value1": 0.14,
     "key2": "buff1",
@@ -21378,7 +21286,7 @@
     "des": "技能额外附加目标生命上限25%的伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 3.9,
+    "mul": 2.92,
     "key1": "maxHP_damage",
     "value1": 0.25,
     "key2": "buff1",
@@ -21393,10 +21301,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2-4人造成220%技能威力的法术伤害，并添加1层感电。",
+    "des": "对敌方随机2人造成430%技能威力的法术伤害，并添加1层感电。",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 2.2,
+    "targetType": "enemy_2",
+    "mul": 4.3,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -21407,10 +21315,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2-4人造成250%技能威力的法术伤害",
+    "des": "对敌方随机2人造成451%技能威力的法术伤害，并添加1层感电。",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 2.5,
+    "targetType": "enemy_2",
+    "mul": 4.51,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -21421,10 +21329,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2-4人造成280%技能威力的法术伤害",
+    "des": "对敌方随机2人造成474%技能威力的法术伤害，并添加1层感电。",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 2.8,
+    "targetType": "enemy_2",
+    "mul": 4.74,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -21435,10 +21343,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机2-4人造成320%技能威力的法术伤害",
+    "des": "对敌方随机2人造成497%技能威力的法术伤害，并添加1层感电。",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 3.2,
+    "targetType": "enemy_2",
+    "mul": 4.97,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -21449,14 +21357,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "此技能每使用1次，降低1点BP消耗，最低降至3点。",
+    "des": "此技能造成伤害目标+1",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 3.2,
+    "targetType": "enemy_3",
+    "mul": 4.97,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": -1
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "1005004006": {
     "name": "主角技能",
@@ -21467,14 +21373,12 @@
     "type": "attack",
     "des": "所有主动技能效果提升30%",
     "damageType": "mag",
-    "targetType": "enemy_rand_24",
-    "mul": 3.2,
+    "targetType": "enemy_3",
+    "mul": 4.97,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": -1,
-    "key3": "power_up",
-    "value3": 0.3
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1005004007": {
     "name": "主角技能",
@@ -21483,16 +21387,14 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方随机3-5人造成350%技能威力的法术伤害",
+    "des": "对敌方随机3人造成522%技能威力的法术伤害，并添加1层感电。",
     "damageType": "mag",
-    "targetType": "enemy_rand_35",
-    "mul": 3.5,
+    "targetType": "enemy_3",
+    "mul": 5.22,
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": -1,
-    "key3": "power_up",
-    "value3": 0.3
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1005008001": {
     "name": "主角技能",
@@ -21501,10 +21403,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成330%技能威力的物理伤害",
+    "des": "对敌方单体造成657%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.3
+    "mul": 6.57
   },
   "1005008002": {
     "name": "主角技能",
@@ -21513,10 +21415,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成355%技能威力的物理伤害",
+    "des": "对敌方单体造成690%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.55
+    "mul": 6.9
   },
   "1005008003": {
     "name": "主角技能",
@@ -21525,10 +21427,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成380%技能威力的物理伤害",
+    "des": "对敌方单体造成724%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 3.8
+    "mul": 7.24
   },
   "1005008004": {
     "name": "主角技能",
@@ -21537,10 +21439,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成405%技能威力的物理伤害",
+    "des": "对敌方单体造成760%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4.05
+    "mul": 7.6
   },
   "1005008005": {
     "name": "主角技能",
@@ -21549,12 +21451,10 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "此技能每使用1次，增加10%最终伤害结果，可叠加",
+    "des": "对敌方单体造成798%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4.05,
-    "key1": "use_up_mul",
-    "value1": 0.1
+    "mul": 7.98
   },
   "1005008006": {
     "name": "主角技能",
@@ -21566,11 +21466,9 @@
     "des": "所有主动技能效果提升30%",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4.05,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.3
+    "mul": 7.98,
+    "key1": "power_up",
+    "value1": 0.3
   },
   "1005008007": {
     "name": "主角技能",
@@ -21579,16 +21477,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "使用此技能击杀目标后，返还1点BP",
+    "des": "对敌方单体造成838%技能威力的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_1",
-    "mul": 4.05,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.3,
-    "key3": "power_kill_bp",
-    "value3": 1
+    "mul": 8.38,
+    "key1": "power_up",
+    "value1": 0.3
   },
   "1005010001": {
     "name": "主角技能",
@@ -21696,9 +21590,7 @@
     "key2": "buff1",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key3": "power_up",
-    "value3": 0.3,
-    "key4": "seckill",
-    "value4": 1
+    "value3": 0.3
   },
   "1006031001": {
     "name": "步步生莲",
@@ -21707,9 +21599,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复70%技能威力的生命值",
+    "des": "为我方血量最少的2个目标恢复224%技能威力的生命值",
     "targetType": "team_minHp_2",
-    "mul": 0.7
+    "mul": 2.24
   },
   "1006031002": {
     "name": "步步生莲",
@@ -21718,9 +21610,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复80%技能威力的生命值",
+    "des": "为我方血量最少的2个目标恢复235%技能威力的生命值",
     "targetType": "team_minHp_2",
-    "mul": 0.8
+    "mul": 2.35
   },
   "1006031003": {
     "name": "步步生莲",
@@ -21729,9 +21621,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复90%技能威力的生命值",
+    "des": "为我方血量最少的2个目标恢复247%技能威力的生命值",
     "targetType": "team_minHp_2",
-    "mul": 0.9
+    "mul": 2.47
   },
   "1006031004": {
     "name": "步步生莲",
@@ -21740,9 +21632,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复100%技能威力的生命值",
+    "des": "为我方血量最少的2个目标恢复260%技能威力的生命值",
     "targetType": "team_minHp_2",
-    "mul": 1
+    "mul": 2.6
   },
   "1006031005": {
     "name": "步步生莲",
@@ -21753,7 +21645,7 @@
     "type": "heal",
     "des": "释放技能时驱散目标身上的1个非控制类异常状态",
     "targetType": "team_minHp_2",
-    "mul": 1,
+    "mul": 2.6,
     "key1": "clean_one_lowe",
     "value1": true
   },
@@ -21766,7 +21658,7 @@
     "type": "heal",
     "des": "所有主动技能效果提升15%",
     "targetType": "team_minHp_2",
-    "mul": 1,
+    "mul": 2.6,
     "key1": "clean_one_lowe",
     "value1": true,
     "key2": "power_up",
@@ -21781,7 +21673,7 @@
     "type": "heal",
     "des": "技能目标增加为我方血量最少的3个目标",
     "targetType": "team_minHp_3",
-    "mul": 1,
+    "mul": 2.6,
     "key1": "clean_one_lowe",
     "value1": true,
     "key2": "power_up",
@@ -21794,9 +21686,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "恢复我方血量最少的目标200%技能威力的生命值",
+    "des": "恢复我方血量最少的目标389%技能威力的生命值",
     "targetType": "friend_minHp_1",
-    "mul": 2
+    "mul": 3.89
   },
   "1006041002": {
     "name": "镜花水月",
@@ -21805,9 +21697,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "恢复我方血量最少的目标220%技能威力的生命值",
+    "des": "恢复我方血量最少的目标408%技能威力的生命值",
     "targetType": "friend_minHp_1",
-    "mul": 2.2
+    "mul": 4.08
   },
   "1006041003": {
     "name": "镜花水月",
@@ -21816,9 +21708,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "恢复我方血量最少的目标240%技能威力的生命值",
+    "des": "恢复我方血量最少的目标429%技能威力的生命值",
     "targetType": "friend_minHp_1",
-    "mul": 2.4
+    "mul": 4.29
   },
   "1006041004": {
     "name": "镜花水月",
@@ -21827,9 +21719,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "恢复我方血量最少的目标260%技能威力的生命值",
+    "des": "恢复我方血量最少的目标450%技能威力的生命值",
     "targetType": "friend_minHp_1",
-    "mul": 2.6
+    "mul": 4.5
   },
   "1006041005": {
     "name": "镜花水月",
@@ -21838,11 +21730,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "此技能每使用1次，增加10%最终治疗结果，可叠加",
+    "des": "恢复我方血量最少的目标472%技能威力的生命值",
     "targetType": "friend_minHp_1",
-    "mul": 2.6,
-    "key1": "use_up_mul",
-    "value1": 0.1
+    "mul": 4.72
   },
   "1006041006": {
     "name": "镜花水月",
@@ -21853,11 +21743,9 @@
     "type": "heal",
     "des": "所有主动技能效果提升20%",
     "targetType": "friend_minHp_1",
-    "mul": 2.6,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.2
+    "mul": 4.72,
+    "key1": "power_up",
+    "value1": 0.2
   },
   "1006041007": {
     "name": "镜花水月",
@@ -21866,15 +21754,13 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "使用此技能后，降低下一个技能BP消耗1点",
+    "des": "恢复我方血量最少的目标496%技能威力的生命值，并为目标附加30%生命护盾，持续2回合",
     "targetType": "friend_minHp_1",
-    "mul": 2.6,
-    "key1": "use_up_mul",
-    "value1": 0.1,
-    "key2": "power_up",
-    "value2": 0.2,
-    "key3": "use_un_bp",
-    "value3": 1
+    "mul": 4.96,
+    "key1": "power_up",
+    "value1": 0.2,
+    "key2": "buff1",
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "1006051001": {
     "name": "神采奕奕",
@@ -21883,9 +21769,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗100%攻击的生命,并提高16%的免伤，持续2回合",
+    "des": "为我方全体治疗227%攻击的生命,并提高16%的免伤，持续2回合",
     "targetType": "team_all",
-    "mul": 1,
+    "mul": 2.27,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
   },
@@ -21896,9 +21782,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗120%攻击的生命,并提高20%的免伤，持续2回合",
+    "des": "为我方全体治疗239%攻击的生命,并提高20%的免伤，持续2回合",
     "targetType": "team_all",
-    "mul": 1.2,
+    "mul": 2.39,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
@@ -21909,9 +21795,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗140%攻击的生命,并提高24%的免伤，持续2回合",
+    "des": "为我方全体治疗251%攻击的生命,并提高24%的免伤，持续2回合",
     "targetType": "team_all",
-    "mul": 1.4,
+    "mul": 2.51,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
   },
@@ -21922,9 +21808,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗160%攻击的生命,并提高28%的免伤，持续2回合",
+    "des": "为我方全体治疗263%攻击的生命,并提高28%的免伤，持续2回合",
     "targetType": "team_all",
-    "mul": 1.6,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
@@ -21937,7 +21823,7 @@
     "type": "heal",
     "des": "释放技能时添加伤害吸收盾，吸收生命值上限30%的伤害，持续1回合",
     "targetType": "team_all",
-    "mul": 1.6,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "buff2",
@@ -21952,13 +21838,13 @@
     "type": "heal",
     "des": "所有主动技能效果提升30%",
     "targetType": "team_all",
-    "mul": 1.6,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
     "key3": "power_up",
-    "value3": 0.15
+    "value3": 0.3
   },
   "1006051007": {
     "name": "神采奕奕",
@@ -21969,13 +21855,13 @@
     "type": "heal",
     "des": "释放技能时，为我方随机单体添加无敌盾，持续1回合",
     "targetType": "team_all",
-    "mul": 1.6,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
     "key2": "buff2",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}",
     "key3": "power_up",
-    "value3": 0.15,
+    "value3": 0.3,
     "key4": "buff3",
     "value4": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -21986,9 +21872,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗235%攻击的生命,并添加持续恢复效果，每回合恢复30%攻击的生命值，持续2回合",
+    "des": "为我方全体治疗227%技能威力的生命,并添加持续恢复效果，每回合恢复30%技能威力的生命值，持续2回合",
     "targetType": "team_all",
-    "mul": 2.35,
+    "mul": 2.27,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
@@ -21999,9 +21885,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗270%攻击的生命，每回合恢复50%攻击的生命值，持续2回合",
+    "des": "为我方全体治疗239%技能威力的生命，每回合恢复50%技能威力的生命值，持续2回合",
     "targetType": "team_all",
-    "mul": 2.7,
+    "mul": 2.39,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
   },
@@ -22012,9 +21898,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗305%攻击的生命，每回合恢复70%攻击的生命值，持续2回合",
+    "des": "为我方全体治疗251%技能威力的生命，每回合恢复70%技能威力的生命值，持续2回合",
     "targetType": "team_all",
-    "mul": 3.05,
+    "mul": 2.51,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.7,\"duration\":2,\"buffRate\":1}"
   },
@@ -22025,9 +21911,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方全体治疗340%攻击的生命，每回合恢复100%攻击的生命值，持续2回合",
+    "des": "为我方全体治疗263%技能威力的生命，每回合恢复100%技能威力的生命值，持续2回合",
     "targetType": "team_all",
-    "mul": 3.4,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -22040,7 +21926,7 @@
     "type": "heal",
     "des": "治疗时驱散目标所有负面状态",
     "targetType": "team_all",
-    "mul": 3.4,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "cleanDebuff",
@@ -22055,7 +21941,7 @@
     "type": "heal",
     "des": "所有主动技能效果提升30%",
     "targetType": "team_all",
-    "mul": 3.4,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "cleanDebuff",
@@ -22072,7 +21958,7 @@
     "type": "heal",
     "des": "技能额外恢复目标生命上限20%的血量",
     "targetType": "team_all",
-    "mul": 3.4,
+    "mul": 2.63,
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "cleanDebuff",
@@ -22089,10 +21975,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄16%的攻击力，持续2回合",
+    "des": "提高我方全体英雄20%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "1006053002": {
     "name": "釜底抽薪",
@@ -22101,10 +21987,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄20%的攻击力，持续2回合",
+    "des": "提高我方全体英雄24%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
   },
   "1006053003": {
     "name": "釜底抽薪",
@@ -22113,10 +21999,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄24%的攻击力，持续2回合",
+    "des": "提高我方全体英雄28%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
   "1006053004": {
     "name": "釜底抽薪",
@@ -22125,10 +22011,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄28%的攻击力，持续2回合",
+    "des": "提高我方全体英雄32%的攻击力，持续2回合",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}"
   },
   "1006053005": {
     "name": "釜底抽薪",
@@ -22140,7 +22026,7 @@
     "des": "释放技能时，为我方攻击力最高的英雄恢复1点怒气",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_add_maxAtk_anger",
     "value2": 1
   },
@@ -22154,7 +22040,7 @@
     "des": "所有主动技能效果提升15%",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_add_maxAtk_anger",
     "value2": 1,
     "key3": "power_up",
@@ -22170,7 +22056,7 @@
     "des": "释放技能时，为我方全体英雄恢复1点怒气",
     "targetType": "team_all",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_anger_a",
     "value2": 1,
     "key3": "power_up",
@@ -22182,12 +22068,12 @@
     "icon": 1006054001,
     "qa": 3,
     "anger": 4,
-    "des": "40%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "type": "attack",
+    "des": "对敌方随机1个目标造成505%技能威力伤害，并有40%概率随机放逐目标1回合",
     "targetType": "enemy_1",
+    "mul": 5.05,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}",
-    "key2": "use_change_bp",
-    "value2": 1
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
   "1006054002": {
     "name": "浮生若梦",
@@ -22195,12 +22081,12 @@
     "icon": 1006054002,
     "qa": 3,
     "anger": 4,
-    "des": "60%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "type": "attack",
+    "des": "对敌方随机1个目标造成531%技能威力伤害，并有45%概率随机放逐目标1回合",
     "targetType": "enemy_1",
+    "mul": 5.31,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}",
-    "key2": "use_change_bp",
-    "value2": 1
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
   },
   "1006054003": {
     "name": "浮生若梦",
@@ -22208,12 +22094,12 @@
     "icon": 1006054003,
     "qa": 3,
     "anger": 4,
-    "des": "80%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗加1",
+    "type": "attack",
+    "des": "对敌方随机1个目标造成557%技能威力伤害，并有50%概率随机放逐目标1回合",
     "targetType": "enemy_1",
+    "mul": 5.57,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.8}",
-    "key2": "use_change_bp",
-    "value2": 1
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "1006054004": {
     "name": "浮生若梦",
@@ -22221,12 +22107,12 @@
     "icon": 1006054004,
     "qa": 3,
     "anger": 4,
-    "des": "100%概率随机放逐一个敌方目标，持续1回合，此技能每次使用，BP消耗+1",
+    "type": "attack",
+    "des": "对敌方随机1个目标造成585%技能威力伤害，并有55%概率随机放逐目标1回合",
     "targetType": "enemy_1",
+    "mul": 5.85,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
   },
   "1006054005": {
     "name": "浮生若梦",
@@ -22234,14 +22120,12 @@
     "icon": 1006054005,
     "qa": 3,
     "anger": 4,
-    "des": "使用技能时，敌方所有技能增加1回合冷却时间",
+    "type": "attack",
+    "des": "放逐概率提示至70%",
     "targetType": "enemy_1",
+    "mul": 5.85,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
   },
   "1006054006": {
     "name": "浮生若梦",
@@ -22249,16 +22133,14 @@
     "icon": 1006054006,
     "qa": 3,
     "anger": 4,
+    "type": "attack",
     "des": "所有主动技能效果提升30%",
     "targetType": "enemy_1",
+    "mul": 5.85,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1,
-    "key4": "power_up",
-    "value4": 0.3
+    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}",
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1006054007": {
     "name": "浮生若梦",
@@ -22266,18 +22148,14 @@
     "icon": 1006054007,
     "qa": 3,
     "anger": 4,
-    "des": "使用技能时，敌方本回合内所有BP消耗增加1点",
+    "type": "attack",
+    "des": "对敌方随机1个目标造成614%攻击伤害，并有100%概率随机放逐目标1回合",
     "targetType": "enemy_1",
+    "mul": 6.14,
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "use_change_bp",
-    "value2": 1,
-    "key3": "enemy_cd_up",
-    "value3": 1,
-    "key4": "power_up",
-    "value4": 0.3,
-    "key5": "enemy_bp_up",
-    "value5": 1
+    "key2": "power_up",
+    "value2": 0.3
   },
   "1006055001": {
     "name": "斗转星移",
@@ -22286,9 +22164,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复120%技能威力的生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方英雄，恢复其10%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复380%技能威力的生命值，此技能每次使用BP消耗+1",
     "targetType": "team_minHp_1",
-    "mul": 1.2,
+    "mul": 3.8,
     "key1": "rescue_heal",
     "value1": 0.1,
     "key4": "use_change_bp",
@@ -22301,9 +22179,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其25%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复150%技能威力的生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方英雄，恢复其25%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复400%技能威力的生命值，此技能每次使用BP消耗+1",
     "targetType": "team_minHp_1",
-    "mul": 1.5,
+    "mul": 4,
     "key1": "rescue_heal",
     "value1": 0.25,
     "key4": "use_change_bp",
@@ -22316,9 +22194,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其40%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复180%技能威力的生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方英雄，恢复其40%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复420%技能威力的生命值，此技能每次使用BP消耗+1",
     "targetType": "team_minHp_1",
-    "mul": 1.8,
+    "mul": 4.2,
     "key1": "rescue_heal",
     "value1": 0.4,
     "key4": "use_change_bp",
@@ -22331,9 +22209,9 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "随机复活一名友方英雄，恢复其55%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复210%技能威力的生命值，此技能每次使用BP消耗+1",
+    "des": "随机复活一名友方英雄，恢复其55%的生命值。若没有队友阵亡，则为生命值最低的友方英雄恢复440%技能威力的生命值，此技能每次使用BP消耗+1",
     "targetType": "team_minHp_1",
-    "mul": 2.1,
+    "mul": 4.4,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key4": "use_change_bp",
@@ -22348,7 +22226,7 @@
     "type": "heal",
     "des": "释放技能时，为目标添加无敌盾，持续1回合",
     "targetType": "team_minHp_1",
-    "mul": 2.1,
+    "mul": 4.4,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key2": "buff1",
@@ -22365,7 +22243,7 @@
     "type": "heal",
     "des": "所有主动技能效果提升30%",
     "targetType": "team_minHp_1",
-    "mul": 2.1,
+    "mul": 4.4,
     "key1": "rescue_heal",
     "value1": 0.55,
     "key2": "buff1",
@@ -22384,7 +22262,7 @@
     "type": "heal",
     "des": "复活恢复目标所有血量，无敌盾升级为超级无敌盾，免疫所有伤害和控制效果",
     "targetType": "team_minHp_1",
-    "mul": 2.1,
+    "mul": 4.4,
     "key1": "rescue_heal",
     "value1": 1,
     "key2": "buff1",
@@ -22415,14 +22293,12 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "伤害增加15%，BP消耗降低至11",
+    "des": "伤害增加15%",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 11
+    "value2": true
   },
   "1006056003": {
     "name": "神机妙算",
@@ -22431,14 +22307,12 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "伤害增加20%，BP消耗降低至10",
+    "des": "伤害增加20%",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 10
+    "value2": true
   },
   "1006056004": {
     "name": "神机妙算",
@@ -22447,14 +22321,12 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "伤害增加25%，BP消耗降低至9",
+    "des": "伤害增加25%",
     "targetType": "team_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 9
+    "value2": true
   },
   "1006056005": {
     "name": "神机妙算",
@@ -22468,9 +22340,7 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
-    "value2": true,
-    "key5": "NEED_BP",
-    "value5": 9
+    "value2": true
   },
   "1006056006": {
     "name": "神机妙算",
@@ -22480,15 +22350,13 @@
     "anger": 4,
     "type": "heal",
     "des": "所有主动技能效果提升30%",
-    "targetType": "team_1",
+    "targetType": "team_maxAtk_1",
     "key1": "buff1",
     "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
     "key2": "extraAtion",
     "value2": true,
     "key3": "power_up",
-    "value3": 0.3,
-    "key5": "NEED_BP",
-    "value5": 9
+    "value3": 0.3
   },
   "1006056007": {
     "name": "神机妙算",
@@ -22497,18 +22365,14 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "技能开场即可使用，BP消耗降低至6点",
-    "targetType": "team_1",
+    "des": "伤害增加50%,持续2个回合",
+    "targetType": "team_maxAtk_1",
     "key1": "buff1",
-    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"amplify\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}",
     "key2": "extraAtion",
     "value2": true,
     "key3": "power_up",
-    "value3": 0.3,
-    "key4": "CUR_CD",
-    "value4": 0,
-    "key5": "NEED_BP",
-    "value5": 6
+    "value3": 0.3
   },
   "dz_001": {
     "name": "怒气技能",
