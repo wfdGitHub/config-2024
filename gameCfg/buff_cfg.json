@@ -10,7 +10,7 @@
   },
   "poison": {
     "name": "中毒",
-    "des": "每回合损失3%的最大生命值，受治疗效果降低12%，持续3回合，最多可叠加5层，效果随层数提高。",
+    "des": "每回合损失5%的最大生命值,最多可叠加5层",
     "refreshType": "before",
     "lower": true,
     "hurt": true,
@@ -294,7 +294,7 @@
   },
   "sneak": {
     "name": "潜行",
-    "des": "潜行状态下不会被攻击。自身回合开始时，若没有其他存活的队友，则潜行消失",
+    "des": "潜行状态下不会被常规单位选中。自身回合开始时，若没有其他存活的队友，则潜行消失",
     "refreshType": "roundOver",
     "effects": true
   },
@@ -521,5 +521,37 @@
     "max": 1,
     "default": true,
     "effects": true
+  },
+  "wushu": {
+    "name": "巫术",
+    "des": "每回合损失3%最大生命值，受治疗效果降低12%",
+    "refreshType": "after",
+    "duration": 1,
+    "max": 1
+  },
+  "wudu": {
+    "name": "巫毒",
+    "des": "每回合损失3%最大生命值，受治疗效果降低12%,最多可叠加3层",
+    "refreshType": "after",
+    "duration": 1,
+    "max": 3
+  },
+  "fragile": {
+    "name": "易伤",
+    "des": "受到伤害增加15%",
+    "refreshType": "roundOver",
+    "duration": 1,
+    "max": 1,
+    "lower": true,
+    "debuff": true,
+    "default": true
+  },
+  "roundRed": {
+    "name": "坚韧",
+    "des": "本回合内，每次受到攻击自身增加减伤，最多可叠加3层",
+    "refreshType": "roundOver",
+    "duration": 1,
+    "max": 3,
+    "default": true
   }
 }
