@@ -524,14 +524,14 @@
   },
   "wushu": {
     "name": "巫术",
-    "des": "每回合损失3%最大生命值，受治疗效果降低12%",
+    "des": "每回合损失3%最大生命值，受治疗效果降低15%",
     "refreshType": "after",
     "duration": 1,
     "max": 1
   },
   "wudu": {
     "name": "巫毒",
-    "des": "每回合损失3%最大生命值，受治疗效果降低12%,最多可叠加3层",
+    "des": "每回合损失3%最大生命值，受治疗效果降低15%,最多可叠加3层",
     "refreshType": "after",
     "duration": 1,
     "max": 3
@@ -552,6 +552,24 @@
     "refreshType": "roundOver",
     "duration": 1,
     "max": 3,
+    "default": true
+  },
+  "xushi": {
+    "name": "蓄势",
+    "des": "每次受到攻击时，可获得伤害加成，可叠加5层。死亡后清除，护佑、归一触发后不清除",
+    "refreshType": "roundOver",
+    "duration": 99,
+    "max": 5,
+    "intensify": true,
+    "default": true
+  },
+  "qishi": {
+    "name": "气势",
+    "des": "每击杀一个单位获得暴击提升，伤害提升，可叠加5层。死亡后清除，护佑、归一触发后不清除",
+    "refreshType": "roundOver",
+    "duration": 99,
+    "max": 5,
+    "intensify": true,
     "default": true
   }
 }
