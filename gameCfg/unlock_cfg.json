@@ -210,6 +210,12 @@
     "desc": "可为装备镶嵌宝石，提高装备性能",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
+  "fabao": {
+    "name": "宝具",
+    "openlv": 45,
+    "award": "202:100",
+    "desc": "宝具可以给予佩戴它的忍者以全面性的加成"
+  },
   "crossPK": {
     "name": "跨服段位赛",
     "openlv": 32,
@@ -225,15 +231,9 @@
     "desc": "宝物能给予佩戴忍者强大的被动能力加成",
     "target": "uiNode/frontNode/bottomNode/btnHero"
   },
-  "fabao": {
-    "name": "宝具",
-    "openlv": 45,
-    "award": "202:100",
-    "desc": "宝具可以给予佩戴它的忍者以全面性的加成"
-  },
   "zhanfa": {
     "name": "忍具",
-    "openlv": 60,
+    "openlv": 30,
     "award": "202:100",
     "desc": "忍具能给予佩戴它的忍者特殊的被动能力",
     "target": "uiNode/frontNode/bottomNode/btnOffice"
@@ -242,7 +242,7 @@
     "name": "木叶危机",
     "openlv": 39,
     "award": "202:100",
-    "desc": "持续对战，胜出木叶危机",
+    "desc": "持续对战，解决木叶危机",
     "icon": 2004100,
     "target": "uiNode/frontNode/bottomNode/btnPlaying"
   },
@@ -271,6 +271,14 @@
     "icon": 212,
     "target": "uiNode/frontNode/bottomNode/btnPlaying",
     "showType": 2
+  },
+  "manor_challenge": {
+    "name": "忍村挑战",
+    "openlv": 70
+  },
+  "power": {
+    "name": "密卷",
+    "openlv": 80
   },
   "recruit": {
     "name": "招募伙伴",
