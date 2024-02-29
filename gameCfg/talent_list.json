@@ -6934,7 +6934,7 @@
     "qa": 1,
     "des": "每回合为自身附加1层坚毅效果",
     "key1": "action_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90140018": {
     "icon": 50021006,
@@ -7684,9 +7684,11 @@
     "icon": 50023006,
     "name": "坚毅",
     "qa": 2,
-    "des": "每回合为自身附加2层坚毅效果",
+    "des": "每回合为自身附加1层坚毅效果,并在行动后回复自身生命上限5%的血量",
     "key1": "action_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":0.65}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "action_heal",
+    "value2": 0.05
   },
   "90240018": {
     "icon": 50024004,
@@ -8462,9 +8464,11 @@
     "icon": 50012004,
     "name": "坚毅",
     "qa": 3,
-    "des": "每回合为自身附加3层坚毅效果",
+    "des": "每回合为自身附加1层坚毅效果，并在行动后回复自身生命上限10%的血量",
     "key1": "action_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":0.65}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "action_heal",
+    "value2": 0.1
   },
   "90340018": {
     "icon": 50012005,
