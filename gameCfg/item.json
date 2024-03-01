@@ -5780,8 +5780,20 @@
     "source3": "tower_realm"
   },
   "1000060": {
+    "name": "镀金石",
+    "des": "镀金石，可以在【铁匠铺】中的【金装】分页中将普通装备提升至金装",
+    "isBag": true,
+    "type": "item",
+    "gold": 1000,
+    "coin": 5000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "1000061": {
     "name": "神铸石",
-    "des": "神铸石，可以将装载铸造成神装",
+    "des": "神铸石，可以在【铁匠铺】中的【神装】分页中将金装提升至神装",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -5930,14 +5942,14 @@
     "source2": "areaTrial"
   },
   "1000190": {
-    "name": "六星石",
-    "des": "六星石,能够在主城【英雄殿】中的【英雄直升】成中将英雄直升至六星",
+    "name": "封王诏书",
+    "des": "封王诏书,能够在主城【英雄殿】中的【英雄直升】成中将英雄直升至六星",
     "isBag": true,
     "type": "item",
     "gold": 5000,
     "coin": 25000000,
     "buyNum": 1,
-    "quality": 6,
+    "quality": 5,
     "effects": "baowu",
     "source1": "gift"
   },
@@ -6204,8 +6216,8 @@
     "source1": "gift"
   },
   "1001100": {
-    "name": "传奇石",
-    "des": "传奇宝石,可以让英雄突破限制,提升至传奇星级",
+    "name": "战功录",
+    "des": "战功录,用于将英雄品级提升至【暗金】，解锁英雄11-15星",
     "isBag": true,
     "type": "item",
     "gold": 1000,
@@ -6216,12 +6228,36 @@
     "source1": "gift"
   },
   "1001200": {
-    "name": "神将石",
-    "des": "神将宝石,可以让英雄突破限制,提升至神将星级",
+    "name": "册封令",
+    "des": "册封令,用于将英雄品级提升至【幻彩】，解锁英雄16-20星",
     "isBag": true,
     "type": "item",
-    "gold": 1000,
-    "coin": 5000000,
+    "gold": 2000,
+    "coin": 10000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "1001300": {
+    "name": "传国玉玺",
+    "des": "传国玉玺,用于将英雄品级提升至【无双】，解锁英雄21-25星",
+    "isBag": true,
+    "type": "item",
+    "gold": 5000,
+    "coin": 25000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "1001400": {
+    "name": "无字天书",
+    "des": "无字天书,用于将英雄品级提升至【神品】，解锁英雄25-30星",
+    "isBag": true,
+    "type": "item",
+    "gold": 10000,
+    "coin": 50000000,
     "buyNum": 1,
     "quality": 5,
     "effects": "baowu",
@@ -10990,6 +11026,21 @@
     "source2": "gift",
     "source3": "crossTop"
   },
+  "103100002": {
+    "name": "神器材料宝箱",
+    "des": "神器材料宝箱,开启可获得以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "tsspfd_chest_2",
+    "gold": 1000,
+    "coin": 5000000,
+    "buyNum": 1,
+    "quality": 5,
+    "source1": "crossTeamPK",
+    "source2": "gift",
+    "source3": "crossTop"
+  },
   "104501010": {
     "name": "神秘绿色宝石",
     "des": "神秘绿色宝石,开启可获得以下物品中的一个",
@@ -13487,6 +13538,20 @@
     "type": "item",
     "useType": "optional",
     "arg": "[\"201:50000000\",\"101:10000000\",\"1000050:20000\",\"1000080:100\",\"1000300:1000000\"]",
+    "gold": 15000,
+    "coin": 75000000,
+    "buyNum": 1,
+    "quality": 5,
+    "effects": "baowu",
+    "source1": "gift"
+  },
+  "307001002": {
+    "name": "超级无双技自选箱",
+    "des": "超级无双技自选箱,开启选择以下物品中的一个",
+    "isBag": true,
+    "type": "item",
+    "useType": "optional",
+    "arg": "[\"500200:100\",\"500300:100\",\"500400:100\",\"500800:100\",\"501000:100\"]",
     "gold": 15000,
     "coin": 75000000,
     "buyNum": 1,

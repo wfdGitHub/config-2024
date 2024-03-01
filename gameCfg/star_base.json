@@ -12,21 +12,19 @@
   },
   "3": {
     "att": "maxHP:500&atk:100&phyDef:30&magDef:30&speed:15",
-    "pc_hero": "[[\"self\"]]",
     "ce": 5280,
     "gather": 5,
     "pr": "1000010:10"
   },
   "4": {
     "att": "maxHP:800&atk:150&phyDef:50&magDef:50&speed:20",
-    "pc_hero": "[[\"self\"]]",
     "ce": 6600,
     "gather": 6,
     "pr": "1000010:20"
   },
   "5": {
     "att": "maxHP:1000&atk:200&phyDef:60&magDef:50&speed:25",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 8000,
     "gather": 8,
     "pc": "1000010:300",
@@ -34,7 +32,7 @@
   },
   "6": {
     "att": "maxHP:2200&atk:330&phyDef:110&magDef:110&speed:30",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 42840,
     "gather": 3,
     "pc": "1000010:600",
@@ -42,7 +40,7 @@
   },
   "7": {
     "att": "maxHP:3400&atk:510&phyDef:170&magDef:170&speed:50",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 60480,
     "gather": 4,
     "pc": "1000010:1800",
@@ -50,7 +48,7 @@
   },
   "8": {
     "att": "maxHP:4600&atk:690&phyDef:230&magDef:230&speed:80",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 88120,
     "gather": 6,
     "pc": "1000010:3600",
@@ -58,7 +56,7 @@
   },
   "9": {
     "att": "maxHP:5800&atk:870&phyDef:290&magDef:290&speed:120",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"realm_rand\",6],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "ce": 125760,
     "gather": 8,
     "pc": "1000010:10000",
@@ -66,168 +64,168 @@
   },
   "10": {
     "att": "maxHP:7000&atk:1050&phyDef:350&magDef:350&speed:180",
-    "pc_hero": "[[\"realm_rand\",10],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
+    "pc_hero": "[[\"realm_rand\",10],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5]]",
     "ce": 208400,
     "gather": 12,
-    "pc": "1000010:4800&1001100:10",
+    "pc": "1000010:4800&1001100:12",
     "pr": "1000010:20900"
   },
   "11": {
     "att": "maxHP:20000&atk:1500&phyDef:500&magDef:500&speed:220",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 277000,
     "gather": 16,
-    "pc": "1000010:4800&1001100:30",
-    "pr": "1000010:25700&1001100:10"
+    "pc": "1000010:4800&1001100:24",
+    "pr": "1000010:25700&1001100:12"
   },
   "12": {
     "att": "maxHP:24000&atk:1800&phyDef:600&magDef:600&speed:240",
-    "pc_hero": "[[\"self\"],[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4]]",
     "ce": 345600,
     "gather": 8,
-    "pc": "1000010:4800&1001100:90",
-    "pr": "1000010:30500&1001100:40"
+    "pc": "1000010:4800&1001100:72",
+    "pr": "1000010:30500&1001100:36"
   },
   "13": {
     "att": "maxHP:28000&atk:2100&phyDef:700&magDef:700&speed:260",
-    "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "ce": 414200,
     "gather": 10,
-    "pc": "1000010:4800&1001100:180",
-    "pr": "1000010:35300&1001100:130"
+    "pc": "1000010:4800&1001100:144",
+    "pr": "1000010:35300&1001100:108"
   },
   "14": {
     "att": "maxHP:32000&atk:2400&phyDef:800&magDef:800&speed:280",
-    "pc_hero": "[[\"realm_rand\",11],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6]]",
+    "pc_hero": "[[\"realm_rand\",10],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5]]",
     "ce": 482800,
     "gather": 12,
-    "pc": "1000010:15000&1001100:360",
-    "pr": "1000010:50300&1001100:310"
+    "pc": "1000010:15000&1001100:256",
+    "pr": "1000010:50300&1001100:252"
   },
   "15": {
     "att": "maxHP:34000&atk:2700&phyDef:900&magDef:900&speed:300",
-    "pc_hero": "[[\"realm_rand\",15],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11]]",
+    "pc_hero": "[[\"rand\",15],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10]]",
     "ce": 551400,
     "gather": 20,
-    "pc": "1000010:9600&1001200:30",
-    "pr": "1000010:59900&1001100:670"
+    "pc": "1000010:9600&1001200:24",
+    "pr": "1000010:59900&1001100:508"
   },
   "16": {
     "att": "maxHP:37000&atk:3000&phyDef:1000&magDef:1000&speed:320",
-    "pc_hero": "[[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 671400,
     "gather": 28,
-    "pc": "1000010:9600&1001200:60",
-    "pr": "1000010:69500&1001100:460&1001200:10"
+    "pc": "1000010:9600&1001200:72",
+    "pr": "1000010:69500&1001100:508&1001200:24"
   },
   "17": {
     "att": "maxHP:40000&atk:3300&phyDef:1100&magDef:1100&speed:340",
-    "pc_hero": "[[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4]]",
     "ce": 791400,
     "gather": 36,
-    "pc": "1000010:9600&1001200:120",
-    "pr": "1000010:79100&1001100:460&1001200:70"
+    "pc": "1000010:9600&1001200:144",
+    "pr": "1000010:79100&1001100:508&1001200:96"
   },
   "18": {
     "att": "maxHP:43000&atk:3600&phyDef:1200&magDef:1200&speed:360",
-    "pc_hero": "[[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "ce": 911400,
     "gather": 44,
-    "pc": "1000010:9600&1001200:240",
-    "pr": "1000010:88700&1001100:460&1001200:190"
+    "pc": "1000010:9600&1001200:256",
+    "pr": "1000010:88700&1001100:508&1001200:240"
   },
   "19": {
     "att": "maxHP:46000&atk:3900&phyDef:1300&magDef:1300&speed:380",
-    "pc_hero": "[[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6]]",
     "ce": 1091400,
     "gather": 52,
-    "pc": "1000010:10000&1001200:480",
-    "pr": "1000010:98700&1001100:460&1001200:430"
+    "pc": "1000010:10000&1001200:512",
+    "pr": "1000010:98700&1001100:508&1001200:496"
   },
   "20": {
     "att": "maxHP:50000&atk:4300&phyDef:1400&magDef:1400&speed:400",
-    "pc_hero": "[[\"realm_rand\",10],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"realm_rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",20],[\"rand\",20]]",
     "ce": 1151400,
     "gather": 60,
-    "pc": "1000010:15000&1001200:50",
-    "pr": "1000010:113700&1001100:460&1001200:910"
+    "pc": "1000010:15000&1001300:36",
+    "pr": "1000010:113700&1001100:508&1001200:1008"
   },
   "21": {
     "att": "maxHP:52000&atk:4600&phyDef:2000&magDef:2000&speed:520",
-    "pc_hero": "[[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",10],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3],[\"rand\",3]]",
     "ce": 1271400,
     "gather": 68,
-    "pc": "1000010:20000&1001200:60",
-    "pr": "1000010:133700&1001100:460&1001200:960"
+    "pc": "1000010:20000&1001300:72",
+    "pr": "1000010:133700&1001100:508&1001200:1008&1001300:36"
   },
   "22": {
     "att": "maxHP:54000&atk:4800&phyDef:2100&magDef:2100&speed:540",
-    "pc_hero": "[[\"self\"],[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",11],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4],[\"rand\",4]]",
     "ce": 1391400,
     "gather": 76,
-    "pc": "1000010:25000&1001200:70",
-    "pr": "1000010:158700&1001100:460&1001200:1020"
+    "pc": "1000010:25000&1001300:144",
+    "pr": "1000010:158700&1001100:508&1001200:1008&1001300:108"
   },
   "23": {
     "att": "maxHP:56000&atk:5000&phyDef:2200&magDef:2200&speed:560",
-    "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",15],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "ce": 1511400,
     "gather": 84,
-    "pc": "1000010:30000&1001200:80",
-    "pr": "1000010:188700&1001100:460&1001200:1090"
+    "pc": "1000010:30000&1001300:256",
+    "pr": "1000010:188700&1001100:508&1001200:1008&1001300:252"
   },
   "24": {
     "att": "maxHP:58000&atk:5200&phyDef:2300&magDef:2300&speed:580",
-    "pc_hero": "[[\"realm_rand\",11],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6],[\"realm_rand\",6]]",
+    "pc_hero": "[[\"realm_rand\",20],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10],[\"realm_rand\",10]]",
     "ce": 1631400,
     "gather": 92,
-    "pc": "1000010:40000&1001200:90",
-    "pr": "1000010:228700&1001100:460&1001200:1170"
+    "pc": "1000010:40000&1001300:512",
+    "pr": "1000010:228700&1001100:508&1001200:1008&1001300:508"
   },
   "25": {
     "att": "maxHP:60000&atk:5400&phyDef:2400&magDef:2400&speed:600",
-    "pc_hero": "[[\"realm_rand\",15],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11],[\"rand\",11]]",
+    "pc_hero": "[[\"realm_rand\",20],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11]]",
     "ce": 1751400,
     "gather": 100,
-    "pc": "1000010:50000&1001200:100",
-    "pr": "1000010:278700&1001100:460&1001200:1260"
+    "pc": "1000010:50000&1001400:48",
+    "pr": "1000010:278700&1001100:508&1001200:1008&1001300:1020&1001400:48"
   },
   "26": {
     "att": "maxHP:62000&atk:5600&phyDef:2500&magDef:2500&speed:620",
-    "pc_hero": "[[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",20],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5],[\"rand\",5]]",
     "ce": 1871400,
     "gather": 108,
-    "pc": "1000010:60000&1001200:150",
-    "pr": "1000010:338700&1001100:460&1001200:1360"
+    "pc": "1000010:60000&1001400:96",
+    "pr": "1000010:338700&1001100:508&1001200:1008&1001300:1020&1001400:144"
   },
   "27": {
     "att": "maxHP:64000&atk:5800&phyDef:2600&magDef:2600&speed:640",
-    "pc_hero": "[[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",20],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6],[\"rand\",6]]",
     "ce": 1991400,
     "gather": 116,
-    "pc": "1000010:70000&1001200:200",
-    "pr": "1000010:408700&1001100:460&1001200:1510"
+    "pc": "1000010:70000&1001400:192",
+    "pr": "1000010:408700&1001100:508&1001200:1008&1001300:1020&1001400:336"
   },
   "28": {
     "att": "maxHP:66000&atk:6000&phyDef:2700&magDef:2700&speed:660",
-    "pc_hero": "[[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"realm_rand\",20],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10],[\"rand\",10]]",
     "ce": 2111400,
     "gather": 124,
-    "pc": "1000010:80000&1001200:250",
-    "pr": "1000010:488700&1001100:460&1001200:1710"
+    "pc": "1000010:80000&1001400:328",
+    "pr": "1000010:488700&1001100:508&1001200:1008&1001300:1020&1001400:664"
   },
   "29": {
     "att": "maxHP:68000&atk:6200&phyDef:2800&magDef:2800&speed:680",
-    "pc_hero": "[[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",15],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"realm_rand\",11],[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15],[\"rand\",15]]",
+    "pc_hero": "[[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"self\"],[\"realm_rand\",20],[\"realm_rand\",20],[\"realm_rand\",20],[\"realm_rand\",20],[\"realm_rand\",20],[\"rand\",20],[\"rand\",20],[\"rand\",20],[\"rand\",20],[\"rand\",20]]",
     "ce": 2231400,
     "gather": 132,
-    "pc": "1000010:100000&1001200:500",
-    "pr": "1000010:588700&1001100:460&1001200:1960"
+    "pc": "1000010:100000&1001400:648",
+    "pr": "1000010:588700&1001100:508&1001200:1008&1001300:1020&1001400:1312"
   },
   "30": {
     "att": "maxHP:70000&atk:6400&phyDef:2900&magDef:2900&speed:700",
     "ce": 2351400,
     "gather": 140,
-    "pr": "1000010:588700&1001100:460&1001200:2460"
+    "pr": "1000010:588700&1001100:508&1001200:1008&1001300:1020&1001400:1312"
   }
 }
