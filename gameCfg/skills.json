@@ -1,6 +1,7 @@
 {
   "1001000": {
     "name": "直接物伤",
+    "CD": 0,
     "type": "normal",
     "times": [
       100
@@ -13,8 +14,24 @@
     "targetType": "enemy_near",
     "d_type": "phy"
   },
+  "1001100": {
+    "name": "直接物伤2",
+    "CD": 1000,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      2
+    ],
+    "resRange": 100,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
   "1002000": {
     "name": "弹道物伤",
+    "CD": 0,
     "type": "bullet",
     "times": [
       100
@@ -28,8 +45,25 @@
     "targetType": "enemy_near",
     "d_type": "phy"
   },
+  "1002100": {
+    "name": "弹道物伤",
+    "CD": 0,
+    "type": "bullet",
+    "times": [
+      200
+    ],
+    "muls": [
+      3
+    ],
+    "bu_spe": 1500,
+    "resRange": 360,
+    "skillDur": 300,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
   "1003000": {
     "name": "范围物伤",
+    "CD": 0,
     "type": "range",
     "times": [
       100,
@@ -50,6 +84,7 @@
   },
   "1004000": {
     "name": "直接法伤",
+    "CD": 0,
     "type": "normal",
     "times": [
       100
@@ -64,6 +99,7 @@
   },
   "1005000": {
     "name": "弹道法伤",
+    "CD": 0,
     "type": "bullet",
     "times": [
       100
@@ -79,6 +115,7 @@
   },
   "1006000": {
     "name": "范围法伤",
+    "CD": 0,
     "type": "range",
     "times": [
       100,
@@ -99,6 +136,7 @@
   },
   "1007000": {
     "name": "直接治疗",
+    "CD": 0,
     "type": "normal",
     "times": [
       100
@@ -108,11 +146,12 @@
     ],
     "resRange": 160,
     "skillDur": 200,
-    "targetType": "team_near",
+    "targetType": "team_min",
     "d_type": "heal"
   },
   "1008000": {
     "name": "弹道治疗",
+    "CD": 0,
     "type": "bullet",
     "times": [
       100
@@ -121,11 +160,12 @@
       1
     ],
     "bu_spe": 800,
-    "targetType": "team_near",
+    "targetType": "team_min",
     "d_type": "heal"
   },
   "1009000": {
     "name": "范围治疗",
+    "CD": 0,
     "type": "range",
     "times": [
       100,
