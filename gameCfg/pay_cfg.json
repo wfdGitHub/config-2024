@@ -53,7 +53,7 @@
   },
   "1201": {
     "type": "gmLv",
-    "name": "开启鬼服金币后台",
+    "name": "开启金币后台",
     "arg": 1,
     "rmb": 8,
     "cent": 800,
@@ -62,7 +62,7 @@
   },
   "1202": {
     "type": "gmLv",
-    "name": "开启鬼服经验后台",
+    "name": "开启经验后台",
     "arg": 2,
     "rmb": 88,
     "cent": 8800,
@@ -71,7 +71,7 @@
   },
   "1203": {
     "type": "gmLv",
-    "name": "开启鬼服钻石后台",
+    "name": "开启钻石后台",
     "arg": 3,
     "rmb": 188,
     "cent": 18800,
@@ -80,7 +80,7 @@
   },
   "1204": {
     "type": "gmLv",
-    "name": "开启鬼服升星后台",
+    "name": "开启升星后台",
     "arg": 4,
     "rmb": 888,
     "cent": 88800,
@@ -89,7 +89,7 @@
   },
   "1205": {
     "type": "gmLv",
-    "name": "开启鬼服进阶后台",
+    "name": "开启进阶后台",
     "arg": 5,
     "rmb": 1888,
     "cent": 188800,
@@ -98,34 +98,34 @@
   },
   "1206": {
     "type": "gmLv",
-    "name": "开启鬼服培养后台",
+    "name": "开启培养后台",
     "arg": 6,
-    "rmb": 2888,
-    "cent": 288800,
-    "updateType": "always",
-    "count": 1
-  },
-  "1207": {
-    "type": "gmLv",
-    "name": "开启鬼服装备后台",
-    "arg": 7,
     "rmb": 3888,
     "cent": 388800,
     "updateType": "always",
     "count": 1
   },
-  "1208": {
+  "1207": {
     "type": "gmLv",
-    "name": "开启鬼服材料后台",
-    "arg": 8,
+    "name": "开启装备后台",
+    "arg": 7,
     "rmb": 5888,
     "cent": 588800,
     "updateType": "always",
     "count": 1
   },
+  "1208": {
+    "type": "gmLv",
+    "name": "开启材料后台",
+    "arg": 8,
+    "rmb": 6480,
+    "cent": 648000,
+    "updateType": "always",
+    "count": 1
+  },
   "1209": {
     "type": "gmLv",
-    "name": "开启鬼服专属后台",
+    "name": "开启专属后台",
     "arg": 9,
     "rmb": 8888,
     "cent": 888800,
@@ -134,7 +134,7 @@
   },
   "1210": {
     "type": "gmLv",
-    "name": "开启鬼服特殊后台",
+    "name": "开启特殊后台",
     "arg": 10,
     "rmb": 9888,
     "cent": 988800,
@@ -3741,7 +3741,6 @@
     "dianpiao": 0,
     "gift_type": "xinfulibao",
     "award": "202:100&110:10&201:50000&110190:10",
-    "updateType": "day",
     "count": 1
   },
   "60110": {
@@ -3752,7 +3751,6 @@
     "cent": 3000,
     "gift_type": "xinfulibao",
     "award": "202:300&110:30&201:1000000&110190:30",
-    "updateType": "day",
     "count": 1
   },
   "60120": {
@@ -3763,7 +3761,6 @@
     "cent": 6800,
     "gift_type": "xinfulibao",
     "award": "202:680&110:68&201:2000000&110190:68",
-    "updateType": "day",
     "count": 1
   },
   "60130": {
@@ -3774,7 +3771,6 @@
     "cent": 9800,
     "gift_type": "xinfulibao",
     "award": "202:980&110:98&201:3000000&110190:98",
-    "updateType": "day",
     "count": 1
   },
   "60140": {
@@ -3785,7 +3781,6 @@
     "cent": 12800,
     "gift_type": "xinfulibao",
     "award": "202:1280&110:128&201:4000000&110190:128",
-    "updateType": "day",
     "count": 1
   },
   "60150": {
@@ -3796,7 +3791,6 @@
     "cent": 19800,
     "gift_type": "xinfulibao",
     "award": "202:1980&110:198&201:5000000&110190:198",
-    "updateType": "day",
     "count": 1
   },
   "60160": {
@@ -3807,7 +3801,6 @@
     "cent": 32800,
     "gift_type": "xinfulibao",
     "award": "202:3280&110:328&201:10000000&110190:328",
-    "updateType": "day",
     "count": 1
   },
   "60170": {
@@ -3818,7 +3811,6 @@
     "cent": 64800,
     "gift_type": "xinfulibao",
     "award": "202:6480&110:648&201:20000000&110190:648",
-    "updateType": "day",
     "count": 1
   },
   "60180": {
@@ -3829,7 +3821,6 @@
     "cent": 198000,
     "gift_type": "xinfulibao",
     "award": "202:19800&110:1980&201:30000000&110190:1980",
-    "updateType": "day",
     "count": 1
   },
   "60190": {
@@ -3840,7 +3831,6 @@
     "cent": 299800,
     "gift_type": "xinfulibao",
     "award": "202:29980&110:2998&201:50000000&110190:2998",
-    "updateType": "day",
     "count": 1
   },
   "100101": {
@@ -4379,8 +4369,8 @@
     "cent": 0,
     "dianpiao": 0,
     "gift_type": "gmGift",
-    "award": "230:5&1000240:5&1000180:5&1000160:5",
+    "award": "230:1&1000240:1&1000180:1&1000160:1",
     "updateType": "week",
-    "count": 10
+    "count": 99
   }
 }
