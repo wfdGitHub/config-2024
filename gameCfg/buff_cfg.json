@@ -293,8 +293,8 @@
     "intensify": true
   },
   "sneak": {
-    "name": "潜行",
-    "des": "潜行状态下不会被常规单位选中。自身回合开始时，若没有其他存活的队友，则潜行消失",
+    "name": "隐身",
+    "des": "隐身状态下不会被常规单位攻击，释放技能时不能附加任何状态。",
     "refreshType": "roundOver",
     "effects": true
   },
@@ -527,14 +527,16 @@
     "des": "每回合损失3%最大生命值，受治疗效果降低15%",
     "refreshType": "after",
     "duration": 1,
-    "max": 1
+    "max": 1,
+    "debuff": true
   },
   "wudu": {
     "name": "巫毒",
     "des": "每回合损失3%最大生命值，受治疗效果降低15%,最多可叠加3层",
     "refreshType": "after",
     "duration": 1,
-    "max": 3
+    "max": 3,
+    "debuff": true
   },
   "fragile": {
     "name": "易伤",
