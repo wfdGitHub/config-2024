@@ -14,21 +14,6 @@
     "targetType": "enemy_near",
     "d_type": "phy"
   },
-  "1001100": {
-    "name": "直接物伤2",
-    "CD": 1000,
-    "type": "normal",
-    "times": [
-      100
-    ],
-    "muls": [
-      2
-    ],
-    "resRange": 100,
-    "skillDur": 200,
-    "targetType": "enemy_near",
-    "d_type": "phy"
-  },
   "1002000": {
     "name": "弹道物伤",
     "CD": 0,
@@ -160,6 +145,8 @@
       1
     ],
     "bu_spe": 800,
+    "resRange": 300,
+    "skillDur": 200,
     "targetType": "team_min",
     "d_type": "heal"
   },
@@ -181,6 +168,117 @@
     "skillDur": 400,
     "rangeRadius": 150,
     "rangeType": "team",
+    "targetType": "self",
+    "d_type": "heal"
+  },
+  "8001010": {
+    "name": "眩晕攻击",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "buffs": [
+      "{\"id\":\"dizzy\",\"time\":3000,\"rate\":1}"
+    ],
+    "resRange": 100,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
+  "8001020": {
+    "name": "缠绕攻击",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "buffs": [
+      "{\"id\":\"twine\",\"time\":3000,\"rate\":1}"
+    ],
+    "resRange": 100,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
+  "8001030": {
+    "name": "缴械攻击",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "buffs": [
+      "{\"id\":\"disarm\",\"time\":3000,\"rate\":1}"
+    ],
+    "resRange": 100,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
+  "8001040": {
+    "name": "沉默攻击",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "buffs": [
+      "{\"id\":\"silence\",\"time\":3000,\"rate\":1}"
+    ],
+    "resRange": 100,
+    "skillDur": 200,
+    "targetType": "enemy_near",
+    "d_type": "phy"
+  },
+  "8001050": {
+    "name": "嘲讽攻击",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      1
+    ],
+    "targetType": "enemy_near",
+    "d_type": "heal"
+  },
+  "8001060": {
+    "name": "自身无敌",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      0
+    ],
+    "targetType": "self",
+    "d_type": "heal"
+  },
+  "8001070": {
+    "name": "自身免控",
+    "CD": 0,
+    "type": "normal",
+    "times": [
+      100
+    ],
+    "muls": [
+      0
+    ],
     "targetType": "self",
     "d_type": "heal"
   }
