@@ -62,13 +62,13 @@
     "intensify": true
   },
   "amplify_mag": {
-    "name": "特攻加成",
+    "name": "法术加成",
     "des": "造成的法术伤害增加",
     "refreshType": "roundOver",
     "intensify": true
   },
   "amplify_phy": {
-    "name": "物攻加成",
+    "name": "物理加成",
     "des": "造成的物理伤害增加",
     "refreshType": "roundOver",
     "intensify": true
@@ -224,7 +224,7 @@
     "debuff": true
   },
   "burn_shield": {
-    "name": "火焰护体",
+    "name": "火遁护体",
     "des": "受到攻击时，有30%概率使攻击者灼烧，持续2回合",
     "refreshType": "roundOver",
     "intensify": true,
@@ -250,8 +250,8 @@
     "intensify": true
   },
   "fengzheng": {
-    "name": "瞬身印记",
-    "des": "当队友攻击该目标时，消耗1层瞬身印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
+    "name": "飞雷神印记",
+    "des": "当队友攻击该目标时，消耗1层飞雷神印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
@@ -263,7 +263,7 @@
     "intensify": true
   },
   "dodgeRate": {
-    "name": "闪避祝福",
+    "name": "闪避印记",
     "des": "闪避率提高50%，持续1回合,不可驱散",
     "refreshType": "roundOver"
   },
@@ -351,7 +351,7 @@
     "intensify": true
   },
   "frost": {
-    "name": "六道",
+    "name": "冰晶",
     "des": "每层增加自身5%免伤，最大可叠加10层,当叠满10层时，每回合行动后随机禁锢一个敌方目标",
     "refreshType": "roundOver",
     "duration": 3,
@@ -374,7 +374,7 @@
     "max": 1
   },
   "flame": {
-    "name": "仙火",
+    "name": "圣火",
     "des": "每层仙火增加自身3%免伤和暴击。回合开始前，恢复我方全体20%攻击力*仙火层数的生命值。圣火最高可叠加10层",
     "refreshType": "roundOver",
     "duration": 3,
@@ -392,7 +392,7 @@
     "default": true
   },
   "hunting": {
-    "name": "狩猎印记",
+    "name": "飞雷神印记",
     "des": "在行动后，若施法者速度比自身快，则其对自身发动1次普通攻击",
     "refreshType": "after",
     "duration": 2,

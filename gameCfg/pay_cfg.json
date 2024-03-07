@@ -4,7 +4,7 @@
     "name": "至尊特权",
     "rmb": 3888,
     "cent": 388800,
-    "award": "202:3888&100100:10&8240:1&8200:1",
+    "award": "202:3888&8240:1",
     "count": 1
   },
   "1003": {
@@ -48,23 +48,50 @@
   "1201": {
     "type": "fast",
     "name": "首充",
+    "arg": 1,
     "rmb": 6,
     "cent": 600,
-    "award": "5010405:1&8230:1&101:100000&201:100000"
+    "gift_type": "shouchong",
+    "award": "5011805:1&8230:1&2001010:20&1000100:1",
+    "updateType": "always",
+    "count": 1,
+    "min_lv": 1
   },
   "1202": {
     "type": "fast",
     "name": "豪华首充",
+    "arg": 2,
     "rmb": 328,
     "cent": 32800,
-    "award": "4003:1&2200040:1&101:300000&201:300000"
+    "gift_type": "shouchong",
+    "award": "2000050:3&2000030:200&3610:30&3620:30",
+    "updateType": "always",
+    "count": 1,
+    "min_lv": 30
   },
   "1203": {
     "type": "fast",
     "name": "至尊首充",
+    "arg": 3,
     "rmb": 648,
     "cent": 64800,
-    "award": "5020206:1&2200050:1&101:500000&201:500000"
+    "gift_type": "shouchong",
+    "award": "5030105:1&2000030:300&3660:30&3690:30",
+    "updateType": "always",
+    "count": 1,
+    "min_lv": 85
+  },
+  "1204": {
+    "type": "fast",
+    "name": "每日礼包",
+    "arg": 1,
+    "rmb": 30,
+    "cent": 3000,
+    "gift_type": "meirilibao",
+    "award": "202:30&101:300000&201:300000&2000050:1",
+    "updateType": "day",
+    "count": 1,
+    "min_lv": 50
   },
   "1301": {
     "type": "area_gift",
@@ -108,137 +135,143 @@
   },
   "1411": {
     "type": "pass",
-    "name": "主线战令",
+    "name": "主线通行证",
     "arg": "pass_main_1",
     "rmb": 1,
     "cent": 100,
+    "award": "202:1",
     "updateType": "always",
     "count": 1
   },
   "1412": {
     "type": "pass",
-    "name": "主线战令",
+    "name": "主线通行证",
     "arg": "pass_main_2",
     "rmb": 648,
     "cent": 64800,
+    "award": "202:648",
     "updateType": "always",
     "count": 1
   },
   "1413": {
     "type": "pass",
-    "name": "主线战令",
+    "name": "主线通行证",
     "arg": "pass_main_3",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "always",
     "count": 1
   },
   "1414": {
     "type": "pass",
-    "name": "通天塔战令",
+    "name": "通天塔通行证",
     "arg": "pass_ttt_1",
     "rmb": 1,
     "cent": 100,
+    "award": "202:1",
     "updateType": "always",
     "count": 1
   },
   "1415": {
     "type": "pass",
-    "name": "通天塔战令",
+    "name": "通天塔通行证",
     "arg": "pass_ttt_2",
     "rmb": 648,
     "cent": 64800,
+    "award": "202:648",
     "updateType": "always",
     "count": 1
   },
   "1416": {
     "type": "pass",
-    "name": "通天塔战令",
+    "name": "通天塔通行证",
     "arg": "pass_ttt_3",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "always",
     "count": 1
   },
   "1417": {
     "type": "pass",
-    "name": "探险战令",
+    "name": "探险通行证",
     "arg": "pass_tanxian",
     "rmb": 648,
     "cent": 64800,
+    "award": "202:648",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 15
+    "count": 1
   },
   "1418": {
     "type": "pass",
-    "name": "果树战令",
+    "name": "果树通行证",
     "arg": "pass_kanshu",
     "rmb": 648,
     "cent": 64800,
+    "award": "202:648",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 15
+    "count": 1
   },
   "1419": {
     "type": "pass",
-    "name": "竞技战令",
+    "name": "竞技通行证",
     "arg": "pass_arena",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 20
+    "count": 1
   },
   "1420": {
     "type": "pass",
-    "name": "明星战令",
+    "name": "明星通行证",
     "arg": "pass_muye",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 61
+    "count": 1
   },
   "1421": {
     "type": "pass",
-    "name": "跨服战令",
+    "name": "跨服通行证",
     "arg": "pass_grading",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 40
+    "count": 1
   },
   "1422": {
     "type": "pass",
-    "name": "无尽战令",
+    "name": "无尽通行证",
     "arg": "pass_endless",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 25
+    "count": 1
   },
   "1423": {
     "type": "pass",
-    "name": "逐鹿战令",
+    "name": "逐鹿通行证",
     "arg": "pass_zhulu",
     "rmb": 2998,
     "cent": 299800,
+    "award": "202:2998",
     "updateType": "week",
-    "count": 1,
-    "min_lv": 46
+    "count": 1
   },
   "1424": {
     "type": "pass",
-    "name": "神兽战令",
+    "name": "神兽通行证",
     "arg": "pass_shenshou",
     "rmb": 9998,
     "cent": 999800,
+    "award": "202:9998",
     "updateType": "always",
-    "count": 1,
-    "min_lv": 50
+    "count": 1
   },
   "2001": {
     "type": "recharge",
@@ -303,6 +336,8 @@
     "dianpiao": 0,
     "gift_type": "vip",
     "award": "202:10&3800:1&2003000:3&2003000:3",
+    "updateType": "always",
+    "count": 1,
     "min_lv": 1,
     "max_lv": 49
   },

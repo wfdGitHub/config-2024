@@ -539,7 +539,7 @@
   "dahe_atk": {
     "name": "pg",
     "st": 0,
-    "ht": "[130,460,660]"
+    "ht": "[130]"
   },
   "dahe_skill": {
     "name": "skill",
@@ -1051,6 +1051,40 @@
     "st": 0,
     "ht": "[800,1000]"
   },
+  "qingniangangshou_atk": {
+    "name": "pg",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/qingniangangshou/pg/pg",
+    "st": 0,
+    "ht": "[260]"
+  },
+  "qingniangangshou_skill": {
+    "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/qingniangangshou/skill/skill",
+    "st": 0,
+    "ht": "[60,160]"
+  },
+  "qingnianzilaiye_atk": {
+    "name": "pg",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/qingnianzilaiye/pg/pg",
+    "st": 0,
+    "ht": "[30,730]"
+  },
+  "qingnianzilaiye_skill": {
+    "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/qingnianzilaiye/skill/skill",
+    "st": 0,
+    "ht": "[60,260,600,960]"
+  },
   "sake_atk": {
     "name": "pg",
     "st": 0,
@@ -1354,6 +1388,23 @@
     "st": 0,
     "ht": "[630,730,900]"
   },
+  "xiaoying_xinnianpifu3_atk": {
+    "name": "pg",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/xiaoying_xinnianpifu3/pg/pg",
+    "st": 0,
+    "ht": "[260,760]"
+  },
+  "xiaoying_xinnianpifu3_skill": {
+    "name": "skill",
+    "situ": true,
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/xiaoying_xinnianpifu3/skill/skill",
+    "st": 0,
+    "ht": "[930]"
+  },
   "ya_atk": {
     "name": "pg",
     "st": 0,
@@ -1377,6 +1428,7 @@
     "name": "skill",
     "situ": true,
     "repetition": true,
+    "turn": "turn",
     "skill": "ACGN/yiluka/skill/skill",
     "st": 0,
     "ht": "[1100,1200,1330,1360,1500]"
@@ -1468,6 +1520,7 @@
   "zhinai_borenzhuan_skill": {
     "name": "skill",
     "situ": true,
+    "turn": "turn",
     "skill": "ACGN/zhinai_borenzhuan/skill/skill",
     "st": 0,
     "ht": "[300,360,430,530,630]"
@@ -1535,7 +1588,7 @@
     "situ": true,
     "skill": "ACGN/zuoyoujin/skill/skill",
     "st": 0,
-    "ht": "[1330,1600,1860,2100,2330,3200,3330,3460,3600]"
+    "ht": "[260,1200]"
   },
   "zuozhu_qianniaoshaonian_atk": {
     "name": "pg",
@@ -1564,5 +1617,20 @@
     "skill": "ACGN/zuozhu_zhouyin/skill/skill",
     "st": 0,
     "ht": "[1360,2300]"
+  },
+  "jiuwei_atk": {
+    "name": "pg",
+    "repetition": true,
+    "turn": "turn",
+    "st": 0,
+    "ht": "[530]"
+  },
+  "jiuwei_skill": {
+    "name": "skill",
+    "repetition": true,
+    "turn": "turn",
+    "skill": "ACGN/jiuwei/skill/skill",
+    "st": 0,
+    "ht": "[560,660,830,1000,1330]"
   }
 }

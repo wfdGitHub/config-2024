@@ -5448,18 +5448,18 @@
   "50110003": {
     "name": "回天",
     "qa": 3,
-    "des": "宁次的回天能够闪避敌人攻击，闪避率增加20%,成功闪避时，获得1层反制印记",
-    "key1": "dodgeRate",
-    "value1": 0.2,
-    "key2": "shanbi_fanzhi",
-    "value2": true
+    "des": "宁次的回天能够闪避敌人攻击，每回合行动结束后获得1层反制印记，释放技能时，消耗所有反制印记，并给敌方附加对应层数的破甲。",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50110004": {
     "name": "反制姿态",
     "qa": 3,
-    "des": "宁次每次战斗后都能迅速回到反制姿态，每回合行动结束后获得2层反制印记",
-    "key1": "action_buff",
-    "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+    "des": "宁次每次战斗后都能迅速回到反制姿态，闪避率增加20%,成功闪避时，获得1层反制印记，",
+    "key1": "dodgeRate",
+    "value1": 0.2,
+    "key2": "shanbi_fanzhi",
+    "value2": true
   },
   "50110005": {
     "name": "一转攻势",
@@ -5575,11 +5575,11 @@
   "50115005": {
     "name": "全盛傀儡",
     "qa": 3,
-    "des": "勘九郎战前精心锻铸的傀儡十分强大，入场时可获得暴击提升与爆伤提升",
+    "des": "勘九郎战前精心锻铸的傀儡十分强大，入场时，自身可获得暴击提升与爆伤提升",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50116003": {
     "name": "愈战愈勇",
@@ -6135,6 +6135,240 @@
     "value1": true,
     "key2": "ignore_shild",
     "value2": true
+  },
+  "50201003": {
+    "name": "愈战愈勇",
+    "qa": 3,
+    "des": "每当自身眩晕一个敌方目标，自身可获得1点怒气",
+    "key1": "dizzy_add_anger",
+    "value1": 1
+  },
+  "50201004": {
+    "name": "九尾之躯",
+    "qa": 3,
+    "des": "攻击受到眩晕效果的目标时，额外降低目标1点怒气。",
+    "key1": "dizzy_hit_anger",
+    "value1": 1
+  },
+  "50201005": {
+    "name": "号召力",
+    "qa": 3,
+    "des": "入场时，随机晕眩敌方1-2名忍者，持续1个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "50202003": {
+    "name": "愈战愈勇",
+    "qa": 3,
+    "des": "佐助愈战愈勇，生命值每降低10%，伤害增加7%",
+    "key1": "low_hp_amp",
+    "value1": 0.07
+  },
+  "50202004": {
+    "name": "暴怒",
+    "qa": 3,
+    "des": "佐助充满愤怒，进入战斗首回合攻击必定暴击；对灼烧状态下的目标暴击率和暴伤增加35%",
+    "key1": "first_crit",
+    "value1": true,
+    "key2": "burn_att_change_skill",
+    "value2": "{\"crit\":0.35}",
+    "key3": "burn_att_change_normal",
+    "value3": "{\"crit\":0.35}",
+    "key4": "burn_att_change_skill",
+    "value4": "{\"slay\":0.35}",
+    "key5": "burn_att_change_normal",
+    "value5": "{\"slay\":0.35}"
+  },
+  "50202005": {
+    "name": "写轮眼",
+    "qa": 3,
+    "des": "佐助的写轮眼能够吸取他人力量，每击败1个目标，伤害增加25%",
+    "key1": "kill_amp",
+    "value1": 0.25
+  },
+  "50203003": {
+    "name": "白眼",
+    "qa": 3,
+    "des": "被减速状态下的敌人攻击时，恢复自身1点怒气",
+    "key1": "cold_hit_anger",
+    "value1": 1
+  },
+  "50203004": {
+    "name": "回天",
+    "qa": 3,
+    "des": "雏田释放技能后为自身添加寒冰护盾，受到攻击时，有100%概率使目标增加一层减速，寒冰护盾持续3回合。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
+  },
+  "50203005": {
+    "name": "点穴",
+    "qa": 3,
+    "des": "入场时，随机为敌方3个目标附加1层减速效果，雏田释放破冰一击时，驱散目标所有增益效果",
+    "key1": "pbyj_qs",
+    "value1": true,
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50205003": {
+    "name": "愈战愈勇",
+    "qa": 3,
+    "des": "天天能够不断强化自身的能力，自身每有1个增益效果，造成的伤害增加10%",
+    "key1": "my_intensify_amp",
+    "value1": 0.1
+  },
+  "50205004": {
+    "name": "忍具强化",
+    "qa": 3,
+    "des": "天天能够不断强化忍具，释放技能后为自身添加暴怒状态，持续2回合",
+    "key1": "skill_buff1",
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+  },
+  "50205005": {
+    "name": "法术强化",
+    "qa": 3,
+    "des": "入场时，为自身和全体友方附加暴怒效果，持续1个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+  },
+  "50206003": {
+    "name": "自愈体质",
+    "qa": 3,
+    "des": "目标血量每减少10%，对其造成的的治疗量加成10%",
+    "key1": "low_hp_heal",
+    "value1": 0.1
+  },
+  "50206004": {
+    "name": "医疗精通",
+    "qa": 3,
+    "des": "小樱精通治疗，技能每净化一个减益效果，增加怒气值1点怒气，在释放持续恢复效果时，若目标身上已存在治疗效果，则立即结算原效果剩余回合数。",
+    "key1": "recover_settle",
+    "value1": true,
+    "key2": "cleanDebuff_anger",
+    "value2": 1
+  },
+  "50206005": {
+    "name": "祈愿",
+    "qa": 3,
+    "des": "小樱入场时发动一次强力掌仙术，恢复友方全体40%最大生命值，并添加25%攻击的持续回复效果，持续2回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"team_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "key2": "beginSkill",
+    "value2": 50206012
+  },
+  "50207003": {
+    "name": "回天",
+    "qa": 3,
+    "des": "宁次的回天能够闪避敌人攻击，每回合行动后，和成功闪避时，获得1层反制印记",
+    "key1": "shanbi_fanzhi",
+    "value1": true,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50207004": {
+    "name": "反制姿态",
+    "qa": 3,
+    "des": "闪避率增加20%,释放技能时，若反制印记在3层以上时，对目标添加重伤效果",
+    "key1": "fanzhi_to_zs",
+    "value1": true,
+    "key2": "dodgeRate",
+    "value2": 0.2
+  },
+  "50207005": {
+    "name": "一转攻势",
+    "qa": 3,
+    "des": "宁次能够将敌方的攻击转化为自身的攻势，释放技能时，每消耗1层反制印记，额外造成12%目标最大生命值的伤害",
+    "key1": "fanzhi_damage",
+    "value1": 0.12
+  },
+  "50208003": {
+    "name": "智囊",
+    "qa": 3,
+    "des": "鹿丸释放技能后恢复我方全体1点怒气",
+    "key1": "skill_anger_a",
+    "value1": 1
+  },
+  "50208004": {
+    "name": "备战物资",
+    "qa": 3,
+    "des": "鹿丸准备的备战物资能够援助友军，释放技能后驱散目标1个增益效果，并将敌方隐身效果，转化为1回合的沉默效果",
+    "key1": "skill_dispel_enemy",
+    "value1": true,
+    "key2": "dispel_sneak_buff",
+    "value2": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50208005": {
+    "name": "出其不意",
+    "qa": 3,
+    "des": "鹿丸入场时发动袭击，可给敌方1-3名敌方目标附加沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+  },
+  "50209003": {
+    "name": "扩散",
+    "qa": 3,
+    "des": "手鞠的忍术能够扩散，攻击时有概率额外增加1-2个目标"
+  },
+  "50209004": {
+    "name": "撕裂",
+    "qa": 3,
+    "des": "手鞠的风遁攻击能够撕裂敌人伤口，对流血状态的目标造成伤害增加35%",
+    "key1": "bleed_amp",
+    "value1": 0.35
+  },
+  "50209005": {
+    "name": "侵蚀",
+    "qa": 3,
+    "des": "手鞠在释放技能时，目标身上每有1层流血效果，额外造成5%最大生命值的伤害",
+    "key1": "skill_bleed_maxHp",
+    "value1": 0.05
+  },
+  "50210003": {
+    "name": "不屈之心",
+    "qa": 3,
+    "des": "勘九郎拥有不屈的体质，满血状态时，受到的伤害减少60%.",
+    "key1": "full_hp_red",
+    "value1": 0.6
+  },
+  "50210004": {
+    "name": "傀儡升级",
+    "qa": 3,
+    "des": "勘九郎能够不断升级傀儡，释放技能后，为自身和友方附加1层暴击提升和爆伤提升的效果",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50210005": {
+    "name": "全盛傀儡",
+    "qa": 3,
+    "des": "勘九郎战前精心锻铸的傀儡十分强大，入场时，自身和友方目标获得1层暴击提升与爆伤提升",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50220003": {
+    "name": "严阵以待",
+    "qa": 3,
+    "des": "释放技能有35%的概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.35
+  },
+  "50220004": {
+    "name": "迷眼虫",
+    "qa": 3,
+    "des": "油女志乃的虫蛀会蒙蔽敌人的双眼，被附加虫蛀状态下的敌方目标命中率和攻击力降低30%",
+    "key1": "sand_low_hit",
+    "value1": 0.3,
+    "key2": "sand_low_damage",
+    "value2": 0.3
+  },
+  "50220005": {
+    "name": "削弱虫",
+    "qa": 3,
+    "des": "入场时，为敌方全体目标附加虫蛀效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "60105004": {
     "icon": 60105004,
