@@ -117,7 +117,7 @@
   "4106": {
     "icon": 4106,
     "name": "初级闪爆",
-    "des": "暴击时对目标施加<color=#8ad5a2>1</c>回合的【易伤】（受到伤害增加<color=#8ad5a2>5%</c>），不可叠加",
+    "des": "暴击时对目标施加<color=#8ad5a2>1</c>回合的【<color=#8ad5a2>易伤</c>】（受到伤害增加<color=#8ad5a2>5%</c>），不可叠加",
     "key1": "crit_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.05,\"duration\":1,\"buffRate\":1}"
   },
@@ -301,7 +301,7 @@
   "4130": {
     "icon": 4130,
     "name": "初级气势",
-    "des": "每击杀<color=#8ad5a2>1</c>个单位获得2%的暴击率，且伤害结果增加<color=#8ad5a2>2%</c>，可叠加5层。死亡后清除，护佑、归一触发后不清除",
+    "des": "每击杀<color=#8ad5a2>1</c>个单位获得<color=#8ad5a2>2%</c>的暴击率，且伤害结果增加<color=#8ad5a2>2%</c>，可叠加<color=#8ad5a2>5</c>层。死亡后清除，护佑、归一触发后不清除",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"qishi\",\"buff_tg\":\"team_self\",\"buffArg\":0.02,\"duration\":99,\"buffRate\":1}"
   },
@@ -425,7 +425,7 @@
   "4146": {
     "icon": 4146,
     "name": "初级水遁弱点",
-    "des": "受到水遁属性伤害增加<color=#8ad5a2>10%</c>，受到火遁属性伤害降低5%",
+    "des": "受到水遁属性伤害增加<color=#8ad5a2>10%</c>，受到火遁属性伤害降低<color=#8ad5a2>5%</c>",
     "key1": "ruodian_1",
     "value1": 0.1,
     "key2": "ruodian_2",
@@ -434,7 +434,7 @@
   "4147": {
     "icon": 4147,
     "name": "初级火遁弱点",
-    "des": "受到水遁属性伤害增加<color=#8ad5a2>10%</c>，受到风遁属性伤害降低5%",
+    "des": "受到水遁属性伤害增加<color=#8ad5a2>10%</c>，受到风遁属性伤害降低<color=#8ad5a2>5%</c>",
     "key1": "ruodian_2",
     "value1": 0.1,
     "key2": "ruodian_3",
@@ -443,7 +443,7 @@
   "4148": {
     "icon": 4148,
     "name": "初级风遁弱点",
-    "des": "受到风遁属性伤害增加<color=#8ad5a2>10%</c>，受到水遁属性伤害降低5%",
+    "des": "受到风遁属性伤害增加<color=#8ad5a2>10%</c>，受到水遁属性伤害降低<color=#8ad5a2>5%</c>",
     "key1": "ruodian_3",
     "value1": 0.1,
     "key2": "ruodian_1",
@@ -452,7 +452,7 @@
   "4149": {
     "icon": 4149,
     "name": "初级阴遁弱点",
-    "des": "受到阴遁属性伤害增加<color=#8ad5a2>10%</c>，受到阳遁属性伤害降低8%",
+    "des": "受到阴遁属性伤害增加<color=#8ad5a2>10%</c>，受到阳遁属性伤害降低<color=#8ad5a2>5%</c>",
     "key1": "ruodian_4",
     "value1": 0.1,
     "key2": "ruodian_5",
@@ -461,7 +461,7 @@
   "4150": {
     "icon": 4150,
     "name": "初级阳遁弱点",
-    "des": "受到阳遁属性伤害增加<color=#8ad5a2>10%</c>，受到阴遁属性伤害降低5%",
+    "des": "受到阳遁属性伤害增加<color=#8ad5a2>10%</c>，受到阴遁属性伤害降低<color=#8ad5a2>5%</c>",
     "key1": "ruodian_5",
     "value1": 0.1,
     "key2": "ruodian_4",
@@ -511,7 +511,7 @@
   "4206": {
     "icon": 4206,
     "name": "中级闪爆",
-    "des": "暴击时对目标施加<color=#8ad5a2>1</c>回合的【易伤】（受到伤害增加<color=#8ad5a2>8%</c>），不可叠加",
+    "des": "暴击时对目标施加<color=#8ad5a2>1</c>回合的【<color=#8ad5a2>易伤</c>】（受到伤害增加<color=#8ad5a2>8%</c>），不可叠加",
     "key1": "crit_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.08,\"duration\":1,\"buffRate\":1}"
   },
@@ -525,7 +525,7 @@
   "4208": {
     "icon": 4208,
     "name": "中级感知",
-    "des": "优先攻击<color=#8ad5a2>隐身</c>目标，对其造成<color=#8ad5a2>10%</c>额外伤害，有5%概率清除其<color=#8ad5a2>隐身</c>效果",
+    "des": "优先攻击<color=#8ad5a2>隐身</c>目标，对其造成<color=#8ad5a2>10%</c>额外伤害，有<color=#8ad5a2>5%</c>概率清除其<color=#8ad5a2>隐身</c>效果",
     "key1": "preference_sneak",
     "value1": true,
     "key2": "sneak_amp",
@@ -536,7 +536,7 @@
   "4209": {
     "icon": 4209,
     "name": "中级强力",
-    "des": "物理攻击力增加等级*5，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
+    "des": "物理攻击力增加等级*<color=#8ad5a2>5</c>，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
     "key1": "atk_grow",
     "value1": 5,
     "key2": "pass_ql",
@@ -559,7 +559,7 @@
   "4212": {
     "icon": 4212,
     "name": "中级固法",
-    "des": "法术增加等级*4，物防增加等级*2",
+    "des": "法术增加等级*<color=#8ad5a2>4</c>，物防增加等级*<color=#8ad5a2>2</c>",
     "key1": "mag_grow",
     "value1": 4,
     "key2": "phyDef_grow",
@@ -702,7 +702,7 @@
   "4231": {
     "icon": 4231,
     "name": "中级强壮",
-    "des": "血量增加等级*25",
+    "des": "血量增加等级*<color=#8ad5a2>25</c>",
     "key1": "maxHP_grow",
     "value1": 25
   },
@@ -718,7 +718,7 @@
   "4233": {
     "icon": 4233,
     "name": "中级耐力",
-    "des": "物防增加等级*5，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
+    "des": "物防增加等级*<color=#8ad5a2>5</c>，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
     "key1": "phy_grow",
     "value1": 5,
     "key2": "pass_nl",
@@ -880,7 +880,7 @@
   "4303": {
     "icon": 4303,
     "name": "高级进击",
-    "des": "释放物理技能（不包含普攻）攻击敌人时，有<color=#8ad5a2>40%</c>概率额外普通攻击一次，造成60%物理伤害。与连击同时存在时，将无法触发",
+    "des": "释放物理技能（不包含普攻）攻击敌人时，有<color=#8ad5a2>40%</c>概率额外普通攻击一次，造成<color=#8ad5a2>60%</c>物理伤害。与连击同时存在时，将无法触发",
     "key1": "phy_skill_chase_rate",
     "value1": 0.4,
     "key2": "phy_skill_chase_amp",
@@ -898,14 +898,14 @@
   "4305": {
     "icon": 4305,
     "name": "高级超暴",
-    "des": "暴击伤害增加21%，与闪爆同时存在时无法触发",
+    "des": "暴击伤害增加<color=#8ad5a2>21%</c>，与闪爆同时存在时无法触发",
     "key1": "slay",
     "value1": 0.21
   },
   "4306": {
     "icon": 4306,
     "name": "高级闪爆",
-    "des": "暴击时对目标施加<color=#8ad5a2>2</c>回合的【易伤】（受到伤害增加11%），不可叠加",
+    "des": "暴击时对目标施加<color=#8ad5a2>2</c>回合的【<color=#8ad5a2>易伤</c>】（受到伤害增加<color=#8ad5a2>11%</c>），不可叠加",
     "key1": "crit_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.11,\"duration\":2,\"buffRate\":1}"
   },
@@ -930,7 +930,7 @@
   "4309": {
     "icon": 4309,
     "name": "高级强力",
-    "des": "物理攻击力增加等级*8，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
+    "des": "物理攻击力增加等级*<color=#8ad5a2>8</c>，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
     "key1": "atk_grow",
     "value1": 8,
     "key2": "pass_ql",
@@ -953,7 +953,7 @@
   "4312": {
     "icon": 4312,
     "name": "高级固法",
-    "des": "法术增加等级*6，物防增加等级*3",
+    "des": "法术增加等级*<color=#8ad5a2>6</c>，物防增加等级*<color=#8ad5a2>3</c>",
     "key1": "mag_grow",
     "value1": 6,
     "key2": "phyDef_grow",
@@ -962,7 +962,7 @@
   "4313": {
     "icon": 4313,
     "name": "高级追击",
-    "des": "物理<color=#8ad5a2>单体</c>攻击成功击杀敌人后，会使用普攻再次攻击一名敌人，造成80%的伤害",
+    "des": "物理<color=#8ad5a2>单体</c>攻击成功击杀敌人后，会使用普攻再次攻击一名敌人，造成<color=#8ad5a2>80%</c>的伤害",
     "key1": "phy_kill_pursue",
     "value1": true,
     "key2": "phy_kill_amp",
@@ -971,14 +971,14 @@
   "4314": {
     "icon": 4314,
     "name": "高级吸血",
-    "des": "物理攻击可吸取造成伤害23%的血量",
+    "des": "物理攻击可吸取造成伤害<color=#8ad5a2>23%</c>的血量",
     "key1": "phy_turn_hp",
     "value1": 0.23
   },
   "4315": {
     "icon": 4315,
     "name": "高级波动",
-    "des": "法术攻击时，伤害结果在95%~1<color=#8ad5a2>25%</c>之间波动",
+    "des": "法术攻击时，伤害结果在<color=#8ad5a2>95%~125%</c>之间波动",
     "key1": "mag_fluctuate",
     "value1": 0.95
   },
@@ -1052,7 +1052,7 @@
   "4325": {
     "icon": 4325,
     "name": "高级还击",
-    "des": "受到<color=#8ad5a2>单体</c>物理攻击时，有<color=#8ad5a2>45%</c>概率以普攻还击敌人，造成75%的伤害",
+    "des": "受到<color=#8ad5a2>单体</c>物理攻击时，有<color=#8ad5a2>45%</c>概率以普攻还击敌人，造成<color=#8ad5a2>75%</c>的伤害",
     "key1": "phy_retuan_rate",
     "value1": 0.45,
     "key2": "phy_retuan_amp",
@@ -1096,7 +1096,7 @@
   "4331": {
     "icon": 4331,
     "name": "高级强壮",
-    "des": "血量增加等级*40",
+    "des": "血量增加等级*<color=#8ad5a2>40</c>",
     "key1": "maxHP_grow",
     "value1": 40
   },
@@ -1112,7 +1112,7 @@
   "4333": {
     "icon": 4333,
     "name": "高级耐力",
-    "des": "物防增加等级*8，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
+    "des": "物防增加等级*<color=#8ad5a2>8</c>，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
     "key1": "phy_grow",
     "value1": 8,
     "key2": "pass_nl",
@@ -1162,7 +1162,7 @@
   "4339": {
     "icon": 4339,
     "name": "高级自愈",
-    "des": "每回合净化自身<color=#8ad5a2>1</c>个负面状态，并回复自身7%的血量",
+    "des": "每回合净化自身<color=#8ad5a2>1</c>个负面状态，并回复自身<color=#8ad5a2>7%</c>的血量",
     "key1": "remove_one_lower",
     "value1": true,
     "key2": "action_heal",
@@ -1299,7 +1299,7 @@
   "4406": {
     "icon": 4406,
     "name": "超级闪爆",
-    "des": "暴击时对目标施加<color=#8ad5a2>3</c>回合的【易伤】（受到伤害增加<color=#8ad5a2>15%</c>），不可叠加",
+    "des": "暴击时对目标施加<color=#8ad5a2>3</c>回合的【<color=#8ad5a2>易伤</c>】（受到伤害增加<color=#8ad5a2>15%</c>），不可叠加",
     "key1": "crit_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":3,\"buffRate\":1}"
   },
@@ -1324,7 +1324,7 @@
   "4409": {
     "icon": 4409,
     "name": "超级强力",
-    "des": "物理攻击力增加等级*12，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
+    "des": "物理攻击力增加等级*<color=#8ad5a2>12</c>，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
     "key1": "atk_grow",
     "value1": 12,
     "key2": "pass_ql",
@@ -1347,7 +1347,7 @@
   "4412": {
     "icon": 4412,
     "name": "超级固法",
-    "des": "法术增加等级*9，物防增加等级*4",
+    "des": "法术增加等级*<color=#8ad5a2>9</c>，物防增加等级*<color=#8ad5a2>4</c>",
     "key1": "mag_grow",
     "value1": 9,
     "key2": "phyDef_grow",
@@ -1365,7 +1365,7 @@
   "4414": {
     "icon": 4414,
     "name": "超级吸血",
-    "des": "物理攻击可吸取造成伤害28%的血量",
+    "des": "物理攻击可吸取造成伤害<color=#8ad5a2>28%</c>的血量",
     "key1": "phy_turn_hp",
     "value1": 0.28
   },
@@ -1448,7 +1448,7 @@
   "4425": {
     "icon": 4425,
     "name": "超级还击",
-    "des": "受到<color=#8ad5a2>单体</c>物理攻击时，有<color=#8ad5a2>55%</c>概率以普攻还击敌人，造成80%的伤害",
+    "des": "受到<color=#8ad5a2>单体</c>物理攻击时，有<color=#8ad5a2>55%</c>概率以普攻还击敌人，造成<color=#8ad5a2>80%</c>的伤害",
     "key1": "phy_retuan_rate",
     "value1": 0.55,
     "key2": "phy_retuan_amp",
@@ -1494,7 +1494,7 @@
   "4431": {
     "icon": 4431,
     "name": "超级强壮",
-    "des": "血量增加等级*60",
+    "des": "血量增加等级*<color=#8ad5a2>60</c>",
     "key1": "maxHP_grow",
     "value1": 60
   },
@@ -1510,7 +1510,7 @@
   "4433": {
     "icon": 4433,
     "name": "超级耐力",
-    "des": "物防增加等级*12，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
+    "des": "物防增加等级*<color=#8ad5a2>12</c>，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
     "key1": "phy_grow",
     "value1": 12,
     "key2": "pass_nl",
@@ -1560,7 +1560,7 @@
   "4439": {
     "icon": 4439,
     "name": "超级自愈",
-    "des": "每回合净化自身<color=#8ad5a2>1</c>个负面状态，并回复自身9%的血量",
+    "des": "每回合净化自身<color=#8ad5a2>1</c>个负面状态，并回复自身<color=#8ad5a2>9%</c>的血量",
     "key1": "remove_one_lower",
     "value1": true,
     "key2": "action_heal",
@@ -1672,7 +1672,7 @@
   "4503": {
     "icon": 4503,
     "name": "究极进击",
-    "des": "释放物理技能（不包含普攻）攻击敌人时，有<color=#8ad5a2>55%</c>概率额外普通攻击一次，造成80%物理伤害。与连击同时存在时，将无法触发",
+    "des": "释放物理技能（不包含普攻）攻击敌人时，有<color=#8ad5a2>55%</c>概率额外普通攻击一次，造成<color=#8ad5a2>80%</c>物理伤害。与连击同时存在时，将无法触发",
     "key1": "phy_skill_chase_rate",
     "value1": 0.55,
     "key2": "phy_skill_chase_amp",
@@ -1681,7 +1681,7 @@
   "4504": {
     "icon": 4504,
     "name": "究极连击",
-    "des": "释放怒气技能时有<color=#8ad5a2>38%</c>概率连续释放，第<color=#8ad5a2>2</c>次伤害为原来的70%",
+    "des": "释放怒气技能时有<color=#8ad5a2>38%</c>概率连续释放，第<color=#8ad5a2>2</c>次伤害为原来的<color=#8ad5a2>70%</c>",
     "key1": "skill_again",
     "value1": 0.38,
     "key2": "skill_again_amp",
@@ -1697,7 +1697,7 @@
   "4506": {
     "icon": 4506,
     "name": "究极闪爆",
-    "des": "暴击时对目标施加<color=#8ad5a2>3</c>回合的【易伤】（受到伤害增加<color=#8ad5a2>20%</c>），不可叠加",
+    "des": "暴击时对目标施加<color=#8ad5a2>3</c>回合的【<color=#8ad5a2>易伤</c>】（受到伤害增加<color=#8ad5a2>20%</c>），不可叠加",
     "key1": "crit_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":3,\"buffRate\":1}"
   },
@@ -1722,7 +1722,7 @@
   "4509": {
     "icon": 4509,
     "name": "究极强力",
-    "des": "物理攻击力增加等级*18，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
+    "des": "物理攻击力增加等级*<color=#8ad5a2>18</c>，攻击携带耐力技能的单位，造成伤害减少<color=#8ad5a2>20%</c>",
     "key1": "atk_grow",
     "value1": 18,
     "key2": "pass_ql",
@@ -1731,7 +1731,7 @@
   "4510": {
     "icon": 4510,
     "name": "究极穿透",
-    "des": "攻击无视目标24%的物理防御",
+    "des": "攻击无视目标<color=#8ad5a2>24%</c>的物理防御",
     "key1": "neglect_phy",
     "value1": 0.24
   },
@@ -1745,7 +1745,7 @@
   "4512": {
     "icon": 4512,
     "name": "究极固法",
-    "des": "法术增加等级*13，物防增加等级*5",
+    "des": "法术增加等级*<color=#8ad5a2>13</c>，物防增加等级*<color=#8ad5a2>5</c>",
     "key1": "mag_grow",
     "value1": 13,
     "key2": "phyDef_grow",
@@ -1770,7 +1770,7 @@
   "4515": {
     "icon": 4515,
     "name": "究极波动",
-    "des": "施展法术攻击时，伤害结果在105%~135%之间波动",
+    "des": "施展法术攻击时，伤害结果在<color=#8ad5a2>105%~135%</c>之间波动",
     "key1": "mag_fluctuate",
     "value1": 1.05
   },
@@ -1908,7 +1908,7 @@
   "4533": {
     "icon": 4533,
     "name": "究极耐力",
-    "des": "物防增加等级*18，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
+    "des": "物防增加等级*<color=#8ad5a2>18</c>，被携带强力技能的单位攻击，受到的伤害降低<color=#8ad5a2>20%</c>",
     "key1": "phy_grow",
     "value1": 18,
     "key2": "pass_nl",
@@ -2395,7 +2395,7 @@
   },
   "9501": {
     "icon": 9501,
-    "des": "技能命中的目标越少，折戟概率越高，每少<color=#8ad5a2>1</c>个目标，折戟概率提升<color=#8ad5a2>5%</c>",
+    "des": "技能命中的目标越少，<color=#8ad5a2>折戟</c>概率越高，每少<color=#8ad5a2>1</c>个目标，<color=#8ad5a2>折戟</c>概率提升<color=#8ad5a2>5%</c>",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
@@ -2407,7 +2407,7 @@
   },
   "9503": {
     "icon": 9503,
-    "des": "释放技能时，有<color=#8ad5a2>10%</c>概率附加折戟效果，持续<color=#8ad5a2>1</c>回合",
+    "des": "释放技能时，有<color=#8ad5a2>10%</c>概率附加<color=#8ad5a2>折戟</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
@@ -2425,7 +2425,7 @@
   },
   "9506": {
     "icon": 9506,
-    "des": "治疗忍者释放技能时，对己方血量最少的<color=#8ad5a2>3</c>个忍者治疗效果额外提升治疗忍者攻击的32%",
+    "des": "治疗忍者释放技能时，对己方血量最少的<color=#8ad5a2>3</c>个忍者治疗效果额外提升治疗忍者攻击的<color=#8ad5a2>32%</c>",
     "key1": "heal_min_hp_rate",
     "value1": 0.32
   },
@@ -2467,7 +2467,7 @@
   },
   "9513": {
     "icon": 9513,
-    "des": "攻击+<color=#8ad5a2>9</c>00（忍者100级后每升1级攻击额外+<color=#8ad5a2>27</c>）",
+    "des": "攻击+<color=#8ad5a2>900</c>（忍者100级后每升1级攻击额外+<color=#8ad5a2>27</c>）",
     "key1": "atk",
     "value1": 900,
     "key2": "atk_grow",
@@ -2475,7 +2475,7 @@
   },
   "9514": {
     "icon": 9514,
-    "des": "生命+<color=#8ad5a2>6</c>000(忍者100级后每升1级生命额外+<color=#8ad5a2>180</c>)",
+    "des": "生命+<color=#8ad5a2>6000</c>(忍者100级后每升1级生命额外+<color=#8ad5a2>180</c>)",
     "key1": "maxHP",
     "value1": 6000,
     "key2": "maxHP_grow",
@@ -2483,7 +2483,7 @@
   },
   "9515": {
     "icon": 9515,
-    "des": "物理防御+<color=#8ad5a2>6</c>00（忍者100级后每升1级额外+<color=#8ad5a2>18</c>）",
+    "des": "物理防御+<color=#8ad5a2>600</c>（忍者100级后每升1级额外+<color=#8ad5a2>18</c>）",
     "key1": "phyDef",
     "value1": 600,
     "key2": "phyDef_grow",
@@ -2491,7 +2491,7 @@
   },
   "9516": {
     "icon": 9516,
-    "des": "法术防御+<color=#8ad5a2>6</c>00（忍者100级后每升1级额外+<color=#8ad5a2>18</c>）",
+    "des": "法术防御+<color=#8ad5a2>600</c>（忍者100级后每升1级额外+<color=#8ad5a2>18</c>）",
     "key1": "magDef",
     "value1": 600,
     "key2": "magDef_grow",
@@ -2505,7 +2505,7 @@
   },
   "9602": {
     "icon": 9602,
-    "des": "忍者怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过<color=#8ad5a2>4</c>点怒气部分，每额外消耗<color=#8ad5a2>1</c>点怒气，技能伤害增加<color=#8ad5a2>20%</c>",
+    "des": "忍者怒气小于<color=#8ad5a2>7</c>点时，不会释放技能；释放技能消耗当前所有怒气，超过<color=#8ad5a2>4</c>点怒气部分，每额外消耗<color=#8ad5a2>1</c>点怒气，技能伤害增加<color=#8ad5a2>20%</c>",
     "key1": "needAnger",
     "value1": 7,
     "key2": "allAnger",
