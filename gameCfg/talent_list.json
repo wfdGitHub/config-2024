@@ -6563,24 +6563,24 @@
     "name": "强力",
     "qa": 1,
     "des": "攻击提升10%",
-    "key1": "neglect_def",
+    "key1": "self_atk_add",
     "value1": 0.1
   },
   "90130002": {
     "icon": 50011005,
     "name": "强壮",
     "qa": 1,
-    "des": "物防提升10%",
+    "des": "物防提升15%",
     "key1": "self_phyDef_add",
-    "value1": 0.1
+    "value1": 0.15
   },
   "90130003": {
     "icon": 50011006,
     "name": "顽强",
     "qa": 1,
-    "des": "特防提升10%",
+    "des": "特防提升15%",
     "key1": "self_magDef_add",
-    "value1": 0.1
+    "value1": 0.15
   },
   "90130004": {
     "icon": 50012004,
@@ -6594,17 +6594,17 @@
     "icon": 50012005,
     "name": "暴怒",
     "qa": 1,
-    "des": "暴击伤害增加10%",
+    "des": "暴击伤害增加5%",
     "key1": "slay",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90130006": {
     "icon": 50012006,
     "name": "易怒",
     "qa": 1,
-    "des": "暴击率增加10%",
+    "des": "暴击率增加5%",
     "key1": "crit",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90130007": {
     "icon": 50013004,
@@ -6634,9 +6634,9 @@
     "icon": 50304005,
     "name": "韧性",
     "qa": 1,
-    "des": "增加10%的免疫控制",
+    "des": "增加5%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90130011": {
     "icon": 50014005,
@@ -6716,17 +6716,17 @@
     "icon": 50022005,
     "name": "狂暴",
     "qa": 1,
-    "des": "生命值每降低10%，暴击增加5%",
+    "des": "生命值每降低10%，暴击增加2%",
     "key1": "low_hp_crit",
-    "value1": 0.05
+    "value1": 0.02
   },
   "90130021": {
     "icon": 50022006,
     "name": "狂战",
     "qa": 1,
-    "des": "生命值每降低10%，伤害增加5%",
+    "des": "生命值每降低10%，伤害增加2%",
     "key1": "low_hp_amp",
-    "value1": 0.05
+    "value1": 0.02
   },
   "90130022": {
     "icon": 50023004,
@@ -6752,7 +6752,17 @@
     "qa": 1,
     "des": "对敌方造成克制的额外伤害增加10%",
     "key1": "specie hit",
-    "value1": 1.1
+    "value1": 1.1,
+    "key2": 0,
+    "value2": 0,
+    "key3": 0,
+    "value3": 0,
+    "key4": 0,
+    "value4": 0,
+    "key5": 0,
+    "value5": 0,
+    "key6": 0,
+    "value6": 0
   },
   "90130024": {
     "icon": 50023006,
@@ -6766,21 +6776,21 @@
     "icon": 50024004,
     "name": "狂战",
     "qa": 1,
-    "des": "伤害增加10%，受伤增加10%",
+    "des": "伤害增加5%，受伤增加5%",
     "key1": "amplify",
-    "value1": 0.1,
+    "value1": 0.05,
     "key2": "reduction",
-    "value2": -0.1
+    "value2": -0.05
   },
   "90130026": {
     "icon": 50024005,
     "name": "谨慎",
     "qa": 1,
-    "des": "暴击增加10%，速度降低10%",
+    "des": "暴击增加5%，速度降低5%",
     "key1": "crit",
-    "value1": 0.1,
+    "value1": 0.05,
     "key2": "speed",
-    "value2": -0.1
+    "value2": -0.05
   },
   "90130027": {
     "icon": 50024006,
@@ -6826,9 +6836,9 @@
     "icon": 50012004,
     "name": "嗜血",
     "qa": 1,
-    "des": "回复等同于攻击造成伤害的15%的生命值",
+    "des": "回复等同于攻击造成伤害的10%的生命值",
     "key1": "turn_rate",
-    "value1": 0.15,
+    "value1": 0.1,
     "key2": "turn_tg",
     "value2": "team_self"
   },
@@ -6844,25 +6854,25 @@
     "icon": 50012006,
     "name": "修复",
     "qa": 1,
-    "des": "每受到一次伤害，回复自身生命2%",
+    "des": "每受到一次伤害，回复自身生命1%",
     "key1": "hit_turn_rate",
-    "value1": 0.02
+    "value1": 0.01
   },
   "90140006": {
     "icon": 50013004,
     "name": "嗜怒",
     "qa": 1,
-    "des": "每次击败目标后，自身暴击增加5%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加3%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.05
+    "value1": 0.03
   },
   "90140007": {
     "icon": 50013005,
     "name": "超级无敌",
     "qa": 3,
-    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续1个回合",
+    "des": "每击败敌方1个精灵，自身有35%的概率获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "90140008": {
     "icon": 50013006,
@@ -6875,10 +6885,10 @@
   "90140009": {
     "icon": 50014004,
     "name": "精通",
-    "qa": 1,
-    "des": "释放技能有25%概率不消耗怒气",
+    "qa": 4,
+    "des": "释放技能有10%概率不消耗怒气",
     "key1": "skill_free",
-    "value1": 0.25
+    "value1": 0.1
   },
   "90140010": {
     "icon": 50014005,
@@ -6899,7 +6909,7 @@
   "90140013": {
     "icon": 50015004,
     "name": "驱散",
-    "qa": 1,
+    "qa": 4,
     "des": "每回合行动前解除自身1个减益效果",
     "key1": "remove_one_lower",
     "value1": true
@@ -6908,30 +6918,30 @@
     "icon": 50015005,
     "name": "自愈",
     "qa": 1,
-    "des": "每回合行动后回复自身3%最大生命值",
+    "des": "每回合行动后回复自身2%最大生命值",
     "key1": "action_heal",
-    "value1": 0.03
+    "value1": 0.02
   },
   "90140015": {
     "icon": 50015006,
     "name": "重击",
     "qa": 1,
-    "des": "普通攻击伤害增加15%",
+    "des": "普通攻击伤害增加20%",
     "key1": "normal_attack_amp",
-    "value1": 0.15
+    "value1": 0.2
   },
   "90140016": {
     "icon": 50021004,
     "name": "慧心",
     "qa": 1,
-    "des": "技能伤害效果增加15%",
+    "des": "技能伤害效果增加10%",
     "key1": "skill_attack_amp",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90140017": {
     "icon": 50021005,
     "name": "坚毅",
-    "qa": 1,
+    "qa": 4,
     "des": "每回合为自身附加1层坚毅效果",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
@@ -6940,25 +6950,25 @@
     "icon": 50021006,
     "name": "穿透",
     "qa": 1,
-    "des": "所有攻击无视对方10%的防御",
+    "des": "所有攻击无视对方5%的防御",
     "key1": "neglect_def",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90140019": {
     "icon": 50022004,
     "name": "暴动",
     "qa": 1,
-    "des": "直接伤害击杀目标后,增加自身10%暴击伤害，持续至战斗结束",
+    "des": "直接伤害击杀目标后,增加自身5%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90140020": {
     "icon": 50022005,
     "name": "赐福",
     "qa": 1,
-    "des": "受到直接伤害的10%转化为生命治疗自身",
+    "des": "受到直接伤害的5%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.1,
+    "value1": 0.05,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -6966,25 +6976,25 @@
     "icon": 50022006,
     "name": "通感",
     "qa": 1,
-    "des": "释放技能后恢复自身10%最大生命值",
+    "des": "释放技能后恢复自身5%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.1
+    "value1": 0.05
   },
   "90140022": {
     "icon": 50023004,
     "name": "无敌",
-    "qa": 2,
-    "des": "每当击败一个目标的时候，获得1回合无敌盾",
+    "qa": 4,
+    "des": "每当击败一个目标的时候，并有45%概率获得1回合无敌盾",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
   },
   "90140023": {
     "icon": 50023005,
     "name": "愈战愈勇",
     "qa": 1,
-    "des": "每回合伤害永久增加2%，可叠加.",
+    "des": "每回合伤害永久增加1%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.02
+    "value1": 0.01
   },
   "90140024": {
     "icon": 50510004,
@@ -7038,9 +7048,9 @@
     "icon": 50011005,
     "name": "疗愈",
     "qa": 1,
-    "des": "行动后，恢复攻击力20%的生命值",
+    "des": "行动后，恢复攻击力10%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.2
+    "value1": 0.1
   },
   "90140033": {
     "icon": 50011006,
@@ -7054,22 +7064,22 @@
     "icon": 50012004,
     "name": "祈愿",
     "qa": 1,
-    "des": "技能治疗量加成15%",
+    "des": "技能治疗量加成10%",
     "key1": "skill_heal_amp",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90150001": {
     "icon": 50012005,
     "name": "爆燃开场",
     "qa": 1,
-    "des": "入场时，为敌方全体附加灼烧效果。",
+    "des": "入场时，为敌方全体附加灼烧效果,持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "90150002": {
     "icon": 50012006,
     "name": "雷阵雨",
-    "qa": 1,
+    "qa": 4,
     "des": "入场时，为敌方全体附加1层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -7077,7 +7087,7 @@
   "90150003": {
     "icon": 50013004,
     "name": "放逐日",
-    "qa": 1,
+    "qa": 2,
     "des": "入场时，随机放逐敌方1个目标",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
@@ -7086,7 +7096,7 @@
     "icon": 50013005,
     "name": "祈祷",
     "qa": 1,
-    "des": "入场时，为自身附加30%生命上限的伤害吸收盾，持续1回合",
+    "des": "入场时，为自身附加20%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
@@ -7101,7 +7111,7 @@
   "90150006": {
     "icon": 50014004,
     "name": "无敌形态",
-    "qa": 1,
+    "qa": 4,
     "des": "入场时，自身获得持续1个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
@@ -7110,14 +7120,14 @@
     "icon": 50014005,
     "name": "强权",
     "qa": 1,
-    "des": "入场时，随机偷取敌方1个目标的10%攻击力，持续1个回合",
+    "des": "入场时，随机偷取敌方1个目标的5%攻击力，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_1\",\"buffArg\":0.05,\"duration\":1,\"buffRate\":1}"
   },
   "90150009": {
     "icon": 50014006,
     "name": "疾行者",
-    "qa": 1,
+    "qa": 4,
     "des": "入场时，自身获得1层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
@@ -7133,7 +7143,7 @@
   "90150011": {
     "icon": 50015005,
     "name": "灵魂形态",
-    "qa": 1,
+    "qa": 4,
     "des": "入场时，为自身附加1回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
@@ -7157,7 +7167,7 @@
   "90150014": {
     "icon": 50021005,
     "name": "连击准备",
-    "qa": 1,
+    "qa": 3,
     "des": "入场时，为敌方随机1个目标附加1层连击印记，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -7189,7 +7199,7 @@
   "90150018": {
     "icon": 50022006,
     "name": "嗜血者",
-    "qa": 1,
+    "qa": 4,
     "des": "入场时，可给自身附加1层嗜血效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
@@ -7221,7 +7231,7 @@
   "90150022": {
     "icon": 50024004,
     "name": "无敌",
-    "qa": 3,
+    "qa": 4,
     "des": "入场时，为自身附加无敌吸血盾的效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
@@ -7246,7 +7256,7 @@
     "icon": 50025004,
     "name": "报复",
     "qa": 1,
-    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值10%的物攻伤害",
+    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值10%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_001"
   },
@@ -7285,7 +7295,7 @@
   "90150030": {
     "icon": 50012005,
     "name": "极寒体",
-    "qa": 1,
+    "qa": 3,
     "des": "死亡后，随机冰冻敌方1个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -7294,7 +7304,7 @@
     "icon": 50012006,
     "name": "奉献",
     "qa": 1,
-    "des": "死亡时恢复全队20%血量，仅生效1次",
+    "des": "死亡时，恢复友方攻击最高的目标20%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_018"
   },
@@ -7311,24 +7321,24 @@
     "name": "强力",
     "qa": 2,
     "des": "攻击提升15%",
-    "key1": "neglect_def",
+    "key1": "self_atk_add",
     "value1": 0.15
   },
   "90230002": {
     "icon": 50013006,
     "name": "强壮",
     "qa": 2,
-    "des": "物防提升15%",
+    "des": "物防提升20%",
     "key1": "self_phyDef_add",
-    "value1": 0.15
+    "value1": 0.2
   },
   "90230003": {
     "icon": 50014004,
     "name": "顽强",
     "qa": 2,
-    "des": "特防提升15%",
+    "des": "特防提升20%",
     "key1": "self_magDef_add",
-    "value1": 0.15
+    "value1": 0.2
   },
   "90230004": {
     "icon": 50014005,
@@ -7342,17 +7352,17 @@
     "icon": 50014006,
     "name": "暴怒",
     "qa": 2,
-    "des": "暴击伤害增加15%",
+    "des": "暴击伤害增加10%",
     "key1": "slay",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90230006": {
     "icon": 50015004,
     "name": "易怒",
     "qa": 2,
-    "des": "暴击率增加15%",
+    "des": "暴击率增加10%",
     "key1": "crit",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90230007": {
     "icon": 50015005,
@@ -7382,9 +7392,9 @@
     "icon": 50304005,
     "name": "韧性",
     "qa": 2,
-    "des": "增加15%的免疫控制",
+    "des": "增加10%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90230011": {
     "icon": 50021006,
@@ -7464,17 +7474,17 @@
     "icon": 50024006,
     "name": "狂暴",
     "qa": 2,
-    "des": "生命值每降低10%，暴击增加7%",
+    "des": "生命值每降低10%，暴击增加3%",
     "key1": "low_hp_crit",
-    "value1": 0.07
+    "value1": 0.03
   },
   "90230021": {
     "icon": 50025004,
     "name": "狂战",
     "qa": 2,
-    "des": "生命值每降低10%，伤害增加7%",
+    "des": "生命值每降低10%，伤害增加3%",
     "key1": "low_hp_amp",
-    "value1": 0.07
+    "value1": 0.03
   },
   "90230022": {
     "icon": 50011004,
@@ -7498,9 +7508,9 @@
     "icon": 50011004,
     "name": "纯粹",
     "qa": 2,
-    "des": "对敌方造成克制的额外伤害增加20%",
+    "des": "对敌方造成克制的额外伤害增加15%",
     "key1": "specie hit",
-    "value1": 1.2
+    "value1": 1.15
   },
   "90230024": {
     "icon": 50011006,
@@ -7514,21 +7524,21 @@
     "icon": 50012004,
     "name": "莽夫",
     "qa": 2,
-    "des": "伤害增加20%，受伤增加20%",
+    "des": "伤害增加10%，受伤增加10%",
     "key1": "amplify",
-    "value1": 0.2,
+    "value1": 0.1,
     "key2": "reduction",
-    "value2": -0.2
+    "value2": -0.1
   },
   "90230026": {
     "icon": 50012005,
     "name": "谨慎",
     "qa": 2,
-    "des": "暴击增加20%，速度降低20%",
+    "des": "暴击增加10%，速度降低10%",
     "key1": "crit",
-    "value1": 0.2,
+    "value1": 0.1,
     "key2": "speed",
-    "value2": -0.2
+    "value2": -0.1
   },
   "90230027": {
     "icon": 50012006,
@@ -7542,9 +7552,9 @@
     "icon": 50013004,
     "name": "坚韧",
     "qa": 2,
-    "des": "自身的被控制概率降低20%",
+    "des": "自身的被控制概率降低15%",
     "key1": "control_buff_lowrate",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90230029": {
     "icon": 50013005,
@@ -7568,17 +7578,17 @@
     "icon": 50014004,
     "name": "击破",
     "qa": 2,
-    "des": "普通攻击有35%的概率为敌方附加1层破甲效果，持续2个回合",
+    "des": "普通攻击有30%的概率为敌方附加1层破甲效果，持续2个回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "90240003": {
     "icon": 50014005,
     "name": "嗜血",
     "qa": 2,
-    "des": "回复等同于攻击造成伤害的20%的生命值",
+    "des": "回复等同于攻击造成伤害的15%的生命值",
     "key1": "turn_rate",
-    "value1": 0.2,
+    "value1": 0.15,
     "key2": "turn_tg",
     "value2": "team_self"
   },
@@ -7594,25 +7604,25 @@
     "icon": 50015004,
     "name": "修复",
     "qa": 2,
-    "des": "每受到一次伤害，回复自身生命4%",
+    "des": "每受到一次伤害，回复自身生命2%",
     "key1": "hit_turn_rate",
-    "value1": 0.04
+    "value1": 0.02
   },
   "90240006": {
     "icon": 50015005,
     "name": "嗜怒",
     "qa": 2,
-    "des": "每次击败目标后，自身暴击增加10%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加6%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.1
+    "value1": 0.06
   },
   "90240007": {
     "icon": 50015006,
     "name": "超级无敌",
     "qa": 4,
-    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续2个回合",
+    "des": "每击败敌方1个精灵，自身有65%的概率获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "90240008": {
     "icon": 50021004,
@@ -7625,10 +7635,10 @@
   "90240009": {
     "icon": 50021005,
     "name": "精通",
-    "qa": 2,
-    "des": "释放技能有45%概率不消耗怒气",
+    "qa": 5,
+    "des": "释放技能有20%概率不消耗怒气",
     "key1": "skill_free",
-    "value1": 0.45
+    "value1": 0.2
   },
   "90240010": {
     "icon": 50021006,
@@ -7649,70 +7659,70 @@
   "90240013": {
     "icon": 50022005,
     "name": "驱散",
-    "qa": 2,
-    "des": "每回合行动前解除自身2个减益效果",
+    "qa": 5,
+    "des": "每回合行动前解除自身1个减益效果，并回复自身1点怒气",
     "key1": "remove_one_lower",
     "value1": true,
-    "key2": "remove_one_lower",
-    "value2": true
+    "key2": "action_anger",
+    "value2": 1
   },
   "90240014": {
     "icon": 50022006,
     "name": "自愈",
     "qa": 2,
-    "des": "每回合行动后回复自身6%最大生命值",
+    "des": "每回合行动后回复自身4%最大生命值",
     "key1": "action_heal",
-    "value1": 0.06
+    "value1": 0.04
   },
   "90240015": {
     "icon": 50023004,
     "name": "重击",
     "qa": 2,
-    "des": "普通攻击伤害增加20%",
+    "des": "普通攻击伤害增加25%",
     "key1": "normal_attack_amp",
-    "value1": 0.2
+    "value1": 0.25
   },
   "90240016": {
     "icon": 50023005,
     "name": "慧心",
     "qa": 2,
-    "des": "技能伤害效果增加20%",
+    "des": "技能伤害效果增加15%",
     "key1": "skill_attack_amp",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90240017": {
     "icon": 50023006,
     "name": "坚毅",
-    "qa": 2,
-    "des": "每回合为自身附加1层坚毅效果，并且在行动后回复自身5%生命上限的血量",
+    "qa": 5,
+    "des": "每回合为自身附加1层坚毅效果，并回复自身2%生命上限",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "action_heal",
-    "value2": 0.05
+    "value2": 0.02
   },
   "90240018": {
     "icon": 50024004,
     "name": "穿透",
     "qa": 2,
-    "des": "所有攻击无视对方15%的防御",
+    "des": "所有攻击无视对方10%的防御",
     "key1": "neglect_def",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90240019": {
     "icon": 50024005,
     "name": "暴动",
     "qa": 2,
-    "des": "直接伤害击杀目标后,增加自身15%暴击伤害，持续至战斗结束",
+    "des": "直接伤害击杀目标后,增加自身10%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90240020": {
     "icon": 50024006,
     "name": "赐福",
     "qa": 2,
-    "des": "受到直接伤害的15%转化为生命治疗自身",
+    "des": "受到直接伤害的10%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.15,
+    "value1": 0.1,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -7720,17 +7730,17 @@
     "icon": 50025004,
     "name": "通感",
     "qa": 2,
-    "des": "释放技能后恢复自身15%最大生命值",
+    "des": "释放技能后恢复自身10%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.15
+    "value1": 0.1
   },
   "90240023": {
     "icon": 50011004,
     "name": "愈战愈勇",
     "qa": 2,
-    "des": "每回合伤害永久增加4%，可叠加.",
+    "des": "每回合伤害永久增加2%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.04
+    "value1": 0.02
   },
   "90240024": {
     "icon": 50510004,
@@ -7778,16 +7788,16 @@
     "icon": 50013004,
     "name": "灵魂体",
     "qa": 2,
-    "des": "每回合行动结束后，为自身添加免控盾和20%生命上限伤害吸收盾，持续1回合",
+    "des": "每回合行动结束后，为自身添加免控盾和5%生命上限伤害吸收盾，持续1回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.05,\"duration\":1,\"buffRate\":1}"
   },
   "90240030": {
     "icon": 50013005,
     "name": "怒火狂袭",
-    "qa": 2,
+    "qa": 5,
     "des": "击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "killRet",
     "value1": true
@@ -7796,9 +7806,9 @@
     "icon": 50013006,
     "name": "疗愈",
     "qa": 2,
-    "des": "行动后，恢复攻击力25%的生命值",
+    "des": "行动后，恢复攻击力15%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.25
+    "value1": 0.15
   },
   "90240033": {
     "icon": 50014004,
@@ -7812,15 +7822,15 @@
     "icon": 50014005,
     "name": "祈愿",
     "qa": 2,
-    "des": "技能治疗量加成20%",
+    "des": "技能治疗量加成15%",
     "key1": "skill_heal_amp",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90250001": {
     "icon": 50014006,
     "name": "爆燃开场",
     "qa": 2,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+1",
+    "des": "入场时，为敌方全体附加灼烧效果,持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -7829,7 +7839,7 @@
   "90250002": {
     "icon": 50015004,
     "name": "雷阵雨",
-    "qa": 2,
+    "qa": 5,
     "des": "入场时，为敌方全体附加2层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
@@ -7837,7 +7847,7 @@
   "90250003": {
     "icon": 50015005,
     "name": "放逐日",
-    "qa": 2,
+    "qa": 3,
     "des": "入场时，可放逐敌方攻击力最高的英雄1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
@@ -7846,7 +7856,7 @@
     "icon": 50015006,
     "name": "祈祷",
     "qa": 2,
-    "des": "入场时，为自身附加40%生命上限的伤害吸收盾，持续1回合",
+    "des": "入场时，为自身附加25%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.4,\"duration\":1,\"buffRate\":1}"
   },
@@ -7863,7 +7873,7 @@
   "90250006": {
     "icon": 50021005,
     "name": "无敌形态",
-    "qa": 2,
+    "qa": 5,
     "des": "入场时，自身获得持续2个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
@@ -7871,7 +7881,7 @@
   "90250007": {
     "icon": 50021006,
     "name": "暴怒体质",
-    "qa": 2,
+    "qa": 4,
     "des": "入场时，自身获得暴击增加15%，暴伤增加15%，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
@@ -7880,14 +7890,14 @@
     "icon": 50022004,
     "name": "强权",
     "qa": 2,
-    "des": "入场时，随机偷取敌方1-2个目标的10%攻击力，持续2个回合",
+    "des": "入场时，随机偷取敌方1个目标的10%攻击力，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "90250009": {
     "icon": 50022005,
     "name": "疾行者",
-    "qa": 2,
+    "qa": 5,
     "des": "入场时，自身获得2层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
@@ -7903,7 +7913,7 @@
   "90250011": {
     "icon": 50023004,
     "name": "灵魂形态",
-    "qa": 2,
+    "qa": 5,
     "des": "入场时，为自身附加2回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -7927,7 +7937,7 @@
   "90250014": {
     "icon": 50024004,
     "name": "连击准备",
-    "qa": 2,
+    "qa": 4,
     "des": "入场时，为敌方随机2个目标附加1层连击印记，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -7961,7 +7971,7 @@
   "90250018": {
     "icon": 50011004,
     "name": "嗜血者",
-    "qa": 2,
+    "qa": 5,
     "des": "入场时，可给自身附加2层嗜血效果，持续1个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":1,\"buffRate\":1}"
@@ -7997,7 +8007,7 @@
   "90250022": {
     "icon": 50012005,
     "name": "无敌",
-    "qa": 4,
+    "qa": 5,
     "des": "入场时，为自身附加无敌吸血盾的效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
@@ -8022,7 +8032,7 @@
     "icon": 50013005,
     "name": "报复",
     "qa": 2,
-    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值15%的物攻伤害",
+    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值15%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_008"
   },
@@ -8061,7 +8071,7 @@
   "90250030": {
     "icon": 50015004,
     "name": "极寒体",
-    "qa": 2,
+    "qa": 4,
     "des": "死亡后，冰冻敌方攻击最高的1个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -8070,7 +8080,7 @@
     "icon": 50015005,
     "name": "奉献",
     "qa": 2,
-    "des": "死亡时恢复全队30%血量，仅生效1次",
+    "des": "死亡时，恢复友方攻击最高的目标30%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_019"
   },
@@ -8087,24 +8097,24 @@
     "name": "强力",
     "qa": 3,
     "des": "攻击提升20%",
-    "key1": "neglect_def",
+    "key1": "self_atk_add",
     "value1": 0.2
   },
   "90330002": {
     "icon": 50021005,
     "name": "强壮",
     "qa": 3,
-    "des": "物防提升20%",
+    "des": "物防提升25%",
     "key1": "self_phyDef_add",
-    "value1": 0.2
+    "value1": 0.25
   },
   "90330003": {
     "icon": 50021006,
     "name": "顽强",
     "qa": 3,
-    "des": "特防提升20%",
+    "des": "特防提升25%",
     "key1": "self_magDef_add",
-    "value1": 0.2
+    "value1": 0.25
   },
   "90330004": {
     "icon": 50022004,
@@ -8118,17 +8128,17 @@
     "icon": 50022005,
     "name": "暴怒",
     "qa": 3,
-    "des": "暴击伤害增加20%",
+    "des": "暴击伤害增加15%",
     "key1": "slay",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90330006": {
     "icon": 50022006,
     "name": "易怒",
     "qa": 3,
-    "des": "暴击率增加20%",
+    "des": "暴击率增加15%",
     "key1": "crit",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90330007": {
     "icon": 50023004,
@@ -8158,9 +8168,9 @@
     "icon": 50304005,
     "name": "韧性",
     "qa": 3,
-    "des": "增加20%的免疫控制",
+    "des": "增加15%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90330011": {
     "icon": 50024005,
@@ -8240,17 +8250,17 @@
     "icon": 50013004,
     "name": "狂暴",
     "qa": 3,
-    "des": "生命值每降低10%，暴击增加10%",
+    "des": "生命值每降低10%，暴击增加4%",
     "key1": "low_hp_crit",
-    "value1": 0.1
+    "value1": 0.04
   },
   "90330021": {
     "icon": 50013005,
     "name": "狂战",
     "qa": 3,
-    "des": "生命值每降低10%，伤害增加10%",
+    "des": "生命值每降低10%，伤害增加4%",
     "key1": "low_hp_amp",
-    "value1": 0.1
+    "value1": 0.04
   },
   "90330022": {
     "icon": 50013006,
@@ -8274,37 +8284,37 @@
     "icon": 50013006,
     "name": "纯粹",
     "qa": 3,
-    "des": "对敌方造成克制的额外伤害增加30%",
+    "des": "对敌方造成克制的额外伤害增加20%",
     "key1": "specie hit",
-    "value1": 1.3
+    "value1": 1.2
   },
   "90330024": {
     "icon": 50014005,
     "name": "混血",
     "qa": 3,
-    "des": "受克制造成的额外伤害降低30%",
+    "des": "受克制造成的额外伤害降低20%",
     "key1": "specie_behit",
-    "value1": 0.7
+    "value1": 0.8
   },
   "90330025": {
     "icon": 50014006,
     "name": "莽夫",
     "qa": 3,
-    "des": "伤害增加25%，受伤增加20%",
+    "des": "伤害增加15%，受伤增加15%",
     "key1": "amplify",
-    "value1": 0.25,
+    "value1": 0.15,
     "key2": "reduction",
-    "value2": -0.2
+    "value2": -0.15
   },
   "90330026": {
     "icon": 50015004,
     "name": "谨慎",
     "qa": 3,
-    "des": "暴击增加25%，速度降低20%",
+    "des": "暴击增加15%，速度降低15%",
     "key1": "crit",
-    "value1": 0.25,
+    "value1": 0.15,
     "key2": "speed",
-    "value2": -0.2
+    "value2": -0.15
   },
   "90330027": {
     "icon": 50015005,
@@ -8318,9 +8328,9 @@
     "icon": 50015006,
     "name": "坚韧",
     "qa": 3,
-    "des": "自身的被控制概率降低30%",
+    "des": "自身的被控制概率降低20%",
     "key1": "control_buff_lowrate",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90330029": {
     "icon": 50021004,
@@ -8344,17 +8354,17 @@
     "icon": 50021006,
     "name": "击破",
     "qa": 3,
-    "des": "普通攻击有50%的概率为敌方附加1层破甲效果，持续2个回合",
+    "des": "普通攻击有40%的概率为敌方附加1层破甲效果，持续2个回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
   },
   "90340003": {
     "icon": 50022004,
     "name": "嗜血",
     "qa": 3,
-    "des": "回复等同于攻击造成伤害的25%的生命值",
+    "des": "回复等同于攻击造成伤害的20%的生命值",
     "key1": "turn_rate",
-    "value1": 0.25,
+    "value1": 0.2,
     "key2": "turn_tg",
     "value2": "team_self"
   },
@@ -8370,25 +8380,25 @@
     "icon": 50022006,
     "name": "修复",
     "qa": 3,
-    "des": "每受到一次伤害，回复自身生命6%",
+    "des": "每受到一次伤害，回复自身生命4%",
     "key1": "hit_turn_rate",
-    "value1": 0.06
+    "value1": 0.04
   },
   "90340006": {
     "icon": 50023004,
     "name": "嗜怒",
     "qa": 3,
-    "des": "每次击败目标后，自身暴击增加15%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加9%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.15
+    "value1": 0.09
   },
   "90340007": {
     "icon": 50023005,
     "name": "超级无敌",
     "qa": 5,
-    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续3个回合",
+    "des": "每击败敌方1个精灵，自身获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90340008": {
     "icon": 50023006,
@@ -8401,10 +8411,10 @@
   "90340009": {
     "icon": 50024004,
     "name": "精通",
-    "qa": 3,
-    "des": "释放技能有70%概率不消耗怒气",
+    "qa": 6,
+    "des": "释放技能有40%概率不消耗怒气",
     "key1": "skill_free",
-    "value1": 0.7
+    "value1": 0.4
   },
   "90340010": {
     "icon": 50024005,
@@ -8427,22 +8437,20 @@
   "90340013": {
     "icon": 50025004,
     "name": "驱散",
-    "qa": 3,
-    "des": "每回合行动前解除自身3个减益效果",
+    "qa": 6,
+    "des": "每回合行动前解除自身1个减益效果，并回复自身2点怒气",
     "key1": "remove_one_lower",
     "value1": true,
-    "key2": "remove_one_lower",
-    "value2": true,
-    "key3": "remove_one_lower",
-    "value3": true
+    "key2": "action_anger",
+    "value2": 2
   },
   "90340014": {
     "icon": 50011004,
     "name": "自愈",
     "qa": 3,
-    "des": "每回合行动后回复自身9%最大生命值",
+    "des": "每回合行动后回复自身6%最大生命值",
     "key1": "action_heal",
-    "value1": 0.09
+    "value1": 0.06
   },
   "90340015": {
     "icon": 50011005,
@@ -8456,43 +8464,43 @@
     "icon": 50011006,
     "name": "慧心",
     "qa": 3,
-    "des": "技能伤害效果增加30%",
+    "des": "技能伤害效果增加20%",
     "key1": "skill_attack_amp",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90340017": {
     "icon": 50012004,
     "name": "坚毅",
-    "qa": 3,
-    "des": "每回合为自身附加1层坚毅效果,并且在行动后回复自身10%生命上限的血量",
+    "qa": 6,
+    "des": "每回合为自身附加1层坚毅效果，并回复自身4%生命上限",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "action_heal",
-    "value2": 0.1
+    "value2": 0.04
   },
   "90340018": {
     "icon": 50012005,
     "name": "穿透",
     "qa": 3,
-    "des": "所有攻击无视对方20%的防御",
+    "des": "所有攻击无视对方15%的防御",
     "key1": "neglect_def",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90340019": {
     "icon": 50012006,
     "name": "暴动",
     "qa": 3,
-    "des": "直接伤害击杀目标后,增加自身20%暴击伤害，持续至战斗结束",
+    "des": "直接伤害击杀目标后,增加自身15%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90340020": {
     "icon": 50013004,
     "name": "赐福",
     "qa": 3,
-    "des": "受到直接伤害的30%转化为生命治疗自身",
+    "des": "受到直接伤害的15%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.3,
+    "value1": 0.15,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -8500,17 +8508,17 @@
     "icon": 50013005,
     "name": "通感",
     "qa": 3,
-    "des": "释放技能后恢复自身20%最大生命值",
+    "des": "释放技能后恢复自身15%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.2
+    "value1": 0.15
   },
   "90340022": {
     "icon": 50013006,
     "name": "无敌",
     "qa": 5,
-    "des": "每当击败一个目标的时候，获得1回合无敌盾，无敌盾消失时回复自身20%生命上限的血量",
+    "des": "每当击败一个目标的时候，并有75%概率获得1回合无敌盾，无敌盾消失时回复自身20%生命上限的血量",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.75}",
     "key2": "invincibleHeal",
     "value2": 0.2
   },
@@ -8518,9 +8526,9 @@
     "icon": 50014004,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "每回合伤害永久增加6%，可叠加.",
+    "des": "每回合伤害永久增加3%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.06
+    "value1": 0.03
   },
   "90340024": {
     "icon": 50510004,
@@ -8568,41 +8576,41 @@
     "icon": 50021004,
     "name": "灵魂体",
     "qa": 3,
-    "des": "每回合行动结束后，为自身添加免控盾和30%生命上限伤害吸收盾，持续1回合",
+    "des": "每回合行动结束后，为自身添加免控盾和10%生命上限伤害吸收盾，持续1回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "90340032": {
     "icon": 50021005,
     "name": "疗愈",
     "qa": 3,
-    "des": "行动后，恢复攻击力30%的生命值",
+    "des": "行动后，恢复攻击力20%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90340033": {
     "icon": 50021006,
     "name": "救赎",
     "qa": 3,
-    "des": "普攻治疗量加成30%",
+    "des": "普攻治疗量加成25%",
     "key1": "normal_heal_amp",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90340034": {
     "icon": 50022004,
     "name": "祈愿",
     "qa": 3,
-    "des": "技能治疗量加成30%",
+    "des": "技能治疗量加成20%",
     "key1": "skill_heal_amp",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90350001": {
     "icon": 50022005,
     "name": "爆燃开场",
     "qa": 3,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+2.",
+    "des": "入场时，为敌方全体附加灼烧效果,持续4个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -8611,7 +8619,7 @@
   "90350002": {
     "icon": 50022006,
     "name": "雷阵雨",
-    "qa": 3,
+    "qa": 6,
     "des": "入场时，为敌方全体附加3层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
@@ -8619,10 +8627,10 @@
   "90350003": {
     "icon": 50023004,
     "name": "放逐日",
-    "qa": 3,
-    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦20%的攻击力，持续至战斗结束。",
+    "qa": 4,
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦10%的攻击力，持续2个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":-1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -8630,7 +8638,7 @@
     "icon": 50023005,
     "name": "祈祷",
     "qa": 3,
-    "des": "入场时，为自身附加50%生命上限的伤害吸收盾，持续1回合",
+    "des": "入场时，为自身附加30%生命上限的伤害吸收盾，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}"
   },
@@ -8647,8 +8655,8 @@
   "90350006": {
     "icon": 50024004,
     "name": "无敌形态",
-    "qa": 3,
-    "des": "入场时，获得持续3个回合的无敌盾",
+    "qa": 6,
+    "des": "入场时，自身获得持续3个回合的无敌盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
@@ -8656,14 +8664,14 @@
     "icon": 50024005,
     "name": "强权",
     "qa": 3,
-    "des": "入场时，随机偷取敌方2-3个目标的15%攻击力，持续2个回合",
+    "des": "入场时，随机偷取敌方1个目标的15%攻击力，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_1\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "90350009": {
     "icon": 50024006,
     "name": "疾行者",
-    "qa": 3,
+    "qa": 6,
     "des": "入场时，自身获得3层疾速状态",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
@@ -8679,7 +8687,7 @@
   "90350011": {
     "icon": 50011004,
     "name": "灵魂形态",
-    "qa": 3,
+    "qa": 6,
     "des": "入场时，为自身附加3回合免疫盾",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
@@ -8703,7 +8711,7 @@
   "90350014": {
     "icon": 50012004,
     "name": "连击准备",
-    "qa": 3,
+    "qa": 5,
     "des": "入场时，为敌方随机2个目标附加2层连击印记，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_2\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
@@ -8737,7 +8745,7 @@
   "90350018": {
     "icon": 50013005,
     "name": "嗜血者",
-    "qa": 3,
+    "qa": 6,
     "des": "入场时，可给自身附加2层嗜血效果，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
@@ -8754,19 +8762,17 @@
     "icon": 50014004,
     "name": "开场舞",
     "qa": 3,
-    "des": "入场时，自身获得4层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得4层剑舞.每回合行动后获得1层剑舞。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":4,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
-    "key3": "buffDuration",
-    "value3": 99
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "90350021": {
     "icon": 50014005,
     "name": "易燃体质",
     "qa": 5,
-    "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1，若敌方处于灼烧状态，则给目标附加畏缩效果。",
+    "des": "死亡后，为敌方全体附加灼烧效果，灼烧效果持续回合+1，若敌方处于灼烧状态，则给目标附加晕眩效果。",
     "key1": "burn_duration",
     "value1": 1,
     "key2": "diedSkill",
@@ -8775,7 +8781,7 @@
   "90350022": {
     "icon": 50014006,
     "name": "无敌",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为自身附加无敌吸血盾的效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
@@ -8800,7 +8806,7 @@
     "icon": 50015006,
     "name": "报复",
     "qa": 3,
-    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值20%的物攻伤害",
+    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值20%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_009"
   },
@@ -8839,7 +8845,7 @@
   "90350030": {
     "icon": 50022005,
     "name": "极寒体",
-    "qa": 3,
+    "qa": 5,
     "des": "死亡后，随机冰冻敌方2个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_2\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
@@ -8848,7 +8854,7 @@
     "icon": 50022006,
     "name": "奉献",
     "qa": 3,
-    "des": "死亡时恢复全队40%血量，仅生效1次",
+    "des": "死亡时，恢复友方攻击最高的目标40%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_020"
   },
@@ -8864,9 +8870,9 @@
     "icon": 50023005,
     "name": "强力",
     "qa": 4,
-    "des": "攻击提升30%",
-    "key1": "neglect_def",
-    "value1": 0.3
+    "des": "攻击提升25%",
+    "key1": "self_atk_add",
+    "value1": 0.25
   },
   "90430002": {
     "icon": 50023006,
@@ -8896,17 +8902,17 @@
     "icon": 50024006,
     "name": "暴怒",
     "qa": 4,
-    "des": "暴击伤害增加30%",
+    "des": "暴击伤害增加20%",
     "key1": "slay",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90430006": {
     "icon": 50025004,
     "name": "易怒",
     "qa": 4,
-    "des": "暴击率增加30%",
+    "des": "暴击率增加20%",
     "key1": "crit",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90430007": {
     "icon": 50011004,
@@ -8936,9 +8942,9 @@
     "icon": 50304005,
     "name": "韧性",
     "qa": 4,
-    "des": "增加25%的免疫控制",
+    "des": "增加20%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.25
+    "value1": 0.2
   },
   "90430011": {
     "icon": 50012005,
@@ -8960,9 +8966,9 @@
     "icon": 50013004,
     "name": "精准",
     "qa": 4,
-    "des": "命中提升45%",
+    "des": "命中提升40%",
     "key1": "hitRate",
-    "value1": 0.45
+    "value1": 0.4
   },
   "90430014": {
     "icon": 50013005,
@@ -9018,17 +9024,17 @@
     "icon": 50015005,
     "name": "狂暴",
     "qa": 4,
-    "des": "生命值每降低10%，暴击增加12%",
+    "des": "生命值每降低10%，暴击增加5%",
     "key1": "low_hp_crit",
-    "value1": 0.12
+    "value1": 0.05
   },
   "90430021": {
     "icon": 50015006,
     "name": "狂战",
     "qa": 4,
-    "des": "生命值每降低10%，伤害增加12%",
+    "des": "生命值每降低10%，伤害增加5%",
     "key1": "low_hp_amp",
-    "value1": 0.12
+    "value1": 0.05
   },
   "90430022": {
     "icon": 50021004,
@@ -9052,25 +9058,25 @@
     "icon": 50021004,
     "name": "纯粹",
     "qa": 4,
-    "des": "对敌方造成克制的额外伤害增加40%",
+    "des": "对敌方造成克制的额外伤害增加25%",
     "key1": "specie hit",
-    "value1": 1.4
+    "value1": 1.25
   },
   "90430024": {
     "icon": 50021006,
     "name": "混血",
     "qa": 4,
-    "des": "受克制造成的额外伤害降低40%",
+    "des": "受克制造成的额外伤害降低25%",
     "key1": "specie_behit",
-    "value1": 0.6
+    "value1": 0.75
   },
   "90430025": {
     "icon": 50022004,
     "name": "莽夫",
     "qa": 4,
-    "des": "伤害增加30%，受伤增加20%",
+    "des": "伤害增加20%，受伤增加20%",
     "key1": "amplify",
-    "value1": 0.3,
+    "value1": 0.2,
     "key2": "reduction",
     "value2": -0.2
   },
@@ -9078,9 +9084,9 @@
     "icon": 50022005,
     "name": "谨慎",
     "qa": 4,
-    "des": "暴击增加30%，速度降低20%",
+    "des": "暴击增加20%，速度降低20%",
     "key1": "crit",
-    "value1": 0.3,
+    "value1": 0.2,
     "key2": "speed",
     "value2": -0.2
   },
@@ -9096,9 +9102,9 @@
     "icon": 50023004,
     "name": "坚韧",
     "qa": 4,
-    "des": "自身的被控制概率降低35%",
+    "des": "自身的被控制概率降低25%",
     "key1": "control_buff_lowrate",
-    "value1": 0.35
+    "value1": 0.25
   },
   "90430029": {
     "icon": 50023005,
@@ -9122,17 +9128,17 @@
     "icon": 50024004,
     "name": "击破",
     "qa": 4,
-    "des": "普通攻击有65%的概率为敌方附加1层破甲效果，持续2个回合",
+    "des": "普通攻击有50%的概率为敌方附加1层破甲效果，持续2个回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.65}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "90440003": {
     "icon": 50024005,
     "name": "嗜血",
     "qa": 4,
-    "des": "回复等同于攻击造成伤害的30%的生命值",
+    "des": "回复等同于攻击造成伤害的25%的生命值",
     "key1": "turn_rate",
-    "value1": 0.3,
+    "value1": 0.25,
     "key2": "turn_tg",
     "value2": "team_self"
   },
@@ -9148,17 +9154,17 @@
     "icon": 50025004,
     "name": "修复",
     "qa": 4,
-    "des": "每受到一次伤害，回复自身生命8%",
+    "des": "每受到一次伤害，回复自身生命6%",
     "key1": "hit_turn_rate",
-    "value1": 0.08
+    "value1": 0.06
   },
   "90440006": {
     "icon": 50011004,
     "name": "嗜怒",
     "qa": 4,
-    "des": "每次击败目标后，自身暴击增加20%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加12%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.2
+    "value1": 0.12
   },
   "90440008": {
     "icon": 50011005,
@@ -9190,49 +9196,49 @@
     "icon": 50012005,
     "name": "自愈",
     "qa": 4,
-    "des": "每回合行动后回复自身12%最大生命值",
+    "des": "每回合行动后回复自身9%最大生命值",
     "key1": "action_heal",
-    "value1": 0.12
+    "value1": 0.09
   },
   "90440015": {
     "icon": 50012006,
     "name": "重击",
     "qa": 4,
-    "des": "普通攻击伤害增加50%",
+    "des": "普通攻击伤害增加35%",
     "key1": "normal_attack_amp",
-    "value1": 0.5
+    "value1": 0.35
   },
   "90440016": {
     "icon": 50013004,
     "name": "慧心",
     "qa": 4,
-    "des": "技能伤害效果增加50%",
+    "des": "技能伤害效果增加25%",
     "key1": "skill_attack_amp",
-    "value1": 0.5
+    "value1": 0.25
   },
   "90440018": {
     "icon": 50013005,
     "name": "穿透",
     "qa": 4,
-    "des": "所有攻击无视对方25%的防御",
+    "des": "所有攻击无视对方20%的防御",
     "key1": "neglect_def",
-    "value1": 0.25
+    "value1": 0.2
   },
   "90440019": {
     "icon": 50013006,
     "name": "暴动",
     "qa": 4,
-    "des": "直接伤害击杀目标后,增加自身25%暴击伤害，持续至战斗结束",
+    "des": "直接伤害击杀目标后,增加自身20%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.25
+    "value1": 0.2
   },
   "90440020": {
     "icon": 50014004,
     "name": "赐福",
     "qa": 4,
-    "des": "受到直接伤害的35%转化为生命治疗自身",
+    "des": "受到直接伤害的20%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.35,
+    "value1": 0.2,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -9240,17 +9246,17 @@
     "icon": 50014005,
     "name": "通感",
     "qa": 4,
-    "des": "释放技能后恢复自身30%最大生命值",
+    "des": "释放技能后恢复自身20%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90440023": {
     "icon": 50014006,
     "name": "愈战愈勇",
     "qa": 4,
-    "des": "每回合伤害永久增加8%，可叠加.",
+    "des": "每回合伤害永久增加4%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.08
+    "value1": 0.04
   },
   "90440024": {
     "icon": 50510004,
@@ -9284,7 +9290,7 @@
     "qa": 4,
     "des": "当宝可梦HP小于HP1/2,每回合恢复自身8%生命值",
     "key1": "less_half_hp_heal",
-    "value1": 0.35
+    "value1": 0.08
   },
   "90440028": {
     "icon": 50021005,
@@ -9298,16 +9304,16 @@
     "icon": 50021006,
     "name": "灵魂体",
     "qa": 4,
-    "des": "每回合行动结束后，为自身添加免控盾和50%生命上限伤害吸收盾，持续2回合",
+    "des": "每回合行动结束后，为自身添加免控盾和15%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
   },
   "90440030": {
     "icon": 50012004,
     "name": "怒火狂袭",
-    "qa": 5,
+    "qa": 6,
     "des": "击杀目标后，获得2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "killRet",
     "value1": true,
@@ -9318,31 +9324,31 @@
     "icon": 50022004,
     "name": "疗愈",
     "qa": 4,
-    "des": "行动后，恢复攻击力40%的生命值",
+    "des": "行动后，恢复攻击力25%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.4
+    "value1": 0.25
   },
   "90440033": {
     "icon": 50022005,
     "name": "救赎",
     "qa": 4,
-    "des": "普攻治疗量加成50%",
+    "des": "普攻治疗量加成30%",
     "key1": "normal_heal_amp",
-    "value1": 0.5
+    "value1": 0.3
   },
   "90440034": {
     "icon": 50022006,
     "name": "祈愿",
     "qa": 4,
-    "des": "技能治疗量加成50%",
+    "des": "技能治疗量加成25%",
     "key1": "skill_heal_amp",
-    "value1": 0.5
+    "value1": 0.25
   },
   "90450001": {
     "icon": 50023004,
     "name": "爆燃开场",
     "qa": 4,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+3.",
+    "des": "入场时，为敌方全体附加灼烧效果,持续5个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -9351,10 +9357,10 @@
   "90450003": {
     "icon": 50023005,
     "name": "放逐日",
-    "qa": 4,
-    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦30%的攻击力，持续至战斗结束。",
+    "qa": 5,
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦20%的攻击力，持续2个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.3,\"duration\":-1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9362,7 +9368,7 @@
     "icon": 50023006,
     "name": "祈祷",
     "qa": 4,
-    "des": "入场时，为自身附加60%生命上限的伤害吸收盾，持续2回合",
+    "des": "入场时，为自身附加40%生命上限的伤害吸收盾，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
@@ -9379,7 +9385,7 @@
   "90450007": {
     "icon": 50024005,
     "name": "暴怒体质",
-    "qa": 4,
+    "qa": 5,
     "des": "入场时，自身获得暴击增加30%，暴伤增加30%，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
@@ -9388,9 +9394,9 @@
     "icon": 50024006,
     "name": "强权",
     "qa": 4,
-    "des": "入场时，并随机偷取敌方3个目标的20%攻击力，持续2个回合",
+    "des": "入场时，随机偷取敌方2个目标的20%攻击力，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
   "90450010": {
     "icon": 50025004,
@@ -9405,7 +9411,7 @@
   "90450011": {
     "icon": 50011004,
     "name": "灵魂形态",
-    "qa": 4,
+    "qa": 7,
     "des": "入场时，为自身附加3回合免疫盾,击杀目标时，自身获得1个回合的免控护盾。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
@@ -9431,7 +9437,7 @@
   "90450014": {
     "icon": 50012004,
     "name": "连击准备",
-    "qa": 4,
+    "qa": 6,
     "des": "入场时，为敌方随机3个目标附加3层连击印记，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
@@ -9467,7 +9473,7 @@
   "90450018": {
     "icon": 50013005,
     "name": "嗜血者",
-    "qa": 4,
+    "qa": 6,
     "des": "入场时，可给自身附加3层嗜血效果，持续3个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
@@ -9484,13 +9490,11 @@
     "icon": 50014004,
     "name": "开场舞",
     "qa": 4,
-    "des": "入场时，自身获得5层剑舞.每回合行动后获得1层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得5层剑舞.每回合行动后获得1层剑舞。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":5,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
-    "key3": "buffDuration",
-    "value3": 99
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "90450023": {
     "icon": 50014005,
@@ -9514,7 +9518,7 @@
     "icon": 50015004,
     "name": "报复",
     "qa": 4,
-    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值25%的物攻伤害",
+    "des": "死亡时，攻击敌方随机1-2个目标，造成最大生命值25%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_036"
   },
@@ -9553,7 +9557,7 @@
   "90450030": {
     "icon": 50021006,
     "name": "极寒体",
-    "qa": 4,
+    "qa": 6,
     "des": "死亡后，随机冰冻敌方3个目标",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"frozen\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
@@ -9562,7 +9566,7 @@
     "icon": 50022004,
     "name": "奉献",
     "qa": 4,
-    "des": "死亡时恢复全队50%血量，仅生效1次",
+    "des": "死亡时，恢复友方攻击最高的目标50%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_021"
   },
@@ -9578,9 +9582,9 @@
     "icon": 50022006,
     "name": "强力",
     "qa": 5,
-    "des": "攻击提升40%",
-    "key1": "neglect_def",
-    "value1": 0.4
+    "des": "攻击提升30%",
+    "key1": "self_atk_add",
+    "value1": 0.3
   },
   "90530002": {
     "icon": 50023004,
@@ -9610,17 +9614,17 @@
     "icon": 50024004,
     "name": "暴怒",
     "qa": 5,
-    "des": "暴击伤害增加40%",
+    "des": "暴击伤害增加25%",
     "key1": "slay",
-    "value1": 0.4
+    "value1": 0.25
   },
   "90530006": {
     "icon": 50024005,
     "name": "易怒",
     "qa": 5,
-    "des": "暴击率增加40%",
+    "des": "暴击率增加25%",
     "key1": "crit",
-    "value1": 0.4
+    "value1": 0.25
   },
   "90530007": {
     "icon": 50024006,
@@ -9650,9 +9654,9 @@
     "icon": 50304005,
     "name": "韧性",
     "qa": 5,
-    "des": "增加30%的免疫控制",
+    "des": "增加25%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90530011": {
     "icon": 50011006,
@@ -9666,25 +9670,25 @@
     "icon": 50012004,
     "name": "灵活",
     "qa": 5,
-    "des": "闪避率提升40%",
+    "des": "闪避率提升35%",
     "key1": "dodgeRate",
-    "value1": 0.4
+    "value1": 0.35
   },
   "90530013": {
     "icon": 50012005,
     "name": "精准",
     "qa": 5,
-    "des": "命中提升55%",
+    "des": "命中提升50%",
     "key1": "hitRate",
-    "value1": 0.55
+    "value1": 0.5
   },
   "90530014": {
     "icon": 50012006,
     "name": "幸运",
     "qa": 5,
-    "des": "抗暴率提升40%",
+    "des": "抗暴率提升35%",
     "key1": "critDef",
-    "value1": 0.4
+    "value1": 0.35
   },
   "90530015": {
     "icon": 50013004,
@@ -9732,17 +9736,17 @@
     "icon": 50014006,
     "name": "狂暴",
     "qa": 5,
-    "des": "生命值每降低10%，暴击增加15%",
+    "des": "生命值每降低10%，暴击增加6%",
     "key1": "low_hp_crit",
-    "value1": 0.15
+    "value1": 0.06
   },
   "90530021": {
     "icon": 50015004,
     "name": "狂战",
     "qa": 5,
-    "des": "生命值每降低10%，伤害增加15%",
+    "des": "生命值每降低10%，伤害增加6%",
     "key1": "low_hp_amp",
-    "value1": 0.15
+    "value1": 0.06
   },
   "90530022": {
     "icon": 50015005,
@@ -9766,25 +9770,25 @@
     "icon": 50015006,
     "name": "纯粹",
     "qa": 5,
-    "des": "对敌方造成克制的额外伤害增加50%",
+    "des": "对敌方造成克制的额外伤害增加30%",
     "key1": "specie hit",
-    "value1": 1.5
+    "value1": 1.3
   },
   "90530024": {
     "icon": 50021004,
     "name": "混血",
     "qa": 5,
-    "des": "受克制造成的额外伤害降低50%",
+    "des": "受克制造成的额外伤害降低30%",
     "key1": "specie_behit",
-    "value1": 0.5
+    "value1": 0.7
   },
   "90530025": {
     "icon": 50021005,
     "name": "莽夫",
     "qa": 5,
-    "des": "伤害增加35%，受伤增加20%",
+    "des": "伤害增加25%，受伤增加20%",
     "key1": "amplify",
-    "value1": 0.35,
+    "value1": 0.25,
     "key2": "reduction",
     "value2": -0.2
   },
@@ -9792,9 +9796,9 @@
     "icon": 50021006,
     "name": "谨慎",
     "qa": 5,
-    "des": "暴击增加35%，速度降低20%",
+    "des": "暴击增加25%，速度降低20%",
     "key1": "crit",
-    "value1": 0.35,
+    "value1": 0.25,
     "key2": "speed",
     "value2": -0.2
   },
@@ -9810,9 +9814,9 @@
     "icon": 50022005,
     "name": "坚韧",
     "qa": 5,
-    "des": "自身的被控制概率降低45%",
+    "des": "自身的被控制概率降低30%",
     "key1": "control_buff_lowrate",
-    "value1": 0.45
+    "value1": 0.3
   },
   "90530029": {
     "icon": 50022006,
@@ -9836,17 +9840,17 @@
     "icon": 50023005,
     "name": "击破",
     "qa": 5,
-    "des": "普通攻击有80%的概率为敌方附加1层破甲效果，持续3个回合",
+    "des": "普通攻击有70%的概率为敌方附加1层破甲效果，持续3个回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.8}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.7}"
   },
   "90540003": {
     "icon": 50023006,
     "name": "嗜血",
     "qa": 5,
-    "des": "回复等同于攻击造成伤害的35%的生命值",
+    "des": "回复等同于攻击造成伤害的30%的生命值",
     "key1": "turn_rate",
-    "value1": 0.35,
+    "value1": 0.3,
     "key2": "turn_tg",
     "value2": "team_self"
   },
@@ -9862,17 +9866,17 @@
     "icon": 50024005,
     "name": "修复",
     "qa": 5,
-    "des": "每受到一次伤害，回复自身生命10%",
+    "des": "每受到一次伤害，回复自身生命8%",
     "key1": "hit_turn_rate",
-    "value1": 0.1
+    "value1": 0.08
   },
   "90540006": {
     "icon": 50024006,
     "name": "嗜怒",
     "qa": 5,
-    "des": "每次击败目标后，自身暴击增加25%，持续至战斗结束",
+    "des": "每次击败目标后，自身暴击增加15%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.25
+    "value1": 0.15
   },
   "90540008": {
     "icon": 50025004,
@@ -9904,49 +9908,49 @@
     "icon": 50011006,
     "name": "自愈",
     "qa": 5,
-    "des": "每回合行动后回复自身15%最大生命值",
+    "des": "每回合行动后回复自身12%最大生命值",
     "key1": "action_heal",
-    "value1": 0.15
+    "value1": 0.12
   },
   "90540015": {
     "icon": 50012004,
     "name": "重击",
     "qa": 5,
-    "des": "普通攻击伤害增加70%",
+    "des": "普通攻击伤害增加40%",
     "key1": "normal_attack_amp",
-    "value1": 0.7
+    "value1": 0.4
   },
   "90540016": {
     "icon": 50012005,
     "name": "慧心",
     "qa": 5,
-    "des": "技能伤害效果增加70%",
+    "des": "技能伤害效果增加30%",
     "key1": "skill_attack_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90540018": {
     "icon": 50012006,
     "name": "穿透",
     "qa": 5,
-    "des": "所有攻击无视对方30%的防御",
+    "des": "所有攻击无视对方25%的防御",
     "key1": "neglect_def",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90540019": {
     "icon": 50013004,
     "name": "暴动",
     "qa": 5,
-    "des": "直接伤害击杀目标后,增加自身30%暴击伤害，持续至战斗结束",
+    "des": "直接伤害击杀目标后,增加自身25%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.3
+    "value1": 0.25
   },
   "90540020": {
     "icon": 50013005,
     "name": "赐福",
     "qa": 5,
-    "des": "受到直接伤害的40%转化为生命治疗自身",
+    "des": "受到直接伤害的25%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.4,
+    "value1": 0.25,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -9954,17 +9958,17 @@
     "icon": 50013006,
     "name": "通感",
     "qa": 5,
-    "des": "释放技能后恢复自身35%最大生命值",
+    "des": "释放技能后恢复自身25%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.35
+    "value1": 0.25
   },
   "90540022": {
     "icon": 50014004,
     "name": "骁勇",
-    "qa": 5,
-    "des": "每当击败一个目标的时候，获得2回合无敌盾，无敌盾消失时回复自身30%生命上限的血量",
+    "qa": 6,
+    "des": "每当击败一个目标的时候，获得1回合无敌盾，无敌盾消失时回复自身30%生命上限的血量",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}",
     "key2": "invincibleHeal",
     "value2": 0.3
   },
@@ -9972,9 +9976,9 @@
     "icon": 50014005,
     "name": "愈战愈勇",
     "qa": 5,
-    "des": "每回合伤害永久增加10%，可叠加.",
+    "des": "每回合伤害永久增加6%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.1
+    "value1": 0.06
   },
   "90540024": {
     "icon": 50510004,
@@ -9998,9 +10002,9 @@
     "icon": 50015005,
     "name": "荆棘护甲",
     "qa": 5,
-    "des": "受到直接伤害反弹45%的伤害",
+    "des": "受到直接伤害反弹40%的伤害",
     "key1": "hit_rebound",
-    "value1": 0.45
+    "value1": 0.4
   },
   "90540027": {
     "icon": 50015006,
@@ -10022,41 +10026,41 @@
     "icon": 50021005,
     "name": "灵魂体",
     "qa": 5,
-    "des": "每回合行动结束后，为自身添加免控盾和80%生命上限伤害吸收盾，持续2回合",
+    "des": "每回合行动结束后，为自身添加免控盾和20%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.8,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "90540032": {
     "icon": 50021006,
     "name": "疗愈",
     "qa": 5,
-    "des": "行动后，恢复攻击力60%的生命值",
+    "des": "行动后，恢复攻击力30%的生命值",
     "key1": "round_heal_value",
-    "value1": 0.6
+    "value1": 0.3
   },
   "90540033": {
     "icon": 50022004,
     "name": "救赎",
     "qa": 5,
-    "des": "普攻治疗量加成70%",
+    "des": "普攻治疗量加成40%",
     "key1": "normal_heal_amp",
-    "value1": 0.7
+    "value1": 0.4
   },
   "90540034": {
     "icon": 50022005,
     "name": "祈愿",
     "qa": 5,
-    "des": "技能治疗量加成70%",
+    "des": "技能治疗量加成30%",
     "key1": "skill_heal_amp",
-    "value1": 0.7
+    "value1": 0.3
   },
   "90550001": {
     "icon": 50022006,
     "name": "爆燃开场",
     "qa": 5,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+4.",
+    "des": "入场时，为敌方全体附加灼烧效果,持续6个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10065,10 +10069,10 @@
   "90550003": {
     "icon": 50023004,
     "name": "放逐日",
-    "qa": 5,
-    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦40%的攻击力，持续至战斗结束。",
+    "qa": 6,
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦30%的攻击力，持续2个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":-1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
     "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -10076,7 +10080,7 @@
     "icon": 50023005,
     "name": "祈祷",
     "qa": 5,
-    "des": "入场时，为自身附加100%生命上限的伤害吸收盾，持续2回合",
+    "des": "入场时，为自身附加50%生命上限的伤害吸收盾，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -10094,9 +10098,9 @@
     "icon": 50024004,
     "name": "强权",
     "qa": 5,
-    "des": "入场时，并随机偷取敌方2-3个目标的30%攻击力，持续3个回合",
+    "des": "入场时，随机偷取敌方2个目标的25%攻击力，持续1个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_2\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
   },
   "90550010": {
     "icon": 50024005,
@@ -10154,19 +10158,17 @@
     "icon": 50013004,
     "name": "开场舞",
     "qa": 5,
-    "des": "入场时，自身获得5层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
+    "des": "入场时，自身获得6层剑舞.每回合行动后获得1层剑舞。",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":5,\"duration\":5,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
-    "key3": "buffDuration",
-    "value3": 99
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "90550025": {
     "icon": 50013005,
     "name": "报复",
     "qa": 5,
-    "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值30%的物攻伤害",
+    "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值30%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_039"
   },
@@ -10208,7 +10210,7 @@
     "icon": 50014006,
     "name": "奉献",
     "qa": 5,
-    "des": "死亡时恢复全队70%血量，仅生效1次",
+    "des": "死亡时，恢复友方攻击最高的目标70%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_022"
   },
@@ -10223,31 +10225,31 @@
   "90630001": {
     "icon": 50015005,
     "name": "强力",
-    "qa": 5,
-    "des": "攻击提升50%",
-    "key1": "neglect_def",
-    "value1": 0.5
+    "qa": 6,
+    "des": "攻击提升35%",
+    "key1": "self_atk_add",
+    "value1": 0.35
   },
   "90630002": {
     "icon": 50015006,
     "name": "强壮",
-    "qa": 5,
-    "des": "物防提升50%",
+    "qa": 6,
+    "des": "物防提升60%",
     "key1": "self_phyDef_add",
-    "value1": 0.5
+    "value1": 0.6
   },
   "90630003": {
     "icon": 50021004,
     "name": "顽强",
-    "qa": 5,
-    "des": "特防提升50%",
+    "qa": 6,
+    "des": "特防提升60%",
     "key1": "self_magDef_add",
-    "value1": 0.5
+    "value1": 0.6
   },
   "90630004": {
     "icon": 50021005,
     "name": "旺盛",
-    "qa": 5,
+    "qa": 6,
     "des": "生命提升50%",
     "key1": "self_maxHP_add",
     "value1": 0.5
@@ -10255,23 +10257,23 @@
   "90630005": {
     "icon": 50021006,
     "name": "暴怒",
-    "qa": 5,
-    "des": "暴击伤害增加50%",
+    "qa": 6,
+    "des": "暴击伤害增加30%",
     "key1": "slay",
-    "value1": 0.5
+    "value1": 0.3
   },
   "90630006": {
     "icon": 50022004,
     "name": "易怒",
-    "qa": 5,
-    "des": "暴击率增加50%",
+    "qa": 6,
+    "des": "暴击率增加30%",
     "key1": "crit",
-    "value1": 0.5
+    "value1": 0.3
   },
   "90630007": {
     "icon": 50022005,
     "name": "坚固",
-    "qa": 5,
+    "qa": 6,
     "des": "伤害减免增加40%",
     "key1": "reduction",
     "value1": 0.4
@@ -10279,7 +10281,7 @@
   "90630008": {
     "icon": 50022006,
     "name": "力量",
-    "qa": 5,
+    "qa": 6,
     "des": "攻击资质+60",
     "key1": "M_ATK",
     "value1": 60
@@ -10287,7 +10289,7 @@
   "90630009": {
     "icon": 50023004,
     "name": "智慧",
-    "qa": 5,
+    "qa": 6,
     "des": "特攻资质+60",
     "key1": "M_STK",
     "value1": 60
@@ -10295,15 +10297,15 @@
   "90630010": {
     "icon": 50304005,
     "name": "韧性",
-    "qa": 5,
-    "des": "增加40%的免疫控制",
+    "qa": 6,
+    "des": "增加30%的免疫控制",
     "key1": "control_buff_lowrate",
-    "value1": 0.4
+    "value1": 0.3
   },
   "90630011": {
     "icon": 50023006,
     "name": "疾速",
-    "qa": 5,
+    "qa": 6,
     "des": "速度提升50%",
     "key1": "self_speed_add",
     "value1": 0.5
@@ -10311,15 +10313,15 @@
   "90630012": {
     "icon": 50024004,
     "name": "灵活",
-    "qa": 5,
-    "des": "闪避率提升50%",
+    "qa": 6,
+    "des": "闪避率提升40%",
     "key1": "dodgeRate",
-    "value1": 0.5
+    "value1": 0.4
   },
   "90630013": {
     "icon": 50024005,
     "name": "精准",
-    "qa": 5,
+    "qa": 6,
     "des": "命中率不会被降低，攻击必定命中",
     "key1": "skill_must_hit",
     "value1": true
@@ -10327,15 +10329,15 @@
   "90630014": {
     "icon": 50023006,
     "name": "幸运",
-    "qa": 5,
-    "des": "抗暴率提升50%",
+    "qa": 6,
+    "des": "抗暴率提升40%",
     "key1": "critDef",
-    "value1": 0.5
+    "value1": 0.4
   },
   "90630015": {
     "icon": 50024004,
     "name": "疗愈",
-    "qa": 5,
+    "qa": 6,
     "des": "治疗效果提升50%",
     "key1": "skill_heal_amp",
     "value1": 0.5,
@@ -10345,7 +10347,7 @@
   "90630016": {
     "icon": 50024005,
     "name": "体质",
-    "qa": 5,
+    "qa": 6,
     "des": "生命资质+60",
     "key1": "M_HP",
     "value1": 60
@@ -10353,7 +10355,7 @@
   "90630017": {
     "icon": 50023006,
     "name": "亲和",
-    "qa": 5,
+    "qa": 6,
     "des": "受到治疗量增加50%",
     "key1": "healAdd",
     "value1": 0.5
@@ -10361,7 +10363,7 @@
   "90630018": {
     "icon": 50024004,
     "name": "抵抗",
-    "qa": 5,
+    "qa": 6,
     "des": "受到的持续伤害降低50%",
     "key1": "damage_buff_lowArg",
     "value1": 0.5
@@ -10369,7 +10371,7 @@
   "90630019": {
     "icon": 50013004,
     "name": "敏捷",
-    "qa": 5,
+    "qa": 6,
     "des": "速度资质+60",
     "key1": "M_SPE",
     "value1": 60
@@ -10377,23 +10379,23 @@
   "90630020": {
     "icon": 50013005,
     "name": "狂暴",
-    "qa": 5,
-    "des": "生命值每降低10%，暴击增加20%",
+    "qa": 6,
+    "des": "生命值每降低10%，暴击增加7%",
     "key1": "low_hp_crit",
-    "value1": 0.2
+    "value1": 0.07
   },
   "90630021": {
     "icon": 50013006,
     "name": "狂战",
-    "qa": 5,
-    "des": "生命值每降低10%，伤害增加20%",
+    "qa": 6,
+    "des": "生命值每降低10%，伤害增加7%",
     "key1": "low_hp_amp",
-    "value1": 0.2
+    "value1": 0.07
   },
   "90630022": {
     "icon": 50014004,
     "name": "完美",
-    "qa": 5,
+    "qa": 6,
     "des": "全属性资质加成+40",
     "key1": "M_HP",
     "value1": 40,
@@ -10411,43 +10413,43 @@
   "90630023": {
     "icon": 50014004,
     "name": "纯粹",
-    "qa": 5,
-    "des": "对敌方造成克制的额外伤害增加60%",
+    "qa": 6,
+    "des": "对敌方造成克制的额外伤害增加35%",
     "key1": "specie hit",
-    "value1": 1.6
+    "value1": 1.35
   },
   "90630024": {
     "icon": 50014006,
     "name": "混血",
-    "qa": 5,
-    "des": "受克制造成的额外伤害降低60%",
+    "qa": 6,
+    "des": "受克制造成的额外伤害降低35%",
     "key1": "specie_behit",
-    "value1": 0.4
+    "value1": 0.65
   },
   "90630025": {
     "icon": 50015004,
     "name": "莽夫",
-    "qa": 5,
-    "des": "伤害增加40%，受伤增加20%",
+    "qa": 6,
+    "des": "伤害增加30%，受伤增加20%",
     "key1": "amplify",
-    "value1": 0.4,
+    "value1": 0.3,
     "key2": "reduction",
     "value2": -0.2
   },
   "90630026": {
     "icon": 50015005,
     "name": "谨慎",
-    "qa": 5,
-    "des": "暴击增加40%，速度降低20%",
+    "qa": 6,
+    "des": "暴击增加30%，速度降低20%",
     "key1": "crit",
-    "value1": 0.4,
+    "value1": 0.3,
     "key2": "speed",
     "value2": -0.2
   },
   "90630027": {
     "icon": 50015006,
     "name": "充沛",
-    "qa": 5,
+    "qa": 6,
     "des": "HP全满的时候，受到的伤害降低至原来的20%",
     "key1": "full_hp_red",
     "value1": 0.2
@@ -10455,15 +10457,15 @@
   "90630028": {
     "icon": 50021004,
     "name": "坚韧",
-    "qa": 5,
-    "des": "自身的被控制概率降低55%",
+    "qa": 6,
+    "des": "自身的被控制概率降低35%",
     "key1": "control_buff_lowrate",
-    "value1": 0.55
+    "value1": 0.35
   },
   "90630029": {
     "icon": 50021005,
     "name": "幻影",
-    "qa": 5,
+    "qa": 6,
     "des": "生命每降低10%，闪避增加8%",
     "key1": "low_hp_dodge",
     "value1": 0.08
@@ -10471,7 +10473,7 @@
   "90640001": {
     "icon": 50021006,
     "name": "易怒",
-    "qa": 5,
+    "qa": 6,
     "des": "行动后恢复自身2点怒气，并回复自身10%最大生命值",
     "key1": "action_anger",
     "value1": 2,
@@ -10481,7 +10483,7 @@
   "90640002": {
     "icon": 50022004,
     "name": "击破",
-    "qa": 5,
+    "qa": 6,
     "des": "普通攻击有100%的概率为敌方附加2层破甲效果，持续3个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
@@ -10489,17 +10491,17 @@
   "90640003": {
     "icon": 50022005,
     "name": "嗜血",
-    "qa": 5,
-    "des": "回复等同于攻击造成伤害的40%的生命值",
+    "qa": 6,
+    "des": "回复等同于攻击造成伤害的35%的生命值",
     "key1": "turn_rate",
-    "value1": 0.4,
+    "value1": 0.35,
     "key2": "turn_tg",
     "value2": "team_self"
   },
   "90640004": {
     "icon": 50022006,
     "name": "摄魂",
-    "qa": 5,
+    "qa": 6,
     "des": "技能攻击附带目标最大生命值35%伤害",
     "key1": "maxHP_damage",
     "value1": 0.35
@@ -10507,23 +10509,23 @@
   "90640005": {
     "icon": 50023004,
     "name": "修复",
-    "qa": 5,
-    "des": "每受到一次伤害，回复自身生命12%",
+    "qa": 6,
+    "des": "每受到一次伤害，回复自身生命10%",
     "key1": "hit_turn_rate",
-    "value1": 0.12
+    "value1": 0.1
   },
   "90640006": {
     "icon": 50023005,
     "name": "嗜怒",
-    "qa": 5,
-    "des": "每次击败目标后，自身暴击增加30%，持续至战斗结束",
+    "qa": 6,
+    "des": "每次击败目标后，自身暴击增加20%，持续至战斗结束",
     "key1": "kill_crit",
-    "value1": 0.3
+    "value1": 0.2
   },
   "90640008": {
     "icon": 50023006,
     "name": "通灵",
-    "qa": 5,
+    "qa": 6,
     "des": "每当直接伤害击败目标时,自身获得6点怒气",
     "key1": "kill_anger",
     "value1": 6
@@ -10531,7 +10533,7 @@
   "90640010": {
     "icon": 50024004,
     "name": "息怒",
-    "qa": 5,
+    "qa": 6,
     "des": "技能攻击可降低目标4点怒气，技能伤害增加30%",
     "key1": "skill_less_anger",
     "value1": 4,
@@ -10541,83 +10543,83 @@
   "90640012": {
     "icon": 50024005,
     "name": "斩杀",
-    "qa": 5,
+    "qa": 6,
     "des": "释放技能时，若目标生命值低于30%，则将其斩杀,并且每次击杀1个目标自身回复2点怒气",
     "key1": "seckill",
-    "value1": 0.35,
+    "value1": 0.3,
     "key2": "kill_anger",
     "value2": 2
   },
   "90640014": {
     "icon": 50023006,
     "name": "自愈",
-    "qa": 5,
-    "des": "每回合行动后回复自身20%最大生命值",
+    "qa": 6,
+    "des": "每回合行动后回复自身14%最大生命值",
     "key1": "action_heal",
-    "value1": 0.2
+    "value1": 0.14
   },
   "90640015": {
     "icon": 50024004,
     "name": "重击",
-    "qa": 5,
-    "des": "普通攻击伤害增加100%",
+    "qa": 6,
+    "des": "普通攻击伤害增加50%",
     "key1": "normal_attack_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90640016": {
     "icon": 50024005,
     "name": "慧心",
-    "qa": 5,
-    "des": "技能伤害效果增加100%",
+    "qa": 6,
+    "des": "技能伤害效果增加40%",
     "key1": "skill_attack_amp",
-    "value1": 1
+    "value1": 0.4
   },
   "90640018": {
     "icon": 50023006,
     "name": "穿透",
-    "qa": 5,
-    "des": "所有攻击无视对方50%的防御",
+    "qa": 6,
+    "des": "所有攻击无视对方30%的防御",
     "key1": "neglect_def",
-    "value1": 0.5
+    "value1": 0.3
   },
   "90640019": {
     "icon": 50024004,
     "name": "暴动",
-    "qa": 5,
-    "des": "直接伤害击杀目标后,增加自身35%暴击伤害，持续至战斗结束",
+    "qa": 6,
+    "des": "直接伤害击杀目标后,增加自身30%暴击伤害，持续至战斗结束",
     "key1": "kill_slay",
-    "value1": 0.35
+    "value1": 0.3
   },
   "90640020": {
     "icon": 50013004,
     "name": "赐福",
-    "qa": 5,
-    "des": "受到直接伤害的50%转化为生命治疗自身",
+    "qa": 6,
+    "des": "受到直接伤害的30%转化为生命治疗自身",
     "key1": "hit_turn_rate",
-    "value1": 0.5,
+    "value1": 0.3,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
   "90640021": {
     "icon": 50013005,
     "name": "通感",
-    "qa": 5,
-    "des": "释放技能后恢复自身40%最大生命值",
+    "qa": 6,
+    "des": "释放技能后恢复自身30%最大生命值",
     "key1": "skill_heal_maxHp",
-    "value1": 0.4
+    "value1": 0.3
   },
   "90640023": {
     "icon": 50013006,
     "name": "愈战愈勇",
-    "qa": 5,
-    "des": "每回合伤害永久增加12%，可叠加.",
+    "qa": 6,
+    "des": "每回合伤害永久增加8%，可叠加.",
     "key1": "round_amplify",
-    "value1": 0.12
+    "value1": 0.08
   },
   "90640024": {
     "icon": 50510004,
     "name": "吞噬",
-    "qa": 5,
+    "qa": 6,
     "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害100%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
@@ -10627,31 +10629,31 @@
   "90640025": {
     "icon": 50014005,
     "name": "善战",
-    "qa": 5,
-    "des": "击败目标后,自身伤害增加40%。",
+    "qa": 6,
+    "des": "击败目标后,自身伤害增加35%。",
     "key1": "kill_amp",
-    "value1": 0.4
+    "value1": 0.35
   },
   "90640026": {
     "icon": 50014006,
     "name": "荆棘护甲",
-    "qa": 5,
-    "des": "受到直接伤害反弹60%的伤害",
+    "qa": 6,
+    "des": "受到直接伤害反弹50%的伤害",
     "key1": "hit_rebound",
-    "value1": 0.6
+    "value1": 0.5
   },
   "90640027": {
     "icon": 50015004,
     "name": "回春",
-    "qa": 5,
-    "des": "当宝可梦HP小于HP1/2,每回合恢复自身15%生命值",
+    "qa": 6,
+    "des": "当宝可梦HP小于HP1/2,每回合恢复自身12%生命值",
     "key1": "less_half_hp_heal",
-    "value1": 0.15
+    "value1": 0.12
   },
   "90640028": {
     "icon": 50015005,
     "name": "愤怒",
-    "qa": 5,
+    "qa": 6,
     "des": "免疫减怒效果，初始怒气+6",
     "key1": "curAnger",
     "value1": 6,
@@ -10661,42 +10663,42 @@
   "90640029": {
     "icon": 50015006,
     "name": "灵魂体",
-    "qa": 5,
-    "des": "每回合行动结束后，为自身添加免控盾和100%生命上限伤害吸收盾，持续2回合",
+    "qa": 6,
+    "des": "每回合行动结束后，为自身添加免控盾和25%生命上限伤害吸收盾，持续2回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "90640032": {
     "icon": 50021004,
     "name": "疗愈",
-    "qa": 5,
-    "des": "行动后，恢复攻击力100%的生命值",
+    "qa": 6,
+    "des": "行动后，恢复攻击力50%的生命值",
     "key1": "round_heal_value",
-    "value1": 1
+    "value1": 0.5
   },
   "90640033": {
     "icon": 50021005,
     "name": "救赎",
-    "qa": 5,
-    "des": "普攻治疗量加成100%",
+    "qa": 6,
+    "des": "普攻治疗量加成60%",
     "key1": "normal_heal_amp",
-    "value1": 1
+    "value1": 0.6
   },
   "90640034": {
     "icon": 50021006,
     "name": "祈愿",
-    "qa": 5,
-    "des": "技能治疗量加成100%",
+    "qa": 6,
+    "des": "技能治疗量加成50%",
     "key1": "skill_heal_amp",
-    "value1": 1
+    "value1": 0.5
   },
   "90650001": {
     "icon": 50022004,
     "name": "爆燃开场",
-    "qa": 5,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+5.",
+    "qa": 6,
+    "des": "入场时，为敌方全体附加灼烧效果,持续7个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10705,25 +10707,25 @@
   "90650003": {
     "icon": 50022005,
     "name": "放逐日",
-    "qa": 5,
-    "des": "入场时，可放逐敌方攻击力最高的英雄2回合，并偷取放逐宝可梦50%的攻击力，持续至战斗结束。",
+    "qa": 6,
+    "des": "入场时，可放逐敌方攻击力最高的英雄1回合，并偷取放逐宝可梦40%的攻击力，持续2个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.5,\"duration\":-1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "90650004": {
     "icon": 50022006,
     "name": "祈祷",
-    "qa": 5,
-    "des": "入场时，为自身附加150%生命上限的伤害吸收盾，持续3回合",
+    "qa": 6,
+    "des": "入场时，为自身附加70%生命上限的伤害吸收盾，持续3回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1.5,\"duration\":3,\"buffRate\":1}"
   },
   "90650005": {
     "icon": 50023004,
     "name": "守护",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为我方全体附加持续1回合，30%生命上限的伤害吸收盾，并保护我方全体，分担全体队友所受到50%的伤害，并增加全体队友20%的免伤，持续5个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
@@ -10733,25 +10735,23 @@
   "90650007": {
     "icon": 50023005,
     "name": "暴怒体质",
-    "qa": 5,
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续3回合",
+    "qa": 6,
+    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
   "90650008": {
     "icon": 50023006,
     "name": "强权",
-    "qa": 5,
-    "des": "入场时，并偷取目标的敌方50%攻击力，持续3个回合",
-    "key1": "enter_skill",
-    "value1": true,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_rand_23\",\"buffArg\":0.5,\"duration\":3,\"buffRate\":1}"
+    "qa": 6,
+    "des": "入场时，随机偷取敌方3个目标的30%攻击力，持续1个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
   "90650012": {
     "icon": 50511004,
     "name": "威慑",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为敌方全体附加3层虚弱效果3回合，并每回合给敌方攻击最高的目标，附加1回合的1层虚弱效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
@@ -10761,7 +10761,7 @@
   "90650015": {
     "icon": 50024005,
     "name": "沙尘暴",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为敌方随机3个目标附加沙尘暴，沙尘暴状态下的目标命中率和攻击力降低40%，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}",
@@ -10773,7 +10773,7 @@
   "90650016": {
     "icon": 50023006,
     "name": "平息",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，敌方随机3个目标降低4点怒气",
     "key1": "beginSkill",
     "value1": "dz_041"
@@ -10781,7 +10781,7 @@
   "90650017": {
     "icon": 50024004,
     "name": "沼泽地",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
@@ -10791,7 +10791,7 @@
   "90650019": {
     "icon": 50308005,
     "name": "挑衅",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续2回合，被普通攻击时，减低攻击目标2点怒气。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
@@ -10801,7 +10801,7 @@
   "90650020": {
     "icon": 50023006,
     "name": "开场舞",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，自身获得6层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
@@ -10813,15 +10813,15 @@
   "90650025": {
     "icon": 50024004,
     "name": "报复",
-    "qa": 5,
-    "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值40%的物攻伤害",
+    "qa": 6,
+    "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值40%的物理伤害",
     "key1": "diedSkill",
     "value1": "dz_042"
   },
   "90650026": {
     "icon": 50013004,
     "name": "全力一击",
-    "qa": 5,
+    "qa": 6,
     "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
     "key1": "died_buff",
     "value1": "dz_027"
@@ -10829,7 +10829,7 @@
   "90650027": {
     "icon": 50013005,
     "name": "威压",
-    "qa": 5,
+    "qa": 6,
     "des": "死亡后，为敌方全体附加3层虚弱，效果持续3个回合，并附加2个回合的魔印效果。",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
@@ -10839,7 +10839,7 @@
   "90650028": {
     "icon": 50013006,
     "name": "针对",
-    "qa": 5,
+    "qa": 6,
     "des": "死亡后，降低敌方随机3个目标4点怒气，并对其附加禁怒效果，持续2个回合",
     "key1": "diedSkill",
     "value1": "dz_041",
@@ -10849,7 +10849,7 @@
   "90650029": {
     "icon": 50014004,
     "name": "献身",
-    "qa": 5,
+    "qa": 6,
     "des": "死亡后，为我方生命中最低的3个目标，回复500%攻击的生命。",
     "key1": "diedSkill",
     "value1": "dz_043"
@@ -10857,15 +10857,15 @@
   "90650031": {
     "icon": 50014005,
     "name": "奉献",
-    "qa": 5,
-    "des": "死亡时恢复全队100%血量，仅生效1次",
+    "qa": 6,
+    "des": "死亡时，恢复友方攻击最高的目标100%血量，仅生效1次",
     "key1": "diedSkill",
     "value1": "dz_023"
   },
   "90650032": {
     "icon": 50014006,
     "name": "自爆",
-    "qa": 5,
+    "qa": 6,
     "des": "死亡时，对敌方全体造成25%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "key1": "diedSkill",
     "value1": "dz_031"
@@ -10921,8 +10921,8 @@
   "90750001": {
     "icon": 50021005,
     "name": "爆燃开场",
-    "qa": 5,
-    "des": "入场时，为敌方全体附加灼烧效果，灼烧效果持续回合+5.敌方每次获得灼烧效果，自身获得1层圣火，每层圣火增加自身3%免伤和暴击，持续3回合。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值，圣火最高可叠加10层。",
+    "qa": 6,
+    "des": "入场时，为敌方全体附加灼烧效果,持续7个回合敌方每次获得灼烧效果，自身获得1层圣火，每层圣火增加自身3%免伤和暴击，持续3回合。回合开始时，恢复我方全体20%攻击力*圣火层数的生命值，圣火最高可叠加10层。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10935,7 +10935,7 @@
   "90750017": {
     "icon": 50021006,
     "name": "沼泽地",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。敌方每次获得寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机冰冻一个敌方目标【冰霜：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
@@ -10949,7 +10949,7 @@
   "90750020": {
     "icon": 50022004,
     "name": "开场舞",
-    "qa": 5,
+    "qa": 6,
     "des": "入场时，自身获得6层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束，当剑舞效果叠加至20层时，进入狂暴状态，驱散所有负面和控制效果，攻击必定暴击，暴击伤害增加30%，持续3回合，每场战斗只能触发1次",
     "key1": "polang_buff",
     "value1": "kb_polang",
