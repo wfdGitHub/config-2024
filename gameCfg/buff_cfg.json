@@ -52,6 +52,56 @@
     "time": 3000,
     "max_count": 1,
     "attKey1": "angerRate",
-    "attValue1": 99
+    "attValue1": -99
+  },
+  "jinliao": {
+    "name": "禁疗",
+    "des": "禁疗",
+    "time": 3000,
+    "max_count": 1,
+    "attKey1": "healAdd",
+    "attValue1": -99
+  },
+  "phySuck": {
+    "name": "物理吸血",
+    "des": "物理吸血",
+    "time": 3000,
+    "max_count": 1,
+    "attKey1": "phySuck",
+    "attValue1": 0.1
+  },
+  "magSuck": {
+    "name": "法术吸血",
+    "des": "法术吸血",
+    "time": 3000,
+    "max_count": 1,
+    "attKey1": "magSuck",
+    "attValue1": 0.1
+  },
+  "burn": {
+    "name": "灼烧",
+    "des": "每秒受到攻击力30%的伤害",
+    "time": 3000,
+    "max_count": 1,
+    "d_type": "mag",
+    "atkRate": 0.3
+  },
+  "poison": {
+    "name": "中毒",
+    "des": "每秒损失1%的最大生命值，受治疗效果降低3%，最多可叠加5层，效果随层数提高。",
+    "time": 3000,
+    "max_count": 5,
+    "attKey1": "healAdd",
+    "attValue1": -0.03,
+    "d_type": "mag",
+    "hpRate": 0.01
+  },
+  "heal": {
+    "name": "持续恢复",
+    "des": "每回合恢复攻击力30%血量",
+    "time": 3000,
+    "max_count": 1,
+    "d_type": "heal",
+    "atkRate": 0.3
   }
 }
