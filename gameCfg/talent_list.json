@@ -2261,8 +2261,8 @@
   "800160": {
     "icon": 800160,
     "name": "恒净之躯",
-    "des": "被减益效果概率降低30%",
-    "key1": "control_debuff_lowrate",
+    "des": "降低受到灼烧和中毒的概率30%",
+    "key1": "damage_buff_lowrate",
     "value1": 0.3
   },
   "800170": {
@@ -2275,8 +2275,8 @@
   "800180": {
     "icon": 800180,
     "name": "好胜",
-    "des": "该特性的宝可梦处于异常状态时，攻击增加20%",
-    "key1": "my_debuff_atk_add",
+    "des": "该特性的宝可梦处于异常状态时，免伤增加20%",
+    "key1": "my_debuff_red",
     "value1": 0.2
   },
   "800190": {
@@ -6751,18 +6751,8 @@
     "name": "纯粹",
     "qa": 1,
     "des": "对敌方造成克制的额外伤害增加10%",
-    "key1": "specie hit",
-    "value1": 1.1,
-    "key2": 0,
-    "value2": 0,
-    "key3": 0,
-    "value3": 0,
-    "key4": 0,
-    "value4": 0,
-    "key5": 0,
-    "value5": 0,
-    "key6": 0,
-    "value6": 0
+    "key1": "specie_hit",
+    "value1": 1.1
   },
   "90130024": {
     "icon": 50023006,
@@ -6789,7 +6779,7 @@
     "des": "暴击增加5%，速度降低5%",
     "key1": "crit",
     "value1": 0.05,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.05
   },
   "90130027": {
@@ -6836,10 +6826,10 @@
     "icon": 50012004,
     "name": "嗜血",
     "qa": 1,
-    "des": "回复等同于攻击造成伤害的10%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的10%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.1,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90140004": {
@@ -6856,7 +6846,9 @@
     "qa": 1,
     "des": "每受到一次伤害，回复自身生命1%",
     "key1": "hit_turn_rate",
-    "value1": 0.01
+    "value1": 0.01,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90140006": {
     "icon": 50013004,
@@ -7000,7 +6992,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 1,
-    "des": "击败目标后，吞噬其剩余怒气值",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值",
     "key1": "kill_rob_anger",
     "value1": true
   },
@@ -7136,9 +7128,9 @@
     "icon": 50015004,
     "name": "铁甲",
     "qa": 1,
-    "des": "入场时，自身获得1层坚毅效果，持续3个回合",
+    "des": "入场时，自身获得1层坚毅效果，持续2个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90150011": {
     "icon": 50015005,
@@ -7509,7 +7501,7 @@
     "name": "纯粹",
     "qa": 2,
     "des": "对敌方造成克制的额外伤害增加15%",
-    "key1": "specie hit",
+    "key1": "specie_hit",
     "value1": 1.15
   },
   "90230024": {
@@ -7537,7 +7529,7 @@
     "des": "暴击增加10%，速度降低10%",
     "key1": "crit",
     "value1": 0.1,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.1
   },
   "90230027": {
@@ -7586,10 +7578,10 @@
     "icon": 50014005,
     "name": "嗜血",
     "qa": 2,
-    "des": "回复等同于攻击造成伤害的15%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的15%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.15,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90240004": {
@@ -7606,7 +7598,9 @@
     "qa": 2,
     "des": "每受到一次伤害，回复自身生命2%",
     "key1": "hit_turn_rate",
-    "value1": 0.02
+    "value1": 0.02,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90240006": {
     "icon": 50015005,
@@ -7746,7 +7740,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 2,
-    "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害20%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害20%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
     "key2": "overDamageToMaxHp",
@@ -7882,7 +7876,7 @@
     "icon": 50021006,
     "name": "暴怒体质",
     "qa": 4,
-    "des": "入场时，自身获得暴击增加15%，暴伤增加15%，持续1回合",
+    "des": "入场时，自身获得暴击增加15%，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -7906,9 +7900,9 @@
     "icon": 50022006,
     "name": "铁甲",
     "qa": 2,
-    "des": "入场时，自身获得2层坚毅效果，持续3个回合",
+    "des": "入场时，自身获得1层坚毅效果，持续3个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90250011": {
     "icon": 50023004,
@@ -8285,7 +8279,7 @@
     "name": "纯粹",
     "qa": 3,
     "des": "对敌方造成克制的额外伤害增加20%",
-    "key1": "specie hit",
+    "key1": "specie_hit",
     "value1": 1.2
   },
   "90330024": {
@@ -8313,7 +8307,7 @@
     "des": "暴击增加15%，速度降低15%",
     "key1": "crit",
     "value1": 0.15,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.15
   },
   "90330027": {
@@ -8362,10 +8356,10 @@
     "icon": 50022004,
     "name": "嗜血",
     "qa": 3,
-    "des": "回复等同于攻击造成伤害的20%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的20%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.2,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90340004": {
@@ -8382,7 +8376,9 @@
     "qa": 3,
     "des": "每受到一次伤害，回复自身生命4%",
     "key1": "hit_turn_rate",
-    "value1": 0.04
+    "value1": 0.04,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90340006": {
     "icon": 50023004,
@@ -8534,7 +8530,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 3,
-    "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害30%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害30%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
     "key2": "overDamageToMaxHp",
@@ -8680,9 +8676,9 @@
     "icon": 50025004,
     "name": "铁甲",
     "qa": 3,
-    "des": "入场时，自身获得3层坚毅效果，持续3个回合",
+    "des": "入场时，自身获得2层坚毅效果，持续3个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90350011": {
     "icon": 50011004,
@@ -9059,7 +9055,7 @@
     "name": "纯粹",
     "qa": 4,
     "des": "对敌方造成克制的额外伤害增加25%",
-    "key1": "specie hit",
+    "key1": "specie_hit",
     "value1": 1.25
   },
   "90430024": {
@@ -9087,7 +9083,7 @@
     "des": "暴击增加20%，速度降低20%",
     "key1": "crit",
     "value1": 0.2,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.2
   },
   "90430027": {
@@ -9136,10 +9132,10 @@
     "icon": 50024005,
     "name": "嗜血",
     "qa": 4,
-    "des": "回复等同于攻击造成伤害的25%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的25%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.25,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90440004": {
@@ -9156,7 +9152,9 @@
     "qa": 4,
     "des": "每受到一次伤害，回复自身生命6%",
     "key1": "hit_turn_rate",
-    "value1": 0.06
+    "value1": 0.06,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90440006": {
     "icon": 50011004,
@@ -9262,7 +9260,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 4,
-    "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害40%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害40%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
     "key2": "overDamageToMaxHp",
@@ -9386,7 +9384,7 @@
     "icon": 50024005,
     "name": "暴怒体质",
     "qa": 5,
-    "des": "入场时，自身获得暴击增加30%，暴伤增加30%，持续2回合",
+    "des": "入场时，自身获得暴击增加30%，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
@@ -9402,11 +9400,11 @@
     "icon": 50025004,
     "name": "铁甲",
     "qa": 4,
-    "des": "入场时，自身和随机1友方获得3层坚毅效果，持续3个回合",
+    "des": "入场时，自身获得2层坚毅效果，和友方血量最低的目标获得1层坚毅效果，持续3个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"god_shield\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "90450011": {
     "icon": 50011004,
@@ -9771,7 +9769,7 @@
     "name": "纯粹",
     "qa": 5,
     "des": "对敌方造成克制的额外伤害增加30%",
-    "key1": "specie hit",
+    "key1": "specie_hit",
     "value1": 1.3
   },
   "90530024": {
@@ -9799,7 +9797,7 @@
     "des": "暴击增加25%，速度降低20%",
     "key1": "crit",
     "value1": 0.25,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.2
   },
   "90530027": {
@@ -9848,10 +9846,10 @@
     "icon": 50023006,
     "name": "嗜血",
     "qa": 5,
-    "des": "回复等同于攻击造成伤害的30%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的30%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.3,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90540004": {
@@ -9868,7 +9866,9 @@
     "qa": 5,
     "des": "每受到一次伤害，回复自身生命8%",
     "key1": "hit_turn_rate",
-    "value1": 0.08
+    "value1": 0.08,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90540006": {
     "icon": 50024006,
@@ -9984,7 +9984,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 5,
-    "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害60%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害60%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
     "key2": "overDamageToMaxHp",
@@ -10106,9 +10106,9 @@
     "icon": 50024005,
     "name": "铁甲",
     "qa": 5,
-    "des": "入场时，全队获得3层坚毅效果，持续3个回合",
+    "des": "入场时，全队获得2层坚毅效果，持续3个回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "90550012": {
     "icon": 50511004,
@@ -10152,7 +10152,9 @@
     "qa": 5,
     "des": "入场时，可给敌方随机3个目标附加嘲讽效果，持续2回合，被普通攻击时，减低攻击目标1点怒气。",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "hit_less_anger",
+    "value2": 1
   },
   "90550020": {
     "icon": 50013004,
@@ -10415,7 +10417,7 @@
     "name": "纯粹",
     "qa": 6,
     "des": "对敌方造成克制的额外伤害增加35%",
-    "key1": "specie hit",
+    "key1": "specie_hit",
     "value1": 1.35
   },
   "90630024": {
@@ -10443,7 +10445,7 @@
     "des": "暴击增加30%，速度降低20%",
     "key1": "crit",
     "value1": 0.3,
-    "key2": "speed",
+    "key2": "self_speed_add",
     "value2": -0.2
   },
   "90630027": {
@@ -10492,10 +10494,10 @@
     "icon": 50022005,
     "name": "嗜血",
     "qa": 6,
-    "des": "回复等同于攻击造成伤害的35%的生命值",
-    "key1": "turn_rate",
+    "des": "技能造成伤害的35%回复自身生命值",
+    "key1": "skill_turn_rate",
     "value1": 0.35,
-    "key2": "turn_tg",
+    "key2": "skill_turn_tg",
     "value2": "team_self"
   },
   "90640004": {
@@ -10512,7 +10514,9 @@
     "qa": 6,
     "des": "每受到一次伤害，回复自身生命10%",
     "key1": "hit_turn_rate",
-    "value1": 0.1
+    "value1": 0.1,
+    "key2": "hit_turn_tg",
+    "value2": "team_self"
   },
   "90640006": {
     "icon": 50023005,
@@ -10620,7 +10624,7 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 6,
-    "des": "击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害100%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害100%对敌方攻击最高的目标造成伤害。",
     "key1": "kill_rob_anger",
     "value1": true,
     "key2": "overDamageToMaxHp",
@@ -10736,7 +10740,7 @@
     "icon": 50023005,
     "name": "暴怒体质",
     "qa": 6,
-    "des": "入场时，自身获得暴击增加45%，暴伤增加45%，持续2回合",
+    "des": "入场时，自身获得暴击增加45%，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
@@ -10804,11 +10808,9 @@
     "qa": 6,
     "des": "入场时，自身获得6层剑舞.每回合行动后获得2层剑舞，并且剑舞效果持续至战斗结束",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":99,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
-    "key3": "buffDuration",
-    "value3": 99
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":99,\"buffRate\":1}"
   },
   "90650025": {
     "icon": 50024004,
@@ -10954,11 +10956,9 @@
     "key1": "polang_buff",
     "value1": "kb_polang",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":5,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":6,\"duration\":99,\"buffRate\":1}",
     "key3": "action_buff",
-    "value3": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}",
-    "key4": "buffDuration",
-    "value4": 99
+    "value3": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":99,\"buffRate\":1}"
   },
   "NPC_KB1": {
     "des": "生命值低于30%时进入狂暴状态，驱散所有负面和控制效果，暴击增加50%,暴伤增加50%，持续3回合,每场战斗只能生效1次",

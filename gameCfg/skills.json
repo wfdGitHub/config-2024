@@ -2264,7 +2264,7 @@
     "des": "对友方全体回复生命上限30%的血量",
     "targetType": "team_all",
     "mul": 0,
-    "key1": "skill_heal_maxHp",
+    "key1": "heal_maxHp",
     "value1": 0.3
   },
   "50109001": {
@@ -3710,7 +3710,7 @@
     "des": "入场时恢复我方全体20%最大生命值，并解除所有控制效果，并为随机友方附加2回合免控盾",
     "targetType": "team_all",
     "mul": 0,
-    "key1": "skill_heal_maxHp",
+    "key1": "heal_maxHp",
     "value1": 0.2,
     "key2": "buff1",
     "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"team_2\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
@@ -6392,7 +6392,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.45,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90110042": {
@@ -6406,7 +6406,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.23,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90110043": {
@@ -6420,7 +6420,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.1,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90110044": {
@@ -6434,7 +6434,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 0.93,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90110045": {
@@ -6448,7 +6448,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0.85,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90110046": {
@@ -7349,7 +7349,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 3.26,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90120042": {
@@ -7363,7 +7363,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 2.77,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90120043": {
@@ -7377,7 +7377,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 2.48,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90120044": {
@@ -7391,7 +7391,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 2.09,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90120045": {
@@ -7405,7 +7405,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.91,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90120046": {
@@ -8306,7 +8306,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.57,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90210042": {
@@ -8320,7 +8320,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.33,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90210043": {
@@ -8334,7 +8334,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.19,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90210044": {
@@ -8348,7 +8348,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90210045": {
@@ -8362,7 +8362,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0.92,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90210046": {
@@ -9263,7 +9263,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 3.52,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90220042": {
@@ -9277,7 +9277,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 2.99,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90220043": {
@@ -9291,7 +9291,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 2.67,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90220044": {
@@ -9305,7 +9305,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 2.26,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90220045": {
@@ -9319,7 +9319,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.07,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90220046": {
@@ -10220,7 +10220,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.69,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90310042": {
@@ -10234,7 +10234,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.43,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90310043": {
@@ -10248,7 +10248,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.28,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90310044": {
@@ -10262,7 +10262,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.08,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90310045": {
@@ -10276,7 +10276,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0.99,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90310046": {
@@ -11177,7 +11177,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 3.81,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90320042": {
@@ -11191,7 +11191,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 3.23,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90320043": {
@@ -11205,7 +11205,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 2.89,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90320044": {
@@ -11219,7 +11219,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 2.44,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90320045": {
@@ -11233,7 +11233,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.23,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90320046": {
@@ -12134,7 +12134,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.83,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90410042": {
@@ -12148,7 +12148,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.55,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90410043": {
@@ -12162,7 +12162,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.39,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90410044": {
@@ -12176,7 +12176,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.17,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90410045": {
@@ -12190,7 +12190,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.07,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90410046": {
@@ -13091,7 +13091,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 4.11,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90420042": {
@@ -13105,7 +13105,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 3.49,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90420043": {
@@ -13119,7 +13119,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 3.12,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90420044": {
@@ -13133,7 +13133,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 2.64,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90420045": {
@@ -13147,7 +13147,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.41,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90420046": {
@@ -14048,7 +14048,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 1.97,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90510042": {
@@ -14062,7 +14062,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.67,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90510043": {
@@ -14076,7 +14076,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.5,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90510044": {
@@ -14090,7 +14090,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.27,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90510045": {
@@ -14104,7 +14104,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.16,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90510046": {
@@ -15005,7 +15005,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 4.44,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90520042": {
@@ -15019,7 +15019,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 3.77,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90520043": {
@@ -15033,7 +15033,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 3.37,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90520044": {
@@ -15047,7 +15047,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 2.85,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90520045": {
@@ -15061,7 +15061,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.6,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90520046": {
@@ -15962,7 +15962,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 2.13,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90610042": {
@@ -15976,7 +15976,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.81,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90610043": {
@@ -15990,7 +15990,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.62,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90610044": {
@@ -16004,7 +16004,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.37,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90610045": {
@@ -16018,7 +16018,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.25,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90610046": {
@@ -16919,7 +16919,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 4.79,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90620042": {
@@ -16933,7 +16933,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 4.07,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90620043": {
@@ -16947,7 +16947,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 3.64,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90620044": {
@@ -16961,7 +16961,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 3.07,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90620045": {
@@ -16975,7 +16975,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 2.81,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90620046": {
@@ -17876,7 +17876,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 2.3,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90710042": {
@@ -17890,7 +17890,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 1.95,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90710043": {
@@ -17904,7 +17904,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.75,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90710044": {
@@ -17918,7 +17918,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.48,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90710045": {
@@ -17932,7 +17932,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 1.35,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90710046": {
@@ -18833,7 +18833,7 @@
     "damageType": "mag",
     "targetType": "enemy_normal",
     "mul": 5.18,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90720042": {
@@ -18847,7 +18847,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_12",
     "mul": 4.39,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90720043": {
@@ -18861,7 +18861,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 3.93,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90720044": {
@@ -18875,7 +18875,7 @@
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 3.32,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90720045": {
@@ -18889,7 +18889,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 3.03,
-    "key1": "skill_heal_maxHp",
+    "key1": "self_heal",
     "value1": 0.05
   },
   "90720046": {
@@ -22365,7 +22365,7 @@
     "icon": "dz_001",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "攻击敌方随机1-2个目标，造成最大生命值10%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
@@ -22378,7 +22378,7 @@
     "icon": "dz_002",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "降低敌方攻击最高的目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22391,7 +22391,7 @@
     "icon": "dz_003",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "随机降低敌方2个目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_2",
@@ -22404,7 +22404,7 @@
     "icon": "dz_004",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "随机降低敌方3个目标1点怒气",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22447,7 +22447,7 @@
     "icon": "dz_008",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方随机1-2个目标造成最大生命值15%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
@@ -22460,7 +22460,7 @@
     "icon": "dz_009",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方随机1-2个目标造成最大生命值20%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
@@ -22473,7 +22473,7 @@
     "icon": "dz_010",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方随机3个目标造成攻击100%的伤害，并附加1层感电效果",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22486,7 +22486,7 @@
     "icon": "dz_011",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方随机3个目标造成攻击200%的伤害，并附加1层感电效果",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22499,7 +22499,7 @@
     "icon": "dz_012",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方全体附加灼烧效果，若敌方处于灼烧状态，则给目标附加畏缩效果。",
     "damageType": "mag",
     "targetType": "enemy_all",
@@ -22514,7 +22514,7 @@
     "icon": "dz_013",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "敌方攻击最高的目标，造成最大生命值30%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_maxAtk_1",
@@ -22527,7 +22527,7 @@
     "icon": "dz_014",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "敌方攻击最高的目标，造成最大生命值45%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_maxAtk_1",
@@ -22540,7 +22540,7 @@
     "icon": "dz_015",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成100%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22551,7 +22551,7 @@
     "icon": "dz_016",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成200%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22562,7 +22562,7 @@
     "icon": "dz_017",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成300%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22575,7 +22575,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标20%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 0.2
@@ -22587,7 +22587,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标30%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 0.3
@@ -22599,7 +22599,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标40%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 0.4
@@ -22611,7 +22611,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标50%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 0.5
@@ -22623,7 +22623,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标70%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 0.7
@@ -22635,7 +22635,7 @@
     "anger": 4,
     "type": "heal",
     "des": "死亡时，恢复友方攻击最高的目标100%血量，仅生效1次",
-    "targetType": "enemy_maxAtk_1",
+    "targetType": "realm_maxAtk_1",
     "mul": 0,
     "key1": "heal_maxHp",
     "value1": 1
@@ -22645,7 +22645,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成5%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22660,7 +22660,7 @@
     "icon": "dz_015",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22671,7 +22671,7 @@
     "icon": "dz_015",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成500%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22682,7 +22682,7 @@
     "icon": "dz_015",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
@@ -22693,7 +22693,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成8%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22708,7 +22708,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成10%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22723,7 +22723,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成15%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22738,7 +22738,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成20%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22753,7 +22753,7 @@
     "icon": "dz_024",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，对敌方全体造成25%最大生命值的伤害，若攻击后目标血量低于15%，则将其斩杀",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22768,7 +22768,7 @@
     "icon": "dz_029",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方全体附加灼烧效果，若敌方处于灼烧状态，则给目标附加畏缩效果。",
     "damageType": "phy",
     "targetType": "enemy_all",
@@ -22783,7 +22783,7 @@
     "icon": "dz_004",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "随机降低敌方3个目标2点怒气",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22796,7 +22796,7 @@
     "icon": "dz_009",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "为敌方随机1-2个目标造成最大生命值25%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
@@ -22819,7 +22819,7 @@
     "icon": "dz_004",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "随机降低敌方3个目标3点怒气",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22832,7 +22832,7 @@
     "icon": "dz_029",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值30%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
@@ -22855,7 +22855,7 @@
     "icon": "dz_004",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "随机降低敌方3个目标4点怒气",
     "damageType": "mag",
     "targetType": "enemy_3",
@@ -22868,7 +22868,7 @@
     "icon": "dz_029",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "死亡时，攻击敌方随机1-3个目标，造成最大生命值40%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
