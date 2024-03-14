@@ -2237,6 +2237,106 @@
     "effects": "baowu",
     "source1": "gift"
   },
+  "601501": {
+    "name": "技十五星忍者",
+    "des": "打开可获得随机技十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "weiguo15_chest_1",
+    "buy": "15105000:150",
+    "buyNum": 1
+  },
+  "601502": {
+    "name": "器十五星忍者",
+    "des": "打开可获得随机器十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "wuguo15_chest_1",
+    "buy": "15205000:150",
+    "buyNum": 1
+  },
+  "601503": {
+    "name": "奇十五星忍者",
+    "des": "打开可获得随机奇十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shuguo15_chest_1",
+    "buy": "15305000:150",
+    "buyNum": 1
+  },
+  "601504": {
+    "name": "密十五星忍者",
+    "des": "打开可获得随机密十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shen15_chest_1",
+    "buy": "15405000:150",
+    "buyNum": 1
+  },
+  "601505": {
+    "name": "随机十五星忍者",
+    "des": "打开可获得随机【技、器、奇】阵营十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanguo15_chest_1",
+    "buy": "15605000:150",
+    "buyNum": 1
+  },
+  "602001": {
+    "name": "技二十星忍者",
+    "des": "打开可获得随机技二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "weiguo20_chest_1",
+    "buy": "20105000:200",
+    "buyNum": 1
+  },
+  "602002": {
+    "name": "器二十星忍者",
+    "des": "打开可获得随机器二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "wuguo20_chest_1",
+    "buy": "20205000:200",
+    "buyNum": 1
+  },
+  "602003": {
+    "name": "奇二十星忍者",
+    "des": "打开可获得随机奇二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shuguo20_chest_1",
+    "buy": "20305000:200",
+    "buyNum": 1
+  },
+  "602004": {
+    "name": "密二十星忍者",
+    "des": "打开可获得随机密二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "shen20_chest_1",
+    "buy": "20405000:200",
+    "buyNum": 1
+  },
+  "602005": {
+    "name": "随机二十星忍者",
+    "des": "打开可获得随机【技、器、奇】阵营二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "chest",
+    "arg": "sanguo20_chest_1",
+    "buy": "20605000:200",
+    "buyNum": 1
+  },
   "603001": {
     "name": "技三十星忍者",
     "des": "打开可随机获得技三十星忍者",
@@ -6366,6 +6466,958 @@
     "quality": 6,
     "source1": "gift"
   },
+  "15105000": {
+    "name": "技十五星忍者碎片",
+    "des": "集齐150个碎片获得技十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 601501
+  },
+  "15105010": {
+    "name": "十五星迪达拉碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105010015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105020": {
+    "name": "十五星山中井野碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105020015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105030": {
+    "name": "十五星药师兜碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105030015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105040": {
+    "name": "十五星雏田碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105040015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105050": {
+    "name": "十五星静音碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105050015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105060": {
+    "name": "十五星秋道丁次碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105060015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105070": {
+    "name": "十五星小李碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105070015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105080": {
+    "name": "十五星纲手碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105080015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105130": {
+    "name": "十五星歌舞自来也碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105130015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15105140": {
+    "name": "十五星仙人鸣人碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105140015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205000": {
+    "name": "器十五星忍者碎片",
+    "des": "集齐150个碎片获得器十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 601502
+  },
+  "15205010": {
+    "name": "十五星佐井碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205010015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205020": {
+    "name": "十五星疾风佐助碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205020015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205030": {
+    "name": "十五星红碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205030015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205040": {
+    "name": "十五星再不斩碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205040015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205050": {
+    "name": "十五星鹿丸碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205050015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205060": {
+    "name": "十五星大和碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205060015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205070": {
+    "name": "十五星卡卡西碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205070015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205080": {
+    "name": "十五星阿斯玛碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205080015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205130": {
+    "name": "十五星飞段碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205130015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15205140": {
+    "name": "十五星佐助碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205140015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305000": {
+    "name": "奇十五星忍者碎片",
+    "des": "集齐150个碎片获得奇十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 601503
+  },
+  "15305010": {
+    "name": "十五星咒印佐助碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305010015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305020": {
+    "name": "十五星迈特凯碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305020015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305030": {
+    "name": "十五星多由也碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305030015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305040": {
+    "name": "十五星鬼鲛碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305040015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305050": {
+    "name": "十五星猿飞日斩碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305050015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305060": {
+    "name": "十五星大蛇丸碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305060015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305070": {
+    "name": "十五星鸣人碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305070015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305080": {
+    "name": "十五星犬冢牙碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305080015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305130": {
+    "name": "十五星勘九郎碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305130015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15305140": {
+    "name": "十五星自来也碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305140015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405000": {
+    "name": "密十五星忍者碎片",
+    "des": "集齐150个碎片获得密十五星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 601504
+  },
+  "15405010": {
+    "name": "十五星暗部卡卡西碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405010015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405020": {
+    "name": "十五星尾兽鸣人碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405020015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405030": {
+    "name": "十五星小樱碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405030015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405040": {
+    "name": "十五星我爱罗碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405040015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405050": {
+    "name": "十五星咒化佐助碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405050015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405060": {
+    "name": "十五星宇智波鼬碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405060015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405070": {
+    "name": "十五星武士佐助碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405070015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405080": {
+    "name": "十五星晓*大蛇丸碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405080015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405130": {
+    "name": "十五星火影纲手碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405130015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15405140": {
+    "name": "十五星死神鼬碎片",
+    "des": "集齐150个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405140015,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "15605000": {
+    "name": "随机十五星忍者碎片",
+    "des": "集齐150个碎片获得随机【技、器、奇】阵营十五星忍",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 601505
+  },
+  "20105000": {
+    "name": "技二十星忍者碎片",
+    "des": "集齐200个碎片获得技二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 602001
+  },
+  "20105010": {
+    "name": "二十星迪达拉碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105010020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105020": {
+    "name": "二十星山中井野碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105020020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105030": {
+    "name": "二十星药师兜碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105030020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105040": {
+    "name": "二十星雏田碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105040020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105050": {
+    "name": "二十星静音碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105050020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105060": {
+    "name": "二十星秋道丁次碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105060020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105070": {
+    "name": "二十星小李碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105070020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105080": {
+    "name": "二十星纲手碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105080020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105130": {
+    "name": "二十星歌舞自来也碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105130020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20105140": {
+    "name": "二十星仙人鸣人碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 105140020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205000": {
+    "name": "器二十星忍者碎片",
+    "des": "集齐200个碎片获得器二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 602002
+  },
+  "20205010": {
+    "name": "二十星佐井碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205010020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205020": {
+    "name": "二十星疾风佐助碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205020020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205030": {
+    "name": "二十星红碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205030020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205040": {
+    "name": "二十星再不斩碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205040020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205050": {
+    "name": "二十星鹿丸碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205050020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205060": {
+    "name": "二十星大和碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205060020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205070": {
+    "name": "二十星卡卡西碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205070020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205080": {
+    "name": "二十星阿斯玛碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205080020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205130": {
+    "name": "二十星飞段碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205130020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20205140": {
+    "name": "二十星佐助碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 205140020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305000": {
+    "name": "奇二十星忍者碎片",
+    "des": "集齐200个碎片获得奇二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 602003
+  },
+  "20305010": {
+    "name": "二十星咒印佐助碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305010020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305020": {
+    "name": "二十星迈特凯碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305020020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305030": {
+    "name": "二十星多由也碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305030020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305040": {
+    "name": "二十星鬼鲛碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305040020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305050": {
+    "name": "二十星猿飞日斩碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305050020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305060": {
+    "name": "二十星大蛇丸碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305060020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305070": {
+    "name": "二十星鸣人碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305070020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305080": {
+    "name": "二十星犬冢牙碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305080020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305130": {
+    "name": "二十星勘九郎碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305130020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20305140": {
+    "name": "二十星自来也碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 305140020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405000": {
+    "name": "密二十星忍者碎片",
+    "des": "集齐200个碎片获得密二十星忍者",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 602004
+  },
+  "20405010": {
+    "name": "二十星暗部卡卡西碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405010020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405020": {
+    "name": "二十星尾兽鸣人碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405020020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405030": {
+    "name": "二十星小樱碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405030020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405040": {
+    "name": "二十星我爱罗碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405040020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405050": {
+    "name": "二十星咒化佐助碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405050020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405060": {
+    "name": "二十星宇智波鼬碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405060020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405070": {
+    "name": "二十星武士佐助碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405070020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405080": {
+    "name": "二十星晓*大蛇丸碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405080020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405130": {
+    "name": "二十星火影纲手碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405130020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "20405140": {
+    "name": "二十星死神鼬碎片",
+    "des": "集齐200个碎片即可招募该三十星忍者",
+    "isBag": true,
+    "type": "heroChip",
+    "useType": "hecheng",
+    "arg": 405140020,
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "20501010": {
     "name": "少年将军",
     "des": "攻击力+10%，暴击率+10%",
@@ -6702,6 +7754,14 @@
     "quality": 7,
     "effects": "baowu"
   },
+  "20605000": {
+    "name": "二十星随机忍者碎片",
+    "des": "集齐200个碎片获得随机【技、器、奇】阵营二十星忍",
+    "isBag": true,
+    "type": "item",
+    "useType": "hecheng",
+    "arg": 602005
+  },
   "30105000": {
     "name": "技三十星忍者碎片",
     "des": "集齐300个碎片获得技三十星忍者",
@@ -6720,7 +7780,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105010030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6731,7 +7791,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105020030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6742,7 +7802,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105030030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6753,7 +7813,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105040030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6764,7 +7824,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105050030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6775,7 +7835,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105060030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6786,7 +7846,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105070030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6797,7 +7857,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105080030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6808,7 +7868,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105130030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6819,7 +7879,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 105140030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6841,7 +7901,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205010030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6852,7 +7912,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205020030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6863,7 +7923,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205030030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6874,7 +7934,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205040030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6885,7 +7945,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205050030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6896,7 +7956,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205060030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6907,7 +7967,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205070030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6918,7 +7978,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205080030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6929,7 +7989,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205130030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6940,7 +8000,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 205140030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6962,7 +8022,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305010030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6973,7 +8033,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305020030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6984,7 +8044,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305030030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -6995,7 +8055,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305040030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7006,7 +8066,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305050030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7017,7 +8077,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305060030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7028,7 +8088,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305070030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7039,7 +8099,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305080030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7050,7 +8110,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305130030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7061,7 +8121,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 305140030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7083,7 +8143,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405010030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7094,7 +8154,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405020030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7105,7 +8165,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405030030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7116,7 +8176,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405040030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7127,7 +8187,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405050030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7138,7 +8198,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405060030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7149,7 +8209,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405070030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7160,7 +8220,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405080030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7171,7 +8231,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405130030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -7182,7 +8242,7 @@
     "type": "heroChip",
     "useType": "hecheng",
     "arg": 405140030,
-    "buyNum": 300,
+    "buyNum": 1,
     "quality": 6,
     "source1": "gift"
   },
@@ -8438,6 +9498,30 @@
     "quality": 6,
     "source1": "extract"
   },
+  "105010015": {
+    "name": "十五星迪达拉",
+    "des": "使用可直接获得十五星迪达拉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105010,
+    "buy": "15105010:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105010020": {
+    "name": "二十星迪达拉",
+    "des": "使用可直接获得二十星迪达拉",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105010,
+    "buy": "20105010:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "105010030": {
     "name": "三十星迪达拉",
     "des": "使用可直接获得三十星迪达拉",
@@ -8474,6 +9558,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "105020015": {
+    "name": "十五星山中井",
+    "des": "使用可直接获得十五星山中井",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105020,
+    "buy": "15105020:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105020020": {
+    "name": "二十星山中井",
+    "des": "使用可直接获得二十星山中井",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105020,
+    "buy": "20105020:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "105020030": {
@@ -8514,6 +9622,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "105030015": {
+    "name": "十五星药师兜",
+    "des": "使用可直接获得十五星药师兜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105030,
+    "buy": "15105030:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105030020": {
+    "name": "二十星药师兜",
+    "des": "使用可直接获得二十星药师兜",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105030,
+    "buy": "20105030:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "105030030": {
     "name": "三十星药师兜",
     "des": "使用可直接获得三十星药师兜",
@@ -8550,6 +9682,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "105040015": {
+    "name": "十五星雏田碎",
+    "des": "使用可直接获得十五星雏田碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105040,
+    "buy": "15105040:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105040020": {
+    "name": "二十星雏田碎",
+    "des": "使用可直接获得二十星雏田碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105040,
+    "buy": "20105040:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "105040030": {
@@ -8590,6 +9746,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "105050015": {
+    "name": "十五星静音碎",
+    "des": "使用可直接获得十五星静音碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105050,
+    "buy": "15105050:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105050020": {
+    "name": "二十星静音碎",
+    "des": "使用可直接获得二十星静音碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105050,
+    "buy": "20105050:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "105050030": {
     "name": "三十星静音碎",
     "des": "使用可直接获得三十星静音碎",
@@ -8626,6 +9806,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "105060015": {
+    "name": "十五星秋道丁",
+    "des": "使用可直接获得十五星秋道丁",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105060,
+    "buy": "15105060:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105060020": {
+    "name": "二十星秋道丁",
+    "des": "使用可直接获得二十星秋道丁",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105060,
+    "buy": "20105060:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "105060030": {
@@ -8666,6 +9870,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "105070015": {
+    "name": "十五星小李碎",
+    "des": "使用可直接获得十五星小李碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105070,
+    "buy": "15105070:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105070020": {
+    "name": "二十星小李碎",
+    "des": "使用可直接获得二十星小李碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105070,
+    "buy": "20105070:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "105070030": {
     "name": "三十星小李碎",
     "des": "使用可直接获得三十星小李碎",
@@ -8702,6 +9930,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "105080015": {
+    "name": "十五星纲手碎",
+    "des": "使用可直接获得十五星纲手碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105080,
+    "buy": "15105080:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105080020": {
+    "name": "二十星纲手碎",
+    "des": "使用可直接获得二十星纲手碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105080,
+    "buy": "20105080:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "105080030": {
@@ -8742,6 +9994,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "105130015": {
+    "name": "十五星歌舞自",
+    "des": "使用可直接获得十五星歌舞自",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105130,
+    "buy": "15105130:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105130020": {
+    "name": "二十星歌舞自",
+    "des": "使用可直接获得二十星歌舞自",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105130,
+    "buy": "20105130:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "105130030": {
     "name": "三十星歌舞自",
     "des": "使用可直接获得三十星歌舞自",
@@ -8778,6 +10054,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "105140015": {
+    "name": "十五星仙人鸣",
+    "des": "使用可直接获得十五星仙人鸣",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 105140,
+    "buy": "15105140:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "105140020": {
+    "name": "二十星仙人鸣",
+    "des": "使用可直接获得二十星仙人鸣",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 105140,
+    "buy": "20105140:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "105140030": {
@@ -9646,6 +10946,30 @@
     "quality": 6,
     "source1": "gift"
   },
+  "205010015": {
+    "name": "十五星佐井碎",
+    "des": "使用可直接获得十五星佐井碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205010,
+    "buy": "15205010:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205010020": {
+    "name": "二十星佐井碎",
+    "des": "使用可直接获得二十星佐井碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205010,
+    "buy": "20205010:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "205010030": {
     "name": "三十星佐井碎",
     "des": "使用可直接获得三十星佐井碎",
@@ -9682,6 +11006,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "205020015": {
+    "name": "十五星疾风佐",
+    "des": "使用可直接获得十五星疾风佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205020,
+    "buy": "15205020:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205020020": {
+    "name": "二十星疾风佐",
+    "des": "使用可直接获得二十星疾风佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205020,
+    "buy": "20205020:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "205020030": {
@@ -9722,6 +11070,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "205030015": {
+    "name": "十五星红碎片",
+    "des": "使用可直接获得十五星红碎片",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205030,
+    "buy": "15205030:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205030020": {
+    "name": "二十星红碎片",
+    "des": "使用可直接获得二十星红碎片",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205030,
+    "buy": "20205030:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "205030030": {
     "name": "三十星红碎片",
     "des": "使用可直接获得三十星红碎片",
@@ -9758,6 +11130,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "205040015": {
+    "name": "十五星再不斩",
+    "des": "使用可直接获得十五星再不斩",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205040,
+    "buy": "15205040:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205040020": {
+    "name": "二十星再不斩",
+    "des": "使用可直接获得二十星再不斩",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205040,
+    "buy": "20205040:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "205040030": {
@@ -9798,6 +11194,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "205050015": {
+    "name": "十五星鹿丸碎",
+    "des": "使用可直接获得十五星鹿丸碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205050,
+    "buy": "15205050:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205050020": {
+    "name": "二十星鹿丸碎",
+    "des": "使用可直接获得二十星鹿丸碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205050,
+    "buy": "20205050:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "205050030": {
     "name": "三十星鹿丸碎",
     "des": "使用可直接获得三十星鹿丸碎",
@@ -9834,6 +11254,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "205060015": {
+    "name": "十五星大和碎",
+    "des": "使用可直接获得十五星大和碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205060,
+    "buy": "15205060:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205060020": {
+    "name": "二十星大和碎",
+    "des": "使用可直接获得二十星大和碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205060,
+    "buy": "20205060:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "205060030": {
@@ -9874,6 +11318,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "205070015": {
+    "name": "十五星卡卡西",
+    "des": "使用可直接获得十五星卡卡西",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205070,
+    "buy": "15205070:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205070020": {
+    "name": "二十星卡卡西",
+    "des": "使用可直接获得二十星卡卡西",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205070,
+    "buy": "20205070:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "205070030": {
     "name": "三十星卡卡西",
     "des": "使用可直接获得三十星卡卡西",
@@ -9910,6 +11378,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "205080015": {
+    "name": "十五星阿斯玛",
+    "des": "使用可直接获得十五星阿斯玛",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205080,
+    "buy": "15205080:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205080020": {
+    "name": "二十星阿斯玛",
+    "des": "使用可直接获得二十星阿斯玛",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205080,
+    "buy": "20205080:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "205080030": {
@@ -9950,6 +11442,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "205130015": {
+    "name": "十五星飞段碎",
+    "des": "使用可直接获得十五星飞段碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205130,
+    "buy": "15205130:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205130020": {
+    "name": "二十星飞段碎",
+    "des": "使用可直接获得二十星飞段碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205130,
+    "buy": "20205130:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "205130030": {
     "name": "三十星飞段碎",
     "des": "使用可直接获得三十星飞段碎",
@@ -9986,6 +11502,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "205140015": {
+    "name": "十五星佐助碎",
+    "des": "使用可直接获得十五星佐助碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 205140,
+    "buy": "15205140:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "205140020": {
+    "name": "二十星佐助碎",
+    "des": "使用可直接获得二十星佐助碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 205140,
+    "buy": "20205140:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "205140030": {
@@ -10386,6 +11926,30 @@
     "quality": 6,
     "source1": "gift"
   },
+  "305010015": {
+    "name": "十五星咒印佐",
+    "des": "使用可直接获得十五星咒印佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305010,
+    "buy": "15305010:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305010020": {
+    "name": "二十星咒印佐",
+    "des": "使用可直接获得二十星咒印佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305010,
+    "buy": "20305010:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "305010030": {
     "name": "三十星咒印佐",
     "des": "使用可直接获得三十星咒印佐",
@@ -10422,6 +11986,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "305020015": {
+    "name": "十五星迈特凯",
+    "des": "使用可直接获得十五星迈特凯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305020,
+    "buy": "15305020:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305020020": {
+    "name": "二十星迈特凯",
+    "des": "使用可直接获得二十星迈特凯",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305020,
+    "buy": "20305020:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "305020030": {
@@ -10462,6 +12050,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "305030015": {
+    "name": "十五星多由也",
+    "des": "使用可直接获得十五星多由也",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305030,
+    "buy": "15305030:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305030020": {
+    "name": "二十星多由也",
+    "des": "使用可直接获得二十星多由也",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305030,
+    "buy": "20305030:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "305030030": {
     "name": "三十星多由也",
     "des": "使用可直接获得三十星多由也",
@@ -10498,6 +12110,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "305040015": {
+    "name": "十五星鬼鲛碎",
+    "des": "使用可直接获得十五星鬼鲛碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305040,
+    "buy": "15305040:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305040020": {
+    "name": "二十星鬼鲛碎",
+    "des": "使用可直接获得二十星鬼鲛碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305040,
+    "buy": "20305040:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "305040030": {
@@ -10538,6 +12174,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "305050015": {
+    "name": "十五星猿飞日",
+    "des": "使用可直接获得十五星猿飞日",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305050,
+    "buy": "15305050:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305050020": {
+    "name": "二十星猿飞日",
+    "des": "使用可直接获得二十星猿飞日",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305050,
+    "buy": "20305050:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "305050030": {
     "name": "三十星猿飞日",
     "des": "使用可直接获得三十星猿飞日",
@@ -10574,6 +12234,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "305060015": {
+    "name": "十五星大蛇丸",
+    "des": "使用可直接获得十五星大蛇丸",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305060,
+    "buy": "15305060:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305060020": {
+    "name": "二十星大蛇丸",
+    "des": "使用可直接获得二十星大蛇丸",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305060,
+    "buy": "20305060:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "305060030": {
@@ -10614,6 +12298,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "305070015": {
+    "name": "十五星鸣人碎",
+    "des": "使用可直接获得十五星鸣人碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305070,
+    "buy": "15305070:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305070020": {
+    "name": "二十星鸣人碎",
+    "des": "使用可直接获得二十星鸣人碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305070,
+    "buy": "20305070:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "305070030": {
     "name": "三十星鸣人碎",
     "des": "使用可直接获得三十星鸣人碎",
@@ -10650,6 +12358,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "305080015": {
+    "name": "十五星犬冢牙",
+    "des": "使用可直接获得十五星犬冢牙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305080,
+    "buy": "15305080:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305080020": {
+    "name": "二十星犬冢牙",
+    "des": "使用可直接获得二十星犬冢牙",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305080,
+    "buy": "20305080:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "305080030": {
@@ -10690,6 +12422,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "305130015": {
+    "name": "十五星勘九郎",
+    "des": "使用可直接获得十五星勘九郎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305130,
+    "buy": "15305130:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305130020": {
+    "name": "二十星勘九郎",
+    "des": "使用可直接获得二十星勘九郎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305130,
+    "buy": "20305130:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "305130030": {
     "name": "三十星勘九郎",
     "des": "使用可直接获得三十星勘九郎",
@@ -10726,6 +12482,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "305140015": {
+    "name": "十五星自来也",
+    "des": "使用可直接获得十五星自来也",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 305140,
+    "buy": "15305140:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "305140020": {
+    "name": "二十星自来也",
+    "des": "使用可直接获得二十星自来也",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 305140,
+    "buy": "20305140:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "305140030": {
@@ -13071,6 +14851,30 @@
     "quality": 6,
     "effects": "baowu"
   },
+  "405010015": {
+    "name": "十五星暗部卡",
+    "des": "使用可直接获得十五星暗部卡",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405010,
+    "buy": "15405010:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405010020": {
+    "name": "二十星暗部卡",
+    "des": "使用可直接获得二十星暗部卡",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405010,
+    "buy": "20405010:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "405010030": {
     "name": "三十星暗部卡",
     "des": "使用可直接获得三十星暗部卡",
@@ -13107,6 +14911,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "405020015": {
+    "name": "十五星尾兽鸣",
+    "des": "使用可直接获得十五星尾兽鸣",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405020,
+    "buy": "15405020:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405020020": {
+    "name": "二十星尾兽鸣",
+    "des": "使用可直接获得二十星尾兽鸣",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405020,
+    "buy": "20405020:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "405020030": {
@@ -13147,6 +14975,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "405030015": {
+    "name": "十五星小樱碎",
+    "des": "使用可直接获得十五星小樱碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405030,
+    "buy": "15405030:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405030020": {
+    "name": "二十星小樱碎",
+    "des": "使用可直接获得二十星小樱碎",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405030,
+    "buy": "20405030:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "405030030": {
     "name": "三十星小樱碎",
     "des": "使用可直接获得三十星小樱碎",
@@ -13183,6 +15035,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "405040015": {
+    "name": "十五星我爱罗",
+    "des": "使用可直接获得十五星我爱罗",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405040,
+    "buy": "15405040:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405040020": {
+    "name": "二十星我爱罗",
+    "des": "使用可直接获得二十星我爱罗",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405040,
+    "buy": "20405040:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "405040030": {
@@ -13223,6 +15099,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "405050015": {
+    "name": "十五星咒化佐",
+    "des": "使用可直接获得十五星咒化佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405050,
+    "buy": "15405050:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405050020": {
+    "name": "二十星咒化佐",
+    "des": "使用可直接获得二十星咒化佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405050,
+    "buy": "20405050:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "405050030": {
     "name": "三十星咒化佐",
     "des": "使用可直接获得三十星咒化佐",
@@ -13259,6 +15159,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "405060015": {
+    "name": "十五星宇智波",
+    "des": "使用可直接获得十五星宇智波",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405060,
+    "buy": "15405060:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405060020": {
+    "name": "二十星宇智波",
+    "des": "使用可直接获得二十星宇智波",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405060,
+    "buy": "20405060:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "405060030": {
@@ -13299,6 +15223,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "405070015": {
+    "name": "十五星武士佐",
+    "des": "使用可直接获得十五星武士佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405070,
+    "buy": "15405070:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405070020": {
+    "name": "二十星武士佐",
+    "des": "使用可直接获得二十星武士佐",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405070,
+    "buy": "20405070:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "405070030": {
     "name": "三十星武士佐",
     "des": "使用可直接获得三十星武士佐",
@@ -13335,6 +15283,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "405080015": {
+    "name": "十五星晓*大蛇丸",
+    "des": "使用可直接获得十五星晓*大蛇丸",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405080,
+    "buy": "15405080:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405080020": {
+    "name": "二十星晓*大蛇丸",
+    "des": "使用可直接获得二十星晓*大蛇丸",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405080,
+    "buy": "20405080:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "405080030": {
@@ -13375,6 +15347,30 @@
     "quality": 7,
     "source1": "gift"
   },
+  "405130015": {
+    "name": "十五星火影纲",
+    "des": "使用可直接获得十五星火影纲",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405130,
+    "buy": "15405130:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405130020": {
+    "name": "二十星火影纲",
+    "des": "使用可直接获得二十星火影纲",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405130,
+    "buy": "20405130:200",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
   "405130030": {
     "name": "三十星火影纲",
     "des": "使用可直接获得三十星火影纲",
@@ -13411,6 +15407,30 @@
     "coin": 500000000,
     "buyNum": 1,
     "quality": 7,
+    "source1": "gift"
+  },
+  "405140015": {
+    "name": "十五星死神鼬",
+    "des": "使用可直接获得十五星死神鼬",
+    "isBag": true,
+    "type": "hero",
+    "useType": 15,
+    "arg": 405140,
+    "buy": "15405140:150",
+    "buyNum": 1,
+    "quality": 6,
+    "source1": "gift"
+  },
+  "405140020": {
+    "name": "二十星死神鼬",
+    "des": "使用可直接获得二十星死神鼬",
+    "isBag": true,
+    "type": "hero",
+    "useType": 20,
+    "arg": 405140,
+    "buy": "20405140:200",
+    "buyNum": 1,
+    "quality": 6,
     "source1": "gift"
   },
   "405140030": {
