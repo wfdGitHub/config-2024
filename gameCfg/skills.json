@@ -22377,39 +22377,36 @@
     "name": "怒气技能",
     "icon": "dz_002",
     "qa": 3,
-    "anger": 4,
+    "anger": 0,
     "type": "attack",
     "des": "降低敌方攻击最高的目标1点怒气",
-    "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 1
   },
   "dz_003": {
     "name": "怒气技能",
     "icon": "dz_003",
     "qa": 3,
-    "anger": 4,
+    "anger": 0,
     "type": "attack",
     "des": "随机降低敌方2个目标1点怒气",
-    "damageType": "mag",
     "targetType": "enemy_2",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 1
   },
   "dz_004": {
     "name": "怒气技能",
     "icon": "dz_004",
     "qa": 3,
-    "anger": 4,
+    "anger": 0,
     "type": "attack",
     "des": "随机降低敌方3个目标1点怒气",
-    "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 1
   },
   "dz_005": {
@@ -22664,7 +22661,7 @@
     "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
-    "mul": 1
+    "mul": 4
   },
   "dz_026": {
     "name": "怒气技能",
@@ -22675,7 +22672,7 @@
     "des": "死亡后，对敌方攻击最高的目标造成500%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
-    "mul": 1
+    "mul": 5
   },
   "dz_027": {
     "name": "怒气技能",
@@ -22686,7 +22683,7 @@
     "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
     "damageType": "mag",
     "targetType": "enemy_maxAtk_1",
-    "mul": 1
+    "mul": 6
   },
   "dz_028": {
     "name": "怒气技能",
@@ -22788,7 +22785,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 2
   },
   "dz_036": {
@@ -22824,7 +22821,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 3
   },
   "dz_039": {
@@ -22860,7 +22857,7 @@
     "damageType": "mag",
     "targetType": "enemy_3",
     "mul": 0,
-    "key1": "skill_less_anger",
+    "key1": "normal_less_anger",
     "value1": 4
   },
   "dz_042": {
