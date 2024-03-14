@@ -7176,9 +7176,9 @@
     "icon": 50022004,
     "name": "平息",
     "qa": 1,
-    "des": "入场时，对敌方全体造成40%攻击的伤害，并降低目标1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_002"
+    "des": "入场时，敌方随机1个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150017": {
     "icon": 50022005,
@@ -7272,9 +7272,9 @@
     "icon": 50011006,
     "name": "针对",
     "qa": 1,
-    "des": "死亡后，对敌方全体造成40%攻击的伤害，并降低目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_002"
+    "des": "死亡时，敌方随机1个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150029": {
     "icon": 50012004,
@@ -7952,9 +7952,9 @@
     "icon": 50024006,
     "name": "平息",
     "qa": 2,
-    "des": "入场时，对敌方全体造成50%攻击的伤害，并降低目标1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_003"
+    "des": "入场时，敌方攻击最高的目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250017": {
     "icon": 50025004,
@@ -8052,9 +8052,9 @@
     "icon": 50014005,
     "name": "针对",
     "qa": 2,
-    "des": "死亡后，对敌方全体造成50%攻击的伤害，并降低目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_003"
+    "des": "死亡时，敌方攻击最高的目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250029": {
     "icon": 50014006,
@@ -8730,9 +8730,9 @@
     "icon": 50012006,
     "name": "平息",
     "qa": 3,
-    "des": "入场时，对敌方全体造成60%攻击的伤害，并降低目标1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_004"
+    "des": "入场时，敌方随机2个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350017": {
     "icon": 50013004,
@@ -8830,9 +8830,9 @@
     "icon": 50021006,
     "name": "针对",
     "qa": 3,
-    "des": "死亡后，对敌方全体造成60%攻击的伤害，并降低目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_004"
+    "des": "死亡时，敌方随机2个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350029": {
     "icon": 50022004,
@@ -9462,9 +9462,9 @@
     "icon": 50012006,
     "name": "平息",
     "qa": 4,
-    "des": "入场时，对敌方全体造成70%攻击的伤害，并降低目标2点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_035"
+    "des": "入场时，敌方随机3个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450017": {
     "icon": 50013004,
@@ -9546,9 +9546,9 @@
     "icon": 50021004,
     "name": "针对",
     "qa": 4,
-    "des": "死亡后，对敌方全体造成70%攻击的伤害，并降低目标2点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_035"
+    "des": "死亡时，敌方随机3个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450029": {
     "icon": 50021005,
@@ -10142,9 +10142,9 @@
     "icon": 50024005,
     "name": "平息",
     "qa": 5,
-    "des": "入场时，对敌方全体造成80%攻击的伤害，并降低目标3点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_038"
+    "des": "入场时，敌方随机3个目标，附加2回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550017": {
     "icon": 50023006,
@@ -10204,9 +10204,9 @@
     "icon": 50014004,
     "name": "针对",
     "qa": 5,
-    "des": "死亡后，对敌方全体造成80%攻击的伤害，并降低目标3点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_038"
+    "des": "死亡时，敌方随机3个目标，附加2回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550029": {
     "icon": 50014005,
@@ -10788,9 +10788,11 @@
     "icon": 50023006,
     "name": "平息",
     "qa": 6,
-    "des": "入场时，对敌方全体造成100%攻击的伤害，并降低目标4点怒气，对其附加禁怒效果，持续2个回合",
-    "key1": "beginSkill",
-    "value1": "dz_041"
+    "des": "入场时，敌方随机3个目标，附加2回合沉默效果，并对其附加禁怒效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650017": {
     "icon": 50024004,
@@ -10852,9 +10854,9 @@
     "icon": 50013006,
     "name": "针对",
     "qa": 6,
-    "des": "死亡后，对敌方全体造成100%攻击的伤害，并降低目标4点怒气，对其附加禁怒效果，持续2个回合",
-    "key1": "diedSkill",
-    "value1": "dz_041",
+    "des": "死亡时，敌方随机3个目标，附加2回合沉默效果，并对其附加禁怒效果，持续2个回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "died_buff",
     "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
