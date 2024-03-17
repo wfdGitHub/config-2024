@@ -6844,9 +6844,9 @@
     "icon": 50012006,
     "name": "修复",
     "qa": 1,
-    "des": "每受到一次伤害，回复自身生命1%",
+    "des": "每受到一次伤害，回复受到伤害2%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.01,
+    "value1": 0.02,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -7176,9 +7176,9 @@
     "icon": 50022004,
     "name": "平息",
     "qa": 1,
-    "des": "入场时，敌方攻击最高的目标降低1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_002"
+    "des": "入场时，敌方随机1个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150017": {
     "icon": 50022005,
@@ -7257,7 +7257,7 @@
     "name": "全力一击",
     "qa": 1,
     "des": "死亡后，对敌方攻击最高的目标造成100%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_015"
   },
   "90150027": {
@@ -7272,9 +7272,9 @@
     "icon": 50011006,
     "name": "针对",
     "qa": 1,
-    "des": "死亡后，降低敌方攻击最高的目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_002"
+    "des": "死亡时，敌方随机1个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90150029": {
     "icon": 50012004,
@@ -7596,9 +7596,9 @@
     "icon": 50015004,
     "name": "修复",
     "qa": 2,
-    "des": "每受到一次伤害，回复自身生命2%",
+    "des": "每受到一次伤害，回复受到伤害4%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.02,
+    "value1": 0.04,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -7740,11 +7740,13 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 2,
-    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害20%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，每次击杀目标后增加自身2%伤害，并恢复自身2%最大生命值",
     "key1": "kill_rob_anger",
     "value1": true,
-    "key2": "overDamageToMaxHp",
-    "value2": 0.2
+    "key2": "kill_amp",
+    "value2": 0.02,
+    "key3": "kill_heal",
+    "value3": 0.02
   },
   "90240025": {
     "icon": 50011006,
@@ -7950,9 +7952,9 @@
     "icon": 50024006,
     "name": "平息",
     "qa": 2,
-    "des": "入场时，敌方随机2个目标降低1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_003"
+    "des": "入场时，敌方攻击最高的目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250017": {
     "icon": 50025004,
@@ -8035,7 +8037,7 @@
     "name": "全力一击",
     "qa": 2,
     "des": "死亡后，对敌方攻击最高的目标造成200%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_016"
   },
   "90250027": {
@@ -8050,9 +8052,9 @@
     "icon": 50014005,
     "name": "针对",
     "qa": 2,
-    "des": "死亡后，降低敌方随机2个目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_003"
+    "des": "死亡时，敌方攻击最高的目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90250029": {
     "icon": 50014006,
@@ -8374,9 +8376,9 @@
     "icon": 50022006,
     "name": "修复",
     "qa": 3,
-    "des": "每受到一次伤害，回复自身生命4%",
+    "des": "每受到一次伤害，回复受到伤害6%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.04,
+    "value1": 0.06,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -8530,11 +8532,13 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 3,
-    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害30%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，每次击杀目标后增加自身4%伤害，并恢复自身4%最大生命值",
     "key1": "kill_rob_anger",
     "value1": true,
-    "key2": "overDamageToMaxHp",
-    "value2": 0.3
+    "key2": "kill_amp",
+    "value2": 0.04,
+    "key3": "kill_heal",
+    "value3": 0.04
   },
   "90340025": {
     "icon": 50014006,
@@ -8726,9 +8730,9 @@
     "icon": 50012006,
     "name": "平息",
     "qa": 3,
-    "des": "入场时，敌方随机3个目标降低1点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_004"
+    "des": "入场时，敌方随机2个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350017": {
     "icon": 50013004,
@@ -8811,7 +8815,7 @@
     "name": "全力一击",
     "qa": 3,
     "des": "死亡后，对敌方攻击最高的目标造成300%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_017"
   },
   "90350027": {
@@ -8826,9 +8830,9 @@
     "icon": 50021006,
     "name": "针对",
     "qa": 3,
-    "des": "死亡后，降低敌方随机3个目标1点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_004"
+    "des": "死亡时，敌方随机2个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_2\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90350029": {
     "icon": 50022004,
@@ -9150,9 +9154,9 @@
     "icon": 50025004,
     "name": "修复",
     "qa": 4,
-    "des": "每受到一次伤害，回复自身生命6%",
+    "des": "每受到一次伤害，回复受到伤害8%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.06,
+    "value1": 0.08,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -9260,11 +9264,13 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 4,
-    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害40%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，每次击杀目标后增加自身6%伤害，并恢复自身6%最大生命值",
     "key1": "kill_rob_anger",
     "value1": true,
-    "key2": "overDamageToMaxHp",
-    "value2": 0.4
+    "key2": "kill_amp",
+    "value2": 0.06,
+    "key3": "kill_heal",
+    "value3": 0.06
   },
   "90440025": {
     "icon": 50015005,
@@ -9456,9 +9462,9 @@
     "icon": 50012006,
     "name": "平息",
     "qa": 4,
-    "des": "入场时，敌方随机3个目标降低2点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_035"
+    "des": "入场时，敌方随机3个目标，附加1回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450017": {
     "icon": 50013004,
@@ -9525,7 +9531,7 @@
     "name": "全力一击",
     "qa": 4,
     "des": "死亡后，对敌方攻击最高的目标造成400%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_025"
   },
   "90450027": {
@@ -9540,9 +9546,9 @@
     "icon": 50021004,
     "name": "针对",
     "qa": 4,
-    "des": "死亡后，降低敌方随机3个目标2点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_035"
+    "des": "死亡时，敌方随机3个目标，附加1回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "90450029": {
     "icon": 50021005,
@@ -9864,9 +9870,9 @@
     "icon": 50024005,
     "name": "修复",
     "qa": 5,
-    "des": "每受到一次伤害，回复自身生命8%",
+    "des": "每受到一次伤害，回复受到伤害10%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.08,
+    "value1": 0.1,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -9984,11 +9990,13 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 5,
-    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害60%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，每次击杀目标后增加自身8%伤害，并恢复自身8%最大生命值",
     "key1": "kill_rob_anger",
     "value1": true,
-    "key2": "overDamageToMaxHp",
-    "value2": 0.6
+    "key2": "kill_amp",
+    "value2": 0.08,
+    "key3": "kill_heal",
+    "value3": 0.08
   },
   "90540025": {
     "icon": 50015004,
@@ -10134,9 +10142,9 @@
     "icon": 50024005,
     "name": "平息",
     "qa": 5,
-    "des": "入场时，敌方随机3个目标降低3点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_038"
+    "des": "入场时，敌方随机3个目标，附加2回合沉默效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550017": {
     "icon": 50023006,
@@ -10179,7 +10187,7 @@
     "name": "全力一击",
     "qa": 5,
     "des": "死亡后，对敌方攻击最高的目标造成500%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_026"
   },
   "90550027": {
@@ -10196,9 +10204,9 @@
     "icon": 50014004,
     "name": "针对",
     "qa": 5,
-    "des": "死亡后，降低敌方随机3个目标3点怒气",
-    "key1": "diedSkill",
-    "value1": "dz_038"
+    "des": "死亡时，敌方随机3个目标，附加2回合沉默效果",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90550029": {
     "icon": 50014005,
@@ -10512,9 +10520,9 @@
     "icon": 50023004,
     "name": "修复",
     "qa": 6,
-    "des": "每受到一次伤害，回复自身生命10%",
+    "des": "每受到一次伤害，回复受到伤害12%的生命",
     "key1": "hit_turn_rate",
-    "value1": 0.1,
+    "value1": 0.12,
     "key2": "hit_turn_tg",
     "value2": "team_self"
   },
@@ -10624,11 +10632,13 @@
     "icon": 50510004,
     "name": "吞噬",
     "qa": 6,
-    "des": "使用技能击败目标后，吞噬其剩余怒气值，当技能击杀目标时，溢出伤害100%对敌方攻击最高的目标造成伤害。",
+    "des": "使用技能击败目标后，吞噬其剩余怒气值，每次击杀目标后增加自身10%伤害，并恢复自身10%最大生命值",
     "key1": "kill_rob_anger",
     "value1": true,
-    "key2": "overDamageToMaxHp",
-    "value2": 1
+    "key2": "kill_amp",
+    "value2": 0.1,
+    "key3": "kill_heal",
+    "value3": 0.1
   },
   "90640025": {
     "icon": 50014005,
@@ -10778,9 +10788,11 @@
     "icon": 50023006,
     "name": "平息",
     "qa": 6,
-    "des": "入场时，敌方随机3个目标降低4点怒气",
-    "key1": "beginSkill",
-    "value1": "dz_041"
+    "des": "入场时，敌方随机3个目标，附加2回合沉默效果，并对其附加禁怒效果，持续2个回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650017": {
     "icon": 50024004,
@@ -10790,7 +10802,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "90650019": {
     "icon": 50308005,
@@ -10825,7 +10837,7 @@
     "name": "全力一击",
     "qa": 6,
     "des": "死亡后，对敌方攻击最高的目标造成600%攻击的特殊伤害",
-    "key1": "died_buff",
+    "key1": "diedSkill",
     "value1": "dz_027"
   },
   "90650027": {
@@ -10842,9 +10854,9 @@
     "icon": 50013006,
     "name": "针对",
     "qa": 6,
-    "des": "死亡后，降低敌方随机3个目标4点怒气，并对其附加禁怒效果，持续2个回合",
-    "key1": "diedSkill",
-    "value1": "dz_041",
+    "des": "死亡时，敌方随机3个目标，附加2回合沉默效果，并对其附加禁怒效果，持续2个回合",
+    "key1": "died_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "died_buff",
     "value2": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -10942,7 +10954,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key3": "listen_enemyBuff",
     "value3": "cold",
     "key4": "listen_addBuff",
