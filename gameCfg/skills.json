@@ -2569,7 +2569,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "月光疾风挥舞武士刀发动攻击，对敌方单体血量最少目标造成120%的物理伤害",
+    "des": "对敌方单体造成120%的物理伤害",
     "damageType": "phy",
     "targetType": "enemy_minHP",
     "mul": 1.2
@@ -2579,21 +2579,21 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "月光疾风施展三日月刀法，对敌方单体血量最少目标造成328%的物理伤害，若击败目标，则再次释放此技能",
+    "des": "对敌方1-3个目标造成228%的物理伤害，并获得1层神力",
     "damageType": "phy",
-    "targetType": "enemy_minHP",
-    "mul": 3.28,
-    "key1": "killRet",
-    "value1": true
+    "targetType": "enemy_rand_13",
+    "mul": 2.28,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50312001": {
     "name": "瞬击",
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的物理伤害",
+    "des": "对敌方单体血量最少目标造成120%攻击力的物理伤害",
     "damageType": "phy",
-    "targetType": "enemy_normal",
+    "targetType": "enemy_minHP",
     "mul": 1.2
   },
   "50312002": {
@@ -2601,12 +2601,12 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成338%攻击力的物理伤害，且每次使用技能增加15%技能伤害",
+    "des": "对敌方单体血量最少目标造成328%攻击力的物理伤害，若击败目标，则再次释放此技能",
     "damageType": "phy",
-    "targetType": "enemy_normal",
-    "mul": 3.38,
-    "key1": "use_up_mul",
-    "value1": 0.15
+    "targetType": "enemy_minHP",
+    "mul": 3.28,
+    "key1": "killRet",
+    "value1": true
   },
   "50313001": {
     "name": "砂时雨",

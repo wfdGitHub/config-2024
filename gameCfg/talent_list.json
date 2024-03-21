@@ -5123,18 +5123,21 @@
     "value1": 0.02
   },
   "50105003": {
+    "name": "七步之才",
     "qa": 3,
     "des": "行动后回复自身1点怒气",
     "key1": "action_anger",
     "value1": 1
   },
   "50105004": {
+    "name": "文涛",
     "qa": 3,
     "des": "技能伤害的60%治疗友方生命值最少的英雄",
     "key1": "heal_min_hp_rate",
     "value1": 0.6
   },
   "50105005": {
+    "name": "慈悲",
     "qa": 3,
     "des": "受到直接伤害的24%转化为生命治疗己方生命最少的3个目标",
     "key1": "hit_turn_rate",
@@ -5293,18 +5296,21 @@
     "value2": 50110012
   },
   "50112003": {
+    "name": "怒火中烧",
     "qa": 3,
     "des": "被寒冷状态下的敌人攻击时，恢复1点怒气",
     "key1": "cold_hit_anger",
     "value1": 1
   },
   "50112004": {
+    "name": "骁勇",
     "qa": 3,
     "des": "释放技能后恢复自身30%最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.3
   },
   "50112005": {
+    "name": "善战",
     "qa": 3,
     "des": "入场时获得免控盾，持续3回合",
     "key1": "first_buff",
@@ -5649,31 +5655,37 @@
     "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50211003": {
+    "name": "连营",
     "des": "释放技能时，若目标处于灼烧状态，有100%概率添加缠绕，持续1回合",
     "key1": "burn_buff_change_skill",
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50211004": {
+    "name": "火盾",
     "des": "释放技能后，为血量最少的2个友方英雄添加烈焰护体，持续2回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"friend_minHp_2\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50211005": {
+    "name": "整备",
     "des": "入场时，使我方前排英雄获得烈焰护体，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_horizontal_front\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50212003": {
+    "name": "桀骜",
     "des": "触发火龙冲击后，眩晕目标1回合",
     "key1": "slcj_xy",
     "value1": true
   },
   "50212004": {
+    "name": "英姿",
     "des": "火龙冲击造成的伤害额外增加60%",
     "key1": "thawing_burn",
     "value1": 0.6
   },
   "50212005": {
+    "name": "热烈",
     "des": "入场时，随机使三个敌方英雄灼烧，持续2回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
@@ -5995,45 +6007,46 @@
     "value2": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50311003": {
+    "name": "斩杀",
     "qa": 3,
-    "des": "月光疾风使用技能后，若目标生命值低于15%，则将其斩杀",
+    "des": "关羽使用技能后，若目标生命值低于15%，则将其斩杀",
     "key1": "seckill",
     "value1": 0.15
   },
   "50311004": {
+    "name": "过关斩将",
     "qa": 3,
-    "des": "月光疾风的招式十分凌厉，每击败1个敌人增加自身15%暴击率，持续至战斗结束",
-    "key1": "kill_crit",
-    "value1": 0.15
+    "des": "关羽技能造成伤害量的25%回复自身",
+    "key1": "skill_turn_rate",
+    "value1": 0.25
   },
   "50311005": {
+    "name": "武圣",
     "qa": 3,
-    "des": "月光疾风的剑刃能够吞噬敌方查克拉，击败目标后吞噬该目标剩余怒气",
-    "key1": "kill_rob_anger",
-    "value1": true
+    "des": "关羽的招式十分凌厉，每击败1个敌人增加自身15%暴击率，持续至战斗结束",
+    "key1": "kill_crit",
+    "value1": 0.15
   },
   "50312003": {
     "name": "七进七出",
     "qa": 3,
-    "des": "生命值每降低10%，伤害增加8%",
-    "key1": "low_hp_amp",
-    "value1": 0.08
+    "des": "每次释放技能，提升7%技能伤害",
+    "key1": "use_up_mul",
+    "value1": 0.07
   },
   "50312004": {
     "name": "龙胆",
     "qa": 3,
-    "des": "每次行动后，恢复1点怒气",
-    "key1": "action_anger",
-    "value1": 1
+    "des": "释放技能后有45%概率额外释放一次，每回合仅触发1次",
+    "key1": "skill_combo",
+    "value1": 0.45
   },
   "50312005": {
     "name": "亮银",
     "qa": 3,
-    "des": "每次普攻后，若目标未死亡，有65%概率连击，可重复触发",
-    "key1": "normal_combo",
-    "value1": 0.65,
-    "key2": "listen_addBuff",
-    "value2": "{\"buffId\":\"wind\",\"buffRate\":1}"
+    "des": "击败目标后吞噬该目标剩余怒气",
+    "key1": "kill_rob_anger",
+    "value1": true
   },
   "50313003": {
     "icon": 50311003,
@@ -6352,36 +6365,42 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50411003": {
+    "name": "侵害",
     "qa": 3,
     "des": "目标身上每有1个负面效果，伤害增加8%",
     "key1": "enemy_low_amp",
     "value1": 0.08
   },
   "50411004": {
+    "name": "诡计",
     "qa": 3,
     "des": "释放技能时有60%概率附加1回合禁怒效果(无法回复怒气)",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50411005": {
+    "name": "大略",
     "qa": 3,
     "des": "自身行动后，为己方全体单位各移除1个非控制类的负面状态，并转化为诅咒转移至敌方随机单体",
     "key1": "passive1",
     "value1": "zy_zz"
   },
   "50412003": {
+    "name": "印玺",
     "qa": 3,
-    "des": "释放技能时有60%概率附加1回合魔印效果(无法回复怒气)",
+    "des": "释放技能时有60%概率附加1回合魔印效果",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50412004": {
+    "name": "缓兵",
     "qa": 3,
     "des": "魔印效果增加至2回合",
     "key1": "buffDuration",
     "value1": 1
   },
   "50412005": {
+    "name": "牺牲",
     "qa": 3,
     "des": "阵亡时，对敌方全体附加魔印效果,持续2回合,每场战斗仅生效1次",
     "key1": "died_once_buff",
@@ -6510,36 +6529,42 @@
     "value1": 0.08
   },
   "50503003": {
+    "name": "无双",
     "qa": 3,
     "des": "生命值增加20%",
     "key1": "M_HP",
     "value1": 0.2
   },
   "50503004": {
+    "name": "坚毅",
     "qa": 3,
     "des": "释放技能后，为我方全体增加坚毅效果",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50503005": {
+    "name": "怒吼",
     "qa": 3,
     "des": "入场时，嘲讽敌方攻击最高的英雄，持续3回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50504003": {
+    "name": "神力",
     "qa": 3,
     "des": "每回合行动后为自身添加1层神力效果",
     "key1": "action_buff1",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50504004": {
+    "name": "自愈",
     "qa": 3,
     "des": "释放技能后，恢复自身20%最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.2
   },
   "50504005": {
+    "name": "守护",
     "qa": 3,
     "des": "入场时，为我方全体添加最大生命值15%的护盾，持续1回合",
     "key1": "first_buff",
