@@ -20,7 +20,9 @@
     "source2": "exercise",
     "source3": "dailyFb",
     "source4": "quick",
-    "icon": 101
+    "icon": 101,
+    "itemBuy": "202:1",
+    "itemValue": 2000
   },
   "109": {
     "name": "VIP经验",
@@ -37,7 +39,6 @@
     "des": "现金券可在直充界面直接充值",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "gift",
     "icon": 110
   },
@@ -72,7 +73,9 @@
     "source2": "revenue",
     "source3": "dailyFb",
     "source4": "quick",
-    "icon": 201
+    "icon": 201,
+    "itemBuy": "202:1",
+    "itemValue": 2000
   },
   "202": {
     "name": "忍玉",
@@ -1292,11 +1295,11 @@
     "icon": 941
   },
   "1060": {
-    "name": "仙术玉",
+    "name": "火影石",
     "rmb": 20,
     "title": "兑换仙人忍者",
-    "des": "可用于兑换仙人忍者",
-    "story": "位于妙木山中隐藏的碎玉，其中蕴含着仙术的能量，连仙人忍者都无法拒绝",
+    "des": "可用于兑换影级忍者",
+    "story": "位于妙木山中隐藏的碎玉，其中蕴含着强大的能量",
     "type": "item",
     "quality": 6,
     "source1": "extremity",
@@ -1309,8 +1312,8 @@
     "name": "六道石",
     "rmb": 100,
     "title": "兑换六道忍者",
-    "des": "可用于兑换六道忍者",
-    "story": "据说是六道仙人遗落的晶石碎片，蕴含着六道的强大能量，连六道忍者都无法拒绝",
+    "des": "可用于兑换仙级忍者",
+    "story": "据说是六道仙人遗落的晶石碎片，蕴含着六道仙人的能量",
     "type": "item",
     "quality": 7,
     "source1": "extremity",
@@ -2856,7 +2859,7 @@
     "name": "封印符咒",
     "rmb": 200,
     "title": "忍者宝物",
-    "des": "技能命中的目标越少,麻痹概率越高,每少一个目标,麻痹概率提升5",
+    "des": "技能命中的目标越少,麻痹概率越高,每少一个目标,麻痹概率提升5%技能命中的目标越少,\n麻痹概率越高,每少一个目标,麻痹概率提升5%",
     "story": "写有封印咒印的符咒，就连九尾都能封印",
     "type": "ace",
     "quality": 5,
@@ -2884,7 +2887,7 @@
     "name": "求道玉",
     "rmb": 200,
     "title": "忍者宝物",
-    "des": "释放技能时,有10%概率附加麻痹效果,持续1回合",
+    "des": "释放技能时,有10%概率附加封穴效果,持续1回合",
     "story": "蕴含六道仙术之力的黑色球，只需一颗便能轻松破坏一座森林",
     "type": "ace",
     "quality": 5,
@@ -2940,7 +2943,7 @@
     "name": "阴阳黑棒",
     "rmb": 200,
     "title": "忍者宝物",
-    "des": "释放水龙冲击时,添加1回合破伤效果",
+    "des": "释放技能时,有15%概率附加破伤效果,持续1回合",
     "story": "使用阴阳遁术制造而成的黑棒，十分强大的武器",
     "type": "ace",
     "quality": 5,
@@ -3010,7 +3013,7 @@
     "name": "芭蕉扇",
     "rmb": 200,
     "title": "忍者宝物",
-    "des": "添加灼烧后,被灼烧的忍者无法获得无敌和无敌吸血盾效果",
+    "des": "使用技能攻击时，降低破甲状态下的目标1点怒气值",
     "story": "六道仙人的法宝，拥有强大的风遁能量",
     "type": "ace",
     "quality": 5,
@@ -3059,7 +3062,6 @@
     "story": "造型独特的矛，残忍的破坏力使它被众人急忌惮",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3074,7 +3076,6 @@
     "story": "据说是某个强大的影级忍者使用过的披风，蕴含着六道的力量",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3089,7 +3090,6 @@
     "story": "雾隐忍刀七人众的七忍刀之一，能够吸食他人查克拉",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3104,7 +3104,6 @@
     "story": "纲手常用的银针，能够很好地辅助治疗",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3119,7 +3118,6 @@
     "story": "移植了大量写轮眼的手臂，拥有着与外表一般惊悚的强大力量",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3134,7 +3132,6 @@
     "story": "一把红色的三段大镰刀，能够吸取攻击目标的生命",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3145,11 +3142,10 @@
     "name": "飞雷神苦无",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "战斗首回合获得1层疾速效果,持续3回合",
+    "des": "速度值增加10%",
     "story": "特殊造型的苦无，赋予查克拉后便能拥有强大破坏力",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3160,11 +3156,10 @@
     "name": "三日月之刃",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "使用技能攻击时,降低破甲状态下的目标一点怒气值",
+    "des": "暴击增加10%",
     "story": "木叶秘传的武士刀，锋利的刀刃能够轻松斩断钢铁",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3179,7 +3174,6 @@
     "story": "辉夜穿戴的羽衣，蕴含着强大的忍术力量",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3194,7 +3188,6 @@
     "story": "蕴含着九尾力量的宝物，能够为使用者提供源源不断的查克拉",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3209,7 +3202,6 @@
     "story": "蕴含诅咒的面具，能够控制佩戴者的躯体，为其提供强大的力量",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3224,7 +3216,6 @@
     "story": "斩铁大刀的仿制版本，却拥有着不俗于原版的威力",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3235,11 +3226,10 @@
     "name": "土影斗笠",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "受到控制效果（麻痹、破伤、眩晕、嘲讽）概率降低35%",
+    "des": "受到控制效果（麻痹、封穴、眩晕、嘲讽）概率降低35%",
     "story": "土影经常佩戴的斗笠，尊贵身份的象征",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3250,11 +3240,10 @@
     "name": "金箍棒",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "所有攻击优先攻击敌方当前血量最低的忍者",
+    "des": "所有攻击优先攻击敌方当前血量最低的忍者（仅限单体伤害忍者使用）",
     "story": "强大通灵兽魔猿幻化而成的武器，能够随使用者心意随意变化",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3265,11 +3254,10 @@
     "name": "草雉剑",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "攻击触发感电效果时,有15%概率麻痹目标,持续1回合",
+    "des": "攻击触发雷咒效果时,有15%概率麻痹目标,持续1回合",
     "story": "大蛇丸制造的强大利剑，即使是金刚不坏之神的猿魔也害怕它的锋利",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3280,11 +3268,10 @@
     "name": "角都黑线",
     "rmb": 500,
     "title": "忍者宝物",
-    "des": "攻击虚弱状态下的忍者时,有30%概率添加破伤,持续1回合",
+    "des": "攻击虚弱状态下的忍者时,有30%概率添加重伤,持续1回合",
     "story": "角都使用的黑线，运用查克拉凝结而成，拥有灵活的运用广度",
     "type": "ace",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3298,7 +3285,6 @@
     "des": "击杀目标后回复自身最大生命30%血量",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3312,7 +3298,6 @@
     "des": "击杀目标后伤害提升15%",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3326,7 +3311,6 @@
     "des": "受到攻击后，如果生命低于40%，回复自身最大生命30%血量，每场战斗只能触发1次",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3340,7 +3324,6 @@
     "des": "战斗时，前2回合免伤提高30%",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3354,7 +3337,6 @@
     "des": "受到的法术伤害降低20%",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3368,7 +3350,6 @@
     "des": "受到的物理伤害降低20%",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3382,7 +3363,6 @@
     "des": "被暴击概率降低30%",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3396,7 +3376,6 @@
     "des": "伤害超过目标生命上限40%时，50%几率使其晕眩1回合",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3410,7 +3389,6 @@
     "des": "死亡时，提升全体友方20%攻击，持续2回合",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3424,7 +3402,6 @@
     "des": "攻击时有最高30%概率嘲讽目标，持续1回合，目标越少效果越好",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3438,7 +3415,6 @@
     "des": "行动结束后回复自身最大生命10%血量",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3452,7 +3428,6 @@
     "des": "受到直接技能伤害时，反弹25%伤害",
     "type": "ace",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaTrial",
     "source2": "escort",
     "source3": "tour",
@@ -3493,42 +3468,6 @@
     "buy": "10200:3",
     "source1": "gift",
     "icon": 10300
-  },
-  "10400": {
-    "name": "柱间细胞IV",
-    "rmb": 135,
-    "title": "忍者定制",
-    "des": "忍者定制",
-    "story": "定制4世代忍者技能材料",
-    "type": "item",
-    "quality": 5,
-    "buy": "10300:3",
-    "source1": "gift",
-    "icon": 10400
-  },
-  "10500": {
-    "name": "柱间细胞V",
-    "rmb": 405,
-    "title": "忍者定制",
-    "des": "忍者定制",
-    "story": "定制5世代忍者技能材料",
-    "type": "item",
-    "quality": 5,
-    "buy": "10400:3",
-    "source1": "gift",
-    "icon": 10500
-  },
-  "10600": {
-    "name": "柱间细胞VI",
-    "rmb": 1215,
-    "title": "忍者定制",
-    "des": "忍者定制",
-    "story": "定制6世代忍者技能材料",
-    "type": "item",
-    "quality": 5,
-    "buy": "10500:3",
-    "source1": "gift",
-    "icon": 10600
   },
   "100100": {
     "name": "冒险卷轴",
@@ -3594,7 +3533,6 @@
       "200500:1"
     ],
     "quality": 4,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3608,7 +3546,6 @@
     "story": "常见的物理招式，通过告诉旋转双腿对目标发动进攻",
     "type": "item",
     "quality": 4,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3622,7 +3559,6 @@
     "story": "常见的法术招式，通过汇聚查克拉，对目标发动进攻",
     "type": "item",
     "quality": 4,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3636,7 +3572,6 @@
     "story": "常见的物理招式，通过强力的物理在短时间内高速打出三十二掌，对目标发动进攻",
     "type": "item",
     "quality": 4,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3650,7 +3585,6 @@
     "story": "常见的法术招式，将雷遁查克拉形成的电流集中在手上配合突刺的速度刺穿目标",
     "type": "item",
     "quality": 4,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3672,7 +3606,6 @@
       "300500:1"
     ],
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3686,7 +3619,6 @@
     "story": "稀有的物理招式，需要于空中双手抱住对手，让其以头部朝下的方向进行高速螺旋并坠落地面，造成大量伤害",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3700,7 +3632,6 @@
     "story": "稀有的法术招式，在口中汇聚大量查克拉，辅以火遁法术，对目标发动烈焰般的攻势",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3714,7 +3645,6 @@
     "story": "稀有的法术招式，将雷遁查克拉形成的强力电流集中在手上配合突刺的速度刺穿目标",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3728,7 +3658,6 @@
     "story": "稀有的物理招式，以超越音速的攻击腾空而行在空中对目标发动连续攻击，并使其坠落地面造成极强的伤害",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3742,7 +3671,6 @@
     "story": "稀有的医疗法术，能治疗任意伤害，此术对查克拉的控制有极高的要求",
     "type": "item",
     "quality": 5,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3767,7 +3695,6 @@
       "401000:1"
     ],
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3781,7 +3708,6 @@
     "story": "强力的法术招式，控制巨大的沙尘攻击敌方忍者",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3795,7 +3721,6 @@
     "story": "强力的物理招式，以超高速的连续拳击与空气摩擦产生火焰，足以连续射出大量的火焰弹，其形态宛若孔雀开屏",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3809,7 +3734,6 @@
     "story": "强力的法术招式，汇聚大量查克拉，对目标发动强力进攻。",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3823,7 +3747,6 @@
     "story": "强力的物理招式，需要在身体能力增幅到极致的情况下对敌方发动进攻，其外形如同大象的脚步一般恐怖",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3837,7 +3760,6 @@
     "story": "强力的法术招式，在蛤蟆吐出的水中注入风性质查克拉，对目标造成大量法术伤害",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3851,7 +3773,6 @@
     "story": "强力的法术招式，完美人柱力能使用的奥义，发动强力尾兽查克拉，其破坏力足以改变地貌。",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3865,7 +3786,6 @@
     "story": "强力的法术招式，将雷遁查克拉形成的高强度电流集中在手上配合突刺的速度刺穿目标",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3879,7 +3799,6 @@
     "story": "强力的治疗法术，能够在瞬间治疗大量伤害，近乎起死回生一般的效果",
     "type": "item",
     "quality": 6,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3902,7 +3821,6 @@
       "501000:1"
     ],
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3916,7 +3834,6 @@
     "story": "究极物理招式，仅通过一人变可操控上百台傀儡发动攻势，一人便是一个军团",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3930,7 +3847,6 @@
     "story": "究极法术招式，汇聚大量仙术查克拉，对目标发动毁灭般的进攻。",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3944,7 +3860,6 @@
     "story": "究极法术招式，引导自然界巨大的雷电力量攻击敌人，对目标发动毁灭般的进攻。",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3958,7 +3873,6 @@
     "story": "究极物理招式，聚集力量后身产生宛如龙一般的查克拉，对敌人使用空前绝后的踢击",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3972,7 +3886,6 @@
     "story": "究极幻术招式，发动写轮眼目标拖入幻境之中，对其发动难以想象的精神折磨。",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -3986,7 +3899,6 @@
     "story": "究极医疗法术，治活再生之术是利用伤者体内的细胞，对伤口进行复愈。此术需要极长的时间及集中力，但效果也是极好",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4000,7 +3912,6 @@
     "story": "究极纲手研发的S医疗法术，需要长期将查克拉聚集，通过大量的查克拉刺激达到让细胞迅速再生，完全治愈伤口的效果",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4014,7 +3925,6 @@
     "story": "究极辅助法术，大蛇丸研发的咒印，拥有该咒印的忍者能够获得强大的力量",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4028,7 +3938,6 @@
     "story": "究极辅助法术，将自己的身体变作无数纸状的碎片，把目标包裹并放逐",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4042,7 +3951,6 @@
     "story": "究极辅助法术，以本身全部的查克拉作为媒介，把生命原原本本分给他人，是砂之国千代独有的禁术",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4056,7 +3964,6 @@
     "story": "究极辅助法术，发动幻术写轮眼，使目标陷入幻境，为自身创造攻击机会",
     "type": "item",
     "quality": 7,
-    "effects": "baowu",
     "source1": "areaChallenge",
     "source2": "areaBoss",
     "source3": "gift",
@@ -4069,7 +3976,7 @@
     "des": "记有普通宝藏地点的藏宝图",
     "story": "不靠谱的商贩兜售的藏宝图，据说能够找到稀有的宝藏",
     "type": "item",
-    "quality": 5,
+    "quality": 4,
     "source1": "warHorn",
     "source2": "weekTarget",
     "source3": "tour",
@@ -4082,9 +3989,8 @@
     "des": "记有珍贵宝藏地点，集齐四种奇珍方能合成",
     "story": "使用珍惜材料兑换而来的藏宝图，据说能够找到远古秘藏",
     "type": "item",
-    "quality": 7,
+    "quality": 5,
     "buy": "1000110:1&1000120:1&1000130:1&1000140:1",
-    "effects": "baowu",
     "source1": "warHorn",
     "source2": "cangbaotu",
     "source3": "gift",
@@ -4181,7 +4087,9 @@
     "source1": "checkpoints",
     "source2": "warHorn",
     "source3": "gift",
-    "icon": 1000710
+    "icon": 1000710,
+    "itemBuy": "202:1",
+    "itemValue": 100
   },
   "1000720": {
     "name": "密卷残本",
@@ -4195,7 +4103,9 @@
     "source2": "warHorn",
     "source3": "tour",
     "source4": "gift",
-    "icon": 1000720
+    "icon": 1000720,
+    "itemBuy": "202:1",
+    "itemValue": 1
   },
   "1003010": {
     "name": "辉夜秘宝",
@@ -4675,7 +4585,9 @@
     "source2": "tower",
     "source3": "extremity",
     "source4": "gift",
-    "icon": 2000030
+    "icon": 2000030,
+    "itemBuy": "202:5",
+    "itemValue": 1
   },
   "2000050": {
     "name": "六道仙丹",
@@ -4703,7 +4615,9 @@
     "source2": "extremity",
     "source3": "endless",
     "source4": "gift",
-    "icon": 2001010
+    "icon": 2001010,
+    "itemBuy": "202:30",
+    "itemValue": 1
   },
   "2001020": {
     "name": "疾风招募卷",
@@ -4717,7 +4631,9 @@
     "source2": "extremity",
     "source3": "endless",
     "source4": "gift",
-    "icon": 2001020
+    "icon": 2001020,
+    "itemBuy": "202:100",
+    "itemValue": 1
   },
   "2001030": {
     "name": "阴阳招募卷",
@@ -4730,7 +4646,9 @@
     "source2": "extremity",
     "source3": "endless",
     "source4": "gift",
-    "icon": 2001030
+    "icon": 2001030,
+    "itemBuy": "202:300",
+    "itemValue": 1
   },
   "2003000": {
     "name": "强化石",
@@ -4743,7 +4661,9 @@
     "source1": "dailyFb",
     "source2": "worldBoss",
     "source3": "gift",
-    "icon": 2003000
+    "icon": 2003000,
+    "itemBuy": "202:1",
+    "itemValue": 1
   },
   "2003010": {
     "name": "天青石",
@@ -4756,7 +4676,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003010
+    "icon": 2003010,
+    "itemBuy": "202:20",
+    "itemValue": 1
   },
   "2003020": {
     "name": "蔚蓝晶",
@@ -4770,7 +4692,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003020
+    "icon": 2003020,
+    "itemBuy": "202:40",
+    "itemValue": 1
   },
   "2003030": {
     "name": "深渊结晶",
@@ -4784,7 +4708,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003030
+    "icon": 2003030,
+    "itemBuy": "202:80",
+    "itemValue": 1
   },
   "2003040": {
     "name": "妙木玉",
@@ -4798,7 +4724,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003040
+    "icon": 2003040,
+    "itemBuy": "202:160",
+    "itemValue": 1
   },
   "2003050": {
     "name": "阴阳石",
@@ -4812,7 +4740,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003050
+    "icon": 2003050,
+    "itemBuy": "202:320",
+    "itemValue": 1
   },
   "2003060": {
     "name": "六道玉",
@@ -4826,7 +4756,9 @@
     "source1": "checkpoints",
     "source2": "cangbaotu",
     "source3": "gift",
-    "icon": 2003060
+    "icon": 2003060,
+    "itemBuy": "202:640",
+    "itemValue": 1
   },
   "2003100": {
     "name": "灵魄晶石",
@@ -10633,8 +10565,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100010,
-    "auto": true
+    "icon": 2100010
   },
   "2100020": {
     "name": "随机2级勾玉",
@@ -10659,8 +10590,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100020,
-    "auto": true
+    "icon": 2100020
   },
   "2100030": {
     "name": "随机3级勾玉",
@@ -10685,8 +10615,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100030,
-    "auto": true
+    "icon": 2100030
   },
   "2100040": {
     "name": "随机4级勾玉",
@@ -10711,8 +10640,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100040,
-    "auto": true
+    "icon": 2100040
   },
   "2100050": {
     "name": "随机5级勾玉",
@@ -10737,8 +10665,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100050,
-    "auto": true
+    "icon": 2100050
   },
   "2100060": {
     "name": "随机6级勾玉",
@@ -10763,8 +10690,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100060,
-    "auto": true
+    "icon": 2100060
   },
   "2100070": {
     "name": "随机7级勾玉",
@@ -10789,8 +10715,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100070,
-    "auto": true
+    "icon": 2100070
   },
   "2100080": {
     "name": "随机8级勾玉",
@@ -10815,8 +10740,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100080,
-    "auto": true
+    "icon": 2100080
   },
   "2100090": {
     "name": "随机9级勾玉",
@@ -10841,8 +10765,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100090,
-    "auto": true
+    "icon": 2100090
   },
   "2100100": {
     "name": "随机10级勾玉",
@@ -10867,8 +10790,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100100,
-    "auto": true
+    "icon": 2100100
   },
   "2100110": {
     "name": "随机11级勾玉",
@@ -10893,8 +10815,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100110,
-    "auto": true
+    "icon": 2100110
   },
   "2100120": {
     "name": "随机12级勾玉",
@@ -10919,8 +10840,7 @@
     "source2": "task",
     "source3": "tour",
     "source4": "cangbaotu",
-    "icon": 2100120,
-    "auto": true
+    "icon": 2100120
   },
   "2200010": {
     "name": "1级勾玉自选",
@@ -12414,6 +12334,45 @@
     "icon": 501030,
     "auto": true
   },
+  "5010400": {
+    "name": "紫色忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名紫色品质忍者",
+    "story": "记录有随机忍者档案的紫色卡组，使用后便能招募档案上的忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010104:1",
+      "5010204:1",
+      "5010304:1",
+      "5010404:1",
+      "5010504:1",
+      "5020104:1",
+      "5020204:1",
+      "5020304:1",
+      "5020404:1",
+      "5020504:1",
+      "5030104:1",
+      "5030204:1",
+      "5030304:1",
+      "5030404:1",
+      "5030504:1",
+      "5040104:1",
+      "5040204:1",
+      "5040304:1",
+      "5040404:1",
+      "5040504:1",
+      "5050104:1",
+      "5050204:1",
+      "5050304:1",
+      "5050404:1",
+      "5050504:1"
+    ],
+    "quality": 4,
+    "source1": "gift",
+    "icon": 5010401
+  },
   "5010404": {
     "name": "洛克李",
     "title": "主角1级可上阵",
@@ -12460,6 +12419,45 @@
     "icon": 501040,
     "auto": true
   },
+  "5010500": {
+    "name": "橙色忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名橙色品质忍者",
+    "story": "记录有随机忍者档案的橙色卡组，使用后便能招募档案上的传说忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010105:1",
+      "5010205:1",
+      "5010305:1",
+      "5010405:1",
+      "5010505:1",
+      "5020105:1",
+      "5020205:1",
+      "5020305:1",
+      "5020405:1",
+      "5020505:1",
+      "5030105:1",
+      "5030205:1",
+      "5030305:1",
+      "5030405:1",
+      "5030505:1",
+      "5040105:1",
+      "5040205:1",
+      "5040305:1",
+      "5040405:1",
+      "5040505:1",
+      "5050105:1",
+      "5050205:1",
+      "5050305:1",
+      "5050405:1",
+      "5050505:1"
+    ],
+    "quality": 5,
+    "source1": "gift",
+    "icon": 5010501
+  },
   "5010504": {
     "name": "伊鲁卡",
     "title": "主角1级可上阵",
@@ -12505,6 +12503,46 @@
     "source1": "gift",
     "icon": 501050,
     "auto": true
+  },
+  "5010600": {
+    "name": "红色忍者卡组",
+    "title": "忍者卡包",
+    "des": "可自由选择招募到一名异化品质忍者",
+    "story": "记录有随机忍者档案的红色卡组，使用后便能招募档案上的异化忍者",
+    "type": "item",
+    "useType": "optional",
+    "useMax": 1,
+    "list": [
+      "5010106:1",
+      "5010206:1",
+      "5010306:1",
+      "5010406:1",
+      "5010506:1",
+      "5020106:1",
+      "5020206:1",
+      "5020306:1",
+      "5020406:1",
+      "5020506:1",
+      "5030106:1",
+      "5030206:1",
+      "5030306:1",
+      "5030406:1",
+      "5030506:1",
+      "5040106:1",
+      "5040206:1",
+      "5040306:1",
+      "5040406:1",
+      "5040506:1",
+      "5050106:1",
+      "5050206:1",
+      "5050306:1",
+      "5050406:1",
+      "5050506:1"
+    ],
+    "quality": 6,
+    "effects": "hong-loop",
+    "source1": "gift",
+    "icon": 5010601
   },
   "5010604": {
     "name": "再不斩",
@@ -12874,6 +12912,35 @@
     "icon": 502030,
     "auto": true
   },
+  "5020400": {
+    "name": "紫色特级忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名紫色品质特级忍者",
+    "story": "记录有随机特级忍者档案的紫色卡组，使用后便能招募档案上的忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010604:1",
+      "5010704:1",
+      "5010804:1",
+      "5020604:1",
+      "5020704:1",
+      "5020804:1",
+      "5030604:1",
+      "5030704:1",
+      "5030804:1",
+      "5040604:1",
+      "5040704:1",
+      "5040804:1",
+      "5050604:1",
+      "5050704:1",
+      "5050804:1"
+    ],
+    "quality": 4,
+    "source1": "gift",
+    "icon": 5020401
+  },
   "5020404": {
     "name": "阿斯玛",
     "title": "主角1级可上阵",
@@ -12920,6 +12987,35 @@
     "icon": 502040,
     "auto": true
   },
+  "5020500": {
+    "name": "橙色特级忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名橙色品质特级忍者",
+    "story": "记录有随机特级忍者档案的橙色卡组，使用后便能招募档案上的传说忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010605:1",
+      "5010705:1",
+      "5010805:1",
+      "5020605:1",
+      "5020705:1",
+      "5020805:1",
+      "5030605:1",
+      "5030705:1",
+      "5030805:1",
+      "5040605:1",
+      "5040705:1",
+      "5040805:1",
+      "5050605:1",
+      "5050705:1",
+      "5050805:1"
+    ],
+    "quality": 5,
+    "source1": "gift",
+    "icon": 5020501
+  },
   "5020504": {
     "name": "迈特凯",
     "title": "主角1级可上阵",
@@ -12965,6 +13061,36 @@
     "source1": "gift",
     "icon": 502050,
     "auto": true
+  },
+  "5020600": {
+    "name": "红色特级忍者卡组",
+    "title": "忍者卡包",
+    "des": "可自由选择招募到一名异化品质特级忍者",
+    "story": "记录有随机特级忍者档案的红色卡组，使用后便能招募档案上的异化忍者",
+    "type": "item",
+    "useType": "optional",
+    "useMax": 1,
+    "list": [
+      "5010606:1",
+      "5010706:1",
+      "5010806:1",
+      "5020606:1",
+      "5020706:1",
+      "5020806:1",
+      "5030606:1",
+      "5030706:1",
+      "5030806:1",
+      "5040606:1",
+      "5040706:1",
+      "5040806:1",
+      "5050606:1",
+      "5050706:1",
+      "5050806:1"
+    ],
+    "quality": 6,
+    "effects": "hong-loop",
+    "source1": "gift",
+    "icon": 5020601
   },
   "5020604": {
     "name": "迪达拉",
@@ -13349,6 +13475,30 @@
     "icon": 503030,
     "auto": true
   },
+  "5030400": {
+    "name": "紫色疾风忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名紫色品质疾风忍者",
+    "story": "记录有随机疾风忍者档案的紫色卡组，使用后便能招募档案上的忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010904:1",
+      "5011004:1",
+      "5020904:1",
+      "5021004:1",
+      "5030904:1",
+      "5031004:1",
+      "5040904:1",
+      "5041004:1",
+      "5050904:1",
+      "5051004:1"
+    ],
+    "quality": 4,
+    "source1": "gift",
+    "icon": 5030401
+  },
   "5030404": {
     "name": "月光疾风",
     "title": "主角1级可上阵",
@@ -13395,6 +13545,30 @@
     "icon": 503040,
     "auto": true
   },
+  "5030500": {
+    "name": "橙色疾风忍者卡组",
+    "title": "忍者卡包",
+    "des": "可随机招募到一名橙色品质疾风忍者",
+    "story": "记录有随机疾风忍者档案的橙色卡组，使用后便能招募档案上的传说忍者",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "5010905:1",
+      "5011005:1",
+      "5020905:1",
+      "5021005:1",
+      "5030905:1",
+      "5031005:1",
+      "5040905:1",
+      "5041005:1",
+      "5050905:1",
+      "5051005:1"
+    ],
+    "quality": 5,
+    "source1": "gift",
+    "icon": 5030501
+  },
   "5030504": {
     "name": "君麻吕",
     "title": "主角1级可上阵",
@@ -13440,6 +13614,31 @@
     "source1": "gift",
     "icon": 503050,
     "auto": true
+  },
+  "5030600": {
+    "name": "红色疾风忍者卡组",
+    "title": "忍者卡包",
+    "des": "可自由选择招募到一名异化品质疾风忍者",
+    "story": "记录有随机疾风忍者档案的红色卡组，使用后便能招募档案上的异化忍者",
+    "type": "item",
+    "useType": "optional",
+    "useMax": 1,
+    "list": [
+      "5010906:1",
+      "5011006:1",
+      "5020906:1",
+      "5021006:1",
+      "5030906:1",
+      "5031006:1",
+      "5040906:1",
+      "5041006:1",
+      "5050906:1",
+      "5051006:1"
+    ],
+    "quality": 6,
+    "effects": "hong-loop",
+    "source1": "gift",
+    "icon": 5030601
   },
   "5030604": {
     "name": "手鞠",
@@ -14773,6 +14972,25 @@
     "icon": 5001020,
     "auto": true
   },
+  "50010300": {
+    "name": "紫色装备箱",
+    "title": "装备箱",
+    "des": "可随机获得一件紫色装备",
+    "story": "蕴含着暗紫斑纹的装备箱，内藏着火之忍者世界的神秘力量，可能孕育着无尽的忍术奥秘。",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "50010103:1",
+      "50010203:1",
+      "50010303:1",
+      "50010403:1",
+      "50010503:1",
+      "50010603:1"
+    ],
+    "quality": 4,
+    "icon": 50010300
+  },
   "50010302": {
     "name": "绷带护腕",
     "rmb": 20,
@@ -14863,6 +15081,25 @@
     "source2": "gift",
     "icon": 5001030,
     "auto": true
+  },
+  "50010400": {
+    "name": "橙色装备箱",
+    "title": "装备箱",
+    "des": "可随机获得一件橙色装备",
+    "story": "熠熠生辉的橙色宝匣，散发着强烈的烈日之光，在其中，蕴含着能让忍者们更进一步的神秘力量。",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "50010104:1",
+      "50010204:1",
+      "50010304:1",
+      "50010404:1",
+      "50010504:1",
+      "50010604:1"
+    ],
+    "quality": 5,
+    "icon": 50010400
   },
   "50010402": {
     "name": "忍者常服",
@@ -14955,6 +15192,26 @@
     "icon": 5001040,
     "auto": true
   },
+  "50010500": {
+    "name": "红色装备箱",
+    "title": "装备箱",
+    "des": "可随机获得一件红色装备",
+    "story": "火焰般炙热的红色宝匣，蕴含着火影忍者们无尽的战意和斗志，开启它可能释放出无与伦比的力量。",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "50010105:1",
+      "50010205:1",
+      "50010305:1",
+      "50010405:1",
+      "50010505:1",
+      "50010605:1"
+    ],
+    "quality": 6,
+    "effects": "hong-loop",
+    "icon": 50010500
+  },
   "50010502": {
     "name": "清凉头带",
     "rmb": 20,
@@ -15045,6 +15302,26 @@
     "source2": "gift",
     "icon": 5001050,
     "auto": true
+  },
+  "50010600": {
+    "name": "异化装备箱",
+    "title": "装备箱",
+    "des": "可随机获得一件异化装备",
+    "story": "光辉闪耀的异化装备箱，其内装载着超凡能力的异化装备，能彻底改变忍者们的实力和战斗风格。",
+    "type": "item",
+    "useType": "chest",
+    "useMax": 99,
+    "list": [
+      "50010106:1",
+      "50010206:1",
+      "50010306:1",
+      "50010406:1",
+      "50010506:1",
+      "50010606:1"
+    ],
+    "quality": 7,
+    "effects": "jin-loop",
+    "icon": 50010600
   },
   "50010602": {
     "name": "柔韧靴",
