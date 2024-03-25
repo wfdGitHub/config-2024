@@ -2320,7 +2320,7 @@
     "targetType": "enemy_normal",
     "mul": 2.8,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50306001": {
     "name": "幻术斩击",
@@ -2944,7 +2944,7 @@
     "anger": 0,
     "type": "heal",
     "des": "静音释放掌仙术，为友方血量最少的<outline color=#000000 width=2><color=#ffb533>单体</c></outline>个目标回复<outline color=#000000 width=2><color=#ffb533>100%</c></outline>攻击力的生命值",
-    "targetType": "friend_minHp_1",
+    "targetType": "team_minHp_1",
     "mul": 1
   },
   "50505002": {
@@ -2954,7 +2954,7 @@
     "anger": 4,
     "type": "heal",
     "des": "对友方血量最少的<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标回复<outline color=#000000 width=2><color=#ffb533>116%</c></outline>攻击力的生命值,为我方除自身外生命值最少的英雄添加<outline color=#000000 width=2><color=#ffb533>无敌盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
-    "targetType": "friend_minHp_3",
+    "targetType": "team_minHp_3",
     "mul": 2.31,
     "key1": "buff1",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
