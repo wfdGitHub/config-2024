@@ -15,7 +15,7 @@
   },
   "1030": {
     "icon": 1030,
-    "des": "直接伤害击杀敌方忍者后，为自身添加伤害吸收盾（吸收25%生命值上限伤害），持续1回合",
+    "des": "直接伤害击杀敌方武将后，为自身添加伤害吸收盾（吸收25%生命值上限伤害），持续1回合",
     "key1": "kill_shield",
     "value1": 0.25
   },
@@ -2211,7 +2211,7 @@
   },
   "8200": {
     "icon": 8200,
-    "des": "受到直接伤害的24%转化为生命治疗己方全体忍者",
+    "des": "受到直接伤害的24%转化为生命治疗己方全体武将",
     "key1": "hit_turn_rate",
     "value1": 0.24,
     "key2": "hit_turn_tg",
@@ -2235,55 +2235,55 @@
   },
   "9301": {
     "icon": 9301,
-    "des": "物理+3%",
+    "des": "物理+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "phy_add",
     "value1": 0.03
   },
   "9302": {
     "icon": 9302,
-    "des": "法术+3%",
+    "des": "法术+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "mag_add",
     "value1": 0.03
   },
   "9303": {
     "icon": 9303,
-    "des": "生命+3%",
+    "des": "生命+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_maxHP_add",
     "value1": 0.03
   },
   "9304": {
     "icon": 9304,
-    "des": "物防+3%",
+    "des": "物防+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_phyDef_add",
     "value1": 0.03
   },
   "9305": {
     "icon": 9305,
-    "des": "法防+3%",
+    "des": "法防+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_magDef_add",
     "value1": 0.03
   },
   "9306": {
     "icon": 9306,
-    "des": "生命值+3%",
+    "des": "生命值+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_maxHP_add",
     "value1": 0.03
   },
   "9307": {
     "icon": 9307,
-    "des": "物理防御+3%",
+    "des": "物理防御+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_phyDef_add",
     "value1": 0.03
   },
   "9308": {
     "icon": 9308,
-    "des": "法术防御+3%",
+    "des": "法术防御+<outline color=#000000 width=2><color=#ffb533>3%</c></outline>",
     "key1": "self_magDef_add",
     "value1": 0.03
   },
   "9309": {
     "icon": 9309,
-    "des": "攻击+300（每1级攻击额外+9）",
+    "des": "攻击+<outline color=#000000 width=2><color=#ffb533>300</c></outline>（每1级攻击额外+<outline color=#000000 width=2><color=#ffb533>9</c></outline>）",
     "key1": "atk",
     "value1": 300,
     "key2": "atk_grow",
@@ -2291,7 +2291,7 @@
   },
   "9310": {
     "icon": 9310,
-    "des": "生命+2000（每1级生命额外+60）",
+    "des": "生命+<outline color=#000000 width=2><color=#ffb533>2000</c></outline>（每1级生命额外+<outline color=#000000 width=2><color=#ffb533>60</c></outline>）",
     "key1": "maxHP",
     "value1": 2000,
     "key2": "maxHP_grow",
@@ -2299,7 +2299,7 @@
   },
   "9311": {
     "icon": 9311,
-    "des": "物理防御+200（每1级额外+6）",
+    "des": "物理防御+<outline color=#000000 width=2><color=#ffb533>200</c></outline>（每1级额外+<outline color=#000000 width=2><color=#ffb533>6</c></outline>）",
     "key1": "phyDef",
     "value1": 200,
     "key2": "phyDef_grow",
@@ -2307,7 +2307,7 @@
   },
   "9312": {
     "icon": 9312,
-    "des": "法术防御+200（每1级额外+6）",
+    "des": "法术防御+<outline color=#000000 width=2><color=#ffb533>200</c></outline>（每1级额外+<outline color=#000000 width=2><color=#ffb533>6</c></outline>）",
     "key1": "magDef",
     "value1": 200,
     "key2": "magDef_grow",
@@ -2315,47 +2315,47 @@
   },
   "9401": {
     "icon": 9401,
-    "des": "初始怒气增加1点",
+    "des": "初始怒气增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>点",
     "key1": "curAnger",
     "value1": 1
   },
   "9402": {
     "icon": 9402,
-    "des": "技能的治疗效果提升10%",
+    "des": "技能的治疗效果提升<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
     "key1": "skill_heal_amp",
     "value1": 0.1
   },
   "9403": {
     "icon": 9403,
     "name": "命中芯片",
-    "des": "命中+5%",
+    "des": "命中+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "hitRate",
     "value1": 0.05
   },
   "9404": {
     "icon": 9404,
     "name": "闪避芯片",
-    "des": "闪避+5%",
+    "des": "闪避+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "dodgeRate",
     "value1": 0.05
   },
   "9405": {
     "icon": 9405,
     "name": "暴击芯片",
-    "des": "暴击+5%",
+    "des": "暴击+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "crit",
     "value1": 0.05
   },
   "9406": {
     "icon": 9406,
     "name": "抗暴芯片",
-    "des": "抗暴+5%",
+    "des": "抗暴+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "critDef",
     "value1": 0.05
   },
   "9407": {
     "icon": 9407,
-    "des": "忍者位于前排时，免伤+8%，忍者位于后排时，伤害+8%",
+    "des": "武将位于前排时，免伤+<outline color=#000000 width=2><color=#ffb533>8%</c></outline>，武将位于后排时，伤害+<outline color=#000000 width=2><color=#ffb533>8%</c></outline>",
     "key1": "front_reduction",
     "value1": 0.08,
     "key2": "back_amp",
@@ -2363,7 +2363,7 @@
   },
   "9408": {
     "icon": 9408,
-    "des": "忍者位于前排时，闪避+8%，忍者位于后排时，命中+8%",
+    "des": "武将位于前排时，闪避+<outline color=#000000 width=2><color=#ffb533>8%</c></outline>，武将位于后排时，命中+<outline color=#000000 width=2><color=#ffb533>8%</c></outline>",
     "key1": "front_dodgeRate",
     "value1": 0.08,
     "key2": "back_hitRate",
@@ -2371,103 +2371,103 @@
   },
   "9409": {
     "icon": 9409,
-    "des": "伤害+5%",
+    "des": "伤害+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "amplify",
     "value1": 0.05
   },
   "9410": {
     "icon": 9410,
-    "des": "忽视防御+5%",
+    "des": "忽视防御+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "neglect_def",
     "value1": 0.05
   },
   "9411": {
     "icon": 9411,
-    "des": "暴击伤害+5%",
+    "des": "暴击伤害+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "slay",
     "value1": 0.05
   },
   "9412": {
     "icon": 9412,
-    "des": "伤害减免+5%",
+    "des": "伤害减免+<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "reduction",
     "value1": 0.05
   },
   "9501": {
     "icon": 9501,
-    "des": "技能命中的目标越少，折戟概率越高，每少1个目标，折戟概率提升5%",
+    "des": "技能命中的目标越少，<outline color=#000000 width=2><color=#ffb533>折戟</c></outline>概率越高，每少<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，<outline color=#000000 width=2><color=#ffb533>折戟</c></outline>概率提升<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
   "9502": {
     "icon": 9502,
-    "des": "技能命中的目标越少，眩晕概率越高，每少1个目标，眩晕概率提升5%",
+    "des": "技能命中的目标越少，<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>概率越高，每少<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>概率提升<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
   "9503": {
     "icon": 9503,
-    "des": "释放技能时，有10%概率附加折戟效果，持续1回合",
+    "des": "释放技能时，有<outline color=#000000 width=2><color=#ffb533>10%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
   "9504": {
     "icon": 9504,
-    "des": "技能命中的目标越少，嘲讽概率越高，每少1个目标，嘲讽概率提升5%",
+    "des": "技能命中的目标越少，<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>概率越高，每少<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>概率提升<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
     "key1": "less_skill_buffRate",
     "value1": 0.05
   },
   "9505": {
     "icon": 9505,
-    "des": "中毒状态增加1回合",
+    "des": "<outline color=#000000 width=2><color=#ffb533>中毒</c></outline>状态增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "buffDuration",
     "value1": 1
   },
   "9506": {
     "icon": 9506,
-    "des": "治疗忍者释放技能时，对己方血量最少的3个忍者治疗效果额外提升治疗忍者攻击的32%",
+    "des": "治疗武将释放技能时，对己方血量最少的<outline color=#000000 width=2><color=#ffb533>3</c></outline>个武将治疗效果额外提升治疗武将攻击的<outline color=#000000 width=2><color=#ffb533>32%</c></outline>",
     "key1": "heal_min_hp_rate",
     "value1": 0.32
   },
   "9507": {
     "icon": 9507,
-    "des": "释放火龙冲击时，添加1回合破伤效果",
-    "key1": "slcj_zs",
-    "value1": true
+    "des": "释放技能时，有<outline color=#000000 width=2><color=#ffb533>15%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>破伤</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
   "9508": {
     "icon": 9508,
-    "des": "释放破冰一击时，驱散目标所有增益效果",
+    "des": "释放<outline color=#000000 width=2><color=#ffb533>破坏禁锢</c></outline>时，<outline color=#000000 width=2><color=#ffb533>驱散</c></outline>目标所有增益效果",
     "key1": "pbyj_qs",
     "value1": true
   },
   "9509": {
     "icon": 9509,
-    "des": "攻击时最高20%概率清除敌方无敌状态，目标越少概率越高",
+    "des": "攻击时最高<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率清除敌方无敌状态，目标越少概率越高",
     "key1": "less_clear_invincible",
-    "value1": 0.2
+    "value1": 0.35
   },
   "9510": {
     "icon": 9510,
-    "des": "受到的治疗效果增加30%",
+    "des": "受到的治疗效果增加<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
     "key1": "healAdd",
     "value1": 0.3
   },
   "9511": {
     "icon": 9511,
-    "des": "物理反伤增加20%",
+    "des": "物理反伤增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
     "key1": "hit_rebound",
     "value1": 0.2
   },
   "9512": {
     "icon": 9512,
-    "des": "添加灼烧后，被灼烧的忍者无法获得无敌和无敌吸血盾效果",
-    "key1": "burn_not_invincible",
-    "value1": true
+    "des": "使用技能攻击时，降低破甲状态下的目标<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气值</c></outline>",
+    "key1": "pj_less_anger",
+    "value1": 1
   },
   "9513": {
     "icon": 9513,
-    "des": "攻击+900（忍者100级后每升1级攻击额外+27）",
+    "des": "攻击+<outline color=#000000 width=2><color=#ffb533>900</c></outline>（武将100级后每升1级攻击额外+<outline color=#000000 width=2><color=#ffb533>27</c></outline>）",
     "key1": "atk",
     "value1": 900,
     "key2": "atk_grow",
@@ -2475,7 +2475,7 @@
   },
   "9514": {
     "icon": 9514,
-    "des": "生命+6000(忍者100级后每升1级生命额外+180)",
+    "des": "生命+<outline color=#000000 width=2><color=#ffb533>6000</c></outline>(武将100级后每升1级生命额外+<outline color=#000000 width=2><color=#ffb533>180</c></outline>)",
     "key1": "maxHP",
     "value1": 6000,
     "key2": "maxHP_grow",
@@ -2483,7 +2483,7 @@
   },
   "9515": {
     "icon": 9515,
-    "des": "物理防御+600（忍者100级后每升1级额外+18）",
+    "des": "物理防御+<outline color=#000000 width=2><color=#ffb533>600</c></outline>（武将100级后每升1级额外+<outline color=#000000 width=2><color=#ffb533>18</c></outline>）",
     "key1": "phyDef",
     "value1": 600,
     "key2": "phyDef_grow",
@@ -2491,7 +2491,7 @@
   },
   "9516": {
     "icon": 9516,
-    "des": "法术防御+600（忍者100级后每升1级额外+18）",
+    "des": "法术防御+<outline color=#000000 width=2><color=#ffb533>600</c></outline>（武将100级后每升1级额外+<outline color=#000000 width=2><color=#ffb533>18</c></outline>）",
     "key1": "magDef",
     "value1": 600,
     "key2": "magDef_grow",
@@ -2499,13 +2499,13 @@
   },
   "9601": {
     "icon": 9601,
-    "des": "初始怒气增加2点",
+    "des": "初始怒气增加<outline color=#000000 width=2><color=#ffb533>2</c></outline>点",
     "key1": "curAnger",
     "value1": 2
   },
   "9602": {
     "icon": 9602,
-    "des": "忍者怒气小于7点时，不会释放技能；释放技能消耗当前所有怒气，超过4点怒气部分，每额外消耗1点怒气，技能伤害增加20%",
+    "des": "武将怒气小于<outline color=#000000 width=2><color=#ffb533>7</c></outline>点时，不会释放技能；释放技能消耗当前所有怒气，超过<outline color=#000000 width=2><color=#ffb533>4</c></outline>点怒气部分，每额外消耗<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，技能伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
     "key1": "needAnger",
     "value1": 7,
     "key2": "allAnger",
@@ -2513,13 +2513,13 @@
   },
   "9603": {
     "icon": 9603,
-    "des": "治疗时超出目标生命上限的溢出部分将转化为伤害吸收盾，持续1回合",
+    "des": "治疗时超出目标生命上限的溢出部分将转化为<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "over_heal_shield",
     "value1": 1
   },
   "9604": {
     "icon": 9604,
-    "des": "使用技能攻击时，若目标处于禁锢状态，恢复自身1点怒气",
+    "des": "使用技能攻击时，若目标处于禁锢状态，恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
     "key1": "skill_frozen_anger",
     "value1": 1
   },
@@ -2531,67 +2531,67 @@
   },
   "9606": {
     "icon": 9606,
-    "des": "直接伤害击杀目标后，回复自身生命上限的30%的生命",
+    "des": "直接伤害击杀目标后，回复自身生命上限的<outline color=#000000 width=2><color=#ffb533>30%</c></outline>的生命",
     "key1": "kill_heal",
     "value1": 0.3
   },
   "9607": {
     "icon": 9607,
-    "des": "速度值增加10%",
+    "des": "速度值增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
     "key1": "self_speed_add",
     "value1": 0.1
   },
   "9608": {
     "icon": 9608,
-    "des": "直接伤害击杀目标后，追加1次技能，对敌方单体造成155%物理伤害。（追加的技能不消耗怒气，不触发任何特性）",
-    "key1": "kill_later_skill",
-    "value1": "{\"type\":\"attack\",\"mul\":1.55,\"damageType\":\"phy\",\"targetType\":\"enemy_1\",\"rate\":1}"
+    "des": "暴击+<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "key1": "crit",
+    "value1": 0.1
   },
   "9609": {
     "icon": 9609,
-    "des": "战斗首回合获得免控盾，免疫控制效果",
+    "des": "战斗首回合获得<outline color=#000000 width=2><color=#ffb533>免控盾</c></outline>，<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "9610": {
     "icon": 9610,
-    "des": "战斗首回合获得护盾，吸收生命值上限15%的伤害，持续1回合",
+    "des": "战斗首回合获得护盾，吸收生命值上限<outline color=#000000 width=2><color=#ffb533>15%</c></outline>的伤害，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
   },
   "9611": {
     "icon": 9611,
-    "des": "诅咒伤害增加50%",
+    "des": "<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>伤害增加<outline color=#000000 width=2><color=#ffb533>50%</c></outline>",
     "key1": "curse_amp",
     "value1": 0.5
   },
   "9612": {
     "icon": 9612,
-    "des": "战斗首回合获得1层嗜血效果，持续3回合",
+    "des": "战斗首回合获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "9613": {
     "icon": 9613,
-    "des": "受到控制效果（折戟、折戟、眩晕、嘲讽）概率降低35%",
+    "des": "受到控制效果（折戟、折戟、<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>、<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>）概率降低<outline color=#000000 width=2><color=#ffb533>35%</c></outline>",
     "key1": "control_buff_lowrate",
     "value1": 0.35
   },
   "9614": {
     "icon": 9614,
-    "des": "所有攻击优先攻击敌方当前血量最低的忍者",
+    "des": "所有攻击优先攻击敌方当前血量最低的武将",
     "key1": "target_minHP",
     "value1": true
   },
   "9615": {
     "icon": 9615,
-    "des": "攻击触发雷咒效果时，有15%概率折戟目标，持续1回合",
+    "des": "攻击触发<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果时，有<outline color=#000000 width=2><color=#ffb533>15%</c></outline>概率折戟目标，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "gd_mb",
     "value1": 0.15
   },
   "9616": {
     "icon": 9616,
-    "des": "攻击虚弱状态下的忍者时，有30%概率添加破伤，持续1回合",
+    "des": "攻击<outline color=#000000 width=2><color=#ffb533>虚弱</c></outline>状态下的武将时，有<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率添加<outline color=#000000 width=2><color=#ffb533>破伤</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "xr_zs",
     "value1": 0.3
   },
@@ -2687,25 +2687,25 @@
   },
   "9809": {
     "icon": 9809,
-    "des": "全体上阵忍者伤害+8%",
+    "des": "全体上阵武将伤害+8%",
     "key1": "team_amplify_add",
     "value1": 0.08
   },
   "9810": {
     "icon": 9810,
-    "des": "全体上阵忍者生命+8%",
+    "des": "全体上阵武将生命+8%",
     "key1": "team_maxHP_add",
     "value1": 0.08
   },
   "9811": {
     "icon": 9811,
-    "des": "全体上阵忍者暴击+8%",
+    "des": "全体上阵武将暴击+8%",
     "key1": "team_crit_add",
     "value1": 0.08
   },
   "9812": {
     "icon": 9812,
-    "des": "全体上阵忍者免伤+8%",
+    "des": "全体上阵武将免伤+8%",
     "key1": "team_dodgeRate_add",
     "value1": 0.08
   },
@@ -2922,7 +2922,7 @@
   "800107": {
     "icon": 800107,
     "name": "友情防守",
-    "des": "每回合开始前，守护我方血量最少的忍者，增加其20%免伤，并分担50%伤害。",
+    "des": "每回合开始前，守护我方血量最少的武将，增加其20%免伤，并分担50%伤害。",
     "key1": "round_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -2952,7 +2952,7 @@
   "800111": {
     "icon": 800111,
     "name": "贪吃鬼",
-    "des": "当忍者HP小于HP1/2,每回合恢复自身10%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身10%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.1
   },
@@ -2973,7 +2973,7 @@
   "800114": {
     "icon": 800114,
     "name": "诅咒之躯",
-    "des": "拥有该特性的忍者，受到攻击后有30%使目标封穴",
+    "des": "拥有该特性的武将，受到攻击后有30%使目标封穴",
     "key1": "hit_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
@@ -3086,7 +3086,7 @@
   "800129": {
     "icon": 800129,
     "name": "免疫",
-    "des": "该特性忍者不会中毒",
+    "des": "该特性武将不会中毒",
     "key1": "immune_poison",
     "value1": 1
   },
@@ -3100,7 +3100,7 @@
   "800131": {
     "icon": 800131,
     "name": "引火",
-    "des": "该特性的忍者受火属性技能伤害降低90%",
+    "des": "该特性的武将受火属性技能伤害降低90%",
     "key1": "specie_immune",
     "value1": 10
   },
@@ -3193,7 +3193,7 @@
   "800180": {
     "icon": 800180,
     "name": "好胜",
-    "des": "该特性的忍者处于异常状态时，攻击增加20%",
+    "des": "该特性的武将处于异常状态时，攻击增加20%",
     "key1": "my_debuff_atk_add",
     "value1": 0.2
   },
@@ -3223,7 +3223,7 @@
   "800220": {
     "icon": 800220,
     "name": "慢启动",
-    "des": "该特性忍者速度减少50%，攻击增加50%。",
+    "des": "该特性武将速度减少50%，攻击增加50%。",
     "key1": "self_atk_add",
     "value1": 0.5,
     "key2": "self_speed_add",
@@ -3329,7 +3329,7 @@
   "800350": {
     "icon": 50503005,
     "name": "坚固护甲",
-    "des": "每回合获得15%最大生命值的护盾，出场时，为友方忍者添加同等的护盾",
+    "des": "每回合获得15%最大生命值的护盾，出场时，为友方武将添加同等的护盾",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
     "key2": "first_buff",
@@ -3354,7 +3354,7 @@
   "800380": {
     "icon": 50402005,
     "name": "愈战愈勇",
-    "des": "每击败1个忍者，增加自身10%暴击率和10%的暴击伤害",
+    "des": "每击败1个武将，增加自身10%暴击率和10%的暴击伤害",
     "key1": "kill_crit",
     "value1": 0.1,
     "key2": "kill_slay",
@@ -3488,7 +3488,7 @@
   "800560": {
     "icon": 50304002,
     "name": "共生",
-    "des": "战斗开始时，选择我方攻击力最高的忍者作为共生忍者，提升其相当于自身25%的生命值与防御力，自身每回合行动结束后，恢复其自身10%生命值上限的生命",
+    "des": "战斗开始时，选择我方攻击力最高的武将作为共生武将，提升其相当于自身25%的生命值与防御力，自身每回合行动结束后，恢复其自身10%生命值上限的生命",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"symbiosis_rec\",\"buff_tg\":\"friend_maxAtk_1\"}"
   },
@@ -4158,7 +4158,7 @@
   },
   "9050180": {
     "icon": 9050180,
-    "des": "携带忍者位于后排时，命中+10%，破甲+10%",
+    "des": "携带武将位于后排时，命中+10%，破甲+10%",
     "key1": "back_hitRate",
     "value1": 0.1,
     "key2": "back_neglect_def",
@@ -4166,13 +4166,13 @@
   },
   "9050190": {
     "icon": 9050190,
-    "des": "携带忍者位于后排时，法术暴击增加12%",
+    "des": "携带武将位于后排时，法术暴击增加12%",
     "key1": "back_crit",
     "value1": 0.12
   },
   "9050200": {
     "icon": 9050200,
-    "des": "携带忍者位于前排时，抗暴+15%，血量+15%",
+    "des": "携带武将位于前排时，抗暴+15%，血量+15%",
     "key1": "front_critDef",
     "value1": 0.15,
     "key2": "front_maxHP",
@@ -4180,7 +4180,7 @@
   },
   "9050210": {
     "icon": 9050210,
-    "des": "携带忍者位于前排时，闪避+10%，位于后排时，攻击+10%",
+    "des": "携带武将位于前排时，闪避+10%，位于后排时，攻击+10%",
     "key1": "front_dodgeRate",
     "value1": 0.1,
     "key2": "back_atk",
@@ -4188,7 +4188,7 @@
   },
   "30115004": {
     "icon": 30115004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4196,7 +4196,7 @@
   },
   "30115005": {
     "icon": 30115005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4204,7 +4204,7 @@
   },
   "30116004": {
     "icon": 30116004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "速度增加10%",
     "key1": "self_speed_add",
@@ -4212,7 +4212,7 @@
   },
   "30116005": {
     "icon": 30116005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4220,7 +4220,7 @@
   },
   "30117004": {
     "icon": 30117004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4228,7 +4228,7 @@
   },
   "30117005": {
     "icon": 30117005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4236,7 +4236,7 @@
   },
   "30118004": {
     "icon": 30118004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "物防增加10%",
     "key1": "self_phyDef_add",
@@ -4244,7 +4244,7 @@
   },
   "30118005": {
     "icon": 30118005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4252,7 +4252,7 @@
   },
   "30119004": {
     "icon": 30119004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加10%",
     "key1": "self_magDef_add",
@@ -4260,7 +4260,7 @@
   },
   "30119005": {
     "icon": 30119005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4268,7 +4268,7 @@
   },
   "30120004": {
     "icon": 30120004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4276,7 +4276,7 @@
   },
   "30120005": {
     "icon": 30120005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4284,7 +4284,7 @@
   },
   "30121004": {
     "icon": 30121004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4292,7 +4292,7 @@
   },
   "30121005": {
     "icon": 30121005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4300,7 +4300,7 @@
   },
   "30122004": {
     "icon": 30122004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4308,7 +4308,7 @@
   },
   "30122005": {
     "icon": 30122005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4316,7 +4316,7 @@
   },
   "30123004": {
     "icon": 30123004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4324,7 +4324,7 @@
   },
   "30123005": {
     "icon": 30123005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加15%",
     "key1": "self_maxHP_add",
@@ -4332,7 +4332,7 @@
   },
   "30124004": {
     "icon": 30124004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4340,7 +4340,7 @@
   },
   "30124005": {
     "icon": 30124005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4348,7 +4348,7 @@
   },
   "30125004": {
     "icon": 30125004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "灼烧持续回合+1",
     "key1": "poison_duration",
@@ -4356,7 +4356,7 @@
   },
   "30125005": {
     "icon": 30125005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4364,7 +4364,7 @@
   },
   "30126004": {
     "icon": 30126004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4372,7 +4372,7 @@
   },
   "30126005": {
     "icon": 30126005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%，生命增加5%",
     "key1": "neglect_def",
@@ -4382,7 +4382,7 @@
   },
   "30127004": {
     "icon": 30127004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4390,7 +4390,7 @@
   },
   "30127005": {
     "icon": 30127005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4398,7 +4398,7 @@
   },
   "30128004": {
     "icon": 30128004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4406,7 +4406,7 @@
   },
   "30128005": {
     "icon": 30128005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4414,7 +4414,7 @@
   },
   "30129004": {
     "icon": 30129004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4422,7 +4422,7 @@
   },
   "30129005": {
     "icon": 30129005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能造成伤害增加50%",
     "key1": "skill_attack_amp",
@@ -4430,7 +4430,7 @@
   },
   "30130004": {
     "icon": 30130004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4438,7 +4438,7 @@
   },
   "30130005": {
     "icon": 30130005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能额外造成目标最大生命值15%的伤害",
     "key1": "maxHP_damage",
@@ -4446,7 +4446,7 @@
   },
   "30131004": {
     "icon": 30131004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4454,7 +4454,7 @@
   },
   "30131005": {
     "icon": 30131005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "物理防御增加20%，法防增加30%",
     "key1": "self_phyDef_add",
@@ -4464,7 +4464,7 @@
   },
   "30132004": {
     "icon": 30132004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%",
     "key1": "neglect_def",
@@ -4472,7 +4472,7 @@
   },
   "30132005": {
     "icon": 30132005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4480,7 +4480,7 @@
   },
   "30133004": {
     "icon": 30133004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%",
     "key1": "self_maxHP_add",
@@ -4488,7 +4488,7 @@
   },
   "30133005": {
     "icon": 30133005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加15%",
     "key1": "self_maxHP_add",
@@ -4496,7 +4496,7 @@
   },
   "30134004": {
     "icon": 30134004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "中毒持续回合+1",
     "key1": "poison_duration",
@@ -4504,7 +4504,7 @@
   },
   "30134005": {
     "icon": 30134005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4512,7 +4512,7 @@
   },
   "30135004": {
     "icon": 30135004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+1",
     "key1": "curAnger",
@@ -4520,7 +4520,7 @@
   },
   "30135005": {
     "icon": 30135005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加15%",
     "key1": "self_magDef_add",
@@ -4528,7 +4528,7 @@
   },
   "40101004": {
     "icon": 40101004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "所有攻击无视对方15%的防御",
     "key1": "neglect_def",
@@ -4536,7 +4536,7 @@
   },
   "40101005": {
     "icon": 40101005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4544,7 +4544,7 @@
   },
   "40102004": {
     "icon": 40102004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4552,7 +4552,7 @@
   },
   "40102005": {
     "icon": 40102005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "速度增加25%",
     "key1": "self_speed_add",
@@ -4560,7 +4560,7 @@
   },
   "40103004": {
     "icon": 40103004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "中毒持续回合+1",
     "key1": "poison_duration",
@@ -4568,7 +4568,7 @@
   },
   "40103005": {
     "icon": 40103005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "释放中毒时，有概率使目标身上的中毒状态立即结算",
     "key1": "poison_settle",
@@ -4576,7 +4576,7 @@
   },
   "40105004": {
     "icon": 40105004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4584,7 +4584,7 @@
   },
   "40105005": {
     "icon": 40105005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4592,7 +4592,7 @@
   },
   "40106004": {
     "icon": 40106004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "物理免伤增加70%",
     "key1": "phy_def",
@@ -4600,7 +4600,7 @@
   },
   "40106005": {
     "icon": 40106005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命值增加40%,每次受到直接伤害后，恢复自身2%的生命值",
     "key1": "self_maxHP_add",
@@ -4610,7 +4610,7 @@
   },
   "40107004": {
     "icon": 40107004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4618,7 +4618,7 @@
   },
   "40107005": {
     "icon": 40107005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能伤害增加25%",
     "key1": "skill_attack_amp",
@@ -4626,7 +4626,7 @@
   },
   "40108004": {
     "icon": 40108004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4634,7 +4634,7 @@
   },
   "40108005": {
     "icon": 40108005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能伤害增加15%，所有攻击造成伤害30%治疗自身血量",
     "key1": "skill_attack_amp",
@@ -4644,7 +4644,7 @@
   },
   "40109004": {
     "icon": 40109004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4652,7 +4652,7 @@
   },
   "40109005": {
     "icon": 40109005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4660,7 +4660,7 @@
   },
   "40110004": {
     "icon": 40110004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "首回合获得无敌盾，持续1回合",
     "key1": "first_buff",
@@ -4668,7 +4668,7 @@
   },
   "40110005": {
     "icon": 40110005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能伤害增加20%，使用技能后，释放中毒时，有30%的概率使目标身上的中毒状态立即结算。",
     "key1": "skill_attack_amp",
@@ -4678,7 +4678,7 @@
   },
   "40111004": {
     "icon": 40111004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4686,7 +4686,7 @@
   },
   "40111005": {
     "icon": 40111005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%，法防增加10%",
     "key1": "neglect_def",
@@ -4696,7 +4696,7 @@
   },
   "40112004": {
     "icon": 40112004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2",
     "key1": "curAnger",
@@ -4704,7 +4704,7 @@
   },
   "40112005": {
     "icon": 40112005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4712,7 +4712,7 @@
   },
   "40113004": {
     "icon": 40113004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4720,7 +4720,7 @@
   },
   "40113005": {
     "icon": 40113005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4728,7 +4728,7 @@
   },
   "40114004": {
     "icon": 40114004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法术免伤增加70%",
     "key1": "mag_def",
@@ -4736,9 +4736,9 @@
   },
   "40114005": {
     "icon": 40114005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
-    "des": "释放技能时降低目标1点怒气，每次行动后，为自身忍者恢复攻击力30%的生命值",
+    "des": "释放技能时降低目标1点怒气，每次行动后，为自身武将恢复攻击力30%的生命值",
     "key1": "skill_less_anger",
     "value1": 1,
     "key2": "round_heal_type",
@@ -4748,7 +4748,7 @@
   },
   "40115004": {
     "icon": 40115004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4756,7 +4756,7 @@
   },
   "40115005": {
     "icon": 40115005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%，防御增加15%",
     "key1": "self_maxHP_add",
@@ -4766,7 +4766,7 @@
   },
   "40116004": {
     "icon": 40116004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2",
     "key1": "curAnger",
@@ -4774,7 +4774,7 @@
   },
   "40116005": {
     "icon": 40116005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "速度增加25%",
     "key1": "self_speed_add",
@@ -4782,7 +4782,7 @@
   },
   "40117004": {
     "icon": 40117004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4790,7 +4790,7 @@
   },
   "40117005": {
     "icon": 40117005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "物防增加25%",
     "key1": "self_phyDef_add",
@@ -4800,7 +4800,7 @@
   },
   "40118004": {
     "icon": 40118004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2",
     "key1": "curAnger",
@@ -4808,7 +4808,7 @@
   },
   "40118005": {
     "icon": 40118005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "虫蛀持续回合+1，虫蛀状态下的目标攻击力降低降低30%",
     "key1": "skill_buff",
@@ -4818,7 +4818,7 @@
   },
   "40119004": {
     "icon": 40119004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "所有攻击无视对方15%的防御",
     "key1": "neglect_def",
@@ -4826,7 +4826,7 @@
   },
   "40119005": {
     "icon": 40119005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4834,7 +4834,7 @@
   },
   "40120004": {
     "icon": 40120004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4842,7 +4842,7 @@
   },
   "40120005": {
     "icon": 40120005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4850,7 +4850,7 @@
   },
   "40121004": {
     "icon": 40121004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4858,7 +4858,7 @@
   },
   "40121005": {
     "icon": 40121005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%，技能伤害增加10%。",
     "key1": "self_maxHP_add",
@@ -4868,7 +4868,7 @@
   },
   "40122004": {
     "icon": 40122004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "释放技能后追加一次普通攻击",
     "key1": "skill_add_d_s",
@@ -4876,7 +4876,7 @@
   },
   "40122005": {
     "icon": 40122005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加10%，击杀目标后，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "self_atk_add",
@@ -4886,7 +4886,7 @@
   },
   "40123004": {
     "icon": 40123004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4894,7 +4894,7 @@
   },
   "40123005": {
     "icon": 40123005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%",
     "key1": "neglect_def",
@@ -4902,7 +4902,7 @@
   },
   "40124004": {
     "icon": 40124004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4910,7 +4910,7 @@
   },
   "40124005": {
     "icon": 40124005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加25%",
     "key1": "self_maxHP_add",
@@ -4918,7 +4918,7 @@
   },
   "40125004": {
     "icon": 40125004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4926,7 +4926,7 @@
   },
   "40125005": {
     "icon": 40125005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%，释放技能后追加一次普通攻击",
     "key1": "neglect_def",
@@ -4936,7 +4936,7 @@
   },
   "40126004": {
     "icon": 40126004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4944,7 +4944,7 @@
   },
   "40126005": {
     "icon": 40126005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加25%",
     "key1": "self_magDef_add",
@@ -4952,7 +4952,7 @@
   },
   "40127004": {
     "icon": 40127004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4960,7 +4960,7 @@
   },
   "40127005": {
     "icon": 40127005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加25%",
     "key1": "self_maxHP_add",
@@ -4968,7 +4968,7 @@
   },
   "40128004": {
     "icon": 40128004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加15%",
     "key1": "self_maxHP_add",
@@ -4976,7 +4976,7 @@
   },
   "40128005": {
     "icon": 40128005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%，法防增加15%",
     "key1": "self_maxHP_add",
@@ -4986,7 +4986,7 @@
   },
   "40129004": {
     "icon": 40129004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%",
     "key1": "neglect_def",
@@ -4994,7 +4994,7 @@
   },
   "40129005": {
     "icon": 40129005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加25%",
     "key1": "self_maxHP_add",
@@ -5002,7 +5002,7 @@
   },
   "40130004": {
     "icon": 40130004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能伤害增加15%",
     "key1": "skill_attack_amp",
@@ -5010,7 +5010,7 @@
   },
   "40130005": {
     "icon": 40130005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加15%，法防增加10%",
     "key1": "neglect_def",
@@ -5512,7 +5512,7 @@
     "icon": 50205005,
     "name": "背水一战",
     "qa": 3,
-    "des": "被灼烧的忍者无法获得无敌和无敌吸血盾效果，而且被受到灼烧状态的敌人攻击时，受到的直接伤害降低20%",
+    "des": "被灼烧的武将无法获得无敌和无敌吸血盾效果，而且被受到灼烧状态的敌人攻击时，受到的直接伤害降低20%",
     "key1": "burn_not_invincible",
     "value1": true,
     "key2": "burn_hit_reduction",
@@ -5740,7 +5740,7 @@
     "icon": 50212004,
     "name": "查克拉窃取",
     "qa": 4,
-    "des": "直接伤害导致死亡时100%眩晕击杀自己的敌方忍者",
+    "des": "直接伤害导致死亡时100%眩晕击杀自己的敌方武将",
     "key1": "died_later_buff",
     "value1": "{\"buffId\":\"dizzy\",\"duration\":2,\"buffRate\":1}"
   },
@@ -6452,7 +6452,7 @@
   },
   "50414004": {
     "icon": 50412004,
-    "name": "忍者之神",
+    "name": "武将之神",
     "qa": 4,
     "des": "灵魂窃取同时还能窃取目标的怒气回复",
     "key1": "soul_steal_anger",
@@ -6498,7 +6498,7 @@
     "icon": 50501005,
     "name": "号召力",
     "qa": 3,
-    "des": "释放技能使敌人眩晕时，同阵营忍者对眩晕目标造成伤害增加100%",
+    "des": "释放技能使敌人眩晕时，同阵营武将对眩晕目标造成伤害增加100%",
     "key1": "realm_dizzy_amp",
     "value1": 1
   },
@@ -6738,7 +6738,7 @@
     "icon": 50509005,
     "name": "号召力",
     "qa": 3,
-    "des": "入场时，随机眩晕敌方1-2名忍者，持续1回合",
+    "des": "入场时，随机眩晕敌方1-2名武将，持续1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -6846,7 +6846,7 @@
   },
   "60105004": {
     "icon": 60105004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，攻击增加25%",
     "key1": "curAnger",
@@ -6856,7 +6856,7 @@
   },
   "60105005": {
     "icon": 60105005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，行动后恢复自身1点怒气",
     "key1": "neglect_def",
@@ -6866,7 +6866,7 @@
   },
   "60106004": {
     "icon": 60106004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，生命+25%",
     "key1": "curAnger",
@@ -6876,7 +6876,7 @@
   },
   "60106005": {
     "icon": 60106005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "速度增加35%，释放技能为目标附加虫蛀效果，持续3回合",
     "key1": "self_speed_add",
@@ -6886,7 +6886,7 @@
   },
   "60107004": {
     "icon": 60107004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，首回合获得超级无敌盾，持续3回合",
     "key1": "first_buff",
@@ -6896,7 +6896,7 @@
   },
   "60107005": {
     "icon": 60107005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能伤害增加30%，使用技能后，释放中毒时，有50%的概率使目标身上的中毒状态立即结算。",
     "key1": "skill_attack_amp",
@@ -6906,7 +6906,7 @@
   },
   "60110004": {
     "icon": 60110004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，物理免伤增加70%",
     "key1": "phy_def",
@@ -6916,7 +6916,7 @@
   },
   "60110005": {
     "icon": 60110005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命值增加40%，每次受到直接伤害后，恢复自身3%的生命值",
     "key1": "self_maxHP_add",
@@ -6926,7 +6926,7 @@
   },
   "60113004": {
     "icon": 60113004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，若目标生命值低于35%，则将其斩杀。",
     "key1": "curAnger",
@@ -6936,7 +6936,7 @@
   },
   "60113005": {
     "icon": 60113005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加20%，击杀目标后，回复2点怒气，若自身仍有足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "self_atk_add",
@@ -6948,7 +6948,7 @@
   },
   "60114004": {
     "icon": 60114004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，攻击增加25%",
     "key1": "curAnger",
@@ -6958,7 +6958,7 @@
   },
   "60114005": {
     "icon": 60114005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，造成伤害35%回复自身生命值",
     "key1": "neglect_def",
@@ -6968,7 +6968,7 @@
   },
   "60115004": {
     "icon": 60115004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后，为自身恢复5%的生命上限血量",
     "key1": "curAnger",
@@ -6978,7 +6978,7 @@
   },
   "60115005": {
     "icon": 60115005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加10%，防御增加10%，每回合行动前解除自身1个减益效果",
     "key1": "self_maxHP_add",
@@ -6990,7 +6990,7 @@
   },
   "60117004": {
     "icon": 60117004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，每回合行动后为自身添加2层坚毅效果",
     "key1": "curAnger",
@@ -7000,7 +7000,7 @@
   },
   "60117005": {
     "icon": 60117005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加20%，每回合行动前，清除所有自身非控制类负面状态，并且在使用技能后，为自身添加伤害吸收盾。",
     "key1": "self_maxHP_add",
@@ -7012,7 +7012,7 @@
   },
   "60118004": {
     "icon": 60118004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，法术免伤增加70%",
     "key1": "mag_def",
@@ -7022,9 +7022,9 @@
   },
   "60118005": {
     "icon": 60118005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
-    "des": "释放技能时降低目标1点怒气，每次行动后，为自身忍者恢复攻击力60%的生命值",
+    "des": "释放技能时降低目标1点怒气，每次行动后，为自身武将恢复攻击力60%的生命值",
     "key1": "skill_less_anger",
     "value1": 1,
     "key2": "round_heal_type",
@@ -7034,7 +7034,7 @@
   },
   "60119004": {
     "icon": 60119004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，灵魂窃取的回合数增加至2回合，添加灵魂窃取的目标受到的回怒效果转移至自身。",
     "key1": "skill_buff",
@@ -7046,7 +7046,7 @@
   },
   "60119005": {
     "icon": 60119005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "技能额外造成目标最大生命值10%的伤害，释放技能时，立即结算诅咒伤害，且结算后再为目标添加2层诅咒",
     "key1": "maxHP_damage",
@@ -7058,7 +7058,7 @@
   },
   "60120004": {
     "icon": 60120004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，中毒伤害的35%治疗自身生命值.",
     "key1": "curAnger",
@@ -7068,7 +7068,7 @@
   },
   "60120005": {
     "icon": 60120005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加30%，技能伤害增加25%",
     "key1": "self_maxHP_add",
@@ -7078,7 +7078,7 @@
   },
   "60121004": {
     "icon": 60121004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7088,7 +7088,7 @@
   },
   "60121005": {
     "icon": 60121005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加25%，生命增加35%",
     "key1": "self_magDef_add",
@@ -7098,7 +7098,7 @@
   },
   "60122004": {
     "icon": 60122004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，释放技能时有25%概率再次释放（每回合最多1次）",
     "key1": "curAnger",
@@ -7108,7 +7108,7 @@
   },
   "60122005": {
     "icon": 60122005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加30%，释放技能有55%概率不消耗怒气",
     "key1": "self_maxHP_add",
@@ -7118,7 +7118,7 @@
   },
   "60123004": {
     "icon": 60123004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，技能伤害增加20%",
     "key1": "curAnger",
@@ -7128,7 +7128,7 @@
   },
   "60123005": {
     "icon": 60123005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%，释放技能后追加一次普通攻击",
     "key1": "neglect_def",
@@ -7138,7 +7138,7 @@
   },
   "60124004": {
     "icon": 60124004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，攻击增加25%",
     "key1": "curAnger",
@@ -7148,7 +7148,7 @@
   },
   "60124005": {
     "icon": 60124005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，技能伤害增加20%",
     "key1": "neglect_def",
@@ -7158,7 +7158,7 @@
   },
   "60125004": {
     "icon": 60125004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，每回合行动结束后，为自身添加免控盾",
     "key1": "curAnger",
@@ -7168,7 +7168,7 @@
   },
   "60125005": {
     "icon": 60125005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，直接伤害击杀目标后追加一次普通攻击",
     "key1": "neglect_def",
@@ -7178,7 +7178,7 @@
   },
   "60126004": {
     "icon": 60126004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，灼烧持续回合+1",
     "key1": "curAnger",
@@ -7188,7 +7188,7 @@
   },
   "60126005": {
     "icon": 60126005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，技能伤害增加25%",
     "key1": "neglect_def",
@@ -7198,7 +7198,7 @@
   },
   "60127004": {
     "icon": 60127004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，所有攻击75%概率附加灼烧效果",
     "key1": "curAnger",
@@ -7210,7 +7210,7 @@
   },
   "60127005": {
     "icon": 60127005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加33%，灼烧持续回合+2",
     "key1": "neglect_def",
@@ -7220,7 +7220,7 @@
   },
   "60128004": {
     "icon": 60128004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7230,7 +7230,7 @@
   },
   "60128005": {
     "icon": 60128005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加25%，技能额外造成目标最大生命值15%的伤害",
     "key1": "self_maxHP_add",
@@ -7240,7 +7240,7 @@
   },
   "60129004": {
     "icon": 60129004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，所有攻击75%概率附加减速效果",
     "key1": "curAnger",
@@ -7252,7 +7252,7 @@
   },
   "60129005": {
     "icon": 60129005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，目标身上每有1个负面效果，伤害增加15%",
     "key1": "neglect_def",
@@ -7262,7 +7262,7 @@
   },
   "60130004": {
     "icon": 60130004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，释放技能后为自身添加结界护盾，受到攻击时，有33%概率使目标增加1层寒冷，结界护盾持续2回合。",
     "key1": "curAnger",
@@ -7272,7 +7272,7 @@
   },
   "60130005": {
     "icon": 60130005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加30%，法防增加15%",
     "key1": "self_maxHP_add",
@@ -7282,7 +7282,7 @@
   },
   "60131004": {
     "icon": 60131004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，所有攻击75%概率附加诅咒效果",
     "key1": "curAnger",
@@ -7294,7 +7294,7 @@
   },
   "60131005": {
     "icon": 60131005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，生命增加20%",
     "key1": "neglect_def",
@@ -7304,7 +7304,7 @@
   },
   "60132004": {
     "icon": 60132004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，普通攻击灼烧效果概率提高至100%概率",
     "key1": "curAnger",
@@ -7314,7 +7314,7 @@
   },
   "60132005": {
     "icon": 60132005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加25%，受到治疗量增加30%",
     "key1": "self_maxHP_add",
@@ -7324,7 +7324,7 @@
   },
   "60133004": {
     "icon": 60133004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "行动后恢复自身2点怒气",
     "key1": "action_anger",
@@ -7332,7 +7332,7 @@
   },
   "60133005": {
     "icon": 60133005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%，每回合伤害永久增加10%，可叠加.",
     "key1": "neglect_def",
@@ -7342,7 +7342,7 @@
   },
   "60134004": {
     "icon": 60134004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，普通攻击附加50%概率的眩晕效果",
     "key1": "action_anger",
@@ -7352,7 +7352,7 @@
   },
   "60134005": {
     "icon": 60134005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，每回合行动前解除自身1个减益效果",
     "key1": "neglect_def",
@@ -7362,7 +7362,7 @@
   },
   "60135004": {
     "icon": 60135004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，释放技能时，额外降低目标2点怒气",
     "key1": "action_anger",
@@ -7372,7 +7372,7 @@
   },
   "60135005": {
     "icon": 60135005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，速度增加25%",
     "key1": "neglect_def",
@@ -7382,7 +7382,7 @@
   },
   "60136004": {
     "icon": 60136004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，技能伤害增加20%",
     "key1": "action_anger",
@@ -7392,7 +7392,7 @@
   },
   "60136005": {
     "icon": 60136005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%，释放技能后追加一次普通攻击",
     "key1": "neglect_def",
@@ -7402,7 +7402,7 @@
   },
   "60137004": {
     "icon": 60137004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，中毒伤害的35%治疗自身生命值.",
     "key1": "action_anger",
@@ -7412,7 +7412,7 @@
   },
   "60137005": {
     "icon": 60137005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加30%，技能伤害增加25%",
     "key1": "self_maxHP_add",
@@ -7422,7 +7422,7 @@
   },
   "60138004": {
     "icon": 60138004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，每回合行动结束后，为自身添加免控盾",
     "key1": "action_anger",
@@ -7432,7 +7432,7 @@
   },
   "60138005": {
     "icon": 60138005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，直接伤害击杀目标后追加一次普通攻击",
     "key1": "neglect_def",
@@ -7442,7 +7442,7 @@
   },
   "60139004": {
     "icon": 60139004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，攻击增加25%",
     "key1": "action_anger",
@@ -7452,7 +7452,7 @@
   },
   "60139005": {
     "icon": 60139005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，行动后恢复自身1点怒气",
     "key1": "neglect_def",
@@ -7462,7 +7462,7 @@
   },
   "60140004": {
     "icon": 60140004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7472,7 +7472,7 @@
   },
   "60140005": {
     "icon": 60140005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "法防增加35%，生命增加35%",
     "key1": "self_magDef_add",
@@ -7482,7 +7482,7 @@
   },
   "60141004": {
     "icon": 60141004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，所有攻击75%概率附加减速效果",
     "key1": "curAnger",
@@ -7494,7 +7494,7 @@
   },
   "60141005": {
     "icon": 60141005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，目标身上每有1个负面效果，伤害增加25%",
     "key1": "neglect_def",
@@ -7504,7 +7504,7 @@
   },
   "60142004": {
     "icon": 60142004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7514,7 +7514,7 @@
   },
   "60142005": {
     "icon": 60142005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加35%，法防增加20%，物防增加20%",
     "key1": "self_maxHP_add",
@@ -7526,7 +7526,7 @@
   },
   "60143004": {
     "icon": 60143004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7536,7 +7536,7 @@
   },
   "60143005": {
     "icon": 60143005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加50%，受到治疗量增加50%",
     "key1": "self_maxHP_add",
@@ -7546,7 +7546,7 @@
   },
   "60144004": {
     "icon": 60144004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%，释放技能后追加一次普通攻击",
     "key1": "neglect_def",
@@ -7556,7 +7556,7 @@
   },
   "60144005": {
     "icon": 60144005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，技能伤害增加35%",
     "key1": "neglect_def",
@@ -7566,7 +7566,7 @@
   },
   "60145004": {
     "icon": 60145004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7576,7 +7576,7 @@
   },
   "60145005": {
     "icon": 60145005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加35%，每回合行动前解除自身1个减益效果",
     "key1": "neglect_def",
@@ -7586,7 +7586,7 @@
   },
   "60146004": {
     "icon": 60146004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，释放技能时有45%概率再次释放（每回合最多1次）",
     "key1": "curAnger",
@@ -7596,7 +7596,7 @@
   },
   "60146005": {
     "icon": 60146005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加25%，技能伤害增加45%",
     "key1": "neglect_def",
@@ -7606,7 +7606,7 @@
   },
   "60147004": {
     "icon": 60147004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "行动后恢复自身2点怒气",
     "key1": "action_anger",
@@ -7614,7 +7614,7 @@
   },
   "60147005": {
     "icon": 60147005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "生命增加50%，法防增加25%",
     "key1": "self_maxHP_add",
@@ -7624,7 +7624,7 @@
   },
   "60148004": {
     "icon": 60148004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，中毒伤害的50%治疗自身生命值.",
     "key1": "action_anger",
@@ -7634,7 +7634,7 @@
   },
   "60148005": {
     "icon": 60148005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加40%，技能伤害增加25%",
     "key1": "neglect_def",
@@ -7644,7 +7644,7 @@
   },
   "60149004": {
     "icon": 60149004,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "初始怒气+2，行动后恢复自身1点怒气",
     "key1": "curAnger",
@@ -7654,7 +7654,7 @@
   },
   "60149005": {
     "icon": 60149005,
-    "name": "忍者天赋",
+    "name": "武将天赋",
     "qa": 3,
     "des": "攻击增加30%，技能额外造成目标最大生命值25%的伤害",
     "key1": "neglect_def",
@@ -7810,7 +7810,7 @@
   },
   "90130019": {
     "icon": 50022004,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 1,
     "des": "速度资质+10",
     "key1": "M_SPE",
@@ -7966,7 +7966,7 @@
     "icon": 50013005,
     "name": "疾影",
     "qa": 3,
-    "des": "每击败敌方1个忍者，自身有35%的概率获得超级无敌的效果，持续1个回合",
+    "des": "每击败敌方1个武将，自身有35%的概率获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -8120,7 +8120,7 @@
     "icon": 50024006,
     "name": "再生术",
     "qa": 1,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身2%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身2%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.02
   },
@@ -8560,7 +8560,7 @@
   },
   "90230019": {
     "icon": 50024005,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 2,
     "des": "速度资质+20",
     "key1": "M_SPE",
@@ -8718,7 +8718,7 @@
     "icon": 50015006,
     "name": "疾影",
     "qa": 4,
-    "des": "每击败敌方1个忍者，自身有65%的概率获得超级无敌的效果，持续1个回合",
+    "des": "每击败敌方1个武将，自身有65%的概率获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
@@ -8872,7 +8872,7 @@
     "icon": 50012005,
     "name": "再生术",
     "qa": 2,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身4%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身4%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.04
   },
@@ -8948,7 +8948,7 @@
     "icon": 50015005,
     "name": "阴封印",
     "qa": 3,
-    "des": "入场时，可封印敌方攻击力最高的忍者1回合",
+    "des": "入场时，可封印敌方攻击力最高的武将1回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9116,7 +9116,7 @@
     "icon": 50012006,
     "name": "尸鬼封印",
     "qa": 4,
-    "des": "死亡后，封印敌方攻击力最高的忍者1回合",
+    "des": "死亡后，封印敌方攻击力最高的武将1回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9340,7 +9340,7 @@
   },
   "90330019": {
     "icon": 50012006,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 3,
     "des": "速度资质+30",
     "key1": "M_SPE",
@@ -9498,7 +9498,7 @@
     "icon": 50023005,
     "name": "疾影",
     "qa": 5,
-    "des": "每击败敌方1个忍者，自身获得超级无敌的效果，持续1个回合",
+    "des": "每击败敌方1个武将，自身获得超级无敌的效果，持续1个回合",
     "key1": "kill_buff",
     "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9664,7 +9664,7 @@
     "icon": 50015005,
     "name": "再生术",
     "qa": 3,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身6%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身6%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.06
   },
@@ -9732,7 +9732,7 @@
     "icon": 50023004,
     "name": "阴封印",
     "qa": 4,
-    "des": "入场时，可封印敌方攻击力最高的忍者1回合，并偷取封印忍者10%的攻击力，持续2个回合",
+    "des": "入场时，可封印敌方攻击力最高的武将1回合，并偷取封印武将10%的攻击力，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -9894,7 +9894,7 @@
     "icon": 50015004,
     "name": "尸鬼封印",
     "qa": 5,
-    "des": "死亡后，封印敌方攻击力最高的忍者2回合",
+    "des": "死亡后，封印敌方攻击力最高的武将2回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
@@ -10118,7 +10118,7 @@
   },
   "90430019": {
     "icon": 50015004,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 4,
     "des": "速度资质+40",
     "key1": "M_SPE",
@@ -10396,7 +10396,7 @@
     "icon": 50021004,
     "name": "再生术",
     "qa": 4,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身8%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身8%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.08
   },
@@ -10466,7 +10466,7 @@
     "icon": 50023005,
     "name": "阴封印",
     "qa": 5,
-    "des": "入场时，可封印敌方攻击力最高的忍者1回合，并偷取封印忍者20%的攻击力，持续2个回合",
+    "des": "入场时，可封印敌方攻击力最高的武将1回合，并偷取封印武将20%的攻击力，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10608,7 +10608,7 @@
     "icon": 50014005,
     "name": "尸鬼封印",
     "qa": 6,
-    "des": "死亡后，封印敌方攻击力最高的忍者3回合",
+    "des": "死亡后，封印敌方攻击力最高的武将3回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
@@ -10834,7 +10834,7 @@
   },
   "90530019": {
     "icon": 50014005,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 5,
     "des": "速度资质+50",
     "key1": "M_SPE",
@@ -11122,7 +11122,7 @@
     "icon": 50015006,
     "name": "再生术",
     "qa": 5,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身10%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身10%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.1
   },
@@ -11182,7 +11182,7 @@
     "icon": 50023004,
     "name": "阴封印",
     "qa": 6,
-    "des": "入场时，可封印敌方攻击力最高的忍者1回合，并偷取封印忍者30%的攻击力，持续2个回合",
+    "des": "入场时，可封印敌方攻击力最高的武将1回合，并偷取封印武将30%的攻击力，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -11484,7 +11484,7 @@
   },
   "90630019": {
     "icon": 50013004,
-    "name": "忍者步法",
+    "name": "武将步法",
     "qa": 6,
     "des": "速度资质+60",
     "key1": "M_SPE",
@@ -11764,7 +11764,7 @@
     "icon": 50015004,
     "name": "再生术",
     "qa": 6,
-    "des": "当忍者HP小于HP1/2,每回合恢复自身12%生命值",
+    "des": "当武将HP小于HP1/2,每回合恢复自身12%生命值",
     "key1": "less_half_hp_heal",
     "value1": 0.12
   },
@@ -11826,7 +11826,7 @@
     "icon": 50022005,
     "name": "阴封印",
     "qa": 6,
-    "des": "入场时，可封印敌方攻击力最高的忍者1回合，并偷取封印忍者40%的攻击力，持续2个回合",
+    "des": "入场时，可封印敌方攻击力最高的武将1回合，并偷取封印武将40%的攻击力，持续2个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -12112,7 +12112,7 @@
   },
   "zf_002": {
     "icon": "zf_002",
-    "des": "己方每死亡一名忍者，自身伤害增加15%，最多叠加3次",
+    "des": "己方每死亡一名武将，自身伤害增加15%，最多叠加3次",
     "key1": "friend_died_amp",
     "value1": 0.15,
     "key2": "friend_died_count",
@@ -12120,19 +12120,19 @@
   },
   "zf_003": {
     "icon": "zf_003",
-    "des": "死亡后，自身剩余怒气会转移给怒气最少的友方忍者",
+    "des": "死亡后，自身剩余怒气会转移给怒气最少的友方武将",
     "key1": "last_strategy",
     "value1": true
   },
   "zf_004": {
     "icon": "zf_004",
-    "des": "回合内受到同一敌方忍者攻击时，每受到一次伤害，其伤害降低30%",
+    "des": "回合内受到同一敌方武将攻击时，每受到一次伤害，其伤害降低30%",
     "key1": "round_same_hit_red",
     "value1": 0.3
   },
   "zf_005": {
     "icon": "zf_005",
-    "des": "对处于异常状态的忍者造成的直接伤害提升30%",
+    "des": "对处于异常状态的武将造成的直接伤害提升30%",
     "key1": "enemy_debuff_amp",
     "value1": 0.3
   },
@@ -12162,7 +12162,7 @@
   },
   "zf_010": {
     "icon": "zf_010",
-    "des": "释放技能后，会清除己方生命最低的1名忍者的非控制类负面状态",
+    "des": "释放技能后，会清除己方生命最低的1名武将的非控制类负面状态",
     "key1": "skill_clear_debuff",
     "value1": true
   },
@@ -12198,7 +12198,7 @@
   },
   "zf_016": {
     "icon": "zf_016",
-    "des": "释放治疗技能后，若目标忍者与自身同阵营，则为其添加伤害吸收盾（吸收生命值上限15%伤害）",
+    "des": "释放治疗技能后，若目标武将与自身同阵营，则为其添加伤害吸收盾（吸收生命值上限15%伤害）",
     "key1": "heal_same_shild",
     "value1": 0.15
   },
@@ -12210,7 +12210,7 @@
   },
   "zf_018": {
     "icon": "zf_018",
-    "des": "本回合中，己方同阵营忍者行动后，自身伤害提升8%，最多叠加4次",
+    "des": "本回合中，己方同阵营武将行动后，自身伤害提升8%，最多叠加4次",
     "key1": "realm_action_amp",
     "value1": 0.08
   },
@@ -12228,13 +12228,13 @@
   },
   "zf_021": {
     "icon": "zf_021",
-    "des": "受到直接伤害时，伤害的30%转化为伤害吸收盾附加给友方生命值最少的忍者",
+    "des": "受到直接伤害时，伤害的30%转化为伤害吸收盾附加给友方生命值最少的武将",
     "key1": "damage_firend_shild",
     "value1": 0.3
   },
   "zf_022": {
     "icon": "zf_022",
-    "des": "战斗开始前，己方全体暴击概率提升(10%*己方场上同阵营忍者数量)，持续1回合",
+    "des": "战斗开始前，己方全体暴击概率提升(10%*己方场上同阵营武将数量)，持续1回合",
     "key1": "begin_realm_crit",
     "value1": 0.1
   },
@@ -12246,7 +12246,7 @@
   },
   "zf_024": {
     "icon": "zf_024",
-    "des": "受到直接伤害死亡时，对击杀自身的忍者造成40%最大生命值伤害",
+    "des": "受到直接伤害死亡时，对击杀自身的武将造成40%最大生命值伤害",
     "key1": "died_maxHp_damage",
     "value1": 0.4
   },
@@ -12270,13 +12270,13 @@
   },
   "zf_028": {
     "icon": "zf_028",
-    "des": "全局回合结束后，自身恢复(5%*己方所有同阵营忍者回合内行动次数)生命",
+    "des": "全局回合结束后，自身恢复(5%*己方所有同阵营武将回合内行动次数)生命",
     "key1": "friend_ation_hp",
     "value1": 0.05
   },
   "zf_029": {
     "icon": "zf_029",
-    "des": "每位存活的其他同阵营忍者都会提高自身5%的伤害",
+    "des": "每位存活的其他同阵营武将都会提高自身5%的伤害",
     "key1": "realm_friend_amp",
     "value1": 0.05
   },
@@ -12288,7 +12288,7 @@
   },
   "zf_031": {
     "icon": "zf_031",
-    "des": "每位存活的其他同阵营忍者都会提高自身5%的免伤",
+    "des": "每位存活的其他同阵营武将都会提高自身5%的免伤",
     "key1": "realm_friend_reduction",
     "value1": 0.05
   },
@@ -12468,31 +12468,31 @@
   },
   "fabao_00101": {
     "icon": "fabao_00101",
-    "des": "直接伤害击杀目标后，有40%概率清除己方忍者身上该目标死亡前释放的所有异常效果",
+    "des": "直接伤害击杀目标后，有40%概率清除己方武将身上该目标死亡前释放的所有异常效果",
     "key1": "kill_clear_buff",
     "value1": 0.4
   },
   "fabao_00102": {
     "icon": "fabao_00102",
-    "des": "直接伤害击杀目标后，有55%概率清除己方忍者身上该目标死亡前释放的所有异常效果",
+    "des": "直接伤害击杀目标后，有55%概率清除己方武将身上该目标死亡前释放的所有异常效果",
     "key1": "kill_clear_buff",
     "value1": 0.55
   },
   "fabao_00103": {
     "icon": "fabao_00103",
-    "des": "直接伤害击杀目标后，有70%概率清除己方忍者身上该目标死亡前释放的所有异常效果",
+    "des": "直接伤害击杀目标后，有70%概率清除己方武将身上该目标死亡前释放的所有异常效果",
     "key1": "kill_clear_buff",
     "value1": 0.7
   },
   "fabao_00104": {
     "icon": "fabao_00104",
-    "des": "直接伤害击杀目标后，有85%概率清除己方忍者身上该目标死亡前释放的所有异常效果",
+    "des": "直接伤害击杀目标后，有85%概率清除己方武将身上该目标死亡前释放的所有异常效果",
     "key1": "kill_clear_buff",
     "value1": 0.85
   },
   "fabao_00105": {
     "icon": "fabao_00105",
-    "des": "直接伤害击杀目标后，有100%概率清除己方忍者身上该目标死亡前释放的所有异常效果",
+    "des": "直接伤害击杀目标后，有100%概率清除己方武将身上该目标死亡前释放的所有异常效果",
     "key1": "kill_clear_buff",
     "value1": 1
   },
@@ -12588,31 +12588,31 @@
   },
   "fabao_00501": {
     "icon": "fabao_00501",
-    "des": "受到忍者直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的12%",
+    "des": "受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的12%",
     "key1": "reduction_over",
     "value1": 0.12
   },
   "fabao_00502": {
     "icon": "fabao_00502",
-    "des": "受到忍者直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的18%",
+    "des": "受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的18%",
     "key1": "reduction_over",
     "value1": 0.18
   },
   "fabao_00503": {
     "icon": "fabao_00503",
-    "des": "受到忍者直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的24%",
+    "des": "受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的24%",
     "key1": "reduction_over",
     "value1": 0.24
   },
   "fabao_00504": {
     "icon": "fabao_00504",
-    "des": "受到忍者直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的30%",
+    "des": "受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的30%",
     "key1": "reduction_over",
     "value1": 0.3
   },
   "fabao_00505": {
     "icon": "fabao_00505",
-    "des": "受到忍者直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的36%",
+    "des": "受到武将直接伤害时，如果该伤害超过自身生命上限的40%，减免此次伤害的36%",
     "key1": "reduction_over",
     "value1": 0.36
   },
