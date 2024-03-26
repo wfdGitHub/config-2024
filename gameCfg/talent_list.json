@@ -5414,9 +5414,9 @@
     "icon": 50203005,
     "name": "抽血术",
     "qa": 3,
-    "des": "牙能够抽取敌方血液，释放技能时，目标身上每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>撕裂</c></outline>效果，额外造成<outline color=#000000 width=2><color=#ffb533>8%</c></outline>最大生命值的伤害",
-    "key1": "skill_bleed_maxHp",
-    "value1": 0.08
+    "des": "牙能够抽取敌方血液，入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>1层撕裂</c></outline>效果，持续3回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50204003": {
     "icon": 50204003,
