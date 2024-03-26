@@ -759,9 +759,9 @@
   "4238": {
     "icon": 4238,
     "name": "中级振奋",
-    "des": "<outline color=#000000 width=2><color=#ffb533>20%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "des": "<outline color=#000000 width=2><color=#ffb533>15%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
     "key1": "defcontrol",
-    "value1": 0.2,
+    "value1": 0.15,
     "key2": "phy_add",
     "value2": -0.1
   },
@@ -1153,9 +1153,9 @@
   "4338": {
     "icon": 4338,
     "name": "高级振奋",
-    "des": "<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "des": "<outline color=#000000 width=2><color=#ffb533>20%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
     "key1": "defcontrol",
-    "value1": 0.3,
+    "value1": 0.2,
     "key2": "phy_add",
     "value2": -0.2
   },
@@ -1551,9 +1551,9 @@
   "4438": {
     "icon": 4438,
     "name": "超级振奋",
-    "des": "<outline color=#000000 width=2><color=#ffb533>40%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "des": "<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
     "key1": "defcontrol",
-    "value1": 0.4,
+    "value1": 0.3,
     "key2": "phy_add",
     "value2": -0.2
   },
@@ -1949,9 +1949,9 @@
   "4538": {
     "icon": 4538,
     "name": "究极振奋",
-    "des": "<outline color=#000000 width=2><color=#ffb533>50%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "des": "<outline color=#000000 width=2><color=#ffb533>40%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，但是自身物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
     "key1": "defcontrol",
-    "value1": 0.5,
+    "value1": 0.4,
     "key2": "phy_add",
     "value2": -0.2
   },
@@ -2461,7 +2461,7 @@
   },
   "9512": {
     "icon": 9512,
-    "des": "使用技能攻击时，降低破甲状态下的目标<outline color=#000000 width=2><color=#ffb533>1点怒气值</c></outline>",
+    "des": "使用技能攻击时，降低破甲状态下的目标<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气值</c></outline>",
     "key1": "pj_less_anger",
     "value1": 1
   },
@@ -2784,94 +2784,92 @@
     "value1": "{\"buffId\":\"invincibleSuck\",\"duration\":2,\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "10010": {
-    "icon": 10010,
+    "icon": 9701,
     "des": "击杀目标后回复自身最大生命<outline color=#000000 width=2><color=#ffb533>30%</c></outline>血量",
     "key1": "kill_heal",
     "value1": 0.3
   },
   "10020": {
-    "icon": 10020,
-    "des": "击杀目标后伤害提升<outline color=#000000 width=2><color=#ffb533>15%</c></outline>",
-    "key1": "kill_amp",
-    "value1": 0.15
-  },
-  "10030": {
-    "icon": 10030,
+    "icon": 9702,
     "des": "受到攻击后，如果生命低于<outline color=#000000 width=2><color=#ffb533>40%</c></outline>，回复自身最大生命<outline color=#000000 width=2><color=#ffb533>30%</c></outline>血量，每场战斗只能触发1次",
     "key1": "first_aid",
     "value1": 0.3
   },
-  "10040": {
-    "icon": 10040,
-    "des": "造成法术伤害时，最终伤害会在<outline color=#000000 width=2><color=#ffb533>110%-130%</c></outline>之间浮动",
-    "key1": "mag_fluctuate",
-    "value1": 1.1
-  },
-  "10050": {
-    "icon": 10050,
+  "10030": {
+    "icon": 9703,
     "des": "战斗时，前<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合免伤提高30%</c></outline>",
     "key1": "first_armor",
     "value1": 0.3
   },
-  "10060": {
-    "icon": 10060,
-    "des": "受到的法术伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "mag_def",
-    "value1": 0.2
-  },
-  "10070": {
-    "icon": 10070,
-    "des": "受到的物理伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "phy_def",
-    "value1": 0.2
-  },
-  "10080": {
-    "icon": 10080,
-    "des": "被暴击概率降低<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
-    "key1": "critDef",
-    "value1": 0.3
-  },
-  "10090": {
-    "icon": 10090,
+  "10040": {
+    "icon": 9704,
     "des": "伤害超过目标生命上限<outline color=#000000 width=2><color=#ffb533>40%</c></outline>时，<outline color=#000000 width=2><color=#ffb533>50%</c></outline>几率使其晕眩<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "over_buff_maxHp",
     "value1": 0.4,
     "key2": "over_buff_arg",
     "value2": "{\"buffId\":\"dizzy\",\"duration\":1,\"buffRate\":0.5}"
   },
-  "10100": {
-    "icon": 10100,
-    "des": "死亡时，提升全体友方<outline color=#000000 width=2><color=#ffb533>20%</c></outline>攻击，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "died_buff",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
-  },
-  "10110": {
-    "icon": 10110,
+  "10050": {
+    "icon": 9705,
     "des": "攻击时有最高<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率嘲讽目标，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，目标越少效果越好",
     "key1": "cf_rate",
     "value1": 0.3
   },
-  "10120": {
-    "icon": 10120,
+  "10060": {
+    "icon": 9706,
     "des": "行动结束后回复自身最大生命<outline color=#000000 width=2><color=#ffb533>10%</c></outline>血量",
     "key1": "action_heal",
     "value1": 0.1,
     "key2": "yh_acc",
     "value2": true
   },
-  "10130": {
-    "icon": 10130,
+  "10070": {
+    "icon": 9707,
     "des": "受到直接技能伤害时，反弹<outline color=#000000 width=2><color=#ffb533>25%</c></outline>伤害",
     "key1": "skill_rebound_ratio",
     "value1": 0.25,
     "key2": "skill_rebound_prob",
     "value2": 1
   },
-  "10140": {
-    "icon": 10140,
-    "des": "释放技能时有最高<outline color=#000000 width=2><color=#ffb533>50%</c></outline>概率驱散目标身上的全部增益状态，目标越少效果越好",
-    "key1": "dispel_intensify",
-    "value1": 0.5
+  "10080": {
+    "icon": 9710,
+    "des": "使用技能时，有25%概率返还所消耗怒气；每次击杀敌方忍者后，恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_free",
+    "value1": 0.25,
+    "key2": "kill_anger",
+    "value2": 1
+  },
+  "10090": {
+    "icon": 9709,
+    "des": "每次击杀敌方忍者后，恢复自身30%生命值，并永久提升10%的暴击率与暴击伤害",
+    "key1": "kill_heal",
+    "value1": 0.3,
+    "key2": "kill_crit",
+    "value2": 0.1,
+    "key3": "kill_slay",
+    "value3": 0.1
+  },
+  "10100": {
+    "icon": 9711,
+    "des": "战斗首回合，自身获得<outline color=#000000 width=2><color=#ffb533>3</c></outline>层疾速效果（增加15%速度）和5层反制效果（增加25%闪避），持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":1,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":5,\"duration\":1,\"buffRate\":1}"
+  },
+  "10110": {
+    "icon": 9714,
+    "des": "受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡，此技能触发后冷却<outline color=#000000 width=2><color=#ffb533>5</c></outline>回合",
+    "key1": "passive1",
+    "value1": "died_buff",
+    "key2": "passiveArg1",
+    "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "10120": {
+    "icon": 9712,
+    "des": "入场时随机获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>个增益效果（无敌吸血盾、铜墙铁壁、水神护盾、免控盾、祝福），持续到战斗结束",
+    "key1": "first_buff",
+    "value1": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]"
   },
   "800101": {
     "icon": 800101,
@@ -5022,17 +5020,17 @@
     "icon": 50101003,
     "name": "白眼",
     "qa": 3,
-    "des": "雏田的白眼使她命中率不会被降低，攻击<outline color=#000000 width=2><color=#ffb533>必定命中</c></outline>",
-    "key1": "skill_must_hit",
-    "value1": true
+    "des": "击杀目标后，并恢复最大生命值的<outline color=#000000 width=2><color=#ffb533>15%</c></outline>",
+    "key1": "kill_heal",
+    "value1": 0.15
   },
   "50101004": {
     "icon": 50101004,
     "name": "回天",
     "qa": 3,
-    "des": "雏田释放技能后为自身添加<outline color=#000000 width=2><color=#ffb533>结界护盾</c></outline>，受到攻击时，有<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率使目标增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，<outline color=#000000 width=2><color=#ffb533>结界护盾</c></outline>持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合。",
-    "key1": "skill_buff",
-    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
+    "des": "破坏禁锢的伤害额外增加<outline color=#000000 width=2><color=#ffb533>25%</c></outline>",
+    "key1": "thawing_frozen",
+    "value1": 0.25
   },
   "50101005": {
     "icon": 50101005,
@@ -5066,7 +5064,7 @@
     "key1": "first_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"team_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "beginSkill",
-    "value2": 50108012
+    "value2": 50102012
   },
   "50103003": {
     "icon": 50103003,
@@ -5080,9 +5078,9 @@
     "icon": 50103004,
     "name": "兵粮丸",
     "qa": 3,
-    "des": "丁次的兵粮丸能够转换伤害，受到直接伤害的<outline color=#000000 width=2><color=#ffb533>20%</c></outline>转化为生命治疗己方生命最少的<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标",
+    "des": "受到直接伤害的<outline color=#000000 width=2><color=#ffb533>30%</c></outline>转化为生命治疗己方生命最少的<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标",
     "key1": "hit_turn_rate",
-    "value1": 0.2,
+    "value1": 0.3,
     "key2": "hit_turn_tg",
     "value2": "team_minHp_3"
   },
@@ -5098,29 +5096,27 @@
     "icon": 50104003,
     "name": "八门遁甲",
     "qa": 3,
-    "des": "攻击增加20%，每个回合会流失【回合数*2%】的生命，持续流失生命效果",
-    "key1": "self_atk_add",
-    "value1": 0.2,
-    "key2": "maxHP_loss",
-    "value2": 0.02
+    "des": "每回合结束后，每层莲华效果，为自身回复<outline color=#000000 width=2><color=#ffb533>2%</c></outline>的生命",
+    "key1": "polang_heal",
+    "value1": 0.2
   },
   "50104004": {
     "icon": 50104004,
     "name": "莲华",
     "qa": 3,
-    "des": "洛克李的<outline color=#000000 width=2><color=#ffb533>莲华</c></outline>效果能够持续到战斗结束，每回行动结束后，为自身附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>莲华</c></outline>效果",
-    "key1": "buffDuration",
-    "value1": 99,
-    "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":5,\"buffRate\":1}"
+    "des": "使用技能时，每层莲华效果额外造成目标<outline color=#000000 width=2><color=#ffb533>2%</c></outline>生命上限的伤害",
+    "key1": "polang_power",
+    "value1": 0.02
   },
   "50104005": {
     "icon": 50104005,
     "name": "背水一战",
     "qa": 3,
-    "des": "使用技能时，每层莲华效果额外造成目标<outline color=#000000 width=2><color=#ffb533>2%</c></outline>生命上限的伤害",
-    "key1": "polang_power",
-    "value1": 0.02
+    "des": "莲华效果可持续至战斗结束，每回行动结束后，为自身附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层莲华效果",
+    "key1": "buffDuration",
+    "value1": 99,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "50105003": {
     "icon": 50105003,
@@ -5150,16 +5146,16 @@
     "icon": 50106003,
     "name": "强力之躯",
     "qa": 3,
-    "des": "再不斩自身使用物理攻击时，伤害提升<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
-    "key1": "phy_add",
-    "value1": 0.3
+    "des": "攻击时，若目标存在无敌盾或无敌吸血盾，则在伤害前<outline color=#000000 width=2><color=#ffb533>移除</c></outline>",
+    "key1": "less_clear_invincible",
+    "value1": 1
   },
   "50106004": {
     "icon": 50106004,
     "name": "水遁之怒",
     "qa": 3,
-    "des": "再不斩每回合回复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "action_anger",
+    "des": "释放技能后，恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气值",
+    "key1": "skill_anger_s",
     "value1": 1
   },
   "50106005": {
@@ -5174,17 +5170,17 @@
     "icon": 50107003,
     "name": "鲛鲨体质",
     "qa": 3,
-    "des": "鬼鲛的特殊体质使他每次释放技能攻击目标时，可同时恢复自身<outline color=#000000 width=2><color=#ffb533>10%</c></outline>最大生命值",
-    "key1": "skill_heal_maxHp",
-    "value1": 0.1
+    "des": "技能后为自身添加<outline color=#000000 width=2><color=#ffb533>结界护盾</c></outline>，受到攻击时，有<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率使目标增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，结界护盾持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合。",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50107004": {
     "icon": 50107004,
     "name": "鲛鲨皮肤",
     "qa": 3,
-    "des": "鬼鲛的皮肤布满鲨刺，可将自身受到伤害的<outline color=#000000 width=2><color=#ffb533>35%</c></outline>反弹给攻击自身的敌方目标",
-    "key1": "hit_rebound",
-    "value1": 0.35
+    "des": "释放技能时，恢复自身<outline color=#000000 width=2><color=#ffb533>10%</c></outline>最大生命值",
+    "key1": "skill_heal_maxHp",
+    "value1": 0.1
   },
   "50107005": {
     "icon": 50107005,
@@ -5198,16 +5194,16 @@
     "icon": 50108003,
     "name": "生命诅咒",
     "qa": 3,
-    "des": "释放技能有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>的概率不消耗怒气",
-    "key1": "skill_free",
-    "value1": 0.35
+    "des": "击败目标后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "kill_anger",
+    "value1": 1
   },
   "50108004": {
     "icon": 50108004,
     "name": "恐惧面具",
     "qa": 3,
-    "des": "角都的恐惧面具可降低被技能攻击到的敌方目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "skill_less_anger",
+    "des": "释放技能攻击目标时，若目标处于禁锢状态，则回复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_frozen_anger",
     "value1": 1
   },
   "50108005": {
@@ -5222,17 +5218,17 @@
     "icon": 50109003,
     "name": "白眼",
     "qa": 3,
-    "des": "被<outline color=#000000 width=2><color=#ffb533>减速</c></outline>状态下的敌人攻击时，恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "cold_hit_anger",
-    "value1": 1
+    "des": "击杀目标后，并恢复最大生命值的<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "key1": "kill_heal",
+    "value1": 0.2
   },
   "50109004": {
     "icon": 50109004,
     "name": "回天",
     "qa": 3,
-    "des": "雏田释放技能后为自身添加<outline color=#000000 width=2><color=#ffb533>结界护盾</c></outline>，受到攻击时，有<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率使目标增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，<outline color=#000000 width=2><color=#ffb533>结界护盾</c></outline>持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合。",
-    "key1": "skill_buff",
-    "value1": "{\"buffId\":\"cold_shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":3,\"buffRate\":1}"
+    "des": "破坏禁锢的伤害额外增加<outline color=#000000 width=2><color=#ffb533>35%</c></outline>",
+    "key1": "thawing_frozen",
+    "value1": 0.35
   },
   "50109005": {
     "icon": 50109005,
@@ -5248,25 +5244,27 @@
     "icon": 50110003,
     "name": "自愈体质",
     "qa": 3,
-    "des": "目标血量每减少<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，对其造成的的治疗量加成<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
-    "key1": "low_hp_heal",
-    "value1": 0.1
+    "des": "每回合行动后回复自身<outline color=#000000 width=2><color=#ffb533>6%</c></outline>最大生命值",
+    "key1": "action_heal",
+    "value1": 0.06
   },
   "50110004": {
     "icon": 50110004,
     "name": "医疗精通",
     "qa": 3,
-    "des": "小樱精通治疗，技能每净化<outline color=#000000 width=2><color=#ffb533>1</c></outline>个减益效果，增加怒气值<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，在释放<outline color=#000000 width=2><color=#ffb533>持续恢复</c></outline>效果时，若目标身上已存在治疗效果，则立即<outline color=#000000 width=2><color=#ffb533>结算</c></outline>原效果剩余回合数。",
+    "des": "持续治疗效果增加至攻击<outline color=#000000 width=2><color=#ffb533>35%</c></outline>，在释放持续恢复效果时，若目标身上已存在治疗效果，则立即结算原效果剩余回合数。",
     "key1": "recover_settle",
     "value1": true,
-    "key2": "cleanDebuff_anger",
-    "value2": 1
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
+    "key3": "normal_buff1",
+    "value3": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
   },
   "50110005": {
     "icon": 50110005,
     "name": "祈愿",
     "qa": 3,
-    "des": "小樱入场时发动一次强力掌仙术，恢复友方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>40%最大生命值，并添加<outline color=#000000 width=2><color=#ffb533>25%</c></outline>攻击的<outline color=#000000 width=2><color=#ffb533>持续恢复</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "des": "入场时发动一次强力掌仙术，恢复友方全体<outline color=#000000 width=2><color=#ffb533>40%</c></outline>最大生命值，并添加<outline color=#000000 width=2><color=#ffb533>35%</c></outline>攻击的持续恢复效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"team_all\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}",
     "key2": "beginSkill",
@@ -5276,19 +5274,17 @@
     "icon": 50111003,
     "name": "医疗精通",
     "qa": 4,
-    "des": "纲手精通医疗之术，治疗效果增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "normal_heal_amp",
-    "value1": 0.2,
-    "key2": "skill_heal_amp",
-    "value2": 0.2
+    "des": "目标血量每减少<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，对其造成的的治疗量加成<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "key1": "low_hp_heal",
+    "value1": 0.1
   },
   "50111004": {
     "icon": 50111004,
     "name": "蛞蝓",
     "qa": 4,
-    "des": "纲手的通灵兽蛞蝓能够辅助团队，普通治疗会为友方附加<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>的效果，可吸收<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限的伤害",
-    "key1": "normal_buff1",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+    "des": "治疗忍者释放技能时，对己方血量最少忍者造成治疗效果额外提升<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
+    "key1": "heal_min_hp_rate",
+    "value1": 0.3
   },
   "50111005": {
     "icon": 50111005,
@@ -5312,37 +5308,37 @@
     "icon": 50112003,
     "name": "六道",
     "qa": 4,
-    "des": "千手扉间精于<outline color=#000000 width=2><color=#ffb533>六道</c></outline>之术，每回合获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>六道</c></outline>效果,当叠满10层时，每回合行动后随机<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline><outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标",
-    "key1": "action_buff",
-    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "被减速状态下的敌人攻击时会被激怒，恢复<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "cold_hit_anger",
+    "value1": 1
   },
   "50112004": {
     "icon": 50112004,
     "name": "水流破",
     "qa": 4,
-    "des": "千手扉间在释放技能时，会破坏<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline>伤害提升为<outline color=#000000 width=2><color=#ffb533>150%</c></outline>，并<outline color=#000000 width=2><color=#ffb533>45%</c></outline>概率概率重新附加<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline>效果",
-    "key1": "thawing_frozen",
-    "value1": 0.5,
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
+    "des": "每回合获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>六道</c></outline>效果，当叠满<outline color=#000000 width=2><color=#ffb533>10</c></outline>层时，每回合行动后随机<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline>一个敌方目标【六道：每层增加自身<outline color=#000000 width=2><color=#ffb533>5%</c></outline>免伤，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，最大可叠加<outline color=#000000 width=2><color=#ffb533>10</c></outline>层】",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50112005": {
     "icon": 50112005,
     "name": "水遁之怒",
     "qa": 4,
-    "des": "千手扉间精于水遁之术，被<outline color=#000000 width=2><color=#ffb533>减速</c></outline>状态下的敌人攻击时会被激怒，恢复<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "cold_hit_anger",
-    "value1": 1
+    "des": "敌方每获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果，自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>六道</c></outline>。当叠满<outline color=#000000 width=2><color=#ffb533>10</c></outline>层时，每回合行动后随机<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline>一个敌方目标【六道：每层增加自身<outline color=#000000 width=2><color=#ffb533>5%</c></outline>免伤，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，最大可叠加<outline color=#000000 width=2><color=#ffb533>10</c></outline>层】",
+    "key1": "listen_enemyBuff",
+    "value1": "cold",
+    "key2": "listen_addBuff",
+    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
   },
   "50112006": {
     "icon": 50112006,
     "name": "六道轮回",
     "qa": 4,
-    "des": "千手扉间在场时，在场时，敌方每获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果，自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>六道</c></outline>。当叠满10层时，每回合行动后随机<outline color=#000000 width=2><color=#ffb533>禁锢</c></outline><outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标",
-    "key1": "listen_enemyBuff",
-    "value1": "cold",
-    "key2": "listen_addBuff",
-    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+    "des": "生命值低于<outline color=#000000 width=2><color=#ffb533>30%</c></outline>时触发冰神降临，<outline color=#000000 width=2><color=#ffb533>驱散</c></outline>自身所有异常状态，<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>控制效果，提升自身<outline color=#000000 width=2><color=#ffb533>30%</c></outline>免伤，受到直接攻击有<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率冰冻敌人，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，每场战斗只能触发<outline color=#000000 width=2><color=#ffb533>1</c></outline>次",
+    "key1": "less_hp_rate",
+    "value1": 0.3,
+    "key2": "less_hp_buff",
+    "value2": "bingshen"
   },
   "50201003": {
     "icon": 50201003,
@@ -5356,7 +5352,15 @@
     "icon": 50201004,
     "name": "暴怒",
     "qa": 3,
-    "des": "佐助充满愤怒，进入战斗首回合攻击必定暴击；对<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>状态下的目标暴击率增加<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
+    "des": "每击败<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，暴击伤害增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "key1": "kill_slay",
+    "value1": 0.1
+  },
+  "50201005": {
+    "icon": 50201005,
+    "name": "写轮眼",
+    "qa": 3,
+    "des": "进入战斗首回合攻击<outline color=#000000 width=2><color=#ffb533>必定暴击</c></outline>；对灼烧状态下的目标暴击率增加<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
     "key1": "first_crit",
     "value1": true,
     "key2": "burn_att_change_skill",
@@ -5364,37 +5368,29 @@
     "key3": "burn_att_change_normal",
     "value3": "{\"crit\":0.3}"
   },
-  "50201005": {
-    "icon": 50201005,
-    "name": "写轮眼",
-    "qa": 3,
-    "des": "佐助的写轮眼能够吸取他人力量，每击败<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，暴击伤害增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
-    "key1": "kill_slay",
-    "value1": 0.1
-  },
   "50202003": {
     "icon": 50202003,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "天天愈战愈勇，生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，伤害增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
-    "key1": "low_hp_amp",
+    "des": "生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，暴击增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
+    "key1": "low_hp_crit",
     "value1": 0.05
   },
   "50202004": {
     "icon": 50202004,
     "name": "忍具强化",
     "qa": 3,
-    "des": "天天能够不断强化忍具，释放技能后为自身添加<outline color=#000000 width=2><color=#ffb533>暴怒</c></outline>状态，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "skill_buff1",
+    "des": "释放技能后为自身添加<outline color=#000000 width=2><color=#ffb533>暴怒</c></outline>状态，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50202005": {
     "icon": 50202005,
     "name": "法术强化",
     "qa": 3,
-    "des": "天天能够不断强化自身的能力，自身每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>个增益效果，造成的伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "my_intensify_amp",
-    "value1": 0.2
+    "des": "入场时，敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>暴击印记</c></outline>的效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"crit_seal\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50203003": {
     "icon": 50203003,
@@ -5434,17 +5430,17 @@
     "icon": 50204004,
     "name": "驱散",
     "qa": 3,
-    "des": "阿斯玛每回合行动前解除自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>个减益效果",
-    "key1": "remove_one_lower",
-    "value1": true
+    "des": "攻击处于灼烧状态的目标时，造成伤害的<outline color=#000000 width=2><color=#ffb533>50%</c></outline>治疗自己",
+    "key1": "skill_burn_turn_heal",
+    "value1": 0.5
   },
   "50204005": {
     "icon": 50204005,
     "name": "烈焰蚕食",
     "qa": 3,
-    "des": "阿斯玛攻击处于<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>状态的目标时，造成伤害的<outline color=#000000 width=2><color=#ffb533>50%</c></outline>治疗自己",
-    "key1": "skill_burn_turn_heal",
-    "value1": 0.5
+    "des": "入场时，为友方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>烈焰护体</c></outline>的效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50205003": {
     "icon": 50205003,
@@ -5452,27 +5448,25 @@
     "qa": 3,
     "des": "迈特凯施加火遁法术，所有攻击有<outline color=#000000 width=2><color=#ffb533>65%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}",
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.55}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
+    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.55}"
   },
   "50205004": {
     "icon": 50205004,
     "name": "强袭",
     "qa": 3,
-    "des": "迈特凯技能攻击<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>目标的伤害增幅额外增加<outline color=#000000 width=2><color=#ffb533>60%</c></outline>",
+    "des": "若对方处于灼烧状态，<outline color=#000000 width=2><color=#ffb533>移除</c></outline>灼烧额外造成伤害提高<outline color=#000000 width=2><color=#ffb533>50%</c></outline>",
     "key1": "thawing_burn",
-    "value1": 0.6
+    "value1": 0.5
   },
   "50205005": {
     "icon": 50205005,
     "name": "背水一战",
     "qa": 3,
-    "des": "被灼烧的忍者无法获得<outline color=#000000 width=2><color=#ffb533>无敌盾</c></outline>和<outline color=#000000 width=2><color=#ffb533>无敌吸血盾</c></outline>效果，而且被受到灼烧状态的敌人攻击时，受到的直接伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "burn_not_invincible",
-    "value1": true,
-    "key2": "burn_hit_reduction",
-    "value2": 0.2
+    "des": "触发移除灼烧造成伤害时，为自身添加<outline color=#000000 width=2><color=#ffb533>护盾</c></outline>，吸收最大生命值<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的伤害，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "thawing_burn_hudun",
+    "value1": 0.2
   },
   "50206003": {
     "icon": 50206003,
@@ -5506,53 +5500,53 @@
     "qa": 3,
     "des": "鼬的写轮眼使他命中率不会被降低，攻击<outline color=#000000 width=2><color=#ffb533>必定命中</c></outline>",
     "key1": "skill_must_hit",
-    "value1": true
+    "value1": true,
+    "key2": "skill_burn_turn_heal",
+    "value2": 0.5
   },
   "50207004": {
     "icon": 50207004,
     "name": "瞳术幻境",
     "qa": 3,
-    "des": "释放技能时，如果目标处于灼烧状态，造成伤害的<outline color=#000000 width=2><color=#ffb533>50%</c></outline>转化为生命，治疗自己",
-    "key1": "skill_burn_turn_heal",
-    "value1": 0.5
-  },
-  "50207005": {
-    "icon": 50207005,
-    "name": "黑色之焰",
-    "qa": 3,
-    "des": "鼬的黑焰能够削弱目标，攻击<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>目标伤害增加<outline color=#000000 width=2><color=#ffb533>50%</c></outline>",
+    "des": "攻击灼烧目标伤害增加<outline color=#000000 width=2><color=#ffb533>50%</c></outline>",
     "key1": "burn_att_change_skill",
     "value1": "{\"amplify\":0.5}",
     "key2": "burn_att_change_normal",
     "value2": "{\"amplify\":0.5}"
   },
+  "50207005": {
+    "icon": 50207005,
+    "name": "黑色之焰",
+    "qa": 3,
+    "des": "自身攻击灼烧的目标时，目标无法获得<outline color=#000000 width=2><color=#ffb533>无敌盾</c></outline>和<outline color=#000000 width=2><color=#ffb533>无敌吸血盾</c></outline>的效果",
+    "key1": "burn_not_invincible",
+    "value1": true
+  },
   "50208003": {
     "icon": 50208003,
     "name": "火遁之术",
     "qa": 3,
-    "des": "自来也不受火属性技能伤害，战斗开始时获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>超级无敌盾</c></outline>，<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>伤害和控制效果",
-    "key1": "specie_immune",
-    "value1": 10,
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "des": "所有攻击有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50208004": {
     "icon": 50208004,
-    "name": "嘲讽",
+    "name": "为师之道",
     "qa": 3,
-    "des": "自来也十分擅长<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>，所有攻击有<outline color=#000000 width=2><color=#ffb533>55%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果",
-    "key1": "normal_buff",
-    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
+    "des": "释放技能时，<outline color=#000000 width=2><color=#ffb533>无敌吸血盾</c></outline>转而为我方两名血量最少的目标释放，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_minHp_2\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50208005": {
     "icon": 50208005,
     "name": "仙人之力",
     "qa": 3,
-    "des": "自来也的仙人查克拉能够在击败目标后，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>超级无敌盾</c></outline>",
-    "key1": "kill_buff",
-    "value1": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "des": "战斗开始时，自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>无敌吸血盾</c></outline>",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50209003": {
     "icon": 50209003,
@@ -5599,7 +5593,7 @@
     "name": "忍具强化",
     "qa": 3,
     "des": "天天能够不断强化忍具，释放技能后为自身添加<outline color=#000000 width=2><color=#ffb533>暴怒</c></outline>状态，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "skill_buff1",
+    "key1": "skill_buff",
     "value1": "{\"buffId\":\"baonu\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50210005": {
@@ -5650,93 +5644,91 @@
     "icon": 50212003,
     "name": "灵魂灼烧",
     "qa": 4,
-    "des": "所有攻击有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果",
+    "des": "普通攻击时，<outline color=#000000 width=2><color=#ffb533>65%</c></outline>概率为目标附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
+    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.55}"
   },
   "50212004": {
     "icon": 50212004,
     "name": "查克拉窃取",
     "qa": 4,
-    "des": "直接伤害导致死亡时<outline color=#000000 width=2><color=#ffb533>100%眩晕</c></outline>击杀自己的敌方忍者",
-    "key1": "died_later_buff",
-    "value1": "{\"buffId\":\"dizzy\",\"duration\":2,\"buffRate\":1}"
+    "des": "自身造成的眩晕效果结束后，晕眩目标降低<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气",
+    "key1": "dizzy_less_anger",
+    "value1": 2
   },
   "50212005": {
     "icon": 50212005,
     "name": "轮回眼",
     "qa": 4,
     "des": "技能触发的眩晕效果结束后，被晕眩的目标降低<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气",
-    "key1": "dizzy_less_anger",
-    "value1": 2
+    "key1": "action_clean_debuff",
+    "value1": true,
+    "key2": "action_clean_hp",
+    "value2": 0.2
   },
   "50212006": {
     "icon": 50212006,
     "name": "宇智波之血",
     "qa": 4,
-    "des": "死亡时释放<outline color=#000000 width=2><color=#ffb533>1</c></outline>次技能，<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率眩晕<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>目标。普通攻击时，如果目标处于<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>状态，有<outline color=#000000 width=2><color=#ffb533>80%</c></outline>的概率对目标附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果",
-    "key1": "died_burn_buff_must",
+    "des": "死亡时释放<outline color=#000000 width=2><color=#ffb533>1</c></outline>次技能，<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>灼烧目标。",
+    "key1": "died_use_skill",
     "value1": true,
-    "key2": "burn_buff_change_normal",
-    "value2": "{\"buffId\":\"dizzy\",\"duration\":1,\"buffRate\":0.8}"
+    "key2": "died_burn_buff_must",
+    "value2": true
   },
   "50301003": {
-    "icon": 50301003,
-    "name": "幻术笼罩",
+    "icon": 50306003,
+    "name": "扩散",
     "qa": 3,
-    "des": "止水的幻术能够影响敌方的情绪，普通攻击降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气值",
-    "key1": "normal_less_anger",
-    "value1": 1
+    "des": "手鞠的忍术能够扩散，攻击时有概率额外增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标"
   },
   "50301004": {
-    "icon": 50301004,
-    "name": "瞬身刺击",
+    "icon": 50306004,
+    "name": "撕裂",
     "qa": 3,
-    "des": "止水触发<outline color=#000000 width=2><color=#ffb533>飞雷神印记</c></outline>时，额外造成目标<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命值上限的伤害",
-    "key1": "add_default_maxHp",
-    "value1": 0.15
+    "des": "手鞠的风遁攻击能够撕裂敌人伤口，对<outline color=#000000 width=2><color=#ffb533>撕裂</c></outline>状态的目标造成伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "key1": "bleed_amp",
+    "value1": 0.2
   },
   "50301005": {
-    "icon": 50301005,
-    "name": "幻术袭击",
+    "icon": 50306005,
+    "name": "侵蚀",
     "qa": 3,
-    "des": "止水入场时发动幻术，对敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>添加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>飞雷神印记</c></outline>",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "手鞠在释放技能时，目标身上每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>撕裂</c></outline>效果，额外造成<outline color=#000000 width=2><color=#ffb533>3%</c></outline>最大生命值的伤害",
+    "key1": "skill_bleed_maxHp",
+    "value1": 0.03
   },
   "50302003": {
     "icon": 50302003,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "水木愈战愈勇，生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，伤害增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
-    "key1": "low_hp_amp",
-    "value1": 0.05
+    "des": "释放技能后恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_anger_s",
+    "value1": 1
   },
   "50302004": {
     "icon": 50302004,
     "name": "偷袭",
     "qa": 3,
-    "des": "水木善于偷袭，技能额外造成目标<outline color=#000000 width=2><color=#ffb533>8%</c></outline>最大生命值伤害",
-    "key1": "maxHP_damage",
-    "value1": 0.08
+    "des": "释放技能后，为我方全体增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>疾速</c></outline>，增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>的速度，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50302005": {
     "icon": 50302005,
     "name": "嗜血",
     "qa": 3,
-    "des": "水木战斗开始时自身获得<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>状态，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "des": "入场时，为我方全体增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>疾速</c></outline>，增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>的速度，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50303003": {
     "icon": 50303003,
     "name": "不屈之心",
     "qa": 3,
-    "des": "勘九郎拥有不屈的体质，满血受致命攻击时，至少保留<outline color=#000000 width=2><color=#ffb533>1</c></outline>点生命值。",
-    "key1": "full_hp_save",
-    "value1": true
+    "des": "技能暴击时，对目标额外造成<outline color=#000000 width=2><color=#ffb533>10%</c></outline>生命上限的伤害。",
+    "key1": "skill_crit_maxHp",
+    "value1": 0.1
   },
   "50303004": {
     "icon": 50303004,
@@ -5784,47 +5776,49 @@
     "icon": 50305003,
     "name": "天之咒印",
     "qa": 3,
-    "des": "君麻吕拥有天之咒印，自身所有攻击所附加的控制效果的概率提升<outline color=#000000 width=2><color=#ffb533>12%</c></outline>",
-    "key1": "atkcontrol",
-    "value1": 0.12
+    "des": "受到直接伤害时，伤害的<outline color=#000000 width=2><color=#ffb533>30%</c></outline>反弹给攻击者",
+    "key1": "hit_rebound",
+    "value1": 0.3
   },
   "50305004": {
     "icon": 50305004,
     "name": "尸骨脉",
     "qa": 3,
-    "des": "君麻吕的尸骨脉能从<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>目标身上汲取能量，每当自身<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline><outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标，自身可获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "dizzy_add_anger",
-    "value1": 1
+    "des": "反伤效果增加至<outline color=#000000 width=2><color=#ffb533>60%</c></outline>",
+    "key1": "hit_rebound",
+    "value1": 0.3
   },
   "50305005": {
     "icon": 50305005,
     "name": "血继限界",
     "qa": 3,
-    "des": "君麻吕的血继限界十分特殊，入场时，<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>敌方攻击最高的目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "des": "每次受到直接伤害后，恢复自身<outline color=#000000 width=2><color=#ffb533>5%</c></outline>的生命值",
+    "key1": "behit_heal",
+    "value1": 0.05
   },
   "50306003": {
-    "icon": 50306003,
-    "name": "扩散",
+    "icon": 50301003,
+    "name": "幻术笼罩",
     "qa": 3,
-    "des": "手鞠的忍术能够扩散，攻击时有概率额外增加<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标"
+    "des": "止水的幻术能够影响敌方的情绪，普通攻击降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气值",
+    "key1": "normal_less_anger",
+    "value1": 1
   },
   "50306004": {
-    "icon": 50306004,
-    "name": "撕裂",
+    "icon": 50301004,
+    "name": "瞬身刺击",
     "qa": 3,
-    "des": "手鞠的风遁攻击能够撕裂敌人伤口，对<outline color=#000000 width=2><color=#ffb533>撕裂</c></outline>状态的目标造成伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
-    "key1": "bleed_amp",
-    "value1": 0.2
+    "des": "触发瞬身印记效果时，额外造成目标<outline color=#000000 width=2><color=#ffb533>10%</c></outline>生命值上限的伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.1
   },
   "50306005": {
-    "icon": 50306005,
-    "name": "侵蚀",
+    "icon": 50301005,
+    "name": "幻术袭击",
     "qa": 3,
-    "des": "手鞠在释放技能时，目标身上每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>撕裂</c></outline>效果，额外造成<outline color=#000000 width=2><color=#ffb533>3%</c></outline>最大生命值的伤害",
-    "key1": "skill_bleed_maxHp",
-    "value1": 0.03
+    "des": "入场时发动幻术，对敌方全体添加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>瞬身</c></outline>",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "50307003": {
     "icon": 50307003,
@@ -5870,7 +5864,7 @@
     "icon": 50308005,
     "name": "狂暴傀儡",
     "qa": 3,
-    "des": "入场时，敌方全体附加1层<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合<outline color=#000000 width=2><color=#ffb533>中毒</c></outline>效果",
+    "des": "入场时，敌方全体附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合<outline color=#000000 width=2><color=#ffb533>中毒</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -5900,9 +5894,9 @@
     "icon": 50310003,
     "name": "不屈之心",
     "qa": 3,
-    "des": "勘九郎拥有不屈的体质，满血状态时，受到的伤害减少<outline color=#000000 width=2><color=#ffb533>60%</c></outline>.",
-    "key1": "full_hp_red",
-    "value1": 0.6
+    "des": "技能暴击时，对目标额外造成<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限的伤害。",
+    "key1": "skill_crit_maxHp",
+    "value1": 0.15
   },
   "50310004": {
     "icon": 50310004,
@@ -5944,37 +5938,33 @@
     "icon": 50311005,
     "name": "砂之铠",
     "qa": 4,
-    "des": "我爱罗控制黄砂包围自身与友军，每回合获得<outline color=#000000 width=2><color=#ffb533>20%</c></outline>最大生命值的护盾，并在出场时为友方添加同等的护盾",
-    "key1": "action_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}",
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
+    "des": "出场时，为全体友方附加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>护盾%</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
   "50311006": {
     "icon": 50311006,
     "name": "守鹤之怒",
     "qa": 4,
-    "des": "我爱罗被守鹤守护，受到致命伤害时必定触发保命，保留<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命值，该技能触发后冷却<outline color=#000000 width=2><color=#ffb533>4</c></outline>回合",
-    "key1": "passive1",
-    "value1": "bm_hx"
+    "des": "每回合获得<outline color=#000000 width=2><color=#ffb533>20%</c></outline>最大生命值的<outline color=#000000 width=2><color=#ffb533>护盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":1}"
   },
   "50312003": {
     "icon": 50312003,
     "name": "飞雷神之术",
     "qa": 4,
-    "des": "波风水门精通飞雷神之术，速度增加<outline color=#000000 width=2><color=#ffb533>25%</c></outline>",
-    "key1": "self_speed_add",
-    "value1": 0.25
+    "des": "释放技能时，为自身附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>疾速</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50312004": {
     "icon": 50312004,
     "name": "弱点攻击",
     "qa": 4,
-    "des": "波风水门能够迅速找到敌人的弱点，所有攻击额外附加<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限伤害",
+    "des": "普通攻击额外附加<outline color=#000000 width=2><color=#ffb533>13%</c></outline>生命上限伤害",
     "key1": "normal_change",
-    "value1": 50312011,
-    "key2": "maxHP_damage",
-    "value2": 0.15
+    "value1": 50312011
   },
   "50312005": {
     "icon": 50312005,
@@ -5998,25 +5988,25 @@
     "icon": 50401003,
     "name": "严阵以待",
     "qa": 3,
-    "des": "速度增加<outline color=#000000 width=2><color=#ffb533>25%</c></outline>",
-    "key1": "self_speed_add",
-    "value1": 0.25
+    "des": "被附加虫蛀状态下的敌方目标命中率降低<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
+    "key1": "sand_low_hit",
+    "value1": 0.3
   },
   "50401004": {
     "icon": 50401004,
     "name": "迷眼虫",
     "qa": 3,
-    "des": "油女志乃的<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>会蒙蔽敌人的双眼，被附加<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>状态下的敌方目标命中率降低<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
-    "key1": "sand_low_hit",
-    "value1": 0.3
+    "des": "被附加虫蛀状态下的敌方目标攻击力降低<outline color=#000000 width=2><color=#ffb533>35%</c></outline>",
+    "key1": "sand_low_damage",
+    "value1": 0.35
   },
   "50401005": {
     "icon": 50401005,
     "name": "削弱虫",
     "qa": 3,
-    "des": "油女志乃的<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>会削弱敌人的攻击，被附加<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>状态下的敌方目标攻击力降低<outline color=#000000 width=2><color=#ffb533>35%</c></outline>",
-    "key1": "sand_low_damage",
-    "value1": 0.35
+    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_3\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
   },
   "50402003": {
     "icon": 50402003,
@@ -6046,101 +6036,55 @@
     "icon": 50403003,
     "name": "甘之若饴",
     "qa": 3,
-    "des": "生命值增加<outline color=#000000 width=2><color=#ffb533>15%</c></outline>",
-    "key1": "self_maxHP_add",
-    "value1": 0.15
+    "des": "添加灵魂窃取的目标受到的回怒效果<outline color=#000000 width=2><color=#ffb533>转移</c></outline>至自身",
+    "key1": "soul_steal_anger",
+    "value1": true
   },
   "50403004": {
     "icon": 50403004,
     "name": "疗愈",
     "qa": 3,
-    "des": "释放技能时，立即结算诅咒伤害，且结算后再为目标添加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>",
-    "key1": "curse_settle",
-    "value1": true,
-    "key2": "skill_buff1",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>灵魂窃取</c></outline>，技能附加灵魂窃取的概率提高至<outline color=#000000 width=2><color=#ffb533>100%</c></outline>",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50403005": {
     "icon": 50403005,
     "name": "激化",
     "qa": 3,
-    "des": "入场时，为敌方攻击最高的目标附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
+    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>1-3</c></outline>个目标附加灵魂窃取，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50404003": {
     "icon": 50404003,
     "name": "秘术守护",
     "qa": 3,
-    "des": "所有攻击有<outline color=#000000 width=2><color=#ffb533>50%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>咒印标记</c></outline>效果"
+    "des": "释放技能时，降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
   },
   "50404004": {
     "icon": 50404004,
     "name": "吞噬术",
     "qa": 3,
-    "des": "红豆的技能能够降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "skill_less_anger",
-    "value1": 1
+    "des": "释放技能时，立即<outline color=#000000 width=2><color=#ffb533>结算</c></outline>诅咒伤害，且结算后再为目标添加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "key1": "curse_settle",
+    "value1": true,
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50404005": {
     "icon": 50404005,
     "name": "报复诅咒",
     "qa": 3,
-    "des": "退场时释放<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>，诅咒随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个敌方添加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "des": "退场时释放诅咒，诅咒随机敌方单体，添加<outline color=#000000 width=2><color=#ffb533>5</c></outline>层<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "died_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"enemy_3\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"enemy_1\",\"buffArg\":5,\"duration\":3,\"buffRate\":1}"
   },
   "50405003": {
-    "icon": 50405003,
-    "name": "邪神体质",
-    "qa": 3,
-    "des": "飞段特殊的体质使他每回合行动后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果",
-    "key1": "action_buff1",
-    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
-  },
-  "50405004": {
-    "icon": 50405004,
-    "name": "邪神守护",
-    "qa": 3,
-    "des": "飞段嗜血成性，入场时，获得<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
-  },
-  "50405005": {
-    "icon": 50405005,
-    "name": "嗜血",
-    "qa": 3,
-    "des": "受到致命伤害时，继续存活两回合，若两回合后生命值为正数，则不会死亡，此技能触发后冷却<outline color=#000000 width=2><color=#ffb533>5</c></outline>回合",
-    "key1": "passive1",
-    "value1": "died_buff",
-    "key2": "passiveArg1",
-    "value2": "{\"buffId\":\"delay_death\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
-  },
-  "50406003": {
-    "icon": 50406003,
-    "name": "驱散",
-    "qa": 3,
-    "des": "千代婆婆每回合行动前解除自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>个减益效果",
-    "key1": "action_clean_debuff",
-    "value1": true
-  },
-  "50406004": {
-    "icon": 50406004,
-    "name": "嗜血傀儡",
-    "qa": 3,
-    "des": "千代婆婆的傀儡拥有<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>的能力，造成的伤害的<outline color=#000000 width=2><color=#ffb533>50%</c></outline>恢复自身生命值",
-    "key1": "phy_turn_hp",
-    "value1": 0.5
-  },
-  "50406005": {
-    "icon": 50406005,
-    "name": "傀儡袭击",
-    "qa": 3,
-    "des": "千代婆婆入场时控制傀儡偷袭敌人，可给敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>目标附加<outline color=#000000 width=2><color=#ffb533>虚弱</c></outline>效果<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
-  },
-  "50407003": {
     "icon": 50407003,
     "name": "坚强意志",
     "qa": 3,
@@ -6148,21 +6092,77 @@
     "key1": "control_buff_lowrate",
     "value1": 0.15
   },
-  "50407004": {
+  "50405004": {
     "icon": 50407004,
     "name": "沉默打击",
     "qa": 3,
-    "des": "井野的普通攻击有<outline color=#000000 width=2><color=#ffb533>60%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>目标",
-    "key1": "normal_buff",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+    "des": "释放技能后，降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_less_anger",
+    "value1": 1
   },
-  "50407005": {
+  "50405005": {
     "icon": 50407005,
     "name": "出其不意",
     "qa": 3,
-    "des": "井野发动奇袭，入场为敌方随机<outline color=#000000 width=2><color=#ffb533>1-2</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>",
+    "des": "入场为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>虚弱</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50406003": {
+    "icon": 50406003,
+    "name": "驱散",
+    "qa": 3,
+    "des": "目标身上每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>个负面效果，伤害增加<outline color=#000000 width=2><color=#ffb533>8%</c></outline>",
+    "key1": "enemy_low_amp",
+    "value1": 0.08
+  },
+  "50406004": {
+    "icon": 50406004,
+    "name": "嗜血傀儡",
+    "qa": 3,
+    "des": "所有攻击有<outline color=#000000 width=2><color=#ffb533>25%</c></outline>概率各附加<outline color=#000000 width=2><color=#ffb533>虚弱</c></outline>和<outline color=#000000 width=2><color=#ffb533>诅咒</c></outline>的效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}"
+  },
+  "50406005": {
+    "icon": 50406005,
+    "name": "傀儡袭击",
+    "qa": 3,
+    "des": "入场时控制傀儡偷袭敌人，可给敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>目标附加<outline color=#000000 width=2><color=#ffb533>咒印标记</c></outline>效果<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+  },
+  "50407003": {
+    "icon": 50405003,
+    "name": "邪神体质",
+    "qa": 3,
+    "des": "每回合行动后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果",
+    "key1": "action_buff1",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50407004": {
+    "icon": 50405004,
+    "name": "邪神守护",
+    "qa": 3,
+    "des": "普通攻击和技能攻击额外为自身附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+  },
+  "50407005": {
+    "icon": 50405005,
+    "name": "嗜血",
+    "qa": 3,
+    "des": "入场时，全体友方和自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>嗜血</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50408003": {
     "icon": 50408003,
@@ -6218,19 +6218,21 @@
     "icon": 50410003,
     "name": "严阵以待",
     "qa": 3,
-    "des": "自身免伤增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
-    "key1": "reduction",
-    "value1": 0.1
+    "des": "被附加虫蛀状态下的敌方目标命中率<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
+    "key1": "sand_low_hit",
+    "value1": 0.3
   },
   "50410004": {
     "icon": 50410004,
     "name": "迷眼虫",
     "qa": 3,
-    "des": "油女志乃的<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>会蒙蔽敌人的双眼，被附加<outline color=#000000 width=2><color=#ffb533>虫蛀</c></outline>状态下的敌方目标命中率和攻击力降低<outline color=#000000 width=2><color=#ffb533>30%</c></outline>",
-    "key1": "sand_low_hit",
-    "value1": 0.3,
-    "key2": "sand_low_damage",
-    "value2": 0.3
+    "des": "所有攻击附加虫蛀的概率，额外增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，被附加虫蛀状态下的敌方目标攻击力降低<outline color=#000000 width=2><color=#ffb533>35%</c></outline>",
+    "key1": "sand_low_damage",
+    "value1": 0.35,
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.55}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.85}"
   },
   "50410005": {
     "icon": 50410005,
@@ -6244,95 +6246,93 @@
     "icon": 50411003,
     "name": "金刚之怒",
     "qa": 4,
-    "des": "猿飞日斩沐浴怒火，释放技能时，目标怒气值不足<outline color=#000000 width=2><color=#ffb533>4</c></outline>点的部分，额外受到<outline color=#000000 width=2><color=#ffb533>20%</c></outline>伤害，目标怒气值超过<outline color=#000000 width=2><color=#ffb533>4</c></outline>点时，则降低<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
-    "key1": "skill_amp_or_lessAnger",
-    "value1": 0.2
+    "des": "进入战斗时,生命值提升<outline color=#000000 width=2><color=#ffb533>40%</c></outline>，但是每个回合会<outline color=#000000 width=2><color=#ffb533>流失</c></outline>【回合数*<outline color=#000000 width=2><color=#ffb533>2%</c></outline>】的生命,该伤害不会致死",
+    "key1": "maxHP_rate",
+    "value1": 1.4,
+    "key2": "maxHP_loss",
+    "value2": 0.02
   },
   "50411004": {
     "icon": 50411004,
     "name": "金箍棒",
     "qa": 4,
-    "des": "猿飞日斩的金箍棒能够吞噬敌人的怒火，击败目标后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，并吞噬其剩余怒气值",
-    "key1": "kill_anger",
-    "value1": 1,
-    "key2": "kill_rob_anger",
-    "value2": true
+    "des": "释放技能时,附加上回合所受伤害<outline color=#000000 width=2><color=#ffb533>100%</c></outline>平摊到所有目标忍者上(生命流失不视为受到伤害)",
+    "key1": "damage_save",
+    "value1": true
   },
   "50411005": {
     "icon": 50411005,
     "name": "统御之姿",
     "qa": 4,
-    "des": "猿飞日斩作为火影十分擅长统御之术，入场时，随机<outline color=#000000 width=2><color=#ffb533>封印</c></outline>敌方<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "des": "受到敌方普通攻击时，降低目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，并将受到普通攻击伤害的<outline color=#000000 width=2><color=#ffb533>50%</c></outline>转化为血量治疗自身",
+    "key1": "hit_less_anger",
+    "value1": 1,
+    "key2": "normal_atk_turn_hp",
+    "value2": 0.5
   },
   "50411006": {
     "icon": 50411006,
     "name": "不屈意志",
     "qa": 4,
-    "des": "猿飞日斩拥有不屈的意志，到致命伤害时保留<outline color=#000000 width=2><color=#ffb533>1</c></outline>点生命值，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合无敌效果，技能触发后冷却<outline color=#000000 width=2><color=#ffb533>4</c></outline>回合",
-    "key1": "passive1",
-    "value1": "bm_wd"
+    "des": "入场时，<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>目标，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50412003": {
     "icon": 50412003,
     "name": "坚毅之躯",
     "qa": 4,
-    "des": "所有攻击有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>灵魂窃取</c></outline>效果",
-    "key1": "normal_buff",
-    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+    "des": "行动后恢复自身攻击力<outline color=#000000 width=2><color=#ffb533>60%</c></outline>的生命值",
+    "key1": "round_heal_type",
+    "value1": "team_self",
+    "key2": "round_heal_value",
+    "value2": 0.6
   },
   "50412004": {
     "icon": 50412004,
     "name": "忍者之神",
     "qa": 4,
-    "des": "<outline color=#000000 width=2><color=#ffb533>灵魂窃取</c></outline>同时还能窃取目标的怒气回复",
-    "key1": "soul_steal_anger",
+    "des": "<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>减怒效果",
+    "key1": "banLessAnger",
     "value1": true
   },
   "50412005": {
     "icon": 50412005,
     "name": "木遁之力",
     "qa": 4,
-    "des": "入场时对敌方<outline color=#000000 width=2><color=#ffb533>1-2</c></outline>个目标释放灵魂窃取，灵魂窃取的回合数增加至<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"enemy_rand_12\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "释放技能时，回复自身和所有队友<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "skill_anger_a",
+    "value1": 1
   },
   "50412006": {
     "icon": 50412006,
     "name": "领袖之风",
     "qa": 4,
-    "des": "自身生命值低于<outline color=#000000 width=2><color=#ffb533>50%</c></outline>时进入仙人化状态，解除自身所有负面和控制状态，自身伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>，抗控增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，持续至战斗结束",
-    "key1": "less_hp_rate",
-    "value1": 0.5,
-    "key2": "less_hp_buff",
-    "value2": "juexing"
+    "des": "释放技能时，怒气最少的同阵营友方可额外行动<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "extraAtion",
+    "value1": true
   },
   "50501003": {
     "icon": 50501003,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "鸣人愈战愈勇，生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，伤害增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
-    "key1": "low_hp_amp",
-    "value1": 0.05
+    "des": "每当自身眩晕<outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标，自身可获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
+    "key1": "dizzy_add_anger",
+    "value1": 1
   },
   "50501004": {
     "icon": 50501004,
     "name": "九尾之躯",
     "qa": 3,
-    "des": "鸣人体内<outline color=#000000 width=2><color=#ffb533>封印</c></outline>着九尾，每次行动后恢复自身<outline color=#000000 width=2><color=#ffb533>10%</c></outline>最大生命值",
+    "des": "每次行动后恢复自身<outline color=#000000 width=2><color=#ffb533>8%</c></outline>最大生命值",
     "key1": "action_heal",
-    "value1": 0.1
+    "value1": 0.08
   },
   "50501005": {
     "icon": 50501005,
     "name": "号召力",
     "qa": 3,
-    "des": "鸣人拥有不俗的号召力，释放技能使敌人<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>时，同阵营忍者对<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>目标造成伤害增加<outline color=#000000 width=2><color=#ffb533>100%</c></outline>",
+    "des": "释放技能使敌人<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>时，同阵营忍者对<outline color=#000000 width=2><color=#ffb533>眩晕</c></outline>目标造成伤害增加<outline color=#000000 width=2><color=#ffb533>100%</c></outline>",
     "key1": "realm_dizzy_amp",
     "value1": 1
   },
@@ -6340,7 +6340,7 @@
     "icon": 50502003,
     "name": "回天",
     "qa": 3,
-    "des": "宁次的回天能够闪避敌人攻击，每回合行动结束后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，释放技能时，消耗所有<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，并给敌方附加对应层数的<outline color=#000000 width=2><color=#ffb533>破甲</c></outline>。",
+    "des": "每回合行动结束后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -6348,11 +6348,9 @@
     "icon": 50502004,
     "name": "反制姿态",
     "qa": 3,
-    "des": "宁次每次战斗后都能迅速回到反制姿态，闪避率增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>,成功闪避时，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，",
-    "key1": "dodgeRate",
-    "value1": 0.2,
-    "key2": "shanbi_fanzhi",
-    "value2": true
+    "des": "成功闪避时，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "shanbi_fanzhi",
+    "value1": true
   },
   "50502005": {
     "icon": 50502005,
@@ -6366,15 +6364,15 @@
     "icon": 50503003,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "白愈战愈勇，生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，伤害增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
-    "key1": "behit_heal",
-    "value1": 0.05
+    "des": "目标身上每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>破甲</c></outline>效果，造成伤害增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "key1": "pojia_amp",
+    "value1": 0.1
   },
   "50503004": {
     "icon": 50503004,
     "name": "冰晶散",
     "qa": 3,
-    "des": "白的冰晶能够自动寻找目标，技能击杀目标后，溢出伤害的<outline color=#000000 width=2><color=#ffb533>100%</c></outline>将对血量最高的攻击目标造成伤害",
+    "des": "技能击杀目标后，溢出伤害的<outline color=#000000 width=2><color=#ffb533>100%</c></outline>将对血量最高的攻击目标造成伤害",
     "key1": "overDamageToMaxHp",
     "value1": 1
   },
@@ -6382,7 +6380,7 @@
     "icon": 50503005,
     "name": "制冷",
     "qa": 3,
-    "des": "白入场时释放冰盾法术，使敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>破甲</c></outline>效果",
+    "des": "入场时使敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>破甲</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -6390,7 +6388,7 @@
     "icon": 50504003,
     "name": "幻术强化",
     "qa": 3,
-    "des": "红强化自身幻术，控制概率增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
+    "des": "控制概率增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
     "key1": "atkcontrol",
     "value1": 0.1
   },
@@ -6398,7 +6396,7 @@
     "icon": 50504004,
     "name": "沉默反击",
     "qa": 3,
-    "des": "红受到伤害时，有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加攻击方<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>效果",
+    "des": "受到伤害时，有<outline color=#000000 width=2><color=#ffb533>35%</c></outline>概率附加攻击方<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>效果",
     "key1": "hit_buff",
     "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -6406,7 +6404,7 @@
     "icon": 50504005,
     "name": "幻术反制",
     "qa": 3,
-    "des": "红死亡后，给敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>效果",
+    "des": "死亡后，给敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合<outline color=#000000 width=2><color=#ffb533>封穴</c></outline>效果",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -6414,25 +6412,23 @@
     "icon": 50505003,
     "name": "麻痹反制",
     "qa": 3,
-    "des": "静音受到攻击时有<outline color=#000000 width=2><color=#ffb533>30%</c></outline>概率对攻击方附加<outline color=#000000 width=2><color=#ffb533>麻痹</c></outline>效果",
-    "key1": "hit_buff",
-    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "des": "每回合行动前<outline color=#000000 width=2><color=#ffb533>驱散</c></outline>自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>个减益效果",
+    "key1": "remove_one_lower",
+    "value1": true
   },
   "50505004": {
     "icon": 50505004,
     "name": "不动如山",
     "qa": 3,
-    "des": "行动前受到的直接伤害降低<outline color=#000000 width=2><color=#ffb533>20%</c></outline>，每回合行动后恢复自身<outline color=#000000 width=2><color=#ffb533>2%</c></outline>最大生命值",
-    "key1": "before_action_red",
-    "value1": 0.2,
-    "key2": "action_heal",
-    "value2": 0.02
+    "des": "若该目标与自身同阵营，则<outline color=#000000 width=2><color=#ffb533>无敌盾</c></outline>消失或被清除时，恢复目标<outline color=#000000 width=2><color=#ffb533>25%</c></outline>最大生命值",
+    "key1": "invincibleHeal",
+    "value1": 0.25
   },
   "50505005": {
     "icon": 50505005,
     "name": "精英医忍",
     "qa": 3,
-    "des": "静音独特的法术能够守护友军，入场时产生<outline color=#000000 width=2><color=#ffb533>1</c></outline>个无敌盾保护血量最低友方，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "des": "入场时产生<outline color=#000000 width=2><color=#ffb533>1</c></outline>个无敌盾保护血量最低友方，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -6440,49 +6436,47 @@
     "icon": 50506003,
     "name": "愈战愈勇",
     "qa": 3,
-    "des": "佐井愈战愈勇，生命值每降低<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，伤害增加<outline color=#000000 width=2><color=#ffb533>5%</c></outline>",
-    "key1": "low_hp_amp",
-    "value1": 0.05
+    "des": "每回合行动结束后，为自身添加<outline color=#000000 width=2><color=#ffb533>免控盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50506004": {
     "icon": 50506004,
     "name": "木遁守护",
     "qa": 3,
-    "des": "佐井能够将伤害的<outline color=#000000 width=2><color=#ffb533>35%</c></outline>转化为护盾提供给己方生命值最少的友方",
-    "key1": "damage_firend_shild",
-    "value1": 0.35
+    "des": "释放技能后<outline color=#000000 width=2><color=#ffb533>驱散</c></outline>目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>个增益效果",
+    "key1": "skill_dispel_enemy",
+    "value1": true
   },
   "50506005": {
     "icon": 50506005,
     "name": "木遁壁垒",
     "qa": 3,
-    "des": "佐井入场时获得相当于自身生命上限<outline color=#000000 width=2><color=#ffb533>100%</c></outline>的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "des": "入场时，为我方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>英雄添加<outline color=#000000 width=2><color=#ffb533>免控盾</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50507003": {
     "icon": 50507003,
     "name": "雷遁",
     "qa": 3,
-    "des": "卡卡西的所有攻击附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
-    "key1": "normal_buff",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "des": "触发雷咒时有<outline color=#000000 width=2><color=#ffb533>55%</c></outline>概率<outline color=#000000 width=2><color=#ffb533>麻痹</c></outline>目标",
+    "key1": "gd_mb",
+    "value1": 0.55
   },
   "50507004": {
     "icon": 50507004,
     "name": "激发",
     "qa": 3,
-    "des": "卡卡西在释放技能时，触发目标身上所有<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
-    "key1": "flash_settle",
-    "value1": true
+    "des": "攻击雷咒目标时，自身回复<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气",
+    "key1": "skill_flash_anger",
+    "value1": 2
   },
   "50507005": {
     "icon": 50507005,
     "name": "出其不意",
     "qa": 3,
-    "des": "卡卡西入场时发动袭击，为敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
+    "des": "入场时为敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -6491,16 +6485,16 @@
     "name": "共生",
     "qa": 3,
     "des": "每次受到敌方伤害时恢复自身<outline color=#000000 width=2><color=#ffb533>5%</c></outline>最大生命值",
-    "key1": "behit_heal",
-    "value1": 0.05
+    "key1": "skill_heal_maxHp",
+    "value1": 0.15
   },
   "50508004": {
     "icon": 50508004,
     "name": "生生不息",
     "qa": 3,
-    "des": "入场时，为自身附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>坚毅</c></outline>效果",
+    "des": "入场时，<outline color=#000000 width=2><color=#ffb533>全体</c></outline>友方和自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>坚毅</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"god_shield\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50508005": {
     "icon": 50508005,
@@ -6538,7 +6532,7 @@
     "icon": 50510003,
     "name": "回天",
     "qa": 3,
-    "des": "宁次的回天能够闪避敌人攻击，每回合行动后，和成功闪避时，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>",
+    "des": "每回合行动后，和成功闪避时，获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>",
     "key1": "shanbi_fanzhi",
     "value1": true,
     "key2": "action_buff",
@@ -6548,17 +6542,15 @@
     "icon": 50510004,
     "name": "反制姿态",
     "qa": 3,
-    "des": "闪避率增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>,释放技能时，若<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>在<outline color=#000000 width=2><color=#ffb533>3</c></outline>层以上时，对目标添加<outline color=#000000 width=2><color=#ffb533>破伤</c></outline>效果",
+    "des": "释放技能时，若反制印记在<outline color=#000000 width=2><color=#ffb533>3</c></outline>层以上时，对目标添加<outline color=#000000 width=2><color=#ffb533>重伤</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
     "key1": "fanzhi_to_zs",
-    "value1": true,
-    "key2": "dodgeRate",
-    "value2": 0.2
+    "value1": true
   },
   "50510005": {
     "icon": 50510005,
     "name": "一转攻势",
     "qa": 3,
-    "des": "宁次能够将敌方的攻击转化为自身的攻势，释放技能时，每消耗<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，额外造成<outline color=#000000 width=2><color=#ffb533>12%</c></outline>目标最大生命值的伤害",
+    "des": "释放技能时，每消耗<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>反制印记</c></outline>，额外造成<outline color=#000000 width=2><color=#ffb533>12%</c></outline>目标最大生命值的伤害",
     "key1": "fanzhi_damage",
     "value1": 0.12
   },
@@ -6566,27 +6558,25 @@
     "icon": 50511003,
     "name": "雷之主",
     "qa": 4,
-    "des": "法术伤害提升<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
-    "key1": "mag_add",
-    "value1": 0.1
+    "des": "被敌方攻击时，为攻击方附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50511004": {
     "icon": 50511004,
     "name": "雷遁",
     "qa": 4,
-    "des": "艾的雷遁法术十分熟练，普攻额外添加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果，技能额外添加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
-    "key1": "normal_buff",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_buff",
-    "value2": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
+    "des": "释放技能时，<outline color=#000000 width=2><color=#ffb533>结算</c></outline>目标身上所有雷咒效果",
+    "key1": "flash_settle",
+    "value1": true
   },
   "50511005": {
     "icon": 50511005,
     "name": "蓝色闪光",
     "qa": 4,
-    "des": "艾闪电一般的身法让人难以防范，出场为敌方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>，退场时<outline color=#000000 width=2><color=#ffb533>结算</c></outline>所有敌人<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>",
+    "des": "入场时，为敌方<outline color=#000000 width=2><color=#ffb533>全体1</c></outline>附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合，退场时<outline color=#000000 width=2><color=#ffb533>结算</c></outline>敌方全体所有雷咒效果",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}",
     "key2": "flash_died_settle",
     "value2": true
   },
@@ -6594,47 +6584,51 @@
     "icon": 50511006,
     "name": "强力电流",
     "qa": 4,
-    "des": "艾的雷电之力更加强大，技能附加<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限伤害。战斗中每击败<outline color=#000000 width=2><color=#ffb533>1</c></outline>个目标，获得<outline color=#000000 width=2><color=#ffb533>30%</c></outline>血量的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>",
-    "key1": "maxHP_damage",
-    "value1": 0.15,
-    "key2": "kill_buff1",
-    "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
+    "des": "自身生命值低于<outline color=#000000 width=2><color=#ffb533>50%</c></outline>时进入<outline color=#000000 width=2><color=#ffb533>觉醒</c></outline>状态，<outline color=#000000 width=2><color=#ffb533>驱散</c></outline>自身所有负面和控制状态，自身伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>，抗控增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>，持续至战斗结束",
+    "key1": "less_hp_rate",
+    "value1": 0.5,
+    "key2": "less_hp_buff",
+    "value2": "juexing"
   },
   "50512003": {
     "icon": 50512003,
     "name": "九尾之力",
     "qa": 4,
-    "des": "鸣人体内<outline color=#000000 width=2><color=#ffb533>封印</c></outline>着九尾，每次当敌方被击败一人时，自身的伤害就增加<outline color=#000000 width=2><color=#ffb533>10%</c></outline>",
-    "key1": "enemy_died_amp",
-    "value1": 0.1
+    "des": "自身每有<outline color=#000000 width=2><color=#ffb533>1</c></outline>个增益效果，造成的伤害增加<outline color=#000000 width=2><color=#ffb533>20%</c></outline>",
+    "key1": "my_intensify_amp",
+    "value1": 0.2,
+    "key2": "begin_round_buffs",
+    "value2": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]",
+    "key3": "begin_round_buffs",
+    "value3": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]"
   },
   "50512004": {
     "icon": 50512004,
     "name": "羁绊守护",
     "qa": 4,
-    "des": "鸣人与友军拥有着强烈的羁绊，入场时给己方<outline color=#000000 width=2><color=#ffb533>全体</c></outline>附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合的仙术，自身获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>超级无敌盾</c></outline>，<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>所有伤害和控制效果",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
-    "key2": "first_buff",
-    "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
+    "des": "击败目标后获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，如果是技能击败目标，还将<outline color=#000000 width=2><color=#ffb533>吞噬</c></outline>其剩余怒气值",
+    "key1": "kill_anger",
+    "value1": 1,
+    "key2": "kill_rob_anger",
+    "value2": true
   },
   "50512005": {
     "icon": 50512005,
     "name": "阿修罗转世",
     "qa": 4,
-    "des": "鸣人是阿修罗转世，自身行动前受到的直接伤害降低<outline color=#000000 width=2><color=#ffb533>30%</c></outline>，每回合行动后恢复自身<outline color=#000000 width=2><color=#ffb533>15%</c></outline>最大生命值",
-    "key1": "before_action_red",
-    "value1": 0.3,
-    "key2": "action_heal",
-    "value2": 0.15
+    "des": "入场时给己方全体获得持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>仙术</c></outline>，自身获得持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>超级无敌盾</c></outline>，<outline color=#000000 width=2><color=#ffb533>免疫</c></outline>所有伤害和控制效果",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"invincibleSuper\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50512006": {
     "icon": 50512006,
     "name": "仙人模式",
     "qa": 4,
-    "des": "鸣人的仙人模式能够辅助队友，每回合为友方<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标随机获得<outline color=#000000 width=2><color=#ffb533>1</c></outline>个增益效果（<outline color=#000000 width=2><color=#ffb533>无敌吸血盾</c></outline>、铜墙铁壁、水神护盾、<outline color=#000000 width=2><color=#ffb533>免控盾</c></outline>、祝福）持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合",
-    "key1": "begin_round_buffs",
-    "value1": "[{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"immune\",\"buff_tg\":\"team_3\",\"buffArg\":0,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_3\",\"buffArg\":0.5,\"duration\":1,\"buffRate\":1}]"
+    "des": "受到致命伤害时必定触发<outline color=#000000 width=2><color=#ffb533>保命</c></outline>，保留<outline color=#000000 width=2>20%</c></outline>生命值，该技能触发后冷却<outline color=#000000 width=2><color=#ffb533>4</c></outline>回合",
+    "key1": "passive1",
+    "value1": "bm_hx"
   },
   "60105004": {
     "icon": 60105004,
@@ -7706,7 +7700,7 @@
     "icon": 50011005,
     "name": "凝血",
     "qa": 1,
-    "des": "行动后恢复自身1点怒气",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气",
     "key1": "action_anger",
     "value1": 1
   },
@@ -7714,7 +7708,7 @@
     "icon": 50011006,
     "name": "破之术",
     "qa": 1,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>1层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.2}"
   },
@@ -7968,7 +7962,7 @@
     "icon": 50012006,
     "name": "雷暴术",
     "qa": 4,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>感电</c></outline>效果",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -8456,7 +8450,7 @@
     "icon": 50013006,
     "name": "凝血",
     "qa": 2,
-    "des": "行动后恢复自身1点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>2%</c></outline>最大生命值",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>2%</c></outline>最大生命值",
     "key1": "action_anger",
     "value1": 1,
     "key2": "action_heal",
@@ -8466,7 +8460,7 @@
     "icon": 50014004,
     "name": "破之术",
     "qa": 2,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>30%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>1层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>30%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
@@ -8732,7 +8726,7 @@
     "icon": 50015004,
     "name": "雷暴术",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>感电</c></outline>效果",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
@@ -9236,7 +9230,7 @@
     "icon": 50021005,
     "name": "凝血",
     "qa": 3,
-    "des": "行动后恢复自身1点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>4%</c></outline>最大生命值",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>4%</c></outline>最大生命值",
     "key1": "action_anger",
     "value1": 1,
     "key2": "action_heal",
@@ -9246,7 +9240,7 @@
     "icon": 50021006,
     "name": "破之术",
     "qa": 3,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>40%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>1层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>40%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
   },
@@ -9506,7 +9500,7 @@
     "icon": 50022005,
     "name": "爆燃术",
     "qa": 3,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续4个回合",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续<outline color=#000000 width=2><color=#ffb533>4</c></outline>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -9516,7 +9510,7 @@
     "icon": 50022006,
     "name": "雷暴术",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>感电</c></outline>效果",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层<outline color=#000000 width=2><color=#ffb533>雷咒</c></outline>效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -9542,7 +9536,7 @@
     "icon": 50023006,
     "name": "结界守护",
     "qa": 3,
-    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续5个回合。",
+    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>15%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续<outline color=#000000 width=2><color=#ffb533>5</c></outline>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10014,7 +10008,7 @@
     "icon": 50023006,
     "name": "凝血",
     "qa": 4,
-    "des": "行动后恢复自身2点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>6%</c></outline>最大生命值",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>6%</c></outline>最大生命值",
     "key1": "action_anger",
     "value1": 2,
     "key2": "action_heal",
@@ -10024,7 +10018,7 @@
     "icon": 50024004,
     "name": "破之术",
     "qa": 4,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>1层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
@@ -10214,7 +10208,7 @@
     "icon": 50012004,
     "name": "多重手里剑",
     "qa": 6,
-    "des": "击杀目标后，获得<outline color=#000000 width=2><color=#ffb533>2点怒气，若自身仍有<outline color=#000000 width=2><color=#ffb533>足够怒气，则再次释放技能（每回合不限制次数）",
+    "des": "击杀目标后，获得<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气，若自身仍有<outline color=#000000 width=2><color=#ffb533>足够怒气，则再次释放技能（每回合不限制次数）",
     "key1": "killRet",
     "value1": true,
     "key2": "kill_anger",
@@ -10248,7 +10242,7 @@
     "icon": 50023004,
     "name": "爆燃术",
     "qa": 4,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续5个回合",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续<outline color=#000000 width=2><color=#ffb533>5</c></outline>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10276,7 +10270,7 @@
     "icon": 50024004,
     "name": "结界守护",
     "qa": 4,
-    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续5个回合。",
+    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续<outline color=#000000 width=2><color=#ffb533>5</c></outline>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10730,7 +10724,7 @@
     "icon": 50023004,
     "name": "凝血",
     "qa": 5,
-    "des": "行动后恢复自身2点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>8%</c></outline>最大生命值",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>8%</c></outline>最大生命值",
     "key1": "action_anger",
     "value1": 2,
     "key2": "action_heal",
@@ -10740,7 +10734,7 @@
     "icon": 50023005,
     "name": "破之术",
     "qa": 5,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>70%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>1层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>70%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.7}"
   },
@@ -10964,7 +10958,7 @@
     "icon": 50022006,
     "name": "爆燃术",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续6个回合",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续<outline color=#000000 width=2><color=#ffb533>6</c></outline>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10992,7 +10986,7 @@
     "icon": 50023006,
     "name": "结界守护",
     "qa": 5,
-    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>25%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续5个回合。",
+    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>25%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续<outline color=#000000 width=2><color=#ffb533>5</c></outline>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -11054,7 +11048,7 @@
     "icon": 50308005,
     "name": "五行封印",
     "qa": 5,
-    "des": "入场时，可给敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合，被普通攻击时，减低攻击目标1点怒气。",
+    "des": "入场时，可给敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合，被普通攻击时，减低攻击目标<outline color=#000000 width=2><color=#ffb533>1</c></outline>点怒气。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "hit_less_anger",
@@ -11380,7 +11374,7 @@
     "icon": 50021006,
     "name": "凝血",
     "qa": 6,
-    "des": "行动后恢复自身2点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>10%</c></outline>最大生命值",
+    "des": "行动后恢复自身<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气，并回复自身<outline color=#000000 width=2><color=#ffb533>10%</c></outline>最大生命值",
     "key1": "action_anger",
     "value1": 2,
     "key2": "action_heal",
@@ -11390,7 +11384,7 @@
     "icon": 50022004,
     "name": "破之术",
     "qa": 6,
-    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>100%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533>2层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
+    "des": "普通攻击有<outline color=#000000 width=2><color=#ffb533>100%</c></outline>的概率为敌方附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>2</c></outline>层破甲效果，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>个回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
@@ -11608,7 +11602,7 @@
     "icon": 50022004,
     "name": "爆燃术",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续7个回合",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续<outline color=#000000 width=2><color=#ffb533>7</c></outline>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -11636,7 +11630,7 @@
     "icon": 50023004,
     "name": "结界守护",
     "qa": 6,
-    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>30%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续5个回合。",
+    "des": "入场时，为我方全体附加持续<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合，<outline color=#000000 width=2><color=#ffb533>30%</c></outline>生命上限的<outline color=#000000 width=2><color=#ffb533>伤害吸收盾</c></outline>，并保护我方全体，分担全体队友所受到<outline color=#000000 width=2><color=#ffb533>50%</c></outline>的伤害，并增加全体队友<outline color=#000000 width=2><color=#ffb533>20%</c></outline>的免伤，持续<outline color=#000000 width=2><color=#ffb533>5</c></outline>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -11662,7 +11656,7 @@
     "icon": 50511004,
     "name": "封印术",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层虚弱效果<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，并每回合给敌方攻击最高的目标，附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的1层虚弱效果。",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>3</c></outline>层虚弱效果<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，并每回合给敌方攻击最高的目标，附加<outline color=#000000 width=2><color=#ffb533>1</c></outline>回合的<outline color=#000000 width=2><color=#ffb533>1</c></outline>层虚弱效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
     "key2": "action_buff",
@@ -11694,7 +11688,7 @@
     "icon": 50024004,
     "name": "极乐之匣",
     "qa": 6,
-    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合，并且每回合结束后给敌方随机<outline color=#000000 width=2><color=#ffb533>1-3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>1层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果。",
+    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合，并且每回合结束后给敌方随机<outline color=#000000 width=2><color=#ffb533>1-3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
@@ -11704,7 +11698,7 @@
     "icon": 50308005,
     "name": "五行封印",
     "qa": 6,
-    "des": "入场时，可给敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合，被普通攻击时，减低攻击目标2点怒气。",
+    "des": "入场时，可给敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>嘲讽</c></outline>效果，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>回合，被普通攻击时，减低攻击目标<outline color=#000000 width=2><color=#ffb533>2</c></outline>点怒气。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "hit_less_anger",
@@ -11814,7 +11808,7 @@
     "icon": 50015006,
     "name": "移花接木",
     "qa": 5,
-    "des": "受到致命伤害时<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率触发保命，保留<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命值，该技能触发后冷却4回合",
+    "des": "受到致命伤害时<outline color=#000000 width=2><color=#ffb533>100%</c></outline>概率触发保命，保留<outline color=#000000 width=2><color=#ffb533>20%</c></outline>生命值，该技能触发后冷却<outline color=#000000 width=2><color=#ffb533>4</c></outline>回合",
     "key1": "passive1",
     "value1": "bm_hx"
   },
@@ -11832,7 +11826,7 @@
     "icon": 50021005,
     "name": "爆燃术",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续7个回合敌方每次获得<outline color=#000000 width=2><color=#ffb533>灼烧效果，自身获得<outline color=#000000 width=2><color=#ffb533>1层圣火，每层圣火增加<outline color=#000000 width=2><color=#ffb533>自身3%</c></outline>免伤和暴击，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合。回合开始时，恢复我方全体20%</c></outline>攻击力*圣火层数的生命值，圣火最高可叠加10层。",
+    "des": "入场时，为敌方全体附加<outline color=#000000 width=2><color=#ffb533>灼烧</c></outline>效果,持续<outline color=#000000 width=2><color=#ffb533>7</c></outline>个回合敌方每次获得<outline color=#000000 width=2><color=#ffb533>灼烧效果，自身获得<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层圣火，每层圣火增加<outline color=#000000 width=2><color=#ffb533>自身3%</c></outline>免伤和暴击，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合。回合开始时，恢复我方全体20%</c></outline>攻击力*圣火层数的生命值，圣火最高可叠加10层。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -11846,7 +11840,7 @@
     "icon": 50021006,
     "name": "极乐之匣",
     "qa": 6,
-    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合，并且每回合结束后给敌方随机<outline color=#000000 width=2><color=#ffb533>1-3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>1层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果。敌方每次获得<outline color=#000000 width=2><color=#ffb533>寒冷效果，自身获得<outline color=#000000 width=2><color=#ffb533>1层冰晶。当叠满10层时，每回合行动后随机禁锢<outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标【冰晶：每层增加<outline color=#000000 width=2><color=#ffb533>自身5%</c></outline>免伤，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，最大可叠加10层】",
+    "des": "入场时，为敌方随机<outline color=#000000 width=2><color=#ffb533>3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533>2</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>，持续<outline color=#000000 width=2><color=#ffb533>2</c></outline>个回合，并且每回合结束后给敌方随机<outline color=#000000 width=2><color=#ffb533>1-3</c></outline>个目标附加<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层<outline color=#000000 width=2><color=#ffb533>减速</c></outline>效果。敌方每次获得<outline color=#000000 width=2><color=#ffb533>减速效果，自身获得<outline color=#000000 width=2><color=#ffb533><outline color=#000000 width=2><color=#ffb533>1</c></outline>层六道。当叠满10层时，每回合行动后随机禁锢<outline color=#000000 width=2><color=#ffb533>1</c></outline>个敌方目标【六道：每层增加<outline color=#000000 width=2><color=#ffb533>自身5%</c></outline>免伤，持续<outline color=#000000 width=2><color=#ffb533>3</c></outline>回合，最大可叠加10层】",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
