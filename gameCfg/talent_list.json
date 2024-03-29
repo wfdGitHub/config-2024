@@ -3322,7 +3322,7 @@
   "800340": {
     "icon": 50303005,
     "name": "冰霜之力",
-    "des": "每回合获得1层六道效果,当叠满10层时，每回合行动后随机禁锢1个敌方目标",
+    "des": "每回合获得1层冰霜效果,当叠满10层时，每回合行动后随机禁锢1个敌方目标",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -3603,7 +3603,7 @@
   "800710": {
     "icon": 50309002,
     "name": "泡泡冻结",
-    "des": "敌方每获得1层减速效果，自身获得1层六道。当叠满10层时，每回合行动后随机禁锢1个敌方目标",
+    "des": "敌方每获得1层寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机禁锢1个敌方目标",
     "key1": "listen_enemyBuff",
     "value1": "cold",
     "key2": "listen_addBuff",
@@ -6352,9 +6352,9 @@
     "qa": 3,
     "des": "所有攻击有25%概率各附加虚弱和诅咒的效果,持续2回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "50410005": {
     "icon": 50410005,
@@ -6392,7 +6392,7 @@
     "qa": 3,
     "des": "技能攻击时，有40%的概率额外附加虚弱，破甲效果，持续2回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
   },
   "50412004": {
     "name": "缓兵",
@@ -6748,11 +6748,9 @@
     "icon": 50510003,
     "name": "法箓",
     "qa": 3,
-    "des": "自身攻击优先选择隐身单位，对隐身单位的伤害增加60%",
+    "des": "自身攻击优先选择隐身单位",
     "key1": "preference_sneak",
-    "value1": true,
-    "key2": "sneak_amp",
-    "value2": 0.6
+    "value1": true
   },
   "50512004": {
     "icon": 50510004,
@@ -7262,7 +7260,7 @@
     "icon": 60130004,
     "name": "武将天赋",
     "qa": 3,
-    "des": "初始怒气+2，释放技能后为自身添加结界护盾，受到攻击时，有33%概率使目标增加1层减速，结界护盾持续2回合。",
+    "des": "初始怒气+2，释放技能后为自身添加结界护盾，受到攻击时，有33%概率使目标增加1层寒冷，结界护盾持续2回合。",
     "key1": "curAnger",
     "value1": 2,
     "key2": "skill_buff",
@@ -8174,7 +8172,7 @@
     "icon": 50012006,
     "name": "雷暴术",
     "qa": 4,
-    "des": "入场时，为敌方全体附加1层雷咒效果",
+    "des": "入场时，为敌方全体附加1层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -8938,7 +8936,7 @@
     "icon": 50015004,
     "name": "雷暴术",
     "qa": 5,
-    "des": "入场时，为敌方全体附加2层雷咒效果",
+    "des": "入场时，为敌方全体附加2层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
@@ -9722,7 +9720,7 @@
     "icon": 50022006,
     "name": "雷暴术",
     "qa": 6,
-    "des": "入场时，为敌方全体附加3层雷咒效果",
+    "des": "入场时，为敌方全体附加3层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -12052,7 +12050,7 @@
     "icon": 50021006,
     "name": "极乐之匣",
     "qa": 6,
-    "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。敌方每次获得减速效果，自身获得1层六道。当叠满10层时，每回合行动后随机禁锢一个敌方目标【六道：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
+    "des": "入场时，为敌方随机3个目标附加2层减速，持续2个回合，并且每回合结束后给敌方随机1-3个目标附加1层减速效果。敌方每次获得寒冷效果，自身获得1层冰霜。当叠满10层时，每回合行动后随机禁锢一个敌方目标【冰霜：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_3\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}",
     "key2": "action_buff",
@@ -13541,633 +13539,1541 @@
     "value1": 1
   },
   "sb_1011": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能偷取攻击效果提高至15%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1012": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能偷取攻击效果提高至20%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1013": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能偷取攻击效果提高至25%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1021": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能治疗量提升8%，且每回合行动后恢复自身4%最大生命",
+    "key1": "skill_heal_amp",
+    "value1": 0.08,
+    "key2": "action_heal",
+    "value2": 0.04
   },
   "sb_1022": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能治疗量提升12%，且每回合行动后恢复自身5%最大生命",
+    "key1": "skill_heal_amp",
+    "value1": 0.12,
+    "key2": "action_heal",
+    "value2": 0.05
   },
   "sb_1023": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能治疗量提升16%，且每回合行动后恢复自身6%最大生命",
+    "key1": "skill_heal_amp",
+    "value1": 0.16,
+    "key2": "action_heal",
+    "value2": 0.06
   },
   "sb_1031": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升8%，并获得5%的伤害减免",
+    "key1": "self_maxHP_add",
+    "value1": 0.08,
+    "key2": "reduction",
+    "value2": 0.05
   },
   "sb_1032": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升12%，并获得7%的伤害减免",
+    "key1": "self_maxHP_add",
+    "value1": 0.12,
+    "key2": "reduction",
+    "value2": 0.07
   },
   "sb_1033": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升16%，并获得10%的伤害减免",
+    "key1": "self_maxHP_add",
+    "value1": 0.16,
+    "key2": "reduction",
+    "value2": 0.1
   },
   "sb_1041": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加减速概率提升10%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.55}"
   },
   "sb_1042": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加减速概率提升20%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.65}"
   },
   "sb_1043": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加减速概率提升30%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.55}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.75}"
   },
   "sb_1051": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能后，有45%概率为生命值最低的友方目标额外提供一层能够吸收10%最大生命值的护盾，持续1回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_minHp_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":0.45}"
   },
   "sb_1052": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能后，有45%概率为生命值最低的友方目标额外提供一层能够吸收15%最大生命值的护盾，持续1回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_minHp_1\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":0.45}"
   },
   "sb_1053": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能后，有45%概率为生命值最低的友方目标额外提供一层能够吸收20%最大生命值的护盾，持续1回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_minHp_1\",\"buffArg\":0.2,\"duration\":1,\"buffRate\":0.45}"
   },
   "sb_1061": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击无视目标10%的物理防御，且命中率提升5%",
+    "key1": "neglect_def",
+    "value1": 0.1,
+    "key2": "hitRate",
+    "value2": 0.05
   },
   "sb_1062": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击无视目标14%的物理防御，且命中率提升7%",
+    "key1": "neglect_def",
+    "value1": 0.14,
+    "key2": "hitRate",
+    "value2": 0.07
   },
   "sb_1063": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击无视目标18%的物理防御，且命中率提升10%",
+    "key1": "neglect_def",
+    "value1": 0.18,
+    "key2": "hitRate",
+    "value2": 0.1
   },
   "sb_1071": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升8%，且攻击提升8%",
+    "key1": "self_maxHP_add",
+    "value1": 0.08,
+    "key2": "self_atk_add",
+    "value2": 0.08
   },
   "sb_1072": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升12%，且攻击提升12%",
+    "key1": "self_maxHP_add",
+    "value1": 0.12,
+    "key2": "self_atk_add",
+    "value2": 0.12
   },
   "sb_1073": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升16%，且攻击提升16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16,
+    "key2": "self_atk_add",
+    "value2": 0.16
   },
   "sb_1081": {
-    "qa": 3
+    "qa": 3,
+    "des": "被嘲讽状态下的目标攻击时，受到的伤害降低10%",
+    "key1": "cfRed",
+    "value1": 0.1
   },
   "sb_1082": {
-    "qa": 3
+    "qa": 3,
+    "des": "被嘲讽状态下的目标攻击时，受到的伤害降低15%",
+    "key1": "cfRed",
+    "value1": 0.15
   },
   "sb_1083": {
-    "qa": 3
+    "qa": 3,
+    "des": "被嘲讽状态下的目标攻击时，受到的伤害降低20%",
+    "key1": "cfRed",
+    "value1": 0.2
   },
   "sb_1091": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能有20%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.2
   },
   "sb_1092": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能有25%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.25
   },
   "sb_1093": {
-    "qa": 3
+    "qa": 3,
+    "des": "释放技能有30%概率不消耗怒气",
+    "key1": "skill_free",
+    "value1": 0.3
   },
   "sb_1101": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升8%，攻击时，若目标处于冰冻状态，则本次命中+20%",
+    "key1": "skill_attack_amp",
+    "value1": 0.08,
+    "key2": "target_exist_buff_name",
+    "value2": "frozen",
+    "key3": "target_exist_buff_att",
+    "value3": "hitRate",
+    "key4": "target_exist_buff_value",
+    "value4": 0.2
   },
   "sb_1102": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升12%，攻击时，若目标处于冰冻状态，则本次命中+25%",
+    "key1": "skill_attack_amp",
+    "value1": 0.12,
+    "key2": "target_exist_buff_name",
+    "value2": "frozen",
+    "key3": "target_exist_buff_att",
+    "value3": "hitRate",
+    "key4": "target_exist_buff_value",
+    "value4": 0.25
   },
   "sb_1103": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升16%，攻击时，若目标处于冰冻状态，则本次命中+30%",
+    "key1": "skill_attack_amp",
+    "value1": 0.16,
+    "key2": "target_exist_buff_name",
+    "value2": "frozen",
+    "key3": "target_exist_buff_att",
+    "value3": "hitRate",
+    "key4": "target_exist_buff_value",
+    "value4": 0.3
   },
   "sb_1111": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能附加的持续恢复效果提升至30%攻击力，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1112": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能附加的持续恢复效果提升至35%攻击力，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1113": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能附加的持续恢复效果提升至40%攻击力，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}"
   },
   "sb_1121": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升10%",
+    "key1": "skill_attack_amp",
+    "value1": 0.1
   },
   "sb_1122": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升18%",
+    "key1": "skill_attack_amp",
+    "value1": 0.18
   },
   "sb_1123": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能伤害提升26%，且释放技能后恢复自身1点怒气",
+    "key1": "skill_attack_amp",
+    "value1": 0.26,
+    "key2": "skill_anger_s",
+    "value2": 1
   },
   "sb_1131": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升8%，且每回合额外获得1层莲华效果",
+    "key1": "self_atk_add",
+    "value1": 0.08,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1132": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升12%，且每回合额外获得1层莲华效果",
+    "key1": "self_atk_add",
+    "value1": 0.12,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1133": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升16%，且每回合额外获得1层莲华效果",
+    "key1": "self_atk_add",
+    "value1": 0.16,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1141": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高5%的伤害加成",
+    "key1": "realm_friend_amp",
+    "value1": 0.05
   },
   "sb_1142": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高7%的伤害加成",
+    "key1": "realm_friend_amp",
+    "value1": 0.07
   },
   "sb_1143": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高9%的伤害加成",
+    "key1": "realm_friend_amp",
+    "value1": 0.09
   },
   "sb_2011": {
-    "qa": 3
+    "qa": 3,
+    "des": "对灼烧状态下的目标暴击率增加至20%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"crit\":0.2}"
   },
   "sb_2012": {
-    "qa": 3
+    "qa": 3,
+    "des": "对灼烧状态下的目标暴击率增加至25%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"crit\":0.25}"
   },
   "sb_2013": {
-    "qa": 3
+    "qa": 3,
+    "des": "对灼烧状态下的目标暴击率增加至30%",
+    "key1": "burn_att_change_skill",
+    "value1": "{\"crit\":0.3}"
   },
   "sb_2021": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，若目标存在暴击印记，暴击几率提升20%",
+    "key1": "target_exist_buff_name",
+    "value1": "crit_seal",
+    "key2": "target_exist_buff_att",
+    "value2": "crit",
+    "key3": "target_exist_buff_value",
+    "value3": 0.2
   },
   "sb_2022": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，若目标存在暴击印记，暴击几率提升25%",
+    "key1": "target_exist_buff_name",
+    "value1": "crit_seal",
+    "key2": "target_exist_buff_att",
+    "value2": "crit",
+    "key3": "target_exist_buff_value",
+    "value3": 0.25
   },
   "sb_2023": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，若目标存在暴击印记，暴击几率提升30%",
+    "key1": "target_exist_buff_name",
+    "value1": "crit_seal",
+    "key2": "target_exist_buff_att",
+    "value2": "crit",
+    "key3": "target_exist_buff_value",
+    "value3": 0.3
   },
   "sb_2031": {
-    "qa": 3
+    "qa": 3,
+    "des": "对流血状态的目标造成伤害增加15%",
+    "key1": "bleed_amp",
+    "value1": 0.15
   },
   "sb_2032": {
-    "qa": 3
+    "qa": 3,
+    "des": "对流血状态的目标造成伤害增加22%",
+    "key1": "bleed_amp",
+    "value1": 0.22
   },
   "sb_2033": {
-    "qa": 3
+    "qa": 3,
+    "des": "对流血状态的目标造成伤害增加30%",
+    "key1": "bleed_amp",
+    "value1": 0.3
   },
   "sb_2041": {
-    "qa": 3
+    "qa": 3,
+    "des": "拥有烈焰护体效果时，自身伤害减免提升8%",
+    "key1": "self_exist_buff_name",
+    "value1": "burn_shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.12
   },
   "sb_2042": {
-    "qa": 3
+    "qa": 3,
+    "des": "拥有烈焰护体效果时，自身伤害减免提升14%",
+    "key1": "self_exist_buff_name",
+    "value1": "burn_shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.14
   },
   "sb_2043": {
-    "qa": 3
+    "qa": 3,
+    "des": "拥有烈焰护体效果时，自身伤害减免提升20%",
+    "key1": "self_exist_buff_name",
+    "value1": "burn_shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.2
   },
   "sb_2051": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击目标时，若目标处于灼烧状态，则造成伤害的25%转化为生命，治疗自身生命值",
+    "key1": "skill_burn_turn_heal",
+    "value1": 0.25
   },
   "sb_2052": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击目标时，若目标处于灼烧状态，则造成伤害的30%转化为生命，治疗自身生命值",
+    "key1": "skill_burn_turn_heal",
+    "value1": 0.3
   },
   "sb_2053": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击目标时，若目标处于灼烧状态，则造成伤害的35%转化为生命，治疗自身生命值",
+    "key1": "skill_burn_turn_heal",
+    "value1": 0.35
   },
   "sb_2061": {
-    "qa": 3
+    "qa": 3,
+    "des": "敌方每1个减益效果，增加伤害12%",
+    "key1": "enemy_low_amp",
+    "value1": 0.12
   },
   "sb_2062": {
-    "qa": 3
+    "qa": 3,
+    "des": "敌方每1个减益效果，增加伤害14%",
+    "key1": "enemy_low_amp",
+    "value1": 0.14
   },
   "sb_2063": {
-    "qa": 3
+    "qa": 3,
+    "des": "敌方每1个减益效果，增加伤害16%",
+    "key1": "enemy_low_amp",
+    "value1": 0.16
   },
   "sb_2071": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击灼烧目标伤害增加至35%",
+    "key1": "target_exist_buff_name",
+    "value1": "burn",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.35
   },
   "sb_2072": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击灼烧目标伤害增加至40%",
+    "key1": "target_exist_buff_name",
+    "value1": "burn",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.4
   },
   "sb_2073": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击灼烧目标伤害增加至45%",
+    "key1": "target_exist_buff_name",
+    "value1": "burn",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.45
   },
   "sb_2081": {
-    "qa": 3
+    "qa": 3,
+    "des": "被灼烧状态下的敌人攻击时，受到的伤害降低12%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.12
   },
   "sb_2082": {
-    "qa": 3
+    "qa": 3,
+    "des": "被灼烧状态下的敌人攻击时，受到的伤害降低18%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.18
   },
   "sb_2083": {
-    "qa": 3
+    "qa": 3,
+    "des": "被灼烧状态下的敌人攻击时，受到的伤害降低24%",
+    "key1": "burn_hit_reduction",
+    "value1": 0.24
   },
   "sb_2091": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升8%，命中提升5%",
+    "key1": "self_atk_add",
+    "value1": 0.8,
+    "key2": "hitRate",
+    "value2": 0.5
   },
   "sb_2092": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升12%，命中提升7%",
+    "key1": "self_atk_add",
+    "value1": 0.12,
+    "key2": "hitRate",
+    "value2": 0.7
   },
   "sb_2093": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击力提升16%，命中提升10%",
+    "key1": "self_atk_add",
+    "value1": 0.16,
+    "key2": "hitRate",
+    "value2": 0.1
   },
   "sb_2101": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，伤害增加7%",
+    "key1": "low_hp_amp",
+    "value1": 0.7
   },
   "sb_2102": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，伤害增加8%",
+    "key1": "low_hp_amp",
+    "value1": 0.8
   },
   "sb_2103": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，伤害增加9%",
+    "key1": "low_hp_amp",
+    "value1": 0.9
   },
   "sb_2111": {
-    "qa": 3
+    "qa": 3,
+    "des": "炙热光环伤害提升至80%攻击力",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.8,\"duration\":2,\"buffRate\":1}"
   },
   "sb_2112": {
-    "qa": 3
+    "qa": 3,
+    "des": "炙热光环伤害提升至100%攻击力",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_2113": {
-    "qa": 3
+    "qa": 3,
+    "des": "炙热光环伤害提升至120%攻击力",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":1.2,\"duration\":2,\"buffRate\":1}"
   },
   "sb_2121": {
-    "qa": 3
+    "qa": 3,
+    "des": "被敌方目标攻击时，有14%概率为敌方附加禁怒效果，持续1回合",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.14}"
   },
   "sb_2122": {
-    "qa": 3
+    "qa": 3,
+    "des": "被敌方目标攻击时，有18%概率为敌方附加禁怒效果，持续1回合",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.18}"
   },
   "sb_2123": {
-    "qa": 3
+    "qa": 3,
+    "des": "被敌方目标攻击时，有22%概率为敌方附加禁怒效果，持续1回合",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.22}"
   },
   "sb_2131": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合自身获得1层仙火效果，持续3回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
   },
   "sb_2132": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合自身获得2层仙火效果，持续3回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"buffRate\":1}"
   },
   "sb_2133": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合自身获得3层仙火效果，持续3回合",
+    "key1": "action_buff",
+    "value1": "{\"buffId\":\"flame\",\"buff_tg\":\"team_self\",\"buffArg\":3,\"buffRate\":1}"
   },
   "sb_2141": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高3%的伤害加成和3%的伤害减免效果",
+    "key1": "realm_friend_reduction",
+    "value1": 0.04,
+    "key2": "realm_friend_amp",
+    "value2": 0.04
   },
   "sb_2142": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高5%的伤害加成和5%的伤害减免效果",
+    "key1": "realm_friend_reduction",
+    "value1": 0.05,
+    "key2": "realm_friend_amp",
+    "value2": 0.05
   },
   "sb_2143": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高7%的伤害加成和7%的伤害减免效果",
+    "key1": "realm_friend_reduction",
+    "value1": 0.06,
+    "key2": "realm_friend_amp",
+    "value2": 0.06
   },
   "sb_3011": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加流血概率提升10%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.45}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.75}"
   },
   "sb_3012": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加流血概率提升20%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.85}"
   },
   "sb_3013": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击附加流血概率提升35%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.7}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "sb_3021": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，闪避几率提高2%",
+    "key1": "low_hp_dodge",
+    "value1": 0.02
   },
   "sb_3022": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，闪避几率提高3%",
+    "key1": "low_hp_dodge",
+    "value1": 0.03
   },
   "sb_3023": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，闪避几率提高4%",
+    "key1": "low_hp_dodge",
+    "value1": 0.04
   },
   "sb_3031": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值提升8%，速度提升5%",
+    "key1": "self_maxHP_add",
+    "value1": 0.08,
+    "key2": "self_speed_add",
+    "value2": 0.05
   },
   "sb_3032": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值提升12%，速度提升7%",
+    "key1": "self_maxHP_add",
+    "value1": 0.12,
+    "key2": "self_speed_add",
+    "value2": 0.07
   },
   "sb_3033": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值提升16%，速度提升9%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16,
+    "key2": "self_speed_add",
+    "value2": 0.09
   },
   "sb_3041": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，暴击率提升3%",
+    "key1": "low_hp_crit",
+    "value1": 0.03
   },
   "sb_3042": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，暴击率提升4%",
+    "key1": "low_hp_crit",
+    "value1": 0.04
   },
   "sb_3043": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，暴击率提升5%",
+    "key1": "low_hp_crit",
+    "value1": 0.05
   },
   "sb_3051": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加中毒效果时，有20%概率使目标身上的中毒状态立即结算",
+    "key1": "poison_settle",
+    "value1": 0.2
   },
   "sb_3052": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加中毒效果时，有25%概率使目标身上的中毒状态立即结算",
+    "key1": "poison_settle",
+    "value1": 0.25
   },
   "sb_3053": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加中毒效果时，有30%概率使目标身上的中毒状态立即结算",
+    "key1": "poison_settle",
+    "value1": 0.3
   },
   "sb_3061": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发瞬身印记效果时，额外造成目标12%生命值上限的伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.12
   },
   "sb_3062": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发瞬身印记效果时，额外造成目标14%生命值上限的伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.14
   },
   "sb_3063": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发瞬身印记效果时，额外造成目标16%生命值上限的伤害",
+    "key1": "add_default_maxHp",
+    "value1": 0.16
   },
   "sb_3071": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，伤害减免提升2%",
+    "key1": "low_hp_att",
+    "value1": "reduction",
+    "key2": "low_hp_value",
+    "value2": 0.02
   },
   "sb_3072": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，伤害减免提升3%",
+    "key1": "low_hp_att",
+    "value1": "reduction",
+    "key2": "low_hp_value",
+    "value2": 0.03
   },
   "sb_3073": {
-    "qa": 3
+    "qa": 3,
+    "des": "当前生命值每降低10%，伤害减免提升4%",
+    "key1": "low_hp_att",
+    "value1": "reduction",
+    "key2": "low_hp_value",
+    "value2": 0.04
   },
   "sb_3081": {
-    "qa": 3
+    "qa": 3,
+    "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值12%的伤害",
+    "key1": "poison_clean_damage",
+    "value1": 0.12
   },
   "sb_3082": {
-    "qa": 3
+    "qa": 3,
+    "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值14%的伤害",
+    "key1": "poison_clean_damage",
+    "value1": 0.14
   },
   "sb_3083": {
-    "qa": 3
+    "qa": 3,
+    "des": "对敌方造成的中毒状态结算或被清除时，对其造成最大生命值16%的伤害",
+    "key1": "poison_clean_damage",
+    "value1": 0.16
   },
   "sb_3091": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到直接伤害时，伤害的25%反弹给攻击者",
+    "key1": "hit_rebound",
+    "value1": 0.25
   },
   "sb_3092": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到直接伤害时，伤害的30%反弹给攻击者",
+    "key1": "hit_rebound",
+    "value1": 0.3
   },
   "sb_3093": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到直接伤害时，伤害的35%反弹给攻击者",
+    "key1": "hit_rebound",
+    "value1": 0.35
   },
   "sb_3101": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合行动后，回复自身8%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.08
   },
   "sb_3102": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合行动后，回复自身12%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.12
   },
   "sb_3103": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合行动后，回复自身14%最大生命值",
+    "key1": "action_heal",
+    "value1": 0.14
   },
   "sb_3111": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败1个目标，暴击伤害提升10%",
+    "key1": "kill_slay",
+    "value1": 0.1
   },
   "sb_3112": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败1个目标，暴击伤害提升15%",
+    "key1": "kill_slay",
+    "value1": 0.15
   },
   "sb_3113": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败1个目标，暴击伤害提升20%",
+    "key1": "kill_slay",
+    "value1": 0.2
   },
   "sb_3121": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，自身若存在暴击提升效果，则本次攻击暴击伤害提高20%",
+    "key1": "self_exist_buff_name",
+    "value1": "crit",
+    "key2": "self_exist_buff_att",
+    "value2": "slay",
+    "key3": "self_exist_buff_value",
+    "value3": 0.2
   },
   "sb_3122": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，自身若存在暴击提升效果，则本次攻击暴击伤害提高30%",
+    "key1": "self_exist_buff_name",
+    "value1": "crit",
+    "key2": "self_exist_buff_att",
+    "value2": "slay",
+    "key3": "self_exist_buff_value",
+    "value3": 0.3
   },
   "sb_3123": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击时，自身若存在暴击提升效果，则本次攻击暴击伤害提高40%",
+    "key1": "self_exist_buff_name",
+    "value1": "crit",
+    "key2": "self_exist_buff_att",
+    "value2": "slay",
+    "key3": "self_exist_buff_value",
+    "value3": 0.4
   },
   "sb_3131": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败一名敌方目标获得1回合的免控盾，且恢复自身12%最大生命值",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "kill_heal",
+    "value2": 0.12
   },
   "sb_3132": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败一名敌方目标获得1回合的免控盾，且恢复自身15%最大生命值",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "kill_heal",
+    "value2": 0.15
   },
   "sb_3133": {
-    "qa": 3
+    "qa": 3,
+    "des": "每击败一名敌方目标获得1回合的免控盾，且恢复自身20%最大生命值",
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "kill_heal",
+    "value2": 0.2
   },
   "sb_3141": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高6%的治疗加成",
+    "key1": "unpoison_heal",
+    "value1": 0.06
   },
   "sb_3142": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高8%的治疗加成",
+    "key1": "unpoison_heal",
+    "value1": 0.08
   },
   "sb_3143": {
-    "qa": 3
+    "qa": 3,
+    "des": "每个存活的友方同阵营英雄为自身提高10%的治疗加成",
+    "key1": "unpoison_heal",
+    "value1": 0.1
   },
   "sb_4011": {
-    "qa": 3
+    "qa": 3,
+    "des": "行动结束后，恢复我方全体攻击力24%的生命值",
+    "key1": "round_heal_value",
+    "value1": 0.24,
+    "key2": "turn_tg",
+    "value2": "team_all"
   },
   "sb_4012": {
-    "qa": 3
+    "qa": 3,
+    "des": "行动结束后，恢复我方全体攻击力28%的生命值",
+    "key1": "round_heal_value",
+    "value1": 0.28,
+    "key2": "turn_tg",
+    "value2": "team_all"
   },
   "sb_4013": {
-    "qa": 3
+    "qa": 3,
+    "des": "行动结束后，恢复我方全体攻击力32%的生命值",
+    "key1": "round_heal_value",
+    "value1": 0.32,
+    "key2": "turn_tg",
+    "value2": "team_all"
   },
   "sb_4021": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升8%,且命中率提升8%",
+    "key1": "self_speed_add",
+    "value1": 0.08,
+    "key2": "hitRate",
+    "value2": 0.08
   },
   "sb_4022": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升12%,且命中率提升12%",
+    "key1": "self_speed_add",
+    "value1": 0.12,
+    "key2": "hitRate",
+    "value2": 0.12
   },
   "sb_4023": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升16%,且命中率提升16%",
+    "key1": "self_speed_add",
+    "value1": 0.16,
+    "key2": "hitRate",
+    "value2": 0.16
   },
   "sb_4031": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击25%概率附加虚弱效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "sb_4032": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击30%概率附加虚弱效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "sb_4033": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击35%概率附加虚弱效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "key2": "normal_buff",
+    "value2": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "sb_4041": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能击杀目标后，溢出伤害的35%将对血量最高的攻击目标造成伤害",
+    "key1": "overDamageToMaxHp",
+    "value1": 0.35
   },
   "sb_4042": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能击杀目标后，溢出伤害的40%将对血量最高的攻击目标造成伤害",
+    "key1": "overDamageToMaxHp",
+    "value1": 0.4
   },
   "sb_4043": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能击杀目标后，溢出伤害的50%将对血量最高的攻击目标造成伤害",
+    "key1": "overDamageToMaxHp",
+    "value1": 0.5
   },
   "sb_4051": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能虚弱概率提高至40%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.4}"
   },
   "sb_4052": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能虚弱概率提高至45%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.45}"
   },
   "sb_4053": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能虚弱概率提高至50%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5}"
   },
   "sb_4061": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加诅咒造成的伤害提升20%",
+    "key1": "curse_amp",
+    "value1": 0.2
   },
   "sb_4062": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加诅咒造成的伤害提升30%",
+    "key1": "curse_amp",
+    "value1": 0.3
   },
   "sb_4063": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加诅咒造成的伤害提升40%",
+    "key1": "curse_amp",
+    "value1": 0.4
   },
   "sb_4071": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能消耗自身生命值提升至14%，并对目标额外造成15%的最大生命值伤害",
+    "key1": "lose_hp",
+    "value1": 0.14,
+    "key2": "maxHP_damage",
+    "value2": 0.15
   },
   "sb_4072": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能消耗自身生命值提升至18%，并对目标额外造成20%的最大生命值伤害",
+    "key1": "lose_hp",
+    "value1": 0.18,
+    "key2": "maxHP_damage",
+    "value2": 0.2
   },
   "sb_4073": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能消耗自身生命值提升至22%，并对目标额外造成25%的最大生命值伤害",
+    "key1": "lose_hp",
+    "value1": 0.22,
+    "key2": "maxHP_damage",
+    "value2": 0.25
   },
   "sb_4081": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身处于隐身状态时，造成伤害提升10%",
+    "key1": "self_exist_buff_name",
+    "value1": "sneak",
+    "key2": "self_exist_buff_att",
+    "value2": "amplify",
+    "key3": "self_exist_buff_value",
+    "value3": 0.1
   },
   "sb_4082": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身处于隐身状态时，造成伤害提升16%",
+    "key1": "self_exist_buff_name",
+    "value1": "sneak",
+    "key2": "self_exist_buff_att",
+    "value2": "amplify",
+    "key3": "self_exist_buff_value",
+    "value3": 0.16
   },
   "sb_4083": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身处于隐身状态时，造成伤害提升24%",
+    "key1": "self_exist_buff_name",
+    "value1": "sneak",
+    "key2": "self_exist_buff_att",
+    "value2": "amplify",
+    "key3": "self_exist_buff_value",
+    "value3": 0.24
   },
   "sb_4091": {
-    "qa": 3
+    "qa": 3,
+    "des": "被附加虫蛀状态下的敌方目标命中率降低20%",
+    "key1": "sand_low_hit",
+    "value1": 0.2
   },
   "sb_4092": {
-    "qa": 3
+    "qa": 3,
+    "des": "被附加虫蛀状态下的敌方目标命中率降低25%",
+    "key1": "sand_low_hit",
+    "value1": 0.25
   },
   "sb_4093": {
-    "qa": 3
+    "qa": 3,
+    "des": "被附加虫蛀状态下的敌方目标命中率降低30%",
+    "key1": "sand_low_hit",
+    "value1": 0.3
   },
   "sb_4101": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击有30%概率各附加虚弱和诅咒的效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "sb_4102": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击有35%概率各附加虚弱和诅咒的效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "sb_4103": {
-    "qa": 3
+    "qa": 3,
+    "des": "所有攻击有50%概率各附加虚弱和诅咒的效果",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "sb_4111": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到灵魂窃取目标攻击时，伤害减免提升12%",
+    "key1": "behit_exist_buff_name",
+    "value1": "soul_steal",
+    "key2": "behit_exist_buff_att",
+    "value2": "reduction",
+    "key3": "behit_exist_buff_value",
+    "value3": 0.12
   },
   "sb_4112": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到灵魂窃取目标攻击时，伤害减免提升18%",
+    "key1": "behit_exist_buff_name",
+    "value1": "soul_steal",
+    "key2": "behit_exist_buff_att",
+    "value2": "reduction",
+    "key3": "behit_exist_buff_value",
+    "value3": 0.18
   },
   "sb_4113": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到灵魂窃取目标攻击时，伤害减免提升24%",
+    "key1": "behit_exist_buff_name",
+    "value1": "soul_steal",
+    "key2": "behit_exist_buff_att",
+    "value2": "reduction",
+    "key3": "behit_exist_buff_value",
+    "value3": 0.24
   },
   "sb_4121": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击时，有45%的概率额外附加虚弱，破甲效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
   },
   "sb_4122": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击时，有50%的概率额外附加虚弱，破甲效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "sb_4123": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能攻击时，有60%的概率额外附加虚弱，破甲效果，持续2回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
   },
   "sb_4131": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命资质增加20，且\n每个回合会流失提高至【回合数*2%】的生命。",
+    "key1": "M_HP",
+    "value1": 20,
+    "key2": "maxHP_loss",
+    "value2": 0.02
   },
   "sb_4132": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命资质增加30，且\n每个回合会流失提高至【回合数*3%】的生命。",
+    "key1": "M_HP",
+    "value1": 30,
+    "key2": "maxHP_loss",
+    "value2": 0.03
   },
   "sb_4133": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命资质增加50，且\n每个回合会流失提高至【回合数*4%】的生命。",
+    "key1": "M_HP",
+    "value1": 50,
+    "key2": "maxHP_loss",
+    "value2": 0.04
   },
   "sb_4141": {
-    "qa": 3
+    "qa": 3,
+    "des": "每次攻击时，为攻击目标额外附加1层流血效果，持续2回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_4142": {
-    "qa": 3
+    "qa": 3,
+    "des": "每次攻击时，为攻击目标额外附加1层流血效果和魔印效果，持续2回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_4143": {
-    "qa": 3
+    "qa": 3,
+    "des": "每次攻击时，为攻击目标额外附加1层流血效果，重伤效果和魔印，持续2回合",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_5011": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身获得神力效果时，伤害减免增加14%",
+    "key1": "self_exist_buff_name",
+    "value1": "god_power",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.14
   },
   "sb_5012": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身获得神力效果时，伤害减免增加18%",
+    "key1": "self_exist_buff_name",
+    "value1": "god_power",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.18
   },
   "sb_5013": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身获得神力效果时，伤害减免增加22%",
+    "key1": "self_exist_buff_name",
+    "value1": "god_power",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.22
   },
   "sb_5021": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加控制效果的概率提升8%",
+    "key1": "atkcontrol",
+    "value1": 0.08
   },
   "sb_5022": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加控制效果的概率提升12%",
+    "key1": "atkcontrol",
+    "value1": 0.12
   },
   "sb_5023": {
-    "qa": 3
+    "qa": 3,
+    "des": "施加控制效果的概率提升16%",
+    "key1": "atkcontrol",
+    "value1": 0.16
   },
   "sb_5031": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，受治疗效果提升4%",
+    "key1": "low_hp_att",
+    "value1": "healAdd",
+    "key2": "low_hp_value",
+    "value2": 0.04
   },
   "sb_5032": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，受治疗效果提升5%",
+    "key1": "low_hp_att",
+    "value1": "healAdd",
+    "key2": "low_hp_value",
+    "value2": 0.05
   },
   "sb_5033": {
-    "qa": 3
+    "qa": 3,
+    "des": "生命值每降低10%，受治疗效果提升6%",
+    "key1": "low_hp_att",
+    "value1": "healAdd",
+    "key2": "low_hp_value",
+    "value2": 0.06
   },
   "sb_5041": {
-    "qa": 3
+    "qa": 3,
+    "des": "目标身上每有1层破甲效果，造成伤害增加12%",
+    "key1": "pojia_amp",
+    "value1": 0.12
   },
   "sb_5042": {
-    "qa": 3
+    "qa": 3,
+    "des": "目标身上每有1层破甲效果，造成伤害增加14%",
+    "key1": "pojia_amp",
+    "value1": 0.14
   },
   "sb_5043": {
-    "qa": 3
+    "qa": 3,
+    "des": "目标身上每有1层破甲效果，造成伤害增加16%",
+    "key1": "pojia_amp",
+    "value1": 0.16
   },
   "sb_5051": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发感电时有30%概率麻痹目标",
+    "key1": "gd_mb",
+    "value1": 0.3
   },
   "sb_5052": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发感电时有35%概率麻痹目标",
+    "key1": "gd_mb",
+    "value1": 0.35
   },
   "sb_5053": {
-    "qa": 3
+    "qa": 3,
+    "des": "触发感电时有40%概率麻痹目标",
+    "key1": "gd_mb",
+    "value1": 0.4
   },
   "sb_5061": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到伤害时，有30%概率附加攻击方1回合沉默效果",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
   "sb_5062": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到伤害时，有35%概率附加攻击方1回合沉默效果",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "sb_5063": {
-    "qa": 3
+    "qa": 3,
+    "des": "受到伤害时，有40%概率附加攻击方1回合沉默效果",
+    "key1": "hit_buff",
+    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
   "sb_5071": {
-    "qa": 3
+    "qa": 3,
+    "des": "若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标25%最大生命值",
+    "key1": "invincibleHeal",
+    "value1": 0.25
   },
   "sb_5072": {
-    "qa": 3
+    "qa": 3,
+    "des": "若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标30%最大生命值",
+    "key1": "invincibleHeal",
+    "value1": 0.3
   },
   "sb_5073": {
-    "qa": 3
+    "qa": 3,
+    "des": "若该目标与自身同阵营，则无敌盾消失或被清除时，恢复目标35%最大生命值",
+    "key1": "invincibleHeal",
+    "value1": 0.35
   },
   "sb_5081": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身拥有护盾效果时，伤害减免提升14%",
+    "key1": "self_exist_buff_name",
+    "value1": "shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.14
   },
   "sb_5082": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身拥有护盾效果时，伤害减免提升18%",
+    "key1": "self_exist_buff_name",
+    "value1": "shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.18
   },
   "sb_5083": {
-    "qa": 3
+    "qa": 3,
+    "des": "自身拥有护盾效果时，伤害减免提升22%",
+    "key1": "self_exist_buff_name",
+    "value1": "shield",
+    "key2": "self_exist_buff_att",
+    "value2": "reduction",
+    "key3": "self_exist_buff_value",
+    "value3": 0.22
   },
   "sb_5091": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击雷咒目标时，伤害提升10%",
+    "key1": "target_exist_buff_name",
+    "value1": "flash",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.1
   },
   "sb_5092": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击雷咒目标时，伤害提升15%",
+    "key1": "target_exist_buff_name",
+    "value1": "flash",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.15
   },
   "sb_5093": {
-    "qa": 3
+    "qa": 3,
+    "des": "攻击雷咒目标时，伤害提升20%",
+    "key1": "target_exist_buff_name",
+    "value1": "flash",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.2
   },
   "sb_5101": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升8%，且防御提升8%",
+    "key1": "self_maxHP_add",
+    "value1": 0.8,
+    "key2": "self_phyDef_add",
+    "value2": 0.8
   },
   "sb_5102": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升12%，且防御提升12%",
+    "key1": "self_maxHP_add",
+    "value1": 0.12,
+    "key2": "self_phyDef_add",
+    "value2": 0.12
   },
   "sb_5103": {
-    "qa": 3
+    "qa": 3,
+    "des": "最大生命值提升16%，且防御提升16%",
+    "key1": "self_maxHP_add",
+    "value1": 0.16,
+    "key2": "self_phyDef_add",
+    "value2": 0.16
   },
   "sb_5111": {
-    "qa": 3
+    "qa": 3,
+    "des": "对晕眩的目标，伤害增加20%",
+    "key1": "target_exist_buff_name",
+    "value1": "dizzy",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.2
   },
   "sb_5112": {
-    "qa": 3
+    "qa": 3,
+    "des": "对晕眩的目标，伤害增加25%",
+    "key1": "target_exist_buff_name",
+    "value1": "dizzy",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.25
   },
   "sb_5113": {
-    "qa": 3
+    "qa": 3,
+    "des": "对晕眩的目标，伤害增加30%",
+    "key1": "target_exist_buff_name",
+    "value1": "dizzy",
+    "key2": "target_exist_buff_att",
+    "value2": "amplify",
+    "key3": "target_exist_buff_value",
+    "value3": 0.3
   },
   "sb_5121": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升10%，对隐身单位的伤害增加20%",
+    "key1": "self_speed_add",
+    "value1": 0.1,
+    "key2": "sneak_amp",
+    "value2": 0.2
   },
   "sb_5122": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升15%，对隐身单位的伤害增加30%",
+    "key1": "self_speed_add",
+    "value1": 0.15,
+    "key2": "sneak_amp",
+    "value2": 0.3
   },
   "sb_5123": {
-    "qa": 3
+    "qa": 3,
+    "des": "速度提升20%，对隐身单位的伤害增加40%",
+    "key1": "self_speed_add",
+    "value1": 0.2,
+    "key2": "sneak_amp",
+    "value2": 0.4
   },
   "sb_5131": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能放逐的概率提升至15%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.15}"
   },
   "sb_5132": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能放逐的概率提升至20%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.2}"
   },
   "sb_5133": {
-    "qa": 3
+    "qa": 3,
+    "des": "技能放逐的概率提升至30%",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
   "sb_5141": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合攻击时，额外为自身附加1层暴击加成，持续至战斗结束",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_5142": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合攻击时，额外为自身附加1层暴击加和1层爆伤加成，持续至战斗结束",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_5143": {
-    "qa": 3
+    "qa": 3,
+    "des": "每回合攻击时，额外为自身附加1层暴击加，1层爆伤加成和1层反制印记，持续至战斗结束",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   }
 }
