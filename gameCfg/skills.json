@@ -160,7 +160,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害,有35%概率添加撕裂效果",
+    "des": "对敌方单体造成100%攻击力的物理伤害,有35%概率添加流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1,
@@ -173,7 +173,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方全体造成125%攻击力的物理伤害,有50%概率添加撕裂效果",
+    "des": "对敌方全体造成125%攻击力的物理伤害,有50%概率添加流血效果",
     "damageType": "phy",
     "targetType": "enemy_all",
     "mul": 1.25,
@@ -668,7 +668,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的物理伤害，并各有25%概率附加1层撕裂和1层减速",
+    "des": "对敌方单体造成100%攻击力的物理伤害，并各有25%概率附加1层流血和1层减速",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1,
@@ -683,7 +683,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成300%攻击力的物理伤害，并各有35%概率附加1层撕裂和1层减速",
+    "des": "对敌方单体造成300%攻击力的物理伤害，并各有35%概率附加1层流血和1层减速",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3,
@@ -1042,7 +1042,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成120%攻击力的物理伤害,并有50%概率添加撕裂效果",
+    "des": "对敌方单体造成120%攻击力的物理伤害,并有50%概率添加流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.2,
@@ -1055,7 +1055,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成320%攻击力的物理伤害,并添加撕裂效果，为自身添加仙术效果",
+    "des": "对敌方单体造成320%攻击力的物理伤害,并添加流血效果，为自身添加仙术效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.2,
@@ -1202,7 +1202,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成100%攻击力的法术伤害,并添加撕裂效果",
+    "des": "对敌方单体造成100%攻击力的法术伤害,并添加流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1,
@@ -1215,7 +1215,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成285%攻击力的法术伤害,并添加撕裂、禁疗效果",
+    "des": "对敌方单体造成285%攻击力的法术伤害,并添加流血、禁疗效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.85,
@@ -1373,7 +1373,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成365%攻击力的物理伤害，并附加1层撕裂效果",
+    "des": "对敌方单体造成365%攻击力的物理伤害，并附加1层流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.65,
@@ -1519,7 +1519,7 @@
     "value2": "team_self"
   },
   "50101001": {
-    "name": "八卦掌",
+    "name": "双枪斩击",
     "icon": "chutian_skill",
     "qa": 3,
     "anger": 0,
@@ -1530,7 +1530,7 @@
     "mul": 1.2
   },
   "50101002": {
-    "name": "八卦三十二掌",
+    "name": "汉中溃蜀",
     "icon": "chutian_pg",
     "qa": 3,
     "anger": 4,
@@ -1539,10 +1539,8 @@
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3,
-    "key1": "suckAtk",
-    "value1": 0.1,
-    "key2": "thawing_frozen",
-    "value2": 1
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
   },
   "50102001": {
     "name": "治愈",
@@ -1555,7 +1553,7 @@
     "mul": 1.2
   },
   "50102002": {
-    "name": "掌仙术",
+    "name": "王佐之谋",
     "icon": "chunyeying_pg",
     "qa": 3,
     "anger": 4,
@@ -1565,18 +1563,20 @@
     "mul": 2.6
   },
   "50103001": {
-    "name": "猛击",
+    "name": "清俭",
     "icon": "dingci_pg",
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成106%的物理伤害，并有55%概率嘲讽敌方目标",
+    "des": "对敌方单体造成106%的物理伤害，并有35%概率嘲讽敌方目标",
     "damageType": "phy",
     "targetType": "enemy_normal",
-    "mul": 1.06
+    "mul": 1.06,
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50103002": {
-    "name": "倍化之术",
+    "name": "开疆烈血",
     "icon": "dingci_skill",
     "qa": 3,
     "anger": 4,
@@ -1589,7 +1589,7 @@
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_3\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "50104001": {
-    "name": "旋风踢",
+    "name": "闪光速行",
     "icon": "luokeli_pg",
     "qa": 3,
     "anger": 0,
@@ -1602,20 +1602,20 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "50104002": {
-    "name": "木业旋风",
+    "name": "曜武宣威",
     "icon": "luokeli_skill",
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2-3个目标造成179%的物理伤害，并有100%概率附加减速效果",
+    "des": "对敌方2-3个目标造成179%的物理伤害，并有45%概率附加减速效果",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 1.79,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
   },
   "50105001": {
-    "name": "重击",
+    "name": "八斗之才",
     "qa": 3,
     "anger": 0,
     "type": "attack",
@@ -1627,7 +1627,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50105002": {
-    "name": "旋风斩",
+    "name": "落英",
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -1639,7 +1639,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50106001": {
-    "name": "法术拳",
+    "name": "挥器扫敌",
     "icon": "yiluka_pg",
     "qa": 3,
     "anger": 0,
@@ -1652,7 +1652,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "50106002": {
-    "name": "水龙术",
+    "name": "荡寇斫军",
     "icon": "yiluka_skill",
     "qa": 3,
     "anger": 4,
@@ -1665,7 +1665,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.65}"
   },
   "50107001": {
-    "name": "斩首大刀",
+    "name": "斩首",
     "icon": "zaibuzhan_pg",
     "qa": 3,
     "anger": 0,
@@ -1691,7 +1691,7 @@
     "value1": 0.1
   },
   "50107012": {
-    "name": "斩首大刀",
+    "name": "咆虎熔金",
     "icon": "zaibuzhan_skill",
     "qa": 3,
     "anger": 4,
@@ -1706,7 +1706,7 @@
     "value2": 0.1
   },
   "50108001": {
-    "name": "鲛肌",
+    "name": "剑盾夹击",
     "icon": "guijiao_pg",
     "qa": 3,
     "anger": 0,
@@ -1719,7 +1719,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50108002": {
-    "name": "五食鲛",
+    "name": "破石碎壁",
     "icon": "guijiao_skill",
     "qa": 3,
     "anger": 4,
@@ -1732,7 +1732,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
   "50109001": {
-    "name": "性质面具",
+    "name": "月夜情满",
     "icon": "jiaodu_pg",
     "qa": 3,
     "anger": 0,
@@ -1743,7 +1743,7 @@
     "mul": 1.1
   },
   "50109002": {
-    "name": "地怨虞·最终射击",
+    "name": "帝王山河",
     "icon": "jiaodu_skill",
     "qa": 3,
     "anger": 4,
@@ -1756,7 +1756,7 @@
     "value1": true
   },
   "50110001": {
-    "name": "八卦掌",
+    "name": "强袭",
     "icon": "chengnian_chutian_pg",
     "qa": 3,
     "anger": 0,
@@ -1769,7 +1769,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50110002": {
-    "name": "八卦三十二掌",
+    "name": "赳赳武戟",
     "icon": "chengnian_chutian_skill",
     "qa": 3,
     "anger": 4,
@@ -1784,6 +1784,7 @@
     "value2": 1
   },
   "50110012": {
+    "name": "及时雨",
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -1794,7 +1795,7 @@
     "value1": 1
   },
   "50111001": {
-    "name": "治愈",
+    "name": "谋定天下",
     "icon": "chengnian_chunyeying_pg",
     "qa": 3,
     "anger": 0,
@@ -1806,7 +1807,7 @@
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "50111002": {
-    "name": "掌仙术",
+    "name": "钟灵四时\n",
     "icon": "chengnian_chunyeying_skill",
     "qa": 3,
     "anger": 4,
@@ -1820,7 +1821,7 @@
     "value2": true
   },
   "50111012": {
-    "name": "掌仙术",
+    "name": "大庇天下",
     "icon": "chengnian_chunyeying_skill",
     "qa": 3,
     "anger": 4,
@@ -1834,7 +1835,7 @@
     "value2": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.35,\"duration\":2,\"buffRate\":1}"
   },
   "50112001": {
-    "name": "寒冰斩",
+    "name": "甄蓝灵朵",
     "qa": 3,
     "anger": 0,
     "type": "attack",
@@ -1844,19 +1845,17 @@
     "mul": 1.4
   },
   "50112002": {
-    "name": "水神击",
+    "name": "繁花绣臻",
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方纵排造成230%攻击力的法术伤害，自身回复1点怒气",
+    "des": "对敌方纵排造成230%攻击力的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_vertical",
-    "mul": 2.3,
-    "key1": "skill_anger_s",
-    "value1": 1
+    "mul": 2.3
   },
   "50113001": {
-    "name": "再生术",
+    "name": "突袭",
     "icon": "gangshou_pg",
     "qa": 4,
     "anger": 0,
@@ -1869,7 +1868,7 @@
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "50113002": {
-    "name": "蛞蝓·纲疗治夥",
+    "name": "踏雪疾驰",
     "icon": "gangshou_skill",
     "qa": 5,
     "anger": 4,
@@ -1882,7 +1881,7 @@
     "value1": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}"
   },
   "50114001": {
-    "name": "水遁·水龙弹",
+    "name": "兴兵雪仇",
     "icon": "qianshoufeijian_pg",
     "qa": 5,
     "anger": 0,
@@ -1895,7 +1894,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50114002": {
-    "name": "水遁·水冲波",
+    "name": "谯水击蛟\n",
     "icon": "qianshoufeijian_skill",
     "qa": 5,
     "anger": 4,
@@ -1908,7 +1907,7 @@
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50201001": {
-    "name": "法术手里剑",
+    "name": "清神畅情",
     "icon": "yuzhibozuozhu_skill",
     "qa": 3,
     "anger": 0,
@@ -1921,7 +1920,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "50201002": {
-    "name": "火球术",
+    "name": "折桂问鼎",
     "icon": "yuzhibozuozhu_pg",
     "qa": 3,
     "anger": 4,
@@ -1934,7 +1933,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "50202001": {
-    "name": "风刃",
+    "name": "伺机待发",
     "icon": "tiantian_skill",
     "qa": 3,
     "anger": 0,
@@ -1947,7 +1946,7 @@
     "value1": "{\"buffId\":\"crit_seal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50202002": {
-    "name": "忍具卷轴",
+    "name": "濡须抗曹",
     "icon": "tiantian_pg",
     "qa": 3,
     "anger": 4,
@@ -1960,12 +1959,12 @@
     "value1": "{\"buffId\":\"crit_seal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50203001": {
-    "name": "爪牙",
+    "name": "清萧清丽\n",
     "icon": "ya_skill",
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成130%的物理伤害，35%概率附加撕裂,持续3回合",
+    "des": "对敌方单体造成130%的物理伤害，35%概率附加流血,持续3回合",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.3,
@@ -1973,12 +1972,12 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50203002": {
-    "name": "牙通牙",
+    "name": "语笑嫣然",
     "icon": "ya_pg",
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1-2个目标造成248%的物理伤害，并附加撕裂,持续3回合",
+    "des": "对敌方1-2个目标造成248%的物理伤害，并附加流血,持续3回合",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 2.48,
@@ -1986,7 +1985,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50204001": {
-    "name": "查克拉刀",
+    "name": "勇力精锐",
     "icon": "asima_pg",
     "qa": 3,
     "anger": 0,
@@ -1999,7 +1998,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.25}"
   },
   "50204002": {
-    "name": "风尘之术",
+    "name": "烈江映炎\n",
     "icon": "asima_skill",
     "qa": 3,
     "anger": 4,
@@ -2012,7 +2011,7 @@
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50205001": {
-    "name": "木叶旋风",
+    "name": "蝶恋芳华",
     "icon": "maitekai_pg",
     "qa": 3,
     "anger": 0,
@@ -2025,7 +2024,7 @@
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50205002": {
-    "name": "朝孔雀",
+    "name": "比翼连枝",
     "icon": "maitekai_skill",
     "qa": 3,
     "anger": 4,
@@ -2038,7 +2037,7 @@
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50206001": {
-    "name": "起爆黏土",
+    "name": "避实击虚",
     "icon": "didala_pg",
     "qa": 3,
     "anger": 0,
@@ -2051,7 +2050,7 @@
     "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50206002": {
-    "name": "迦楼罗",
+    "name": "神亭夺鍪",
     "icon": "didala_skill",
     "qa": 3,
     "anger": 4,
@@ -2064,7 +2063,7 @@
     "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "50206012": {
-    "name": "迦楼罗",
+    "name": "神亭夺鍪",
     "icon": "didala_skill",
     "qa": 3,
     "anger": 4,
@@ -2077,7 +2076,7 @@
     "value1": 0.15
   },
   "50207001": {
-    "name": "月读",
+    "name": "乘帆破浪",
     "icon": "you_pg",
     "qa": 5,
     "anger": 0,
@@ -2090,7 +2089,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.55}"
   },
   "50207002": {
-    "name": "天照",
+    "name": "破浪击蛟\n",
     "icon": "you_skill",
     "qa": 5,
     "anger": 4,
@@ -2103,7 +2102,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "50208001": {
-    "name": "大火球术",
+    "name": "破虏",
     "icon": "zilaiye_pg",
     "qa": 5,
     "anger": 0,
@@ -2116,7 +2115,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "50208002": {
-    "name": "豪火球之术",
+    "name": "江虎摧城",
     "icon": "zilaiye_skill",
     "qa": 5,
     "anger": 4,
@@ -2129,7 +2128,7 @@
     "value1": "{\"buffId\":\"invincibleSuck\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "50209001": {
-    "name": "法术手里剑",
+    "name": "断水刀",
     "icon": "chengnian_zuozhu_pg",
     "qa": 3,
     "anger": 0,
@@ -2142,7 +2141,7 @@
     "value1": "{\"amplify\":0.5}"
   },
   "50209002": {
-    "name": "火球术",
+    "name": "震敌慑威",
     "icon": "chengnian_zuozhu_skill",
     "qa": 3,
     "anger": 4,
@@ -2155,7 +2154,7 @@
     "value1": "{\"amplify\":1}"
   },
   "50210001": {
-    "name": "风刃",
+    "name": "弄潮惊鸿",
     "icon": "chengnian_tiantian_pg",
     "qa": 3,
     "anger": 0,
@@ -2168,7 +2167,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.55}"
   },
   "50210002": {
-    "name": "忍具卷轴",
+    "name": "魂殇",
     "icon": "chengnian_tiantian_skill",
     "qa": 3,
     "anger": 4,
@@ -2200,7 +2199,7 @@
     "targetType": "enemy_horizontal_back",
     "mul": 3.32,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}"
   },
   "50212001": {
     "name": "火枪",
@@ -2225,7 +2224,7 @@
     "value1": "{\"buffId\":\"banAnger\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
   "50213001": {
-    "name": "沸遁·巧雾之术",
+    "name": "融火",
     "icon": "zhaomeiming_pg",
     "qa": 4,
     "anger": 0,
@@ -2238,7 +2237,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "50213002": {
-    "name": "溶遁·溶怪之术",
+    "name": "合纵破曹",
     "icon": "zhaomeiming_skill",
     "qa": 4,
     "anger": 4,
@@ -2251,7 +2250,7 @@
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
   },
   "50214001": {
-    "name": "雷切",
+    "name": "小权行舟",
     "icon": "xuzuozuozhu_skill",
     "qa": 5,
     "anger": 0,
@@ -2264,7 +2263,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50214002": {
-    "name": "因陀罗之矢",
+    "name": "轻梳白首",
     "icon": "xuzuozuozhu_pg",
     "qa": 5,
     "anger": 4,
@@ -2277,12 +2276,12 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "50301001": {
-    "name": "幻术斩击",
+    "name": "沉锚",
     "icon": "zhishui_pg",
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成128%的物理伤害,并为敌方附加1层撕裂效果",
+    "des": "对敌方单体造成128%的物理伤害,并有35%概率为敌方附加1层流血效果",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.28,
@@ -2290,12 +2289,12 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50301002": {
-    "name": "幻术·别天神",
+    "name": "烟绚繁星",
     "icon": "zhishui_skill",
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成300%的物理伤害，并为敌方附加1层撕裂效果",
+    "des": "对敌方单体造成300%的物理伤害，并有65%概率为敌方附加1层流血效果",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 3,
@@ -2303,7 +2302,7 @@
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50302001": {
-    "name": "手里剑",
+    "name": "骑枪突刺",
     "icon": "shuimu_pg",
     "qa": 3,
     "anger": 0,
@@ -2316,7 +2315,7 @@
     "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50302002": {
-    "name": "咒印之术",
+    "name": "风枪火马",
     "icon": "shuimu_skill",
     "qa": 3,
     "anger": 4,
@@ -2329,7 +2328,7 @@
     "value1": true
   },
   "50303001": {
-    "name": "傀儡术",
+    "name": "踏云羽升",
     "icon": "kaijiulang_pg",
     "qa": 3,
     "anger": 0,
@@ -2340,7 +2339,7 @@
     "mul": 1.35
   },
   "50303002": {
-    "name": "傀儡·乌鸦",
+    "name": "丹莲青羽",
     "icon": "kaijiulang_skill",
     "qa": 3,
     "anger": 4,
@@ -2353,7 +2352,7 @@
     "value1": "{\"buffId\":\"dodgeRate\",\"buff_tg\":\"team_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50304001": {
-    "name": "影击",
+    "name": "巾帼花武",
     "icon": "yueguangjifeng_pg",
     "qa": 3,
     "anger": 0,
@@ -2364,7 +2363,7 @@
     "mul": 1.35
   },
   "50304002": {
-    "name": "三日月之舞",
+    "name": "凤屏银月",
     "icon": "yueguangjifeng_skill",
     "qa": 3,
     "anger": 4,
@@ -2377,7 +2376,7 @@
     "value1": 0.06
   },
   "50305001": {
-    "name": "指骨",
+    "name": "绘生",
     "icon": "junmalv_pg",
     "qa": 3,
     "anger": 0,
@@ -2390,7 +2389,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}"
   },
   "50305002": {
-    "name": "铁线花之舞",
+    "name": "画绘为世",
     "icon": "junmalv_skill",
     "qa": 3,
     "anger": 4,
@@ -2403,7 +2402,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50306001": {
-    "name": "风杀阵",
+    "name": "百步穿杨",
     "icon": "shouju_pg",
     "qa": 3,
     "anger": 0,
@@ -2416,7 +2415,7 @@
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":11}"
   },
   "50306002": {
-    "name": "大鼬镰",
+    "name": "佻身飞镞",
     "icon": "shouju_skill",
     "qa": 3,
     "anger": 4,
@@ -2429,7 +2428,7 @@
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":11}"
   },
   "50307001": {
-    "name": "纸手里剑",
+    "name": "智心巧手",
     "icon": "xiaonan_pg",
     "qa": 3,
     "anger": 0,
@@ -2444,7 +2443,7 @@
     "value2": "team_self"
   },
   "50307002": {
-    "name": "神之纸者之术",
+    "name": "青云鸢飞",
     "icon": "xiaonan_skill",
     "qa": 3,
     "anger": 4,
@@ -2459,7 +2458,7 @@
     "value2": "team_minHp_1"
   },
   "50308001": {
-    "name": "背部尾刺",
+    "name": "戡律定科",
     "icon": "xie_pg",
     "qa": 3,
     "anger": 0,
@@ -2472,7 +2471,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50308002": {
-    "name": "秘技·百机操演",
+    "name": "奇谋善图\n",
     "icon": "xie_skill",
     "qa": 3,
     "anger": 4,
@@ -2485,7 +2484,7 @@
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50309001": {
-    "name": "风杀阵",
+    "name": "卷土汉中",
     "icon": "chengnian_shouju_pg",
     "qa": 3,
     "anger": 0,
@@ -2498,7 +2497,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50309002": {
-    "name": "大鼬镰",
+    "name": "迅骛惊雷",
     "icon": "chengnian_shouju_skill",
     "qa": 3,
     "anger": 4,
@@ -2511,7 +2510,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50310001": {
-    "name": "傀儡术",
+    "name": "勇力绝伦",
     "icon": "chengnian_kanjiulang_pg",
     "qa": 3,
     "anger": 0,
@@ -2524,7 +2523,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50310002": {
-    "name": "傀儡·乌鸦",
+    "name": "傲睨长坂",
     "icon": "chengnian_kanjiulang_skill",
     "qa": 3,
     "anger": 4,
@@ -2559,7 +2558,7 @@
     "value1": true
   },
   "50312001": {
-    "name": "瞬击",
+    "name": "斩龙击",
     "qa": 3,
     "anger": 0,
     "type": "attack",
@@ -2583,7 +2582,7 @@
     "value2": "team_self"
   },
   "50313001": {
-    "name": "砂时雨",
+    "name": "化龙护主",
     "icon": "woailuo_pg",
     "qa": 4,
     "anger": 0,
@@ -2596,7 +2595,7 @@
     "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"skill_targets\",\"buffRate\":1}"
   },
   "50313002": {
-    "name": "砂瀑送葬",
+    "name": "御龙在天",
     "icon": "woailuo_skill",
     "qa": 4,
     "anger": 4,
@@ -2609,7 +2608,7 @@
     "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"skill_targets\",\"buffRate\":1}"
   },
   "50314001": {
-    "name": "螺旋丸",
+    "name": "青梅煮酒",
     "icon": "shuimen_pg",
     "qa": 5,
     "anger": 0,
@@ -2621,7 +2620,7 @@
     "value1": true
   },
   "50314002": {
-    "name": "螺旋闪光",
+    "name": "开拓宏图",
     "icon": "shuimen_pg",
     "qa": 5,
     "anger": 4,
@@ -2633,7 +2632,7 @@
     "value1": true
   },
   "50401001": {
-    "name": "寄坏虫",
+    "name": "倩影回眸",
     "icon": "shaonianzhinai_skill",
     "qa": 3,
     "anger": 0,
@@ -2648,7 +2647,7 @@
     "value2": "team_minHp_1"
   },
   "50401002": {
-    "name": "秘术·虫分身",
+    "name": "月夜逐华",
     "icon": "shaonianzhinai_pg",
     "qa": 3,
     "anger": 4,
@@ -2663,7 +2662,7 @@
     "value2": "team_minHp_1"
   },
   "50402001": {
-    "name": "影刺术",
+    "name": "滔乱",
     "icon": "luwan_pg",
     "qa": 3,
     "anger": 0,
@@ -2676,7 +2675,7 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50402002": {
-    "name": "影缚术",
+    "name": "窃幸绝禋",
     "icon": "luwan_skill",
     "qa": 3,
     "anger": 4,
@@ -2689,7 +2688,7 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.6}"
   },
   "50403001": {
-    "name": "潜影多蛇手",
+    "name": "狼噬火踪\n",
     "icon": "dou_pg",
     "qa": 3,
     "anger": 0,
@@ -2702,7 +2701,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50403002": {
-    "name": "大蛇使役术",
+    "name": "劫君掠玺",
     "icon": "dou_skill",
     "qa": 3,
     "anger": 4,
@@ -2715,7 +2714,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "50404001": {
-    "name": "潜影多蛇手",
+    "name": "画戟动人",
     "icon": "hongdou_pg",
     "qa": 3,
     "anger": 0,
@@ -2728,7 +2727,7 @@
     "value1": 0.03
   },
   "50404002": {
-    "name": "双蛇相杀术",
+    "name": "方天绘戟",
     "icon": "hongdou_skill",
     "qa": 3,
     "anger": 4,
@@ -2741,6 +2740,7 @@
     "value1": 0.05
   },
   "50404012": {
+    "name": "致胜之法",
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -2752,7 +2752,7 @@
     "value1": 0.1
   },
   "50405001": {
-    "name": "三月镰",
+    "name": "付之一炬",
     "icon": "feiduan_pg",
     "qa": 3,
     "anger": 0,
@@ -2765,7 +2765,7 @@
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50405002": {
-    "name": "咒术·长矛反伤",
+    "name": "毒废天子",
     "icon": "feiduan_skill",
     "qa": 3,
     "anger": 4,
@@ -2778,7 +2778,7 @@
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50406001": {
-    "name": "傀儡术·操袭刃",
+    "name": "符水蛊人",
     "icon": "qiandai_pg",
     "qa": 3,
     "anger": 0,
@@ -2791,7 +2791,7 @@
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50406002": {
-    "name": "白秘技·近松十人众",
+    "name": "幻惑众心",
     "icon": "qiandai_skill",
     "qa": 3,
     "anger": 4,
@@ -2804,7 +2804,7 @@
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
   "50407001": {
-    "name": "手里剑",
+    "name": "蛮斧猛击",
     "icon": "jingye_skill",
     "qa": 3,
     "anger": 0,
@@ -2815,7 +2815,7 @@
     "mul": 1.46
   },
   "50407002": {
-    "name": "封印之术",
+    "name": "斩将攫石",
     "icon": "jingye_pg",
     "qa": 3,
     "anger": 4,
@@ -2843,7 +2843,7 @@
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
   "50408002": {
-    "name": "伪装术",
+    "name": "炙炎烽火",
     "icon": "dashewan_skill",
     "qa": 4,
     "anger": 4,
@@ -2856,7 +2856,7 @@
     "value1": "{\"buffId\":\"sneak\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50409001": {
-    "name": "影刺术",
+    "name": "良计速出",
     "icon": "jfz_luwan_pg",
     "qa": 3,
     "anger": 0,
@@ -2869,7 +2869,7 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.45}"
   },
   "50409002": {
-    "name": "影缚术",
+    "name": "狭目窥底",
     "icon": "jfz_luwan_skill",
     "qa": 3,
     "anger": 4,
@@ -2882,7 +2882,7 @@
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.75}"
   },
   "50410001": {
-    "name": "寄坏虫",
+    "name": "股掌之间",
     "icon": "zhinai_borenzhuan_pg",
     "qa": 3,
     "anger": 0,
@@ -2895,7 +2895,7 @@
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "50410002": {
-    "name": "秘术·虫分身",
+    "name": "控魂驱魄",
     "icon": "zhinai_borenzhuan_skill",
     "qa": 3,
     "anger": 4,
@@ -2908,7 +2908,7 @@
     "value1": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50411001": {
-    "name": "咒术",
+    "name": "唤灵",
     "qa": 3,
     "anger": 0,
     "type": "attack",
@@ -2918,7 +2918,7 @@
     "mul": 1.62
   },
   "50411002": {
-    "name": "咒印击",
+    "name": "咒印",
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -2930,7 +2930,7 @@
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.65}"
   },
   "50412001": {
-    "name": "魔灵唤",
+    "name": "诅咒",
     "qa": 3,
     "anger": 0,
     "type": "attack",
@@ -2942,7 +2942,7 @@
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "50412002": {
-    "name": "魔印袭",
+    "name": "恐袭",
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -2954,7 +2954,7 @@
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50413001": {
-    "name": "五遁大连弹之术",
+    "name": "留守河东",
     "icon": "yuanfeirizhan_pg",
     "qa": 5,
     "anger": 0,
@@ -2967,7 +2967,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "50413002": {
-    "name": "尸鬼封尽",
+    "name": "洛阳一炬",
     "icon": "yuanfeirizhan_skill",
     "qa": 5,
     "anger": 4,
@@ -2980,7 +2980,7 @@
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
   },
   "50414001": {
-    "name": "木遁·木龙之术",
+    "name": "方天画戟斩",
     "icon": "qianshouzhujian_skill",
     "qa": 5,
     "anger": 0,
@@ -2993,7 +2993,7 @@
     "value1": 0.05
   },
   "50414002": {
-    "name": "仙法·木遁·真数千手",
+    "name": "天诛地灭",
     "icon": "qianshouzhujian_pg",
     "qa": 5,
     "anger": 4,
@@ -3006,7 +3006,7 @@
     "value1": 0.1
   },
   "50501001": {
-    "name": "飞踢",
+    "name": "真龙刺",
     "icon": "xuanwomingren_skill",
     "qa": 3,
     "anger": 0,
@@ -3019,7 +3019,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50501002": {
-    "name": "影分身之术",
+    "name": "困龙欲出",
     "icon": "xuanwomingren_pg",
     "qa": 3,
     "anger": 4,
@@ -3032,7 +3032,7 @@
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50502001": {
-    "name": "八卦掌",
+    "name": "让梨得誉",
     "icon": "ningci_pg",
     "qa": 3,
     "anger": 0,
@@ -3045,7 +3045,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50502002": {
-    "name": "八卦六十四掌",
+    "name": "优游自如",
     "icon": "ningci_skill",
     "qa": 3,
     "anger": 4,
@@ -3104,7 +3104,7 @@
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}"
   },
   "50505001": {
-    "name": "冰刺击",
+    "name": "黄天当立\n",
     "icon": "bai_pg",
     "qa": 3,
     "anger": 0,
@@ -3117,7 +3117,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50505002": {
-    "name": "水遁秘术·千杀水翔",
+    "name": "道法行雷",
     "icon": "bai_skill",
     "qa": 3,
     "anger": 4,
@@ -3130,7 +3130,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50506001": {
-    "name": "幻术",
+    "name": "轻盈舞魅",
     "icon": "hong_pg",
     "qa": 3,
     "anger": 0,
@@ -3143,7 +3143,7 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50506002": {
-    "name": "幻术·绝莲华",
+    "name": "临涧戏水",
     "icon": "hong_skill",
     "qa": 3,
     "anger": 4,
@@ -3156,7 +3156,7 @@
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}"
   },
   "50507001": {
-    "name": "掌仙术",
+    "name": "仙山游医",
     "icon": "jingyin_pg",
     "qa": 3,
     "anger": 0,
@@ -3166,7 +3166,7 @@
     "mul": 0.8
   },
   "50507002": {
-    "name": "治活再生之术",
+    "name": "刮骨去毒",
     "icon": "jingyin_skill",
     "qa": 3,
     "anger": 4,
@@ -3178,7 +3178,7 @@
     "value1": "{\"buffId\":\"invincible\",\"buff_tg\":\"friend_minHp_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50508001": {
-    "name": "墨霞之术",
+    "name": "公台献城",
     "icon": "zuojing_pg",
     "qa": 3,
     "anger": 0,
@@ -3189,7 +3189,7 @@
     "mul": 1.48
   },
   "50508002": {
-    "name": "超兽伪画",
+    "name": "与曹难谋",
     "icon": "zuojing_skill",
     "qa": 3,
     "anger": 4,
@@ -3202,7 +3202,7 @@
     "value1": true
   },
   "50509001": {
-    "name": "雷遁术",
+    "name": "诡术",
     "icon": "kakaxi_pg",
     "qa": 3,
     "anger": 0,
@@ -3215,7 +3215,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "50509002": {
-    "name": "秘术·千年杀",
+    "name": "幻化众生",
     "icon": "kakaxi_skill",
     "qa": 3,
     "anger": 4,
@@ -3228,7 +3228,7 @@
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
   "50510001": {
-    "name": "木遁·暴枪树",
+    "name": "龙凤印",
     "icon": "dahe_pg",
     "qa": 3,
     "anger": 0,
@@ -3238,7 +3238,7 @@
     "mul": 1.28
   },
   "50510002": {
-    "name": "木遁·树缚永葬",
+    "name": "教诲不倦",
     "icon": "dahe_skill",
     "qa": 3,
     "anger": 4,
@@ -3250,7 +3250,7 @@
     "value1": 1
   },
   "50511001": {
-    "name": "飞踢",
+    "name": "攻守自如",
     "icon": "chengnian_xuanwomingren_pg",
     "qa": 3,
     "anger": 0,
@@ -3263,7 +3263,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
   },
   "50511002": {
-    "name": "影分身之术",
+    "name": "形影不离",
     "icon": "chengnian_xuanwomingren_skill",
     "qa": 3,
     "anger": 4,
@@ -3276,7 +3276,7 @@
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.75}"
   },
   "50512001": {
-    "name": "八卦掌",
+    "name": "潋滟晴方",
     "icon": "chengnian_ningci_pg",
     "qa": 3,
     "anger": 0,
@@ -3291,7 +3291,7 @@
     "value2": "team_self"
   },
   "50512002": {
-    "name": "八卦六十四掌",
+    "name": "道法自然",
     "icon": "chengnian_ningci_skill",
     "qa": 3,
     "anger": 4,
@@ -3306,6 +3306,7 @@
     "value2": "team_self"
   },
   "50512012": {
+    "name": "奇袭",
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -3319,7 +3320,7 @@
     "value2": 0.65
   },
   "50513001": {
-    "name": "雷遁·雷犁热刀",
+    "name": "腾云跨风",
     "icon": "ai_pg",
     "qa": 4,
     "anger": 0,
@@ -3334,7 +3335,7 @@
     "value2": "team_self"
   },
   "50513002": {
-    "name": "雷我爆弹",
+    "name": "遁甲天书",
     "icon": "ai_skill",
     "qa": 4,
     "anger": 4,
@@ -3347,7 +3348,7 @@
     "value1": "{\"buffId\":\"disarm\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
   },
   "50514001": {
-    "name": "求道玉",
+    "name": "换斗星移",
     "icon": "xianrenmingren_skill",
     "qa": 5,
     "anger": 0,
@@ -3360,7 +3361,7 @@
     "value1": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]"
   },
   "50514002": {
-    "name": "大玉螺旋手里剑",
+    "name": "赤壁唤风",
     "icon": "xianrenmingren_pg",
     "qa": 5,
     "anger": 4,
@@ -3524,7 +3525,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成160%攻击力的物理伤害,并添加破甲、虚弱、撕裂效果",
+    "des": "对敌方单体造成160%攻击力的物理伤害,并添加破甲、虚弱、流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.6,
@@ -3541,7 +3542,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成360%攻击力的物理伤害,并添加破甲、虚弱、撕裂效果",
+    "des": "对敌方单体造成360%攻击力的物理伤害,并添加破甲、虚弱、流血效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.6,
@@ -3702,7 +3703,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成180%攻击力的物理伤害,并添加撕裂、禁疗效果",
+    "des": "对敌方单体造成180%攻击力的物理伤害,并添加流血、禁疗效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.8,
@@ -3717,7 +3718,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成380%攻击力的物理伤害，并添加3层撕裂，禁疗效果",
+    "des": "对敌方单体造成380%攻击力的物理伤害，并添加3层流血，禁疗效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.8,
@@ -4011,7 +4012,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成160%攻击力的物理伤害，并各有35%概率附加1层撕裂和1层减速效果",
+    "des": "对敌方单体造成160%攻击力的物理伤害，并各有35%概率附加1层流血和1层减速效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.6,
@@ -4026,7 +4027,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成460%攻击力的物理伤害，并各有55%概率附加1层撕裂和1层减速效果",
+    "des": "对敌方单体造成460%攻击力的物理伤害，并各有55%概率附加1层流血和1层减速效果",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4.6,
@@ -4692,7 +4693,7 @@
     "qa": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成145%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成145%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.45,
@@ -4705,7 +4706,7 @@
     "qa": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成123%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.23,
@@ -4718,7 +4719,7 @@
     "qa": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成110%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.1,
@@ -4731,7 +4732,7 @@
     "qa": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成93%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 0.93,
@@ -4744,7 +4745,7 @@
     "qa": 1,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成85%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 0.85,
@@ -5580,7 +5581,7 @@
     "qa": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成326%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成326%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.26,
@@ -5593,7 +5594,7 @@
     "qa": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成277%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 2.77,
@@ -5606,7 +5607,7 @@
     "qa": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成248%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 2.48,
@@ -5619,7 +5620,7 @@
     "qa": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成209%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.09,
@@ -5632,7 +5633,7 @@
     "qa": 1,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成191%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成191%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.91,
@@ -6468,7 +6469,7 @@
     "qa": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成157%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成157%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.57,
@@ -6481,7 +6482,7 @@
     "qa": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成133%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成133%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.33,
@@ -6494,7 +6495,7 @@
     "qa": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成119%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成119%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.19,
@@ -6507,7 +6508,7 @@
     "qa": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成100%攻击的法术伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成100%攻击的法术伤害,并有40%概率附加流血效果.",
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1,
@@ -6520,7 +6521,7 @@
     "qa": 2,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成92%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成92%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 0.92,
@@ -7356,7 +7357,7 @@
     "qa": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成352%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成352%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.52,
@@ -7369,7 +7370,7 @@
     "qa": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成299%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成299%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 2.99,
@@ -7382,7 +7383,7 @@
     "qa": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成267%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成267%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 2.67,
@@ -7395,7 +7396,7 @@
     "qa": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成226%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成226%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.26,
@@ -7408,7 +7409,7 @@
     "qa": 2,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成207%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成207%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.07,
@@ -8244,7 +8245,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成169%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成169%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.69,
@@ -8257,7 +8258,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成143%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成143%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.43,
@@ -8270,7 +8271,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成128%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成128%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.28,
@@ -8283,7 +8284,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成108%攻击的法术伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成108%攻击的法术伤害,并有40%概率附加流血效果.",
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.08,
@@ -8296,7 +8297,7 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成99%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成99%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 0.99,
@@ -9132,7 +9133,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成381%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成381%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.81,
@@ -9145,7 +9146,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成323%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成323%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 3.23,
@@ -9158,7 +9159,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成289%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成289%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 2.89,
@@ -9171,7 +9172,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成244%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成244%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.44,
@@ -9184,7 +9185,7 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成223%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成223%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.23,
@@ -10020,7 +10021,7 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成183%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成183%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.83,
@@ -10033,7 +10034,7 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成155%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成155%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.55,
@@ -10046,7 +10047,7 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成139%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成139%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.39,
@@ -10059,7 +10060,7 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成117%攻击的法术伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成117%攻击的法术伤害,并有40%概率附加流血效果.",
     "damageType": "mag",
     "targetType": "enemy_rand_23",
     "mul": 1.17,
@@ -10072,7 +10073,7 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成107%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成107%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.07,
@@ -10908,7 +10909,7 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成411%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成411%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4.11,
@@ -10921,7 +10922,7 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成349%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成349%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 3.49,
@@ -10934,7 +10935,7 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成312%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成312%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 3.12,
@@ -10947,7 +10948,7 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成264%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成264%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.64,
@@ -10960,7 +10961,7 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成241%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成241%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.41,
@@ -11796,7 +11797,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成197%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成197%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 1.97,
@@ -11809,7 +11810,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成167%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成167%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.67,
@@ -11822,7 +11823,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成150%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成150%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.5,
@@ -11835,7 +11836,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成127%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成127%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 1.27,
@@ -11848,7 +11849,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成116%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成116%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.16,
@@ -12684,7 +12685,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成444%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成444%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4.44,
@@ -12697,7 +12698,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成377%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成377%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 3.77,
@@ -12710,7 +12711,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成337%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成337%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 3.37,
@@ -12723,7 +12724,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成285%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成285%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 2.85,
@@ -12736,7 +12737,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成260%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成260%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.6,
@@ -13572,7 +13573,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成213%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成213%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.13,
@@ -13585,7 +13586,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成181%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成181%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.81,
@@ -13598,7 +13599,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成162%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成162%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.62,
@@ -13611,7 +13612,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成137%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成137%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 1.37,
@@ -13624,7 +13625,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成125%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成125%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.25,
@@ -14460,7 +14461,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成479%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成479%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 4.79,
@@ -14473,7 +14474,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成407%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成407%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 4.07,
@@ -14486,7 +14487,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成364%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成364%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 3.64,
@@ -14499,7 +14500,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成307%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成307%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 3.07,
@@ -14512,7 +14513,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成281%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成281%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 2.81,
@@ -15348,7 +15349,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方单体造成230%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成230%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 2.3,
@@ -15361,7 +15362,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到2个目标造成195%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成195%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 1.95,
@@ -15374,7 +15375,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方1到3个目标造成175%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成175%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 1.75,
@@ -15387,7 +15388,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方2到3个目标造成148%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成148%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 1.48,
@@ -15400,7 +15401,7 @@
     "qa": 6,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方3个目标造成135%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成135%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 1.35,
@@ -16236,7 +16237,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方单体造成518%攻击的物理伤害,并有65%概率附加撕裂效果.",
+    "des": "对敌方单体造成518%攻击的物理伤害,并有65%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 5.18,
@@ -16249,7 +16250,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到2个目标造成439%攻击的物理伤害,并有50%概率附加撕裂效果.",
+    "des": "对敌方1到2个目标造成439%攻击的物理伤害,并有50%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_12",
     "mul": 4.39,
@@ -16262,7 +16263,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方1到3个目标造成393%攻击的物理伤害,并有45%概率附加撕裂效果.",
+    "des": "对敌方1到3个目标造成393%攻击的物理伤害,并有45%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_13",
     "mul": 3.93,
@@ -16275,7 +16276,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方2到3个目标造成332%攻击的物理伤害,并有40%概率附加撕裂效果.",
+    "des": "对敌方2到3个目标造成332%攻击的物理伤害,并有40%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_rand_23",
     "mul": 3.32,
@@ -16288,7 +16289,7 @@
     "qa": 6,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方3个目标造成303%攻击的物理伤害,并有35%概率附加撕裂效果.",
+    "des": "对敌方3个目标造成303%攻击的物理伤害,并有35%概率附加流血效果.",
     "damageType": "phy",
     "targetType": "enemy_3",
     "mul": 3.03,
