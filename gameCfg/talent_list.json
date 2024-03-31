@@ -5249,7 +5249,7 @@
     "icon": 50109003,
     "name": "熊罴之士",
     "qa": 3,
-    "des": "击杀目标后，并恢复最大生命值的20%",
+    "des": "击杀目标后，恢复最大生命值的20%",
     "key1": "kill_heal",
     "value1": 0.2
   },
@@ -5658,13 +5658,13 @@
     "name": "整备",
     "des": "入场时，给敌方攻击最高的目标附加炙热光环的效果，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}"
   },
   "50212003": {
     "name": "桀骜",
     "des": "被敌方目标攻击时，有10%概率为敌方附加禁怒效果，持续1回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.1}"
+    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.1}"
   },
   "50212004": {
     "name": "英姿",
@@ -5676,7 +5676,7 @@
     "name": "热烈",
     "des": "入场时，为敌方随机1个目标附加禁怒效果，持续1回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
+    "value1": "{\"buffId\":\"banAnger\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "50213003": {
     "icon": 50211003,
@@ -5834,7 +5834,7 @@
     "qa": 3,
     "des": "技能暴击额外造成的生命上限伤害提高至10%",
     "key1": "skill_crit_maxHp",
-    "value1": 0.1
+    "value1": 0.04
   },
   "50304005": {
     "icon": 50304005,
@@ -5890,7 +5890,7 @@
     "icon": 50306005,
     "name": "老将逆袭",
     "qa": 3,
-    "des": "入场时发动幻术，对敌方全体添加3层瞬身印记，持续2回合",
+    "des": "入场时为敌方全体添加3层瞬身印记，持续2回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -5971,8 +5971,12 @@
     "name": "咆哮",
     "qa": 3,
     "des": "被嘲讽状态下的目标攻击时，受到的伤害降低30%",
-    "key1": "full_hp_red",
-    "value1": 0.6
+    "key1": "behit_exist_buff_name",
+    "value1": "chaofeng",
+    "key2": "behit_exist_buff_att",
+    "value2": "reduction",
+    "key3": "behit_exist_buff_value",
+    "value3": 0.3
   },
   "50310004": {
     "icon": 50310004,
@@ -6198,7 +6202,7 @@
     "icon": 50404004,
     "name": "继父舞枪",
     "qa": 3,
-    "des": "释放技能时，造成的额外伤害增加至最大生命值的10%",
+    "des": "攻击造成的额外伤害增加至最大生命值的10%",
     "key1": "maxHP_damage",
     "value1": 0.1
   },
@@ -6250,7 +6254,7 @@
     "key1": "curse_settle",
     "value1": true,
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":5,\"duration\":3,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50406005": {
     "icon": 50406005,
@@ -6265,7 +6269,7 @@
     "name": "耀武",
     "qa": 3,
     "des": "每回合行动后获得1层嗜血效果，持续3回合",
-    "key1": "action_buff1",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50407004": {
@@ -6354,9 +6358,13 @@
     "qa": 3,
     "des": "所有攻击有25%概率各附加虚弱和诅咒的效果,持续2回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "50410005": {
     "icon": 50410005,
@@ -6394,14 +6402,16 @@
     "qa": 3,
     "des": "技能攻击时，有40%的概率额外附加虚弱，破甲效果，持续2回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.4}"
   },
   "50412004": {
     "name": "缓兵",
     "qa": 3,
     "des": "自身行动后，为己方全体单位各移除1个非控制类的负面状态，并转化为诅咒转移至敌方随机单体",
-    "key1": "clean_team",
-    "value1": true
+    "key1": "passive1",
+    "value1": "zy_zz"
   },
   "50412005": {
     "name": "牺牲",
@@ -6458,9 +6468,17 @@
     "qa": 4,
     "des": "每回合攻击时，为攻击目标附加1层诅咒，破甲和虚弱效果，持续2回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key5": "normal_buff",
+    "value5": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key6": "skill_buff",
+    "value6": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50414005": {
     "icon": 50412005,
@@ -6576,7 +6594,7 @@
     "icon": 50503003,
     "name": "雷击",
     "qa": 3,
-    "des": "触发雷咒时有25%概率麻痹目标",
+    "des": "触发雷咒时有25%概率麻痹目标，持续1回合",
     "key1": "gd_mb",
     "value1": 0.25
   },
@@ -6594,7 +6612,7 @@
     "qa": 3,
     "des": "入场时发动袭击，为敌方全体附加2层雷咒效果，持续2回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "50506003": {
     "icon": 50504003,
@@ -6656,7 +6674,7 @@
     "icon": 50506004,
     "name": "智迟",
     "qa": 3,
-    "des": "释放技能后驱散目标1个增益效果",
+    "des": "释放技能后驱散敌方全体1个增益效果",
     "key1": "skill_dispel_enemy",
     "value1": true
   },
@@ -6802,7 +6820,7 @@
     "icon": 50511006,
     "name": "辟谷",
     "qa": 4,
-    "des": "释放技能时，怒气最少的友方可额外行动1回合",
+    "des": "释放技能时，怒气最少的同阵营友方可额外行动1回合",
     "key1": "extraAtion",
     "value1": true
   },
@@ -6812,7 +6830,11 @@
     "qa": 4,
     "des": "自身每有1个增益效果，造成的伤害增加15%",
     "key1": "my_intensify_amp",
-    "value1": 0.15
+    "value1": 0.15,
+    "key2": "normal_buff",
+    "value2": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]",
+    "key3": "skill_buff",
+    "value3": "[{\"buffId\":\"speed\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"god_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]"
   },
   "50514004": {
     "icon": 50512004,
@@ -14638,25 +14660,37 @@
     "qa": 3,
     "des": "所有攻击有30%概率各附加虚弱和诅咒的效果",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.3}"
   },
   "sb_4102": {
     "qa": 3,
     "des": "所有攻击有35%概率各附加虚弱和诅咒的效果",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "sb_4103": {
     "qa": 3,
     "des": "所有攻击有50%概率各附加虚弱和诅咒的效果",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "sb_4111": {
     "qa": 3,
@@ -14692,19 +14726,25 @@
     "qa": 3,
     "des": "技能攻击时，有45%的概率额外附加虚弱，破甲效果，持续2回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.45}"
   },
   "sb_4122": {
     "qa": 3,
     "des": "技能攻击时，有50%的概率额外附加虚弱，破甲效果，持续2回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
   },
   "sb_4123": {
     "qa": 3,
     "des": "技能攻击时，有60%的概率额外附加虚弱，破甲效果，持续2回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6},{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
+    "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}"
   },
   "sb_4131": {
     "qa": 3,
@@ -14742,17 +14782,29 @@
     "qa": 3,
     "des": "每次攻击时，为攻击目标额外附加1层流血效果和魔印效果，持续2回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_4143": {
     "qa": 3,
     "des": "每次攻击时，为攻击目标额外附加1层流血效果，重伤效果和魔印，持续2回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"moyin\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key5": "normal_buff",
+    "value5": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key6": "skill_buff",
+    "value6": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sb_5011": {
     "qa": 3,
@@ -15066,16 +15118,28 @@
     "qa": 3,
     "des": "每回合攻击时，额外为自身附加1层暴击加和1层爆伤加成，持续至战斗结束",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sb_5143": {
     "qa": 3,
     "des": "每回合攻击时，额外为自身附加1层暴击加，1层爆伤加成和1层反制印记，持续至战斗结束",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key3": "normal_buff",
+    "value3": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key4": "skill_buff",
+    "value4": "{\"buffId\":\"slay\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key5": "normal_buff",
+    "value5": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}",
+    "key6": "skill_buff",
+    "value6": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   }
 }
