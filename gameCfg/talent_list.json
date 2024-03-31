@@ -5316,7 +5316,7 @@
     "qa": 3,
     "des": "入场时，为全体友方回复1点怒气",
     "key1": "beginSkill",
-    "value1": 50110012
+    "value1": 50112012
   },
   "50113003": {
     "icon": 50111003,
@@ -5340,7 +5340,9 @@
     "qa": 4,
     "des": "莲华效果可持续至战斗结束，每回行动结束后，额外为自身附加1层莲华效果",
     "key1": "buffDuration",
-    "value1": 99
+    "value1": 99,
+    "key2": "action_buff",
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "50113006": {
     "icon": 50111006,
@@ -5364,7 +5366,7 @@
     "qa": 4,
     "des": "每回合获得1层六道效果，当叠满10层时，每回合行动后随机禁锢一个敌方目标【六道：每层增加自身5%免伤，持续3回合，最大可叠加10层】",
     "key1": "action_buff",
-    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50114005": {
     "icon": 50112005,
@@ -5374,7 +5376,7 @@
     "key1": "listen_enemyBuff",
     "value1": "cold",
     "key2": "listen_addBuff",
-    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50114006": {
     "icon": 50112006,
@@ -5460,7 +5462,7 @@
   },
   "50204003": {
     "icon": 50204003,
-    "name": "苦肉",
+    "name": "苦肉计",
     "qa": 3,
     "des": "受到灼烧状态下的敌人攻击时伤害降低50%",
     "key1": "burn_hit_reduction",
@@ -13810,7 +13812,7 @@
     "key1": "self_atk_add",
     "value1": 0.08,
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1132": {
     "qa": 3,
@@ -13818,7 +13820,7 @@
     "key1": "self_atk_add",
     "value1": 0.12,
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1133": {
     "qa": 3,
@@ -13826,7 +13828,7 @@
     "key1": "self_atk_add",
     "value1": 0.16,
     "key2": "action_buff",
-    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"polang\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":99,\"buffRate\":1}"
   },
   "sb_1141": {
     "qa": 3,
