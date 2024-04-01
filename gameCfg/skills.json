@@ -1847,9 +1847,10 @@
     "name": "及时雨",
     "qa": 3,
     "anger": 4,
-    "type": "heal",
+    "type": "attack",
     "des": "入场时，为全体友方回复1点怒气",
-    "targetType": "team_all",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
     "mul": 0,
     "key1": "skill_anger_a",
     "value1": 1
