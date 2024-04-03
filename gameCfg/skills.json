@@ -2139,8 +2139,8 @@
     "damageType": "phy",
     "targetType": "enemy_normal",
     "mul": 3.4,
-    "key1": "burn_att_change_skill",
-    "value1": "{\"amplify\":1}"
+    "key1": "thawing_burn",
+    "value1": 1
   },
   "50210001": {
     "name": "弄潮惊鸿",
@@ -17139,9 +17139,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复84%技能威力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 0.84
+    "des": "提高我方全体英雄10%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
   },
   "1005003002": {
     "name": 1,
@@ -17149,9 +17150,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复104%技能威力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 1.04
+    "des": "提高我方全体英雄15%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
   },
   "1005003003": {
     "name": 1,
@@ -17159,9 +17161,10 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复144%技能威力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 1.44
+    "des": "提高我方全体英雄22%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.22,\"duration\":2,\"buffRate\":1}"
   },
   "1005003004": {
     "name": 1,
@@ -17169,13 +17172,97 @@
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "为我方血量最少的2个目标恢复196%技能威力的生命值",
-    "targetType": "team_minHp_2",
-    "mul": 1.96
+    "des": "提高我方全体英雄32%的攻击力，持续2回合",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}"
   },
   "1005003005": {
     "name": 1,
     "icon": 1005003005,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "释放技能时，为我方攻击力最高的英雄恢复1点怒气",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 1
+  },
+  "1005003006": {
+    "name": 1,
+    "icon": 1005003006,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "所有锦囊技能威力提升15%",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 1,
+    "key3": "power_up",
+    "value3": 0.15
+  },
+  "1005003007": {
+    "name": 1,
+    "icon": 1005003007,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "释放技能时，为我方全体英雄恢复1点怒气",
+    "targetType": "team_all",
+    "key1": "buff1",
+    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_anger_a",
+    "value2": 1,
+    "key3": "power_up",
+    "value3": 0.15
+  },
+  "1005004001": {
+    "name": 1,
+    "icon": 1005004001,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复84%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 0.84
+  },
+  "1005004002": {
+    "name": 1,
+    "icon": 1005004002,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复104%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 1.04
+  },
+  "1005004003": {
+    "name": 1,
+    "icon": 1005004003,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复144%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 1.44
+  },
+  "1005004004": {
+    "name": 1,
+    "icon": 1005004004,
+    "qa": 3,
+    "anger": 4,
+    "type": "heal",
+    "des": "为我方血量最少的2个目标恢复196%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 1.96
+  },
+  "1005004005": {
+    "name": 1,
+    "icon": 1005004005,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17185,9 +17272,9 @@
     "key1": "clean_one_lowe",
     "value1": true
   },
-  "1005003006": {
+  "1005004006": {
     "name": 1,
-    "icon": 1005003006,
+    "icon": 1005004006,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17199,9 +17286,9 @@
     "key2": "power_up",
     "value2": 0.15
   },
-  "1005003007": {
+  "1005004007": {
     "name": 1,
-    "icon": 1005003007,
+    "icon": 1005004007,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17213,9 +17300,9 @@
     "key2": "power_up",
     "value2": 0.15
   },
-  "1005004001": {
+  "1005005001": {
     "name": 1,
-    "icon": 1005004001,
+    "icon": 1005005001,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17226,9 +17313,9 @@
     "key1": "maxHP_damage",
     "value1": 0.15
   },
-  "1005004002": {
+  "1005005002": {
     "name": 1,
-    "icon": 1005004002,
+    "icon": 1005005002,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17239,9 +17326,9 @@
     "key1": "maxHP_damage",
     "value1": 0.2
   },
-  "1005004003": {
+  "1005005003": {
     "name": 1,
-    "icon": 1005004003,
+    "icon": 1005005003,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17252,9 +17339,9 @@
     "key1": "maxHP_damage",
     "value1": 0.25
   },
-  "1005004004": {
+  "1005005004": {
     "name": 1,
-    "icon": 1005004004,
+    "icon": 1005005004,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17265,9 +17352,9 @@
     "key1": "maxHP_damage",
     "value1": 0.4
   },
-  "1005004005": {
+  "1005005005": {
     "name": 1,
-    "icon": 1005004005,
+    "icon": 1005005005,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17280,9 +17367,9 @@
     "key2": "buff1",
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005004006": {
+  "1005005006": {
     "name": 1,
-    "icon": 1005004006,
+    "icon": 1005005006,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17297,9 +17384,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005004007": {
+  "1005005007": {
     "name": 1,
-    "icon": 1005004007,
+    "icon": 1005005007,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17314,9 +17401,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005005001": {
+  "1005006001": {
     "name": 1,
-    "icon": 1005005001,
+    "icon": 1005006001,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17326,9 +17413,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.16,\"duration\":2,\"buffRate\":1}"
   },
-  "1005005002": {
+  "1005006002": {
     "name": 1,
-    "icon": 1005005002,
+    "icon": 1005006002,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17338,9 +17425,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
-  "1005005003": {
+  "1005006003": {
     "name": 1,
-    "icon": 1005005003,
+    "icon": 1005006003,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17350,9 +17437,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.24,\"duration\":2,\"buffRate\":1}"
   },
-  "1005005004": {
+  "1005006004": {
     "name": 1,
-    "icon": 1005005004,
+    "icon": 1005006004,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17362,9 +17449,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"armor\",\"buff_tg\":\"team_all\",\"buffArg\":0.28,\"duration\":2,\"buffRate\":1}"
   },
-  "1005005005": {
+  "1005006005": {
     "name": 1,
-    "icon": 1005005005,
+    "icon": 1005006005,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17376,9 +17463,9 @@
     "key2": "buff2",
     "value2": "{\"buffId\":\"shield\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":1,\"buffRate\":1}"
   },
-  "1005005006": {
+  "1005006006": {
     "name": 1,
-    "icon": 1005005006,
+    "icon": 1005006006,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17392,9 +17479,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005005007": {
+  "1005006007": {
     "name": 1,
-    "icon": 1005005007,
+    "icon": 1005006007,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17410,9 +17497,9 @@
     "key4": "buff3",
     "value4": "{\"buffId\":\"invincible\",\"buff_tg\":\"team_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005006001": {
+  "1005007001": {
     "name": 1,
-    "icon": 1005006001,
+    "icon": 1005007001,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17422,9 +17509,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}"
   },
-  "1005006002": {
+  "1005007002": {
     "name": 1,
-    "icon": 1005006002,
+    "icon": 1005007002,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17434,9 +17521,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.5,\"duration\":2,\"buffRate\":1}"
   },
-  "1005006003": {
+  "1005007003": {
     "name": 1,
-    "icon": 1005006003,
+    "icon": 1005007003,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17446,9 +17533,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.7,\"duration\":2,\"buffRate\":1}"
   },
-  "1005006004": {
+  "1005007004": {
     "name": 1,
-    "icon": 1005006004,
+    "icon": 1005007004,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17458,9 +17545,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
-  "1005006005": {
+  "1005007005": {
     "name": 1,
-    "icon": 1005006005,
+    "icon": 1005007005,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17472,9 +17559,9 @@
     "key2": "cleanDebuff",
     "value2": true
   },
-  "1005006006": {
+  "1005007006": {
     "name": 1,
-    "icon": 1005006006,
+    "icon": 1005007006,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17488,9 +17575,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005006007": {
+  "1005007007": {
     "name": 1,
-    "icon": 1005006007,
+    "icon": 1005007007,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17506,96 +17593,89 @@
     "key4": "heal_maxHp",
     "value4": 0.2
   },
-  "1005007001": {
+  "1005008001": {
     "name": 1,
-    "icon": 1005007001,
+    "icon": 1005008001,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄10%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}"
+    "des": "为我方血量最少的2个目标恢复180%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 1.8
   },
-  "1005007002": {
+  "1005008002": {
     "name": 1,
-    "icon": 1005007002,
+    "icon": 1005008002,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄15%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":2,\"buffRate\":1}"
+    "des": "为我方血量最少的2个目标恢复244%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 2.44
   },
-  "1005007003": {
+  "1005008003": {
     "name": 1,
-    "icon": 1005007003,
+    "icon": 1005008003,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄22%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.22,\"duration\":2,\"buffRate\":1}"
+    "des": "为我方血量最少的2个目标恢复286%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 2.86
   },
-  "1005007004": {
+  "1005008004": {
     "name": 1,
-    "icon": 1005007004,
+    "icon": 1005008004,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "提高我方全体英雄32%的攻击力，持续2回合",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}"
+    "des": "为我方血量最少的2个目标恢复329%技能威力的生命值",
+    "targetType": "team_minHp_2",
+    "mul": 3.29
   },
-  "1005007005": {
+  "1005008005": {
     "name": 1,
-    "icon": 1005007005,
+    "icon": 1005008005,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "释放技能时，为我方攻击力最高的英雄恢复1点怒气",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_add_maxAtk_anger",
-    "value2": 1
+    "des": "释放技能时驱散目标身上的1个非控制类异常状态",
+    "targetType": "team_minHp_2",
+    "mul": 3.29,
+    "key1": "clean_one_lowe",
+    "value1": true
   },
-  "1005007006": {
+  "1005008006": {
     "name": 1,
-    "icon": 1005007006,
+    "icon": 1005008006,
     "qa": 3,
     "anger": 4,
     "type": "heal",
     "des": "所有锦囊技能威力提升15%",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_add_maxAtk_anger",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15
+    "targetType": "team_minHp_2",
+    "mul": 3.29,
+    "key1": "clean_one_lowe",
+    "value1": true,
+    "key2": "power_up",
+    "value2": 0.15
   },
-  "1005007007": {
+  "1005008007": {
     "name": 1,
-    "icon": 1005007007,
+    "icon": 1005008007,
     "qa": 3,
     "anger": 4,
     "type": "heal",
-    "des": "释放技能时，为我方全体英雄恢复1点怒气",
-    "targetType": "team_all",
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.32,\"duration\":2,\"buffRate\":1}",
-    "key2": "skill_anger_a",
-    "value2": 1,
-    "key3": "power_up",
-    "value3": 0.15
+    "des": "技能目标增加为我方血量最少的3个目标",
+    "targetType": "team_minHp_3",
+    "mul": 3.29,
+    "key1": "clean_one_lowe",
+    "value1": true,
+    "key2": "power_up",
+    "value2": 0.15
   },
-  "1005008001": {
+  "1005009001": {
     "name": 1,
-    "icon": 1005008001,
+    "icon": 1005009001,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17606,9 +17686,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
-  "1005008002": {
+  "1005009002": {
     "name": 1,
-    "icon": 1005008002,
+    "icon": 1005009002,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17619,9 +17699,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
   },
-  "1005008003": {
+  "1005009003": {
     "name": 1,
-    "icon": 1005008003,
+    "icon": 1005009003,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17632,9 +17712,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "1005008004": {
+  "1005009004": {
     "name": 1,
-    "icon": 1005008004,
+    "icon": 1005009004,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17645,9 +17725,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
   },
-  "1005008005": {
+  "1005009005": {
     "name": 1,
-    "icon": 1005008005,
+    "icon": 1005009005,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17658,9 +17738,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.7}"
   },
-  "1005008006": {
+  "1005009006": {
     "name": 1,
-    "icon": 1005008006,
+    "icon": 1005009006,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17673,9 +17753,9 @@
     "key2": "power_up",
     "value2": 0.3
   },
-  "1005008007": {
+  "1005009007": {
     "name": 1,
-    "icon": 1005008007,
+    "icon": 1005009007,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17688,9 +17768,9 @@
     "key2": "power_up",
     "value2": 0.3
   },
-  "1005009001": {
+  "1005010001": {
     "name": 1,
-    "icon": 1005009001,
+    "icon": 1005010001,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17700,9 +17780,9 @@
     "key1": "rescue_heal",
     "value1": 0.1
   },
-  "1005009002": {
+  "1005010002": {
     "name": 1,
-    "icon": 1005009002,
+    "icon": 1005010002,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17712,9 +17792,9 @@
     "key1": "rescue_heal",
     "value1": 0.25
   },
-  "1005009003": {
+  "1005010003": {
     "name": 1,
-    "icon": 1005009003,
+    "icon": 1005010003,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17724,9 +17804,9 @@
     "key1": "rescue_heal",
     "value1": 0.4
   },
-  "1005009004": {
+  "1005010004": {
     "name": 1,
-    "icon": 1005009004,
+    "icon": 1005010004,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17736,9 +17816,9 @@
     "key1": "rescue_heal",
     "value1": 0.55
   },
-  "1005009005": {
+  "1005010005": {
     "name": 1,
-    "icon": 1005009005,
+    "icon": 1005010005,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17750,9 +17830,9 @@
     "key2": "buff1",
     "value2": "{\"buffId\":\"invincible\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005009006": {
+  "1005010006": {
     "name": 1,
-    "icon": 1005009006,
+    "icon": 1005010006,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17766,9 +17846,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005009007": {
+  "1005010007": {
     "name": 1,
-    "icon": 1005009007,
+    "icon": 1005010007,
     "qa": 3,
     "anger": 4,
     "type": "heal",
@@ -17782,9 +17862,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005010001": {
+  "1005011001": {
     "name": 1,
-    "icon": 1005010001,
+    "icon": 1005011001,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17795,9 +17875,9 @@
     "key1": "maxHP_damage",
     "value1": 0.08
   },
-  "1005010002": {
+  "1005011002": {
     "name": 1,
-    "icon": 1005010002,
+    "icon": 1005011002,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17808,9 +17888,9 @@
     "key1": "maxHP_damage",
     "value1": 0.1
   },
-  "1005010003": {
+  "1005011003": {
     "name": 1,
-    "icon": 1005010003,
+    "icon": 1005011003,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17821,9 +17901,9 @@
     "key1": "maxHP_damage",
     "value1": 0.12
   },
-  "1005010004": {
+  "1005011004": {
     "name": 1,
-    "icon": 1005010004,
+    "icon": 1005011004,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17834,9 +17914,9 @@
     "key1": "maxHP_damage",
     "value1": 0.14
   },
-  "1005010005": {
+  "1005011005": {
     "name": 1,
-    "icon": 1005010005,
+    "icon": 1005011005,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17849,9 +17929,9 @@
     "key2": "buff1",
     "value2": "{\"buffId\":\"jinhun\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005010006": {
+  "1005011006": {
     "name": 1,
-    "icon": 1005010006,
+    "icon": 1005011006,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17866,9 +17946,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005010007": {
+  "1005011007": {
     "name": 1,
-    "icon": 1005010007,
+    "icon": 1005011007,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17883,9 +17963,9 @@
     "key3": "power_up",
     "value3": 0.3
   },
-  "1005011001": {
+  "1005012001": {
     "name": 1,
-    "icon": 1005011001,
+    "icon": 1005012001,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17896,9 +17976,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
   },
-  "1005011002": {
+  "1005012002": {
     "name": 1,
-    "icon": 1005011002,
+    "icon": 1005012002,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17909,9 +17989,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
-  "1005011003": {
+  "1005012003": {
     "name": 1,
-    "icon": 1005011003,
+    "icon": 1005012003,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17922,9 +18002,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.4}"
   },
-  "1005011004": {
+  "1005012004": {
     "name": 1,
-    "icon": 1005011004,
+    "icon": 1005012004,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17935,9 +18015,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.45}"
   },
-  "1005011005": {
+  "1005012005": {
     "name": 1,
-    "icon": 1005011005,
+    "icon": 1005012005,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17948,9 +18028,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
-  "1005011006": {
+  "1005012006": {
     "name": 1,
-    "icon": 1005011006,
+    "icon": 1005012006,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17963,9 +18043,9 @@
     "key2": "power_up",
     "value2": 0.3
   },
-  "1005011007": {
+  "1005012007": {
     "name": 1,
-    "icon": 1005011007,
+    "icon": 1005012007,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17978,9 +18058,9 @@
     "key2": "power_up",
     "value2": 0.3
   },
-  "1005012001": {
+  "1005013001": {
     "name": 1,
-    "icon": 1005012001,
+    "icon": 1005013001,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -17991,9 +18071,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005012002": {
+  "1005013002": {
     "name": 1,
-    "icon": 1005012002,
+    "icon": 1005013002,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -18004,9 +18084,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005012003": {
+  "1005013003": {
     "name": 1,
-    "icon": 1005012003,
+    "icon": 1005013003,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -18017,9 +18097,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005012004": {
+  "1005013004": {
     "name": 1,
-    "icon": 1005012004,
+    "icon": 1005013004,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -18030,9 +18110,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005012005": {
+  "1005013005": {
     "name": 1,
-    "icon": 1005012005,
+    "icon": 1005013005,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -18043,9 +18123,9 @@
     "key1": "buff1",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
-  "1005012006": {
+  "1005013006": {
     "name": 1,
-    "icon": 1005012006,
+    "icon": 1005013006,
     "qa": 3,
     "anger": 4,
     "type": "attack",
@@ -18058,9 +18138,9 @@
     "key2": "power_up",
     "value2": 0.3
   },
-  "1005012007": {
+  "1005013007": {
     "name": 1,
-    "icon": 1005012007,
+    "icon": 1005013007,
     "qa": 3,
     "anger": 4,
     "type": "attack",
