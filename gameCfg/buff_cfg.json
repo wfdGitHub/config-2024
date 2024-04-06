@@ -573,5 +573,40 @@
     "max": 5,
     "intensify": true,
     "default": true
+  },
+  "zhenshang": {
+    "name": "真伤",
+    "des": "攻击附带3%真伤效果",
+    "refreshType": "roundOver",
+    "duration": 99,
+    "max": 5,
+    "intensify": true,
+    "default": true,
+    "attKey1": "HP_damage",
+    "attValue1": 0.03
+  },
+  "addAnger": {
+    "name": "工具-增加自身怒气",
+    "tool": true,
+    "toolKey": "self_anger",
+    "toolValue": 1
+  },
+  "addHP": {
+    "name": "工具-增加自身血量",
+    "tool": true,
+    "toolKey": "self_maxHP",
+    "toolValue": 0.1
+  },
+  "lessAnger": {
+    "name": "工具-减少目标怒气",
+    "tool": true,
+    "toolKey": "target_anger",
+    "toolValue": 1
+  },
+  "lessHP": {
+    "name": "工具-减少目标血量",
+    "tool": true,
+    "toolKey": "target_maxHP",
+    "toolValue": 0.1
   }
 }
