@@ -1,4 +1,28 @@
 {
+  "addAnger": {
+    "name": "工具-增加怒气",
+    "tool": true,
+    "toolKey": "addAnger",
+    "toolValue": 1
+  },
+  "addHP": {
+    "name": "工具-增加血量",
+    "tool": true,
+    "toolKey": "addHP",
+    "toolValue": 0.1
+  },
+  "lessAnger": {
+    "name": "工具-减少怒气",
+    "tool": true,
+    "toolKey": "lessAnger",
+    "toolValue": 1
+  },
+  "lessHP": {
+    "name": "工具-减少血量",
+    "tool": true,
+    "toolKey": "lessHP",
+    "toolValue": 0.1
+  },
   "burn": {
     "name": "灼烧",
     "des": "每回合受到施法者攻击力20%的伤害，持续2回合",
@@ -585,28 +609,20 @@
     "attKey1": "HP_damage",
     "attValue1": 0.03
   },
-  "addAnger": {
-    "name": "工具-增加自身怒气",
-    "tool": true,
-    "toolKey": "self_anger",
-    "toolValue": 1
+  "swordkee": {
+    "name": "剑气",
+    "des": "我方成员被控制时，有概率消耗1层【剑气】免疫此次控制效果。",
+    "refreshType": "roundOver",
+    "duration": 99,
+    "max": 5,
+    "default": true
   },
-  "addHP": {
-    "name": "工具-增加自身血量",
-    "tool": true,
-    "toolKey": "self_maxHP",
-    "toolValue": 0.1
-  },
-  "lessAnger": {
-    "name": "工具-减少目标怒气",
-    "tool": true,
-    "toolKey": "target_anger",
-    "toolValue": 1
-  },
-  "lessHP": {
-    "name": "工具-减少目标血量",
-    "tool": true,
-    "toolKey": "target_maxHP",
-    "toolValue": 0.1
+  "together": {
+    "name": "共赴生死",
+    "des": "每回合开始时，若一人阵亡、一人存活，则消耗血量使阵亡方以一定血量复活",
+    "refreshType": "always",
+    "duration": 99,
+    "max": 1,
+    "default": true
   }
 }
