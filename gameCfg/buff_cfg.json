@@ -274,8 +274,8 @@
     "intensify": true
   },
   "fengzheng": {
-    "name": "追击印记",
-    "des": "当队友攻击该目标时，消耗1层飞雷神印记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
+    "name": "标记",
+    "des": "当队友攻击该目标时，消耗1层标记，对该目标追加1次普通攻击，最多叠加3层，持续3回合",
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true
@@ -609,13 +609,12 @@
     "attKey1": "HP_damage",
     "attValue1": 0.03
   },
-  "swordkee": {
+  "free_control": {
     "name": "剑气",
     "des": "我方成员被控制时，有概率消耗1层【剑气】免疫此次控制效果。",
     "refreshType": "roundOver",
     "duration": 99,
-    "max": 5,
-    "default": true
+    "max": 1
   },
   "together": {
     "name": "共赴生死",
