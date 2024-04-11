@@ -23,6 +23,18 @@
     "toolKey": "lessHP",
     "toolValue": 0.1
   },
+  "extra": {
+    "name": "工具-额外回合",
+    "tool": true,
+    "toolKey": "extraAtion",
+    "toolValue": true
+  },
+  "addatk": {
+    "name": "工具-增加攻击",
+    "tool": true,
+    "toolKey": "self_atk_add",
+    "toolValue": 0.15
+  },
   "burn": {
     "name": "灼烧",
     "des": "每回合受到施法者攻击力20%的伤害，持续2回合",
@@ -61,6 +73,7 @@
     "name": "晕眩",
     "des": "无法行动",
     "refreshType": "after",
+    "duration": 1,
     "control": true,
     "debuff": true,
     "effects": true
@@ -142,6 +155,8 @@
     "name": "无敌吸血盾",
     "des": "受到的所有伤害转化为治疗，恢复自身血量，持续1回合",
     "refreshType": "roundOver",
+    "duration": 1,
+    "max": 1,
     "effects": true
   },
   "suoding": {
@@ -445,9 +460,8 @@
   },
   "suck_atk": {
     "name": "吸取攻击",
-    "des": "吸取目标一定攻击力，持续至战斗结束，不可驱散",
+    "des": "吸取目标一定攻击力，持续2回合",
     "refreshType": "always",
-    "duration": -1,
     "max": 1
   },
   "kb_polang": {
@@ -462,7 +476,7 @@
   },
   "bingshen": {
     "name": "洛神",
-    "des": "生命值低于30%时触发冰神降临，驱散所有负面和控制效果，提升自身30%免伤，受到直接攻击有30%概率冰冻敌人，持续3回合，每场战斗只能触发1次",
+    "des": "生命值低于30%时触发，驱散所有负面和控制效果，提升自身30%免伤，受到直接攻击有30%概率冰冻敌人，持续3回合，每场战斗只能触发1次",
     "refreshType": "after",
     "duration": 3,
     "max": 1,
@@ -471,8 +485,8 @@
     "effects": true
   },
   "huosheng": {
-    "name": "凤仪",
-    "des": "生命值低于30%时触发火神降临，驱散所有负面和控制效果。提升自身30%伤害，每回合恢复30%最大生命值，持续3回合，每场战斗只能触发1次",
+    "name": "霸王",
+    "des": "生命值低于30%时触发，驱散所有负面和控制效果。提升自身30%伤害，每回合恢复30%最大生命值，持续3回合，每场战斗只能触发1次",
     "refreshType": "after",
     "duration": 3,
     "max": 1,
