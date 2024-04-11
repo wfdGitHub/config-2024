@@ -103,6 +103,7 @@
     "refreshType": "roundOver",
     "lower": true,
     "debuff": true,
+    "default": true,
     "attKey1": "mag_add",
     "attValue1": -0.4
   },
@@ -692,7 +693,6 @@
   "huayi4": {
     "name": "画灵-骏马",
     "des": "怒气值恢复2点",
-    "default": true,
     "tool": true,
     "toolKey": "addAnger",
     "toolValue": 2
@@ -712,11 +712,12 @@
     "refreshType": "after",
     "lower": true,
     "debuff": true,
-    "default": true
+    "default": true,
+    "attKey1": "reduction",
+    "attValue1": -0.15
   },
   "hualing3": {
     "name": "画意-雷鸣",
-    "default": true,
     "tool": true,
     "toolKey": "lessAnger",
     "toolValue": 1
@@ -828,21 +829,27 @@
     "attKey1": "phy_turn_hp",
     "attValue1": 0.02,
     "attKey2": "mag_turn_hp",
-    "attValue2": 0.02,
-    "attKey3": "addAnger",
-    "attValue3": 2
+    "attValue2": 0.02
   },
   "angerAdd": {
-    "name": "谋策",
+    "name": "密诏",
     "des": "暴击率提升20%，暴击伤害提升20%，怒气+2",
     "refreshType": "after",
     "duration": 1,
     "max": 1,
     "intensify": true,
     "default": true,
+    "attKey1": "crit",
+    "attValue1": 0.2,
+    "attKey2": "critDef",
+    "attValue2": 0.4
+  },
+  "angerAdd1": {
+    "name": "密诏",
+    "des": "暴击率提升20%，暴击伤害提升20%，怒气+2",
     "tool": true,
     "toolKey": "addAnger",
-    "toolValue": 1
+    "toolValue": 2
   },
   "redloss": {
     "name": "卸甲",
@@ -852,8 +859,7 @@
     "lower": true,
     "debuff": true,
     "default": true,
-    "tool": true,
-    "toolKey": "reduction",
-    "toolValue": -0.2
+    "attKey1": "reduction",
+    "attValue1": -0.2
   }
 }
