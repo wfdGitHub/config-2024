@@ -160,7 +160,7 @@
     "effects": true
   },
   "suoding": {
-    "name": "易伤",
+    "name": "卸甲",
     "des": "受到伤害增加20%",
     "refreshType": "after",
     "lower": true,
@@ -864,16 +864,5 @@
     "tool": true,
     "toolKey": "addAnger",
     "toolValue": 2
-  },
-  "redloss": {
-    "name": "卸甲",
-    "des": "伤害减免降低20%",
-    "refreshType": "after",
-    "max": 1,
-    "lower": true,
-    "debuff": true,
-    "default": true,
-    "attKey1": "reduction",
-    "attValue1": -0.2
   }
 }
