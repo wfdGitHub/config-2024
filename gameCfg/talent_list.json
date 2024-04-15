@@ -6176,17 +6176,25 @@
     "icon": 50312004,
     "name": "神笔",
     "qa": 5,
-    "des": "每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>1</c>层随机<color=#8ad5a2>画灵</c>效果",
+    "des": "每击败<color=#8ad5a2>1</c>名敌人，各有<color=#8ad5a2>35%</c>概率获得<color=#8ad5a2>1</c>层随机<color=#8ad5a2>画灵</c>效果（不包括<color=#8ad5a2>骏马</c>效果）",
     "key1": "kill_buff",
-    "value1": "[{\"buffId\":\"huayi1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"huayi2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"huayi3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}]"
+    "value1": "{\"buffId\":\"huayi1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.35}",
+    "key2": "kill_buff",
+    "value2": "{\"buffId\":\"huayi2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.35}",
+    "key3": "kill_buff",
+    "value3": "{\"buffId\":\"huayi3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.35}"
   },
   "50314005": {
     "icon": 50312005,
     "name": "画中世界",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>、<color=#8ad5a2>雷鸣</c>：降低<color=#8ad5a2>1</c>点怒气】",
-    "key1": "first_buff",
-    "value1": "[{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":1},\n{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}]"
+    "des": "释放技能时，各有<color=#8ad5a2>35%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.35}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
   },
   "50314006": {
     "icon": 50312006,
@@ -6513,9 +6521,9 @@
   "50412003": {
     "name": "阴谋",
     "qa": 3,
-    "des": "受到攻击时，有<color=#8ad5a2>30%</c>概率为目标施加<color=#8ad5a2>卸甲</c>效果，持续<color=#8ad5a2>1</c>回合",
+    "des": "受到攻击时，有<color=#8ad5a2>30%</c>概率为目标施加<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"suoding\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"fragile\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
   },
   "50412004": {
     "name": "缓兵",
@@ -14820,21 +14828,33 @@
   },
   "sb_3141": {
     "qa": 3,
-    "des": "释放技能后，有<color=#8ad5a2>45%</c>概率使目标随机获得<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>、<color=#8ad5a2>雷鸣</c>：降低<color=#8ad5a2>1</c>点怒气】",
+    "des": "释放技能时，各有<color=#8ad5a2>45%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
-    "value1": "[{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.45},\n{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.45},\n{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}]"
+    "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.45}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.45}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
   },
   "sb_3142": {
     "qa": 3,
-    "des": "释放技能后，有<color=#8ad5a2>50%</c>概率使目标随机获得<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>、<color=#8ad5a2>雷鸣</c>：降低<color=#8ad5a2>1</c>点怒气】",
+    "des": "释放技能时，各有<color=#8ad5a2>55%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
-    "value1": "[{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.5},\n{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.5},\n{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.5}]"
+    "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.55}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}"
   },
   "sb_3143": {
     "qa": 3,
-    "des": "释放技能后，有<color=#8ad5a2>55%</c>概率使目标随机获得<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>、<color=#8ad5a2>雷鸣</c>：降低<color=#8ad5a2>1</c>点怒气】",
+    "des": "释放技能时，各有<color=#8ad5a2>65%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
-    "value1": "[{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.55},\n{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55},\n{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}]"
+    "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.65}",
+    "key2": "skill_buff",
+    "value2": "{\"buffId\":\"hualing2\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.65}",
+    "key3": "skill_buff",
+    "value3": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "sb_4011": {
     "qa": 3,
@@ -15060,7 +15080,7 @@
   },
   "sb_4111": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>20%</c>",
+    "des": "拥有<color=#8ad5a2>画戟</c>时，造成伤害提升<color=#8ad5a2>20%</c>",
     "key1": "self_exist_buff_name",
     "value1": "huaji",
     "key2": "self_exist_buff_att",
@@ -15070,7 +15090,7 @@
   },
   "sb_4112": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>25%</c>",
+    "des": "拥有<color=#8ad5a2>画戟</c>时，造成伤害提升<color=#8ad5a2>25%</c>",
     "key1": "self_exist_buff_name",
     "value1": "huaji",
     "key2": "self_exist_buff_att",
@@ -15080,7 +15100,7 @@
   },
   "sb_4113": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>30%</c>",
+    "des": "拥有<color=#8ad5a2>画戟</c>时，造成伤害提升<color=#8ad5a2>30%</c>",
     "key1": "self_exist_buff_name",
     "value1": "huaji",
     "key2": "self_exist_buff_att",
@@ -15478,7 +15498,7 @@
   },
   "sb_5143": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>60%</c>概率额外为自身附加<color=#8ad5a2>1</c>层暴击加，<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>和<color=#8ad5a2>1</c>层反制印记，持续至战斗结束",
+    "des": "释放技能时，各有<color=#8ad5a2>60%</c>概率额外为自身附加<color=#8ad5a2>1</c>层暴击加，<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>和<color=#8ad5a2>1</c>层<color=#8ad5a2>真伤加成</c>，持续至战斗结束",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.6}",
     "key2": "skill_buff",
@@ -15596,9 +15616,9 @@
   },
   "sb_5191": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>30%</c>",
+    "des": "拥有<color=#8ad5a2>极·画戟</c>时，造成伤害提升<color=#8ad5a2>30%</c>",
     "key1": "self_exist_buff_name",
-    "value1": "huaji",
+    "value1": "huaji1",
     "key2": "self_exist_buff_att",
     "value2": "amplify",
     "key3": "self_exist_buff_value",
@@ -15606,9 +15626,9 @@
   },
   "sb_5192": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>35%</c>",
+    "des": "拥有<color=#8ad5a2>极·画戟</c>时，造成伤害提升<color=#8ad5a2>35%</c>",
     "key1": "self_exist_buff_name",
-    "value1": "huaji",
+    "value1": "huaji1",
     "key2": "self_exist_buff_att",
     "value2": "amplify",
     "key3": "self_exist_buff_value",
@@ -15616,9 +15636,9 @@
   },
   "sb_5193": {
     "qa": 3,
-    "des": "拥有画戟时，造成伤害提升<color=#8ad5a2>40%</c>",
+    "des": "拥有<color=#8ad5a2>极·画戟</c>时，造成伤害提升<color=#8ad5a2>40%</c>",
     "key1": "self_exist_buff_name",
-    "value1": "huaji",
+    "value1": "huaji1",
     "key2": "self_exist_buff_att",
     "value2": "amplify",
     "key3": "self_exist_buff_value",
@@ -15656,7 +15676,7 @@
   },
   "sb_5211": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升25%，技能伤害提升10%",
+    "des": "普通攻击施加【<color=#8ad5a2>真·雌剑</c>】的概率提升<color=#8ad5a2>25%</c>，技能伤害提升<color=#8ad5a2>10%</c>",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.8}",
     "key2": "skill_attack_amp",
@@ -15664,7 +15684,7 @@
   },
   "sb_5212": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升35%，技能伤害提升20%",
+    "des": "普通攻击施加【<color=#8ad5a2>真·雌剑</c>】的概率提升<color=#8ad5a2>35%</c>，技能伤害提升<color=#8ad5a2>20%</c>",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.9}",
     "key2": "skill_attack_amp",
@@ -15672,7 +15692,7 @@
   },
   "sb_5213": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升45%，技能伤害提升30%",
+    "des": "普通攻击施加【<color=#8ad5a2>真·雌剑</c>】的概率提升<color=#8ad5a2>45%</c>，技能伤害提升<color=#8ad5a2>30%</c>",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "skill_attack_amp",
@@ -15706,27 +15726,27 @@
   },
   "sb_5231": {
     "qa": 3,
+    "des": "受到来自<color=#8ad5a2>灼烧</c>目标的攻击时，有<color=#8ad5a2>35%</c>概率回复<color=#8ad5a2>1</c>点怒气",
+    "key1": "addBuff_behit_buff_name",
+    "value1": "burn",
+    "key2": "addBuff_behit_buff_data",
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":0,\"buffRate\":0.35}"
+  },
+  "sb_5232": {
+    "qa": 3,
     "des": "受到来自<color=#8ad5a2>灼烧</c>目标的攻击时，有<color=#8ad5a2>45%</c>概率回复<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_behit_buff_name",
     "value1": "burn",
     "key2": "addBuff_behit_buff_data",
-    "value2": "addAnger"
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":0,\"buffRate\":0.45}"
   },
-  "sb_5232": {
+  "sb_5233": {
     "qa": 3,
     "des": "受到来自<color=#8ad5a2>灼烧</c>目标的攻击时，有<color=#8ad5a2>55%</c>概率回复<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_behit_buff_name",
     "value1": "burn",
     "key2": "addBuff_behit_buff_data",
-    "value2": "addAnger"
-  },
-  "sb_5233": {
-    "qa": 3,
-    "des": "受到来自<color=#8ad5a2>灼烧</c>目标的攻击时，有<color=#8ad5a2>65%</c>概率回复<color=#8ad5a2>1</c>点怒气",
-    "key1": "addBuff_behit_buff_name",
-    "value1": "burn",
-    "key2": "addBuff_behit_buff_data",
-    "value2": "addAnger"
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":0,\"buffRate\":0.55}"
   },
   "sb_5241": {
     "qa": 3,
@@ -15856,7 +15876,7 @@
   },
   "sx_00": {
     "qa": 3,
-    "des": "入场时，怒气值+<color=#8ad5a2>2",
+    "des": "入场时，怒气值+<color=#8ad5a2>2</c>",
     "key1": "curAnger",
     "value1": 2
   },
@@ -15892,7 +15912,7 @@
   },
   "sx_1023": {
     "qa": 3,
-    "des": "施加的持续<color=#8ad5a2>恢复效果</c>回合数+<color=#8ad5a2>1",
+    "des": "施加的持续<color=#8ad5a2>恢复效果</c>回合数+<color=#8ad5a2>1</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":3,\"buffRate\":1}"
   },
@@ -16365,7 +16385,7 @@
   },
   "sx_2121": {
     "qa": 3,
-    "des": "持续<color=#8ad5a2>治疗效果的</c>回合数+<color=#8ad5a2>1",
+    "des": "持续<color=#8ad5a2>治疗效果的</c>回合数+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
@@ -16621,7 +16641,7 @@
   },
   "sx_3103": {
     "qa": 3,
-    "des": "施加的<color=#8ad5a2>撕裂</c>效果持续回合数加1",
+    "des": "施加的<color=#8ad5a2>撕裂</c>效果持续回合数加<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
@@ -16729,7 +16749,7 @@
   },
   "sx_4021": {
     "qa": 3,
-    "des": "普攻有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>沉默</c>，持续<color=#8ad5a2>1</c>回合",
+    "des": "普通攻击有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>沉默</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
@@ -16829,7 +16849,7 @@
   },
   "sx_4071": {
     "qa": 3,
-    "des": "普攻有<color=#8ad5a2>55%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
+    "des": "普通攻击有<color=#8ad5a2>55%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
@@ -16921,7 +16941,7 @@
   },
   "sx_4113": {
     "qa": 3,
-    "des": "画戟与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
+    "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
     "key1": "buffDuration",
     "value1": 1
   },
@@ -16967,7 +16987,7 @@
   },
   "sx_4141": {
     "qa": 3,
-    "des": "入场时，对敌方全体目标造成<color=#8ad5a2>10%</c>最大生命伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>卸甲</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，对敌方全体目标造成<color=#8ad5a2>10%</c>最大生命伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50414012
   },
@@ -17333,7 +17353,7 @@
   },
   "sx_5181": {
     "qa": 3,
-    "des": "普攻有<color=#8ad5a2>55%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
+    "des": "普通攻击有<color=#8ad5a2>55%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
@@ -17365,7 +17385,7 @@
   },
   "sx_5193": {
     "qa": 3,
-    "des": "画戟与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
+    "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
     "key1": "buffDuration",
     "value1": 1
   },
@@ -17399,7 +17419,7 @@
   },
   "sx_5212": {
     "qa": 3,
-    "des": "攻击时，若目标处于雄剑状态，则有<color=#8ad5a2>35%</c>概率回复<color=#8ad5a2>1</c>点怒气",
+    "des": "攻击时，若目标处于雄剑状态，则有<color=#8ad5a2>55%</c>概率回复<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_if_buff_name",
     "value1": "manbuff1",
     "key2": "addBuff_if_buff_data",
@@ -17413,9 +17433,9 @@
   },
   "sx_5221": {
     "qa": 3,
-    "des": "释放技能时，为目标附加卸甲效果，使目标受到伤害提升<color=#8ad5a2>20%</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "释放技能时，为目标附加<color=#8ad5a2>易伤</c>效果，使目标受到伤害提升<color=#8ad5a2>20%</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5222": {
     "qa": 3,
@@ -17535,7 +17555,7 @@
   },
   "sx_5281": {
     "qa": 3,
-    "des": "释放技能时，有<color=#8ad5a2>55%</c>概率使目标卸甲，持续<color=#8ad5a2>2</c>回合",
+    "des": "释放技能时，有<color=#8ad5a2>55%</c>概率使目标锁定，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"suoding\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
