@@ -2183,7 +2183,7 @@
   },
   "8160": {
     "icon": 8160,
-    "des": "进入战斗时，使我方全体获得自身最大生命值<color=#8ad5a2>25%</c>的<color=#8ad5a2>护盾</c>,持续<color=#8ad5a2>1</c>回合",
+    "des": "进入战斗时，使我方<color=#8ad5a2>全体</c>获得自身最大生命值<color=#8ad5a2>25%</c>的<color=#8ad5a2>护盾</c>,持续<color=#8ad5a2>1</c>回合",
     "key1": "first_realm_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.25,\"duration\":1,\"buffRate\":1}"
   },
@@ -2211,7 +2211,7 @@
   },
   "8200": {
     "icon": 8200,
-    "des": "受到直接伤害的<color=#8ad5a2>24%</c>转化为生命治疗己方全体武将",
+    "des": "受到直接伤害的<color=#8ad5a2>24%</c>转化为生命治疗己方<color=#8ad5a2>全体</c>武将",
     "key1": "hit_turn_rate",
     "value1": 0.24,
     "key2": "hit_turn_tg",
@@ -2687,25 +2687,25 @@
   },
   "9809": {
     "icon": 9809,
-    "des": "全体上阵武将伤害+<color=#8ad5a2>8%</c>",
+    "des": "<color=#8ad5a2>全体</c>上阵武将伤害+<color=#8ad5a2>8%</c>",
     "key1": "team_amplify_add",
     "value1": 0.08
   },
   "9810": {
     "icon": 9810,
-    "des": "全体上阵武将生命+<color=#8ad5a2>8%</c>",
+    "des": "<color=#8ad5a2>全体</c>上阵武将生命+<color=#8ad5a2>8%</c>",
     "key1": "team_maxHP_add",
     "value1": 0.08
   },
   "9811": {
     "icon": 9811,
-    "des": "全体上阵武将暴击+<color=#8ad5a2>8%</c>",
+    "des": "<color=#8ad5a2>全体</c>上阵武将暴击+<color=#8ad5a2>8%</c>",
     "key1": "team_crit_add",
     "value1": 0.08
   },
   "9812": {
     "icon": 9812,
-    "des": "全体上阵武将免伤+<color=#8ad5a2>8%</c>",
+    "des": "<color=#8ad5a2>全体</c>上阵武将免伤+<color=#8ad5a2>8%</c>",
     "key1": "team_dodgeRate_add",
     "value1": 0.08
   },
@@ -2723,7 +2723,7 @@
   },
   "9903": {
     "icon": 9903,
-    "des": "释放技能后回复全体友方<color=#8ad5a2>1</c>点怒气",
+    "des": "释放技能后回复<color=#8ad5a2>全体</c>友方<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_a",
     "value1": 1
   },
@@ -2749,7 +2749,7 @@
   },
   "9907": {
     "icon": 9907,
-    "des": "受到直接物理伤害时己方全体怒气提升<color=#8ad5a2>1</c>点，每回合最多触发<color=#8ad5a2>2</c>次",
+    "des": "受到直接物理伤害时己方<color=#8ad5a2>全体</c>怒气提升<color=#8ad5a2>1</c>点，每回合最多触发<color=#8ad5a2>2</c>次",
     "key1": "phy_turn_team_anger",
     "value1": 2
   },
@@ -2841,7 +2841,7 @@
   },
   "10100": {
     "icon": 10100,
-    "des": "死亡时，提升全体友方<color=#8ad5a2>20%</c>攻击，持续<color=#8ad5a2>2</c>回合",
+    "des": "死亡时，提升<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>攻击，持续<color=#8ad5a2>2</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"atkAdd\",\"buff_tg\":\"team_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
@@ -3381,7 +3381,7 @@
   "800410": {
     "icon": 50310005,
     "name": "振奋",
-    "des": "入场时给己方全体附加<color=#8ad5a2>3</c>回合的<color=#8ad5a2>神力</c>，自身获得<color=#8ad5a2>1</c>回合的<color=#8ad5a2>超级无敌盾</c>，免疫所有伤害和控制效果",
+    "des": "入场时给己方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>回合的<color=#8ad5a2>神力</c>，自身获得<color=#8ad5a2>1</c>回合的<color=#8ad5a2>超级无敌盾</c>，免疫所有伤害和控制效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "first_buff",
@@ -3399,7 +3399,7 @@
   "800430": {
     "icon": 50605005,
     "name": "恶魔之力",
-    "des": "入场时，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2>3</c>回合",
+    "des": "入场时，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -5571,7 +5571,7 @@
     "icon": 50206005,
     "name": "御敌北海",
     "qa": 3,
-    "des": "阵亡后引爆终极炸弹，对敌方全体造成<color=#8ad5a2>10%</c>生命上限的物理伤害",
+    "des": "阵亡后引爆终极炸弹，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>10%</c>生命上限的物理伤害",
     "key1": "diedSkill",
     "value1": 50206012
   },
@@ -5749,7 +5749,7 @@
     "icon": 50211005,
     "name": "业炎",
     "qa": 4,
-    "des": "入场时,<color=#8ad5a2>灼烧</c>敌方全体，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时,<color=#8ad5a2>灼烧</c>敌方<color=#8ad5a2>全体</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -5757,7 +5757,7 @@
     "icon": 50211006,
     "name": "琴音",
     "qa": 4,
-    "des": "敌方每次获得<color=#8ad5a2>灼烧</c>效果，自身获得<color=#8ad5a2>1</c>层<color=#8ad5a2>仙火</c>，每层<color=#8ad5a2>仙火</c>增加自身<color=#8ad5a2>3%</c>免伤和暴击，持续<color=#8ad5a2>3</c>回合。回合开始时，恢复友方全体<color=#8ad5a2>20%</c>攻击力*<color=#8ad5a2>仙火</c>层数的生命值。<color=#8ad5a2>仙火</c>最高可叠加<color=#8ad5a2>10</c>层",
+    "des": "敌方每次获得<color=#8ad5a2>灼烧</c>效果，自身获得<color=#8ad5a2>1</c>层<color=#8ad5a2>仙火</c>，每层<color=#8ad5a2>仙火</c>增加自身<color=#8ad5a2>3%</c>免伤和暴击，持续<color=#8ad5a2>3</c>回合。回合开始时，恢复友方<color=#8ad5a2>全体</c><color=#8ad5a2>20%</c>攻击力*<color=#8ad5a2>仙火</c>层数的生命值。<color=#8ad5a2>仙火</c>最高可叠加<color=#8ad5a2>10</c>层",
     "key1": "listen_enemyBuff",
     "value1": "burn",
     "key2": "listen_addBuff",
@@ -5799,7 +5799,7 @@
     "icon": 50212006,
     "name": "吴王光耀",
     "qa": 5,
-    "des": "入场时释放<color=#8ad5a2>1</c>次技能，对敌方全体目标造成<color=#8ad5a2>200%</c>攻击的物理伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>灼烧</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时释放<color=#8ad5a2>1</c>次技能，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>200%</c>攻击的物理伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>灼烧</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50214012
   },
@@ -5902,7 +5902,7 @@
     "icon": 50303005,
     "name": "英装素果",
     "qa": 3,
-    "des": "入场时，为我方全体增加<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，增加<color=#8ad5a2>5%</c>的速度，持续<color=#8ad5a2>3</c>回合",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>增加<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，增加<color=#8ad5a2>5%</c>的速度，持续<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -5954,7 +5954,7 @@
     "icon": 50305005,
     "name": "毒雾",
     "qa": 3,
-    "des": "入场时，敌方全体目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>中毒</c>效果，持续<color=#8ad5a2>3</c>回合",
+    "des": "入场时，敌方<color=#8ad5a2>全体</c>目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>中毒</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -5978,7 +5978,7 @@
     "icon": 50306005,
     "name": "老将逆袭",
     "qa": 3,
-    "des": "入场时对敌方全体添加<color=#8ad5a2>1</c>层<color=#8ad5a2>标记</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时对敌方<color=#8ad5a2>全体</c>添加<color=#8ad5a2>1</c>层<color=#8ad5a2>标记</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -6113,7 +6113,7 @@
   "50312004": {
     "name": "惟贤惟德",
     "qa": 3,
-    "des": "受到直接伤害的<color=#8ad5a2>15%</c>转化为生命值治疗全体友方单位",
+    "des": "受到直接伤害的<color=#8ad5a2>15%</c>转化为生命值治疗<color=#8ad5a2>全体</c>友方单位",
     "key1": "hit_turn_rate",
     "value1": 0.15,
     "key2": "hit_turn_tg",
@@ -6148,7 +6148,7 @@
     "icon": 50311005,
     "name": "亮银",
     "qa": 4,
-    "des": "人场时对敌方全体添加<color=#8ad5a2>1</c>层龙腾，持续<color=#8ad5a2>2</c>回合",
+    "des": "人场时对敌方<color=#8ad5a2>全体</c>添加<color=#8ad5a2>1</c>层龙腾，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"enemy_all\",\"buffRate\":1}"
   },
@@ -6188,7 +6188,7 @@
     "icon": 50312005,
     "name": "画中世界",
     "qa": 5,
-    "des": "释放技能时，各有<color=#8ad5a2>35%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
+    "des": "释放技能时，各有<color=#8ad5a2>35%</c>概率为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.35}",
     "key2": "skill_buff",
@@ -6230,7 +6230,7 @@
   "50315006": {
     "name": "天降",
     "qa": 5,
-    "des": "入场时释放<color=#8ad5a2>1</c>次技能，对敌方全体目标造成<color=#8ad5a2>15%</c>最大生命的伤害",
+    "des": "入场时释放<color=#8ad5a2>1</c>次技能，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>15%</c>最大生命的伤害",
     "key1": "beginSkill",
     "value1": 50603012
   },
@@ -6266,7 +6266,7 @@
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>25%</c>的概率<color=#8ad5a2>沉默</c>目标",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "50402004": {
     "icon": 50402004,
@@ -6332,7 +6332,7 @@
     "icon": 50404005,
     "name": "碧月羞花",
     "qa": 3,
-    "des": "入场，对敌方全体目标造成<color=#8ad5a2>10%</c>生命上限的伤害。",
+    "des": "入场，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>10%</c>生命上限的伤害。",
     "key1": "beginSkill",
     "value1": 50206012
   },
@@ -6446,7 +6446,7 @@
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>25%</c>概率为目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>诅咒</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"curse\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"curse\",\"buffArg\":1,\"duration\":4,\"buffRate\":0.25}"
   },
   "50409004": {
     "icon": 50409004,
@@ -6490,7 +6490,7 @@
     "icon": 50410005,
     "name": "乱武",
     "qa": 3,
-    "des": "入场时，为敌方全体目标附加<color=#8ad5a2>沙尘暴</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>目标附加<color=#8ad5a2>沙尘暴</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
@@ -6514,7 +6514,7 @@
     "icon": 50412005,
     "name": "利驭",
     "qa": 3,
-    "des": "入场时，对敌方全体造成<color=#8ad5a2>10%</c>最大生命值的伤害，并为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>50%</c>】，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>10%</c>最大生命值的伤害，并为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>50%</c>】，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50411012
   },
@@ -6523,7 +6523,7 @@
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>30%</c>概率为目标施加<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"fragile\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.3}"
+    "value1": "{\"buffId\":\"fragile\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.3}"
   },
   "50412004": {
     "name": "缓兵",
@@ -6553,7 +6553,7 @@
     "icon": 50411004,
     "name": "肉林",
     "qa": 4,
-    "des": "入场时，<color=#8ad5a2>嘲讽</c>敌方全体目标，持续<color=#8ad5a2>1</c>回合",
+    "des": "入场时，<color=#8ad5a2>嘲讽</c>敌方<color=#8ad5a2>全体</c>目标，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -6563,7 +6563,7 @@
     "qa": 4,
     "des": "受到敌方攻击时，有<color=#8ad5a2>25%</c>概率施加<color=#8ad5a2>禁怒</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"banAnger\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.25}"
   },
   "50413006": {
     "icon": 50411006,
@@ -6607,7 +6607,7 @@
   "50414006": {
     "name": "锦囊",
     "qa": 5,
-    "des": "自身行动后，为己方全体单位各移除<color=#8ad5a2>1</c>个非控制类的负面状态，并转化为<color=#8ad5a2>诅咒</c>转移至敌方随机单体,此效果每<color=#8ad5a2>3</c>回合可触发一次",
+    "des": "自身行动后，为己方<color=#8ad5a2>全体</c>单位各移除<color=#8ad5a2>1</c>个非控制类的负面状态，并转化为<color=#8ad5a2>诅咒</c>转移至敌方随机单体,此效果每<color=#8ad5a2>3</c>回合可触发一次",
     "key1": "passive1",
     "value1": "zh_zz"
   },
@@ -6668,7 +6668,7 @@
     "icon": 50412005,
     "name": "利驭",
     "qa": 5,
-    "des": "入场时，对敌方全体造成<color=#8ad5a2>15%</c>最大生命值的伤害，并为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>50%</c>】，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>15%</c>最大生命值的伤害，并为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>50%</c>】，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50605012
   },
@@ -6713,7 +6713,7 @@
     "qa": 3,
     "des": "受到敌方攻击时，有<color=#8ad5a2>25%</c>概率<color=#8ad5a2>眩晕</c>目标，持续<color=#8ad5a2>1</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.25}"
   },
   "50502004": {
     "icon": 50502004,
@@ -6736,7 +6736,7 @@
     "qa": 3,
     "des": "受到敌方攻击时，有<color=#8ad5a2>25%</c>概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>坚毅</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"god_shield\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"god_shield\",\"buffArg\":1,\"duration\":4,\"buffRate\":0.25}"
   },
   "50503004": {
     "name": "坚毅",
@@ -6815,13 +6815,13 @@
     "qa": 3,
     "des": "受到伤害时，有<color=#8ad5a2>25%</c>概率附加攻击方1</c>回合<color=#8ad5a2>沉默</c>效果",
     "key1": "hit_buff",
-    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.25}"
+    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.25}"
   },
   "50506005": {
     "icon": 50504005,
     "name": "妩媚",
     "qa": 3,
-    "des": "阵亡后，给敌方全体附加<color=#8ad5a2>1</c>回合<color=#8ad5a2>沉默</c>效果",
+    "des": "阵亡后，给敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>回合<color=#8ad5a2>沉默</c>效果",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -6861,7 +6861,7 @@
     "icon": 50506004,
     "name": "智迟",
     "qa": 3,
-    "des": "释放技能后<color=#8ad5a2>驱散</c>敌方全体<color=#8ad5a2>1</c>个增益效果",
+    "des": "释放技能后<color=#8ad5a2>驱散</c>敌方<color=#8ad5a2>全体1</c>个增益效果",
     "key1": "skill_dispel_enemy",
     "value1": true
   },
@@ -6893,7 +6893,7 @@
     "icon": 50507005,
     "name": "出其不意",
     "qa": 3,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>雷咒</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>雷咒</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -7005,7 +7005,7 @@
     "icon": 50511005,
     "name": "役使鬼神",
     "qa": 4,
-    "des": "释放技能时，回复全体队友<color=#8ad5a2>1</c>点怒气",
+    "des": "释放技能时，回复<color=#8ad5a2>全体</c>队友<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_a",
     "value1": 1
   },
@@ -7041,7 +7041,7 @@
     "icon": 50512005,
     "name": "大雾",
     "qa": 5,
-    "des": "入场时给己方全体获得持续<color=#8ad5a2>3</c>回合的仙术，自身获得持续<color=#8ad5a2>1</c>回合的<color=#8ad5a2>超级无敌盾</c>",
+    "des": "入场时给己方<color=#8ad5a2>全体</c>获得持续<color=#8ad5a2>3</c>回合的仙术，自身获得持续<color=#8ad5a2>1</c>回合的<color=#8ad5a2>超级无敌盾</c>",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "first_buff",
@@ -8488,7 +8488,7 @@
     "icon": 50012005,
     "name": "连营",
     "qa": 1,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
@@ -8496,7 +8496,7 @@
     "icon": 50012006,
     "name": "雷霆",
     "qa": 4,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>层感电效果",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -8504,7 +8504,7 @@
     "icon": 50013004,
     "name": "封印",
     "qa": 2,
-    "des": "入场时，随机封印敌方<color=#8ad5a2>1</c>个目标",
+    "des": "入场时，随机<color=#8ad5a2>封印</c>敌方<color=#8ad5a2>1</c>个目标",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -8520,7 +8520,7 @@
     "icon": 50013006,
     "name": "守护",
     "qa": 1,
-    "des": "入场时，保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2>3</c>回合。",
+    "des": "入场时，保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2>3</c>回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -8568,7 +8568,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 1,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>1</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -8640,7 +8640,7 @@
     "icon": 50023006,
     "name": "自爆",
     "qa": 3,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>灼烧</c>效果，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
@@ -8656,7 +8656,7 @@
     "icon": 50024005,
     "name": "水鬼",
     "qa": 3,
-    "des": "死亡后，随机封印敌方<color=#8ad5a2>1</c>个目标<color=#8ad5a2>1</c>个回合",
+    "des": "死亡后，随机<color=#8ad5a2>封印</c>敌方<color=#8ad5a2>1</c>个目标<color=#8ad5a2>1</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -8688,7 +8688,7 @@
     "icon": 50011005,
     "name": "迷雾",
     "qa": 1,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>1</c>个回合",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>1</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -8728,7 +8728,7 @@
     "icon": 50013004,
     "name": "复仇",
     "qa": 1,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>5%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>5%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_024"
   },
@@ -9250,7 +9250,7 @@
     "icon": 50014006,
     "name": "连营",
     "qa": 2,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -9260,7 +9260,7 @@
     "icon": 50015004,
     "name": "雷霆",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>2</c>层感电效果",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>2</c>层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
@@ -9268,7 +9268,7 @@
     "icon": 50015005,
     "name": "封印",
     "qa": 3,
-    "des": "入场时，可封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合",
+    "des": "入场时，可<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9284,7 +9284,7 @@
     "icon": 50021004,
     "name": "守护",
     "qa": 2,
-    "des": "入场时，为我方全体附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>10%</c>生命上限的伤害吸收盾，并保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合。",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>10%</c>生命上限的伤害吸收盾，并保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "first_buff",
@@ -9342,7 +9342,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 2,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>2</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -9418,7 +9418,7 @@
     "icon": 50012004,
     "name": "自爆",
     "qa": 4,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>灼烧</c>效果，<color=#8ad5a2>灼烧</c>效果持续回合+<color=#8ad5a2>1</c>",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果，<color=#8ad5a2>灼烧</c>效果持续回合+<color=#8ad5a2>1</c>",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "burn_duration",
@@ -9436,7 +9436,7 @@
     "icon": 50012006,
     "name": "水鬼",
     "qa": 4,
-    "des": "死亡后，封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合",
+    "des": "死亡后，<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
@@ -9468,7 +9468,7 @@
     "icon": 50014004,
     "name": "迷雾",
     "qa": 2,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -9508,7 +9508,7 @@
     "icon": 50015006,
     "name": "复仇",
     "qa": 2,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>8%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>8%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_028"
   },
@@ -10034,7 +10034,7 @@
     "icon": 50022005,
     "name": "连营",
     "qa": 3,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>4</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>4</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10044,7 +10044,7 @@
     "icon": 50022006,
     "name": "雷霆",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>3</c>层感电效果",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层感电效果",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"flash\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":2,\"buffRate\":1}"
   },
@@ -10052,7 +10052,7 @@
     "icon": 50023004,
     "name": "封印",
     "qa": 4,
-    "des": "入场时，可封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c>封印目标<color=#8ad5a2>10%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "入场时，可<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c><color=#8ad5a2>封印</c>目标<color=#8ad5a2>10%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.1,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10070,7 +10070,7 @@
     "icon": 50023006,
     "name": "守护",
     "qa": 3,
-    "des": "入场时，为我方全体附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>15%</c>生命上限的伤害吸收盾，并保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>15%</c>生命上限的伤害吸收盾，并保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10120,7 +10120,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 3,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
@@ -10196,7 +10196,7 @@
     "icon": 50014005,
     "name": "自爆",
     "qa": 5,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>灼烧</c>效果，<color=#8ad5a2>灼烧</c>效果持续回合+<color=#8ad5a2>1</c>，若敌方处于<color=#8ad5a2>灼烧</c>状态，则给目标附加<color=#8ad5a2>眩晕</c>效果。",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果，<color=#8ad5a2>灼烧</c>效果持续回合+<color=#8ad5a2>1</c>，若敌方处于<color=#8ad5a2>灼烧</c>状态，则给目标附加<color=#8ad5a2>眩晕</c>效果。",
     "key1": "burn_duration",
     "value1": 1,
     "key2": "diedSkill",
@@ -10214,7 +10214,7 @@
     "icon": 50015004,
     "name": "水鬼",
     "qa": 5,
-    "des": "死亡后，封印敌方攻击力最高的目标<color=#8ad5a2>2</c>回合",
+    "des": "死亡后，<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>2</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
@@ -10246,7 +10246,7 @@
     "icon": 50021005,
     "name": "迷雾",
     "qa": 3,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>2</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>2</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
@@ -10286,7 +10286,7 @@
     "icon": 50023004,
     "name": "复仇",
     "qa": 3,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>10%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>10%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_029"
   },
@@ -10776,7 +10776,7 @@
     "icon": 50023004,
     "name": "连营",
     "qa": 4,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -10786,7 +10786,7 @@
     "icon": 50023005,
     "name": "封印",
     "qa": 5,
-    "des": "入场时，可封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c>封印目标<color=#8ad5a2>20%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "入场时，可<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c><color=#8ad5a2>封印</c>目标<color=#8ad5a2>20%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10804,7 +10804,7 @@
     "icon": 50024004,
     "name": "守护",
     "qa": 4,
-    "des": "入场时，为我方全体附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>20%</c>生命上限的伤害吸收盾，并保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>20%</c>生命上限的伤害吸收盾，并保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -10850,7 +10850,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 4,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>2</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>2</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":2,\"duration\":3,\"buffRate\":1}"
   },
@@ -10928,7 +10928,7 @@
     "icon": 50014005,
     "name": "水鬼",
     "qa": 6,
-    "des": "死亡后，封印敌方攻击力最高的目标<color=#8ad5a2>3</c>回合",
+    "des": "死亡后，<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>3</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
@@ -10962,7 +10962,7 @@
     "icon": 50015006,
     "name": "迷雾",
     "qa": 4,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
@@ -11002,7 +11002,7 @@
     "icon": 50022005,
     "name": "复仇",
     "qa": 4,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>15%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>15%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_030"
   },
@@ -11492,7 +11492,7 @@
     "icon": 50022006,
     "name": "连营",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>6</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>6</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -11502,7 +11502,7 @@
     "icon": 50023004,
     "name": "封印",
     "qa": 6,
-    "des": "入场时，可封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c>封印目标<color=#8ad5a2>30%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "入场时，可<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c><color=#8ad5a2>封印</c>目标<color=#8ad5a2>30%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.3,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -11520,7 +11520,7 @@
     "icon": 50023006,
     "name": "守护",
     "qa": 5,
-    "des": "入场时，为我方全体附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>25%</c>生命上限的伤害吸收盾，并保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>25%</c>生命上限的伤害吸收盾，并保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -11546,7 +11546,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 5,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}"
   },
@@ -11618,7 +11618,7 @@
     "icon": 50012006,
     "name": "迷雾",
     "qa": 5,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合，并附加<color=#8ad5a2>1</c>个回合的<color=#8ad5a2>魔印</c>效果。",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合，并附加<color=#8ad5a2>1</c>个回合的<color=#8ad5a2>魔印</c>效果。",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
     "key2": "died_buff",
@@ -11652,7 +11652,7 @@
     "icon": 50015004,
     "name": "复仇",
     "qa": 5,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>20%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>20%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_031"
   },
@@ -12136,7 +12136,7 @@
     "icon": 50022004,
     "name": "连营",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>7</c>个回合",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>7</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -12146,7 +12146,7 @@
     "icon": 50022005,
     "name": "封印",
     "qa": 6,
-    "des": "入场时，可封印敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c>封印目标<color=#8ad5a2>40%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
+    "des": "入场时，可<color=#8ad5a2>封印</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合，并<color=#8ad5a2>偷取</c><color=#8ad5a2>封印</c>目标<color=#8ad5a2>40%</c>的攻击力，持续<color=#8ad5a2><color=#8ad5a2>2</c>个回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"suck_atk\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.4,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
@@ -12164,7 +12164,7 @@
     "icon": 50023004,
     "name": "守护",
     "qa": 6,
-    "des": "入场时，为我方全体附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>30%</c>生命上限的伤害吸收盾，并保护我方全体，分担全体友方所受到<color=#8ad5a2>50%</c>的伤害，并增加全体友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
+    "des": "入场时，为我方<color=#8ad5a2>全体</c>附加持续<color=#8ad5a2>1</c>回合，<color=#8ad5a2>30%</c>生命上限的伤害吸收盾，并保护我方<color=#8ad5a2>全体</c>，分担<color=#8ad5a2>全体</c>友方所受到<color=#8ad5a2>50%</c>的伤害，并增加<color=#8ad5a2>全体</c>友方<color=#8ad5a2>20%</c>的免伤，持续<color=#8ad5a2><color=#8ad5a2>5</c>个回合。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"protect\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":5,\"buffRate\":1}",
     "key2": "first_buff",
@@ -12190,7 +12190,7 @@
     "icon": 50511004,
     "name": "弱化",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合，并每回合给敌方攻击最高的目标，附加<color=#8ad5a2>1</c>回合的<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果。",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>效果<color=#8ad5a2>3</c>回合，并每回合给敌方攻击最高的目标，附加<color=#8ad5a2>1</c>回合的<color=#8ad5a2>1</c>层<color=#8ad5a2>虚弱</c>效果。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
     "key2": "action_buff",
@@ -12268,7 +12268,7 @@
     "icon": 50013005,
     "name": "迷雾",
     "qa": 6,
-    "des": "死亡后，为敌方全体附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合，并附加<color=#8ad5a2>2</c>个回合的<color=#8ad5a2>魔印</c>效果。",
+    "des": "死亡后，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>3</c>层<color=#8ad5a2>虚弱</c>，效果持续<color=#8ad5a2><color=#8ad5a2>3</c>个回合，并附加<color=#8ad5a2>2</c>个回合的<color=#8ad5a2>魔印</c>效果。",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"enemy_all\",\"buffArg\":3,\"duration\":3,\"buffRate\":1}",
     "key2": "died_buff",
@@ -12304,7 +12304,7 @@
     "icon": 50014006,
     "name": "复仇",
     "qa": 6,
-    "des": "死亡时，对敌方全体造成<color=#8ad5a2>25%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
+    "des": "死亡时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>25%</c>最大生命值的伤害，若攻击后目标血量低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "diedSkill",
     "value1": "dz_031"
   },
@@ -12360,7 +12360,7 @@
     "icon": 50021005,
     "name": "连营",
     "qa": 6,
-    "des": "入场时，为敌方全体附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>7</c>个回合敌方每次获得<color=#8ad5a2>灼烧</c>效果，自身获得<color=#8ad5a2>1</c>层圣火，每层圣火增加自身<color=#8ad5a2>3%</c>免伤和暴击，持续<color=#8ad5a2>3</c>回合。回合开始时，恢复我方全体<color=#8ad5a2>20%</c>攻击力*圣火层数的生命值，圣火最高可叠加<color=#8ad5a2>10</c>层。",
+    "des": "入场时，为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>灼烧</c>效果,持续<color=#8ad5a2><color=#8ad5a2>7</c>个回合敌方每次获得<color=#8ad5a2>灼烧</c>效果，自身获得<color=#8ad5a2>1</c>层圣火，每层圣火增加自身<color=#8ad5a2>3%</c>免伤和暴击，持续<color=#8ad5a2>3</c>回合。回合开始时，恢复我方<color=#8ad5a2>全体</c><color=#8ad5a2>20%</c>攻击力*圣火层数的生命值，圣火最高可叠加<color=#8ad5a2>10</c>层。",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}",
     "key2": "burn_duration",
@@ -12558,7 +12558,7 @@
   },
   "zf_022": {
     "icon": "zf_022",
-    "des": "战斗开始前，己方全体暴击概率提升(10%</c>*己方场上同阵营武将数量)，持续<color=#8ad5a2>1</c>回合",
+    "des": "战斗开始前，己方<color=#8ad5a2>全体</c>暴击概率提升(10%</c>*己方场上同阵营武将数量)，持续<color=#8ad5a2>1</c>回合",
     "key1": "begin_realm_crit",
     "value1": 0.1
   },
@@ -12636,13 +12636,13 @@
   },
   "zf_035": {
     "icon": "zf_035",
-    "des": "首次受到致命伤害时保留<color=#8ad5a2>1</c>点血量，使自身进入封印状态，持续<color=#8ad5a2>3</c>回合",
+    "des": "首次受到致命伤害时保留<color=#8ad5a2>1</c>点血量，使自身进入<color=#8ad5a2>封印</c>状态，持续<color=#8ad5a2>3</c>回合",
     "key1": "bm_fz",
     "value1": true
   },
   "zf_036": {
     "icon": "zf_036",
-    "des": "入场时为全体队友提供<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，且每回合为攻击力最高的友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，<color=#8ad5a2>疾速</c>效果持续<color=#8ad5a2>3</c>回合",
+    "des": "入场时为<color=#8ad5a2>全体</c>队友提供<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，且每回合为攻击力最高的友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>，<color=#8ad5a2>疾速</c>效果持续<color=#8ad5a2>3</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "action_buff",
@@ -12660,7 +12660,7 @@
   },
   "zf_038": {
     "icon": "zf_038",
-    "des": "入场时为全体友方提供最大生命<color=#8ad5a2>15%</c>的<color=#8ad5a2>护盾</c>，且每回合为攻击力最高的友方提供10%</c>最大生命的<color=#8ad5a2>护盾</c>，<color=#8ad5a2>护盾</c>持续<color=#8ad5a2>1</c>回合",
+    "des": "入场时为<color=#8ad5a2>全体</c>友方提供最大生命<color=#8ad5a2>15%</c>的<color=#8ad5a2>护盾</c>，且每回合为攻击力最高的友方提供10%</c>最大生命的<color=#8ad5a2>护盾</c>，<color=#8ad5a2>护盾</c>持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_all\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}",
     "key2": "action_buff",
@@ -13594,25 +13594,25 @@
   },
   "fabao_30101": {
     "icon": "fabao_30101",
-    "des": "守护心智，封印抵抗+<color=#8ad5a2>2%</c>",
+    "des": "守护心智，<color=#8ad5a2>封印</c>抵抗+<color=#8ad5a2>2%</c>",
     "key1": "defcontrol",
     "value1": 0.02
   },
   "fabao_30102": {
     "icon": "fabao_30102",
-    "des": "守护心智，封印抵抗+<color=#8ad5a2>4%</c>",
+    "des": "守护心智，<color=#8ad5a2>封印</c>抵抗+<color=#8ad5a2>4%</c>",
     "key1": "defcontrol",
     "value1": 0.04
   },
   "fabao_30201": {
     "icon": "fabao_30201",
-    "des": "魅惑心智，封印命中+<color=#8ad5a2>2%</c>",
+    "des": "魅惑心智，<color=#8ad5a2>封印</c>命中+<color=#8ad5a2>2%</c>",
     "key1": "atkcontrol",
     "value1": 0.02
   },
   "fabao_30202": {
     "icon": "fabao_30202",
-    "des": "魅惑心智，封印命中+<color=#8ad5a2>4%</c>",
+    "des": "魅惑心智，<color=#8ad5a2>封印</c>命中+<color=#8ad5a2>4%</c>",
     "key1": "atkcontrol",
     "value1": 0.04
   },
@@ -13938,7 +13938,7 @@
   },
   "sb_1011": {
     "qa": 3,
-    "des": "攻击<color=#8ad5a2>寒冷</c>目标伤害提高至<color=#8ad5a2>20%</c>",
+    "des": "攻击敌方时，若敌方存在<color=#8ad5a2>寒冷</c>效果，自身暴击增加<color=#8ad5a2>20%</c>",
     "key1": "target_exist_buff_name",
     "value1": "cold",
     "key2": "target_exist_buff_att",
@@ -13948,7 +13948,7 @@
   },
   "sb_1012": {
     "qa": 3,
-    "des": "攻击<color=#8ad5a2>寒冷</c>目标伤害提高至<color=#8ad5a2>25%</c>",
+    "des": "攻击敌方时，若敌方存在<color=#8ad5a2>寒冷</c>效果，自身暴击增加<color=#8ad5a2>25%</c>",
     "key1": "target_exist_buff_name",
     "value1": "cold",
     "key2": "target_exist_buff_att",
@@ -13958,7 +13958,7 @@
   },
   "sb_1013": {
     "qa": 3,
-    "des": "攻击<color=#8ad5a2>寒冷</c>目标伤害提高至<color=#8ad5a2>30%</c>",
+    "des": "攻击敌方时，若敌方存在<color=#8ad5a2>寒冷</c>效果，自身暴击增加<color=#8ad5a2>30%</c>",
     "key1": "target_exist_buff_name",
     "value1": "cold",
     "key2": "target_exist_buff_att",
@@ -14828,7 +14828,7 @@
   },
   "sb_3141": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>45%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
+    "des": "释放技能时，各有<color=#8ad5a2>45%</c>概率为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.45}",
     "key2": "skill_buff",
@@ -14838,7 +14838,7 @@
   },
   "sb_3142": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>55%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
+    "des": "释放技能时，各有<color=#8ad5a2>55%</c>概率为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.55}",
     "key2": "skill_buff",
@@ -14848,7 +14848,7 @@
   },
   "sb_3143": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>65%</c>概率为敌方全体附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
+    "des": "释放技能时，各有<color=#8ad5a2>65%</c>概率为敌方<color=#8ad5a2>全体</c>附加<color=#8ad5a2>1</c>个随机<color=#8ad5a2>画意</c>效果【<color=#8ad5a2>巨浪</c>：<color=#8ad5a2>眩晕</c>1</c>回合、<color=#8ad5a2>狂风</c>：<color=#8ad5a2>3</c>回合内受到伤害提升<color=#8ad5a2>12%</c>】",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"lessAnger\",\"buff_tg\":\"enemy_all\",\"buffArg\":0,\"duration\":0,\"buffRate\":0.65}",
     "key2": "skill_buff",
@@ -14858,7 +14858,7 @@
   },
   "sb_4011": {
     "qa": 3,
-    "des": "行动结束后，恢复我方全体攻击力<color=#8ad5a2>24%</c>的生命值",
+    "des": "行动结束后，恢复我方<color=#8ad5a2>全体</c>攻击力<color=#8ad5a2>24%</c>的生命值",
     "key1": "round_heal_value",
     "value1": 0.04,
     "key2": "turn_tg",
@@ -14866,7 +14866,7 @@
   },
   "sb_4012": {
     "qa": 3,
-    "des": "行动结束后，恢复我方全体攻击力<color=#8ad5a2>28%</c>的生命值",
+    "des": "行动结束后，恢复我方<color=#8ad5a2>全体</c>攻击力<color=#8ad5a2>28%</c>的生命值",
     "key1": "round_heal_value",
     "value1": 0.04,
     "key2": "turn_tg",
@@ -14874,7 +14874,7 @@
   },
   "sb_4013": {
     "qa": 3,
-    "des": "行动结束后，恢复我方全体攻击力<color=#8ad5a2>32%</c>的生命值",
+    "des": "行动结束后，恢复我方<color=#8ad5a2>全体</c>攻击力<color=#8ad5a2>32%</c>的生命值",
     "key1": "round_heal_value",
     "value1": 0.04,
     "key2": "turn_tg",
@@ -15930,7 +15930,7 @@
   },
   "sx_1033": {
     "qa": 3,
-    "des": "入场时为全体友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时为<color=#8ad5a2>全体</c>友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
@@ -16030,7 +16030,7 @@
   },
   "sx_1082": {
     "qa": 3,
-    "des": "退场时，为我方全体施加<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "退场时，为我方<color=#8ad5a2>全体</c>施加<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
@@ -16096,7 +16096,7 @@
   },
   "sx_1113": {
     "qa": 3,
-    "des": "释放技能时，恢复我方全体<color=#8ad5a2>1</c>点怒气",
+    "des": "释放技能时，恢复我方<color=#8ad5a2>全体</c><color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_a",
     "value1": 1
   },
@@ -16163,7 +16163,7 @@
   },
   "sx_1143": {
     "qa": 3,
-    "des": "入场时，使敌方全体目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>寒冷</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，使敌方<color=#8ad5a2>全体</c>目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>寒冷</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
@@ -16901,7 +16901,7 @@
   },
   "sx_4093": {
     "qa": 3,
-    "des": "自身行动后，为己方全体单位各移除<color=#8ad5a2>1</c>个非控制类的负面状态，并转化为<color=#8ad5a2>诅咒</c>转移至敌方随机单体",
+    "des": "自身行动后，为己方<color=#8ad5a2>全体</c>单位各移除<color=#8ad5a2>1</c>个非控制类的负面状态，并转化为<color=#8ad5a2>诅咒</c>转移至敌方随机单体",
     "key1": "passive1",
     "value1": "zy_zz"
   },
@@ -16987,7 +16987,7 @@
   },
   "sx_4141": {
     "qa": 3,
-    "des": "入场时，对敌方全体目标造成<color=#8ad5a2>10%</c>最大生命伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>10%</c>最大生命伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50414012
   },
@@ -17141,27 +17141,27 @@
   },
   "sx_5073": {
     "qa": 3,
-    "des": "退场时，恢复全体友方<color=#8ad5a2>30%</c>最大生命值",
+    "des": "退场时，恢复<color=#8ad5a2>全体</c>友方<color=#8ad5a2>30%</c>最大生命值",
     "key1": "diedSkill",
     "value1": "diedSkill"
   },
   "sx_5081": {
     "qa": 3,
-    "des": "每回合行动结束后，为自身添加能够吸收自身最大生命<color=#8ad5a2>15%</c>伤害量的<color=#8ad5a2>护盾</c>，持续<color=#8ad5a2>1</c>回合",
-    "key1": "action_buff",
-    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_self\",\"buffArg\":0.15,\"duration\":1,\"buffRate\":1}"
+    "des": "释放技能后，为我方攻击力最高的友方添加能够吸收自身最大生命<color=#8ad5a2>10%</c>伤害量的<color=#8ad5a2>护盾</c>，持续<color=#8ad5a2>1</c>回合",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "sx_5082": {
     "qa": 3,
-    "des": "治疗量提升<color=#8ad5a2>20%</c>",
-    "key1": "skill_heal_amp",
+    "des": "技能伤害提升<color=#8ad5a2>20%</c>",
+    "key1": "skill_attack_amp",
     "value1": 0.2,
     "key2": "normal_heal_amp",
     "value2": 0.2
   },
   "sx_5083": {
     "qa": 3,
-    "des": "退场时，恢复全体友方<color=#8ad5a2>20%</c>最大生命值，并移除<color=#8ad5a2>1</c>层减益",
+    "des": "退场时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>15%</c>最大生命值，并移除友方<color=#8ad5a2>全体</c>1层减益效果",
     "key1": "diedSkill",
     "value1": 50508012
   },
@@ -17257,7 +17257,7 @@
   },
   "sx_5132": {
     "qa": 3,
-    "des": "入场时，封印敌方攻击力最高的目标，持续<color=#8ad5a2>1</c>回合",
+    "des": "入场时，<color=#8ad5a2>封印</c>敌方攻击力最高的目标，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
@@ -17541,7 +17541,7 @@
   },
   "sx_5272": {
     "qa": 3,
-    "des": "受到直接伤害时，受到伤害的<color=#8ad5a2>15%</c>治疗我方全体",
+    "des": "受到直接伤害时，受到伤害的<color=#8ad5a2>15%</c>治疗我方<color=#8ad5a2>全体</c>",
     "key1": "hit_turn_rate",
     "value1": 0.15,
     "key2": "hit_turn_tg",
