@@ -6939,7 +6939,7 @@
     "key1": "addBuff_if_buff_name",
     "value1": "womanbuff",
     "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
   },
   "50511005": {
     "icon": 50509005,
@@ -7073,7 +7073,7 @@
     "key1": "addBuff_if_buff_name",
     "value1": "womanbuff1",
     "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
+    "value2": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "50515005": {
     "icon": 50509005,
@@ -15442,25 +15442,25 @@
   },
   "sb_5121": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升25%，技能伤害提升5%",
+    "des": "普通攻击施加【<color=#8ad5a2>雌剑</c>】的概率提升<color=#8ad5a2>25%</c>，技能伤害提升<color=#8ad5a2>5%</c>",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
+    "value1": "{\"buffId\":\"womanbuff\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
     "key2": "skill_attack_amp",
     "value2": 0.5
   },
   "sb_5122": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升35%，技能伤害提升10%",
+    "des": "普通攻击施加【<color=#8ad5a2>雌剑</c>】的概率提升<color=#8ad5a2>35%</c>，技能伤害提升<color=#8ad5a2>10%</c>",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.7}",
+    "value1": "{\"buffId\":\"womanbuff\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.7}",
     "key2": "skill_attack_amp",
     "value2": 0.5
   },
   "sb_5123": {
     "qa": 3,
-    "des": "普通攻击施加【真·雌剑】的概率提升45%，技能伤害提升20%",
+    "des": "普通攻击施加【<color=#8ad5a2>雌剑</c>】的概率提升<color=#8ad5a2>45%</c>，技能伤害提升<color=#8ad5a2>20%</c>",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.8}",
+    "value1": "{\"buffId\":\"womanbuff\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.8}",
     "key2": "skill_attack_amp",
     "value2": 0.5
   },
@@ -15484,13 +15484,13 @@
   },
   "sb_5141": {
     "qa": 3,
-    "des": "释放技能时，有<color=#8ad5a2>45%</c>概率额外为自身附加<color=#8ad5a2>1</c>层暴击加成，持续至战斗结束",
+    "des": "释放技能时，有<color=#8ad5a2>45%</c>概率额外为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>暴击加成</c>，持续至战斗结束",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.45}"
   },
   "sb_5142": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>50%</c>概率额外为自身附加<color=#8ad5a2>1</c>层暴击加和<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>，持续至战斗结束",
+    "des": "释放技能时，各有<color=#8ad5a2>50%</c>概率额外为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>暴击加成</c>和<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>，持续至战斗结束",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.5}",
     "key2": "skill_buff",
@@ -15498,7 +15498,7 @@
   },
   "sb_5143": {
     "qa": 3,
-    "des": "释放技能时，各有<color=#8ad5a2>60%</c>概率额外为自身附加<color=#8ad5a2>1</c>层暴击加，<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>和<color=#8ad5a2>1</c>层<color=#8ad5a2>真伤加成</c>，持续至战斗结束",
+    "des": "释放技能时，各有<color=#8ad5a2>60%</c>概率额外为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>暴击加成</c>，<color=#8ad5a2>1</c>层<color=#8ad5a2>爆伤加成</c>和<color=#8ad5a2>1</c>层<color=#8ad5a2>真伤加成</c>，持续至战斗结束",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_all\",\"buffArg\":1,\"duration\":99,\"buffRate\":0.6}",
     "key2": "skill_buff",
