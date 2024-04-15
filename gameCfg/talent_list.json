@@ -7129,17 +7129,17 @@
     "qa": 5,
     "des": "每回合为我方攻击力最高的友方施加一个随机增益效果【<color=#8ad5a2>统御</c>：造成伤害提升<color=#8ad5a2>5%</c>、<color=#8ad5a2>提振</c>：伤害减免提升<color=#8ad5a2>5%</c>】",
     "key1": "begin_round_buffs",
-    "value1": "[{\"buffId\":\"atkAdd1\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"redAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"healAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]"
+    "value1": "[{\"buffId\":\"atkAdd1\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"redAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1},\n{\"buffId\":\"healAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}]",
+    "key2": "skill_add_maxAtk_anger",
+    "value2": 2
   },
   "50517004": {
     "icon": 50501004,
     "name": "衣带诏",
     "qa": 5,
-    "des": "释放技能时，为我方攻击力最高友方提供一个【<color=#8ad5a2>密诏</c>：暴击率提升<color=#8ad5a2>20%</c>，暴击伤害提升<color=#8ad5a2>40%</c>】，为其回复<color=#8ad5a2>2</c>点怒气，持续<color=#8ad5a2>1</c>回合",
-    "key1": "skill_buff",
-    "value1": "{\"buffId\":\"angerAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
-    "key2": "skill_add_maxAtk_anger",
-    "value2": 2
+    "des": "释放技能后为自身提供2点怒气",
+    "key1": "skill_anger_s",
+    "value1": 2
   },
   "50517005": {
     "icon": 50501005,

@@ -3529,8 +3529,9 @@
     "anger": 0,
     "type": "heal",
     "des": "对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>180%</c>的法术伤害",
-    "targetType": "team_minHp_3",
-    "mul": 1
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 1.8
   },
   "50517002": {
     "name": "安邦定国",
@@ -3538,11 +3539,14 @@
     "qa": 5,
     "anger": 4,
     "type": "heal",
-    "des": "对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>480%</c>的法术伤害，令我方攻击力最高的目标获得1个额外回合，并为其回复<color=#8ad5a2><color=#8ad5a2>1</c>点怒气",
-    "targetType": "team_all",
-    "mul": 2.14,
+    "des": "对敌方<color=#8ad5a2>单体</c>造成<color=#8ad5a2>480%</c>的法术伤害，令我方攻击力最高的目标获得1个额外回合，并为其提供一个【<color=#8ad5a2>密诏</c>：暴击率提升<color=#8ad5a2>20%</c>，暴击伤害提升<color=#8ad5a2>40%</c>，回复<color=#8ad5a2>2</c>点怒气】，持续<color=#8ad5a2>1</c>回合",
+    "damageType": "mag",
+    "targetType": "enemy_normal",
+    "mul": 4.8,
     "key1": "buff1",
-    "value1": "{\"buffId\":\"extra\",\"buff_tg\":\"realm_maxAtk_1\",\"buffArg\":1,\"duration\":0,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"extra\",\"buff_tg\":\"realm_maxAtk_1\",\"buffArg\":1,\"duration\":0,\"buffRate\":1}",
+    "key2": "buff2",
+    "value2": "{\"buffId\":\"angerAdd\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "60101001": {
     "name": "普通攻击",
