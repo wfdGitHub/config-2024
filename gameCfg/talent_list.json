@@ -5362,17 +5362,19 @@
     "key1": "addBuff_if_buff_name",
     "value1": "frozen",
     "key2": "addBuff_if_buff_data",
-    "value2": "frozen"
+    "value2": "{\"buffId\":\"frozen\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50114004": {
     "icon": 50112004,
     "name": "洛神",
     "qa": 5,
     "des": "攻击<color=#8ad5a2>冰冻</c>目标时，额外附带目标<color=#8ad5a2>10%</c>最大生命值真实伤害",
-    "key1": "addBuff_if_buff_name",
+    "key1": "target_exist_buff_name",
     "value1": "frozen",
-    "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"lessHP\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.1,\"buffRate\":1}"
+    "key2": "target_exist_buff_att",
+    "value2": "HP_damage",
+    "key3": "target_exist_buff_value",
+    "value3": 0.1
   },
   "50114005": {
     "icon": 50112005,
@@ -5942,7 +5944,7 @@
     "icon": 50305004,
     "name": "附毒",
     "qa": 3,
-    "des": "释放技能时，若触发<color=#8ad5a2>中毒</c>效果，额外给目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>中毒</c>效果，持续<color=#8ad5a2>3</c>回合",
+    "des": "释放技能时，若目标处于<color=#8ad5a2>中毒</c>状态，额外给目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>中毒</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "addBuff_if_buff_name",
     "value1": "poison",
     "key2": "addBuff_if_buff_data",
@@ -6925,11 +6927,11 @@
     "icon": 50509004,
     "name": "复仇",
     "qa": 3,
-    "des": "攻击时若敌方身上有【<color=#8ad5a2>雌剑</c>】效果，则有<color=#8ad5a2>35%</c>概率使其<color=#8ad5a2>眩晕</c>，持续<color=#8ad5a2>1</c>回合",
+    "des": "攻击时若敌方身上有【<color=#8ad5a2>雌剑</c>】效果，则有<color=#8ad5a2>45%</c>概率使其<color=#8ad5a2>眩晕</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "addBuff_if_buff_name",
     "value1": "womanbuff",
     "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.35}"
+    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.45}"
   },
   "50511005": {
     "icon": 50509005,
@@ -6945,13 +6947,13 @@
     "icon": 50510003,
     "name": "法箓",
     "qa": 3,
-    "des": "开场时若干将在场，则使双方伤害减免提升<color=#8ad5a2>12%</c>",
+    "des": "开场时若干将在场，则使双方速度提升<color=#8ad5a2>100</c>",
     "key1": "twin_id",
     "value1": 505110,
     "key2": "twin_att",
-    "value2": "reduction",
+    "value2": "speed",
     "key3": "twin_mul",
-    "value3": 0.12
+    "value3": 100
   },
   "50512004": {
     "icon": 50510004,
@@ -6959,7 +6961,7 @@
     "qa": 3,
     "des": "攻击时若敌方身上有【<color=#8ad5a2>雄剑</c>】效果，则本次攻击伤害提升<color=#8ad5a2>20%</c>",
     "key1": "target_exist_buff_name",
-    "value1": "womanbuff",
+    "value1": "manbuff",
     "key2": "target_exist_buff_att",
     "value2": "amplify",
     "key3": "target_exist_buff_value",
@@ -7051,7 +7053,7 @@
     "qa": 5,
     "des": "开场获得<color=#8ad5a2>3</c>层【<color=#8ad5a2>剑气</c>】，己方友军被控制时，有<color=#8ad5a2>40%</c>概率消耗<color=#8ad5a2>1</c>层【剑魂】免疫此次控制效果；每次释放技能获得<color=#8ad5a2>1</c>层<color=#8ad5a2><color=#8ad5a2>剑气</c></c>效果",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"free_control\",\"buff_tg\":\"team_self\",\"value\":4,\"mul\":0.3,\"duration\":99,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"free_control\",\"buff_tg\":\"team_self\",\"value\":4,\"mul\":0.4,\"duration\":99,\"buffRate\":1}",
     "key2": "skill_buff",
     "value2": "{\"buffId\":\"free_control\",\"buff_tg\":\"team_self\",\"value\":1,\"mul\":0.4,\"duration\":99,\"buffRate\":1}"
   },
@@ -7059,11 +7061,11 @@
     "icon": 50509004,
     "name": "复仇",
     "qa": 5,
-    "des": "攻击时若敌方身上有【<color=#8ad5a2>真·雌剑</c>】效果，则有<color=#8ad5a2>55%</c>概率使其<color=#8ad5a2>眩晕</c>1</c>回合",
+    "des": "攻击时若敌方身上有【<color=#8ad5a2>真·雌剑</c>】效果，则有<color=#8ad5a2>65%</c>概率使其<color=#8ad5a2>眩晕</c>1</c>回合",
     "key1": "addBuff_if_buff_name",
     "value1": "womanbuff1",
     "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.55}"
+    "value2": "{\"buffId\":\"dizzy\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.65}"
   },
   "50515005": {
     "icon": 50509005,
@@ -7086,13 +7088,13 @@
     "icon": 50510003,
     "name": "法箓",
     "qa": 5,
-    "des": "开场时若干将在场，则使双方伤害减免提升<color=#8ad5a2>15%</c>",
+    "des": "开场时若干将在场，则使双方速度提升<color=#8ad5a2>150</c>点",
     "key1": "twin_id",
     "value1": 505150,
     "key2": "twin_att",
-    "value2": "reduction",
+    "value2": "speed",
     "key3": "twin_mul",
-    "value3": 0.15
+    "value3": 150
   },
   "50516004": {
     "icon": 50510004,
@@ -15420,33 +15422,27 @@
   },
   "sb_5121": {
     "qa": 3,
-    "des": "开场时若干将在场，则使双方伤害减免提升<color=#8ad5a2>14%</c>",
-    "key1": "twin_id",
-    "value1": 505110,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.02
+    "des": "普通攻击施加【真·雌剑】的概率提升25%，技能伤害提升5%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.6}",
+    "key2": "skill_attack_amp",
+    "value2": 0.5
   },
   "sb_5122": {
     "qa": 3,
-    "des": "开场时若干将在场，则使双方伤害减免提升<color=#8ad5a2>16%</c>",
-    "key1": "twin_id",
-    "value1": 505110,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.02
+    "des": "普通攻击施加【真·雌剑】的概率提升35%，技能伤害提升10%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.7}",
+    "key2": "skill_attack_amp",
+    "value2": 0.5
   },
   "sb_5123": {
     "qa": 3,
-    "des": "开场时若干将在场，则使双方伤害减免提升<color=#8ad5a2>18%</c>",
-    "key1": "twin_id",
-    "value1": 505110,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.02
+    "des": "普通攻击施加【真·雌剑】的概率提升45%，技能伤害提升20%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.8}",
+    "key2": "skill_attack_amp",
+    "value2": 0.5
   },
   "sb_5131": {
     "qa": 3,
@@ -15660,33 +15656,27 @@
   },
   "sb_5211": {
     "qa": 3,
-    "des": "开场时若剑魂·干将在场，则使双方伤害减免提升<color=#8ad5a2>14%</c>",
-    "key1": "twin_id",
-    "value1": 505150,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.14
+    "des": "普通攻击施加【真·雌剑】的概率提升25%，技能伤害提升10%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.8}",
+    "key2": "skill_attack_amp",
+    "value2": 0.1
   },
   "sb_5212": {
     "qa": 3,
-    "des": "开场时若剑魂·干将在场，则使双方伤害减免提升<color=#8ad5a2>16%</c>",
-    "key1": "twin_id",
-    "value1": 505150,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.16
+    "des": "普通攻击施加【真·雌剑】的概率提升35%，技能伤害提升20%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.9}",
+    "key2": "skill_attack_amp",
+    "value2": 0.1
   },
   "sb_5213": {
     "qa": 3,
-    "des": "开场时若剑魂·干将在场，则使双方伤害减免提升<color=#8ad5a2>18%</c>",
-    "key1": "twin_id",
-    "value1": 505150,
-    "key2": "twin_att",
-    "value2": "reduction",
-    "key3": "twin_mul",
-    "value3": 0.18
+    "des": "普通攻击施加【真·雌剑】的概率提升45%，技能伤害提升30%",
+    "key1": "normal_buff",
+    "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
+    "key2": "skill_attack_amp",
+    "value2": 0.1
   },
   "sb_5221": {
     "qa": 3,
@@ -16144,10 +16134,12 @@
   "sx_1142": {
     "qa": 3,
     "des": "攻击<color=#8ad5a2>冰冻</c>目标时，额外附带目标<color=#8ad5a2>14%</c>最大生命值",
-    "key1": "addBuff_if_buff_name",
+    "key1": "target_exist_buff_name",
     "value1": "frozen",
-    "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"lessHP\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.04,\"buffRate\":1}"
+    "key2": "target_exist_buff_att",
+    "value2": "HP_damage",
+    "key3": "target_exist_buff_value",
+    "value3": 0.14
   },
   "sx_1143": {
     "qa": 3,
