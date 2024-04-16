@@ -1,0 +1,42 @@
+{
+  "M_HP": {
+    "name": "体力",
+    "des": "体力资质：影响生命上限",
+    "att1": "self_maxHP_add",
+    "value1": 0.02
+  },
+  "M_ATK": {
+    "name": "武力",
+    "des": "武力资质：影响造成的物理伤害结果",
+    "att1": "phy_add",
+    "value1": 0.01
+  },
+  "M_DEF": {
+    "name": "耐力",
+    "des": "耐力资质：影响降低受到的物理伤害的能力",
+    "att1": "phy_def",
+    "value1": 0.01
+  },
+  "M_STK": {
+    "name": "智力",
+    "des": "智力资质：影响造成法术伤害结果与法术防御能力",
+    "att1": "mag_add",
+    "value1": 0.008,
+    "att2": "mag_def",
+    "value2": 0.008
+  },
+  "M_SEF": {
+    "name": "魅力",
+    "des": "魅力资质：影响暴击效果与降低受到的暴击伤害能力",
+    "att1": "slay",
+    "value1": 0.003,
+    "att2": "slayDef",
+    "value2": 0.003
+  },
+  "M_SPE": {
+    "name": "速度",
+    "des": "速度资质：影响出手速度",
+    "att1": "self_speed_add",
+    "value1": 0.01
+  }
+}
