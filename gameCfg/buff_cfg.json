@@ -23,6 +23,18 @@
     "toolKey": "lessHP",
     "toolValue": 0.1
   },
+  "lessHP1": {
+    "name": "工具-减少血量1",
+    "tool": true,
+    "toolKey": "lessHP",
+    "toolValue": 0.05
+  },
+  "lessHP2": {
+    "name": "工具-减少血量2",
+    "tool": true,
+    "toolKey": "lessHP",
+    "toolValue": 0.12
+  },
   "extra": {
     "name": "工具-额外回合",
     "tool": true,
@@ -746,23 +758,23 @@
   },
   "huaji1": {
     "name": "极·画戟",
-    "des": "攻击附带20%真伤效果",
+    "des": "攻击附带16%真伤效果",
     "refreshType": "roundOver",
     "max": 1,
     "intensify": true,
     "default": true,
     "attKey1": "HP_damage",
-    "attValue1": 0.2
+    "attValue1": 0.16
   },
   "guishen": {
     "name": "鬼神领域",
-    "des": "伤害减免提升50%",
+    "des": "伤害减免提升30%",
     "refreshType": "after",
     "max": 1,
     "intensify": true,
     "default": true,
     "attKey1": "reduction",
-    "attValue1": 0.5
+    "attValue1": 0.3
   },
   "manbuff": {
     "name": "雄剑",
@@ -847,7 +859,6 @@
     "name": "密诏",
     "des": "暴击率提升20%，暴击伤害提升20%",
     "refreshType": "after",
-    "duration": 1,
     "max": 1,
     "intensify": true,
     "default": true,
@@ -855,5 +866,49 @@
     "attValue1": 0.2,
     "attKey2": "critDef",
     "attValue2": 0.4
+  },
+  "extra1": {
+    "name": "额外回合",
+    "des": "获得1次额外行动回合",
+    "refreshType": "after",
+    "max": 1,
+    "intensify": true,
+    "default": true,
+    "toolKey": "extraAtion",
+    "toolValue": true
+  },
+  "xingxiang1": {
+    "name": "参宿",
+    "des": "伤害提升30%",
+    "refreshType": "before",
+    "max": 1,
+    "intensify": true,
+    "default": true,
+    "attKey1": "amplify",
+    "attValue1": 0.3
+  },
+  "xingxiang2": {
+    "name": "天节",
+    "des": "法术吸血提升30%",
+    "refreshType": "before",
+    "max": 1,
+    "intensify": true,
+    "default": true,
+    "attKey1": "mag_turn_hp",
+    "attValue1": 0.3
+  },
+  "qixingdeng": {
+    "name": "七星灯",
+    "des": "生命值低于30%时触发，恢复所有生命值，驱散所有负面和控制效果，造成的所有伤害附带目标5%最大生命值，自身受到的伤害增加100%，持续3回合",
+    "refreshType": "after",
+    "duration": 3,
+    "max": 1,
+    "default": true,
+    "attKey1": "HP_damage",
+    "attValue1": 0.05,
+    "attKey2": "reduction",
+    "attValue2": -1,
+    "toolKey": "addHP",
+    "toolValue": 1
   }
 }
