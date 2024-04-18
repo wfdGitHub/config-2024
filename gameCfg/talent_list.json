@@ -7127,7 +7127,7 @@
     "name": "剑魂",
     "qa": 5,
     "des": "每回合有<color=#8ad5a2>30%</c>概率额外获得<color=#8ad5a2>1</c>层<color=#8ad5a2>剑气</c>效果",
-    "key1": "begin_round_buffs",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"free_control\",\"buff_tg\":\"team_self\",\"value\":1,\"mul\":0.4,\"duration\":99,\"buffRate\":1}"
   },
   "50516003": {
@@ -7242,7 +7242,7 @@
     "qa": 5,
     "des": "每回合开始时，随机灼烧敌方<color=#8ad5a2>1-3</c>个目标，持续<color=#8ad5a2>2</c>回合",
     "key1": "begin_round_buffs",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "[{\"buffId\":\"burn\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}]"
   },
   "50519004": {
     "icon": 50211004,
@@ -17791,7 +17791,7 @@
     "qa": 3,
     "des": "每回合开始时，随机<color=#8ad5a2>灼烧</c>敌方<color=#8ad5a2>3</c>个目标，持续<color=#8ad5a2>2</c>回合",
     "key1": "begin_round_buffs",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "[{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}]"
   },
   "sx_5282": {
     "qa": 3,
