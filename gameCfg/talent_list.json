@@ -16105,77 +16105,77 @@
     "value1": 0.02
   },
   "sx_00": {
-    "icon": "sx_003",
+    "icon": "sx_001",
     "qa": 3,
     "des": "入场时，怒气值+<color=#8ad5a2>2</c>",
     "key1": "curAnger",
     "value1": 2
   },
   "sx_1011": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_1012": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>10%</c>治疗自身",
     "key1": "phy_turn_hp",
     "value1": 0.1
   },
   "sx_1013": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>15%</c>",
     "key1": "self_atk_add",
     "value1": 0.15
   },
   "sx_1021": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "治疗量提升<color=#8ad5a2>15%</c>",
     "key1": "normal_heal_amp",
     "value1": 0.15
   },
   "sx_1022": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，为目标施加持续<color=#8ad5a2>恢复效果，每回合回复<color=#8ad5a2>25%</c>攻击的生命值，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":2,\"buffRate\":1}"
   },
   "sx_1023": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "施加的持续<color=#8ad5a2>恢复效果</c>回合数+<color=#8ad5a2>1</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"recover\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.25,\"duration\":3,\"buffRate\":1}"
   },
   "sx_1031": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>15%</c>",
     "key1": "self_maxHP_add",
     "value1": 0.15
   },
   "sx_1032": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后回复自身<color=#8ad5a2>10%</c>最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.1
   },
   "sx_1033": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "入场时为<color=#8ad5a2>全体</c>友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "sx_1041": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击目标时，若目标处于<color=#8ad5a2>寒冷</c>状态下，则造成的伤害额外增加<color=#8ad5a2>20%</c>",
     "key1": "target_exist_buff_name",
@@ -16186,35 +16186,35 @@
     "value3": 0.2
   },
   "sx_1042": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "击败目标后获得<color=#8ad5a2>2</c>点怒气",
     "key1": "kill_anger",
     "value1": 1
   },
   "sx_1043": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>15%</c>",
     "key1": "self_atk_add",
     "value1": 0.15
   },
   "sx_1051": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合行动前，移除自身一个减益效果",
     "key1": "remove_one_lower",
     "value1": true
   },
   "sx_1052": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每回合行动后，回复<color=#8ad5a2>5%</c>最大生命值",
     "key1": "action_heal",
     "value1": 0.05
   },
   "sx_1053": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16223,21 +16223,21 @@
     "value2": 0.08
   },
   "sx_1061": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "位于前排时，获得<color=#8ad5a2>10%</c>免伤",
     "key1": "front_reduction",
     "value1": 0.1
   },
   "sx_1062": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能附加减速概率提升至<color=#8ad5a2>100%</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_1063": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16246,7 +16246,7 @@
     "value2": 0.08
   },
   "sx_1071": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>偷取</c>目标时，造成伤害提升<color=#8ad5a2>20%</c>",
     "key1": "target_exist_buff_name",
@@ -16257,21 +16257,21 @@
     "value3": 0.2
   },
   "sx_1072": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能可以降低目标<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_less_anger",
     "value1": 1
   },
   "sx_1073": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "<color=#8ad5a2>偷取</c>攻击的持续<color=#8ad5a2>时间增加<color=#8ad5a2>1</c>回合",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_1081": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "受到<color=#8ad5a2>寒冷</c>状态下的敌人攻击时，获得<color=#8ad5a2>18%</c>伤害减免",
     "key1": "behit_exist_buff_name",
@@ -16282,14 +16282,14 @@
     "value3": 0.18
   },
   "sx_1082": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "退场时，为我方<color=#8ad5a2>全体</c>施加<color=#8ad5a2>魔衣</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"reduction_mag\",\"buff_tg\":\"team_all\",\"buffArg\":0.6,\"duration\":2,\"buffRate\":1}"
   },
   "sx_1083": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，法防提升<color=#8ad5a2>10%</c>",
     "key1": "self_maxHP_add",
@@ -16298,7 +16298,7 @@
     "value2": 0.1
   },
   "sx_1091": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击目标时，若目标处于<color=#8ad5a2>寒冷</c>状态下，则造成的伤害额外增加<color=#8ad5a2>30%</c>",
     "key1": "target_exist_buff_name",
@@ -16309,70 +16309,70 @@
     "value3": 0.3
   },
   "sx_1092": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>30%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.3
   },
   "sx_1093": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "暴击伤害提升<color=#8ad5a2>30%</c>",
     "key1": "slay",
     "value1": 0.3
   },
   "sx_1101": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击时，若目标存在无敌盾或无敌吸血盾，则在伤害前移除",
     "key1": "less_clear_invincible",
     "value1": 6
   },
   "sx_1102": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击附带的最大生命值效果提升至<color=#8ad5a2>5%</c>",
     "key1": "HP_damage",
     "value1": 0.02
   },
   "sx_1103": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击时造成伤害的<color=#8ad5a2>20%</c>回复自身",
     "key1": "phy_turn_hp",
     "value1": 0.2
   },
   "sx_1111": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能时，额外恢复我方攻击力最高的友方<color=#8ad5a2>2</c>点怒气",
     "key1": "skill_add_maxAtk_anger",
     "value1": 1
   },
   "sx_1112": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "治疗量提升<color=#8ad5a2>20%</c>",
     "key1": "normal_heal_amp",
     "value1": 0.2
   },
   "sx_1113": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "释放技能时，恢复我方<color=#8ad5a2>全体</c><color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_a",
     "value1": 1
   },
   "sx_1121": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能施加<color=#8ad5a2>寒冷</c>的概率提升至<color=#8ad5a2>100%</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_1122": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>寒冷</c>状态下的目标时，本次攻击造成伤害提升<color=#8ad5a2>30%</c>",
     "key1": "target_exist_buff_name",
@@ -16382,7 +16382,7 @@
     "key3": "target_exist_buff_value"
   },
   "sx_1123": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>15%</c>，攻击力提升<color=#8ad5a2>10%</c>",
     "key1": "self_speed_add",
@@ -16391,7 +16391,7 @@
     "value2": 0.1
   },
   "sx_1131": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "持有<color=#8ad5a2>陷阵</c>状态时，获得<color=#8ad5a2>15%</c>伤害减免",
     "key1": "self_exist_buff_name",
@@ -16402,28 +16402,28 @@
     "value3": 0.15
   },
   "sx_1132": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "使用技能时，每层<color=#8ad5a2>陷阵</c>效果额外造成目标<color=#8ad5a2>2%</c>生命上限的伤害",
     "key1": "polang_power",
     "value1": 0.01
   },
   "sx_1133": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "暴击伤害提升<color=#8ad5a2>20%</c>",
     "key1": "slay",
     "value1": 0.2
   },
   "sx_1141": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合获得<color=#8ad5a2>1</c>层<color=#8ad5a2>冰霜</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"frost\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "sx_1142": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>冰冻</c>目标时，额外附带目标<color=#8ad5a2>14%</c>最大生命值",
     "key1": "target_exist_buff_name",
@@ -16434,28 +16434,28 @@
     "value3": 0.14
   },
   "sx_1143": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "入场时，使敌方<color=#8ad5a2>全体</c>目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>寒冷</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"cold\",\"buff_tg\":\"enemy_all\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2011": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普攻有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>灼烧</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.35}"
   },
   "sx_2012": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>灼烧</c>状态下的目标时，获得<color=#8ad5a2>15%</c>暴击率",
     "key1": "burn_att_change_skill",
     "value1": "{\"crit\":0.15}"
   },
   "sx_2013": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16464,21 +16464,21 @@
     "value2": 0.08
   },
   "sx_2021": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普攻有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>暴击印记</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"crit_seal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.35}"
   },
   "sx_2022": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "位于后排时，获得<color=#8ad5a2>10%</c>暴击几率",
     "key1": "back_crit",
     "value1": 0.1
   },
   "sx_2023": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16487,21 +16487,21 @@
     "value2": 0.08
   },
   "sx_2031": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_2032": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，目标身上每有<color=#8ad5a2>1</c>层<color=#8ad5a2>撕裂</c>效果，额外造成<color=#8ad5a2>2%</c>最大生命值的伤害",
     "key1": "skill_bleed_maxHp",
     "value1": 0.02
   },
   "sx_2033": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>8%</c>，命中提升<color=#8ad5a2>8%</c>",
     "key1": "self_atk_add",
@@ -16510,14 +16510,14 @@
     "value2": 0.08
   },
   "sx_2041": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "位于前排时，获得<color=#8ad5a2>10%</c>免伤",
     "key1": "front_reduction",
     "value1": 0.1
   },
   "sx_2042": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "拥有<color=#8ad5a2>烈焰护体</c>时，受到伤害降低<color=#8ad5a2>20%</c>",
     "key1": "self_exist_buff_name",
@@ -16528,7 +16528,7 @@
     "value3": 0.2
   },
   "sx_2043": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16537,21 +16537,21 @@
     "value2": 0.08
   },
   "sx_2051": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能暴击额外造成目标<color=#8ad5a2>8%</c>生命上限的真实伤害",
     "key1": "skill_crit_maxHp",
     "value1": 0.08
   },
   "sx_2052": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值每降低<color=#8ad5a2>10%</c>，暴击率提升<color=#8ad5a2>4%</c>",
     "key1": "low_hp_crit",
     "value1": 0.04
   },
   "sx_2053": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16560,21 +16560,21 @@
     "value2": 0.08
   },
   "sx_2061": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>破甲</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":0.35}"
   },
   "sx_2062": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>15%</c>回复自身",
     "key1": "phy_turn_hp",
     "value1": 0.15
   },
   "sx_2063": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16583,21 +16583,21 @@
     "value2": 0.08
   },
   "sx_2071": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "炙热光环造成的伤害提升至<color=#8ad5a2>80%</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.8,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2072": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "入场时，为敌方攻击最高的目标施加<color=#8ad5a2>1</c>层炙热光环",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"heat_halo\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0.8,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2073": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>10%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16606,84 +16606,84 @@
     "value2": 0.08
   },
   "sx_2081": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，为我方攻击力最高的友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>烈焰护体</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2082": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每次受到伤害，回复<color=#8ad5a2>2%</c>自身最大生命值",
     "key1": "behit_heal",
     "value1": 0.02
   },
   "sx_2083": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>18%</c>",
     "key1": "self_maxHP_add",
     "value1": 0.18
   },
   "sx_2091": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普攻有<color=#8ad5a2>65%</c>的概率附加<color=#8ad5a2>灼烧</c>",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
   },
   "sx_2092": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "<color=#8ad5a2>风刃</c>造成的额外伤害提升至<color=#8ad5a2>130%</c>",
     "key1": "thawing_burn",
     "value1": 0.3
   },
   "sx_2093": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "受到<color=#8ad5a2>灼烧</c>目标攻击时，恢复<color=#8ad5a2>1</c>点怒气",
     "key1": "burn_hit_anger",
     "value1": 1
   },
   "sx_2101": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普攻附加<color=#8ad5a2>灼烧</c>效果概率提升至<color=#8ad5a2>100%</c>",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2102": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能使敌人<color=#8ad5a2>眩晕</c>时，同阵营英雄对<color=#8ad5a2>眩晕</c>目标造成伤害增加<color=#8ad5a2>50%</c>",
     "key1": "realm_dizzy_amp",
     "value1": 0.5
   },
   "sx_2103": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "退场时，释放<color=#8ad5a2>1</c>次技能",
     "key1": "died_use_skill",
     "value1": true
   },
   "sx_2111": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "被<color=#8ad5a2>灼烧</c>的武将无法获得无敌盾和无敌吸血盾效果",
     "key1": "burn_not_invincible",
     "value1": true
   },
   "sx_2112": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>10%</c>暴击率",
     "key1": "kill_crit",
     "value1": 0.1
   },
   "sx_2113": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>灼烧</c>目标时，造成伤害的<color=#8ad5a2>25%</c>回复自身",
     "key1": "normal_burn_turn_heal",
@@ -16692,49 +16692,49 @@
     "value2": 0.1
   },
   "sx_2121": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "持续<color=#8ad5a2>治疗效果的</c>回合数+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_2122": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放持续<color=#8ad5a2>恢复效果时，若目标身上已存在治疗效果，则立即结算原效果剩余</c>回合数",
     "key1": "recover_settle",
     "value1": true
   },
   "sx_2123": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "抵抗控制效果提升<color=#8ad5a2>18%</c>",
     "key1": "control_buff_lowrate",
     "value1": 0.18
   },
   "sx_2131": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能拥有<color=#8ad5a2>75%</c>概率附加<color=#8ad5a2>灼烧</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.75}"
   },
   "sx_2132": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "入场时，为我方前排目标施加<color=#8ad5a2>烈焰护盾</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_horizontal_front\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2133": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "施加的<color=#8ad5a2>灼烧</c>效果和<color=#8ad5a2>仙火</c>效果持续<color=#8ad5a2>时间增加<color=#8ad5a2>1</c>回合",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_2141": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "所有攻击有<color=#8ad5a2>65%</c>概率附加<color=#8ad5a2>灼烧</c>效果，且获得<color=#8ad5a2>15%</c>伤害提升",
     "key1": "normal_buff",
@@ -16743,14 +16743,14 @@
     "value2": "{\"buffId\":\"burn\",\"buff_tg\":\"skill_targets\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":0.65}"
   },
   "sx_2142": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>2</c>点怒气",
     "key1": "kill_anger",
     "value1": 2
   },
   "sx_2143": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "生命值低于<color=#8ad5a2>30%</c>时触发<color=#8ad5a2>霸王</c>，<color=#8ad5a2>驱散</c>所有负面和控制效果。提升自身<color=#8ad5a2>30%</c>伤害，每回合回复<color=#8ad5a2>30%</c>最大生命值，持续<color=#8ad5a2>3</c>回合，每场战斗只能触发<color=#8ad5a2>1</c>次",
     "key1": "less_hp_rate",
@@ -16759,21 +16759,21 @@
     "value2": "huosheng"
   },
   "sx_3011": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率额外附加<color=#8ad5a2>1</c>层<color=#8ad5a2>撕裂</c>效果",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"bleed\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_3012": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，目标身上每有<color=#8ad5a2>1</c>层<color=#8ad5a2>撕裂</c>效果，额外造成<color=#8ad5a2>2%</c>最大生命值的伤害",
     "key1": "skill_bleed_maxHp",
     "value1": 0.02
   },
   "sx_3013": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16782,21 +16782,21 @@
     "value2": 0.08
   },
   "sx_3021": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_3022": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>1</c>点怒气",
     "key1": "kill_anger",
     "value1": 1
   },
   "sx_3023": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16805,21 +16805,21 @@
     "value2": 0.08
   },
   "sx_3031": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率为<color=#8ad5a2>1</c>名随机友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>暴击提升</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"crit\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_3032": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后回复自身<color=#8ad5a2>10%</c>最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.1
   },
   "sx_3033": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16828,21 +16828,21 @@
     "value2": 0.08
   },
   "sx_3041": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，暴击率提升<color=#8ad5a2>8%</c>",
     "key1": "kill_crit",
     "value1": 0.08
   },
   "sx_3042": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "使用技能后，若目标生命值低于<color=#8ad5a2>15%</c>，则将其<color=#8ad5a2>斩杀</c>",
     "key1": "seckill",
     "value1": 0.15
   },
   "sx_3043": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -16851,21 +16851,21 @@
     "value2": 0.08
   },
   "sx_3051": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普攻有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>1</c>层<color=#8ad5a2>中毒</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_3052": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能附加的<color=#8ad5a2>中毒</c>效果提升至<color=#8ad5a2>2</c>层",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"poison\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_3053": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16874,21 +16874,21 @@
     "value2": 0.08
   },
   "sx_3061": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>1</c>层<color=#8ad5a2>标记</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"fengzheng\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_3062": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "位于后排时，获得<color=#8ad5a2>10%</c>暴击几率",
     "key1": "back_crit",
     "value1": 0.1
   },
   "sx_3063": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>8%</c>，命中率提升<color=#8ad5a2>8%</c>",
     "key1": "hitRate",
@@ -16897,14 +16897,14 @@
     "value2": 0.08
   },
   "sx_3071": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，获得<color=#8ad5a2>2</c>层<color=#8ad5a2>月舞</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"fanzhi\",\"buff_tg\":\"team_self\",\"buffArg\":2,\"duration\":2,\"buffRate\":1}"
   },
   "sx_3072": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "拥有<color=#8ad5a2>月舞</c>时，攻击造成的伤害提升<color=#8ad5a2>20%</c>",
     "key1": "self_exist_buff_name",
@@ -16915,7 +16915,7 @@
     "value3": 0.2
   },
   "sx_3073": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>10%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -16924,7 +16924,7 @@
     "value2": 0.1
   },
   "sx_3081": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，获得所有星象效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
@@ -16935,42 +16935,42 @@
     "value3": "{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "sx_3082": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "星象效果持续回合+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_3083": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>18%</c>",
     "key1": "self_atk_add",
     "value1": 0.18
   },
   "sx_3091": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能时，回复自身<color=#8ad5a2>15%</c>最大生命",
     "key1": "skill_heal_maxHp",
     "value1": 0.15
   },
   "sx_3092": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每回合有<color=#8ad5a2>35%</c>概率<color=#8ad5a2>嘲讽</c>敌方攻击力最高的目标,持续<color=#8ad5a2>1</c>回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"chaofeng\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "sx_3093": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "退场时，<color=#8ad5a2>眩晕</c>敌方攻击力最高的目标，持续<color=#8ad5a2>1</c>回合",
     "key1": "died_buff",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":1}"
   },
   "sx_3101": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "与刘备同时出场时，双方获得<color=#8ad5a2>15%</c>伤害减免",
     "key1": "twin_id",
@@ -16981,21 +16981,21 @@
     "value3": 0.15
   },
   "sx_3102": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，目标身上每有<color=#8ad5a2>1</c>层<color=#8ad5a2>撕裂</c>效果，额外造成<color=#8ad5a2>5%</c>最大生命值的伤害",
     "key1": "skill_bleed_maxHp",
     "value1": 0.02
   },
   "sx_3103": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "施加的<color=#8ad5a2>撕裂</c>效果持续回合数加<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_3111": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "与张飞同时出场时，双方获得<color=#8ad5a2>15%</c><color=#8ad5a2>暴击提升</c>",
     "key1": "twin_id",
@@ -17006,21 +17006,21 @@
     "value3": 0.15
   },
   "sx_3112": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>20%</c>治疗自身",
     "key1": "phy_turn_hp",
     "value1": 0.2
   },
   "sx_3113": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "敌方每有<color=#8ad5a2>1</c>名目标阵亡，获得<color=#8ad5a2>8%</c>伤害提升",
     "key1": "enemy_died_amp",
     "value1": 0.08
   },
   "sx_3121": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "与<color=#8ad5a2>关羽</c>同时出场时，双方获得<color=#8ad5a2>15%</c>攻击力提升",
     "key1": "twin_id",
@@ -17029,7 +17029,7 @@
     "value2": "{\"buffId\":\"addatk\",\"duration\":99,\"buffRate\":1}"
   },
   "sx_3122": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "受到直接伤害转化的生命值提升至<color=#8ad5a2>20%</c>",
     "key1": "hit_turn_rate",
@@ -17038,35 +17038,35 @@
     "value2": "team_all"
   },
   "sx_3123": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "在有友方受到致命伤害退场时，有友方受到致命伤害退场时，若自身生命值大于<color=#8ad5a2>30%</c>，则输送自身<color=#8ad5a2>15%</c>生命值使其立即复活，此技能触发后冷却<color=#8ad5a2>4</c>回合",
     "key1": "passive1",
     "value1": "fh_ss"
   },
   "sx_3131": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合，随机为敌方<color=#8ad5a2>1</c>个目标添加<color=#8ad5a2>1</c>层<color=#8ad5a2>龙腾</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_3132": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "追加攻击额外附加<color=#8ad5a2>12%</c>生命上限伤害",
     "key1": "add_default_maxHp",
     "value1": 0.04
   },
   "sx_3133": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "普攻有<color=#8ad5a2>65%</c>概率附加<color=#8ad5a2>1</c>层<color=#8ad5a2>龙腾</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"hunting\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_3141": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，获得<color=#8ad5a2>1</c>层除<color=#8ad5a2>画灵</c>-骏马外的所有<color=#8ad5a2>画灵</c>效果",
     "key1": "first_buff",
@@ -17077,56 +17077,56 @@
     "value3": "{\"buffId\":\"huayi3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":99,\"buffRate\":1}"
   },
   "sx_3142": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "自身每有<color=#8ad5a2>1</c>个增益效果，造成的伤害增加<color=#8ad5a2>10%</c>",
     "key1": "my_intensify_amp",
     "value1": 0.1
   },
   "sx_3143": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "施加的<color=#8ad5a2>画意</c>效果持续回合数+<color=#8ad5a2>1",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_4011": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_4012": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值每降低<color=#8ad5a2>10%</c>，造成伤害提升<color=#8ad5a2>5%</c>",
     "key1": "low_hp_amp",
     "value1": 0.05
   },
   "sx_4013": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>15%</c>",
     "key1": "self_atk_add",
     "value1": 0.15
   },
   "sx_4021": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>沉默</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
   },
   "sx_4022": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "控制概率增加<color=#8ad5a2>12%</c>",
     "key1": "atkcontrol",
     "value1": 0.12
   },
   "sx_4023": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，命中率提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17135,21 +17135,21 @@
     "value2": 0.08
   },
   "sx_4031": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率使目标<color=#8ad5a2>眩晕</c>1</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "sx_4032": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，回复自身<color=#8ad5a2>10%</c>最大生命",
     "key1": "skill_heal_maxHp",
     "value1": 0.1
   },
   "sx_4033": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，命中率提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17158,21 +17158,21 @@
     "value2": 0.08
   },
   "sx_4041": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害增加<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_4042": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值每降低<color=#8ad5a2>10%</c>，造成伤害提升<color=#8ad5a2>5%</c>",
     "key1": "low_hp_amp",
     "value1": 0.05
   },
   "sx_4043": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -17181,21 +17181,21 @@
     "value2": 0.08
   },
   "sx_4051": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击时，有<color=#8ad5a2>35%</c>概率使目标<color=#8ad5a2>虚弱</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_4052": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每回合行动后，回复<color=#8ad5a2>5%</c>最大生命值",
     "key1": "action_heal",
     "value1": 0.05
   },
   "sx_4053": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，速度提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17204,21 +17204,21 @@
     "value2": 0.08
   },
   "sx_4061": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击时，有<color=#8ad5a2>35%</c>概率附加<color=#8ad5a2>1</c>层<color=#8ad5a2>诅咒</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_4062": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能时，回复自身<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_s",
     "value1": 1
   },
   "sx_4063": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17227,21 +17227,21 @@
     "value2": 0.08
   },
   "sx_4071": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>55%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.55}"
   },
   "sx_4072": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，伤害提升<color=#8ad5a2>8%</c>",
     "key1": "kill_amp",
     "value1": 0.08
   },
   "sx_4073": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命提升<color=#8ad5a2>10%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -17250,14 +17250,14 @@
     "value2": 0.08
   },
   "sx_4081": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能施加<color=#8ad5a2>灵魂窃取</c>的概率提升至<color=#8ad5a2>100%</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"soul_steal\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_4082": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>灵魂窃取</c>目标时，本次攻击伤害提升<color=#8ad5a2>30%</c>",
     "key1": "target_exist_buff_name",
@@ -17268,49 +17268,49 @@
     "value3": 0.3
   },
   "sx_4083": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "添加<color=#8ad5a2>灵魂窃取</c>的目标受到的回怒效果转移至自身",
     "key1": "soul_steal_anger",
     "value1": true
   },
   "sx_4091": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能攻击时，立刻结算目标身上所有<color=#8ad5a2>诅咒</c>效果",
     "key1": "curse_settle",
     "value1": true
   },
   "sx_4092": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能额外施加<color=#8ad5a2>1</c>层<color=#8ad5a2>诅咒</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":2,\"duration\":3,\"buffRate\":0.65}"
   },
   "sx_4093": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "自身行动后，为己方<color=#8ad5a2>全体</c>单位各移除<color=#8ad5a2>1</c>个非控制类的负面状态，并转化为<color=#8ad5a2>诅咒</c>转移至敌方随机单体",
     "key1": "passive1",
     "value1": "zy_zz"
   },
   "sx_4101": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能施加<color=#8ad5a2>沙尘暴</c>的概率提升至<color=#8ad5a2>100%</c>",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"sand\",\"buff_tg\":\"skill_targets\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "sx_4102": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>15%</c>回复自身",
     "key1": "mag_turn_hp",
     "value1": 0.15
   },
   "sx_4103": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>沙尘暴</c>目标时，有<color=#8ad5a2>45%</c>概率获得<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_if_buff_name",
@@ -17319,14 +17319,14 @@
     "value2": "{\"buffId\":\"addAnger\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"buffRate\":0.45}"
   },
   "sx_4111": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "生命值每降低<color=#8ad5a2>10%</c>，伤害提升<color=#8ad5a2>5%</c>",
     "key1": "low_hp_amp",
     "value1": 0.05
   },
   "sx_4112": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "less_hp_rate",
@@ -17335,35 +17335,35 @@
     "value2": "guishen"
   },
   "sx_4113": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_4121": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "受到攻击时，施加<color=#8ad5a2>魔印</c>的概率提升至<color=#8ad5a2>50%</c>",
     "key1": "hit_buff",
     "value1": "{\"buffId\":\"moyin\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.5}"
   },
   "sx_4122": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后，回复自身<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_s",
     "value1": 1
   },
   "sx_4123": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "自身施加的<color=#8ad5a2>魔印</c>和<color=#8ad5a2>嗜血</c>效果持续回合+<color=#8ad5a2>1",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_4131": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>嘲讽</c>目标时，造成伤害提升<color=#8ad5a2>20%</c>",
     "key1": "target_exist_buff_name",
@@ -17374,35 +17374,35 @@
     "value3": 0.2
   },
   "sx_4132": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每次受到伤害，回复<color=#8ad5a2>5%</c>自身最大生命值",
     "key1": "behit_heal",
     "value1": 0.05
   },
   "sx_4133": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "受到攻击时，降低目标<color=#8ad5a2>1</c>点怒气",
     "key1": "hit_less_anger",
     "value1": 1
   },
   "sx_4141": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>10%</c>最大生命伤害，并附加<color=#8ad5a2>1</c>层<color=#8ad5a2>易伤</c>效果，持续<color=#8ad5a2>2</c>回合",
     "key1": "beginSkill",
     "value1": 50414012
   },
   "sx_4142": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "目标身上每有<color=#8ad5a2>1</c>个负面效果，伤害增加至<color=#8ad5a2>15%</c>",
     "key1": "enemy_low_amp",
     "value1": 0.15
   },
   "sx_4143": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命提升<color=#8ad5a2>10%</c>，攻击力提升<color=#8ad5a2>10%</c>",
     "key1": "self_maxHP_add",
@@ -17411,21 +17411,21 @@
     "value2": 0.1
   },
   "sx_5011": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_5012": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>35%</c>概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>神力</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"god_power\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":0.35}"
   },
   "sx_5013": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，最大生命值提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17434,21 +17434,21 @@
     "value2": 0.08
   },
   "sx_5021": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，<color=#8ad5a2>眩晕</c>敌方攻击力最高的目标<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"dizzy\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":0,\"duration\":1,\"buffRate\":0.6}"
   },
   "sx_5022": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后，会清除己方生命最低的<color=#8ad5a2><color=#8ad5a2>1</c>名英雄的非控制类异常状态",
     "key1": "skill_clear_debuff",
     "value1": true
   },
   "sx_5023": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，命中率提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17457,21 +17457,21 @@
     "value2": 0.08
   },
   "sx_5031": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "受控制概率降低<color=#8ad5a2>10%</c>",
     "key1": "control_buff_lowrate",
     "value1": 0.1
   },
   "sx_5032": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每次受到伤害，回复<color=#8ad5a2>2%</c>自身最大生命值",
     "key1": "behit_heal",
     "value1": 0.02
   },
   "sx_5033": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，受治疗效果提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -17480,21 +17480,21 @@
     "value2": 0.08
   },
   "sx_5041": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>15%</c>",
     "key1": "skill_attack_amp",
     "value1": 0.15
   },
   "sx_5042": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "阵亡后，释放<color=#8ad5a2>1</c>次技能",
     "key1": "died_use_skill",
     "value1": true
   },
   "sx_5043": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>8%</c>，攻击力提升<color=#8ad5a2>8%</c>",
     "key1": "self_maxHP_add",
@@ -17503,21 +17503,21 @@
     "value2": 0.08
   },
   "sx_5051": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合为随机友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>疾速</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "action_buff",
     "value1": "{\"buffId\":\"speed\",\"buff_tg\":\"enemy_1\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "sx_5052": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击杀一个目标，造成伤害提升<color=#8ad5a2>8%</c>",
     "key1": "kill_amp",
     "value1": 0.08
   },
   "sx_5053": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命提升<color=#8ad5a2>10%</c>，速度提升<color=#8ad5a2>6%</c>",
     "key1": "self_maxHP_add",
@@ -17526,21 +17526,21 @@
     "value2": 0.06
   },
   "sx_5061": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "自身控制概率增加至<color=#8ad5a2>15%</c>",
     "key1": "atkcontrol",
     "value1": 0.05
   },
   "sx_5062": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后，回复自身<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_s",
     "value1": 1
   },
   "sx_5063": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "速度提升<color=#8ad5a2>8%</c>，命中率提升<color=#8ad5a2>8%</c>",
     "key1": "self_speed_add",
@@ -17549,35 +17549,35 @@
     "value2": 0.08
   },
   "sx_5071": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "目标血量每减少<color=#8ad5a2>10%</c>，对其造成的治疗量加成<color=#8ad5a2>5%</c>",
     "key1": "low_hp_heal",
     "value1": 0.05
   },
   "sx_5072": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每回合行动后恢复<color=#8ad5a2>1</c>点怒气",
     "key1": "action_anger",
     "value1": 1
   },
   "sx_5073": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "退场时，恢复<color=#8ad5a2>全体</c>友方<color=#8ad5a2>30%</c>最大生命值",
     "key1": "diedSkill",
     "value1": 50507012
   },
   "sx_5081": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能后，为我方攻击力最高的友方添加能够吸收自身最大生命<color=#8ad5a2>10%</c>伤害量的<color=#8ad5a2>护盾</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"shield\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":0.1,\"duration\":1,\"buffRate\":1}"
   },
   "sx_5082": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "技能伤害提升<color=#8ad5a2>20%</c>",
     "key1": "skill_attack_amp",
@@ -17586,28 +17586,28 @@
     "value2": 0.2
   },
   "sx_5083": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "退场时，对敌方<color=#8ad5a2>全体</c>造成<color=#8ad5a2>15%</c>最大生命值，并移除友方<color=#8ad5a2>全体</c>1层减益效果",
     "key1": "diedSkill",
     "value1": 50508012
   },
   "sx_5091": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>雷咒</c>目标时，有<color=#8ad5a2>25%</c>概率使其<color=#8ad5a2>麻痹</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "gd_mb",
     "value1": 0.25
   },
   "sx_5092": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能命中带有<color=#8ad5a2>雷咒</c>的目标时，回复<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_flash_anger",
     "value1": true
   },
   "sx_5093": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "退场时，释放<color=#8ad5a2>1</c>次技能，并结算所有<color=#8ad5a2>雷咒</c>效果",
     "key1": "died_use_skill",
@@ -17616,21 +17616,21 @@
     "value2": true
   },
   "sx_5101": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，为我方攻击力最高的友方提供<color=#8ad5a2>1</c>层<color=#8ad5a2>免控盾</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "sx_5102": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "治疗时，额外恢复友方<color=#8ad5a2>5%</c>最大生命值",
     "key1": "heal_maxHp",
     "value1": 0.05
   },
   "sx_5103": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>10%</c>，法防提升<color=#8ad5a2>6%</c>，物防提升<color=#8ad5a2>6%</c>",
     "key1": "self_maxHP_add",
@@ -17641,7 +17641,7 @@
     "value3": 0.06
   },
   "sx_5111": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "开场时若<color=#8ad5a2>莫邪</c>在场，则使双方暴击几率提升<color=#8ad5a2>12%</c>",
     "key1": "twin_id",
@@ -17652,28 +17652,28 @@
     "value3": 0.12
   },
   "sx_5112": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>15%</c>回复自身",
     "key1": "phy_turn_hp",
     "value1": 0.15
   },
   "sx_5113": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "入场时，为敌方攻击力最高的目标附加<color=#8ad5a2>雄剑</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"manbuff\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5121": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，为敌方随机<color=#8ad5a2>3</c>个目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>雌剑</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"womanbuff\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5122": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击时，若目标处于<color=#8ad5a2>雄剑</c>状态，则有<color=#8ad5a2>35%</c>概率回复<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_if_buff_name",
@@ -17682,28 +17682,28 @@
     "value2": "{\"buffId\":\"addAnger\",\"buffArg\":0,\"buffRate\":0.35}"
   },
   "sx_5123": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，暴击伤害提升<color=#8ad5a2>8%</c>",
     "key1": "kill_slay",
     "value1": 0.08
   },
   "sx_5131": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能时，降低目标<color=#8ad5a2>2</c>点怒气",
     "key1": "skill_less_anger",
     "value1": 2
   },
   "sx_5132": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "入场时，<color=#8ad5a2>封印</c>敌方攻击力最高的目标，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"banish\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "sx_5133": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "命中率提升<color=#8ad5a2>10%</c>，速度提升<color=#8ad5a2>10%</c>",
     "key1": "self_speed_add",
@@ -17712,14 +17712,14 @@
     "value2": 0.1
   },
   "sx_5141": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "自身每有<color=#8ad5a2>1</c>个增益效果，造成的伤害增加至<color=#8ad5a2>15%</c>",
     "key1": "my_intensify_amp",
     "value1": 0.15
   },
   "sx_5142": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值低于<color=#8ad5a2>50%</c>时，获得一个超级吸血盾，持续<color=#8ad5a2>1</c>回合",
     "key1": "less_hp_rate",
@@ -17728,7 +17728,7 @@
     "value2": "invincibleSuck"
   },
   "sx_5143": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>10%</c>，速度提升<color=#8ad5a2>10%</c>",
     "key1": "self_speed_add",
@@ -17737,42 +17737,42 @@
     "value2": 0.1
   },
   "sx_5151": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "攻击时，若目标存在无敌盾或无敌吸血盾，则在伤害前移除",
     "key1": "less_clear_invincible",
     "value1": 6
   },
   "sx_5152": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击附带的最大生命值效果提升至<color=#8ad5a2>5%</c>",
     "key1": "HP_damage",
     "value1": 0.02
   },
   "sx_5153": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击时造成伤害的<color=#8ad5a2>20%</c>回复自身",
     "key1": "phy_turn_hp",
     "value1": 0.2
   },
   "sx_5161": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "被<color=#8ad5a2>灼烧</c>的武将无法获得无敌盾和无敌吸血盾效果",
     "key1": "burn_not_invincible",
     "value1": true
   },
   "sx_5162": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>12%</c>暴击率",
     "key1": "kill_crit",
     "value1": 0.12
   },
   "sx_5163": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击<color=#8ad5a2>灼烧</c>目标时，造成伤害的<color=#8ad5a2>30%</c>回复自身",
     "key1": "normal_burn_turn_heal",
@@ -17781,7 +17781,7 @@
     "value2": 0.1
   },
   "sx_5171": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "与张飞同时出场时，双方获得<color=#8ad5a2>15%</c><color=#8ad5a2>暴击提升</c>",
     "key1": "twin_id",
@@ -17792,35 +17792,35 @@
     "value3": 0.15
   },
   "sx_5172": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>20%</c>治疗自身",
     "key1": "phy_turn_hp",
     "value1": 0.2
   },
   "sx_5173": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "敌方每有<color=#8ad5a2>1</c>名目标阵亡，获得<color=#8ad5a2>10%</c>伤害提升",
     "key1": "enemy_died_amp",
     "value1": 1
   },
   "sx_5181": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "普通攻击有<color=#8ad5a2>100%</c>的概率为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
     "key1": "normal_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "sx_5182": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，伤害提升<color=#8ad5a2>10%</c>",
     "key1": "kill_amp",
     "value1": 0.1
   },
   "sx_5183": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命提升<color=#8ad5a2>10%</c>，攻击力提升<color=#8ad5a2>10%</c>",
     "key1": "self_maxHP_add",
@@ -17829,14 +17829,14 @@
     "value2": 0.1
   },
   "sx_5191": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "生命值每降低<color=#8ad5a2>10%</c>，伤害提升<color=#8ad5a2>6%</c>",
     "key1": "low_hp_amp",
     "value1": 0.06
   },
   "sx_5192": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>3</c>回合",
     "key1": "less_hp_rate",
@@ -17845,14 +17845,14 @@
     "value2": "{\"buffId\":\"guishen\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "sx_5193": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_5201": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "开场时若<color=#8ad5a2>剑灵·莫邪</c>在场，则使双方暴击几率提升<color=#8ad5a2>18%</c>",
     "key1": "twin_id",
@@ -17863,28 +17863,28 @@
     "value3": 0.18
   },
   "sx_5202": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击造成伤害的<color=#8ad5a2>20%</c>回复自身",
     "key1": "phy_turn_hp",
     "value1": 0.2
   },
   "sx_5203": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "入场时，为敌方攻击力最高的目标附加<color=#8ad5a2>真·雄剑</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"manbuff1\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5211": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，为敌方随机<color=#8ad5a2>3</c>个目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>真·雌剑</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"womanbuff1\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5212": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击时，若目标处于<color=#8ad5a2>真·雄剑</c>状态，则有<color=#8ad5a2>55%</c>概率回复<color=#8ad5a2>1</c>点怒气",
     "key1": "addBuff_if_buff_name",
@@ -17893,42 +17893,42 @@
     "value2": "{\"buffId\":\"addAnger\",\"buffArg\":0,\"buffRate\":0.55}"
   },
   "sx_5213": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，暴击伤害提升<color=#8ad5a2>10%</c>",
     "key1": "kill_slay",
     "value1": 0.1
   },
   "sx_5221": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能时，为目标附加<color=#8ad5a2>易伤</c>效果，使目标受到伤害提升<color=#8ad5a2>20%</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"fragile\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5222": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "释放技能后，回复自身<color=#8ad5a2>10%</c>最大生命值",
     "key1": "skill_heal_maxHp",
     "value1": 0.1
   },
   "sx_5223": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "施加的<color=#8ad5a2>密诏</c>效果持续回合数+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_5231": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能时，获得<color=#8ad5a2>烈焰护体</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5232": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "拥有<color=#8ad5a2>烈焰护体</c>时，受到伤害降低<color=#8ad5a2>20%</c>",
     "key1": "self_exist_buff_name",
@@ -17939,28 +17939,28 @@
     "value3": 0.2
   },
   "sx_5233": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>20%</c>",
     "key1": "self_maxHP_add",
     "value1": 0.2
   },
   "sx_5241": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，回复<color=#8ad5a2>2</c>点怒气",
     "key1": "kill_anger",
     "value1": 2
   },
   "sx_5242": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每有<color=#8ad5a2><color=#8ad5a2>1</c>名敌人战败，造成伤害提升<color=#8ad5a2>8%</c>",
     "key1": "enemy_died_amp",
     "value1": 0.08
   },
   "sx_5243": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>15%</c>，暴击率提升<color=#8ad5a2>10%</c>",
     "key1": "self_atk_add",
@@ -17969,21 +17969,21 @@
     "value2": 0.15
   },
   "sx_5251": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能治疗时，为生命值最低的友方施加<color=#8ad5a2>免控盾</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "skill_buff",
     "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_minHp_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
   },
   "sx_5252": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每回合恢复<color=#8ad5a2>1</c>点怒气",
     "key1": "action_anger",
     "value1": 1
   },
   "sx_5253": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>10%</c>，治疗量提升<color=#8ad5a2>10%</c>",
     "key1": "self_maxHP_add",
@@ -17994,21 +17994,21 @@
     "value3": 0.1
   },
   "sx_5261": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "技能暴击时，额外造成目标<color=#8ad5a2>12%</c>最大生命值的真实伤害",
     "key1": "skill_crit_maxHp",
     "value1": 0.12
   },
   "sx_5262": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "攻击时，无视目标<color=#8ad5a2>24%</c>的防御",
     "key1": "neglect_def",
     "value1": 0.24
   },
   "sx_5263": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>10%</c>，攻击力提升<color=#8ad5a2>10%</c>",
     "key1": "self_maxHP_add",
@@ -18017,14 +18017,14 @@
     "value2": 0.1
   },
   "sx_5271": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合恢复自身<color=#8ad5a2>15%</c>最大生命",
     "key1": "action_heal",
     "value1": 0.15
   },
   "sx_5272": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "受到嘲讽目标攻击时，使目标<color=#8ad5a2>重伤</c>，持续<color=#8ad5a2>1</c>回合",
     "key1": "addBuff_behit_buff_name",
@@ -18033,70 +18033,70 @@
     "value2": "{\"buffId\":\"forbidden\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5273": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "最大生命值提升<color=#8ad5a2>20%</c>",
     "key1": "self_maxHP_add",
     "value1": 0.2
   },
   "sx_5281": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "每回合开始时，随机<color=#8ad5a2>灼烧</c>敌方<color=#8ad5a2>3</c>个目标，持续<color=#8ad5a2>2</c>回合",
     "key1": "begin_round_buffs",
     "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_3\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5282": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每次击败<color=#8ad5a2>1</c>名敌人，自身暴击伤害增加<color=#8ad5a2>16%</c>，持续至战斗结束",
     "key1": "kill_slay",
     "value1": 0.04
   },
   "sx_5283": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "暴击伤害提升<color=#8ad5a2>20%</c>",
     "key1": "slay",
     "value1": 0.2
   },
   "sx_5291": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "击杀目标时，<color=#8ad5a2>吞噬</c>目标剩余怒气",
     "key1": "kill_rob_anger",
     "value1": true
   },
   "sx_5292": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "额外回合状态持续回合数+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_5293": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>20%</c>",
     "key1": "self_atk_add",
     "value1": 0.2
   },
   "sx_5301": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "释放技能后回复自身<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_s",
     "value1": 1
   },
   "sx_5302": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "每击败<color=#8ad5a2>1</c>名敌人，造成伤害提升<color=#8ad5a2>16%</c>",
     "key1": "kill_amp",
     "value1": 0.04
   },
   "sx_5303": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>10%</c>，速度提升<color=#8ad5a2>10%</c>",
     "key1": "self_atk_add",
@@ -18105,7 +18105,7 @@
     "value2": 0.1
   },
   "sx_5401": {
-    "icon": "sx_001",
+    "icon": "sx_002",
     "qa": 3,
     "des": "入场时，获得所有<color=#8ad5a2>星象</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
@@ -18116,14 +18116,14 @@
     "value3": "{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "sx_5402": {
-    "icon": "sx_002",
+    "icon": "sx_003",
     "qa": 3,
     "des": "星象效果持续回合+<color=#8ad5a2>1</c>",
     "key1": "buffDuration",
     "value1": 1
   },
   "sx_5403": {
-    "icon": "sx_003",
+    "icon": "sx_004",
     "qa": 3,
     "des": "攻击力提升<color=#8ad5a2>20%</c>",
     "key1": "self_atk_add",
