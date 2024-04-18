@@ -228,14 +228,14 @@
   },
   "cold": {
     "name": "寒冷",
-    "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为禁锢效果",
+    "des": "速度降低5%，最大可叠加3层，持续2回合，叠满3层后变为冰冻效果",
     "refreshType": "after",
     "lower": true,
     "debuff": true
   },
   "frozen": {
     "name": "冰冻",
-    "des": "无法行动,持续2回合，被攻击3次后解除禁锢。",
+    "des": "无法行动,持续2回合，被攻击3次后解除冰冻",
     "refreshType": "after",
     "control": true,
     "debuff": true,
@@ -243,13 +243,13 @@
   },
   "cold_shield": {
     "name": "寒冷护盾",
-    "des": "受到攻击时，有100%概率使目标增加一层减速，结界护盾持续2回合",
+    "des": "受到攻击时，有100%概率使目标增加一层减速，寒冷护盾持续2回合",
     "refreshType": "roundOver",
     "intensify": true,
     "effects": true
   },
   "polang": {
-    "name": "莲华",
+    "name": "陷阵",
     "des": "攻击+5%，暴击+5%，最大可叠加20层，持续5回合",
     "refreshType": "roundOver",
     "intensify": true
