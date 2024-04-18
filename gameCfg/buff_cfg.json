@@ -880,7 +880,7 @@
   "xingxiang1": {
     "name": "参宿",
     "des": "伤害提升30%",
-    "refreshType": "before",
+    "refreshType": "after",
     "max": 1,
     "intensify": true,
     "default": true,
@@ -890,12 +890,22 @@
   "xingxiang2": {
     "name": "天节",
     "des": "法术吸血提升30%",
-    "refreshType": "before",
+    "refreshType": "after",
     "max": 1,
     "intensify": true,
     "default": true,
     "attKey1": "mag_turn_hp",
     "attValue1": 0.3
+  },
+  "xingxiang3": {
+    "name": "紫薇",
+    "des": "回复1点怒气",
+    "refreshType": "after",
+    "max": 1,
+    "intensify": true,
+    "default": true,
+    "toolKey": "addAnger",
+    "toolValue": 1
   },
   "qixingdeng": {
     "name": "七星灯",

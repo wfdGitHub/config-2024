@@ -6026,33 +6026,27 @@
   },
   "50308003": {
     "icon": 50514004,
-    "name": "眩惑",
-    "qa": 3,
-    "des": "施加控制效果的概率提升<color=#8ad5a2>20%</c>",
-    "key1": "atkcontrol",
-    "value1": 0.2
+    "name": "观星",
+    "qa": 5,
+    "des": "每回合开始，进行观星，获得一个随机星象【参宿：伤害提升30%；天节：获得30%法术吸血；紫薇：回复1点怒气】，持续1回合",
+    "key1": "begin_round_buffs",
+    "value1": "[{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"xingxiang3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}]"
   },
   "50308004": {
     "icon": 50514006,
-    "name": "卧龙",
-    "qa": 3,
-    "des": "攻击<color=#8ad5a2>沉默</c>目标时，恢复<color=#8ad5a2>1</c>点怒气",
-    "key1": "addBuff_if_buff_name",
-    "value1": "silence",
-    "key2": "addBuff_if_buff_data",
-    "value2": "{\"buffId\":\"addAnger\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"buffRate\":1}"
+    "name": "出山",
+    "qa": 5,
+    "des": "每击杀1名敌人，回复1点怒气",
+    "key1": "kill_anger",
+    "value1": 1
   },
   "50308005": {
     "icon": 50304004,
-    "name": "空城",
-    "qa": 3,
-    "des": "受到<color=#8ad5a2>沉默</c>目标攻击时，提升<color=#8ad5a2>30%</c>闪避几率",
-    "key1": "behit_exist_buff_name",
-    "value1": "silence",
-    "key2": "behit_exist_buff_att",
-    "value2": "dodgeRate",
-    "key3": "behit_exist_buff_value",
-    "value3": 0.3
+    "name": "卧龙",
+    "qa": 5,
+    "des": "攻击时，自身每拥有1个增益效果，造成伤害提升8%",
+    "key1": "my_intensify_amp",
+    "value1": 0.08
   },
   "50309003": {
     "icon": 50113004,
@@ -7350,13 +7344,15 @@
   },
   "50522003": {
     "icon": 50514004,
+    "name": "观星",
     "qa": 5,
-    "des": "每回合开始，进行观星，获得一个随机星象【参宿：伤害提升30%；天节：获得30%法术吸血；紫薇：攻击造成目标8%最大生命的真伤】，持续1回合",
+    "des": "每回合开始，进行观星，获得一个随机星象【参宿：伤害提升30%；天节：获得30%法术吸血；紫薇：回复1点怒气】，持续2回合",
     "key1": "begin_round_buffs",
-    "value1": "[{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1},\n{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}]"
+    "value1": "[{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},\n{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1},\n{\"buffId\":\"xingxiang3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}]"
   },
   "50522004": {
     "icon": 50514006,
+    "name": "出山",
     "qa": 5,
     "des": "每击杀1名敌人，回复1点怒气",
     "key1": "kill_anger",
@@ -7364,6 +7360,7 @@
   },
   "50522005": {
     "icon": 50304004,
+    "name": "卧龙",
     "qa": 5,
     "des": "攻击时，自身每拥有1个增益效果，造成伤害提升10%",
     "key1": "my_intensify_amp",
@@ -7371,6 +7368,7 @@
   },
   "50522006": {
     "icon": 50111005,
+    "name": "七星灯",
     "qa": 5,
     "des": "生命值低于20%时触发，恢复所有生命值，驱散所有负面和控制效果，造成的所有伤害附带目标5%最大生命值，自身受到的伤害增加100%，持续3回合",
     "key1": "less_hp_rate",
@@ -14932,21 +14930,21 @@
   },
   "sb_3081": {
     "qa": 3,
-    "des": "施加控制效果的概率提升<color=#8ad5a2>23%</c>",
-    "key1": "atkcontrol",
-    "value1": 0.03
+    "des": "攻击时，自身每拥有1个增益效果，造成伤害提升10%",
+    "key1": "my_intensify_amp",
+    "value1": 0.02
   },
   "sb_3082": {
     "qa": 3,
-    "des": "施加控制效果的概率提升<color=#8ad5a2>26%</c>",
-    "key1": "atkcontrol",
-    "value1": 0.03
+    "des": "攻击时，自身每拥有1个增益效果，造成伤害提升12%",
+    "key1": "my_intensify_amp",
+    "value1": 0.02
   },
   "sb_3083": {
     "qa": 3,
-    "des": "施加控制效果的概率提升<color=#8ad5a2>29%</c>",
-    "key1": "atkcontrol",
-    "value1": 0.03
+    "des": "攻击时，自身每拥有1个增益效果，造成伤害提升14%",
+    "key1": "my_intensify_amp",
+    "value1": 0.02
   },
   "sb_3091": {
     "qa": 3,
@@ -16092,19 +16090,19 @@
     "qa": 3,
     "des": "攻击时，自身每拥有1个增益效果，造成伤害提升12%",
     "key1": "my_intensify_amp",
-    "value1": 0.12
+    "value1": 0.02
   },
   "sb_5402": {
     "qa": 3,
     "des": "攻击时，自身每拥有1个增益效果，造成伤害提升14%",
     "key1": "my_intensify_amp",
-    "value1": 0.14
+    "value1": 0.02
   },
   "sb_5403": {
     "qa": 3,
     "des": "攻击时，自身每拥有1个增益效果，造成伤害提升16%",
     "key1": "my_intensify_amp",
-    "value1": 0.16
+    "value1": 0.02
   },
   "sx_00": {
     "qa": 3,
@@ -16821,23 +16819,25 @@
   },
   "sx_3081": {
     "qa": 3,
-    "des": "受到攻击时，有<color=#8ad5a2>30%</c>概率使攻击方<color=#8ad5a2>沉默</c>，持续<color=#8ad5a2>1</c>回合",
-    "key1": "hit_buff",
-    "value1": "{\"buffId\":\"silence\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
+    "des": "入场时，获得所有星象效果，持续1回合",
+    "key1": "first_buff",
+    "value1": "{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key2": "first_buff",
+    "value2": "{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "key3": "first_buff",
+    "value3": "{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}"
   },
   "sx_3082": {
     "qa": 3,
-    "des": "入场时，<color=#8ad5a2>沉默</c>敌方攻击力最高的目标，持续<color=#8ad5a2>1</c>回合",
-    "key1": "first_buff",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"enemy_maxAtk_1\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.3}"
+    "des": "星象效果持续回合+1",
+    "key1": "buffDuration",
+    "value1": 1
   },
   "sx_3083": {
     "qa": 3,
-    "des": "命中率提升<color=#8ad5a2>13%</c>，速度提升<color=#8ad5a2>13%</c>",
-    "key1": "hitRate",
-    "value1": 0.13,
-    "key2": "self_speed_add",
-    "value2": 0.13
+    "des": "攻击力提升18%",
+    "key1": "self_atk_add",
+    "value1": 0.18
   },
   "sx_3091": {
     "qa": 3,

@@ -2458,12 +2458,12 @@
     "qa": 3,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>1-3</c>目标造成<color=#8ad5a2>128%</c>的法术伤害",
+    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>100%</c>的法术伤害，本次攻击获得<color=#8ad5a2>20%</c>临时暴击率",
     "damageType": "mag",
     "targetType": "enemy_rand_13",
-    "mul": 1.28,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.35}"
+    "mul": 1,
+    "key1": "tmp_crit",
+    "value1": 0.2
   },
   "50308002": {
     "name": "东方破袭",
@@ -2471,12 +2471,11 @@
     "qa": 3,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>252%</c>的法术伤害",
+    "des": "对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>145%</c>的法术伤害，本次攻击获得<color=#8ad5a2>30%</c>临时暴击率",
     "damageType": "mag",
-    "targetType": "enemy_3",
-    "mul": 2.3,
-    "key1": "buff1",
-    "value1": "{\"buffId\":\"silence\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.65}"
+    "targetType": "enemy_all",
+    "mul": 1.45,
+    "key1": "tmp_crit"
   },
   "50309001": {
     "name": "冲刺",
@@ -3633,7 +3632,7 @@
     "qa": 5,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>180%</c>的法术伤害，获得<color=#8ad5a2>30%</c>临时暴击率",
+    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>180%</c>的法术伤害，本次攻击获得<color=#8ad5a2>30%</c>临时暴击率",
     "damageType": "mag",
     "targetType": "enemy_rand_13",
     "mul": 1.8,
@@ -3646,7 +3645,7 @@
     "qa": 5,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>260%</c>的法术伤害，获得<color=#8ad5a2>50%</c>临时暴击率",
+    "des": "对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>260%</c>的法术伤害，本次攻击获得<color=#8ad5a2>50%</c>临时暴击率",
     "damageType": "mag",
     "targetType": "enemy_all",
     "mul": 2.6,
