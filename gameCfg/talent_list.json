@@ -6708,7 +6708,7 @@
     "key1": "first_nocontrol",
     "value1": true,
     "key2": "kill_buff",
-    "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}"
+    "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50501003": {
     "icon": 50502004,
@@ -7217,8 +7217,10 @@
     "name": "吸收",
     "qa": 5,
     "des": "受到攻击时，有<color=#8ad5a2>55%</c>概率回复<color=#8ad5a2>1</c>点怒气",
-    "key1": "behit_buff",
-    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.55}"
+    "key1": "behit_phy_buff",
+    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.55}",
+    "key2": "behit_mag_buff",
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.55}"
   },
   "50518005": {
     "icon": 50304004,
@@ -7276,7 +7278,7 @@
     "qa": 5,
     "des": "每击杀<color=#8ad5a2>1</c>名敌人，有<color=#8ad5a2>55%</c>概率获得<color=#8ad5a2>1</c>个额外回合",
     "key1": "kill_buff",
-    "value1": "{\"buffId\":\"extra1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":0.55}"
+    "value1": "{\"buffId\":\"extra1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.55}"
   },
   "50520004": {
     "icon": 50307004,
@@ -16720,9 +16722,9 @@
   "sx_2132": {
     "icon": "sx_002",
     "qa": 3,
-    "des": "入场时，为我方前排目标施加烈焰<color=#8ad5a2>护盾</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，为我方前排目标施加<color=#8ad5a2>烈焰护盾</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_all\",\"buffArg\":0.2,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"burn_shield\",\"buff_tg\":\"team_horizontal_front\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "sx_2133": {
     "icon": "sx_003",
