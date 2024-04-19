@@ -749,7 +749,7 @@
   "huaji": {
     "name": "画戟",
     "des": "攻击附带12%真伤效果",
-    "refreshType": "roundOver",
+    "refreshType": "before",
     "max": 1,
     "intensify": true,
     "default": true,
@@ -759,7 +759,7 @@
   "huaji1": {
     "name": "极·画戟",
     "des": "攻击附带16%真伤效果",
-    "refreshType": "roundOver",
+    "refreshType": "before",
     "max": 1,
     "intensify": true,
     "default": true,
@@ -768,7 +768,17 @@
   },
   "guishen": {
     "name": "鬼神领域",
-    "des": "伤害减免提升30%，免疫控制效果",
+    "des": "伤害减免提升30%",
+    "refreshType": "after",
+    "duration": 2,
+    "max": 1,
+    "default": true,
+    "attKey1": "reduction",
+    "attValue1": 0.3
+  },
+  "guishen1": {
+    "name": "鬼神领域",
+    "des": "伤害减免提升30%",
     "refreshType": "after",
     "duration": 2,
     "max": 1,

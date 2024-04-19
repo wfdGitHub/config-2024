@@ -6705,10 +6705,8 @@
     "name": "阵斩奸宦",
     "qa": 5,
     "des": "每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>1</c>回合<color=#8ad5a2>免控盾</c>",
-    "key1": "first_nocontrol",
-    "value1": true,
-    "key2": "kill_buff",
-    "value2": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "key1": "kill_buff",
+    "value1": "{\"buffId\":\"immune\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
   },
   "50501003": {
     "icon": 50502004,
@@ -7210,7 +7208,9 @@
     "qa": 5,
     "des": "受到攻击时，将受到伤害的<color=#8ad5a2>35%</c>反弹给攻击者",
     "key1": "hit_rebound",
-    "value1": 0.35
+    "value1": 0.35,
+    "key2": "skill_heal_maxHp",
+    "value2": 0.2
   },
   "50518004": {
     "icon": 50104005,
@@ -17336,18 +17336,18 @@
   "sx_4112": {
     "icon": "sx_003",
     "qa": 3,
-    "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "生命值低于<color=#8ad5a2>40%</c>时，<color=#8ad5a2>驱散</c>，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "less_hp_rate",
     "value1": 0.4,
     "key2": "less_hp_buff",
-    "value2": "guishen"
+    "value2": "guishen1"
   },
   "sx_4113": {
     "icon": "sx_004",
     "qa": 3,
     "des": "<color=#8ad5a2>画戟</c>持续回合+<color=#8ad5a2>1",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"huaji\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"huaji\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "sx_4121": {
     "icon": "sx_002",
@@ -17846,18 +17846,18 @@
   "sx_5192": {
     "icon": "sx_003",
     "qa": 3,
-    "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
+    "des": "生命值低于<color=#8ad5a2>40%</c>时，<color=#8ad5a2>驱散</c>负面和控制效果，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "less_hp_rate",
-    "value1": 0.3,
+    "value1": 0.4,
     "key2": "less_hp_buff",
-    "value2": "guishen"
+    "value2": "guishen1"
   },
   "sx_5193": {
     "icon": "sx_004",
     "qa": 3,
     "des": "<color=#8ad5a2>极·画戟</c>持续回合+<color=#8ad5a2>1</c>",
     "key1": "skill_buff",
-    "value1": "{\"buffId\":\"huaji1\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
+    "value1": "{\"buffId\":\"huaji1\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
   },
   "sx_5201": {
     "icon": "sx_002",
