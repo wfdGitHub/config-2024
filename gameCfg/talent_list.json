@@ -6608,19 +6608,19 @@
     "icon": 50411004,
     "name": "诡计",
     "qa": 5,
-    "des": "每回合攻击时，为攻击目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>诅咒</c>，<color=#8ad5a2>破甲</c>和<color=#8ad5a2>虚弱</c>效果，持续<color=#8ad5a2>2</c>回合",
+    "des": "每回合攻击时，为攻击目标附加<color=#8ad5a2>1</c>层<color=#8ad5a2>诅咒</c>，<color=#8ad5a2>破甲</c>和<color=#8ad5a2>虚弱</c>效果，持续<color=#8ad5a2>3</c>回合",
     "key1": "normal_buff",
-    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value1": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "skill_buff",
-    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value2": "{\"buffId\":\"curse\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key3": "normal_buff",
-    "value3": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value3": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key4": "skill_buff",
-    "value4": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value4": "{\"buffId\":\"pojia\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key5": "normal_buff",
-    "value5": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}",
+    "value5": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key6": "skill_buff",
-    "value6": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":2,\"buffRate\":0.5}"
+    "value6": "{\"buffId\":\"weak\",\"buff_tg\":\"skill_targets\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "50414005": {
     "icon": 50114004,
@@ -6643,7 +6643,7 @@
     "name": "耀武",
     "qa": 5,
     "des": "提升<color=#8ad5a2>20%</c>技能伤害，且每回合为自身附加<color=#8ad5a2>1</c>层<color=#8ad5a2>嗜血</c>效果",
-    "key1": "skill_buff",
+    "key1": "action_buff",
     "value1": "{\"buffId\":\"blood\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}",
     "key2": "skill_attack_amp",
     "value2": 0.2
@@ -6696,7 +6696,7 @@
     "icon": 50203003,
     "name": "利驭",
     "qa": 5,
-    "des": "入场时，为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>30%</c>】，持续<color=#8ad5a2>2</c>回合",
+    "des": "入场时，为自身施加【<color=#8ad5a2>鬼神领域</c>：伤害减免提升<color=#8ad5a2>30%</c>，并<color=#8ad5a2>免疫</c>控制】，持续<color=#8ad5a2>2</c>回合",
     "key1": "first_buff",
     "value1": "{\"buffId\":\"guishen\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
@@ -6704,7 +6704,7 @@
     "icon": 50203004,
     "name": "阵斩奸宦",
     "qa": 5,
-    "des": "进入战斗的首回合免疫控制效果，每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>1</c>回合<color=#8ad5a2>免控盾</c>",
+    "des": "每击败<color=#8ad5a2>1</c>名敌人，获得<color=#8ad5a2>1</c>回合<color=#8ad5a2>免控盾</c>",
     "key1": "first_nocontrol",
     "value1": true,
     "key2": "kill_buff",
@@ -6982,7 +6982,7 @@
     "icon": 50314005,
     "name": "铸剑",
     "qa": 5,
-    "des": "每回合开始时，若一方阵亡，则消耗自身<color=#8ad5a2>20%</c>血量（低于<color=#8ad5a2>15%</c>时无法触发）使阵亡方以<color=#8ad5a2>20%</c>血量复活，回复<color=#8ad5a2>2</c>点怒气，且可以行动",
+    "des": "每回合开始时，若<color=#8ad5a2>莫邪</c>阵亡，则消耗自身<color=#8ad5a2>20%</c>血量（低于<color=#8ad5a2>15%</c>时无法触发）使阵亡方以<color=#8ad5a2>20%</c>血量复活，回复<color=#8ad5a2>2</c>点怒气，且可以行动",
     "key1": "twin_id",
     "value1": 505120,
     "key2": "twin_buff",
@@ -7116,7 +7116,7 @@
     "icon": 50314005,
     "name": "铸剑",
     "qa": 5,
-    "des": "每回合开始时，若一方阵亡，使阵亡方以<color=#8ad5a2>30%</c>血量复活，回复<color=#8ad5a2>2</c>点怒气，且可以行动",
+    "des": "每回合开始时，若<color=#8ad5a2>剑灵·莫邪</c>阵亡，使阵亡方以<color=#8ad5a2>30%</c>血量复活，回复<color=#8ad5a2>2</c>点怒气，且可以行动",
     "key1": "twin_id",
     "value1": 505160,
     "key2": "twin_buff",
@@ -7184,9 +7184,9 @@
     "icon": 50312003,
     "name": "衣带诏",
     "qa": 5,
-    "des": "释放技能后为自身提供<color=#8ad5a2>2</c>点怒气",
+    "des": "释放技能后为自身提供<color=#8ad5a2>1</c>点怒气",
     "key1": "skill_anger_s",
-    "value1": 2
+    "value1": 1
   },
   "50517005": {
     "icon": 50502005,
@@ -16013,20 +16013,26 @@
   "sb_5271": {
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>65%</c>概率回复<color=#8ad5a2>1</c>点怒气",
-    "key1": "behit_buff",
-    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.65}"
+    "key1": "behit_phy_buff",
+    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.65}",
+    "key2": "behit_mag_buff",
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.65}"
   },
   "sb_5272": {
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>70%</c>概率回复<color=#8ad5a2>1</c>点怒气",
-    "key1": "behit_buff",
-    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.7}"
+    "key1": "behit_phy_buff",
+    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.7}",
+    "key2": "behit_mag_buff",
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.7}"
   },
   "sb_5273": {
     "qa": 3,
     "des": "受到攻击时，有<color=#8ad5a2>75%</c>概率回复<color=#8ad5a2>1</c>点怒气",
-    "key1": "behit_buff",
-    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.75}"
+    "key1": "behit_phy_buff",
+    "value1": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.75}",
+    "key2": "behit_mag_buff",
+    "value2": "{\"buffId\":\"addAnger\",\"buffArg\":1,\"buffRate\":0.75}"
   },
   "sb_5281": {
     "qa": 3,
@@ -17339,9 +17345,9 @@
   "sx_4113": {
     "icon": "sx_004",
     "qa": 3,
-    "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1",
-    "key1": "buffDuration",
-    "value1": 1
+    "des": "<color=#8ad5a2>画戟</c>持续回合+<color=#8ad5a2>1",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"huaji\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "sx_4121": {
     "icon": "sx_002",
@@ -17840,18 +17846,18 @@
   "sx_5192": {
     "icon": "sx_003",
     "qa": 3,
-    "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>3</c>回合",
+    "des": "生命值低于<color=#8ad5a2>40%</c>时，再次触发<color=#8ad5a2>鬼神领域</c>，持续<color=#8ad5a2>2</c>回合",
     "key1": "less_hp_rate",
-    "value1": 0.4,
+    "value1": 0.3,
     "key2": "less_hp_buff",
-    "value2": "{\"buffId\":\"guishen\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":3,\"buffRate\":1}"
+    "value2": "guishen"
   },
   "sx_5193": {
     "icon": "sx_004",
     "qa": 3,
-    "des": "<color=#8ad5a2>画戟</c>与<color=#8ad5a2>鬼神领域</c>持续回合+<color=#8ad5a2>1</c>",
-    "key1": "buffDuration",
-    "value1": 1
+    "des": "<color=#8ad5a2>极·画戟</c>持续回合+<color=#8ad5a2>1</c>",
+    "key1": "skill_buff",
+    "value1": "{\"buffId\":\"huaji1\",\"buff_tg\":\"team_self\",\"buffArg\":0,\"duration\":2,\"buffRate\":1}"
   },
   "sx_5201": {
     "icon": "sx_002",
@@ -18111,18 +18117,18 @@
     "qa": 3,
     "des": "入场时，获得所有<color=#8ad5a2>星象</c>效果，持续<color=#8ad5a2>1</c>回合",
     "key1": "first_buff",
-    "value1": "{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "value1": "{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key2": "first_buff",
-    "value2": "{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":1,\"buffRate\":1}",
+    "value2": "{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}",
     "key3": "first_buff",
-    "value3": "{\"buffId\":\"huayi4\",\"buff_tg\":\"team_self\",\"buffRate\":1}"
+    "value3": "{\"buffId\":\"xingxiang3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}"
   },
   "sx_5402": {
     "icon": "sx_003",
     "qa": 3,
-    "des": "星象效果持续回合+<color=#8ad5a2>1</c>",
-    "key1": "buffDuration",
-    "value1": 1
+    "des": "每回合获得的星象效果持续回合+<color=#8ad5a2>1</c>",
+    "key1": "begin_round_buffs",
+    "value1": "[{\"buffId\":\"xingxiang1\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"xingxiang2\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1},\n{\"buffId\":\"xingxiang3\",\"buff_tg\":\"team_self\",\"buffArg\":1,\"duration\":3,\"buffRate\":1}]"
   },
   "sx_5403": {
     "icon": "sx_004",
