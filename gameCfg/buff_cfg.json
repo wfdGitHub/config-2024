@@ -768,10 +768,11 @@
   },
   "guishen": {
     "name": "鬼神领域",
-    "des": "伤害减免提升30%",
+    "des": "伤害减免提升30%，免疫控制效果",
     "refreshType": "after",
+    "duration": 2,
     "max": 1,
-    "intensify": true,
+    "fury": true,
     "default": true,
     "attKey1": "reduction",
     "attValue1": 0.3
