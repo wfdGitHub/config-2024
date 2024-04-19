@@ -7244,7 +7244,7 @@
     "qa": 5,
     "des": "每回合开始时，随机灼烧敌方<color=#8ad5a2>1-3</c>个目标，持续<color=#8ad5a2>2</c>回合",
     "key1": "begin_round_buffs",
-    "value1": "{\"buffId\":\"burn\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}"
+    "value1": "[{\"buffId\":\"burn\",\"buff_tg\":\"enemy_rand_13\",\"buffArg\":1,\"duration\":2,\"buffRate\":1}]"
   },
   "50519004": {
     "icon": 50211004,
@@ -11664,7 +11664,9 @@
     "qa": 5,
     "des": "免疫减怒效果，初始怒气+<color=#8ad5a2>4</c>",
     "key1": "curAnger",
-    "value1": 4
+    "value1": 4,
+    "key2": "banLessAnger",
+    "value2": true
   },
   "90540029": {
     "icon": 50021005,
