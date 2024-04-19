@@ -1610,7 +1610,7 @@
   },
   "50105001": {
     "name": "文思",
-    "icon": "509-pg",
+    "icon": "250-pg",
     "qa": 4,
     "anger": 0,
     "type": "attack",
@@ -1621,7 +1621,7 @@
   },
   "50105002": {
     "name": "神笔写意",
-    "icon": "509-skill",
+    "icon": "250-skill",
     "qa": 4,
     "anger": 4,
     "type": "attack",
@@ -2458,12 +2458,10 @@
     "qa": 4,
     "anger": 0,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>100%</c>的法术伤害，本次攻击获得<color=#8ad5a2>20%</c>临时暴击率",
+    "des": "对敌方<color=#8ad5a2>3</c>个目标造成<color=#8ad5a2>100%</c>的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_rand_13",
-    "mul": 1,
-    "key1": "tmp_crit",
-    "value1": 0.2
+    "mul": 1
   },
   "50308002": {
     "name": "东方破袭",
@@ -2471,11 +2469,10 @@
     "qa": 4,
     "anger": 4,
     "type": "attack",
-    "des": "对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>145%</c>的法术伤害，本次攻击获得<color=#8ad5a2>30%</c>临时暴击率",
+    "des": "对敌方<color=#8ad5a2>全体</c>目标造成<color=#8ad5a2>145%</c>的法术伤害",
     "damageType": "mag",
     "targetType": "enemy_all",
-    "mul": 1.45,
-    "key1": "tmp_crit"
+    "mul": 1.45
   },
   "50309001": {
     "name": "冲刺",
@@ -3028,7 +3025,7 @@
     "targetType": "enemy_normal",
     "mul": 1.98,
     "key1": "lose_hp",
-    "value1": 0.8,
+    "value1": 0.08,
     "key2": "maxHP_damage",
     "value2": 0.1
   },
